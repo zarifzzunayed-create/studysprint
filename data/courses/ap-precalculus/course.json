@@ -1,0 +1,71 @@
+{
+ "id": "ap-precalculus",
+ "name": "AP Precalculus",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-precalculus/course",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-precalculus/exam/past-exam-questions",
+  "note": null
+ },
+ "source": {
+  "title": "AP Precalculus – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+  "verified": "2026-10-09",
+  "note": "College Board says Unit 4 is not assessed on the AP Exam."
+ },
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Polynomial and Rational Functions",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Describing how quantities change with respect to each other",
+    "Describing end behavior of polynomial and rational functions",
+    "Identifying asymptotes of and holes in the graphs of rational functions",
+    "Modeling aspects of scenarios using polynomial and rational functions",
+    "Identifying assumptions and limitations of function models"
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Exponential and Logarithmic Functions",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Relating geometric sequences and exponential functions",
+    "Modeling data sets with exponential functions",
+    "Composing functions and finding inverses",
+    "Modeling scenarios with logarithmic functions",
+    "Validating a function model using a residual plot"
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Trigonometric and Polar Functions",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Relating right triangle trigonometry to the sine, cosine, and tangent functions",
+    "Modeling data and scenarios with sinusoidal functions",
+    "Using inverse trigonometric functions to solve trigonometric equations",
+    "Graphing functions using polar coordinates",
+    "Describing how angles and radii change with respect to each other in a polar graph"
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Functions Involving Parameters, Vectors, and Matrices",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Describing how quantities change with respect to each other in a parametric function",
+    "Graphing conic sections using implicitly defined functions and parametric functions",
+    "Using vectors to describe motion of an object",
+    "Describing the impact of a transformation matrix on a graphical object",
+    "Modeling change in a context using matrices"
+   ]
+  }
+ ]
+}

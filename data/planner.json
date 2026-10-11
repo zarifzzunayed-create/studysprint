@@ -1,0 +1,12 @@
+{
+ "version": 1,
+ "description": "The study planner's steps. The planner interface, the saved session history, and CONTENT_STATUS.md all read this file, so the step count is defined in one place. Ticking a step is the student's own checklist and is never evidence of learning. Only submitted answers produce evidence.",
+ "steps": [
+  { "id": "guide", "title": "Review a guide section", "share": 0.20, "evidence": "none", "uses": "One section of the unit's review guide" },
+  { "id": "practice", "title": "Answer practice questions", "share": 0.35, "evidence": "question results", "uses": "A randomized set of the unit's questions" },
+  { "id": "explain", "title": "Review explanations for missed questions", "share": 0.15, "evidence": "none", "uses": "Explanations for questions missed in the practice step" },
+  { "id": "retry", "title": "Try missed concepts with different questions", "share": 0.20, "evidence": "question results", "uses": "Different questions on the concepts missed earlier" },
+  { "id": "results", "title": "Results and next step", "share": 0.10, "evidence": "none", "uses": "A summary of the session's submitted answers" }
+ ],
+ "threshold": { "questions": 5, "percent": 70 }
+}

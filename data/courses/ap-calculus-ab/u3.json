@@ -1,0 +1,393 @@
+{
+ "courseId": "ap-calculus-ab",
+ "unitId": "u3",
+ "title": "Unit 3: Differentiation: Composite, Implicit, and Inverse Functions",
+ "topics": [
+  {
+   "id": "cab3-chain",
+   "name": "The chain rule",
+   "covers": [
+    "The chain rule for differentiating composite functions"
+   ]
+  },
+  {
+   "id": "cab3-impl",
+   "name": "Implicit differentiation",
+   "covers": [
+    "Implicit differentiation"
+   ]
+  },
+  {
+   "id": "cab3-inv",
+   "name": "Inverse functions and higher-order derivatives",
+   "covers": [
+    "Differentiation of general and particular inverse functions",
+    "Determining higher-order derivatives of functions"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Chain rule, implicit and inverse derivatives: review guide",
+  "intro": "This unit extends derivatives to functions inside other functions, to curves not written as y = f(x), and to inverse functions.",
+  "sections": [
+   {
+    "id": "s-cab3-chain",
+    "topicId": "cab3-chain",
+    "title": "The chain rule",
+    "body": [
+     "For a composite function, differentiate the outside function (keeping the inside the same), then multiply by the derivative of the inside."
+    ],
+    "points": [
+     "Spot the inside: in (3x + 1)⁵ it is 3x + 1. In e^(x²) it is x². In ln(x² + 1) it is x² + 1.",
+     "With a table of values, evaluate the outer derivative at g(a), not at a."
+    ],
+    "equations": [
+     [
+      "d/dx f(g(x)) = f′(g(x)) · g′(x)",
+      "chain rule"
+     ],
+     [
+      "d/dx e^(u) = e^(u) · u′",
+      ""
+     ],
+     [
+      "d/dx ln u = u′/u",
+      ""
+     ]
+    ]
+   },
+   {
+    "id": "s-cab3-impl",
+    "topicId": "cab3-impl",
+    "title": "Implicit differentiation",
+    "body": [
+     "Differentiate both sides with respect to x. Every time you differentiate an expression in y, multiply by dy/dx, because y depends on x. Then solve for dy/dx."
+    ],
+    "points": [
+     "d/dx (y²) = 2y · dy/dx, not 2y.",
+     "d/dx (xy) needs the product rule: y + x · dy/dx."
+    ]
+   },
+   {
+    "id": "s-cab3-inv",
+    "topicId": "cab3-inv",
+    "title": "Inverse functions and higher derivatives",
+    "body": [
+     "If g is the inverse of f and f(a) = b, then g′(b) = 1/f′(a). Find a first by solving f(a) = b. Do not evaluate f′ at b."
+    ],
+    "points": [
+     "The second derivative f″ is the derivative of f′. It measures how the slope changes."
+    ],
+    "equations": [
+     [
+      "g′(b) = 1/f′(g(b))",
+      "inverse function derivative"
+     ],
+     [
+      "(arcsin x)′ = 1/√(1 − x²)",
+      ""
+     ],
+     [
+      "(arctan x)′ = 1/(1 + x²)",
+      ""
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Find dy/dx for x² + y² = 25 at the point (3, 4).",
+   "solution": "Differentiate: 2x + 2y · dy/dx = 0, so dy/dx = −x/y. At (3, 4), dy/dx = −3/4."
+  },
+  "misconceptions": [
+   [
+    "“The chain rule is only for powers.”",
+    "Any function inside another one needs it: e^(x²), sin(5x), ln(x² + 1)."
+   ],
+   [
+    "“d/dx (y²) = 2y.”",
+    "Because y depends on x, it is 2y · dy/dx."
+   ],
+   [
+    "“For the inverse, use 1/f′(b).”",
+    "Use 1/f′(a), where f(a) = b. Evaluate f′ at the matching input of f."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+  "sourceTitle": "AP Calculus AB – AP Central (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+  "isOriginal": true,
+  "verified": "2026-10-11"
+ },
+ "questions": [
+  {
+   "id": "cab-u3-q01",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u3",
+   "topicId": "cab3-chain",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx (3x + 1)⁵?",
+   "choices": [
+    "15(3x + 1)⁵",
+    "3(3x + 1)⁴",
+    "15(3x + 1)⁴",
+    "5(3x + 1)⁴"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Outside: 5(3x + 1)⁴. Inside derivative: 3. Multiply: 15(3x + 1)⁴.",
+   "choiceExplanations": [
+    "The power rule lowers the exponent from 5 to 4.",
+    "This multiplies by the inside derivative but drops the factor of 5 from the power rule.",
+    "",
+    "This forgets to multiply by the derivative of the inside, 3x + 1, which is 3."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u3-q02",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u3",
+   "topicId": "cab3-chain",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx e^(x²)?",
+   "choices": [
+    "2x · e^(2x)",
+    "2x · e^(x²)",
+    "e^(x²)",
+    "x² · e^(x² − 1)"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The derivative of e^u is e^u · u′. With u = x², u′ = 2x, so the derivative is 2x · e^(x²).",
+   "choiceExplanations": [
+    "The exponent stays x². Only the outside factor 2x comes from the inside derivative.",
+    "",
+    "e^x is its own derivative, but here the exponent is x², so the chain rule adds a factor of 2x.",
+    "This uses the power rule on the exponent. The variable is in the exponent, so use the exponential rule."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u3-q03",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u3",
+   "topicId": "cab3-inv",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "f(x) = x⁴ − 2x². What is f″(x)?",
+   "choices": [
+    "12x² − 4",
+    "12x² − 4x",
+    "4x³ − 4x",
+    "12x²"
+   ],
+   "correctAnswer": 0,
+   "explanation": "f′(x) = 4x³ − 4x. Differentiating again: f″(x) = 12x² − 4.",
+   "choiceExplanations": [
+    "",
+    "The derivative of −4x is −4, not −4x.",
+    "That is f′(x), the first derivative. Differentiate once more.",
+    "This drops the derivative of the −4x term, which is −4."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u3-q04",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u3",
+   "topicId": "cab3-impl",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "x² + y² = 25. What is dy/dx at the point (3, 4)?",
+   "choices": [
+    "3/4",
+    "−4/3",
+    "4/3",
+    "−3/4"
+   ],
+   "correctAnswer": 3,
+   "explanation": "2x + 2y · dy/dx = 0 gives dy/dx = −x/y. At (3, 4), dy/dx = −3/4.",
+   "choiceExplanations": [
+    "This loses the minus sign when solving for dy/dx.",
+    "This inverts the fraction. The result is −x/y, not −y/x.",
+    "This both inverts the fraction and loses the sign.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u3-q05",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u3",
+   "topicId": "cab3-inv",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "f(x) = x³ + x and g is the inverse of f. What is g′(2)?",
+   "choices": [
+    "4",
+    "13",
+    "1/4",
+    "1/13"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Solve f(a) = 2: a³ + a = 2 gives a = 1. Then f′(x) = 3x² + 1, so f′(1) = 4 and g′(2) = 1/f′(1) = 1/4.",
+   "choiceExplanations": [
+    "This forgets to take the reciprocal: g′(2) = 1/f′(1).",
+    "This evaluates f′ at 2 and forgets the reciprocal.",
+    "",
+    "This evaluates f′ at 2 (f′(2) = 13). Use the input a where f(a) = 2, which is a = 1."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u3-q06",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u3",
+   "topicId": "cab3-chain",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx ln(x² + 1)?",
+   "choices": [
+    "1/(2x)",
+    "2x/(x² + 1)",
+    "1/(x² + 1)",
+    "2x · ln(x² + 1)"
+   ],
+   "correctAnswer": 1,
+   "explanation": "d/dx ln u = u′/u. With u = x² + 1 and u′ = 2x, the derivative is 2x/(x² + 1).",
+   "choiceExplanations": [
+    "This divides 1 by the inside derivative. The rule is the inside derivative divided by the inside: 2x/(x² + 1).",
+    "",
+    "This forgets the chain rule factor u′ = 2x.",
+    "There is no product here. ln is applied to x² + 1, so use the chain rule."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u3-q07",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u3",
+   "topicId": "cab3-impl",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "xy + y² = 6. What is dy/dx at the point (1, 2)?",
+   "choices": [
+    "−2/5",
+    "0",
+    "−6",
+    "−1/2"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Differentiate: y + x · dy/dx + 2y · dy/dx = 0. So dy/dx = −y/(x + 2y). At (1, 2): −2/(1 + 4) = −2/5.",
+   "choiceExplanations": [
+    "",
+    "0 results from writing d/dx(xy) as just x · dy/dx. The product rule also gives a y term.",
+    "−6 results from writing d/dx(y²) as 2y without the factor dy/dx.",
+    "−1/2 results from writing d/dx(xy) as just y and dropping x · dy/dx."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u3-q08",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u3",
+   "topicId": "cab3-chain",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "h(x) = f(g(x)). Given g(1) = 3, g′(1) = 2, f′(3) = −4, and f′(1) = 5, what is h′(1)?",
+   "choices": [
+    "−2",
+    "−4",
+    "10",
+    "−8"
+   ],
+   "correctAnswer": 3,
+   "explanation": "h′(1) = f′(g(1)) · g′(1) = f′(3) · 2 = −4 · 2 = −8.",
+   "choiceExplanations": [
+    "This adds f′(3) and g′(1). The chain rule multiplies them.",
+    "This leaves out the inside derivative g′(1) = 2.",
+    "10 uses f′(1). The outer derivative is evaluated at g(1) = 3, so use f′(3).",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  }
+ ],
+ "videos": [
+  {
+   "id": "vid-cab-u3-khan",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u3",
+   "title": "Using the chain rule",
+   "creator": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-2-new/ab-3-1a/v/chain-rule-introduction",
+   "note": "A Khan Academy video on the chain rule, the first topic in this unit.",
+   "scope": "unit",
+   "kind": "video",
+   "sourceType": "external-link",
+   "sourceUrl": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-2-new/ab-3-1a/v/chain-rule-introduction",
+   "sourceTitle": "Khan Academy video page",
+   "licenseOrRights": "Linked only, not embedded or copied. Content and rights belong to Khan Academy.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "learnResources": [
+  {
+   "id": "res-cab-u3-openstax",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u3",
+   "title": "OpenStax Calculus Volume 1, 3.6 The Chain Rule",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/3-6-the-chain-rule",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free textbook section on this unit's main idea. It is written for college calculus, so it may go beyond the AP Calculus AB scope.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/calculus-volume-1/pages/3-6-the-chain-rule",
+   "sourceTitle": "OpenStax Calculus Volume 1",
+   "licenseOrRights": "Linked only. OpenStax lists Calculus Volume 1 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions."
+}

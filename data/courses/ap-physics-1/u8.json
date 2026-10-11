@@ -1,0 +1,382 @@
+{
+ "courseId": "ap-physics-1",
+ "unitId": "u8",
+ "title": "Unit 8: Fluids",
+ "topics": [
+  {
+   "id": "u8-dens",
+   "name": "Density and pressure",
+   "covers": [
+    "Internal structure and density",
+    "Pressure"
+   ]
+  },
+  {
+   "id": "u8-fnl",
+   "name": "Buoyancy and fluids at rest",
+   "covers": [
+    "Fluids and Newton's laws"
+   ]
+  },
+  {
+   "id": "u8-fcl",
+   "name": "Continuity and Bernoulli's equation",
+   "covers": [
+    "Fluids and conservation laws"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Fluids: study guide",
+  "intro": "Fluids (liquids and gases) flow and push on everything they touch. You describe them with density and pressure, use Newton's laws to understand buoyancy, and use conservation laws to relate speed and pressure in moving fluids.",
+  "sections": [
+   {
+    "id": "s-u8-dens",
+    "topicId": "u8-dens",
+    "title": "Density and pressure",
+    "body": [
+     "Density is mass per unit volume: ρ = m/V. Pressure is force per unit area, P = F/A, with the force perpendicular to the surface. In a fluid at rest, pressure increases with depth: P = P₀ + ρgh, where P₀ is the pressure at the surface. The gauge pressure ρgh leaves out the atmosphere's contribution."
+    ],
+    "equations": [
+     [
+      "ρ = m/V",
+      "density"
+     ],
+     [
+      "P = F/A",
+      "pressure"
+     ],
+     [
+      "P = P₀ + ρgh",
+      "pressure at depth h in a static fluid"
+     ]
+    ]
+   },
+   {
+    "id": "s-u8-fnl",
+    "topicId": "u8-fnl",
+    "title": "Buoyancy and fluids at rest",
+    "body": [
+     "A fluid exerts an upward buoyant force on an object that displaces it, equal to the weight of the displaced fluid: F_B = ρ_fluid V_displaced g. A floating object is in equilibrium, so F_B equals its weight, and the submerged fraction is ρ_object/ρ_fluid. For a fully submerged hanging object, the scale reading is the weight minus F_B."
+    ],
+    "equations": [
+     [
+      "F_B = ρ_fluid V_disp g",
+      "buoyant force (Archimedes' principle)"
+     ],
+     [
+      "V_sub/V = ρ_obj/ρ_fluid",
+      "floating object"
+     ]
+    ]
+   },
+   {
+    "id": "s-u8-fcl",
+    "topicId": "u8-fcl",
+    "title": "Continuity and Bernoulli's equation",
+    "body": [
+     "For steady flow of an incompressible fluid, the volume flow rate is constant: A₁v₁ = A₂v₂, so the fluid speeds up in narrow sections. Bernoulli's equation expresses conservation of energy per unit volume along a streamline: P + ½ρv² + ρgy = constant. At the same height, where the speed is higher the pressure is lower."
+    ],
+    "equations": [
+     [
+      "A₁v₁ = A₂v₂",
+      "continuity"
+     ],
+     [
+      "P + ½ρv² + ρgy = constant",
+      "Bernoulli's equation"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Water flows at 2.0 m/s through a horizontal pipe section of area 3.0 × 10⁻³ m² that narrows to 1.5 × 10⁻³ m². Find the speed in the narrow section and the pressure difference between the sections (ρ = 1000 kg/m³).",
+   "solution": "Continuity: v₂ = v₁(A₁/A₂) = 2.0 × 2.0 = 4.0 m/s. Bernoulli: ΔP = ½ρ(v₂² − v₁²) = ½(1000)(16 − 4.0) = 6000 Pa. The pressure is lower in the narrow section."
+  },
+  "misconceptions": [
+   [
+    "“Pressure at depth depends on the container's shape.”",
+    "In a static fluid, pressure depends on depth and density, not on how wide the container is."
+   ],
+   [
+    "“Heavy objects sink because they weigh more.”",
+    "Whether an object floats depends on its density compared with the fluid's, not its weight alone."
+   ],
+   [
+    "“Faster fluid has higher pressure.”",
+    "Along a horizontal streamline, higher speed goes with lower pressure (Bernoulli)."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 1 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+  "sourceTitle": "AP Physics 1: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original text written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+  "isOriginal": true,
+  "verified": "2026-10-09"
+ },
+ "questions": [
+  {
+   "id": "ph1u8-q01",
+   "courseId": "ap-physics-1",
+   "unitId": "u8",
+   "topicId": "u8-dens",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A block has a mass of 0.60 kg and a volume of 2.0 × 10⁻⁴ m³. What is its density?",
+   "choices": [
+    "3000 kg/m³",
+    "1.2 × 10⁻⁴ kg/m³",
+    "3.3 × 10⁻⁴ kg/m³",
+    "300 kg/m³"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Density is mass divided by volume: ρ = 0.60 kg ÷ 2.0 × 10⁻⁴ m³ = 3000 kg/m³.",
+   "choiceExplanations": [
+    "",
+    "1.2 × 10⁻⁴ multiplies mass and volume. Density is mass divided by volume.",
+    "3.3 × 10⁻⁴ inverts the ratio (volume ÷ mass).",
+    "300 is off by a factor of 10, a decimal-place slip."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u8-q02",
+   "courseId": "ap-physics-1",
+   "unitId": "u8",
+   "topicId": "u8-dens",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 500 N force is spread evenly over an area of 0.25 m². What is the pressure?",
+   "choices": [
+    "125 Pa",
+    "2000 Pa",
+    "500 Pa",
+    "0.0005 Pa"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Pressure is force per unit area: P = F/A = 500 N ÷ 0.25 m² = 2000 Pa.",
+   "choiceExplanations": [
+    "125 multiplies force by area. Pressure is force divided by area.",
+    "",
+    "500 is the force's number and ignores the area.",
+    "0.0005 inverts the ratio (A/F)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u8-q03",
+   "courseId": "ap-physics-1",
+   "unitId": "u8",
+   "topicId": "u8-fnl",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A wooden block floats at rest in water. How does the buoyant force on the block compare with the block's weight?",
+   "choices": [
+    "Greater than the weight",
+    "Less than the weight",
+    "Equal to the weight",
+    "Zero"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The block is at rest, so the net force is zero. The upward buoyant force equals the downward weight.",
+   "choiceExplanations": [
+    "A buoyant force larger than the weight would push the block upward, so it would accelerate rather than float at rest.",
+    "A smaller buoyant force would let the block sink.",
+    "",
+    "The water pushes up with a buoyant force whenever it is displaced by the object."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u8-q04",
+   "courseId": "ap-physics-1",
+   "unitId": "u8",
+   "topicId": "u8-dens",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the gauge pressure at a depth of 5.0 m in fresh water? (Use ρ = 1000 kg/m³ and g = 10 m/s².)",
+   "choices": [
+    "5.0 × 10³ Pa",
+    "5.0 × 10⁴ Pa",
+    "5.0 × 10⁵ Pa",
+    "1.5 × 10⁵ Pa"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Gauge pressure is ρgh = 1000 × 10 × 5.0 = 5.0 × 10⁴ Pa.",
+   "choiceExplanations": [
+    "5.0 × 10³ is too small by a factor of 10. ρgh = 1000 × 10 × 5.0 = 50,000 Pa.",
+    "",
+    "5.0 × 10⁵ is too large by a factor of 10.",
+    "1.5 × 10⁵ Pa includes atmospheric pressure (about 1.0 × 10⁵ Pa). That is the absolute pressure. Gauge pressure leaves it out."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u8-q05",
+   "courseId": "ap-physics-1",
+   "unitId": "u8",
+   "topicId": "u8-fnl",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A solid block of density 500 kg/m³ floats in water (density 1000 kg/m³). What fraction of its volume is below the surface?",
+   "choices": [
+    "1/4",
+    "1/2",
+    "2/3",
+    "All of it"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Floating at rest means the buoyant force equals the weight: ρ_fluid V_sub g = ρ_obj V g, so V_sub/V = ρ_obj/ρ_fluid = 500/1000 = 1/2.",
+   "choiceExplanations": [
+    "1/4 would need a density of 250 kg/m³.",
+    "",
+    "2/3 would need a density of about 670 kg/m³.",
+    "The block would be fully submerged only if its density were at least that of water. It is half as dense."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u8-q06",
+   "courseId": "ap-physics-1",
+   "unitId": "u8",
+   "topicId": "u8-fcl",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Water flows through a horizontal pipe that narrows from a cross-sectional area of 4.0 × 10⁻³ m² to 1.0 × 10⁻³ m². The speed in the wide section is 1.0 m/s. What is the speed in the narrow section?",
+   "choices": [
+    "0.25 m/s",
+    "1.0 m/s",
+    "4.0 m/s",
+    "16 m/s"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Continuity: A₁v₁ = A₂v₂, so v₂ = (4.0 × 10⁻³)(1.0)/(1.0 × 10⁻³) = 4.0 m/s.",
+   "choiceExplanations": [
+    "0.25 m/s would be right if the pipe widened by a factor of 4.",
+    "The speed changes because the area changes. Continuity says A·v stays constant.",
+    "",
+    "16 m/s squares the area ratio. The speed scales with the ratio itself."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u8-q07",
+   "courseId": "ap-physics-1",
+   "unitId": "u8",
+   "topicId": "u8-fnl",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 2.0 kg block of density 4000 kg/m³ hangs from a spring scale and is fully submerged in water (1000 kg/m³). What does the scale read? (Use g = 10 m/s².)",
+   "choices": [
+    "5.0 N",
+    "15 N",
+    "20 N",
+    "25 N"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The block's volume is 2.0/4000 = 5.0 × 10⁻⁴ m³. The buoyant force is 1000 × 5.0 × 10⁻⁴ × 10 = 5.0 N. The scale reads the weight minus the buoyant force: 20 − 5.0 = 15 N.",
+   "choiceExplanations": [
+    "5.0 N is the buoyant force, not the scale reading.",
+    "",
+    "20 N is the weight in air. Submerging adds an upward buoyant force, so the scale reads less.",
+    "25 N adds the buoyant force to the weight. The buoyant force acts upward and reduces the reading."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u8-q08",
+   "courseId": "ap-physics-1",
+   "unitId": "u8",
+   "topicId": "u8-fcl",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Water (1000 kg/m³) flows through a horizontal pipe. The speed is 1.0 m/s in a wide section and 4.0 m/s in a narrow section. How much greater is the pressure in the wide section than in the narrow section?",
+   "choices": [
+    "1500 Pa",
+    "3000 Pa",
+    "7500 Pa",
+    "15,000 Pa"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Bernoulli's equation at the same height: P₁ − P₂ = ½ρ(v₂² − v₁²) = ½(1000)(16 − 1.0) = 7500 Pa.",
+   "choiceExplanations": [
+    "1500 uses the difference of the speeds (3.0) instead of the difference of their squares.",
+    "3000 drops the ½ and also uses the difference of the speeds.",
+    "",
+    "15,000 forgets the factor ½ in Bernoulli's equation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u8-q09",
+   "courseId": "ap-physics-1",
+   "unitId": "u8",
+   "topicId": "u8-fcl",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Water flows steadily through a horizontal pipe of varying width. Where the water moves faster, how does the fluid pressure compare?",
+   "choices": [
+    "It is lower where the water moves faster",
+    "It is higher where the water moves faster",
+    "It is the same everywhere",
+    "It depends only on the pipe's length"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Along a horizontal streamline, Bernoulli's equation (P + ½ρv² = constant) pairs a higher speed with a lower pressure.",
+   "choiceExplanations": [
+    "",
+    "The faster region has more kinetic energy per volume, so the pressure term must drop.",
+    "Speed and pressure are linked by Bernoulli's equation, so the pressure varies with speed.",
+    "In the ideal-fluid model pipe length does not set the pressure, and the pressure varies with speed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  }
+ ],
+ "videos": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course hub to browse released questions by year.",
+ "learnResources": []
+}

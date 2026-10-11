@@ -1,0 +1,411 @@
+{
+ "courseId": "ap-physics-1",
+ "unitId": "u7",
+ "title": "Unit 7: Oscillations",
+ "topics": [
+  {
+   "id": "u7-shm",
+   "name": "Defining SHM and its period",
+   "covers": [
+    "Defining simple harmonic motion (SHM)",
+    "Frequency and period of SHM"
+   ]
+  },
+  {
+   "id": "u7-rep",
+   "name": "Representing and analyzing SHM",
+   "covers": [
+    "Representing and analyzing SHM"
+   ]
+  },
+  {
+   "id": "u7-energy",
+   "name": "Energy of simple harmonic oscillators",
+   "covers": [
+    "Energy of simple harmonic oscillators"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Oscillations: study guide",
+  "intro": "Many systems repeat their motion: masses on springs, pendulums, vibrating atoms. When the restoring force is proportional to the displacement, the motion is simple harmonic and follows predictable patterns in position, speed, acceleration, and energy.",
+  "sections": [
+   {
+    "id": "s-u7-shm",
+    "topicId": "u7-shm",
+    "title": "Defining SHM and its period",
+    "body": [
+     "Simple harmonic motion occurs when the net restoring force, and so the acceleration, is proportional to the displacement from equilibrium and opposite to it. For a spring–mass system, a = −(k/m)x. The motion repeats with period T and frequency f = 1/T. For a spring–mass system T = 2π√(m/k). For a simple pendulum at small angles T = 2π√(L/g). Neither depends on the amplitude."
+    ],
+    "points": [
+     "The acceleration is zero at equilibrium and greatest in size at the turning points.",
+     "The speed is greatest at equilibrium and zero at the turning points."
+    ],
+    "equations": [
+     [
+      "f = 1/T",
+      "frequency and period"
+     ],
+     [
+      "T = 2π√(m/k)",
+      "spring–mass period"
+     ],
+     [
+      "T = 2π√(L/g)",
+      "simple pendulum period (small angles)"
+     ]
+    ]
+   },
+   {
+    "id": "s-u7-rep",
+    "topicId": "u7-rep",
+    "title": "Representing and analyzing SHM",
+    "body": [
+     "Position often follows x = A cos(2πt/T) (or a sine). The velocity graph is shifted by a quarter period: velocity is zero where x = ±A and largest in size where x = 0. The maximum speed is v_max = Aω = 2πA/T, where ω = 2π/T. The slope of the x–t graph is velocity, and the slope of the v–t graph is acceleration."
+    ],
+    "equations": [
+     [
+      "x = A cos(2πt/T)",
+      "one common form of SHM"
+     ],
+     [
+      "v_max = 2πA/T",
+      "maximum speed"
+     ],
+     [
+      "a_max = (2π/T)²A",
+      "maximum acceleration size"
+     ]
+    ]
+   },
+   {
+    "id": "s-u7-energy",
+    "topicId": "u7-energy",
+    "title": "Energy of simple harmonic oscillators",
+    "body": [
+     "The total mechanical energy of a frictionless spring–mass oscillator is constant: E = ½kA². It trades continually between elastic potential energy (½kx²) and kinetic energy (½mv²). At x = ±A all of it is potential, and at x = 0 all of it is kinetic. Doubling the amplitude multiplies the energy by four but leaves the period unchanged."
+    ],
+    "equations": [
+     [
+      "E = ½kA²",
+      "total energy"
+     ],
+     [
+      "½kA² = ½kx² + ½mv²",
+      "energy at any position"
+     ],
+     [
+      "v_max = A√(k/m)",
+      "from energy conservation"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 0.40 kg mass on a spring with k = 100 N/m oscillates with amplitude 0.20 m. Find the period and the maximum speed.",
+   "solution": "T = 2π√(m/k) = 2π√(0.40/100) = 2π(0.063) ≈ 0.40 s. v_max = A√(k/m) = 0.20 × √250 ≈ 3.2 m/s."
+  },
+  "misconceptions": [
+   [
+    "“A larger amplitude means a longer period.”",
+    "In SHM the period does not depend on the amplitude (for a spring–mass system, and for a pendulum at small angles)."
+   ],
+   [
+    "“The acceleration is greatest at equilibrium because the speed is greatest.”",
+    "Acceleration comes from the net force, which is zero at equilibrium and largest at the turning points."
+   ],
+   [
+    "“Heavier pendulum bobs swing more slowly.”",
+    "The period of a simple pendulum does not depend on the mass of the bob."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 1 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+  "sourceTitle": "AP Physics 1: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original text written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+  "isOriginal": true,
+  "verified": "2026-10-09"
+ },
+ "questions": [
+  {
+   "id": "ph1u7-q01",
+   "courseId": "ap-physics-1",
+   "unitId": "u7",
+   "topicId": "u7-shm",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A mass on a spring oscillates in simple harmonic motion. At which point in its motion is its acceleration zero?",
+   "choices": [
+    "At maximum displacement",
+    "At the equilibrium position",
+    "Halfway between equilibrium and maximum displacement",
+    "Its acceleration is never zero"
+   ],
+   "correctAnswer": 1,
+   "explanation": "In SHM the acceleration is proportional to the displacement, a = −(k/m)x. At the equilibrium position the displacement is zero, so the net force and the acceleration are zero (while the speed is greatest).",
+   "choiceExplanations": [
+    "At maximum displacement the restoring force and the acceleration are greatest.",
+    "",
+    "Halfway out, the displacement is not zero, so the acceleration is not zero either.",
+    "The acceleration passes through zero every time the object crosses equilibrium."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u7-q02",
+   "courseId": "ap-physics-1",
+   "unitId": "u7",
+   "topicId": "u7-shm",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "An oscillator completes 20 full cycles in 5.0 s. What are its frequency and period?",
+   "choices": [
+    "f = 0.25 Hz, T = 4.0 s",
+    "f = 4.0 Hz, T = 0.25 s",
+    "f = 100 Hz, T = 0.010 s",
+    "f = 4.0 Hz, T = 4.0 s"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The frequency is cycles per second: f = 20/5.0 = 4.0 Hz. The period is its reciprocal: T = 1/f = 0.25 s.",
+   "choiceExplanations": [
+    "That swaps the two. Frequency counts cycles per second.",
+    "",
+    "100 Hz multiplies cycles by time. Frequency is cycles divided by time.",
+    "The period is the reciprocal of the frequency. 4.0 Hz gives T = 0.25 s, not 4.0 s."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u7-q03",
+   "courseId": "ap-physics-1",
+   "unitId": "u7",
+   "topicId": "u7-energy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A mass on a spring oscillates between x = −A and x = +A. At the instant it is at x = +A, what is true about its energy?",
+   "choices": [
+    "All of its mechanical energy is kinetic",
+    "All of its mechanical energy is potential (stored in the spring)",
+    "Its kinetic and potential energies are equal",
+    "Its total mechanical energy is zero"
+   ],
+   "correctAnswer": 1,
+   "explanation": "At maximum displacement the mass is momentarily at rest, so its kinetic energy is zero and all of its mechanical energy is stored in the spring as potential energy.",
+   "choiceExplanations": [
+    "Kinetic energy is greatest at equilibrium, where the speed is greatest.",
+    "",
+    "They are equal only at one particular displacement (x = ±A/√2), not at the turning point.",
+    "The total mechanical energy of an oscillator is constant and positive."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u7-q04",
+   "courseId": "ap-physics-1",
+   "unitId": "u7",
+   "topicId": "u7-shm",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 0.50 kg mass is attached to a spring with k = 200 N/m. What is the period of its oscillation?",
+   "choices": [
+    "0.050 s",
+    "0.31 s",
+    "3.1 s",
+    "126 s"
+   ],
+   "correctAnswer": 1,
+   "explanation": "T = 2π√(m/k) = 2π√(0.50/200) = 2π(0.050) ≈ 0.31 s.",
+   "choiceExplanations": [
+    "0.050 s is √(m/k) alone. It leaves out the factor 2π.",
+    "",
+    "3.1 s is a factor of 10 too large.",
+    "126 s comes from inverting the ratio (k/m) inside the square root."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u7-q05",
+   "courseId": "ap-physics-1",
+   "unitId": "u7",
+   "topicId": "u7-shm",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A simple pendulum of length L has a period T. If the length is increased to 4L, what is the new period?",
+   "choices": [
+    "T/2",
+    "T",
+    "2T",
+    "4T"
+   ],
+   "correctAnswer": 2,
+   "explanation": "For a simple pendulum T = 2π√(L/g), so the period is proportional to √L. Quadrupling the length doubles the period.",
+   "choiceExplanations": [
+    "Lengthening a pendulum increases its period. It does not decrease it.",
+    "The period depends on the length, so it changes.",
+    "",
+    "4T would make the period proportional to L. It is proportional to √L."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u7-q06",
+   "courseId": "ap-physics-1",
+   "unitId": "u7",
+   "topicId": "u7-rep",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The position of an oscillator varies sinusoidally with an amplitude of 0.10 m and a period of 2.0 s. What is its maximum speed?",
+   "choices": [
+    "0.050 m/s",
+    "0.10 m/s",
+    "0.31 m/s",
+    "0.63 m/s"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The maximum speed is v_max = Aω = A(2π/T) = 0.10 × (2π/2.0) = 0.10π ≈ 0.31 m/s.",
+   "choiceExplanations": [
+    "0.050 divides the amplitude by the period. The maximum speed also involves the factor 2π.",
+    "0.10 is the amplitude's number, not a speed.",
+    "",
+    "0.63 m/s uses ω = 2π, as if the period were 1.0 s."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u7-q07",
+   "courseId": "ap-physics-1",
+   "unitId": "u7",
+   "topicId": "u7-energy",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 0.20 kg mass on a spring with k = 50 N/m oscillates with an amplitude of 0.10 m on a frictionless surface. What is the mass's maximum speed?",
+   "choices": [
+    "0.71 m/s",
+    "1.1 m/s",
+    "1.6 m/s",
+    "25 m/s"
+   ],
+   "correctAnswer": 2,
+   "explanation": "At equilibrium all the energy is kinetic: ½mv² = ½kA², so v = A√(k/m) = 0.10 × √(50/0.20) = 0.10 × 15.8 ≈ 1.6 m/s.",
+   "choiceExplanations": [
+    "0.71 m/s ignores the mass (v = A√k).",
+    "1.1 m/s puts an extra factor of 2 in the denominator. The ½ appears on both sides and cancels.",
+    "",
+    "25 m/s is A·k/m. The speed involves the square root of k/m."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u7-q08",
+   "courseId": "ap-physics-1",
+   "unitId": "u7",
+   "topicId": "u7-energy",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The amplitude of a spring–mass oscillator is doubled (same mass and spring). What happens to its period and its total mechanical energy?",
+   "choices": [
+    "The period doubles and the energy doubles",
+    "The period is unchanged and the energy quadruples",
+    "The period is unchanged and the energy doubles",
+    "The period doubles and the energy quadruples"
+   ],
+   "correctAnswer": 1,
+   "explanation": "For SHM the period T = 2π√(m/k) does not depend on the amplitude. The total energy is ½kA², so doubling A multiplies the energy by 4.",
+   "choiceExplanations": [
+    "The period does not depend on amplitude, and the energy depends on A².",
+    "",
+    "Energy grows with the square of the amplitude, so it quadruples, not doubles.",
+    "The period is independent of the amplitude."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u7-q09",
+   "courseId": "ap-physics-1",
+   "unitId": "u7",
+   "topicId": "u7-rep",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The position of a mass on a spring follows a cosine graph: x = +A at t = 0, with a period of 4.0 s. At t = 1.0 s, where is the mass and how is it moving?",
+   "choices": [
+    "At +A, momentarily at rest",
+    "At equilibrium, moving in the negative direction",
+    "At equilibrium, moving in the positive direction",
+    "At −A, momentarily at rest"
+   ],
+   "correctAnswer": 1,
+   "explanation": "One quarter of a period (1.0 s) after starting at +A, the mass has reached x = 0. The position is decreasing there, so the velocity is negative and the speed is at its maximum.",
+   "choiceExplanations": [
+    "+A is where it started, at t = 0. A quarter of a period later it has moved to the center.",
+    "",
+    "It is at equilibrium, but x is decreasing (from +A toward −A), so the motion is in the negative direction.",
+    "−A is reached after half a period (2.0 s)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  }
+ ],
+ "videos": [
+  {
+   "id": "vid-ph1u7-1",
+   "courseId": "ap-physics-1",
+   "unitId": "u7",
+   "title": "AP Physics 1 review of Waves and Harmonic motion",
+   "creator": "David SantoPietro (Khan Academy)",
+   "url": "https://oercommons.org/curated-collections/653",
+   "note": "This link opens the OER Commons High School Physics collection, where the video is listed. Look for the title above. It was made for an earlier version of the course (OER Commons lists it as added in 2018), so some topics may not match the 2024–25 revision exactly.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://oercommons.org/curated-collections/653",
+   "sourceTitle": "OER Commons: High School Physics collection",
+   "licenseOrRights": "Linked only, not embedded or copied. OER Commons lists the video under CC BY-NC-SA.",
+   "verified": "2026-10-09",
+   "scope": "general",
+   "kind": "collection page"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course hub to browse released questions by year.",
+ "learnResources": []
+}

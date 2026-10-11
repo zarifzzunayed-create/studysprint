@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Choose an AP course and unit, study an original guide, and practice with scored questions, explanations, and a study planner built from that unit.">
+<meta name="studysprint-build" content="4fa123482c">
+<title>StudySprint — practice that shows what you know</title>
+<link rel="stylesheet" href="css/style.css?v=4fa123482c">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div id="announce" class="sr-only" role="status" aria-live="polite"></div>
+<header class="site-header"><div class="header-inner">
+<a class="brand" href="#main" data-go="home" aria-label="StudySprint home"><span class="brand-mark" aria-hidden="true">S</span><span>StudySprint</span></a>
+<nav aria-label="Main navigation"><button class="navbtn" data-go="home" type="button">Courses</button><button class="navbtn" data-go="data" type="button">My data</button><button class="navbtn" data-go="about" type="button">About</button></nav>
+</div></header>
+
+<div id="ctx" class="ctxbar" hidden>
+<div class="ctx-inner">
+<div class="ctx-top"><p class="ctx-title" id="ctx-title"></p><button id="ctx-change" class="navbtn" type="button">Change course or unit</button></div>
+<nav class="ctx-nav" id="ctx-nav" aria-label="Unit sections"></nav>
+</div>
+</div>
+
+<main id="main" class="page-shell">
+<h1 id="sr-title" class="sr-only" hidden></h1>
+<noscript><p class="notice">StudySprint needs JavaScript to show courses, questions, and your progress. Turn JavaScript on for this site, then reload the page.</p></noscript>
+<p id="load-status" class="load-status" role="status" hidden></p>
+<div id="load-error" class="load-error" role="alert" hidden></div>
+<section class="view" id="v-home">
+<div class="hero">
+<p class="eyebrow">Practice with feedback</p>
+<h1>Practice that shows what you know.</h1>
+<p class="hero-copy">Pick an AP course and unit, read the study guide, answer scored questions, or build a timed study session from that same unit. Progress comes from your submitted answers, not from checking boxes.</p>
+</div>
+<section class="panel" aria-labelledby="t-pick">
+<h2 id="t-pick">Choose a course and unit</h2>
+<div class="form-field combo">
+<label for="c-search">Course</label>
+<input id="c-search" type="text" role="combobox" aria-expanded="false" aria-controls="c-list" aria-autocomplete="list" autocomplete="off" placeholder="Search, for example: Physics">
+<ul id="c-list" class="listbox" role="listbox" aria-label="Matching courses" hidden></ul>
+<p id="c-status" class="sr-only" role="status" aria-live="polite"></p>
+</div>
+<p id="c-msg" class="note" role="status" hidden></p>
+<div class="form-field">
+<label for="c-unit">Unit</label>
+<select id="c-unit" disabled><option value="">Choose a course first</option></select>
+</div>
+<button id="c-go" class="button button-primary" type="button" disabled>Open unit</button>
+<div id="c-resume"></div>
+</section>
+</section>
+
+<section class="view" id="v-overview" hidden></section>
+<section class="view" id="v-learn" hidden></section>
+<section class="view" id="v-guide" hidden></section>
+<section class="view" id="v-practice" hidden></section>
+<section class="view" id="v-videos" hidden></section>
+<section class="view" id="v-frqs" hidden></section>
+<section class="view" id="v-planner" hidden></section>
+<section class="view" id="v-results" hidden></section>
+<section class="view" id="v-data" hidden></section>
+
+<section class="view info-section prose" id="v-about" hidden>
+<p class="eyebrow">About</p>
+<h2>An independent practice tool</h2>
+<p>StudySprint is an independent project. It is not affiliated with, sponsored by, or endorsed by College Board. AP is a trademark owned by College Board.</p>
+<h3>Where content comes from</h3>
+<p>Study guides and practice questions are original, written for StudySprint. They do not copy or closely paraphrase College Board exam questions, answer keys, scoring guidelines, AP Classroom materials, or the Student Question Bank, and no College Board test content is sent to any AI service. Official free-response questions are linked on College Board's own pages and never copied here. Every guide, question, and video records its source, rights status, and verification date.</p>
+<h3>What is verified</h3>
+<p>Course names and page addresses come from AP Central's course list. Unit titles come from College Board's course pages and frameworks for the courses that have an outline here. The catalog changes over time, so StudySprint does not assume a fixed number of courses. The file CONTENT_STATUS.md in the project lists exactly what is complete.</p>
+<h3>How progress works</h3>
+<p>Progress counts submitted answers only. Your first answer to a question is its first attempt. Later answers are retries and are tracked separately. Accuracy figures are estimates based on the questions you attempted. They cannot show that you have learned a topic or predict an exam score. The study planner's step checklist is your own schedule, and it is never counted as evidence of learning. The confidence rating in “Learn first” is self-reported too: it only decides which resources are suggested. Warm-up answers count like any other practice answers.</p>
+<h3>Outside learning resources</h3>
+<p>“Learn first” links to free resources that were checked before being listed: Khan Academy and OpenStax for AP Calculus AB, and existing video links for AP Physics 1. Each link is labelled unit-specific or general. Nothing from them is copied or embedded.</p>
+<h3>Where your results are kept</h3>
+<p>Results are saved in this browser, on this device, using local storage. Clearing site data or switching devices resets them. StudySprint asks for no name or account and sends nothing anywhere.</p>
+<p>An unfinished practice set or study session is saved as you go, so refreshing the page does not lose your place. On the My data page you can download a backup file of your progress, restore it in another browser or on another device, and undo a restore. A backup holds answer results, unit settings, and completed study sessions; unfinished sets stay on the device where they were started.</p>
+<h3>Why practice by answering</h3>
+<p>Trying to recall and apply ideas helps learning more than rereading. One study with college students found retrieval practice produced greater learning than concept mapping for the science texts it used. <a href="https://pubmed.ncbi.nlm.nih.gov/21252317/" target="_blank" rel="noopener">Read the study</a>.</p>
+</section>
+</main>
+
+<footer class="site-footer"><p>StudySprint is an independent project, not affiliated with or endorsed by College Board.</p></footer>
+
+<script src="js/util.js?v=4fa123482c"></script>
+<script src="js/data.js?v=4fa123482c"></script>
+<script src="js/store.js?v=4fa123482c"></script>
+<script src="js/backup.js?v=4fa123482c"></script>
+<script src="js/adaptive.js?v=4fa123482c"></script>
+<script src="js/runner.js?v=4fa123482c"></script>
+<script src="js/planner.js?v=4fa123482c"></script>
+<script src="js/app.js?v=4fa123482c"></script>
+</body>
+</html>

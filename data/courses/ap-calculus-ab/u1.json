@@ -1,0 +1,386 @@
+{
+ "courseId": "ap-calculus-ab",
+ "unitId": "u1",
+ "title": "Unit 1: Limits and Continuity",
+ "topics": [
+  {
+   "id": "cab1-lim",
+   "name": "Limits: meaning, notation, and evaluation",
+   "covers": [
+    "How limits help us to handle change at an instant",
+    "Definition and properties of limits in various representations"
+   ]
+  },
+  {
+   "id": "cab1-cont",
+   "name": "Continuity and discontinuities",
+   "covers": [
+    "Definitions of continuity of a function at a point and over a domain"
+   ]
+  },
+  {
+   "id": "cab1-inf",
+   "name": "Limits at infinity, asymptotes, and limit theorems",
+   "covers": [
+    "Asymptotes and limits at infinity",
+    "Reasoning using the Squeeze theorem and the Intermediate Value Theorem"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Limits and continuity: review guide",
+  "intro": "A limit describes the value a function approaches, not necessarily the value it reaches. Limits are the basis for continuity, asymptotes, and the derivative.",
+  "sections": [
+   {
+    "id": "s-cab1-lim",
+    "topicId": "cab1-lim",
+    "title": "Limits and how to evaluate them",
+    "body": [
+     "lim x→a f(x) = L means f(x) gets as close to L as you like when x is close enough to a (x ≠ a). The value f(a) does not matter. The two-sided limit exists only when both one-sided limits exist and are equal."
+    ],
+    "points": [
+     "Try direct substitution first. If you get a number, that is the limit (for continuous functions).",
+     "If substitution gives 0/0, simplify first: factor and cancel, rationalize, or use a known limit.",
+     "A nonzero number divided by 0 signals a vertical asymptote. Check the sign on each side."
+    ],
+    "equations": [
+     [
+      "lim x→0 (sin x)/x = 1",
+      "key trig limit (x in radians)"
+     ],
+     [
+      "lim x→a f(x) = L ⇔ both one-sided limits equal L",
+      "two-sided limit"
+     ]
+    ]
+   },
+   {
+    "id": "s-cab1-cont",
+    "topicId": "cab1-cont",
+    "title": "Continuity",
+    "body": [
+     "f is continuous at x = a when f(a) is defined, lim x→a f(x) exists, and the two are equal. Polynomials, exponentials, sine, and cosine are continuous everywhere. Rational and log functions are continuous on their domains."
+    ],
+    "points": [
+     "Removable discontinuity (a hole): the limit exists but f(a) is missing or different.",
+     "Jump discontinuity: the one-sided limits exist but differ.",
+     "Infinite discontinuity: at least one one-sided limit is infinite (a vertical asymptote).",
+     "For a piecewise function, set the pieces equal at the break point to make it continuous."
+    ]
+   },
+   {
+    "id": "s-cab1-inf",
+    "topicId": "cab1-inf",
+    "title": "Limits at infinity, asymptotes, and two theorems",
+    "body": [
+     "For a rational function, compare the highest powers. Equal degrees give the ratio of leading coefficients. A bigger denominator gives 0. A bigger numerator gives no horizontal asymptote."
+    ],
+    "points": [
+     "Squeeze theorem: if g(x) ≤ f(x) ≤ h(x) near a and g and h have the same limit L at a, then f also has limit L.",
+     "Intermediate Value Theorem: if f is continuous on [a, b], f takes every value between f(a) and f(b) somewhere in [a, b].",
+     "The IVT needs continuity. It promises a value, not where it occurs or how many times."
+    ],
+    "equations": [
+     [
+      "lim x→∞ (axⁿ + …)/(bxⁿ + …) = a/b",
+      "equal degrees"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Find lim x→1 (x² + 2x − 3)/(x − 1).",
+   "solution": "Substitution gives 0/0, so factor: x² + 2x − 3 = (x − 1)(x + 3). Cancel x − 1 (allowed because x ≠ 1 in a limit) to get x + 3, which approaches 4."
+  },
+  "misconceptions": [
+   [
+    "“0/0 means the limit does not exist.”",
+    "0/0 is an indeterminate form. Simplify, then evaluate."
+   ],
+   [
+    "“The limit equals f(a).”",
+    "Only when f is continuous at a. The limit ignores the value at a."
+   ],
+   [
+    "“A limit at infinity of 0 means the function is 0.”",
+    "It means the graph approaches the line y = 0, a horizontal asymptote."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+  "sourceTitle": "AP Calculus AB – AP Central (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+  "isOriginal": true,
+  "verified": "2026-10-11"
+ },
+ "questions": [
+  {
+   "id": "cab-u1-q01",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u1",
+   "topicId": "cab1-lim",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is lim x→3 (x² − 9)/(x − 3)?",
+   "choices": [
+    "6",
+    "3",
+    "0",
+    "The limit does not exist"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Substitution gives 0/0, so factor: (x − 3)(x + 3)/(x − 3) = x + 3 for x ≠ 3. As x → 3, this approaches 6.",
+   "choiceExplanations": [
+    "",
+    "3 is where x is heading, not the value of the expression. After cancelling, x + 3 approaches 6.",
+    "0 comes from looking only at the numerator. The denominator is also 0, so the form is 0/0, which needs simplifying.",
+    "0/0 does not mean the limit fails to exist. After cancelling the common factor, the limit is 6."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u1-q02",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u1",
+   "topicId": "cab1-lim",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "As x approaches 2 from the left, f(x) approaches 5. As x approaches 2 from the right, f(x) approaches 1. Also f(2) = 5. What is lim x→2 f(x)?",
+   "choices": [
+    "5",
+    "1",
+    "3",
+    "The limit does not exist"
+   ],
+   "correctAnswer": 3,
+   "explanation": "A two-sided limit exists only if both one-sided limits are equal. Here they are 5 and 1, so lim x→2 f(x) does not exist, even though f(2) is defined.",
+   "choiceExplanations": [
+    "5 is the left-hand limit and the function value. The right-hand limit is 1, so the two sides disagree.",
+    "1 is only the right-hand limit.",
+    "3 averages the two sides. A limit is never an average of different one-sided limits.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u1-q03",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u1",
+   "topicId": "cab1-cont",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Let f(x) = (x² − 4)/(x − 2) for x ≠ 2. What value should f(2) have so that f is continuous at x = 2?",
+   "choices": [
+    "0",
+    "2",
+    "4",
+    "No value works"
+   ],
+   "correctAnswer": 2,
+   "explanation": "For x ≠ 2, f(x) = (x − 2)(x + 2)/(x − 2) = x + 2, which approaches 4. Defining f(2) = 4 makes the function value equal the limit, which removes the hole.",
+   "choiceExplanations": [
+    "0 comes from substituting into the numerator only. The limit of the whole expression is 4.",
+    "2 is the x-value of the hole, not the y-value.",
+    "",
+    "The discontinuity is removable because the limit exists (it is 4), so defining f(2) = 4 works."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u1-q04",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u1",
+   "topicId": "cab1-inf",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is lim x→∞ (3x² − 5x)/(6x² + 1)?",
+   "choices": [
+    "∞",
+    "1/2",
+    "3",
+    "0"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The numerator and denominator have the same degree, so the limit is the ratio of leading coefficients: 3/6 = 1/2. Dividing every term by x² shows the other terms go to 0.",
+   "choiceExplanations": [
+    "The expression grows without bound only when the numerator's degree is higher. Here the degrees are equal.",
+    "",
+    "3 uses only the numerator's leading coefficient. Divide by the denominator's leading coefficient, 6.",
+    "0 would be right only if the denominator had a higher degree than the numerator. Both have degree 2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u1-q05",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u1",
+   "topicId": "cab1-cont",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "f(x) = kx + 1 for x < 2 and f(x) = x² − 1 for x ≥ 2. For what value of k is f continuous at x = 2?",
+   "choices": [
+    "k = 1",
+    "k = 2",
+    "k = 3/2",
+    "No value of k works"
+   ],
+   "correctAnswer": 0,
+   "explanation": "At x = 2 the right piece gives 2² − 1 = 3. The left piece approaches 2k + 1. Setting 2k + 1 = 3 gives k = 1.",
+   "choiceExplanations": [
+    "",
+    "2 comes from using x² + 1 = 5 for the right piece. The right piece is x² − 1, which equals 3 at x = 2.",
+    "3/2 comes from solving 2k = 3, which drops the + 1 in the left piece.",
+    "Changing k changes the left piece's value at x = 2, so one value of k makes the pieces meet."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u1-q06",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u1",
+   "topicId": "cab1-inf",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "f is continuous on [1, 4], f(1) = −2, and f(4) = 5. Which statement must be true?",
+   "choices": [
+    "f is increasing on [1, 4]",
+    "f(c) = 6 for some c in (1, 4)",
+    "f′(c) = 7/3 for some c in (1, 4)",
+    "f(c) = 0 for some c in (1, 4)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "By the Intermediate Value Theorem, a continuous f takes every value between −2 and 5 on the interval. Since 0 is between them, f(c) = 0 for some c.",
+   "choiceExplanations": [
+    "Continuity does not mean increasing. f could rise and fall while still going from −2 to 5.",
+    "6 is outside the range from −2 to 5, so the IVT does not promise it.",
+    "That is the Mean Value Theorem, which also needs f to be differentiable. The problem only says continuous.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u1-q07",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u1",
+   "topicId": "cab1-lim",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is lim x→0 sin(3x)/x?",
+   "choices": [
+    "1/3",
+    "1",
+    "3",
+    "0"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Rewrite as 3 · sin(3x)/(3x). As x → 0, 3x → 0 too, so sin(3x)/(3x) → 1. The limit is 3 · 1 = 3.",
+   "choiceExplanations": [
+    "1/3 inverts the factor. Multiply and divide by 3 so the angle matches the denominator, which leaves a factor of 3 outside.",
+    "1 is the limit of sin(x)/x. Here the angle is 3x but the denominator is x, so a factor of 3 is left over.",
+    "",
+    "0 comes from substituting into sin(3x) only. The denominator is also 0, so this is 0/0."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u1-q08",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u1",
+   "topicId": "cab1-inf",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "f(x) = (x² − x − 2)/(x² − 4). Which describes the graph of f at x = 2 and x = −2?",
+   "choices": [
+    "Holes at both x = 2 and x = −2",
+    "A hole at x = 2 and a vertical asymptote at x = −2",
+    "A vertical asymptote at x = 2 and a hole at x = −2",
+    "Vertical asymptotes at both x = 2 and x = −2"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Factor: (x − 2)(x + 1)/((x − 2)(x + 2)). The factor x − 2 cancels, so x = 2 is a hole (the limit there is 3/4). The factor x + 2 remains in the denominator, so x = −2 is a vertical asymptote.",
+   "choiceExplanations": [
+    "The factor x + 2 does not cancel, so x = −2 is a vertical asymptote, not a hole.",
+    "",
+    "This swaps the two: x − 2 cancels (a hole) and x + 2 does not (an asymptote).",
+    "The factor x − 2 cancels, so x = 2 is a removable hole, not an asymptote."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-cab-u1-khan",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u1",
+   "title": "Khan Academy: Limits and continuity (AP Calculus AB unit)",
+   "provider": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new",
+   "scope": "unit",
+   "kind": "lesson page",
+   "note": "Khan Academy's free unit for this topic, with lessons and practice.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new",
+   "sourceTitle": "Khan Academy unit page",
+   "licenseOrRights": "Linked only, not embedded or copied. Content and rights belong to Khan Academy.",
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "res-cab-u1-openstax",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u1",
+   "title": "OpenStax Calculus Volume 1, 2.2 The Limit of a Function",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free textbook section on this unit's main idea. It is written for college calculus, so it may go beyond the AP Calculus AB scope.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/calculus-volume-1/pages/2-2-the-limit-of-a-function",
+   "sourceTitle": "OpenStax Calculus Volume 1",
+   "licenseOrRights": "Linked only. OpenStax lists Calculus Volume 1 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions."
+}

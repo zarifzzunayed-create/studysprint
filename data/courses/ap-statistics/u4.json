@@ -1,0 +1,391 @@
+{
+ "courseId": "ap-statistics",
+ "unitId": "u4",
+ "title": "Unit 4: Inference for Quantitative Data: Means",
+ "topics": [
+  {
+   "id": "st4-samp",
+   "name": "Sampling distributions of means",
+   "covers": [
+    "Sampling Distributions for Sample Means",
+    "Sampling Distributions for the Difference Between Two Sample Means"
+   ]
+  },
+  {
+   "id": "st4-ci",
+   "name": "Confidence intervals for means",
+   "covers": [
+    "Constructing a Confidence Interval for a Population Mean or Population Mean Difference",
+    "Justifying a Claim Based on a Confidence Interval for the Difference Between Two Population Means"
+   ]
+  },
+  {
+   "id": "st4-test",
+   "name": "Tests for means",
+   "covers": [
+    "Setting Up a Test for a Population Mean or Population Mean Difference",
+    "Carrying Out a Test for the Difference Between Two Population Means"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Inference for quantitative data: review guide",
+  "intro": "This unit uses sample means and t procedures to estimate and test claims about population means, including paired and two-sample comparisons.",
+  "sections": [
+   {
+    "id": "s-st4-samp",
+    "topicId": "st4-samp",
+    "title": "Sampling distributions of a mean",
+    "body": [
+     "The sample mean x̄ has mean μ and standard deviation σ/√n. By the central limit theorem, its distribution is approximately normal when n is large (often n ≥ 30), even if the population is skewed."
+    ],
+    "points": [
+     "If the population is normal, x̄ is normal for any n."
+    ],
+    "equations": [
+     [
+      "μ_x̄ = μ,  σ_x̄ = σ/√n",
+      ""
+     ],
+     [
+      "σ for x̄₁ − x̄₂ = √(σ₁²/n₁ + σ₂²/n₂)",
+      "difference of two means"
+     ]
+    ]
+   },
+   {
+    "id": "s-st4-ci",
+    "topicId": "st4-ci",
+    "title": "t intervals",
+    "body": [
+     "When σ is unknown, use s and a t distribution with n − 1 degrees of freedom. Conditions: random sample, 10% condition, and a normal population or large n (check a graph for strong skew or outliers when n is small)."
+    ],
+    "points": [
+     "Paired data (the same subjects twice, or matched pairs): analyse the differences with one-sample t procedures.",
+     "Two independent groups: use two-sample t procedures. If the interval for μ₁ − μ₂ excludes 0, there is convincing evidence of a difference."
+    ],
+    "equations": [
+     [
+      "x̄ ± t*·s/√n",
+      "one-sample t-interval"
+     ],
+     [
+      "(x̄₁ − x̄₂) ± t*·√(s₁²/n₁ + s₂²/n₂)",
+      "two-sample t-interval"
+     ]
+    ]
+   },
+   {
+    "id": "s-st4-test",
+    "topicId": "st4-test",
+    "title": "t tests",
+    "body": [
+     "Test statistic = (statistic − null value)/standard error. Find the p-value from the t distribution and compare with α. State the conclusion in context."
+    ],
+    "points": [
+     "Choose paired versus two-sample by how the data were collected, not by the numbers."
+    ],
+    "equations": [
+     [
+      "t = (x̄ − μ₀)/(s/√n)",
+      "one-sample t-test"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A random sample of 16 bags has mean weight 498 g and s = 8 g. Construct a 95% confidence interval for the mean weight (t* = 2.131 for df = 15).",
+   "solution": "SE = 8/√16 = 2. Margin = 2.131 × 2 ≈ 4.26. The interval is 498 ± 4.26, about (493.7, 502.3) g."
+  },
+  "misconceptions": [
+   [
+    "“The CLT makes the data normal.”",
+    "It is the distribution of x̄ that becomes approximately normal, not the data."
+   ],
+   [
+    "“Use z* whenever n is large.”",
+    "With σ unknown, use t*. It approaches z* as n grows."
+   ],
+   [
+    "“Before-and-after data are two samples.”",
+    "Measurements on the same subjects are paired. Analyse the differences."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Statistics Course and Exam Description, effective fall 2026 (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-statistics-course-and-exam-description-effective-fall-2026.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+  "sourceTitle": "AP Statistics – AP Central (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+  "isOriginal": true,
+  "verified": "2026-10-11"
+ },
+ "questions": [
+  {
+   "id": "stat-u4-q01",
+   "courseId": "ap-statistics",
+   "unitId": "u4",
+   "topicId": "st4-samp",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A population has mean 50 and standard deviation 10. For random samples of size 25, what are the mean and standard deviation of x̄?",
+   "choices": [
+    "Mean 50, standard deviation 10",
+    "Mean 2, standard deviation 50",
+    "Mean 50, standard deviation 0.4",
+    "Mean 50, standard deviation 2"
+   ],
+   "correctAnswer": 3,
+   "explanation": "μ_x̄ = μ = 50 and σ_x̄ = σ/√n = 10/5 = 2.",
+   "choiceExplanations": [
+    "10 is the population standard deviation. Sample means vary less, by a factor of √n.",
+    "This swaps the mean and the standard deviation.",
+    "0.4 divides σ by n instead of by √n.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u4-q02",
+   "courseId": "ap-statistics",
+   "unitId": "u4",
+   "topicId": "st4-samp",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A population is strongly skewed to the right. Random samples of size 40 are taken. What is the shape of the sampling distribution of x̄?",
+   "choices": [
+    "Exactly normal",
+    "Uniform",
+    "Approximately normal",
+    "Strongly skewed to the right, like the population"
+   ],
+   "correctAnswer": 2,
+   "explanation": "By the central limit theorem, with n = 40 the distribution of sample means is approximately normal even though the population is skewed.",
+   "choiceExplanations": [
+    "It is approximately normal, not exactly, because the population is not normal.",
+    "Nothing suggests a uniform shape. Sample means pile up near μ.",
+    "",
+    "Individual values are skewed, but averages of 40 values are much less so."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u4-q03",
+   "courseId": "ap-statistics",
+   "unitId": "u4",
+   "topicId": "st4-ci",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A student wants to estimate the mean nightly sleep of all students at a school from a random sample of 30 students. σ is unknown. Which procedure fits?",
+   "choices": [
+    "Two-sample t-interval for a difference of means",
+    "One-sample t-interval for a mean",
+    "Chi-square test for independence",
+    "One-sample z-interval for a proportion"
+   ],
+   "correctAnswer": 1,
+   "explanation": "One quantitative variable, one group, an estimate, and σ unknown: a one-sample t-interval.",
+   "choiceExplanations": [
+    "There is only one group, so there is no difference to estimate.",
+    "",
+    "Chi-square tests are for categorical variables, and this asks for an estimate, not a test.",
+    "Sleep time is quantitative, so this is about a mean, not a proportion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u4-q04",
+   "courseId": "ap-statistics",
+   "unitId": "u4",
+   "topicId": "st4-ci",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A random sample of 25 values has x̄ = 20 and s = 5. Using t* = 2.064 (df = 24), what is the 95% confidence interval for μ?",
+   "choices": [
+    "About (17.94, 22.06)",
+    "About (9.68, 30.32)",
+    "About (19.59, 20.41)",
+    "About (18.04, 21.96)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "SE = 5/√25 = 1. Margin = 2.064 × 1 = 2.064, so the interval is 20 ± 2.064.",
+   "choiceExplanations": [
+    "",
+    "This uses s = 5 as the standard error instead of s/√n = 1.",
+    "This divides s by n (5/25 = 0.2) instead of by √n.",
+    "This uses z* = 1.96. With σ unknown, use t* = 2.064."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u4-q05",
+   "courseId": "ap-statistics",
+   "unitId": "u4",
+   "topicId": "st4-test",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Fifteen students take a test, attend a review session, and take a similar test again. Which procedure tests whether the session raised scores?",
+   "choices": [
+    "A two-sample t-test",
+    "A chi-square test for homogeneity",
+    "A one-proportion z-test",
+    "A paired t-test on the differences"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Each student gives two linked scores, so the data are paired. Test the mean of the differences.",
+   "choiceExplanations": [
+    "A two-sample t-test needs two independent groups. These are the same students measured twice.",
+    "Scores are quantitative. Chi-square tests are for categorical data.",
+    "The question is about mean scores, not a proportion.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u4-q06",
+   "courseId": "ap-statistics",
+   "unitId": "u4",
+   "topicId": "st4-ci",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 95% confidence interval for μ₁ − μ₂ is (1.2, 4.8). What can be concluded?",
+   "choices": [
+    "There is convincing evidence that μ₁ is less than μ₂",
+    "There is convincing evidence that the two means are equal",
+    "There is convincing evidence that μ₁ is greater than μ₂",
+    "There is no convincing evidence of a difference"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Every value in the interval is positive, so 0 is not plausible and μ₁ − μ₂ > 0.",
+   "choiceExplanations": [
+    "A positive interval means μ₁ is larger, not smaller.",
+    "An interval cannot show that two means are equal, and this one excludes 0.",
+    "",
+    "There is no convincing evidence of a difference only when the interval contains 0."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u4-q07",
+   "courseId": "ap-statistics",
+   "unitId": "u4",
+   "topicId": "st4-test",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Testing H₀: μ = 100, a random sample of 25 gives x̄ = 104 and s = 10. What is the t test statistic?",
+   "choices": [
+    "0.4",
+    "2.0",
+    "−2.0",
+    "10"
+   ],
+   "correctAnswer": 1,
+   "explanation": "t = (x̄ − μ₀)/(s/√n) = (104 − 100)/(10/5) = 4/2 = 2.0.",
+   "choiceExplanations": [
+    "0.4 divides by s instead of by the standard error s/√n.",
+    "",
+    "This subtracts in the wrong order. Use the statistic minus the null value.",
+    "10 divides by s/n = 0.4 instead of by s/√n = 2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u4-q08",
+   "courseId": "ap-statistics",
+   "unitId": "u4",
+   "topicId": "st4-ci",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A random sample of 12 values comes from a population. A dotplot shows strong right skew with two outliers. Is a one-sample t-interval appropriate?",
+   "choices": [
+    "No, because the sample is small and the data show strong skew and outliers",
+    "Yes, because n is at least 10",
+    "Yes, because the sample was random",
+    "No, because the population standard deviation is unknown"
+   ],
+   "correctAnswer": 0,
+   "explanation": "With n = 12 the central limit theorem does not help much, so the normality condition depends on the data. Strong skew and outliers mean t procedures are not reliable here.",
+   "choiceExplanations": [
+    "",
+    "10 is not the threshold for means. With n < 30, check the data for strong skew and outliers.",
+    "Randomness is required, but the normal condition must also be met.",
+    "t procedures are designed for the case where σ is unknown."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-stat-u4-khan",
+   "courseId": "ap-statistics",
+   "unitId": "u4",
+   "title": "Khan Academy: Calculating a t interval for a mean (practice)",
+   "provider": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/ap-statistics/xfb5d8e68:inference-quantitative-means/one-sample-t-interval-mean/e/calculating-one-sample-t-interval-mean",
+   "scope": "unit",
+   "kind": "practice",
+   "note": "A Khan Academy practice exercise on one-sample t intervals, one topic in this unit.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://www.khanacademy.org/math/ap-statistics/xfb5d8e68:inference-quantitative-means/one-sample-t-interval-mean/e/calculating-one-sample-t-interval-mean",
+   "sourceTitle": "Khan Academy practice page",
+   "licenseOrRights": "Linked only, not embedded or copied. Content and rights belong to Khan Academy.",
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "res-stat-u4-openstax",
+   "courseId": "ap-statistics",
+   "unitId": "u4",
+   "title": "OpenStax Introductory Statistics 2e, 8.2 A Single Population Mean using the Student t Distribution",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/8-2-a-single-population-mean-using-the-student-t-distribution",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free textbook section on this unit's main idea. It is written for a college course, so it may go beyond the AP Statistics scope.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/introductory-statistics-2e/pages/8-2-a-single-population-mean-using-the-student-t-distribution",
+   "sourceTitle": "OpenStax Introductory Statistics 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Introductory Statistics 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions."
+}

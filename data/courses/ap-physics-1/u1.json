@@ -1,0 +1,589 @@
+{
+ "courseId": "ap-physics-1",
+ "unitId": "u1",
+ "title": "Unit 1: Kinematics",
+ "topics": [
+  {
+   "id": "u1-vec",
+   "name": "Scalars and vectors in one dimension",
+   "covers": [
+    "Scalars and vectors in one dimension"
+   ]
+  },
+  {
+   "id": "u1-dva",
+   "name": "Displacement, velocity, and acceleration",
+   "covers": [
+    "Displacement, velocity, and acceleration"
+   ]
+  },
+  {
+   "id": "u1-rep",
+   "name": "Representing motion",
+   "covers": [
+    "Representing motion"
+   ]
+  },
+  {
+   "id": "u1-ref",
+   "name": "Reference frames and relative motion",
+   "covers": [
+    "Reference frames and relative motion"
+   ]
+  },
+  {
+   "id": "u1-2d",
+   "name": "Vectors and motion in two dimensions",
+   "covers": [
+    "Vectors and motion in two dimensions"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Kinematics: study guide",
+  "intro": "Kinematics describes how objects move without asking what pushes them. You describe motion with position, velocity, and acceleration, read and sketch motion graphs, compare motion in different reference frames, and split two-dimensional motion into independent horizontal and vertical parts.",
+  "sections": [
+   {
+    "id": "s-u1-vec",
+    "topicId": "u1-vec",
+    "title": "Scalars and vectors in one dimension",
+    "body": [
+     "A scalar has size only. A vector has size and direction. In one dimension the direction is just a plus or minus sign, once you choose which way is positive."
+    ],
+    "points": [
+     "Distance is the total length of the path and is never negative. Displacement is final position minus initial position and can be positive, negative, or zero.",
+     "Speed is how fast something moves (a scalar). Velocity includes direction (a vector).",
+     "Pick a positive direction at the start and keep it for the whole problem."
+    ],
+    "equations": [
+     [
+      "Δx = x − x₀",
+      "displacement"
+     ],
+     [
+      "v_avg = Δx / Δt",
+      "average velocity"
+     ]
+    ]
+   },
+   {
+    "id": "s-u1-dva",
+    "topicId": "u1-dva",
+    "title": "Displacement, velocity, and acceleration",
+    "body": [
+     "Velocity is the rate of change of position. Acceleration is the rate of change of velocity, and it points in the direction of the change in velocity. An object that is slowing down has an acceleration opposite to its velocity."
+    ],
+    "points": [
+     "Zero velocity at one instant does not mean zero acceleration. At the top of a toss the velocity is zero for a moment, but gravity is still accelerating the object.",
+     "In free fall near Earth's surface, ignoring air resistance, a ≈ 9.8 m/s² downward (many problems round to 10 m/s²).",
+     "The four equations below hold only while the acceleration is constant."
+    ],
+    "equations": [
+     [
+      "v = v₀ + at",
+      "velocity after time t"
+     ],
+     [
+      "Δx = v₀t + ½at²",
+      "displacement after time t"
+     ],
+     [
+      "v² = v₀² + 2aΔx",
+      "use when time is unknown"
+     ],
+     [
+      "Δx = ½(v₀ + v)t",
+      "displacement from average velocity"
+     ]
+    ]
+   },
+   {
+    "id": "s-u1-rep",
+    "topicId": "u1-rep",
+    "title": "Representing motion",
+    "body": [
+     "Graphs and motion diagrams show the same motion in different ways. Learn what each slope and area means."
+    ],
+    "points": [
+     "The slope of a position–time graph is velocity. A straight line means constant velocity.",
+     "The slope of a velocity–time graph is acceleration. A horizontal line means zero acceleration.",
+     "The area between a velocity–time graph and the time axis is displacement. Area below the axis counts as negative."
+    ]
+   },
+   {
+    "id": "s-u1-ref",
+    "topicId": "u1-ref",
+    "title": "Reference frames and relative motion",
+    "body": [
+     "Velocity depends on who is measuring it. The velocity of A relative to B is the velocity of A in the ground frame minus the velocity of B in the ground frame."
+    ],
+    "points": [
+     "Two objects moving the same way have a relative speed equal to the difference of their speeds. Moving toward each other, the speeds add.",
+     "When a boat crosses a river, add the boat's velocity relative to the water and the water's velocity relative to the shore as vectors."
+    ],
+    "equations": [
+     [
+      "v_A/B = v_A − v_B",
+      "velocity of A relative to B (same line)"
+     ],
+     [
+      "v_boat/shore = v_boat/water + v_water/shore",
+      "vector sum"
+     ]
+    ]
+   },
+   {
+    "id": "s-u1-2d",
+    "topicId": "u1-2d",
+    "title": "Vectors and motion in two dimensions",
+    "body": [
+     "A vector can be split into perpendicular components. Projectile motion without air resistance is a constant horizontal velocity combined with free-fall vertical motion. The two directions are independent and share only the time."
+    ],
+    "points": [
+     "At the top of a projectile's path the vertical velocity is zero, but the horizontal velocity is unchanged.",
+     "The time in the air is set by the vertical motion. The horizontal velocity then gives the range."
+    ],
+    "equations": [
+     [
+      "vₓ = v cosθ",
+      "horizontal component"
+     ],
+     [
+      "v_y = v sinθ",
+      "vertical component"
+     ],
+     [
+      "y = v_y0 t − ½gt²",
+      "vertical position (up positive)"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A cyclist moving at 5.0 m/s speeds up at 2.0 m/s² for 4.0 s. Find her final velocity and her displacement.",
+   "solution": "v = v₀ + at = 5.0 + 2.0(4.0) = 13 m/s. Δx = v₀t + ½at² = 5.0(4.0) + ½(2.0)(4.0)² = 20 + 16 = 36 m. Check with the average velocity: (5.0 + 13)/2 = 9.0 m/s, and 9.0 m/s × 4.0 s = 36 m."
+  },
+  "misconceptions": [
+   [
+    "“Zero velocity means zero acceleration.”",
+    "At the top of a toss the velocity is zero for an instant, yet gravity still gives an acceleration of 9.8 m/s² downward."
+   ],
+   [
+    "“Negative acceleration means slowing down.”",
+    "Whether an object slows or speeds up depends on whether acceleration and velocity point opposite ways or the same way."
+   ],
+   [
+    "“Heavier objects fall faster.”",
+    "With air resistance ignored, every object in free fall has the same acceleration, whatever its mass."
+   ],
+   [
+    "“A projectile needs a horizontal force to keep moving sideways.”",
+    "With no air resistance nothing pushes it horizontally, so its horizontal velocity stays constant."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 1 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+  "sourceTitle": "AP Physics 1: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original text written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+  "isOriginal": true,
+  "verified": "2026-10-09"
+ },
+ "questions": [
+  {
+   "id": "ph1u1-q01",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-vec",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A student walks 6 m east, then turns around and walks 2 m west. What are the total distance traveled and the magnitude of the displacement?",
+   "choices": [
+    "Distance 8 m, displacement 4 m",
+    "Distance 4 m, displacement 8 m",
+    "Distance 8 m, displacement 8 m",
+    "Distance 4 m, displacement 4 m"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Distance adds every segment of the path: 6 + 2 = 8 m. Displacement is the net change in position: 6 m east minus 2 m back west leaves 4 m east.",
+   "choiceExplanations": [
+    "",
+    "Reversed. Distance can never be smaller than the magnitude of the displacement.",
+    "The westward walk partly cancels the eastward walk in the displacement, so it is not 8 m.",
+    "4 m is the displacement only. Distance counts the whole path."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u1-q02",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-rep",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "On a position–time graph, a straight line that slopes downward (negative slope) shows that the object is…",
+   "choices": [
+    "speeding up in the negative direction",
+    "moving in the negative direction at constant velocity",
+    "at rest at a negative position",
+    "accelerating at a constant negative rate"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The slope of a position–time graph is velocity. A straight line has a constant slope, so the velocity is constant, and a negative slope means that velocity points in the negative direction.",
+   "choiceExplanations": [
+    "Speeding up would appear as a curve that gets steeper, not a straight line.",
+    "",
+    "Being at rest would be a horizontal line (zero slope), wherever it sits.",
+    "Constant acceleration gives a curved position–time graph. A straight line means zero acceleration."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u1-q03",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-dva",
+   "difficulty": "introductory",
+   "type": "numeric",
+   "prompt": "A car starts from rest and accelerates uniformly at 2.5 m/s² for 6.0 s. How far does it travel?",
+   "correctAnswer": 45,
+   "tolerance": 0.02,
+   "answerUnit": "m",
+   "explanation": "Starting from rest, Δx = ½at² = ½(2.5)(6.0)² = 45 m.",
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u1-q04",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-dva",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A ball is tossed straight up. At the very top of its flight, ignoring air resistance, which describes its velocity and acceleration?",
+   "choices": [
+    "Velocity zero, acceleration zero",
+    "Velocity zero, acceleration 9.8 m/s² upward",
+    "Velocity zero, acceleration 9.8 m/s² downward",
+    "Velocity 9.8 m/s downward, acceleration zero"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Gravity is the only influence on the ball the whole way, so its acceleration is 9.8 m/s² downward at every instant. At the top the velocity is momentarily zero while it changes from upward to downward.",
+   "choiceExplanations": [
+    "Zero velocity does not mean zero acceleration. The velocity is still changing.",
+    "An upward acceleration would make the ball speed up upward. Gravity points down.",
+    "",
+    "The velocity at the top is zero, and the acceleration is not zero."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u1-q05",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-dva",
+   "difficulty": "standard",
+   "type": "numeric",
+   "prompt": "A rock is dropped from rest from a bridge and hits the water 3.0 s later. How high is the bridge above the water? (Use g = 9.8 m/s² and ignore air resistance.)",
+   "correctAnswer": 44.1,
+   "tolerance": 0.03,
+   "answerUnit": "m",
+   "explanation": "Dropped from rest, Δy = ½gt² = ½(9.8)(3.0)² = 44.1 m. Using g = 10 m/s² gives 45 m, which is also accepted.",
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u1-q06",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-rep",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A velocity–time graph is a straight line from +4 m/s at t = 0 to −2 m/s at t = 3 s. Which statement is correct?",
+   "choices": [
+    "Acceleration is +2 m/s² because the speed first drops and then rises",
+    "Acceleration is zero at t = 2 s because the velocity is zero there",
+    "Acceleration is −2 m/s² and the displacement over the 3 s is +5 m",
+    "Acceleration is −2 m/s² and the displacement over the 3 s is +3 m"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The slope is (−2 − 4)/3 = −2 m/s². The line crosses zero at t = 2 s. The area above the axis is ½(2)(4) = +4 m and the area below is ½(1)(−2) = −1 m, so the net displacement is +3 m.",
+   "choiceExplanations": [
+    "The sign of the acceleration comes from the slope, which is negative the whole time, not from whether the speed rises or falls.",
+    "The slope is constant, so the acceleration is −2 m/s² even at the instant the velocity is zero.",
+    "5 m adds the areas as if both were positive (4 + 1). That is the distance traveled. Displacement subtracts the area below the axis.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u1-q07",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-dva",
+   "difficulty": "challenging",
+   "type": "numeric",
+   "prompt": "A car moving at 20 m/s brakes with constant acceleration and stops after traveling 50 m. How long does the stop take?",
+   "correctAnswer": 5,
+   "tolerance": 0.02,
+   "answerUnit": "s",
+   "explanation": "The average velocity is (20 + 0)/2 = 10 m/s, so t = 50 m ÷ 10 m/s = 5.0 s. Another route: a = v²/(2Δx) = 4 m/s², then t = v/a = 5.0 s.",
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u1-q08",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-dva",
+   "difficulty": "challenging",
+   "type": "numeric",
+   "prompt": "A ball is launched straight up at 12 m/s from ground level. How long until it returns to the ground? (Use g = 9.8 m/s² and ignore air resistance.)",
+   "correctAnswer": 2.45,
+   "tolerance": 0.03,
+   "answerUnit": "s",
+   "explanation": "Going up, v = v₀ − gt reaches zero at t = 12/9.8 ≈ 1.22 s. The trip down takes the same time, so the total is about 2.45 s. Equivalent: solve 0 = 12t − ½(9.8)t².",
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u1-q09",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-dva",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A car is moving east and slowing down. Which statement about its acceleration is correct?",
+   "choices": [
+    "It points east, because the car is moving east",
+    "It is zero, because the speed is changing steadily",
+    "It points west, opposite the velocity",
+    "It cannot be found without knowing the car's mass"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Slowing down means the velocity changes toward zero, so the change in velocity points opposite to the velocity, which is west. Acceleration points in the direction of the change in velocity.",
+   "choiceExplanations": [
+    "An eastward acceleration would make the eastbound car speed up.",
+    "A steady change in speed is a constant, nonzero acceleration.",
+    "",
+    "Kinematics describes motion without needing mass. The acceleration follows from how the velocity changes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u1-q10",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-ref",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "On a straight road, car A travels east at 30 m/s and car B, ahead of it, also travels east at 22 m/s. What is A's velocity relative to B?",
+   "choices": [
+    "52 m/s east",
+    "8 m/s east",
+    "8 m/s west",
+    "30 m/s east"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Relative velocity is v_A/B = v_A − v_B = 30 − 22 = +8 m/s, so A is gaining on B at 8 m/s to the east.",
+   "choiceExplanations": [
+    "Adding the speeds applies to objects approaching each other, not to two cars heading the same way.",
+    "",
+    "That would be B's velocity relative to A. Subtracting in the other order flips the sign.",
+    "30 m/s is A's velocity relative to the road, not relative to B."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u1-q11",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-ref",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A boat can move at 4.0 m/s relative to the water. The pilot points it straight across a 60 m wide river whose current flows downstream at 3.0 m/s. How far downstream is the boat carried by the time it reaches the far bank?",
+   "choices": [
+    "15 m",
+    "45 m",
+    "60 m",
+    "80 m"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The crossing time is 60 m ÷ 4.0 m/s = 15 s. During that time the current carries the boat 3.0 m/s × 15 s = 45 m downstream.",
+   "choiceExplanations": [
+    "15 is the crossing time in seconds (60 ÷ 4.0). Multiply it by the current speed to get the drift.",
+    "",
+    "The drift is not equal to the river's width. It depends on the current speed and the crossing time.",
+    "80 m comes from inverting a ratio (60 × 4/3). The drift is the current speed times the crossing time."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u1-q12",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-2d",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A ball rolls off the edge of a horizontal table with a horizontal speed of 2.0 m/s. Ignoring air resistance, what happens to its horizontal velocity while it falls?",
+   "choices": [
+    "It stays 2.0 m/s",
+    "It increases steadily",
+    "It decreases steadily",
+    "It becomes zero at the instant it leaves the table"
+   ],
+   "correctAnswer": 0,
+   "explanation": "No horizontal force acts on the ball once it leaves the table (air resistance is ignored), so its horizontal velocity is constant at 2.0 m/s. Only the vertical velocity changes.",
+   "choiceExplanations": [
+    "",
+    "Speeding up horizontally would need a horizontal force, and gravity acts only downward.",
+    "Slowing down horizontally would need a horizontal force such as air resistance, which is ignored here.",
+    "The ball keeps moving horizontally. Leaving the table removes the support force, not the horizontal velocity."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u1-q13",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-2d",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "At the same instant, ball 1 is dropped from rest from the edge of a table and ball 2 is launched horizontally from the same height. Ignoring air resistance, which ball hits the floor first?",
+   "choices": [
+    "Ball 1",
+    "Ball 2",
+    "They land at the same time",
+    "It depends on how fast ball 2 is launched"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The vertical motion is identical for both balls: each starts with zero vertical velocity and accelerates downward at g through the same height. The horizontal launch speed changes how far ball 2 travels, not how long it falls.",
+   "choiceExplanations": [
+    "Both start with zero vertical velocity and fall the same height, so neither lands first.",
+    "The horizontal launch does not change the vertical motion, so ball 2 neither takes longer nor less time.",
+    "",
+    "Horizontal speed changes the range but not the fall time, so the answer does not depend on the launch speed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u1-q14",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "topicId": "u1-2d",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A projectile is launched from level ground at 20 m/s at 30° above the horizontal. Ignoring air resistance, what is its speed at the top of its path?",
+   "choices": [
+    "0 m/s",
+    "10 m/s",
+    "17 m/s",
+    "20 m/s"
+   ],
+   "correctAnswer": 2,
+   "explanation": "At the top the vertical velocity is zero, but the horizontal velocity is unchanged: vₓ = 20 cos 30° ≈ 17.3 m/s. The speed there is that horizontal component.",
+   "choiceExplanations": [
+    "The vertical velocity is zero at the top, but the horizontal velocity is not.",
+    "10 m/s is the initial vertical component, 20 sin 30°. The horizontal component is the one that remains at the top.",
+    "",
+    "20 m/s is the launch speed. Part of that speed was in the vertical direction, which is zero at the top."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  }
+ ],
+ "videos": [
+  {
+   "id": "vid-ph1u1-1",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "title": "AP Physics 1 review of 1D motion",
+   "creator": "David SantoPietro (Khan Academy)",
+   "url": "https://oercommons.org/curated-collections/653",
+   "note": "This link opens the OER Commons High School Physics collection, where the video is listed. Look for the title above. It was made for an earlier version of the course (OER Commons lists it as added in 2018), so some topics may not match the 2024–25 revision exactly.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://oercommons.org/curated-collections/653",
+   "sourceTitle": "OER Commons: High School Physics collection",
+   "licenseOrRights": "Linked only, not embedded or copied. OER Commons lists the video under CC BY-NC-SA.",
+   "verified": "2026-10-09",
+   "scope": "general",
+   "kind": "collection page"
+  },
+  {
+   "id": "vid-ph1u1-2",
+   "courseId": "ap-physics-1",
+   "unitId": "u1",
+   "title": "AP Physics 1 review of 2D motion and vectors",
+   "creator": "David SantoPietro (Khan Academy)",
+   "url": "https://www.khanacademy.org/science/ap-physics-1/prepare-for-the-ap-physics-1-exam/ap-ap-physics-1-concept-review/v/ap-physics-1-review-of-2d-motion-and-vectors",
+   "note": "Covers the two-dimensional part of this unit. It was made for an earlier version of the course, so some details may differ from the 2024–25 revision.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://www.khanacademy.org/science/ap-physics-1/prepare-for-the-ap-physics-1-exam/ap-ap-physics-1-concept-review/v/ap-physics-1-review-of-2d-motion-and-vectors",
+   "sourceTitle": "Khan Academy video page",
+   "licenseOrRights": "Linked only, not embedded or copied. OER Commons lists the video under CC BY-NC-SA.",
+   "verified": "2026-10-09",
+   "scope": "unit",
+   "kind": "video"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course hub to browse released questions by year.",
+ "learnResources": []
+}

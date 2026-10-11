@@ -1,0 +1,444 @@
+{
+ "courseId": "ap-physics-1",
+ "unitId": "u2",
+ "title": "Unit 2: Force and Translational Dynamics",
+ "topics": [
+  {
+   "id": "u2-fbd",
+   "name": "Forces, free-body diagrams, and Newton's laws",
+   "covers": [
+    "Forces and free-body diagrams",
+    "Newton's First Law",
+    "Newton's Second Law",
+    "Newton's Third Law"
+   ]
+  },
+  {
+   "id": "u2-fric",
+   "name": "Friction and spring forces",
+   "covers": [
+    "Kinetic and static friction",
+    "Spring forces"
+   ]
+  },
+  {
+   "id": "u2-circ",
+   "name": "Gravity and circular motion",
+   "covers": [
+    "Gravitational force",
+    "Circular motion"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [
+  "Systems and center of mass"
+ ],
+ "guide": {
+  "title": "Force and translational dynamics: study guide",
+  "intro": "Dynamics connects forces to motion. Draw the forces on one object, add them as vectors to find the net force, and use Newton's second law to find the acceleration.",
+  "sections": [
+   {
+    "id": "s-u2-fbd",
+    "topicId": "u2-fbd",
+    "title": "Forces, free-body diagrams, and Newton's laws",
+    "body": [
+     "A free-body diagram shows only the forces acting on one object (or system), drawn as arrows from the object. Leave out forces the object exerts on other things, and never add a separate “force of motion”.",
+     "First law: with zero net force, velocity does not change. Second law: a = F_net/m, in the direction of the net force. Third law: if A pushes on B, then B pushes on A with an equal-size, opposite force. The two forces act on different objects, so they never cancel in one free-body diagram."
+    ],
+    "points": [
+     "Weight points down with magnitude mg. The normal force is perpendicular to a surface.",
+     "A scale reads the normal force. In an elevator accelerating upward, N = m(g + a)."
+    ],
+    "equations": [
+     [
+      "ΣF = ma",
+      "net force and acceleration"
+     ],
+     [
+      "F_g = mg",
+      "weight near Earth's surface"
+     ]
+    ]
+   },
+   {
+    "id": "s-u2-fric",
+    "topicId": "u2-fric",
+    "title": "Friction and spring forces",
+    "body": [
+     "Static friction adjusts to match the push, up to a maximum μs·N. Once the push exceeds that, the object slides and kinetic friction μk·N acts (usually smaller than the static maximum).",
+     "A spring exerts a restoring force proportional to its stretch or compression: F = −kx. The negative sign means the force points back toward the relaxed length."
+    ],
+    "points": [
+     "In the simple model, friction depends on the normal force, not on the contact area.",
+     "At constant velocity the net force is zero, so a pull balances kinetic friction."
+    ],
+    "equations": [
+     [
+      "f_s ≤ μs N",
+      "static friction limit"
+     ],
+     [
+      "f_k = μk N",
+      "kinetic friction"
+     ],
+     [
+      "F_s = −kx",
+      "spring force (Hooke's law)"
+     ]
+    ]
+   },
+   {
+    "id": "s-u2-circ",
+    "topicId": "u2-circ",
+    "title": "Gravity and circular motion",
+    "body": [
+     "An object in uniform circular motion accelerates toward the center even at constant speed, because its velocity direction keeps changing. The centripetal acceleration is a_c = v²/r, and the net force toward the center is mv²/r. “Centripetal force” is not a new force. It is the name for the inward net force provided by tension, friction, gravity, a normal force, or a combination.",
+     "The gravitational force between two masses is attractive and falls off with the square of the separation."
+    ],
+    "equations": [
+     [
+      "a_c = v²/r",
+      "centripetal acceleration"
+     ],
+     [
+      "F_g = G m₁m₂ / r²",
+      "law of universal gravitation"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 2.0 kg block on a rough floor is pulled by a 12 N horizontal force. The kinetic friction force is 4.0 N. Find the block's acceleration.",
+   "solution": "The net force is 12 − 4.0 = 8.0 N in the direction of the pull. a = F_net/m = 8.0/2.0 = 4.0 m/s² in the direction of the pull."
+  },
+  "misconceptions": [
+   [
+    "“An object in motion needs a net force to keep moving.”",
+    "A net force changes velocity. At constant velocity the net force is zero, as when a pull balances friction."
+   ],
+   [
+    "“The third-law force cancels the first force.”",
+    "The two forces act on different objects, so they cannot cancel in a free-body diagram of either one."
+   ],
+   [
+    "“Centripetal force is an extra force you draw on the diagram.”",
+    "It is the name for the net inward force. Identify the real force (tension, friction, gravity, normal) that provides it."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 1 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+  "sourceTitle": "AP Physics 1: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original text written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+  "isOriginal": true,
+  "verified": "2026-10-09"
+ },
+ "questions": [
+  {
+   "id": "ph1u2-q01",
+   "courseId": "ap-physics-1",
+   "unitId": "u2",
+   "topicId": "u2-fbd",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A book rests on a table. Which force is the Newton's-third-law partner of the table's upward force on the book?",
+   "choices": [
+    "Earth's gravitational pull on the book",
+    "The book's downward push on the table",
+    "The table's weight pulling on the floor",
+    "There is no partner because the book is not moving"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Third-law pairs act on different objects and are the same type of force. The table pushes up on the book, so the book pushes down on the table with an equal-size force.",
+   "choiceExplanations": [
+    "That force acts on the same object (the book) as the table's push. The two are equal here because the book is at rest, but they are not a third-law pair.",
+    "",
+    "That force involves the floor, not the book, so it cannot be the partner of the table's force on the book.",
+    "Third-law pairs exist at all times, whether or not the objects move."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u2-q02",
+   "courseId": "ap-physics-1",
+   "unitId": "u2",
+   "topicId": "u2-fbd",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 2.0 kg cart on a frictionless track is pushed by a net force of 6.0 N to the east. What is its acceleration?",
+   "choices": [
+    "0.33 m/s² east",
+    "3.0 m/s² east",
+    "8.0 m/s² east",
+    "12 m/s² east"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Newton's second law: a = F_net/m = 6.0 N ÷ 2.0 kg = 3.0 m/s², in the direction of the net force.",
+   "choiceExplanations": [
+    "That inverts the formula (mass ÷ force). Acceleration is force divided by mass.",
+    "",
+    "8.0 adds the force and the mass, which has no physical meaning.",
+    "12 multiplies the force and the mass. Acceleration is force divided by mass."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u2-q03",
+   "courseId": "ap-physics-1",
+   "unitId": "u2",
+   "topicId": "u2-fric",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A box is pulled across a rough floor at constant velocity by a horizontal rope. Which statement about the horizontal forces on the box is correct?",
+   "choices": [
+    "The rope's pull is greater than the friction force",
+    "The rope's pull equals the friction force in magnitude",
+    "There is no friction because the velocity is constant",
+    "The friction force is greater than the rope's pull"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Constant velocity means zero acceleration, so the net horizontal force is zero. The rope's pull and the kinetic friction force have equal magnitudes and opposite directions.",
+   "choiceExplanations": [
+    "A rope pull larger than friction would give a net forward force and make the box speed up.",
+    "",
+    "Constant velocity does not mean no friction. It means friction is balanced by the pull.",
+    "If friction were larger than the pull, the net force would point backward and the box would slow down."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u2-q04",
+   "courseId": "ap-physics-1",
+   "unitId": "u2",
+   "topicId": "u2-fric",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 10 kg crate rests on a rough floor with μs = 0.50 and μk = 0.30. A horizontal force of 40 N is applied. Use g = 10 m/s². What happens?",
+   "choices": [
+    "It slides with an acceleration of 1.0 m/s²",
+    "It stays at rest, and the friction force is 40 N",
+    "It stays at rest, and the friction force is 50 N",
+    "It slides at constant velocity"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The maximum static friction is μs·N = 0.50 × 100 N = 50 N. The 40 N push is less than that, so the crate does not move and static friction adjusts to balance the push exactly: 40 N.",
+   "choiceExplanations": [
+    "That treats the crate as already sliding with kinetic friction (30 N). It would start moving only if the push exceeded 50 N.",
+    "",
+    "50 N is the maximum static friction, not the actual friction. Static friction matches the applied force up to that limit.",
+    "Sliding at constant velocity would need the crate to be moving already, with a pull equal to kinetic friction (30 N)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u2-q05",
+   "courseId": "ap-physics-1",
+   "unitId": "u2",
+   "topicId": "u2-fric",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 0.50 kg block hangs at rest from a vertical spring and stretches it by 0.050 m. What is the spring constant? (Use g = 10 m/s².)",
+   "choices": [
+    "10 N/m",
+    "100 N/m",
+    "0.10 N/m",
+    "1000 N/m"
+   ],
+   "correctAnswer": 1,
+   "explanation": "At rest the spring force balances the weight: kx = mg, so k = mg/x = (0.50 × 10)/0.050 = 100 N/m.",
+   "choiceExplanations": [
+    "10 N/m uses the mass (0.50) instead of the weight (5.0 N): 0.50/0.050.",
+    "",
+    "0.10 N/m inverts the ratio. The spring constant is force divided by stretch.",
+    "1000 N/m is what you get by using 0.0050 m for the stretch, a unit slip."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u2-q06",
+   "courseId": "ap-physics-1",
+   "unitId": "u2",
+   "topicId": "u2-fbd",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Two blocks of mass 2.0 kg and 3.0 kg sit in contact on a frictionless table. A 10 N horizontal force pushes the 2.0 kg block, which pushes the 3.0 kg block. What force does the 2.0 kg block exert on the 3.0 kg block?",
+   "choices": [
+    "10 N",
+    "6.0 N",
+    "4.0 N",
+    "2.0 N"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Treat both blocks as one system: a = 10 N ÷ 5.0 kg = 2.0 m/s². The 3.0 kg block alone needs a net force of ma = 3.0 × 2.0 = 6.0 N, and the contact force from the 2.0 kg block is the only horizontal force on it.",
+   "choiceExplanations": [
+    "10 N is the applied force on the first block. Part of it accelerates the 2.0 kg block itself, so only a portion reaches the 3.0 kg block.",
+    "",
+    "4.0 N is the net force on the 2.0 kg block (10 − 6.0), not the contact force on the 3.0 kg block.",
+    "2.0 is the acceleration in m/s², not a force."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u2-q07",
+   "courseId": "ap-physics-1",
+   "unitId": "u2",
+   "topicId": "u2-circ",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A car goes around a flat circular curve of radius 80 m at a constant 20 m/s. What is the smallest coefficient of static friction that lets the car stay on the curve? (Use g = 10 m/s².)",
+   "choices": [
+    "0.025",
+    "0.50",
+    "5.0",
+    "20"
+   ],
+   "correctAnswer": 1,
+   "explanation": "On a flat curve, static friction provides the centripetal force: μmg ≥ mv²/R, so μ ≥ v²/(Rg) = 400/(80 × 10) = 0.50.",
+   "choiceExplanations": [
+    "0.025 comes from not squaring the speed (20 instead of 400).",
+    "",
+    "5.0 is the centripetal acceleration v²/R in m/s². Dividing that by g gives the coefficient.",
+    "20 is the speed itself. A coefficient of friction has no units and here equals v²/(Rg)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u2-q08",
+   "courseId": "ap-physics-1",
+   "unitId": "u2",
+   "topicId": "u2-fbd",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 60 kg person stands on a scale in an elevator that is accelerating upward at 2.0 m/s². What does the scale read? (Use g = 10 m/s².)",
+   "choices": [
+    "480 N",
+    "600 N",
+    "720 N",
+    "1200 N"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Take up as positive: N − mg = ma, so N = m(g + a) = 60 × (10 + 2.0) = 720 N. The scale reads the normal force, which is larger than the weight when accelerating upward.",
+   "choiceExplanations": [
+    "480 N would be m(g − a), the reading if the elevator accelerated downward.",
+    "600 N is the person's weight. It would be the reading only if the acceleration were zero.",
+    "",
+    "1200 N doubles the weight, which would need an upward acceleration equal to g."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u2-q09",
+   "courseId": "ap-physics-1",
+   "unitId": "u2",
+   "topicId": "u2-circ",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A car rounds a flat curve at 10 m/s with friction just large enough to hold it. If the car goes around the same curve at 20 m/s, what happens to the friction force needed?",
+   "choices": [
+    "It doubles",
+    "It quadruples",
+    "It stays the same",
+    "It is cut in half"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The centripetal force is mv²/r, which grows with the square of the speed. Doubling v multiplies the required force by 4.",
+   "choiceExplanations": [
+    "Doubling would happen only if the force were proportional to v. It is proportional to v².",
+    "",
+    "The needed force depends on speed, so it cannot stay the same.",
+    "A higher speed needs more inward force, not less."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u2-q10",
+   "courseId": "ap-physics-1",
+   "unitId": "u2",
+   "topicId": "u2-circ",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A person weighs 600 N on Earth. On a planet with twice Earth's mass and the same radius, what would the person's weight be?",
+   "choices": [
+    "300 N",
+    "600 N",
+    "1200 N",
+    "2400 N"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The gravitational force is G M m / R². With the same radius and double the mass, the force doubles: 2 × 600 N = 1200 N.",
+   "choiceExplanations": [
+    "Halving would need half the mass, not double.",
+    "The weight changes because the planet's mass is different.",
+    "",
+    "2400 N would need the force to grow with the square of the mass. It is proportional to the mass (first power)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  }
+ ],
+ "videos": [
+  {
+   "id": "vid-ph1u2-1",
+   "courseId": "ap-physics-1",
+   "unitId": "u2",
+   "title": "AP Physics 1 review of Forces and Newton's Laws",
+   "creator": "David SantoPietro (Khan Academy)",
+   "url": "https://oercommons.org/curated-collections/653",
+   "note": "This link opens the OER Commons High School Physics collection, where the video is listed. Look for the title above. It was made for an earlier version of the course (OER Commons lists it as added in 2018), so some topics may not match the 2024–25 revision exactly.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://oercommons.org/curated-collections/653",
+   "sourceTitle": "OER Commons: High School Physics collection",
+   "licenseOrRights": "Linked only, not embedded or copied. OER Commons lists the video under CC BY-NC-SA.",
+   "verified": "2026-10-09",
+   "scope": "general",
+   "kind": "collection page"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course hub to browse released questions by year.",
+ "learnResources": []
+}

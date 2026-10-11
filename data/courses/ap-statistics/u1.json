@@ -1,0 +1,382 @@
+{
+ "courseId": "ap-statistics",
+ "unitId": "u1",
+ "title": "Unit 1: Exploring One-Variable Data and Collecting Data",
+ "topics": [
+  {
+   "id": "st1-vars",
+   "name": "Variables and categorical data",
+   "covers": [
+    "Variables",
+    "Tabular Representation and Summary Statistics for One Categorical Variable",
+    "Graphical Representations for One Categorical Variable"
+   ]
+  },
+  {
+   "id": "st1-quant",
+   "name": "Describing quantitative data",
+   "covers": [
+    "Graphical Representations for One Quantitative Variable",
+    "Summary Statistics for One Quantitative Variable"
+   ]
+  },
+  {
+   "id": "st1-collect",
+   "name": "Collecting data: sampling and experiments",
+   "covers": [
+    "The Investigative Question Revisited and Data Collection",
+    "Random Sampling",
+    "Experimental Design"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Exploring one-variable data and collecting data: review guide",
+  "intro": "This unit is about describing a single variable and about how data are collected, which decides what conclusions are allowed.",
+  "sections": [
+   {
+    "id": "s-st1-vars",
+    "topicId": "st1-vars",
+    "title": "Variables and categorical data",
+    "body": [
+     "A categorical variable puts individuals into groups (eye colour, zip code). A quantitative variable is a number you can sensibly average (height, time). Summarise categorical data with counts or relative frequencies (count ÷ total), shown in bar charts or pie charts."
+    ],
+    "points": [
+     "Numbers that are labels (zip codes, jersey numbers) are categorical."
+    ]
+   },
+   {
+    "id": "s-st1-quant",
+    "topicId": "st1-quant",
+    "title": "Describing quantitative data",
+    "body": [
+     "Describe a distribution with shape, center, spread, and unusual values, in context. Use dotplots, histograms, stemplots, or boxplots."
+    ],
+    "points": [
+     "Skewed right: mean is usually greater than the median. Skewed left: mean is usually less than the median.",
+     "The median and IQR are resistant to outliers. The mean, standard deviation, and range are not.",
+     "Outlier rule: below Q1 − 1.5·IQR or above Q3 + 1.5·IQR."
+    ],
+    "equations": [
+     [
+      "IQR = Q3 − Q1",
+      "interquartile range"
+     ],
+     [
+      "x̄ = Σx/n",
+      "mean"
+     ]
+    ]
+   },
+   {
+    "id": "s-st1-collect",
+    "topicId": "st1-collect",
+    "title": "Sampling and experiments",
+    "body": [
+     "An observational study measures without intervening. An experiment imposes treatments. Only a well-designed experiment with random assignment supports cause-and-effect conclusions. Only random sampling supports generalising to the population."
+    ],
+    "points": [
+     "Simple random sample: every group of n individuals is equally likely.",
+     "Stratified: split into similar groups (strata) and take a random sample from each.",
+     "Cluster: split into groups, randomly pick whole groups.",
+     "Bias: voluntary response, undercoverage, nonresponse, and wording all push results one way.",
+     "Experiment principles: comparison, random assignment, control of other variables, replication. Blocking groups similar units before assigning treatments within each block."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A random sample of 200 students at a school was asked how many hours they sleep. Can the results be generalised? Can they show that sleep causes better grades?",
+   "solution": "Yes to the first: random sampling lets you generalise to all students at that school. No to the second: this is an observational study, so it cannot show cause and effect."
+  },
+  "misconceptions": [
+   [
+    "“A large sample fixes bias.”",
+    "A biased method gives biased results however large the sample is."
+   ],
+   [
+    "“Random sampling and random assignment are the same.”",
+    "Sampling decides who is studied (generalising). Assignment decides who gets which treatment (cause and effect)."
+   ],
+   [
+    "“Skewed right means most values are on the right.”",
+    "The long tail is on the right. Most values are on the left."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Statistics Course and Exam Description, effective fall 2026 (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-statistics-course-and-exam-description-effective-fall-2026.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+  "sourceTitle": "AP Statistics – AP Central (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+  "isOriginal": true,
+  "verified": "2026-10-11"
+ },
+ "questions": [
+  {
+   "id": "stat-u1-q01",
+   "courseId": "ap-statistics",
+   "unitId": "u1",
+   "topicId": "st1-vars",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which of these variables is categorical?",
+   "choices": [
+    "The zip code of a student's home",
+    "A student's number of siblings",
+    "The time a student takes to run a mile",
+    "A student's height in centimetres"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A zip code is a label that places students into groups. Its digits are not quantities, so averaging zip codes makes no sense.",
+   "choiceExplanations": [
+    "",
+    "Number of siblings is a count, which is quantitative.",
+    "Time is a measured quantity, so it is quantitative.",
+    "Height is a measured quantity, so it is quantitative."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u1-q02",
+   "courseId": "ap-statistics",
+   "unitId": "u1",
+   "topicId": "st1-vars",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In a survey of 80 students, 20 said basketball is their favourite sport. What is the relative frequency of basketball?",
+   "choices": [
+    "0.20",
+    "60",
+    "20",
+    "0.25"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Relative frequency is the count divided by the total: 20/80 = 0.25.",
+   "choiceExplanations": [
+    "0.20 divides by 100 instead of by the total of 80.",
+    "60 is the number of students who did not choose basketball.",
+    "20 is the count (frequency), not the relative frequency.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u1-q03",
+   "courseId": "ap-statistics",
+   "unitId": "u1",
+   "topicId": "st1-collect",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Researchers randomly assign 60 volunteers to sleep either 6 or 8 hours and then measure their reaction times. What kind of study is this?",
+   "choices": [
+    "A sample survey",
+    "An observational study",
+    "An experiment",
+    "A census"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The researchers impose a treatment (amount of sleep) and randomly assign it, so this is an experiment.",
+   "choiceExplanations": [
+    "A survey asks questions without assigning treatments.",
+    "An observational study does not impose treatments. Here the sleep amount is assigned.",
+    "",
+    "A census measures every member of a population. Here 60 volunteers are studied."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u1-q04",
+   "courseId": "ap-statistics",
+   "unitId": "u1",
+   "topicId": "st1-quant",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A distribution of household incomes is strongly skewed to the right. Which statement is most likely true?",
+   "choices": [
+    "The mean and median are equal",
+    "The mean is greater than the median",
+    "The IQR is greater than the range",
+    "The median is greater than the mean"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A few very large incomes pull the mean toward the long right tail. The median is resistant, so it stays lower.",
+   "choiceExplanations": [
+    "The mean and median are close only for roughly symmetric distributions.",
+    "",
+    "The IQR covers the middle half of the data, so it can never be larger than the range.",
+    "That pattern goes with a left-skewed distribution."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u1-q05",
+   "courseId": "ap-statistics",
+   "unitId": "u1",
+   "topicId": "st1-quant",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A data set has Q1 = 20 and Q3 = 30. Using the 1.5 × IQR rule, which value is an outlier?",
+   "choices": [
+    "48",
+    "35",
+    "42",
+    "8"
+   ],
+   "correctAnswer": 0,
+   "explanation": "IQR = 10, so the fences are 20 − 15 = 5 and 30 + 15 = 45. Only 48 is beyond a fence.",
+   "choiceExplanations": [
+    "",
+    "35 is well inside both fences.",
+    "42 is below the upper fence of 45.",
+    "8 is above the lower fence of 5."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u1-q06",
+   "courseId": "ap-statistics",
+   "unitId": "u1",
+   "topicId": "st1-collect",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A school lists its students by grade and randomly selects 25 students from each grade. What kind of sample is this?",
+   "choices": [
+    "A convenience sample",
+    "A simple random sample",
+    "A cluster sample",
+    "A stratified random sample"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The population is split into groups (grades), and a random sample is taken from every group. That is stratified sampling.",
+   "choiceExplanations": [
+    "The students are chosen at random, not because they are easy to reach.",
+    "In a simple random sample every group of students is equally likely. Here each grade is guaranteed exactly 25.",
+    "A cluster sample would randomly choose whole groups, such as entire homerooms, and survey everyone in them.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u1-q07",
+   "courseId": "ap-statistics",
+   "unitId": "u1",
+   "topicId": "st1-collect",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Researchers compare two fertilizers using 20 plots: 10 in a sunny field and 10 in a shady field. Which design is best?",
+   "choices": [
+    "Let the farmer choose which plots get each fertilizer",
+    "Randomly assign all 20 plots without regard to field",
+    "Within each field, randomly assign 5 plots to each fertilizer",
+    "Use fertilizer A in the sunny field and fertilizer B in the shady field"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Sunlight affects growth, so block by field and randomly assign treatments within each block. That separates the fertilizer effect from the sunlight effect.",
+   "choiceExplanations": [
+    "Choices made by a person can introduce bias. Treatments should be randomly assigned.",
+    "This is random but ignores a known source of variation. Blocking by field gives a more precise comparison.",
+    "",
+    "This confounds fertilizer with sunlight. A difference could be due to either."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u1-q08",
+   "courseId": "ap-statistics",
+   "unitId": "u1",
+   "topicId": "st1-quant",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The data set 2, 4, 5, 9, 20 has mean 8 and median 5. If the value 20 is removed, what happens?",
+   "choices": [
+    "The mean decreases by 3 and the median does not change",
+    "The mean decreases by 3 and the median decreases by 0.5",
+    "Both the mean and the median decrease by 3",
+    "The median decreases by 3 and the mean decreases by 0.5"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The remaining values 2, 4, 5, 9 have mean 20/4 = 5 and median (4 + 5)/2 = 4.5. The mean drops by 3, the median by only 0.5.",
+   "choiceExplanations": [
+    "With four values left, the median becomes the average of the middle two, 4.5, so it does change.",
+    "",
+    "The median is resistant to the extreme value, so it drops much less than the mean.",
+    "This swaps the two changes. The mean is the measure pulled by the outlier."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-stat-u1-khan",
+   "courseId": "ap-statistics",
+   "unitId": "u1",
+   "title": "Khan Academy: Collecting data (sampling methods lesson)",
+   "provider": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/ap-statistics/gathering-data-ap/sampling-methods",
+   "scope": "unit",
+   "kind": "lesson page",
+   "note": "A Khan Academy lesson on sampling methods, one topic in this unit. It belongs to Khan Academy's AP Statistics course, which may be organised differently from the 2026-27 units.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://www.khanacademy.org/math/ap-statistics/gathering-data-ap/sampling-methods",
+   "sourceTitle": "Khan Academy lesson page",
+   "licenseOrRights": "Linked only, not embedded or copied. Content and rights belong to Khan Academy.",
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "res-stat-u1-openstax",
+   "courseId": "ap-statistics",
+   "unitId": "u1",
+   "title": "OpenStax Introductory Statistics 2e, 1.4 Experimental Design and Ethics",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-4-experimental-design-and-ethics",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free textbook section on this unit's main idea. It is written for a college course, so it may go beyond the AP Statistics scope.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/introductory-statistics-2e/pages/1-4-experimental-design-and-ethics",
+   "sourceTitle": "OpenStax Introductory Statistics 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Introductory Statistics 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions."
+}

@@ -1,0 +1,145 @@
+{
+ "id": "ap-statistics",
+ "name": "AP Statistics",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-statistics",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-statistics-course-and-exam-description-effective-fall-2026.pdf",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-statistics/exam/past-exam-questions",
+  "note": "Released questions before 2027 were written for the earlier nine-unit course, so some (for example, inference for slopes) fall outside the 2026-27 course.",
+  "releasedSets": [
+   {
+    "year": 2026,
+    "title": "2026 AP Statistics Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-statistics.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP Statistics Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-statistics.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP Statistics Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-statistics.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP Statistics Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-statistics.pdf"
+   }
+  ],
+  "setsNote": "Whole released exams (PDF, College Board). They are not matched to units, and they were written for the earlier course. Scoring guidelines are on the course's past-exam-questions page."
+ },
+ "source": {
+  "title": "AP Statistics – AP Central (College Board)",
+  "url": "https://apcentral.collegeboard.org/courses/ap-statistics",
+  "verified": "2026-10-11",
+  "note": "Unit titles confirmed on AP Central on 2026-10-11. College Board's revisions page says the revised course is effective for 2026-27 (first exam May 2027): the earlier Units 1–8 were consolidated into 5 units and inference for slopes was removed. Topic names are the \"topics may include\" lists on the AP Students course page (checked 2026-10-11), which are a selection, not the full framework."
+ },
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Exploring One-Variable Data and Collecting Data",
+   "status": "practice-ready",
+   "file": "data/courses/ap-statistics/u1.json",
+   "officialTopics": [
+    "Variables",
+    "Tabular Representation and Summary Statistics for One Categorical Variable",
+    "Graphical Representations for One Categorical Variable",
+    "Graphical Representations for One Quantitative Variable",
+    "Summary Statistics for One Quantitative Variable",
+    "The Investigative Question Revisited and Data Collection",
+    "Random Sampling",
+    "Experimental Design"
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Probability, Random Variables, and Probability Distributions",
+   "status": "practice-ready",
+   "file": "data/courses/ap-statistics/u2.json",
+   "officialTopics": [
+    "Estimating Probabilities Using Simulation",
+    "Introduction to Probability",
+    "Mutually Exclusive Events",
+    "Conditional Probability",
+    "Independent Events and Unions of Events",
+    "Introduction to Random Variables and Probability Distributions",
+    "The Binomial Distribution",
+    "The Normal Distribution"
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Inference for Categorical Data: Proportions",
+   "status": "practice-ready",
+   "file": "data/courses/ap-statistics/u3.json",
+   "officialTopics": [
+    "Estimators",
+    "Sampling Distributions for Sample Proportions",
+    "Constructing a Confidence Interval for a Population Proportion",
+    "Setting Up a Test for a Population Proportion",
+    "Justifying a Claim Based on a Confidence Interval for the Difference Between Two Population Proportions",
+    "Carrying Out a Test for the Difference Between Two Population Proportions",
+    "Carrying Out a Chi-Square Test for Homogeneity or Independence"
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Inference for Quantitative Data: Means",
+   "status": "practice-ready",
+   "file": "data/courses/ap-statistics/u4.json",
+   "officialTopics": [
+    "Sampling Distributions for Sample Means",
+    "Constructing a Confidence Interval for a Population Mean or Population Mean Difference",
+    "Setting Up a Test for a Population Mean or Population Mean Difference",
+    "Sampling Distributions for the Difference Between Two Sample Means",
+    "Justifying a Claim Based on a Confidence Interval for the Difference Between Two Population Means",
+    "Carrying Out a Test for the Difference Between Two Population Means"
+   ]
+  },
+  {
+   "id": "u5",
+   "name": "Unit 5: Regression Analysis",
+   "status": "practice-ready",
+   "file": "data/courses/ap-statistics/u5.json",
+   "officialTopics": [
+    "Graphical Representations Between Two Quantitative Variables",
+    "Correlation",
+    "Linear Regression Models",
+    "Least-Squares Regression"
+   ]
+  }
+ ],
+ "generalResources": [
+  {
+   "id": "gen-stat-openstax",
+   "title": "OpenStax Introductory Statistics 2e (whole book)",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/details/books/introductory-statistics-2e",
+   "scope": "general",
+   "kind": "textbook",
+   "note": "General: a free introductory statistics textbook. Not specific to one unit.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/details/books/introductory-statistics-2e",
+   "sourceTitle": "OpenStax book page",
+   "licenseOrRights": "Linked only. OpenStax lists the book under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "gen-stat-apstudents",
+   "title": "AP Statistics course overview (College Board)",
+   "provider": "College Board",
+   "url": "https://apstudents.collegeboard.org/courses/ap-statistics",
+   "scope": "general",
+   "kind": "course page",
+   "note": "General: the official overview of the course and exam. It is not a lesson.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-statistics",
+   "sourceTitle": "AP Students course page",
+   "licenseOrRights": "Linked only. College Board content is not copied.",
+   "verified": "2026-10-11"
+  }
+ ]
+}

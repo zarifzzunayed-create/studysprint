@@ -1,0 +1,384 @@
+{
+ "courseId": "ap-statistics",
+ "unitId": "u5",
+ "title": "Unit 5: Regression Analysis",
+ "topics": [
+  {
+   "id": "st5-scatter",
+   "name": "Scatterplots and association",
+   "covers": [
+    "Graphical Representations Between Two Quantitative Variables"
+   ]
+  },
+  {
+   "id": "st5-corr",
+   "name": "Correlation",
+   "covers": [
+    "Correlation"
+   ]
+  },
+  {
+   "id": "st5-lsrl",
+   "name": "Least-squares regression and residuals",
+   "covers": [
+    "Linear Regression Models",
+    "Least-Squares Regression"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Regression analysis: review guide",
+  "intro": "This unit describes relationships between two quantitative variables with scatterplots, correlation, and a least-squares regression line. Inference for the slope is not part of the 2026-27 course.",
+  "sections": [
+   {
+    "id": "s-st5-scatter",
+    "topicId": "st5-scatter",
+    "title": "Scatterplots",
+    "body": [
+     "Put the explanatory variable on the x-axis and the response on the y-axis. Describe direction, form, strength, and unusual points, in context."
+    ],
+    "points": [
+     "An association does not show cause and effect. A lurking variable may affect both variables."
+    ]
+   },
+   {
+    "id": "s-st5-corr",
+    "topicId": "st5-corr",
+    "title": "Correlation",
+    "body": [
+     "The correlation r measures the direction and strength of a linear association. It is between −1 and 1, has no units, and is not resistant to outliers."
+    ],
+    "points": [
+     "r = ±1 means all points lie exactly on a line. r near 0 means a weak linear association (there may still be a curved one).",
+     "r² is the fraction of the variation in y accounted for by the linear model with x."
+    ]
+   },
+   {
+    "id": "s-st5-lsrl",
+    "topicId": "st5-lsrl",
+    "title": "Least-squares regression and residuals",
+    "body": [
+     "The least-squares line ŷ = a + bx minimises the sum of squared residuals. Interpret the slope as the predicted change in y for each one-unit increase in x."
+    ],
+    "points": [
+     "Residual = actual y − predicted ŷ. A positive residual means the point is above the line.",
+     "A residual plot with no pattern suggests a linear model is appropriate. A curve suggests it is not.",
+     "Extrapolation (predicting far outside the x-values in the data) is unreliable."
+    ],
+    "equations": [
+     [
+      "ŷ = a + bx",
+      "regression line"
+     ],
+     [
+      "b = r·(s_y/s_x)",
+      "slope"
+     ],
+     [
+      "a = ȳ − b·x̄",
+      "the line passes through (x̄, ȳ)"
+     ],
+     [
+      "residual = y − ŷ",
+      ""
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A regression of exam score on hours studied gives ŷ = 52 + 6x. A student studied 4 hours and scored 70. Find the predicted score and the residual.",
+   "solution": "ŷ = 52 + 6(4) = 76. Residual = 70 − 76 = −6: the student scored 6 points below the prediction."
+  },
+  "misconceptions": [
+   [
+    "“Correlation shows causation.”",
+    "Only a randomized experiment can show cause and effect."
+   ],
+   [
+    "“r = 0 means no relationship.”",
+    "It means no linear relationship. The data might follow a curve."
+   ],
+   [
+    "“Residual = predicted − actual.”",
+    "It is actual − predicted."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Statistics Course and Exam Description, effective fall 2026 (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-statistics-course-and-exam-description-effective-fall-2026.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+  "sourceTitle": "AP Statistics – AP Central (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+  "isOriginal": true,
+  "verified": "2026-10-11"
+ },
+ "questions": [
+  {
+   "id": "stat-u5-q01",
+   "courseId": "ap-statistics",
+   "unitId": "u5",
+   "topicId": "st5-scatter",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A scatterplot shows that students who study more hours tend to have higher test scores. How is this association described?",
+   "choices": [
+    "Positive association",
+    "No association",
+    "Negative association",
+    "Proof that studying causes higher scores"
+   ],
+   "correctAnswer": 0,
+   "explanation": "As one variable increases the other tends to increase, which is a positive association.",
+   "choiceExplanations": [
+    "",
+    "There is a clear upward trend, so there is an association.",
+    "A negative association would show scores falling as hours rise.",
+    "An observational association does not prove cause and effect."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u5-q02",
+   "courseId": "ap-statistics",
+   "unitId": "u5",
+   "topicId": "st5-corr",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The correlation between two variables is r = −0.9. What does this tell you?",
+   "choices": [
+    "The slope of the regression line is −0.9",
+    "90% of the points lie on the regression line",
+    "There is a weak negative linear association",
+    "There is a strong negative linear association"
+   ],
+   "correctAnswer": 3,
+   "explanation": "|r| = 0.9 is close to 1, so the linear association is strong, and the negative sign means one variable tends to decrease as the other increases.",
+   "choiceExplanations": [
+    "The slope equals r only when the two standard deviations are equal. In general b = r·(s_y/s_x).",
+    "r does not count points on the line.",
+    "An r of −0.9 is close to −1, which is strong, not weak.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u5-q03",
+   "courseId": "ap-statistics",
+   "unitId": "u5",
+   "topicId": "st5-lsrl",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The regression line is ŷ = 12 + 3x. What is the predicted value of y when x = 5?",
+   "choices": [
+    "17",
+    "60",
+    "27",
+    "15"
+   ],
+   "correctAnswer": 2,
+   "explanation": "ŷ = 12 + 3(5) = 27.",
+   "choiceExplanations": [
+    "17 adds x to the intercept, leaving out the slope.",
+    "60 multiplies the intercept by x.",
+    "",
+    "15 adds the intercept and the slope without multiplying the slope by x."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u5-q04",
+   "courseId": "ap-statistics",
+   "unitId": "u5",
+   "topicId": "st5-lsrl",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For the line ŷ = 12 + 3x, a data point has x = 5 and y = 30. What is its residual?",
+   "choices": [
+    "−3",
+    "3",
+    "57",
+    "27"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Predicted ŷ = 27. Residual = actual − predicted = 30 − 27 = 3. The point is 3 units above the line.",
+   "choiceExplanations": [
+    "−3 subtracts in the wrong order. Residual = actual − predicted.",
+    "",
+    "57 adds the actual and predicted values.",
+    "27 is the predicted value, not the residual."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u5-q05",
+   "courseId": "ap-statistics",
+   "unitId": "u5",
+   "topicId": "st5-lsrl",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A regression of test score (points) on hours studied gives ŷ = 52 + 6x. How should the slope be interpreted?",
+   "choices": [
+    "For each additional hour studied, the predicted test score increases by 6 points",
+    "Studying explains 6% of the variation in scores",
+    "A student who studies 0 hours is predicted to score 6 points",
+    "Every student's score increases by exactly 6 points for each extra hour"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The slope is the predicted change in the response for a one-unit increase in the explanatory variable.",
+   "choiceExplanations": [
+    "",
+    "That describes r², not the slope.",
+    "The predicted score at 0 hours is the intercept, 52.",
+    "The line gives predicted (average) values. Individual students vary around it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u5-q06",
+   "courseId": "ap-statistics",
+   "unitId": "u5",
+   "topicId": "st5-corr",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For a linear regression, r = 0.9. Which statement about r² is correct?",
+   "choices": [
+    "About 81% of the points lie on the regression line",
+    "Predictions are correct about 81% of the time",
+    "r² = 0.9, the same as r",
+    "About 81% of the variation in y is accounted for by the linear model with x"
+   ],
+   "correctAnswer": 3,
+   "explanation": "r² = 0.9² = 0.81, the proportion of the variation in y explained by the linear relationship with x.",
+   "choiceExplanations": [
+    "r² does not count points on the line.",
+    "r² measures explained variation, not how often a prediction is exactly right.",
+    "r² is r squared: 0.81, not 0.9.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u5-q07",
+   "courseId": "ap-statistics",
+   "unitId": "u5",
+   "topicId": "st5-lsrl",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "For two variables, r = 0.6, s_x = 2, and s_y = 10. What is the slope of the least-squares regression line of y on x?",
+   "choices": [
+    "12",
+    "0.12",
+    "3",
+    "5"
+   ],
+   "correctAnswer": 2,
+   "explanation": "b = r·(s_y/s_x) = 0.6 × (10/2) = 3.",
+   "choiceExplanations": [
+    "12 multiplies r by both standard deviations instead of by their ratio.",
+    "0.12 uses s_x/s_y instead of s_y/s_x.",
+    "",
+    "5 is s_y/s_x without multiplying by r."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u5-q08",
+   "courseId": "ap-statistics",
+   "unitId": "u5",
+   "topicId": "st5-scatter",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Across many cities, the number of fire trucks and the amount of fire damage have r = 0.7. Which conclusion is most reasonable?",
+   "choices": [
+    "The correlation shows there is no relationship",
+    "The association may be explained by a lurking variable such as city size",
+    "Fire trucks cause fire damage",
+    "Removing fire trucks would reduce fire damage"
+   ],
+   "correctAnswer": 1,
+   "explanation": "This is observational data. Bigger cities tend to have both more fire trucks and more fire damage, so city size can explain the association.",
+   "choiceExplanations": [
+    "r = 0.7 shows a moderately strong positive association.",
+    "",
+    "Correlation in observational data does not show cause and effect.",
+    "That is a causal claim the data cannot support."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  }
+ ],
+ "videos": [
+  {
+   "id": "vid-stat-u5-khan",
+   "courseId": "ap-statistics",
+   "unitId": "u5",
+   "title": "Residual plots",
+   "creator": "Khan Academy",
+   "url": "https://en.khanacademy.org/math/ap-statistics/bivariate-data-ap/assessing-fit-least-squares-regression/v/residual-plots",
+   "note": "A Khan Academy video on residual plots, one topic in this unit.",
+   "scope": "unit",
+   "kind": "video",
+   "sourceType": "external-link",
+   "sourceUrl": "https://en.khanacademy.org/math/ap-statistics/bivariate-data-ap/assessing-fit-least-squares-regression/v/residual-plots",
+   "sourceTitle": "Khan Academy video page",
+   "licenseOrRights": "Linked only, not embedded or copied. Content and rights belong to Khan Academy.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "learnResources": [
+  {
+   "id": "res-stat-u5-openstax",
+   "courseId": "ap-statistics",
+   "unitId": "u5",
+   "title": "OpenStax Introductory Statistics 2e, 12.3 The Regression Equation",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free textbook section on this unit's main idea. It is written for a college course, so it may go beyond the AP Statistics scope.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/introductory-statistics-2e/pages/12-3-the-regression-equation",
+   "sourceTitle": "OpenStax Introductory Statistics 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Introductory Statistics 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions."
+}

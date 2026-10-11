@@ -1,0 +1,396 @@
+{
+ "courseId": "ap-physics-1",
+ "unitId": "u6",
+ "title": "Unit 6: Energy and Momentum of Rotating Systems",
+ "topics": [
+  {
+   "id": "u6-energy",
+   "name": "Rotational kinetic energy, torque, and work",
+   "covers": [
+    "Rotational kinetic energy",
+    "Torque and work"
+   ]
+  },
+  {
+   "id": "u6-amom",
+   "name": "Angular momentum and its conservation",
+   "covers": [
+    "Angular momentum and angular impulse",
+    "Conservation of angular momentum"
+   ]
+  },
+  {
+   "id": "u6-roll",
+   "name": "Rolling and orbiting satellites",
+   "covers": [
+    "Rolling",
+    "Motion of orbiting satellites"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Energy and momentum of rotating systems: study guide",
+  "intro": "This unit extends energy and momentum to spinning objects. Rotational kinetic energy, work done by torques, and angular momentum are the rotational counterparts of ideas you already know from translation.",
+  "sections": [
+   {
+    "id": "s-u6-energy",
+    "topicId": "u6-energy",
+    "title": "Rotational kinetic energy, torque, and work",
+    "body": [
+     "A rotating object has rotational kinetic energy K_rot = ½Iω². A torque that acts through an angle does work W = τθ (for a constant torque along the rotation axis), and the net work equals the change in rotational kinetic energy."
+    ],
+    "equations": [
+     [
+      "K_rot = ½Iω²",
+      "rotational kinetic energy"
+     ],
+     [
+      "W = τθ",
+      "work by a constant torque"
+     ],
+     [
+      "W_net = ΔK_rot",
+      "work–energy for rotation"
+     ]
+    ]
+   },
+   {
+    "id": "s-u6-amom",
+    "topicId": "u6-amom",
+    "title": "Angular momentum and its conservation",
+    "body": [
+     "The angular momentum of a rigid rotating object is L = Iω. A net external torque changes it: the angular impulse τΔt equals ΔL. If the net external torque is zero, L is conserved, so when the rotational inertia decreases the angular speed must increase, and the other way around."
+    ],
+    "points": [
+     "When a skater pulls in her arms, L stays the same but her kinetic energy rises, because she does work pulling her arms inward."
+    ],
+    "equations": [
+     [
+      "L = Iω",
+      "angular momentum"
+     ],
+     [
+      "τΔt = ΔL",
+      "angular impulse"
+     ],
+     [
+      "I₁ω₁ = I₂ω₂",
+      "conservation of angular momentum"
+     ]
+    ]
+   },
+   {
+    "id": "s-u6-roll",
+    "topicId": "u6-roll",
+    "title": "Rolling and orbiting satellites",
+    "body": [
+     "An object rolling without slipping has both translational and rotational kinetic energy, K = ½mv² + ½Iω², with v = ωr for its center. For equal mass and radius, an object with more of its mass far from the axis puts more of its energy into rotation and so moves more slowly down a slope.",
+     "For a satellite in a circular orbit, gravity provides the centripetal force: GMm/r² = mv²/r, so v = √(GM/r). Larger orbits mean slower speeds."
+    ],
+    "equations": [
+     [
+      "K = ½mv² + ½Iω²",
+      "rolling without slipping"
+     ],
+     [
+      "v = ωr",
+      "no-slip condition"
+     ],
+     [
+      "v = √(GM/r)",
+      "circular orbit speed"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A skater with I = 3.0 kg·m² spins at 2.0 rad/s. She pulls her arms in and her rotational inertia drops to 1.5 kg·m². Find her new angular speed and the change in her kinetic energy.",
+   "solution": "L = Iω = 3.0 × 2.0 = 6.0 kg·m²/s is conserved, so ω = L/I = 6.0/1.5 = 4.0 rad/s. K before: ½(3.0)(2.0)² = 6.0 J. K after: ½(1.5)(4.0)² = 12 J. Her kinetic energy increases by 6.0 J because she does work pulling her arms inward."
+  },
+  "misconceptions": [
+   [
+    "“Angular momentum conservation means the angular speed cannot change.”",
+    "It means L = Iω is constant. If I changes, ω changes."
+   ],
+   [
+    "“Heavier objects roll down a ramp faster.”",
+    "For rolling without slipping, the mass cancels. The mass distribution (rotational inertia compared with mr²) decides the speed."
+   ],
+   [
+    "“A satellite in orbit has no gravity acting on it.”",
+    "Gravity is the only force on it. The satellite is in continual free fall around the planet."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 1 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+  "sourceTitle": "AP Physics 1: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original text written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+  "isOriginal": true,
+  "verified": "2026-10-09"
+ },
+ "questions": [
+  {
+   "id": "ph1u6-q01",
+   "courseId": "ap-physics-1",
+   "unitId": "u6",
+   "topicId": "u6-energy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A rotating object has rotational inertia 0.40 kg·m² and spins at 5.0 rad/s. What is its rotational kinetic energy?",
+   "choices": [
+    "2.0 J",
+    "5.0 J",
+    "10 J",
+    "25 J"
+   ],
+   "correctAnswer": 1,
+   "explanation": "K_rot = ½Iω² = ½(0.40)(5.0)² = 5.0 J.",
+   "choiceExplanations": [
+    "2.0 is Iω (0.40 × 5.0), which is the angular momentum's number, not energy.",
+    "",
+    "10 J forgets the factor ½.",
+    "25 is ω² alone. Multiply by ½I as well."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u6-q02",
+   "courseId": "ap-physics-1",
+   "unitId": "u6",
+   "topicId": "u6-amom",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A disk with rotational inertia 2.0 kg·m² spins at 3.0 rad/s. What is its angular momentum?",
+   "choices": [
+    "0.67 kg·m²/s",
+    "5.0 kg·m²/s",
+    "6.0 kg·m²/s",
+    "18 kg·m²/s"
+   ],
+   "correctAnswer": 2,
+   "explanation": "L = Iω = 2.0 × 3.0 = 6.0 kg·m²/s.",
+   "choiceExplanations": [
+    "0.67 divides the rotational inertia by the angular speed. Angular momentum is their product.",
+    "5.0 adds the numbers. Angular momentum is a product.",
+    "",
+    "18 computes Iω² (2.0 × 3.0²). Angular momentum is Iω."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u6-q03",
+   "courseId": "ap-physics-1",
+   "unitId": "u6",
+   "topicId": "u6-amom",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A spinning figure skater pulls her arms in close to her body. What happens to her angular speed?",
+   "choices": [
+    "It increases",
+    "It decreases",
+    "It stays the same",
+    "It becomes zero"
+   ],
+   "correctAnswer": 0,
+   "explanation": "With no net external torque, angular momentum L = Iω is conserved. Pulling her arms in lowers her rotational inertia I, so ω must increase.",
+   "choiceExplanations": [
+    "",
+    "Pulling in lowers I. With L constant, a smaller I means a larger ω, not a smaller one.",
+    "Angular momentum is conserved, but L = Iω and I changes, so ω changes.",
+    "Nothing stops the rotation. Angular momentum is conserved."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u6-q04",
+   "courseId": "ap-physics-1",
+   "unitId": "u6",
+   "topicId": "u6-amom",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A skater spins at 2.0 rad/s with rotational inertia 4.0 kg·m². She pulls in her arms, reducing her rotational inertia to 1.0 kg·m². What is her new angular speed?",
+   "choices": [
+    "0.50 rad/s",
+    "2.0 rad/s",
+    "8.0 rad/s",
+    "32 rad/s"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Angular momentum is conserved: I₁ω₁ = I₂ω₂, so (4.0)(2.0) = (1.0)ω₂ and ω₂ = 8.0 rad/s.",
+   "choiceExplanations": [
+    "0.50 would result if ω fell along with I. They are inversely related when L is constant.",
+    "2.0 ignores the change in rotational inertia.",
+    "",
+    "32 scales by the square of the inertia ratio (4²). Angular speed scales with the ratio itself because L = Iω."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u6-q05",
+   "courseId": "ap-physics-1",
+   "unitId": "u6",
+   "topicId": "u6-roll",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A solid sphere and a thin hoop have the same mass and radius. Both are released from rest at the top of the same incline and roll without slipping. Which reaches the bottom first?",
+   "choices": [
+    "The hoop",
+    "The sphere",
+    "They arrive together",
+    "It depends on the mass"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Both convert the same gravitational potential energy into kinetic energy, split between translation and rotation. The hoop has more of its mass at the rim (greater rotational inertia), so more of its energy goes into rotation and less into translation. The sphere moves faster down the slope and wins.",
+   "choiceExplanations": [
+    "The hoop's larger rotational inertia sends more of its energy into rotation, which makes it slower.",
+    "",
+    "Different rotational inertia gives different accelerations, so they do not tie.",
+    "The mass cancels in this problem. The shape (how the mass is distributed) decides the comparison."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u6-q06",
+   "courseId": "ap-physics-1",
+   "unitId": "u6",
+   "topicId": "u6-roll",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A satellite moves in a circular orbit around Earth. If it is moved to a larger circular orbit, what happens to its orbital speed?",
+   "choices": [
+    "It increases",
+    "It decreases",
+    "It stays the same",
+    "It becomes zero"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Gravity supplies the centripetal force: GMm/r² = mv²/r gives v = √(GM/r). A larger r means a smaller orbital speed.",
+   "choiceExplanations": [
+    "Larger orbits are slower, not faster. Gravity is weaker farther out, so a smaller speed is enough.",
+    "",
+    "Orbital speed depends on the radius: v = √(GM/r).",
+    "An orbiting satellite must keep moving. Zero speed would mean it falls straight down."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u6-q07",
+   "courseId": "ap-physics-1",
+   "unitId": "u6",
+   "topicId": "u6-amom",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A disk with rotational inertia 2.0 kg·m² spins freely at 6.0 rad/s. A second, non-rotating disk with rotational inertia 1.0 kg·m² is dropped onto it, and the two stick and rotate about the same axis. What is the final angular speed?",
+   "choices": [
+    "2.0 rad/s",
+    "4.0 rad/s",
+    "6.0 rad/s",
+    "18 rad/s"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Angular momentum is conserved: (2.0)(6.0) = (2.0 + 1.0)ω, so ω = 12/3.0 = 4.0 rad/s.",
+   "choiceExplanations": [
+    "2.0 divides the original angular speed by 3, but the inertia only increases by a factor of 3.0/2.0.",
+    "",
+    "6.0 ignores the added rotational inertia. Adding inertia must lower the angular speed.",
+    "18 multiplies by 3. The total inertia increases, so the angular speed must go down."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u6-q08",
+   "courseId": "ap-physics-1",
+   "unitId": "u6",
+   "topicId": "u6-energy",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A wheel with rotational inertia 0.50 kg·m² starts from rest. A constant 4.0 N·m torque turns it through 3.0 rad. What is its angular speed afterward? (Ignore friction.)",
+   "choices": [
+    "3.5 rad/s",
+    "4.9 rad/s",
+    "6.9 rad/s",
+    "24 rad/s"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The work done is W = τθ = 4.0 × 3.0 = 12 J. This becomes rotational kinetic energy: ½(0.50)ω² = 12, so ω² = 48 and ω ≈ 6.9 rad/s.",
+   "choiceExplanations": [
+    "3.5 is √12, which skips dividing by ½I.",
+    "4.9 is √24. It forgets the ½ in the kinetic energy formula (ω² = 12/0.50).",
+    "",
+    "24 is 12 ÷ 0.50. That would be ω² only if the energy formula had no ½, and it still would not be a speed until you take the square root."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u6-q09",
+   "courseId": "ap-physics-1",
+   "unitId": "u6",
+   "topicId": "u6-energy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A constant torque of 4.0 N·m turns a wheel through an angle of 3.0 rad. How much work does the torque do?",
+   "choices": [
+    "0.75 J",
+    "7.0 J",
+    "12 J",
+    "36 J"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The work done by a constant torque is W = τθ = 4.0 × 3.0 = 12 J.",
+   "choiceExplanations": [
+    "0.75 divides the torque by the angle. Work is their product.",
+    "7.0 adds the numbers. Work is a product.",
+    "",
+    "36 J uses θ² (4.0 × 3.0²). Work is torque times the angle."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  }
+ ],
+ "videos": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course hub to browse released questions by year.",
+ "learnResources": []
+}

@@ -1,0 +1,409 @@
+{
+ "courseId": "ap-physics-1",
+ "unitId": "u3",
+ "title": "Unit 3: Work, Energy, and Power",
+ "topics": [
+  {
+   "id": "u3-work",
+   "name": "Work and kinetic energy",
+   "covers": [
+    "Translational kinetic energy",
+    "Work"
+   ]
+  },
+  {
+   "id": "u3-cons",
+   "name": "Potential energy and conservation of energy",
+   "covers": [
+    "Potential energy",
+    "Conservation of energy"
+   ]
+  },
+  {
+   "id": "u3-power",
+   "name": "Power",
+   "covers": [
+    "Power"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Work, energy, and power: study guide",
+  "intro": "Energy gives a second way to solve motion problems. Instead of tracking forces moment by moment, you track how energy is stored, transferred, and transformed between a starting state and an ending state.",
+  "sections": [
+   {
+    "id": "s-u3-work",
+    "topicId": "u3-work",
+    "title": "Work and kinetic energy",
+    "body": [
+     "Work is energy transferred by a force acting through a displacement: W = Fd cosθ, where θ is the angle between the force and the displacement. Only the part of the force along the motion does work. A force perpendicular to the motion, such as the normal force on a level floor, does none.",
+     "Translational kinetic energy is K = ½mv². The work–energy theorem says the net work on an object equals its change in kinetic energy."
+    ],
+    "equations": [
+     [
+      "W = Fd cosθ",
+      "work by a constant force"
+     ],
+     [
+      "K = ½mv²",
+      "translational kinetic energy"
+     ],
+     [
+      "W_net = ΔK",
+      "work–energy theorem"
+     ]
+    ]
+   },
+   {
+    "id": "s-u3-cons",
+    "topicId": "u3-cons",
+    "title": "Potential energy and conservation of energy",
+    "body": [
+     "Gravitational potential energy near Earth's surface changes by ΔU = mgΔh. A spring stores elastic potential energy U = ½kx². When only conservative forces (gravity, springs) do work, the total mechanical energy K + U stays constant. Friction converts mechanical energy into thermal energy, so K + U decreases by that amount."
+    ],
+    "points": [
+     "Choose a zero level for height and stay consistent.",
+     "Energy conservation is often quicker than forces: set K + U at the start equal to K + U at the end, adding the thermal energy produced if there is friction."
+    ],
+    "equations": [
+     [
+      "U_g = mgh",
+      "gravitational potential energy"
+     ],
+     [
+      "U_s = ½kx²",
+      "elastic potential energy"
+     ],
+     [
+      "K₁ + U₁ = K₂ + U₂ + E_thermal",
+      "energy bookkeeping"
+     ]
+    ]
+   },
+   {
+    "id": "s-u3-power",
+    "topicId": "u3-power",
+    "title": "Power",
+    "body": [
+     "Power is the rate of transferring energy: P = W/Δt. For a force acting on an object moving at velocity v, P = Fv when the force is parallel to the velocity. The unit is the watt (1 W = 1 J/s)."
+    ],
+    "equations": [
+     [
+      "P = W / Δt",
+      "average power"
+     ],
+     [
+      "P = Fv cosθ",
+      "power of a force on a moving object"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 0.50 kg ball is dropped from rest from 2.0 m above the floor. Find its speed just before impact (g = 10 m/s², no air resistance).",
+   "solution": "mgh = ½mv², so v = √(2gh) = √(2 × 10 × 2.0) = √40 ≈ 6.3 m/s. The mass cancels."
+  },
+  "misconceptions": [
+   [
+    "“Work is done whenever a force is applied.”",
+    "Work needs displacement along the force. A force perpendicular to the motion does no work, and holding a box still does no work on it."
+   ],
+   [
+    "“Energy is used up.”",
+    "Energy is transferred or transformed, not destroyed. Friction turns mechanical energy into thermal energy."
+   ],
+   [
+    "“Doubling the speed doubles the kinetic energy.”",
+    "K depends on v², so doubling the speed quadruples the kinetic energy."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 1 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+  "sourceTitle": "AP Physics 1: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original text written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+  "isOriginal": true,
+  "verified": "2026-10-09"
+ },
+ "questions": [
+  {
+   "id": "ph1u3-q01",
+   "courseId": "ap-physics-1",
+   "unitId": "u3",
+   "topicId": "u3-work",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "If an object's speed doubles, its translational kinetic energy…",
+   "choices": [
+    "doubles",
+    "quadruples",
+    "is cut in half",
+    "stays the same"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Kinetic energy is K = ½mv². Doubling v multiplies v² by 4, so K increases by a factor of 4.",
+   "choiceExplanations": [
+    "Doubling would happen only if K were proportional to v. It depends on v².",
+    "",
+    "Increasing the speed cannot reduce the kinetic energy.",
+    "Kinetic energy depends on speed, so it changes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u3-q02",
+   "courseId": "ap-physics-1",
+   "unitId": "u3",
+   "topicId": "u3-work",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A person pushes a box 3.0 m along the floor with a constant horizontal force of 50 N. How much work does the force do?",
+   "choices": [
+    "17 J",
+    "53 J",
+    "150 J",
+    "450 J"
+   ],
+   "correctAnswer": 2,
+   "explanation": "For a force along the displacement, W = Fd = 50 N × 3.0 m = 150 J.",
+   "choiceExplanations": [
+    "17 J divides force by distance. Work is force times distance.",
+    "53 J adds the numbers, but work is a product, W = Fd.",
+    "",
+    "450 J would use d², as in 50 × 3.0². Work is F times d, not times d²."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u3-q03",
+   "courseId": "ap-physics-1",
+   "unitId": "u3",
+   "topicId": "u3-power",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A motor does 600 J of work in 5.0 s. What is its average power?",
+   "choices": [
+    "3000 W",
+    "120 W",
+    "600 W",
+    "5.0 W"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Average power is work divided by time: P = W/Δt = 600 J ÷ 5.0 s = 120 W.",
+   "choiceExplanations": [
+    "3000 W multiplies work by time. Power is work divided by time.",
+    "",
+    "600 is the work in joules, not the power.",
+    "5.0 is the time in seconds. Power is work per unit time."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u3-q04",
+   "courseId": "ap-physics-1",
+   "unitId": "u3",
+   "topicId": "u3-work",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 20 N force pulls a sled 10 m along level ground. The force points 60° above the horizontal. How much work does this force do?",
+   "choices": [
+    "200 J",
+    "173 J",
+    "100 J",
+    "0 J"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Only the component of the force along the displacement does work: W = Fd cosθ = 20 × 10 × cos 60° = 100 J.",
+   "choiceExplanations": [
+    "200 J ignores the angle and treats the whole force as parallel to the motion.",
+    "173 J uses sin 60° instead of cos 60°. The component along the motion uses the cosine of the angle to the displacement.",
+    "",
+    "The force has a component along the motion, so it does positive work. Zero work would need a force perpendicular to the displacement."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u3-q05",
+   "courseId": "ap-physics-1",
+   "unitId": "u3",
+   "topicId": "u3-cons",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 2.0 kg ball is released from rest 5.0 m above the ground and falls freely. How fast is it moving just before it hits the ground? (Use g = 10 m/s² and ignore air resistance.)",
+   "choices": [
+    "5.0 m/s",
+    "7.1 m/s",
+    "10 m/s",
+    "50 m/s"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Energy conservation: mgh = ½mv², so v = √(2gh) = √(2 × 10 × 5.0) = √100 = 10 m/s.",
+   "choiceExplanations": [
+    "5.0 is just the height's number. The speed comes from v = √(2gh).",
+    "7.1 m/s is √(gh). That drops the factor of 2, which comes from the ½ in the kinetic energy.",
+    "",
+    "50 m/s would result from using v = gh. Energy conservation gives v² = 2gh."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u3-q06",
+   "courseId": "ap-physics-1",
+   "unitId": "u3",
+   "topicId": "u3-work",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 1000 kg car moving at 20 m/s brakes to a stop over 40 m with a constant braking force. What is the magnitude of that force?",
+   "choices": [
+    "2500 N",
+    "5000 N",
+    "10,000 N",
+    "200,000 N"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The work done by the brakes equals the loss of kinetic energy: Fd = ½mv² = ½(1000)(20)² = 200,000 J, so F = 200,000 J ÷ 40 m = 5000 N.",
+   "choiceExplanations": [
+    "2500 N applies the factor ½ twice.",
+    "",
+    "10,000 N forgets the ½ in the kinetic energy formula.",
+    "200,000 is the kinetic energy in joules, not the force. Divide by the stopping distance."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u3-q07",
+   "courseId": "ap-physics-1",
+   "unitId": "u3",
+   "topicId": "u3-cons",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 2.0 kg block slides down a rough incline, starting from rest at a height of 3.0 m. It reaches the bottom moving at 6.0 m/s. How much mechanical energy was converted to thermal energy? (Use g = 10 m/s².)",
+   "choices": [
+    "36 J",
+    "24 J",
+    "60 J",
+    "96 J"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The initial energy is mgh = 2.0 × 10 × 3.0 = 60 J. The final kinetic energy is ½(2.0)(6.0)² = 36 J. The remaining 60 − 36 = 24 J became thermal energy.",
+   "choiceExplanations": [
+    "36 J is the kinetic energy at the bottom, not the energy lost to friction.",
+    "",
+    "60 J is the starting potential energy. Only part of it became thermal energy. The rest is kinetic energy at the bottom.",
+    "96 J adds the two energies instead of subtracting."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u3-q08",
+   "courseId": "ap-physics-1",
+   "unitId": "u3",
+   "topicId": "u3-cons",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A spring with k = 400 N/m is compressed 0.10 m and used to launch a 0.50 kg block along a frictionless horizontal surface. How fast is the block moving once it leaves the spring?",
+   "choices": [
+    "2.0 m/s",
+    "2.8 m/s",
+    "4.0 m/s",
+    "8.0 m/s"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The stored energy is ½kx² = ½(400)(0.10)² = 2.0 J. All of it becomes kinetic energy: ½(0.50)v² = 2.0 J, so v² = 8.0 and v ≈ 2.8 m/s.",
+   "choiceExplanations": [
+    "2.0 is the stored energy in joules, not a speed. Set it equal to ½mv².",
+    "",
+    "4.0 m/s comes from dropping the ½ in the spring energy (kx² = 4.0 J) and solving again.",
+    "8.0 is v², not v. Take the square root to get the speed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u3-q09",
+   "courseId": "ap-physics-1",
+   "unitId": "u3",
+   "topicId": "u3-power",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 50 kg student climbs a 4.0 m staircase at a steady pace in 8.0 s. What average power does the climbing require? (Use g = 10 m/s².)",
+   "choices": [
+    "25 W",
+    "250 W",
+    "2000 W",
+    "16,000 W"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The work against gravity is mgh = 50 × 10 × 4.0 = 2000 J. The average power is 2000 J ÷ 8.0 s = 250 W.",
+   "choiceExplanations": [
+    "25 W is ten times too small, for example from using g = 1 or dropping a zero.",
+    "",
+    "2000 is the work in joules. Divide by the time (8.0 s).",
+    "16,000 W multiplies the work by the time instead of dividing."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  }
+ ],
+ "videos": [
+  {
+   "id": "vid-ph1u3-1",
+   "courseId": "ap-physics-1",
+   "unitId": "u3",
+   "title": "AP Physics 1 review of Energy and Work",
+   "creator": "David SantoPietro (Khan Academy)",
+   "url": "https://oercommons.org/curated-collections/653",
+   "note": "This link opens the OER Commons High School Physics collection, where the video is listed. Look for the title above. It was made for an earlier version of the course (OER Commons lists it as added in 2018), so some topics may not match the 2024–25 revision exactly.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://oercommons.org/curated-collections/653",
+   "sourceTitle": "OER Commons: High School Physics collection",
+   "licenseOrRights": "Linked only, not embedded or copied. OER Commons lists the video under CC BY-NC-SA.",
+   "verified": "2026-10-09",
+   "scope": "general",
+   "kind": "collection page"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course hub to browse released questions by year.",
+ "learnResources": []
+}

@@ -1,0 +1,399 @@
+{
+ "courseId": "ap-statistics",
+ "unitId": "u3",
+ "title": "Unit 3: Inference for Categorical Data: Proportions",
+ "topics": [
+  {
+   "id": "st3-samp",
+   "name": "Estimators and sampling distributions of proportions",
+   "covers": [
+    "Estimators",
+    "Sampling Distributions for Sample Proportions"
+   ]
+  },
+  {
+   "id": "st3-ci",
+   "name": "Confidence intervals for proportions",
+   "covers": [
+    "Constructing a Confidence Interval for a Population Proportion",
+    "Justifying a Claim Based on a Confidence Interval for the Difference Between Two Population Proportions"
+   ]
+  },
+  {
+   "id": "st3-test",
+   "name": "Significance tests and chi-square tests",
+   "covers": [
+    "Setting Up a Test for a Population Proportion",
+    "Carrying Out a Test for the Difference Between Two Population Proportions",
+    "Carrying Out a Chi-Square Test for Homogeneity or Independence"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Inference for categorical data: review guide",
+  "intro": "This unit uses sample proportions to estimate and test claims about population proportions, and uses chi-square tests for relationships between categorical variables.",
+  "sections": [
+   {
+    "id": "s-st3-samp",
+    "topicId": "st3-samp",
+    "title": "Sampling distributions of a proportion",
+    "body": [
+     "A sample proportion p̂ varies from sample to sample. Its sampling distribution has mean p (so p̂ is unbiased) and a spread that shrinks as n grows. It is approximately normal when np ≥ 10 and n(1 − p) ≥ 10."
+    ],
+    "points": [
+     "An estimator is unbiased when its sampling distribution is centered on the parameter. Larger samples reduce variability, not bias."
+    ],
+    "equations": [
+     [
+      "μ_p̂ = p,  σ_p̂ = √(p(1 − p)/n)",
+      ""
+     ],
+     [
+      "σ for p̂₁ − p̂₂ = √(p₁(1 − p₁)/n₁ + p₂(1 − p₂)/n₂)",
+      "difference of two proportions"
+     ]
+    ]
+   },
+   {
+    "id": "s-st3-ci",
+    "topicId": "st3-ci",
+    "title": "Confidence intervals",
+    "body": [
+     "A confidence interval is estimate ± margin of error. The confidence level describes the method: in many samples, about that share of intervals would capture the true parameter. Check random sampling, 10% condition, and large counts."
+    ],
+    "points": [
+     "To halve the margin of error, use about four times the sample size.",
+     "For a difference p₁ − p₂: if the interval contains 0, there is no convincing evidence of a difference. If it is entirely above or below 0, there is."
+    ],
+    "equations": [
+     [
+      "p̂ ± z*·√(p̂(1 − p̂)/n)",
+      "one-proportion z-interval"
+     ],
+     [
+      "z* = 1.645 (90%), 1.96 (95%), 2.576 (99%)",
+      ""
+     ]
+    ]
+   },
+   {
+    "id": "s-st3-test",
+    "topicId": "st3-test",
+    "title": "Significance tests and chi-square tests",
+    "body": [
+     "State H₀ and Hₐ about a parameter, check conditions, compute a test statistic and p-value, then compare with α. A small p-value means the data would be unusual if H₀ were true."
+    ],
+    "points": [
+     "Reject H₀ when p-value < α. Otherwise “fail to reject”; never “accept H₀”.",
+     "Type I error: rejecting a true H₀. Type II error: failing to reject a false H₀.",
+     "Chi-square test for independence: one sample, two categorical variables. For homogeneity: separate samples or groups, one categorical variable. Expected count = (row total × column total)/table total. df = (rows − 1)(columns − 1)."
+    ],
+    "equations": [
+     [
+      "z = (p̂ − p₀)/√(p₀(1 − p₀)/n)",
+      "one-proportion z-test"
+     ],
+     [
+      "χ² = Σ (observed − expected)²/expected",
+      "chi-square statistic"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "In a random sample of 400 voters, 220 support a proposal. Is this convincing evidence that more than half support it (α = 0.05)?",
+   "solution": "H₀: p = 0.5, Hₐ: p > 0.5. p̂ = 0.55. z = (0.55 − 0.5)/√(0.25/400) = 0.05/0.025 = 2.0, so the p-value ≈ 0.023 < 0.05. Reject H₀: there is convincing evidence that more than half of voters support it."
+  },
+  "misconceptions": [
+   [
+    "“A 95% interval means a 95% chance the parameter is inside.”",
+    "The parameter is fixed. 95% describes how often the method captures it."
+   ],
+   [
+    "“A large p-value proves H₀.”",
+    "It only means the data are not unusual under H₀. Fail to reject; don't accept."
+   ],
+   [
+    "“Hypotheses are about p̂.”",
+    "Hypotheses are about the population parameter p."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Statistics Course and Exam Description, effective fall 2026 (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-statistics-course-and-exam-description-effective-fall-2026.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+  "sourceTitle": "AP Statistics – AP Central (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+  "isOriginal": true,
+  "verified": "2026-10-11"
+ },
+ "questions": [
+  {
+   "id": "stat-u3-q01",
+   "courseId": "ap-statistics",
+   "unitId": "u3",
+   "topicId": "st3-samp",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The true proportion is p = 0.4 and the sample size is n = 100. What is the standard deviation of the sampling distribution of p̂?",
+   "choices": [
+    "0.4",
+    "0.24",
+    "About 0.049",
+    "0.0024"
+   ],
+   "correctAnswer": 2,
+   "explanation": "σ = √(p(1 − p)/n) = √(0.4 × 0.6/100) = √0.0024 ≈ 0.049.",
+   "choiceExplanations": [
+    "0.4 is the mean of the sampling distribution, not its standard deviation.",
+    "0.24 is p(1 − p), without dividing by n or taking the square root.",
+    "",
+    "0.0024 is the variance. Take the square root."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u3-q02",
+   "courseId": "ap-statistics",
+   "unitId": "u3",
+   "topicId": "st3-ci",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 95% confidence interval for the proportion of voters who support a candidate is (0.52, 0.60). Which interpretation is correct?",
+   "choices": [
+    "There is a 95% probability that the sample proportion is between 0.52 and 0.60",
+    "We are 95% confident that the interval from 0.52 to 0.60 captures the true proportion of all voters who support the candidate",
+    "95% of voters support the candidate between 52% and 60% of the time",
+    "95% of all samples will give a sample proportion between 0.52 and 0.60"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A confidence interval estimates the population proportion. The confidence comes from the method capturing the true value in about 95% of samples.",
+   "choiceExplanations": [
+    "The sample proportion is known exactly (it is the center, 0.56). The interval is about the population proportion.",
+    "",
+    "This confuses the interval with how often individual voters hold an opinion.",
+    "Different samples give different intervals. The 95% refers to how often intervals capture p, not where p̂ lands."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u3-q03",
+   "courseId": "ap-statistics",
+   "unitId": "u3",
+   "topicId": "st3-test",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A company claims that 30% of its customers use its app. A researcher suspects the true proportion is higher. Which hypotheses fit?",
+   "choices": [
+    "H₀: p = 0.30, Hₐ: p > 0.30",
+    "H₀: p̂ = 0.30, Hₐ: p̂ > 0.30",
+    "H₀: p > 0.30, Hₐ: p = 0.30",
+    "H₀: p = 0.30, Hₐ: p ≠ 0.30"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Hypotheses are about the population parameter p. The claim goes in H₀, and the suspicion that it is higher gives a one-sided Hₐ.",
+   "choiceExplanations": [
+    "",
+    "Hypotheses are about the parameter p, not the sample statistic p̂.",
+    "The null hypothesis states equality, and the researcher's suspicion belongs in Hₐ.",
+    "The researcher suspects higher, so the alternative is one-sided, not two-sided."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u3-q04",
+   "courseId": "ap-statistics",
+   "unitId": "u3",
+   "topicId": "st3-ci",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a random sample of 150 people, p̂ = 0.60. What is the 95% confidence interval for p?",
+   "choices": [
+    "About (0.534, 0.666)",
+    "(0.56, 0.64)",
+    "About (0.597, 0.603)",
+    "About (0.522, 0.678)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "SE = √(0.6 × 0.4/150) = √0.0016 = 0.04. Margin = 1.96 × 0.04 ≈ 0.078, so the interval is 0.60 ± 0.078.",
+   "choiceExplanations": [
+    "This uses z* = 1.645, the 90% critical value.",
+    "This adds and subtracts the standard error without multiplying by z*.",
+    "This multiplies z* by 0.0016 without taking the square root.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u3-q05",
+   "courseId": "ap-statistics",
+   "unitId": "u3",
+   "topicId": "st3-test",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A two-proportion test of H₀: p₁ = p₂ against Hₐ: p₁ ≠ p₂ gives a p-value of 0.03. With α = 0.05, what is the conclusion?",
+   "choices": [
+    "Fail to reject H₀, because 0.03 is small",
+    "There is a 3% chance that H₀ is true",
+    "Reject H₀: there is convincing evidence that the two proportions differ",
+    "Accept H₀: the two proportions are equal"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The p-value (0.03) is below α (0.05), so the result is statistically significant. Reject H₀ and state the conclusion in context.",
+   "choiceExplanations": [
+    "A small p-value leads to rejecting H₀, not failing to reject it.",
+    "A p-value is the probability of data this extreme if H₀ were true, not the probability that H₀ is true.",
+    "",
+    "You never accept H₀, and here the evidence goes against it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u3-q06",
+   "courseId": "ap-statistics",
+   "unitId": "u3",
+   "topicId": "st3-test",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "H₀: a new drug is no more effective than the current drug. What is a Type I error in this context?",
+   "choices": [
+    "Choosing a significance level that is too small",
+    "Concluding the new drug is more effective when it actually is not",
+    "Concluding the new drug is more effective when it actually is",
+    "Concluding the new drug is not more effective when it actually is"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A Type I error rejects a true H₀: deciding the new drug is better when it is not.",
+   "choiceExplanations": [
+    "Choosing α is a decision about risk, not a Type I error itself.",
+    "",
+    "That is a correct decision, not an error.",
+    "That fails to reject a false H₀, which is a Type II error."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u3-q07",
+   "courseId": "ap-statistics",
+   "unitId": "u3",
+   "topicId": "st3-test",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "From one random sample of adults, researchers record each person's age group (3 groups) and preferred news source (4 sources). They want to know whether the two variables are associated. Which test fits, and with how many degrees of freedom?",
+   "choices": [
+    "Chi-square test for independence, df = 6",
+    "Chi-square test for homogeneity, df = 6",
+    "Two-proportion z-test, df = 6",
+    "Chi-square test for independence, df = 11"
+   ],
+   "correctAnswer": 0,
+   "explanation": "One sample classified by two categorical variables calls for a test of independence. df = (3 − 1)(4 − 1) = 6.",
+   "choiceExplanations": [
+    "",
+    "Homogeneity compares separate samples or groups. Here there is one sample with two variables.",
+    "A two-proportion test compares one proportion in two groups. These variables have 3 and 4 categories.",
+    "df = (rows − 1)(columns − 1) = 6, not the number of cells minus 1."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u3-q08",
+   "courseId": "ap-statistics",
+   "unitId": "u3",
+   "topicId": "st3-samp",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A sample of n = 40 is taken from a population where p = 0.05. Can the sampling distribution of p̂ be treated as approximately normal?",
+   "choices": [
+    "Yes, because the sample was random",
+    "Yes, because n is at least 30",
+    "No, because p is less than 0.5",
+    "No, because np = 2 is less than 10"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The large counts condition needs np ≥ 10 and n(1 − p) ≥ 10. Here np = 40 × 0.05 = 2, so the distribution is right-skewed.",
+   "choiceExplanations": [
+    "Randomness is needed, but it does not make the shape normal.",
+    "n ≥ 30 is a rule for sample means. For proportions, check the expected counts.",
+    "p can be below 0.5 as long as np and n(1 − p) are both at least 10.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  }
+ ],
+ "videos": [
+  {
+   "id": "vid-stat-u3-khan",
+   "courseId": "ap-statistics",
+   "unitId": "u3",
+   "title": "Confidence intervals for the difference between two proportions",
+   "creator": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/ap-statistics/xfb5d8e68:inference-categorical-proportions/two-sample-z-interval-proportions/v/confidence-intervals-for-the-difference-between-two-proportions",
+   "note": "A Khan Academy video on two-proportion confidence intervals, one topic in this unit.",
+   "scope": "unit",
+   "kind": "video",
+   "sourceType": "external-link",
+   "sourceUrl": "https://www.khanacademy.org/math/ap-statistics/xfb5d8e68:inference-categorical-proportions/two-sample-z-interval-proportions/v/confidence-intervals-for-the-difference-between-two-proportions",
+   "sourceTitle": "Khan Academy video page",
+   "licenseOrRights": "Linked only, not embedded or copied. Content and rights belong to Khan Academy.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "learnResources": [
+  {
+   "id": "res-stat-u3-openstax",
+   "courseId": "ap-statistics",
+   "unitId": "u3",
+   "title": "OpenStax Introductory Statistics 2e, 8.3 A Population Proportion",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/8-3-a-population-proportion",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free textbook section on this unit's main idea. It is written for a college course, so it may go beyond the AP Statistics scope.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/introductory-statistics-2e/pages/8-3-a-population-proportion",
+   "sourceTitle": "OpenStax Introductory Statistics 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Introductory Statistics 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions."
+}

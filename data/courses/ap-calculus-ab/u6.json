@@ -1,0 +1,401 @@
+{
+ "courseId": "ap-calculus-ab",
+ "unitId": "u6",
+ "title": "Unit 6: Integration and Accumulation of Change",
+ "topics": [
+  {
+   "id": "cab6-sums",
+   "name": "Accumulation and Riemann sums",
+   "covers": [
+    "Using definite integrals to determine accumulated change over an interval",
+    "Approximating integrals using Riemann Sums"
+   ]
+  },
+  {
+   "id": "cab6-ftc",
+   "name": "The Fundamental Theorem of Calculus and accumulation functions",
+   "covers": [
+    "Accumulation functions, the Fundamental Theorem of Calculus, and definite integrals"
+   ]
+  },
+  {
+   "id": "cab6-anti",
+   "name": "Antiderivatives, integral properties, and substitution",
+   "covers": [
+    "Antiderivatives and indefinite integrals",
+    "Properties of integrals and integration techniques"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Integration and accumulation of change: review guide",
+  "intro": "A definite integral adds up a rate over an interval to give the total change. The Fundamental Theorem of Calculus connects integrals to antiderivatives.",
+  "sections": [
+   {
+    "id": "s-cab6-sums",
+    "topicId": "cab6-sums",
+    "title": "Accumulation and Riemann sums",
+    "body": [
+     "If r(t) is a rate, ∫ from a to b of r(t) dt is the net change in the quantity from t = a to t = b, in the quantity's units. Riemann sums approximate this with rectangles (left, right, or midpoint) or trapezoids."
+    ],
+    "points": [
+     "Width × height: multiply each function value by the subinterval width.",
+     "For unequal subintervals, use each width separately.",
+     "Area below the x-axis counts as negative in a definite integral."
+    ],
+    "equations": [
+     [
+      "Trapezoid: (Δx/2)[f(x₀) + 2f(x₁) + … + 2f(xₙ₋₁) + f(xₙ)]",
+      "equal widths"
+     ]
+    ]
+   },
+   {
+    "id": "s-cab6-ftc",
+    "topicId": "cab6-ftc",
+    "title": "The Fundamental Theorem of Calculus",
+    "body": [
+     "Part 1: an accumulation function g(x) = ∫ from a to x of f(t) dt has g′(x) = f(x). Part 2: ∫ from a to b of f(x) dx = F(b) − F(a) for any antiderivative F of f."
+    ],
+    "points": [
+     "If the upper limit is u(x), use the chain rule: d/dx ∫ from a to u(x) of f(t) dt = f(u(x)) · u′(x)."
+    ],
+    "equations": [
+     [
+      "d/dx ∫ₐˣ f(t) dt = f(x)",
+      "FTC part 1"
+     ],
+     [
+      "∫ₐᵇ f(x) dx = F(b) − F(a)",
+      "FTC part 2"
+     ]
+    ]
+   },
+   {
+    "id": "s-cab6-anti",
+    "topicId": "cab6-anti",
+    "title": "Antiderivatives, properties, and substitution",
+    "body": [
+     "Indefinite integrals need + C. For substitution, choose u as an inside function whose derivative also appears, rewrite everything in u, integrate, then substitute back."
+    ],
+    "points": [
+     "∫ₐᵇ f + ∫ᵇᶜ f = ∫ₐᶜ f, and swapping the limits changes the sign.",
+     "With a definite integral, either change the limits to u-values or substitute back before evaluating."
+    ],
+    "equations": [
+     [
+      "∫ xⁿ dx = xⁿ⁺¹/(n + 1) + C (n ≠ −1)",
+      ""
+     ],
+     [
+      "∫ 1/x dx = ln|x| + C",
+      ""
+     ],
+     [
+      "∫ eˣ dx = eˣ + C",
+      ""
+     ],
+     [
+      "∫ cos x dx = sin x + C",
+      ""
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Water flows into a tank at r(t) = 6t liters per minute. How much flows in during the first 2 minutes?",
+   "solution": "∫ from 0 to 2 of 6t dt = [3t²] from 0 to 2 = 12 liters."
+  },
+  "misconceptions": [
+   [
+    "“A definite integral is always an area.”",
+    "It is net signed area: parts below the axis subtract."
+   ],
+   [
+    "“Leaving off + C doesn't matter.”",
+    "An indefinite integral is a family of functions, so + C is part of the answer."
+   ],
+   [
+    "“d/dx ∫ from a to x² of f(t) dt = f(x²).”",
+    "Multiply by the derivative of the upper limit, 2x."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+  "sourceTitle": "AP Calculus AB – AP Central (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+  "isOriginal": true,
+  "verified": "2026-10-11"
+ },
+ "questions": [
+  {
+   "id": "cab-u6-q01",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u6",
+   "topicId": "cab6-sums",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "f(0) = 1, f(2) = 3, f(4) = 4, and f(6) = 6. Using three subintervals of equal width, what is the left Riemann sum for ∫ from 0 to 6 of f(x) dx?",
+   "choices": [
+    "8",
+    "16",
+    "21",
+    "26"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Each width is 2. The left sum uses the left endpoints 0, 2, and 4: 2(1 + 3 + 4) = 16.",
+   "choiceExplanations": [
+    "8 adds the heights without multiplying by the width of 2.",
+    "",
+    "21 is the trapezoidal sum, which averages each pair of endpoint values.",
+    "26 is the right Riemann sum: 2(3 + 4 + 6)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u6-q02",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u6",
+   "topicId": "cab6-anti",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is ∫ (3x² + 2) dx?",
+   "choices": [
+    "x³ + 2x + C",
+    "6x + C",
+    "x³ + 2 + C",
+    "x³ + 2x"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Antidifferentiate term by term: ∫ 3x² dx = x³ and ∫ 2 dx = 2x. Add the constant of integration.",
+   "choiceExplanations": [
+    "",
+    "6x is the derivative of 3x² + 2, not its antiderivative.",
+    "The antiderivative of the constant 2 is 2x, not 2.",
+    "An indefinite integral needs + C, because every function x³ + 2x + C has the same derivative."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u6-q03",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u6",
+   "topicId": "cab6-ftc",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is ∫ from 1 to 3 of 2x dx?",
+   "choices": [
+    "4",
+    "9",
+    "10",
+    "8"
+   ],
+   "correctAnswer": 3,
+   "explanation": "An antiderivative of 2x is x². Then 3² − 1² = 9 − 1 = 8.",
+   "choiceExplanations": [
+    "4 subtracts the integrand's values, f(3) − f(1) = 6 − 2. Use an antiderivative instead.",
+    "9 uses only the upper limit, F(3). Subtract F(1) = 1.",
+    "10 adds F(3) and F(1). FTC subtracts them.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u6-q04",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u6",
+   "topicId": "cab6-ftc",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx ∫ from 2 to x of cos(t²) dt?",
+   "choices": [
+    "sin(x²)",
+    "cos(x²) − cos(4)",
+    "cos(x²)",
+    "2x · cos(x²)"
+   ],
+   "correctAnswer": 2,
+   "explanation": "By FTC part 1, the derivative of an accumulation function with upper limit x is the integrand evaluated at x: cos(x²).",
+   "choiceExplanations": [
+    "There is no need to antidifferentiate. FTC part 1 returns the integrand.",
+    "The lower limit is a constant, so it contributes nothing to the derivative.",
+    "",
+    "The factor 2x would apply if the upper limit were x². Here it is x, whose derivative is 1."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u6-q05",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u6",
+   "topicId": "cab6-anti",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is ∫ 2x(x² + 1)³ dx?",
+   "choices": [
+    "x²(x² + 1)⁴/4 + C",
+    "(x² + 1)⁴/4 + C",
+    "(x² + 1)⁴/8 + C",
+    "2x(x² + 1)⁴/4 + C"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Let u = x² + 1, so du = 2x dx. The integral becomes ∫ u³ du = u⁴/4 + C = (x² + 1)⁴/4 + C.",
+   "choiceExplanations": [
+    "You cannot integrate each factor separately. Use substitution.",
+    "",
+    "The 2x is already used up by du = 2x dx. Dividing by 2 again is not needed.",
+    "After substitution the 2x is gone. It became part of du."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u6-q06",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u6",
+   "topicId": "cab6-sums",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Water flows into a tank at r(t) liters per minute. What does ∫ from 0 to 10 of r(t) dt represent?",
+   "choices": [
+    "The total liters that flow in during the first 10 minutes",
+    "The average rate of flow over the first 10 minutes",
+    "The amount of water in the tank at t = 10 minutes",
+    "The rate of flow at t = 10 minutes"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Integrating a rate over an interval gives the net change in the quantity, here the liters added from t = 0 to t = 10.",
+   "choiceExplanations": [
+    "",
+    "The average rate is this integral divided by 10.",
+    "The amount in the tank also depends on how much was there at t = 0, which this integral does not include.",
+    "The rate at t = 10 is r(10), a single value of the integrand."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u6-q07",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u6",
+   "topicId": "cab6-ftc",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "g(x) = ∫ from 1 to x² of (1/t) dt. What is g′(2)?",
+   "choices": [
+    "1/4",
+    "ln 4",
+    "2",
+    "1"
+   ],
+   "correctAnswer": 3,
+   "explanation": "By FTC and the chain rule, g′(x) = (1/x²) · 2x = 2/x. So g′(2) = 1.",
+   "choiceExplanations": [
+    "1/4 is 1/x² at x = 2, without the chain rule factor 2x.",
+    "ln 4 is g(2), the value of the integral, not its derivative.",
+    "2 evaluates 1/t at t = 2 instead of t = x² = 4, then multiplies by 2x = 4.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u6-q08",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u6",
+   "topicId": "cab6-anti",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "∫ from 0 to 5 of f(x) dx = 7 and ∫ from 3 to 5 of f(x) dx = 10. What is ∫ from 0 to 3 of f(x) dx?",
+   "choices": [
+    "3",
+    "17",
+    "−3",
+    "It cannot be found without knowing f"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Integrals over adjacent intervals add: ∫₀³ f + ∫₃⁵ f = ∫₀⁵ f. So ∫₀³ f = 7 − 10 = −3.",
+   "choiceExplanations": [
+    "The sign is wrong: the part from 0 to 3 must be 7 − 10, not 10 − 7.",
+    "17 adds the two integrals. The interval [0, 3] is the whole interval minus [3, 5].",
+    "",
+    "The additivity property is enough. You do not need the formula for f."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  }
+ ],
+ "videos": [
+  {
+   "id": "vid-cab-u6-khan",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u6",
+   "title": "Exploring the fundamental theorem of calculus and definite integrals",
+   "creator": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-7/v/connecting-the-first-and-second-fundamental-theorems-of-calculus",
+   "note": "A Khan Academy video on the Fundamental Theorem of Calculus, one topic in this unit.",
+   "scope": "unit",
+   "kind": "video",
+   "sourceType": "external-link",
+   "sourceUrl": "https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-7/v/connecting-the-first-and-second-fundamental-theorems-of-calculus",
+   "sourceTitle": "Khan Academy video page",
+   "licenseOrRights": "Linked only, not embedded or copied. Content and rights belong to Khan Academy.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "learnResources": [
+  {
+   "id": "res-cab-u6-openstax",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u6",
+   "title": "OpenStax Calculus Volume 1, 5.3 The Fundamental Theorem of Calculus",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/5-3-the-fundamental-theorem-of-calculus",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free textbook section on this unit's main idea. It is written for college calculus, so it may go beyond the AP Calculus AB scope.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/calculus-volume-1/pages/5-3-the-fundamental-theorem-of-calculus",
+   "sourceTitle": "OpenStax Calculus Volume 1",
+   "licenseOrRights": "Linked only. OpenStax lists Calculus Volume 1 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions."
+}

@@ -1,0 +1,142 @@
+{
+ "id": "ap-physics-1",
+ "name": "AP Physics 1: Algebra-Based",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-physics-1",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description.pdf",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-physics-1/exam/past-exam-questions",
+  "note": "College Board states that, after the 2024–25 AP Physics course and exam revisions, the questions and scoring information on its past-exam-questions page do not completely align with the current AP Physics 1 exam."
+ },
+ "source": {
+  "title": "AP Physics 1: Algebra-Based – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+  "verified": "2026-10-09",
+  "note": null
+ },
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Kinematics",
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-1/u1.json",
+   "officialTopics": [
+    "Scalars and vectors in one dimension",
+    "Displacement, velocity, and acceleration",
+    "Representing motion",
+    "Reference frames and relative motion",
+    "Vectors and motion in two dimensions"
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Force and Translational Dynamics",
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-1/u2.json",
+   "officialTopics": [
+    "Systems and center of mass",
+    "Forces and free-body diagrams",
+    "Newton's Third Law",
+    "Newton's First Law",
+    "Newton's Second Law",
+    "Gravitational force",
+    "Kinetic and static friction",
+    "Spring forces",
+    "Circular motion"
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Work, Energy, and Power",
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-1/u3.json",
+   "officialTopics": [
+    "Translational kinetic energy",
+    "Work",
+    "Potential energy",
+    "Conservation of energy",
+    "Power"
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Linear Momentum",
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-1/u4.json",
+   "officialTopics": [
+    "Linear momentum",
+    "Change in momentum and impulse",
+    "Conservation of linear momentum",
+    "Elastic and inelastic collisions"
+   ]
+  },
+  {
+   "id": "u5",
+   "name": "Unit 5: Torque and Rotational Dynamics",
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-1/u5.json",
+   "officialTopics": [
+    "Rotational kinematics",
+    "Connecting linear and rotational motion",
+    "Torque",
+    "Rotational inertia",
+    "Rotational equilibrium and Newton's First Law in rotational form",
+    "Newton's Second Law in rotational form"
+   ]
+  },
+  {
+   "id": "u6",
+   "name": "Unit 6: Energy and Momentum of Rotating Systems",
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-1/u6.json",
+   "officialTopics": [
+    "Rotational kinetic energy",
+    "Torque and work",
+    "Angular momentum and angular impulse",
+    "Conservation of angular momentum",
+    "Rolling",
+    "Motion of orbiting satellites"
+   ]
+  },
+  {
+   "id": "u7",
+   "name": "Unit 7: Oscillations",
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-1/u7.json",
+   "officialTopics": [
+    "Defining simple harmonic motion (SHM)",
+    "Frequency and period of SHM",
+    "Representing and analyzing SHM",
+    "Energy of simple harmonic oscillators"
+   ]
+  },
+  {
+   "id": "u8",
+   "name": "Unit 8: Fluids",
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-1/u8.json",
+   "officialTopics": [
+    "Internal structure and density",
+    "Pressure",
+    "Fluids and Newton's laws",
+    "Fluids and conservation laws"
+   ]
+  }
+ ],
+ "generalResources": [
+  {
+   "id": "gen-ph1-apstudents",
+   "title": "AP Physics 1 course overview (College Board)",
+   "provider": "College Board",
+   "url": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "scope": "general",
+   "kind": "course page",
+   "note": "General: the official overview of the course and exam. It is not a lesson.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "sourceTitle": "AP Students course page",
+   "licenseOrRights": "Linked only. College Board content is not copied.",
+   "verified": "2026-10-09"
+  }
+ ]
+}

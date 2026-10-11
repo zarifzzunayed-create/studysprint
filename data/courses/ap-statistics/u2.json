@@ -1,0 +1,400 @@
+{
+ "courseId": "ap-statistics",
+ "unitId": "u2",
+ "title": "Unit 2: Probability, Random Variables, and Probability Distributions",
+ "topics": [
+  {
+   "id": "st2-prob",
+   "name": "Probability rules and two-way tables",
+   "covers": [
+    "Estimating Probabilities Using Simulation",
+    "Introduction to Probability",
+    "Mutually Exclusive Events",
+    "Conditional Probability",
+    "Independent Events and Unions of Events"
+   ]
+  },
+  {
+   "id": "st2-rv",
+   "name": "Random variables and the binomial distribution",
+   "covers": [
+    "Introduction to Random Variables and Probability Distributions",
+    "The Binomial Distribution"
+   ]
+  },
+  {
+   "id": "st2-normal",
+   "name": "The normal distribution",
+   "covers": [
+    "The Normal Distribution"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Probability, random variables, and distributions: review guide",
+  "intro": "Probability describes long-run relative frequency. This unit covers the rules for combining events, random variables and their means, and two key models: binomial and normal.",
+  "sections": [
+   {
+    "id": "s-st2-prob",
+    "topicId": "st2-prob",
+    "title": "Probability rules",
+    "body": [
+     "Mutually exclusive events cannot happen together. Independent events do not change each other's probability. These are different ideas: two mutually exclusive events with positive probability are never independent."
+    ],
+    "points": [
+     "Simulation estimates a probability as the proportion of repetitions in which the event happens.",
+     "In a two-way table, a conditional probability uses only the row or column you are given."
+    ],
+    "equations": [
+     [
+      "P(A or B) = P(A) + P(B) − P(A and B)",
+      "addition rule"
+     ],
+     [
+      "P(A | B) = P(A and B)/P(B)",
+      "conditional probability"
+     ],
+     [
+      "Independent ⇔ P(A and B) = P(A)·P(B)",
+      ""
+     ]
+    ]
+   },
+   {
+    "id": "s-st2-rv",
+    "topicId": "st2-rv",
+    "title": "Random variables and the binomial distribution",
+    "body": [
+     "The mean (expected value) of a discrete random variable weights each value by its probability. A binomial setting has a fixed number of independent trials n, two outcomes, and the same success probability p each time."
+    ],
+    "equations": [
+     [
+      "μ = Σ x·P(x)",
+      "expected value"
+     ],
+     [
+      "P(X = k) = C(n, k) pᵏ(1 − p)ⁿ⁻ᵏ",
+      "binomial probability"
+     ],
+     [
+      "μ = np,  σ = √(np(1 − p))",
+      "binomial mean and standard deviation"
+     ]
+    ]
+   },
+   {
+    "id": "s-st2-normal",
+    "topicId": "st2-normal",
+    "title": "The normal distribution",
+    "body": [
+     "A normal distribution is symmetric and bell-shaped, described by its mean μ and standard deviation σ. Standardise with z = (x − μ)/σ, then use a table or technology."
+    ],
+    "points": [
+     "Empirical rule: about 68%, 95%, and 99.7% of values fall within 1, 2, and 3 standard deviations of the mean.",
+     "Draw a sketch and shade the area you want: left tail, right tail, or between."
+    ],
+    "equations": [
+     [
+      "z = (x − μ)/σ",
+      "standardised score"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A fair coin is tossed 3 times. Find the probability of exactly 2 heads.",
+   "solution": "Binomial with n = 3 and p = 0.5: P(X = 2) = C(3, 2)(0.5)²(0.5) = 3 × 0.125 = 0.375."
+  },
+  "misconceptions": [
+   [
+    "“Mutually exclusive means independent.”",
+    "If A happens, a mutually exclusive B cannot, so they are strongly dependent."
+   ],
+   [
+    "“P(A | B) = P(B | A).”",
+    "The condition decides the denominator, so the two are usually different."
+   ],
+   [
+    "“The expected value must be a possible outcome.”",
+    "It is a long-run average and may not be a possible value."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Statistics Course and Exam Description, effective fall 2026 (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-statistics-course-and-exam-description-effective-fall-2026.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+  "sourceTitle": "AP Statistics – AP Central (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+  "isOriginal": true,
+  "verified": "2026-10-11"
+ },
+ "questions": [
+  {
+   "id": "stat-u2-q01",
+   "courseId": "ap-statistics",
+   "unitId": "u2",
+   "topicId": "st2-prob",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Events A and B are mutually exclusive, with P(A) = 0.3 and P(B) = 0.5. What is P(A or B)?",
+   "choices": [
+    "0.2",
+    "0.8",
+    "0.65",
+    "0.15"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Mutually exclusive events cannot happen together, so P(A and B) = 0 and P(A or B) = 0.3 + 0.5 = 0.8.",
+   "choiceExplanations": [
+    "0.2 is the difference of the two probabilities, which has no meaning here.",
+    "",
+    "0.65 subtracts 0.15 as if A and B were independent. For mutually exclusive events nothing is subtracted.",
+    "0.15 is P(A)·P(B), which would be P(A and B) for independent events, not P(A or B)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u2-q02",
+   "courseId": "ap-statistics",
+   "unitId": "u2",
+   "topicId": "st2-rv",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A random variable X takes the values 0, 1, and 2 with probabilities 0.5, 0.3, and 0.2. What is the expected value of X?",
+   "choices": [
+    "0.7",
+    "0.5",
+    "1",
+    "2"
+   ],
+   "correctAnswer": 0,
+   "explanation": "E(X) = 0(0.5) + 1(0.3) + 2(0.2) = 0.7.",
+   "choiceExplanations": [
+    "",
+    "0.5 is the largest probability, not the expected value.",
+    "1 averages the three values without weighting them by their probabilities.",
+    "2 is the largest value X can take."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u2-q03",
+   "courseId": "ap-statistics",
+   "unitId": "u2",
+   "topicId": "st2-normal",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Heights are approximately normal with mean 64 inches and standard deviation 3 inches. About what percent of heights are between 61 and 67 inches?",
+   "choices": [
+    "34%",
+    "99.7%",
+    "95%",
+    "68%"
+   ],
+   "correctAnswer": 3,
+   "explanation": "61 and 67 are one standard deviation below and above the mean, and about 68% of a normal distribution lies within one standard deviation.",
+   "choiceExplanations": [
+    "34% is only the part between the mean and one standard deviation on one side.",
+    "99.7% is the share within three standard deviations.",
+    "95% is the share within two standard deviations (58 to 70 inches).",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u2-q04",
+   "courseId": "ap-statistics",
+   "unitId": "u2",
+   "topicId": "st2-prob",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Of 50 grade 11 students, 30 play a sport. Of 50 grade 12 students, 15 play a sport. A grade 12 student is chosen at random. What is the probability that the student plays a sport?",
+   "choices": [
+    "0.45",
+    "0.33",
+    "0.30",
+    "0.15"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Given grade 12, use only the 50 grade 12 students: 15/50 = 0.30.",
+   "choiceExplanations": [
+    "0.45 is 45/100, the probability that any student plays a sport, ignoring the condition.",
+    "0.33 is 15/45, the probability of being in grade 12 given that a student plays a sport. The condition is reversed.",
+    "",
+    "0.15 is 15/100, the probability of being in grade 12 and playing a sport."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u2-q05",
+   "courseId": "ap-statistics",
+   "unitId": "u2",
+   "topicId": "st2-rv",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A fair coin is tossed 4 times. What is the probability of exactly 2 heads?",
+   "choices": [
+    "0.25",
+    "0.375",
+    "0.5",
+    "0.0625"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Binomial with n = 4, p = 0.5: C(4, 2)(0.5)⁴ = 6/16 = 0.375.",
+   "choiceExplanations": [
+    "0.25 is (0.5)², which ignores the other two tosses and the number of arrangements.",
+    "",
+    "0.5 is the expected proportion of heads, not the probability of exactly 2 heads.",
+    "0.0625 is (0.5)⁴, the probability of one particular arrangement. There are C(4, 2) = 6 arrangements."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u2-q06",
+   "courseId": "ap-statistics",
+   "unitId": "u2",
+   "topicId": "st2-prob",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "P(A) = 0.4, P(B) = 0.5, and P(A and B) = 0.2. Are A and B independent?",
+   "choices": [
+    "Yes, because P(A and B) = P(A)·P(B)",
+    "Yes, because P(A) + P(B) is less than 1",
+    "No, because P(A) is not equal to P(B)",
+    "No, because P(A and B) is not 0"
+   ],
+   "correctAnswer": 0,
+   "explanation": "0.4 × 0.5 = 0.2, which equals P(A and B), so the multiplication rule for independent events holds.",
+   "choiceExplanations": [
+    "",
+    "The sum of the probabilities says nothing about independence.",
+    "Independent events can have different probabilities.",
+    "P(A and B) ≠ 0 means the events are not mutually exclusive. That is a different idea from independence."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u2-q07",
+   "courseId": "ap-statistics",
+   "unitId": "u2",
+   "topicId": "st2-normal",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Test scores are approximately normal with mean 500 and standard deviation 100. What is the probability that a randomly chosen score is above 650?",
+   "choices": [
+    "About 0.15",
+    "About 0.933",
+    "About 0.134",
+    "About 0.067"
+   ],
+   "correctAnswer": 3,
+   "explanation": "z = (650 − 500)/100 = 1.5. The area to the left of z = 1.5 is about 0.933, so the area above is about 0.067.",
+   "choiceExplanations": [
+    "0.15 confuses the z-score 1.5 with a probability.",
+    "0.933 is the area below 650. The question asks for the area above.",
+    "0.134 counts both tails (above 650 and below 350).",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "stat-u2-q08",
+   "courseId": "ap-statistics",
+   "unitId": "u2",
+   "topicId": "st2-rv",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "X is binomial with n = 50 and p = 0.2. What are the mean and standard deviation of X?",
+   "choices": [
+    "Mean 10, standard deviation about 3.16",
+    "Mean 0.2, standard deviation 0.4",
+    "Mean 10, standard deviation about 2.83",
+    "Mean 10, standard deviation 8"
+   ],
+   "correctAnswer": 2,
+   "explanation": "μ = np = 10 and σ = √(np(1 − p)) = √(50 × 0.2 × 0.8) = √8 ≈ 2.83.",
+   "choiceExplanations": [
+    "3.16 is √(np), which leaves out the factor (1 − p).",
+    "These describe a single trial (one success or failure), not the count of successes in 50 trials.",
+    "",
+    "8 is the variance. Take its square root to get the standard deviation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-statistics",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  }
+ ],
+ "videos": [
+  {
+   "id": "vid-stat-u2-khan",
+   "courseId": "ap-statistics",
+   "unitId": "u2",
+   "title": "Binomial distribution",
+   "creator": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/statistics-probability/probability-and-combinatorics-topic/binomial-probability/v/binomial-distribution",
+   "note": "A Khan Academy video on the binomial distribution, one topic in this unit. It comes from Khan Academy's general statistics library, not its AP course.",
+   "scope": "unit",
+   "kind": "video",
+   "sourceType": "external-link",
+   "sourceUrl": "https://www.khanacademy.org/math/statistics-probability/probability-and-combinatorics-topic/binomial-probability/v/binomial-distribution",
+   "sourceTitle": "Khan Academy video page",
+   "licenseOrRights": "Linked only, not embedded or copied. Content and rights belong to Khan Academy.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "learnResources": [
+  {
+   "id": "res-stat-u2-openstax",
+   "courseId": "ap-statistics",
+   "unitId": "u2",
+   "title": "OpenStax Introductory Statistics 2e, 4.3 Binomial Distribution",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/introductory-statistics-2e/pages/4-3-binomial-distribution",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free textbook section on this unit's main idea. It is written for a college course, so it may go beyond the AP Statistics scope.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/introductory-statistics-2e/pages/4-3-binomial-distribution",
+   "sourceTitle": "OpenStax Introductory Statistics 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Introductory Statistics 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions."
+}

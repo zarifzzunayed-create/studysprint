@@ -1,0 +1,398 @@
+{
+ "courseId": "ap-physics-1",
+ "unitId": "u4",
+ "title": "Unit 4: Linear Momentum",
+ "topics": [
+  {
+   "id": "u4-mom",
+   "name": "Linear momentum",
+   "covers": [
+    "Linear momentum"
+   ]
+  },
+  {
+   "id": "u4-imp",
+   "name": "Change in momentum and impulse",
+   "covers": [
+    "Change in momentum and impulse"
+   ]
+  },
+  {
+   "id": "u4-cons",
+   "name": "Conservation of momentum and collisions",
+   "covers": [
+    "Conservation of linear momentum",
+    "Elastic and inelastic collisions"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Linear momentum: study guide",
+  "intro": "Momentum measures how hard it is to stop a moving object. It changes only when a net external force acts for some time, which makes it a powerful tool for collisions and explosions where the forces are complicated.",
+  "sections": [
+   {
+    "id": "s-u4-mom",
+    "topicId": "u4-mom",
+    "title": "Linear momentum",
+    "body": [
+     "Momentum is p = mv, a vector pointing the same way as the velocity. The momentum of a system is the vector sum of its parts' momenta, so momenta in opposite directions can cancel."
+    ],
+    "equations": [
+     [
+      "p = mv",
+      "linear momentum"
+     ]
+    ]
+   },
+   {
+    "id": "s-u4-imp",
+    "topicId": "u4-imp",
+    "title": "Change in momentum and impulse",
+    "body": [
+     "Impulse is the net force multiplied by the time it acts, J = F_net Δt, and it equals the change in momentum, J = Δp. On a force–time graph, impulse is the area under the curve. The same Δp can come from a large force for a short time or a small force for a long time. That is why airbags, crumple zones, and bent knees reduce injury."
+    ],
+    "points": [
+     "When a velocity reverses, the change in momentum involves the sum of the speeds. Use signs: Δp = m(v_f − v_i)."
+    ],
+    "equations": [
+     [
+      "J = F_avg Δt = Δp",
+      "impulse–momentum theorem"
+     ],
+     [
+      "Δp = m(v_f − v_i)",
+      "change in momentum, with signs"
+     ]
+    ]
+   },
+   {
+    "id": "s-u4-cons",
+    "topicId": "u4-cons",
+    "title": "Conservation of momentum and collisions",
+    "body": [
+     "If no net external force acts on a system, its total momentum is conserved: the total before an interaction equals the total after. In a perfectly inelastic collision the objects stick together and kinetic energy is lost. In an elastic collision kinetic energy is also conserved. Most real collisions fall in between. Momentum is conserved in all of them for an isolated system."
+    ],
+    "points": [
+     "Pick a positive direction before writing p = mv for each object.",
+     "Compare kinetic energy before and after to classify a collision."
+    ],
+    "equations": [
+     [
+      "Σp_before = Σp_after",
+      "isolated system"
+     ],
+     [
+      "K = ½mv²",
+      "to check whether a collision is elastic"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 1.5 kg cart moving at 2.0 m/s east hits a 0.50 kg cart at rest and they stick together. Find the final velocity and the kinetic energy lost.",
+   "solution": "Momentum before: 1.5 × 2.0 = 3.0 kg·m/s. The combined mass is 2.0 kg, so v = 3.0/2.0 = 1.5 m/s east. Kinetic energy before: ½(1.5)(2.0)² = 3.0 J. After: ½(2.0)(1.5)² = 2.25 J. Lost: 0.75 J."
+  },
+  "misconceptions": [
+   [
+    "“Momentum and kinetic energy are the same thing.”",
+    "Momentum (mv) is a vector that is conserved in isolated collisions. Kinetic energy (½mv²) is a scalar and is not conserved in inelastic collisions."
+   ],
+   [
+    "“The bigger object exerts a bigger force in a collision.”",
+    "The two objects exert equal and opposite forces on each other (Newton's third law). The lighter one simply changes velocity more."
+   ],
+   [
+    "“A force is needed to keep momentum going.”",
+    "Momentum is conserved without any force. A net external force is what changes it."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 1 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+  "sourceTitle": "AP Physics 1: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original text written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+  "isOriginal": true,
+  "verified": "2026-10-09"
+ },
+ "questions": [
+  {
+   "id": "ph1u4-q01",
+   "courseId": "ap-physics-1",
+   "unitId": "u4",
+   "topicId": "u4-mom",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which has more momentum: a 1000 kg car moving at 5.0 m/s or a 0.10 kg bullet moving at 500 m/s?",
+   "choices": [
+    "The car",
+    "The bullet",
+    "They have the same momentum",
+    "The bullet, because it has the greater speed"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Momentum is mass times velocity. The car has 1000 × 5.0 = 5000 kg·m/s and the bullet 0.10 × 500 = 50 kg·m/s. The car's much greater mass wins.",
+   "choiceExplanations": [
+    "",
+    "The bullet's speed is large, but its mass is tiny: p = 50 kg·m/s, far less than the car's.",
+    "The two products are 5000 and 50 kg·m/s, not equal.",
+    "Speed alone does not decide momentum. Mass matters too, and the bullet's momentum is only 50 kg·m/s."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u4-q02",
+   "courseId": "ap-physics-1",
+   "unitId": "u4",
+   "topicId": "u4-imp",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A constant net force of 10 N acts on a cart for 3.0 s. What is the magnitude of the impulse delivered to the cart?",
+   "choices": [
+    "3.3 N·s",
+    "13 N·s",
+    "30 N·s",
+    "90 N·s"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Impulse is force times time: J = FΔt = 10 N × 3.0 s = 30 N·s.",
+   "choiceExplanations": [
+    "3.3 divides force by time. Impulse is force times time.",
+    "13 adds the numbers. Impulse is a product.",
+    "",
+    "90 N·s squares the time (10 × 3.0²). Impulse is force times time."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u4-q03",
+   "courseId": "ap-physics-1",
+   "unitId": "u4",
+   "topicId": "u4-cons",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 2.0 kg cart moving at 3.0 m/s collides with a stationary 1.0 kg cart, and the two stick together. What is their speed just after the collision?",
+   "choices": [
+    "1.0 m/s",
+    "2.0 m/s",
+    "3.0 m/s",
+    "4.5 m/s"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Momentum is conserved: (2.0)(3.0) = (2.0 + 1.0)v, so v = 6.0/3.0 = 2.0 m/s.",
+   "choiceExplanations": [
+    "1.0 m/s would be the result if the first cart's momentum were 3.0 kg·m/s. It is 6.0 kg·m/s.",
+    "",
+    "3.0 m/s would mean no change in speed, but the moving mass grew from 2.0 to 3.0 kg.",
+    "4.5 m/s is greater than the original speed. Adding mass cannot make the combined system faster."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u4-q04",
+   "courseId": "ap-physics-1",
+   "unitId": "u4",
+   "topicId": "u4-cons",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Two objects collide in an isolated system, and the collision is perfectly elastic. Which quantities are conserved?",
+   "choices": [
+    "Momentum only",
+    "Kinetic energy only",
+    "Both total momentum and total kinetic energy",
+    "Neither, because the objects exert forces on each other"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Total momentum is conserved in any collision in an isolated system. A collision is elastic only if total kinetic energy is also conserved.",
+   "choiceExplanations": [
+    "Momentum is conserved, but an elastic collision also conserves kinetic energy.",
+    "Kinetic energy is conserved, but so is total momentum, in every isolated collision.",
+    "",
+    "The internal forces are equal and opposite, which is exactly why total momentum is conserved."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u4-q05",
+   "courseId": "ap-physics-1",
+   "unitId": "u4",
+   "topicId": "u4-imp",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A person lands from a jump with stiff legs one time and with bent knees another time. Which statement best explains why bending the knees reduces the average force on the body?",
+   "choices": [
+    "The change in momentum is smaller when the knees bend",
+    "The landing takes longer, so the same change in momentum needs a smaller average force",
+    "Bending the knees reduces the person's weight during the landing",
+    "The ground exerts a smaller impulse when the knees bend"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The impulse needed to stop the person is the same, because the change in momentum does not depend on posture. Since J = F_avg Δt, a longer stopping time means a smaller average force.",
+   "choiceExplanations": [
+    "The person's momentum just before landing is the same either way and they stop either way, so Δp is the same.",
+    "",
+    "Weight does not change with posture.",
+    "The impulse is the same in both cases. Bending the knees changes the time, not the impulse."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u4-q06",
+   "courseId": "ap-physics-1",
+   "unitId": "u4",
+   "topicId": "u4-cons",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 60 kg skater at rest on frictionless ice throws a 3.0 kg ball horizontally at 10 m/s relative to the ice. What is the skater's recoil speed?",
+   "choices": [
+    "0.17 m/s",
+    "0.50 m/s",
+    "5.0 m/s",
+    "10 m/s"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The total momentum stays zero. The ball gains 3.0 × 10 = 30 kg·m/s, so the skater gains 30 kg·m/s the other way: v = 30/60 = 0.50 m/s.",
+   "choiceExplanations": [
+    "0.17 m/s comes from dividing the ball's speed by 60. The ball's momentum is 30 kg·m/s, not 10.",
+    "",
+    "5.0 m/s would mean the skater has 300 kg·m/s of momentum, ten times the ball's.",
+    "10 m/s would be right only if the skater and the ball had equal masses."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u4-q07",
+   "courseId": "ap-physics-1",
+   "unitId": "u4",
+   "topicId": "u4-cons",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 1.0 kg cart moving at 4.0 m/s east collides with a stationary 3.0 kg cart, and they stick together. How much kinetic energy is lost in the collision?",
+   "choices": [
+    "0 J",
+    "2.0 J",
+    "6.0 J",
+    "8.0 J"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The initial kinetic energy is ½(1.0)(4.0)² = 8.0 J. Momentum conservation gives v = 4.0/4.0 = 1.0 m/s, so the final kinetic energy is ½(4.0)(1.0)² = 2.0 J. The loss is 8.0 − 2.0 = 6.0 J.",
+   "choiceExplanations": [
+    "A perfectly inelastic collision always loses kinetic energy, so the loss cannot be zero.",
+    "2.0 J is the kinetic energy remaining after the collision, not the amount lost.",
+    "",
+    "8.0 J is the initial kinetic energy. Some kinetic energy remains afterward (2.0 J), so only 6.0 J is lost."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u4-q08",
+   "courseId": "ap-physics-1",
+   "unitId": "u4",
+   "topicId": "u4-imp",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 0.20 kg ball moving at 5.0 m/s east hits a wall and rebounds at 3.0 m/s west. The contact lasts 0.020 s. What is the magnitude of the average force the wall exerts on the ball?",
+   "choices": [
+    "20 N",
+    "50 N",
+    "80 N",
+    "160 N"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Take east as positive: Δp = 0.20 × (−3.0) − 0.20 × (5.0) = −1.6 kg·m/s. The average force magnitude is |Δp|/Δt = 1.6/0.020 = 80 N.",
+   "choiceExplanations": [
+    "20 N subtracts the speeds (5.0 − 3.0) and forgets that the direction reverses.",
+    "50 N uses only the incoming momentum (1.0 kg·m/s) and ignores the outgoing momentum.",
+    "",
+    "160 N counts the change in momentum twice."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u4-q09",
+   "courseId": "ap-physics-1",
+   "unitId": "u4",
+   "topicId": "u4-mom",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Two identical carts move toward each other on a track at the same speed, one east and one west. What is the total momentum of the two-cart system?",
+   "choices": [
+    "Zero",
+    "Twice the momentum of one cart, directed east",
+    "Twice the momentum of one cart, directed west",
+    "Equal to the momentum of one cart"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Momentum is a vector. Equal masses with equal speeds in opposite directions have momenta that cancel, so the total is zero.",
+   "choiceExplanations": [
+    "",
+    "That treats both momenta as pointing east, ignoring the sign of the velocity.",
+    "Same error in the other direction: the momenta point opposite ways and cancel.",
+    "The two momenta are equal in size and opposite in direction, so they cancel rather than leaving one behind."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  }
+ ],
+ "videos": [
+  {
+   "id": "vid-ph1u4-1",
+   "courseId": "ap-physics-1",
+   "unitId": "u4",
+   "title": "AP Physics 1 review of Momentum and Impulse",
+   "creator": "David SantoPietro (Khan Academy)",
+   "url": "https://oercommons.org/curated-collections/653",
+   "note": "This link opens the OER Commons High School Physics collection, where the video is listed. Look for the title above. It was made for an earlier version of the course (OER Commons lists it as added in 2018), so some topics may not match the 2024–25 revision exactly.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://oercommons.org/curated-collections/653",
+   "sourceTitle": "OER Commons: High School Physics collection",
+   "licenseOrRights": "Linked only, not embedded or copied. OER Commons lists the video under CC BY-NC-SA.",
+   "verified": "2026-10-09",
+   "scope": "general",
+   "kind": "collection page"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course hub to browse released questions by year.",
+ "learnResources": []
+}

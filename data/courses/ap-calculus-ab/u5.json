@@ -1,0 +1,378 @@
+{
+ "courseId": "ap-calculus-ab",
+ "unitId": "u5",
+ "title": "Unit 5: Analytical Applications of Differentiation",
+ "topics": [
+  {
+   "id": "cab5-thm",
+   "name": "Mean Value Theorem and Extreme Value Theorem",
+   "covers": [
+    "Mean Value Theorem and Extreme Value Theorem"
+   ]
+  },
+  {
+   "id": "cab5-tests",
+   "name": "Increasing, decreasing, extrema, and concavity",
+   "covers": [
+    "Derivatives and properties of functions",
+    "How to use the first derivative test, second derivative test, and candidates test",
+    "Sketching graphs of functions and their derivatives",
+    "Behaviors of Implicit relations"
+   ]
+  },
+  {
+   "id": "cab5-opt",
+   "name": "Optimization",
+   "covers": [
+    "How to solve optimization problems"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Analytical applications of differentiation: review guide",
+  "intro": "Derivatives tell you where a function rises, falls, peaks, and bends. This unit covers the two existence theorems, the derivative tests, graph analysis, and optimization.",
+  "sections": [
+   {
+    "id": "s-cab5-thm",
+    "topicId": "cab5-thm",
+    "title": "Mean Value Theorem and Extreme Value Theorem",
+    "body": [
+     "MVT: if f is continuous on [a, b] and differentiable on (a, b), some c in (a, b) has f′(c) equal to the average rate of change. EVT: if f is continuous on [a, b], it has an absolute maximum and minimum there."
+    ],
+    "points": [
+     "Check the hypotheses before quoting a theorem.",
+     "Neither theorem tells you where c is. You solve for it."
+    ],
+    "equations": [
+     [
+      "f′(c) = [f(b) − f(a)]/(b − a)",
+      "Mean Value Theorem"
+     ]
+    ]
+   },
+   {
+    "id": "s-cab5-tests",
+    "topicId": "cab5-tests",
+    "title": "Derivative tests and graphs",
+    "body": [
+     "Critical points are where f′ = 0 or f′ does not exist (in the domain)."
+    ],
+    "points": [
+     "f′ > 0: f increasing. f′ < 0: f decreasing.",
+     "First derivative test: f′ changes from + to − gives a relative max, from − to + a relative min.",
+     "Second derivative test: f′(c) = 0 and f″(c) < 0 gives a relative max. f″(c) > 0 gives a relative min. f″(c) = 0 gives no conclusion.",
+     "Concave up where f″ > 0, concave down where f″ < 0. Inflection points are where f″ changes sign.",
+     "Candidates test: on a closed interval, compare f at the critical points and at both endpoints.",
+     "For an implicit curve, horizontal tangents are where dy/dx = 0 and vertical tangents are where its denominator is 0."
+    ]
+   },
+   {
+    "id": "s-cab5-opt",
+    "topicId": "cab5-opt",
+    "title": "Optimization",
+    "body": [
+     "Write the quantity to optimize as a function of one variable, find its domain, find the critical points, and use the candidates test or a derivative test to justify the max or min."
+    ],
+    "points": [
+     "Use the constraint (fixed perimeter, fixed volume) to remove the extra variable.",
+     "Answer the question that was asked: the dimension, or the maximum value."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Find the absolute extrema of f(x) = x³ − 3x on [0, 2].",
+   "solution": "f′(x) = 3x² − 3 = 0 at x = 1 (x = −1 is outside the interval). f(0) = 0, f(1) = −2, f(2) = 2. The absolute max is 2 at x = 2 and the absolute min is −2 at x = 1."
+  },
+  "misconceptions": [
+   [
+    "“f′(c) = 0 means a max or min.”",
+    "f(x) = x³ has f′(0) = 0 but no extremum there. Check that the sign changes."
+   ],
+   [
+    "“An inflection point is where f″ = 0.”",
+    "f″ must change sign. f(x) = x⁴ has f″(0) = 0 but no inflection point."
+   ],
+   [
+    "“The absolute max is at a critical point.”",
+    "On a closed interval it can be at an endpoint, so test the endpoints too."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+  "sourceTitle": "AP Calculus AB – AP Central (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+  "isOriginal": true,
+  "verified": "2026-10-11"
+ },
+ "questions": [
+  {
+   "id": "cab-u5-q01",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u5",
+   "topicId": "cab5-tests",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "f′(x) = (x − 1)(x + 2). On which intervals is f increasing?",
+   "choices": [
+    "x < −2 and x > 1",
+    "−2 < x < 1",
+    "x > 1 only",
+    "x < −2 only"
+   ],
+   "correctAnswer": 0,
+   "explanation": "f is increasing where f′ > 0. The product is positive when both factors have the same sign: x < −2 (both negative) or x > 1 (both positive).",
+   "choiceExplanations": [
+    "",
+    "Between −2 and 1 the factors have opposite signs, so f′ < 0 and f is decreasing.",
+    "This misses x < −2, where both factors are negative and their product is positive.",
+    "This misses x > 1, where both factors are positive."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u5-q02",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u5",
+   "topicId": "cab5-thm",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "For f(x) = x² on [0, 4], what value of c satisfies the conclusion of the Mean Value Theorem?",
+   "choices": [
+    "c = 1",
+    "c = 8",
+    "c = 4",
+    "c = 2"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The average rate of change is (16 − 0)/(4 − 0) = 4. Setting f′(c) = 2c = 4 gives c = 2, which is inside (0, 4).",
+   "choiceExplanations": [
+    "c = 1 gives f′(1) = 2, which does not match the average rate of change of 4.",
+    "8 comes from solving 2c = 16, which forgets to divide by the interval length 4.",
+    "4 is the average rate of change, the value f′(c) must equal, not c itself.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u5-q03",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u5",
+   "topicId": "cab5-thm",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "f is continuous on the closed interval [a, b]. Which statement must be true?",
+   "choices": [
+    "f(c) = 0 for some c in [a, b]",
+    "f has a critical point in (a, b)",
+    "f has an absolute maximum and an absolute minimum on [a, b]",
+    "f′(c) = [f(b) − f(a)]/(b − a) for some c in (a, b)"
+   ],
+   "correctAnswer": 2,
+   "explanation": "This is the Extreme Value Theorem. Continuity on a closed interval guarantees absolute extreme values.",
+   "choiceExplanations": [
+    "f could stay positive the whole time, so there need not be a zero.",
+    "A linear function like f(x) = x has no critical points, yet it is continuous.",
+    "",
+    "This is the Mean Value Theorem, which also requires f to be differentiable on (a, b)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u5-q04",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u5",
+   "topicId": "cab5-tests",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "f(x) = x³ − 3x² on [−1, 4]. What is the absolute maximum value of f?",
+   "choices": [
+    "0",
+    "16",
+    "4",
+    "−4"
+   ],
+   "correctAnswer": 1,
+   "explanation": "f′(x) = 3x² − 6x = 3x(x − 2), so the critical points are x = 0 and x = 2. Candidates: f(−1) = −4, f(0) = 0, f(2) = −4, f(4) = 16. The largest value is 16.",
+   "choiceExplanations": [
+    "0 is a relative maximum at x = 0, but the endpoint value f(4) = 16 is larger.",
+    "",
+    "4 is the x-value of the endpoint, not the function value there.",
+    "−4 is the absolute minimum (at x = −1 and x = 2)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u5-q05",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u5",
+   "topicId": "cab5-tests",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "f′(3) = 0 and f″(3) = −2. What does the second derivative test say about x = 3?",
+   "choices": [
+    "f has a relative maximum at x = 3",
+    "f has a relative minimum at x = 3",
+    "f has an inflection point at x = 3",
+    "The test gives no conclusion"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A horizontal tangent with the graph concave down (f″ < 0) is the top of a hill: a relative maximum.",
+   "choiceExplanations": [
+    "",
+    "A relative minimum needs f″(3) > 0 (concave up).",
+    "An inflection point needs f″ to change sign. Here f″(3) is not 0, and the test is about extrema.",
+    "The test fails only when f″(3) = 0. Here f″(3) = −2, so it gives an answer."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u5-q06",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u5",
+   "topicId": "cab5-opt",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A rectangle has a perimeter of 40 m. What is the largest area it can have?",
+   "choices": [
+    "400 m²",
+    "75 m²",
+    "96 m²",
+    "100 m²"
+   ],
+   "correctAnswer": 3,
+   "explanation": "With width x, length 20 − x and A = x(20 − x). A′ = 20 − 2x = 0 at x = 10, and A″ = −2 < 0, so the maximum is a 10 × 10 square with area 100 m².",
+   "choiceExplanations": [
+    "400 squares the half-perimeter (20²). The sides must add to 20, not each equal 20.",
+    "75 m² is the area of a 15 × 5 rectangle, again not the largest.",
+    "96 m² is the area of a 12 × 8 rectangle. That is possible but not the largest.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u5-q07",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u5",
+   "topicId": "cab5-tests",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "f(x) = x · e^(−x). At what value of x does the graph of f have an inflection point?",
+   "choices": [
+    "x = 1",
+    "x = 0",
+    "x = 2",
+    "There is no inflection point"
+   ],
+   "correctAnswer": 2,
+   "explanation": "f′(x) = e^(−x)(1 − x) and f″(x) = e^(−x)(x − 2). Since e^(−x) > 0, f″ changes sign exactly at x = 2.",
+   "choiceExplanations": [
+    "x = 1 is where f′ = 0, a relative maximum, not where concavity changes.",
+    "x = 0 is a zero of f, which says nothing about concavity.",
+    "",
+    "e^(−x) is never 0, but the factor x − 2 changes sign, so there is an inflection point."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u5-q08",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u5",
+   "topicId": "cab5-opt",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Equal squares of side x are cut from the corners of a 12 cm × 12 cm sheet, and the sides are folded up to make an open box. What value of x gives the largest volume?",
+   "choices": [
+    "x = 3",
+    "x = 2",
+    "x = 4",
+    "x = 6"
+   ],
+   "correctAnswer": 1,
+   "explanation": "V = x(12 − 2x)² for 0 < x < 6. V′ = (12 − 2x)(12 − 6x), which is 0 at x = 2 or x = 6. V(2) = 128, and V = 0 at x = 6, so x = 2 gives the maximum.",
+   "choiceExplanations": [
+    "x = 3 is halfway across the allowed range, not a critical point. V(3) = 108, less than V(2) = 128.",
+    "",
+    "x = 4 comes from making the base side equal the height (12 − 2x = x), which is not the optimization condition. V(4) = 64.",
+    "x = 6 is a critical point, but it leaves no base, so the volume is 0."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  }
+ ],
+ "videos": [
+  {
+   "id": "vid-cab-u5-khan",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u5",
+   "title": "Introducing the mean value theorem",
+   "creator": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-analytical-applications-new/ab-5-1/v/mean-value-theorem-1",
+   "note": "A Khan Academy video on the Mean Value Theorem, the first topic in this unit.",
+   "scope": "unit",
+   "kind": "video",
+   "sourceType": "external-link",
+   "sourceUrl": "https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-analytical-applications-new/ab-5-1/v/mean-value-theorem-1",
+   "sourceTitle": "Khan Academy video page",
+   "licenseOrRights": "Linked only, not embedded or copied. Content and rights belong to Khan Academy.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "learnResources": [
+  {
+   "id": "res-cab-u5-openstax",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u5",
+   "title": "OpenStax Calculus Volume 1, 4.5 Derivatives and the Shape of a Graph",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/4-5-derivatives-and-the-shape-of-a-graph",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free textbook section on this unit's main idea. It is written for college calculus, so it may go beyond the AP Calculus AB scope.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/calculus-volume-1/pages/4-5-derivatives-and-the-shape-of-a-graph",
+   "sourceTitle": "OpenStax Calculus Volume 1",
+   "licenseOrRights": "Linked only. OpenStax lists Calculus Volume 1 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions."
+}

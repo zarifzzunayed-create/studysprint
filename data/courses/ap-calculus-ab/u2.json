@@ -1,0 +1,407 @@
+{
+ "courseId": "ap-calculus-ab",
+ "unitId": "u2",
+ "title": "Unit 2: Differentiation: Definition and Fundamental Properties",
+ "topics": [
+  {
+   "id": "cab2-def",
+   "name": "The derivative: definition and differentiability",
+   "covers": [
+    "Defining the derivative of a function at a point and as a function",
+    "Connecting differentiability and continuity"
+   ]
+  },
+  {
+   "id": "cab2-rules",
+   "name": "Differentiation rules",
+   "covers": [
+    "Applying differentiation rules"
+   ]
+  },
+  {
+   "id": "cab2-elem",
+   "name": "Derivatives of elementary functions",
+   "covers": [
+    "Determining derivatives for elementary functions"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Differentiation basics: review guide",
+  "intro": "The derivative measures an instantaneous rate of change: the slope of the tangent line. This unit covers its limit definition and the rules that make derivatives quick to find.",
+  "sections": [
+   {
+    "id": "s-cab2-def",
+    "topicId": "cab2-def",
+    "title": "Definition and differentiability",
+    "body": [
+     "The derivative at a is the limit of difference quotients (average rates of change) as the interval shrinks. Notation: f′(x), dy/dx, or y′."
+    ],
+    "points": [
+     "Differentiable at a point implies continuous there. The reverse is false: |x| is continuous at 0 but has a corner, so it is not differentiable.",
+     "A function is not differentiable at a corner, a cusp, a vertical tangent, or a discontinuity.",
+     "Tangent line at x = a: y = f(a) + f′(a)(x − a)."
+    ],
+    "equations": [
+     [
+      "f′(a) = lim h→0 [f(a + h) − f(a)]/h",
+      "derivative at a point"
+     ],
+     [
+      "y − f(a) = f′(a)(x − a)",
+      "tangent line"
+     ]
+    ]
+   },
+   {
+    "id": "s-cab2-rules",
+    "topicId": "cab2-rules",
+    "title": "Rules",
+    "body": [
+     "Differentiate sums term by term and keep constant factors. Use the product and quotient rules for products and quotients. Do not just differentiate each part."
+    ],
+    "equations": [
+     [
+      "d/dx xⁿ = nxⁿ⁻¹",
+      "power rule"
+     ],
+     [
+      "(fg)′ = f′g + fg′",
+      "product rule"
+     ],
+     [
+      "(f/g)′ = (f′g − fg′)/g²",
+      "quotient rule (order matters)"
+     ]
+    ]
+   },
+   {
+    "id": "s-cab2-elem",
+    "topicId": "cab2-elem",
+    "title": "Derivatives of elementary functions",
+    "body": [
+     "Learn these by heart. They combine with the rules above."
+    ],
+    "points": [
+     "Differentiate first, then substitute a value. Substituting first turns the expression into a constant, whose derivative is 0."
+    ],
+    "equations": [
+     [
+      "(sin x)′ = cos x",
+      ""
+     ],
+     [
+      "(cos x)′ = −sin x",
+      ""
+     ],
+     [
+      "(tan x)′ = sec²x",
+      ""
+     ],
+     [
+      "(eˣ)′ = eˣ",
+      ""
+     ],
+     [
+      "(ln x)′ = 1/x",
+      ""
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Find the tangent line to f(x) = x² + 3x at x = 1.",
+   "solution": "f(1) = 4. f′(x) = 2x + 3, so f′(1) = 5. The tangent line is y = 4 + 5(x − 1), or y = 5x − 1."
+  },
+  "misconceptions": [
+   [
+    "“Continuous means differentiable.”",
+    "A corner or cusp keeps a continuous function from being differentiable there."
+   ],
+   [
+    "“The derivative of a product is the product of the derivatives.”",
+    "Use (fg)′ = f′g + fg′."
+   ],
+   [
+    "“The order in the quotient rule doesn't matter.”",
+    "It does: the numerator is f′g − fg′, so swapping it flips the sign."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+  "sourceTitle": "AP Calculus AB – AP Central (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+  "isOriginal": true,
+  "verified": "2026-10-11"
+ },
+ "questions": [
+  {
+   "id": "cab-u2-q01",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u2",
+   "topicId": "cab2-elem",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx (3x⁴ + cos x)?",
+   "choices": [
+    "3x³ − sin x",
+    "12x³ − sin x",
+    "12x⁴ − sin x",
+    "12x³ + sin x"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Power rule: d/dx 3x⁴ = 3 · 4x³ = 12x³. The derivative of cos x is −sin x.",
+   "choiceExplanations": [
+    "This lowers the exponent but drops the factor of 4 that comes down: 3 · 4x³ = 12x³.",
+    "",
+    "The power rule lowers the exponent by one: x⁴ becomes 4x³, not 4x⁴.",
+    "The derivative of cos x is −sin x, not +sin x."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u2-q02",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u2",
+   "topicId": "cab2-elem",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "f(x) = ln x. What is f′(4)?",
+   "choices": [
+    "1/4",
+    "ln 4",
+    "4",
+    "0"
+   ],
+   "correctAnswer": 0,
+   "explanation": "f′(x) = 1/x, so f′(4) = 1/4.",
+   "choiceExplanations": [
+    "",
+    "ln 4 is f(4), the function value, not the derivative.",
+    "4 inverts the derivative. f′(x) = 1/x.",
+    "0 comes from substituting x = 4 first and then differentiating the constant ln 4. Differentiate first, then substitute."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u2-q03",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u2",
+   "topicId": "cab2-def",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "f(x) = x². Which expression equals f′(3)?",
+   "choices": [
+    "lim h→0 [(3 + h)² − 9]",
+    "lim x→3 (x² − 9)/(x + 3)",
+    "lim h→0 (3 + h)²/h",
+    "lim h→0 [(3 + h)² − 9]/h"
+   ],
+   "correctAnswer": 3,
+   "explanation": "By definition, f′(3) = lim h→0 [f(3 + h) − f(3)]/h, and f(3) = 9. This is the slope of a secant line as h shrinks to 0.",
+   "choiceExplanations": [
+    "Without dividing by h this is the change in f, not a rate of change. It approaches 0.",
+    "The denominator should be x − 3 (the change in x), not x + 3.",
+    "This leaves out f(3). The difference quotient needs f(3 + h) − f(3).",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u2-q04",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u2",
+   "topicId": "cab2-rules",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx [x² sin x]?",
+   "choices": [
+    "x² cos x",
+    "2x cos x",
+    "2x sin x + x² cos x",
+    "2x sin x − x² cos x"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Product rule with f = x² and g = sin x: f′g + fg′ = 2x · sin x + x² · cos x.",
+   "choiceExplanations": [
+    "This differentiates only sin x and leaves out the 2x sin x term.",
+    "This multiplies the two derivatives (2x times cos x). A product's derivative is not the product of the derivatives.",
+    "",
+    "The product rule adds the two terms. Subtraction appears in the quotient rule."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u2-q05",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u2",
+   "topicId": "cab2-rules",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "f(x) = x/(x + 1). What is f′(x)?",
+   "choices": [
+    "(2x + 1)/(x + 1)²",
+    "1/(x + 1)²",
+    "−1/(x + 1)²",
+    "1"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Quotient rule: [1 · (x + 1) − x · 1]/(x + 1)² = 1/(x + 1)².",
+   "choiceExplanations": [
+    "This adds the two terms. The quotient rule subtracts.",
+    "",
+    "This subtracts in the wrong order (x · 1 − (x + 1) · 1). The numerator is f′g − fg′.",
+    "1 comes from dividing the derivative of the top by the derivative of the bottom (1/1). That is not the quotient rule."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u2-q06",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u2",
+   "topicId": "cab2-def",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "f(x) = |x − 2|. Which is true at x = 2?",
+   "choices": [
+    "f is continuous but not differentiable",
+    "f is differentiable but not continuous",
+    "f is both continuous and differentiable",
+    "f is neither continuous nor differentiable"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The graph has no break at x = 2 (f(2) = 0 and the limit is 0), so f is continuous. There is a corner: the slope is −1 on the left and +1 on the right, so f′(2) does not exist.",
+   "choiceExplanations": [
+    "",
+    "Differentiability implies continuity, so a function can never be differentiable but discontinuous.",
+    "The one-sided slopes are −1 and +1. They differ, so there is no single tangent line at x = 2.",
+    "f is continuous at 2. The graph is an unbroken V shape."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u2-q07",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u2",
+   "topicId": "cab2-def",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is the equation of the line tangent to f(x) = x³ − 3x at x = 2?",
+   "choices": [
+    "y = 2x + 9",
+    "y = 9x + 2",
+    "y = 9x − 20",
+    "y = 9x − 16"
+   ],
+   "correctAnswer": 3,
+   "explanation": "f(2) = 8 − 6 = 2 and f′(x) = 3x² − 3, so f′(2) = 9. Then y = 2 + 9(x − 2) = 9x − 16.",
+   "choiceExplanations": [
+    "This swaps the slope (9) and the function value (2).",
+    "This uses f(2) = 2 as the y-intercept. The point (2, 2) is on the line, but not on the y-axis.",
+    "This subtracts f(2) instead of adding it: y = 9(x − 2) − 2.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u2-q08",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u2",
+   "topicId": "cab2-rules",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "f(2) = 3, f′(2) = −1, g(2) = 4, and g′(2) = 5. If h(x) = f(x)g(x), what is h′(2)?",
+   "choices": [
+    "−19",
+    "19",
+    "11",
+    "−5"
+   ],
+   "correctAnswer": 2,
+   "explanation": "h′(2) = f′(2)g(2) + f(2)g′(2) = (−1)(4) + (3)(5) = −4 + 15 = 11.",
+   "choiceExplanations": [
+    "−19 subtracts the terms, f′g − fg′, as in the quotient rule's numerator. The product rule adds.",
+    "19 uses f′(2) = +1 instead of −1.",
+    "",
+    "−5 multiplies the two derivatives, f′(2)g′(2). That is not the product rule."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-cab-u2-khan",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u2",
+   "title": "Khan Academy: Differentiation: definition and basic derivative rules (AP Calculus AB unit)",
+   "provider": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new",
+   "scope": "unit",
+   "kind": "lesson page",
+   "note": "Khan Academy's free unit for this topic, with lessons and practice.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new",
+   "sourceTitle": "Khan Academy unit page",
+   "licenseOrRights": "Linked only, not embedded or copied. Content and rights belong to Khan Academy.",
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "res-cab-u2-openstax",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u2",
+   "title": "OpenStax Calculus Volume 1, 3.1 Defining the Derivative",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free textbook section on this unit's main idea. It is written for college calculus, so it may go beyond the AP Calculus AB scope.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative",
+   "sourceTitle": "OpenStax Calculus Volume 1",
+   "licenseOrRights": "Linked only. OpenStax lists Calculus Volume 1 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions."
+}

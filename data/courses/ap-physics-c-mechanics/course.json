@@ -1,0 +1,99 @@
+{
+ "id": "ap-physics-c-mechanics",
+ "name": "AP Physics C: Mechanics",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-physics-c-mechanics",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+ "frameworkUrl": "https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-physics-c-mechanics/exam/past-exam-questions",
+  "note": null
+ },
+ "source": {
+  "title": "AP Physics C: Mechanics – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+  "verified": "2026-10-09",
+  "note": null
+ },
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Kinematics",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Kinematics in one dimension",
+    "Kinematics in two dimensions"
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Force and Translational Dynamics",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Center of mass",
+    "Systems",
+    "Newton’s laws of motion: first and second law",
+    "Circular motion",
+    "Newton’s laws of motion: third law",
+    "Gravitation"
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Work, Energy, and Power",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Work–energy theorem",
+    "Forces and potential energy",
+    "Conservation of energy",
+    "Power"
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Linear Momentum",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Impulse and momentum",
+    "Conservation of linear momentum, collisions"
+   ]
+  },
+  {
+   "id": "u5",
+   "name": "Unit 5: Torque and Rotational Dynamics",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Torque and rotational statics",
+    "Rotational kinematics",
+    "Rotational dynamics and energy and Newton’s second law in rotational form"
+   ]
+  },
+  {
+   "id": "u6",
+   "name": "Unit 6: Energy and Momentum of Rotating Systems",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Rotational kinetic energy",
+    "Angular momentum",
+    "Rolling",
+    "Orbits"
+   ]
+  },
+  {
+   "id": "u7",
+   "name": "Unit 7: Oscillations",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Periodic motion",
+    "Pendulums",
+    "Physical Pendulums"
+   ]
+  }
+ ]
+}

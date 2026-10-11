@@ -1,0 +1,392 @@
+{
+ "courseId": "ap-physics-1",
+ "unitId": "u5",
+ "title": "Unit 5: Torque and Rotational Dynamics",
+ "topics": [
+  {
+   "id": "u5-rkin",
+   "name": "Rotational kinematics and linking to linear motion",
+   "covers": [
+    "Rotational kinematics",
+    "Connecting linear and rotational motion"
+   ]
+  },
+  {
+   "id": "u5-torque",
+   "name": "Torque and rotational equilibrium",
+   "covers": [
+    "Torque",
+    "Rotational equilibrium and Newton's First Law in rotational form"
+   ]
+  },
+  {
+   "id": "u5-inertia",
+   "name": "Rotational inertia and Newton's second law for rotation",
+   "covers": [
+    "Rotational inertia",
+    "Newton's Second Law in rotational form"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Torque and rotational dynamics: study guide",
+  "intro": "Rotation has its own versions of position, velocity, acceleration, force, mass, and Newton's second law. Once you see the pattern, rotational problems look like linear ones with new names.",
+  "sections": [
+   {
+    "id": "s-u5-rkin",
+    "topicId": "u5-rkin",
+    "title": "Rotational kinematics and linking to linear motion",
+    "body": [
+     "Rotation about a fixed axis is described by angular position θ (in radians), angular velocity ω, and angular acceleration α. With constant α the equations mirror the linear ones. A point at distance r from the axis on a rigid object moves with tangential speed v = ωr and tangential acceleration a_t = αr."
+    ],
+    "equations": [
+     [
+      "ω = ω₀ + αt",
+      "angular velocity"
+     ],
+     [
+      "θ = θ₀ + ω₀t + ½αt²",
+      "angle turned"
+     ],
+     [
+      "v = ωr",
+      "tangential speed"
+     ],
+     [
+      "a_t = αr",
+      "tangential acceleration"
+     ]
+    ]
+   },
+   {
+    "id": "s-u5-torque",
+    "topicId": "u5-torque",
+    "title": "Torque and rotational equilibrium",
+    "body": [
+     "Torque measures how effectively a force twists an object about an axis: τ = rF sinθ, where θ is the angle between the force and the line from the axis to the point where the force acts. The lever arm r sinθ is the perpendicular distance from the axis to the line of the force. An object in rotational equilibrium has zero net torque, so clockwise torques balance counterclockwise ones."
+    ],
+    "points": [
+     "A force applied at the axis, or directed along the line through the axis, exerts no torque about it.",
+     "A uniform plank's weight acts at its center."
+    ],
+    "equations": [
+     [
+      "τ = rF sinθ",
+      "torque"
+     ],
+     [
+      "Στ = 0",
+      "rotational equilibrium"
+     ]
+    ]
+   },
+   {
+    "id": "s-u5-inertia",
+    "topicId": "u5-inertia",
+    "title": "Rotational inertia and Newton's second law for rotation",
+    "body": [
+     "Rotational inertia I measures resistance to changes in rotation. For point masses I = Σmr², so mass farther from the axis counts for more. Newton's second law for rotation is Στ = Iα."
+    ],
+    "equations": [
+     [
+      "I = Σmr²",
+      "rotational inertia of point masses"
+     ],
+     [
+      "Στ = Iα",
+      "rotational form of Newton's second law"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A wheel with I = 0.50 kg·m² starts from rest, and a net torque of 2.0 N·m acts on it for 3.0 s. Find α and the angular speed after 3.0 s.",
+   "solution": "α = τ/I = 2.0/0.50 = 4.0 rad/s². ω = αt = 4.0 × 3.0 = 12 rad/s."
+  },
+  "misconceptions": [
+   [
+    "“Torque depends only on how big the force is.”",
+    "It also depends on where and in what direction the force is applied: τ = rF sinθ."
+   ],
+   [
+    "“Rotational inertia is just mass.”",
+    "It also depends on how the mass is distributed relative to the axis."
+   ],
+   [
+    "“Angular speed and tangential speed are the same.”",
+    "They are related by v = ωr. Points farther from the axis move faster for the same ω."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 1 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+  "sourceTitle": "AP Physics 1: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original text written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+  "isOriginal": true,
+  "verified": "2026-10-09"
+ },
+ "questions": [
+  {
+   "id": "ph1u5-q01",
+   "courseId": "ap-physics-1",
+   "unitId": "u5",
+   "topicId": "u5-rkin",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A wheel turns at a constant angular velocity of 4.0 rad/s. Through what angle does it turn in 3.0 s?",
+   "choices": [
+    "0.75 rad",
+    "7.0 rad",
+    "12 rad",
+    "36 rad"
+   ],
+   "correctAnswer": 2,
+   "explanation": "With constant angular velocity, θ = ωt = 4.0 × 3.0 = 12 rad.",
+   "choiceExplanations": [
+    "0.75 divides the angular speed by the time. The angle is ω times t.",
+    "7.0 adds the numbers instead of multiplying.",
+    "",
+    "36 rad uses t² (4.0 × 3.0²), which applies to constant angular acceleration, not constant angular velocity."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u5-q02",
+   "courseId": "ap-physics-1",
+   "unitId": "u5",
+   "topicId": "u5-rkin",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A point on the rim of a rotating disk, 0.50 m from the axis, moves with a tangential speed of 2.0 m/s. What is the disk's angular speed?",
+   "choices": [
+    "1.0 rad/s",
+    "4.0 rad/s",
+    "8.0 rad/s",
+    "0.25 rad/s"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Tangential speed and angular speed are related by v = ωr, so ω = v/r = 2.0/0.50 = 4.0 rad/s.",
+   "choiceExplanations": [
+    "1.0 multiplies v by r. Angular speed is v divided by r.",
+    "",
+    "8.0 divides by r² (or uses r = 0.25 m). Divide by r once.",
+    "0.25 inverts the ratio (r ÷ v)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u5-q03",
+   "courseId": "ap-physics-1",
+   "unitId": "u5",
+   "topicId": "u5-torque",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 20 N force is applied perpendicular to a wrench handle at a point 0.30 m from the bolt. What is the magnitude of the torque on the bolt?",
+   "choices": [
+    "0.015 N·m",
+    "6.0 N·m",
+    "20 N·m",
+    "67 N·m"
+   ],
+   "correctAnswer": 1,
+   "explanation": "For a perpendicular force, τ = rF = 0.30 m × 20 N = 6.0 N·m.",
+   "choiceExplanations": [
+    "0.015 divides the distance by the force. Torque is their product.",
+    "",
+    "20 is the force alone. Torque also needs the lever arm.",
+    "67 divides the force by the distance (20/0.30). Torque is a product."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u5-q04",
+   "courseId": "ap-physics-1",
+   "unitId": "u5",
+   "topicId": "u5-torque",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The same 20 N force is applied 0.30 m from the bolt, but now at 30° to the handle. What is the magnitude of the torque?",
+   "choices": [
+    "3.0 N·m",
+    "5.2 N·m",
+    "6.0 N·m",
+    "12 N·m"
+   ],
+   "correctAnswer": 0,
+   "explanation": "τ = rF sinθ = 0.30 × 20 × sin 30° = 0.30 × 20 × 0.50 = 3.0 N·m.",
+   "choiceExplanations": [
+    "",
+    "5.2 N·m uses cos 30° instead of sin 30°. With θ measured from the handle, the perpendicular part of the force uses the sine.",
+    "6.0 N·m would be the torque for a perpendicular force (θ = 90°).",
+    "12 N·m divides by sin 30° instead of multiplying by it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u5-q05",
+   "courseId": "ap-physics-1",
+   "unitId": "u5",
+   "topicId": "u5-torque",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A uniform plank rests on a pivot at its center. A 20 kg child sits 1.5 m from the pivot on one side. Where must a 30 kg child sit on the other side to balance the plank?",
+   "choices": [
+    "0.50 m from the pivot",
+    "1.0 m from the pivot",
+    "1.5 m from the pivot",
+    "2.3 m from the pivot"
+   ],
+   "correctAnswer": 1,
+   "explanation": "For balance the torques are equal: (20 kg)g(1.5 m) = (30 kg)g d, so d = 30/30 = 1.0 m. The plank's own weight acts at the pivot and produces no torque.",
+   "choiceExplanations": [
+    "0.50 m would give the heavier child too little torque.",
+    "",
+    "1.5 m is the lighter child's distance. The heavier child must sit closer to balance.",
+    "2.3 m (1.5 × 30/20) inverts the ratio. A heavier child needs a shorter lever arm."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u5-q06",
+   "courseId": "ap-physics-1",
+   "unitId": "u5",
+   "topicId": "u5-inertia",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A thin hoop and a solid disk have the same mass and radius. Equal torques are applied to each. Which statement is correct?",
+   "choices": [
+    "The disk has the larger angular acceleration because its rotational inertia is smaller",
+    "The hoop has the larger angular acceleration because its mass is farther from the axis",
+    "They have the same angular acceleration because the masses and radii match",
+    "They have the same angular acceleration because the torques match"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Angular acceleration is α = τ/I. All of the hoop's mass is at the rim, while the disk's mass is spread closer to the axis, so the hoop has more rotational inertia. With equal torques, the disk's smaller I gives it the larger α.",
+   "choiceExplanations": [
+    "",
+    "Reversed: mass farther from the axis raises rotational inertia, which lowers the angular acceleration for a given torque.",
+    "Equal mass and radius do not mean equal rotational inertia. How the mass is distributed matters.",
+    "Equal torque is not enough. The angular acceleration also depends on the rotational inertia, which differs."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u5-q07",
+   "courseId": "ap-physics-1",
+   "unitId": "u5",
+   "topicId": "u5-inertia",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A flywheel with rotational inertia 2.0 kg·m² starts from rest and feels a constant net torque of 6.0 N·m for 4.0 s. What is its angular speed at the end?",
+   "choices": [
+    "3.0 rad/s",
+    "12 rad/s",
+    "24 rad/s",
+    "48 rad/s"
+   ],
+   "correctAnswer": 1,
+   "explanation": "α = τ/I = 6.0/2.0 = 3.0 rad/s². Starting from rest, ω = αt = 3.0 × 4.0 = 12 rad/s.",
+   "choiceExplanations": [
+    "3.0 is the angular acceleration (in rad/s²), not the final angular speed.",
+    "",
+    "24 multiplies the torque by the time (6.0 × 4.0) and forgets to divide by I.",
+    "48 multiplies by I instead of dividing (6.0 × 4.0 × 2.0)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u5-q08",
+   "courseId": "ap-physics-1",
+   "unitId": "u5",
+   "topicId": "u5-rkin",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A wheel speeds up uniformly from 2.0 rad/s to 10.0 rad/s in 4.0 s. Through what angle does it turn during these 4.0 s?",
+   "choices": [
+    "8.0 rad",
+    "16 rad",
+    "24 rad",
+    "40 rad"
+   ],
+   "correctAnswer": 2,
+   "explanation": "With constant α, the angle is the average angular speed times the time: θ = ((2.0 + 10.0)/2) × 4.0 = 24 rad.",
+   "choiceExplanations": [
+    "8.0 is the change in angular speed (rad/s), not an angle.",
+    "16 rad is ½αt² alone (α = 2.0 rad/s²). It leaves out the ω₀t = 8.0 rad term.",
+    "",
+    "40 rad uses the final angular speed for the whole time, but the wheel was slower earlier."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ph1u5-q09",
+   "courseId": "ap-physics-1",
+   "unitId": "u5",
+   "topicId": "u5-rkin",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A wheel of radius 0.40 m has a constant angular acceleration of 5.0 rad/s². What is the tangential acceleration of a point on its rim?",
+   "choices": [
+    "0.080 m/s²",
+    "2.0 m/s²",
+    "12.5 m/s²",
+    "5.0 m/s²"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The tangential acceleration is a_t = αr = 5.0 × 0.40 = 2.0 m/s².",
+   "choiceExplanations": [
+    "0.080 divides the radius by the angular acceleration. Multiply them.",
+    "",
+    "12.5 divides α by r (5.0/0.40). The relation is a_t = αr.",
+    "5.0 is the angular acceleration in rad/s². A point's tangential acceleration also depends on its distance from the axis."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's scope.",
+   "isOriginal": true,
+   "verified": "2026-10-09"
+  }
+ ],
+ "videos": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course hub to browse released questions by year.",
+ "learnResources": []
+}

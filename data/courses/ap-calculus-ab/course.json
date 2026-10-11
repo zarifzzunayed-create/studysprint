@@ -1,0 +1,175 @@
+{
+ "id": "ap-calculus-ab",
+ "name": "AP Calculus AB",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-ab",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam/past-exam-questions",
+  "note": null,
+  "releasedSets": [
+   {
+    "year": 2026,
+    "title": "2026 AP Calculus AB Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-calculus-ab.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP Calculus AB Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-calculus-ab.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP Calculus AB Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-calculus-ab.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP Calculus AB Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-calculus-ab.pdf"
+   }
+  ],
+  "setsNote": "Whole released exams (PDF, College Board). They are not matched to units. Scoring guidelines are on the course's past-exam-questions page."
+ },
+ "source": {
+  "title": "AP Calculus AB – AP Central (College Board)",
+  "url": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+  "verified": "2026-10-11",
+  "note": "Unit titles confirmed on AP Central on 2026-10-11. The page says course content has not changed for 2026-27 (only minor clarifications and new exam timing). Official topic names come from the AP Students course page, checked 2026-10-09."
+ },
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Limits and Continuity",
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-ab/u1.json",
+   "officialTopics": [
+    "How limits help us to handle change at an instant",
+    "Definition and properties of limits in various representations",
+    "Definitions of continuity of a function at a point and over a domain",
+    "Asymptotes and limits at infinity",
+    "Reasoning using the Squeeze theorem and the Intermediate Value Theorem"
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Differentiation: Definition and Fundamental Properties",
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-ab/u2.json",
+   "officialTopics": [
+    "Defining the derivative of a function at a point and as a function",
+    "Connecting differentiability and continuity",
+    "Determining derivatives for elementary functions",
+    "Applying differentiation rules"
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Differentiation: Composite, Implicit, and Inverse Functions",
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-ab/u3.json",
+   "officialTopics": [
+    "The chain rule for differentiating composite functions",
+    "Implicit differentiation",
+    "Differentiation of general and particular inverse functions",
+    "Determining higher-order derivatives of functions"
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Contextual Applications of Differentiation",
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-ab/u4.json",
+   "officialTopics": [
+    "Identifying relevant mathematical information in verbal representations of real-world problems involving rates of change",
+    "Applying understandings of differentiation to problems involving motion",
+    "Generalizing understandings of motion problems to other situations involving rates of change",
+    "Solving related rates problems",
+    "Local linearity and approximation",
+    "L’Hospital’s rule"
+   ]
+  },
+  {
+   "id": "u5",
+   "name": "Unit 5: Analytical Applications of Differentiation",
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-ab/u5.json",
+   "officialTopics": [
+    "Mean Value Theorem and Extreme Value Theorem",
+    "Derivatives and properties of functions",
+    "How to use the first derivative test, second derivative test, and candidates test",
+    "Sketching graphs of functions and their derivatives",
+    "How to solve optimization problems",
+    "Behaviors of Implicit relations"
+   ]
+  },
+  {
+   "id": "u6",
+   "name": "Unit 6: Integration and Accumulation of Change",
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-ab/u6.json",
+   "officialTopics": [
+    "Using definite integrals to determine accumulated change over an interval",
+    "Approximating integrals using Riemann Sums",
+    "Accumulation functions, the Fundamental Theorem of Calculus, and definite integrals",
+    "Antiderivatives and indefinite integrals",
+    "Properties of integrals and integration techniques"
+   ]
+  },
+  {
+   "id": "u7",
+   "name": "Unit 7: Differential Equations",
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-ab/u7.json",
+   "officialTopics": [
+    "Interpreting verbal descriptions of change as separable differential equations",
+    "Sketching slope fields and families of solution curves",
+    "Solving separable differential equations to find general and particular solutions",
+    "Deriving and applying a model for exponential growth and decay"
+   ]
+  },
+  {
+   "id": "u8",
+   "name": "Unit 8: Applications of Integration",
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-ab/u8.json",
+   "officialTopics": [
+    "Determining the average value of a function using definite integrals",
+    "Modeling particle motion",
+    "Solving accumulation problems",
+    "Finding the area between curves",
+    "Determining volume with cross-sections, the disc method, and the washer method"
+   ]
+  }
+ ],
+ "generalResources": [
+  {
+   "id": "gen-cab-openstax",
+   "title": "OpenStax Calculus Volume 1 (whole book)",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/details/books/calculus-volume-1",
+   "scope": "general",
+   "kind": "textbook",
+   "note": "General: a free college calculus textbook covering limits, derivatives, and integrals. Not specific to one unit.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/details/books/calculus-volume-1",
+   "sourceTitle": "OpenStax book page",
+   "licenseOrRights": "Linked only. OpenStax lists the book under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "gen-cab-apstudents",
+   "title": "AP Calculus AB course overview (College Board)",
+   "provider": "College Board",
+   "url": "https://apstudents.collegeboard.org/courses/ap-calculus-ab",
+   "scope": "general",
+   "kind": "course page",
+   "note": "General: the official overview of the course and exam. It is not a lesson.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-ab",
+   "sourceTitle": "AP Students course page",
+   "licenseOrRights": "Linked only. College Board content is not copied.",
+   "verified": "2026-10-09"
+  }
+ ]
+}

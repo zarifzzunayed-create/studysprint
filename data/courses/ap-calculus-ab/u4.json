@@ -1,0 +1,379 @@
+{
+ "courseId": "ap-calculus-ab",
+ "unitId": "u4",
+ "title": "Unit 4: Contextual Applications of Differentiation",
+ "topics": [
+  {
+   "id": "cab4-rates",
+   "name": "Rates of change in context and motion",
+   "covers": [
+    "Identifying relevant mathematical information in verbal representations of real-world problems involving rates of change",
+    "Applying understandings of differentiation to problems involving motion",
+    "Generalizing understandings of motion problems to other situations involving rates of change"
+   ]
+  },
+  {
+   "id": "cab4-related",
+   "name": "Related rates",
+   "covers": [
+    "Solving related rates problems"
+   ]
+  },
+  {
+   "id": "cab4-approx",
+   "name": "Local linearity and L'Hospital's rule",
+   "covers": [
+    "Local linearity and approximation",
+    "L’Hospital’s rule"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Contextual applications of differentiation: review guide",
+  "intro": "Derivatives describe real rates: speed, growth, flow. This unit interprets them in context, links rates that change together, and uses tangent lines and L'Hospital's rule.",
+  "sections": [
+   {
+    "id": "s-cab4-rates",
+    "topicId": "cab4-rates",
+    "title": "Rates in context and motion",
+    "body": [
+     "A derivative's units are output units per input unit. If V(t) is liters and t is minutes, V′(t) is liters per minute. Describe it as how fast the quantity is changing at that instant."
+    ],
+    "points": [
+     "Position s(t), velocity v(t) = s′(t), acceleration a(t) = v′(t).",
+     "Speed is |v(t)|.",
+     "Speeding up when v and a have the same sign. Slowing down when they have opposite signs."
+    ]
+   },
+   {
+    "id": "s-cab4-related",
+    "topicId": "cab4-related",
+    "title": "Related rates",
+    "body": [
+     "Write an equation relating the quantities, differentiate both sides with respect to t, then substitute the known values. Substitute only after differentiating."
+    ],
+    "points": [
+     "List the given rates and the wanted rate with units.",
+     "Use the Pythagorean theorem, area, or volume formulas to link variables."
+    ]
+   },
+   {
+    "id": "s-cab4-approx",
+    "topicId": "cab4-approx",
+    "title": "Local linearity and L'Hospital's rule",
+    "body": [
+     "Near x = a, a differentiable function is close to its tangent line, so f(x) ≈ f(a) + f′(a)(x − a).",
+     "If a limit has the form 0/0 or ∞/∞, L'Hospital's rule lets you replace f/g with f′/g′. Differentiate the top and bottom separately (not with the quotient rule)."
+    ],
+    "points": [
+     "Check the form before every application of L'Hospital's rule."
+    ],
+    "equations": [
+     [
+      "L(x) = f(a) + f′(a)(x − a)",
+      "linear approximation"
+     ],
+     [
+      "lim f/g = lim f′/g′ (0/0 or ∞/∞)",
+      "L'Hospital's rule"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A balloon's radius grows at 0.5 cm/s. How fast is its volume growing when r = 4 cm?",
+   "solution": "V = (4/3)πr³, so dV/dt = 4πr² · dr/dt = 4π(16)(0.5) = 32π cm³/s ≈ 100.5 cm³/s."
+  },
+  "misconceptions": [
+   [
+    "“Negative velocity means slowing down.”",
+    "Slowing down depends on whether velocity and acceleration have opposite signs."
+   ],
+   [
+    "“Substitute numbers before differentiating.”",
+    "Substituting first turns changing quantities into constants, whose rates are 0."
+   ],
+   [
+    "“L'Hospital's rule uses the quotient rule.”",
+    "Differentiate the numerator and the denominator separately."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+  "sourceTitle": "AP Calculus AB – AP Central (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+  "isOriginal": true,
+  "verified": "2026-10-11"
+ },
+ "questions": [
+  {
+   "id": "cab-u4-q01",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u4",
+   "topicId": "cab4-rates",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A particle's position is s(t) = t² − 6t meters at time t seconds. What is its velocity at t = 2?",
+   "choices": [
+    "2 m/s",
+    "−4 m/s",
+    "−8 m",
+    "−2 m/s"
+   ],
+   "correctAnswer": 3,
+   "explanation": "v(t) = s′(t) = 2t − 6, so v(2) = −2 m/s. The negative sign means it is moving in the negative direction.",
+   "choiceExplanations": [
+    "2 m/s is the speed. Velocity keeps the sign, which shows direction.",
+    "−4 m/s is the average velocity from t = 0 to t = 2. The question asks for the velocity at the instant t = 2.",
+    "−8 m is the position s(2), not the velocity.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u4-q02",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u4",
+   "topicId": "cab4-rates",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "V(t) is the volume of water in a tank, in liters, t minutes after noon. What does V′(5) = −3 mean?",
+   "choices": [
+    "At 5 minutes after noon, the tank holds 3 liters less than it did at noon",
+    "The volume decreases by 3 liters every minute after noon",
+    "At 5 minutes after noon, the volume is decreasing at 3 liters per minute",
+    "At 5 minutes after noon, the tank holds −3 liters"
+   ],
+   "correctAnswer": 2,
+   "explanation": "V′(5) is the instantaneous rate of change of volume at t = 5, in liters per minute. Negative means the volume is going down at that moment.",
+   "choiceExplanations": [
+    "A total change since noon would come from V(5) − V(0), not from V′(5).",
+    "V′(5) describes only the instant t = 5. The rate may be different at other times.",
+    "",
+    "V′ is a rate, not an amount, and a volume cannot be negative."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u4-q03",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u4",
+   "topicId": "cab4-approx",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Use the tangent line to f(x) = √x at x = 4 to approximate √4.2.",
+   "choices": [
+    "2.25",
+    "2.05",
+    "2.0",
+    "2.2"
+   ],
+   "correctAnswer": 1,
+   "explanation": "f(4) = 2 and f′(x) = 1/(2√x), so f′(4) = 1/4. Then √4.2 ≈ 2 + (1/4)(0.2) = 2.05.",
+   "choiceExplanations": [
+    "This adds the slope 1/4 instead of the slope times the change in x.",
+    "",
+    "This keeps only f(4) and leaves out the correction term f′(4)(x − 4).",
+    "This adds the change in x (0.2) directly, as if the slope were 1."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u4-q04",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u4",
+   "topicId": "cab4-related",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A circle's radius is increasing at 2 cm/s. How fast is its area increasing when the radius is 5 cm?",
+   "choices": [
+    "20π cm²/s",
+    "4π cm²/s",
+    "25π cm²/s",
+    "10π cm²/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A = πr², so dA/dt = 2πr · dr/dt = 2π(5)(2) = 20π cm²/s.",
+   "choiceExplanations": [
+    "",
+    "4π leaves out r: it uses 2π · dr/dt.",
+    "25π is the area when r = 5, not its rate of change.",
+    "10π leaves out dr/dt: it uses 2πr."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u4-q05",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u4",
+   "topicId": "cab4-approx",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is lim x→0 (e^(2x) − 1)/x?",
+   "choices": [
+    "2",
+    "1",
+    "0",
+    "The limit does not exist"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Substitution gives 0/0, so use L'Hospital's rule: lim x→0 2e^(2x)/1 = 2.",
+   "choiceExplanations": [
+    "",
+    "1 forgets the chain rule factor of 2 when differentiating e^(2x).",
+    "0/0 is not 0. It is an indeterminate form that needs more work.",
+    "0/0 does not mean the limit fails to exist. L'Hospital's rule gives 2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u4-q06",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u4",
+   "topicId": "cab4-rates",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A particle's velocity is v(t) = t² − 4t + 3. At t = 2.5, is it speeding up or slowing down?",
+   "choices": [
+    "Speeding up, because v < 0",
+    "Speeding up, because a > 0",
+    "Slowing down, because v and a have opposite signs",
+    "At rest, because v = 0"
+   ],
+   "correctAnswer": 2,
+   "explanation": "v(2.5) = 6.25 − 10 + 3 = −0.75 and a(t) = 2t − 4, so a(2.5) = 1. The signs are opposite, so the speed is decreasing.",
+   "choiceExplanations": [
+    "The sign of v alone does not decide it either.",
+    "The sign of a alone does not decide it. Compare the signs of v and a.",
+    "",
+    "v(2.5) = −0.75, which is not 0, so the particle is moving."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u4-q07",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u4",
+   "topicId": "cab4-related",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 10 ft ladder leans against a wall. Its bottom slides away from the wall at 2 ft/s. How fast is the top sliding down the wall when the bottom is 6 ft from the wall?",
+   "choices": [
+    "2 ft/s",
+    "1.5 ft/s",
+    "8/3 ft/s",
+    "0.75 ft/s"
+   ],
+   "correctAnswer": 1,
+   "explanation": "x² + y² = 100. When x = 6, y = 8. Differentiating: 2x · dx/dt + 2y · dy/dt = 0, so dy/dt = −(6)(2)/8 = −1.5. The top slides down at 1.5 ft/s.",
+   "choiceExplanations": [
+    "The top and bottom do not move at the same rate. Their rates are linked through x² + y² = 100.",
+    "",
+    "8/3 inverts the ratio (y/x instead of x/y).",
+    "0.75 is x/y = 6/8 without multiplying by dx/dt = 2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u4-q08",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u4",
+   "topicId": "cab4-approx",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is lim x→0 (1 − cos x)/x²?",
+   "choices": [
+    "1/2",
+    "1",
+    "0",
+    "The limit does not exist"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The form is 0/0. L'Hospital's rule gives sin x/(2x), still 0/0. Apply it again: cos x/2 → 1/2.",
+   "choiceExplanations": [
+    "",
+    "1 forgets the factor of 2 from differentiating x².",
+    "After one application the form is still 0/0, which is not the same as 0. Apply the rule again.",
+    "Repeated 0/0 forms are handled by applying the rule again. The limit exists and equals 1/2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  }
+ ],
+ "videos": [
+  {
+   "id": "vid-cab-u4-khan",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u4",
+   "title": "Exploring related rates: Falling ladder",
+   "creator": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-contextual-applications-new/ab-4-5/v/falling-ladder-related-rates",
+   "note": "A Khan Academy video on related rates, one topic in this unit.",
+   "scope": "unit",
+   "kind": "video",
+   "sourceType": "external-link",
+   "sourceUrl": "https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-contextual-applications-new/ab-4-5/v/falling-ladder-related-rates",
+   "sourceTitle": "Khan Academy video page",
+   "licenseOrRights": "Linked only, not embedded or copied. Content and rights belong to Khan Academy.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "learnResources": [
+  {
+   "id": "res-cab-u4-openstax",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u4",
+   "title": "OpenStax Calculus Volume 1, 4.1 Related Rates",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/calculus-volume-1/pages/4-1-related-rates",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free textbook section on this unit's main idea. It is written for college calculus, so it may go beyond the AP Calculus AB scope.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/calculus-volume-1/pages/4-1-related-rates",
+   "sourceTitle": "OpenStax Calculus Volume 1",
+   "licenseOrRights": "Linked only. OpenStax lists Calculus Volume 1 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions."
+}

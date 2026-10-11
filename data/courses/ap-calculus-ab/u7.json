@@ -1,0 +1,373 @@
+{
+ "courseId": "ap-calculus-ab",
+ "unitId": "u7",
+ "title": "Unit 7: Differential Equations",
+ "topics": [
+  {
+   "id": "cab7-model",
+   "name": "Writing and verifying differential equations",
+   "covers": [
+    "Interpreting verbal descriptions of change as separable differential equations"
+   ]
+  },
+  {
+   "id": "cab7-slope",
+   "name": "Slope fields",
+   "covers": [
+    "Sketching slope fields and families of solution curves"
+   ]
+  },
+  {
+   "id": "cab7-sep",
+   "name": "Separable equations and exponential models",
+   "covers": [
+    "Solving separable differential equations to find general and particular solutions",
+    "Deriving and applying a model for exponential growth and decay"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Differential equations: review guide",
+  "intro": "A differential equation relates a function to its derivative. In AP Calculus AB you write them from descriptions, read slope fields, and solve separable equations, including exponential models.",
+  "sections": [
+   {
+    "id": "s-cab7-model",
+    "topicId": "cab7-model",
+    "title": "Writing and verifying differential equations",
+    "body": [
+     "“The rate of change of y is proportional to y” means dy/dt = ky. To check that a function is a solution, substitute it and its derivative into the equation."
+    ],
+    "points": [
+     "A general solution contains a constant C. An initial condition picks one particular solution."
+    ]
+   },
+   {
+    "id": "s-cab7-slope",
+    "topicId": "cab7-slope",
+    "title": "Slope fields",
+    "body": [
+     "A slope field draws a short segment at each point (x, y) with slope dy/dx given by the equation. Solution curves follow the segments."
+    ],
+    "points": [
+     "If dy/dx depends only on x, segments in each vertical column are parallel.",
+     "If dy/dx depends only on y, segments along each horizontal row are parallel.",
+     "Where dy/dx = 0 the segments are horizontal."
+    ]
+   },
+   {
+    "id": "s-cab7-sep",
+    "topicId": "cab7-sep",
+    "title": "Separable equations and exponential models",
+    "body": [
+     "Separate the variables (all y with dy, all x with dx), integrate both sides, include + C, then use the initial condition to find C. Solve for y if you can."
+    ],
+    "points": [
+     "dy/dt = ky has solution y = y₀e^(kt): growth if k > 0, decay if k < 0.",
+     "Add + C right after integrating. Exponentiating turns it into a factor, not an added constant.",
+     "Euler's method and logistic models are AP Calculus BC topics, so they are not reviewed here."
+    ],
+    "equations": [
+     [
+      "dy/dt = ky ⇒ y = y₀e^(kt)",
+      "exponential model"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Solve dy/dx = 2xy with y(0) = 5.",
+   "solution": "Separate: dy/y = 2x dx. Integrate: ln|y| = x² + C. So y = Ae^(x²), and y(0) = 5 gives A = 5. The solution is y = 5e^(x²)."
+  },
+  "misconceptions": [
+   [
+    "“Add + C at the end.”",
+    "Add it when you integrate. After exponentiating it becomes a multiplying factor."
+   ],
+   [
+    "“The slope field shows the solution.”",
+    "It shows slopes. You still pick one curve using the initial condition."
+   ],
+   [
+    "“Proportional to y means dy/dt = k.”",
+    "It means dy/dt = ky."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+  "sourceTitle": "AP Calculus AB – AP Central (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+  "isOriginal": true,
+  "verified": "2026-10-11"
+ },
+ "questions": [
+  {
+   "id": "cab-u7-q01",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u7",
+   "topicId": "cab7-model",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which equation says that the rate of change of P with respect to t is proportional to P?",
+   "choices": [
+    "dP/dt = kt",
+    "dP/dt = k",
+    "dP/dt = kP",
+    "P = kt"
+   ],
+   "correctAnswer": 2,
+   "explanation": "“Proportional to P” means the rate equals a constant times P: dP/dt = kP.",
+   "choiceExplanations": [
+    "dP/dt = kt makes the rate proportional to t, not to P.",
+    "dP/dt = k is a constant rate, which is not proportional to P.",
+    "",
+    "P = kt describes P itself, not its rate of change."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u7-q02",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u7",
+   "topicId": "cab7-model",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which function is a solution of dy/dx = 2y?",
+   "choices": [
+    "y = 2x + 5",
+    "y = 5e^(2x)",
+    "y = e^(x²)",
+    "y = x² + 2"
+   ],
+   "correctAnswer": 1,
+   "explanation": "If y = 5e^(2x), then dy/dx = 10e^(2x) = 2 · 5e^(2x) = 2y.",
+   "choiceExplanations": [
+    "For y = 2x + 5, dy/dx = 2, which is not 2(2x + 5).",
+    "",
+    "For y = e^(x²), dy/dx = 2x · e^(x²) = 2xy, not 2y.",
+    "For y = x² + 2, dy/dx = 2x, which is not 2(x² + 2)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u7-q03",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u7",
+   "topicId": "cab7-slope",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In the slope field for dy/dx = x − y, what is the slope of the segment at the point (2, 1)?",
+   "choices": [
+    "1",
+    "−1",
+    "2",
+    "3"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Substitute x = 2 and y = 1: dy/dx = 2 − 1 = 1.",
+   "choiceExplanations": [
+    "",
+    "−1 computes y − x instead of x − y.",
+    "2 uses only x and ignores the − y term.",
+    "3 adds the coordinates instead of subtracting."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u7-q04",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u7",
+   "topicId": "cab7-sep",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the solution of dy/dx = xy with y(0) = 3?",
+   "choices": [
+    "y = e^(x²/2) + 2",
+    "y = x²/2 + 3",
+    "y = 3e^(x²)",
+    "y = 3e^(x²/2)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Separate: dy/y = x dx. Integrate: ln|y| = x²/2 + C, so y = Ae^(x²/2). y(0) = 3 gives A = 3.",
+   "choiceExplanations": [
+    "+ C was added after exponentiating. e^(x²/2 + C) = A · e^(x²/2), a multiple, not a sum.",
+    "This integrates only the x side and forgets that the y side gives ln|y|.",
+    "The antiderivative of x is x²/2, not x².",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u7-q05",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u7",
+   "topicId": "cab7-slope",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a slope field, every segment along any horizontal line has the same slope, and the segments are horizontal along the line y = 1. Which could be the differential equation?",
+   "choices": [
+    "dy/dx = 1 − x",
+    "dy/dx = x(y − 1)",
+    "dy/dx = y − 1",
+    "dy/dx = x − 1"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Equal slopes along each horizontal line means dy/dx depends only on y. dy/dx = y − 1 does, and it is 0 when y = 1.",
+   "choiceExplanations": [
+    "1 − x depends only on x, so slopes vary along each horizontal line.",
+    "x(y − 1) changes with x along a horizontal line (except where y = 1).",
+    "",
+    "dy/dx = x − 1 depends only on x, so equal slopes appear along vertical lines instead."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u7-q06",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u7",
+   "topicId": "cab7-sep",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A substance decays exponentially with a half-life of 4 hours. There are 80 g at t = 0. How much remains after 12 hours?",
+   "choices": [
+    "40 g",
+    "10 g",
+    "26.7 g",
+    "20 g"
+   ],
+   "correctAnswer": 1,
+   "explanation": "12 hours is three half-lives: 80 → 40 → 20 → 10 g.",
+   "choiceExplanations": [
+    "40 g is after one half-life (4 hours).",
+    "",
+    "26.7 g divides 80 by 3. Each half-life halves the amount; it does not subtract a fixed share.",
+    "20 g is after two half-lives (8 hours)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u7-q07",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u7",
+   "topicId": "cab7-sep",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is the solution of dy/dx = y² with y(0) = 1?",
+   "choices": [
+    "y = 1/(1 − x)",
+    "y = −1/(x + 1)",
+    "y = eˣ",
+    "y = 1/(1 + x)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Separate: y⁻² dy = dx. Integrate: −1/y = x + C. y(0) = 1 gives C = −1, so −1/y = x − 1 and y = 1/(1 − x).",
+   "choiceExplanations": [
+    "",
+    "This gives y(0) = −1, which does not match the initial condition y(0) = 1.",
+    "y = eˣ solves dy/dx = y, not dy/dx = y².",
+    "This drops the minus sign: the antiderivative of y⁻² is −1/y."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  },
+  {
+   "id": "cab-u7-q08",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u7",
+   "topicId": "cab7-sep",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Coffee at 90°C sits in a 20°C room, and its temperature satisfies dT/dt = −0.1(T − 20). Which expression gives T(t)?",
+   "choices": [
+    "T = 70 + 20e^(−0.1t)",
+    "T = 20 + 90e^(−0.1t)",
+    "T = 90e^(−0.1t)",
+    "T = 20 + 70e^(−0.1t)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Let D = T − 20. Then dD/dt = −0.1D, so D = D₀e^(−0.1t) with D₀ = 90 − 20 = 70. So T = 20 + 70e^(−0.1t), which starts at 90 and approaches 20.",
+   "choiceExplanations": [
+    "This swaps the numbers. It would approach 70°C instead of the room temperature.",
+    "This uses 90 as the starting difference. The starting difference is 90 − 20 = 70, so T(0) would be 110.",
+    "This ignores the room temperature. It would cool toward 0°C, not 20°C.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
+   "licenseOrRights": "Original question written for StudySprint. The linked College Board page was only used to confirm the unit's title and scope.",
+   "isOriginal": true,
+   "verified": "2026-10-11"
+  }
+ ],
+ "videos": [
+  {
+   "id": "vid-cab-u7-khan",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u7",
+   "title": "Exponential models & differential equations (Part 1)",
+   "creator": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differential-equations-new/ab-7-8/v/modeling-population-with-simple-differential-equation",
+   "note": "A Khan Academy video on exponential models, one topic in this unit.",
+   "scope": "unit",
+   "kind": "video",
+   "sourceType": "external-link",
+   "sourceUrl": "https://www.khanacademy.org/math/ap-calculus-ab/ab-differential-equations-new/ab-7-8/v/modeling-population-with-simple-differential-equation",
+   "sourceTitle": "Khan Academy video page",
+   "licenseOrRights": "Linked only, not embedded or copied. Content and rights belong to Khan Academy.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "learnResources": [
+  {
+   "id": "res-cab-u7-openstax",
+   "courseId": "ap-calculus-ab",
+   "unitId": "u7",
+   "title": "OpenStax Calculus Volume 2, 4.3 Separable Equations",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/calculus-volume-2/pages/4-3-separable-equations",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free textbook section on separable equations. It comes from a college Calculus 2 book, so parts go beyond AP Calculus AB.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/calculus-volume-2/pages/4-3-separable-equations",
+   "sourceTitle": "OpenStax Calculus Volume 2",
+   "licenseOrRights": "Linked only. OpenStax lists Calculus Volume 2 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-10-11"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions."
+}

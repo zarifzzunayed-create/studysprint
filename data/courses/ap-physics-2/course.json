@@ -1,0 +1,114 @@
+{
+ "id": "ap-physics-2",
+ "name": "AP Physics 2: Algebra-Based",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-physics-2",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+ "frameworkUrl": "https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-physics-2/exam/past-exam-questions",
+  "note": null
+ },
+ "source": {
+  "title": "AP Physics 2: Algebra-Based – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+  "verified": "2026-10-09",
+  "note": null
+ },
+ "units": [
+  {
+   "id": "u9",
+   "name": "Unit 9: Thermodynamics",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Thermodynamic systems",
+    "Pressure, thermal equilibrium, and the Ideal Gas Law",
+    "Thermodynamics and forces",
+    "Heat and energy transfer",
+    "Thermodynamics and collisions",
+    "Probability, thermal equilibrium, and entropy"
+   ]
+  },
+  {
+   "id": "u10",
+   "name": "Unit 10: Electric Force, Field, and Potential",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Electric systems and charge",
+    "Charge distribution: Friction, conduction, and induction",
+    "Electric permittivity",
+    "Electric forces and free-body diagrams",
+    "Gravitational and electromagnetic forces",
+    "Electric charges and fields",
+    "Electric flux",
+    "Conservation of electric energy"
+   ]
+  },
+  {
+   "id": "u11",
+   "name": "Unit 11: Electric Circuits",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Definition and conservation of electric charge",
+    "Resistivity and resistance",
+    "Resistance and capacitance",
+    "Kirchhoff’s loop rule",
+    "Kirchhoff’s junction rule and the conservation of electric charge"
+   ]
+  },
+  {
+   "id": "u12",
+   "name": "Unit 12: Magnetism and Electromagnetism",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Magnetic systems",
+    "Magnetic permeability and magnetic dipole moment",
+    "Vector and scalar fields",
+    "Monopole and dipole fields",
+    "Magnetic fields and forces",
+    "Forces review",
+    "Magnetic flux"
+   ]
+  },
+  {
+   "id": "u13",
+   "name": "Unit 13: Geometric Optics",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Refraction, reflection, and absorption",
+    "Images from lenses and mirrors"
+   ]
+  },
+  {
+   "id": "u14",
+   "name": "Unit 14: Waves, Sound, and Physical Optics",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Periodic waves",
+    "Electromagnetic waves",
+    "Sound",
+    "Doppler Effect",
+    "Interference and diffraction"
+   ]
+  },
+  {
+   "id": "u15",
+   "name": "Unit 15: Modern Physics",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Radioactive decay",
+    "Energy in modern physics (energy in radioactive decay and E = mc²)",
+    "Mass–energy equivalence",
+    "Blackbody radiation",
+    "Properties of waves and particles",
+    "Photoelectric effect"
+   ]
+  }
+ ]
+}

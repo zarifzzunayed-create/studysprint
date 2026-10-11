@@ -1,0 +1,88 @@
+{
+ "id": "ap-physics-c-electricity-and-magnetism",
+ "name": "AP Physics C: Electricity and Magnetism",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+ "frameworkUrl": "https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism/exam/past-exam-questions",
+  "note": null
+ },
+ "source": {
+  "title": "AP Physics C: Electricity and Magnetism – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+  "verified": "2026-10-09",
+  "note": null
+ },
+ "units": [
+  {
+   "id": "u8",
+   "name": "Unit 8: Electric Charges, Fields, and Gauss’s Law",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Coulomb’s Law",
+    "Electric fields due to point charges or combinations of charges",
+    "Electric Flux and Gauss’s Law",
+    "Electric fields of charge distributions"
+   ]
+  },
+  {
+   "id": "u9",
+   "name": "Unit 9: Electric Potential",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Electric potential",
+    "Electric potential due to point charges and uniform fields",
+    "Electric potential due to configurations of charge",
+    "Energy conservation when electric charges interact with each other or electric fields"
+   ]
+  },
+  {
+   "id": "u10",
+   "name": "Unit 10: Conductors and Capacitors",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Electrostatics with conductors",
+    "Capacitors",
+    "Dielectrics"
+   ]
+  },
+  {
+   "id": "u11",
+   "name": "Unit 11: Electric Circuits",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Current and resistance",
+    "Current, resistance, and power",
+    "Steady-state direct-current circuits with batteries and resistors only",
+    "Gauss’s Law"
+   ]
+  },
+  {
+   "id": "u12",
+   "name": "Unit 12: Magnetic Fields and Electromagnetism",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Forces on moving charges in magnetic fields",
+    "Forces on current carrying wires in magnetic fields",
+    "Fields of long current carrying wires",
+    "The Biot-Savart Law and Ampère’s Law"
+   ]
+  },
+  {
+   "id": "u13",
+   "name": "Unit 13: Electromagnetic Induction",
+   "status": "outline",
+   "file": null,
+   "officialTopics": [
+    "Electromagnetic induction (including Faraday’s Law and Lenz’s Law)",
+    "Inductance (including LR circuits)"
+   ]
+  }
+ ]
+}

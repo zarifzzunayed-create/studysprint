@@ -1,0 +1,89 @@
+{
+ "id": "ap-calculus-bc",
+ "name": "AP Calculus BC",
+ "officialUrl": null,
+ "studentUrl": null,
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-bc/exam/past-exam-questions",
+  "note": null
+ },
+ "source": {
+  "title": "AP Calculus BC course overview (College Board) and AP Calculus AB – AP Students (College Board)",
+  "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-bc-course-overview.pdf",
+  "verified": "2026-10-09",
+  "note": "College Board's BC course overview says the course has ten units and names Units 9 and 10. Units 1–8 use the same titles as AP Calculus AB, because College Board publishes one course and exam description for both courses. The BC student page was not retrieved in this build, so per-unit topic lists are not included."
+ },
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Limits and Continuity",
+   "status": "outline",
+   "file": null,
+   "officialTopics": []
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Differentiation: Definition and Fundamental Properties",
+   "status": "outline",
+   "file": null,
+   "officialTopics": []
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Differentiation: Composite, Implicit, and Inverse Functions",
+   "status": "outline",
+   "file": null,
+   "officialTopics": []
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Contextual Applications of Differentiation",
+   "status": "outline",
+   "file": null,
+   "officialTopics": []
+  },
+  {
+   "id": "u5",
+   "name": "Unit 5: Analytical Applications of Differentiation",
+   "status": "outline",
+   "file": null,
+   "officialTopics": []
+  },
+  {
+   "id": "u6",
+   "name": "Unit 6: Integration and Accumulation of Change",
+   "status": "outline",
+   "file": null,
+   "officialTopics": []
+  },
+  {
+   "id": "u7",
+   "name": "Unit 7: Differential Equations",
+   "status": "outline",
+   "file": null,
+   "officialTopics": []
+  },
+  {
+   "id": "u8",
+   "name": "Unit 8: Applications of Integration",
+   "status": "outline",
+   "file": null,
+   "officialTopics": []
+  },
+  {
+   "id": "u9",
+   "name": "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
+   "status": "outline",
+   "file": null,
+   "officialTopics": []
+  },
+  {
+   "id": "u10",
+   "name": "Unit 10: Infinite Sequences and Series",
+   "status": "outline",
+   "file": null,
+   "officialTopics": []
+  }
+ ]
+}
