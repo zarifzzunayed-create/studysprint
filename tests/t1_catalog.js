@@ -15,7 +15,7 @@ const T = require('./helpers');
   await p.fill('#c-search', 'AP Calculus AB'); await p.keyboard.press('Enter');
   await p.waitForFunction(() => document.querySelectorAll('#c-unit option').length > 3);
   const units = await p.$$eval('#c-unit option', e => e.map(x => x.textContent).slice(1));
-  T.ok(units.length === 8 && units.every(u => u.endsWith('— Practice-ready')) && units[0].startsWith('Unit 1: Limits and Continuity'), 'Calculus AB: all 8 official units listed as practice-ready');
+  T.ok(units.length === 8 && units.every(u => u.endsWith('— Practice-ready · 1 practice test')) && units[0].startsWith('Unit 1: Limits and Continuity'), 'Calculus AB: all 8 official units listed as practice-ready, each with the 1 practice test its bank supports');
   await p.fill('#c-search', 'AP Precalculus'); await p.keyboard.press('Enter');
   await p.waitForFunction(() => document.querySelectorAll('#c-unit option').length > 3);
   const pre = await p.$$eval('#c-unit option', e => e.map(x => x.textContent).slice(1));

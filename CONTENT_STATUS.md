@@ -22,6 +22,58 @@ StudySprint is a review site, not a complete course or textbook. Guides are shor
 8. AP Physics C: Electricity and Magnetism: 0 of 6 units practice-ready, 0 in progress, 6 outline only
 9. AP Computer Science A: catalog entry only (no verified unit outline yet)
 
+## Practice tests
+
+A **practice test** is a fixed set of at least 8 of a unit's own original questions that includes every topic in the unit and all three difficulty levels. Two tests in a unit share no questions, so a second test is a genuinely different question set; reshuffling the same questions does not count as a new test. Tests are short unit tests, not full AP exams, and they cannot predict an AP score. Timed mode allows 2 minutes per question (StudySprint's own pacing, not an official AP time limit). The rules live in `data/catalog.json` (`practiceTests`), and the build rejects a test that breaks them.
+
+Retaking a test shows the same questions in a new order; those answers are recorded as retries, so first-attempt results never go up from a retake. Questions that are not in any test still appear in adaptive practice.
+
+"Distinct tests the bank could support" is an upper bound from the number of questions, topics, and levels. "More original questions needed" is a lower bound for reaching 3 different tests per unit: questions already in a test cannot be reused, and the new questions must also fill any topic or level that the remaining questions do not cover.
+
+### AP Physics 1: Algebra-Based
+
+8 of 8 units have a practice test (8 tests in all); 0 units have more than one.
+
+| Unit | Questions in bank | Practice tests (questions each) | Questions not in any test | Distinct tests the bank could support | More original questions needed for 3 tests (at least) |
+|---|---|---|---|---|---|
+| Unit 1: Kinematics | 14 | 1 (8) | 6 | 1 | 10 |
+| Unit 2: Force and Translational Dynamics | 10 | 1 (8) | 2 | 1 | 14 |
+| Unit 3: Work, Energy, and Power | 9 | 1 (8) | 1 | 1 | 15 |
+| Unit 4: Linear Momentum | 9 | 1 (8) | 1 | 1 | 15 |
+| Unit 5: Torque and Rotational Dynamics | 9 | 1 (8) | 1 | 1 | 15 |
+| Unit 6: Energy and Momentum of Rotating Systems | 9 | 1 (8) | 1 | 1 | 15 |
+| Unit 7: Oscillations | 9 | 1 (8) | 1 | 1 | 15 |
+| Unit 8: Fluids | 9 | 1 (8) | 1 | 1 | 15 |
+
+### AP Calculus AB
+
+8 of 8 units have a practice test (8 tests in all); 0 units have more than one.
+
+| Unit | Questions in bank | Practice tests (questions each) | Questions not in any test | Distinct tests the bank could support | More original questions needed for 3 tests (at least) |
+|---|---|---|---|---|---|
+| Unit 1: Limits and Continuity | 8 | 1 (8) | 0 | 1 | 16 |
+| Unit 2: Differentiation: Definition and Fundamental Properties | 8 | 1 (8) | 0 | 1 | 16 |
+| Unit 3: Differentiation: Composite, Implicit, and Inverse Functions | 8 | 1 (8) | 0 | 1 | 16 |
+| Unit 4: Contextual Applications of Differentiation | 8 | 1 (8) | 0 | 1 | 16 |
+| Unit 5: Analytical Applications of Differentiation | 8 | 1 (8) | 0 | 1 | 16 |
+| Unit 6: Integration and Accumulation of Change | 8 | 1 (8) | 0 | 1 | 16 |
+| Unit 7: Differential Equations | 8 | 1 (8) | 0 | 1 | 16 |
+| Unit 8: Applications of Integration | 8 | 1 (8) | 0 | 1 | 16 |
+
+### AP Statistics
+
+5 of 5 units have a practice test (5 tests in all); 0 units have more than one.
+
+| Unit | Questions in bank | Practice tests (questions each) | Questions not in any test | Distinct tests the bank could support | More original questions needed for 3 tests (at least) |
+|---|---|---|---|---|---|
+| Unit 1: Exploring One-Variable Data and Collecting Data | 8 | 1 (8) | 0 | 1 | 16 |
+| Unit 2: Probability, Random Variables, and Probability Distributions | 8 | 1 (8) | 0 | 1 | 16 |
+| Unit 3: Inference for Categorical Data: Proportions | 8 | 1 (8) | 0 | 1 | 16 |
+| Unit 4: Inference for Quantitative Data: Means | 8 | 1 (8) | 0 | 1 | 16 |
+| Unit 5: Regression Analysis | 8 | 1 (8) | 0 | 1 | 16 |
+
+Across the site: 21 practice tests in 21 units. Reaching 3 tests in each of those units needs at least 322 more original questions. Courses with a unit outline but no questions, so no practice tests: AP Calculus BC, AP Precalculus, AP Physics 2: Algebra-Based, AP Physics C: Electricity and Magnetism, AP Physics C: Mechanics.
+
 ## Study planner
 
 A planner session has **5 steps**, defined in `data/planner.json`. The planner interface, the saved session history, and this report all read that file. The planner opens from the selected course and unit and draws its guide section and questions from that unit.
@@ -49,9 +101,9 @@ Every outside link records whether it is **unit-specific** or **general**, and t
 These describe how the site behaves. They do not change any course content.
 
 - **Progress stays in the browser.** No accounts, no server, no paid or outside services. Progress saved by earlier versions of the site is still read.
-- **Backup and restore (My data page).** A student can download progress as a JSON file or copy it as text. A backup includes answer results (first try and each retry), unit settings (adaptive level, difficulty range, questions seen in the current round, confidence rating, last warm-up result), and completed study-session history. It does not include unfinished practice sets or planner sessions, which stay on the device where they were started; answers already submitted in them are included. A restore checks every field, drops anything it does not recognise, rejects files over 2 MB or in an unknown format, and shows what the backup contains and what the device will have afterwards before anything changes. Merge and replace are both offered. The previous progress is kept so the last restore, unit reset, or "clear all" can be undone.
-- **How merge treats overlaps.** A question on both sides keeps one whole record, not a combination: the one with more attempts, or the more recent one if the counts are equal. A unit on both sides keeps the device's adaptive level, difficulty range, and seen-question list; only a newer confidence rating or warm-up result comes from the backup. A study session in both is listed once, and the 50 most recent are kept. The restore preview states these rules and how many shared questions and units each rule affects.
-- **Unfinished work survives a refresh.** An open practice set (including review sets) or a planner session is saved as the student goes. Refreshing the page returns to the same question; after an answered question it moves on to the next one. The home page lists unfinished sets with Resume and Discard. Step timers restart from the full step time, and the 3-question Learn first warm-up is not saved mid-way.
+- **Backup and restore (My data page).** A student can download progress as a JSON file or copy it as text. A backup includes answer results (first try and each retry), unit settings (adaptive level, difficulty range, questions seen in the current round, confidence rating, last warm-up result), completed study-session history, and practice test history (the number of submissions and the last submission of each test). It does not include unfinished practice tests, practice sets, or planner sessions, which stay on the device where they were started; answers already submitted in them are included. A restore checks every field, drops anything it does not recognise, rejects files over 2 MB or in an unknown format, and shows what the backup contains and what the device will have afterwards before anything changes. Merge and replace are both offered. The previous progress is kept so the last restore, unit reset, or "clear all" can be undone.
+- **How merge treats overlaps.** A question on both sides keeps one whole record, not a combination: the one with more attempts, or the more recent one if the counts are equal. A unit on both sides keeps the device's adaptive level, difficulty range, and seen-question list; only a newer confidence rating or warm-up result comes from the backup. A practice test in both keeps one history: the one with more submissions, or the more recent one if equal. A study session in both is listed once, and the 50 most recent are kept. The restore preview states these rules and how many shared questions and units each rule affects.
+- **Unfinished work survives a refresh.** An open practice test (its question order, answers, review marks, and remaining time), practice set (including review sets), or planner session is saved as the student goes. A timed test's clock pauses while the student is away from it. Refreshing the page returns to the same question; after an answered question it moves on to the next one. The home page lists unfinished sets with Resume and Discard. Step timers restart from the full step time, and the 3-question Learn first warm-up is not saved mid-way.
 - **Load errors.** If the course list, a course's unit list, a unit's content, or the planner settings fail to load, the request is retried once automatically; if it still fails, the page says what could not be loaded and offers Try again. A unit that fails to load is never shown as if it had no content.
 - **Hosting.** All asset and data paths are relative, so the site works from a GitHub Pages project subpath (for example `/studysprint/`). The build writes a version stamp onto the CSS, script, and data requests so a new release is not hidden by cached files, and adds a `.nojekyll` file.
 - **Accessibility and phones.** Each view has its own page title and level-1 heading, Back and Forward move between views, answer errors are linked to the question and announced, focus moves to each new question and each result, the course search announces how many courses match, buttons and answer choices are at least 44 px tall, and tables stack into labelled rows on narrow screens so pages do not scroll sideways at 320 px.

@@ -18,6 +18,12 @@
   "ap-physics-c-electricity-and-magnetism",
   "ap-computer-science-a"
  ],
+ "practiceTests": {
+  "description": "Rules for unit practice tests. A practice test is a fixed set of a unit's own original questions. It must have at least minQuestions questions, include every topic in the unit and all three difficulty levels, and share no question with another test in the same unit, so a second test is genuinely different rather than a reshuffle. tools/build.py enforces this and reports, per unit, how many original questions would still be needed for plannedPerUnit tests. Timed mode allows minutesPerQuestion minutes per question; this is StudySprint's own pacing, not an official AP time limit.",
+  "minQuestions": 8,
+  "plannedPerUnit": 3,
+  "minutesPerQuestion": 2
+ },
  "courses": [
   {
    "id": "ap-research",
@@ -272,7 +278,18 @@
    "summary": {
     "units": 8,
     "ready": 8,
-    "inProgress": 0
+    "inProgress": 0,
+    "tests": 8,
+    "unitTests": {
+     "u1": 1,
+     "u2": 1,
+     "u3": 1,
+     "u4": 1,
+     "u5": 1,
+     "u6": 1,
+     "u7": 1,
+     "u8": 1
+    }
    }
   },
   {
@@ -289,7 +306,9 @@
    "summary": {
     "units": 10,
     "ready": 0,
-    "inProgress": 0
+    "inProgress": 0,
+    "tests": 0,
+    "unitTests": {}
    }
   },
   {
@@ -306,7 +325,9 @@
    "summary": {
     "units": 4,
     "ready": 0,
-    "inProgress": 0
+    "inProgress": 0,
+    "tests": 0,
+    "unitTests": {}
    }
   },
   {
@@ -322,7 +343,15 @@
    "summary": {
     "units": 5,
     "ready": 5,
-    "inProgress": 0
+    "inProgress": 0,
+    "tests": 5,
+    "unitTests": {
+     "u1": 1,
+     "u2": 1,
+     "u3": 1,
+     "u4": 1,
+     "u5": 1
+    }
    }
   },
   {
@@ -373,7 +402,18 @@
    "summary": {
     "units": 8,
     "ready": 8,
-    "inProgress": 0
+    "inProgress": 0,
+    "tests": 8,
+    "unitTests": {
+     "u1": 1,
+     "u2": 1,
+     "u3": 1,
+     "u4": 1,
+     "u5": 1,
+     "u6": 1,
+     "u7": 1,
+     "u8": 1
+    }
    }
   },
   {
@@ -390,7 +430,9 @@
    "summary": {
     "units": 7,
     "ready": 0,
-    "inProgress": 0
+    "inProgress": 0,
+    "tests": 0,
+    "unitTests": {}
    }
   },
   {
@@ -408,7 +450,9 @@
    "summary": {
     "units": 6,
     "ready": 0,
-    "inProgress": 0
+    "inProgress": 0,
+    "tests": 0,
+    "unitTests": {}
    }
   },
   {
@@ -426,7 +470,9 @@
    "summary": {
     "units": 7,
     "ready": 0,
-    "inProgress": 0
+    "inProgress": 0,
+    "tests": 0,
+    "unitTests": {}
    }
   },
   {

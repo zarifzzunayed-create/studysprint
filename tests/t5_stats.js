@@ -21,7 +21,7 @@ const T = require('./helpers');
   await T.openUnit(p, 'AP Statistics', 'u4'); await T.tab(p, 'Learn first');
   const lt = await T.text(p, '#v-learn');
   T.ok(/Unit-specific practice exercise/.test(lt) && /Unit-specific textbook section/.test(lt) && /General textbook/.test(lt), 'Statistics Unit 4 Learn first: practice exercise and textbook section labelled unit-specific, book labelled general');
-  await T.tab(p, 'Study planner'); await p.click('#v-planner button:has-text("Build my study session")');
+  await T.tab(p, 'Review plan'); await p.click('#v-planner button:has-text("Build my study session")');
   T.ok((await p.$$('#v-planner .pl-steps li')).length === 5 && /AP Statistics · Unit 4/.test(await T.text(p, '#v-planner')), 'planner works for a Statistics unit with 5 steps');
   T.ok(p.errs.length === 0, 'no console errors ' + JSON.stringify(p.errs));
   console.log(T.summary()); await b.close();

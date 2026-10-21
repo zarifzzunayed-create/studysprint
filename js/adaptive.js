@@ -7,7 +7,10 @@
       move it down one step. Retries never change the level.
    3. After a wrong first attempt the next question is a DIFFERENT question on the same concept, at the same or the
       next-lower level. The missed question goes to the review queue and returns later, after other questions.
-   4. Questions are not repeated until the unit's pool (within the chosen topics) has been used.
+   4. Questions are not repeated until the unit's pool (within the chosen topics) has been used. This holds for the
+      follow-up in rule 3 too: if every question on the missed concept has already come up in this round, the next
+      question comes from the rest of the unused pool instead of repeating one. (The review queue is the exception:
+      it brings back a missed question on purpose, labelled as a retry.)
    5. Topics with lower first-attempt accuracy or questions to review are chosen more often, but other topics are
       still mixed in.
    6. The student can set a preferred difficulty range. The adaptive level stays inside it, and the interface says so.
@@ -105,13 +108,18 @@
   }
 
   // A different question on the concept just missed, at the same or next-lower level.
-  function followUp(unit, f) {
+  // inRound: only questions not yet used in this round (adaptive practice), so the follow-up never causes a repeat
+  // while unused questions remain; null lets the normal rotation choose. Without it (the planner's step for missed
+  // concepts) a question already seen this round may be used, because a different question is the point of that step.
+  function followUp(unit, f, inRound) {
     const U = SS.store.unit(unit.key);
     const pool = unit.questions.filter((q) => q.topicId === f.topicId && q.id !== f.qid);
     if (!pool.length) return null;
-    let c = pool.filter((q) => !P().q[q.id]);
-    if (!c.length) c = pool.filter((q) => !U.cycle.includes(q.id));
-    if (!c.length) c = pool;
+    const fresh = pool.filter((q) => !U.cycle.includes(q.id));
+    let c = fresh.filter((q) => !P().q[q.id]);
+    if (!c.length) c = fresh;
+    if (!c.length && !inRound) c = pool;
+    if (!c.length) return null;
     let chosen = null, L2 = null;
     for (const L of [f.level, f.level - 1, f.level + 1, f.level - 2, f.level + 2]) {
       const m = c.filter((q) => lv(q) === L);
@@ -142,7 +150,7 @@
     const all = o.topicIds ? unit.questions.filter((q) => o.topicIds.includes(q.topicId)) : unit.questions;
     if (!all.length) return null;
 
-    if (R.followUp) { const f = R.followUp; R.followUp = null; const r = followUp(unit, f); if (r) return r; }
+    if (R.followUp) { const f = R.followUp; R.followUp = null; const r = followUp(unit, f, true); if (r) return r; }
 
     if (!o.noRetry && R.sinceRetry >= 3) {
       const due = dueRetry(all, R);

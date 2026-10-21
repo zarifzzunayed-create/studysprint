@@ -378,5 +378,21 @@
   }
  ],
  "frqs": [],
- "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions."
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "stat-u1-q01",
+    "stat-u1-q02",
+    "stat-u1-q03",
+    "stat-u1-q04",
+    "stat-u1-q05",
+    "stat-u1-q06",
+    "stat-u1-q07",
+    "stat-u1-q08"
+   ]
+  }
+ ]
 }

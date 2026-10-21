@@ -23,7 +23,7 @@ const fs = require('fs');
 
   /* planner on a Calculus AB unit: 5 steps, all tickable, counted out of 5 */
   await T.openUnit(p, 'AP Calculus AB', 'u3');
-  await T.tab(p, 'Study planner');
+  await T.tab(p, 'Review plan');
   let pl = await T.text(p, '#v-planner');
   T.ok(/Planning for AP Calculus AB · Unit 3: Differentiation: Composite, Implicit, and Inverse Functions/.test(pl) && /A session has 5 steps/.test(pl), 'planner is tied to the selected Calculus AB unit and says 5 steps');
   await p.click('#v-planner button:has-text("Build my study session")');
@@ -47,7 +47,7 @@ const fs = require('fs');
   T.ok(/4 of 5/.test(res) && /Not met/.test(res), 'session history records "4 of 5" and "Not met"');
 
   /* struggle inside the planner returns to the session */
-  await T.tab(p, 'Study planner'); await p.click('#v-planner button:has-text("Plan another session")');
+  await T.tab(p, 'Review plan'); await p.click('#v-planner button:has-text("Plan another session")');
   await p.click('#v-planner button:has-text("Build my study session")');
   await p.click('#v-planner .pl-nav button:has-text("Next step")');
   await T.answer(p, false); await T.nextQ(p); const r = await T.answer(p, false);

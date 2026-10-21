@@ -1,13 +1,16 @@
-/* App shell: course search, unit selection, and the unit views (overview, learn first, guide, practice, videos,
-   FRQs, planner, results). The selected course and unit form one shared context that every view uses. */
+/* App shell: course search, unit selection, and the unit views. The main path is practice tests: choose a course, a unit,
+   and one of that unit's tests (the "overview" view is the unit's test library), take it in the focused test view, then
+   see results with explanations, retry missed questions, and build a review plan (the planner) for the same unit.
+   Learn first, the guide, adaptive practice, videos and FRQs stay available from the unit. The selected course and unit
+   form one shared context that every view uses. */
 (function () {
   "use strict";
   const SS = window.SS, h = SS.h, $ = SS.$;
   const ST = (SS.ST = { cat: null, pcfg: null, course: null, cdata: null, unitMeta: null, unit: null, practice: null, view: "home", token: null, learnKey: null, learnFrom: null });
-  const VIEWS = ["home", "overview", "learn", "guide", "practice", "videos", "frqs", "planner", "results", "about", "data"];
-  const UNIT_VIEWS = ["overview", "learn", "guide", "practice", "videos", "frqs", "planner", "results"];
-  const LABEL = { home: "Choose a course", overview: "Overview", learn: "Learn first", guide: "Study guide", practice: "Practice", videos: "Videos",
-    frqs: "Official FRQs", planner: "Study planner", results: "Results", about: "About", data: "My data" };
+  const VIEWS = ["home", "overview", "test", "learn", "guide", "practice", "videos", "frqs", "planner", "results", "about", "data"];
+  const UNIT_VIEWS = ["overview", "test", "learn", "guide", "practice", "videos", "frqs", "planner", "results"];
+  const LABEL = { home: "Choose a course", overview: "Practice tests", test: "Practice test", learn: "Learn first", guide: "Study guide", practice: "Adaptive practice", videos: "Videos",
+    frqs: "Official FRQs", planner: "Review plan", results: "Results", about: "About", data: "My data" };
   const HOME_TITLE = document.title;
   let fromHistory = false, booted = false;
   const STATUS = {
@@ -25,6 +28,7 @@
     const changed = ST.view !== name;
     ST.view = name;
     VIEWS.forEach((v) => ($("v-" + v).hidden = v !== name));
+    SS.testing.visible(name === "test"); // a timed test's clock runs only while the test is on screen
     updateCtx(); updateTitle();
     if (changed) {
       showError(null);
@@ -55,6 +59,7 @@
       else if (v === "overview") showOverview();
       else if (v === "frqs") renderFrqs();
       else if (!ST.unit) showOverview();
+      else if (v === "test") { if ($("v-test").childNodes.length) go("test"); else showOverview(); }
       else open(v);
     } finally { fromHistory = false; }
   });
@@ -79,7 +84,11 @@
     bar.hidden = !show;
     if (!show) return;
     $("ctx-title").textContent = ST.course.name + (ST.unitMeta ? " · " + ST.unitMeta.name : "");
-    const tabs = [["overview", "Overview"], ["learn", "Learn first"], ["guide", "Study guide"], ["practice", "Practice"], ["videos", "Videos"], ["frqs", "Official FRQs"], ["planner", "Study planner"], ["results", "Results"]];
+    // While a test is open the unit tabs are hidden, so the test has the student's full attention ("Save and exit" leaves it).
+    const testing = ST.view === "test" && SS.testing.active();
+    $("ctx-nav").hidden = testing; $("ctx-change").hidden = testing;
+    // Practice tests come first; the review plan follows the results it is built from.
+    const tabs = [["overview", "Tests"], ["results", "Results"], ["planner", "Review plan"], ["practice", "Adaptive practice"], ["learn", "Learn first"], ["guide", "Study guide"], ["videos", "Videos"], ["frqs", "Official FRQs"]];
     $("ctx-nav").replaceChildren(...tabs.map(([v, label]) => {
       const needs = ["learn", "guide", "practice", "videos", "planner", "results"].includes(v);
       const b = h("button", null, label); b.type = "button";
@@ -110,10 +119,16 @@
   const inp = $("c-search"), list = $("c-list"), msg = $("c-msg"), unitSel = $("c-unit"), goBtn = $("c-go");
   let matches = [], act = -1;
   const hay = (c) => SS.norm([c.name].concat(c.aliases).join(" "));
+  const nTests = (c) => (c.summary && c.summary.tests) || 0;
   const courseBadge = (c) => {
-    if (c.summary && c.summary.ready > 0) return c.summary.ready + " of " + c.summary.units + " units practice-ready";
+    if (c.summary && c.summary.ready > 0) return c.summary.ready + " of " + c.summary.units + " units practice-ready" + (nTests(c) ? " · " + SS.plural(nTests(c), "unit practice test") : "");
     return c.outline ? "Course outline available" : "Catalog only";
   };
+  // Unit list label: its readiness status, plus how many practice tests it really has.
+  function unitLabel(c, u) {
+    const t = (c.summary && c.summary.unitTests && c.summary.unitTests[u.id]) || 0;
+    return u.name + " — " + STATUS[u.status] + (t ? " · " + SS.plural(t, "practice test") : u.status === "practice-ready" ? " · no practice test yet" : "");
+  }
 
   function find(q) {
     const w = SS.norm(q).split(" ").filter(Boolean);
@@ -149,7 +164,7 @@
   }
   function resetUnits(text) {
     unitSel.replaceChildren(h("option", null, text)); unitSel.firstChild.value = "";
-    unitSel.disabled = true; goBtn.disabled = true; goBtn.textContent = "Open unit";
+    unitSel.disabled = true; goBtn.disabled = true; goBtn.textContent = "See practice tests";
   }
   // then(): called once the unit list has loaded (used when resuming).
   async function chooseCourse(c, then) {
@@ -169,7 +184,7 @@
     showError(null);
     ST.cdata = cd;
     resetUnits("Choose a unit"); unitSel.disabled = false;
-    cd.units.forEach((u) => { const o = h("option", null, u.name + " — " + STATUS[u.status]); o.value = u.id; unitSel.append(o); });
+    cd.units.forEach((u) => { const o = h("option", null, unitLabel(c, u)); o.value = u.id; unitSel.append(o); });
     if (then) then();
   }
   inp.addEventListener("input", () => {
@@ -197,8 +212,12 @@
 
   /* ---------- picking up where the student left off ---------- */
   const when = (t) => { const d = new Date(t); return d.toLocaleDateString() + " " + d.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" }); };
-  function runWhat(r) { return r.kind === "planner" ? "Study session" : (r.opts && r.opts.title) || "Practice set"; }
+  function runWhat(r) { return r.kind === "planner" ? "Review plan" : r.kind === "test" ? (r.title || "Practice test") + (r.test && r.test.timed ? " (timed)" : "") : (r.opts && r.opts.title) || "Practice set"; }
   function runProgress(r) {
+    if (r.kind === "test") {
+      const t = r.test || {}, n = Array.isArray(t.order) ? t.order.length : 0, a = SS.testing.answeredCount(t);
+      return a + " of " + n + " questions answered" + (t.timed ? ", " + SS.fmtTime(t.left || 0) + " left on the timer" : "") + ".";
+    }
     if (r.kind === "planner") {
       const p = r.planner || {}, n = p.plan && p.plan.mins ? p.plan.mins.length : 0;
       return "At step " + ((p.idx || 0) + 1) + (n ? " of " + n : "") + ", " + SS.plural((p.answers || []).length, "answer") + " so far.";
@@ -219,9 +238,22 @@
     return h("li", "card", h("p", null, h("b", null, what), " · " + course.name + " · " + r.unitName),
       h("p", "why", runProgress(r) + " Saved " + when(r.updated) + "."), h("div", "button-row", resume, del));
   }
+  // Courses that have practice tests, as one-click starting points (the search still lists every course).
+  function renderQuick() {
+    const box = $("c-quick"); if (!box || !ST.cat) return;
+    const order = ST.cat.priorityOrder || [], rank = (c) => (order.includes(c.id) ? order.indexOf(c.id) : order.length);
+    const cs = ST.cat.courses.filter((c) => nTests(c) > 0).sort((a, b) => rank(a) - rank(b));
+    box.replaceChildren(...(cs.length ? [h("h3", null, "Courses with practice tests"),
+      h("ul", "quick-list", cs.map((c) => {
+        const b = SS.btn(c.name, "button-secondary", () => chooseCourse(c, () => unitSel.focus()));
+        b.setAttribute("aria-label", c.name + ": " + SS.plural(nTests(c), "unit practice test"));
+        return h("li", null, b, h("span", "why", SS.plural(nTests(c), "unit practice test") + " in " + SS.plural(c.summary.units, "unit")));
+      }))] : []));
+  }
   function renderResume() {
     const c = S().P.ctx, box = $("c-resume"); box.replaceChildren();
     if (!ST.cat) return;
+    renderQuick();
     if (!S().available) box.append(h("p", "notice", "This browser is not letting StudySprint save progress (for example, some private windows block it). Your answers count while this page is open, but they will be lost when you close it. Use My data to download a backup before you leave."));
     const runs = S().runs().filter((r) => ST.cat.courses.some((x) => x.id === r.courseId) && r.unitName);
     if (runs.length) box.append(h("h3", null, "Unfinished practice"), h("ul", "res-list", runs.map(runCard)));
@@ -241,6 +273,11 @@
   function continueRun(key) {
     const run = S().getRun(key); if (!run || !ST.unit || run.unitKey !== ST.unit.key) return;
     if (run.kind === "planner") { $("v-planner").replaceChildren(); renderPlanner(); return; }
+    if (run.kind === "test") {
+      const t = (ST.unit.tests || []).find((x) => run.test && x.id === run.test.testId);
+      if (!t) { S().clearRun(key); showOverview(); return; }
+      startTest(t, { saved: run.test }); announce(t.title + " restored where you left off."); return;
+    }
     const o = run.opts || {};
     ST.practice = { key: ST.unit.key };
     startPractice({ limit: o.limit, topicIds: o.topicIds, range: o.range, title: o.title, queue: o.review ? [] : null, saved: run.state });
@@ -262,8 +299,10 @@
       unitSel.value = c.unitId;
       openUnit(course, ST.cdata, c.unitId, () => {
         if (!ST.unit) return;
-        const run = view === "practice" ? S().getRun("practice|" + ST.unit.key) : null;
-        if (run) continueRun(run.key); else if (view !== "overview") open(view);
+        const run = view === "practice" || view === "test" ? S().getRun(view + "|" + ST.unit.key) : null;
+        if (run) continueRun(run.key);
+        else if (view === "test") { if (!showSavedResult(c.testId)) showOverview(); }
+        else if (view !== "overview") open(view);
       });
     });
   }
@@ -293,8 +332,9 @@
     if (then) then();
   }
   function setUnit(meta, data) {
-    ST.unitMeta = meta; ST.unit = data; ST.practice = null; ST.learnKey = null; ST.learnFrom = null;
-    ["practice", "planner", "learn"].forEach((v) => $("v-" + v).replaceChildren());
+    SS.testing.close(true); // an open test is saved, so it can be resumed from its unit or the home page
+    ST.unitMeta = meta; ST.unit = data; ST.practice = null; ST.learnKey = null; ST.learnFrom = null; ST.testBack = null;
+    ["practice", "planner", "learn", "test"].forEach((v) => $("v-" + v).replaceChildren());
     S().setCtx({ courseId: ST.course.id, unitId: meta ? meta.id : null, unitName: meta ? meta.name : null, topics: null });
     showOverview();
   }
@@ -372,20 +412,108 @@
       h("span", "chip", u.guide.sections.length + " guide sections"),
       h("span", "chip", SS.plural(u.questions.length, "scored question")),
       h("span", "chip", SS.plural(u.videos.length, "video link"))));
-    const mk = (t, s, fn) => { const b = h("button", "button button-primary", h("b", null, t), h("small", null, s)); b.type = "button"; b.onclick = fn; return b; };
-    kids.push(h("div", "cards",
-      mk("Learn first (optional)", "Confidence check, 3-question warm-up, resources", () => renderLearn()),
-      mk("Study guide", "Original notes for each concept", renderGuide),
-      mk("Practice", "Randomized, adaptive, scored", renderPractice),
-      mk("Study planner", "A timed session from this unit", renderPlanner),
-      mk("Videos", SS.plural(u.videos.length, "curated link"), renderVideos),
-      mk("Official FRQs", "College Board links", renderFrqs)));
+    kids.push(testLibrary(u));
+    const mk = (t, s, fn) => { const b = h("button", "button button-secondary", h("b", null, t), h("small", null, s)); b.type = "button"; b.onclick = () => fn(); return b; };
+    kids.push(h("h3", null, "More ways to study this unit"),
+      h("p", "why", "Use these before a test if the unit is new to you, or after one to work on what you missed."),
+      h("div", "cards",
+        mk("Learn first (optional)", "Confidence check, 3-question warm-up, resources", renderLearn),
+        mk("Study guide", "Original notes for each concept", renderGuide),
+        mk("Adaptive practice", "One question at a time, with feedback after each", renderPractice),
+        mk("Review plan", "A timed session built from your results", renderPlanner),
+        mk("Videos", SS.plural(u.videos.length, "curated link"), renderVideos),
+        mk("Official FRQs", "College Board links", renderFrqs)));
     kids.push(h("h3", null, "Your progress on this unit"), statsGrid(st), evidenceBlock(u),
       SS.btn("See results and review queue", "button-secondary", renderResults));
     if (u.officialTopicsNotYetCovered.length) kids.push(h("p", "note", "Official topics not covered yet in StudySprint: " + u.officialTopicsNotYetCovered.join("; ") + "."));
     kids.push(links);
     host.replaceChildren(h("div", "panel", kids));
     go("overview");
+  }
+
+  /* ---------- practice tests ----------
+     A unit's tests come from its file ("tests"). The build guarantees each one has enough questions, covers every topic
+     and level, and shares no question with another test, so the page can say plainly how much practice is available. */
+  const testRules = () => (ST.cat && ST.cat.practiceTests) || { minQuestions: 8, minutesPerQuestion: 2 };
+  function testLibrary(u) {
+    const tests = u.tests || [], box = h("section", "test-lib", h("h3", null, "Practice tests"));
+    box.id = "test-lib";
+    if (!tests.length) {
+      box.append(h("p", "notice", "No practice test is available for this unit yet, because a test needs at least " + testRules().minQuestions + " original questions covering every topic and difficulty level. Adaptive practice uses this unit's " + SS.plural(u.questions.length, "question") + " now."),
+        SS.btn("Start adaptive practice", "button-primary", renderPractice));
+      return box;
+    }
+    const run = S().getRun("test|" + u.key), inTests = new Set([].concat(...tests.map((t) => t.questionIds)));
+    const left = u.questions.length - inTests.size;
+    box.append(h("p", null, "Each test is a short unit test of StudySprint's own original questions, not a full AP exam. Take it untimed, or timed at " +
+        testRules().minutesPerQuestion + " minutes per question (StudySprint's own pacing, not an official AP time limit). You see your score, explanations, and what to review after you submit."),
+      h("ul", "res-list test-cards", tests.map((t) => testCard(u, t, run))),
+      h("p", "why", tests.length === 1
+        ? "This unit has one practice test so far. Its question bank has " + SS.plural(u.questions.length, "question") + (left ? "; the " + SS.plural(left, "question") + " not in the test " + (left === 1 ? "appears" : "appear") + " in adaptive practice" : ", and all of them are in this test") +
+          ". A second test needs different questions, so one will be added only when more original questions are written. Retaking this test shows the same questions in a new order."
+        : "These " + tests.length + " tests share no questions, so each one is a different set." + (left ? " " + SS.plural(left, "question") + " not in any test " + (left === 1 ? "appears" : "appear") + " in adaptive practice." : "")));
+    return box;
+  }
+  function testCard(u, t, run) {
+    const qs = t.questionIds.map((id) => u.questions.find((q) => q.id === id)).filter(Boolean);
+    const rec = (S().unit(u.key).tests || {})[t.id], mine = run && run.test && run.test.testId === t.id ? run : null;
+    const lvs = SS.LV.map((l) => qs.filter((q) => q.difficulty === l).length + " " + l).join(" · ");
+    const num = qs.filter((q) => q.type === "numeric").length, nTop = new Set(qs.map((q) => q.topicId)).size;
+    const mins = qs.length * testRules().minutesPerQuestion;
+    const kids = [h("h4", null, t.title),
+      h("p", null, h("span", "chip", SS.plural(qs.length, "question")), h("span", "chip", "All " + nTop + " concepts in this unit"),
+        num ? h("span", "chip", num + " numeric-answer") : null),
+      h("p", "why", "Difficulty mix: " + lvs + "."),
+      h("p", null, rec ? "Last submitted " + new Date(rec.t).toLocaleDateString() + ": " + rec.score + " of " + rec.total + " correct (" + SS.pct(rec.score, rec.total) + "%). Submitted " + SS.plural(rec.n, "time") + "." : "Not taken yet.")];
+    const row = h("div", "button-row");
+    if (mine) {
+      let armed = false;
+      const del = SS.btn("Discard", "button-secondary", () => {
+        if (!armed) { armed = true; del.textContent = "Click again to discard"; return; }
+        S().clearRun(mine.key); showOverview(); announce("Unfinished test discarded. Nothing from it was scored.");
+      });
+      del.setAttribute("aria-label", "Discard unfinished " + t.title);
+      kids.push(h("p", "notice", "In progress: " + runProgress(mine) + " Nothing is scored until you submit."));
+      row.append(SS.btn("Resume " + t.title, "button-primary", () => continueRun(mine.key)), del);
+    } else {
+      const a = SS.btn("Start untimed", "button-primary", () => startTest(t, { timed: false }));
+      const b = SS.btn("Start timed (" + mins + " min)", "button-secondary", () => startTest(t, { timed: true }));
+      a.setAttribute("aria-label", "Start " + t.title + " untimed"); b.setAttribute("aria-label", "Start " + t.title + " timed, " + mins + " minutes");
+      row.append(a, b);
+      if (run) kids.push(h("p", "why", "Starting this test replaces your unfinished " + (run.title || "test") + "."));
+    }
+    if (rec && Array.isArray(rec.items)) { const r = SS.btn("Review last attempt", "button-secondary", () => showSavedResult(t.id)); r.setAttribute("aria-label", "Review your last attempt at " + t.title); row.append(r); }
+    kids.push(row);
+    return h("li", "card", kids);
+  }
+  function startTest(t, o) {
+    const u = ST.unit, key = "test|" + u.key;
+    ST.testBack = null;
+    S().setCtx({ testId: t.id });
+    $("v-test").replaceChildren();
+    go("test", false); // show the view first, so the first question can take focus
+    SS.testing.start($("v-test"), { unit: u, courseName: ST.course.name, unitName: ST.unitMeta.name, rules: testRules(), announce,
+      persist: (state) => S().setRun(key, runInfo("test", { title: t.title, test: state })), clearRun: () => S().clearRun(key),
+      exit: () => { SS.testing.close(true); $("v-test").replaceChildren(); showOverview(); announce(t.title + " is saved. Resume it from this unit's tests or the home page."); },
+      submitted: (test, rec) => { showTestResult(test, rec); announce(test.title + " submitted: " + rec.score + " of " + rec.total + " correct."); } }, t, o);
+    updateCtx(); window.scrollTo(0, 0);
+  }
+  function showTestResult(test, rec) {
+    const u = ST.unit;
+    ST.testBack = test.id;
+    S().setCtx({ testId: test.id });
+    SS.testing.results($("v-test"), { unit: u, courseName: ST.course.name, unitName: ST.unitMeta.name, table, topicName, tests: (u.tests || []).length, announce,
+      back: showOverview, retake: () => startTest(test, { timed: rec.timed }), unitResults: renderResults,
+      retry: (qs) => { renderPractice(); startPractice({ queue: SS.shuffle(qs.slice()), title: "Retry missed questions: " + test.title }); },
+      plan: (seed) => renderPlanner(seed), learn: () => renderLearn(), focused: startFocused }, test, rec);
+    go("test");
+  }
+  // The last submission of a test is kept, so its results and explanations can be opened again (and survive a refresh).
+  function showSavedResult(testId) {
+    const t = ST.unit && (ST.unit.tests || []).find((x) => x.id === testId);
+    const rec = t && (S().unit(ST.unit.key).tests || {})[testId];
+    if (!rec || !Array.isArray(rec.items)) return false;
+    showTestResult(t, rec); return true;
   }
 
   /* ---------- guide ---------- */
@@ -477,7 +605,7 @@
         h("ul", null,
           h("li", null, "Questions are randomized and are not repeated until the questions available to you have been used."),
           h("li", null, "Practice starts at the standard level. Two correct first attempts in a row move you up a level. Two wrong first attempts in a row move you down a level. Retries never change your level."),
-          h("li", null, "After a wrong first attempt you get a different question on the same concept at the same or next-lower level. The missed question goes to your review queue and comes back later, after other questions."),
+          h("li", null, "After a wrong first attempt you get a different question on the same concept at the same or next-lower level, as long as one is still unused in this round; questions are never repeated early just to do this. The missed question goes to your review queue and comes back later, after other questions."),
           h("li", null, "Concepts where you have missed more come up more often, but other concepts are still mixed in."),
           h("li", null, "Your preferred range limits the level. If no unused question exists at the level wanted, the nearest level is used and the page says so."))),
       (unit.sets || []).length ? null : h("p", "note", "Questions: ", SS.link(unit.questions[0].sourceUrl, "scope source"), ". " + unit.questions[0].licenseOrRights)));
@@ -505,7 +633,8 @@
         w ? SS.btn("Continue practicing: " + w.topic.name, "button-primary", () => startFocused(w.topic.id)) : null,
         rev.length ? SS.btn("Review missed questions (" + rev.length + ")", "button-secondary", () => startPractice({ queue: SS.shuffle(rev.slice()), title: "Review missed questions" })) : null,
         SS.btn("Practice options", "button-secondary", practiceSetup),
-        SS.btn("Unit results", "button-secondary", renderResults))));
+        SS.btn("Unit results", "button-secondary", renderResults),
+        ST.testBack && $("v-test").childNodes.length ? SS.btn("Back to test results", "button-secondary", () => go("test")) : null)));
     const hd = host.querySelector("h2"); hd.tabIndex = -1; hd.focus();
   }
   // Easier practice: introductory and standard questions only for this set, starting at the introductory level.
@@ -524,8 +653,11 @@
   }
 
   /* ---------- planner ---------- */
-  async function renderPlanner() {
+  // seed: from a practice test's results (missed concepts, suggested length, confidence); rebuilds the planner with it.
+  async function renderPlanner(seed) {
     const host = $("v-planner");
+    seed = seed && seed.note ? seed : null;
+    if (seed) host.replaceChildren();
     if (!host.childNodes.length) {
       if (!ST.pcfg) { busy("Loading the study planner…"); ST.pcfg = await SS.data.planner(); busy(""); }
       if (!ST.pcfg) {
@@ -534,7 +666,7 @@
         go("planner"); return;
       }
       const key = "planner|" + ST.unit.key, saved = S().getRun(key);
-      SS.planner.mount(host, { unit: ST.unit, courseName: ST.course.name, go: (v) => open(v), sectionEl, startFocused, announce,
+      SS.planner.mount(host, { unit: ST.unit, courseName: ST.course.name, go: (v) => open(v), sectionEl, startFocused, announce, seed,
         saveCtx: (o) => S().setCtx(o), openLearn: () => renderLearn({ reason: "struggle", from: "planner" }),
         persist: (state) => S().setRun(key, runInfo("planner", { planner: state })), clearRun: () => S().clearRun(key) }, ST.pcfg, saved && saved.planner);
     }
@@ -690,8 +822,9 @@
      A restore is checked first and shown as a summary; nothing changes until the student confirms,
      and the previous progress is kept so the restore can be undone. */
   function resetViews() {
-    ST.practice = null; ST.learnKey = null; ST.learnFrom = null;
-    ["practice", "planner", "learn"].forEach((v) => $("v-" + v).replaceChildren());
+    SS.testing.close(false); // progress was reset or replaced, so an open test is not saved again
+    ST.practice = null; ST.learnKey = null; ST.learnFrom = null; ST.testBack = null;
+    ["practice", "planner", "learn", "test"].forEach((v) => $("v-" + v).replaceChildren());
     renderResume();
   }
   const courseName = (id) => { const c = ST.cat && ST.cat.courses.find((x) => x.id === id); return c ? c.name : "Course not on this site (" + id + ")"; };
@@ -742,10 +875,12 @@
       h("ul", null,
         h("li", null, "Answer results: for each question you answered, whether your first try was right, and the result of each retry."),
         h("li", null, "Unit settings: your adaptive level, preferred difficulty range, the questions you have seen in the current round, your confidence rating, and your last warm-up result."),
-        h("li", null, "Completed study-session history: planner sessions that reached the results step.")),
+        h("li", null, "Completed study-session history: planner sessions that reached the results step."),
+        h("li", null, "Practice test history: for each practice test, how many times you submitted it and your last submission (score and answers), so you can review it again.")),
       h("p", null, h("b", null, "A backup does not include:")),
       h("ul", null,
         h("li", null, "Unfinished practice sets or planner sessions. They stay in this browser on this device and will not transfer with a backup. Answers you already submitted in them are included as answer results; only your place in the set is left behind. To keep that place, finish the set here before you move."),
+        h("li", null, "Practice tests you have started but not submitted. Like unfinished sets, they stay on this device."),
         h("li", null, "The unit you last had open, or anything about you (no name or email).")),
       h("div", "button-row", dl, showTxt, copy), bmsg, outWrap);
 
@@ -814,6 +949,7 @@
       h("ul", null,
         h("li", null, h("b", null, "the same question: "), "one record is kept, not combined. It is the one with more attempts (first try plus retries). If both have the same number, the one answered more recently is kept." + qLine),
         h("li", null, h("b", null, "the same unit: "), "this device keeps its adaptive level, difficulty range, and the questions seen in the current round. Only the confidence rating and the last warm-up result can come from the backup, and only if the backup's is newer." + uLine),
+        h("li", null, h("b", null, "the same practice test: "), "one history is kept for each test: the one with more submissions, or the more recent one if both have the same number."),
         h("li", null, h("b", null, "the same study session: "), "it is listed once." + (ov.sessBoth ? " " + SS.plural(ov.sessBoth, "session") + " in this backup " + (ov.sessBoth === 1 ? "is" : "are") + " already here." : "") + " History keeps the 50 most recent sessions.")),
       h("p", null, "Anything only in the backup is added. Unfinished sets on this device stay as they are."));
     rules.id = "d-merge-rules";
