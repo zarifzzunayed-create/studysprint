@@ -394,5 +394,21 @@
  ],
  "frqs": [],
  "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course hub to browse released questions by year.",
- "learnResources": []
+ "learnResources": [],
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ph1u4-q01",
+    "ph1u4-q02",
+    "ph1u4-q03",
+    "ph1u4-q04",
+    "ph1u4-q05",
+    "ph1u4-q07",
+    "ph1u4-q08",
+    "ph1u4-q09"
+   ]
+  }
+ ]
 }

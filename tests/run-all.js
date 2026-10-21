@@ -3,7 +3,7 @@
 // Needs Node 18+, Python 3, and Playwright with Chromium (npm install -g playwright && npx playwright install chromium).
 const { spawnSync } = require('child_process');
 const path = require('path');
-const SUITES = ['t1_catalog', 't2_learn', 't3_planner', 't4_kbd', 't5_stats', 't6_http', 't7_subpath', 't8_resume', 't9_backup', 't10_a11y', 't11_merge'];
+const SUITES = ['t1_catalog', 't2_learn', 't3_planner', 't4_kbd', 't5_stats', 't6_http', 't7_subpath', 't8_resume', 't9_backup', 't10_a11y', 't11_merge', 't12_tests'];
 let pass = 0, fail = 0, broken = [];
 for (const s of SUITES) {
   const r = spawnSync(process.execPath, [path.join(__dirname, s + '.js')], { encoding: 'utf8', timeout: 600000, env: process.env });

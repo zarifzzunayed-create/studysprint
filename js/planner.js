@@ -1,4 +1,5 @@
-/* Study planner. It is launched from the selected unit, so the course and unit are already known.
+/* Study planner, shown to students as the "review plan". It follows a practice test: the test results page opens it
+   for the same course and unit with the missed concepts already selected (env.seed). It can also be opened directly.
    A session combines timed work with that unit's real resources: a guide section, a randomized set of
    questions, explanations for misses, different questions on missed concepts, and a results summary.
    The steps and the practice threshold come from data/planner.json, so the step count shown here, in the saved
@@ -34,7 +35,8 @@
 
   SS.planner = {
     // env: { unit, courseName, go(view), sectionEl(section), startFocused(topicId), saveCtx(obj), openLearn(reason),
-    //        announce(text), persist(state), clearRun() }
+    //        announce(text), persist(state), clearRun(), seed? }
+    // seed (from a practice test's results): { topics: ids to select or null for all, minutes, conf (1-5 or null), note }
     // cfg: the contents of data/planner.json
     // saved: a session saved by persist(), to continue after a page refresh (optional)
     mount(host, env, cfg, saved) {
@@ -74,8 +76,11 @@
         stopTimers(); PL.t3 = null; PL.steps = []; PL.idx = 0; PL.done = {}; PL.answers = []; PL.panels = []; PL.built = {}; PL.timers = []; PL.plan = null;
         PL.r = {}; PL.retryOpts = null; PL.finished = false;
         if (env.clearRun) env.clearRun();
-        const ts = A.topicStats(unit), saved = Object.assign({}, SS.store.P.ctx);
+        const ts = A.topicStats(unit), saved = Object.assign({}, SS.store.P.ctx), seed = env.seed || null;
+        if (seed) { saved.topics = seed.topics; if (seed.minutes) saved.minutes = seed.minutes; }
         if (!(saved.topics && saved.topics.some((id) => unit.topics.some((t) => t.id === id)))) saved.topics = null;
+        // Default confidence for each concept: the student's own rating for this unit, when there is one.
+        const uc = SS.store.unit(unit.key).conf, defConf = seed && seed.conf ? seed.conf : uc ? uc.value : 3;
         const usable = unit.topics.filter((t) => ts[t.id].total > 0 && unit.guide.sections.some((s) => s.topicId === t.id));
         const minutes = h("select"); minutes.id = "pl-min";
         [15, 20, 30, 45, 60].forEach((m) => { const o = h("option", null, m + " minutes"); o.value = m; o.selected = m === (saved.minutes || 30); minutes.append(o); });
@@ -85,7 +90,7 @@
           const ev = st.n ? st.ok + " of " + st.n + " first attempts correct" + (st.rev ? ", " + st.rev + " to review" : "") : "No attempts yet";
           const lab = h("label", null, t.name, h("br"), h("span", "why", ev)); lab.htmlFor = cb.id;
           const conf = h("select"); conf.setAttribute("aria-label", "How confident are you in " + t.name + "?");
-          CONF.forEach((c, i) => { const o = h("option", null, c); o.value = i + 1; o.selected = i === 2; conf.append(o); });
+          CONF.forEach((c, i) => { const o = h("option", null, c); o.value = i + 1; o.selected = i === defConf - 1; conf.append(o); });
           return { t, cb, conf, el: h("div", "topic-pick", cb, lab, h("div", "conf", conf)) };
         });
         const err = h("p", "form-message"); err.setAttribute("role", "alert");
@@ -104,7 +109,8 @@
           err.textContent = ""; build(+minutes.value, picked);
         };
         host.replaceChildren(
-          h("h2", null, "Study planner"),
+          h("h2", null, "Review plan"),
+          seed ? h("p", "notice", seed.note) : h("p", null, "A review plan works best right after a practice test: the test's results choose what to review. You can also build one now from your progress so far."),
           h("p", "note", "Planning for ", h("b", null, env.courseName + " · " + unit.title), ". The session uses this unit's study guide and question bank, so there is nothing to retype. To plan for a different unit, change the unit above."),
           form,
           h("p", "privacy-note", "A session has " + cfg.steps.length + " steps. Ticking a step done is your own checklist. Only submitted answers count as evidence of how you performed."));
@@ -309,6 +315,7 @@
       }
 
       if (!(saved && restore(saved))) setup();
+      else if (env.seed) host.prepend(h("p", "notice", "You have an unfinished review plan for this unit. Finish it, or choose Start over to build a new one from your test results."));
     },
   };
 })();

@@ -65,7 +65,7 @@ const LS = p => p.evaluate(() => JSON.parse(localStorage.getItem('studysprint:v3
   T.ok(await legend(p) === rq && /Review missed questions/.test(await T.text(p, '#v-practice h2')), 'review set resumes as a review set with the same question');
 
   /* ---- practice setup offers the unfinished set ---- */
-  await T.tab(p, 'Overview'); await T.tab(p, 'Results');
+  await T.tab(p, 'Tests'); await T.tab(p, 'Results');
   await p.goto(T.U); await T.openUnit(p, 'AP Physics 1', 'u1'); await T.tab(p, 'Practice');
   T.ok(/You have an unfinished set/.test(await T.text(p, '#v-practice')), 'Practice tab offers to resume the unfinished set');
   await p.click('#v-practice button:has-text("Resume the unfinished set")');
@@ -73,7 +73,7 @@ const LS = p => p.evaluate(() => JSON.parse(localStorage.getItem('studysprint:v3
 
   /* ---- planner: refresh keeps the step, answers, and ticks ---- */
   await p.goto(T.U); await T.openUnit(p, 'AP Calculus AB', 'u2');
-  await T.tab(p, 'Study planner');
+  await T.tab(p, 'Review plan');
   await p.click('#v-planner button:has-text("Build my study session")');
   await p.click('#v-planner button:has-text("Mark this step done")');
   await p.click('#v-planner button:has-text("Next step")');
@@ -120,7 +120,7 @@ const LS = p => p.evaluate(() => JSON.parse(localStorage.getItem('studysprint:v3
   T.ok(await p.isVisible('#v-guide:not([hidden])'), 'browser Back returns to the previous view');
   await p.goForward();
   T.ok(await p.isVisible('#v-videos:not([hidden])'), 'browser Forward works too');
-  await p.click('header button:has-text("Courses")'); await p.goBack();
+  await p.click('header .navbtn[data-go="home"]'); await p.goBack();
   T.ok(await p.isVisible('#v-videos:not([hidden])') && await p.isVisible('#ctx'), 'Back from home returns to the unit view');
   T.ok(p.errs.length === 0, 'no page errors (' + p.errs.join(' | ') + ')');
   await p.context().close();

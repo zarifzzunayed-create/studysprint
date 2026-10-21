@@ -3,9 +3,11 @@
    Retries never change f, so they cannot inflate first-attempt accuracy.
 
    Saved shape (key "studysprint:v3"):
-     { v: 3, q: { id: {f, rt[], t} }, u: { "course/unit": {level, streak, wrong, pref, cycle, conf?, warmup?} },
+     { v: 3, q: { id: {f, rt[], t} }, u: { "course/unit": {level, streak, wrong, pref, cycle, conf?, warmup?, tests?} },
        ctx: {...last course, unit and view}, sess: [study sessions], runs: { "kind|course/unit": unfinished set } }
-   Progress saved by earlier versions ("studysprint:v2", or v3 without "runs") is still read.
+   tests (optional) holds the last submission of each practice test: { testId: {n, best, t, score, total, answered,
+   firsts, firstOk, timed, limit, secs, auto, items: [{q, a}]} }. An unfinished test is a run ("test|course/unit").
+   Progress saved by earlier versions ("studysprint:v2", or v3 without "runs" or "tests") is still read.
    Before a restore, a reset, or "clear all", the current progress is copied to "studysprint:v3:backup" so it can be undone. */
 (function () {
   "use strict";

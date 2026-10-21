@@ -10,7 +10,7 @@ const { spawn } = require('child_process');
   await p.fill('#c-search', 'AP Calculus AB'); await p.keyboard.press('Enter');
   await p.waitForFunction(() => document.querySelectorAll('#c-unit option').length > 3);
   await p.selectOption('#c-unit', 'u6'); await p.click('#c-go'); await p.waitForSelector('#v-overview .cards');
-  await p.click('#ctx-nav button:has-text("Study planner")'); await p.waitForSelector('#v-planner button:has-text("Build my study session")');
+  await p.click('#ctx-nav button:has-text("Review plan")'); await p.waitForSelector('#v-planner button:has-text("Build my study session")');
   T.ok(['catalog.json', 'planner.json', 'courses/ap-calculus-ab/course.json', 'courses/ap-calculus-ab/u6.json'].every(f => reqs.includes('200 ' + f)), 'served over HTTP: catalog, planner config, course and unit files all load (' + reqs.join(', ') + ')');
   T.ok(errs.length === 0, 'no page errors');
   console.log(T.summary()); await b.close(); srv.kill();

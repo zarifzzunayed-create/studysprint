@@ -16,6 +16,21 @@
   const okId = (k) => typeof k === "string" && QID.test(k) && !BAD.has(k);
   const okKey = (k) => typeof k === "string" && UKEY.test(k);
   const str = (x, max) => typeof x === "string" && x.length <= max;
+  const TID = /^t[0-9]{1,3}$/, MAX_ITEMS = 100;
+  // The last submission of one practice test (u[unit].tests[testId]); items hold each question's answer, or null.
+  function cleanTest(r) {
+    if (!isObj(r) || !int(r.n, 1, 100000) || !time(r.t) || !int(r.total, 1, MAX_ITEMS) || !int(r.score, 0, r.total) || !int(r.best, 0, r.total) ||
+      !int(r.answered, r.score, r.total) || !int(r.firsts, 0, r.answered) || !int(r.firstOk, 0, r.firsts) || typeof r.timed !== "boolean" ||
+      !int(r.limit, 0, 360000) || !int(r.secs, 0, r.limit) || typeof r.auto !== "boolean") return null;
+    if (!Array.isArray(r.items) || r.items.length !== r.total) return null;
+    const items = [];
+    for (const it of r.items) {
+      if (!isObj(it) || !okId(it.q) || !(it.a === null || (typeof it.a === "number" && Number.isFinite(it.a)))) return null;
+      items.push({ q: it.q, a: it.a });
+    }
+    return { n: r.n, best: r.best, t: r.t, score: r.score, total: r.total, answered: r.answered, firsts: r.firsts, firstOk: r.firstOk,
+      timed: r.timed, limit: r.limit, secs: r.secs, auto: r.auto, items };
+  }
 
   function exportObj() {
     const P = SS.store.P;
@@ -48,6 +63,16 @@
       const w = r.warmup;
       if (!isObj(w) || !int(w.total, 0, 10) || !int(w.correct, 0, w.total) || !(w.conf === null || int(w.conf, 1, 5)) || !time(w.t)) return "a warm-up result is not valid";
       o.warmup = { correct: w.correct, total: w.total, conf: w.conf, t: w.t };
+    }
+    if (r.tests !== undefined) {
+      if (!isObj(r.tests) || Object.keys(r.tests).length > 50) return "a practice test history is not valid";
+      const ts = {};
+      for (const id of Object.keys(r.tests)) {
+        const c = TID.test(id) ? cleanTest(r.tests[id]) : null;
+        if (!c) return "a practice test history is not valid";
+        ts[id] = c;
+      }
+      o.tests = ts;
     }
     return o;
   }
@@ -103,6 +128,7 @@
        retries); with equal attempts, the one answered more recently; otherwise this device's.
      - A unit on both sides keeps this device's adaptive level, streak, difficulty range and seen-question list;
        only the confidence rating and the warm-up result are taken from the backup, and only when they are newer.
+       Practice test history is merged per test like questions: the record with more submissions, or the newer one.
      - Questions, units and study sessions found only in the backup are added. A study session in both (same id)
        keeps this device's copy. The 50 most recent sessions are kept.
      - Unfinished practice sets and study sessions are never in a backup; a merge leaves this device's in place. */
@@ -118,6 +144,11 @@
       const m = Object.assign({}, a);
       if (newer(a.conf, b.conf)) m.conf = b.conf;
       if (newer(a.warmup, b.warmup)) m.warmup = b.warmup;
+      if (b.tests) {
+        const ts = Object.assign({}, a.tests);
+        Object.keys(b.tests).forEach((id) => { const x = ts[id], y = b.tests[id]; if (!x || y.n > x.n || (y.n === x.n && y.t > x.t)) ts[id] = y; });
+        m.tests = ts;
+      }
       u[k] = m;
     });
     const byId = new Map();

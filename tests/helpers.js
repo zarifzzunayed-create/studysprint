@@ -23,7 +23,7 @@ async function fresh(b, opts = {}) {
 }
 async function openUnit(p, course, uid) {
   if (await p.isVisible('#ctx-change')) await p.click('#ctx-change');
-  else if (!(await p.isVisible('#v-home'))) await p.click('header button:has-text("Courses")');
+  else if (!(await p.isVisible('#v-home'))) await p.click('header .navbtn[data-go="home"]');
   await p.fill('#c-search', course); await p.keyboard.press('Enter');
   await p.waitForFunction(() => document.querySelectorAll('#c-unit option').length > 3);
   await p.selectOption('#c-unit', uid); await p.click('#c-go'); await p.waitForSelector('#v-overview:not([hidden]) h2');

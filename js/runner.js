@@ -20,6 +20,9 @@
   const SS = window.SS, h = SS.h;
   let seq = 0;
 
+  // One scoring rule for practice, the planner and practice tests. a: choice index, or the number entered.
+  SS.grade = (q, a) => (q.type === "multiple-choice" ? a === q.correctAnswer : Math.abs(a - q.correctAnswer) <= q.tolerance * Math.abs(q.correctAnswer));
+
   SS.runner = function (host, unit, o) {
     o = o || {};
     const A = SS.adaptive, S = SS.store;
@@ -127,13 +130,13 @@
       if (q.type === "multiple-choice") {
         const c = form.querySelector("input.ans:checked");
         if (!c) return invalid("Choose an answer before submitting.", fs, form.querySelector("input.ans"));
-        given = +c.value; ok = given === q.correctAnswer;
+        given = +c.value; ok = SS.grade(q, given);
       } else {
         const box = form.querySelector(".q-num");
         const raw = box.value.replace(/\u2212/g, "-").trim();
         val = raw === "" ? NaN : Number(raw);
         if (!Number.isFinite(val)) return invalid("Enter a number, for example 12.5.", box, box);
-        ok = Math.abs(val - q.correctAnswer) <= q.tolerance * Math.abs(q.correctAnswer);
+        ok = SS.grade(q, val);
       }
       err.textContent = ""; form.querySelectorAll("[aria-invalid]").forEach((x) => x.removeAttribute("aria-invalid"));
       const first = S.record(q, ok);
@@ -173,7 +176,7 @@
           SS.btn("Open learning resources", "button-secondary", () => o.onStruggle({ reason: "struggle" }))));
       }
       if (!ok) {
-        if (R.followUp) fb.append(h("p", null, "Because this was a wrong first attempt, the next question will be a different one on the same concept, at the same or next-lower level. This question is saved in your review queue and comes back later."));
+        if (R.followUp) fb.append(h("p", null, "Because this was a wrong first attempt, the next question will be a different one on the same concept, at the same or next-lower level, if one is still unused in this round. This question is saved in your review queue and comes back later."));
         else fb.append(h("p", null, "This question is saved in your review queue so you can retry it later."));
       }
       const last = (o.limit && R.count >= o.limit) || (R.queue && !R.queue.length) || (R.targets.length === 0 && o.targets);

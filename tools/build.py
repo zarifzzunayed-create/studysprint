@@ -102,6 +102,58 @@ def check_unit(course_id, meta, d):
     ready = bool(g) and len(g["sections"]) >= 3 and bool(g.get("example")) and bool(g.get("misconceptions")) and len(mc) >= MIN_MC and levels_ok
     return "practice-ready" if ready else "in-progress"
 
+def check_tests(where, d, status, rules):
+    """Validate a unit's practice tests and measure what its bank can honestly support.
+    A test needs at least minQuestions questions, every unit topic, and all three levels, and shares no question
+    with another test in the unit, so a second test is a different question set, not a reshuffle."""
+    tests = d.get("tests", [])
+    qs = {q["id"]: q for q in d["questions"]}
+    tids = [t["id"] for t in d["topics"]]
+    mn, planned = rules["minQuestions"], rules["plannedPerUnit"]
+    if tests and status != "practice-ready":
+        err("%s: practice tests are only allowed in a practice-ready unit" % where)
+    used, test_ids = set(), set()
+    for t in tests:
+        tw = "%s test %s" % (where, t.get("id"))
+        if not re.match(r"^t[0-9]{1,3}$", str(t.get("id"))) or t["id"] in test_ids:
+            err(tw + ": id must be t1, t2, ... and unique in the unit")
+        test_ids.add(t.get("id"))
+        if not t.get("title"):
+            err(tw + ": missing title")
+        ids = t.get("questionIds", [])
+        if len(set(ids)) != len(ids):
+            err(tw + ": a question appears twice")
+        missing = [i for i in ids if i not in qs]
+        if missing:
+            err(tw + ": unknown question ids %s" % missing)
+            continue
+        if len(ids) < mn:
+            err(tw + ": has %d questions; a practice test needs at least %d" % (len(ids), mn))
+        if set(tids) - {qs[i]["topicId"] for i in ids}:
+            err(tw + ": does not cover every topic in the unit")
+        if set(LEVELS) - {qs[i]["difficulty"] for i in ids}:
+            err(tw + ": does not include all three difficulty levels")
+        shared = used & set(ids)
+        if shared:
+            err(tw + ": shares questions with another test (%s); a different test needs different questions" % sorted(shared))
+        used |= set(ids)
+    def capacity(pool):
+        """Upper bound on the number of distinct tests a pool of questions could form."""
+        k = len(pool) // mn
+        for t in tids:
+            k = min(k, sum(q["topicId"] == t for q in pool))
+        for l in LEVELS:
+            k = min(k, sum(q["difficulty"] == l for q in pool))
+        return k
+    left = [q for q in d["questions"] if q["id"] not in used]
+    more = max(0, planned - len(tests))
+    # Lower bound on new original questions for `planned` tests: questions already in a test cannot be reused.
+    need = 0 if not more else max(more * mn - len(left),
+                                  sum(max(0, more - sum(q["topicId"] == t for q in left)) for t in tids),
+                                  sum(max(0, more - sum(q["difficulty"] == l for q in left)) for l in LEVELS))
+    return {"tests": len(tests), "bank": len(qs), "inTests": len(used), "left": len(left),
+            "capacity": capacity(list(qs.values())), "need": max(0, need), "sizes": [len(t.get("questionIds", [])) for t in tests]}
+
 KINDS = ("video", "lesson page", "practice", "reading", "collection page", "textbook", "course page")
 
 def check_scope(where, r):
@@ -143,6 +195,10 @@ def check_planner():
 def main():
     planner = check_planner()
     cat = load("data/catalog.json")
+    rules = cat.get("practiceTests") or {}
+    if not all(isinstance(rules.get(k), int) and rules[k] >= 1 for k in ("minQuestions", "plannedPerUnit", "minutesPerQuestion")):
+        err("catalog: practiceTests needs integer minQuestions, plannedPerUnit and minutesPerQuestion")
+        rules = {"minQuestions": 8, "plannedPerUnit": 3, "minutesPerQuestion": 2}
     ids = [c["id"] for c in cat["courses"]]
     if len(set(ids)) != len(ids):
         err("catalog: duplicate course ids")
@@ -162,7 +218,7 @@ def main():
         for x in cd.get("frq", {}).get("releasedSets", []):
             if not https(x.get("url")) or not x.get("year"):
                 err("%s: released FRQ set needs a year and an https url" % c["id"])
-        units, ready, prog = [], 0, 0
+        units, ready, prog, ntests, unit_tests = [], 0, 0, 0, {}
         uids = [u["id"] for u in cd["units"]]
         if len(set(uids)) != len(uids):
             err("%s: duplicate unit ids" % c["id"])
@@ -176,14 +232,19 @@ def main():
             status = "outline" if d is None else check_unit(c["id"], u, d)
             if status != u["status"]:
                 err("%s/%s: declared status '%s' but content computes to '%s'" % (c["id"], u["id"], u["status"], status))
+            ti = check_tests("%s/%s" % (c["id"], u["id"]), d, status, rules) if d else None
+            if ti:
+                ntests += ti["tests"]
+                if ti["tests"]:
+                    unit_tests[u["id"]] = ti["tests"]
             if d:
                 for q in d["questions"]:
                     if q["id"] in all_q:
                         err("duplicate question id %s" % q["id"])
                     all_q.add(q["id"])
             ready += status == "practice-ready"; prog += status == "in-progress"
-            units.append((u, d, status))
-        c["summary"] = {"units": len(cd["units"]), "ready": ready, "inProgress": prog}
+            units.append((u, d, status, ti))
+        c["summary"] = {"units": len(cd["units"]), "ready": ready, "inProgress": prog, "tests": ntests, "unitTests": unit_tests}
         detail[c["id"]] = (cd, units)
     if errors:
         print("BUILD FAILED:")
@@ -195,11 +256,11 @@ def main():
 
     with open(os.path.join(ROOT, "data/catalog.json"), "w", encoding="utf-8") as f:
         json.dump(cat, f, ensure_ascii=False, indent=1); f.write("\n")
-    write_status(cat, detail, planner)
+    write_status(cat, detail, planner, rules)
     stamp_version()
     build_dist()
 
-def write_status(cat, detail, planner):
+def write_status(cat, detail, planner, rules):
     checked = cat["checked"]
     names = {c["id"]: c["name"] for c in cat["courses"]}
     L = []
@@ -218,6 +279,7 @@ def write_status(cat, detail, planner):
         else:
             L.append("%d. %s: catalog entry only (no verified unit outline yet)" % (i, names.get(cid, cid)))
     L.append("")
+    write_tests_status(L, cat, detail, rules)
     n = len(planner["steps"]); th = planner["threshold"]
     L.append("## Study planner\n")
     L.append("A planner session has **%d steps**, defined in `data/planner.json`. The planner interface, the saved session history, and this report all read that file. The planner opens from the selected course and unit and draws its guide section and questions from that unit.\n" % n)
@@ -235,9 +297,9 @@ def write_status(cat, detail, planner):
     L.append("## Saving, backup, and hosting\n")
     L.append("These describe how the site behaves. They do not change any course content.\n")
     L.append("- **Progress stays in the browser.** No accounts, no server, no paid or outside services. Progress saved by earlier versions of the site is still read.")
-    L.append("- **Backup and restore (My data page).** A student can download progress as a JSON file or copy it as text. A backup includes answer results (first try and each retry), unit settings (adaptive level, difficulty range, questions seen in the current round, confidence rating, last warm-up result), and completed study-session history. It does not include unfinished practice sets or planner sessions, which stay on the device where they were started; answers already submitted in them are included. A restore checks every field, drops anything it does not recognise, rejects files over 2 MB or in an unknown format, and shows what the backup contains and what the device will have afterwards before anything changes. Merge and replace are both offered. The previous progress is kept so the last restore, unit reset, or \"clear all\" can be undone.")
-    L.append("- **How merge treats overlaps.** A question on both sides keeps one whole record, not a combination: the one with more attempts, or the more recent one if the counts are equal. A unit on both sides keeps the device's adaptive level, difficulty range, and seen-question list; only a newer confidence rating or warm-up result comes from the backup. A study session in both is listed once, and the 50 most recent are kept. The restore preview states these rules and how many shared questions and units each rule affects.")
-    L.append("- **Unfinished work survives a refresh.** An open practice set (including review sets) or a planner session is saved as the student goes. Refreshing the page returns to the same question; after an answered question it moves on to the next one. The home page lists unfinished sets with Resume and Discard. Step timers restart from the full step time, and the 3-question Learn first warm-up is not saved mid-way.")
+    L.append("- **Backup and restore (My data page).** A student can download progress as a JSON file or copy it as text. A backup includes answer results (first try and each retry), unit settings (adaptive level, difficulty range, questions seen in the current round, confidence rating, last warm-up result), completed study-session history, and practice test history (the number of submissions and the last submission of each test). It does not include unfinished practice tests, practice sets, or planner sessions, which stay on the device where they were started; answers already submitted in them are included. A restore checks every field, drops anything it does not recognise, rejects files over 2 MB or in an unknown format, and shows what the backup contains and what the device will have afterwards before anything changes. Merge and replace are both offered. The previous progress is kept so the last restore, unit reset, or \"clear all\" can be undone.")
+    L.append("- **How merge treats overlaps.** A question on both sides keeps one whole record, not a combination: the one with more attempts, or the more recent one if the counts are equal. A unit on both sides keeps the device's adaptive level, difficulty range, and seen-question list; only a newer confidence rating or warm-up result comes from the backup. A practice test in both keeps one history: the one with more submissions, or the more recent one if equal. A study session in both is listed once, and the 50 most recent are kept. The restore preview states these rules and how many shared questions and units each rule affects.")
+    L.append("- **Unfinished work survives a refresh.** An open practice test (its question order, answers, review marks, and remaining time), practice set (including review sets), or planner session is saved as the student goes. A timed test's clock pauses while the student is away from it. Refreshing the page returns to the same question; after an answered question it moves on to the next one. The home page lists unfinished sets with Resume and Discard. Step timers restart from the full step time, and the 3-question Learn first warm-up is not saved mid-way.")
     L.append("- **Load errors.** If the course list, a course's unit list, a unit's content, or the planner settings fail to load, the request is retried once automatically; if it still fails, the page says what could not be loaded and offers Try again. A unit that fails to load is never shown as if it had no content.")
     L.append("- **Hosting.** All asset and data paths are relative, so the site works from a GitHub Pages project subpath (for example `/studysprint/`). The build writes a version stamp onto the CSS, script, and data requests so a new release is not hidden by cached files, and adds a `.nojekyll` file.")
     L.append("- **Accessibility and phones.** Each view has its own page title and level-1 heading, Back and Forward move between views, answer errors are linked to the question and announced, focus moves to each new question and each result, the course search announces how many courses match, buttons and answer choices are at least 44 px tall, and tables stack into labelled rows on narrow screens so pages do not scroll sideways at 320 px.\n")
@@ -256,7 +318,7 @@ def write_status(cat, detail, planner):
         L.append("")
         L.append("| Unit | Status | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |")
         L.append("|---|---|---|---|---|---|---|---|---|")
-        for u, d, status in units:
+        for u, d, status, ti in units:
             if d is None:
                 L.append("| %s | %s | no | 0 | 0 | 0 | 0 | course page only | all |" % (u["name"], status))
                 continue
@@ -279,7 +341,7 @@ def write_status(cat, detail, planner):
     # gaps computed from the data
     no_links, listing = [], []
     for cid, (cd, units) in detail.items():
-        for u, d, status in units:
+        for u, d, status, ti in units:
             if d is None:
                 continue
             links = d.get("videos", []) + d.get("learnResources", [])
@@ -299,6 +361,33 @@ def write_status(cat, detail, planner):
     L.append("")
     with open(os.path.join(ROOT, "CONTENT_STATUS.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(L))
+
+def write_tests_status(L, cat, detail, rules):
+    mn, planned, mpq = rules["minQuestions"], rules["plannedPerUnit"], rules["minutesPerQuestion"]
+    L.append("## Practice tests\n")
+    L.append("A **practice test** is a fixed set of at least %d of a unit's own original questions that includes every topic in the unit and all three difficulty levels. Two tests in a unit share no questions, so a second test is a genuinely different question set; reshuffling the same questions does not count as a new test. Tests are short unit tests, not full AP exams, and they cannot predict an AP score. Timed mode allows %d minutes per question (StudySprint's own pacing, not an official AP time limit). The rules live in `data/catalog.json` (`practiceTests`), and the build rejects a test that breaks them.\n" % (mn, mpq))
+    L.append("Retaking a test shows the same questions in a new order; those answers are recorded as retries, so first-attempt results never go up from a retake. Questions that are not in any test still appear in adaptive practice.\n")
+    L.append("\"Distinct tests the bank could support\" is an upper bound from the number of questions, topics, and levels. \"More original questions needed\" is a lower bound for reaching %d different tests per unit: questions already in a test cannot be reused, and the new questions must also fill any topic or level that the remaining questions do not cover.\n" % planned)
+    tot_t = tot_u = tot_need = 0
+    for cid in [c for c in cat["priorityOrder"] if c in detail]:
+        cd, units = detail[cid]
+        rows = [(u, ti) for u, d, status, ti in units if ti]
+        if not rows:
+            continue
+        nt = sum(ti["tests"] for u, ti in rows); nu = sum(1 for u, ti in rows if ti["tests"])
+        tot_t += nt; tot_u += nu; tot_need += sum(ti["need"] for u, ti in rows)
+        multi = sum(1 for u, ti in rows if ti["tests"] >= 2)
+        L.append("### %s\n" % cd["name"])
+        L.append("%d of %d units have a practice test (%d test%s in all); %d unit%s %s more than one.\n" % (nu, len(units), nt, "" if nt == 1 else "s", multi, "" if multi == 1 else "s", "has" if multi == 1 else "have"))
+        L.append("| Unit | Questions in bank | Practice tests (questions each) | Questions not in any test | Distinct tests the bank could support | More original questions needed for %d tests (at least) |" % planned)
+        L.append("|---|---|---|---|---|---|")
+        for u, ti in rows:
+            tt = "%d (%s)" % (ti["tests"], ", ".join(map(str, ti["sizes"]))) if ti["tests"] else "0"
+            L.append("| %s | %d | %s | %d | %d | %d |" % (u["name"], ti["bank"], tt, ti["left"], ti["capacity"], ti["need"]))
+        L.append("")
+    others = [cat_name for cat_name in [c["name"] for c in cat["courses"] if c["id"] in detail and not any(ti for _, _, _, ti in detail[c["id"]][1])]]
+    L.append("Across the site: %d practice tests in %d units. Reaching %d tests in each of those units needs at least %d more original questions. %s\n" % (
+        tot_t, tot_u, planned, tot_need, ("Courses with a unit outline but no questions, so no practice tests: " + ", ".join(others) + ".") if others else ""))
 
 def stamp_version():
     """Write a content hash into index.html (meta tag and ?v= on the CSS and script tags) so a new release on

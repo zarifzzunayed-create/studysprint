@@ -53,9 +53,12 @@ const audit = p => p.evaluate(() => {
     await p.click('#v-practice button:has-text("Start practice")'); await check('question');
     await T.answer(p, false); await check('feedback');
     await p.click('.fb:visible button:has-text("End and see results")'); await check('set results with concept table');
+    await T.tab(p, 'Tests'); await p.click('#v-overview button:has-text("Start timed")'); await check('practice test question');
+    await p.click('#v-test .test-grid button:nth-child(8)'); await p.click('#v-test .test-nav button.button-primary'); await check('practice test review');
+    await p.click('#v-test button:has-text("Submit test")'); await p.click('#v-test button:has-text("Yes, submit my test")'); await check('practice test results');
     await T.tab(p, 'Videos'); await check('videos');
     await T.tab(p, 'Official FRQs'); await check('FRQs');
-    await T.tab(p, 'Study planner'); await check('planner setup');
+    await T.tab(p, 'Review plan'); await check('planner setup');
     await p.click('#v-planner button:has-text("Build my study session")'); await check('planner step 1');
     await p.click('#v-planner button:has-text("Next step")'); await check('planner step 2');
     for (let i = 0; i < 4; i++) { if (!(await p.locator('#v-planner form legend:visible').count())) break; await T.answer(p, true); await p.locator('.fb:visible button.button-primary').first().click(); }

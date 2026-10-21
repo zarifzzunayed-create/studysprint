@@ -24,7 +24,7 @@ const BASE = 'http://localhost:8791' + S.PRE;
   await T.openUnit(p, 'AP Calculus AB', 'u6');
   await T.tab(p, 'Practice'); await p.click('#v-practice button:has-text("Start practice")');
   await T.answer(p, true); await T.nextQ(p); await T.answer(p, false);
-  await T.tab(p, 'Study planner'); await p.waitForSelector('#v-planner button:has-text("Build my study session")');
+  await T.tab(p, 'Review plan'); await p.waitForSelector('#v-planner button:has-text("Build my study session")');
   await T.tab(p, 'Learn first'); await p.waitForSelector('#v-learn h2');
   const outside = log.filter(x => !x.startsWith(S.PRE) && x !== S.PRE.slice(0, -1) && !x.startsWith('/__fail'));
   T.ok(outside.length === 0, 'every request stays inside the project subpath (' + (outside.join(', ') || 'none outside') + ')');
@@ -86,7 +86,7 @@ const BASE = 'http://localhost:8791' + S.PRE;
 
   // 7. Planner config fails -> retry inside the planner view.
   await fail('data/planner.json', 2);
-  await T.tab(p, 'Study planner');
+  await T.tab(p, 'Review plan');
   await p.waitForSelector('#v-planner button:has-text("Try again")');
   T.ok(/planner settings could not be loaded/.test(await T.text(p, '#v-planner')), 'planner config failure: clear error');
   await p.click('#v-planner button:has-text("Try again")');

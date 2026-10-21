@@ -33,5 +33,6 @@ Ports 8791 and 8799 must be free. Set `STUDYSPRINT_ROOT` to test a project folde
 | t9_backup | backup export, validated restore with preview, merge/replace, undo, hostile files, blocked storage |
 | t10_a11y | no sideways scroll at 320/375/390 px, 44 px targets, labels, unique ids, keyboard and screen-reader feedback |
 | t11_merge | My data wording on what a backup includes and excludes, and merge rules matching what merge does |
+| t12_tests | practice tests: honest test library, nothing scored until submit, navigation and review marks, resume after refresh, confirmed submit, first attempts vs retries, results and explanations, separate retry set, review plan from results, retakes, timed auto-submit, test history in backups, fair question rotation, build rules that reject reshuffled tests |
 
 Some suites pick questions at random, so individual question choices differ between runs; the checks do not depend on which question appears.
