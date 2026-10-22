@@ -1,0 +1,406 @@
+{
+ "courseId": "ap-physics-c-mechanics",
+ "unitId": "u4",
+ "title": "Unit 4: Linear Momentum",
+ "topics": [
+  {
+   "id": "m4-imp",
+   "name": "Impulse and momentum",
+   "covers": [
+    "Impulse and momentum"
+   ]
+  },
+  {
+   "id": "m4-cons",
+   "name": "Conservation of momentum",
+   "covers": [
+    "Conservation of linear momentum, collisions"
+   ]
+  },
+  {
+   "id": "m4-coll",
+   "name": "Collisions and kinetic energy",
+   "covers": [
+    "Conservation of linear momentum, collisions"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Linear momentum: review guide",
+  "intro": "Momentum is the quantity that forces change over time. Because internal forces come in equal and opposite pairs, a system's total momentum stays the same unless an outside force acts, which makes collisions solvable.",
+  "equationNote": "Momentum is a vector: in two dimensions, conserve the x- and y-components separately.",
+  "sections": [
+   {
+    "id": "s-m4-imp",
+    "topicId": "m4-imp",
+    "title": "Impulse and momentum",
+    "body": [
+     "Momentum is p = mv. The impulse of a force is J = ∫F dt, the area under the F–t graph, and it equals the change in momentum: J = Δp.",
+     "Newton's second law in its general form is F_net = dp/dt. A longer collision time spreads the same momentum change over more time and lowers the average force."
+    ],
+    "points": [
+     "Average force = Δp/Δt.",
+     "A rebound reverses the momentum, so it needs a larger impulse than simply stopping.",
+     "Impulse is measured in N·s, the same unit as kg·m/s."
+    ],
+    "equations": [
+     [
+      "p = mv",
+      "momentum"
+     ],
+     [
+      "J = ∫F dt = Δp",
+      "impulse–momentum theorem"
+     ]
+    ]
+   },
+   {
+    "id": "s-m4-cons",
+    "topicId": "m4-cons",
+    "title": "Conservation of momentum",
+    "body": [
+     "If the net external force on a system is zero, or negligible during a brief collision, its total momentum is conserved: Σmv before = Σmv after.",
+     "The center of mass of an isolated system moves at a constant velocity, v_cm = Σp/Σm, whatever happens inside it."
+    ],
+    "points": [
+     "Recoil: objects that start at rest and push apart have equal and opposite momenta.",
+     "In two dimensions, write separate equations for x and y.",
+     "Momentum is conserved in every collision, elastic or not."
+    ],
+    "equations": [
+     [
+      "Σp_before = Σp_after",
+      "conservation of momentum"
+     ],
+     [
+      "v_cm = Σmv / Σm",
+      "center-of-mass velocity"
+     ]
+    ]
+   },
+   {
+    "id": "s-m4-coll",
+    "topicId": "m4-coll",
+    "title": "Collisions and kinetic energy",
+    "body": [
+     "In an elastic collision kinetic energy is also conserved. In an inelastic collision some kinetic energy becomes thermal energy or deformation; in a perfectly inelastic collision the objects stick together and lose as much kinetic energy as momentum conservation allows.",
+     "For a head-on elastic collision with the second object initially at rest: v₁′ = (m₁ − m₂)v₁/(m₁ + m₂) and v₂′ = 2m₁v₁/(m₁ + m₂)."
+    ],
+    "points": [
+     "Equal masses in a head-on elastic collision exchange velocities.",
+     "Check an answer by comparing the kinetic energy before and after.",
+     "Kinetic energy cannot increase in a collision unless stored energy is released, as in an explosion."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 0.050 kg bullet moving at 400 m/s embeds itself in a 1.95 kg block at rest on a frictionless surface. Find their speed afterward and the kinetic energy lost.",
+   "solution": "Momentum: (0.050)(400) = (2.0)v, so v = 10 m/s. K before = ½(0.050)(400)² = 4000 J; K after = ½(2.0)(10)² = 100 J. So 3900 J becomes thermal energy and deformation."
+  },
+  "misconceptions": [
+   [
+    "“Momentum is conserved only in elastic collisions.”",
+    "Momentum is conserved in every collision of an isolated system; kinetic energy is what may not be."
+   ],
+   [
+    "“A bigger force always means a bigger impulse.”",
+    "Impulse depends on both the force and how long it acts."
+   ],
+   [
+    "“A ball that bounces needs less force than one that stops.”",
+    "Bouncing changes the momentum more, so it needs a larger impulse."
+   ],
+   [
+    "“In 2D, add momentum magnitudes like plain numbers.”",
+    "Momentum is a vector; conserve each component separately."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics C: Mechanics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+  "sourceTitle": "AP Physics C: Mechanics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "phcmu4-q01",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u4",
+   "topicId": "m4-imp",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the momentum of a 0.15 kg baseball moving at 40 m/s?",
+   "choices": [
+    "6.0 kg·m/s",
+    "120 kg·m/s",
+    "267 kg·m/s",
+    "40.15 kg·m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "p = mv = (0.15 kg)(40 m/s) = 6.0 kg·m/s.",
+   "choiceExplanations": [
+    "",
+    "120 is ½mv² = 120 J, the kinetic energy, not the momentum.",
+    "267 is v/m; momentum is mass times velocity.",
+    "40.15 adds the mass and the speed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu4-q02",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u4",
+   "topicId": "m4-imp",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 5.0 kg object at rest is pushed by a force F(t) = 10t newtons for 3.0 s. What is its speed at the end? (Ignore friction.)",
+   "choices": [
+    "9.0 m/s",
+    "18 m/s",
+    "6.0 m/s",
+    "45 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Impulse J = ∫₀³ 10t dt = 5t² from 0 to 3 = 45 N·s. Starting from rest, v = J/m = 45 ÷ 5.0 = 9.0 m/s.",
+   "choiceExplanations": [
+    "",
+    "18 m/s treats the final force, 30 N, as if it acted for the whole 3.0 s.",
+    "6.0 is F(3)/m = 30/5.0, an acceleration at t = 3 s, not a speed.",
+    "45 is the impulse in N·s; divide by the mass to get the speed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu4-q03",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u4",
+   "topicId": "m4-imp",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 0.20 kg ball hits a wall at 10 m/s and bounces straight back at 8.0 m/s. The contact lasts 0.020 s. What is the average force of the wall on the ball?",
+   "choices": [
+    "180 N",
+    "20 N",
+    "3.6 N",
+    "0.072 N"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Taking the rebound direction as positive, Δp = 0.20(8.0) − 0.20(−10) = 3.6 kg·m/s. Average force = Δp/Δt = 3.6 ÷ 0.020 = 180 N.",
+   "choiceExplanations": [
+    "",
+    "20 N uses the change in speed, 10 − 8 = 2 m/s; the direction reverses, so the velocity changes by 18 m/s.",
+    "3.6 is the impulse in N·s; divide it by the contact time.",
+    "0.072 multiplies the impulse by the time instead of dividing."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu4-q04",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u4",
+   "topicId": "m4-cons",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 2.0 kg cart moving at 3.0 m/s collides with and sticks to a 1.0 kg cart at rest. How fast do they move together afterward?",
+   "choices": [
+    "2.0 m/s",
+    "3.0 m/s",
+    "1.5 m/s",
+    "6.0 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Momentum is conserved: (2.0)(3.0) = (3.0)v, so v = 2.0 m/s.",
+   "choiceExplanations": [
+    "",
+    "3.0 m/s ignores the mass of the second cart, which must now move too.",
+    "1.5 m/s averages the speeds; momentum, not speed, is conserved.",
+    "6.0 is the total momentum in kg·m/s."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu4-q05",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u4",
+   "topicId": "m4-cons",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 60 kg skater at rest on frictionless ice throws a 2.0 kg ball forward at 15 m/s. What is the skater's velocity afterward?",
+   "choices": [
+    "0.50 m/s backward",
+    "15 m/s backward",
+    "0.50 m/s forward",
+    "2.0 m/s backward"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The total momentum stays zero: (2.0)(15) + (60)v = 0, so v = −0.50 m/s, which is 0.50 m/s opposite to the throw.",
+   "choiceExplanations": [
+    "",
+    "The skater and ball have equal and opposite momenta, not equal speeds; the skater is 30 times heavier.",
+    "To keep the total momentum zero, the skater must move opposite to the ball.",
+    "2.0 m/s divides the ball's momentum, 30 kg·m/s, by 15 instead of by the skater's mass."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu4-q06",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u4",
+   "topicId": "m4-cons",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 1.0 kg puck moving east at 5.0 m/s strikes an identical puck at rest on frictionless ice. Afterward, the first puck moves at 3.0 m/s, 53° north of east (cos 53° = 0.60, sin 53° = 0.80). What is the second puck's velocity?",
+   "choices": [
+    "4.0 m/s, about 37° south of east",
+    "2.0 m/s east",
+    "4.0 m/s, about 37° north of east",
+    "3.2 m/s east"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Conserve each component. East: 5.0 = 3.0(0.60) + v_x, so v_x = 3.2 m/s. North: 0 = 3.0(0.80) + v_y, so v_y = −2.4 m/s. Speed √(3.2² + 2.4²) = 4.0 m/s, at tan⁻¹(2.4/3.2) ≈ 37° south of east.",
+   "choiceExplanations": [
+    "",
+    "2.0 m/s subtracts the speeds as plain numbers; momentum is a vector, so conserve each component.",
+    "The north components must cancel: the first puck gained north momentum, so the second must move south.",
+    "3.2 m/s is only the east component; the 2.4 m/s south component is missing."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu4-q07",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u4",
+   "topicId": "m4-coll",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Two carts collide on a frictionless track and stick together. Which quantities are conserved in the collision?",
+   "choices": [
+    "Total momentum, but not total kinetic energy",
+    "Total kinetic energy, but not total momentum",
+    "Both total momentum and total kinetic energy",
+    "Neither"
+   ],
+   "correctAnswer": 0,
+   "explanation": "With no external horizontal force, momentum is conserved in every collision. When objects stick together (a perfectly inelastic collision), some kinetic energy becomes thermal energy and deformation.",
+   "choiceExplanations": [
+    "",
+    "It is the other way around: momentum is always conserved here, and kinetic energy is lost when objects stick.",
+    "Kinetic energy is conserved only in elastic collisions; sticking together is perfectly inelastic.",
+    "Momentum is conserved because no net external force acts on the two carts."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu4-q08",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u4",
+   "topicId": "m4-coll",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 2.0 kg cart moving at 3.0 m/s collides with and sticks to a 1.0 kg cart that was at rest. How much kinetic energy is lost?",
+   "choices": [
+    "3.0 J",
+    "9.0 J",
+    "0 J",
+    "6.0 J"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Before: ½(2.0)(3.0)² = 9.0 J. The carts move off together at (2.0 × 3.0)/3.0 = 2.0 m/s, so after: ½(3.0)(2.0)² = 6.0 J. The loss is 3.0 J.",
+   "choiceExplanations": [
+    "",
+    "9.0 J is all of the starting kinetic energy; the carts keep moving, so some remains.",
+    "Kinetic energy is lost when objects stick together.",
+    "6.0 J is the kinetic energy left after the collision, not the amount lost."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu4-q09",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u4",
+   "topicId": "m4-coll",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 1.0 kg ball moving at 6.0 m/s makes a head-on elastic collision with a 2.0 kg ball at rest. What are their velocities afterward?",
+   "choices": [
+    "1.0 kg ball: −2.0 m/s; 2.0 kg ball: +4.0 m/s",
+    "Both move at +2.0 m/s",
+    "1.0 kg ball: 0; 2.0 kg ball: +3.0 m/s",
+    "1.0 kg ball: 0; 2.0 kg ball: +6.0 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "v₁′ = (1 − 2)(6.0)/3 = −2.0 m/s and v₂′ = 2(1)(6.0)/3 = +4.0 m/s. Check: momentum 6 = −2 + 8, and kinetic energy 18 J = 2 J + 16 J.",
+   "choiceExplanations": [
+    "",
+    "Moving together is a perfectly inelastic collision; an elastic collision conserves kinetic energy, and this would lose 12 J.",
+    "This conserves momentum but keeps only 9 J of the 18 J of kinetic energy, so it is not elastic.",
+    "This gives 12 kg·m/s of momentum from 6 kg·m/s; the velocities are exchanged only when the masses are equal."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "phcmu4-q01",
+    "phcmu4-q02",
+    "phcmu4-q03",
+    "phcmu4-q04",
+    "phcmu4-q05",
+    "phcmu4-q06",
+    "phcmu4-q07",
+    "phcmu4-q09"
+   ]
+  }
+ ]
+}

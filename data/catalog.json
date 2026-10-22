@@ -647,13 +647,21 @@
    "outline": true,
    "summary": {
     "units": 7,
-    "ready": 0,
+    "ready": 7,
     "inProgress": 0,
-    "complete": false,
+    "complete": true,
     "examUnits": 7,
-    "examReady": 0,
-    "tests": 0,
-    "unitTests": {}
+    "examReady": 7,
+    "tests": 7,
+    "unitTests": {
+     "u1": 1,
+     "u2": 1,
+     "u3": 1,
+     "u4": 1,
+     "u5": 1,
+     "u6": 1,
+     "u7": 1
+    }
    }
   },
   {

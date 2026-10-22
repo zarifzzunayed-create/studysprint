@@ -62,11 +62,17 @@ const outlineOnly = CAT.priorityOrder.map(id => CAT.courses.find(c => c.id === i
     }
     return out;
   });
-  T.ok(readyUnits.length >= 32 && readyUnits.every(u => u.ok), readyUnits.length + ' practice-ready units load with a guide, a 3-level question bank and a valid practice test' + (readyUnits.every(u => u.ok) ? '' : ': ' + readyUnits.filter(u => !u.ok).map(u => u.key).join(', ')));
+  const expectReady = CAT.courses.reduce((n, c) => n + (c.summary ? c.summary.ready : 0), 0);
+  T.ok(readyUnits.length === expectReady && readyUnits.every(u => u.ok), readyUnits.length + ' practice-ready units load with a guide, a 3-level question bank and a valid practice test' + (readyUnits.every(u => u.ok) ? '' : ': ' + readyUnits.filter(u => !u.ok).map(u => u.key).join(', ')));
   await T.openUnit(p, 'AP Physics 2', 'u15');
   await p.click('#v-overview button:has-text("Start untimed")');
   await p.waitForSelector('#v-test form legend');
   T.ok(/Question 1 of 8/.test(await T.text(p, '.test-status')) && /AP Physics 2: Algebra-Based · Unit 15: Modern Physics/.test(await T.text(p, '#v-test')), 'a new Physics 2 unit test opens with 8 questions');
+  await p.click('#v-test button:has-text("Save and exit")');
+  await T.openUnit(p, 'AP Physics C: Mechanics', 'u5');
+  await p.click('#v-overview button:has-text("Start untimed")');
+  await p.waitForSelector('#v-test form legend');
+  T.ok(/Question 1 of 8/.test(await T.text(p, '.test-status')) && /AP Physics C: Mechanics · Unit 5: Torque and Rotational Dynamics/.test(await T.text(p, '#v-test')), 'a new Physics C: Mechanics unit test opens with 8 questions');
   await p.click('#v-test button:has-text("Save and exit")');
   // Framework coverage vs exam coverage: Precalculus Unit 4 is in the framework but not assessed on the AP Exam.
   await p.click('#ctx-change');

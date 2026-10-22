@@ -18,7 +18,7 @@ StudySprint is a review site, not a complete course or textbook. Guides are shor
 4. AP Precalculus: complete. 4 of 4 units practice-ready, 0 in progress, 0 outline only
 5. AP Calculus BC: outline only. 0 of 10 units practice-ready, 0 in progress, 10 outline only
 6. AP Physics 2: Algebra-Based: complete. 7 of 7 units practice-ready, 0 in progress, 0 outline only
-7. AP Physics C: Mechanics: outline only. 0 of 7 units practice-ready, 0 in progress, 7 outline only
+7. AP Physics C: Mechanics: complete. 7 of 7 units practice-ready, 0 in progress, 0 outline only
 8. AP Physics C: Electricity and Magnetism: outline only. 0 of 6 units practice-ready, 0 in progress, 6 outline only
 9. AP Computer Science A: catalog entry only (course framework not checked yet)
 
@@ -26,9 +26,9 @@ StudySprint is a review site, not a complete course or textbook. Guides are shor
 
 Each row comes from `data/catalog.json` and the course's `course.json`. A course framework counts as checked only when its official units were read from College Board's pages and recorded with a source link and date. Courses that have not been checked list no units at all; their "expected format" is a planning note from general knowledge, not a verified fact, and must be confirmed against the official Course and Exam Description before any content is written.
 
-**Totals:** 8 of 40 catalog courses have a checked course framework, with 55 official units in all. **32 of those 55 units have usable review content and a question bank (practice-ready).** 5 courses are complete. 32 courses have no checked framework yet.
+**Totals:** 8 of 40 catalog courses have a checked course framework, with 55 official units in all. **39 of those 55 units have usable review content and a question bank (practice-ready).** 6 courses are complete. 32 courses have no checked framework yet.
 
-**Framework coverage and exam coverage are counted separately.** 1 of the 55 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 54 units with no such exclusion recorded, 31 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
+**Framework coverage and exam coverage are counted separately.** 1 of the 55 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 54 units with no such exclusion recorded, 38 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
 
 | Course | Official framework | Source and edition | Official units | Practice-ready units | Exam coverage | Units with a practice test | Course status | Practice format |
 |---|---|---|---|---|---|---|---|---|
@@ -38,7 +38,7 @@ Each row comes from `data/catalog.json` and the course's `course.json`. A course
 | AP Precalculus | Unit-based (units checked) | [AP Precalculus – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-precalculus), checked 2026-10-09. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf). | 4 | 4 | 3 of 3 exam-assessed units ready; Unit 4 in the framework but not assessed on the AP Exam | 4 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP Calculus BC | Unit-based (units checked) | [AP Calculus BC course overview (College Board) and AP Calculus AB – AP Students (College Board)](https://apcentral.collegeboard.org/media/pdf/ap-calculus-bc-course-overview.pdf), checked 2026-10-09. AP Calculus AB and BC Course and Exam Description (shared with AB). Units 9 and 10 are named in the BC course overview; per-unit topic lists were not retrieved. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf). | 10 | 0 | 0 of 10 exam-assessed units ready; no unit recorded as excluded from the exam | 0 | Outline only: official units listed, no review content or questions yet | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP Physics 2: Algebra-Based | Unit-based (units checked) | [AP Physics 2: Algebra-Based – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based), checked 2026-10-09. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf). | 7 | 7 | 7 of 7 exam-assessed units ready; no unit recorded as excluded from the exam | 7 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
-| AP Physics C: Mechanics | Unit-based (units checked) | [AP Physics C: Mechanics – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics), checked 2026-10-09. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf). | 7 | 0 | 0 of 7 exam-assessed units ready; no unit recorded as excluded from the exam | 0 | Outline only: official units listed, no review content or questions yet | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
+| AP Physics C: Mechanics | Unit-based (units checked) | [AP Physics C: Mechanics – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics), checked 2026-10-09. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf). | 7 | 7 | 7 of 7 exam-assessed units ready; no unit recorded as excluded from the exam | 7 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP Physics C: Electricity and Magnetism | Unit-based (units checked) | [AP Physics C: Electricity and Magnetism – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism), checked 2026-10-09. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf). | 6 | 0 | 0 of 6 exam-assessed units ready; no unit recorded as excluded from the exam | 0 | Outline only: official units listed, no review content or questions yet | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP Computer Science A | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; multiple-choice questions fit the existing format, but free-response questions ask for Java code, which the site cannot check. |
 | AP Research | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be assessed through a year-long research project (an academic paper and a presentation with oral defense) rather than a multiple-choice exam. Needs project guidance, not a question bank. |
@@ -169,7 +169,21 @@ Retaking a test shows the same questions in a new order; those answers are recor
 | Unit 14: Waves, Sound, and Physical Optics | 12 | 1 (8) | 4 | 1 | 12 |
 | Unit 15: Modern Physics | 12 | 1 (8) | 4 | 1 | 12 |
 
-Across the site: 32 practice tests in 32 units. Reaching 3 tests in each of those units needs at least 456 more original questions. Courses with a unit outline but no questions, so no practice tests: AP Calculus BC, AP Physics C: Electricity and Magnetism, AP Physics C: Mechanics.
+### AP Physics C: Mechanics
+
+7 of 7 units have a practice test (7 tests in all); 0 units have more than one.
+
+| Unit | Questions in bank | Practice tests (questions each) | Questions not in any test | Distinct tests the bank could support | More original questions needed for 3 tests (at least) |
+|---|---|---|---|---|---|
+| Unit 1: Kinematics | 10 | 1 (8) | 2 | 1 | 14 |
+| Unit 2: Force and Translational Dynamics | 11 | 1 (8) | 3 | 1 | 13 |
+| Unit 3: Work, Energy, and Power | 9 | 1 (8) | 1 | 1 | 15 |
+| Unit 4: Linear Momentum | 9 | 1 (8) | 1 | 1 | 15 |
+| Unit 5: Torque and Rotational Dynamics | 9 | 1 (8) | 1 | 1 | 15 |
+| Unit 6: Energy and Momentum of Rotating Systems | 10 | 1 (8) | 2 | 1 | 14 |
+| Unit 7: Oscillations | 10 | 1 (8) | 2 | 1 | 14 |
+
+Across the site: 39 practice tests in 39 units. Reaching 3 tests in each of those units needs at least 556 more original questions. Courses with a unit outline but no questions, so no practice tests: AP Calculus BC, AP Physics C: Electricity and Magnetism.
 
 ## Study planner
 
@@ -309,13 +323,13 @@ Official released free-response questions: [course page](https://apcentral.colle
 
 | Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
 |---|---|---|---|---|---|---|---|---|---|
-| Unit 1: Kinematics | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 2: Force and Translational Dynamics | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 3: Work, Energy, and Power | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 4: Linear Momentum | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 5: Torque and Rotational Dynamics | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 6: Energy and Momentum of Rotating Systems | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 7: Oscillations | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 1: Kinematics | practice-ready | no exclusion recorded | yes (3 sections) | 10 (3 / 4 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit 2: Force and Translational Dynamics | practice-ready | no exclusion recorded | yes (3 sections) | 11 (3 / 5 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit 3: Work, Energy, and Power | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit 4: Linear Momentum | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit 5: Torque and Rotational Dynamics | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit 6: Energy and Momentum of Rotating Systems | practice-ready | no exclusion recorded | yes (3 sections) | 10 (3 / 4 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit 7: Oscillations | practice-ready | no exclusion recorded | yes (3 sections) | 10 (3 / 4 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
 
 ## AP Physics C: Electricity and Magnetism
 
@@ -340,7 +354,7 @@ AP Research, AP Seminar, AP 2-D Art and Design, AP 3-D Art and Design, AP Drawin
 ## Known gaps
 
 - No individual College Board free-response question is matched to a unit. Doing so would require reading College Board exam content, which this project does not do, and most free-response questions span several units. Each unit links to the course's official past-exam-questions page instead. Any future `frqs` entry must be labelled approximate or spans-units unless the match is exact.
-- Units with no verified unit-specific outside resource (the interface says so and points to the review guide): AP Precalculus Unit 1, AP Precalculus Unit 2, AP Precalculus Unit 3, AP Precalculus Unit 4, AP Physics 1: Algebra-Based Unit 2, AP Physics 1: Algebra-Based Unit 3, AP Physics 1: Algebra-Based Unit 4, AP Physics 1: Algebra-Based Unit 5, AP Physics 1: Algebra-Based Unit 6, AP Physics 1: Algebra-Based Unit 7, AP Physics 1: Algebra-Based Unit 8, AP Physics 2: Algebra-Based Unit 9, AP Physics 2: Algebra-Based Unit 10, AP Physics 2: Algebra-Based Unit 11, AP Physics 2: Algebra-Based Unit 12, AP Physics 2: Algebra-Based Unit 13, AP Physics 2: Algebra-Based Unit 14, AP Physics 2: Algebra-Based Unit 15.
+- Units with no verified unit-specific outside resource (the interface says so and points to the review guide): AP Precalculus Unit 1, AP Precalculus Unit 2, AP Precalculus Unit 3, AP Precalculus Unit 4, AP Physics 1: Algebra-Based Unit 2, AP Physics 1: Algebra-Based Unit 3, AP Physics 1: Algebra-Based Unit 4, AP Physics 1: Algebra-Based Unit 5, AP Physics 1: Algebra-Based Unit 6, AP Physics 1: Algebra-Based Unit 7, AP Physics 1: Algebra-Based Unit 8, AP Physics 2: Algebra-Based Unit 9, AP Physics 2: Algebra-Based Unit 10, AP Physics 2: Algebra-Based Unit 11, AP Physics 2: Algebra-Based Unit 12, AP Physics 2: Algebra-Based Unit 13, AP Physics 2: Algebra-Based Unit 14, AP Physics 2: Algebra-Based Unit 15, AP Physics C: Mechanics Unit 1, AP Physics C: Mechanics Unit 2, AP Physics C: Mechanics Unit 3, AP Physics C: Mechanics Unit 4, AP Physics C: Mechanics Unit 5, AP Physics C: Mechanics Unit 6, AP Physics C: Mechanics Unit 7.
 - 5 video links point to a general collection page that lists the video, not to the video itself, because a direct address could not be verified: AP Physics 1: Algebra-Based Unit 1, AP Physics 1: Algebra-Based Unit 2, AP Physics 1: Algebra-Based Unit 3, AP Physics 1: Algebra-Based Unit 4, AP Physics 1: Algebra-Based Unit 7. They are labelled general.
 - Question review: every question is original. Numeric answers, the values behind wrong choices that come from a specific mistake, and every worked example were checked by computation; conceptual questions were checked by reading only. No question has been reviewed by a subject teacher, so a teacher review is recommended before classroom use.
 - Learn first links: Khan Academy pages are rendered by JavaScript, so they were verified by confirming the address loads with a matching canonical URL and by the page title in a search index, not by watching each video.
