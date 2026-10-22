@@ -1,0 +1,533 @@
+{
+ "courseId": "ap-physics-2",
+ "unitId": "u10",
+ "title": "Unit 10: Electric Force, Field, and Potential",
+ "topics": [
+  {
+   "id": "p10-charge",
+   "name": "Charge and charging",
+   "covers": [
+    "Electric systems and charge",
+    "Charge distribution: Friction, conduction, and induction"
+   ]
+  },
+  {
+   "id": "p10-force",
+   "name": "Coulomb's law and electric forces",
+   "covers": [
+    "Electric permittivity",
+    "Electric forces and free-body diagrams",
+    "Gravitational and electromagnetic forces"
+   ]
+  },
+  {
+   "id": "p10-field",
+   "name": "Electric fields and flux",
+   "covers": [
+    "Electric charges and fields",
+    "Electric flux"
+   ]
+  },
+  {
+   "id": "p10-energy",
+   "name": "Electric potential and energy",
+   "covers": [
+    "Conservation of electric energy"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Electric force, field, and potential: review guide",
+  "intro": "Charge is the source of electric forces. This unit covers how objects become charged, how charges push and pull on each other, how the electric field describes that influence through space, and how energy is stored and converted when charges move.",
+  "equationNote": "Constants used in this unit: k = 1/(4πε₀) = 9.0 × 10⁹ N·m²/C², ε₀ = 8.85 × 10⁻¹² C²/(N·m²), and e = 1.6 × 10⁻¹⁹ C. Prefixes: μ = 10⁻⁶ and n = 10⁻⁹.",
+  "sections": [
+   {
+    "id": "s-p10-charge",
+    "topicId": "p10-charge",
+    "title": "Charge and charging",
+    "body": [
+     "Charge comes in two kinds, positive and negative, in whole-number multiples of e. It is conserved: charging an object moves electrons from one place to another and never creates or destroys charge.",
+     "Objects are charged by friction (rubbing transfers electrons), conduction (touching a charged object shares its charge), or induction (a nearby charge separates the charges in a conductor; grounding then lets charge flow, leaving the conductor with the opposite sign)."
+    ],
+    "points": [
+     "An object with extra electrons is negative; one missing electrons is positive. Protons do not move in ordinary charging.",
+     "Conductors let charge move freely; insulators do not, though their molecules can polarize.",
+     "A charged object attracts a neutral one by polarizing it."
+    ]
+   },
+   {
+    "id": "s-p10-force",
+    "topicId": "p10-force",
+    "title": "Coulomb's law and electric forces",
+    "body": [
+     "Two point charges exert equal and opposite forces on each other: F = k|q₁q₂|/r². Like charges repel and unlike charges attract. Electric forces go on free-body diagrams like any other force.",
+     "Electric and gravitational forces both follow inverse-square laws, but between charged particles the electric force is vastly stronger. Gravity dominates for large objects only because they are almost exactly neutral."
+    ],
+    "points": [
+     "Doubling the distance quarters the force.",
+     "In a material with dielectric constant κ (relative permittivity), the force between the same charges at the same distance is smaller by a factor of κ.",
+     "Forces from several charges add as vectors."
+    ],
+    "equations": [
+     [
+      "F = k|q₁q₂|/r²",
+      "Coulomb's law"
+     ],
+     [
+      "F_g = Gm₁m₂/r²",
+      "Newton's law of gravitation, for comparison"
+     ]
+    ]
+   },
+   {
+    "id": "s-p10-field",
+    "topicId": "p10-field",
+    "title": "Electric fields and flux",
+    "body": [
+     "The electric field at a point is the force per unit positive charge placed there: E = F/q. A positive charge feels a force along the field and a negative charge feels a force opposite to it. A point charge's field has magnitude E = k|q|/r², pointing away from a positive charge and toward a negative one.",
+     "Electric flux measures how much field passes through a surface: Φ = EA cos θ, where θ is the angle between the field and the line perpendicular to the surface. Gauss's law relates the flux through a closed surface to the charge inside it: Φ = q_enclosed/ε₀."
+    ],
+    "points": [
+     "Field lines start on positive charges and end on negative ones; closer lines mean a stronger field.",
+     "Between two large parallel plates the field is nearly uniform: E = ΔV/d.",
+     "Flux is largest when the surface faces the field directly (θ = 0) and zero when the field runs along the surface."
+    ],
+    "equations": [
+     [
+      "E = F/q",
+      "definition of electric field"
+     ],
+     [
+      "E = k|q|/r²",
+      "field of a point charge"
+     ],
+     [
+      "Φ = EA cos θ",
+      "flux through a flat surface"
+     ]
+    ]
+   },
+   {
+    "id": "s-p10-energy",
+    "topicId": "p10-energy",
+    "title": "Electric potential and energy",
+    "body": [
+     "Electric potential V is electric potential energy per unit charge. When a charge q moves through a potential difference ΔV, its potential energy changes by ΔU = qΔV; if no other force does work, its kinetic energy changes by the opposite amount.",
+     "Two point charges have potential energy U = kq₁q₂/r: positive for like charges and negative for unlike charges. Energy is conserved, so K + U stays constant when only electric forces do work."
+    ],
+    "points": [
+     "1 electron-volt (eV) = 1.6 × 10⁻¹⁹ J, the energy one elementary charge gains moving through 1 V.",
+     "Released from rest, positive charges move toward lower potential and negative charges toward higher potential.",
+     "Equipotential lines are perpendicular to field lines; moving a charge along one takes no work."
+    ],
+    "equations": [
+     [
+      "ΔU = qΔV",
+      "change in electric potential energy"
+     ],
+     [
+      "U = kq₁q₂/r",
+      "potential energy of two point charges"
+     ],
+     [
+      "V = kq/r",
+      "potential of a point charge"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Charges of +2.0 μC and +8.0 μC are 0.40 m apart. Where between them is the electric field zero?",
+   "solution": "Let x be the distance from the +2.0 μC charge. Between the charges their fields point in opposite directions, so set k(2.0 μC)/x² = k(8.0 μC)/(0.40 − x)². Then (0.40 − x)² = 4x², so 0.40 − x = 2x and x = 0.40/3 ≈ 0.13 m from the +2.0 μC charge."
+  },
+  "misconceptions": [
+   [
+    "“Charging creates charge.”",
+    "Charging moves existing electrons; total charge is conserved."
+   ],
+   [
+    "“The bigger charge feels the bigger force.”",
+    "By Newton's third law, the two forces are equal in size and opposite in direction."
+   ],
+   [
+    "“A negative charge is pushed along the field.”",
+    "The force on a negative charge points opposite to the field."
+   ],
+   [
+    "“Electric potential and potential energy are the same.”",
+    "Potential is energy per unit charge: U = qV."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 2 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+  "sourceTitle": "AP Physics 2: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "ph2u10-q01",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-charge",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A neutral metal sphere loses 5.0 × 10¹⁰ electrons. What is its charge? (e = 1.6 × 10⁻¹⁹ C)",
+   "choices": [
+    "+8.0 × 10⁻⁹ C",
+    "−8.0 × 10⁻⁹ C",
+    "+3.1 × 10²⁹ C",
+    "+5.0 × 10¹⁰ C"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Losing electrons leaves the sphere positive: q = Ne = (5.0 × 10¹⁰)(1.6 × 10⁻¹⁹ C) = +8.0 × 10⁻⁹ C.",
+   "choiceExplanations": [
+    "",
+    "Losing negative electrons makes the sphere positive, not negative.",
+    "3.1 × 10²⁹ divides the number of electrons by e instead of multiplying.",
+    "5.0 × 10¹⁰ is the number of electrons, not the charge in coulombs; multiply by e."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u10-q02",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-charge",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A negatively charged rod is held near, but not touching, a neutral metal sphere. The sphere is briefly connected to ground, the ground connection is removed, and then the rod is taken away. What is the sphere's final charge?",
+   "choices": [
+    "Positive",
+    "Negative",
+    "Zero",
+    "It depends on how long the ground was connected"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The rod repels electrons in the sphere toward the far side. Grounding lets some of those electrons escape. With the ground removed first, they cannot return, so the sphere is left positive: charging by induction gives the opposite sign to the rod.",
+   "choiceExplanations": [
+    "",
+    "A negative charge would need electrons to move onto the sphere, as in charging by touching. Here electrons were pushed off it.",
+    "Electrons left through the ground connection and could not come back, so the sphere is no longer neutral.",
+    "Charge moves through the ground connection almost instantly; even a brief connection leaves the sphere positive."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u10-q03",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-charge",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Rubbing a balloon on your hair moves electrons from your hair to the balloon. Which statement is true afterward?",
+   "choices": [
+    "The balloon is negative and your hair is positive, by equal amounts",
+    "The balloon and your hair are both negative",
+    "The rubbing created new negative charge on the balloon",
+    "Protons moved from the balloon to your hair"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Charge is conserved. The electrons the balloon gained are exactly the electrons your hair lost, so the balloon's negative charge equals your hair's positive charge.",
+   "choiceExplanations": [
+    "",
+    "Your hair lost electrons, so it is positive, not negative.",
+    "Charge is never created; it was only moved from your hair to the balloon.",
+    "In ordinary charging, electrons move; protons stay bound in the nuclei."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u10-q04",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-force",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The distance between two point charges is doubled. What happens to the electric force between them?",
+   "choices": [
+    "It becomes one quarter as large",
+    "It becomes half as large",
+    "It doubles",
+    "It stays the same"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Coulomb's law is an inverse-square law: F ∝ 1/r². Doubling r divides the force by 2² = 4.",
+   "choiceExplanations": [
+    "",
+    "Half would be true for a force ∝ 1/r; the electric force goes as 1/r².",
+    "The force gets weaker with distance, not stronger.",
+    "The force depends on the distance between the charges, so it changes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u10-q05",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-force",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A +2.0 μC charge and a −3.0 μC charge are 0.30 m apart. What is the electric force between them? (k = 9.0 × 10⁹ N·m²/C²)",
+   "choices": [
+    "0.60 N, attractive",
+    "0.60 N, repulsive",
+    "0.18 N, attractive",
+    "0.054 N, attractive"
+   ],
+   "correctAnswer": 0,
+   "explanation": "F = k|q₁q₂|/r² = (9.0 × 10⁹)(2.0 × 10⁻⁶)(3.0 × 10⁻⁶)/(0.30)² = 0.054/0.090 = 0.60 N. Opposite charges attract.",
+   "choiceExplanations": [
+    "",
+    "A positive and a negative charge attract each other; repulsion is for like charges.",
+    "0.18 N divides by r instead of r².",
+    "0.054 N leaves out the division by r²."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u10-q06",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-force",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Compare the electric force and the gravitational force between a proton and an electron. (k = 9.0 × 10⁹ N·m²/C², G = 6.67 × 10⁻¹¹ N·m²/kg², e = 1.6 × 10⁻¹⁹ C, proton mass 1.67 × 10⁻²⁷ kg, electron mass 9.11 × 10⁻³¹ kg)",
+   "choices": [
+    "The electric force is about 2 × 10³⁹ times larger, at any separation",
+    "The electric force is about 2 × 10³⁹ times larger, but the ratio depends on the separation",
+    "They are about equal, because both are inverse-square forces",
+    "The gravitational force is about 2 × 10³⁹ times larger"
+   ],
+   "correctAnswer": 0,
+   "explanation": "F_e/F_g = ke²/(Gm_p m_e) = (9.0 × 10⁹)(1.6 × 10⁻¹⁹)² / ((6.67 × 10⁻¹¹)(1.67 × 10⁻²⁷)(9.11 × 10⁻³¹)) ≈ 2.3 × 10³⁹. Both forces go as 1/r², so the r² cancels and the ratio is the same at every separation.",
+   "choiceExplanations": [
+    "",
+    "Both forces are proportional to 1/r², so the separation cancels out of the ratio.",
+    "Having the same form does not make them equal; the constants and the charges and masses involved are very different.",
+    "This reverses the ratio: for charged particles the electric force is by far the stronger."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u10-q07",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-force",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Two small charged spheres are moved from a vacuum into oil with a dielectric constant (relative permittivity) of 4, keeping the same distance between them. What happens to the electric force between them?",
+   "choices": [
+    "It becomes one quarter as large",
+    "It becomes four times as large",
+    "It stays the same",
+    "It becomes half as large"
+   ],
+   "correctAnswer": 0,
+   "explanation": "In a material with dielectric constant κ, the force is F = |q₁q₂|/(4πκε₀r²), so it is κ = 4 times smaller than in a vacuum.",
+   "choiceExplanations": [
+    "",
+    "A material between the charges weakens the force; it does not strengthen it.",
+    "The material between the charges changes the force even though the charges and the distance do not change.",
+    "The force scales as 1/κ, so κ = 4 reduces it to one quarter, not one half."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u10-q08",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-field",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "At a point, the electric field is 500 N/C east. What force acts on a −2.0 μC charge placed there?",
+   "choices": [
+    "1.0 × 10⁻³ N west",
+    "1.0 × 10⁻³ N east",
+    "2.5 × 10⁸ N west",
+    "1000 N west"
+   ],
+   "correctAnswer": 0,
+   "explanation": "F = qE = (2.0 × 10⁻⁶ C)(500 N/C) = 1.0 × 10⁻³ N. The charge is negative, so the force points opposite to the field: west.",
+   "choiceExplanations": [
+    "",
+    "The force on a negative charge points opposite to the field, so it is west, not east.",
+    "2.5 × 10⁸ divides E by q instead of multiplying.",
+    "1000 N ignores the micro prefix: 2.0 μC is 2.0 × 10⁻⁶ C."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u10-q09",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-field",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the electric field 0.20 m from a +4.0 nC point charge? (k = 9.0 × 10⁹ N·m²/C²)",
+   "choices": [
+    "900 N/C, pointing away from the charge",
+    "900 N/C, pointing toward the charge",
+    "180 N/C, pointing away from the charge",
+    "36 N/C, pointing away from the charge"
+   ],
+   "correctAnswer": 0,
+   "explanation": "E = kq/r² = (9.0 × 10⁹)(4.0 × 10⁻⁹)/(0.20)² = 36/0.040 = 900 N/C. A positive charge's field points away from it.",
+   "choiceExplanations": [
+    "",
+    "The field of a positive charge points away from it; it points toward a negative charge.",
+    "180 N/C divides by r instead of r².",
+    "36 N/C leaves out the division by r²."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u10-q10",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-field",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A uniform electric field of 200 N/C passes through a flat surface of area 0.50 m². The field makes a 60° angle with the line perpendicular to the surface. What is the electric flux through the surface?",
+   "choices": [
+    "50 N·m²/C",
+    "100 N·m²/C",
+    "87 N·m²/C",
+    "400 N·m²/C"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Φ = EA cos θ = (200)(0.50)(cos 60°) = 100 × 0.5 = 50 N·m²/C.",
+   "choiceExplanations": [
+    "",
+    "100 N·m²/C would be the flux if the field met the surface head-on; the angle reduces it.",
+    "87 N·m²/C uses sin 60°; the angle is measured from the perpendicular, so the formula uses cosine.",
+    "400 N·m²/C divides E by A; flux multiplies them."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u10-q11",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-energy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A proton starts from rest and is accelerated through a potential difference of 500 V. What kinetic energy does it gain? (e = 1.6 × 10⁻¹⁹ C)",
+   "choices": [
+    "8.0 × 10⁻¹⁷ J",
+    "−8.0 × 10⁻¹⁷ J",
+    "500 J",
+    "1.6 × 10⁻¹⁹ J"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The energy gained is qΔV = (1.6 × 10⁻¹⁹ C)(500 V) = 8.0 × 10⁻¹⁷ J, which is 500 eV.",
+   "choiceExplanations": [
+    "",
+    "−8.0 × 10⁻¹⁷ J is the change in electric potential energy; the kinetic energy gained is positive.",
+    "500 J treats the proton's charge as 1 C.",
+    "1.6 × 10⁻¹⁹ J is the energy gained through only 1 V."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u10-q12",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-energy",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Two +3.0 μC point charges are 0.10 m apart. How much work must be done to push them closer, to 0.050 m apart? (k = 9.0 × 10⁹ N·m²/C²)",
+   "choices": [
+    "0.81 J",
+    "−0.81 J",
+    "1.6 J",
+    "24 J"
+   ],
+   "correctAnswer": 0,
+   "explanation": "W = ΔU = kq²(1/r_f − 1/r_i) = (9.0 × 10⁹)(3.0 × 10⁻⁶)²(1/0.050 − 1/0.10) = 0.081 × (20 − 10) = 0.81 J.",
+   "choiceExplanations": [
+    "",
+    "Like charges repel, so it takes positive work to push them closer; the potential energy goes up.",
+    "1.6 J is the potential energy at the final separation; the work equals the change from 0.10 m to 0.050 m.",
+    "24 J uses 1/r², the form for force; potential energy goes as 1/r."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ph2u10-q01",
+    "ph2u10-q02",
+    "ph2u10-q04",
+    "ph2u10-q06",
+    "ph2u10-q08",
+    "ph2u10-q09",
+    "ph2u10-q11",
+    "ph2u10-q12"
+   ]
+  }
+ ]
+}

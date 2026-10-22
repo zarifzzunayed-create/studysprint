@@ -1,0 +1,451 @@
+{
+ "courseId": "ap-precalculus",
+ "unitId": "u1",
+ "title": "Unit 1: Polynomial and Rational Functions",
+ "topics": [
+  {
+   "id": "pc1-change",
+   "name": "Rates of change",
+   "covers": [
+    "Describing how quantities change with respect to each other"
+   ]
+  },
+  {
+   "id": "pc1-poly",
+   "name": "Polynomial and rational behavior: zeros, end behavior, asymptotes, holes",
+   "covers": [
+    "Describing end behavior of polynomial and rational functions",
+    "Identifying asymptotes of and holes in the graphs of rational functions"
+   ]
+  },
+  {
+   "id": "pc1-model",
+   "name": "Modeling with polynomial and rational functions",
+   "covers": [
+    "Modeling aspects of scenarios using polynomial and rational functions",
+    "Identifying assumptions and limitations of function models"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Polynomial and rational functions: review guide",
+  "intro": "This unit is about how outputs change as inputs change, and about two function families: polynomials and rational functions. You read rates of change from tables and graphs, predict a graph's shape from its formula, and judge when a model makes sense.",
+  "sections": [
+   {
+    "id": "s-pc1-change",
+    "topicId": "pc1-change",
+    "title": "Rates of change",
+    "body": [
+     "The average rate of change of f on [a, b] is (f(b) − f(a)) / (b − a): the slope of the line through the two points. A positive rate means the function increased over the interval; a negative rate means it decreased.",
+     "When the average rates over consecutive equal intervals are increasing, the graph is concave up. When they are decreasing, it is concave down."
+    ],
+    "points": [
+     "Linear functions have a constant rate of change: constant first differences in a table with equal input steps.",
+     "Quadratic functions have rates of change that change at a constant rate: constant second differences.",
+     "Where the rate of change switches sign, the function has a relative maximum or minimum. Where the concavity changes, it has a point of inflection."
+    ],
+    "equations": [
+     [
+      "AROC = (f(b) − f(a)) / (b − a)",
+      "average rate of change of f on [a, b]"
+     ]
+    ]
+   },
+   {
+    "id": "s-pc1-poly",
+    "topicId": "pc1-poly",
+    "title": "Zeros, end behavior, asymptotes, and holes",
+    "body": [
+     "A polynomial's end behavior comes from its leading term axⁿ. Even degree means both ends go the same way; odd degree means they go opposite ways. The sign of a decides which way.",
+     "A rational function r(x) = p(x)/q(x) is undefined where q(x) = 0. Factor first: a factor that cancels completely leaves a hole, and a factor left in the denominator gives a vertical asymptote."
+    ],
+    "points": [
+     "A degree-n polynomial has exactly n complex zeros counted with multiplicity, at most n real zeros, and at most n − 1 turning points.",
+     "At a real zero of even multiplicity the graph touches the x-axis and turns around. At odd multiplicity it crosses.",
+     "When the coefficients are real, nonreal zeros come in conjugate pairs a ± bi.",
+     "Rational end behavior: if the numerator has lower degree, y = 0 is the horizontal asymptote; if the degrees are equal, y = (ratio of leading coefficients); if the numerator's degree is one higher, there is a slant asymptote, found by polynomial division.",
+     "A hole appears at x = c when (x − c) has at least as high a multiplicity in the numerator as in the denominator."
+    ]
+   },
+   {
+    "id": "s-pc1-model",
+    "topicId": "pc1-model",
+    "title": "Building and judging models",
+    "body": [
+     "Choose a model from the data or the situation. Constant first differences suggest linear, constant second differences suggest quadratic, and a quantity that levels off toward a value suggests a rational function with a horizontal asymptote.",
+     "Every model has a domain that makes sense in context (a length cannot be negative, a time starts at 0) and assumptions (for example, no air resistance). Predictions outside that domain are not reliable."
+    ],
+    "points": [
+     "Transformations: g(x) = a·f(b(x − h)) + k stretches vertically by a factor of |a|, horizontally by a factor of 1/|b|, and shifts the graph h right and k up.",
+     "State the domain restriction and the units with any answer from a model.",
+     "Piecewise functions model situations whose rule changes partway, such as a rate that changes after a limit is reached."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Find the holes, vertical asymptotes, and horizontal asymptote of r(x) = (x² − 9)/(x² + x − 6).",
+   "solution": "Factor: r(x) = (x − 3)(x + 3) / ((x + 3)(x − 2)). The factor x + 3 cancels completely, so there is a hole at x = −3; its y-value is (−3 − 3)/(−3 − 2) = 6/5. The factor x − 2 stays in the denominator, so x = 2 is a vertical asymptote. The degrees are equal and both leading coefficients are 1, so y = 1 is the horizontal asymptote."
+  },
+  "misconceptions": [
+   [
+    "“Every zero of the denominator is a vertical asymptote.”",
+    "If the factor cancels completely with the numerator, the graph has a hole there instead."
+   ],
+   [
+    "“A graph can never cross its horizontal asymptote.”",
+    "A horizontal asymptote describes end behavior only; the graph may cross it at moderate x-values."
+   ],
+   [
+    "“The average rate of change is the average of the two outputs.”",
+    "It is the change in output divided by the change in input."
+   ],
+   [
+    "“A model that fits the data works for every input.”",
+    "Use it only on the domain that makes sense in context, and say what it assumes."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Precalculus Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+  "sourceTitle": "AP Precalculus – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-21"
+ },
+ "questions": [
+  {
+   "id": "pc-u1-q01",
+   "courseId": "ap-precalculus",
+   "unitId": "u1",
+   "topicId": "pc1-change",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "For f(x) = x² + 1, what is the average rate of change of f on the interval [1, 3]?",
+   "choices": [
+    "4",
+    "8",
+    "5",
+    "1/4"
+   ],
+   "correctAnswer": 0,
+   "explanation": "(f(3) − f(1)) / (3 − 1) = (10 − 2) / 2 = 4.",
+   "choiceExplanations": [
+    "",
+    "8 is the change in f, 10 − 2, but it was not divided by the change in x, 3 − 1 = 2.",
+    "5 comes from f(3)/(3 − 1) = 10/2; the starting value f(1) must be subtracted first.",
+    "1/4 is (3 − 1)/(10 − 2), the change in x over the change in f: the ratio is upside down."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u1-q02",
+   "courseId": "ap-precalculus",
+   "unitId": "u1",
+   "topicId": "pc1-change",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A table gives g(0) = 3, g(1) = 5, g(2) = 9, g(3) = 15, and g(4) = 23. Which type of function of lowest degree fits these values exactly?",
+   "choices": [
+    "Linear",
+    "Quadratic",
+    "Exponential",
+    "Cubic"
+   ],
+   "correctAnswer": 1,
+   "explanation": "First differences are 2, 4, 6, 8, and the second differences are all 2. Constant second differences with equal input steps mean a quadratic fits exactly: g(x) = x² + x + 3.",
+   "choiceExplanations": [
+    "A linear function needs constant first differences, but these are 2, 4, 6, 8.",
+    "",
+    "An exponential function needs a constant ratio between consecutive outputs, but 5/3 and 9/5 are not equal.",
+    "A cubic needs nonzero constant third differences. Here the third differences are 0, so a quadratic, which has lower degree, already fits exactly."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u1-q03",
+   "courseId": "ap-precalculus",
+   "unitId": "u1",
+   "topicId": "pc1-change",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Over consecutive input intervals of equal length, a function's average rates of change are 6, 4, 3, and 1. Which describes the function over this whole span?",
+   "choices": [
+    "Increasing and concave up",
+    "Increasing and concave down",
+    "Decreasing and concave down",
+    "Decreasing and concave up"
+   ],
+   "correctAnswer": 1,
+   "explanation": "All the rates are positive, so the function is increasing. The rates are getting smaller, so the graph bends downward: concave down.",
+   "choiceExplanations": [
+    "Concave up would need the rates to be getting larger, not smaller.",
+    "",
+    "Positive rates of change mean the function is increasing, not decreasing.",
+    "Positive rates mean increasing, and shrinking rates mean concave down, not up."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u1-q04",
+   "courseId": "ap-precalculus",
+   "unitId": "u1",
+   "topicId": "pc1-poly",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the end behavior of p(x) = −2x⁵ + 7x² − 1?",
+   "choices": [
+    "As x → ∞, p(x) → −∞; as x → −∞, p(x) → ∞",
+    "As x → ∞, p(x) → ∞; as x → −∞, p(x) → −∞",
+    "As x → ∞ and as x → −∞, p(x) → −∞",
+    "As x → ∞ and as x → −∞, p(x) → ∞"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The leading term −2x⁵ controls the end behavior. Odd degree means the ends go in opposite directions, and the negative coefficient means the graph falls to the right and rises to the left.",
+   "choiceExplanations": [
+    "",
+    "This is the end behavior for a positive leading coefficient, such as 2x⁵.",
+    "Both ends going the same way happens with even degree; the degree here is 5.",
+    "Both ends rising happens with even degree and a positive leading coefficient; this polynomial has odd degree and a negative leading coefficient."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u1-q05",
+   "courseId": "ap-precalculus",
+   "unitId": "u1",
+   "topicId": "pc1-poly",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For p(x) = (x − 1)²(x + 3), what happens to the graph at its x-intercepts?",
+   "choices": [
+    "It crosses the x-axis at x = 1 and touches it at x = −3",
+    "It touches the x-axis at x = 1 and crosses it at x = −3",
+    "It crosses the x-axis at both x = 1 and x = −3",
+    "It touches the x-axis at both x = 1 and x = −3"
+   ],
+   "correctAnswer": 1,
+   "explanation": "x = 1 is a zero of multiplicity 2 (even), so p does not change sign there: the graph touches the axis and turns. x = −3 has multiplicity 1 (odd), so p changes sign: the graph crosses.",
+   "choiceExplanations": [
+    "This reverses the multiplicities: x − 1 is squared and x + 3 is not.",
+    "",
+    "At x = 1 the factor is squared, so p does not change sign there and the graph cannot cross.",
+    "At x = −3 the factor appears once, so p changes sign and the graph crosses."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u1-q06",
+   "courseId": "ap-precalculus",
+   "unitId": "u1",
+   "topicId": "pc1-poly",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which describes the graph of r(x) = (x² − 4)/(x² − x − 2)?",
+   "choices": [
+    "Vertical asymptotes at x = 2 and x = −1",
+    "A hole at x = 2 and a vertical asymptote at x = −1",
+    "A hole at x = −1 and a vertical asymptote at x = 2",
+    "A vertical asymptote at x = −1 and no hole"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Factor: r(x) = (x − 2)(x + 2) / ((x − 2)(x + 1)). The factor x − 2 cancels completely, leaving a hole at x = 2 (at y = 4/3). The factor x + 1 stays in the denominator, so x = −1 is a vertical asymptote.",
+   "choiceExplanations": [
+    "x = 2 makes the denominator zero, but the same factor cancels with the numerator, so it is a hole, not an asymptote.",
+    "",
+    "The roles are reversed: x − 2 cancels (a hole) and x + 1 stays in the denominator (an asymptote).",
+    "r is still undefined at x = 2 after the factor cancels, so the graph has a hole there."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u1-q07",
+   "courseId": "ap-precalculus",
+   "unitId": "u1",
+   "topicId": "pc1-poly",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is the slant asymptote of the graph of r(x) = (2x² + 3x − 1)/(x − 1)?",
+   "choices": [
+    "y = 2x + 5",
+    "y = 2x",
+    "y = 2",
+    "y = 2x + 3"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Divide: 2x² + 3x − 1 = (x − 1)(2x + 5) + 4, so r(x) = 2x + 5 + 4/(x − 1). As x → ±∞, 4/(x − 1) → 0, so the graph approaches y = 2x + 5.",
+   "choiceExplanations": [
+    "",
+    "2x is only the ratio of the leading terms; the division also produces the constant 5, which shifts the asymptote up.",
+    "A horizontal asymptote needs the numerator's degree to be at most the denominator's. Here it is one higher, so the asymptote is slanted.",
+    "2x + 3 copies the numerator's coefficients without dividing; the quotient of the division is 2x + 5."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u1-q08",
+   "courseId": "ap-precalculus",
+   "unitId": "u1",
+   "topicId": "pc1-poly",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A polynomial with real coefficients has a zero at x = 1 of multiplicity 2 and a zero at x = 2 − i. What is the least possible degree of the polynomial?",
+   "choices": [
+    "4",
+    "3",
+    "2",
+    "5"
+   ],
+   "correctAnswer": 0,
+   "explanation": "With real coefficients, nonreal zeros come in conjugate pairs, so 2 + i is also a zero. Counting multiplicity, the zeros include 1, 1, 2 − i, and 2 + i, so the degree is at least 4.",
+   "choiceExplanations": [
+    "",
+    "3 counts the double zero but leaves out the conjugate zero 2 + i.",
+    "2 counts each listed zero once, ignoring both the multiplicity of x = 1 and the conjugate 2 + i.",
+    "5 would add a conjugate for the real zero 1, but a real number is its own conjugate."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u1-q09",
+   "courseId": "ap-precalculus",
+   "unitId": "u1",
+   "topicId": "pc1-model",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Squares of side x cm are cut from the corners of a 20 cm by 20 cm sheet, and the sides are folded up to make an open box with volume V(x) = x(20 − 2x)². Which domain makes sense for this model?",
+   "choices": [
+    "0 < x < 10",
+    "0 < x < 20",
+    "x > 0",
+    "All real numbers"
+   ],
+   "correctAnswer": 0,
+   "explanation": "x is a length, so x > 0, and a square is cut from both ends of each 20 cm side, so 2x < 20, that is, x < 10. At x = 0 or x = 10 the box has no volume.",
+   "choiceExplanations": [
+    "",
+    "Cutting x from both ends of a 20 cm side needs 2x < 20, so x cannot reach 20.",
+    "x > 0 ignores that the cuts cannot use up the whole side; for x ≥ 10 nothing is left to fold.",
+    "Negative or very large lengths have no meaning here, even though the formula accepts them."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u1-q10",
+   "courseId": "ap-precalculus",
+   "unitId": "u1",
+   "topicId": "pc1-model",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The average cost per item for producing n items is C(n) = (500 + 2n)/n dollars. What does the horizontal asymptote y = 2 mean in this context?",
+   "choices": [
+    "As production grows, the average cost per item approaches $2",
+    "The fixed cost is $2",
+    "Producing 2 items gives the lowest average cost",
+    "For very large n, the average cost per item drops below $2"
+   ],
+   "correctAnswer": 0,
+   "explanation": "C(n) = 500/n + 2. As n grows, the $500 fixed cost is spread over more items, so 500/n → 0 and the average cost approaches $2 per item from above.",
+   "choiceExplanations": [
+    "",
+    "$500 is the fixed cost; $2 is the added cost of each item.",
+    "A small n gives a large average cost because the fixed cost is shared by few items: C(2) = $252.",
+    "500/n is always positive, so C(n) stays above 2. It approaches 2 but never reaches or passes it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u1-q11",
+   "courseId": "ap-precalculus",
+   "unitId": "u1",
+   "topicId": "pc1-model",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A ball's height in meters is modeled by h(t) = −4.9t² + 20t + 2, where t is the number of seconds after it is thrown. Over what interval of t is this model reasonable?",
+   "choices": [
+    "0 ≤ t ≤ 4.18",
+    "0 ≤ t ≤ 2.04",
+    "0 ≤ t ≤ 4.08",
+    "t ≥ 0"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The model applies from the throw until the ball lands, when h(t) = 0. Solving −4.9t² + 20t + 2 = 0 gives t = (20 + √439.2)/9.8 ≈ 4.18 s; the other solution is negative. After that the model predicts negative heights.",
+   "choiceExplanations": [
+    "",
+    "2.04 s (t = 20/9.8) is when the ball reaches its highest point, not when it lands.",
+    "4.08 s solves −4.9t² + 20t = 0, which ignores the 2 m starting height.",
+    "For t > 4.18 the model gives negative heights, which cannot happen; the ball has already landed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "pc-u1-q01",
+    "pc-u1-q02",
+    "pc-u1-q03",
+    "pc-u1-q04",
+    "pc-u1-q05",
+    "pc-u1-q07",
+    "pc-u1-q09",
+    "pc-u1-q11"
+   ]
+  }
+ ]
+}

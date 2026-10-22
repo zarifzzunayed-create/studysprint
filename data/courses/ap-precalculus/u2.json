@@ -1,0 +1,471 @@
+{
+ "courseId": "ap-precalculus",
+ "unitId": "u2",
+ "title": "Unit 2: Exponential and Logarithmic Functions",
+ "topics": [
+  {
+   "id": "pc2-seq",
+   "name": "Arithmetic and geometric sequences",
+   "covers": [
+    "Relating geometric sequences and exponential functions"
+   ]
+  },
+  {
+   "id": "pc2-model",
+   "name": "Exponential models and residuals",
+   "covers": [
+    "Modeling data sets with exponential functions",
+    "Validating a function model using a residual plot"
+   ]
+  },
+  {
+   "id": "pc2-log",
+   "name": "Composition, inverses, and logarithms",
+   "covers": [
+    "Composing functions and finding inverses",
+    "Modeling scenarios with logarithmic functions"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Exponential and logarithmic functions: review guide",
+  "intro": "Exponential functions describe quantities that change by a constant factor; they are the continuous version of geometric sequences. Logarithms undo them. This unit builds both, combines functions through composition and inverses, and checks models with residuals.",
+  "sections": [
+   {
+    "id": "s-pc2-seq",
+    "topicId": "pc2-seq",
+    "title": "Arithmetic and geometric sequences",
+    "body": [
+     "An arithmetic sequence adds the same common difference d at each step: aₙ = a₀ + dn. A geometric sequence multiplies by the same common ratio r at each step: aₙ = a₀rⁿ.",
+     "Arithmetic sequences behave like linear functions, and geometric sequences behave like exponential functions f(x) = a·bˣ. Over equal input steps, linear functions have equal differences and exponential functions have equal ratios."
+    ],
+    "points": [
+     "If the first term is called a₁, the nth term is a₁ + d(n − 1) or a₁·rⁿ⁻¹.",
+     "To find b from two outputs k steps apart, take the kth root of their ratio: b = (f(x + k)/f(x))^(1/k).",
+     "b > 1 means growth; 0 < b < 1 means decay."
+    ]
+   },
+   {
+    "id": "s-pc2-model",
+    "topicId": "pc2-model",
+    "title": "Exponential models and residuals",
+    "body": [
+     "A quantity that grows by p% per period is modeled by A(t) = A₀(1 + p/100)ᵗ, and one that shrinks by p% uses (1 − p/100)ᵗ. With a half-life h, A(t) = A₀(1/2)^(t/h).",
+     "A residual is actual value − predicted value. A residual plot with no pattern suggests the model is appropriate; a curved pattern means the model misses part of the trend."
+    ],
+    "points": [
+     "If ln y is linear in x with slope m and intercept c, then y = e^c·(e^m)ˣ: an exponential model.",
+     "A positive residual means the model predicted too low; a negative residual means it predicted too high.",
+     "Continuous growth uses base e ≈ 2.718: A(t) = A₀e^(kt)."
+    ]
+   },
+   {
+    "id": "s-pc2-log",
+    "topicId": "pc2-log",
+    "title": "Composition, inverses, and logarithms",
+    "body": [
+     "(f ∘ g)(x) = f(g(x)): apply g first, then f. An inverse function undoes f: if f(a) = b, then f⁻¹(b) = a. To find it, swap x and y and solve for y.",
+     "log_b x is the exponent you put on b to get x, so y = log_b x and bʸ = x say the same thing. Logarithmic functions are the inverses of exponential functions."
+    ],
+    "points": [
+     "log_b(xy) = log_b x + log_b y; log_b(x/y) = log_b x − log_b y; log_b(xⁿ) = n·log_b x.",
+     "Change of base: log_b x = ln x / ln b. Use it to solve bˣ = c: x = ln c / ln b.",
+     "Logarithmic scales such as decibels and pH turn multiplying a quantity by 10 into adding a constant."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A town of 12,000 people grows by 3% per year. After how many years does it reach 18,000?",
+   "solution": "12,000(1.03)ᵗ = 18,000, so 1.03ᵗ = 1.5 and t = ln 1.5 / ln 1.03 ≈ 13.7 years."
+  },
+  "misconceptions": [
+   [
+    "“(f ∘ g)(x) means f(x) · g(x).”",
+    "Composition puts one function inside the other; it is not multiplication."
+   ],
+   [
+    "“f⁻¹(x) means 1/f(x).”",
+    "The inverse undoes the function; the reciprocal is something else."
+   ],
+   [
+    "“log(x + y) = log x + log y.”",
+    "The product rule is log(xy) = log x + log y. There is no rule for the log of a sum."
+   ],
+   [
+    "“Growing by 5% means multiplying by 0.05.”",
+    "Growing by 5% means multiplying by 1.05; multiplying by 0.05 keeps only 5%."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Precalculus Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+  "sourceTitle": "AP Precalculus – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-21"
+ },
+ "questions": [
+  {
+   "id": "pc-u2-q01",
+   "courseId": "ap-precalculus",
+   "unitId": "u2",
+   "topicId": "pc2-seq",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the 6th term of the geometric sequence 5, 15, 45, …?",
+   "choices": [
+    "1215",
+    "3645",
+    "405",
+    "20"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The common ratio is 3, so the nth term is 5·3ⁿ⁻¹. The 6th term is 5·3⁵ = 5·243 = 1215.",
+   "choiceExplanations": [
+    "",
+    "3645 = 5·3⁶ uses the exponent n instead of n − 1, which gives the 7th term.",
+    "405 = 5·3⁴ is the 5th term.",
+    "20 treats 3 as an amount added at each step (arithmetic) instead of a factor multiplied at each step."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u2-q02",
+   "courseId": "ap-precalculus",
+   "unitId": "u2",
+   "topicId": "pc2-model",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A park has 200 trees, and the number grows by 8% each year. Which function gives the number of trees after t years?",
+   "choices": [
+    "N(t) = 200(1.08)ᵗ",
+    "N(t) = 200(0.08)ᵗ",
+    "N(t) = 200 + 0.08t",
+    "N(t) = 200(8)ᵗ"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Growing by 8% multiplies the amount by 1 + 0.08 = 1.08 each year, so N(t) = 200(1.08)ᵗ.",
+   "choiceExplanations": [
+    "",
+    "Multiplying by 0.08 each year would keep only 8% of the trees: a steep decay.",
+    "Adding 0.08 per year is linear growth of less than one tree a year, not 8% growth.",
+    "Multiplying by 8 would make the number eight times larger each year, which is 700% growth."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u2-q03",
+   "courseId": "ap-precalculus",
+   "unitId": "u2",
+   "topicId": "pc2-seq",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An exponential function f(x) = a·bˣ has f(0) = 4 and f(2) = 36. What is f(x)?",
+   "choices": [
+    "f(x) = 4·3ˣ",
+    "f(x) = 4·9ˣ",
+    "f(x) = 4·4.5ˣ",
+    "f(x) = 16x + 4"
+   ],
+   "correctAnswer": 0,
+   "explanation": "f(0) = a = 4. Over two steps the output is multiplied by 36/4 = 9, so each step multiplies it by √9 = 3. So f(x) = 4·3ˣ, and indeed f(2) = 4·9 = 36.",
+   "choiceExplanations": [
+    "",
+    "9 is the factor over two steps; the factor for one step is its square root, 3.",
+    "4.5 is half of the two-step factor 9, but repeated multiplication calls for the square root, not half.",
+    "16x + 4 is the line through the two points; it is linear, not exponential."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u2-q04",
+   "courseId": "ap-precalculus",
+   "unitId": "u2",
+   "topicId": "pc2-model",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A substance has a half-life of 6 hours. A sample starts at 80 mg. About how much remains after 15 hours?",
+   "choices": [
+    "14.1 mg",
+    "20.0 mg",
+    "10.0 mg",
+    "60.6 mg"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A(t) = 80(1/2)^(t/6), so A(15) = 80(1/2)^2.5 ≈ 80 × 0.1768 ≈ 14.1 mg.",
+   "choiceExplanations": [
+    "",
+    "20 mg is the amount after 12 hours (2 half-lives); 15 hours is 2.5 half-lives.",
+    "10 mg is the amount after 18 hours (3 half-lives), which is too long.",
+    "60.6 mg uses the exponent 6/15 instead of 15/6."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u2-q05",
+   "courseId": "ap-precalculus",
+   "unitId": "u2",
+   "topicId": "pc2-model",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "An exponential model predicts 52.0 units at x = 3, and the data value there is 49.5 units. What is the residual?",
+   "choices": [
+    "−2.5",
+    "2.5",
+    "0.95",
+    "101.5"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Residual = actual − predicted = 49.5 − 52.0 = −2.5. It is negative because the model predicted too high.",
+   "choiceExplanations": [
+    "",
+    "2.5 is predicted − actual; a residual subtracts the predicted value from the actual value.",
+    "0.95 is the ratio 49.5/52.0; a residual is a difference, not a ratio.",
+    "101.5 adds the two values instead of subtracting them."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u2-q06",
+   "courseId": "ap-precalculus",
+   "unitId": "u2",
+   "topicId": "pc2-model",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A residual plot for an exponential model shows residuals that are positive for small x, negative in the middle, and positive again for large x. What does this suggest?",
+   "choices": [
+    "The model misses a curved pattern, so another function type may fit better",
+    "The model is appropriate because the residuals add up to about zero",
+    "The model is appropriate because some residuals are positive and some are negative",
+    "The data show no relationship between x and y"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A clear pattern in the residuals, here a U shape, means the model is off in a systematic way. An appropriate model leaves residuals scattered with no pattern.",
+   "choiceExplanations": [
+    "",
+    "Residuals can add up to about zero even for a poor model; the pattern matters, not the total.",
+    "Having both signs is not enough: the residuals must be scattered with no pattern.",
+    "A systematic pattern shows a strong relationship that the model fails to capture, not the absence of one."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u2-q07",
+   "courseId": "ap-precalculus",
+   "unitId": "u2",
+   "topicId": "pc2-model",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "For a data set, the points (x, ln y) lie close to the line ln y = 0.2x + 1.5. Which model for y does this suggest?",
+   "choices": [
+    "y ≈ 4.48(1.22)ˣ",
+    "y ≈ 1.5 + 0.2x",
+    "y ≈ 1.5e^(0.2x)",
+    "y ≈ 0.2(1.5)ˣ"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Undo the logarithm: y = e^(0.2x + 1.5) = e^1.5·(e^0.2)ˣ ≈ 4.48(1.22)ˣ.",
+   "choiceExplanations": [
+    "",
+    "This is the line for ln y, not for y; the logarithm still has to be undone.",
+    "The intercept must be exponentiated too: e^1.5 ≈ 4.48, not 1.5.",
+    "This swaps the roles of the slope and the intercept and does not undo the logarithm."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u2-q08",
+   "courseId": "ap-precalculus",
+   "unitId": "u2",
+   "topicId": "pc2-log",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "If f(x) = 3x − 6, what is f⁻¹(x)?",
+   "choices": [
+    "f⁻¹(x) = (x + 6)/3",
+    "f⁻¹(x) = 3x + 6",
+    "f⁻¹(x) = 1/(3x − 6)",
+    "f⁻¹(x) = x/3 − 6"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Write y = 3x − 6, swap x and y to get x = 3y − 6, and solve: y = (x + 6)/3. Check: f((x + 6)/3) = (x + 6) − 6 = x.",
+   "choiceExplanations": [
+    "",
+    "This changes the sign of the 6 but keeps multiplying by 3 instead of dividing.",
+    "1/(3x − 6) is the reciprocal 1/f(x), not the inverse.",
+    "f multiplies by 3 and then subtracts 6, so its inverse adds 6 first and then divides by 3. This divides first."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u2-q09",
+   "courseId": "ap-precalculus",
+   "unitId": "u2",
+   "topicId": "pc2-log",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Let f(x) = x² + 1 and g(x) = 2x − 3. What is (f ∘ g)(2)?",
+   "choices": [
+    "2",
+    "7",
+    "5",
+    "1"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Apply g first: g(2) = 2·2 − 3 = 1. Then f(1) = 1² + 1 = 2.",
+   "choiceExplanations": [
+    "",
+    "7 is (g ∘ f)(2) = g(5): the functions were applied in the wrong order.",
+    "5 is f(2)·g(2) = 5·1; composition is not multiplication.",
+    "1 is g(2), only the first step; f still has to be applied to it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u2-q10",
+   "courseId": "ap-precalculus",
+   "unitId": "u2",
+   "topicId": "pc2-log",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Solve 5ˣ = 40. Which value is closest to x?",
+   "choices": [
+    "2.292",
+    "8",
+    "0.436",
+    "3.689"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Take the natural log of both sides: x·ln 5 = ln 40, so x = ln 40 / ln 5 ≈ 3.689 / 1.609 ≈ 2.292. Check: 5^2.292 ≈ 40.",
+   "choiceExplanations": [
+    "",
+    "8 is 40/5; an exponent is not found by dividing the two numbers.",
+    "0.436 is ln 5 / ln 40, the ratio upside down.",
+    "3.689 is ln 40; it still has to be divided by ln 5."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u2-q11",
+   "courseId": "ap-precalculus",
+   "unitId": "u2",
+   "topicId": "pc2-log",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "If log_b x = 2 and log_b y = 5, what is log_b(x³/y)?",
+   "choices": [
+    "1",
+    "1.2",
+    "11",
+    "−9"
+   ],
+   "correctAnswer": 0,
+   "explanation": "log_b(x³/y) = 3·log_b x − log_b y = 3·2 − 5 = 1.",
+   "choiceExplanations": [
+    "",
+    "1.2 is (3·2)/5; the log of a quotient is a difference of logs, not a quotient.",
+    "11 is 3·2 + 5; dividing by y subtracts its log rather than adding it.",
+    "−9 is 3·(2 − 5), which applies the exponent 3 to y as well; only x is cubed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u2-q12",
+   "courseId": "ap-precalculus",
+   "unitId": "u2",
+   "topicId": "pc2-log",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Sound level in decibels is L = 10·log₁₀(I/I₀), where I is the sound's intensity. If the intensity is multiplied by 100, how does L change?",
+   "choices": [
+    "It increases by 20 dB",
+    "It is multiplied by 100",
+    "It doubles",
+    "It increases by 100 dB"
+   ],
+   "correctAnswer": 0,
+   "explanation": "10·log₁₀(100I/I₀) = 10·(log₁₀ 100 + log₁₀(I/I₀)) = 20 + L. Multiplying the intensity by 100 adds 20 dB.",
+   "choiceExplanations": [
+    "",
+    "A logarithmic scale turns multiplication into addition, so L does not grow by the same factor as I.",
+    "The change is always an added 20 dB, whatever L was; that is not doubling in general.",
+    "The factor 100 goes inside the logarithm: 10·log₁₀ 100 = 20, not 100."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "pc-u2-q01",
+    "pc-u2-q02",
+    "pc-u2-q03",
+    "pc-u2-q04",
+    "pc-u2-q07",
+    "pc-u2-q08",
+    "pc-u2-q09",
+    "pc-u2-q11"
+   ]
+  }
+ ]
+}
