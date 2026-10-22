@@ -49,6 +49,25 @@ const outlineOnly = CAT.priorityOrder.map(id => CAT.courses.find(c => c.id === i
   await T.tab(p, 'Videos');
   const pv = await T.text(p, '#v-videos');
   T.ok(/General collection page/.test(pv) && /Unit-specific video/.test(pv), 'Physics 1 video links now say general collection page vs unit-specific video');
+  // Every practice-ready unit in the built site loads with a guide, a 3-level bank of 8+ questions, and a test of real questions.
+  const readyUnits = await p.evaluate(async () => {
+    const cat = await SS.data.catalog(), out = [];
+    for (const c of cat.courses.filter(x => x.outline)) {
+      const cd = await SS.data.course(c.id);
+      for (const u of cd.units.filter(x => x.status === 'practice-ready')) {
+        const d = await SS.data.unit(c.id, u.id), ids = new Set(d.questions.map(q => q.id)), t = (d.tests || [])[0];
+        out.push({ key: c.id + '/' + u.id, ok: d.guide.sections.length >= 3 && d.questions.length >= 8 && ['introductory', 'standard', 'challenging'].every(l => d.questions.some(q => q.difficulty === l)) &&
+          d.questions.filter(q => q.difficulty === 'introductory').length >= 3 && !!t && t.questionIds.length >= 8 && t.questionIds.every(id => ids.has(id)) });
+      }
+    }
+    return out;
+  });
+  T.ok(readyUnits.length >= 32 && readyUnits.every(u => u.ok), readyUnits.length + ' practice-ready units load with a guide, a 3-level question bank and a valid practice test' + (readyUnits.every(u => u.ok) ? '' : ': ' + readyUnits.filter(u => !u.ok).map(u => u.key).join(', ')));
+  await T.openUnit(p, 'AP Physics 2', 'u15');
+  await p.click('#v-overview button:has-text("Start untimed")');
+  await p.waitForSelector('#v-test form legend');
+  T.ok(/Question 1 of 8/.test(await T.text(p, '.test-status')) && /AP Physics 2: Algebra-Based · Unit 15: Modern Physics/.test(await T.text(p, '#v-test')), 'a new Physics 2 unit test opens with 8 questions');
+  await p.click('#v-test button:has-text("Save and exit")');
   // Framework coverage vs exam coverage: Precalculus Unit 4 is in the framework but not assessed on the AP Exam.
   await p.click('#ctx-change');
   await p.fill('#c-search', 'AP Precalculus'); await p.keyboard.press('Enter');

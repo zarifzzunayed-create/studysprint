@@ -1,0 +1,512 @@
+{
+ "courseId": "ap-physics-2",
+ "unitId": "u12",
+ "title": "Unit 12: Magnetism and Electromagnetism",
+ "topics": [
+  {
+   "id": "p12-field",
+   "name": "Magnetic fields and their sources",
+   "covers": [
+    "Magnetic systems",
+    "Magnetic permeability and magnetic dipole moment",
+    "Vector and scalar fields",
+    "Monopole and dipole fields"
+   ]
+  },
+  {
+   "id": "p12-force",
+   "name": "Magnetic forces on charges and currents",
+   "covers": [
+    "Magnetic fields and forces",
+    "Forces review"
+   ]
+  },
+  {
+   "id": "p12-induct",
+   "name": "Magnetic flux and induction",
+   "covers": [
+    "Magnetic flux"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Magnetism and electromagnetism: review guide",
+  "intro": "Moving charges and magnets create magnetic fields, and magnetic fields push on moving charges and currents. When the magnetic flux through a loop changes, it drives a current, which is how generators work.",
+  "equationNote": "Constants used in this unit: μ₀ = 4π × 10⁻⁷ T·m/A and e = 1.6 × 10⁻¹⁹ C. For the force on a moving positive charge, point your right-hand fingers along v, curl them toward B, and your thumb gives the direction of the force.",
+  "sections": [
+   {
+    "id": "s-p12-field",
+    "topicId": "p12-field",
+    "title": "Magnetic fields and their sources",
+    "body": [
+     "Magnetic fields come from moving charges: currents, and the spinning and orbiting electrons inside atoms. A magnet always has both a north and a south pole. No isolated magnetic pole (a monopole) has been found, so magnetic field lines form closed loops; a magnet's field has the dipole shape.",
+     "A field assigns a value to every point in space. Temperature in a room is a scalar field (just a number at each point); electric and magnetic fields are vector fields (a size and a direction at each point)."
+    ],
+    "points": [
+     "A long straight wire's field circles the wire: B = μ₀I/(2πr). Point your right thumb along the current; your fingers curl the way B goes.",
+     "Inside a long solenoid the field is nearly uniform: B = μ₀nI, where n is the number of turns per meter.",
+     "In materials with high magnetic permeability, such as iron, atomic magnetic dipoles line up with an applied field and make it much stronger."
+    ],
+    "equations": [
+     [
+      "B = μ₀I/(2πr)",
+      "field of a long straight wire"
+     ],
+     [
+      "B = μ₀nI",
+      "field inside a long solenoid"
+     ]
+    ]
+   },
+   {
+    "id": "s-p12-force",
+    "topicId": "p12-force",
+    "title": "Magnetic forces on charges and currents",
+    "body": [
+     "A charge q moving with velocity v through a field B feels a force F = |q|vB sin θ, perpendicular to both v and B. A charge at rest, or one moving along the field, feels no magnetic force.",
+     "A wire of length L carrying current I in a field B feels F = ILB sin θ. Because the magnetic force is perpendicular to the velocity, it changes a charge's direction but not its speed: a charge moving perpendicular to a uniform field travels in a circle of radius r = mv/(|q|B)."
+    ],
+    "points": [
+     "A negative charge feels a force opposite to the right-hand-rule direction for a positive charge.",
+     "Magnetic forces do no work on a moving charge.",
+     "In a free-body diagram the magnetic force is one force among the others; combine it with gravity and electric forces as vectors."
+    ],
+    "equations": [
+     [
+      "F = |q|vB sin θ",
+      "force on a moving charge"
+     ],
+     [
+      "F = ILB sin θ",
+      "force on a current-carrying wire"
+     ],
+     [
+      "r = mv/(|q|B)",
+      "radius of circular motion"
+     ]
+    ]
+   },
+   {
+    "id": "s-p12-induct",
+    "topicId": "p12-induct",
+    "title": "Magnetic flux and induction",
+    "body": [
+     "The magnetic flux through a loop is Φ_B = BA cos θ, where θ is the angle between B and the line perpendicular to the loop. It is measured in webers (1 Wb = 1 T·m²).",
+     "Faraday's law: a changing flux induces an emf, ε = −N ΔΦ_B/Δt for a coil of N turns. Lenz's law gives the direction: the induced current makes a magnetic field that opposes the change in flux."
+    ],
+    "points": [
+     "The flux can change because B changes, the area changes, or the loop turns.",
+     "A rod of length L moving at speed v perpendicular to B has a motional emf ε = BLv.",
+     "Opposing the change is why it takes work to push a magnet into a coil: energy is conserved."
+    ],
+    "equations": [
+     [
+      "Φ_B = BA cos θ",
+      "magnetic flux"
+     ],
+     [
+      "ε = −N ΔΦ_B/Δt",
+      "Faraday's law"
+     ],
+     [
+      "ε = BLv",
+      "motional emf"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A proton moves at 3.0 × 10⁶ m/s perpendicular to a 0.20 T magnetic field. Find the radius of its circular path. (Proton mass 1.67 × 10⁻²⁷ kg)",
+   "solution": "r = mv/(|q|B) = (1.67 × 10⁻²⁷ kg)(3.0 × 10⁶ m/s) / ((1.6 × 10⁻¹⁹ C)(0.20 T)) ≈ 0.16 m."
+  },
+  "misconceptions": [
+   [
+    "“A magnetic field pushes a charge along the field lines.”",
+    "The magnetic force is perpendicular to both the velocity and the field."
+   ],
+   [
+    "“Breaking a magnet separates its north and south poles.”",
+    "Each piece is a complete magnet with both poles."
+   ],
+   [
+    "“A strong magnetic field induces a current.”",
+    "Only a changing flux induces an emf; a steady field through a still loop induces nothing."
+   ],
+   [
+    "“Magnetic forces speed charges up.”",
+    "They act perpendicular to the motion, so they do no work and do not change the speed."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 2 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+  "sourceTitle": "AP Physics 2: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "ph2u12-q01",
+   "courseId": "ap-physics-2",
+   "unitId": "u12",
+   "topicId": "p12-field",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A bar magnet is cut in half across its middle. What do you get?",
+   "choices": [
+    "Two smaller magnets, each with a north pole and a south pole",
+    "A separate north pole and a separate south pole",
+    "Two pieces that are no longer magnetic",
+    "One piece that is a magnet and one that is not"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Magnetism comes from atomic magnetic dipoles lined up throughout the material, so every piece is still a dipole with both poles. Isolated magnetic poles (monopoles) have never been observed.",
+   "choiceExplanations": [
+    "",
+    "No isolated north or south pole (a monopole) has ever been observed; the cut creates new poles at the break.",
+    "The atomic dipoles in each piece stay aligned, so both pieces stay magnetic.",
+    "Both halves contain the same kind of aligned dipoles, so both are magnets."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u12-q02",
+   "courseId": "ap-physics-2",
+   "unitId": "u12",
+   "topicId": "p12-field",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A long straight wire carries a current of 10 A. What is the magnetic field 0.050 m from the wire? (μ₀ = 4π × 10⁻⁷ T·m/A)",
+   "choices": [
+    "4.0 × 10⁻⁵ T",
+    "2.5 × 10⁻⁴ T",
+    "8.0 × 10⁻⁴ T",
+    "1.0 × 10⁻⁷ T"
+   ],
+   "correctAnswer": 0,
+   "explanation": "B = μ₀I/(2πr) = (4π × 10⁻⁷)(10)/(2π × 0.050) = (2 × 10⁻⁷)(10)/0.050 = 4.0 × 10⁻⁵ T.",
+   "choiceExplanations": [
+    "",
+    "2.5 × 10⁻⁴ T is μ₀I/r; the factor 2π in the denominator was left out.",
+    "8.0 × 10⁻⁴ T divides by r²; the field of a long wire falls off as 1/r.",
+    "1.0 × 10⁻⁷ T multiplies by r instead of dividing; the field gets weaker farther from the wire."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u12-q03",
+   "courseId": "ap-physics-2",
+   "unitId": "u12",
+   "topicId": "p12-field",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which of these is a vector field?",
+   "choices": [
+    "The magnetic field around a bar magnet",
+    "The temperature at each point in a room",
+    "The electric potential around a charge",
+    "The density at each point inside a planet"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A vector field gives a size and a direction at every point. The magnetic field has a direction at each point (shown by field lines and compass needles); the other three give only a number at each point, so they are scalar fields.",
+   "choiceExplanations": [
+    "",
+    "Temperature has a size but no direction at each point, so it is a scalar field.",
+    "Electric potential is a scalar: energy per unit charge, with no direction.",
+    "Density is a number at each point with no direction, so it is a scalar field."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u12-q04",
+   "courseId": "ap-physics-2",
+   "unitId": "u12",
+   "topicId": "p12-field",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Placing an iron core inside a current-carrying solenoid makes its magnetic field much stronger. Why?",
+   "choices": [
+    "Iron has a high magnetic permeability: its atomic magnetic dipoles line up with the solenoid's field and add to it",
+    "The iron carries extra current through the coil",
+    "The iron has a net magnetic charge that adds to the field",
+    "The iron blocks the field from leaking out of the coil, which squeezes it to a larger value"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Iron is made of atoms that act as tiny magnetic dipoles grouped in domains. The solenoid's field lines them up, and their fields add to the solenoid's own, so the total field is much stronger. That is what a high magnetic permeability means.",
+   "choiceExplanations": [
+    "",
+    "The core is not part of the circuit, so no extra current flows through the coil.",
+    "There is no magnetic charge; the extra field comes from aligned magnetic dipoles.",
+    "The core adds field of its own rather than just redirecting the coil's field."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u12-q05",
+   "courseId": "ap-physics-2",
+   "unitId": "u12",
+   "topicId": "p12-force",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A proton moves at 2.0 × 10⁶ m/s perpendicular to a 0.50 T magnetic field. What is the size of the magnetic force on it? (e = 1.6 × 10⁻¹⁹ C)",
+   "choices": [
+    "1.6 × 10⁻¹³ N",
+    "0 N",
+    "3.2 × 10⁻¹³ N",
+    "1.0 × 10⁶ N"
+   ],
+   "correctAnswer": 0,
+   "explanation": "F = |q|vB sin 90° = (1.6 × 10⁻¹⁹)(2.0 × 10⁶)(0.50) = 1.6 × 10⁻¹³ N.",
+   "choiceExplanations": [
+    "",
+    "The force is zero only for a charge at rest or moving along the field; this proton moves perpendicular to it.",
+    "3.2 × 10⁻¹³ N is qv; it still has to be multiplied by B = 0.50 T.",
+    "1.0 × 10⁶ is vB; the proton's charge was left out."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u12-q06",
+   "courseId": "ap-physics-2",
+   "unitId": "u12",
+   "topicId": "p12-force",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A positive charge moves east through a magnetic field that points north. Which way is the magnetic force on the charge?",
+   "choices": [
+    "Up (away from the ground)",
+    "Down (toward the ground)",
+    "West",
+    "North"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Use the right-hand rule: fingers point east (v), curl toward north (B), and the thumb points up. The force is perpendicular to both v and B.",
+   "choiceExplanations": [
+    "",
+    "Down is the force on a negative charge, which is opposite to the right-hand-rule direction.",
+    "The magnetic force is perpendicular to the velocity, so it cannot point opposite to it (west).",
+    "The magnetic force is perpendicular to the field, so it cannot point along it (north)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u12-q07",
+   "courseId": "ap-physics-2",
+   "unitId": "u12",
+   "topicId": "p12-force",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A proton and an electron move at the same speed perpendicular to the same uniform magnetic field. The proton's mass is about 1800 times the electron's. How do their circular paths compare?",
+   "choices": [
+    "The proton's circle is about 1800 times larger, and they circle in opposite directions",
+    "The circles are the same size, because the charges have the same size",
+    "The electron's circle is about 1800 times larger",
+    "The proton's circle is about 1800 times larger, and they circle in the same direction"
+   ],
+   "correctAnswer": 0,
+   "explanation": "r = mv/(|q|B). With the same v, |q|, and B, r is proportional to the mass, so the proton's radius is about 1800 times larger. The charges have opposite signs, so the forces point opposite ways and the particles circle in opposite directions.",
+   "choiceExplanations": [
+    "",
+    "The radius also depends on mass, and the masses are very different.",
+    "This reverses the ratio: the heavier proton has the larger radius.",
+    "Opposite charges feel opposite forces, so they circle in opposite directions."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u12-q08",
+   "courseId": "ap-physics-2",
+   "unitId": "u12",
+   "topicId": "p12-force",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 0.40 m length of wire carries 3.0 A in a 0.20 T magnetic field. The wire makes a 30° angle with the field. What is the magnetic force on the wire?",
+   "choices": [
+    "0.12 N",
+    "0.24 N",
+    "0.21 N",
+    "0 N"
+   ],
+   "correctAnswer": 0,
+   "explanation": "F = ILB sin θ = (3.0)(0.40)(0.20)(sin 30°) = 0.24 × 0.5 = 0.12 N.",
+   "choiceExplanations": [
+    "",
+    "0.24 N would be the force with the wire perpendicular to the field; at 30°, multiply by sin 30° = 0.5.",
+    "0.21 N uses cos 30°; the force depends on the sine of the angle between the wire and the field.",
+    "The force is zero only when the wire is parallel to the field; at 30° there is a force."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u12-q09",
+   "courseId": "ap-physics-2",
+   "unitId": "u12",
+   "topicId": "p12-induct",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A uniform 0.40 T magnetic field passes straight through a flat loop of area 0.050 m², perpendicular to the loop's surface. What is the magnetic flux through the loop?",
+   "choices": [
+    "0.020 Wb",
+    "0 Wb",
+    "8.0 Wb",
+    "0.45 Wb"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The field is perpendicular to the surface, so it is along the loop's normal (θ = 0): Φ_B = BA cos 0° = (0.40)(0.050) = 0.020 Wb.",
+   "choiceExplanations": [
+    "",
+    "Zero flux happens when the field runs along the surface; here it goes straight through, giving the maximum flux.",
+    "8.0 Wb divides B by A; flux multiplies them.",
+    "0.45 adds B and A, which have different units."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u12-q10",
+   "courseId": "ap-physics-2",
+   "unitId": "u12",
+   "topicId": "p12-induct",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The magnetic flux through each turn of a 50-turn coil drops from 0.020 Wb to 0 in 0.10 s. What is the average induced emf?",
+   "choices": [
+    "10 V",
+    "0.20 V",
+    "1.0 V",
+    "0.10 V"
+   ],
+   "correctAnswer": 0,
+   "explanation": "|ε| = N|ΔΦ_B|/Δt = 50 × 0.020 Wb ÷ 0.10 s = 10 V.",
+   "choiceExplanations": [
+    "",
+    "0.20 V is the emf of a single turn; the 50 turns each add the same emf.",
+    "1.0 V is NΔΦ_B without dividing by the time.",
+    "0.10 V multiplies by the time instead of dividing by it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u12-q11",
+   "courseId": "ap-physics-2",
+   "unitId": "u12",
+   "topicId": "p12-induct",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The north pole of a bar magnet is pushed toward a wire loop. Seen from the magnet's side, which way does the induced current flow?",
+   "choices": [
+    "Counterclockwise, so the face of the loop toward the magnet acts like a north pole and repels it",
+    "Clockwise, so the face of the loop toward the magnet acts like a south pole and attracts it",
+    "No current flows, because the magnet does not touch the wire",
+    "No current flows, because the magnetic field does not reverse"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The flux through the loop (pointing away from the magnet) is increasing. By Lenz's law the induced field opposes that, pointing back toward the magnet. A counterclockwise current, seen from the magnet, makes that field, so the loop's near face acts like a north pole that pushes back on the approaching north pole.",
+   "choiceExplanations": [
+    "",
+    "An attracting south pole would help the change instead of opposing it, which would break energy conservation.",
+    "Induction needs a changing flux, not contact.",
+    "The flux only has to change, not reverse; an increasing flux is enough to induce a current."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u12-q12",
+   "courseId": "ap-physics-2",
+   "unitId": "u12",
+   "topicId": "p12-induct",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A metal rod 0.50 m long moves at 4.0 m/s perpendicular to a 0.30 T magnetic field, with its length also perpendicular to the field. What emf is induced between its ends?",
+   "choices": [
+    "0.60 V",
+    "6.7 V",
+    "0.15 V",
+    "1.2 V"
+   ],
+   "correctAnswer": 0,
+   "explanation": "ε = BLv = (0.30)(0.50)(4.0) = 0.60 V.",
+   "choiceExplanations": [
+    "",
+    "6.7 V is Lv/B; all three quantities multiply.",
+    "0.15 V is BL; the speed was left out.",
+    "1.2 V is Bv; the rod's length was left out."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ph2u12-q01",
+    "ph2u12-q02",
+    "ph2u12-q03",
+    "ph2u12-q05",
+    "ph2u12-q06",
+    "ph2u12-q07",
+    "ph2u12-q10",
+    "ph2u12-q11"
+   ]
+  }
+ ]
+}

@@ -4,7 +4,7 @@
  "officialUrl": "https://apcentral.collegeboard.org/courses/ap-physics-2",
  "studentUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
  "frameworkUrl": "https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf",
- "frameworkVersion": "Not recorded at the last check; confirm the current edition of the Course and Exam Description.",
+ "frameworkVersion": "Not recorded at the last check; confirm the current edition of the Course and Exam Description. Needs human review: several recorded topic names (for example “Thermodynamics and collisions”, “Forces review”, and “Monopole and dipole fields”) read like wording from the framework used before the 2024-25 revision. StudySprint's Physics 2 content follows the recorded topics exactly; confirm them against the current CED.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-physics-2/exam/past-exam-questions",
   "note": null
@@ -19,8 +19,8 @@
   {
    "id": "u9",
    "name": "Unit 9: Thermodynamics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u9.json",
    "officialTopics": [
     "Thermodynamic systems",
     "Pressure, thermal equilibrium, and the Ideal Gas Law",
@@ -33,8 +33,8 @@
   {
    "id": "u10",
    "name": "Unit 10: Electric Force, Field, and Potential",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u10.json",
    "officialTopics": [
     "Electric systems and charge",
     "Charge distribution: Friction, conduction, and induction",
@@ -49,8 +49,8 @@
   {
    "id": "u11",
    "name": "Unit 11: Electric Circuits",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u11.json",
    "officialTopics": [
     "Definition and conservation of electric charge",
     "Resistivity and resistance",
@@ -62,8 +62,8 @@
   {
    "id": "u12",
    "name": "Unit 12: Magnetism and Electromagnetism",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u12.json",
    "officialTopics": [
     "Magnetic systems",
     "Magnetic permeability and magnetic dipole moment",
@@ -77,8 +77,8 @@
   {
    "id": "u13",
    "name": "Unit 13: Geometric Optics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u13.json",
    "officialTopics": [
     "Refraction, reflection, and absorption",
     "Images from lenses and mirrors"
@@ -87,8 +87,8 @@
   {
    "id": "u14",
    "name": "Unit 14: Waves, Sound, and Physical Optics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u14.json",
    "officialTopics": [
     "Periodic waves",
     "Electromagnetic waves",
@@ -100,8 +100,8 @@
   {
    "id": "u15",
    "name": "Unit 15: Modern Physics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u15.json",
    "officialTopics": [
     "Radioactive decay",
     "Energy in modern physics (energy in radioactive decay and E = mc²)",

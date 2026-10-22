@@ -593,13 +593,21 @@
    "outline": true,
    "summary": {
     "units": 7,
-    "ready": 0,
+    "ready": 7,
     "inProgress": 0,
-    "complete": false,
+    "complete": true,
     "examUnits": 7,
-    "examReady": 0,
-    "tests": 0,
-    "unitTests": {}
+    "examReady": 7,
+    "tests": 7,
+    "unitTests": {
+     "u9": 1,
+     "u10": 1,
+     "u11": 1,
+     "u12": 1,
+     "u13": 1,
+     "u14": 1,
+     "u15": 1
+    }
    }
   },
   {
