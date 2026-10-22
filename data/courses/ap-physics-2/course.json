@@ -4,7 +4,7 @@
  "officialUrl": "https://apcentral.collegeboard.org/courses/ap-physics-2",
  "studentUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
  "frameworkUrl": "https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf",
- "frameworkVersion": "Not recorded at the last check; confirm the current edition of the Course and Exam Description. Needs human review: several recorded topic names (for example “Thermodynamics and collisions”, “Forces review”, and “Monopole and dipole fields”) read like wording from the framework used before the 2024-25 revision. StudySprint's Physics 2 content follows the recorded topics exactly; confirm them against the current CED.",
+ "frameworkVersion": "Not recorded at the last check; confirm the current edition of the Course and Exam Description.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-physics-2/exam/past-exam-questions",
   "note": null
@@ -14,6 +14,23 @@
   "url": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
   "verified": "2026-10-09",
   "note": null
+ },
+ "topicNameCheck": {
+  "checked": "2026-10-22",
+  "source": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+  "how": "The repository owner checked the live AP Students page and confirmed that it lists Units 9–15 and includes the topics named under matched; the unit titles also agree with College Board course-overview listings returned by a web search that day. StudySprint's build environment could not open College Board's site, so it did not re-read the page itself. This withdraws the earlier warning that these names looked like pre-2024-25 wording: the current page uses them.",
+  "matched": [
+   "Unit 9: Thermodynamics",
+   "Unit 10: Electric Force, Field, and Potential",
+   "Unit 11: Electric Circuits",
+   "Unit 12: Magnetism and Electromagnetism",
+   "Unit 13: Geometric Optics",
+   "Unit 14: Waves, Sound, and Physical Optics",
+   "Unit 15: Modern Physics",
+   "Thermodynamics and collisions",
+   "Forces review"
+  ],
+  "mismatched": []
  },
  "units": [
   {

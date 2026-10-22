@@ -230,6 +230,17 @@ def main():
                 err("catalog: %s has no course outline, so it needs framework.status 'not checked' with expectedKind and expectedNote" % c["id"])
             continue
         cd = load(cdir)
+        tc = cd.get("topicNameCheck")
+        if tc:
+            names = [u["name"] for u in cd["units"]] + [t for u in cd["units"] for t in u.get("officialTopics", [])]
+            for x in tc.get("matched", []) + [m.get("name") for m in tc.get("mismatched", [])]:
+                if x not in names:
+                    err("%s: topicNameCheck lists '%s', which is not in the saved outline" % (c["id"], x))
+            if not tc.get("checked") or not https(tc.get("source")) or not tc.get("how"):
+                err("%s: topicNameCheck needs checked, source and how" % c["id"])
+            for m in tc.get("mismatched", []):
+                if not m.get("official"):
+                    err("%s: a mismatched name needs the official wording it differs from" % c["id"])
         if not cd.get("frameworkVersion"):
             err("%s: course.json needs frameworkVersion (say 'Not recorded' if the edition was not checked)" % c["id"])
         for r in cd.get("generalResources", []):
@@ -335,6 +346,15 @@ def write_status(cat, detail, planner, rules):
         cd, units = detail[cid]
         L.append("## %s\n" % cd["name"])
         L.append("Unit outline source: [%s](%s), verified %s." % (cd["source"]["title"], cd["source"]["url"], cd["source"]["verified"]) + ((" " + cd["source"]["note"]) if cd["source"].get("note") else ""))
+        tc = cd.get("topicNameCheck")
+        if tc:
+            names = [u["name"] for u in cd["units"]] + [t for u in cd["units"] for t in u.get("officialTopics", [])]
+            rest = [x for x in names if x not in tc["matched"] and x not in [m["name"] for m in tc["mismatched"]]]
+            L.append("Name check against [the official page](%s) on %s: %s" % (tc["source"], tc["checked"], tc["how"]))
+            L.append("- Matched (%d): %s." % (len(tc["matched"]), "; ".join(tc["matched"])))
+            L.append("- Mismatches flagged: %s." % ("; ".join("\"%s\" (official: \"%s\")" % (m["name"], m["official"]) for m in tc["mismatched"]) if tc["mismatched"] else "none found"))
+            if rest:
+                L.append("- Not re-compared in this check (%d), standing as recorded on %s with no known mismatch: %s." % (len(rest), cd["source"]["verified"], "; ".join(rest)))
         fr = cd["frq"]
         line = "Official released free-response questions: [course page](%s)" % fr["hubUrl"]
         if fr.get("releasedSets"):
