@@ -33,7 +33,13 @@
    ],
    "group": "AP Capstone",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "project",
+    "expectedNote": "Expected to be assessed through a year-long research project (an academic paper and a presentation with oral defense) rather than a multiple-choice exam. Needs project guidance, not a question bank.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-seminar",
@@ -43,7 +49,13 @@
    ],
    "group": "AP Capstone",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-seminar/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "performance tasks",
+    "expectedNote": "Expected to combine team and individual performance tasks with an end-of-course written exam. Needs source-analysis and argument-writing practice, not multiple-choice sets.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-2-d-art-and-design",
@@ -55,7 +67,13 @@
    ],
    "group": "Arts",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-2-d-art-and-design/portfolio/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "portfolio",
+    "expectedNote": "Expected to be assessed through a portfolio of the student's own work, with no written exam. A question bank does not fit; it would need portfolio-planning guidance.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-3-d-art-and-design",
@@ -67,7 +85,13 @@
    ],
    "group": "Arts",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-3-d-art-and-design/portfolio/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "portfolio",
+    "expectedNote": "Expected to be assessed through a portfolio of the student's own work, with no written exam. A question bank does not fit; it would need portfolio-planning guidance.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-drawing",
@@ -78,7 +102,13 @@
    ],
    "group": "Arts",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-drawing/portfolio/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "portfolio",
+    "expectedNote": "Expected to be assessed through a portfolio of the student's own work, with no written exam. A question bank does not fit; it would need portfolio-planning guidance.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-art-history",
@@ -88,7 +118,13 @@
    ],
    "group": "Arts",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-art-history/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "image-based",
+    "expectedNote": "Expected to be unit-based, but most questions depend on images of specific works of art, which need image rights or verified links.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-music-theory",
@@ -98,7 +134,13 @@
    ],
    "group": "Arts",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-music-theory/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "audio",
+    "expectedNote": "Expected to be unit-based, but the exam includes listening and sight-singing tasks that need audio, which the site does not support.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-english-language-and-composition",
@@ -110,7 +152,13 @@
    ],
    "group": "English",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-english-language-and-composition/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "passages and essays",
+    "expectedNote": "Expected to be skill-based: passage-based multiple-choice questions and essay writing. Needs original passages and essay practice rather than single questions.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-english-literature-and-composition",
@@ -122,7 +170,13 @@
    ],
    "group": "English",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-english-literature-and-composition/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "passages and essays",
+    "expectedNote": "Expected to be skill-based: passage-based multiple-choice questions on literature and essay writing. Needs original or public-domain passages and essay practice.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-african-american-studies",
@@ -132,7 +186,13 @@
    ],
    "group": "History and Social Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-african-american-studies/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "source-based",
+    "expectedNote": "Expected to be unit-based; many questions are expected to use primary sources (texts and images), which need rights-cleared sources or verified links.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-comparative-government-and-politics",
@@ -144,7 +204,13 @@
    ],
    "group": "History and Social Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-comparative-government-and-politics/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "units",
+    "expectedNote": "Expected to be unit-based; fits the existing unit review and multiple-choice format.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-european-history",
@@ -155,7 +221,13 @@
    ],
    "group": "History and Social Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-european-history/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "source-based",
+    "expectedNote": "Expected to be unit-based, with many multiple-choice questions built in sets around a shared historical source. The site's single-question format only partly supports that; source sets would need rights-cleared or public-domain sources.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-human-geography",
@@ -166,7 +238,13 @@
    ],
    "group": "History and Social Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-human-geography/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "units",
+    "expectedNote": "Expected to be unit-based; fits the existing unit review and multiple-choice format.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-macroeconomics",
@@ -178,7 +256,13 @@
    ],
    "group": "History and Social Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-macroeconomics/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "units",
+    "expectedNote": "Expected to be unit-based; fits the existing unit review and multiple-choice format.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-microeconomics",
@@ -190,7 +274,13 @@
    ],
    "group": "History and Social Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-microeconomics/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "units",
+    "expectedNote": "Expected to be unit-based; fits the existing unit review and multiple-choice format.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-psychology",
@@ -200,7 +290,13 @@
    ],
    "group": "History and Social Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-psychology/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "units",
+    "expectedNote": "Expected to be unit-based; fits the existing unit review and multiple-choice format.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-united-states-government-and-politics",
@@ -212,7 +308,13 @@
    ],
    "group": "History and Social Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-united-states-government-and-politics/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "units",
+    "expectedNote": "Expected to be unit-based; fits the existing unit review and multiple-choice format.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-united-states-history",
@@ -225,7 +327,13 @@
    ],
    "group": "History and Social Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-united-states-history/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "source-based",
+    "expectedNote": "Expected to be unit-based, with many multiple-choice questions built in sets around a shared historical source. The site's single-question format only partly supports that; source sets would need rights-cleared or public-domain sources.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-world-history",
@@ -237,7 +345,13 @@
    ],
    "group": "History and Social Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-world-history/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "source-based",
+    "expectedNote": "Expected to be unit-based, with many multiple-choice questions built in sets around a shared historical source. The site's single-question format only partly supports that; source sets would need rights-cleared or public-domain sources.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-computer-science-a",
@@ -250,7 +364,13 @@
    ],
    "group": "Math and Computer Science",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "units",
+    "expectedNote": "Expected to be unit-based; multiple-choice questions fit the existing format, but free-response questions ask for Java code, which the site cannot check.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-computer-science-principles",
@@ -262,7 +382,13 @@
    ],
    "group": "Math and Computer Science",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "big ideas and performance task",
+    "expectedNote": "Expected to be organized by big ideas rather than units, with a performance task in addition to the exam. Multiple-choice practice could fit; the performance task needs a different format.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-calculus-ab",
@@ -279,6 +405,9 @@
     "units": 8,
     "ready": 8,
     "inProgress": 0,
+    "complete": true,
+    "examUnits": 8,
+    "examReady": 8,
     "tests": 8,
     "unitTests": {
      "u1": 1,
@@ -307,6 +436,9 @@
     "units": 10,
     "ready": 0,
     "inProgress": 0,
+    "complete": false,
+    "examUnits": 10,
+    "examReady": 0,
     "tests": 0,
     "unitTests": {}
    }
@@ -324,10 +456,18 @@
    "outline": true,
    "summary": {
     "units": 4,
-    "ready": 0,
+    "ready": 4,
     "inProgress": 0,
-    "tests": 0,
-    "unitTests": {}
+    "complete": true,
+    "examUnits": 3,
+    "examReady": 3,
+    "tests": 4,
+    "unitTests": {
+     "u1": 1,
+     "u2": 1,
+     "u3": 1,
+     "u4": 1
+    }
    }
   },
   {
@@ -344,6 +484,9 @@
     "units": 5,
     "ready": 5,
     "inProgress": 0,
+    "complete": true,
+    "examUnits": 5,
+    "examReady": 5,
     "tests": 5,
     "unitTests": {
      "u1": 1,
@@ -363,7 +506,13 @@
    ],
    "group": "Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-biology/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "units",
+    "expectedNote": "Expected to be unit-based; fits the existing unit review and multiple-choice format.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-chemistry",
@@ -374,7 +523,13 @@
    ],
    "group": "Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-chemistry/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "units",
+    "expectedNote": "Expected to be unit-based; fits the existing unit review and multiple-choice format.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-environmental-science",
@@ -386,7 +541,13 @@
    ],
    "group": "Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-environmental-science/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "units",
+    "expectedNote": "Expected to be unit-based; fits the existing unit review and multiple-choice format.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-physics-1",
@@ -403,6 +564,9 @@
     "units": 8,
     "ready": 8,
     "inProgress": 0,
+    "complete": true,
+    "examUnits": 8,
+    "examReady": 8,
     "tests": 8,
     "unitTests": {
      "u1": 1,
@@ -431,6 +595,9 @@
     "units": 7,
     "ready": 0,
     "inProgress": 0,
+    "complete": false,
+    "examUnits": 7,
+    "examReady": 0,
     "tests": 0,
     "unitTests": {}
    }
@@ -451,6 +618,9 @@
     "units": 6,
     "ready": 0,
     "inProgress": 0,
+    "complete": false,
+    "examUnits": 6,
+    "examReady": 0,
     "tests": 0,
     "unitTests": {}
    }
@@ -471,6 +641,9 @@
     "units": 7,
     "ready": 0,
     "inProgress": 0,
+    "complete": false,
+    "examUnits": 7,
+    "examReady": 0,
     "tests": 0,
     "unitTests": {}
    }
@@ -484,7 +657,13 @@
    ],
    "group": "World Languages",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-chinese-language-and-culture/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "language skills",
+    "expectedNote": "Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-french-language-and-culture",
@@ -495,7 +674,13 @@
    ],
    "group": "World Languages",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-french-language-and-culture/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "language skills",
+    "expectedNote": "Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-german-language-and-culture",
@@ -506,7 +691,13 @@
    ],
    "group": "World Languages",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-german-language-and-culture/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "language skills",
+    "expectedNote": "Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-italian-language-and-culture",
@@ -517,7 +708,13 @@
    ],
    "group": "World Languages",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-italian-language-and-culture/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "language skills",
+    "expectedNote": "Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-japanese-language-and-culture",
@@ -528,7 +725,13 @@
    ],
    "group": "World Languages",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-japanese-language-and-culture/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "language skills",
+    "expectedNote": "Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-latin",
@@ -539,7 +742,13 @@
    ],
    "group": "World Languages",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-latin/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "passages",
+    "expectedNote": "Expected to be based on reading assigned Latin texts. Needs passage-based practice with public-domain texts.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-spanish-language-and-culture",
@@ -550,7 +759,13 @@
    ],
    "group": "World Languages",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-spanish-language-and-culture/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "language skills",
+    "expectedNote": "Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   },
   {
    "id": "ap-spanish-literature-and-culture",
@@ -561,7 +776,31 @@
    ],
    "group": "World Languages",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-spanish-literature-and-culture/exam/past-exam-questions",
-   "outline": false
+   "outline": false,
+   "framework": {
+    "status": "not checked",
+    "expectedKind": "passages and essays",
+    "expectedNote": "Expected to be based on a required reading list of works in Spanish. Needs passage-based and essay practice.",
+    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   }
   }
- ]
+ ],
+ "catalogLeads": {
+  "note": "Courses reported as launching or recently launched that are not in this catalog. These are leads from secondary news coverage, not College Board pages, so they are not added to the catalog until College Board's own course list confirms them.",
+  "checked": "2026-10-21",
+  "items": [
+   {
+    "name": "AP Cybersecurity",
+    "lead": "Reported (Cisco and education news, 2025-26) as piloted in 2025-26 with a nationwide launch in 2026-27 and first exams in May 2027."
+   },
+   {
+    "name": "AP Business with Personal Finance",
+    "lead": "Reported in education news as field-tested and targeting a nationwide launch in 2026-27."
+   },
+   {
+    "name": "AP Latin (catalog name)",
+    "lead": "This catalog lists the course as “AP Latin Exam”. Confirm the official course name on College Board's course list."
+   }
+  ]
+ }
 }

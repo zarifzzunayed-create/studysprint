@@ -4,6 +4,7 @@
  "officialUrl": null,
  "studentUrl": null,
  "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf",
+ "frameworkVersion": "AP Calculus AB and BC Course and Exam Description (shared with AB). Units 9 and 10 are named in the BC course overview; per-unit topic lists were not retrieved.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-bc/exam/past-exam-questions",
   "note": null

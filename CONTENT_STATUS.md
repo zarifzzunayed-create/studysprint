@@ -12,15 +12,87 @@ StudySprint is a review site, not a complete course or textbook. Guides are shor
 
 ## Release order and progress
 
-1. AP Physics 1: Algebra-Based: 8 of 8 units practice-ready, 0 in progress, 0 outline only
-2. AP Calculus AB: 8 of 8 units practice-ready, 0 in progress, 0 outline only
-3. AP Statistics: 5 of 5 units practice-ready, 0 in progress, 0 outline only
-4. AP Precalculus: 0 of 4 units practice-ready, 0 in progress, 4 outline only
-5. AP Calculus BC: 0 of 10 units practice-ready, 0 in progress, 10 outline only
-6. AP Physics 2: Algebra-Based: 0 of 7 units practice-ready, 0 in progress, 7 outline only
-7. AP Physics C: Mechanics: 0 of 7 units practice-ready, 0 in progress, 7 outline only
-8. AP Physics C: Electricity and Magnetism: 0 of 6 units practice-ready, 0 in progress, 6 outline only
-9. AP Computer Science A: catalog entry only (no verified unit outline yet)
+1. AP Physics 1: Algebra-Based: complete. 8 of 8 units practice-ready, 0 in progress, 0 outline only
+2. AP Calculus AB: complete. 8 of 8 units practice-ready, 0 in progress, 0 outline only
+3. AP Statistics: complete. 5 of 5 units practice-ready, 0 in progress, 0 outline only
+4. AP Precalculus: complete. 4 of 4 units practice-ready, 0 in progress, 0 outline only
+5. AP Calculus BC: outline only. 0 of 10 units practice-ready, 0 in progress, 10 outline only
+6. AP Physics 2: Algebra-Based: outline only. 0 of 7 units practice-ready, 0 in progress, 7 outline only
+7. AP Physics C: Mechanics: outline only. 0 of 7 units practice-ready, 0 in progress, 7 outline only
+8. AP Physics C: Electricity and Magnetism: outline only. 0 of 6 units practice-ready, 0 in progress, 6 outline only
+9. AP Computer Science A: catalog entry only (course framework not checked yet)
+
+## Course inventory (every catalog course)
+
+Each row comes from `data/catalog.json` and the course's `course.json`. A course framework counts as checked only when its official units were read from College Board's pages and recorded with a source link and date. Courses that have not been checked list no units at all; their "expected format" is a planning note from general knowledge, not a verified fact, and must be confirmed against the official Course and Exam Description before any content is written.
+
+**Totals:** 8 of 40 catalog courses have a checked course framework, with 55 official units in all. **25 of those 55 units have usable review content and a question bank (practice-ready).** 4 courses are complete. 32 courses have no checked framework yet.
+
+**Framework coverage and exam coverage are counted separately.** 1 of the 55 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 54 units with no such exclusion recorded, 24 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
+
+| Course | Official framework | Source and edition | Official units | Practice-ready units | Exam coverage | Units with a practice test | Course status | Practice format |
+|---|---|---|---|---|---|---|---|---|
+| AP Physics 1: Algebra-Based | Unit-based (units checked) | [AP Physics 1: Algebra-Based – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based), checked 2026-10-09. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description.pdf). | 8 | 8 | 8 of 8 exam-assessed units ready; no unit recorded as excluded from the exam | 8 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
+| AP Calculus AB | Unit-based (units checked) | [AP Calculus AB – AP Central (College Board)](https://apcentral.collegeboard.org/courses/ap-calculus-ab), checked 2026-10-11. AP Calculus AB and BC Course and Exam Description. AP Central said on 2026-10-11 that course content has not changed for 2026-27. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf). | 8 | 8 | 8 of 8 exam-assessed units ready; no unit recorded as excluded from the exam | 8 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
+| AP Statistics | Unit-based (units checked) | [AP Statistics – AP Central (College Board)](https://apcentral.collegeboard.org/courses/ap-statistics), checked 2026-10-11. Course and Exam Description effective fall 2026 (revised course; first exam May 2027). [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-statistics-course-and-exam-description-effective-fall-2026.pdf). | 5 | 5 | 5 of 5 exam-assessed units ready; no unit recorded as excluded from the exam | 5 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
+| AP Precalculus | Unit-based (units checked) | [AP Precalculus – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-precalculus), checked 2026-10-09. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf). | 4 | 4 | 3 of 3 exam-assessed units ready; Unit 4 in the framework but not assessed on the AP Exam | 4 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
+| AP Calculus BC | Unit-based (units checked) | [AP Calculus BC course overview (College Board) and AP Calculus AB – AP Students (College Board)](https://apcentral.collegeboard.org/media/pdf/ap-calculus-bc-course-overview.pdf), checked 2026-10-09. AP Calculus AB and BC Course and Exam Description (shared with AB). Units 9 and 10 are named in the BC course overview; per-unit topic lists were not retrieved. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf). | 10 | 0 | 0 of 10 exam-assessed units ready; no unit recorded as excluded from the exam | 0 | Outline only: official units listed, no review content or questions yet | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
+| AP Physics 2: Algebra-Based | Unit-based (units checked) | [AP Physics 2: Algebra-Based – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based), checked 2026-10-09. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf). | 7 | 0 | 0 of 7 exam-assessed units ready; no unit recorded as excluded from the exam | 0 | Outline only: official units listed, no review content or questions yet | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
+| AP Physics C: Mechanics | Unit-based (units checked) | [AP Physics C: Mechanics – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics), checked 2026-10-09. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf). | 7 | 0 | 0 of 7 exam-assessed units ready; no unit recorded as excluded from the exam | 0 | Outline only: official units listed, no review content or questions yet | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
+| AP Physics C: Electricity and Magnetism | Unit-based (units checked) | [AP Physics C: Electricity and Magnetism – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism), checked 2026-10-09. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf). | 6 | 0 | 0 of 6 exam-assessed units ready; no unit recorded as excluded from the exam | 0 | Outline only: official units listed, no review content or questions yet | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
+| AP Computer Science A | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; multiple-choice questions fit the existing format, but free-response questions ask for Java code, which the site cannot check. |
+| AP Research | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be assessed through a year-long research project (an academic paper and a presentation with oral defense) rather than a multiple-choice exam. Needs project guidance, not a question bank. |
+| AP Seminar | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to combine team and individual performance tasks with an end-of-course written exam. Needs source-analysis and argument-writing practice, not multiple-choice sets. |
+| AP 2-D Art and Design | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be assessed through a portfolio of the student's own work, with no written exam. A question bank does not fit; it would need portfolio-planning guidance. |
+| AP 3-D Art and Design | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be assessed through a portfolio of the student's own work, with no written exam. A question bank does not fit; it would need portfolio-planning guidance. |
+| AP Drawing | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be assessed through a portfolio of the student's own work, with no written exam. A question bank does not fit; it would need portfolio-planning guidance. |
+| AP Art History | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based, but most questions depend on images of specific works of art, which need image rights or verified links. |
+| AP Music Theory | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based, but the exam includes listening and sight-singing tasks that need audio, which the site does not support. |
+| AP English Language and Composition | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be skill-based: passage-based multiple-choice questions and essay writing. Needs original passages and essay practice rather than single questions. |
+| AP English Literature and Composition | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be skill-based: passage-based multiple-choice questions on literature and essay writing. Needs original or public-domain passages and essay practice. |
+| AP African American Studies | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; many questions are expected to use primary sources (texts and images), which need rights-cleared sources or verified links. |
+| AP Comparative Government and Politics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP European History | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based, with many multiple-choice questions built in sets around a shared historical source. The site's single-question format only partly supports that; source sets would need rights-cleared or public-domain sources. |
+| AP Human Geography | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP Macroeconomics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP Microeconomics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP Psychology | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP U.S. Government and Politics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP United States History | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based, with many multiple-choice questions built in sets around a shared historical source. The site's single-question format only partly supports that; source sets would need rights-cleared or public-domain sources. |
+| AP World History: Modern | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based, with many multiple-choice questions built in sets around a shared historical source. The site's single-question format only partly supports that; source sets would need rights-cleared or public-domain sources. |
+| AP Computer Science Principles | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be organized by big ideas rather than units, with a performance task in addition to the exam. Multiple-choice practice could fit; the performance task needs a different format. |
+| AP Biology | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP Chemistry | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP Environmental Science | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP Chinese Language and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice. |
+| AP French Language and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice. |
+| AP German Language and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice. |
+| AP Italian Language and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice. |
+| AP Japanese Language and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice. |
+| AP Latin Exam | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be based on reading assigned Latin texts. Needs passage-based practice with public-domain texts. |
+| AP Spanish Language and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice. |
+| AP Spanish Literature and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be based on a required reading list of works in Spanish. Needs passage-based and essay practice. |
+
+Courses expected to need a different practice format than unit questions (to confirm once their frameworks are checked):
+
+- **project**: AP Research.
+- **performance tasks**: AP Seminar.
+- **portfolio**: AP 2-D Art and Design, AP 3-D Art and Design, AP Drawing.
+- **image-based**: AP Art History.
+- **audio**: AP Music Theory.
+- **passages and essays**: AP English Language and Composition, AP English Literature and Composition, AP Spanish Literature and Culture.
+- **source-based**: AP African American Studies, AP European History, AP United States History, AP World History: Modern.
+- **big ideas and performance task**: AP Computer Science Principles.
+- **language skills**: AP Chinese Language and Culture, AP French Language and Culture, AP German Language and Culture, AP Italian Language and Culture, AP Japanese Language and Culture, AP Spanish Language and Culture.
+- **passages**: AP Latin Exam.
+
+### Catalog leads to verify (checked 2026-10-21)
+
+Courses reported as launching or recently launched that are not in this catalog. These are leads from secondary news coverage, not College Board pages, so they are not added to the catalog until College Board's own course list confirms them.
+
+- **AP Cybersecurity**: Reported (Cisco and education news, 2025-26) as piloted in 2025-26 with a nationwide launch in 2026-27 and first exams in May 2027.
+- **AP Business with Personal Finance**: Reported in education news as field-tested and targeting a nationwide launch in 2026-27.
+- **AP Latin (catalog name)**: This catalog lists the course as “AP Latin Exam”. Confirm the official course name on College Board's course list.
 
 ## Practice tests
 
@@ -72,7 +144,18 @@ Retaking a test shows the same questions in a new order; those answers are recor
 | Unit 4: Inference for Quantitative Data: Means | 8 | 1 (8) | 0 | 1 | 16 |
 | Unit 5: Regression Analysis | 8 | 1 (8) | 0 | 1 | 16 |
 
-Across the site: 21 practice tests in 21 units. Reaching 3 tests in each of those units needs at least 322 more original questions. Courses with a unit outline but no questions, so no practice tests: AP Calculus BC, AP Precalculus, AP Physics 2: Algebra-Based, AP Physics C: Electricity and Magnetism, AP Physics C: Mechanics.
+### AP Precalculus
+
+4 of 4 units have a practice test (4 tests in all); 0 units have more than one.
+
+| Unit | Questions in bank | Practice tests (questions each) | Questions not in any test | Distinct tests the bank could support | More original questions needed for 3 tests (at least) |
+|---|---|---|---|---|---|
+| Unit 1: Polynomial and Rational Functions | 11 | 1 (8) | 3 | 1 | 13 |
+| Unit 2: Exponential and Logarithmic Functions | 12 | 1 (8) | 4 | 1 | 12 |
+| Unit 3: Trigonometric and Polar Functions | 12 | 1 (8) | 4 | 1 | 12 |
+| Unit 4: Functions Involving Parameters, Vectors, and Matrices | 12 | 1 (8) | 4 | 1 | 12 |
+
+Across the site: 25 practice tests in 25 units. Reaching 3 tests in each of those units needs at least 371 more original questions. Courses with a unit outline but no questions, so no practice tests: AP Calculus BC, AP Physics 2: Algebra-Based, AP Physics C: Electricity and Magnetism, AP Physics C: Mechanics.
 
 ## Study planner
 
@@ -114,16 +197,16 @@ Unit outline source: [AP Physics 1: Algebra-Based – AP Students (College Board
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-physics-1/exam/past-exam-questions). College Board states that, after the 2024–25 AP Physics course and exam revisions, the questions and scoring information on its past-exam-questions page do not completely align with the current AP Physics 1 exam.
 General resources (shown on every unit's Learn first page, labelled general): [AP Physics 1 course overview (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based).
 
-| Unit | Status | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|
-| Unit 1: Kinematics | practice-ready | yes (5 sections) | 10 (3 / 4 / 3) | 4 | 1 (video) | 1 (collection page) | course page only (no per-question matches) | none |
-| Unit 2: Force and Translational Dynamics | practice-ready | yes (3 sections) | 10 (3 / 5 / 2) | 0 | 0 | 1 (collection page) | course page only (no per-question matches) | Systems and center of mass |
-| Unit 3: Work, Energy, and Power | practice-ready | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 1 (collection page) | course page only (no per-question matches) | none |
-| Unit 4: Linear Momentum | practice-ready | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 1 (collection page) | course page only (no per-question matches) | none |
-| Unit 5: Torque and Rotational Dynamics | practice-ready | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 6: Energy and Momentum of Rotating Systems | practice-ready | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 7: Oscillations | practice-ready | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 1 (collection page) | course page only (no per-question matches) | none |
-| Unit 8: Fluids | practice-ready | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Kinematics | practice-ready | no exclusion recorded | yes (5 sections) | 10 (3 / 4 / 3) | 4 | 1 (video) | 1 (collection page) | course page only (no per-question matches) | none |
+| Unit 2: Force and Translational Dynamics | practice-ready | no exclusion recorded | yes (3 sections) | 10 (3 / 5 / 2) | 0 | 0 | 1 (collection page) | course page only (no per-question matches) | Systems and center of mass |
+| Unit 3: Work, Energy, and Power | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 1 (collection page) | course page only (no per-question matches) | none |
+| Unit 4: Linear Momentum | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 1 (collection page) | course page only (no per-question matches) | none |
+| Unit 5: Torque and Rotational Dynamics | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit 6: Energy and Momentum of Rotating Systems | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit 7: Oscillations | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 1 (collection page) | course page only (no per-question matches) | none |
+| Unit 8: Fluids | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
 
 ## AP Calculus AB
 
@@ -131,16 +214,16 @@ Unit outline source: [AP Calculus AB – AP Central (College Board)](https://apc
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam/past-exam-questions), plus whole released sets for 2026, 2025, 2024, 2023 (linked as whole exams, not matched to units).
 General resources (shown on every unit's Learn first page, labelled general): [OpenStax Calculus Volume 1 (whole book)](https://openstax.org/details/books/calculus-volume-1); [AP Calculus AB course overview (College Board)](https://apstudents.collegeboard.org/courses/ap-calculus-ab).
 
-| Unit | Status | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|
-| Unit 1: Limits and Continuity | practice-ready | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (lesson page, reading) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 2: Differentiation: Definition and Fundamental Properties | practice-ready | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (lesson page, reading) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 3: Differentiation: Composite, Implicit, and Inverse Functions | practice-ready | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 4: Contextual Applications of Differentiation | practice-ready | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 5: Analytical Applications of Differentiation | practice-ready | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 6: Integration and Accumulation of Change | practice-ready | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 7: Differential Equations | practice-ready | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 8: Applications of Integration | practice-ready | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Limits and Continuity | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (lesson page, reading) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit 2: Differentiation: Definition and Fundamental Properties | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (lesson page, reading) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit 3: Differentiation: Composite, Implicit, and Inverse Functions | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit 4: Contextual Applications of Differentiation | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit 5: Analytical Applications of Differentiation | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit 6: Integration and Accumulation of Change | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit 7: Differential Equations | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit 8: Applications of Integration | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
 
 ## AP Statistics
 
@@ -148,87 +231,87 @@ Unit outline source: [AP Statistics – AP Central (College Board)](https://apce
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-statistics/exam/past-exam-questions), plus whole released sets for 2026, 2025, 2024, 2023 (linked as whole exams, not matched to units). Released questions before 2027 were written for the earlier nine-unit course, so some (for example, inference for slopes) fall outside the 2026-27 course.
 General resources (shown on every unit's Learn first page, labelled general): [OpenStax Introductory Statistics 2e (whole book)](https://openstax.org/details/books/introductory-statistics-2e); [AP Statistics course overview (College Board)](https://apstudents.collegeboard.org/courses/ap-statistics).
 
-| Unit | Status | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|
-| Unit 1: Exploring One-Variable Data and Collecting Data | practice-ready | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (lesson page, reading) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 2: Probability, Random Variables, and Probability Distributions | practice-ready | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 3: Inference for Categorical Data: Proportions | practice-ready | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 4: Inference for Quantitative Data: Means | practice-ready | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (practice, reading) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 5: Regression Analysis | practice-ready | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Exploring One-Variable Data and Collecting Data | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (lesson page, reading) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit 2: Probability, Random Variables, and Probability Distributions | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit 3: Inference for Categorical Data: Proportions | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit 4: Inference for Quantitative Data: Means | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (practice, reading) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit 5: Regression Analysis | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
 
 ## AP Precalculus
 
 Unit outline source: [AP Precalculus – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-precalculus), verified 2026-10-09. College Board says Unit 4 is not assessed on the AP Exam.
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-precalculus/exam/past-exam-questions).
 
-| Unit | Status | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|
-| Unit 1: Polynomial and Rational Functions | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 2: Exponential and Logarithmic Functions | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 3: Trigonometric and Polar Functions | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 4: Functions Involving Parameters, Vectors, and Matrices | outline | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Polynomial and Rational Functions | practice-ready | no exclusion recorded | yes (3 sections) | 11 (3 / 5 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit 2: Exponential and Logarithmic Functions | practice-ready | no exclusion recorded | yes (3 sections) | 12 (4 / 6 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit 3: Trigonometric and Polar Functions | practice-ready | no exclusion recorded | yes (4 sections) | 12 (3 / 6 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit 4: Functions Involving Parameters, Vectors, and Matrices | practice-ready | not assessed (College Board); framework only | yes (3 sections) | 12 (3 / 6 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
 
 ## AP Calculus BC
 
 Unit outline source: [AP Calculus BC course overview (College Board) and AP Calculus AB – AP Students (College Board)](https://apcentral.collegeboard.org/media/pdf/ap-calculus-bc-course-overview.pdf), verified 2026-10-09. College Board's BC course overview says the course has ten units and names Units 9 and 10. Units 1–8 use the same titles as AP Calculus AB, because College Board publishes one course and exam description for both courses. The BC student page was not retrieved in this build, so per-unit topic lists are not included.
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-calculus-bc/exam/past-exam-questions).
 
-| Unit | Status | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|
-| Unit 1: Limits and Continuity | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 2: Differentiation: Definition and Fundamental Properties | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 3: Differentiation: Composite, Implicit, and Inverse Functions | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 4: Contextual Applications of Differentiation | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 5: Analytical Applications of Differentiation | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 6: Integration and Accumulation of Change | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 7: Differential Equations | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 8: Applications of Integration | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 10: Infinite Sequences and Series | outline | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Limits and Continuity | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 2: Differentiation: Definition and Fundamental Properties | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 3: Differentiation: Composite, Implicit, and Inverse Functions | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 4: Contextual Applications of Differentiation | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 5: Analytical Applications of Differentiation | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 6: Integration and Accumulation of Change | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 7: Differential Equations | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 8: Applications of Integration | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 10: Infinite Sequences and Series | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
 
 ## AP Physics 2: Algebra-Based
 
 Unit outline source: [AP Physics 2: Algebra-Based – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based), verified 2026-10-09.
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-physics-2/exam/past-exam-questions).
 
-| Unit | Status | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|
-| Unit 9: Thermodynamics | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 10: Electric Force, Field, and Potential | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 11: Electric Circuits | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 12: Magnetism and Electromagnetism | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 13: Geometric Optics | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 14: Waves, Sound, and Physical Optics | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 15: Modern Physics | outline | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|
+| Unit 9: Thermodynamics | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 10: Electric Force, Field, and Potential | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 11: Electric Circuits | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 12: Magnetism and Electromagnetism | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 13: Geometric Optics | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 14: Waves, Sound, and Physical Optics | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 15: Modern Physics | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
 
 ## AP Physics C: Mechanics
 
 Unit outline source: [AP Physics C: Mechanics – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics), verified 2026-10-09.
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-physics-c-mechanics/exam/past-exam-questions).
 
-| Unit | Status | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|
-| Unit 1: Kinematics | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 2: Force and Translational Dynamics | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 3: Work, Energy, and Power | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 4: Linear Momentum | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 5: Torque and Rotational Dynamics | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 6: Energy and Momentum of Rotating Systems | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 7: Oscillations | outline | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Kinematics | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 2: Force and Translational Dynamics | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 3: Work, Energy, and Power | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 4: Linear Momentum | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 5: Torque and Rotational Dynamics | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 6: Energy and Momentum of Rotating Systems | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 7: Oscillations | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
 
 ## AP Physics C: Electricity and Magnetism
 
 Unit outline source: [AP Physics C: Electricity and Magnetism – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism), verified 2026-10-09.
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism/exam/past-exam-questions).
 
-| Unit | Status | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|
-| Unit 8: Electric Charges, Fields, and Gauss’s Law | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 9: Electric Potential | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 10: Conductors and Capacitors | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 11: Electric Circuits | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 12: Magnetic Fields and Electromagnetism | outline | no | 0 | 0 | 0 | 0 | course page only | all |
-| Unit 13: Electromagnetic Induction | outline | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|
+| Unit 8: Electric Charges, Fields, and Gauss’s Law | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 9: Electric Potential | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 10: Conductors and Capacitors | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 11: Electric Circuits | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 12: Magnetic Fields and Electromagnetism | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
+| Unit 13: Electromagnetic Induction | outline | no exclusion recorded | no | 0 | 0 | 0 | 0 | course page only | all |
 
 ## Catalog entries without a unit outline
 
@@ -239,7 +322,7 @@ AP Research, AP Seminar, AP 2-D Art and Design, AP 3-D Art and Design, AP Drawin
 ## Known gaps
 
 - No individual College Board free-response question is matched to a unit. Doing so would require reading College Board exam content, which this project does not do, and most free-response questions span several units. Each unit links to the course's official past-exam-questions page instead. Any future `frqs` entry must be labelled approximate or spans-units unless the match is exact.
-- Units with no verified unit-specific outside resource (the interface says so and points to the review guide): AP Physics 1: Algebra-Based Unit 2, AP Physics 1: Algebra-Based Unit 3, AP Physics 1: Algebra-Based Unit 4, AP Physics 1: Algebra-Based Unit 5, AP Physics 1: Algebra-Based Unit 6, AP Physics 1: Algebra-Based Unit 7, AP Physics 1: Algebra-Based Unit 8.
+- Units with no verified unit-specific outside resource (the interface says so and points to the review guide): AP Precalculus Unit 1, AP Precalculus Unit 2, AP Precalculus Unit 3, AP Precalculus Unit 4, AP Physics 1: Algebra-Based Unit 2, AP Physics 1: Algebra-Based Unit 3, AP Physics 1: Algebra-Based Unit 4, AP Physics 1: Algebra-Based Unit 5, AP Physics 1: Algebra-Based Unit 6, AP Physics 1: Algebra-Based Unit 7, AP Physics 1: Algebra-Based Unit 8.
 - 5 video links point to a general collection page that lists the video, not to the video itself, because a direct address could not be verified: AP Physics 1: Algebra-Based Unit 1, AP Physics 1: Algebra-Based Unit 2, AP Physics 1: Algebra-Based Unit 3, AP Physics 1: Algebra-Based Unit 4, AP Physics 1: Algebra-Based Unit 7. They are labelled general.
 - Question review: every question is original. Numeric answers, the values behind wrong choices that come from a specific mistake, and every worked example were checked by computation; conceptual questions were checked by reading only. No question has been reviewed by a subject teacher, so a teacher review is recommended before classroom use.
 - Learn first links: Khan Academy pages are rendered by JavaScript, so they were verified by confirming the address loads with a matching canonical URL and by the page title in a search index, not by watching each video.

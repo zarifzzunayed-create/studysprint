@@ -4,6 +4,7 @@
  "officialUrl": "https://apcentral.collegeboard.org/courses/ap-physics-2",
  "studentUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
  "frameworkUrl": "https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf",
+ "frameworkVersion": "Not recorded at the last check; confirm the current edition of the Course and Exam Description.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-physics-2/exam/past-exam-questions",
   "note": null

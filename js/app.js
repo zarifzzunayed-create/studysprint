@@ -127,7 +127,8 @@
   // Unit list label: its readiness status, plus how many practice tests it really has.
   function unitLabel(c, u) {
     const t = (c.summary && c.summary.unitTests && c.summary.unitTests[u.id]) || 0;
-    return u.name + " — " + STATUS[u.status] + (t ? " · " + SS.plural(t, "practice test") : u.status === "practice-ready" ? " · no practice test yet" : "");
+    return u.name + " — " + STATUS[u.status] + (t ? " · " + SS.plural(t, "practice test") : u.status === "practice-ready" ? " · no practice test yet" : "") +
+      (u.examAssessed === false ? " · not on the AP Exam" : "");
   }
 
   function find(q) {
@@ -408,6 +409,8 @@
       go("overview"); return;
     }
     const ready = isReady(u), st = A().unitStats(u);
+    // Course framework and exam are kept apart: a unit College Board leaves off the exam says so up front.
+    if (meta.examAssessed === false) kids.push(h("p", "notice", meta.examNote));
     kids.push(h("p", null, h("span", "chip" + (ready ? " ok" : ""), ready ? "Practice-ready" : "Study content in progress"),
       h("span", "chip", u.guide.sections.length + " guide sections"),
       h("span", "chip", SS.plural(u.questions.length, "scored question")),
@@ -445,7 +448,8 @@
     }
     const run = S().getRun("test|" + u.key), inTests = new Set([].concat(...tests.map((t) => t.questionIds)));
     const left = u.questions.length - inTests.size;
-    box.append(h("p", null, "Each test is a short unit test of StudySprint's own original questions, not a full AP exam. Take it untimed, or timed at " +
+    box.append(h("p", null, "Each test is a short unit test of StudySprint's own original questions, not a full AP exam." +
+        (ST.unitMeta && ST.unitMeta.examAssessed === false ? " This unit is not assessed on the AP Exam, so its test practices course content, not exam content." : "") + " Take it untimed, or timed at " +
         testRules().minutesPerQuestion + " minutes per question (StudySprint's own pacing, not an official AP time limit). You see your score, explanations, and what to review after you submit."),
       h("ul", "res-list test-cards", tests.map((t) => testCard(u, t, run))),
       h("p", "why", tests.length === 1
@@ -502,7 +506,7 @@
     const u = ST.unit;
     ST.testBack = test.id;
     S().setCtx({ testId: test.id });
-    SS.testing.results($("v-test"), { unit: u, courseName: ST.course.name, unitName: ST.unitMeta.name, table, topicName, tests: (u.tests || []).length, announce,
+    SS.testing.results($("v-test"), { unit: u, courseName: ST.course.name, unitName: ST.unitMeta.name, table, topicName, tests: (u.tests || []).length, announce, notOnExam: ST.unitMeta.examAssessed === false,
       back: showOverview, retake: () => startTest(test, { timed: rec.timed }), unitResults: renderResults,
       retry: (qs) => { renderPractice(); startPractice({ queue: SS.shuffle(qs.slice()), title: "Retry missed questions: " + test.title }); },
       plan: (seed) => renderPlanner(seed), learn: () => renderLearn(), focused: startFocused }, test, rec);

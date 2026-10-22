@@ -4,6 +4,7 @@
  "officialUrl": "https://apcentral.collegeboard.org/courses/ap-precalculus/course",
  "studentUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
  "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf",
+ "frameworkVersion": "Not recorded at the last check; confirm the current edition of the Course and Exam Description.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-precalculus/exam/past-exam-questions",
   "note": null
@@ -18,8 +19,8 @@
   {
    "id": "u1",
    "name": "Unit 1: Polynomial and Rational Functions",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-precalculus/u1.json",
    "officialTopics": [
     "Describing how quantities change with respect to each other",
     "Describing end behavior of polynomial and rational functions",
@@ -31,8 +32,8 @@
   {
    "id": "u2",
    "name": "Unit 2: Exponential and Logarithmic Functions",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-precalculus/u2.json",
    "officialTopics": [
     "Relating geometric sequences and exponential functions",
     "Modeling data sets with exponential functions",
@@ -44,8 +45,8 @@
   {
    "id": "u3",
    "name": "Unit 3: Trigonometric and Polar Functions",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-precalculus/u3.json",
    "officialTopics": [
     "Relating right triangle trigonometry to the sine, cosine, and tangent functions",
     "Modeling data and scenarios with sinusoidal functions",
@@ -57,8 +58,10 @@
   {
    "id": "u4",
    "name": "Unit 4: Functions Involving Parameters, Vectors, and Matrices",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-precalculus/u4.json",
+   "examAssessed": false,
+   "examNote": "College Board's course framework includes this unit, but College Board says it is not assessed on the AP Exam (recorded from the AP Students course page, 2026-10-09). Practice here covers the course, not the exam.",
    "officialTopics": [
     "Describing how quantities change with respect to each other in a parametric function",
     "Graphing conic sections using implicitly defined functions and parametric functions",

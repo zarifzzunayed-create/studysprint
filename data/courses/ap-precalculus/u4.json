@@ -1,0 +1,471 @@
+{
+ "courseId": "ap-precalculus",
+ "unitId": "u4",
+ "title": "Unit 4: Functions Involving Parameters, Vectors, and Matrices",
+ "topics": [
+  {
+   "id": "pc4-param",
+   "name": "Parametric functions and conic sections",
+   "covers": [
+    "Describing how quantities change with respect to each other in a parametric function",
+    "Graphing conic sections using implicitly defined functions and parametric functions"
+   ]
+  },
+  {
+   "id": "pc4-vec",
+   "name": "Vectors and motion",
+   "covers": [
+    "Using vectors to describe motion of an object"
+   ]
+  },
+  {
+   "id": "pc4-mat",
+   "name": "Matrices and transformations",
+   "covers": [
+    "Describing the impact of a transformation matrix on a graphical object",
+    "Modeling change in a context using matrices"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Parameters, vectors, and matrices: review guide",
+  "intro": "College Board's course framework includes this unit but says it is not assessed on the AP Exam, so check whether your course covers it. It describes motion and curves with parametric equations, uses vectors for direction and speed, and uses matrices to transform shapes and model change between states. Matrices are written by rows, with a semicolon between rows: [a b; c d].",
+  "sections": [
+   {
+    "id": "s-pc4-param",
+    "topicId": "pc4-param",
+    "title": "Parametric functions and conic sections",
+    "body": [
+     "A parametric function gives x and y separately in terms of a parameter t: (x(t), y(t)). It can trace a path over time, including curves that are not functions of x.",
+     "Conic sections can be written implicitly or parametrically. Circle: (x − h)² + (y − k)² = r², or x = h + r cos t, y = k + r sin t. Ellipse: (x − h)²/a² + (y − k)²/b² = 1. Hyperbola: (x − h)²/a² − (y − k)²/b² = 1 opens left and right; when the y-term is the positive one, it opens up and down."
+    ],
+    "points": [
+     "To eliminate the parameter, solve one equation for t and substitute, or use cos²t + sin²t = 1.",
+     "The average rate of change of y with respect to x between two parameter values is Δy/Δx = (y(t₂) − y(t₁)) / (x(t₂) − x(t₁)).",
+     "A parabola can open up or down, y = a(x − h)² + k, or sideways, x = a(y − k)² + h."
+    ]
+   },
+   {
+    "id": "s-pc4-vec",
+    "topicId": "pc4-vec",
+    "title": "Vectors and motion",
+    "body": [
+     "A vector ⟨a, b⟩ has magnitude √(a² + b²) and a direction. Add vectors component by component; multiplying by a number stretches the vector or, if the number is negative, reverses it.",
+     "An object that starts at point P and moves with constant velocity vector v is at P + t·v after t units of time, and its speed is |v|."
+    ],
+    "points": [
+     "Dot product: ⟨a, b⟩·⟨c, d⟩ = ac + bd = |u||v|cos θ. A dot product of 0 means the vectors are perpendicular.",
+     "A unit vector in the direction of v is v/|v|.",
+     "A vector with magnitude m at angle θ is ⟨m cos θ, m sin θ⟩."
+    ]
+   },
+   {
+    "id": "s-pc4-mat",
+    "topicId": "pc4-mat",
+    "title": "Matrices and transformations",
+    "body": [
+     "The matrix [a b; c d] sends the point (x, y) to (ax + by, cx + dy). Its determinant ad − bc tells how areas change: areas are multiplied by |ad − bc|, and a negative determinant also flips the figure (reverses orientation).",
+     "A transition matrix moves amounts between states at each step. Apply it once per step to predict later states."
+    ],
+    "points": [
+     "[0 −1; 1 0] rotates points 90° counterclockwise about the origin; [1 0; 0 −1] reflects them across the x-axis.",
+     "The inverse of [a b; c d] is (1/(ad − bc))·[d −b; −c a], when ad − bc ≠ 0.",
+     "Matrix multiplication is not commutative: AB and BA are usually different."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "The matrix [2 0; 0 3] is applied to the point A = (1, 2). Where does A go, and how does this matrix change the area of a figure?",
+   "solution": "(2·1 + 0·2, 0·1 + 3·2) = (2, 6). The determinant is 2·3 − 0·0 = 6, so every area is multiplied by 6."
+  },
+  "misconceptions": [
+   [
+    "“The magnitude of ⟨3, −4⟩ is 3 + (−4).”",
+    "Magnitude uses the Pythagorean theorem: √(3² + (−4)²) = 5."
+   ],
+   [
+    "“A negative determinant gives a negative area.”",
+    "Areas scale by the absolute value of the determinant; the sign only says the figure is flipped."
+   ],
+   [
+    "“x = 2t, y = t² gives the point (t, t²).”",
+    "Each coordinate comes from its own equation: at t = 3 the point is (6, 9)."
+   ],
+   [
+    "“AB = BA for matrices.”",
+    "Order matters; the matrix applied first is written on the right."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Precalculus Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+  "sourceTitle": "AP Precalculus – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-21"
+ },
+ "questions": [
+  {
+   "id": "pc-u4-q01",
+   "courseId": "ap-precalculus",
+   "unitId": "u4",
+   "topicId": "pc4-param",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A particle moves with x(t) = 2t and y(t) = t² + 1. Where is it at t = 3?",
+   "choices": [
+    "(6, 10)",
+    "(3, 10)",
+    "(6, 9)",
+    "(10, 6)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "x(3) = 2·3 = 6 and y(3) = 3² + 1 = 10, so the particle is at (6, 10).",
+   "choiceExplanations": [
+    "",
+    "3 is the value of t, not of x; x(3) = 2·3 = 6.",
+    "y(3) = 3² + 1 = 10; the +1 was left out.",
+    "The coordinates are swapped: the point is (x, y) = (6, 10)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u4-q02",
+   "courseId": "ap-precalculus",
+   "unitId": "u4",
+   "topicId": "pc4-param",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which equation describes the path x = 2cos t, y = 5sin t?",
+   "choices": [
+    "x²/4 + y²/25 = 1",
+    "x² + y² = 1",
+    "x²/2 + y²/5 = 1",
+    "4x² + 25y² = 1"
+   ],
+   "correctAnswer": 0,
+   "explanation": "cos t = x/2 and sin t = y/5. Since cos²t + sin²t = 1, (x/2)² + (y/5)² = 1, which is x²/4 + y²/25 = 1: an ellipse.",
+   "choiceExplanations": [
+    "",
+    "This is the unit circle; it ignores the factors 2 and 5.",
+    "The denominators must be squared: (x/2)² = x²/4.",
+    "This multiplies by 4 and 25 instead of dividing; it describes a much smaller ellipse."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u4-q03",
+   "courseId": "ap-precalculus",
+   "unitId": "u4",
+   "topicId": "pc4-param",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For x(t) = t² and y(t) = 3t, what is the average rate of change of y with respect to x from t = 1 to t = 3?",
+   "choices": [
+    "3/4",
+    "4/3",
+    "3",
+    "4"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Δy = y(3) − y(1) = 9 − 3 = 6 and Δx = x(3) − x(1) = 9 − 1 = 8, so Δy/Δx = 6/8 = 3/4.",
+   "choiceExplanations": [
+    "",
+    "4/3 is Δx/Δy, the ratio upside down.",
+    "3 is Δy/Δt, the rate of y with respect to t, not with respect to x.",
+    "4 is Δx/Δt, the rate of x with respect to t."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u4-q04",
+   "courseId": "ap-precalculus",
+   "unitId": "u4",
+   "topicId": "pc4-param",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which describes the graph of (x − 1)²/9 − (y + 2)²/4 = 1?",
+   "choices": [
+    "A hyperbola centered at (1, −2) that opens left and right",
+    "An ellipse centered at (1, −2)",
+    "A hyperbola centered at (−1, 2) that opens left and right",
+    "A hyperbola centered at (1, −2) that opens up and down"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A difference of squared terms equal to 1 is a hyperbola. The center is (1, −2), and because the x-term is the positive one, the branches open left and right, with vertices at (1 ± 3, −2).",
+   "choiceExplanations": [
+    "",
+    "An ellipse has a sum of squared terms; this equation has a difference.",
+    "The signs are reversed: (x − 1) and (y + 2) give the center (1, −2).",
+    "It would open up and down if the y-term were the positive one."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u4-q05",
+   "courseId": "ap-precalculus",
+   "unitId": "u4",
+   "topicId": "pc4-vec",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the magnitude of the vector ⟨3, −4⟩?",
+   "choices": [
+    "5",
+    "7",
+    "−1",
+    "25"
+   ],
+   "correctAnswer": 0,
+   "explanation": "|⟨3, −4⟩| = √(3² + (−4)²) = √25 = 5.",
+   "choiceExplanations": [
+    "",
+    "7 adds the absolute values 3 + 4; magnitude uses the Pythagorean theorem.",
+    "−1 adds the components; a magnitude is never negative.",
+    "25 is the sum of the squares; the square root is still needed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u4-q06",
+   "courseId": "ap-precalculus",
+   "unitId": "u4",
+   "topicId": "pc4-vec",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How are the vectors u = ⟨2, 1⟩ and v = ⟨−1, 2⟩ related?",
+   "choices": [
+    "They are perpendicular",
+    "They are parallel",
+    "They point in the same direction",
+    "The angle between them is 45°"
+   ],
+   "correctAnswer": 0,
+   "explanation": "u·v = 2(−1) + 1(2) = 0. A dot product of 0 means the angle between the vectors is 90°.",
+   "choiceExplanations": [
+    "",
+    "Parallel vectors are multiples of each other, and no number times ⟨2, 1⟩ gives ⟨−1, 2⟩.",
+    "Vectors pointing the same way have a positive dot product equal to |u||v|; here it is 0.",
+    "At 45°, u·v = |u||v|cos 45° would be positive, not 0."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u4-q07",
+   "courseId": "ap-precalculus",
+   "unitId": "u4",
+   "topicId": "pc4-vec",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "An object starts at (1, 2) and moves with constant velocity ⟨3, −1⟩ units per second. Where is it after 4 seconds, and what is its speed?",
+   "choices": [
+    "(13, −2), speed √10 units per second",
+    "(13, −2), speed 4 units per second",
+    "(12, −4), speed √10 units per second",
+    "(13, −2), speed 10 units per second"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Position = (1, 2) + 4⟨3, −1⟩ = (1 + 12, 2 − 4) = (13, −2). Speed = |⟨3, −1⟩| = √(9 + 1) = √10 ≈ 3.16 units per second.",
+   "choiceExplanations": [
+    "",
+    "4 is the elapsed time; speed is the magnitude of the velocity vector, √10.",
+    "(12, −4) is only the displacement 4⟨3, −1⟩; the starting point (1, 2) must be added.",
+    "10 is 3² + (−1)²; the square root is still needed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u4-q08",
+   "courseId": "ap-precalculus",
+   "unitId": "u4",
+   "topicId": "pc4-mat",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the determinant of the matrix [3 1; 2 4]?",
+   "choices": [
+    "10",
+    "14",
+    "−10",
+    "12"
+   ],
+   "correctAnswer": 0,
+   "explanation": "For [a b; c d] the determinant is ad − bc = 3·4 − 1·2 = 12 − 2 = 10.",
+   "choiceExplanations": [
+    "",
+    "14 adds the products, ad + bc; the determinant subtracts them.",
+    "−10 is bc − ad; the order is ad − bc.",
+    "12 is only ad; bc = 2 must still be subtracted."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u4-q09",
+   "courseId": "ap-precalculus",
+   "unitId": "u4",
+   "topicId": "pc4-mat",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The matrix [0 −1; 1 0] is applied to the point (2, 1). Where does the point go, and what transformation is this?",
+   "choices": [
+    "(−1, 2), a 90° counterclockwise rotation about the origin",
+    "(1, −2), a 90° clockwise rotation about the origin",
+    "(1, 2), a reflection across the line y = x",
+    "(−2, −1), a 180° rotation about the origin"
+   ],
+   "correctAnswer": 0,
+   "explanation": "(0·2 + (−1)·1, 1·2 + 0·1) = (−1, 2). This matrix sends (x, y) to (−y, x), which rotates every point 90° counterclockwise about the origin.",
+   "choiceExplanations": [
+    "",
+    "(1, −2) is the clockwise rotation, which comes from [0 1; −1 0].",
+    "(1, 2) swaps the coordinates without changing a sign; that is the matrix [0 1; 1 0].",
+    "(−2, −1) negates both coordinates, which is the matrix [−1 0; 0 −1]."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u4-q10",
+   "courseId": "ap-precalculus",
+   "unitId": "u4",
+   "topicId": "pc4-mat",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A transformation matrix has determinant −3. It is applied to a triangle with an area of 5 square units. What is the area of the image?",
+   "choices": [
+    "15 square units",
+    "−15 square units",
+    "5/3 square units",
+    "45 square units"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Areas are multiplied by |det| = 3, so the image has area 15. The negative sign means the image is flipped (its orientation is reversed), not that its area is negative.",
+   "choiceExplanations": [
+    "",
+    "An area cannot be negative; the sign of the determinant only reports a flip.",
+    "The area is multiplied by |det|, not divided by it.",
+    "45 multiplies by det² = 9; areas scale by |det|."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u4-q11",
+   "courseId": "ap-precalculus",
+   "unitId": "u4",
+   "topicId": "pc4-mat",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Each week, 80% of store A's customers stay with A and 20% switch to store B, while 70% of B's customers stay with B and 30% switch to A. This week each store has 100 customers. Using this model, how many customers will store A have in 2 weeks?",
+   "choices": [
+    "115",
+    "110",
+    "120",
+    "100"
+   ],
+   "correctAnswer": 0,
+   "explanation": "After 1 week: A = 0.8(100) + 0.3(100) = 110 and B = 0.2(100) + 0.7(100) = 90. After 2 weeks: A = 0.8(110) + 0.3(90) = 88 + 27 = 115.",
+   "choiceExplanations": [
+    "",
+    "110 is the number after 1 week; the transition has to be applied twice.",
+    "120 adds the first week's gain of 10 again, as if the change were constant. The gain shrinks because B has fewer customers left to lose.",
+    "A gains customers each week, because 30% of B's customers switch to A while only 20% of A's leave."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u4-q12",
+   "courseId": "ap-precalculus",
+   "unitId": "u4",
+   "topicId": "pc4-mat",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the inverse of the matrix A = [2 1; 5 3]?",
+   "choices": [
+    "[3 −1; −5 2]",
+    "[3 1; 5 2]",
+    "[1/2 1; 1/5 1/3]",
+    "[2 −1; −5 3]"
+   ],
+   "correctAnswer": 0,
+   "explanation": "det A = 2·3 − 1·5 = 1, so A⁻¹ = (1/1)·[3 −1; −5 2]. Check: A·A⁻¹ = [6 − 5, −2 + 2; 15 − 15, −5 + 6] = [1 0; 0 1].",
+   "choiceExplanations": [
+    "",
+    "This swaps the diagonal entries but does not negate the other two.",
+    "Taking the reciprocal of each entry does not invert a matrix.",
+    "This negates the off-diagonal entries but does not swap the diagonal entries 2 and 3."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "College Board states that Unit 4 is not assessed on the AP Exam, so the course's released free-response questions do not cover it. This unit is here for students whose course includes it.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "pc-u4-q01",
+    "pc-u4-q02",
+    "pc-u4-q03",
+    "pc-u4-q05",
+    "pc-u4-q06",
+    "pc-u4-q07",
+    "pc-u4-q08",
+    "pc-u4-q11"
+   ]
+  }
+ ]
+}

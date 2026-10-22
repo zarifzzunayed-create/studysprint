@@ -185,7 +185,9 @@ const unit = (c, u) => JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'cou
   T.ok(out.status !== 0 && /shares questions with another test/.test(out.stdout), 'the build rejects a second test that only reorders the first test\'s questions');
   fs.rmSync(tmp, { recursive: true, force: true });
   const status = fs.readFileSync(path.join(T.ROOT, 'CONTENT_STATUS.md'), 'utf8');
-  T.ok(/## Practice tests/.test(status) && /\| Unit 1: Kinematics \| 14 \| 1 \(8\) \| 6 \| 1 \| 10 \|/.test(status) && /21 practice tests in 21 units/.test(status), 'CONTENT_STATUS.md reports tests, capacity and the original questions still needed');
+  const cat = JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'catalog.json'))), sums = cat.courses.filter(c => c.summary).map(c => c.summary);
+  const nTests = sums.reduce((a, s) => a + s.tests, 0), nUnits = sums.reduce((a, s) => a + Object.keys(s.unitTests).length, 0);
+  T.ok(/## Practice tests/.test(status) && /\| Unit 1: Kinematics \| 14 \| 1 \(8\) \| 6 \| 1 \| 10 \|/.test(status) && status.includes(nTests + ' practice tests in ' + nUnits + ' units'), 'CONTENT_STATUS.md reports tests, capacity and the original questions still needed (' + nTests + ' tests in ' + nUnits + ' units)');
 
   console.log(T.summary()); await b.close();
 })().catch(e => { console.error(e); process.exit(1); });
