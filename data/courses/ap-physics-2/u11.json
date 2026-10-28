@@ -1,0 +1,518 @@
+{
+ "courseId": "ap-physics-2",
+ "unitId": "u11",
+ "title": "Unit 11: Electric Circuits",
+ "topics": [
+  {
+   "id": "p11-current",
+   "name": "Current, resistance, and resistivity",
+   "covers": [
+    "Definition and conservation of electric charge",
+    "Resistivity and resistance"
+   ]
+  },
+  {
+   "id": "p11-circuits",
+   "name": "Series, parallel, and Kirchhoff's rules",
+   "covers": [
+    "Kirchhoff’s loop rule",
+    "Kirchhoff’s junction rule and the conservation of electric charge"
+   ]
+  },
+  {
+   "id": "p11-cap",
+   "name": "Capacitors and RC circuits",
+   "covers": [
+    "Resistance and capacitance"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Electric circuits: review guide",
+  "intro": "Circuits put charge to work. This unit uses conservation of charge and energy, written as Kirchhoff's rules, to find currents and potential differences in networks of resistors and capacitors.",
+  "equationNote": "Batteries and wires are ideal (no internal resistance) unless a question says otherwise. ε₀ = 8.85 × 10⁻¹² C²/(N·m²).",
+  "sections": [
+   {
+    "id": "s-p11-current",
+    "topicId": "p11-current",
+    "title": "Current, resistance, and resistivity",
+    "body": [
+     "Current is the rate at which charge passes a point: I = ΔQ/Δt, in amperes (1 A = 1 C/s). Charge is conserved, so in a single loop the current is the same everywhere.",
+     "Resistance depends on the material and the shape: R = ρL/A. Ohm's law, ΔV = IR, relates the potential difference across a resistor to the current through it. Power is P = IΔV = I²R = (ΔV)²/R."
+    ],
+    "points": [
+     "Longer wires have more resistance and thicker wires have less. A wire's cross-sectional area grows with the square of its diameter.",
+     "Resistivity ρ is a property of the material (and its temperature), not of the wire's shape.",
+     "A bulb's brightness depends on the power it uses."
+    ],
+    "equations": [
+     [
+      "I = ΔQ/Δt",
+      "current"
+     ],
+     [
+      "R = ρL/A",
+      "resistance from resistivity"
+     ],
+     [
+      "ΔV = IR",
+      "Ohm's law"
+     ],
+     [
+      "P = IΔV",
+      "electric power"
+     ]
+    ]
+   },
+   {
+    "id": "s-p11-circuits",
+    "topicId": "p11-circuits",
+    "title": "Series, parallel, and Kirchhoff's rules",
+    "body": [
+     "Junction rule (conservation of charge): the total current into a junction equals the total current out. Loop rule (conservation of energy): the potential differences around any closed loop add to zero.",
+     "Resistors in series carry the same current, and their resistances add: R = R₁ + R₂ + …. Resistors in parallel have the same potential difference, and 1/R = 1/R₁ + 1/R₂ + …, so the equivalent resistance is smaller than any single branch."
+    ],
+    "points": [
+     "Reduce a circuit step by step: combine parallel groups, then series groups, then work back out to each resistor.",
+     "With an ideal battery, each parallel branch works independently: removing one branch does not change the others.",
+     "Series resistors share the battery's potential difference in proportion to their resistances."
+    ],
+    "equations": [
+     [
+      "ΣI_in = ΣI_out",
+      "junction rule"
+     ],
+     [
+      "ΣΔV = 0 around any loop",
+      "loop rule"
+     ]
+    ]
+   },
+   {
+    "id": "s-p11-cap",
+    "topicId": "p11-cap",
+    "title": "Capacitors and RC circuits",
+    "body": [
+     "A capacitor stores separated charge: Q = CΔV. A parallel-plate capacitor has C = κε₀A/d, so larger plates, closer plates, or a dielectric between them increase C. The stored energy is U = ½QΔV = ½C(ΔV)².",
+     "In an RC circuit, an uncharged capacitor first acts like a plain wire, so the current starts at ΔV/R. Once fully charged it acts like a break in the circuit, and the current falls to zero. The time constant τ = RC sets how quickly this happens."
+    ],
+    "points": [
+     "Capacitors in parallel add: C = C₁ + C₂. In series: 1/C = 1/C₁ + 1/C₂.",
+     "After about 5τ a capacitor is essentially fully charged or fully discharged.",
+     "No charge crosses the gap: charge flows onto one plate and off the other."
+    ],
+    "equations": [
+     [
+      "Q = CΔV",
+      "definition of capacitance"
+     ],
+     [
+      "C = κε₀A/d",
+      "parallel-plate capacitor"
+     ],
+     [
+      "U = ½C(ΔV)²",
+      "energy stored"
+     ],
+     [
+      "τ = RC",
+      "time constant"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 9.0 V battery drives current through a 2.0 Ω resistor in series with a parallel pair of 4.0 Ω resistors. Find the current from the battery and the current in each 4.0 Ω resistor.",
+   "solution": "The parallel pair is equivalent to 2.0 Ω, so the total resistance is 4.0 Ω and I = 9.0 V ÷ 4.0 Ω = 2.25 A. By the junction rule, the current splits equally between the identical branches: about 1.1 A each."
+  },
+  "misconceptions": [
+   [
+    "“Current is used up as it flows through resistors.”",
+    "Charge is conserved, so the current is the same everywhere in a single loop; energy, not charge, is transferred."
+   ],
+   [
+    "“Adding a resistor in parallel increases the total resistance.”",
+    "It adds another path, so the equivalent resistance decreases."
+   ],
+   [
+    "“A battery supplies a fixed current.”",
+    "An ideal battery supplies a fixed potential difference; the current depends on the circuit."
+   ],
+   [
+    "“Charge flows through a capacitor's gap.”",
+    "Charge builds up on the plates; none crosses between them."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 2 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+  "sourceTitle": "AP Physics 2: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "ph2u11-q01",
+   "courseId": "ap-physics-2",
+   "unitId": "u11",
+   "topicId": "p11-current",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A current of 2.0 A flows in a wire for 30 s. How much charge passes a point in the wire?",
+   "choices": [
+    "60 C",
+    "15 C",
+    "0.067 C",
+    "32 C"
+   ],
+   "correctAnswer": 0,
+   "explanation": "ΔQ = IΔt = (2.0 A)(30 s) = 60 C.",
+   "choiceExplanations": [
+    "",
+    "15 C divides the time by the current; charge is current multiplied by time.",
+    "0.067 C divides the current by the time.",
+    "32 C adds the current and the time, which have different units."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u11-q02",
+   "courseId": "ap-physics-2",
+   "unitId": "u11",
+   "topicId": "p11-current",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A wire has resistance R. A second wire of the same material is twice as long and has twice the diameter. What is its resistance?",
+   "choices": [
+    "R/2",
+    "2R",
+    "R",
+    "R/4"
+   ],
+   "correctAnswer": 0,
+   "explanation": "R = ρL/A. Doubling the length doubles R. Doubling the diameter multiplies the area by 2² = 4, which divides R by 4. Together: R × 2/4 = R/2.",
+   "choiceExplanations": [
+    "",
+    "2R accounts for the longer length but not for the thicker wire.",
+    "R treats the area as doubling, but area grows with the square of the diameter, so it quadruples.",
+    "R/4 accounts for the larger area but not for the doubled length."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u11-q03",
+   "courseId": "ap-physics-2",
+   "unitId": "u11",
+   "topicId": "p11-current",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A bulb uses 60 W when connected to 120 V. What are the current through it and its resistance?",
+   "choices": [
+    "0.50 A and 240 Ω",
+    "2.0 A and 60 Ω",
+    "0.50 A and 0.0042 Ω",
+    "7200 A and 0.017 Ω"
+   ],
+   "correctAnswer": 0,
+   "explanation": "I = P/ΔV = 60 W ÷ 120 V = 0.50 A, and R = ΔV/I = 120 V ÷ 0.50 A = 240 Ω.",
+   "choiceExplanations": [
+    "",
+    "2.0 A is ΔV/P, the ratio upside down; P = IΔV gives I = P/ΔV.",
+    "The current is right, but 0.0042 Ω is I/ΔV; resistance is ΔV/I.",
+    "7200 A multiplies power by voltage; current is power divided by voltage."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u11-q04",
+   "courseId": "ap-physics-2",
+   "unitId": "u11",
+   "topicId": "p11-circuits",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 3.0 Ω resistor and a 6.0 Ω resistor are connected in series to an 18 V battery. What is the current in the circuit?",
+   "choices": [
+    "2.0 A",
+    "9.0 A",
+    "6.0 A",
+    "0.50 A"
+   ],
+   "correctAnswer": 0,
+   "explanation": "In series the resistances add: 3.0 + 6.0 = 9.0 Ω. I = 18 V ÷ 9.0 Ω = 2.0 A.",
+   "choiceExplanations": [
+    "",
+    "9.0 A uses the parallel combination, 2.0 Ω; these resistors are in series.",
+    "6.0 A uses only the 3.0 Ω resistor; in series the current passes through both.",
+    "0.50 A is R/ΔV, the ratio upside down."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u11-q05",
+   "courseId": "ap-physics-2",
+   "unitId": "u11",
+   "topicId": "p11-circuits",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 3.0 Ω resistor and a 6.0 Ω resistor are connected in parallel to an 18 V battery. What is the total current from the battery?",
+   "choices": [
+    "9.0 A",
+    "2.0 A",
+    "6.0 A",
+    "3.0 A"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Each branch has the full 18 V across it: 18/3.0 = 6.0 A and 18/6.0 = 3.0 A. By the junction rule the battery supplies 6.0 + 3.0 = 9.0 A (equivalently, 18 V ÷ 2.0 Ω).",
+   "choiceExplanations": [
+    "",
+    "2.0 A treats the resistors as if they were in series.",
+    "6.0 A is the current in the 3.0 Ω branch only.",
+    "3.0 A is the current in the 6.0 Ω branch only."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u11-q06",
+   "courseId": "ap-physics-2",
+   "unitId": "u11",
+   "topicId": "p11-circuits",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "At a junction, 5.0 A flows in through one wire and 2.0 A flows out through a second wire. What is the current in the third wire?",
+   "choices": [
+    "3.0 A out of the junction",
+    "3.0 A into the junction",
+    "7.0 A out of the junction",
+    "7.0 A into the junction"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Junction rule: current in = current out. 5.0 A = 2.0 A + I, so 3.0 A must flow out through the third wire.",
+   "choiceExplanations": [
+    "",
+    "3.0 A in would make 8.0 A in and only 2.0 A out, which breaks conservation of charge.",
+    "7.0 A out would make 9.0 A out with only 5.0 A in.",
+    "7.0 A in adds the two given currents instead of balancing them."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u11-q07",
+   "courseId": "ap-physics-2",
+   "unitId": "u11",
+   "topicId": "p11-circuits",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 12 V battery is connected to a 2.0 Ω resistor in series with a parallel pair of resistors, 6.0 Ω and 3.0 Ω. What is the potential difference across the 2.0 Ω resistor?",
+   "choices": [
+    "6.0 V",
+    "2.2 V",
+    "4.0 V",
+    "12 V"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The parallel pair is equivalent to (6.0 × 3.0)/(6.0 + 3.0) = 2.0 Ω, so the total resistance is 4.0 Ω and I = 12 ÷ 4.0 = 3.0 A. Across the 2.0 Ω resistor, ΔV = IR = 3.0 × 2.0 = 6.0 V; by the loop rule the parallel pair gets the other 6.0 V.",
+   "choiceExplanations": [
+    "",
+    "2.2 V treats the 6.0 Ω and 3.0 Ω resistors as if they were in series (11 Ω in total).",
+    "4.0 V splits the 12 V equally among three resistors, but they do not share it equally.",
+    "12 V is the whole battery; the loop rule shares it between the resistor and the parallel pair."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u11-q08",
+   "courseId": "ap-physics-2",
+   "unitId": "u11",
+   "topicId": "p11-circuits",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Two identical bulbs are connected in parallel across an ideal battery. One bulb burns out. What happens to the other bulb?",
+   "choices": [
+    "Its brightness does not change",
+    "It gets brighter",
+    "It gets dimmer",
+    "It goes out"
+   ],
+   "correctAnswer": 0,
+   "explanation": "With an ideal battery, each parallel branch has the full battery voltage across it whatever the other branch does. The working bulb keeps the same voltage, current, and power, so its brightness does not change. (The battery supplies less total current.)",
+   "choiceExplanations": [
+    "",
+    "The current that went to the burned-out bulb is not redirected; each branch's current is set by its own voltage and resistance.",
+    "Its voltage stays equal to the battery voltage, so its power stays the same.",
+    "It is on its own complete path to the battery, so it stays lit."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u11-q09",
+   "courseId": "ap-physics-2",
+   "unitId": "u11",
+   "topicId": "p11-cap",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 4.0 μF capacitor is charged to 12 V. How much charge is on each plate?",
+   "choices": [
+    "48 μC",
+    "3.0 μC",
+    "0.33 μC",
+    "288 μC"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Q = CΔV = (4.0 μF)(12 V) = 48 μC.",
+   "choiceExplanations": [
+    "",
+    "3.0 μC is ΔV/C; charge is capacitance multiplied by potential difference.",
+    "0.33 μC is C/ΔV.",
+    "288 is ½C(ΔV)² = 288 μJ, the stored energy, not the charge."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u11-q10",
+   "courseId": "ap-physics-2",
+   "unitId": "u11",
+   "topicId": "p11-cap",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The plates of an air-filled parallel-plate capacitor are pulled twice as far apart. What happens to its capacitance?",
+   "choices": [
+    "It halves",
+    "It doubles",
+    "It stays the same",
+    "It becomes one quarter as large"
+   ],
+   "correctAnswer": 0,
+   "explanation": "C = ε₀A/d, so doubling the plate separation d halves the capacitance.",
+   "choiceExplanations": [
+    "",
+    "A larger gap reduces the capacitance, because d is in the denominator.",
+    "Capacitance depends on the plate area and separation, so changing d changes C.",
+    "C is proportional to 1/d, not 1/d²."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u11-q11",
+   "courseId": "ap-physics-2",
+   "unitId": "u11",
+   "topicId": "p11-cap",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "An uncharged capacitor is connected in series with a resistor R, a battery of potential difference ΔV, and an open switch. The switch is closed. How does the current change over time?",
+   "choices": [
+    "It starts at ΔV/R and decreases toward zero",
+    "It starts at zero and increases toward ΔV/R",
+    "It stays at ΔV/R the whole time",
+    "It is zero the whole time, because charge cannot cross the capacitor's gap"
+   ],
+   "correctAnswer": 0,
+   "explanation": "At first the uncharged capacitor has no potential difference across it, so the whole ΔV is across R and I = ΔV/R. As charge builds up on the plates, the capacitor's potential difference grows, the resistor's shrinks, and the current falls toward zero.",
+   "choiceExplanations": [
+    "",
+    "This is backward: the current is largest at the start, when the capacitor has no charge to oppose the battery.",
+    "The current changes because the capacitor's potential difference grows as it charges.",
+    "No charge crosses the gap, but charge does flow onto one plate and off the other, so there is a current while the capacitor charges."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u11-q12",
+   "courseId": "ap-physics-2",
+   "unitId": "u11",
+   "topicId": "p11-cap",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How much energy is stored in a 10 μF capacitor charged to 20 V?",
+   "choices": [
+    "2.0 × 10⁻³ J",
+    "4.0 × 10⁻³ J",
+    "2.0 × 10⁻⁴ J",
+    "1.0 × 10⁻⁴ J"
+   ],
+   "correctAnswer": 0,
+   "explanation": "U = ½C(ΔV)² = ½(10 × 10⁻⁶ F)(20 V)² = ½(10 × 10⁻⁶)(400) = 2.0 × 10⁻³ J.",
+   "choiceExplanations": [
+    "",
+    "4.0 × 10⁻³ J is C(ΔV)², without the factor ½.",
+    "2.0 × 10⁻⁴ is CΔV, which is the charge in coulombs, not the energy.",
+    "1.0 × 10⁻⁴ J is ½CΔV; the potential difference must be squared."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ph2u11-q01",
+    "ph2u11-q02",
+    "ph2u11-q03",
+    "ph2u11-q04",
+    "ph2u11-q05",
+    "ph2u11-q07",
+    "ph2u11-q09",
+    "ph2u11-q11"
+   ]
+  }
+ ]
+}

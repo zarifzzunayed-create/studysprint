@@ -4,6 +4,7 @@
  "officialUrl": "https://apcentral.collegeboard.org/courses/ap-physics-2",
  "studentUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
  "frameworkUrl": "https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf",
+ "frameworkVersion": "Not recorded at the last check; confirm the current edition of the Course and Exam Description.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-physics-2/exam/past-exam-questions",
   "note": null
@@ -14,12 +15,29 @@
   "verified": "2026-10-09",
   "note": null
  },
+ "topicNameCheck": {
+  "checked": "2026-10-22",
+  "source": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+  "how": "The repository owner checked the live AP Students page and confirmed that it lists Units 9–15 and includes the topics named under matched; the unit titles also agree with College Board course-overview listings returned by a web search that day. StudySprint's build environment could not open College Board's site, so it did not re-read the page itself. This withdraws the earlier warning that these names looked like pre-2024-25 wording: the current page uses them.",
+  "matched": [
+   "Unit 9: Thermodynamics",
+   "Unit 10: Electric Force, Field, and Potential",
+   "Unit 11: Electric Circuits",
+   "Unit 12: Magnetism and Electromagnetism",
+   "Unit 13: Geometric Optics",
+   "Unit 14: Waves, Sound, and Physical Optics",
+   "Unit 15: Modern Physics",
+   "Thermodynamics and collisions",
+   "Forces review"
+  ],
+  "mismatched": []
+ },
  "units": [
   {
    "id": "u9",
    "name": "Unit 9: Thermodynamics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u9.json",
    "officialTopics": [
     "Thermodynamic systems",
     "Pressure, thermal equilibrium, and the Ideal Gas Law",
@@ -32,8 +50,8 @@
   {
    "id": "u10",
    "name": "Unit 10: Electric Force, Field, and Potential",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u10.json",
    "officialTopics": [
     "Electric systems and charge",
     "Charge distribution: Friction, conduction, and induction",
@@ -48,8 +66,8 @@
   {
    "id": "u11",
    "name": "Unit 11: Electric Circuits",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u11.json",
    "officialTopics": [
     "Definition and conservation of electric charge",
     "Resistivity and resistance",
@@ -61,8 +79,8 @@
   {
    "id": "u12",
    "name": "Unit 12: Magnetism and Electromagnetism",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u12.json",
    "officialTopics": [
     "Magnetic systems",
     "Magnetic permeability and magnetic dipole moment",
@@ -76,8 +94,8 @@
   {
    "id": "u13",
    "name": "Unit 13: Geometric Optics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u13.json",
    "officialTopics": [
     "Refraction, reflection, and absorption",
     "Images from lenses and mirrors"
@@ -86,8 +104,8 @@
   {
    "id": "u14",
    "name": "Unit 14: Waves, Sound, and Physical Optics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u14.json",
    "officialTopics": [
     "Periodic waves",
     "Electromagnetic waves",
@@ -99,8 +117,8 @@
   {
    "id": "u15",
    "name": "Unit 15: Modern Physics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u15.json",
    "officialTopics": [
     "Radioactive decay",
     "Energy in modern physics (energy in radioactive decay and E = mc²)",

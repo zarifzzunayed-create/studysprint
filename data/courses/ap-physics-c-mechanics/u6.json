@@ -1,0 +1,445 @@
+{
+ "courseId": "ap-physics-c-mechanics",
+ "unitId": "u6",
+ "title": "Unit 6: Energy and Momentum of Rotating Systems",
+ "topics": [
+  {
+   "id": "m6-energy",
+   "name": "Rotational kinetic energy and rolling",
+   "covers": [
+    "Rotational kinetic energy",
+    "Rolling"
+   ]
+  },
+  {
+   "id": "m6-angmom",
+   "name": "Angular momentum",
+   "covers": [
+    "Angular momentum"
+   ]
+  },
+  {
+   "id": "m6-orbit",
+   "name": "Orbits",
+   "covers": [
+    "Orbits"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Energy and momentum of rotating systems: review guide",
+  "intro": "Rotating objects store kinetic energy and carry angular momentum. This unit applies energy conservation and angular-momentum conservation to spinning and rolling objects and to orbits.",
+  "equationNote": "g = 10 m/s² unless stated; G = 6.67 × 10⁻¹¹ N·m²/kg².",
+  "sections": [
+   {
+    "id": "s-m6-energy",
+    "topicId": "m6-energy",
+    "title": "Rotational kinetic energy and rolling",
+    "body": [
+     "A rotating object has kinetic energy K = ½Iω². An object rolling without slipping has both kinds, K = ½Mv² + ½Iω², with v = Rω linking them.",
+     "Rolling down a slope from rest, Mgh = ½Mv²(1 + I/(MR²)). Objects with a smaller I/(MR²) reach the bottom faster: a solid sphere beats a solid disk, which beats a hoop."
+    ],
+    "points": [
+     "Static friction makes rolling without slipping possible but does no work on the rolling object.",
+     "The fraction of a rolling object's kinetic energy that is rotational is (I/MR²)/(1 + I/MR²).",
+     "For objects of the same shape, the mass and radius cancel."
+    ],
+    "equations": [
+     [
+      "K_rot = ½Iω²",
+      "rotational kinetic energy"
+     ],
+     [
+      "v = Rω",
+      "rolling without slipping"
+     ]
+    ]
+   },
+   {
+    "id": "s-m6-angmom",
+    "topicId": "m6-angmom",
+    "title": "Angular momentum",
+    "body": [
+     "Angular momentum is L = Iω for a rotating object, or L = r × p (magnitude rmv sin θ) for a moving particle. A net external torque changes it: Στ = dL/dt.",
+     "With no net external torque, L is conserved. Pulling mass closer to the axis decreases I, so ω increases to keep Iω the same."
+    ],
+    "points": [
+     "Kinetic energy is not necessarily conserved when L is: pulling your arms in does work and increases your rotational kinetic energy.",
+     "Angular momentum is a vector along the rotation axis (right-hand rule).",
+     "A collision in which objects stick together and rotate about a fixed axis conserves angular momentum about that axis."
+    ],
+    "equations": [
+     [
+      "L = Iω",
+      "angular momentum of a rotating object"
+     ],
+     [
+      "Στ = dL/dt",
+      "rotational form of Newton's second law"
+     ]
+    ]
+   },
+   {
+    "id": "s-m6-orbit",
+    "topicId": "m6-orbit",
+    "title": "Orbits",
+    "body": [
+     "In a circular orbit, gravity supplies the centripetal force: GMm/r² = mv²/r, so v = √(GM/r) and the period is T = 2πr/v.",
+     "In any orbit, gravity points toward the central body, so it exerts no torque about it, and the satellite's angular momentum is conserved. In an elliptical orbit, mvr is the same at the closest and farthest points, so the satellite moves fastest when it is closest."
+    ],
+    "points": [
+     "Total orbital energy is K + U, with U = −GMm/r; for a circular orbit it is −GMm/(2r).",
+     "Escape speed from radius r is √(2GM/r), √2 times the circular-orbit speed.",
+     "Kepler's third law follows from v = √(GM/r): T² is proportional to r³."
+    ],
+    "equations": [
+     [
+      "v = √(GM/r)",
+      "circular orbit speed"
+     ],
+     [
+      "mv₁r₁ = mv₂r₂",
+      "angular momentum at the closest and farthest points"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 2.0 kg solid disk of radius 0.30 m rolls without slipping at 3.0 m/s. Find its total kinetic energy.",
+   "solution": "For a solid disk I = ½MR², and ω = v/R. K = ½Mv² + ½(½MR²)(v/R)² = ¾Mv² = ¾(2.0)(3.0)² = 13.5 J."
+  },
+  "misconceptions": [
+   [
+    "“A rolling object's kinetic energy is just ½Mv².”",
+    "It also has rotational kinetic energy, ½Iω²."
+   ],
+   [
+    "“Heavier balls roll down a slope faster.”",
+    "For the same shape, mass and radius cancel; the shape decides the order."
+   ],
+   [
+    "“If angular momentum is conserved, kinetic energy is too.”",
+    "Pulling mass inward conserves L but increases the rotational kinetic energy."
+   ],
+   [
+    "“A satellite in orbit has no gravity acting on it.”",
+    "Gravity is exactly what keeps it curving around its orbit."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics C: Mechanics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+  "sourceTitle": "AP Physics C: Mechanics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "phcmu6-q01",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u6",
+   "topicId": "m6-energy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A wheel with rotational inertia 2.0 kg·m² spins at 3.0 rad/s. What is its rotational kinetic energy?",
+   "choices": [
+    "9.0 J",
+    "18 J",
+    "3.0 J",
+    "6.0 J"
+   ],
+   "correctAnswer": 0,
+   "explanation": "K = ½Iω² = ½(2.0)(3.0)² = 9.0 J.",
+   "choiceExplanations": [
+    "",
+    "18 J leaves out the factor ½.",
+    "3.0 is ½Iω; the angular speed must be squared.",
+    "6.0 is Iω, the angular momentum in kg·m²/s, not an energy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu6-q02",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u6",
+   "topicId": "m6-energy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A solid sphere (I = (2/5)MR²) starts from rest and rolls without slipping down a slope, dropping 1.4 m in height. How fast is it moving at the bottom? (g = 10 m/s²)",
+   "choices": [
+    "About 4.5 m/s",
+    "About 5.3 m/s",
+    "About 3.7 m/s",
+    "About 4.3 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Mgh = ½Mv² + ½(2/5 MR²)(v/R)² = (7/10)Mv², so v = √(10gh/7) = √(10 × 10 × 1.4/7) = √20 ≈ 4.5 m/s.",
+   "choiceExplanations": [
+    "",
+    "5.3 m/s = √(2gh) ignores the energy that goes into rotation, as for an object sliding without friction.",
+    "3.7 m/s = √(gh) is the result for a hoop, I = MR².",
+    "4.3 m/s is the result for a solid disk, I = ½MR²."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu6-q03",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u6",
+   "topicId": "m6-energy",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A solid sphere, a solid disk, and a thin hoop are released together from rest at the top of the same slope and roll without slipping. In what order do they reach the bottom?",
+   "choices": [
+    "Sphere, then disk, then hoop",
+    "Hoop, then disk, then sphere",
+    "All three arrive together",
+    "It depends on their masses and radii"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Each has v² = 2gh/(1 + I/MR²). The values of I/MR² are 2/5 (sphere), 1/2 (disk), and 1 (hoop). The sphere puts the smallest share of its energy into rotation, so it moves fastest and arrives first; the hoop arrives last.",
+   "choiceExplanations": [
+    "",
+    "This reverses the order: the hoop puts the most energy into rotation, so it is the slowest.",
+    "They would arrive together only if they slid without rotating; rolling divides the energy differently for each shape.",
+    "Mass and radius cancel out of v² = 2gh/(1 + I/MR²); only the shape matters."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu6-q04",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u6",
+   "topicId": "m6-energy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A uniform solid disk rolls without slipping. What fraction of its total kinetic energy is rotational?",
+   "choices": [
+    "1/3",
+    "1/2",
+    "2/3",
+    "1/4"
+   ],
+   "correctAnswer": 0,
+   "explanation": "K_trans = ½Mv² and K_rot = ½(½MR²)(v/R)² = ¼Mv². The total is ¾Mv², so the rotational part is (¼)/(¾) = 1/3.",
+   "choiceExplanations": [
+    "",
+    "1/2 would need equal rotational and translational energy, which is true for a hoop, not a disk.",
+    "2/3 is the translational fraction.",
+    "1/4 is the coefficient of Mv² in K_rot, not its fraction of the total."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu6-q05",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u6",
+   "topicId": "m6-angmom",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A wheel with rotational inertia 0.50 kg·m² spins at 4.0 rad/s. What is its angular momentum?",
+   "choices": [
+    "2.0 kg·m²/s",
+    "4.0 kg·m²/s",
+    "8.0 kg·m²/s",
+    "0.125 kg·m²/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "L = Iω = (0.50)(4.0) = 2.0 kg·m²/s.",
+   "choiceExplanations": [
+    "",
+    "4.0 is ½Iω², the kinetic energy in joules.",
+    "8.0 is Iω², without the ½ and with the wrong power of ω.",
+    "0.125 is I/ω; angular momentum is I times ω."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu6-q06",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u6",
+   "topicId": "m6-angmom",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A spinning skater has rotational inertia 4.0 kg·m² and spins at 2.0 rad/s. She pulls her arms in, reducing her rotational inertia to 1.6 kg·m². What is her new angular speed? (Ignore friction.)",
+   "choices": [
+    "5.0 rad/s",
+    "0.80 rad/s",
+    "2.0 rad/s",
+    "3.2 rad/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "No external torque acts, so L is conserved: (4.0)(2.0) = (1.6)ω, so ω = 8.0/1.6 = 5.0 rad/s.",
+   "choiceExplanations": [
+    "",
+    "0.80 rad/s would mean she slows down; a smaller I requires a larger ω to keep L the same.",
+    "Her angular speed must change, because her rotational inertia changed and L = Iω is conserved.",
+    "3.2 is the new I times the old ω, which does not keep L the same."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu6-q07",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u6",
+   "topicId": "m6-angmom",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "For the skater who pulls her arms in (I from 4.0 to 1.6 kg·m², ω from 2.0 to 5.0 rad/s), what happens to her rotational kinetic energy?",
+   "choices": [
+    "It increases from 8.0 J to 20 J, because her muscles do work pulling her arms in",
+    "It stays at 8.0 J, because angular momentum is conserved",
+    "It decreases, because her rotational inertia decreases",
+    "It stays the same, because no external torque acts"
+   ],
+   "correctAnswer": 0,
+   "explanation": "K = ½Iω²: before, ½(4.0)(2.0)² = 8.0 J; after, ½(1.6)(5.0)² = 20 J. Angular momentum is conserved, but kinetic energy is not: the extra 12 J comes from the work her muscles do pulling her arms inward.",
+   "choiceExplanations": [
+    "",
+    "Conserving angular momentum does not mean conserving kinetic energy; K = L²/(2I) grows as I shrinks.",
+    "K = L²/(2I), so with L fixed, a smaller I gives a larger K.",
+    "No external torque keeps L constant, but internal forces (her muscles) can still change her kinetic energy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu6-q08",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u6",
+   "topicId": "m6-orbit",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A satellite orbits a planet in a circular orbit of radius 1.0 × 10⁷ m. For this planet, GM = 4.0 × 10¹⁴ m³/s². What is the satellite's orbital speed?",
+   "choices": [
+    "About 6.3 × 10³ m/s",
+    "4.0 × 10⁷ m/s",
+    "About 8.9 × 10³ m/s",
+    "4.0 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "v = √(GM/r) = √(4.0 × 10¹⁴ / 1.0 × 10⁷) = √(4.0 × 10⁷) ≈ 6.3 × 10³ m/s.",
+   "choiceExplanations": [
+    "",
+    "4.0 × 10⁷ is GM/r, which is v²; the square root is still needed.",
+    "8.9 × 10³ m/s is √(2GM/r), the escape speed, not the circular-orbit speed.",
+    "4.0 is GM/r², the gravitational acceleration there in m/s², not a speed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu6-q09",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u6",
+   "topicId": "m6-orbit",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A comet in an elliptical orbit is 1.5 AU from the Sun at its farthest point and 1.0 AU at its closest. Its speed at the farthest point is 20 km/s. What is its speed at the closest point?",
+   "choices": [
+    "30 km/s",
+    "13 km/s",
+    "20 km/s",
+    "45 km/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Gravity exerts no torque about the Sun, so angular momentum is conserved: v_near r_near = v_far r_far at these two points, where the velocity is perpendicular to the radius. v_near = 20 × 1.5/1.0 = 30 km/s.",
+   "choiceExplanations": [
+    "",
+    "13 km/s makes the comet slower when it is closer; conserving angular momentum makes it faster.",
+    "The speed changes around an elliptical orbit; only angular momentum (and total energy) stay the same.",
+    "45 km/s uses the square of the distance ratio; angular momentum is proportional to r, not r²."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu6-q10",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u6",
+   "topicId": "m6-orbit",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Why does a satellite in a circular orbit keep a constant speed even though gravity pulls on it all the time?",
+   "choices": [
+    "Gravity is always perpendicular to its velocity, so it changes the direction of motion but does no work",
+    "There is no gravity at the satellite's height",
+    "Gravity is balanced by an outward centrifugal force",
+    "The satellite's engines push it forward to cancel gravity"
+   ],
+   "correctAnswer": 0,
+   "explanation": "In a circular orbit, gravity points to the center and the velocity is along the circle, so the two are perpendicular. A force perpendicular to the motion does no work, so the kinetic energy and speed stay constant while the direction keeps changing.",
+   "choiceExplanations": [
+    "",
+    "Gravity at orbital heights is still strong; it is what keeps the satellite curving around the planet.",
+    "Seen from outside, there is no outward force: the net force is gravity, pointing inward, and that causes the circular motion.",
+    "A satellite in orbit coasts without engines; gravity alone supplies the inward force."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "phcmu6-q01",
+    "phcmu6-q02",
+    "phcmu6-q03",
+    "phcmu6-q05",
+    "phcmu6-q06",
+    "phcmu6-q07",
+    "phcmu6-q08",
+    "phcmu6-q10"
+   ]
+  }
+ ]
+}

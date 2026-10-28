@@ -22,7 +22,7 @@ Ports 8791 and 8799 must be free. Set `STUDYSPRINT_ROOT` to test a project folde
 
 | Suite | What it checks |
 |---|---|
-| t1_catalog | course search, catalog labels, unit lists |
+| t1_catalog | course search, catalog labels matching the built content status, unit lists, every practice-ready unit loading with a guide, question bank and valid test, framework-only (not on the AP Exam) labels |
 | t2_learn | Learn first: confidence rating, warm-up, resource recommendations, easier practice |
 | t3_planner | 5-step planner, checklist kept apart from evidence, threshold, status file agreement |
 | t4_kbd | keyboard use and a phone-width Learn first page |

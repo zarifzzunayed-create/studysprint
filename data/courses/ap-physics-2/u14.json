@@ -1,0 +1,502 @@
+{
+ "courseId": "ap-physics-2",
+ "unitId": "u14",
+ "title": "Unit 14: Waves, Sound, and Physical Optics",
+ "topics": [
+  {
+   "id": "p14-waves",
+   "name": "Periodic waves and electromagnetic waves",
+   "covers": [
+    "Periodic waves",
+    "Electromagnetic waves"
+   ]
+  },
+  {
+   "id": "p14-sound",
+   "name": "Sound and the Doppler effect",
+   "covers": [
+    "Sound",
+    "Doppler Effect"
+   ]
+  },
+  {
+   "id": "p14-interf",
+   "name": "Interference and diffraction",
+   "covers": [
+    "Interference and diffraction"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Waves, sound, and physical optics: review guide",
+  "intro": "Waves carry energy from place to place without carrying matter along. This unit covers how periodic waves are described, how sound and light behave as waves, how motion shifts the frequency you hear, and how waves combine to make interference and diffraction patterns.",
+  "equationNote": "c = 3.0 × 10⁸ m/s. The speed of sound in air is taken as 340 m/s unless a question says otherwise. 1 nm = 10⁻⁹ m and 1 mm = 10⁻³ m.",
+  "sections": [
+   {
+    "id": "s-p14-waves",
+    "topicId": "p14-waves",
+    "title": "Periodic waves and electromagnetic waves",
+    "body": [
+     "A periodic wave repeats in space and time. Its wavelength λ, frequency f, and speed v are related by v = fλ, and its period is T = 1/f. In a transverse wave the medium moves perpendicular to the wave's direction; in a longitudinal wave it moves along it.",
+     "Electromagnetic waves are transverse oscillations of electric and magnetic fields. They need no medium and all travel at c = 3.0 × 10⁸ m/s in a vacuum; radio waves, visible light, and X-rays differ only in frequency and wavelength."
+    ],
+    "points": [
+     "The medium sets the wave speed and the source sets the frequency, so changing the frequency in the same medium changes the wavelength, not the speed.",
+     "When a wave passes into a new medium, its frequency stays the same.",
+     "A wave's intensity grows with the square of its amplitude."
+    ],
+    "equations": [
+     [
+      "v = fλ",
+      "wave speed"
+     ],
+     [
+      "T = 1/f",
+      "period"
+     ]
+    ]
+   },
+   {
+    "id": "s-p14-sound",
+    "topicId": "p14-sound",
+    "title": "Sound and the Doppler effect",
+    "body": [
+     "Sound is a longitudinal pressure wave. It needs a medium and travels faster in solids and liquids than in air. Loudness relates to intensity and pitch to frequency.",
+     "Doppler effect: when a source and a listener move toward each other, the frequency heard is higher; when they move apart, it is lower. For a source moving at speed v_s toward a still listener, f′ = f·v/(v − v_s); moving away, f′ = f·v/(v + v_s)."
+    ],
+    "points": [
+     "Standing waves in pipes: open at both ends, f₁ = v/(2L); closed at one end, f₁ = v/(4L).",
+     "An echo travels to the reflecting surface and back, so it covers twice the distance.",
+     "The Doppler effect changes the frequency heard, not the speed of sound in the air."
+    ],
+    "equations": [
+     [
+      "f₁ = v/(2L)",
+      "fundamental frequency, pipe open at both ends"
+     ],
+     [
+      "f′ = f·v/(v ∓ v_s)",
+      "moving source, still listener (− approaching, + receding)"
+     ]
+    ]
+   },
+   {
+    "id": "s-p14-interf",
+    "topicId": "p14-interf",
+    "title": "Interference and diffraction",
+    "body": [
+     "When waves overlap, their displacements add (superposition). Where the path difference is a whole number of wavelengths, the waves interfere constructively; where it is an odd number of half wavelengths, destructively.",
+     "Waves spread out after passing through an opening or around an edge (diffraction), most noticeably when the opening is about the size of the wavelength. In a double-slit experiment, bright fringes are at d sin θ = mλ, spaced about Δy = λL/d apart on a distant screen."
+    ],
+    "points": [
+     "A diffraction grating acts like many slits: d sin θ = mλ, where d is the spacing between lines.",
+     "Narrowing a single slit widens the central bright region.",
+     "Interference patterns are evidence that light behaves as a wave."
+    ],
+    "equations": [
+     [
+      "d sin θ = mλ",
+      "bright fringes (double slit or grating)"
+     ],
+     [
+      "Δy ≈ λL/d",
+      "fringe spacing on a distant screen"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Green light (λ = 530 nm) passes through two slits 0.10 mm apart onto a screen 1.5 m away. How far apart are the bright fringes?",
+   "solution": "Δy = λL/d = (530 × 10⁻⁹ m)(1.5 m)/(0.10 × 10⁻³ m) ≈ 8.0 × 10⁻³ m, or about 8.0 mm."
+  },
+  "misconceptions": [
+   [
+    "“Higher-frequency sound travels faster.”",
+    "In one medium every frequency travels at the same speed; a higher frequency just means a shorter wavelength."
+   ],
+   [
+    "“Sound can travel through a vacuum.”",
+    "Sound needs a medium; light and other electromagnetic waves do not."
+   ],
+   [
+    "“The Doppler effect changes the speed of sound.”",
+    "It changes the frequency heard; the speed is set by the medium."
+   ],
+   [
+    "“Two overlapping waves always make a bigger wave.”",
+    "Where a crest meets a trough they cancel: destructive interference."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 2 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+  "sourceTitle": "AP Physics 2: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "ph2u14-q01",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-waves",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A wave has a frequency of 50 Hz and a wavelength of 4.0 m. What is its speed?",
+   "choices": [
+    "200 m/s",
+    "12.5 m/s",
+    "0.080 m/s",
+    "54 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "v = fλ = (50 Hz)(4.0 m) = 200 m/s.",
+   "choiceExplanations": [
+    "",
+    "12.5 m/s divides the frequency by the wavelength; speed is their product.",
+    "0.080 m/s divides the wavelength by the frequency.",
+    "54 adds the frequency and the wavelength, which have different units."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u14-q02",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-waves",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A radio station broadcasts at 100 MHz. What is the wavelength of its radio waves? (c = 3.0 × 10⁸ m/s)",
+   "choices": [
+    "3.0 m",
+    "3.0 × 10¹⁶ m",
+    "0.33 m",
+    "300 m"
+   ],
+   "correctAnswer": 0,
+   "explanation": "λ = c/f = (3.0 × 10⁸ m/s)/(100 × 10⁶ Hz) = 3.0 m.",
+   "choiceExplanations": [
+    "",
+    "3.0 × 10¹⁶ m multiplies c by f; the wavelength is c divided by f.",
+    "0.33 m is f/c, the ratio upside down.",
+    "300 m uses 1 MHz = 10⁶ Hz but leaves out the 100: 100 MHz is 10⁸ Hz."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u14-q03",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-waves",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which statement about electromagnetic waves is true?",
+   "choices": [
+    "They are transverse and can travel through a vacuum at 3.0 × 10⁸ m/s",
+    "They are longitudinal and need a medium to travel",
+    "They are transverse but need a medium to travel",
+    "In a vacuum, higher-frequency electromagnetic waves travel faster"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Electromagnetic waves are oscillating electric and magnetic fields, perpendicular to the direction of travel (transverse). They need no medium, and in a vacuum every frequency travels at c.",
+   "choiceExplanations": [
+    "",
+    "That describes sound; electromagnetic waves are transverse and need no medium.",
+    "Light reaches us from the Sun through the vacuum of space, so it needs no medium.",
+    "In a vacuum all electromagnetic waves travel at the same speed, c, whatever their frequency."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u14-q04",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-waves",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The frequency of a wave on a string is doubled while the string's tension and mass stay the same. What happens to the wave's speed and wavelength?",
+   "choices": [
+    "The speed stays the same and the wavelength halves",
+    "The speed doubles and the wavelength stays the same",
+    "The speed and the wavelength both double",
+    "The speed halves and the wavelength stays the same"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The string's tension and mass per length set the wave speed, so v does not change. From v = fλ, doubling f halves λ.",
+   "choiceExplanations": [
+    "",
+    "The speed is set by the medium, not by the source's frequency.",
+    "If v is fixed, f and λ cannot both double; doubling f halves λ.",
+    "Nothing about the medium changed, so the speed stays the same."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u14-q05",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-sound",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "You shout toward a cliff and hear the echo 0.50 s later. The speed of sound is 340 m/s. How far away is the cliff?",
+   "choices": [
+    "85 m",
+    "170 m",
+    "680 m",
+    "340 m"
+   ],
+   "correctAnswer": 0,
+   "explanation": "In 0.50 s the sound travels 340 × 0.50 = 170 m, which is the trip to the cliff and back. The cliff is half that distance away: 85 m.",
+   "choiceExplanations": [
+    "",
+    "170 m is the round trip; the cliff is half that distance away.",
+    "680 m divides the speed by the time instead of multiplying.",
+    "340 m is how far sound travels in a full second."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u14-q06",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-sound",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A pipe 0.85 m long is open at both ends. What is its fundamental frequency? (speed of sound = 340 m/s)",
+   "choices": [
+    "200 Hz",
+    "100 Hz",
+    "400 Hz",
+    "289 Hz"
+   ],
+   "correctAnswer": 0,
+   "explanation": "For a pipe open at both ends, the fundamental wavelength is 2L = 1.7 m, so f₁ = v/(2L) = 340/1.7 = 200 Hz.",
+   "choiceExplanations": [
+    "",
+    "100 Hz is v/(4L), which is for a pipe closed at one end.",
+    "400 Hz is v/L; the fundamental of an open pipe has a wavelength of 2L, not L.",
+    "289 multiplies the speed by the length; frequency is speed divided by wavelength."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u14-q07",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-sound",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An ambulance with its siren on drives toward you, passes, and drives away. What do you hear?",
+   "choices": [
+    "A higher pitch while it approaches and a lower pitch after it passes",
+    "A lower pitch while it approaches and a higher pitch after it passes",
+    "The same pitch throughout, but louder as it approaches",
+    "A higher pitch throughout, because the sound waves travel faster from a moving source"
+   ],
+   "correctAnswer": 0,
+   "explanation": "As the source approaches, each wave crest is emitted closer to you, so the crests arrive more often: higher frequency. As it moves away, they arrive less often: lower frequency. This is the Doppler effect.",
+   "choiceExplanations": [
+    "",
+    "This reverses the Doppler effect: approaching gives the higher frequency.",
+    "The loudness does change, but the frequency also shifts when the source moves.",
+    "The speed of sound is set by the air, not the source; the frequency changes, not the speed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u14-q08",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-sound",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A siren with a frequency of 400 Hz moves toward a stationary listener at 20 m/s. The speed of sound is 340 m/s. What frequency does the listener hear?",
+   "choices": [
+    "425 Hz",
+    "378 Hz",
+    "420 Hz",
+    "400 Hz"
+   ],
+   "correctAnswer": 0,
+   "explanation": "For an approaching source, f′ = f·v/(v − v_s) = 400 × 340/320 = 425 Hz.",
+   "choiceExplanations": [
+    "",
+    "378 Hz uses v + v_s, which is for a source moving away.",
+    "420 Hz adds the source's speed to the frequency; the shift comes from the ratio v/(v − v_s).",
+    "The source is moving toward the listener, so the frequency heard is shifted up."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u14-q09",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-interf",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Two speakers play the same tone in phase. At a certain point, the sound from one speaker travels 1.5 wavelengths farther than the sound from the other. What kind of interference happens there?",
+   "choices": [
+    "Destructive",
+    "Constructive",
+    "It depends only on the speakers' loudness",
+    "None, because sound waves do not interfere"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A path difference of 1.5λ is an odd number of half wavelengths, so a crest from one speaker meets a trough from the other: destructive interference.",
+   "choiceExplanations": [
+    "",
+    "Constructive interference needs a path difference of a whole number of wavelengths (0, λ, 2λ, …).",
+    "The type of interference depends on the path difference; loudness only affects how complete the cancellation is.",
+    "All waves, including sound, interfere when they overlap."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u14-q10",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-interf",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Light of wavelength 600 nm passes through two slits 0.20 mm apart onto a screen 2.0 m away. What is the spacing between neighboring bright fringes?",
+   "choices": [
+    "6.0 mm",
+    "3.0 mm",
+    "12 mm",
+    "0.60 mm"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Δy = λL/d = (600 × 10⁻⁹ m)(2.0 m)/(0.20 × 10⁻³ m) = 6.0 × 10⁻³ m = 6.0 mm.",
+   "choiceExplanations": [
+    "",
+    "3.0 mm is half the spacing, the distance from a bright fringe to the next dark one.",
+    "12 mm is the distance from the central fringe to the second bright fringe.",
+    "0.60 mm results from using 2.0 mm for the slit separation instead of 0.20 mm."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u14-q11",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-interf",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Light of wavelength 600 nm falls on a diffraction grating with 500 lines per millimeter. At about what angle is the first-order bright fringe?",
+   "choices": [
+    "17°",
+    "37°",
+    "1.7°",
+    "0.017°"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The line spacing is d = 1/500 mm = 2.0 × 10⁻⁶ m. For m = 1, sin θ = λ/d = (600 × 10⁻⁹)/(2.0 × 10⁻⁶) = 0.30, so θ ≈ 17°.",
+   "choiceExplanations": [
+    "",
+    "37° is the second-order fringe (m = 2, sin θ = 0.60).",
+    "1.7° treats the grating as 500 lines per centimeter, making d ten times too large.",
+    "0.017° treats it as 500 lines per meter, making d a thousand times too large."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u14-q12",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-interf",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Light passes through a single narrow slit onto a screen. The slit is made narrower. What happens to the central bright region?",
+   "choices": [
+    "It gets wider",
+    "It gets narrower",
+    "It stays the same width",
+    "It disappears completely"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The first dark fringes are at sin θ = λ/a, where a is the slit width. A smaller a gives a larger angle, so the light spreads more and the central bright region widens.",
+   "choiceExplanations": [
+    "",
+    "Narrowing the slit increases diffraction, so the light spreads out more, not less.",
+    "The angle to the first dark fringe depends on the slit width, so the pattern changes.",
+    "Light still gets through; the pattern spreads out and gets dimmer but does not vanish."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ph2u14-q01",
+    "ph2u14-q02",
+    "ph2u14-q03",
+    "ph2u14-q05",
+    "ph2u14-q06",
+    "ph2u14-q08",
+    "ph2u14-q10",
+    "ph2u14-q11"
+   ]
+  }
+ ]
+}

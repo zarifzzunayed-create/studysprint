@@ -1,0 +1,434 @@
+{
+ "courseId": "ap-physics-c-mechanics",
+ "unitId": "u1",
+ "title": "Unit 1: Kinematics",
+ "topics": [
+  {
+   "id": "m1-1d",
+   "name": "Position, velocity, and acceleration with calculus",
+   "covers": [
+    "Kinematics in one dimension"
+   ]
+  },
+  {
+   "id": "m1-graphs",
+   "name": "Motion graphs and changing acceleration",
+   "covers": [
+    "Kinematics in one dimension"
+   ]
+  },
+  {
+   "id": "m1-2d",
+   "name": "Motion in two dimensions and projectiles",
+   "covers": [
+    "Kinematics in two dimensions"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Kinematics: review guide",
+  "intro": "Kinematics describes motion without asking what causes it. In Physics C you connect position, velocity, and acceleration with derivatives and integrals, in one and two dimensions.",
+  "equationNote": "g = 10 m/s² unless a question gives another value. Signs give direction along an axis.",
+  "sections": [
+   {
+    "id": "s-m1-1d",
+    "topicId": "m1-1d",
+    "title": "Position, velocity, and acceleration with calculus",
+    "body": [
+     "Velocity is the rate of change of position, v = dx/dt, and acceleration is the rate of change of velocity, a = dv/dt = d²x/dt². Going the other way, integrate: Δx = ∫v dt and Δv = ∫a dt, then add the initial values.",
+     "The constant-acceleration equations are a special case: v = v₀ + at, x = x₀ + v₀t + ½at², and v² = v₀² + 2aΔx. Use them only when a is constant."
+    ],
+    "points": [
+     "Displacement is the change in position. Distance traveled adds up every part of the path, so split the time interval wherever v changes sign.",
+     "Average velocity is Δx/Δt; average speed is distance/Δt.",
+     "An object speeds up when v and a have the same sign and slows down when they have opposite signs."
+    ],
+    "equations": [
+     [
+      "v = dx/dt, a = dv/dt",
+      "definitions"
+     ],
+     [
+      "x = x₀ + ∫v dt",
+      "position from velocity"
+     ]
+    ]
+   },
+   {
+    "id": "s-m1-graphs",
+    "topicId": "m1-graphs",
+    "title": "Motion graphs and changing acceleration",
+    "body": [
+     "On an x–t graph the slope is velocity. On a v–t graph the slope is acceleration, and the signed area under the curve is displacement. On an a–t graph the area is the change in velocity.",
+     "When acceleration depends on velocity, as with a resistive force giving a = −kv, separate the variables: dv/v = −k dt gives v = v₀e^(−kt). The speed decreases exponentially and never quite reaches zero."
+    ],
+    "points": [
+     "Area below the time axis on a v–t graph counts as negative displacement.",
+     "Where an x–t graph has a horizontal tangent, the object is momentarily at rest.",
+     "Check units: the area under a v–t graph is in meters."
+    ]
+   },
+   {
+    "id": "s-m1-2d",
+    "topicId": "m1-2d",
+    "title": "Motion in two dimensions and projectiles",
+    "body": [
+     "In two dimensions, treat x and y separately: r(t) = (x(t), y(t)), v = dr/dt, and a = dv/dt. Speed is the magnitude √(v_x² + v_y²).",
+     "A projectile with no air resistance has a_x = 0 and a_y = −g. Its horizontal velocity stays constant, and its time in the air is set by the vertical motion alone."
+    ],
+    "points": [
+     "Launch speed v₀ at angle θ above the horizontal: v_x = v₀ cos θ and v_y = v₀ sin θ.",
+     "At the top of the path v_y = 0, but v_x is not zero.",
+     "Maximum height above the launch point is v_y²/(2g), using only the vertical component."
+    ],
+    "equations": [
+     [
+      "v = dr/dt = (dx/dt, dy/dt)",
+      "velocity vector"
+     ],
+     [
+      "y = y₀ + v_y0·t − ½gt²",
+      "vertical position of a projectile"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A particle's velocity is v(t) = 3t² − 12 m/s, and it is at x = 4 m at t = 0. Find its position at t = 3 s and the distance it travels from t = 0 to t = 3 s.",
+   "solution": "x(t) = 4 + ∫₀ᵗ (3s² − 12) ds = 4 + t³ − 12t, so x(3) = 4 + 27 − 36 = −5 m. The velocity is zero at t = 2 s, where x(2) = 4 + 8 − 24 = −12 m. Distance = |−12 − 4| + |−5 − (−12)| = 16 + 7 = 23 m."
+  },
+  "misconceptions": [
+   [
+    "“Zero velocity means zero acceleration.”",
+    "At the top of a throw v = 0, but a = −g."
+   ],
+   [
+    "“Displacement and distance are the same.”",
+    "They differ whenever the object turns around."
+   ],
+   [
+    "“A projectile's horizontal speed changes during its flight.”",
+    "With no air resistance nothing acts horizontally, so v_x stays constant."
+   ],
+   [
+    "“The constant-acceleration equations always apply.”",
+    "Use calculus when the acceleration changes with time or with velocity."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics C: Mechanics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+  "sourceTitle": "AP Physics C: Mechanics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "phcmu1-q01",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u1",
+   "topicId": "m1-1d",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A particle's position is x(t) = 3t² − 2t + 1, with x in meters and t in seconds. What is its velocity at t = 2 s?",
+   "choices": [
+    "10 m/s",
+    "9 m/s",
+    "6 m/s",
+    "12 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "v = dx/dt = 6t − 2, so v(2) = 12 − 2 = 10 m/s.",
+   "choiceExplanations": [
+    "",
+    "9 is x(2), the position, not the velocity.",
+    "6 m/s² is the acceleration, d²x/dt².",
+    "12 is 6t at t = 2; the −2 from differentiating −2t was left out."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu1-q02",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u1",
+   "topicId": "m1-1d",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An object's acceleration is a(t) = 6t m/s², and its velocity at t = 0 is 2 m/s. What is its velocity at t = 2 s?",
+   "choices": [
+    "14 m/s",
+    "12 m/s",
+    "26 m/s",
+    "2 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "v(t) = v₀ + ∫₀ᵗ 6s ds = 2 + 3t², so v(2) = 2 + 12 = 14 m/s.",
+   "choiceExplanations": [
+    "",
+    "12 m/s is the change in velocity, 3t²; the initial 2 m/s must be added.",
+    "26 m/s integrates 6t as 6t² instead of 3t².",
+    "The acceleration is not zero, so the velocity changes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu1-q03",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u1",
+   "topicId": "m1-1d",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "An object moves along a line with velocity v(t) = 4 − 2t m/s. How far does it travel, in total, from t = 0 to t = 3 s?",
+   "choices": [
+    "5 m",
+    "3 m",
+    "4 m",
+    "−2 m"
+   ],
+   "correctAnswer": 0,
+   "explanation": "v = 0 at t = 2 s, so split the interval. From 0 to 2 s: ∫(4 − 2t) dt = 4 m forward. From 2 to 3 s: ∫(4 − 2t) dt = −1 m (back 1 m). Distance = 4 + 1 = 5 m.",
+   "choiceExplanations": [
+    "",
+    "3 m is the displacement, 4 − 1; distance counts the 1 m traveled backward too.",
+    "4 m stops counting when the object turns around at t = 2 s.",
+    "−2 m/s is the velocity at t = 3 s, not a distance."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu1-q04",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u1",
+   "topicId": "m1-graphs",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "On a graph of velocity against time, what does the signed area between the graph and the time axis represent?",
+   "choices": [
+    "The displacement",
+    "The acceleration",
+    "The distance from the starting point at every instant",
+    "The average velocity"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Displacement is ∫v dt, which is the signed area under the v–t graph.",
+   "choiceExplanations": [
+    "",
+    "Acceleration is the slope of the v–t graph, not the area under it.",
+    "The area gives the total displacement over the interval, not a separate distance at every instant.",
+    "Average velocity is the area divided by the time interval."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu1-q05",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u1",
+   "topicId": "m1-graphs",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A puck slides with acceleration a = −kv, where k is a positive constant, starting with speed v₀. Which expression gives its velocity v(t)?",
+   "choices": [
+    "v₀e^(−kt)",
+    "v₀ − kt",
+    "v₀/(1 + kt)",
+    "v₀e^(kt)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "dv/dt = −kv. Separate: dv/v = −k dt, so ln(v/v₀) = −kt and v = v₀e^(−kt).",
+   "choiceExplanations": [
+    "",
+    "v₀ − kt would mean a constant acceleration −k, but here the acceleration depends on v.",
+    "v₀/(1 + kt) solves dv/dt = −kv², a different resistive force.",
+    "A positive exponent would make the speed grow; the force opposes the motion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu1-q06",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u1",
+   "topicId": "m1-graphs",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A particle's position is x(t) = t³ − 6t² meters. At t = 1 s, is it speeding up or slowing down?",
+   "choices": [
+    "Speeding up, because v and a are both negative",
+    "Slowing down, because the acceleration is negative",
+    "Slowing down, because the velocity is negative",
+    "Neither, because it is at rest"
+   ],
+   "correctAnswer": 0,
+   "explanation": "v = 3t² − 12t, so v(1) = −9 m/s. a = 6t − 12, so a(1) = −6 m/s². They have the same sign, so the speed is increasing.",
+   "choiceExplanations": [
+    "",
+    "A negative acceleration slows an object only if its velocity is positive; here both are negative.",
+    "Speeding up or slowing down depends on whether v and a have the same sign, not on the sign of v alone.",
+    "v(1) = −9 m/s, so the particle is moving."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu1-q07",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u1",
+   "topicId": "m1-2d",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A ball is thrown horizontally at 12 m/s from the top of a 20 m cliff. How far from the base of the cliff does it land? (g = 10 m/s², no air resistance)",
+   "choices": [
+    "24 m",
+    "12 m",
+    "20 m",
+    "48 m"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Vertical: 20 = ½(10)t², so t = 2.0 s. Horizontal: x = (12 m/s)(2.0 s) = 24 m.",
+   "choiceExplanations": [
+    "",
+    "12 m uses a time of 1 s; falling 20 m takes 2.0 s.",
+    "20 m is the cliff's height, not the horizontal distance.",
+    "48 m uses t = 2h/g = 4 s; the time is the square root, √(2h/g) = 2 s."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu1-q08",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u1",
+   "topicId": "m1-2d",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A particle's position is r(t) = (2t, t²) meters. What is its speed at t = 3 s?",
+   "choices": [
+    "About 6.3 m/s",
+    "8.0 m/s",
+    "6.0 m/s",
+    "40 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "v = dr/dt = (2, 2t) = (2, 6) m/s at t = 3 s. Speed = √(2² + 6²) = √40 ≈ 6.3 m/s.",
+   "choiceExplanations": [
+    "",
+    "8.0 adds the components; speed is the magnitude √(v_x² + v_y²).",
+    "6.0 m/s is only the y-component.",
+    "40 is v_x² + v_y²; the square root is still needed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu1-q09",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u1",
+   "topicId": "m1-2d",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A projectile is launched at 30 m/s at 53° above the horizontal (sin 53° = 0.80, cos 53° = 0.60) over level ground. How high above the launch point does it rise? (g = 10 m/s²)",
+   "choices": [
+    "28.8 m",
+    "45 m",
+    "16.2 m",
+    "57.6 m"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Only the vertical component matters: v_y = 30 × 0.80 = 24 m/s. At the top v_y = 0, so H = v_y²/(2g) = 576/20 = 28.8 m.",
+   "choiceExplanations": [
+    "",
+    "45 m uses the full launch speed; only the vertical component is slowed by gravity.",
+    "16.2 m uses the horizontal component, 18 m/s.",
+    "57.6 m is v_y²/g; the factor ½ (the 2 in 2g) was left out."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu1-q10",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u1",
+   "topicId": "m1-graphs",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A particle's position is x(t) = t³ − 6t² + 9t meters. What is its average velocity from t = 0 to t = 2 s?",
+   "choices": [
+    "1 m/s",
+    "3 m/s",
+    "−3 m/s",
+    "2 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Average velocity = Δx/Δt = (x(2) − x(0))/2 = (8 − 24 + 18 − 0)/2 = 2/2 = 1 m/s.",
+   "choiceExplanations": [
+    "",
+    "3 m/s is the average speed: the particle goes 4 m forward to x = 4 at t = 1 s, then 2 m back, 6 m in 2 s.",
+    "−3 m/s is the instantaneous velocity at t = 2 s, v = 3t² − 12t + 9.",
+    "2 m is the displacement; it still has to be divided by the 2 s interval."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "phcmu1-q01",
+    "phcmu1-q02",
+    "phcmu1-q03",
+    "phcmu1-q04",
+    "phcmu1-q05",
+    "phcmu1-q06",
+    "phcmu1-q07",
+    "phcmu1-q09"
+   ]
+  }
+ ]
+}

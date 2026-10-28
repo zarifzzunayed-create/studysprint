@@ -244,6 +244,7 @@
         SS.statBox(rec.firstOk + " of " + rec.firsts, "first attempts correct"),
         SS.statBox(rec.timed ? SS.fmtTime(rec.secs) + " of " + SS.fmtTime(rec.limit) : "Untimed", rec.timed ? "time used" : "no time limit")),
       h("p", "note", "This is a short unit practice test of " + SS.plural(total, "question") + " from StudySprint's original question bank, not a full AP exam, and it cannot predict an AP score." +
+        (env.notOnExam ? " This unit is in the course framework but is not assessed on the AP Exam." : "") +
         (rec.answered > rec.firsts ? " " + SS.plural(rec.answered - rec.firsts, "answer was", "answers were") + " to questions you had answered before, so " + (rec.answered - rec.firsts === 1 ? "it was" : "they were") + " recorded as retries and did not change your first-attempt results." : "")));
 
     /* topic and level breakdown */

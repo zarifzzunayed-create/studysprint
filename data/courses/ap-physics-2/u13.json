@@ -1,0 +1,466 @@
+{
+ "courseId": "ap-physics-2",
+ "unitId": "u13",
+ "title": "Unit 13: Geometric Optics",
+ "topics": [
+  {
+   "id": "p13-refract",
+   "name": "Reflection, refraction, and absorption",
+   "covers": [
+    "Refraction, reflection, and absorption"
+   ]
+  },
+  {
+   "id": "p13-mirror",
+   "name": "Images from mirrors",
+   "covers": [
+    "Images from lenses and mirrors"
+   ]
+  },
+  {
+   "id": "p13-lens",
+   "name": "Images from lenses",
+   "covers": [
+    "Images from lenses and mirrors"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Geometric optics: review guide",
+  "intro": "Geometric optics treats light as rays that travel in straight lines until they reflect, refract, or are absorbed. Mirrors and lenses use these rules to form images.",
+  "equationNote": "Sign convention used here: object and image distances are positive for real objects and real images; a virtual image has a negative image distance. Converging mirrors and lenses have positive focal lengths, and diverging ones have negative focal lengths. c = 3.0 × 10⁸ m/s.",
+  "sections": [
+   {
+    "id": "s-p13-refract",
+    "topicId": "p13-refract",
+    "title": "Reflection, refraction, and absorption",
+    "body": [
+     "At a smooth surface, the angle of reflection equals the angle of incidence, both measured from the normal (the line perpendicular to the surface).",
+     "When light enters a different material it changes speed and bends: n₁ sin θ₁ = n₂ sin θ₂, where n = c/v is the index of refraction. Going into a material with a larger n, light slows down and bends toward the normal."
+    ],
+    "points": [
+     "Total internal reflection: going from a larger n to a smaller n, light that meets the boundary at more than the critical angle (sin θ_c = n₂/n₁) does not leave at all.",
+     "Materials absorb some wavelengths and reflect or transmit others; the color you see is the light that is not absorbed.",
+     "The frequency of light does not change when it enters a new material; its speed and wavelength do."
+    ],
+    "equations": [
+     [
+      "θ_i = θ_r",
+      "law of reflection"
+     ],
+     [
+      "n₁ sin θ₁ = n₂ sin θ₂",
+      "Snell's law"
+     ],
+     [
+      "n = c/v",
+      "index of refraction"
+     ]
+    ]
+   },
+   {
+    "id": "s-p13-mirror",
+    "topicId": "p13-mirror",
+    "title": "Images from mirrors",
+    "body": [
+     "A plane mirror forms a virtual, upright image the same size as the object, as far behind the mirror as the object is in front of it.",
+     "Curved mirrors follow 1/s_o + 1/s_i = 1/f, with magnification M = −s_i/s_o = h_i/h_o. A concave (converging) mirror forms a real, inverted image when the object is beyond the focal point. A convex (diverging) mirror always forms a virtual, upright, smaller image."
+    ],
+    "points": [
+     "For a spherical mirror, f = R/2.",
+     "A negative magnification means an inverted image; |M| > 1 means an enlarged image.",
+     "Check with a ray diagram: a ray parallel to the axis reflects through the focal point of a concave mirror, or as if from the focal point of a convex mirror."
+    ],
+    "equations": [
+     [
+      "1/s_o + 1/s_i = 1/f",
+      "mirror and thin-lens equation"
+     ],
+     [
+      "M = −s_i/s_o",
+      "magnification"
+     ]
+    ]
+   },
+   {
+    "id": "s-p13-lens",
+    "topicId": "p13-lens",
+    "title": "Images from lenses",
+    "body": [
+     "A converging (convex) lens brings parallel rays together at its focal point; a diverging (concave) lens spreads them out as if they came from its focal point. The same equation, 1/s_o + 1/s_i = 1/f, applies.",
+     "With a converging lens, an object beyond f gives a real, inverted image on the far side; an object inside f gives a virtual, upright, enlarged image, which is how a magnifying glass works. A diverging lens always gives a virtual, upright, smaller image."
+    ],
+    "points": [
+     "An object at 2f forms a real, inverted image at 2f, the same size as the object.",
+     "An object exactly at f forms no image: the rays leave parallel.",
+     "A lens's focal length depends on its shape and on how its index of refraction compares with its surroundings."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "An object is 12 cm from a converging lens with f = 8.0 cm. Find the image distance and the magnification.",
+   "solution": "1/s_i = 1/8.0 − 1/12 = 1/24, so s_i = 24 cm: a real image on the far side of the lens. M = −24/12 = −2.0, so the image is inverted and twice as tall as the object."
+  },
+  "misconceptions": [
+   [
+    "“Light bends away from the normal when it enters glass.”",
+    "Entering a material with a larger index of refraction, it slows down and bends toward the normal."
+   ],
+   [
+    "“A mirror's image is on the mirror's surface.”",
+    "A plane mirror's image is as far behind the mirror as the object is in front."
+   ],
+   [
+    "“Covering half a lens cuts off half the image.”",
+    "Every part of the lens forms the whole image; covering half only makes it dimmer."
+   ],
+   [
+    "“A virtual image can be shown on a screen.”",
+    "Only a real image, where light actually comes together, can be projected onto a screen."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 2 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+  "sourceTitle": "AP Physics 2: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "ph2u13-q01",
+   "courseId": "ap-physics-2",
+   "unitId": "u13",
+   "topicId": "p13-refract",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A light ray strikes a flat mirror at 35° from the normal. At what angle from the normal does it reflect?",
+   "choices": [
+    "35°",
+    "55°",
+    "70°",
+    "145°"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The law of reflection: the angle of reflection equals the angle of incidence, both measured from the normal. So the ray reflects at 35°.",
+   "choiceExplanations": [
+    "",
+    "55° is the angle from the mirror's surface; both angles are measured from the normal.",
+    "70° is the angle between the incoming and reflected rays, not the angle of reflection.",
+    "145° is 180° − 35°; the reflected ray leaves at the same angle from the normal as it arrived."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u13-q02",
+   "courseId": "ap-physics-2",
+   "unitId": "u13",
+   "topicId": "p13-refract",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Light in air (n = 1.00) strikes a glass surface (n = 1.50) at 60° from the normal. At about what angle from the normal does it travel in the glass?",
+   "choices": [
+    "35°",
+    "40°",
+    "60°",
+    "55°"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Snell's law: sin θ₂ = (1.00)(sin 60°)/1.50 = 0.866/1.50 = 0.577, so θ₂ ≈ 35°. The light bends toward the normal as it slows down.",
+   "choiceExplanations": [
+    "",
+    "40° divides the angle itself by 1.50; Snell's law relates the sines of the angles.",
+    "60° would mean no bending, but light changes direction when it changes speed.",
+    "55° is the angle from the surface (90° − 35°); angles are measured from the normal."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u13-q03",
+   "courseId": "ap-physics-2",
+   "unitId": "u13",
+   "topicId": "p13-refract",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Light travels from a vacuum into water, which has an index of refraction of 1.33. What is its speed in the water? (c = 3.0 × 10⁸ m/s)",
+   "choices": [
+    "2.3 × 10⁸ m/s",
+    "4.0 × 10⁸ m/s",
+    "3.0 × 10⁸ m/s",
+    "4.4 × 10⁻⁹ m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "n = c/v, so v = c/n = (3.0 × 10⁸ m/s)/1.33 ≈ 2.3 × 10⁸ m/s.",
+   "choiceExplanations": [
+    "",
+    "4.0 × 10⁸ m/s multiplies by n; light is slower in water, not faster.",
+    "3.0 × 10⁸ m/s is the speed in a vacuum; an index above 1 means light is slower.",
+    "4.4 × 10⁻⁹ is n/c, the ratio upside down."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u13-q04",
+   "courseId": "ap-physics-2",
+   "unitId": "u13",
+   "topicId": "p13-refract",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Light inside a block of glass (n = 1.50) meets the glass–air boundary at 45° from the normal. What happens?",
+   "choices": [
+    "It is totally reflected back into the glass, because 45° is larger than the critical angle of about 42°",
+    "It passes into the air, bending toward the normal",
+    "It passes into the air, bending away from the normal, at about 64°",
+    "It passes straight into the air without bending"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The critical angle is given by sin θ_c = 1.00/1.50, so θ_c ≈ 41.8°. Since 45° is larger, Snell's law would need sin θ₂ = 1.50 × sin 45° ≈ 1.06, which is impossible, so all the light reflects.",
+   "choiceExplanations": [
+    "",
+    "Going into air (smaller n), light would bend away from the normal, and here it cannot leave at all.",
+    "No refracted angle exists: 1.50 × sin 45° ≈ 1.06 is greater than 1, so no light leaves the glass.",
+    "Light bends at any boundary it meets at an angle; here, beyond the critical angle, none of it leaves."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u13-q05",
+   "courseId": "ap-physics-2",
+   "unitId": "u13",
+   "topicId": "p13-refract",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Why does a leaf look green in white light?",
+   "choices": [
+    "It absorbs most other colors and reflects mostly green light",
+    "It absorbs mostly green light and reflects the rest",
+    "It creates green light from the white light",
+    "It slows green light down more than other colors"
+   ],
+   "correctAnswer": 0,
+   "explanation": "White light contains all colors. The leaf absorbs much of the red and blue light and reflects mostly green, so green light reaches your eyes.",
+   "choiceExplanations": [
+    "",
+    "The color you see is the light that is reflected, not the light that is absorbed.",
+    "The leaf does not create light; it removes some colors from the white light by absorbing them.",
+    "The leaf's color comes from absorption and reflection, not from light slowing down inside it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u13-q06",
+   "courseId": "ap-physics-2",
+   "unitId": "u13",
+   "topicId": "p13-mirror",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "You stand 2.0 m in front of a flat (plane) mirror. Where is your image, and what is it like?",
+   "choices": [
+    "2.0 m behind the mirror: virtual, upright, and the same size",
+    "On the surface of the mirror: virtual and upright",
+    "2.0 m in front of the mirror: real and inverted",
+    "4.0 m behind the mirror: virtual and half the size"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A plane mirror forms a virtual image as far behind the mirror as the object is in front, upright and the same size.",
+   "choiceExplanations": [
+    "",
+    "The image appears behind the mirror, not on its surface.",
+    "A plane mirror cannot form a real image; reflected rays only appear to come from behind it.",
+    "4.0 m is the distance from you to your image; the image is 2.0 m behind the mirror and the same size as you."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u13-q07",
+   "courseId": "ap-physics-2",
+   "unitId": "u13",
+   "topicId": "p13-mirror",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An object is 30 cm in front of a concave mirror with a focal length of 10 cm. Where is the image, and what is it like?",
+   "choices": [
+    "15 cm in front of the mirror: real, inverted, and half the size",
+    "15 cm behind the mirror: virtual, upright, and half the size",
+    "7.5 cm in front of the mirror: real and inverted",
+    "20 cm in front of the mirror: real and inverted"
+   ],
+   "correctAnswer": 0,
+   "explanation": "1/s_i = 1/10 − 1/30 = 2/30, so s_i = +15 cm: a real image in front of the mirror. M = −15/30 = −0.5, so it is inverted and half the size.",
+   "choiceExplanations": [
+    "",
+    "A positive image distance means the image is in front of the mirror, where it is real; virtual images have negative s_i.",
+    "7.5 cm adds 1/10 + 1/30 instead of subtracting 1/30.",
+    "20 cm subtracts the distances (30 − 10); the mirror equation uses reciprocals."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u13-q08",
+   "courseId": "ap-physics-2",
+   "unitId": "u13",
+   "topicId": "p13-mirror",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "An object is 20 cm in front of a convex mirror with a focal length of −20 cm. Where is the image, and what is it like?",
+   "choices": [
+    "10 cm behind the mirror: virtual, upright, and half the size",
+    "No image forms, because the object is at the focal length",
+    "10 cm in front of the mirror: real and inverted",
+    "20 cm behind the mirror: virtual, upright, and the same size"
+   ],
+   "correctAnswer": 0,
+   "explanation": "1/s_i = 1/f − 1/s_o = −1/20 − 1/20 = −1/10, so s_i = −10 cm: a virtual image 10 cm behind the mirror. M = −(−10)/20 = +0.5: upright and half the size.",
+   "choiceExplanations": [
+    "",
+    "That happens for a concave mirror with the object at its focal point. A convex mirror's focal point is behind it, so an image always forms.",
+    "A convex mirror always forms a virtual image; the negative s_i puts it behind the mirror.",
+    "Same distance and same size describes a plane mirror; a convex mirror makes images smaller and closer."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u13-q09",
+   "courseId": "ap-physics-2",
+   "unitId": "u13",
+   "topicId": "p13-lens",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An object is 3.0 cm from a converging lens with a focal length of 5.0 cm, as with a magnifying glass. What image forms?",
+   "choices": [
+    "A virtual, upright image 2.5 times as tall, 7.5 cm from the lens on the object's side",
+    "A real, inverted image 7.5 cm from the lens on the other side",
+    "A real image 1.9 cm from the lens",
+    "No image, because the object is inside the focal length"
+   ],
+   "correctAnswer": 0,
+   "explanation": "1/s_i = 1/5.0 − 1/3.0 = −2/15, so s_i = −7.5 cm: a virtual image on the same side as the object. M = −(−7.5)/3.0 = +2.5: upright and 2.5 times as tall.",
+   "choiceExplanations": [
+    "",
+    "The negative image distance means the image is virtual and on the object's side, not real on the far side.",
+    "1.9 cm adds 1/5.0 + 1/3.0 instead of subtracting.",
+    "An object inside the focal length gives a virtual, enlarged image; that is how a magnifying glass works."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u13-q10",
+   "courseId": "ap-physics-2",
+   "unitId": "u13",
+   "topicId": "p13-lens",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "An object is 20 cm from a converging lens with a focal length of 10 cm. How far from the lens is the image?",
+   "choices": [
+    "20 cm",
+    "10 cm",
+    "6.7 cm",
+    "30 cm"
+   ],
+   "correctAnswer": 0,
+   "explanation": "1/s_i = 1/10 − 1/20 = 1/20, so s_i = 20 cm. An object at 2f forms a real, inverted, same-size image at 2f.",
+   "choiceExplanations": [
+    "",
+    "10 cm is the focal length; only an object very far away forms its image at f.",
+    "6.7 cm adds 1/10 + 1/20 instead of subtracting.",
+    "30 cm adds the distances; the lens equation uses reciprocals."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u13-q11",
+   "courseId": "ap-physics-2",
+   "unitId": "u13",
+   "topicId": "p13-lens",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "An object is 30 cm from a diverging lens with a focal length of −15 cm. What image forms?",
+   "choices": [
+    "A virtual, upright image one third as tall, 10 cm from the lens on the object's side",
+    "A real, inverted image 30 cm from the lens",
+    "A virtual, upright image three times as tall",
+    "No image, because a diverging lens spreads the light out"
+   ],
+   "correctAnswer": 0,
+   "explanation": "1/s_i = −1/15 − 1/30 = −3/30, so s_i = −10 cm: a virtual image on the object's side. M = −(−10)/30 = +1/3: upright and one third as tall.",
+   "choiceExplanations": [
+    "",
+    "A diverging lens cannot form a real image of a real object.",
+    "A diverging lens makes images smaller, not larger: M = 1/3.",
+    "The spreading rays appear to come from a point on the object's side, which is the virtual image."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ph2u13-q01",
+    "ph2u13-q02",
+    "ph2u13-q03",
+    "ph2u13-q06",
+    "ph2u13-q07",
+    "ph2u13-q08",
+    "ph2u13-q09",
+    "ph2u13-q11"
+   ]
+  }
+ ]
+}

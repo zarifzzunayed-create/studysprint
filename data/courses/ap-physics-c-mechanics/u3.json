@@ -1,0 +1,417 @@
+{
+ "courseId": "ap-physics-c-mechanics",
+ "unitId": "u3",
+ "title": "Unit 3: Work, Energy, and Power",
+ "topics": [
+  {
+   "id": "m3-work",
+   "name": "Work and the work–energy theorem",
+   "covers": [
+    "Work–energy theorem"
+   ]
+  },
+  {
+   "id": "m3-pot",
+   "name": "Potential energy and conservation of energy",
+   "covers": [
+    "Forces and potential energy",
+    "Conservation of energy"
+   ]
+  },
+  {
+   "id": "m3-power",
+   "name": "Power",
+   "covers": [
+    "Power"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Work, energy, and power: review guide",
+  "intro": "Energy methods connect a system's starting and ending states without tracking every force moment by moment. In Physics C, work is an integral, force comes from potential energy as a derivative, and power is a rate.",
+  "equationNote": "g = 10 m/s² unless a question says otherwise.",
+  "sections": [
+   {
+    "id": "s-m3-work",
+    "topicId": "m3-work",
+    "title": "Work and the work–energy theorem",
+    "body": [
+     "The work done by a force along a path is W = ∫F·dr; for a force along x, W = ∫F(x) dx, the area under the F–x graph. A constant force gives W = Fd cos θ.",
+     "Work–energy theorem: the net work done on an object equals its change in kinetic energy, W_net = ΔK = ½mv_f² − ½mv_i²."
+    ],
+    "points": [
+     "Only the component of a force along the displacement does work.",
+     "Work can be negative: friction usually removes kinetic energy.",
+     "A spring force F = −kx does work −½k(x_f² − x_i²)."
+    ],
+    "equations": [
+     [
+      "W = ∫F dx",
+      "work by a variable force"
+     ],
+     [
+      "W_net = ΔK",
+      "work–energy theorem"
+     ]
+    ]
+   },
+   {
+    "id": "s-m3-pot",
+    "topicId": "m3-pot",
+    "title": "Potential energy and conservation of energy",
+    "body": [
+     "For a conservative force, F = −dU/dx: the force points downhill on a graph of U(x). Conversely, ΔU = −∫F dx. Gravity near Earth gives U = mgh, and a spring gives U = ½kx².",
+     "Equilibrium points are where dU/dx = 0: stable at a minimum of U (d²U/dx² > 0) and unstable at a maximum. With only conservative forces, K + U stays constant; nonconservative forces such as friction change the mechanical energy by the work they do."
+    ],
+    "points": [
+     "You can put the zero of potential energy anywhere; only changes matter.",
+     "Mechanical energy removed by friction becomes thermal energy, so the total energy is still conserved.",
+     "Far from Earth's surface, U = −GMm/r."
+    ],
+    "equations": [
+     [
+      "F = −dU/dx",
+      "force from potential energy"
+     ],
+     [
+      "K_i + U_i + W_nc = K_f + U_f",
+      "energy with nonconservative work"
+     ]
+    ]
+   },
+   {
+    "id": "s-m3-power",
+    "topicId": "m3-power",
+    "title": "Power",
+    "body": [
+     "Power is the rate of doing work or transferring energy: P = dW/dt. A force F acting on an object moving at velocity v delivers P = Fv cos θ.",
+     "Over time, the work done is the integral of power, W = ∫P dt. Average power is W/Δt."
+    ],
+    "points": [
+     "1 watt = 1 J/s.",
+     "At constant speed against a resistive force, the engine's power equals the resistive force times the speed.",
+     "More power does the same work in less time."
+    ],
+    "equations": [
+     [
+      "P = dW/dt = F·v",
+      "power"
+     ],
+     [
+      "W = ∫P dt",
+      "work from power"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 2.0 kg block moves along the x-axis under a force F(x) = 12 − 4x newtons. It starts from rest at x = 0. How fast is it moving at x = 2.0 m?",
+   "solution": "W = ∫₀² (12 − 4x) dx = [12x − 2x²]₀² = 24 − 8 = 16 J. By the work–energy theorem, ½(2.0)v² = 16 J, so v = 4.0 m/s."
+  },
+  "misconceptions": [
+   [
+    "“Work is always force times distance.”",
+    "That holds only for a constant force along the motion; otherwise integrate."
+   ],
+   [
+    "“Potential energy has one correct zero.”",
+    "Only differences in U matter, so choose the zero for convenience."
+   ],
+   [
+    "“A force that does no work is not acting.”",
+    "A force perpendicular to the motion acts on the object but does no work."
+   ],
+   [
+    "“Power and energy are the same thing.”",
+    "Power is the rate at which energy is transferred."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics C: Mechanics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+  "sourceTitle": "AP Physics C: Mechanics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "phcmu3-q01",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u3",
+   "topicId": "m3-work",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A force F(x) = 3x² newtons acts along the x-axis. How much work does it do as an object moves from x = 0 to x = 2.0 m?",
+   "choices": [
+    "8.0 J",
+    "24 J",
+    "12 J",
+    "2.7 J"
+   ],
+   "correctAnswer": 0,
+   "explanation": "W = ∫₀² 3x² dx = [x³]₀² = 8.0 J.",
+   "choiceExplanations": [
+    "",
+    "24 J treats the force as constant at its final value, F(2) = 12 N, over the 2.0 m.",
+    "12 is F(2), a force in newtons, not the work.",
+    "2.7 J integrates x² and drops the factor 3."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu3-q02",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u3",
+   "topicId": "m3-work",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 2.0 kg object moving at 3.0 m/s has 20 J of net work done on it. What is its final speed?",
+   "choices": [
+    "About 5.4 m/s",
+    "About 4.5 m/s",
+    "13 m/s",
+    "29 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "K_i = ½(2.0)(3.0)² = 9 J, so K_f = 9 + 20 = 29 J. Then ½(2.0)v² = 29, so v = √29 ≈ 5.4 m/s.",
+   "choiceExplanations": [
+    "",
+    "4.5 m/s = √20 ignores the object's starting kinetic energy of 9 J.",
+    "13 m/s adds 20 J ÷ 2.0 kg = 10 to the speed; work changes kinetic energy, not speed directly.",
+    "29 is v²; the square root is still needed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu3-q03",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u3",
+   "topicId": "m3-pot",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A conservative force has potential energy U(x) = 4x² joules, with x in meters. What is the force at x = 1.5 m?",
+   "choices": [
+    "−12 N",
+    "+12 N",
+    "9.0 N",
+    "−6.0 N"
+   ],
+   "correctAnswer": 0,
+   "explanation": "F = −dU/dx = −8x, so F(1.5) = −12 N. The force points toward x = 0, back down the potential-energy curve.",
+   "choiceExplanations": [
+    "",
+    "The minus sign in F = −dU/dx matters: the force points toward lower potential energy.",
+    "9.0 is U(1.5) = 4(1.5)², an energy in joules, not the force.",
+    "The derivative of 4x² is 8x, not 4x."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu3-q04",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u3",
+   "topicId": "m3-pot",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A spring with k = 200 N/m is compressed 0.10 m and used to launch a 0.050 kg ball straight up. How high above its launch point does the ball rise? (g = 10 m/s², ignore air resistance)",
+   "choices": [
+    "2.0 m",
+    "4.0 m",
+    "40 m",
+    "20 m"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The spring's energy ½kx² = ½(200)(0.10)² = 1.0 J becomes gravitational energy mgh: h = 1.0 J ÷ (0.050 × 10 N) = 2.0 m.",
+   "choiceExplanations": [
+    "",
+    "4.0 m uses kx² without the factor ½.",
+    "40 m uses kx/mg, the spring's force instead of its stored energy.",
+    "20 m divides the energy by the mass alone instead of by the weight, mg."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu3-q05",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u3",
+   "topicId": "m3-pot",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An object moves in a potential U(x) = x³ − 3x (SI units). Where are its equilibrium points, and which is stable?",
+   "choices": [
+    "x = 1 and x = −1; x = 1 is stable",
+    "x = 1 and x = −1; x = −1 is stable",
+    "x = 1 and x = −1; both are stable",
+    "x = 0 only; it is stable"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Equilibrium where dU/dx = 3x² − 3 = 0, so x = ±1. d²U/dx² = 6x is positive at x = 1 (a minimum of U: stable) and negative at x = −1 (a maximum: unstable).",
+   "choiceExplanations": [
+    "",
+    "x = −1 is a maximum of U; a small push sends the object away from it.",
+    "Only a minimum of U is stable; x = −1 is a maximum.",
+    "At x = 0, dU/dx = −3 ≠ 0, so a force acts there and it is not an equilibrium."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu3-q06",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u3",
+   "topicId": "m3-pot",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 2.0 kg block starts from rest at the top of a ramp 3.0 m high and slides to the bottom. Friction does −20 J of work on it. What is its speed at the bottom? (g = 10 m/s²)",
+   "choices": [
+    "About 6.3 m/s",
+    "About 7.7 m/s",
+    "About 4.5 m/s",
+    "About 8.9 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "mgh + W_friction = ½mv²: 60 J − 20 J = 40 J, so ½(2.0)v² = 40 and v = √40 ≈ 6.3 m/s.",
+   "choiceExplanations": [
+    "",
+    "7.7 m/s = √60 ignores the 20 J removed by friction.",
+    "4.5 m/s = √20 subtracts the friction work from the wrong energy: only 20 J of the 60 J is lost.",
+    "8.9 m/s = √80 adds the friction work instead of subtracting it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu3-q07",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u3",
+   "topicId": "m3-power",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A motor lifts a 50 kg load 4.0 m at constant speed in 10 s. What is its average power output? (g = 10 m/s²)",
+   "choices": [
+    "200 W",
+    "2000 W",
+    "20 W",
+    "20,000 W"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Work = mgh = (50)(10)(4.0) = 2000 J, so P = W/t = 2000 J ÷ 10 s = 200 W.",
+   "choiceExplanations": [
+    "",
+    "2000 is the work in joules; it still has to be divided by the time.",
+    "20 W uses the mass instead of the weight (mg).",
+    "20,000 W multiplies by the time instead of dividing."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu3-q08",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u3",
+   "topicId": "m3-power",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A car travels at a constant 30 m/s against a total resistive force of 1500 N. What power must the engine deliver?",
+   "choices": [
+    "45 kW",
+    "50 W",
+    "22.5 kW",
+    "0.020 W"
+   ],
+   "correctAnswer": 0,
+   "explanation": "At constant speed the driving force equals the resistive force, so P = Fv = (1500 N)(30 m/s) = 45,000 W = 45 kW.",
+   "choiceExplanations": [
+    "",
+    "50 is F/v; power is force times velocity.",
+    "22.5 kW includes a factor ½ that does not belong in P = Fv.",
+    "0.020 is v/F."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu3-q09",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u3",
+   "topicId": "m3-power",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The power delivered to an object is P(t) = 6t² watts. How much work is done on it from t = 0 to t = 2.0 s?",
+   "choices": [
+    "16 J",
+    "48 J",
+    "24 J",
+    "2.7 J"
+   ],
+   "correctAnswer": 0,
+   "explanation": "W = ∫₀² 6t² dt = [2t³]₀² = 16 J.",
+   "choiceExplanations": [
+    "",
+    "48 J treats the power as constant at its final value, P(2) = 24 W, for 2.0 s.",
+    "24 is P(2), a power in watts, not the work done.",
+    "2.7 J integrates t² and drops the factor 6."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "phcmu3-q01",
+    "phcmu3-q02",
+    "phcmu3-q03",
+    "phcmu3-q04",
+    "phcmu3-q06",
+    "phcmu3-q07",
+    "phcmu3-q08",
+    "phcmu3-q09"
+   ]
+  }
+ ]
+}

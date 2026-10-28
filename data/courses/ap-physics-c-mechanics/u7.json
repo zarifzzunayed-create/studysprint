@@ -1,0 +1,440 @@
+{
+ "courseId": "ap-physics-c-mechanics",
+ "unitId": "u7",
+ "title": "Unit 7: Oscillations",
+ "topics": [
+  {
+   "id": "m7-shm",
+   "name": "Periodic motion and simple harmonic motion",
+   "covers": [
+    "Periodic motion"
+   ]
+  },
+  {
+   "id": "m7-pend",
+   "name": "Simple pendulums",
+   "covers": [
+    "Pendulums"
+   ]
+  },
+  {
+   "id": "m7-phys",
+   "name": "Physical pendulums",
+   "covers": [
+    "Physical Pendulums"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Oscillations: review guide",
+  "intro": "Many systems move back and forth around a stable equilibrium. When the restoring force or torque is proportional to the displacement, the motion is simple harmonic, and its period does not depend on the amplitude.",
+  "equationNote": "g = 10 m/s² unless stated. Use radians: ω is in rad/s.",
+  "sections": [
+   {
+    "id": "s-m7-shm",
+    "topicId": "m7-shm",
+    "title": "Periodic motion and simple harmonic motion",
+    "body": [
+     "Simple harmonic motion (SHM) happens when the restoring force is proportional to the displacement, F = −kx. Newton's second law gives d²x/dt² = −(k/m)x, whose solution is x(t) = A cos(ωt + φ) with ω = √(k/m).",
+     "The period is T = 2π/ω = 2π√(m/k), and the frequency is f = 1/T. The speed is greatest at equilibrium, v_max = Aω, and the acceleration is greatest at the turning points, a_max = Aω²."
+    ],
+    "points": [
+     "Any equation of the form d²x/dt² = −Cx describes SHM with ω = √C.",
+     "Energy: ½kA² = ½mv² + ½kx² at every point of the motion.",
+     "The period of an ideal mass–spring system does not depend on the amplitude."
+    ],
+    "equations": [
+     [
+      "T = 2π√(m/k)",
+      "mass–spring period"
+     ],
+     [
+      "x(t) = A cos(ωt + φ)",
+      "SHM position"
+     ],
+     [
+      "E = ½kA²",
+      "total energy"
+     ]
+    ]
+   },
+   {
+    "id": "s-m7-pend",
+    "topicId": "m7-pend",
+    "title": "Simple pendulums",
+    "body": [
+     "A simple pendulum is a small mass on a light string of length L. For small angles sin θ ≈ θ, so the restoring torque is proportional to θ and the motion is approximately SHM.",
+     "Its period is T = 2π√(L/g). It does not depend on the mass, and for small swings it does not depend on the amplitude."
+    ],
+    "points": [
+     "Four times the length doubles the period.",
+     "Weaker gravity, as on the Moon, makes the period longer.",
+     "For large amplitudes the period is a little longer than the formula predicts."
+    ],
+    "equations": [
+     [
+      "T = 2π√(L/g)",
+      "simple pendulum, small angles"
+     ]
+    ]
+   },
+   {
+    "id": "s-m7-phys",
+    "topicId": "m7-phys",
+    "title": "Physical pendulums",
+    "body": [
+     "A physical pendulum is any rigid object swinging about a pivot. Gravity acts at the center of mass, a distance d from the pivot, giving a restoring torque −mgd sin θ ≈ −mgdθ for small angles.",
+     "Using Στ = Iα with I measured about the pivot gives ω = √(mgd/I) and T = 2π√(I/(mgd)). A simple pendulum is the special case I = mL², d = L."
+    ],
+    "points": [
+     "Use the parallel-axis theorem to find I about the pivot.",
+     "For a uniform rod pivoted at one end, I = (1/3)mL² and d = L/2, so T = 2π√(2L/(3g)).",
+     "The mass cancels for a given shape; the shape and the pivot's location set the period."
+    ],
+    "equations": [
+     [
+      "T = 2π√(I/(mgd))",
+      "physical pendulum, small angles"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 0.40 kg mass on a spring with k = 160 N/m is pulled 0.050 m from equilibrium and released. Find the period, the maximum speed, and the total energy.",
+   "solution": "ω = √(k/m) = √400 = 20 rad/s, so T = 2π/20 ≈ 0.31 s. v_max = Aω = (0.050)(20) = 1.0 m/s. E = ½kA² = ½(160)(0.050)² = 0.20 J."
+  },
+  "misconceptions": [
+   [
+    "“A heavier pendulum bob swings faster.”",
+    "A simple pendulum's period does not depend on its mass."
+   ],
+   [
+    "“A bigger amplitude means a longer period.”",
+    "In SHM the period does not depend on the amplitude (for a pendulum, as long as the angle stays small)."
+   ],
+   [
+    "“At the turning points the acceleration is zero.”",
+    "There v = 0, but the acceleration is at its largest."
+   ],
+   [
+    "“A physical pendulum acts like a simple pendulum of the same length.”",
+    "Its period depends on its rotational inertia about the pivot and the distance to its center of mass."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics C: Mechanics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+  "sourceTitle": "AP Physics C: Mechanics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "phcmu7-q01",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u7",
+   "topicId": "m7-shm",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 0.50 kg mass on a spring with k = 50 N/m oscillates. What is its period?",
+   "choices": [
+    "About 0.63 s",
+    "0.10 s",
+    "About 63 s",
+    "About 1.6 s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "T = 2π√(m/k) = 2π√(0.50/50) = 2π(0.10) ≈ 0.63 s.",
+   "choiceExplanations": [
+    "",
+    "0.10 s is √(m/k); the factor 2π is missing.",
+    "63 s uses √(k/m), the ratio upside down.",
+    "1.6 is 1/T, the frequency in hertz, not the period."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu7-q02",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u7",
+   "topicId": "m7-shm",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An object's position is x(t) = 0.20 cos(5t) meters. What is its maximum speed?",
+   "choices": [
+    "1.0 m/s",
+    "5.0 m/s",
+    "0.20 m/s",
+    "0.040 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "v = dx/dt = −(0.20)(5)sin(5t), so v_max = Aω = (0.20)(5) = 1.0 m/s.",
+   "choiceExplanations": [
+    "",
+    "5.0 is Aω², the maximum acceleration in m/s².",
+    "0.20 m is the amplitude, a distance.",
+    "0.040 is A/ω; the derivative multiplies by ω."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu7-q03",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u7",
+   "topicId": "m7-shm",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A mass on a spring with k = 200 N/m oscillates with an amplitude of 0.10 m. What is its kinetic energy when it is 0.050 m from equilibrium?",
+   "choices": [
+    "0.75 J",
+    "0.50 J",
+    "0.25 J",
+    "1.0 J"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Total energy ½kA² = ½(200)(0.10)² = 1.0 J. At x = 0.050 m the spring stores ½(200)(0.050)² = 0.25 J, so K = 1.0 − 0.25 = 0.75 J.",
+   "choiceExplanations": [
+    "",
+    "0.50 J assumes the energy splits evenly at half the amplitude, but spring energy depends on x².",
+    "0.25 J is the spring's potential energy at that point.",
+    "1.0 J is the total energy, which is all kinetic only at equilibrium."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu7-q04",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u7",
+   "topicId": "m7-shm",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "An object's motion obeys d²x/dt² = −16x, in SI units. What is the period of its oscillation?",
+   "choices": [
+    "About 1.6 s",
+    "About 0.39 s",
+    "0.25 s",
+    "4.0 s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Compare with d²x/dt² = −ω²x: ω² = 16, so ω = 4.0 rad/s and T = 2π/ω ≈ 1.6 s.",
+   "choiceExplanations": [
+    "",
+    "0.39 s is 2π/16, which treats 16 as ω instead of ω².",
+    "0.25 is 1/ω; the period is 2π/ω.",
+    "4.0 is ω, the angular frequency in rad/s."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu7-q05",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u7",
+   "topicId": "m7-pend",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the period of a simple pendulum 2.5 m long, swinging through small angles? (g = 10 m/s²)",
+   "choices": [
+    "About 3.1 s",
+    "0.50 s",
+    "About 12.6 s",
+    "0.25 s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "T = 2π√(L/g) = 2π√(2.5/10) = 2π(0.50) ≈ 3.1 s.",
+   "choiceExplanations": [
+    "",
+    "0.50 s is √(L/g); the factor 2π is missing.",
+    "12.6 s uses √(g/L), the ratio upside down.",
+    "0.25 is L/g; the period uses its square root, times 2π."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu7-q06",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u7",
+   "topicId": "m7-pend",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A simple pendulum's length is made four times as long and its bob's mass is doubled. What happens to its period (for small swings)?",
+   "choices": [
+    "It doubles",
+    "It becomes four times as long",
+    "It becomes about 2.8 times as long",
+    "It stays the same"
+   ],
+   "correctAnswer": 0,
+   "explanation": "T = 2π√(L/g) depends on the length but not the mass. Four times the length gives √4 = 2 times the period.",
+   "choiceExplanations": [
+    "",
+    "The period depends on √L, so four times the length doubles it rather than quadrupling it.",
+    "2.8 ≈ 2√2 wrongly lets the doubled mass change the period too; the mass has no effect.",
+    "The length changed, and the period depends on the length."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu7-q07",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u7",
+   "topicId": "m7-pend",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A pendulum clock is taken to the Moon, where gravity is about one sixth as strong as on Earth. How does its pendulum's period change?",
+   "choices": [
+    "It becomes about 2.4 times longer",
+    "It becomes 6 times longer",
+    "It becomes about 2.4 times shorter",
+    "It stays the same"
+   ],
+   "correctAnswer": 0,
+   "explanation": "T = 2π√(L/g), so dividing g by 6 multiplies T by √6 ≈ 2.4. The clock runs slow.",
+   "choiceExplanations": [
+    "",
+    "The period depends on 1/√g, so it grows by √6, not by 6.",
+    "Weaker gravity gives a weaker restoring force, so the swing is slower and the period longer.",
+    "The period depends on g, so it changes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu7-q08",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u7",
+   "topicId": "m7-phys",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A uniform rod 1.5 m long swings about a pivot at one end through small angles. What is its period? (g = 10 m/s²)",
+   "choices": [
+    "About 2.0 s",
+    "About 2.4 s",
+    "About 1.7 s",
+    "About 1.0 s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "For a rod pivoted at one end, I = (1/3)mL² and d = L/2, so T = 2π√(I/(mgd)) = 2π√(2L/(3g)) = 2π√(0.10) ≈ 2.0 s.",
+   "choiceExplanations": [
+    "",
+    "2.4 s treats the rod as a simple pendulum 1.5 m long, as if all its mass were at the end.",
+    "1.7 s treats it as a simple pendulum of length L/2, which leaves out the rod's rotational inertia.",
+    "1.0 s uses I = (1/12)mL², the value about the rod's center, without the parallel-axis term."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu7-q09",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u7",
+   "topicId": "m7-phys",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For small swings, which quantities set the period of a physical pendulum?",
+   "choices": [
+    "Its rotational inertia about the pivot and the distance from the pivot to its center of mass, but not the size of the swing",
+    "Only its total length, as for a simple pendulum",
+    "Only its mass: a heavier object swings faster",
+    "Only how far it is pulled back before release"
+   ],
+   "correctAnswer": 0,
+   "explanation": "T = 2π√(I/(mgd)). It depends on I about the pivot and on d (with the mass canceling for a given shape), not on the amplitude when the angles are small.",
+   "choiceExplanations": [
+    "",
+    "Two objects of the same length can have different rotational inertias and centers of mass, so they swing with different periods.",
+    "For a given shape, I is proportional to m, so the mass cancels in I/(mgd).",
+    "For small angles the period does not depend on the amplitude."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu7-q10",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u7",
+   "topicId": "m7-phys",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A pendulum is released from a large angle, 60°, instead of a small one. How does its actual period compare with the small-angle formula?",
+   "choices": [
+    "It is somewhat longer, because the restoring torque is proportional to sin θ, which is less than θ",
+    "It is exactly the same, because the period never depends on the amplitude",
+    "It is shorter, because the pendulum has farther to fall and so moves faster",
+    "It is twice as long, because the angle is doubled"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The formula assumes sin θ ≈ θ. At large angles sin θ < θ, so the restoring torque is weaker than the linear model predicts, and the pendulum takes longer to complete each swing.",
+   "choiceExplanations": [
+    "",
+    "Amplitude independence is exact only for true SHM; a pendulum is SHM only in the small-angle approximation.",
+    "It does move faster at the bottom, but it travels farther, and the weaker-than-linear restoring torque makes each swing take longer overall.",
+    "The period grows only slightly at 60° (by roughly 7%); it does not double."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "phcmu7-q01",
+    "phcmu7-q02",
+    "phcmu7-q03",
+    "phcmu7-q05",
+    "phcmu7-q06",
+    "phcmu7-q07",
+    "phcmu7-q08",
+    "phcmu7-q10"
+   ]
+  }
+ ]
+}

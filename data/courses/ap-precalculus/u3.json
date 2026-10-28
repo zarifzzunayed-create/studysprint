@@ -1,0 +1,497 @@
+{
+ "courseId": "ap-precalculus",
+ "unitId": "u3",
+ "title": "Unit 3: Trigonometric and Polar Functions",
+ "topics": [
+  {
+   "id": "pc3-unit",
+   "name": "The unit circle: sine, cosine, and tangent",
+   "covers": [
+    "Relating right triangle trigonometry to the sine, cosine, and tangent functions"
+   ]
+  },
+  {
+   "id": "pc3-sin",
+   "name": "Sinusoidal functions and models",
+   "covers": [
+    "Modeling data and scenarios with sinusoidal functions"
+   ]
+  },
+  {
+   "id": "pc3-inv",
+   "name": "Inverse trig functions and trig equations",
+   "covers": [
+    "Using inverse trigonometric functions to solve trigonometric equations"
+   ]
+  },
+  {
+   "id": "pc3-polar",
+   "name": "Polar coordinates and graphs",
+   "covers": [
+    "Graphing functions using polar coordinates",
+    "Describing how angles and radii change with respect to each other in a polar graph"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Trigonometric and polar functions: review guide",
+  "intro": "This unit extends sine, cosine, and tangent from right triangles to the unit circle, uses them to model repeating patterns, solves trig equations with inverse functions, and graphs curves in polar coordinates. Angles are in radians unless stated.",
+  "sections": [
+   {
+    "id": "s-pc3-unit",
+    "topicId": "pc3-unit",
+    "title": "The unit circle: sine, cosine, and tangent",
+    "body": [
+     "For an angle θ in standard position, its terminal ray meets the unit circle at (cos θ, sin θ). For any point (x, y) on the ray, at distance r = √(x² + y²) from the origin, cos θ = x/r, sin θ = y/r, and tan θ = y/x.",
+     "Radian measure is arc length on the unit circle: a full turn is 2π and a half turn is π. In a right triangle these definitions match opposite/hypotenuse, adjacent/hypotenuse, and opposite/adjacent."
+    ],
+    "points": [
+     "Key values: sin(π/6) = 1/2, sin(π/4) = √2/2, sin(π/3) = √3/2; cosine takes the same values in reverse order.",
+     "Signs: in Quadrant II only sine is positive, in Quadrant III only tangent, and in Quadrant IV only cosine.",
+     "tan θ = sin θ / cos θ, the slope of the terminal ray."
+    ]
+   },
+   {
+    "id": "s-pc3-sin",
+    "topicId": "pc3-sin",
+    "title": "Sinusoidal functions and models",
+    "body": [
+     "f(θ) = a·sin(b(θ + c)) + d, or the same with cosine, has amplitude |a|, period 2π/|b|, midline y = d, and a horizontal shift of −c.",
+     "To model data: midline = (max + min)/2, amplitude = (max − min)/2, and period = time from one maximum to the next. Use cosine if the data start at a maximum (−cosine at a minimum) and sine if they start on the midline going up."
+    ],
+    "points": [
+     "A maximum and the next minimum are half a period apart.",
+     "tan θ has period π and vertical asymptotes where cos θ = 0.",
+     "A negative a reflects the graph across its midline."
+    ],
+    "equations": [
+     [
+      "period = 2π/|b|",
+      "for sin(bθ) and cos(bθ)"
+     ]
+    ]
+   },
+   {
+    "id": "s-pc3-inv",
+    "topicId": "pc3-inv",
+    "title": "Inverse trig functions and trig equations",
+    "body": [
+     "Each inverse function returns one angle: arcsin x is in [−π/2, π/2], arccos x is in [0, π], and arctan x is in (−π/2, π/2). Use it for a first solution, then use symmetry and the period to find the rest.",
+     "On [0, 2π), sin θ = k has solutions θ₁ and π − θ₁, and cos θ = k has solutions θ₁ and 2π − θ₁. For an equation like sin(bθ) = k, solve for bθ over the stretched interval first, then divide by b."
+    ],
+    "points": [
+     "Check that every solution lies in the requested interval.",
+     "sin²θ + cos²θ = 1 helps rewrite an equation in terms of one function.",
+     "All solutions: add 2πn (or πn for tangent) for every integer n."
+    ]
+   },
+   {
+    "id": "s-pc3-polar",
+    "topicId": "pc3-polar",
+    "title": "Polar coordinates and graphs",
+    "body": [
+     "The polar point (r, θ) is at distance r from the origin in the direction θ. Convert with x = r cos θ and y = r sin θ, and use r² = x² + y².",
+     "On a graph r = f(θ), when r is positive and increasing the points move away from the origin; when r is positive and decreasing they move toward it. A negative r plots the point in the opposite direction."
+    ],
+    "points": [
+     "r = a cos θ and r = a sin θ are circles through the origin with diameter |a|.",
+     "r = a + b sin θ gives a limaçon; r = a cos(nθ) gives a rose.",
+     "The average rate of change of r over [θ₁, θ₂] is (r(θ₂) − r(θ₁)) / (θ₂ − θ₁)."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Solve 2 sin θ + √3 = 0 for 0 ≤ θ < 2π.",
+   "solution": "sin θ = −√3/2. The reference angle is π/3, and sine is negative in Quadrants III and IV, so θ = π + π/3 = 4π/3 and θ = 2π − π/3 = 5π/3."
+  },
+  "misconceptions": [
+   [
+    "“arcsin gives every solution.”",
+    "It gives one angle in [−π/2, π/2]; find the others with symmetry and the period."
+   ],
+   [
+    "“The period of sin(2x) is 4π.”",
+    "Multiplying the input by 2 makes the graph repeat twice as fast, so the period is 2π/2 = π."
+   ],
+   [
+    "“(r, θ) and (−r, θ) are the same point.”",
+    "−r points the opposite way: (−r, θ) is the same point as (r, θ + π)."
+   ],
+   [
+    "“Calculator mode does not matter.”",
+    "Angles in this unit are usually in radians; a calculator in degree mode gives wrong values."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Precalculus Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+  "sourceTitle": "AP Precalculus – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-21"
+ },
+ "questions": [
+  {
+   "id": "pc-u3-q01",
+   "courseId": "ap-precalculus",
+   "unitId": "u3",
+   "topicId": "pc3-unit",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the exact value of sin(5π/6)?",
+   "choices": [
+    "1/2",
+    "−1/2",
+    "√3/2",
+    "−√3/2"
+   ],
+   "correctAnswer": 0,
+   "explanation": "5π/6 is in Quadrant II with reference angle π/6. Sine is positive there, so sin(5π/6) = sin(π/6) = 1/2.",
+   "choiceExplanations": [
+    "",
+    "Sine is positive in Quadrant II, so the value is not negative.",
+    "√3/2 is sin(π/3); the reference angle here is π/6.",
+    "−√3/2 is cos(5π/6), not the sine."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u3-q02",
+   "courseId": "ap-precalculus",
+   "unitId": "u3",
+   "topicId": "pc3-unit",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The terminal ray of an angle θ in standard position passes through the point (−3, 4). What is cos θ?",
+   "choices": [
+    "−3/5",
+    "3/5",
+    "−4/3",
+    "4/5"
+   ],
+   "correctAnswer": 0,
+   "explanation": "r = √((−3)² + 4²) = 5, so cos θ = x/r = −3/5.",
+   "choiceExplanations": [
+    "",
+    "The x-coordinate is negative (the point is in Quadrant II), so cosine is negative.",
+    "−4/3 is y/x, which is tan θ.",
+    "4/5 is y/r, which is sin θ."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u3-q03",
+   "courseId": "ap-precalculus",
+   "unitId": "u3",
+   "topicId": "pc3-sin",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the period of f(x) = 3 sin(2x) + 1?",
+   "choices": [
+    "π",
+    "2π",
+    "4π",
+    "3"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The period of sin(bx) is 2π/|b| = 2π/2 = π. The 3 is the amplitude and the 1 moves the midline; neither changes the period.",
+   "choiceExplanations": [
+    "",
+    "2π is the period of sin x; the factor 2 inside makes the graph repeat twice as fast.",
+    "4π multiplies 2π by 2 instead of dividing by 2.",
+    "3 is the amplitude, not the period."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u3-q04",
+   "courseId": "ap-precalculus",
+   "unitId": "u3",
+   "topicId": "pc3-sin",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A Ferris wheel has a diameter of 40 m, and its center is 25 m above the ground. It turns once every 8 minutes, and a rider starts at the lowest point. Which function gives the rider's height in meters after t minutes?",
+   "choices": [
+    "h(t) = 25 − 20cos(πt/4)",
+    "h(t) = 25 + 20cos(πt/4)",
+    "h(t) = 25 − 40cos(πt/4)",
+    "h(t) = 25 − 20cos(8t)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The midline is 25, the amplitude is the radius, 20, and the period is 8, so b = 2π/8 = π/4. Starting at the minimum calls for −cos: h(0) = 25 − 20 = 5 m, the lowest point.",
+   "choiceExplanations": [
+    "",
+    "+cos starts at the maximum, h(0) = 45 m, but the rider starts at the lowest point.",
+    "40 m is the diameter; the amplitude is the radius, 20 m. This model would go below the ground.",
+    "b = 8 gives a period of 2π/8 ≈ 0.79 minutes; a period of 8 minutes needs b = 2π/8 = π/4."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u3-q05",
+   "courseId": "ap-precalculus",
+   "unitId": "u3",
+   "topicId": "pc3-sin",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A city's average monthly temperature is lowest, 10°C, in month t = 1 and highest, 30°C, in month t = 7, and the pattern repeats every 12 months. Which model fits?",
+   "choices": [
+    "T(t) = 20 − 10cos(π(t − 1)/6)",
+    "T(t) = 20 + 10cos(π(t − 1)/6)",
+    "T(t) = 20 − 10cos(π(t − 1)/12)",
+    "T(t) = 10 − 20cos(π(t − 1)/6)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Midline (30 + 10)/2 = 20, amplitude (30 − 10)/2 = 10, and period 12, so b = 2π/12 = π/6. A minimum at t = 1 calls for −cos shifted right by 1: T(1) = 20 − 10 = 10 and T(7) = 20 − 10cos π = 30.",
+   "choiceExplanations": [
+    "",
+    "+cos would put the maximum at t = 1, but t = 1 is the minimum.",
+    "π/12 gives a period of 24 months; the 6 months from minimum to maximum is half the period, not the whole period.",
+    "This swaps the midline and the amplitude; it would range from −10 to 30."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u3-q06",
+   "courseId": "ap-precalculus",
+   "unitId": "u3",
+   "topicId": "pc3-inv",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is arcsin(−1/2)?",
+   "choices": [
+    "−π/6",
+    "7π/6",
+    "11π/6",
+    "−π/3"
+   ],
+   "correctAnswer": 0,
+   "explanation": "arcsin returns the angle in [−π/2, π/2] whose sine is −1/2. That angle is −π/6.",
+   "choiceExplanations": [
+    "",
+    "sin(7π/6) = −1/2, but 7π/6 is outside arcsin's range [−π/2, π/2].",
+    "sin(11π/6) = −1/2 too, but 11π/6 is outside arcsin's range; the matching angle in the range is −π/6.",
+    "sin(−π/3) = −√3/2, not −1/2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u3-q07",
+   "courseId": "ap-precalculus",
+   "unitId": "u3",
+   "topicId": "pc3-inv",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Solve 2cos x − 1 = 0 for 0 ≤ x < 2π.",
+   "choices": [
+    "x = π/3 and x = 5π/3",
+    "x = π/3 and x = 2π/3",
+    "x = π/6 and x = 11π/6",
+    "x = π/3 only"
+   ],
+   "correctAnswer": 0,
+   "explanation": "cos x = 1/2. arccos(1/2) = π/3, and cosine is also positive in Quadrant IV, which gives 2π − π/3 = 5π/3.",
+   "choiceExplanations": [
+    "",
+    "π/3 and 2π/3 solve sin x = √3/2; cos(2π/3) = −1/2.",
+    "π/6 and 11π/6 solve cos x = √3/2, not cos x = 1/2.",
+    "arccos gives only one solution; cosine is positive in Quadrant IV as well, so 5π/3 also works."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u3-q08",
+   "courseId": "ap-precalculus",
+   "unitId": "u3",
+   "topicId": "pc3-inv",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Solve sin(2x) = √3/2 for 0 ≤ x < π.",
+   "choices": [
+    "x = π/6 and x = π/3",
+    "x = π/3 and x = 2π/3",
+    "x = π/6 only",
+    "x = π/6, π/3, 7π/6, and 4π/3"
+   ],
+   "correctAnswer": 0,
+   "explanation": "For 0 ≤ x < π, 2x runs over [0, 2π). sin(2x) = √3/2 when 2x = π/3 or 2x = 2π/3, so x = π/6 or x = π/3.",
+   "choiceExplanations": [
+    "",
+    "π/3 and 2π/3 are the values of 2x; divide them by 2 to get x.",
+    "π/6 comes from 2x = π/3 alone; 2x = 2π/3 also works.",
+    "7π/6 and 4π/3 also satisfy the equation, but they are outside 0 ≤ x < π."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u3-q09",
+   "courseId": "ap-precalculus",
+   "unitId": "u3",
+   "topicId": "pc3-polar",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What are the rectangular coordinates of the polar point (r, θ) = (2, π/3)?",
+   "choices": [
+    "(1, √3)",
+    "(√3, 1)",
+    "(1/2, √3/2)",
+    "(−1, √3)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "x = 2cos(π/3) = 2·(1/2) = 1 and y = 2sin(π/3) = 2·(√3/2) = √3.",
+   "choiceExplanations": [
+    "",
+    "This swaps sine and cosine: x uses cos θ and y uses sin θ.",
+    "These are cos(π/3) and sin(π/3) without multiplying by r = 2.",
+    "π/3 is in Quadrant I, so x is positive."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u3-q10",
+   "courseId": "ap-precalculus",
+   "unitId": "u3",
+   "topicId": "pc3-polar",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which describes the graph of r = 4cos θ?",
+   "choices": [
+    "A circle with center (2, 0) and radius 2",
+    "A circle with center (0, 0) and radius 4",
+    "A circle with center (4, 0) and radius 4",
+    "The vertical line x = 4"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Multiply by r: r² = 4r cos θ, so x² + y² = 4x, which rearranges to (x − 2)² + y² = 4: a circle with center (2, 0) and radius 2.",
+   "choiceExplanations": [
+    "",
+    "That circle is r = 4, where r is constant; here r changes with θ.",
+    "4 is the diameter, not the radius: the circle passes through the origin and (4, 0).",
+    "The line x = 4 is r = 4/cos θ, a different equation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u3-q11",
+   "courseId": "ap-precalculus",
+   "unitId": "u3",
+   "topicId": "pc3-polar",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "For r = 3 + 2sin θ, what happens to the graph as θ increases from π/2 to π?",
+   "choices": [
+    "r decreases from 5 to 3 and stays positive, so the points get closer to the origin",
+    "r increases from 3 to 5, so the points move away from the origin",
+    "r decreases and becomes negative, so the points move to the opposite side of the origin",
+    "r stays constant, so the points move along a circle centered at the origin"
+   ],
+   "correctAnswer": 0,
+   "explanation": "On [π/2, π], sin θ falls from 1 to 0, so r = 3 + 2sin θ falls from 5 to 3. Because r stays positive, a decreasing r means the points move closer to the origin.",
+   "choiceExplanations": [
+    "",
+    "This reverses the direction: sin θ decreases on [π/2, π], so r decreases.",
+    "r = 3 + 2sin θ is at least 1 for every θ, so it is never negative.",
+    "r changes because sin θ changes; only an equation like r = 5 gives a circle centered at the origin."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  },
+  {
+   "id": "pc-u3-q12",
+   "courseId": "ap-precalculus",
+   "unitId": "u3",
+   "topicId": "pc3-polar",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For r = 3 + 2sin θ, what is the average rate of change of r with respect to θ on the interval [0, π/2]?",
+   "choices": [
+    "4/π",
+    "2",
+    "π/4",
+    "8/π"
+   ],
+   "correctAnswer": 0,
+   "explanation": "r(π/2) − r(0) = 5 − 3 = 2, and the interval has length π/2, so the average rate of change is 2/(π/2) = 4/π ≈ 1.27.",
+   "choiceExplanations": [
+    "",
+    "2 is the change in r; it must be divided by the change in θ, π/2.",
+    "π/4 is the change in θ divided by the change in r: the ratio is upside down.",
+    "8/π divides by π/4, but the interval from 0 to π/2 has length π/2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-21"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "pc-u3-q01",
+    "pc-u3-q02",
+    "pc-u3-q03",
+    "pc-u3-q04",
+    "pc-u3-q06",
+    "pc-u3-q08",
+    "pc-u3-q09",
+    "pc-u3-q11"
+   ]
+  }
+ ]
+}

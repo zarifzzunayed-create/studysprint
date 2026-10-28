@@ -1,0 +1,479 @@
+{
+ "courseId": "ap-physics-c-mechanics",
+ "unitId": "u2",
+ "title": "Unit 2: Force and Translational Dynamics",
+ "topics": [
+  {
+   "id": "m2-cm",
+   "name": "Systems and center of mass",
+   "covers": [
+    "Center of mass",
+    "Systems"
+   ]
+  },
+  {
+   "id": "m2-newton",
+   "name": "Newton's laws",
+   "covers": [
+    "Newton’s laws of motion: first and second law",
+    "Newton’s laws of motion: third law"
+   ]
+  },
+  {
+   "id": "m2-circ",
+   "name": "Circular motion and gravitation",
+   "covers": [
+    "Circular motion",
+    "Gravitation"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Force and translational dynamics: review guide",
+  "intro": "Dynamics explains motion with forces. This unit defines systems and their center of mass, applies Newton's laws (including forces that change with time or speed), and covers circular motion and gravitation.",
+  "equationNote": "g = 10 m/s² near Earth's surface unless a question says otherwise; G = 6.67 × 10⁻¹¹ N·m²/kg².",
+  "sections": [
+   {
+    "id": "s-m2-cm",
+    "topicId": "m2-cm",
+    "title": "Systems and center of mass",
+    "body": [
+     "A system is whatever group of objects you choose to analyze together. Forces between objects inside it are internal and cancel in pairs; only external forces change the motion of its center of mass: F_ext = M·a_cm.",
+     "Center of mass: x_cm = Σmᵢxᵢ / Σmᵢ for separate objects, or x_cm = ∫x dm / ∫dm for a continuous object, where dm = λ dx for a rod with linear density λ."
+    ],
+    "points": [
+     "For a uniform object, the center of mass is at its geometric center.",
+     "With no net external force, the center of mass keeps a constant velocity, even when the parts push on each other or break apart.",
+     "Choose the system to make the problem simple: treating two objects as one system hides the forces between them."
+    ],
+    "equations": [
+     [
+      "x_cm = Σmᵢxᵢ / Σmᵢ",
+      "center of mass of particles"
+     ],
+     [
+      "x_cm = (1/M)∫x dm",
+      "center of mass of a continuous object"
+     ]
+    ]
+   },
+   {
+    "id": "s-m2-newton",
+    "topicId": "m2-newton",
+    "title": "Newton's laws",
+    "body": [
+     "First law: with no net force, an object's velocity stays constant. Second law: F_net = ma, or more generally F_net = dp/dt. Third law: when A pushes on B, B pushes on A with an equal and opposite force; the two forces act on different objects.",
+     "Draw a free-body diagram for each object, choose axes, and write F_net = ma along each axis. Connected objects share an acceleration, and an ideal string has the same tension throughout."
+    ],
+    "points": [
+     "Third-law pairs never appear on the same free-body diagram.",
+     "With a resistive force F = −bv, a falling object approaches a terminal speed where the net force is zero: mg = bv_T.",
+     "Kinetic friction is f = μ_k N; static friction can take any value up to μ_s N."
+    ],
+    "equations": [
+     [
+      "F_net = ma = dp/dt",
+      "Newton's second law"
+     ],
+     [
+      "f ≤ μ_s N, f = μ_k N",
+      "friction"
+     ]
+    ]
+   },
+   {
+    "id": "s-m2-circ",
+    "topicId": "m2-circ",
+    "title": "Circular motion and gravitation",
+    "body": [
+     "An object moving in a circle at constant speed accelerates toward the center: a_c = v²/r = ω²r. Real forces (tension, friction, gravity, the normal force) must add up to a net inward force of mv²/r.",
+     "Newton's law of gravitation: F = Gm₁m₂/r², attractive, with r measured between centers. For a circular orbit, gravity supplies the centripetal force, so v = √(GM/r)."
+    ],
+    "points": [
+     "Centripetal force is not a new kind of force; it is the name for the net inward force.",
+     "Gravitational field strength falls off as 1/r²: at twice the distance from Earth's center, g is one quarter as large.",
+     "On a flat curve, static friction provides the inward force: v_max = √(μ_s g r)."
+    ],
+    "equations": [
+     [
+      "a_c = v²/r",
+      "centripetal acceleration"
+     ],
+     [
+      "F_g = Gm₁m₂/r²",
+      "gravitation"
+     ],
+     [
+      "v = √(GM/r)",
+      "circular orbit speed"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 1200 kg car rounds a flat curve of radius 40 m at 12 m/s. What friction force is needed, and what is the smallest coefficient of static friction that allows this?",
+   "solution": "The friction must supply the centripetal force: f = mv²/r = (1200)(12²)/40 = 4320 N. Since f ≤ μ_s mg, μ_s ≥ v²/(gr) = 144/400 = 0.36."
+  },
+  "misconceptions": [
+   [
+    "“Action and reaction cancel, so nothing can accelerate.”",
+    "They act on different objects, so they never cancel on a single object."
+   ],
+   [
+    "“Centripetal force is an extra force to draw on the diagram.”",
+    "It is the net inward force from the real forces already there."
+   ],
+   [
+    "“The tension in a string always equals the hanging weight.”",
+    "Only when the hanging object is not accelerating."
+   ],
+   [
+    "“Internal forces change the motion of the center of mass.”",
+    "Only external forces do."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics C: Mechanics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+  "sourceTitle": "AP Physics C: Mechanics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "phcmu2-q01",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u2",
+   "topicId": "m2-cm",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 2.0 kg mass is at x = 0 and a 6.0 kg mass is at x = 4.0 m. Where is their center of mass?",
+   "choices": [
+    "x = 3.0 m",
+    "x = 2.0 m",
+    "x = 1.0 m",
+    "x = 24 m"
+   ],
+   "correctAnswer": 0,
+   "explanation": "x_cm = (2.0 × 0 + 6.0 × 4.0)/(2.0 + 6.0) = 24/8.0 = 3.0 m, closer to the heavier mass.",
+   "choiceExplanations": [
+    "",
+    "2.0 m is the midpoint, which is the center of mass only for equal masses.",
+    "1.0 m puts the center of mass nearer the lighter mass, as if the masses were swapped.",
+    "24 is Σmx; it must be divided by the total mass, 8.0 kg."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu2-q02",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u2",
+   "topicId": "m2-cm",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A thin rod lies along the x-axis from x = 0 to x = L. Its linear mass density is λ = kx, where k is a constant. Where is its center of mass?",
+   "choices": [
+    "x = 2L/3",
+    "x = L/2",
+    "x = L/3",
+    "x = 3L/4"
+   ],
+   "correctAnswer": 0,
+   "explanation": "x_cm = ∫x·λ dx / ∫λ dx = ∫₀ᴸ kx² dx / ∫₀ᴸ kx dx = (kL³/3)/(kL²/2) = 2L/3. More mass is near x = L, so the center of mass shifts that way.",
+   "choiceExplanations": [
+    "",
+    "L/2 is correct only for a uniform rod; here the density increases along the rod.",
+    "L/3 would fit a rod whose density decreases along x, the reverse of this one.",
+    "3L/4 is the result for a density proportional to x², not to x."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu2-q03",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u2",
+   "topicId": "m2-cm",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A projectile explodes into two pieces at the top of its path. Ignoring air resistance, what path does the center of mass of the pieces follow after the explosion, until either piece lands?",
+   "choices": [
+    "The same parabola the projectile was following",
+    "A straight line downward from the explosion point",
+    "It stops moving, because the pieces fly apart in opposite directions",
+    "It depends on the masses of the pieces"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The explosion forces are internal, so they do not change the center of mass's motion. The only external force is still gravity, so the center of mass keeps following the original parabola.",
+   "choiceExplanations": [
+    "",
+    "The center of mass keeps its horizontal velocity, because no external horizontal force acts.",
+    "Internal forces cannot stop the center of mass; its velocity changes only through external forces.",
+    "The masses decide where each piece goes, but not the path of the center of mass."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu2-q04",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u2",
+   "topicId": "m2-newton",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A net force of 12 N acts on a 3.0 kg box on a frictionless floor. What is its acceleration?",
+   "choices": [
+    "4.0 m/s²",
+    "36 m/s²",
+    "0.25 m/s²",
+    "15 m/s²"
+   ],
+   "correctAnswer": 0,
+   "explanation": "a = F_net/m = 12 N ÷ 3.0 kg = 4.0 m/s².",
+   "choiceExplanations": [
+    "",
+    "36 multiplies force and mass; acceleration is force divided by mass.",
+    "0.25 is m/F, the ratio upside down.",
+    "15 adds the force and the mass, which have different units."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu2-q05",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u2",
+   "topicId": "m2-newton",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 3.0 kg block on a frictionless table is tied by a light string over a light, frictionless pulley to a hanging 2.0 kg block. What is the tension in the string? (g = 10 m/s²)",
+   "choices": [
+    "12 N",
+    "20 N",
+    "8.0 N",
+    "30 N"
+   ],
+   "correctAnswer": 0,
+   "explanation": "For the two-block system, the net force is the hanging weight, 20 N, so a = 20 ÷ 5.0 = 4.0 m/s². The string is the only horizontal force on the table block: T = (3.0)(4.0) = 12 N.",
+   "choiceExplanations": [
+    "",
+    "20 N is the hanging block's weight; the tension is less because that block accelerates downward.",
+    "8.0 N is the net force on the hanging block, (2.0)(4.0), not the tension.",
+    "30 N is the weight of the block on the table, which is balanced by the normal force."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu2-q06",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u2",
+   "topicId": "m2-newton",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A large truck collides head-on with a small car. How do the forces they exert on each other compare during the collision?",
+   "choices": [
+    "They are equal in size and opposite in direction",
+    "The truck exerts the larger force",
+    "The car exerts the larger force",
+    "It depends on which one was moving faster"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Newton's third law: the forces two objects exert on each other are always equal in size and opposite in direction. The car accelerates more because its mass is smaller, not because it feels a bigger force.",
+   "choiceExplanations": [
+    "",
+    "The truck's larger mass changes its acceleration, not the size of the force pair.",
+    "Third-law forces are equal; neither object exerts more on the other.",
+    "Speed affects how large the force pair is, but the two forces are still equal to each other."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu2-q07",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u2",
+   "topicId": "m2-newton",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 2.0 kg object falls through a fluid that exerts a resistive force of magnitude bv, with b = 4.0 N·s/m. What is its acceleration when its speed is 2.5 m/s? (g = 10 m/s²)",
+   "choices": [
+    "5.0 m/s² downward",
+    "10 m/s² downward",
+    "0",
+    "15 m/s² downward"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Net force = mg − bv = 20 N − (4.0)(2.5) N = 10 N downward, so a = 10 N ÷ 2.0 kg = 5.0 m/s². (Its terminal speed is mg/b = 5.0 m/s.)",
+   "choiceExplanations": [
+    "",
+    "10 m/s² ignores the resistive force, which is 10 N at this speed.",
+    "The acceleration is zero only at the terminal speed, mg/b = 5.0 m/s, not at 2.5 m/s.",
+    "15 m/s² adds the resistive force to the weight; it opposes the downward motion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu2-q08",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u2",
+   "topicId": "m2-circ",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 0.50 kg ball moves in a horizontal circle of radius 2.0 m at a constant 4.0 m/s. What net force acts on it?",
+   "choices": [
+    "4.0 N toward the center",
+    "1.0 N toward the center",
+    "16 N toward the center",
+    "2.0 N toward the center"
+   ],
+   "correctAnswer": 0,
+   "explanation": "F = mv²/r = (0.50)(4.0)²/2.0 = 4.0 N, directed toward the center of the circle.",
+   "choiceExplanations": [
+    "",
+    "1.0 N is mv/r; the speed must be squared.",
+    "16 N multiplies by r instead of dividing.",
+    "2.0 is mv, the momentum, not the force."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu2-q09",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u2",
+   "topicId": "m2-circ",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A car rounds a flat curve of radius 50 m. The coefficient of static friction between the tires and the road is 0.80. What is the maximum speed at which it can take the curve without sliding? (g = 10 m/s²)",
+   "choices": [
+    "20 m/s",
+    "22 m/s",
+    "25 m/s",
+    "400 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Static friction supplies the centripetal force: μ_s mg = mv²/r, so v = √(μ_s g r) = √(0.80 × 10 × 50) = √400 = 20 m/s.",
+   "choiceExplanations": [
+    "",
+    "22 m/s is √(gr), which leaves out the coefficient of friction.",
+    "25 m/s divides by μ_s instead of multiplying.",
+    "400 is v²; the square root is still needed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu2-q10",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u2",
+   "topicId": "m2-circ",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "On Earth's surface, g = 9.8 m/s². What is the gravitational field strength at a height above the surface equal to Earth's radius?",
+   "choices": [
+    "About 2.5 m/s²",
+    "4.9 m/s²",
+    "9.8 m/s²",
+    "About 1.1 m/s²"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Field strength goes as 1/r², with r measured from Earth's center. At a height of one radius, r = 2R, so g = 9.8/2² ≈ 2.5 m/s².",
+   "choiceExplanations": [
+    "",
+    "4.9 m/s² uses 1/r; gravity falls off as 1/r².",
+    "Gravity weakens with distance from Earth's center.",
+    "1.1 m/s² uses r = 3R; the distance from the center is R + R = 2R."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phcmu2-q11",
+   "courseId": "ap-physics-c-mechanics",
+   "unitId": "u2",
+   "topicId": "m2-circ",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Two satellites orbit Earth in circular orbits. Satellite B's orbital radius is four times satellite A's. How does B's orbital speed compare with A's?",
+   "choices": [
+    "Half as fast",
+    "One quarter as fast",
+    "Twice as fast",
+    "One sixteenth as fast"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Gravity supplies the centripetal force: GMm/r² = mv²/r, so v = √(GM/r). Four times the radius gives 1/√4 = 1/2 the speed.",
+   "choiceExplanations": [
+    "",
+    "One quarter would be true if v were proportional to 1/r; it goes as 1/√r.",
+    "A larger orbit is slower, not faster, because gravity is weaker there.",
+    "One sixteenth uses 1/r²; that is how the gravitational force changes, not the speed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "phcmu2-q01",
+    "phcmu2-q02",
+    "phcmu2-q03",
+    "phcmu2-q04",
+    "phcmu2-q05",
+    "phcmu2-q06",
+    "phcmu2-q08",
+    "phcmu2-q11"
+   ]
+  }
+ ]
+}

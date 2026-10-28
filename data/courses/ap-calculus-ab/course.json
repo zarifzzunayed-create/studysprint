@@ -4,6 +4,7 @@
  "officialUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab",
  "studentUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-ab",
  "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf",
+ "frameworkVersion": "AP Calculus AB and BC Course and Exam Description. AP Central said on 2026-10-11 that course content has not changed for 2026-27.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam/past-exam-questions",
   "note": null,
