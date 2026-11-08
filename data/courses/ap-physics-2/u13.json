@@ -8,6 +8,10 @@
    "name": "Reflection, refraction, and absorption",
    "covers": [
     "Refraction, reflection, and absorption"
+   ],
+   "frameworkCovers": [
+    "13.1 Reflection",
+    "13.3 Refraction"
    ]
   },
   {
@@ -15,6 +19,10 @@
    "name": "Images from mirrors",
    "covers": [
     "Images from lenses and mirrors"
+   ],
+   "frameworkCovers": [
+    "13.1 Reflection",
+    "13.2 Images Formed by Mirrors"
    ]
   },
   {
@@ -22,6 +30,9 @@
    "name": "Images from lenses",
    "covers": [
     "Images from lenses and mirrors"
+   ],
+   "frameworkCovers": [
+    "13.4 Images Formed by Lenses"
    ]
   }
  ],

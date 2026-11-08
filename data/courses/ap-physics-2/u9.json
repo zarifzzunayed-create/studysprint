@@ -9,6 +9,9 @@
    "covers": [
     "Pressure, thermal equilibrium, and the Ideal Gas Law",
     "Thermodynamics and forces"
+   ],
+   "frameworkCovers": [
+    "9.2 The Ideal Gas Law"
    ]
   },
   {
@@ -16,6 +19,9 @@
    "name": "Kinetic theory: molecules and collisions",
    "covers": [
     "Thermodynamics and collisions"
+   ],
+   "frameworkCovers": [
+    "9.1 Kinetic Theory of Temperature and Pressure"
    ]
   },
   {
@@ -25,6 +31,12 @@
     "Thermodynamic systems",
     "Heat and energy transfer",
     "Probability, thermal equilibrium, and entropy"
+   ],
+   "frameworkCovers": [
+    "9.3 Thermal Energy Transfer and Equilibrium",
+    "9.4 The First Law of Thermodynamics",
+    "9.5 Specific Heat and Thermal Conductivity",
+    "9.6 Entropy and the Second Law of Thermodynamics"
    ]
   }
  ],
@@ -93,7 +105,8 @@
     "points": [
      "Constant pressure: W = −PΔV. Isothermal (ideal gas): ΔU = 0, so Q = −W. Adiabatic: Q = 0, so ΔU = W.",
      "Energy moves as heat by conduction, convection, and radiation. Conduction through a slab: Q/Δt = kAΔT/L.",
-     "Second law: the total entropy of an isolated system does not decrease. Heat flows from hot to cold on its own because spreading energy out evenly is overwhelmingly more probable than the reverse."
+     "Second law: the total entropy of an isolated system does not decrease. Heat flows from hot to cold on its own because spreading energy out evenly is overwhelmingly more probable than the reverse.",
+     "Specific heat: warming a mass m by ΔT takes Q = mcΔT, where c is the material's specific heat. A material with a larger c (such as water) warms less for the same heat."
     ],
     "equations": [
      [
@@ -107,6 +120,10 @@
      [
       "Q/Δt = kAΔT/L",
       "rate of heat conduction"
+     ],
+     [
+      "Q = mcΔT",
+      "heat for a temperature change (specific heat c)"
      ]
     ]
    }
@@ -144,7 +161,7 @@
   "sourceTitle": "AP Physics 2: Algebra-Based – AP Students (College Board)",
   "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
   "isOriginal": true,
-  "verified": "2026-10-22"
+  "verified": "2026-11-08"
  },
  "questions": [
   {
@@ -482,6 +499,62 @@
    "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
    "isOriginal": true,
    "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u9-q13",
+   "courseId": "ap-physics-2",
+   "unitId": "u9",
+   "topicId": "p9-laws",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How much heat is needed to warm 0.50 kg of water from 20 °C to 80 °C? (specific heat of water c = 4186 J/(kg·°C))",
+   "choices": [
+    "2.1 × 10³ J",
+    "1.3 × 10⁵ J",
+    "2.5 × 10⁵ J",
+    "1.7 × 10⁵ J"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Q = mcΔT = (0.50 kg)(4186 J/(kg·°C))(60 °C) ≈ 1.3 × 10⁵ J.",
+   "choiceExplanations": [
+    "2.1 × 10³ J leaves out the temperature change.",
+    "",
+    "2.5 × 10⁵ J leaves out the mass of 0.50 kg.",
+    "1.7 × 10⁵ J uses the final temperature, 80 °C, instead of the change, 60 °C."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "ph2u9-q14",
+   "courseId": "ap-physics-2",
+   "unitId": "u9",
+   "topicId": "p9-laws",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Equal masses of water (c = 4186 J/(kg·°C)) and aluminum (c = 900 J/(kg·°C)) each absorb the same amount of heat. Which one's temperature rises more, and by about what factor?",
+   "choices": [
+    "Aluminum's, by about 2.2 times as much",
+    "Aluminum's, by about 4.7 times as much",
+    "Water's, by about 4.7 times as much",
+    "They rise by the same amount, because they absorb the same heat"
+   ],
+   "correctAnswer": 1,
+   "explanation": "ΔT = Q/(mc). With the same Q and m, ΔT is inversely proportional to c, so aluminum warms 4186/900 ≈ 4.7 times as much as water.",
+   "choiceExplanations": [
+    "The ratio of the specific heats is about 4.7, not 2.2.",
+    "",
+    "A larger specific heat means a smaller temperature change for the same heat, so water warms less.",
+    "The same heat produces different temperature changes when the specific heats differ."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
   }
  ],
  "videos": [],

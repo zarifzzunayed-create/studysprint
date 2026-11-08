@@ -9,6 +9,12 @@
    "covers": [
     "Periodic waves",
     "Electromagnetic waves"
+   ],
+   "frameworkCovers": [
+    "14.1 Properties of Wave Pulses and Waves",
+    "14.2 Periodic Waves",
+    "14.3 Boundary Behavior of Waves and Polarization",
+    "14.4 Electromagnetic Waves"
    ]
   },
   {
@@ -17,6 +23,10 @@
    "covers": [
     "Sound",
     "Doppler Effect"
+   ],
+   "frameworkCovers": [
+    "14.5 The Doppler Effect",
+    "14.6 Wave Interference and Standing Waves"
    ]
   },
   {
@@ -24,6 +34,12 @@
    "name": "Interference and diffraction",
    "covers": [
     "Interference and diffraction"
+   ],
+   "frameworkCovers": [
+    "14.6 Wave Interference and Standing Waves",
+    "14.7 Diffraction",
+    "14.8 Double-Slit Interference and Diffraction Gratings",
+    "14.9 Thin-Film Interference"
    ]
   }
  ],
@@ -44,7 +60,9 @@
     "points": [
      "The medium sets the wave speed and the source sets the frequency, so changing the frequency in the same medium changes the wavelength, not the speed.",
      "When a wave passes into a new medium, its frequency stays the same.",
-     "A wave's intensity grows with the square of its amplitude."
+     "A wave's intensity grows with the square of its amplitude.",
+     "At a boundary, part of a wave is reflected and part transmitted. A pulse reflected from a fixed end comes back inverted; from a free end, upright.",
+     "Only transverse waves, such as light, can be polarized. A polarizing filter passes half the intensity of unpolarized light; a second filter at angle θ passes cos²θ of what reaches it, so crossed filters pass nothing."
     ],
     "equations": [
      [
@@ -92,7 +110,9 @@
     "points": [
      "A diffraction grating acts like many slits: d sin θ = mλ, where d is the spacing between lines.",
      "Narrowing a single slit widens the central bright region.",
-     "Interference patterns are evidence that light behaves as a wave."
+     "Interference patterns are evidence that light behaves as a wave.",
+     "Standing waves form when waves reflect back and forth. On a string fixed at both ends, L = nλ/2, so f_n = nv/(2L).",
+     "Thin films: light reflecting from the two surfaces interferes. A reflection off a medium with a higher index is inverted (a half-wavelength shift). Inside the film the wavelength is λ/n. For a film in air, bright reflection needs 2nt = (m + ½)λ."
     ],
     "equations": [
      [
@@ -102,6 +122,10 @@
      [
       "Δy ≈ λL/d",
       "fringe spacing on a distant screen"
+     ],
+     [
+      "f_n = nv/(2L)",
+      "standing waves on a string fixed at both ends"
      ]
     ]
    }
@@ -139,7 +163,7 @@
   "sourceTitle": "AP Physics 2: Algebra-Based – AP Students (College Board)",
   "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
   "isOriginal": true,
-  "verified": "2026-10-22"
+  "verified": "2026-11-08"
  },
  "questions": [
   {
@@ -477,6 +501,118 @@
    "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
    "isOriginal": true,
    "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u14-q13",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-waves",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A single upward pulse travels along a rope toward an end that is tied firmly to a wall. What returns along the rope?",
+   "choices": [
+    "A downward (inverted) pulse",
+    "Nothing; the wall absorbs the pulse",
+    "An upward pulse with twice the height",
+    "An upward pulse"
+   ],
+   "correctAnswer": 0,
+   "explanation": "At a fixed end the rope can't move, so the wall pulls opposite to the rope's pull and the reflected pulse is inverted.",
+   "choiceExplanations": [
+    "",
+    "A fixed end reflects the pulse; it isn't absorbed.",
+    "Energy is conserved, so the reflected pulse can't be taller than the incoming one.",
+    "An upright reflection happens at a free end, such as a rope tied to a ring that slides on a pole."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "ph2u14-q14",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-waves",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Unpolarized light of intensity I₀ passes through two polarizing filters whose transmission axes are perpendicular to each other. What intensity comes out of the second filter?",
+   "choices": [
+    "I₀/2",
+    "0",
+    "I₀",
+    "I₀/4"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The first filter passes I₀/2, polarized along its axis. The second filter's axis is at 90° to that, so it passes I₀/2 · cos²90° = 0.",
+   "choiceExplanations": [
+    "I₀/2 is what comes out of the first filter only.",
+    "",
+    "Each filter blocks some of the light, so the full intensity can't pass.",
+    "I₀/4 would come out if the second filter's axis were at 45° to the first."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "ph2u14-q15",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-interf",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A soap film (n = 1.33) in air is lit from above with light of wavelength 532 nm. What is the smallest film thickness that makes the reflected light bright (constructive interference)?",
+   "choices": [
+    "400 nm",
+    "200 nm",
+    "100 nm",
+    "133 nm"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Light reflecting off the top surface (air to film) is inverted; light reflecting off the bottom (film to air) is not. With that half-wavelength shift, bright reflection needs 2nt = (m + ½)λ. For m = 0: t = λ/(4n) = 532/(4 × 1.33) = 100 nm.",
+   "choiceExplanations": [
+    "400 nm is the wavelength inside the film, not the thickness.",
+    "200 nm (λ/(2n)) ignores the inversion at the top surface; at that thickness the reflection is dark.",
+    "",
+    "133 nm uses the wavelength in air; inside the film the wavelength is λ/n."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "ph2u14-q16",
+   "courseId": "ap-physics-2",
+   "unitId": "u14",
+   "topicId": "p14-interf",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A string 0.60 m long is fixed at both ends and vibrates in its fundamental mode. Waves travel on it at 120 m/s. What is the frequency?",
+   "choices": [
+    "50 Hz",
+    "72 Hz",
+    "100 Hz",
+    "200 Hz"
+   ],
+   "correctAnswer": 2,
+   "explanation": "In the fundamental mode the string is half a wavelength long, so λ = 2L = 1.2 m and f = v/λ = 120/1.2 = 100 Hz.",
+   "choiceExplanations": [
+    "50 Hz uses λ = 4L, which applies to a pipe closed at one end, not a string fixed at both ends.",
+    "72 Hz multiplies v by L instead of dividing v by 2L.",
+    "",
+    "200 Hz uses λ = L, which is the second harmonic."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
   }
  ],
  "videos": [],

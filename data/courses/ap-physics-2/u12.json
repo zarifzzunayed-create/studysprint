@@ -11,6 +11,10 @@
     "Magnetic permeability and magnetic dipole moment",
     "Vector and scalar fields",
     "Monopole and dipole fields"
+   ],
+   "frameworkCovers": [
+    "12.1 Magnetic Fields",
+    "12.3 Magnetism and Current-Carrying Wires"
    ]
   },
   {
@@ -19,6 +23,10 @@
    "covers": [
     "Magnetic fields and forces",
     "Forces review"
+   ],
+   "frameworkCovers": [
+    "12.2 Magnetism and Moving Charges",
+    "12.3 Magnetism and Current-Carrying Wires"
    ]
   },
   {
@@ -26,6 +34,9 @@
    "name": "Magnetic flux and induction",
    "covers": [
     "Magnetic flux"
+   ],
+   "frameworkCovers": [
+    "12.4 Electromagnetic Induction and Faraday’s Law"
    ]
   }
  ],

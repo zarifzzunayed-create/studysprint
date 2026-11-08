@@ -9,6 +9,11 @@
    "covers": [
     "Definition and conservation of electric charge",
     "Resistivity and resistance"
+   ],
+   "frameworkCovers": [
+    "11.1 Electric Current",
+    "11.3 Resistance, Resistivity, and Ohm’s Law",
+    "11.4 Electric Power"
    ]
   },
   {
@@ -17,6 +22,12 @@
    "covers": [
     "Kirchhoff’s loop rule",
     "Kirchhoff’s junction rule and the conservation of electric charge"
+   ],
+   "frameworkCovers": [
+    "11.2 Simple Circuits",
+    "11.5 Compound Direct Current (DC) Circuits",
+    "11.6 Kirchhoff’s Loop Rule",
+    "11.7 Kirchhoff’s Junction Rule"
    ]
   },
   {
@@ -24,6 +35,9 @@
    "name": "Capacitors and RC circuits",
    "covers": [
     "Resistance and capacitance"
+   ],
+   "frameworkCovers": [
+    "11.8 Resistor-Capacitor (RC) Circuits"
    ]
   }
  ],

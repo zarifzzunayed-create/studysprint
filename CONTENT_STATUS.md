@@ -37,7 +37,7 @@ Each row comes from `data/catalog.json` and the course's `course.json`. A course
 | AP Statistics | Unit-based (units checked) | [AP Statistics – AP Central (College Board)](https://apcentral.collegeboard.org/courses/ap-statistics), checked 2026-10-11. Course and Exam Description effective fall 2026 (revised course; first exam May 2027). [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-statistics-course-and-exam-description-effective-fall-2026.pdf). | 5 | 5 | 5 of 5 exam-assessed units ready; no unit recorded as excluded from the exam | 5 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP Precalculus | Unit-based (units checked) | [AP Precalculus – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-precalculus), checked 2026-10-09. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf). | 4 | 4 | 3 of 3 exam-assessed units ready; Unit 4 in the framework but not assessed on the AP Exam | 4 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP Calculus BC | Unit-based (units checked) | [AP Calculus BC – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-calculus-bc), checked 2026-11-08. AP Calculus AB and BC Course and Exam Description (shared with AB). AP Central said on 2026-10-11 that course content has not changed for 2026-27. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf). | 10 | 10 | 10 of 10 exam-assessed units ready; no unit recorded as excluded from the exam | 10 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
-| AP Physics 2: Algebra-Based | Unit-based (units checked) | [AP Physics 2: Algebra-Based – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based), checked 2026-10-09. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf). | 7 | 7 | 7 of 7 exam-assessed units ready; no unit recorded as excluded from the exam | 7 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
+| AP Physics 2: Algebra-Based | Unit-based (units checked) | [AP Physics 2: Algebra-Based – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based), checked 2026-11-08. AP Physics 2: Algebra-Based Course and Exam Description, effective Fall 2024 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections to be implemented for Fall 2026. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-physics-2-course-and-exam-description.pdf). | 7 | 7 | 7 of 7 exam-assessed units ready; no unit recorded as excluded from the exam | 7 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP Physics C: Mechanics | Unit-based (units checked) | [AP Physics C: Mechanics – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics), checked 2026-10-09. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf). | 7 | 7 | 7 of 7 exam-assessed units ready; no unit recorded as excluded from the exam | 7 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP Physics C: Electricity and Magnetism | Unit-based (units checked) | [AP Physics C: Electricity and Magnetism – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism), checked 2026-11-08. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf). | 6 | 6 | 6 of 6 exam-assessed units ready; no unit recorded as excluded from the exam | 6 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP Computer Science A | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; multiple-choice questions fit the existing format, but free-response questions ask for Java code, which the site cannot check. |
@@ -178,13 +178,13 @@ Retaking a test shows the same questions in a new order; those answers are recor
 
 | Unit | Questions in bank | Practice tests (questions each) | Questions not in any test | Distinct tests the bank could support | More original questions needed for 3 tests (at least) |
 |---|---|---|---|---|---|
-| Unit 9: Thermodynamics | 12 | 1 (8) | 4 | 1 | 12 |
-| Unit 10: Electric Force, Field, and Potential | 12 | 1 (8) | 4 | 1 | 12 |
+| Unit 9: Thermodynamics | 14 | 1 (8) | 6 | 1 | 10 |
+| Unit 10: Electric Force, Field, and Potential | 14 | 1 (8) | 6 | 1 | 10 |
 | Unit 11: Electric Circuits | 12 | 1 (8) | 4 | 1 | 12 |
 | Unit 12: Magnetism and Electromagnetism | 12 | 1 (8) | 4 | 1 | 12 |
 | Unit 13: Geometric Optics | 11 | 1 (8) | 3 | 1 | 13 |
-| Unit 14: Waves, Sound, and Physical Optics | 12 | 1 (8) | 4 | 1 | 12 |
-| Unit 15: Modern Physics | 12 | 1 (8) | 4 | 1 | 12 |
+| Unit 14: Waves, Sound, and Physical Optics | 16 | 1 (8) | 8 | 2 | 8 |
+| Unit 15: Modern Physics | 17 | 1 (8) | 9 | 2 | 7 |
 
 ### AP Physics C: Mechanics
 
@@ -213,7 +213,7 @@ Retaking a test shows the same questions in a new order; those answers are recor
 | Unit 12: Magnetic Fields and Electromagnetism | 9 | 1 (8) | 1 | 1 | 15 |
 | Unit 13: Electromagnetic Induction | 9 | 1 (8) | 1 | 1 | 15 |
 
-Across the site: 55 practice tests in 55 units. Reaching 3 tests in each of those units needs at least 790 more original questions. 
+Across the site: 55 practice tests in 55 units. Reaching 3 tests in each of those units needs at least 777 more original questions. 
 
 ## Study planner
 
@@ -255,16 +255,16 @@ Unit outline source: [AP Physics 1: Algebra-Based – AP Students (College Board
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-physics-1/exam/past-exam-questions). College Board states that, after the 2024–25 AP Physics course and exam revisions, the questions and scoring information on its past-exam-questions page do not completely align with the current AP Physics 1 exam.
 General resources (shown on every unit's Learn first page, labelled general): [AP Physics 1 course overview (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based).
 
-| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|---|
-| Unit 1: Kinematics | practice-ready | no exclusion recorded | yes (5 sections) | 10 (3 / 4 / 3) | 4 | 1 (video) | 1 (collection page) | course page only (no per-question matches) | none |
-| Unit 2: Force and Translational Dynamics | practice-ready | no exclusion recorded | yes (3 sections) | 10 (3 / 5 / 2) | 0 | 0 | 1 (collection page) | course page only (no per-question matches) | Systems and center of mass |
-| Unit 3: Work, Energy, and Power | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 1 (collection page) | course page only (no per-question matches) | none |
-| Unit 4: Linear Momentum | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 1 (collection page) | course page only (no per-question matches) | none |
-| Unit 5: Torque and Rotational Dynamics | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 6: Energy and Momentum of Rotating Systems | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 7: Oscillations | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 1 (collection page) | course page only (no per-question matches) | none |
-| Unit 8: Fluids | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Kinematics | practice-ready | no exclusion recorded | not recorded | yes (5 sections) | 10 (3 / 4 / 3) | 4 | 1 | 1 (video) | 1 (collection page) | course page only (no per-question matches) | not recorded | none |
+| Unit 2: Force and Translational Dynamics | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 10 (3 / 5 / 2) | 0 | 1 | 0 | 1 (collection page) | course page only (no per-question matches) | not recorded | Systems and center of mass |
+| Unit 3: Work, Energy, and Power | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 1 (collection page) | course page only (no per-question matches) | not recorded | none |
+| Unit 4: Linear Momentum | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 1 (collection page) | course page only (no per-question matches) | not recorded | none |
+| Unit 5: Torque and Rotational Dynamics | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 6: Energy and Momentum of Rotating Systems | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 7: Oscillations | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 1 (collection page) | course page only (no per-question matches) | not recorded | none |
+| Unit 8: Fluids | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
 
 ## AP Calculus AB
 
@@ -272,16 +272,16 @@ Unit outline source: [AP Calculus AB – AP Central (College Board)](https://apc
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam/past-exam-questions), plus whole released sets for 2026, 2025, 2024, 2023 (linked as whole exams, not matched to units).
 General resources (shown on every unit's Learn first page, labelled general): [OpenStax Calculus Volume 1 (whole book)](https://openstax.org/details/books/calculus-volume-1); [AP Calculus AB course overview (College Board)](https://apstudents.collegeboard.org/courses/ap-calculus-ab).
 
-| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|---|
-| Unit 1: Limits and Continuity | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (lesson page, reading) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 2: Differentiation: Definition and Fundamental Properties | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (lesson page, reading) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 3: Differentiation: Composite, Implicit, and Inverse Functions | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 4: Contextual Applications of Differentiation | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 5: Analytical Applications of Differentiation | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 6: Integration and Accumulation of Change | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 7: Differential Equations | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 8: Applications of Integration | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Limits and Continuity | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 1 | 2 (lesson page, reading) | 0 | course page and 4 whole released sets (no per-question matches) | not recorded | none |
+| Unit 2: Differentiation: Definition and Fundamental Properties | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 1 | 2 (lesson page, reading) | 0 | course page and 4 whole released sets (no per-question matches) | not recorded | none |
+| Unit 3: Differentiation: Composite, Implicit, and Inverse Functions | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 1 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | not recorded | none |
+| Unit 4: Contextual Applications of Differentiation | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 1 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | not recorded | none |
+| Unit 5: Analytical Applications of Differentiation | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 1 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | not recorded | none |
+| Unit 6: Integration and Accumulation of Change | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 1 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | not recorded | none |
+| Unit 7: Differential Equations | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 1 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | not recorded | none |
+| Unit 8: Applications of Integration | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 1 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | not recorded | none |
 
 ## AP Statistics
 
@@ -289,91 +289,94 @@ Unit outline source: [AP Statistics – AP Central (College Board)](https://apce
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-statistics/exam/past-exam-questions), plus whole released sets for 2026, 2025, 2024, 2023 (linked as whole exams, not matched to units). Released questions before 2027 were written for the earlier nine-unit course, so some (for example, inference for slopes) fall outside the 2026-27 course.
 General resources (shown on every unit's Learn first page, labelled general): [OpenStax Introductory Statistics 2e (whole book)](https://openstax.org/details/books/introductory-statistics-2e); [AP Statistics course overview (College Board)](https://apstudents.collegeboard.org/courses/ap-statistics).
 
-| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|---|
-| Unit 1: Exploring One-Variable Data and Collecting Data | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (lesson page, reading) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 2: Probability, Random Variables, and Probability Distributions | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 3: Inference for Categorical Data: Proportions | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 4: Inference for Quantitative Data: Means | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (practice, reading) | 0 | course page and 4 whole released sets (no per-question matches) | none |
-| Unit 5: Regression Analysis | practice-ready | no exclusion recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | none |
+| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Exploring One-Variable Data and Collecting Data | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 1 | 2 (lesson page, reading) | 0 | course page and 4 whole released sets (no per-question matches) | not recorded | none |
+| Unit 2: Probability, Random Variables, and Probability Distributions | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 1 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | not recorded | none |
+| Unit 3: Inference for Categorical Data: Proportions | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 1 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | not recorded | none |
+| Unit 4: Inference for Quantitative Data: Means | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 1 | 2 (practice, reading) | 0 | course page and 4 whole released sets (no per-question matches) | not recorded | none |
+| Unit 5: Regression Analysis | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 8 (3 / 3 / 2) | 0 | 1 | 2 (reading, video) | 0 | course page and 4 whole released sets (no per-question matches) | not recorded | none |
 
 ## AP Precalculus
 
 Unit outline source: [AP Precalculus – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-precalculus), verified 2026-10-09. College Board says Unit 4 is not assessed on the AP Exam.
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-precalculus/exam/past-exam-questions).
 
-| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|---|
-| Unit 1: Polynomial and Rational Functions | practice-ready | no exclusion recorded | yes (3 sections) | 11 (3 / 5 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 2: Exponential and Logarithmic Functions | practice-ready | no exclusion recorded | yes (3 sections) | 12 (4 / 6 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 3: Trigonometric and Polar Functions | practice-ready | no exclusion recorded | yes (4 sections) | 12 (3 / 6 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 4: Functions Involving Parameters, Vectors, and Matrices | practice-ready | not assessed (College Board); framework only | yes (3 sections) | 12 (3 / 6 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Polynomial and Rational Functions | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 11 (3 / 5 / 3) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 2: Exponential and Logarithmic Functions | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 12 (4 / 6 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 3: Trigonometric and Polar Functions | practice-ready | no exclusion recorded | not recorded | yes (4 sections) | 12 (3 / 6 / 3) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 4: Functions Involving Parameters, Vectors, and Matrices | practice-ready | not assessed (College Board); framework only | not recorded | yes (3 sections) | 12 (3 / 6 / 3) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
 
 ## AP Calculus BC
 
 Unit outline source: [AP Calculus BC – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-calculus-bc), verified 2026-11-08. Unit titles and the “topics may include” list for all ten units were read from the AP Students course page on 2026-11-08. Units 1–8 share AB's titles, but several BC units list topics AB does not (for example improper integrals, Euler’s method and logistic models, and the length of a planar curve).
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-calculus-bc/exam/past-exam-questions).
 
-| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|---|
-| Unit 1: Limits and Continuity | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 2: Differentiation: Definition and Fundamental Properties | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 3: Differentiation: Composite, Implicit, and Inverse Functions | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 4: Contextual Applications of Differentiation | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 5: Analytical Applications of Differentiation | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 6: Integration and Accumulation of Change | practice-ready | no exclusion recorded | yes (3 sections) | 11 (3 / 6 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 7: Differential Equations | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 8: Applications of Integration | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions | practice-ready | no exclusion recorded | yes (3 sections) | 10 (3 / 4 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 10: Infinite Sequences and Series | practice-ready | no exclusion recorded | yes (3 sections) | 12 (3 / 6 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Limits and Continuity | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 2: Differentiation: Definition and Fundamental Properties | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 3: Differentiation: Composite, Implicit, and Inverse Functions | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 4: Contextual Applications of Differentiation | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 5: Analytical Applications of Differentiation | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 6: Integration and Accumulation of Change | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 11 (3 / 6 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 7: Differential Equations | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 8: Applications of Integration | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 10 (3 / 4 / 3) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 10: Infinite Sequences and Series | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 12 (3 / 6 / 3) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
 
 ## AP Physics 2: Algebra-Based
 
-Unit outline source: [AP Physics 2: Algebra-Based – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based), verified 2026-10-09.
-Name check against [the official page](https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based) on 2026-10-22: The repository owner checked the live AP Students page and confirmed that it lists Units 9–15 and includes the topics named under matched; the unit titles also agree with College Board course-overview listings returned by a web search that day. StudySprint's build environment could not open College Board's site, so it did not re-read the page itself. This withdraws the earlier warning that these names looked like pre-2024-25 wording: the current page uses them.
-- Matched (9): Unit 9: Thermodynamics; Unit 10: Electric Force, Field, and Potential; Unit 11: Electric Circuits; Unit 12: Magnetism and Electromagnetism; Unit 13: Geometric Optics; Unit 14: Waves, Sound, and Physical Optics; Unit 15: Modern Physics; Thermodynamics and collisions; Forces review.
+Unit outline source: [AP Physics 2: Algebra-Based – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based), verified 2026-11-08. Unit names, the “topics may include” lists, and exam weightings were re-read from this page on 2026-11-08 and match the saved outline exactly.
+Name check against [the official page](https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based) on 2026-11-08: StudySprint downloaded the live AP Students page on 2026-11-08 and compared every unit name and every “topics may include” entry with the saved outline, character for character. All 7 unit names and all 39 topics match; none is missing, duplicated, or in a different unit. This replaces the 2026-10-22 check, which confirmed only 9 names.
+- Matched (46): Unit 9: Thermodynamics; Unit 10: Electric Force, Field, and Potential; Unit 11: Electric Circuits; Unit 12: Magnetism and Electromagnetism; Unit 13: Geometric Optics; Unit 14: Waves, Sound, and Physical Optics; Unit 15: Modern Physics; Thermodynamic systems; Pressure, thermal equilibrium, and the Ideal Gas Law; Thermodynamics and forces; Heat and energy transfer; Thermodynamics and collisions; Probability, thermal equilibrium, and entropy; Electric systems and charge; Charge distribution: Friction, conduction, and induction; Electric permittivity; Electric forces and free-body diagrams; Gravitational and electromagnetic forces; Electric charges and fields; Electric flux; Conservation of electric energy; Definition and conservation of electric charge; Resistivity and resistance; Resistance and capacitance; Kirchhoff’s loop rule; Kirchhoff’s junction rule and the conservation of electric charge; Magnetic systems; Magnetic permeability and magnetic dipole moment; Vector and scalar fields; Monopole and dipole fields; Magnetic fields and forces; Forces review; Magnetic flux; Refraction, reflection, and absorption; Images from lenses and mirrors; Periodic waves; Electromagnetic waves; Sound; Doppler Effect; Interference and diffraction; Radioactive decay; Energy in modern physics (energy in radioactive decay and E = mc²); Mass–energy equivalence; Blackbody radiation; Properties of waves and particles; Photoelectric effect.
 - Mismatches flagged: none found.
-- Not re-compared in this check (37), standing as recorded on 2026-10-09 with no known mismatch: Thermodynamic systems; Pressure, thermal equilibrium, and the Ideal Gas Law; Thermodynamics and forces; Heat and energy transfer; Probability, thermal equilibrium, and entropy; Electric systems and charge; Charge distribution: Friction, conduction, and induction; Electric permittivity; Electric forces and free-body diagrams; Gravitational and electromagnetic forces; Electric charges and fields; Electric flux; Conservation of electric energy; Definition and conservation of electric charge; Resistivity and resistance; Resistance and capacitance; Kirchhoff’s loop rule; Kirchhoff’s junction rule and the conservation of electric charge; Magnetic systems; Magnetic permeability and magnetic dipole moment; Vector and scalar fields; Monopole and dipole fields; Magnetic fields and forces; Magnetic flux; Refraction, reflection, and absorption; Images from lenses and mirrors; Periodic waves; Electromagnetic waves; Sound; Doppler Effect; Interference and diffraction; Radioactive decay; Energy in modern physics (energy in radioactive decay and E = mc²); Mass–energy equivalence; Blackbody radiation; Properties of waves and particles; Photoelectric effect.
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-physics-2/exam/past-exam-questions).
 
-| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|---|
-| Unit 9: Thermodynamics | practice-ready | no exclusion recorded | yes (3 sections) | 12 (4 / 5 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 10: Electric Force, Field, and Potential | practice-ready | no exclusion recorded | yes (4 sections) | 12 (4 / 6 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 11: Electric Circuits | practice-ready | no exclusion recorded | yes (3 sections) | 12 (4 / 6 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 12: Magnetism and Electromagnetism | practice-ready | no exclusion recorded | yes (3 sections) | 12 (4 / 6 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 13: Geometric Optics | practice-ready | no exclusion recorded | yes (3 sections) | 11 (5 / 3 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 14: Waves, Sound, and Physical Optics | practice-ready | no exclusion recorded | yes (3 sections) | 12 (4 / 6 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 15: Modern Physics | practice-ready | no exclusion recorded | yes (3 sections) | 12 (3 / 7 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+Framework check (2026-11-08): The 46 numbered CED topics (9.1–15.8) were read from the current PDF on AP Central and from College Board's Course at a Glance, and each was matched to the StudySprint topic whose guide section and questions teach it. Before this check, nine CED topics had no guide text or questions (9.5 specific heat, 10.6 capacitors in Unit 10, 14.1 wave pulses, 14.3 boundary behavior and polarization, 14.9 thin-film interference, 15.2 the Bohr model, 15.3 emission and absorption spectra, 15.6 Compton scattering, and fission and fusion in 15.7); review notes and original questions were added for each. The Clarifications and Corrections for Fall 2026 reword one essential knowledge statement in 15.7 (radioactive decay includes a nucleus moving to a lower energy level) and change exam timing (42 multiple-choice questions in 85 minutes; free response in 95 minutes); neither changes a unit or topic. Source: [AP Physics 2: Algebra-Based Course and Exam Description (effective Fall 2024)](https://apcentral.collegeboard.org/media/pdf/ap-physics-2-course-and-exam-description.pdf).
+Exam weightings: from the AP Students course page (“On The Exam”), checked 2026-11-08; the CED's Course at a Glance gives the same ranges.
+Recorded differences between College Board sources: The AP Students page lists capacitance under Unit 11 (“Resistance and capacitance”), while the CED places Topic 10.6 Capacitors in Unit 10 and RC circuits (11.8) in Unit 11. StudySprint keeps capacitors in circuits in Unit 11 and now also covers the Unit 10 material (the uniform field between parallel plates and ΔV = Ed). The AP Students page's topic list is a summary in different words from the CED's topic titles (for example “Vector and scalar fields” and “Forces review”, which are not CED topic titles). Both lists are recorded and both are build-checked.
+
+| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Unit 9: Thermodynamics | practice-ready | no exclusion recorded | 15%–18% | yes (3 sections) | 14 (4 / 6 / 4) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | 6 of 6 | none |
+| Unit 10: Electric Force, Field, and Potential | practice-ready | no exclusion recorded | 15%–18% | yes (4 sections) | 14 (5 / 7 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | 7 of 7 | none |
+| Unit 11: Electric Circuits | practice-ready | no exclusion recorded | 15%–18% | yes (3 sections) | 12 (4 / 6 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | 8 of 8 | none |
+| Unit 12: Magnetism and Electromagnetism | practice-ready | no exclusion recorded | 12%–15% | yes (3 sections) | 12 (4 / 6 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | 4 of 4 | none |
+| Unit 13: Geometric Optics | practice-ready | no exclusion recorded | 12%–15% | yes (3 sections) | 11 (5 / 3 / 3) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | 4 of 4 | none |
+| Unit 14: Waves, Sound, and Physical Optics | practice-ready | no exclusion recorded | 12%–15% | yes (3 sections) | 16 (5 / 8 / 3) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | 9 of 9 | none |
+| Unit 15: Modern Physics | practice-ready | no exclusion recorded | 12%–15% | yes (3 sections) | 17 (4 / 10 / 3) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | 8 of 8 | none |
 
 ## AP Physics C: Mechanics
 
 Unit outline source: [AP Physics C: Mechanics – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics), verified 2026-10-09.
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-physics-c-mechanics/exam/past-exam-questions).
 
-| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|---|
-| Unit 1: Kinematics | practice-ready | no exclusion recorded | yes (3 sections) | 10 (3 / 4 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 2: Force and Translational Dynamics | practice-ready | no exclusion recorded | yes (3 sections) | 11 (3 / 5 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 3: Work, Energy, and Power | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 4: Linear Momentum | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 5: Torque and Rotational Dynamics | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 6: Energy and Momentum of Rotating Systems | practice-ready | no exclusion recorded | yes (3 sections) | 10 (3 / 4 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 7: Oscillations | practice-ready | no exclusion recorded | yes (3 sections) | 10 (3 / 4 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Kinematics | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 10 (3 / 4 / 3) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 2: Force and Translational Dynamics | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 11 (3 / 5 / 3) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 3: Work, Energy, and Power | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 4: Linear Momentum | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 5: Torque and Rotational Dynamics | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 6: Energy and Momentum of Rotating Systems | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 10 (3 / 4 / 3) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 7: Oscillations | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 10 (3 / 4 / 3) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
 
 ## AP Physics C: Electricity and Magnetism
 
 Unit outline source: [AP Physics C: Electricity and Magnetism – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism), verified 2026-11-08. Unit titles and topics re-checked against the AP Students course page on 2026-11-08 and unchanged. The page lists “Gauss’s Law” under Unit 11 (Electric Circuits) as well as Unit 8; StudySprint covers it in Unit 8 and lists it as not yet covered in Unit 11.
 Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism/exam/past-exam-questions).
 
-| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |
-|---|---|---|---|---|---|---|---|---|---|
-| Unit 8: Electric Charges, Fields, and Gauss’s Law | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 3 / 3) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 9: Electric Potential | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 10: Conductors and Capacitors | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 11: Electric Circuits | practice-ready | no exclusion recorded | yes (3 sections) | 9 (4 / 3 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | Gauss’s Law |
-| Unit 12: Magnetic Fields and Electromagnetism | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
-| Unit 13: Electromagnetic Induction | practice-ready | no exclusion recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 0 | 0 | course page only (no per-question matches) | none |
+| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Unit 8: Electric Charges, Fields, and Gauss’s Law | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 3 / 3) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 9: Electric Potential | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 10: Conductors and Capacitors | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 11: Electric Circuits | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (4 / 3 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | Gauss’s Law |
+| Unit 12: Magnetic Fields and Electromagnetism | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
+| Unit 13: Electromagnetic Induction | practice-ready | no exclusion recorded | not recorded | yes (3 sections) | 9 (3 / 4 / 2) | 0 | 1 | 0 | 0 | course page only (no per-question matches) | not recorded | none |
 
 ## Catalog entries without a unit outline
 

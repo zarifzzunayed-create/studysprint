@@ -9,6 +9,9 @@
    "covers": [
     "Electric systems and charge",
     "Charge distribution: Friction, conduction, and induction"
+   ],
+   "frameworkCovers": [
+    "10.2 Conservation of Electric Charge and the Process of Charging"
    ]
   },
   {
@@ -18,6 +21,9 @@
     "Electric permittivity",
     "Electric forces and free-body diagrams",
     "Gravitational and electromagnetic forces"
+   ],
+   "frameworkCovers": [
+    "10.1 Electric Charge and Electric Force"
    ]
   },
   {
@@ -26,6 +32,10 @@
    "covers": [
     "Electric charges and fields",
     "Electric flux"
+   ],
+   "frameworkCovers": [
+    "10.3 Electric Fields",
+    "10.6 Capacitors"
    ]
   },
   {
@@ -33,6 +43,12 @@
    "name": "Electric potential and energy",
    "covers": [
     "Conservation of electric energy"
+   ],
+   "frameworkCovers": [
+    "10.4 Electric Potential Energy",
+    "10.5 Electric Potential",
+    "10.6 Capacitors",
+    "10.7 Conservation of Electric Energy"
    ]
   }
  ],
@@ -91,7 +107,8 @@
     "points": [
      "Field lines start on positive charges and end on negative ones; closer lines mean a stronger field.",
      "Between two large parallel plates the field is nearly uniform: E = ΔV/d.",
-     "Flux is largest when the surface faces the field directly (θ = 0) and zero when the field runs along the surface."
+     "Flux is largest when the surface faces the field directly (θ = 0) and zero when the field runs along the surface.",
+     "Between the plates of a charged parallel-plate capacitor, the field is nearly uniform and points from the positive plate to the negative plate. Capacitors in circuits are covered in Unit 11."
     ],
     "equations": [
      [
@@ -119,7 +136,8 @@
     "points": [
      "1 electron-volt (eV) = 1.6 × 10⁻¹⁹ J, the energy one elementary charge gains moving through 1 V.",
      "Released from rest, positive charges move toward lower potential and negative charges toward higher potential.",
-     "Equipotential lines are perpendicular to field lines; moving a charge along one takes no work."
+     "Equipotential lines are perpendicular to field lines; moving a charge along one takes no work.",
+     "In a uniform field, such as between capacitor plates a distance d apart, ΔV = Ed."
     ],
     "equations": [
      [
@@ -133,6 +151,10 @@
      [
       "V = kq/r",
       "potential of a point charge"
+     ],
+     [
+      "ΔV = Ed",
+      "potential difference in a uniform field"
      ]
     ]
    }
@@ -170,7 +192,7 @@
   "sourceTitle": "AP Physics 2: Algebra-Based – AP Students (College Board)",
   "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
   "isOriginal": true,
-  "verified": "2026-10-22"
+  "verified": "2026-11-08"
  },
  "questions": [
   {
@@ -508,6 +530,62 @@
    "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
    "isOriginal": true,
    "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u10-q13",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-energy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The plates of a parallel-plate capacitor are 2.0 mm apart, with a potential difference of 12 V between them. What is the electric field between the plates?",
+   "choices": [
+    "1.7 × 10⁻⁴ N/C",
+    "6.0 × 10³ N/C",
+    "2.4 × 10⁻² N/C",
+    "6.0 N/C"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Between parallel plates the field is uniform, with E = ΔV/d = 12 V / 0.0020 m = 6.0 × 10³ V/m, which is 6.0 × 10³ N/C.",
+   "choiceExplanations": [
+    "1.7 × 10⁻⁴ N/C divides d by ΔV, which is upside down.",
+    "",
+    "2.4 × 10⁻² N/C multiplies ΔV by d instead of dividing.",
+    "6.0 N/C divides by 2.0 without converting millimeters to meters."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "ph2u10-q14",
+   "courseId": "ap-physics-2",
+   "unitId": "u10",
+   "topicId": "p10-field",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A parallel-plate capacitor is charged, with +Q on one plate and −Q on the other. How does the electric field behave between the plates, away from the edges?",
+   "choices": [
+    "It points from the negative plate to the positive plate",
+    "It is uniform: the same size and direction everywhere, pointing from the positive plate to the negative plate",
+    "It is strongest next to the positive plate and weakens toward the negative plate",
+    "It is zero halfway between the plates, where the two plates' fields cancel"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Between large parallel plates the fields of the two plates add, giving a uniform field that points from + to −.",
+   "choiceExplanations": [
+    "Electric fields point away from positive charge and toward negative charge.",
+    "",
+    "The field doesn't weaken with distance from a large flat plate, so it is the same everywhere between them.",
+    "Between the plates, the two plates' fields point the same way and add; they cancel outside the plates."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
   }
  ],
  "videos": [],

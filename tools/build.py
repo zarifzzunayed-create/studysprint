@@ -57,6 +57,18 @@ def check_unit(course_id, meta, d):
         for o in off:
             if o not in claimed:
                 err("%s: official topic '%s' is neither covered nor listed in officialTopicsNotYetCovered" % (where, o))
+    # Optional second layer: the numbered topics of the Course and Exam Description (CED). Same rule as above: each one is
+    # covered by a StudySprint topic ("frameworkCovers") or listed in frameworkTopicsNotYetCovered, and nothing else is claimed.
+    fwt = meta.get("frameworkTopics") or []
+    fclaimed = [x for t in d["topics"] for x in t.get("frameworkCovers", [])] + d.get("frameworkTopicsNotYetCovered", [])
+    if fclaimed and not fwt:
+        err("%s: frameworkCovers used but the course file lists no frameworkTopics for this unit" % where)
+    for x in fclaimed:
+        if x not in fwt:
+            err("%s: '%s' is not a framework (CED) topic of this unit" % (where, x))
+    for o in fwt:
+        if o not in fclaimed:
+            err("%s: framework topic '%s' is neither covered nor listed in frameworkTopicsNotYetCovered" % (where, o))
     for t in d["topics"]:
         if not any(q["topicId"] == t["id"] for q in d["questions"]):
             err("%s: topic %s has no questions" % (where, t["id"]))
@@ -241,6 +253,11 @@ def main():
             for m in tc.get("mismatched", []):
                 if not m.get("official"):
                     err("%s: a mismatched name needs the official wording it differs from" % c["id"])
+        fc = cd.get("frameworkCheck")
+        if any(u.get("frameworkTopics") for u in cd["units"]) and not (fc and fc.get("checked") and https(fc.get("source")) and fc.get("how")):
+            err("%s: units list frameworkTopics, so course.json needs frameworkCheck with checked, source and how" % c["id"])
+        if any(u.get("examWeight") for u in cd["units"]) and not (fc and fc.get("weightsSource")):
+            err("%s: units list examWeight, so frameworkCheck needs weightsSource" % c["id"])
         if not cd.get("frameworkVersion"):
             err("%s: course.json needs frameworkVersion (say 'Not recorded' if the edition was not checked)" % c["id"])
         for r in cd.get("generalResources", []):
@@ -370,12 +387,27 @@ def write_status(cat, detail, planner, rules):
         if gen:
             L.append("General resources (shown on every unit's Learn first page, labelled general): " + "; ".join("[%s](%s)" % (r["title"], r["url"]) for r in gen) + ".")
         L.append("")
-        L.append("| Unit | Status | AP Exam | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Unit-specific links | General links | Official FRQ links | Official topics not yet covered |")
-        L.append("|---|---|---|---|---|---|---|---|---|---|")
+        fc = cd.get("frameworkCheck")
+        if fc:
+            L.append("Framework check (%s): %s Source: [%s](%s)." % (fc["checked"], fc["how"], fc.get("title", "Course and Exam Description"), fc["source"]))
+            if fc.get("weightsSource"):
+                L.append("Exam weightings: from %s." % fc["weightsSource"])
+            if fc.get("differences"):
+                L.append("Recorded differences between College Board sources: " + " ".join(fc["differences"]))
+            L.append("")
+        L.append("| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |")
+        L.append("|---|---|---|---|---|---|---|---|---|---|---|---|---|")
         for u, d, status, ti in units:
+            wt = u.get("examWeight") or "not recorded"
             if d is None:
-                L.append("| %s | %s | %s | no | 0 | 0 | 0 | 0 | course page only | all |" % (u["name"], status, exam_cell(u)))
+                fwn = ("0 of %d" % len(u["frameworkTopics"])) if u.get("frameworkTopics") else "not recorded"
+                L.append("| %s | %s | %s | %s | no | 0 | 0 | 0 | 0 | 0 | course page only | %s | all |" % (u["name"], status, exam_cell(u), wt, fwn))
                 continue
+            if u.get("frameworkTopics"):
+                miss = d.get("frameworkTopicsNotYetCovered", [])
+                fwn = "%d of %d" % (len(u["frameworkTopics"]) - len(miss), len(u["frameworkTopics"])) + ((" (not yet: " + "; ".join(miss) + ")") if miss else "")
+            else:
+                fwn = "not recorded"
             mc = [q for q in d["questions"] if q["type"] == "multiple-choice"]
             nu = [q for q in d["questions"] if q["type"] == "numeric"]
             lv = " / ".join(str(sum(q["difficulty"] == l for q in mc)) for l in LEVELS)
@@ -386,7 +418,7 @@ def write_status(cat, detail, planner, rules):
             gen_txt = "%d (%s)" % (len(genl), ", ".join(sorted(set(x["kind"] for x in genl)))) if genl else "0"
             frq = ("%d linked" % len(d["frqs"])) if d["frqs"] else ("course page and %d whole released sets (no per-question matches)" % len(fr["releasedSets"]) if fr.get("releasedSets") else "course page only (no per-question matches)")
             nc = "; ".join(d["officialTopicsNotYetCovered"]) or "none"
-            L.append("| %s | %s | %s | yes (%d sections) | %d (%s) | %d | %s | %s | %s | %s |" % (u["name"], status, exam_cell(u), len(d["guide"]["sections"]), len(mc), lv, len(nu), spec_txt, gen_txt, frq, nc))
+            L.append("| %s | %s | %s | %s | yes (%d sections) | %d (%s) | %d | %d | %s | %s | %s | %s | %s |" % (u["name"], status, exam_cell(u), wt, len(d["guide"]["sections"]), len(mc), lv, len(nu), len(d.get("tests", [])), spec_txt, gen_txt, frq, fwn, nc))
         L.append("")
     out = [c["name"] for c in cat["courses"] if not c["outline"]]
     L.append("## Catalog entries without a unit outline\n")
