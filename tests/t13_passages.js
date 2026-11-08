@@ -46,6 +46,18 @@ const titleOf = id => d.passages.find(p => p.id === id).title;
   const pq = byPrompt[(await p.locator('#v-practice form legend').first().textContent())];
   T.ok(pq && (await p.locator('#v-practice .passage .passage-title').first().textContent()) === titleOf(pq.passageId) &&
     (await p.evaluate(() => document.activeElement.className)) === 'passage-title', 'adaptive practice shows the question\'s passage and focuses its heading');
+  /* ---- U.S. History source sets show where each source comes from ---- */
+  await T.openUnit(p, 'AP United States History', 'u5');
+  await p.locator('#v-overview .test-cards > li').nth(0).locator('button:has-text("Start untimed")').click();
+  await p.waitForSelector('#v-test .passage .passage-src');
+  const srcs = [];
+  for (let i = 0; i < 8; i++) {
+    srcs.push(await p.locator('#v-test .passage .passage-src').first().textContent());
+    if (i < 7) await p.click('#v-test .test-nav button.button-primary');
+  }
+  T.ok(srcs.some(x => /Public domain/.test(x)) && srcs.some(x => /Interpretation written for StudySprint/.test(x)) && srcs.every(x => /Public domain|written for StudySprint/.test(x)),
+    'U.S. History source sets label each source as a public-domain document or as an interpretation written for StudySprint');
+  await p.click('#v-test button:has-text("Save and exit")');
   T.ok(!p.errs.length, 'no page errors' + (p.errs.length ? ': ' + p.errs.join(' | ') : ''));
   await p.context().close();
 

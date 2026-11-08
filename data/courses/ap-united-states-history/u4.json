@@ -1,0 +1,712 @@
+{
+ "courseId": "ap-united-states-history",
+ "unitId": "u4",
+ "title": "Unit 4: Period 4: 1800–1848",
+ "topics": [
+  {
+   "id": "ush4-politics",
+   "name": "Parties, federal power, and foreign policy",
+   "covers": [
+    "The rise of political parties",
+    "American foreign policy",
+    "Debates about federal power"
+   ],
+   "frameworkCovers": [
+    "4.1 Contextualizing Period 4",
+    "4.2 The Rise of Political Parties and the Era of Jefferson",
+    "4.3 Politics and Regional Interests",
+    "4.4 America on the World Stage",
+    "4.8 Jackson and Federal Power"
+   ]
+  },
+  {
+   "id": "ush4-market",
+   "name": "The Market Revolution and the South",
+   "covers": [
+    "Innovations in technology, agriculture, and business"
+   ],
+   "frameworkCovers": [
+    "4.5 Market Revolution: Industrialization",
+    "4.6 Market Revolution: Society and Culture",
+    "4.13 The Society of the South in the Early Republic",
+    "4.14 Causation in Period 4"
+   ]
+  },
+  {
+   "id": "ush4-reform",
+   "name": "Democracy, religion, reform, and African Americans",
+   "covers": [
+    "The Second Great Awakening",
+    "Reform movements",
+    "The experience of African Americans"
+   ],
+   "frameworkCovers": [
+    "4.7 Expanding Democracy",
+    "4.9 The Development of an American Culture",
+    "4.10 The Second Great Awakening",
+    "4.11 An Age of Reform",
+    "4.12 African Americans in the Early Republic"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Period 4 (1800–1848): review guide",
+  "intro": "Between 1800 and 1848 the young republic expanded its territory, its economy, and its democracy, while arguments over federal power, slavery, and reform deepened. Causation is the period's key reasoning skill.",
+  "sections": [
+   {
+    "id": "s-ush4-politics",
+    "topicId": "ush4-politics",
+    "title": "Parties, federal power, and foreign policy",
+    "body": [
+     "Jefferson's Democratic-Republicans took power in 1800; the Louisiana Purchase (1803) doubled the nation's size. Chief Justice John Marshall's Supreme Court strengthened federal power (Marbury v. Madison, 1803; McCulloch v. Maryland, 1819). The War of 1812 and the Monroe Doctrine (1823) asserted American independence in foreign affairs.",
+     "Regional interests clashed over tariffs, internal improvements, and slavery: the Missouri Compromise (1820) balanced slave and free states; the Nullification Crisis (1832) pitted South Carolina against federal tariffs; Andrew Jackson vetoed the Second Bank of the United States and backed Indian removal even after Worcester v. Georgia (1832)."
+    ],
+    "points": [
+     "The second party system: Democrats vs. Whigs.",
+     "Debates over federal power ran through the bank, tariffs, and removal."
+    ]
+   },
+   {
+    "id": "s-ush4-market",
+    "topicId": "ush4-market",
+    "title": "The Market Revolution and the South",
+    "body": [
+     "Canals (the Erie Canal, 1825), steamboats, and early railroads linked farms to distant markets. Textile mills such as those at Lowell, Massachusetts, hired young women and later immigrants; factory work changed family life and gave rise to a growing middle class and new class divisions.",
+     "In the South, the cotton gin (1793) and global demand for cotton spread plantation slavery westward, making the South more dependent on enslaved labor and on Northern and British markets. Causation: improved transportation and new technology produced regional specialization."
+    ],
+    "points": [
+     "Regional economies: Northern manufacturing, Western farming, Southern cotton.",
+     "Cotton's expansion drove both the domestic slave trade and pressure on American Indian lands."
+    ]
+   },
+   {
+    "id": "s-ush4-reform",
+    "topicId": "ush4-reform",
+    "title": "Democracy, religion, reform, and African Americans",
+    "body": [
+     "Most states dropped property requirements for white male voting, expanding democracy for some while free Black men often lost the vote. The Second Great Awakening's revivals stressed individual choice and inspired reform movements: temperance, prison and asylum reform (Dorothea Dix), public education, abolition, and women's rights (Seneca Falls, 1848).",
+     "Abolitionists such as William Lloyd Garrison demanded immediate emancipation; free and enslaved African Americans built communities and resisted slavery, from Frederick Douglass's writing to Nat Turner's rebellion (1831). A distinct American culture emerged in literature (the transcendentalists) and art."
+    ],
+    "points": [
+     "Reform grew from religious revival and democratic ideals.",
+     "Expanding democracy was limited by race and sex."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain one cause of the expansion of slavery in the early 1800s.",
+   "solution": "The cotton gin made short-staple cotton profitable to grow inland, and rising demand from British and Northern textile mills made cotton planting extremely profitable, so planters expanded slavery into new lands in the Deep South."
+  },
+  "misconceptions": [
+   [
+    "“Jacksonian democracy gave everyone the vote.”",
+    "It expanded voting mainly for white men."
+   ],
+   [
+    "“The Supreme Court stopped Cherokee removal.”",
+    "Worcester v. Georgia ruled for the Cherokee, but Jackson's administration carried out removal anyway."
+   ],
+   [
+    "“The Market Revolution affected only the North.”",
+    "It tied Southern cotton to Northern and British industry."
+   ],
+   [
+    "“All reformers were abolitionists.”",
+    "Reform took many forms, and abolitionists were a minority even among reformers."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. History Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+  "sourceTitle": "AP United States History – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "ush4-a",
+   "title": "Source A: William Lloyd Garrison, The Liberator, first issue, 1831",
+   "text": [
+    "“I am aware that many object to the severity of my language; but is there not cause for severity? I will be as harsh as truth, and as uncompromising as justice. On this subject, I do not wish to think, or speak, or write, with moderation. No! No! Tell a man whose house is on fire to give a moderate alarm . . . but urge me not to use moderation in a cause like the present. I am in earnest—I will not equivocate—I will not excuse—I will not retreat a single inch—AND I WILL BE HEARD.”"
+   ],
+   "attribution": "William Lloyd Garrison, “To the Public,” in the first issue of his abolitionist newspaper The Liberator, Boston, January 1, 1831. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 13.4.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/13-4-addressing-slavery); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush4-b",
+   "title": "Source B: Chief Justice John Marshall, Worcester v. Georgia, 1832",
+   "text": [
+    "“The Cherokee Nation, then, is a distinct community, occupying its own territory, with boundaries accurately described, in which the laws of Georgia can have no force, and which the citizens of Georgia have no right to enter but with the assent of the Cherokees themselves or in conformity with treaties and with the acts of Congress. The whole intercourse between the United States and this nation is, by our Constitution and laws, vested in the government of the United States. . . . The Acts of Georgia are repugnant to the Constitution, laws, and treaties of the United States.”"
+   ],
+   "attribution": "Chief Justice John Marshall, majority opinion of the U.S. Supreme Court in Worcester v. Georgia, 1832. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 10.4.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/10-4-indian-removal); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush4-c",
+   "title": "Source C: An interpretation of the Market Revolution",
+   "text": [
+    "“Between 1815 and 1848, Americans increasingly produced not for their own households but for distant markets. The Erie Canal cut the cost of shipping goods from the Great Lakes to New York City dramatically, and farmers in Ohio began growing wheat for buyers they would never meet. In New England, young women left family farms to tend power looms in Lowell's mills, earning wages of their own. In the South, cotton grown by enslaved people fed those same looms. The new economy tied the regions together even as it made them more different from one another.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "ush4-d",
+   "title": "Source D: An interpretation of Jacksonian democracy",
+   "text": [
+    "“The age of Andrew Jackson is often called an age of the common man, and for many white men it was. Property requirements for voting disappeared in most states, party conventions replaced closed caucuses, and turnout in presidential elections rose sharply. But the same years saw free Black men lose the right to vote in several states, women remain excluded, and the forced removal of the Cherokee and other Southeastern nations. Democracy expanded for some by drawing its boundaries more sharply around others.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "ush-u4-q01",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-reform",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Garrison's main purpose in the excerpt is to",
+   "choices": [
+    "support the colonization of freed people in Africa",
+    "call for compromise with slaveholders",
+    "argue for gradually ending slavery over many decades",
+    "defend his uncompromising language against slavery"
+   ],
+   "correctAnswer": 3,
+   "explanation": "He insists he will not use moderation and will not retreat: he demands immediate action.",
+   "choiceExplanations": [
+    "He had turned against colonization schemes.",
+    "He says he will not compromise.",
+    "He rejects moderation and gradualism.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-a"
+  },
+  {
+   "id": "ush-u4-q02",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-reform",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Garrison's newspaper was part of which broader movement of the period?",
+   "choices": [
+    "The Progressive movement",
+    "The Populist movement",
+    "The labor movement of the Gilded Age",
+    "Reform movements influenced by the Second Great Awakening"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Abolition was one of many reforms energized by religious revival in the 1820s–1840s.",
+   "choiceExplanations": [
+    "Progressivism came in the early 1900s.",
+    "Populism came in the 1890s.",
+    "Gilded Age labor movements came after the Civil War.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-a"
+  },
+  {
+   "id": "ush-u4-q03",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-politics",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which development was a direct response to the kind of abolitionist activism reflected in the excerpt?",
+   "choices": [
+    "The Missouri Compromise was repealed",
+    "The Supreme Court decided Worcester v. Georgia",
+    "The House of Representatives adopted a “gag rule” to table antislavery petitions",
+    "Congress passed the Thirteenth Amendment"
+   ],
+   "correctAnswer": 2,
+   "explanation": "From 1836 to 1844 the House automatically tabled antislavery petitions, a defensive response by Southern members and their allies.",
+   "choiceExplanations": [
+    "The Missouri Compromise was effectively repealed in 1854, for other reasons.",
+    "Worcester concerned Cherokee sovereignty.",
+    "",
+    "The Thirteenth Amendment came in 1865."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-a"
+  },
+  {
+   "id": "ush-u4-q04",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-reform",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Compared with earlier antislavery efforts such as gradual emancipation in Northern states, Garrison's position was",
+   "choices": [
+    "more moderate, because he accepted slavery's continuation",
+    "more radical, because he demanded immediate emancipation",
+    "identical in its goals and methods",
+    "focused mainly on ending the slave trade with Africa"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Garrison's call for immediate, uncompromising abolition marked a sharper break than gradual approaches.",
+   "choiceExplanations": [
+    "He rejected compromise.",
+    "",
+    "His demand for immediacy was new.",
+    "The Atlantic slave trade had already been banned in 1808; he targeted slavery itself."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-a"
+  },
+  {
+   "id": "ush-u4-q05",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-politics",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In the excerpt, Marshall rules that",
+   "choices": [
+    "the Cherokee Nation is part of the state of Georgia",
+    "Georgia's laws have no force within Cherokee territory",
+    "Georgia may govern the Cherokee as it chooses",
+    "the Cherokee must move west of the Mississippi"
+   ],
+   "correctAnswer": 1,
+   "explanation": "He describes the Cherokee Nation as a distinct community “in which the laws of Georgia can have no force.”",
+   "choiceExplanations": [
+    "He calls it a distinct community.",
+    "",
+    "He rules the opposite.",
+    "The ruling protected Cherokee territory."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-b"
+  },
+  {
+   "id": "ush-u4-q06",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-politics",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Marshall, relations with the Cherokee Nation belonged to",
+   "choices": [
+    "the Cherokee alone, with no role for any U.S. government",
+    "private land companies",
+    "the federal government",
+    "the state of Georgia"
+   ],
+   "correctAnswer": 2,
+   "explanation": "He says the “whole intercourse” with the nation is vested in the government of the United States.",
+   "choiceExplanations": [
+    "He assigns that role to the United States.",
+    "Companies aren't mentioned.",
+    "",
+    "He says Georgia's laws have no force."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-b"
+  },
+  {
+   "id": "ush-u4-q07",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-politics",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What happened after the Court's decision?",
+   "choices": [
+    "The Jackson administration pursued removal anyway, leading to the Trail of Tears",
+    "Georgia returned all Cherokee lands",
+    "Congress repealed the Indian Removal Act",
+    "The Cherokee were granted U.S. citizenship and statehood"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Despite the ruling, the federal government enforced removal, and thousands of Cherokee died on the forced march of 1838–1839.",
+   "choiceExplanations": [
+    "",
+    "Georgia continued to take Cherokee land.",
+    "The Removal Act stayed in force.",
+    "No such outcome occurred."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-b"
+  },
+  {
+   "id": "ush-u4-q08",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-market",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which economic development most directly increased pressure to remove the Cherokee from Georgia?",
+   "choices": [
+    "The decline of the Atlantic slave trade",
+    "The opening of the Erie Canal",
+    "The expansion of cotton cultivation and the discovery of gold on Cherokee lands",
+    "The growth of textile mills in Lowell"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Settlers wanted Cherokee lands for cotton, and the 1829 gold rush in north Georgia intensified demands.",
+   "choiceExplanations": [
+    "This doesn't explain demand for Cherokee land.",
+    "The canal affected New York and the Great Lakes.",
+    "",
+    "Mills created demand for cotton but were far away."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-b"
+  },
+  {
+   "id": "ush-u4-q09",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-market",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, how did the Erie Canal affect farmers in Ohio?",
+   "choices": [
+    "It let them sell wheat to distant buyers by lowering shipping costs",
+    "It forced them to stop farming",
+    "It closed markets in New York City",
+    "It required them to grow cotton"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Cheaper shipping connected Western farms to Eastern markets.",
+   "choiceExplanations": [
+    "",
+    "The passage describes expanded farming for markets.",
+    "It opened, not closed, those markets.",
+    "Cotton was grown in the South."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-c"
+  },
+  {
+   "id": "ush-u4-q10",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-market",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The passage's description of Lowell's mills best illustrates which change?",
+   "choices": [
+    "The spread of slavery into New England",
+    "The rise of wage labor outside the household",
+    "The end of women's work",
+    "The decline of manufacturing in New England"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Young women left farms to earn wages in factories, a major change in how people worked.",
+   "choiceExplanations": [
+    "The workers were wage earners.",
+    "",
+    "Women's work moved into factories.",
+    "Manufacturing grew."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-c"
+  },
+  {
+   "id": "ush-u4-q11",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-politics",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which policy proposal of the period most directly aimed to build on developments like the Erie Canal?",
+   "choices": [
+    "Henry Clay's American System of internal improvements, a national bank, and protective tariffs",
+    "The Monroe Doctrine",
+    "The Indian Removal Act",
+    "The Wilmot Proviso"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The American System sought federally supported roads and canals to strengthen the national market.",
+   "choiceExplanations": [
+    "",
+    "The Monroe Doctrine concerned European colonization in the Western Hemisphere.",
+    "Removal concerned American Indian lands.",
+    "The Wilmot Proviso came in 1846 and concerned slavery."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-c"
+  },
+  {
+   "id": "ush-u4-q12",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-market",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The final sentence argues that the Market Revolution",
+   "choices": [
+    "made the regions economically identical",
+    "separated the North and South completely",
+    "ended slavery in the South",
+    "linked the regions economically while deepening their differences"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Cotton, mills, and western grain connected the economy, yet each region specialized more.",
+   "choiceExplanations": [
+    "The passage says they became more different.",
+    "It says the economy tied them together.",
+    "The passage notes cotton was grown by enslaved people.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-c"
+  },
+  {
+   "id": "ush-u4-q13",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-reform",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, which group gained political participation in the age of Jackson?",
+   "choices": [
+    "Women",
+    "The Cherokee",
+    "Free Black men",
+    "White men without property"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Property requirements for voting disappeared in most states, benefiting white men.",
+   "choiceExplanations": [
+    "Women remained excluded.",
+    "The Cherokee were removed.",
+    "The passage says many free Black men lost the vote.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-d"
+  },
+  {
+   "id": "ush-u4-q14",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-reform",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The passage's central argument is that Jacksonian democracy",
+   "choices": [
+    "had no effect on political participation",
+    "expanded participation for some while excluding others more sharply",
+    "reduced voting by white men",
+    "made the United States fully democratic"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The final sentence states this argument directly.",
+   "choiceExplanations": [
+    "The passage describes major changes.",
+    "",
+    "Turnout rose.",
+    "The passage stresses limits and exclusions."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-d"
+  },
+  {
+   "id": "ush-u4-q15",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-politics",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which action by President Jackson most directly reflected his use of federal power?",
+   "choices": [
+    "His veto of the recharter of the Second Bank of the United States",
+    "His purchase of Louisiana from France",
+    "His signing of the Missouri Compromise",
+    "His support for the Seneca Falls Convention"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Jackson vetoed the bank's recharter in 1832, calling it a privileged monopoly.",
+   "choiceExplanations": [
+    "",
+    "Jefferson made that purchase in 1803.",
+    "The Missouri Compromise came in 1820 under Monroe.",
+    "Seneca Falls was in 1848, after his presidency, and he didn't support it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-d"
+  },
+  {
+   "id": "ush-u4-q16",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "topicId": "ush4-reform",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which development of the 1840s most directly challenged the exclusions described in the passage?",
+   "choices": [
+    "The election of Thomas Jefferson",
+    "The Erie Canal",
+    "The Seneca Falls Convention's Declaration of Sentiments demanding rights for women",
+    "The Monroe Doctrine"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The 1848 convention demanded rights, including suffrage, for women, who were excluded from Jacksonian democracy.",
+   "choiceExplanations": [
+    "Jefferson's election was in 1800.",
+    "The canal was an economic development.",
+    "",
+    "The Monroe Doctrine concerned foreign policy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush4-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-ush-u4-os1",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "title": "OpenStax U.S. History, 9.1 Early Industrialization in the Northeast",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/9-1-early-industrialization-in-the-northeast",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (Early Industrialization in the Northeast). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/9-1-early-industrialization-in-the-northeast",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-ush-u4-os2",
+   "courseId": "ap-united-states-history",
+   "unitId": "u4",
+   "title": "OpenStax U.S. History, 10.4 Indian Removal",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/10-4-indian-removal",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (Indian Removal). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/10-4-indian-removal",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP U.S. History short-answer, document-based, and long-essay questions often span several periods, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ush-u4-q01",
+    "ush-u4-q02",
+    "ush-u4-q03",
+    "ush-u4-q04",
+    "ush-u4-q09",
+    "ush-u4-q10",
+    "ush-u4-q11",
+    "ush-u4-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "ush-u4-q05",
+    "ush-u4-q06",
+    "ush-u4-q07",
+    "ush-u4-q08",
+    "ush-u4-q13",
+    "ush-u4-q14",
+    "ush-u4-q15",
+    "ush-u4-q16"
+   ]
+  }
+ ]
+}

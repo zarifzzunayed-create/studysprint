@@ -19,6 +19,7 @@
   "ap-chemistry",
   "ap-biology",
   "ap-english-language-and-composition",
+  "ap-united-states-history",
   "ap-computer-science-a"
  ],
  "practiceTests": {
@@ -344,12 +345,26 @@
    ],
    "group": "History and Social Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-united-states-history/exam/past-exam-questions",
-   "outline": false,
-   "framework": {
-    "status": "not checked",
-    "expectedKind": "source-based",
-    "expectedNote": "Expected to be unit-based, with many multiple-choice questions built in sets around a shared historical source. The site's single-question format only partly supports that; source sets would need rights-cleared or public-domain sources.",
-    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   "outline": true,
+   "summary": {
+    "units": 9,
+    "ready": 9,
+    "inProgress": 0,
+    "complete": true,
+    "examUnits": 9,
+    "examReady": 9,
+    "tests": 18,
+    "unitTests": {
+     "u1": 2,
+     "u2": 2,
+     "u3": 2,
+     "u4": 2,
+     "u5": 2,
+     "u6": 2,
+     "u7": 2,
+     "u8": 2,
+     "u9": 2
+    }
    }
   },
   {

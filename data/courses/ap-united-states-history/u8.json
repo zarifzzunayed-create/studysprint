@@ -1,0 +1,712 @@
+{
+ "courseId": "ap-united-states-history",
+ "unitId": "u8",
+ "title": "Unit 8: Period 8: 1945–1980",
+ "topics": [
+  {
+   "id": "ush8-coldwar",
+   "name": "The Cold War, the Red Scare, and Vietnam",
+   "covers": [
+    "The Cold War and the Red Scare",
+    "America as a world power",
+    "The Vietnam War"
+   ],
+   "frameworkCovers": [
+    "8.1 Contextualizing Period 8",
+    "8.2 The Cold War from 1945 to 1980",
+    "8.3 The Red Scare",
+    "8.7 America as a World Power",
+    "8.8 Vietnam War"
+   ]
+  },
+  {
+   "id": "ush8-civil",
+   "name": "Civil rights movements",
+   "covers": [
+    "The African American civil rights movement"
+   ],
+   "frameworkCovers": [
+    "8.6 Early Steps in the Civil Rights Movement (1940s and 1950s)",
+    "8.10 The African American Civil Rights Movement (1960s)",
+    "8.11 The Civil Rights Movement Expands"
+   ]
+  },
+  {
+   "id": "ush8-society",
+   "name": "The postwar economy, culture, the Great Society, and a society in transition",
+   "covers": [
+    "The Great Society",
+    "Youth culture of the 1960s"
+   ],
+   "frameworkCovers": [
+    "8.4 Economy after 1945",
+    "8.5 Culture from 1945 to 1960",
+    "8.9 Great Society",
+    "8.12 Youth Culture of the 1960s",
+    "8.13 The Environment and Natural Resources from 1968 to 1980",
+    "8.14 Society in Transition",
+    "8.15 Continuity and Change in Period 8"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Period 8 (1945–1980): review guide",
+  "intro": "After World War II the United States led a global struggle against communism while experiencing unprecedented prosperity at home. Civil rights movements, the Great Society, the Vietnam War, and new social movements challenged and changed American society. Continuity and change is the period's key reasoning skill.",
+  "sections": [
+   {
+    "id": "s-ush8-coldwar",
+    "topicId": "ush8-coldwar",
+    "title": "The Cold War, the Red Scare, and Vietnam",
+    "body": [
+     "Containment of Soviet communism guided policy: the Truman Doctrine (1947), the Marshall Plan, NATO (1949), the Korean War (1950–1953), and a nuclear arms race. Fear of communist subversion fed a Red Scare, including Senator Joseph McCarthy's accusations.",
+     "U.S. involvement in Vietnam grew after the Gulf of Tonkin Resolution (1964). The Tet Offensive (1968) shook public confidence, and a growing antiwar movement, including veterans, questioned the war. U.S. combat involvement ended in 1973."
+    ],
+    "points": [
+     "Containment shaped foreign policy from Truman through the 1970s.",
+     "Vietnam divided Americans and weakened trust in government."
+    ]
+   },
+   {
+    "id": "s-ush8-civil",
+    "topicId": "ush8-civil",
+    "title": "Civil rights movements",
+    "body": [
+     "Early steps included the desegregation of the armed forces (1948) and Brown v. Board of Education (1954). Nonviolent direct action, from the Montgomery bus boycott (1955–1956) to sit-ins and the March on Washington (1963), helped win the Civil Rights Act of 1964 and the Voting Rights Act of 1965. Some activists later embraced Black Power and more militant approaches.",
+     "The movement inspired others: Latino, American Indian, Asian American, women's, and gay rights activists organized for equality."
+    ],
+    "points": [
+     "Courts, Congress, and grassroots activism all mattered.",
+     "Divisions grew within the movement over tactics and goals."
+    ]
+   },
+   {
+    "id": "s-ush8-society",
+    "topicId": "ush8-society",
+    "title": "Prosperity, culture, the Great Society, and transition",
+    "body": [
+     "Postwar prosperity, the GI Bill, suburbanization, and the baby boom produced a mass consumer culture, though critics questioned conformity and many cities and minorities were left out. Lyndon Johnson's Great Society (Medicare, Medicaid, the War on Poverty, federal aid to education) expanded the federal role.",
+     "In the 1960s, a youth counterculture challenged traditional values; environmental concerns grew (Rachel Carson's Silent Spring, 1962; the EPA, 1970). In the 1970s, Watergate, energy crises, and stagflation undercut confidence, and a conservative reaction began to build."
+    ],
+    "points": [
+     "Continuity and change: liberal government expanded in the 1960s and faced a backlash in the 1970s.",
+     "Prosperity was real but unevenly shared."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain how the Truman Doctrine reflected the policy of containment.",
+   "solution": "Truman asked Congress for aid to Greece and Turkey to keep them from falling to communism, committing the United States to support free peoples resisting communist pressure, which became the basis of containing Soviet influence."
+  },
+  "misconceptions": [
+   [
+    "“The civil rights movement began in 1954.”",
+    "It built on decades of earlier activism, legal challenges, and wartime gains."
+   ],
+   [
+    "“Containment meant war with the Soviet Union.”",
+    "It aimed to stop communism's spread without direct war between the superpowers."
+   ],
+   [
+    "“The antiwar movement was only students.”",
+    "Veterans, clergy, and many others also opposed the war."
+   ],
+   [
+    "“Postwar prosperity reached everyone.”",
+    "Many in cities, rural areas, and minority communities were left out."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. History Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+  "sourceTitle": "AP United States History – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "ush8-a",
+   "title": "Source A: President Harry Truman, address to Congress, 1947",
+   "text": [
+    "“At the present moment in world history nearly every nation must choose between alternative ways of life. The choice is too often not a free one. Should we fail to aid Greece and Turkey in this fateful hour, the effect will be far reaching to the West as well as to the East. The seeds of totalitarian regimes are nurtured by misery and want. They spread and grow in the evil soil of poverty and strife. They reach their full growth when the hope of a people for a better life has died. We must keep that hope alive.”"
+   ],
+   "attribution": "President Harry S. Truman, address to a joint session of Congress requesting aid to Greece and Turkey, March 12, 1947. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 28.2.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/28-2-the-cold-war); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush8-b",
+   "title": "Source B: Testimony of John Kerry, Vietnam Veterans Against the War, 1971",
+   "text": [
+    "“I would like to talk on behalf of all those veterans and say that several months ago in Detroit we had an investigation at which over 150 honorably discharged, and many very highly decorated, veterans testified to war crimes committed in Southeast Asia. . . . We could come back to this country, we could be quiet, we could hold our silence, we could not tell what went on in Vietnam, but we feel because of what threatens this country, not the reds [Communists], but the crimes which we are committing that threaten it, that we have to speak out.”"
+   ],
+   "attribution": "John Kerry, a former U.S. Navy lieutenant and member of Vietnam Veterans Against the War, testifying before the Senate Committee on Foreign Relations, April 1971. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 30.3.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush8-c",
+   "title": "Source C: An interpretation of the civil rights movement",
+   "text": [
+    "“The victories of the mid-1960s rested on decades of work. Lawyers for the NAACP spent years building the cases that led to Brown v. Board of Education in 1954. Ordinary people, from the bus riders of Montgomery to the student sit-in activists of 1960, used nonviolent protest to expose segregation to a national audience. Their pressure helped produce the Civil Rights Act of 1964 and the Voting Rights Act of 1965, which, along with Lyndon Johnson's Great Society programs, marked the high point of federal action for racial and economic equality.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "ush8-d",
+   "title": "Source D: An interpretation of postwar suburbs",
+   "text": [
+    "“Nothing symbolized postwar prosperity more than the suburb. Federally insured mortgages and the GI Bill let millions of families buy new homes, and highways carried them to work in the cities they had left. Yet the suburbs were not open to everyone: lending rules and local practices kept most Black families out, even as the industries and tax revenues that had supported city neighborhoods moved away. The suburban boom helped build a large middle class and, at the same time, deepened racial divisions in American metropolitan areas.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "ush-u8-q01",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-coldwar",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Truman's main purpose in the excerpt is to",
+   "choices": [
+    "propose the Great Society",
+    "declare war on the Soviet Union",
+    "announce the end of World War II",
+    "persuade Congress to give aid to Greece and Turkey"
+   ],
+   "correctAnswer": 3,
+   "explanation": "He warns of the consequences if the United States fails to aid Greece and Turkey.",
+   "choiceExplanations": [
+    "The Great Society came in the 1960s.",
+    "He asks for aid, not war.",
+    "World War II had ended in 1945.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-a"
+  },
+  {
+   "id": "ush-u8-q02",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-coldwar",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The policy announced in this address became known as",
+   "choices": [
+    "the Monroe Doctrine",
+    "the Truman Doctrine, an early statement of containment",
+    "détente",
+    "the New Deal"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The commitment to support free peoples against communist pressure became the Truman Doctrine.",
+   "choiceExplanations": [
+    "The Monroe Doctrine dates from 1823.",
+    "",
+    "Détente describes easing tensions in the 1970s.",
+    "The New Deal was domestic."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-a"
+  },
+  {
+   "id": "ush-u8-q03",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-coldwar",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Truman's argument that totalitarianism grows from “misery and want” most directly helped justify which later program?",
+   "choices": [
+    "The Marshall Plan's economic aid to rebuild Western Europe",
+    "The Interstate Highway Act",
+    "The Voting Rights Act",
+    "The Red Scare loyalty programs"
+   ],
+   "correctAnswer": 0,
+   "explanation": "If poverty breeds communism, economic recovery aid becomes a way to contain it.",
+   "choiceExplanations": [
+    "",
+    "That was a domestic transportation program.",
+    "That was a civil rights law.",
+    "Those were domestic security measures."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-a"
+  },
+  {
+   "id": "ush-u8-q04",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-society",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which domestic development most enabled the United States to offer large-scale foreign aid after 1945?",
+   "choices": [
+    "The country had paid off all its debts by 1945",
+    "Congress had abolished the income tax",
+    "Its economy emerged from World War II as the world's largest and least damaged",
+    "The Great Depression continued into the 1950s"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Unlike Europe and Asia, the United States ended the war with its industry intact and growing.",
+   "choiceExplanations": [
+    "War spending left large debts.",
+    "The income tax was expanded during the war.",
+    "",
+    "The war ended the Depression."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-a"
+  },
+  {
+   "id": "ush-u8-q05",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-coldwar",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Kerry's main purpose in the excerpt is to",
+   "choices": [
+    "explain why veterans felt they must speak out against the war",
+    "call for war with China",
+    "support the draft",
+    "praise the conduct of the war"
+   ],
+   "correctAnswer": 0,
+   "explanation": "He says veterans could have stayed silent but feel they “have to speak out.”",
+   "choiceExplanations": [
+    "",
+    "China isn't mentioned.",
+    "The draft isn't discussed.",
+    "He describes alleged crimes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-b"
+  },
+  {
+   "id": "ush-u8-q06",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-society",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Kerry's testimony is best understood as part of",
+   "choices": [
+    "the New Deal coalition",
+    "the conservative movement of the 1980s",
+    "the Red Scare of the early 1950s",
+    "the broader antiwar movement of the late 1960s and early 1970s"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Veterans' organizations joined students, clergy, and others in opposing the war.",
+   "choiceExplanations": [
+    "The New Deal was in the 1930s.",
+    "That came later.",
+    "The Red Scare targeted suspected communists in the 1950s.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-b"
+  },
+  {
+   "id": "ush-u8-q07",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-coldwar",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Kerry's remark about “not the reds” most directly challenges",
+   "choices": [
+    "the Marshall Plan",
+    "the Great Society",
+    "the civil rights movement",
+    "the Cold War argument that the war was necessary to stop communism"
+   ],
+   "correctAnswer": 3,
+   "explanation": "He argues the real threat to the country was the war's conduct, not communism.",
+   "choiceExplanations": [
+    "He doesn't discuss Europe.",
+    "He doesn't discuss domestic programs.",
+    "He doesn't discuss civil rights.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-b"
+  },
+  {
+   "id": "ush-u8-q08",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-coldwar",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which development of the late 1960s had most weakened public trust in official claims about the war by the time of this testimony?",
+   "choices": [
+    "The Korean War armistice",
+    "The Tet Offensive of 1968, which contradicted official claims of steady progress",
+    "The Gulf of Tonkin Resolution",
+    "The Berlin Airlift"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Tet showed that the enemy remained strong despite official optimism, widening the “credibility gap.”",
+   "choiceExplanations": [
+    "The armistice was in 1953.",
+    "",
+    "The resolution of 1964 expanded the war; doubts about it grew later.",
+    "The airlift was in 1948–1949."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-b"
+  },
+  {
+   "id": "ush-u8-q09",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-civil",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, what led to Brown v. Board of Education?",
+   "choices": [
+    "The March on Washington",
+    "A presidential order",
+    "Years of legal work by NAACP lawyers",
+    "The Voting Rights Act"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The passage credits NAACP lawyers' long effort.",
+   "choiceExplanations": [
+    "The march was in 1963.",
+    "The decision came from the Supreme Court.",
+    "",
+    "That act came in 1965."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-c"
+  },
+  {
+   "id": "ush-u8-q10",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-civil",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The passage's main argument about the civil rights victories of the 1960s is that they",
+   "choices": [
+    "built on decades of legal work and grassroots protest",
+    "happened suddenly with no earlier activism",
+    "were opposed by all civil rights activists",
+    "came mainly from Southern state governments"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The first sentence states that the victories “rested on decades of work.”",
+   "choiceExplanations": [
+    "",
+    "The passage stresses long preparation.",
+    "Activists produced the pressure.",
+    "Southern governments resisted desegregation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-c"
+  },
+  {
+   "id": "ush-u8-q11",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-society",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which program was part of the Great Society mentioned in the passage?",
+   "choices": [
+    "The Works Progress Administration",
+    "Medicare, providing health insurance for older Americans",
+    "The Marshall Plan",
+    "The GI Bill"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Medicare was created in 1965 as part of Johnson's Great Society.",
+   "choiceExplanations": [
+    "The WPA was a New Deal program.",
+    "",
+    "The Marshall Plan was foreign aid in the 1940s.",
+    "The GI Bill was passed in 1944."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-c"
+  },
+  {
+   "id": "ush-u8-q12",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-civil",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which statement best explains why nonviolent protest was effective, according to the passage and your knowledge?",
+   "choices": [
+    "It persuaded Southern governors to end segregation voluntarily",
+    "It replaced the need for any legal action",
+    "It exposed segregation's violence to a national audience through news coverage, building pressure on Congress",
+    "It avoided all media attention"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Televised scenes of violent responses to peaceful protesters helped win national support for civil rights laws.",
+   "choiceExplanations": [
+    "Most Southern governors resisted.",
+    "The passage stresses both legal and grassroots work.",
+    "",
+    "Media coverage was central."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-c"
+  },
+  {
+   "id": "ush-u8-q13",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-society",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, what helped millions of families buy suburban homes?",
+   "choices": [
+    "Federally insured mortgages and the GI Bill",
+    "The end of highway construction",
+    "Rising unemployment",
+    "The repeal of the income tax"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The passage names these federal supports.",
+   "choiceExplanations": [
+    "",
+    "The passage says highways expanded.",
+    "The period was prosperous.",
+    "The income tax wasn't repealed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-d"
+  },
+  {
+   "id": "ush-u8-q14",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-civil",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The passage suggests that suburban growth affected Black Americans mainly by",
+   "choices": [
+    "ending segregation in cities",
+    "largely excluding them through lending rules and local practices",
+    "moving most Black families to the suburbs",
+    "providing them with equal access to new housing"
+   ],
+   "correctAnswer": 1,
+   "explanation": "It says lending rules and local practices kept most Black families out.",
+   "choiceExplanations": [
+    "Segregation deepened.",
+    "",
+    "Most were excluded.",
+    "The passage says they were kept out."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-d"
+  },
+  {
+   "id": "ush-u8-q15",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-society",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which consequence of suburbanization does the passage identify for cities?",
+   "choices": [
+    "The end of commuting",
+    "Rapid growth in city manufacturing",
+    "The construction of new rural farms",
+    "The loss of industries and tax revenues that supported city neighborhoods"
+   ],
+   "correctAnswer": 3,
+   "explanation": "It says industries and tax revenues “moved away.”",
+   "choiceExplanations": [
+    "Highways increased commuting.",
+    "Industry was leaving.",
+    "Farms aren't discussed.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-d"
+  },
+  {
+   "id": "ush-u8-q16",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "topicId": "ush8-society",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which statement best reflects the continuity and change in the passage?",
+   "choices": [
+    "Nothing changed in American housing after 1945",
+    "Racial divisions disappeared as prosperity grew",
+    "Prosperity and the middle class grew, while racial divisions persisted and deepened in new forms",
+    "The middle class shrank while cities grew"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The passage describes both growth (change) and lasting segregation (continuity) taking new suburban forms.",
+   "choiceExplanations": [
+    "The passage describes a major change.",
+    "The passage says divisions deepened.",
+    "",
+    "The passage says the middle class grew."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush8-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-ush-u8-os1",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "title": "OpenStax U.S. History, 28.2 The Cold War",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/28-2-the-cold-war",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (The Cold War). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/28-2-the-cold-war",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-ush-u8-os2",
+   "courseId": "ap-united-states-history",
+   "unitId": "u8",
+   "title": "OpenStax U.S. History, 29.3 The Civil Rights Movement Marches On",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (The Civil Rights Movement Marches On). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP U.S. History short-answer, document-based, and long-essay questions often span several periods, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ush-u8-q01",
+    "ush-u8-q02",
+    "ush-u8-q03",
+    "ush-u8-q04",
+    "ush-u8-q09",
+    "ush-u8-q10",
+    "ush-u8-q11",
+    "ush-u8-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "ush-u8-q05",
+    "ush-u8-q06",
+    "ush-u8-q07",
+    "ush-u8-q08",
+    "ush-u8-q13",
+    "ush-u8-q14",
+    "ush-u8-q15",
+    "ush-u8-q16"
+   ]
+  }
+ ]
+}
