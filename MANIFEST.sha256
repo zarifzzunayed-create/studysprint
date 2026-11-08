@@ -1,8 +1,8 @@
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./.nojekyll
-109fca30b02e1c0c197467da2e5fec78f47c416c7d3ab32345a1a3cba1754160  ./CONTENT_STATUS.md
+de877b4ac87cf3b355423b28a6baf932d4cbe7fe6759bdf3f86a876f0489a3c3  ./CONTENT_STATUS.md
 e0374632348091643f8b14d06f9ddb4e5f7f42584280ba92c82751e388c8d6eb  ./README.md
 4f45173a987382df975a63b68cb7c108eeaecc0a9ecc99e2e06e1dced180b42c  ./css/style.css
-ac648b52c36ed6ef4e945b02d41668ccfe49cb840d5527568ec3b5e7102e50ba  ./data/catalog.json
+9a1399df123726b1bc8207c2509de8dc7cc284bb4d88ec655d09e53baa30197d  ./data/catalog.json
 ac55ea7ff6f9e177f85d68b45e0a02d647e43d9df1d672f1cf2cdcf812265ec8  ./data/courses/ap-calculus-ab/course.json
 9198bbb6540d0bb4433be836ad901a1b308a57ad1dce77d45731cf979310cd20  ./data/courses/ap-calculus-ab/u1.json
 2ba51edbafd75e664085fa58bdaebabf4b507251ae9a2b93c4600420cf1f7c30  ./data/courses/ap-calculus-ab/u2.json
@@ -12,7 +12,7 @@ ac55ea7ff6f9e177f85d68b45e0a02d647e43d9df1d672f1cf2cdcf812265ec8  ./data/courses
 a9d2a307a1c5e5da5b2a60458692a2fcbb3c1f5a816cb2ce91f37fb89daa0ea6  ./data/courses/ap-calculus-ab/u6.json
 7d4683d11a7d25639ea2d3d3d9bdad1ba8ee44a7edc6da89a7a0bb94e906d026  ./data/courses/ap-calculus-ab/u7.json
 38c3f7213a5e303925fced2c81d16803358daba7c5bcb6e62f1e1e8446659dfd  ./data/courses/ap-calculus-ab/u8.json
-35c0d31b4eab9183ac8055de4661755c2cca80984445f3e326f2bbd5fbc52dee  ./data/courses/ap-calculus-bc/course.json
+7c6e3eef3b166cd33f90862ac6f223668c12b0b5094294dce15d921e79e873cb  ./data/courses/ap-calculus-bc/course.json
 d1089424f29ee9944c4c87e7f6dbeb5c6ac75c9d7f4a4836bcbb8bcf9c76ce73  ./data/courses/ap-physics-1/course.json
 4bbc111674a5fd4dc02e47744e4826cf0815ca08f5efadbfa0f32370a520cbbe  ./data/courses/ap-physics-1/u1.json
 ebf6e0592a7e0acaf6fe116c118969c6ac4f0a611361a19b72b5e3ba1ed32f73  ./data/courses/ap-physics-1/u2.json
@@ -30,7 +30,13 @@ ae32de0b139c2f712d670050afd58f0004b76591f1bd6f0c2aea8ad9223fea5d  ./data/courses
 7dcc5e7f36e11fb351c70754c326909a77216832fbd269dfa52f91d44648a17c  ./data/courses/ap-physics-2/u14.json
 6f9aba29c4ace8b7e21ecac9ae56821f8b4856d0a5a60b8c2d595cdaaf8f13a1  ./data/courses/ap-physics-2/u15.json
 f1e802f5c3ced636bf416feda684dd8274d66da5c31b3a12d1616db6bdd46eac  ./data/courses/ap-physics-2/u9.json
-7b59e06791ba62e56638e4d0e0bfb5e400f7924a7222b45acdc90eb3c233223d  ./data/courses/ap-physics-c-electricity-and-magnetism/course.json
+a3a83a78b64b4ca3ac231357a9495c8dc54af40fe78ed8851a10877c2918f7b1  ./data/courses/ap-physics-c-electricity-and-magnetism/course.json
+9ec988e22057d2598b36db1efb1647ac65e7a9b01803d2818a1ea339ccf80559  ./data/courses/ap-physics-c-electricity-and-magnetism/u10.json
+04f8b26bc086446e7a64f8d427091abd0e18f3033bb41248af4aa3be05a52ddb  ./data/courses/ap-physics-c-electricity-and-magnetism/u11.json
+33d2b9d1fadb6b3be0daf90b040fedbb320746dcb88793c207759c6058bfc3a3  ./data/courses/ap-physics-c-electricity-and-magnetism/u12.json
+f1ccfff78c85cb635340849cd7c4fd3a0224d03f9bd53932dc2d39c679f2e0e5  ./data/courses/ap-physics-c-electricity-and-magnetism/u13.json
+eea197eaec84b79175f2c4d2537c78d195a1fee5a077113577bde7aead99ba36  ./data/courses/ap-physics-c-electricity-and-magnetism/u8.json
+abf50b09f98e4d59461f5afd1c620c2ca2ef792a4d03745f05d1640d12844046  ./data/courses/ap-physics-c-electricity-and-magnetism/u9.json
 ab611f8f6db358230a058487f016460e50cd1b33967cedfad833da4da99efa87  ./data/courses/ap-physics-c-mechanics/course.json
 1b374533dd301d39a55ccab3692753f312f85cbf8956d0a5945de0a158d2a53a  ./data/courses/ap-physics-c-mechanics/u1.json
 b8d7c8fc95c1f0456c096dd9f79bfb7988150d14151dcaed6cfee13df88b6e85  ./data/courses/ap-physics-c-mechanics/u2.json
@@ -51,9 +57,9 @@ fa1daf00a1b38be7983c498b55e16b8c97e7e05cf68e42bafec9e2a211103480  ./data/courses
 1bab8c4bd21082604ac8c49db26a32dc6c5dbc5927841d7c51e915de59849506  ./data/courses/ap-statistics/u4.json
 b7d4c5984531376feeaad23d68400fbe244817f3cbc575489fdd84be5cfe479b  ./data/courses/ap-statistics/u5.json
 bd566cedcf065761b51fa866c65e6cd2096c739ffdb9c6f70e0a9cf390ad7ee9  ./data/planner.json
-a26ecd745a34c762d5fc5009d9a4b256db98fdbfd18071ac35370c12171b5908  ./dist/studysprint.html
+891848bb6c12b80dfb9f3e99027e8de98e21dc9448ea74c66e30fa24b7dd898d  ./dist/studysprint.html
 d99b5769b70675ad7ab8f1294ea907ea23b05dd66e873f1c65635c2f2d438166  ./docs/sat/reading-and-writing-guide.md
-17e2c8680e41a3093ff76904bb8bd2657041e32c2b85a2a41d198edeb623ce7d  ./index.html
+935549a77242d9c412988b72a006c7566405d0efc39f9c6de090774fbbda58cf  ./index.html
 2ff9b552ac93970f8e226615c9f4b5c962c8ecfc59e62b9a9ce77b453b8a7997  ./js/adaptive.js
 88b08db8fbc71b494901d06a119126943bb3065c7260bed082e7e87f9529d66b  ./js/app.js
 d1af03645361f3197179652076eabb1d5757c815a21374816d9e69c1712bfbe1  ./js/backup.js

@@ -4,16 +4,16 @@
  "officialUrl": null,
  "studentUrl": null,
  "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf",
- "frameworkVersion": "AP Calculus AB and BC Course and Exam Description (shared with AB). Units 9 and 10 are named in the BC course overview; per-unit topic lists were not retrieved.",
+ "frameworkVersion": "AP Calculus AB and BC Course and Exam Description (shared with AB). AP Central said on 2026-10-11 that course content has not changed for 2026-27.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-calculus-bc/exam/past-exam-questions",
   "note": null
  },
  "source": {
-  "title": "AP Calculus BC course overview (College Board) and AP Calculus AB – AP Students (College Board)",
-  "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-bc-course-overview.pdf",
-  "verified": "2026-10-09",
-  "note": "College Board's BC course overview says the course has ten units and names Units 9 and 10. Units 1–8 use the same titles as AP Calculus AB, because College Board publishes one course and exam description for both courses. The BC student page was not retrieved in this build, so per-unit topic lists are not included."
+  "title": "AP Calculus BC – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+  "verified": "2026-11-08",
+  "note": "Unit titles and the “topics may include” list for all ten units were read from the AP Students course page on 2026-11-08. Units 1–8 share AB's titles, but several BC units list topics AB does not (for example improper integrals, Euler’s method and logistic models, and the length of a planar curve)."
  },
  "units": [
   {
@@ -21,70 +21,134 @@
    "name": "Unit 1: Limits and Continuity",
    "status": "outline",
    "file": null,
-   "officialTopics": []
+   "officialTopics": [
+    "How limits help us to handle change at an instant",
+    "Definition and properties of limits in various representations",
+    "Definitions of continuity of a function at a point and over a domain",
+    "Asymptotes and limits at infinity",
+    "Reasoning using the Squeeze theorem and the Intermediate Value Theorem"
+   ]
   },
   {
    "id": "u2",
    "name": "Unit 2: Differentiation: Definition and Fundamental Properties",
    "status": "outline",
    "file": null,
-   "officialTopics": []
+   "officialTopics": [
+    "Defining the derivative of a function at a point and as a function",
+    "Connecting differentiability and continuity",
+    "Determining derivatives for elementary functions",
+    "Applying differentiation rules"
+   ]
   },
   {
    "id": "u3",
    "name": "Unit 3: Differentiation: Composite, Implicit, and Inverse Functions",
    "status": "outline",
    "file": null,
-   "officialTopics": []
+   "officialTopics": [
+    "The chain rule for differentiating composite functions",
+    "Implicit differentiation",
+    "Differentiation of general and particular inverse functions",
+    "Determining higher-order derivatives of functions"
+   ]
   },
   {
    "id": "u4",
    "name": "Unit 4: Contextual Applications of Differentiation",
    "status": "outline",
    "file": null,
-   "officialTopics": []
+   "officialTopics": [
+    "Identifying relevant mathematical information in verbal representations of real-world problems involving rates of change",
+    "Applying understandings of differentiation to problems involving motion",
+    "Generalizing understandings of motion problems to other situations involving rates of change",
+    "Solving related rates problems",
+    "Local linearity and approximation",
+    "L’Hospital’s rule"
+   ]
   },
   {
    "id": "u5",
    "name": "Unit 5: Analytical Applications of Differentiation",
    "status": "outline",
    "file": null,
-   "officialTopics": []
+   "officialTopics": [
+    "Mean Value Theorem and Extreme Value Theorem",
+    "Derivatives and properties of functions",
+    "How to use the first derivative test, second derivative test, and candidates test",
+    "Sketching graphs of functions and their derivatives",
+    "How to solve optimization problems",
+    "Behaviors of Implicit relations"
+   ]
   },
   {
    "id": "u6",
    "name": "Unit 6: Integration and Accumulation of Change",
    "status": "outline",
    "file": null,
-   "officialTopics": []
+   "officialTopics": [
+    "Using definite integrals to determine accumulated change over an interval",
+    "Approximating integrals with Riemann Sums",
+    "Accumulation functions, the Fundamental Theorem of Calculus, and definite integrals",
+    "Antiderivatives and indefinite integrals",
+    "Properties of integrals and integration techniques, extended",
+    "Determining improper integrals"
+   ]
   },
   {
    "id": "u7",
    "name": "Unit 7: Differential Equations",
    "status": "outline",
    "file": null,
-   "officialTopics": []
+   "officialTopics": [
+    "Interpreting verbal descriptions of change as separable differential equations",
+    "Sketching slope fields and families of solution curves",
+    "Using Euler’s method to approximate values on a particular solution curve",
+    "Solving separable differential equations to find general and particular solutions",
+    "Deriving and applying exponential and logistic models"
+   ]
   },
   {
    "id": "u8",
    "name": "Unit 8: Applications of Integration",
    "status": "outline",
    "file": null,
-   "officialTopics": []
+   "officialTopics": [
+    "Determining the average value of a function using definite integrals",
+    "Modeling particle motion",
+    "Solving accumulation problems",
+    "Finding the area between curves",
+    "Determining volume with cross-sections, the disc method, and the washer method",
+    "Determining the length of a planar curve using a definite integral"
+   ]
   },
   {
    "id": "u9",
    "name": "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
    "status": "outline",
    "file": null,
-   "officialTopics": []
+   "officialTopics": [
+    "Finding derivatives of parametric functions and vector-valued functions",
+    "Calculating the accumulation of change in length over an interval using a definite integral",
+    "Determining the position of a particle moving in a plane",
+    "Calculating velocity, speed, and acceleration of a particle moving along a curve",
+    "Finding derivatives of functions written in polar coordinates",
+    "Finding the area of regions bounded by polar curves"
+   ]
   },
   {
    "id": "u10",
    "name": "Unit 10: Infinite Sequences and Series",
    "status": "outline",
    "file": null,
-   "officialTopics": []
+   "officialTopics": [
+    "Applying limits to understand convergence of infinite series",
+    "Types of series: Geometric, harmonic, and p-series",
+    "A test for divergence and several tests for convergence",
+    "Approximating sums of convergent infinite series and associated error bounds",
+    "Determining the radius and interval of convergence for a series",
+    "Representing a function as a Taylor series or a Maclaurin series on an appropriate interval"
+   ]
   }
  ]
 }

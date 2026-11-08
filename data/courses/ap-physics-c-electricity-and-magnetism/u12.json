@@ -1,0 +1,425 @@
+{
+ "courseId": "ap-physics-c-electricity-and-magnetism",
+ "unitId": "u12",
+ "title": "Unit 12: Magnetic Fields and Electromagnetism",
+ "topics": [
+  {
+   "id": "e12-force",
+   "name": "Magnetic forces on charges and currents",
+   "covers": [
+    "Forces on moving charges in magnetic fields",
+    "Forces on current carrying wires in magnetic fields"
+   ]
+  },
+  {
+   "id": "e12-wire",
+   "name": "Fields of long current-carrying wires",
+   "covers": [
+    "Fields of long current carrying wires"
+   ]
+  },
+  {
+   "id": "e12-ampere",
+   "name": "The Biot–Savart law and Ampère's law",
+   "covers": [
+    "The Biot-Savart Law and Ampère’s Law"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Magnetic fields and electromagnetism: review guide",
+  "intro": "Moving charges create magnetic fields and feel magnetic forces. This unit covers both sides, using the Biot–Savart law for any current and Ampère's law for symmetric ones.",
+  "equationNote": "μ₀ = 4π × 10⁻⁷ T·m/A; e = 1.6 × 10⁻¹⁹ C.",
+  "sections": [
+   {
+    "id": "s-e12-force",
+    "topicId": "e12-force",
+    "title": "Magnetic forces on charges and currents",
+    "body": [
+     "A charge moving through a magnetic field feels F = qv × B, with magnitude |q|vB sin θ, perpendicular to both v and B. The force does no work, so it changes the direction of motion but not the speed. Moving perpendicular to a uniform field, a charge circles with radius r = mv/(|q|B) and period T = 2πm/(|q|B), which does not depend on its speed.",
+     "A current-carrying wire feels F = IL × B; for a curved wire, integrate dF = I dl × B. In a uniform field, any wire's net force equals the force on a straight wire joining its ends."
+    ],
+    "points": [
+     "With crossed electric and magnetic fields, a charge passes straight through when v = E/B (a velocity selector).",
+     "Reverse the right-hand-rule direction for negative charges.",
+     "A closed current loop in a uniform field feels no net force, though it can feel a torque."
+    ],
+    "equations": [
+     [
+      "F = qv × B",
+      "moving charge"
+     ],
+     [
+      "F = IL × B",
+      "straight wire"
+     ],
+     [
+      "r = mv/(|q|B)",
+      "circular motion"
+     ]
+    ]
+   },
+   {
+    "id": "s-e12-wire",
+    "topicId": "e12-wire",
+    "title": "Fields of long current-carrying wires",
+    "body": [
+     "A long straight wire's field circles it with magnitude B = μ₀I/(2πr): point your right thumb along the current, and your fingers curl the way B goes.",
+     "Two parallel wires push or pull on each other with force per length F/L = μ₀I₁I₂/(2πd): currents in the same direction attract, and opposite currents repel."
+    ],
+    "points": [
+     "The field falls off as 1/r, not 1/r².",
+     "Fields from several wires add as vectors.",
+     "A wire's own field exerts no net force on itself."
+    ],
+    "equations": [
+     [
+      "B = μ₀I/(2πr)",
+      "long straight wire"
+     ],
+     [
+      "F/L = μ₀I₁I₂/(2πd)",
+      "parallel wires"
+     ]
+    ]
+   },
+   {
+    "id": "s-e12-ampere",
+    "topicId": "e12-ampere",
+    "title": "The Biot–Savart law and Ampère's law",
+    "body": [
+     "The Biot–Savart law gives the field of a small piece of current: dB = (μ₀/4π) I dl × r̂/r². Integrating it gives, for example, B = μ₀I/(2R) at the center of a circular loop.",
+     "Ampère's law, ∮B·dl = μ₀I_enc, gives B quickly when the current has symmetry: inside a long solenoid B = μ₀nI, and inside a long solid wire with uniform current B = μ₀Ir/(2πR²)."
+    ],
+    "points": [
+     "Choose an Amperian loop along which B is constant and parallel to the path.",
+     "Outside an ideal long solenoid, B ≈ 0.",
+     "In this course, Ampère's law is applied to steady currents."
+    ],
+    "equations": [
+     [
+      "dB = (μ₀/4π) I dl × r̂ / r²",
+      "Biot–Savart law"
+     ],
+     [
+      "∮B·dl = μ₀I_enc",
+      "Ampère's law"
+     ],
+     [
+      "B = μ₀nI",
+      "long solenoid"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A long solenoid has 1200 turns along 0.60 m and carries 2.5 A. Find the magnetic field inside it.",
+   "solution": "n = 1200/0.60 = 2000 turns per meter, so B = μ₀nI = (4π × 10⁻⁷)(2000)(2.5) ≈ 6.3 × 10⁻³ T, directed along the axis."
+  },
+  "misconceptions": [
+   [
+    "“Magnetic forces can speed a charge up.”",
+    "They act perpendicular to the velocity, so they do no work."
+   ],
+   [
+    "“A long wire's field falls off as 1/r².”",
+    "It falls off as 1/r."
+   ],
+   [
+    "“Parallel currents repel.”",
+    "Currents in the same direction attract."
+   ],
+   [
+    "“Ampère's law holds only for symmetric currents.”",
+    "It always holds; symmetry is what makes it easy to solve for B."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics C: Electricity and Magnetism Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+  "sourceTitle": "AP Physics C: Electricity and Magnetism – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "phceu12-q01",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u12",
+   "topicId": "e12-force",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "An electron moves at 3.0 × 10⁶ m/s perpendicular to a 0.20 T magnetic field. What is the size of the magnetic force on it? (e = 1.6 × 10⁻¹⁹ C)",
+   "choices": [
+    "9.6 × 10⁻¹⁴ N",
+    "0 N",
+    "6.0 × 10⁵ N",
+    "3.2 × 10⁻²⁰ N"
+   ],
+   "correctAnswer": 0,
+   "explanation": "F = |q|vB sin 90° = (1.6 × 10⁻¹⁹)(3.0 × 10⁶)(0.20) = 9.6 × 10⁻¹⁴ N.",
+   "choiceExplanations": [
+    "",
+    "The force is zero only for motion along the field; this electron moves perpendicular to it.",
+    "6.0 × 10⁵ is vB; the electron's charge is left out.",
+    "3.2 × 10⁻²⁰ is qB; the speed is left out."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu12-q02",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u12",
+   "topicId": "e12-force",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A proton circles in a uniform magnetic field. Its speed is then doubled (still perpendicular to the field). What happens to the radius and the period of its circle?",
+   "choices": [
+    "The radius doubles and the period stays the same",
+    "Both double",
+    "The radius halves and the period doubles",
+    "Both stay the same"
+   ],
+   "correctAnswer": 0,
+   "explanation": "r = mv/(|q|B) is proportional to v, so it doubles. T = 2πm/(|q|B) doesn't depend on v: the faster proton travels a bigger circle in the same time.",
+   "choiceExplanations": [
+    "",
+    "The period doesn't depend on speed; the longer path is covered at a higher speed.",
+    "A faster particle needs a larger radius, not a smaller one.",
+    "The radius depends on speed, so it changes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu12-q03",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u12",
+   "topicId": "e12-force",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A wire bent into a semicircle of radius 0.10 m carries 5.0 A and lies in a plane perpendicular to a uniform 0.20 T magnetic field. What is the net magnetic force on the semicircle?",
+   "choices": [
+    "0.20 N",
+    "0.31 N",
+    "0 N",
+    "0.10 N"
+   ],
+   "correctAnswer": 0,
+   "explanation": "In a uniform field, the net force on any wire equals the force on a straight wire joining its ends. The ends are a diameter, 2R = 0.20 m, apart: F = I(2R)B = (5.0)(0.20)(0.20) = 0.20 N.",
+   "choiceExplanations": [
+    "",
+    "0.31 N uses the arc length πR; the forces on different parts of the arc point in different directions and partly cancel.",
+    "The forces don't cancel completely; only a closed loop gives zero net force in a uniform field.",
+    "0.10 N uses the radius instead of the distance between the ends."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu12-q04",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u12",
+   "topicId": "e12-wire",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A long straight wire carries 20 A. What is the magnetic field 0.10 m from it? (μ₀ = 4π × 10⁻⁷ T·m/A)",
+   "choices": [
+    "4.0 × 10⁻⁵ T",
+    "4.0 × 10⁻⁴ T",
+    "2.5 × 10⁻⁴ T",
+    "0 T"
+   ],
+   "correctAnswer": 0,
+   "explanation": "B = μ₀I/(2πr) = (4π × 10⁻⁷)(20)/(2π × 0.10) = 4.0 × 10⁻⁵ T.",
+   "choiceExplanations": [
+    "",
+    "4.0 × 10⁻⁴ T divides by r²; a long wire's field falls off as 1/r.",
+    "2.5 × 10⁻⁴ T leaves out the 2π in the denominator.",
+    "The field circles the wire; it isn't zero at points beside it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu12-q05",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u12",
+   "topicId": "e12-wire",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Two long parallel wires, 0.050 m apart, each carry 10 A in the same direction. What is the force per meter between them? (μ₀ = 4π × 10⁻⁷ T·m/A)",
+   "choices": [
+    "4.0 × 10⁻⁴ N/m, attractive",
+    "4.0 × 10⁻⁴ N/m, repulsive",
+    "2.0 × 10⁻⁵ N/m, attractive",
+    "8.0 × 10⁻³ N/m, attractive"
+   ],
+   "correctAnswer": 0,
+   "explanation": "F/L = μ₀I₁I₂/(2πd) = (2 × 10⁻⁷)(10)(10)/0.050 = 4.0 × 10⁻⁴ N/m. Currents in the same direction attract.",
+   "choiceExplanations": [
+    "",
+    "Currents in the same direction attract; opposite currents repel.",
+    "2.0 × 10⁻⁵ leaves out the division by d.",
+    "8.0 × 10⁻³ divides by d² instead of d."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu12-q06",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u12",
+   "topicId": "e12-ampere",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A long solenoid has 2000 turns per meter and carries 1.5 A. What is the magnetic field inside it? (μ₀ = 4π × 10⁻⁷ T·m/A)",
+   "choices": [
+    "About 3.8 × 10⁻³ T",
+    "About 1.9 × 10⁻³ T",
+    "6.0 × 10⁻⁴ T",
+    "3000 T"
+   ],
+   "correctAnswer": 0,
+   "explanation": "From Ampère's law, B = μ₀nI = (4π × 10⁻⁷)(2000)(1.5) ≈ 3.8 × 10⁻³ T.",
+   "choiceExplanations": [
+    "",
+    "1.9 × 10⁻³ T halves the correct value; there is no factor ½ in B = μ₀nI.",
+    "6.0 × 10⁻⁴ T divides by 2π as if it were a straight wire.",
+    "3000 is nI; it must be multiplied by μ₀."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu12-q07",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u12",
+   "topicId": "e12-ampere",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A long, solid cylindrical wire of radius R carries current I spread uniformly over its cross-section. What is the magnetic field at a distance R/2 from its axis?",
+   "choices": [
+    "μ₀I/(4πR)",
+    "μ₀I/(πR)",
+    "μ₀I/(2πR)",
+    "0"
+   ],
+   "correctAnswer": 0,
+   "explanation": "An Amperian circle of radius r = R/2 encloses I(r/R)² = I/4. Then B(2πr) = μ₀I/4, so B = μ₀(I/4)/(2π · R/2) = μ₀I/(4πR). In general, B = μ₀Ir/(2πR²) inside.",
+   "choiceExplanations": [
+    "",
+    "μ₀I/(πR) treats all of I as enclosed by the circle; only a quarter of it is.",
+    "μ₀I/(2πR) is the field at the wire's surface, r = R.",
+    "The field is zero only on the axis; at r = R/2 some current is enclosed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu12-q08",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u12",
+   "topicId": "e12-ampere",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A circular loop of radius 0.10 m carries 2.0 A. What is the magnetic field at its center? (μ₀ = 4π × 10⁻⁷ T·m/A)",
+   "choices": [
+    "About 1.3 × 10⁻⁵ T",
+    "4.0 × 10⁻⁶ T",
+    "About 6.3 × 10⁻⁶ T",
+    "About 2.5 × 10⁻⁵ T"
+   ],
+   "correctAnswer": 0,
+   "explanation": "From the Biot–Savart law, every piece of the loop is a distance R from the center and perpendicular to the line to it, so B = (μ₀I/4πR²)(2πR) = μ₀I/(2R) = (4π × 10⁻⁷)(2.0)/(0.20) ≈ 1.3 × 10⁻⁵ T.",
+   "choiceExplanations": [
+    "",
+    "4.0 × 10⁻⁶ T uses μ₀I/(2πR), the long straight wire's formula.",
+    "6.3 × 10⁻⁶ T is μ₀I/(4R), the field of a half loop.",
+    "2.5 × 10⁻⁵ T leaves out the 2 in μ₀I/(2R)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu12-q09",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u12",
+   "topicId": "e12-force",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a velocity selector, an electric field of 2000 V/m and a perpendicular magnetic field of 0.010 T act on moving charges. At what speed does a charge pass straight through?",
+   "choices": [
+    "2.0 × 10⁵ m/s",
+    "20 m/s",
+    "5.0 × 10⁻⁶ m/s",
+    "2000 m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "It passes straight through when the forces balance: qE = qvB, so v = E/B = 2000/0.010 = 2.0 × 10⁵ m/s, whatever its charge or mass.",
+   "choiceExplanations": [
+    "",
+    "20 multiplies E and B; the speed is their ratio.",
+    "5.0 × 10⁻⁶ is B/E, the ratio upside down.",
+    "2000 is the electric field strength alone."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "phceu12-q01",
+    "phceu12-q02",
+    "phceu12-q03",
+    "phceu12-q04",
+    "phceu12-q05",
+    "phceu12-q06",
+    "phceu12-q07",
+    "phceu12-q08"
+   ]
+  }
+ ]
+}

@@ -624,13 +624,20 @@
    "outline": true,
    "summary": {
     "units": 6,
-    "ready": 0,
+    "ready": 6,
     "inProgress": 0,
-    "complete": false,
+    "complete": true,
     "examUnits": 6,
-    "examReady": 0,
-    "tests": 0,
-    "unitTests": {}
+    "examReady": 6,
+    "tests": 6,
+    "unitTests": {
+     "u8": 1,
+     "u9": 1,
+     "u10": 1,
+     "u11": 1,
+     "u12": 1,
+     "u13": 1
+    }
    }
   },
   {

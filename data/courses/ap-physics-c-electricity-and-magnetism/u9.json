@@ -1,0 +1,417 @@
+{
+ "courseId": "ap-physics-c-electricity-and-magnetism",
+ "unitId": "u9",
+ "title": "Unit 9: Electric Potential",
+ "topics": [
+  {
+   "id": "e9-pot",
+   "name": "Potential of point charges and uniform fields",
+   "covers": [
+    "Electric potential",
+    "Electric potential due to point charges and uniform fields"
+   ]
+  },
+  {
+   "id": "e9-config",
+   "name": "Potential of charge configurations",
+   "covers": [
+    "Electric potential due to configurations of charge"
+   ]
+  },
+  {
+   "id": "e9-energy",
+   "name": "Energy conservation with electric forces",
+   "covers": [
+    "Energy conservation when electric charges interact with each other or electric fields"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Electric potential: review guide",
+  "intro": "Electric potential describes the energy side of electrostatics. Because potential is a scalar, it is often easier to add than fields, and the field can then be found from how the potential changes.",
+  "equationNote": "Constants used in this unit: k = 1/(4πε₀) = 9.0 × 10⁹ N·m²/C², ε₀ = 8.85 × 10⁻¹² C²/(N·m²), e = 1.6 × 10⁻¹⁹ C. Prefixes: μ = 10⁻⁶, n = 10⁻⁹. 1 eV = 1.6 × 10⁻¹⁹ J.",
+  "sections": [
+   {
+    "id": "s-e9-pot",
+    "topicId": "e9-pot",
+    "title": "Potential of point charges and uniform fields",
+    "body": [
+     "Electric potential is potential energy per unit charge, V = U/q, measured in volts (J/C). Potential differences come from the field: ΔV = −∫E·dl. In a uniform field, moving a distance d along the field lowers the potential by Ed.",
+     "A point charge has V = kq/r, taking V = 0 far away. Positive charges make positive potential and negative charges make negative potential."
+    ],
+    "points": [
+     "Field lines point from higher to lower potential.",
+     "Equipotential surfaces are perpendicular to field lines.",
+     "The field is the negative rate of change of potential: E_x = −dV/dx."
+    ],
+    "equations": [
+     [
+      "ΔV = −∫E·dl",
+      "potential difference from the field"
+     ],
+     [
+      "V = kq/r",
+      "point charge"
+     ],
+     [
+      "E_x = −dV/dx",
+      "field from potential"
+     ]
+    ]
+   },
+   {
+    "id": "s-e9-config",
+    "topicId": "e9-config",
+    "title": "Potential of charge configurations",
+    "body": [
+     "Potentials add as signed numbers (scalars): V = Σkqᵢ/rᵢ, or V = ∫k dq/r for a continuous distribution. No components are needed.",
+     "A point can have zero potential but a nonzero field (the midpoint of a dipole), or zero field but a nonzero potential (the center of a ring, or of four equal charges at the corners of a square)."
+    ],
+    "points": [
+     "On the axis of a ring of charge Q and radius R: V = kQ/√(z² + R²).",
+     "Throughout a conductor in equilibrium, V is constant.",
+     "For a finite distribution, choose V = 0 far away."
+    ],
+    "equations": [
+     [
+      "V = Σ kqᵢ/rᵢ",
+      "superposition of potentials"
+     ]
+    ]
+   },
+   {
+    "id": "s-e9-energy",
+    "topicId": "e9-energy",
+    "title": "Energy conservation with electric forces",
+    "body": [
+     "Two point charges have potential energy U = kq₁q₂/r. Moving a charge q through a potential difference ΔV changes its potential energy by qΔV. When only electric forces do work, K + U is constant.",
+     "The work needed to bring a charge from far away to a point at potential V is qV. To assemble several charges, add kqᵢqⱼ/rᵢⱼ for every pair."
+    ],
+    "points": [
+     "Released charges move to lower their potential energy: positive charges toward lower V, negative charges toward higher V.",
+     "When two charges fly apart from rest, momentum conservation decides how they share the energy; equal masses share it equally.",
+     "1 eV is the energy one elementary charge gains moving through 1 V."
+    ],
+    "equations": [
+     [
+      "U = kq₁q₂/r",
+      "two point charges"
+     ],
+     [
+      "ΔK = −qΔV",
+      "energy conservation"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Charges of +2.0 nC and −2.0 nC sit 0.40 m apart. Find the electric potential at the midpoint, and the work needed to bring a +1.0 nC charge there from far away.",
+   "solution": "Each charge is 0.20 m away: V = k(2.0 × 10⁻⁹)/0.20 + k(−2.0 × 10⁻⁹)/0.20 = 90 V − 90 V = 0. The work is qV = 0, even though the field at the midpoint is not zero."
+  },
+  "misconceptions": [
+   [
+    "“Zero potential means zero field.”",
+    "The field depends on how V changes, not on its value: a dipole's midpoint has V = 0 but E ≠ 0."
+   ],
+   [
+    "“Potential and potential energy are the same.”",
+    "Potential is energy per unit charge: U = qV."
+   ],
+   [
+    "“Add potentials as vectors.”",
+    "Potential is a scalar; add the signed values."
+   ],
+   [
+    "“Charges always move toward lower potential.”",
+    "Positive charges do; negative charges move toward higher potential."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics C: Electricity and Magnetism Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+  "sourceTitle": "AP Physics C: Electricity and Magnetism – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "phceu9-q01",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u9",
+   "topicId": "e9-pot",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the electric potential 0.30 m from a +2.0 nC point charge, taking V = 0 far away?",
+   "choices": [
+    "60 V",
+    "200 V",
+    "18 V",
+    "−60 V"
+   ],
+   "correctAnswer": 0,
+   "explanation": "V = kq/r = (9.0 × 10⁹)(2.0 × 10⁻⁹)/0.30 = 18/0.30 = 60 V.",
+   "choiceExplanations": [
+    "",
+    "200 V divides by r²; potential goes as 1/r.",
+    "18 V leaves out the division by r.",
+    "A positive charge makes a positive potential."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu9-q02",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u9",
+   "topicId": "e9-pot",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In a uniform electric field of 500 V/m, a point moves 0.040 m in the direction of the field. How does the potential change?",
+   "choices": [
+    "It decreases by 20 V",
+    "It increases by 20 V",
+    "It decreases by 12,500 V",
+    "It doesn't change"
+   ],
+   "correctAnswer": 0,
+   "explanation": "ΔV = −Ed = −(500 V/m)(0.040 m) = −20 V. Potential falls along the field direction.",
+   "choiceExplanations": [
+    "",
+    "Moving along the field lowers the potential; moving against it raises it.",
+    "12,500 divides E by d instead of multiplying.",
+    "Potential is constant only when moving perpendicular to the field."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu9-q03",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u9",
+   "topicId": "e9-pot",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a region, the electric potential is V(x) = 3x² − 2x volts, with x in meters. What is the electric field at x = 1.0 m?",
+   "choices": [
+    "4.0 V/m in the −x direction",
+    "4.0 V/m in the +x direction",
+    "1.0 V/m in the +x direction",
+    "6.0 V/m in the −x direction"
+   ],
+   "correctAnswer": 0,
+   "explanation": "E_x = −dV/dx = −(6x − 2). At x = 1.0 m, E_x = −4.0 V/m: magnitude 4.0 V/m, pointing in the −x direction.",
+   "choiceExplanations": [
+    "",
+    "The minus sign in E_x = −dV/dx matters: the field points toward decreasing potential.",
+    "1.0 is V(1.0), the potential in volts, not the field.",
+    "6.0 is the second derivative of V, not the field."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu9-q04",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u9",
+   "topicId": "e9-config",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Four equal +q charges sit at the corners of a square, each a distance r from the square's center. Which describes the electric potential and the electric field at the center?",
+   "choices": [
+    "V = 4kq/r and E = 0",
+    "V = 0 and E = 0",
+    "V = 0 and E = 4kq/r²",
+    "V = 4kq/r and E = 4kq/r²"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Potential is a scalar, so the four contributions kq/r add: V = 4kq/r. The fields are vectors; opposite corners' fields cancel in pairs, so E = 0.",
+   "choiceExplanations": [
+    "",
+    "Potentials don't cancel: four positive contributions add up.",
+    "This swaps the two: it is the field that cancels, not the potential.",
+    "The four field vectors point in opposite pairs and cancel."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu9-q05",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u9",
+   "topicId": "e9-config",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A ring of radius R carries total charge Q spread uniformly. What is the electric potential at a point on the ring's axis, a distance z from its center?",
+   "choices": [
+    "kQ/√(z² + R²)",
+    "kQ/z",
+    "kQ/(z² + R²)",
+    "kQz/(z² + R²)^(3/2)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Every piece dq of the ring is the same distance √(z² + R²) from the point, so V = ∫k dq/√(z² + R²) = kQ/√(z² + R²). No components are needed because potential is a scalar.",
+   "choiceExplanations": [
+    "",
+    "kQ/z ignores that the charge is spread around the ring, farther than z from the point.",
+    "kQ/(z² + R²) uses distance squared; potential goes as 1/distance.",
+    "kQz/(z² + R²)^(3/2) is the electric field on the axis, not the potential."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu9-q06",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u9",
+   "topicId": "e9-config",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Along the perpendicular bisector of an electric dipole (a +q and a −q a short distance apart), which statement is true?",
+   "choices": [
+    "The potential is zero everywhere along it, but the field is not",
+    "The field is zero everywhere along it, but the potential is not",
+    "Both the potential and the field are zero along it",
+    "Neither the potential nor the field is zero along it"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Every point on the bisector is equally far from +q and −q, so the potentials kq/r and −kq/r cancel: V = 0. The two field vectors don't cancel; they add to a field parallel to the dipole's axis, pointing from the + side toward the − side.",
+   "choiceExplanations": [
+    "",
+    "This reverses the two: the potentials cancel, the fields don't.",
+    "The field components along the axis add rather than cancel.",
+    "Equal distances make the potentials cancel exactly."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu9-q07",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u9",
+   "topicId": "e9-energy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "An electron starts from rest and is accelerated through a potential difference of 1000 V. What kinetic energy does it gain? (e = 1.6 × 10⁻¹⁹ C)",
+   "choices": [
+    "1.6 × 10⁻¹⁶ J",
+    "1000 J",
+    "1.6 × 10⁻¹⁹ J",
+    "−1.6 × 10⁻¹⁶ J"
+   ],
+   "correctAnswer": 0,
+   "explanation": "ΔK = |q|ΔV = (1.6 × 10⁻¹⁹ C)(1000 V) = 1.6 × 10⁻¹⁶ J, which is 1000 eV.",
+   "choiceExplanations": [
+    "",
+    "1000 J treats the electron's charge as 1 C.",
+    "1.6 × 10⁻¹⁹ J is the energy gained through only 1 V.",
+    "Kinetic energy gained is positive; −1.6 × 10⁻¹⁶ J is the change in potential energy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu9-q08",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u9",
+   "topicId": "e9-energy",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Two protons are released from rest 1.0 × 10⁻¹⁰ m apart and fly apart. What kinetic energy does each have when they are very far apart? (k = 9.0 × 10⁹ N·m²/C², e = 1.6 × 10⁻¹⁹ C)",
+   "choices": [
+    "About 1.2 × 10⁻¹⁸ J each",
+    "About 2.3 × 10⁻¹⁸ J each",
+    "About 2.3 × 10⁻⁸ J each",
+    "0 J, because the total energy is zero"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The initial potential energy is ke²/r = (9.0 × 10⁹)(1.6 × 10⁻¹⁹)²/(1.0 × 10⁻¹⁰) ≈ 2.3 × 10⁻¹⁸ J. It all becomes kinetic energy. Momentum conservation gives the equal-mass protons equal speeds, so each gets half: about 1.2 × 10⁻¹⁸ J.",
+   "choiceExplanations": [
+    "",
+    "2.3 × 10⁻¹⁸ J is the total; it is shared equally between the two protons.",
+    "2.3 × 10⁻⁸ uses ke²/r², the form for force; potential energy goes as 1/r.",
+    "The total energy is positive: like charges start with positive potential energy, which becomes kinetic energy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu9-q09",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u9",
+   "topicId": "e9-energy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How much work must be done to bring a +3.0 μC charge from very far away to a point where the electric potential is 400 V?",
+   "choices": [
+    "1.2 × 10⁻³ J",
+    "1.2 × 10³ J",
+    "7.5 × 10⁻⁹ J",
+    "400 J"
+   ],
+   "correctAnswer": 0,
+   "explanation": "W = qV = (3.0 × 10⁻⁶ C)(400 V) = 1.2 × 10⁻³ J.",
+   "choiceExplanations": [
+    "",
+    "1.2 × 10³ J ignores the micro prefix on 3.0 μC.",
+    "7.5 × 10⁻⁹ divides q by V instead of multiplying.",
+    "400 J treats the charge as 1 C."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "phceu9-q01",
+    "phceu9-q02",
+    "phceu9-q03",
+    "phceu9-q04",
+    "phceu9-q05",
+    "phceu9-q06",
+    "phceu9-q07",
+    "phceu9-q08"
+   ]
+  }
+ ]
+}

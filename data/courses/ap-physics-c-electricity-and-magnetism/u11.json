@@ -1,0 +1,423 @@
+{
+ "courseId": "ap-physics-c-electricity-and-magnetism",
+ "unitId": "u11",
+ "title": "Unit 11: Electric Circuits",
+ "topics": [
+  {
+   "id": "e11-micro",
+   "name": "Current, drift, and current density",
+   "covers": [
+    "Current and resistance"
+   ]
+  },
+  {
+   "id": "e11-res",
+   "name": "Resistance and power",
+   "covers": [
+    "Current and resistance",
+    "Current, resistance, and power"
+   ]
+  },
+  {
+   "id": "e11-dc",
+   "name": "Steady-state DC circuits",
+   "covers": [
+    "Steady-state direct-current circuits with batteries and resistors only"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [
+  "Gauss’s Law"
+ ],
+ "guide": {
+  "title": "Electric circuits: review guide",
+  "intro": "This unit connects the microscopic picture of moving charge to resistance and power, then uses Kirchhoff's rules to analyze steady direct-current circuits.",
+  "equationNote": "e = 1.6 × 10⁻¹⁹ C. Batteries are ideal unless an internal resistance is given.",
+  "sections": [
+   {
+    "id": "s-e11-micro",
+    "topicId": "e11-micro",
+    "title": "Current, drift, and current density",
+    "body": [
+     "Current is the rate at which charge passes a point, I = dQ/dt. In a wire, I = nqAv_d, where n is the number of charge carriers per volume and v_d is their drift speed, typically far below a millimeter per second.",
+     "Conventional current points the way positive charge would flow, opposite to the electrons' drift. Current density J = I/A is related to the field in the material by J = E/ρ."
+    ],
+    "points": [
+     "The electrical signal travels almost at light speed even though the electrons drift slowly.",
+     "Current is the same at every point in a single loop.",
+     "Current density points along the field in the conductor."
+    ],
+    "equations": [
+     [
+      "I = nqAv_d",
+      "current and drift speed"
+     ],
+     [
+      "J = I/A = E/ρ",
+      "current density"
+     ]
+    ]
+   },
+   {
+    "id": "s-e11-res",
+    "topicId": "e11-res",
+    "title": "Resistance and power",
+    "body": [
+     "Resistance is R = ΔV/I. For a uniform wire, R = ρL/A. When the cross-section varies along the wire, add up thin slices: R = ∫ρ dx/A(x).",
+     "The power delivered to a resistor is P = IΔV = I²R = (ΔV)²/R, and for a steady current the energy over a time t is Pt."
+    ],
+    "points": [
+     "Doubling the voltage across the same resistor quadruples its power.",
+     "Metals' resistivity usually rises with temperature.",
+     "Ohmic materials have a constant R; many devices don't."
+    ],
+    "equations": [
+     [
+      "R = ρL/A",
+      "uniform wire"
+     ],
+     [
+      "P = I²R = (ΔV)²/R",
+      "power"
+     ]
+    ]
+   },
+   {
+    "id": "s-e11-dc",
+    "topicId": "e11-dc",
+    "title": "Steady-state DC circuits",
+    "body": [
+     "Junction rule: the currents into a junction add up to the currents out. Loop rule: the potential changes around any closed loop add to zero. Together they solve any network of batteries and resistors.",
+     "A real battery has an internal resistance r, so its terminal voltage is ΔV = ε − Ir, which drops as it delivers more current."
+    ],
+    "points": [
+     "Series: R = R₁ + R₂. Parallel: 1/R = 1/R₁ + 1/R₂.",
+     "In parallel, the smaller resistor carries more current and uses more power.",
+     "With several batteries in different branches, write junction and loop (or node) equations instead of combining resistors."
+    ],
+    "equations": [
+     [
+      "ΣI_in = ΣI_out",
+      "junction rule"
+     ],
+     [
+      "ΣΔV = 0",
+      "loop rule"
+     ],
+     [
+      "ΔV = ε − Ir",
+      "terminal voltage of a real battery"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 9.0 V battery with internal resistance 0.50 Ω drives a 5.0 Ω resistor in series with a parallel pair of 2.0 Ω resistors. Find the current and the battery's terminal voltage.",
+   "solution": "The pair is equivalent to 1.0 Ω, so the total resistance is 0.50 + 5.0 + 1.0 = 6.5 Ω and I = 9.0/6.5 ≈ 1.38 A. Terminal voltage = 9.0 − (1.38)(0.50) ≈ 8.3 V."
+  },
+  "misconceptions": [
+   [
+    "“Electrons race through the wire at nearly light speed.”",
+    "Their drift speed is tiny; it is the field that sets up quickly."
+   ],
+   [
+    "“Resistors use up current.”",
+    "Charge is conserved, so the current is the same all around a single loop."
+   ],
+   [
+    "“A battery's voltage never changes.”",
+    "A real battery's terminal voltage falls as it delivers more current."
+   ],
+   [
+    "“The largest resistor always uses the most power.”",
+    "In series it does (P = I²R); in parallel the smallest one does (P = (ΔV)²/R)."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics C: Electricity and Magnetism Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+  "sourceTitle": "AP Physics C: Electricity and Magnetism – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "phceu11-q01",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u11",
+   "topicId": "e11-res",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A copper wire is 10 m long with a cross-sectional area of 1.0 × 10⁻⁶ m². Copper's resistivity is 1.7 × 10⁻⁸ Ω·m. What is the wire's resistance?",
+   "choices": [
+    "0.17 Ω",
+    "1.7 × 10⁻¹³ Ω",
+    "5.9 Ω",
+    "0.017 Ω"
+   ],
+   "correctAnswer": 0,
+   "explanation": "R = ρL/A = (1.7 × 10⁻⁸)(10)/(1.0 × 10⁻⁶) = 0.17 Ω.",
+   "choiceExplanations": [
+    "",
+    "1.7 × 10⁻¹³ multiplies by the area instead of dividing.",
+    "5.9 is 1/R, the result inverted.",
+    "0.017 Ω uses a length of 1.0 m instead of 10 m."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu11-q02",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u11",
+   "topicId": "e11-micro",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A copper wire with cross-sectional area 1.0 × 10⁻⁶ m² carries 2.0 A. Copper has 8.5 × 10²⁸ free electrons per cubic meter. What is the electrons' drift speed? (e = 1.6 × 10⁻¹⁹ C)",
+   "choices": [
+    "About 1.5 × 10⁻⁴ m/s",
+    "About 1.5 × 10⁻¹⁰ m/s",
+    "About 6.8 × 10³ m/s",
+    "About 3.0 × 10⁸ m/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "v_d = I/(nqA) = 2.0/((8.5 × 10²⁸)(1.6 × 10⁻¹⁹)(1.0 × 10⁻⁶)) ≈ 1.5 × 10⁻⁴ m/s, a fraction of a millimeter per second.",
+   "choiceExplanations": [
+    "",
+    "1.5 × 10⁻¹⁰ leaves out the cross-sectional area.",
+    "6.8 × 10³ is the reciprocal of the drift speed.",
+    "3.0 × 10⁸ m/s is the speed of light; the signal travels fast, but the electrons themselves drift slowly."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu11-q03",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u11",
+   "topicId": "e11-res",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A resistor uses 40 W when 20 V is across it. How much power does it use when 10 V is across it? (Its resistance doesn't change.)",
+   "choices": [
+    "10 W",
+    "20 W",
+    "40 W",
+    "80 W"
+   ],
+   "correctAnswer": 0,
+   "explanation": "P = (ΔV)²/R. Halving the voltage divides the power by 2² = 4: 40 W ÷ 4 = 10 W. (R = 20²/40 = 10 Ω, and 10²/10 = 10 W.)",
+   "choiceExplanations": [
+    "",
+    "20 W assumes power is proportional to voltage; it goes as voltage squared.",
+    "The power changes when the voltage changes.",
+    "Lowering the voltage lowers the power."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu11-q04",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u11",
+   "topicId": "e11-dc",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 12 V battery drives a 4.0 Ω resistor in series with a parallel pair of 6.0 Ω and 3.0 Ω resistors. What current does the battery supply?",
+   "choices": [
+    "2.0 A",
+    "0.92 A",
+    "6.0 A",
+    "3.0 A"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The parallel pair is (6.0 × 3.0)/(6.0 + 3.0) = 2.0 Ω, so the total is 6.0 Ω and I = 12/6.0 = 2.0 A.",
+   "choiceExplanations": [
+    "",
+    "0.92 A treats all three resistors as being in series (13 Ω).",
+    "6.0 A uses only the parallel pair, ignoring the 4.0 Ω resistor.",
+    "3.0 A uses only the 4.0 Ω resistor."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu11-q05",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u11",
+   "topicId": "e11-dc",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A battery with emf 12 V and internal resistance 0.50 Ω is connected to a 5.5 Ω resistor. What is the battery's terminal voltage?",
+   "choices": [
+    "11 V",
+    "12 V",
+    "1.0 V",
+    "11.5 V"
+   ],
+   "correctAnswer": 0,
+   "explanation": "I = ε/(R + r) = 12/6.0 = 2.0 A. Terminal voltage = ε − Ir = 12 − (2.0)(0.50) = 11 V.",
+   "choiceExplanations": [
+    "",
+    "12 V is the emf; part of it is lost across the internal resistance while current flows.",
+    "1.0 V is the drop across the internal resistance, not the terminal voltage.",
+    "11.5 V subtracts the internal resistance itself (0.50) instead of the voltage across it (Ir = 1.0 V)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu11-q06",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u11",
+   "topicId": "e11-dc",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Three branches connect points A and B. Branch 1 is a 10 V battery (positive terminal toward A) in series with 2.0 Ω. Branch 2 is a 4.0 V battery (positive terminal toward A) in series with 2.0 Ω. Branch 3 is a 4.0 Ω resistor. The batteries are ideal. What current flows through the 4.0 Ω resistor?",
+   "choices": [
+    "1.4 A",
+    "3.5 A",
+    "1.5 A",
+    "0.75 A"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Let V be the potential of A relative to B. Junction rule at A: (10 − V)/2.0 + (4.0 − V)/2.0 = V/4.0. Multiply by 4: 28 − 4V = V, so V = 5.6 V and the current in the 4.0 Ω resistor is 5.6/4.0 = 1.4 A.",
+   "choiceExplanations": [
+    "",
+    "3.5 A adds the two emfs across the 4.0 Ω resistor alone, ignoring the branch resistors.",
+    "1.5 A puts the difference of the emfs, 6.0 V, across the 4.0 Ω resistor.",
+    "0.75 A treats the circuit as one loop with the emfs opposing; the 4.0 Ω resistor is a separate branch."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu11-q07",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u11",
+   "topicId": "e11-dc",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 6.0 Ω resistor and a 3.0 Ω resistor are connected in parallel across a 12 V battery. Which uses more power?",
+   "choices": [
+    "The 3.0 Ω resistor: 48 W, versus 24 W for the 6.0 Ω resistor",
+    "The 6.0 Ω resistor: 48 W, versus 24 W for the 3.0 Ω resistor",
+    "They use the same power, 36 W each",
+    "Neither: in parallel, power doesn't depend on resistance"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Both have 12 V across them, so P = (ΔV)²/R: 144/3.0 = 48 W and 144/6.0 = 24 W. The smaller resistor carries more current and uses more power.",
+   "choiceExplanations": [
+    "",
+    "P = I²R suggests the larger resistor wins only when the currents are equal, as in series; here the voltages are equal.",
+    "Same voltage across different resistances gives different powers.",
+    "With equal voltage, P = (ΔV)²/R depends directly on R."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu11-q08",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u11",
+   "topicId": "e11-res",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A wire of length L and resistivity ρ has a cross-sectional area that grows steadily along its length: A(x) = A₀(1 + x/L), from A₀ at one end to 2A₀ at the other. What is its resistance?",
+   "choices": [
+    "(ρL/A₀) ln 2",
+    "ρL/A₀",
+    "ρL/(2A₀)",
+    "2ρL/(3A₀)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Add thin slices in series: R = ∫₀ᴸ ρ dx/(A₀(1 + x/L)) = (ρL/A₀) ln(1 + x/L) from 0 to L = (ρL/A₀) ln 2 ≈ 0.69ρL/A₀.",
+   "choiceExplanations": [
+    "",
+    "ρL/A₀ uses the smallest area for the whole wire.",
+    "ρL/(2A₀) uses the largest area for the whole wire.",
+    "2ρL/(3A₀) uses the average area, 1.5A₀; resistance adds up 1/A along the wire, which isn't the same."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu11-q09",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u11",
+   "topicId": "e11-micro",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In a wire, the free electrons drift toward the left. Which way does the conventional current point?",
+   "choices": [
+    "To the right",
+    "To the left",
+    "There is no current, because electrons cancel the protons",
+    "It depends on the wire's resistance"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Conventional current is defined as the direction positive charge would move, which is opposite to the electrons' drift: to the right.",
+   "choiceExplanations": [
+    "",
+    "Conventional current points opposite to the motion of negative charges.",
+    "Moving electrons make a current even though the wire stays neutral overall.",
+    "Resistance affects the size of the current, not its direction."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "phceu11-q01",
+    "phceu11-q02",
+    "phceu11-q03",
+    "phceu11-q05",
+    "phceu11-q06",
+    "phceu11-q07",
+    "phceu11-q08",
+    "phceu11-q09"
+   ]
+  }
+ ]
+}

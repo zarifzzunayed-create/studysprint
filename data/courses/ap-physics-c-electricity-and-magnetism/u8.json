@@ -1,0 +1,409 @@
+{
+ "courseId": "ap-physics-c-electricity-and-magnetism",
+ "unitId": "u8",
+ "title": "Unit 8: Electric Charges, Fields, and Gauss’s Law",
+ "topics": [
+  {
+   "id": "e8-coul",
+   "name": "Coulomb's law and fields of point charges",
+   "covers": [
+    "Coulomb’s Law",
+    "Electric fields due to point charges or combinations of charges"
+   ]
+  },
+  {
+   "id": "e8-dist",
+   "name": "Fields of continuous charge distributions",
+   "covers": [
+    "Electric fields of charge distributions"
+   ]
+  },
+  {
+   "id": "e8-gauss",
+   "name": "Electric flux and Gauss's law",
+   "covers": [
+    "Electric Flux and Gauss’s Law"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Electric charges, fields, and Gauss's law: review guide",
+  "intro": "This unit builds the electric field from Coulomb's law, uses calculus to add up the fields of continuous charge, and uses Gauss's law to find fields quickly when the charge has symmetry.",
+  "equationNote": "Constants used in this unit: k = 1/(4πε₀) = 9.0 × 10⁹ N·m²/C², ε₀ = 8.85 × 10⁻¹² C²/(N·m²), e = 1.6 × 10⁻¹⁹ C. Prefixes: μ = 10⁻⁶, n = 10⁻⁹.",
+  "sections": [
+   {
+    "id": "s-e8-coul",
+    "topicId": "e8-coul",
+    "title": "Coulomb's law and fields of point charges",
+    "body": [
+     "Two point charges exert forces of magnitude F = k|q₁q₂|/r² on each other, along the line between them: like charges repel and unlike charges attract.",
+     "The electric field is the force per unit positive charge, E = F/q. A point charge's field has magnitude k|q|/r², pointing away from a positive charge and toward a negative one. Fields from several charges add as vectors (superposition)."
+    ],
+    "points": [
+     "Break vectors into components before adding them.",
+     "On the line between two like charges, the field is zero at a point closer to the smaller charge.",
+     "A positive test charge feels a force along E; a negative one feels a force opposite to E."
+    ],
+    "equations": [
+     [
+      "F = k|q₁q₂|/r²",
+      "Coulomb's law"
+     ],
+     [
+      "E = k|q|/r²",
+      "field of a point charge"
+     ]
+    ]
+   },
+   {
+    "id": "s-e8-dist",
+    "topicId": "e8-dist",
+    "title": "Fields of continuous charge distributions",
+    "body": [
+     "For charge spread along a line, a surface, or a volume, split it into small pieces dq, write each piece's field dE = k dq/r², and integrate the components. Use symmetry first: components that cancel in pairs need no integral.",
+     "Linear charge density is λ = dq/dx, surface density σ = dq/dA, and volume density ρ = dq/dV."
+    ],
+    "points": [
+     "Long straight line of charge: E = 2kλ/r = λ/(2πε₀r).",
+     "Large flat sheet of charge: E = σ/(2ε₀), the same at every distance close to the sheet.",
+     "Far from any finite distribution, its field looks like a point charge's."
+    ],
+    "equations": [
+     [
+      "E = ∫ k dq / r²  (add components)",
+      "field of a charge distribution"
+     ]
+    ]
+   },
+   {
+    "id": "s-e8-gauss",
+    "topicId": "e8-gauss",
+    "title": "Electric flux and Gauss's law",
+    "body": [
+     "Electric flux through a surface is Φ = ∫E·dA; for a uniform field through a flat area, Φ = EA cos θ. Gauss's law says the net flux through any closed surface equals the enclosed charge divided by ε₀: ∮E·dA = q_enc/ε₀.",
+     "Gauss's law always holds, but it gives E easily only with high symmetry (spherical, cylindrical, or planar). Choose a Gaussian surface on which E is constant in size and either parallel or perpendicular to the surface."
+    ],
+    "points": [
+     "Charges outside a closed surface add zero net flux, even though they change E on the surface.",
+     "Inside a uniformly charged insulating sphere, E = kQr/R³; outside it, E = kQ/r².",
+     "The shape and size of the closed surface don't change the net flux."
+    ],
+    "equations": [
+     [
+      "∮E·dA = q_enc/ε₀",
+      "Gauss's law"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A long, thin rod carries a uniform linear charge density of 3.0 × 10⁻⁶ C/m. Use Gauss's law to find the electric field 0.20 m from the rod.",
+   "solution": "Use a cylinder of radius r and length ℓ around the rod. Flux passes only through the curved side: E(2πrℓ) = λℓ/ε₀, so E = λ/(2πε₀r) = 2kλ/r = 2(9.0 × 10⁹)(3.0 × 10⁻⁶)/0.20 = 2.7 × 10⁵ N/C, pointing away from the rod."
+  },
+  "misconceptions": [
+   [
+    "“Zero net flux means zero field.”",
+    "Charges outside the surface can create a field on it while adding no net flux."
+   ],
+   [
+    "“Gauss's law works only for symmetric charges.”",
+    "It is always true; symmetry is only what makes it easy to solve for E."
+   ],
+   [
+    "“Fields from two charges add as plain numbers.”",
+    "They are vectors; add their components."
+   ],
+   [
+    "“A charged sheet's field weakens with distance.”",
+    "For a large uniform sheet, E = σ/(2ε₀) at every distance close to it."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics C: Electricity and Magnetism Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+  "sourceTitle": "AP Physics C: Electricity and Magnetism – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "phceu8-q01",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u8",
+   "topicId": "e8-coul",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Two +3.0 μC point charges are 0.30 m apart. What is the electric force between them?",
+   "choices": [
+    "0.90 N, repulsive",
+    "0.27 N, repulsive",
+    "0.081 N, repulsive",
+    "0.90 N, attractive"
+   ],
+   "correctAnswer": 0,
+   "explanation": "F = k|q₁q₂|/r² = (9.0 × 10⁹)(3.0 × 10⁻⁶)²/(0.30)² = 0.081/0.090 = 0.90 N. Like charges repel.",
+   "choiceExplanations": [
+    "",
+    "0.27 N divides by r instead of r².",
+    "0.081 N leaves out the division by r².",
+    "Two positive charges repel each other; they don't attract."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu8-q02",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u8",
+   "topicId": "e8-coul",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Charges of +4.0 nC and −4.0 nC are 0.20 m apart. What is the electric field at the midpoint between them?",
+   "choices": [
+    "7200 N/C, pointing toward the negative charge",
+    "Zero, because the two fields cancel",
+    "3600 N/C, pointing toward the negative charge",
+    "7200 N/C, pointing toward the positive charge"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Each charge is 0.10 m away and makes a field of (9.0 × 10⁹)(4.0 × 10⁻⁹)/(0.10)² = 3600 N/C. The positive charge's field points away from it and the negative charge's field points toward it, so at the midpoint both point toward the negative charge and add: 7200 N/C.",
+   "choiceExplanations": [
+    "",
+    "The fields would cancel for two equal charges of the same sign; here they point the same way.",
+    "3600 N/C is the field from one charge only.",
+    "Both fields point toward the negative charge, not toward the positive one."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu8-q03",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u8",
+   "topicId": "e8-coul",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A +q charge is at x = 0 and a +4q charge is at x = 0.30 m. At what point between them is the electric field zero?",
+   "choices": [
+    "x = 0.10 m",
+    "x = 0.15 m",
+    "x = 0.20 m",
+    "x = 0.06 m"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Between them the two fields point in opposite directions. Set kq/x² = k(4q)/(0.30 − x)², so (0.30 − x)² = 4x², 0.30 − x = 2x, and x = 0.10 m, closer to the smaller charge.",
+   "choiceExplanations": [
+    "",
+    "The midpoint balances only equal charges.",
+    "x = 0.20 m is closer to the larger charge, where its field is stronger, so the fields can't cancel there.",
+    "x = 0.06 m treats the field as falling off as 1/r instead of 1/r²."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu8-q04",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u8",
+   "topicId": "e8-dist",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A very long straight line of charge has a linear charge density of 2.0 × 10⁻⁶ C/m. What is the size of the electric field 0.10 m from it? (k = 9.0 × 10⁹ N·m²/C²)",
+   "choices": [
+    "3.6 × 10⁵ N/C",
+    "1.8 × 10⁵ N/C",
+    "3.6 × 10⁶ N/C",
+    "1.8 × 10⁶ N/C"
+   ],
+   "correctAnswer": 0,
+   "explanation": "For a long line of charge, E = 2kλ/r = 2(9.0 × 10⁹)(2.0 × 10⁻⁶)/0.10 = 3.6 × 10⁵ N/C.",
+   "choiceExplanations": [
+    "",
+    "1.8 × 10⁵ N/C leaves out the factor 2 in 2kλ/r.",
+    "3.6 × 10⁶ N/C divides by r², which is the point-charge form; a line's field falls off as 1/r.",
+    "1.8 × 10⁶ N/C both drops the factor 2 and divides by r²."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu8-q05",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u8",
+   "topicId": "e8-dist",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A thin rod of length L carries total charge Q spread uniformly along it. Which expression gives the electric field at a point on the rod's axis, a distance d beyond one end?",
+   "choices": [
+    "kQ/(d(d + L))",
+    "kQ/d²",
+    "kQ/(d + L/2)²",
+    "kQ/(d + L)²"
+   ],
+   "correctAnswer": 0,
+   "explanation": "With λ = Q/L, a slice dx at distance x from the point gives dE = kλ dx/x². Integrating from x = d to x = d + L: E = kλ(1/d − 1/(d + L)) = kλL/(d(d + L)) = kQ/(d(d + L)).",
+   "choiceExplanations": [
+    "",
+    "kQ/d² treats all the charge as if it sat at the near end.",
+    "kQ/(d + L/2)² treats the rod as a point charge at its center, which is only approximately right far away.",
+    "kQ/(d + L)² treats all the charge as if it sat at the far end."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu8-q06",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u8",
+   "topicId": "e8-dist",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "You measure the electric field 0.10 m from a large, flat sheet with uniform charge density, then move to 0.20 m from it (still close compared with the sheet's size). How does the field change?",
+   "choices": [
+    "It stays the same",
+    "It is half as large",
+    "It is one quarter as large",
+    "It doubles"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A large uniform sheet has E = σ/(2ε₀), which doesn't depend on distance as long as you are close compared with the sheet's size.",
+   "choiceExplanations": [
+    "",
+    "Halving with distance describes a long line of charge, not a sheet.",
+    "One quarter describes a point charge.",
+    "The field doesn't grow farther from the sheet."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu8-q07",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u8",
+   "topicId": "e8-gauss",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A closed surface of any shape surrounds a +5.0 nC charge. What is the net electric flux through it? (ε₀ = 8.85 × 10⁻¹² C²/(N·m²))",
+   "choices": [
+    "About 5.6 × 10² N·m²/C",
+    "0",
+    "About 4.4 × 10⁻²⁰ N·m²/C",
+    "It depends on the shape of the surface"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Gauss's law: Φ = q_enc/ε₀ = (5.0 × 10⁻⁹)/(8.85 × 10⁻¹²) ≈ 565 N·m²/C, whatever the surface's shape.",
+   "choiceExplanations": [
+    "",
+    "The flux is zero only when the surface encloses no net charge.",
+    "4.4 × 10⁻²⁰ multiplies the charge by ε₀ instead of dividing.",
+    "Gauss's law gives the same net flux for any closed surface around the same charge."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu8-q08",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u8",
+   "topicId": "e8-gauss",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An insulating sphere of radius R has total charge Q spread uniformly through its volume. What is the electric field at a distance R/2 from its center?",
+   "choices": [
+    "kQ/(2R²)",
+    "4kQ/R²",
+    "kQ/R²",
+    "0"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A Gaussian sphere of radius r = R/2 encloses Q(r/R)³ = Q/8. Then E(4πr²) = (Q/8)/ε₀, so E = k(Q/8)/(R/2)² = kQ/(2R²). In general, E = kQr/R³ inside.",
+   "choiceExplanations": [
+    "",
+    "4kQ/R² treats all of Q as enclosed; only one eighth of it is inside r = R/2.",
+    "kQ/R² is the field at the surface, r = R.",
+    "The field is zero inside a conductor, but this is an insulator with charge throughout."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "phceu8-q09",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u8",
+   "topicId": "e8-gauss",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A point charge sits just outside a closed cube. Which statement is true?",
+   "choices": [
+    "The net flux through the cube is zero, but the field on the cube's faces is not zero",
+    "The net flux is zero because the field on every face is zero",
+    "The net flux equals q/ε₀ because the charge is close to the cube",
+    "The net flux is negative because field lines leave the charge"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Gauss's law counts only enclosed charge, so the net flux is zero. Field lines from the outside charge enter the cube through some faces and leave through others, adding up to zero net flux even though the field on the faces is not zero.",
+   "choiceExplanations": [
+    "",
+    "The charge's field does reach the cube; the flux in and the flux out simply cancel.",
+    "Only enclosed charge contributes to the net flux, however close an outside charge is.",
+    "Every line that enters the cube also leaves it, so the net flux is zero, not negative."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "phceu8-q01",
+    "phceu8-q02",
+    "phceu8-q03",
+    "phceu8-q04",
+    "phceu8-q05",
+    "phceu8-q06",
+    "phceu8-q07",
+    "phceu8-q08"
+   ]
+  }
+ ]
+}
