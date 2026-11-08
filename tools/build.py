@@ -281,6 +281,12 @@ def main():
                     all_q.add(q["id"])
             ready += status == "practice-ready"; prog += status == "in-progress"
             units.append((u, d, status, ti))
+        # Answer-key balance: the site shows choices in stored order, so a course whose keys cluster on one letter is guessable.
+        keys = [q["correctAnswer"] for _, d, _, _ in units if d for q in d["questions"] if q["type"] == "multiple-choice"]
+        if len(keys) >= 20:
+            top = max(range(4), key=keys.count)
+            if keys.count(top) > 0.6 * len(keys):
+                err("%s: %d of %d multiple-choice keys are choice %s; reorder the choices so answers are spread across A-D" % (c["id"], keys.count(top), len(keys), "ABCD"[top]))
         c["summary"] = {"units": len(cd["units"]), "ready": ready, "inProgress": prog, "complete": ready == len(cd["units"]), "examUnits": exam_units, "examReady": exam_ready, "tests": ntests, "unitTests": unit_tests}
         detail[c["id"]] = (cd, units)
     if errors:

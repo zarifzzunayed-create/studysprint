@@ -151,18 +151,18 @@
    "type": "multiple-choice",
    "prompt": "A wave has a frequency of 50 Hz and a wavelength of 4.0 m. What is its speed?",
    "choices": [
-    "200 m/s",
-    "12.5 m/s",
     "0.080 m/s",
-    "54 m/s"
+    "12.5 m/s",
+    "54 m/s",
+    "200 m/s"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "v = fλ = (50 Hz)(4.0 m) = 200 m/s.",
    "choiceExplanations": [
-    "",
-    "12.5 m/s divides the frequency by the wavelength; speed is their product.",
     "0.080 m/s divides the wavelength by the frequency.",
-    "54 adds the frequency and the wavelength, which have different units."
+    "12.5 m/s divides the frequency by the wavelength; speed is their product.",
+    "54 adds the frequency and the wavelength, which have different units.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -179,18 +179,18 @@
    "type": "multiple-choice",
    "prompt": "A radio station broadcasts at 100 MHz. What is the wavelength of its radio waves? (c = 3.0 × 10⁸ m/s)",
    "choices": [
-    "3.0 m",
     "3.0 × 10¹⁶ m",
-    "0.33 m",
-    "300 m"
+    "3.0 m",
+    "300 m",
+    "0.33 m"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "λ = c/f = (3.0 × 10⁸ m/s)/(100 × 10⁶ Hz) = 3.0 m.",
    "choiceExplanations": [
-    "",
     "3.0 × 10¹⁶ m multiplies c by f; the wavelength is c divided by f.",
-    "0.33 m is f/c, the ratio upside down.",
-    "300 m uses 1 MHz = 10⁶ Hz but leaves out the 100: 100 MHz is 10⁸ Hz."
+    "",
+    "300 m uses 1 MHz = 10⁶ Hz but leaves out the 100: 100 MHz is 10⁸ Hz.",
+    "0.33 m is f/c, the ratio upside down."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -207,18 +207,18 @@
    "type": "multiple-choice",
    "prompt": "Which statement about electromagnetic waves is true?",
    "choices": [
-    "They are transverse and can travel through a vacuum at 3.0 × 10⁸ m/s",
-    "They are longitudinal and need a medium to travel",
+    "In a vacuum, higher-frequency electromagnetic waves travel faster",
     "They are transverse but need a medium to travel",
-    "In a vacuum, higher-frequency electromagnetic waves travel faster"
+    "They are transverse and can travel through a vacuum at 3.0 × 10⁸ m/s",
+    "They are longitudinal and need a medium to travel"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "Electromagnetic waves are oscillating electric and magnetic fields, perpendicular to the direction of travel (transverse). They need no medium, and in a vacuum every frequency travels at c.",
    "choiceExplanations": [
-    "",
-    "That describes sound; electromagnetic waves are transverse and need no medium.",
+    "In a vacuum all electromagnetic waves travel at the same speed, c, whatever their frequency.",
     "Light reaches us from the Sun through the vacuum of space, so it needs no medium.",
-    "In a vacuum all electromagnetic waves travel at the same speed, c, whatever their frequency."
+    "",
+    "That describes sound; electromagnetic waves are transverse and need no medium."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -237,16 +237,16 @@
    "choices": [
     "The speed stays the same and the wavelength halves",
     "The speed doubles and the wavelength stays the same",
-    "The speed and the wavelength both double",
-    "The speed halves and the wavelength stays the same"
+    "The speed halves and the wavelength stays the same",
+    "The speed and the wavelength both double"
    ],
    "correctAnswer": 0,
    "explanation": "The string's tension and mass per length set the wave speed, so v does not change. From v = fλ, doubling f halves λ.",
    "choiceExplanations": [
     "",
     "The speed is set by the medium, not by the source's frequency.",
-    "If v is fixed, f and λ cannot both double; doubling f halves λ.",
-    "Nothing about the medium changed, so the speed stays the same."
+    "Nothing about the medium changed, so the speed stays the same.",
+    "If v is fixed, f and λ cannot both double; doubling f halves λ."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -263,18 +263,18 @@
    "type": "multiple-choice",
    "prompt": "You shout toward a cliff and hear the echo 0.50 s later. The speed of sound is 340 m/s. How far away is the cliff?",
    "choices": [
-    "85 m",
-    "170 m",
     "680 m",
-    "340 m"
+    "340 m",
+    "85 m",
+    "170 m"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "In 0.50 s the sound travels 340 × 0.50 = 170 m, which is the trip to the cliff and back. The cliff is half that distance away: 85 m.",
    "choiceExplanations": [
-    "",
-    "170 m is the round trip; the cliff is half that distance away.",
     "680 m divides the speed by the time instead of multiplying.",
-    "340 m is how far sound travels in a full second."
+    "340 m is how far sound travels in a full second.",
+    "",
+    "170 m is the round trip; the cliff is half that distance away."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -291,17 +291,17 @@
    "type": "multiple-choice",
    "prompt": "A pipe 0.85 m long is open at both ends. What is its fundamental frequency? (speed of sound = 340 m/s)",
    "choices": [
-    "200 Hz",
-    "100 Hz",
     "400 Hz",
+    "100 Hz",
+    "200 Hz",
     "289 Hz"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "For a pipe open at both ends, the fundamental wavelength is 2L = 1.7 m, so f₁ = v/(2L) = 340/1.7 = 200 Hz.",
    "choiceExplanations": [
-    "",
-    "100 Hz is v/(4L), which is for a pipe closed at one end.",
     "400 Hz is v/L; the fundamental of an open pipe has a wavelength of 2L, not L.",
+    "100 Hz is v/(4L), which is for a pipe closed at one end.",
+    "",
     "289 multiplies the speed by the length; frequency is speed divided by wavelength."
    ],
    "sourceType": "original",
@@ -319,18 +319,18 @@
    "type": "multiple-choice",
    "prompt": "An ambulance with its siren on drives toward you, passes, and drives away. What do you hear?",
    "choices": [
-    "A higher pitch while it approaches and a lower pitch after it passes",
+    "A higher pitch throughout, because the sound waves travel faster from a moving source",
     "A lower pitch while it approaches and a higher pitch after it passes",
-    "The same pitch throughout, but louder as it approaches",
-    "A higher pitch throughout, because the sound waves travel faster from a moving source"
+    "A higher pitch while it approaches and a lower pitch after it passes",
+    "The same pitch throughout, but louder as it approaches"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "As the source approaches, each wave crest is emitted closer to you, so the crests arrive more often: higher frequency. As it moves away, they arrive less often: lower frequency. This is the Doppler effect.",
    "choiceExplanations": [
-    "",
+    "The speed of sound is set by the air, not the source; the frequency changes, not the speed.",
     "This reverses the Doppler effect: approaching gives the higher frequency.",
-    "The loudness does change, but the frequency also shifts when the source moves.",
-    "The speed of sound is set by the air, not the source; the frequency changes, not the speed."
+    "",
+    "The loudness does change, but the frequency also shifts when the source moves."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -347,18 +347,18 @@
    "type": "multiple-choice",
    "prompt": "A siren with a frequency of 400 Hz moves toward a stationary listener at 20 m/s. The speed of sound is 340 m/s. What frequency does the listener hear?",
    "choices": [
-    "425 Hz",
-    "378 Hz",
     "420 Hz",
-    "400 Hz"
+    "378 Hz",
+    "400 Hz",
+    "425 Hz"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "For an approaching source, f′ = f·v/(v − v_s) = 400 × 340/320 = 425 Hz.",
    "choiceExplanations": [
-    "",
-    "378 Hz uses v + v_s, which is for a source moving away.",
     "420 Hz adds the source's speed to the frequency; the shift comes from the ratio v/(v − v_s).",
-    "The source is moving toward the listener, so the frequency heard is shifted up."
+    "378 Hz uses v + v_s, which is for a source moving away.",
+    "The source is moving toward the listener, so the frequency heard is shifted up.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -375,17 +375,17 @@
    "type": "multiple-choice",
    "prompt": "Two speakers play the same tone in phase. At a certain point, the sound from one speaker travels 1.5 wavelengths farther than the sound from the other. What kind of interference happens there?",
    "choices": [
-    "Destructive",
     "Constructive",
     "It depends only on the speakers' loudness",
+    "Destructive",
     "None, because sound waves do not interfere"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "A path difference of 1.5λ is an odd number of half wavelengths, so a crest from one speaker meets a trough from the other: destructive interference.",
    "choiceExplanations": [
-    "",
     "Constructive interference needs a path difference of a whole number of wavelengths (0, λ, 2λ, …).",
     "The type of interference depends on the path difference; loudness only affects how complete the cancellation is.",
+    "",
     "All waves, including sound, interfere when they overlap."
    ],
    "sourceType": "original",
@@ -404,17 +404,17 @@
    "prompt": "Light of wavelength 600 nm passes through two slits 0.20 mm apart onto a screen 2.0 m away. What is the spacing between neighboring bright fringes?",
    "choices": [
     "6.0 mm",
-    "3.0 mm",
     "12 mm",
-    "0.60 mm"
+    "0.60 mm",
+    "3.0 mm"
    ],
    "correctAnswer": 0,
    "explanation": "Δy = λL/d = (600 × 10⁻⁹ m)(2.0 m)/(0.20 × 10⁻³ m) = 6.0 × 10⁻³ m = 6.0 mm.",
    "choiceExplanations": [
     "",
-    "3.0 mm is half the spacing, the distance from a bright fringe to the next dark one.",
     "12 mm is the distance from the central fringe to the second bright fringe.",
-    "0.60 mm results from using 2.0 mm for the slit separation instead of 0.20 mm."
+    "0.60 mm results from using 2.0 mm for the slit separation instead of 0.20 mm.",
+    "3.0 mm is half the spacing, the distance from a bright fringe to the next dark one."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -431,18 +431,18 @@
    "type": "multiple-choice",
    "prompt": "Light of wavelength 600 nm falls on a diffraction grating with 500 lines per millimeter. At about what angle is the first-order bright fringe?",
    "choices": [
-    "17°",
-    "37°",
     "1.7°",
-    "0.017°"
+    "17°",
+    "0.017°",
+    "37°"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "The line spacing is d = 1/500 mm = 2.0 × 10⁻⁶ m. For m = 1, sin θ = λ/d = (600 × 10⁻⁹)/(2.0 × 10⁻⁶) = 0.30, so θ ≈ 17°.",
    "choiceExplanations": [
-    "",
-    "37° is the second-order fringe (m = 2, sin θ = 0.60).",
     "1.7° treats the grating as 500 lines per centimeter, making d ten times too large.",
-    "0.017° treats it as 500 lines per meter, making d a thousand times too large."
+    "",
+    "0.017° treats it as 500 lines per meter, making d a thousand times too large.",
+    "37° is the second-order fringe (m = 2, sin θ = 0.60)."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",

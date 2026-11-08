@@ -149,18 +149,18 @@
    "type": "multiple-choice",
    "prompt": "A 20 N force is applied to the end of a wrench, 0.30 m from the bolt, at an angle of 30° to the wrench handle. What torque does it produce about the bolt?",
    "choices": [
+    "67 N·m",
     "3.0 N·m",
     "6.0 N·m",
-    "5.2 N·m",
-    "67 N·m"
+    "5.2 N·m"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "τ = rF sin θ = (0.30)(20)(sin 30°) = 6.0 × 0.50 = 3.0 N·m. Only the part of the force perpendicular to the handle turns the bolt.",
    "choiceExplanations": [
+    "67 divides the force by the distance; torque multiplies them.",
     "",
     "6.0 N·m would be the torque with the force perpendicular to the handle; at 30°, multiply by sin 30°.",
-    "5.2 N·m uses cos 30°; torque depends on the sine of the angle between r and F.",
-    "67 divides the force by the distance; torque multiplies them."
+    "5.2 N·m uses cos 30°; torque depends on the sine of the angle between r and F."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -177,17 +177,17 @@
    "type": "multiple-choice",
    "prompt": "A 30 kg child sits 2.0 m from the pivot of a seesaw. How far from the pivot, on the other side, must a 40 kg child sit to balance it? (Ignore the seesaw's own weight.)",
    "choices": [
-    "1.5 m",
     "2.7 m",
     "2.0 m",
+    "1.5 m",
     "0.75 m"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "Balance the torques: (30)(g)(2.0) = (40)(g)d, so d = 60/40 = 1.5 m. The heavier child sits closer to the pivot.",
    "choiceExplanations": [
-    "",
     "2.7 m puts the heavier child farther out, which would make that side's torque larger.",
     "Equal distances balance only equal weights.",
+    "",
     "0.75 is the mass ratio 30/40, not a distance."
    ],
    "sourceType": "original",
@@ -205,18 +205,18 @@
    "type": "multiple-choice",
    "prompt": "A uniform 10 kg beam, 4.0 m long, rests on supports at its two ends. A 20 kg box sits 1.0 m from the left end. What upward force does the right support exert? (g = 10 m/s²)",
    "choices": [
-    "100 N",
     "200 N",
-    "150 N",
-    "50 N"
+    "50 N",
+    "100 N",
+    "150 N"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "Take torques about the left support: R(4.0) = (100 N)(2.0 m) + (200 N)(1.0 m) = 400 N·m, so R = 100 N. (The left support then provides 300 − 100 = 200 N.)",
    "choiceExplanations": [
-    "",
     "200 N is the force from the left support, which is closer to the box.",
-    "150 N splits the total 300 N weight equally, but the box is not in the middle.",
-    "50 N leaves out the beam's own weight, which acts at its center."
+    "50 N leaves out the beam's own weight, which acts at its center.",
+    "",
+    "150 N splits the total 300 N weight equally, but the box is not in the middle."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -233,18 +233,18 @@
    "type": "multiple-choice",
    "prompt": "A wheel starts from rest and turns with a constant angular acceleration of 2.0 rad/s² for 5.0 s. Through what angle does it turn?",
    "choices": [
+    "5.0 rad",
     "25 rad",
     "50 rad",
-    "10 rad",
-    "5.0 rad"
+    "10 rad"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "θ = ω₀t + ½αt² = 0 + ½(2.0)(5.0)² = 25 rad.",
    "choiceExplanations": [
+    "5.0 is ½αt; the time must be squared.",
     "",
     "50 rad leaves out the factor ½ in ½αt².",
-    "10 is the final angular velocity, αt, in rad/s.",
-    "5.0 is ½αt; the time must be squared."
+    "10 is the final angular velocity, αt, in rad/s."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -261,18 +261,18 @@
    "type": "multiple-choice",
    "prompt": "An object's angular position is θ(t) = 2t³ radians. What is its angular acceleration at t = 1.0 s?",
    "choices": [
-    "12 rad/s²",
+    "18 rad/s²",
     "6.0 rad/s²",
     "2.0 rad/s²",
-    "18 rad/s²"
+    "12 rad/s²"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "ω = dθ/dt = 6t² and α = dω/dt = 12t, so α(1.0) = 12 rad/s².",
    "choiceExplanations": [
-    "",
+    "18 adds ω and α together (6 + 12).",
     "6.0 is ω(1.0), the angular velocity in rad/s.",
     "2.0 is θ(1.0), the angular position in radians.",
-    "18 adds ω and α together (6 + 12)."
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -289,18 +289,18 @@
    "type": "multiple-choice",
    "prompt": "A wheel of radius 0.40 m spins at 5.0 rad/s. How fast is a point on its rim moving?",
    "choices": [
-    "2.0 m/s",
     "12.6 m/s",
-    "0.080 m/s",
-    "5.0 m/s"
+    "5.0 m/s",
+    "2.0 m/s",
+    "0.080 m/s"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "v = rω = (0.40 m)(5.0 rad/s) = 2.0 m/s.",
    "choiceExplanations": [
-    "",
     "12.6 multiplies by 2π as well; ω is already in radians per second.",
-    "0.080 is r/ω; linear speed is r times ω.",
-    "5.0 is the angular speed; it must be multiplied by the radius."
+    "5.0 is the angular speed; it must be multiplied by the radius.",
+    "",
+    "0.080 is r/ω; linear speed is r times ω."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -317,18 +317,18 @@
    "type": "multiple-choice",
    "prompt": "Two 2.0 kg masses are attached to the ends of a light rod 1.0 m long. What is the rotational inertia about an axis through the middle of the rod, perpendicular to it?",
    "choices": [
+    "0.50 kg·m²",
     "1.0 kg·m²",
     "4.0 kg·m²",
-    "2.0 kg·m²",
-    "0.50 kg·m²"
+    "2.0 kg·m²"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "Each mass is 0.50 m from the axis: I = Σmr² = 2 × (2.0)(0.50)² = 1.0 kg·m².",
    "choiceExplanations": [
+    "0.50 counts only one of the two masses.",
     "",
     "4.0 uses the full length, 1.0 m, as each mass's distance from the axis.",
-    "2.0 uses mr instead of mr²; the distance must be squared.",
-    "0.50 counts only one of the two masses."
+    "2.0 uses mr instead of mr²; the distance must be squared."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -346,16 +346,16 @@
    "prompt": "A solid disk (I = ½MR²) of mass 4.0 kg and radius 0.50 m spins about its axis. A net torque of 2.0 N·m acts on it. What is its angular acceleration?",
    "choices": [
     "4.0 rad/s²",
-    "1.0 rad/s²",
     "2.0 rad/s²",
+    "1.0 rad/s²",
     "0.25 rad/s²"
    ],
    "correctAnswer": 0,
    "explanation": "I = ½(4.0)(0.50)² = 0.50 kg·m², so α = τ/I = 2.0/0.50 = 4.0 rad/s².",
    "choiceExplanations": [
     "",
-    "1.0 multiplies τ by I; α = τ/I.",
     "2.0 rad/s² uses I = MR², the hoop's value, instead of ½MR².",
+    "1.0 multiplies τ by I; α = τ/I.",
     "0.25 is I/τ, the ratio upside down."
    ],
    "sourceType": "original",
@@ -374,17 +374,17 @@
    "prompt": "A 2.0 kg block hangs from a light string wrapped around a pulley that is a uniform solid disk of mass 4.0 kg, free to turn on a frictionless axle. What is the block's acceleration? (g = 10 m/s²)",
    "choices": [
     "5.0 m/s²",
-    "10 m/s²",
     "3.3 m/s²",
-    "6.7 m/s²"
+    "6.7 m/s²",
+    "10 m/s²"
    ],
    "correctAnswer": 0,
    "explanation": "Block: mg − T = ma. Pulley: TR = (½MR²)(a/R), so T = ½Ma. Adding: mg = (m + ½M)a, so a = 20/(2.0 + 2.0) = 5.0 m/s².",
    "choiceExplanations": [
     "",
-    "10 m/s² ignores the pulley; the string tension slows the block.",
     "3.3 m/s² uses I = MR², which is for a hoop, not a solid disk.",
-    "6.7 m/s² uses I = ¼MR², which is a disk's inertia about a diameter, not about its axle."
+    "6.7 m/s² uses I = ¼MR², which is a disk's inertia about a diameter, not about its axle.",
+    "10 m/s² ignores the pulley; the string tension slows the block."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",

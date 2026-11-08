@@ -120,18 +120,18 @@
    "type": "multiple-choice",
    "prompt": "What is the 6th term of the geometric sequence 5, 15, 45, …?",
    "choices": [
-    "1215",
-    "3645",
     "405",
-    "20"
+    "1215",
+    "20",
+    "3645"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "The common ratio is 3, so the nth term is 5·3ⁿ⁻¹. The 6th term is 5·3⁵ = 5·243 = 1215.",
    "choiceExplanations": [
-    "",
-    "3645 = 5·3⁶ uses the exponent n instead of n − 1, which gives the 7th term.",
     "405 = 5·3⁴ is the 5th term.",
-    "20 treats 3 as an amount added at each step (arithmetic) instead of a factor multiplied at each step."
+    "",
+    "20 treats 3 as an amount added at each step (arithmetic) instead of a factor multiplied at each step.",
+    "3645 = 5·3⁶ uses the exponent n instead of n − 1, which gives the 7th term."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
@@ -149,17 +149,17 @@
    "prompt": "A park has 200 trees, and the number grows by 8% each year. Which function gives the number of trees after t years?",
    "choices": [
     "N(t) = 200(1.08)ᵗ",
+    "N(t) = 200(8)ᵗ",
     "N(t) = 200(0.08)ᵗ",
-    "N(t) = 200 + 0.08t",
-    "N(t) = 200(8)ᵗ"
+    "N(t) = 200 + 0.08t"
    ],
    "correctAnswer": 0,
    "explanation": "Growing by 8% multiplies the amount by 1 + 0.08 = 1.08 each year, so N(t) = 200(1.08)ᵗ.",
    "choiceExplanations": [
     "",
+    "Multiplying by 8 would make the number eight times larger each year, which is 700% growth.",
     "Multiplying by 0.08 each year would keep only 8% of the trees: a steep decay.",
-    "Adding 0.08 per year is linear growth of less than one tree a year, not 8% growth.",
-    "Multiplying by 8 would make the number eight times larger each year, which is 700% growth."
+    "Adding 0.08 per year is linear growth of less than one tree a year, not 8% growth."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
@@ -176,18 +176,18 @@
    "type": "multiple-choice",
    "prompt": "An exponential function f(x) = a·bˣ has f(0) = 4 and f(2) = 36. What is f(x)?",
    "choices": [
-    "f(x) = 4·3ˣ",
     "f(x) = 4·9ˣ",
-    "f(x) = 4·4.5ˣ",
-    "f(x) = 16x + 4"
+    "f(x) = 4·3ˣ",
+    "f(x) = 16x + 4",
+    "f(x) = 4·4.5ˣ"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "f(0) = a = 4. Over two steps the output is multiplied by 36/4 = 9, so each step multiplies it by √9 = 3. So f(x) = 4·3ˣ, and indeed f(2) = 4·9 = 36.",
    "choiceExplanations": [
-    "",
     "9 is the factor over two steps; the factor for one step is its square root, 3.",
-    "4.5 is half of the two-step factor 9, but repeated multiplication calls for the square root, not half.",
-    "16x + 4 is the line through the two points; it is linear, not exponential."
+    "",
+    "16x + 4 is the line through the two points; it is linear, not exponential.",
+    "4.5 is half of the two-step factor 9, but repeated multiplication calls for the square root, not half."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
@@ -204,18 +204,18 @@
    "type": "multiple-choice",
    "prompt": "A substance has a half-life of 6 hours. A sample starts at 80 mg. About how much remains after 15 hours?",
    "choices": [
-    "14.1 mg",
+    "60.6 mg",
     "20.0 mg",
-    "10.0 mg",
-    "60.6 mg"
+    "14.1 mg",
+    "10.0 mg"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "A(t) = 80(1/2)^(t/6), so A(15) = 80(1/2)^2.5 ≈ 80 × 0.1768 ≈ 14.1 mg.",
    "choiceExplanations": [
-    "",
+    "60.6 mg uses the exponent 6/15 instead of 15/6.",
     "20 mg is the amount after 12 hours (2 half-lives); 15 hours is 2.5 half-lives.",
-    "10 mg is the amount after 18 hours (3 half-lives), which is too long.",
-    "60.6 mg uses the exponent 6/15 instead of 15/6."
+    "",
+    "10 mg is the amount after 18 hours (3 half-lives), which is too long."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
@@ -232,18 +232,18 @@
    "type": "multiple-choice",
    "prompt": "An exponential model predicts 52.0 units at x = 3, and the data value there is 49.5 units. What is the residual?",
    "choices": [
-    "−2.5",
+    "101.5",
     "2.5",
     "0.95",
-    "101.5"
+    "−2.5"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "Residual = actual − predicted = 49.5 − 52.0 = −2.5. It is negative because the model predicted too high.",
    "choiceExplanations": [
-    "",
+    "101.5 adds the two values instead of subtracting them.",
     "2.5 is predicted − actual; a residual subtracts the predicted value from the actual value.",
     "0.95 is the ratio 49.5/52.0; a residual is a difference, not a ratio.",
-    "101.5 adds the two values instead of subtracting them."
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
@@ -260,17 +260,17 @@
    "type": "multiple-choice",
    "prompt": "A residual plot for an exponential model shows residuals that are positive for small x, negative in the middle, and positive again for large x. What does this suggest?",
    "choices": [
+    "The model is appropriate because some residuals are positive and some are negative",
     "The model misses a curved pattern, so another function type may fit better",
     "The model is appropriate because the residuals add up to about zero",
-    "The model is appropriate because some residuals are positive and some are negative",
     "The data show no relationship between x and y"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "A clear pattern in the residuals, here a U shape, means the model is off in a systematic way. An appropriate model leaves residuals scattered with no pattern.",
    "choiceExplanations": [
+    "Having both signs is not enough: the residuals must be scattered with no pattern.",
     "",
     "Residuals can add up to about zero even for a poor model; the pattern matters, not the total.",
-    "Having both signs is not enough: the residuals must be scattered with no pattern.",
     "A systematic pattern shows a strong relationship that the model fails to capture, not the absence of one."
    ],
    "sourceType": "original",
@@ -289,16 +289,16 @@
    "prompt": "For a data set, the points (x, ln y) lie close to the line ln y = 0.2x + 1.5. Which model for y does this suggest?",
    "choices": [
     "y ≈ 4.48(1.22)ˣ",
-    "y ≈ 1.5 + 0.2x",
     "y ≈ 1.5e^(0.2x)",
+    "y ≈ 1.5 + 0.2x",
     "y ≈ 0.2(1.5)ˣ"
    ],
    "correctAnswer": 0,
    "explanation": "Undo the logarithm: y = e^(0.2x + 1.5) = e^1.5·(e^0.2)ˣ ≈ 4.48(1.22)ˣ.",
    "choiceExplanations": [
     "",
-    "This is the line for ln y, not for y; the logarithm still has to be undone.",
     "The intercept must be exponentiated too: e^1.5 ≈ 4.48, not 1.5.",
+    "This is the line for ln y, not for y; the logarithm still has to be undone.",
     "This swaps the roles of the slope and the intercept and does not undo the logarithm."
    ],
    "sourceType": "original",
@@ -316,18 +316,18 @@
    "type": "multiple-choice",
    "prompt": "If f(x) = 3x − 6, what is f⁻¹(x)?",
    "choices": [
-    "f⁻¹(x) = (x + 6)/3",
-    "f⁻¹(x) = 3x + 6",
     "f⁻¹(x) = 1/(3x − 6)",
-    "f⁻¹(x) = x/3 − 6"
+    "f⁻¹(x) = 3x + 6",
+    "f⁻¹(x) = x/3 − 6",
+    "f⁻¹(x) = (x + 6)/3"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "Write y = 3x − 6, swap x and y to get x = 3y − 6, and solve: y = (x + 6)/3. Check: f((x + 6)/3) = (x + 6) − 6 = x.",
    "choiceExplanations": [
-    "",
-    "This changes the sign of the 6 but keeps multiplying by 3 instead of dividing.",
     "1/(3x − 6) is the reciprocal 1/f(x), not the inverse.",
-    "f multiplies by 3 and then subtracts 6, so its inverse adds 6 first and then divides by 3. This divides first."
+    "This changes the sign of the 6 but keeps multiplying by 3 instead of dividing.",
+    "f multiplies by 3 and then subtracts 6, so its inverse adds 6 first and then divides by 3. This divides first.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
@@ -344,18 +344,18 @@
    "type": "multiple-choice",
    "prompt": "Let f(x) = x² + 1 and g(x) = 2x − 3. What is (f ∘ g)(2)?",
    "choices": [
-    "2",
+    "1",
     "7",
-    "5",
-    "1"
+    "2",
+    "5"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "Apply g first: g(2) = 2·2 − 3 = 1. Then f(1) = 1² + 1 = 2.",
    "choiceExplanations": [
-    "",
+    "1 is g(2), only the first step; f still has to be applied to it.",
     "7 is (g ∘ f)(2) = g(5): the functions were applied in the wrong order.",
-    "5 is f(2)·g(2) = 5·1; composition is not multiplication.",
-    "1 is g(2), only the first step; f still has to be applied to it."
+    "",
+    "5 is f(2)·g(2) = 5·1; composition is not multiplication."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
@@ -372,18 +372,18 @@
    "type": "multiple-choice",
    "prompt": "Solve 5ˣ = 40. Which value is closest to x?",
    "choices": [
-    "2.292",
-    "8",
     "0.436",
-    "3.689"
+    "8",
+    "3.689",
+    "2.292"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "Take the natural log of both sides: x·ln 5 = ln 40, so x = ln 40 / ln 5 ≈ 3.689 / 1.609 ≈ 2.292. Check: 5^2.292 ≈ 40.",
    "choiceExplanations": [
-    "",
-    "8 is 40/5; an exponent is not found by dividing the two numbers.",
     "0.436 is ln 5 / ln 40, the ratio upside down.",
-    "3.689 is ln 40; it still has to be divided by ln 5."
+    "8 is 40/5; an exponent is not found by dividing the two numbers.",
+    "3.689 is ln 40; it still has to be divided by ln 5.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
@@ -402,16 +402,16 @@
    "choices": [
     "1",
     "1.2",
-    "11",
-    "−9"
+    "−9",
+    "11"
    ],
    "correctAnswer": 0,
    "explanation": "log_b(x³/y) = 3·log_b x − log_b y = 3·2 − 5 = 1.",
    "choiceExplanations": [
     "",
     "1.2 is (3·2)/5; the log of a quotient is a difference of logs, not a quotient.",
-    "11 is 3·2 + 5; dividing by y subtracts its log rather than adding it.",
-    "−9 is 3·(2 − 5), which applies the exponent 3 to y as well; only x is cubed."
+    "−9 is 3·(2 − 5), which applies the exponent 3 to y as well; only x is cubed.",
+    "11 is 3·2 + 5; dividing by y subtracts its log rather than adding it."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
@@ -429,17 +429,17 @@
    "prompt": "Sound level in decibels is L = 10·log₁₀(I/I₀), where I is the sound's intensity. If the intensity is multiplied by 100, how does L change?",
    "choices": [
     "It increases by 20 dB",
-    "It is multiplied by 100",
+    "It increases by 100 dB",
     "It doubles",
-    "It increases by 100 dB"
+    "It is multiplied by 100"
    ],
    "correctAnswer": 0,
    "explanation": "10·log₁₀(100I/I₀) = 10·(log₁₀ 100 + log₁₀(I/I₀)) = 20 + L. Multiplying the intensity by 100 adds 20 dB.",
    "choiceExplanations": [
     "",
-    "A logarithmic scale turns multiplication into addition, so L does not grow by the same factor as I.",
+    "The factor 100 goes inside the logarithm: 10·log₁₀ 100 = 20, not 100.",
     "The change is always an added 20 dB, whatever L was; that is not doubling in general.",
-    "The factor 100 goes inside the logarithm: 10·log₁₀ 100 = 20, not 100."
+    "A logarithmic scale turns multiplication into addition, so L does not grow by the same factor as I."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",

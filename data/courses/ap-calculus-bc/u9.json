@@ -1,0 +1,432 @@
+{
+ "courseId": "ap-calculus-bc",
+ "unitId": "u9",
+ "title": "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
+ "topics": [
+  {
+   "id": "b9-param",
+   "name": "Parametric and vector derivatives and arc length",
+   "covers": [
+    "Finding derivatives of parametric functions and vector-valued functions",
+    "Calculating the accumulation of change in length over an interval using a definite integral"
+   ]
+  },
+  {
+   "id": "b9-motion",
+   "name": "Motion in the plane",
+   "covers": [
+    "Determining the position of a particle moving in a plane",
+    "Calculating velocity, speed, and acceleration of a particle moving along a curve"
+   ]
+  },
+  {
+   "id": "b9-polar",
+   "name": "Polar derivatives and area",
+   "covers": [
+    "Finding derivatives of functions written in polar coordinates",
+    "Finding the area of regions bounded by polar curves"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Parametric, polar, and vector-valued functions: review guide",
+  "intro": "This BC-only unit describes curves with a parameter, with vectors, and in polar coordinates. It finds slopes, lengths, motion in the plane, and areas inside polar curves.",
+  "sections": [
+   {
+    "id": "s-b9-param",
+    "topicId": "b9-param",
+    "title": "Parametric and vector derivatives and arc length",
+    "body": [
+     "For x = x(t), y = y(t): dy/dx = (dy/dt)/(dx/dt). The second derivative is d²y/dx² = (d/dt of dy/dx)/(dx/dt): differentiate dy/dx with respect to t, then divide by dx/dt again.",
+     "The length of a parametric curve from t = a to t = b is ∫ from a to b of √((dx/dt)² + (dy/dt)²) dt. A vector-valued function r(t) = ⟨x(t), y(t)⟩ differentiates component by component."
+    ],
+    "points": [
+     "Horizontal tangent: dy/dt = 0 (with dx/dt ≠ 0). Vertical tangent: dx/dt = 0 (with dy/dt ≠ 0).",
+     "Don't forget the second division by dx/dt in d²y/dx².",
+     "Arc length counts any retraced part of the path again."
+    ],
+    "equations": [
+     [
+      "dy/dx = (dy/dt)/(dx/dt)",
+      "parametric slope"
+     ],
+     [
+      "L = ∫ₐᵇ √((x′)² + (y′)²) dt",
+      "parametric arc length"
+     ]
+    ]
+   },
+   {
+    "id": "s-b9-motion",
+    "topicId": "b9-motion",
+    "title": "Motion in the plane",
+    "body": [
+     "For position r(t) = ⟨x(t), y(t)⟩: velocity v(t) = ⟨x′(t), y′(t)⟩, acceleration a(t) = ⟨x″(t), y″(t)⟩, and speed |v(t)| = √(x′² + y′²).",
+     "Position at time b = position at time a + ∫ from a to b of v(t) dt, component by component. The distance traveled is ∫ speed dt, which is usually more than the straight-line displacement."
+    ],
+    "points": [
+     "Speed is a number; velocity is a vector.",
+     "Add the initial position to each component.",
+     "Distance traveled uses the speed, not the separate components."
+    ]
+   },
+   {
+    "id": "s-b9-polar",
+    "topicId": "b9-polar",
+    "title": "Polar derivatives and area",
+    "body": [
+     "For r = f(θ), use x = r cos θ and y = r sin θ as parametric equations in θ: dy/dx = (dy/dθ)/(dx/dθ), with dy/dθ = r′ sin θ + r cos θ and dx/dθ = r′ cos θ − r sin θ.",
+     "The area swept out by r = f(θ) from θ = α to θ = β is (1/2) ∫ from α to β of r² dθ. For the area between two polar curves, use (1/2) ∫ (R² − r²) dθ."
+    ],
+    "points": [
+     "dr/dθ is not the slope of the curve: it's the rate at which the distance from the origin changes.",
+     "Find the θ-limits where r = 0 or where the curves intersect.",
+     "Use symmetry, such as one petal times the number of petals, carefully."
+    ],
+    "equations": [
+     [
+      "A = (1/2) ∫ r² dθ",
+      "polar area"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "For x = t², y = t³ − 3t, where does the curve have a horizontal tangent?",
+   "solution": "dy/dt = 3t² − 3 = 0 at t = ±1, and dx/dt = 2t ≠ 0 there. The points are (1, −2) at t = 1 and (1, 2) at t = −1."
+  },
+  "misconceptions": [
+   [
+    "“dy/dx = dy/dt.”",
+    "Divide by dx/dt: dy/dx = (dy/dt)/(dx/dt)."
+   ],
+   [
+    "“d²y/dx² is the derivative of dy/dx with respect to t.”",
+    "That result must be divided by dx/dt again."
+   ],
+   [
+    "“dr/dθ is the slope of a polar curve.”",
+    "The slope is dy/dx, using x = r cos θ and y = r sin θ."
+   ],
+   [
+    "“Polar area is ∫ r dθ.”",
+    "It's (1/2) ∫ r² dθ."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+  "sourceTitle": "AP Calculus BC – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "cbc-u9-q01",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u9",
+   "topicId": "b9-param",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "For x = t² and y = t³, what is dy/dx at t = 2?",
+   "choices": [
+    "4",
+    "1/3",
+    "3",
+    "12"
+   ],
+   "correctAnswer": 2,
+   "explanation": "dy/dx = (3t²)/(2t) = 3t/2, which is 3 at t = 2.",
+   "choiceExplanations": [
+    "4 is dx/dt at t = 2.",
+    "1/3 is dx/dy, the reciprocal.",
+    "",
+    "12 is dy/dt at t = 2, not dy/dx."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u9-q02",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u9",
+   "topicId": "b9-param",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For x = t² and y = t³ (t > 0), what is d²y/dx²?",
+   "choices": [
+    "3/(2t)",
+    "3t/2",
+    "3/2",
+    "3/(4t)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "dy/dx = 3t/2. Differentiate with respect to t to get 3/2, then divide by dx/dt = 2t: 3/(4t).",
+   "choiceExplanations": [
+    "3/(2t) divides by t instead of by dx/dt = 2t.",
+    "3t/2 is the first derivative dy/dx.",
+    "3/2 forgets to divide by dx/dt.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u9-q03",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u9",
+   "topicId": "b9-param",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the length of the path x = 3 cos t, y = 3 sin t for 0 ≤ t ≤ π?",
+   "choices": [
+    "3",
+    "9π/2",
+    "3π",
+    "6π"
+   ],
+   "correctAnswer": 2,
+   "explanation": "√((−3 sin t)² + (3 cos t)²) = 3, so L = ∫ from 0 to π of 3 dt = 3π: half a circle of radius 3.",
+   "choiceExplanations": [
+    "3 is the speed, not multiplied by the time interval π.",
+    "9π/2 is the area of the half-disc, not a length.",
+    "",
+    "6π is the full circle's circumference; t only goes to π."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u9-q04",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u9",
+   "topicId": "b9-motion",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A particle's position is r(t) = ⟨t², 4t⟩. What is its speed at t = 1?",
+   "choices": [
+    "6",
+    "2√5",
+    "√17",
+    "20"
+   ],
+   "correctAnswer": 1,
+   "explanation": "v(t) = ⟨2t, 4⟩, so v(1) = ⟨2, 4⟩ and the speed is √(4 + 16) = √20 = 2√5.",
+   "choiceExplanations": [
+    "6 adds the components instead of using the Pythagorean theorem.",
+    "",
+    "√17 is the distance from the origin to the position ⟨1, 4⟩.",
+    "20 is the speed squared."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u9-q05",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u9",
+   "topicId": "b9-motion",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A particle has velocity v(t) = ⟨2t, 3⟩ and position ⟨1, −2⟩ at t = 0. Where is it at t = 2?",
+   "choices": [
+    "⟨4, 6⟩",
+    "⟨5, 4⟩",
+    "⟨4, 3⟩",
+    "⟨5, 1⟩"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Integrate each component from 0 to 2: Δx = 4 and Δy = 6. Add them to the start: ⟨1 + 4, −2 + 6⟩ = ⟨5, 4⟩.",
+   "choiceExplanations": [
+    "⟨4, 6⟩ is the displacement; it forgets the starting position.",
+    "",
+    "⟨4, 3⟩ is the velocity at t = 2.",
+    "⟨5, 1⟩ adds the velocity's y-component (3) instead of its integral (6)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u9-q06",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u9",
+   "topicId": "b9-motion",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A particle's position is r(t) = ⟨sin t, t³⟩. What is its acceleration at t = π/2?",
+   "choices": [
+    "⟨1, 3π⟩",
+    "⟨0, 3π²/4⟩",
+    "⟨−1, 3π⟩",
+    "⟨−1, 6⟩"
+   ],
+   "correctAnswer": 2,
+   "explanation": "a(t) = ⟨−sin t, 6t⟩. At t = π/2: ⟨−1, 3π⟩.",
+   "choiceExplanations": [
+    "The second derivative of sin t is −sin t, so the x-component is −1.",
+    "⟨0, 3π²/4⟩ is the velocity ⟨cos t, 3t²⟩ at π/2.",
+    "",
+    "6 is the y-component's third derivative, not 6t evaluated at π/2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u9-q07",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u9",
+   "topicId": "b9-motion",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A particle starts at the origin with velocity v(t) = ⟨2t, t²⟩. What distance does it travel from t = 0 to t = 2?",
+   "choices": [
+    "4√2 ≈ 5.66",
+    "(16√2 − 8)/3 ≈ 4.88",
+    "20/3 ≈ 6.67",
+    "√208/3 ≈ 4.81"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Speed = √(4t² + t⁴) = t√(4 + t²). Distance = ∫ from 0 to 2 of t√(4 + t²) dt = (1/3)(4 + t²)^(3/2) from 0 to 2 = (16√2 − 8)/3.",
+   "choiceExplanations": [
+    "4√2 is the speed at t = 2.",
+    "",
+    "20/3 adds the two components' displacements, 4 + 8/3.",
+    "√208/3 is the straight-line distance to the end point ⟨4, 8/3⟩; the path curves."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u9-q08",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u9",
+   "topicId": "b9-polar",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the area enclosed by the polar curve r = 2 sin θ for 0 ≤ θ ≤ π?",
+   "choices": [
+    "2π",
+    "4π",
+    "π",
+    "π/2"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A = (1/2) ∫ from 0 to π of 4 sin²θ dθ = 2 · (π/2) = π. (The curve is a circle of radius 1.)",
+   "choiceExplanations": [
+    "2π forgets the 1/2 in the polar area formula.",
+    "4π uses r = 2 as if it were a circle of radius 2.",
+    "",
+    "π/2 is half the correct area."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u9-q09",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u9",
+   "topicId": "b9-polar",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "For the polar curve r = 1 + cos θ, what is dy/dx at θ = π/2?",
+   "choices": [
+    "1",
+    "0",
+    "It is undefined",
+    "−1"
+   ],
+   "correctAnswer": 0,
+   "explanation": "dy/dθ = r′ sin θ + r cos θ = −sin²θ + (1 + cos θ)cos θ = −1 at π/2. dx/dθ = r′ cos θ − r sin θ = −1 at π/2. So dy/dx = (−1)/(−1) = 1.",
+   "choiceExplanations": [
+    "",
+    "dy/dθ isn't 0 at π/2, so the tangent isn't horizontal.",
+    "dx/dθ = −1 isn't 0, so the slope is defined.",
+    "−1 is dr/dθ = −sin θ at π/2, not the slope dy/dx."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u9-q10",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u9",
+   "topicId": "b9-polar",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is the area of one petal of the rose r = cos(2θ)?",
+   "choices": [
+    "π/2",
+    "π/4",
+    "1/2",
+    "π/8"
+   ],
+   "correctAnswer": 3,
+   "explanation": "One petal runs from θ = −π/4 to π/4. A = (1/2) ∫ from −π/4 to π/4 of cos²(2θ) dθ = (1/2)(π/4) = π/8.",
+   "choiceExplanations": [
+    "π/2 is the area of all four petals.",
+    "π/4 forgets the 1/2 in the polar area formula.",
+    "1/2 integrates r instead of r².",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "cbc-u9-q01",
+    "cbc-u9-q02",
+    "cbc-u9-q03",
+    "cbc-u9-q04",
+    "cbc-u9-q05",
+    "cbc-u9-q07",
+    "cbc-u9-q08",
+    "cbc-u9-q09"
+   ]
+  }
+ ]
+}

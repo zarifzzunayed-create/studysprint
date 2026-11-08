@@ -168,17 +168,17 @@
    "prompt": "A current of 2.0 A flows in a wire for 30 s. How much charge passes a point in the wire?",
    "choices": [
     "60 C",
+    "32 C",
     "15 C",
-    "0.067 C",
-    "32 C"
+    "0.067 C"
    ],
    "correctAnswer": 0,
    "explanation": "ΔQ = IΔt = (2.0 A)(30 s) = 60 C.",
    "choiceExplanations": [
     "",
+    "32 C adds the current and the time, which have different units.",
     "15 C divides the time by the current; charge is current multiplied by time.",
-    "0.067 C divides the current by the time.",
-    "32 C adds the current and the time, which have different units."
+    "0.067 C divides the current by the time."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -195,18 +195,18 @@
    "type": "multiple-choice",
    "prompt": "A wire has resistance R. A second wire of the same material is twice as long and has twice the diameter. What is its resistance?",
    "choices": [
+    "R/4",
     "R/2",
     "2R",
-    "R",
-    "R/4"
+    "R"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "R = ρL/A. Doubling the length doubles R. Doubling the diameter multiplies the area by 2² = 4, which divides R by 4. Together: R × 2/4 = R/2.",
    "choiceExplanations": [
+    "R/4 accounts for the larger area but not for the doubled length.",
     "",
     "2R accounts for the longer length but not for the thicker wire.",
-    "R treats the area as doubling, but area grows with the square of the diameter, so it quadruples.",
-    "R/4 accounts for the larger area but not for the doubled length."
+    "R treats the area as doubling, but area grows with the square of the diameter, so it quadruples."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -223,18 +223,18 @@
    "type": "multiple-choice",
    "prompt": "A bulb uses 60 W when connected to 120 V. What are the current through it and its resistance?",
    "choices": [
+    "7200 A and 0.017 Ω",
     "0.50 A and 240 Ω",
     "2.0 A and 60 Ω",
-    "0.50 A and 0.0042 Ω",
-    "7200 A and 0.017 Ω"
+    "0.50 A and 0.0042 Ω"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "I = P/ΔV = 60 W ÷ 120 V = 0.50 A, and R = ΔV/I = 120 V ÷ 0.50 A = 240 Ω.",
    "choiceExplanations": [
+    "7200 A multiplies power by voltage; current is power divided by voltage.",
     "",
     "2.0 A is ΔV/P, the ratio upside down; P = IΔV gives I = P/ΔV.",
-    "The current is right, but 0.0042 Ω is I/ΔV; resistance is ΔV/I.",
-    "7200 A multiplies power by voltage; current is power divided by voltage."
+    "The current is right, but 0.0042 Ω is I/ΔV; resistance is ΔV/I."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -251,18 +251,18 @@
    "type": "multiple-choice",
    "prompt": "A 3.0 Ω resistor and a 6.0 Ω resistor are connected in series to an 18 V battery. What is the current in the circuit?",
    "choices": [
-    "2.0 A",
     "9.0 A",
     "6.0 A",
-    "0.50 A"
+    "0.50 A",
+    "2.0 A"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "In series the resistances add: 3.0 + 6.0 = 9.0 Ω. I = 18 V ÷ 9.0 Ω = 2.0 A.",
    "choiceExplanations": [
-    "",
     "9.0 A uses the parallel combination, 2.0 Ω; these resistors are in series.",
     "6.0 A uses only the 3.0 Ω resistor; in series the current passes through both.",
-    "0.50 A is R/ΔV, the ratio upside down."
+    "0.50 A is R/ΔV, the ratio upside down.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -279,18 +279,18 @@
    "type": "multiple-choice",
    "prompt": "A 3.0 Ω resistor and a 6.0 Ω resistor are connected in parallel to an 18 V battery. What is the total current from the battery?",
    "choices": [
-    "9.0 A",
     "2.0 A",
-    "6.0 A",
-    "3.0 A"
+    "9.0 A",
+    "3.0 A",
+    "6.0 A"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "Each branch has the full 18 V across it: 18/3.0 = 6.0 A and 18/6.0 = 3.0 A. By the junction rule the battery supplies 6.0 + 3.0 = 9.0 A (equivalently, 18 V ÷ 2.0 Ω).",
    "choiceExplanations": [
-    "",
     "2.0 A treats the resistors as if they were in series.",
-    "6.0 A is the current in the 3.0 Ω branch only.",
-    "3.0 A is the current in the 6.0 Ω branch only."
+    "",
+    "3.0 A is the current in the 6.0 Ω branch only.",
+    "6.0 A is the current in the 3.0 Ω branch only."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -307,18 +307,18 @@
    "type": "multiple-choice",
    "prompt": "At a junction, 5.0 A flows in through one wire and 2.0 A flows out through a second wire. What is the current in the third wire?",
    "choices": [
-    "3.0 A out of the junction",
-    "3.0 A into the junction",
     "7.0 A out of the junction",
-    "7.0 A into the junction"
+    "7.0 A into the junction",
+    "3.0 A out of the junction",
+    "3.0 A into the junction"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "Junction rule: current in = current out. 5.0 A = 2.0 A + I, so 3.0 A must flow out through the third wire.",
    "choiceExplanations": [
-    "",
-    "3.0 A in would make 8.0 A in and only 2.0 A out, which breaks conservation of charge.",
     "7.0 A out would make 9.0 A out with only 5.0 A in.",
-    "7.0 A in adds the two given currents instead of balancing them."
+    "7.0 A in adds the two given currents instead of balancing them.",
+    "",
+    "3.0 A in would make 8.0 A in and only 2.0 A out, which breaks conservation of charge."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -335,18 +335,18 @@
    "type": "multiple-choice",
    "prompt": "A 12 V battery is connected to a 2.0 Ω resistor in series with a parallel pair of resistors, 6.0 Ω and 3.0 Ω. What is the potential difference across the 2.0 Ω resistor?",
    "choices": [
+    "12 V",
     "6.0 V",
-    "2.2 V",
     "4.0 V",
-    "12 V"
+    "2.2 V"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "The parallel pair is equivalent to (6.0 × 3.0)/(6.0 + 3.0) = 2.0 Ω, so the total resistance is 4.0 Ω and I = 12 ÷ 4.0 = 3.0 A. Across the 2.0 Ω resistor, ΔV = IR = 3.0 × 2.0 = 6.0 V; by the loop rule the parallel pair gets the other 6.0 V.",
    "choiceExplanations": [
+    "12 V is the whole battery; the loop rule shares it between the resistor and the parallel pair.",
     "",
-    "2.2 V treats the 6.0 Ω and 3.0 Ω resistors as if they were in series (11 Ω in total).",
     "4.0 V splits the 12 V equally among three resistors, but they do not share it equally.",
-    "12 V is the whole battery; the loop rule shares it between the resistor and the parallel pair."
+    "2.2 V treats the 6.0 Ω and 3.0 Ω resistors as if they were in series (11 Ω in total)."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -363,18 +363,18 @@
    "type": "multiple-choice",
    "prompt": "Two identical bulbs are connected in parallel across an ideal battery. One bulb burns out. What happens to the other bulb?",
    "choices": [
-    "Its brightness does not change",
-    "It gets brighter",
     "It gets dimmer",
-    "It goes out"
+    "It gets brighter",
+    "It goes out",
+    "Its brightness does not change"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "With an ideal battery, each parallel branch has the full battery voltage across it whatever the other branch does. The working bulb keeps the same voltage, current, and power, so its brightness does not change. (The battery supplies less total current.)",
    "choiceExplanations": [
-    "",
-    "The current that went to the burned-out bulb is not redirected; each branch's current is set by its own voltage and resistance.",
     "Its voltage stays equal to the battery voltage, so its power stays the same.",
-    "It is on its own complete path to the battery, so it stays lit."
+    "The current that went to the burned-out bulb is not redirected; each branch's current is set by its own voltage and resistance.",
+    "It is on its own complete path to the battery, so it stays lit.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -391,18 +391,18 @@
    "type": "multiple-choice",
    "prompt": "A 4.0 μF capacitor is charged to 12 V. How much charge is on each plate?",
    "choices": [
-    "48 μC",
-    "3.0 μC",
     "0.33 μC",
-    "288 μC"
+    "288 μC",
+    "48 μC",
+    "3.0 μC"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "Q = CΔV = (4.0 μF)(12 V) = 48 μC.",
    "choiceExplanations": [
-    "",
-    "3.0 μC is ΔV/C; charge is capacitance multiplied by potential difference.",
     "0.33 μC is C/ΔV.",
-    "288 is ½C(ΔV)² = 288 μJ, the stored energy, not the charge."
+    "288 is ½C(ΔV)² = 288 μJ, the stored energy, not the charge.",
+    "",
+    "3.0 μC is ΔV/C; charge is capacitance multiplied by potential difference."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -420,17 +420,17 @@
    "prompt": "The plates of an air-filled parallel-plate capacitor are pulled twice as far apart. What happens to its capacitance?",
    "choices": [
     "It halves",
-    "It doubles",
     "It stays the same",
-    "It becomes one quarter as large"
+    "It becomes one quarter as large",
+    "It doubles"
    ],
    "correctAnswer": 0,
    "explanation": "C = ε₀A/d, so doubling the plate separation d halves the capacitance.",
    "choiceExplanations": [
     "",
-    "A larger gap reduces the capacitance, because d is in the denominator.",
     "Capacitance depends on the plate area and separation, so changing d changes C.",
-    "C is proportional to 1/d, not 1/d²."
+    "C is proportional to 1/d, not 1/d².",
+    "A larger gap reduces the capacitance, because d is in the denominator."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -449,16 +449,16 @@
    "choices": [
     "It starts at ΔV/R and decreases toward zero",
     "It starts at zero and increases toward ΔV/R",
-    "It stays at ΔV/R the whole time",
-    "It is zero the whole time, because charge cannot cross the capacitor's gap"
+    "It is zero the whole time, because charge cannot cross the capacitor's gap",
+    "It stays at ΔV/R the whole time"
    ],
    "correctAnswer": 0,
    "explanation": "At first the uncharged capacitor has no potential difference across it, so the whole ΔV is across R and I = ΔV/R. As charge builds up on the plates, the capacitor's potential difference grows, the resistor's shrinks, and the current falls toward zero.",
    "choiceExplanations": [
     "",
     "This is backward: the current is largest at the start, when the capacitor has no charge to oppose the battery.",
-    "The current changes because the capacitor's potential difference grows as it charges.",
-    "No charge crosses the gap, but charge does flow onto one plate and off the other, so there is a current while the capacitor charges."
+    "No charge crosses the gap, but charge does flow onto one plate and off the other, so there is a current while the capacitor charges.",
+    "The current changes because the capacitor's potential difference grows as it charges."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",

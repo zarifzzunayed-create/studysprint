@@ -19,8 +19,8 @@
   {
    "id": "u1",
    "name": "Unit 1: Limits and Continuity",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-bc/u1.json",
    "officialTopics": [
     "How limits help us to handle change at an instant",
     "Definition and properties of limits in various representations",
@@ -32,8 +32,8 @@
   {
    "id": "u2",
    "name": "Unit 2: Differentiation: Definition and Fundamental Properties",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-bc/u2.json",
    "officialTopics": [
     "Defining the derivative of a function at a point and as a function",
     "Connecting differentiability and continuity",
@@ -44,8 +44,8 @@
   {
    "id": "u3",
    "name": "Unit 3: Differentiation: Composite, Implicit, and Inverse Functions",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-bc/u3.json",
    "officialTopics": [
     "The chain rule for differentiating composite functions",
     "Implicit differentiation",
@@ -56,8 +56,8 @@
   {
    "id": "u4",
    "name": "Unit 4: Contextual Applications of Differentiation",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-bc/u4.json",
    "officialTopics": [
     "Identifying relevant mathematical information in verbal representations of real-world problems involving rates of change",
     "Applying understandings of differentiation to problems involving motion",
@@ -70,8 +70,8 @@
   {
    "id": "u5",
    "name": "Unit 5: Analytical Applications of Differentiation",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-bc/u5.json",
    "officialTopics": [
     "Mean Value Theorem and Extreme Value Theorem",
     "Derivatives and properties of functions",
@@ -84,8 +84,8 @@
   {
    "id": "u6",
    "name": "Unit 6: Integration and Accumulation of Change",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-bc/u6.json",
    "officialTopics": [
     "Using definite integrals to determine accumulated change over an interval",
     "Approximating integrals with Riemann Sums",
@@ -98,8 +98,8 @@
   {
    "id": "u7",
    "name": "Unit 7: Differential Equations",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-bc/u7.json",
    "officialTopics": [
     "Interpreting verbal descriptions of change as separable differential equations",
     "Sketching slope fields and families of solution curves",
@@ -111,8 +111,8 @@
   {
    "id": "u8",
    "name": "Unit 8: Applications of Integration",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-bc/u8.json",
    "officialTopics": [
     "Determining the average value of a function using definite integrals",
     "Modeling particle motion",
@@ -125,8 +125,8 @@
   {
    "id": "u9",
    "name": "Unit 9: Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-bc/u9.json",
    "officialTopics": [
     "Finding derivatives of parametric functions and vector-valued functions",
     "Calculating the accumulation of change in length over an interval using a definite integral",
@@ -139,8 +139,8 @@
   {
    "id": "u10",
    "name": "Unit 10: Infinite Sequences and Series",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-calculus-bc/u10.json",
    "officialTopics": [
     "Applying limits to understand convergence of infinite series",
     "Types of series: Geometric, harmonic, and p-series",

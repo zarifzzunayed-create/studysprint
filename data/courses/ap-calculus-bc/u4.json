@@ -1,0 +1,394 @@
+{
+ "courseId": "ap-calculus-bc",
+ "unitId": "u4",
+ "title": "Unit 4: Contextual Applications of Differentiation",
+ "topics": [
+  {
+   "id": "b4-rates",
+   "name": "Rates of change in context and motion",
+   "covers": [
+    "Identifying relevant mathematical information in verbal representations of real-world problems involving rates of change",
+    "Applying understandings of differentiation to problems involving motion",
+    "Generalizing understandings of motion problems to other situations involving rates of change"
+   ]
+  },
+  {
+   "id": "b4-related",
+   "name": "Related rates",
+   "covers": [
+    "Solving related rates problems"
+   ]
+  },
+  {
+   "id": "b4-approx",
+   "name": "Local linearity and L'Hospital's rule",
+   "covers": [
+    "Local linearity and approximation",
+    "L’Hospital’s rule"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Contextual applications of differentiation: review guide",
+  "intro": "Derivatives describe real rates. This unit interprets them in context and in motion, links rates that change together, approximates values with tangent lines, and uses L'Hospital's rule for indeterminate limits.",
+  "sections": [
+   {
+    "id": "s-b4-rates",
+    "topicId": "b4-rates",
+    "title": "Rates of change in context and motion",
+    "body": [
+     "A derivative's units are output units per input unit. If W(t) is gallons and t is hours, W′(3) = −12 means that at t = 3 hours the amount is decreasing at 12 gallons per hour.",
+     "For motion, velocity v(t) = s′(t), acceleration a(t) = v′(t), and speed is |v(t)|. The particle is at rest where v = 0 and changes direction where v changes sign."
+    ],
+    "points": [
+     "Speeding up when v and a have the same sign; slowing down when they have opposite signs.",
+     "Always state units and the time in an interpretation.",
+     "The same reasoning applies to any quantity's rate of change."
+    ]
+   },
+   {
+    "id": "s-b4-related",
+    "topicId": "b4-related",
+    "title": "Related rates",
+    "body": [
+     "When quantities that change together are linked by an equation, differentiate the equation with respect to time to link their rates. Substitute the specific values only after differentiating.",
+     "Steps: draw and label the situation, write an equation relating the quantities, differentiate implicitly in t, then substitute and solve."
+    ],
+    "points": [
+     "Use similar triangles to remove an extra variable (as in a cone).",
+     "Signs matter: a decreasing quantity has a negative rate.",
+     "Substituting numbers first freezes the variables and gives a rate of 0."
+    ]
+   },
+   {
+    "id": "s-b4-approx",
+    "topicId": "b4-approx",
+    "title": "Local linearity and L'Hospital's rule",
+    "body": [
+     "Near x = a, a differentiable function is close to its tangent line: f(x) ≈ f(a) + f′(a)(x − a). The approximation is an overestimate when f is concave down and an underestimate when f is concave up.",
+     "L'Hospital's rule: if lim f(x)/g(x) gives 0/0 or ∞/∞, then it equals lim f′(x)/g′(x) when that limit exists. Differentiate the top and bottom separately; you may need to apply it more than once."
+    ],
+    "points": [
+     "Check the form first; L'Hospital's rule doesn't apply to forms like 1/0.",
+     "Logarithms grow more slowly than any positive power of x.",
+     "Never use the quotient rule inside L'Hospital's rule."
+    ],
+    "equations": [
+     [
+      "f(x) ≈ f(a) + f′(a)(x − a)",
+      "local linear approximation"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A spherical balloon's radius grows at 0.5 cm/s. How fast is its volume growing when r = 6 cm?",
+   "solution": "V = (4/3)πr³, so dV/dt = 4πr² dr/dt = 4π(36)(0.5) = 72π ≈ 226 cm³/s."
+  },
+  "misconceptions": [
+   [
+    "“Negative velocity means slowing down.”",
+    "Slowing down depends on whether velocity and acceleration have opposite signs."
+   ],
+   [
+    "“Substitute values before differentiating.”",
+    "Substituting first turns changing quantities into constants, whose rates are 0."
+   ],
+   [
+    "“L'Hospital's rule uses the quotient rule.”",
+    "Differentiate the numerator and denominator separately."
+   ],
+   [
+    "“A tangent-line estimate is always too high.”",
+    "It overestimates only where the function is concave down."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+  "sourceTitle": "AP Calculus BC – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "cbc-u4-q01",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u4",
+   "topicId": "b4-rates",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "W(t) is the number of gallons of water in a tank t hours after noon. What does W′(3) = −12 mean?",
+   "choices": [
+    "The tank loses 12 gallons every 3 hours",
+    "At 3 p.m., the tank holds 12 gallons less than at noon",
+    "At 3 p.m., the amount of water is decreasing at 12 gallons per hour",
+    "At 3 p.m., the tank holds −12 gallons"
+   ],
+   "correctAnswer": 2,
+   "explanation": "W′(3) is the instantaneous rate of change at t = 3 (3 p.m.), in gallons per hour; the negative sign means the amount is decreasing.",
+   "choiceExplanations": [
+    "W′(3) is the rate at one instant, not an average over 3 hours.",
+    "That describes the total change W(3) − W(0), not the rate at 3 p.m.",
+    "",
+    "W′(3) is a rate, not the amount of water."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u4-q02",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u4",
+   "topicId": "b4-rates",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A particle moves along a line with position s(t) = t³ − 6t² + 9t for t ≥ 0. At what times is it at rest?",
+   "choices": [
+    "t = 2",
+    "t = 0, t = 1, and t = 3",
+    "t = 0 and t = 3",
+    "t = 1 and t = 3"
+   ],
+   "correctAnswer": 3,
+   "explanation": "v(t) = s′(t) = 3t² − 12t + 9 = 3(t − 1)(t − 3), which is 0 at t = 1 and t = 3.",
+   "choiceExplanations": [
+    "t = 2 is where the acceleration is 0.",
+    "At t = 0 the velocity is 9, so the particle is moving.",
+    "t = 0 and t = 3 are where the position is 0, not where the velocity is 0.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u4-q03",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u4",
+   "topicId": "b4-rates",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A particle's velocity is v(t) = t² − 4t + 3 for t ≥ 0. On which intervals is it speeding up?",
+   "choices": [
+    "1 < t < 3",
+    "1 < t < 2 and t > 3",
+    "t > 2 only",
+    "0 < t < 1 and t > 3"
+   ],
+   "correctAnswer": 1,
+   "explanation": "v(t) = (t − 1)(t − 3) and a(t) = 2t − 4. Speeding up needs v and a to have the same sign: on (1, 2) both are negative, and for t > 3 both are positive.",
+   "choiceExplanations": [
+    "On (2, 3) the signs differ, so the particle slows down there.",
+    "",
+    "For 2 < t < 3, v < 0 but a > 0, so the particle is slowing down there.",
+    "On (0, 1), v > 0 but a < 0, so it is slowing down."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u4-q04",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u4",
+   "topicId": "b4-related",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A circle's radius increases at 2 cm/s. How fast is its area increasing when the radius is 5 cm?",
+   "choices": [
+    "25π cm²/s",
+    "10π cm²/s",
+    "20π cm²/s",
+    "4π cm²/s"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A = πr², so dA/dt = 2πr · dr/dt = 2π(5)(2) = 20π cm²/s.",
+   "choiceExplanations": [
+    "25π is the area at r = 5, not its rate of change.",
+    "10π leaves out the factor dr/dt = 2.",
+    "",
+    "4π uses r = 1 instead of r = 5."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u4-q05",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u4",
+   "topicId": "b4-related",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 10 ft ladder leans against a wall. Its bottom slides away from the wall at 2 ft/s. How fast is the top sliding down when the bottom is 6 ft from the wall?",
+   "choices": [
+    "1.5 ft/s",
+    "2 ft/s",
+    "2.7 ft/s",
+    "1.2 ft/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "x² + y² = 100, so 2x·dx/dt + 2y·dy/dt = 0. When x = 6, y = 8, and dy/dt = −(6)(2)/8 = −1.5: the top slides down at 1.5 ft/s.",
+   "choiceExplanations": [
+    "",
+    "The top's speed differs from the bottom's because x and y change by different amounts.",
+    "2.7 ft/s uses the ratio y/x = 8/6 instead of x/y.",
+    "1.2 ft/s uses x/10 instead of x/y."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u4-q06",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u4",
+   "topicId": "b4-related",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Water flows at 3 m³/min into a cone-shaped tank with its vertex at the bottom. The tank's radius is always half its height. How fast is the water level rising when the water is 2 m deep?",
+   "choices": [
+    "12/π m/min",
+    "1/π m/min",
+    "3/(4π) m/min",
+    "3/π m/min"
+   ],
+   "correctAnswer": 3,
+   "explanation": "With r = h/2, V = (1/3)π(h/2)²h = πh³/12. Then dV/dt = (πh²/4) dh/dt. At h = 2: 3 = π · dh/dt, so dh/dt = 3/π ≈ 0.95 m/min.",
+   "choiceExplanations": [
+    "12/π leaves out the h² = 4 factor, as if h were 1.",
+    "1/π uses the cylinder volume πr²h, leaving out the cone's factor 1/3.",
+    "3/(4π) uses r = h instead of r = h/2.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u4-q07",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u4",
+   "topicId": "b4-approx",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Using the tangent line to f(x) = √x at x = 16, what is the approximate value of √16.2?",
+   "choices": [
+    "4.0125",
+    "4.2",
+    "4.025",
+    "4.05"
+   ],
+   "correctAnswer": 2,
+   "explanation": "f(16) = 4 and f′(x) = 1/(2√x), so f′(16) = 1/8. √16.2 ≈ 4 + (1/8)(0.2) = 4.025.",
+   "choiceExplanations": [
+    "4.0125 uses a slope of 1/16.",
+    "4.2 assumes the slope is 1.",
+    "",
+    "4.05 uses a slope of 1/4 instead of 1/8."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u4-q08",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u4",
+   "topicId": "b4-approx",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is lim x→0 (eˣ − 1 − x)/x²?",
+   "choices": [
+    "It does not exist",
+    "1",
+    "1/2",
+    "0"
+   ],
+   "correctAnswer": 2,
+   "explanation": "This is 0/0, so apply L'Hospital's rule: (eˣ − 1)/(2x), still 0/0. Again: eˣ/2 → 1/2.",
+   "choiceExplanations": [
+    "The limit exists; L'Hospital's rule twice gives 1/2.",
+    "1 stops after the first application and guesses; the second application gives 1/2.",
+    "",
+    "Substituting gives 0/0, which is indeterminate, not 0."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u4-q09",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u4",
+   "topicId": "b4-approx",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is lim x→∞ (ln x)/√x?",
+   "choices": [
+    "1",
+    "∞",
+    "0",
+    "2"
+   ],
+   "correctAnswer": 2,
+   "explanation": "This is ∞/∞. L'Hospital: (1/x)/(1/(2√x)) = 2√x/x = 2/√x → 0. Logarithms grow more slowly than any positive power of x.",
+   "choiceExplanations": [
+    "The ratio isn't 1; √x eventually dwarfs ln x.",
+    "Both grow without bound, but √x grows much faster than ln x.",
+    "",
+    "2 comes from stopping at 2√x/x without simplifying its limit."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "cbc-u4-q01",
+    "cbc-u4-q02",
+    "cbc-u4-q03",
+    "cbc-u4-q04",
+    "cbc-u4-q05",
+    "cbc-u4-q06",
+    "cbc-u4-q07",
+    "cbc-u4-q08"
+   ]
+  }
+ ]
+}

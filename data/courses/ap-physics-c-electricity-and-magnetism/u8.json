@@ -142,18 +142,18 @@
    "type": "multiple-choice",
    "prompt": "Two +3.0 μC point charges are 0.30 m apart. What is the electric force between them?",
    "choices": [
+    "0.90 N, attractive",
     "0.90 N, repulsive",
-    "0.27 N, repulsive",
     "0.081 N, repulsive",
-    "0.90 N, attractive"
+    "0.27 N, repulsive"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "F = k|q₁q₂|/r² = (9.0 × 10⁹)(3.0 × 10⁻⁶)²/(0.30)² = 0.081/0.090 = 0.90 N. Like charges repel.",
    "choiceExplanations": [
+    "Two positive charges repel each other; they don't attract.",
     "",
-    "0.27 N divides by r instead of r².",
     "0.081 N leaves out the division by r².",
-    "Two positive charges repel each other; they don't attract."
+    "0.27 N divides by r instead of r²."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -170,18 +170,18 @@
    "type": "multiple-choice",
    "prompt": "Charges of +4.0 nC and −4.0 nC are 0.20 m apart. What is the electric field at the midpoint between them?",
    "choices": [
-    "7200 N/C, pointing toward the negative charge",
-    "Zero, because the two fields cancel",
     "3600 N/C, pointing toward the negative charge",
-    "7200 N/C, pointing toward the positive charge"
+    "7200 N/C, pointing toward the negative charge",
+    "7200 N/C, pointing toward the positive charge",
+    "Zero, because the two fields cancel"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "Each charge is 0.10 m away and makes a field of (9.0 × 10⁹)(4.0 × 10⁻⁹)/(0.10)² = 3600 N/C. The positive charge's field points away from it and the negative charge's field points toward it, so at the midpoint both point toward the negative charge and add: 7200 N/C.",
    "choiceExplanations": [
-    "",
-    "The fields would cancel for two equal charges of the same sign; here they point the same way.",
     "3600 N/C is the field from one charge only.",
-    "Both fields point toward the negative charge, not toward the positive one."
+    "",
+    "Both fields point toward the negative charge, not toward the positive one.",
+    "The fields would cancel for two equal charges of the same sign; here they point the same way."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -198,18 +198,18 @@
    "type": "multiple-choice",
    "prompt": "A +q charge is at x = 0 and a +4q charge is at x = 0.30 m. At what point between them is the electric field zero?",
    "choices": [
+    "x = 0.06 m",
     "x = 0.10 m",
     "x = 0.15 m",
-    "x = 0.20 m",
-    "x = 0.06 m"
+    "x = 0.20 m"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "Between them the two fields point in opposite directions. Set kq/x² = k(4q)/(0.30 − x)², so (0.30 − x)² = 4x², 0.30 − x = 2x, and x = 0.10 m, closer to the smaller charge.",
    "choiceExplanations": [
+    "x = 0.06 m treats the field as falling off as 1/r instead of 1/r².",
     "",
     "The midpoint balances only equal charges.",
-    "x = 0.20 m is closer to the larger charge, where its field is stronger, so the fields can't cancel there.",
-    "x = 0.06 m treats the field as falling off as 1/r instead of 1/r²."
+    "x = 0.20 m is closer to the larger charge, where its field is stronger, so the fields can't cancel there."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -226,18 +226,18 @@
    "type": "multiple-choice",
    "prompt": "A very long straight line of charge has a linear charge density of 2.0 × 10⁻⁶ C/m. What is the size of the electric field 0.10 m from it? (k = 9.0 × 10⁹ N·m²/C²)",
    "choices": [
-    "3.6 × 10⁵ N/C",
-    "1.8 × 10⁵ N/C",
     "3.6 × 10⁶ N/C",
-    "1.8 × 10⁶ N/C"
+    "1.8 × 10⁵ N/C",
+    "1.8 × 10⁶ N/C",
+    "3.6 × 10⁵ N/C"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "For a long line of charge, E = 2kλ/r = 2(9.0 × 10⁹)(2.0 × 10⁻⁶)/0.10 = 3.6 × 10⁵ N/C.",
    "choiceExplanations": [
-    "",
-    "1.8 × 10⁵ N/C leaves out the factor 2 in 2kλ/r.",
     "3.6 × 10⁶ N/C divides by r², which is the point-charge form; a line's field falls off as 1/r.",
-    "1.8 × 10⁶ N/C both drops the factor 2 and divides by r²."
+    "1.8 × 10⁵ N/C leaves out the factor 2 in 2kλ/r.",
+    "1.8 × 10⁶ N/C both drops the factor 2 and divides by r².",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -255,17 +255,17 @@
    "prompt": "A thin rod of length L carries total charge Q spread uniformly along it. Which expression gives the electric field at a point on the rod's axis, a distance d beyond one end?",
    "choices": [
     "kQ/(d(d + L))",
-    "kQ/d²",
     "kQ/(d + L/2)²",
-    "kQ/(d + L)²"
+    "kQ/(d + L)²",
+    "kQ/d²"
    ],
    "correctAnswer": 0,
    "explanation": "With λ = Q/L, a slice dx at distance x from the point gives dE = kλ dx/x². Integrating from x = d to x = d + L: E = kλ(1/d − 1/(d + L)) = kλL/(d(d + L)) = kQ/(d(d + L)).",
    "choiceExplanations": [
     "",
-    "kQ/d² treats all the charge as if it sat at the near end.",
     "kQ/(d + L/2)² treats the rod as a point charge at its center, which is only approximately right far away.",
-    "kQ/(d + L)² treats all the charge as if it sat at the far end."
+    "kQ/(d + L)² treats all the charge as if it sat at the far end.",
+    "kQ/d² treats all the charge as if it sat at the near end."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -284,16 +284,16 @@
    "choices": [
     "It stays the same",
     "It is half as large",
-    "It is one quarter as large",
-    "It doubles"
+    "It doubles",
+    "It is one quarter as large"
    ],
    "correctAnswer": 0,
    "explanation": "A large uniform sheet has E = σ/(2ε₀), which doesn't depend on distance as long as you are close compared with the sheet's size.",
    "choiceExplanations": [
     "",
     "Halving with distance describes a long line of charge, not a sheet.",
-    "One quarter describes a point charge.",
-    "The field doesn't grow farther from the sheet."
+    "The field doesn't grow farther from the sheet.",
+    "One quarter describes a point charge."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -310,17 +310,17 @@
    "type": "multiple-choice",
    "prompt": "A closed surface of any shape surrounds a +5.0 nC charge. What is the net electric flux through it? (ε₀ = 8.85 × 10⁻¹² C²/(N·m²))",
    "choices": [
+    "About 4.4 × 10⁻²⁰ N·m²/C",
     "About 5.6 × 10² N·m²/C",
     "0",
-    "About 4.4 × 10⁻²⁰ N·m²/C",
     "It depends on the shape of the surface"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "Gauss's law: Φ = q_enc/ε₀ = (5.0 × 10⁻⁹)/(8.85 × 10⁻¹²) ≈ 565 N·m²/C, whatever the surface's shape.",
    "choiceExplanations": [
+    "4.4 × 10⁻²⁰ multiplies the charge by ε₀ instead of dividing.",
     "",
     "The flux is zero only when the surface encloses no net charge.",
-    "4.4 × 10⁻²⁰ multiplies the charge by ε₀ instead of dividing.",
     "Gauss's law gives the same net flux for any closed surface around the same charge."
    ],
    "sourceType": "original",
@@ -338,18 +338,18 @@
    "type": "multiple-choice",
    "prompt": "An insulating sphere of radius R has total charge Q spread uniformly through its volume. What is the electric field at a distance R/2 from its center?",
    "choices": [
-    "kQ/(2R²)",
-    "4kQ/R²",
     "kQ/R²",
-    "0"
+    "kQ/(2R²)",
+    "0",
+    "4kQ/R²"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "A Gaussian sphere of radius r = R/2 encloses Q(r/R)³ = Q/8. Then E(4πr²) = (Q/8)/ε₀, so E = k(Q/8)/(R/2)² = kQ/(2R²). In general, E = kQr/R³ inside.",
    "choiceExplanations": [
-    "",
-    "4kQ/R² treats all of Q as enclosed; only one eighth of it is inside r = R/2.",
     "kQ/R² is the field at the surface, r = R.",
-    "The field is zero inside a conductor, but this is an insulator with charge throughout."
+    "",
+    "The field is zero inside a conductor, but this is an insulator with charge throughout.",
+    "4kQ/R² treats all of Q as enclosed; only one eighth of it is inside r = R/2."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -366,18 +366,18 @@
    "type": "multiple-choice",
    "prompt": "A point charge sits just outside a closed cube. Which statement is true?",
    "choices": [
-    "The net flux through the cube is zero, but the field on the cube's faces is not zero",
+    "The net flux is negative because field lines leave the charge",
     "The net flux is zero because the field on every face is zero",
     "The net flux equals q/ε₀ because the charge is close to the cube",
-    "The net flux is negative because field lines leave the charge"
+    "The net flux through the cube is zero, but the field on the cube's faces is not zero"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "Gauss's law counts only enclosed charge, so the net flux is zero. Field lines from the outside charge enter the cube through some faces and leave through others, adding up to zero net flux even though the field on the faces is not zero.",
    "choiceExplanations": [
-    "",
+    "Every line that enters the cube also leaves it, so the net flux is zero, not negative.",
     "The charge's field does reach the cube; the flux in and the flux out simply cancel.",
     "Only enclosed charge contributes to the net flux, however close an outside charge is.",
-    "Every line that enters the cube also leaves it, so the net flux is zero, not negative."
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",

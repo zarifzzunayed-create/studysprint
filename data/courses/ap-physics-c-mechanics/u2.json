@@ -156,17 +156,17 @@
    "type": "multiple-choice",
    "prompt": "A 2.0 kg mass is at x = 0 and a 6.0 kg mass is at x = 4.0 m. Where is their center of mass?",
    "choices": [
+    "x = 1.0 m",
     "x = 3.0 m",
     "x = 2.0 m",
-    "x = 1.0 m",
     "x = 24 m"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "x_cm = (2.0 × 0 + 6.0 × 4.0)/(2.0 + 6.0) = 24/8.0 = 3.0 m, closer to the heavier mass.",
    "choiceExplanations": [
+    "1.0 m puts the center of mass nearer the lighter mass, as if the masses were swapped.",
     "",
     "2.0 m is the midpoint, which is the center of mass only for equal masses.",
-    "1.0 m puts the center of mass nearer the lighter mass, as if the masses were swapped.",
     "24 is Σmx; it must be divided by the total mass, 8.0 kg."
    ],
    "sourceType": "original",
@@ -184,18 +184,18 @@
    "type": "multiple-choice",
    "prompt": "A thin rod lies along the x-axis from x = 0 to x = L. Its linear mass density is λ = kx, where k is a constant. Where is its center of mass?",
    "choices": [
-    "x = 2L/3",
     "x = L/2",
+    "x = 3L/4",
     "x = L/3",
-    "x = 3L/4"
+    "x = 2L/3"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "x_cm = ∫x·λ dx / ∫λ dx = ∫₀ᴸ kx² dx / ∫₀ᴸ kx dx = (kL³/3)/(kL²/2) = 2L/3. More mass is near x = L, so the center of mass shifts that way.",
    "choiceExplanations": [
-    "",
     "L/2 is correct only for a uniform rod; here the density increases along the rod.",
+    "3L/4 is the result for a density proportional to x², not to x.",
     "L/3 would fit a rod whose density decreases along x, the reverse of this one.",
-    "3L/4 is the result for a density proportional to x², not to x."
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -212,18 +212,18 @@
    "type": "multiple-choice",
    "prompt": "A projectile explodes into two pieces at the top of its path. Ignoring air resistance, what path does the center of mass of the pieces follow after the explosion, until either piece lands?",
    "choices": [
-    "The same parabola the projectile was following",
-    "A straight line downward from the explosion point",
     "It stops moving, because the pieces fly apart in opposite directions",
-    "It depends on the masses of the pieces"
+    "A straight line downward from the explosion point",
+    "It depends on the masses of the pieces",
+    "The same parabola the projectile was following"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "The explosion forces are internal, so they do not change the center of mass's motion. The only external force is still gravity, so the center of mass keeps following the original parabola.",
    "choiceExplanations": [
-    "",
-    "The center of mass keeps its horizontal velocity, because no external horizontal force acts.",
     "Internal forces cannot stop the center of mass; its velocity changes only through external forces.",
-    "The masses decide where each piece goes, but not the path of the center of mass."
+    "The center of mass keeps its horizontal velocity, because no external horizontal force acts.",
+    "The masses decide where each piece goes, but not the path of the center of mass.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -242,16 +242,16 @@
    "choices": [
     "4.0 m/s²",
     "36 m/s²",
-    "0.25 m/s²",
-    "15 m/s²"
+    "15 m/s²",
+    "0.25 m/s²"
    ],
    "correctAnswer": 0,
    "explanation": "a = F_net/m = 12 N ÷ 3.0 kg = 4.0 m/s².",
    "choiceExplanations": [
     "",
     "36 multiplies force and mass; acceleration is force divided by mass.",
-    "0.25 is m/F, the ratio upside down.",
-    "15 adds the force and the mass, which have different units."
+    "15 adds the force and the mass, which have different units.",
+    "0.25 is m/F, the ratio upside down."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -270,16 +270,16 @@
    "choices": [
     "12 N",
     "20 N",
-    "8.0 N",
-    "30 N"
+    "30 N",
+    "8.0 N"
    ],
    "correctAnswer": 0,
    "explanation": "For the two-block system, the net force is the hanging weight, 20 N, so a = 20 ÷ 5.0 = 4.0 m/s². The string is the only horizontal force on the table block: T = (3.0)(4.0) = 12 N.",
    "choiceExplanations": [
     "",
     "20 N is the hanging block's weight; the tension is less because that block accelerates downward.",
-    "8.0 N is the net force on the hanging block, (2.0)(4.0), not the tension.",
-    "30 N is the weight of the block on the table, which is balanced by the normal force."
+    "30 N is the weight of the block on the table, which is balanced by the normal force.",
+    "8.0 N is the net force on the hanging block, (2.0)(4.0), not the tension."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -296,16 +296,16 @@
    "type": "multiple-choice",
    "prompt": "A large truck collides head-on with a small car. How do the forces they exert on each other compare during the collision?",
    "choices": [
-    "They are equal in size and opposite in direction",
     "The truck exerts the larger force",
+    "They are equal in size and opposite in direction",
     "The car exerts the larger force",
     "It depends on which one was moving faster"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "Newton's third law: the forces two objects exert on each other are always equal in size and opposite in direction. The car accelerates more because its mass is smaller, not because it feels a bigger force.",
    "choiceExplanations": [
-    "",
     "The truck's larger mass changes its acceleration, not the size of the force pair.",
+    "",
     "Third-law forces are equal; neither object exerts more on the other.",
     "Speed affects how large the force pair is, but the two forces are still equal to each other."
    ],
@@ -324,18 +324,18 @@
    "type": "multiple-choice",
    "prompt": "A 2.0 kg object falls through a fluid that exerts a resistive force of magnitude bv, with b = 4.0 N·s/m. What is its acceleration when its speed is 2.5 m/s? (g = 10 m/s²)",
    "choices": [
-    "5.0 m/s² downward",
+    "15 m/s² downward",
     "10 m/s² downward",
-    "0",
-    "15 m/s² downward"
+    "5.0 m/s² downward",
+    "0"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "Net force = mg − bv = 20 N − (4.0)(2.5) N = 10 N downward, so a = 10 N ÷ 2.0 kg = 5.0 m/s². (Its terminal speed is mg/b = 5.0 m/s.)",
    "choiceExplanations": [
-    "",
+    "15 m/s² adds the resistive force to the weight; it opposes the downward motion.",
     "10 m/s² ignores the resistive force, which is 10 N at this speed.",
-    "The acceleration is zero only at the terminal speed, mg/b = 5.0 m/s, not at 2.5 m/s.",
-    "15 m/s² adds the resistive force to the weight; it opposes the downward motion."
+    "",
+    "The acceleration is zero only at the terminal speed, mg/b = 5.0 m/s, not at 2.5 m/s."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -352,18 +352,18 @@
    "type": "multiple-choice",
    "prompt": "A 0.50 kg ball moves in a horizontal circle of radius 2.0 m at a constant 4.0 m/s. What net force acts on it?",
    "choices": [
-    "4.0 N toward the center",
-    "1.0 N toward the center",
+    "2.0 N toward the center",
     "16 N toward the center",
-    "2.0 N toward the center"
+    "1.0 N toward the center",
+    "4.0 N toward the center"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "F = mv²/r = (0.50)(4.0)²/2.0 = 4.0 N, directed toward the center of the circle.",
    "choiceExplanations": [
-    "",
-    "1.0 N is mv/r; the speed must be squared.",
+    "2.0 is mv, the momentum, not the force.",
     "16 N multiplies by r instead of dividing.",
-    "2.0 is mv, the momentum, not the force."
+    "1.0 N is mv/r; the speed must be squared.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -380,18 +380,18 @@
    "type": "multiple-choice",
    "prompt": "A car rounds a flat curve of radius 50 m. The coefficient of static friction between the tires and the road is 0.80. What is the maximum speed at which it can take the curve without sliding? (g = 10 m/s²)",
    "choices": [
-    "20 m/s",
-    "22 m/s",
     "25 m/s",
-    "400 m/s"
+    "400 m/s",
+    "20 m/s",
+    "22 m/s"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "Static friction supplies the centripetal force: μ_s mg = mv²/r, so v = √(μ_s g r) = √(0.80 × 10 × 50) = √400 = 20 m/s.",
    "choiceExplanations": [
-    "",
-    "22 m/s is √(gr), which leaves out the coefficient of friction.",
     "25 m/s divides by μ_s instead of multiplying.",
-    "400 is v²; the square root is still needed."
+    "400 is v²; the square root is still needed.",
+    "",
+    "22 m/s is √(gr), which leaves out the coefficient of friction."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -408,18 +408,18 @@
    "type": "multiple-choice",
    "prompt": "On Earth's surface, g = 9.8 m/s². What is the gravitational field strength at a height above the surface equal to Earth's radius?",
    "choices": [
-    "About 2.5 m/s²",
-    "4.9 m/s²",
+    "About 1.1 m/s²",
     "9.8 m/s²",
-    "About 1.1 m/s²"
+    "About 2.5 m/s²",
+    "4.9 m/s²"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "Field strength goes as 1/r², with r measured from Earth's center. At a height of one radius, r = 2R, so g = 9.8/2² ≈ 2.5 m/s².",
    "choiceExplanations": [
-    "",
-    "4.9 m/s² uses 1/r; gravity falls off as 1/r².",
+    "1.1 m/s² uses r = 3R; the distance from the center is R + R = 2R.",
     "Gravity weakens with distance from Earth's center.",
-    "1.1 m/s² uses r = 3R; the distance from the center is R + R = 2R."
+    "",
+    "4.9 m/s² uses 1/r; gravity falls off as 1/r²."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
@@ -436,18 +436,18 @@
    "type": "multiple-choice",
    "prompt": "Two satellites orbit Earth in circular orbits. Satellite B's orbital radius is four times satellite A's. How does B's orbital speed compare with A's?",
    "choices": [
-    "Half as fast",
+    "One sixteenth as fast",
     "One quarter as fast",
-    "Twice as fast",
-    "One sixteenth as fast"
+    "Half as fast",
+    "Twice as fast"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "Gravity supplies the centripetal force: GMm/r² = mv²/r, so v = √(GM/r). Four times the radius gives 1/√4 = 1/2 the speed.",
    "choiceExplanations": [
-    "",
+    "One sixteenth uses 1/r²; that is how the gravitational force changes, not the speed.",
     "One quarter would be true if v were proportional to 1/r; it goes as 1/√r.",
-    "A larger orbit is slower, not faster, because gravity is weaker there.",
-    "One sixteenth uses 1/r²; that is how the gravitational force changes, not the speed."
+    "",
+    "A larger orbit is slower, not faster, because gravity is weaker there."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",

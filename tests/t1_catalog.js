@@ -4,13 +4,15 @@ const fs = require('fs'), path = require('path');
 const CAT = JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'catalog.json')));
 const badge = c => (c.summary && c.summary.ready > 0 ? c.summary.ready + ' of ' + c.summary.units + ' units practice-ready' : c.outline ? 'Course outline available' : 'Catalog only');
 const outlineOnly = CAT.priorityOrder.map(id => CAT.courses.find(c => c.id === id)).find(c => c && c.outline && c.summary.ready === 0);
+// The course used to check that changing course swaps the unit list: an outline-only course while one exists, otherwise Calculus BC.
+const swapTo = outlineOnly || CAT.courses.find(c => c.id === 'ap-calculus-bc');
 (async () => {
   const b = await T.chromium.launch(); const p = await T.fresh(b);
   await p.fill('#c-search', 'calc');
   const opts = await p.$$eval('#c-list .opt', e => e.map(x => x.textContent));
   T.ok(opts.some(o => o.startsWith('AP Calculus AB') && o.includes('8 of 8 units practice-ready')), 'search "calc": Calculus AB shows 8 of 8 units practice-ready');
   const shown = CAT.courses.filter(c => opts.some(o => o.startsWith(c.name)));
-  T.ok(shown.length >= 3 && shown.every(c => opts.find(o => o.startsWith(c.name)).includes(badge(c))) && opts.some(o => o.startsWith('AP Calculus BC') && o.includes('Course outline available')), 'search "calc": every badge matches the built content status, and Calculus BC (scope not verified) stays outline-only');
+  T.ok(shown.length >= 3 && shown.every(c => opts.find(o => o.startsWith(c.name)).includes(badge(c))) && opts.some(o => o.startsWith('AP Calculus BC')), 'search "calc": every badge (Calculus AB, BC, Precalculus) matches the built content status');
   await p.fill('#c-search', 'stats');
   T.ok((await p.$$eval('#c-list .opt', e => e.map(x => x.textContent))).some(o => o.startsWith('AP Statistics')), 'Statistics is still in the catalog');
   await p.fill('#c-search', 'physics');
@@ -22,10 +24,11 @@ const outlineOnly = CAT.priorityOrder.map(id => CAT.courses.find(c => c.id === i
   await p.waitForFunction(() => document.querySelectorAll('#c-unit option').length > 3);
   const units = await p.$$eval('#c-unit option', e => e.map(x => x.textContent).slice(1));
   T.ok(units.length === 8 && units.every(u => u.endsWith('— Practice-ready · 1 practice test')) && units[0].startsWith('Unit 1: Limits and Continuity'), 'Calculus AB: all 8 official units listed as practice-ready, each with the 1 practice test its bank supports');
-  await p.fill('#c-search', outlineOnly.name); await p.keyboard.press('Enter');
-  await p.waitForFunction(() => document.querySelectorAll('#c-unit option').length > 3);
+  await p.fill('#c-search', swapTo.name); await p.keyboard.press('Enter');
+  await p.waitForFunction((n) => document.querySelectorAll('#c-unit option').length === n + 1, swapTo.summary.units);
   const pre = await p.$$eval('#c-unit option', e => e.map(x => x.textContent).slice(1));
-  T.ok(pre.every(u => u.endsWith('Course outline available; practice questions in progress')) && (await p.$eval('#c-unit', e => e.value)) === '', 'changing course swaps the unit list (' + outlineOnly.name + ', outline only) and clears the unit');
+  const want = outlineOnly ? (u => u.endsWith('Course outline available; practice questions in progress')) : (u => u.includes('— Practice-ready · 1 practice test'));
+  T.ok(pre.length === swapTo.summary.units && pre.every(want) && (await p.$eval('#c-unit', e => e.value)) === '', 'changing course swaps the unit list (' + swapTo.name + (outlineOnly ? ', outline only' : ', all units practice-ready') + ') and clears the unit');
   // Calculus AB unit views
   for (const uid of ['u1', 'u3', 'u8']) {
     await T.openUnit(p, 'AP Calculus AB', uid);

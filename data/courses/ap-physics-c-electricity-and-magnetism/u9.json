@@ -151,17 +151,17 @@
    "prompt": "What is the electric potential 0.30 m from a +2.0 nC point charge, taking V = 0 far away?",
    "choices": [
     "60 V",
-    "200 V",
     "18 V",
-    "−60 V"
+    "−60 V",
+    "200 V"
    ],
    "correctAnswer": 0,
    "explanation": "V = kq/r = (9.0 × 10⁹)(2.0 × 10⁻⁹)/0.30 = 18/0.30 = 60 V.",
    "choiceExplanations": [
     "",
-    "200 V divides by r²; potential goes as 1/r.",
     "18 V leaves out the division by r.",
-    "A positive charge makes a positive potential."
+    "A positive charge makes a positive potential.",
+    "200 V divides by r²; potential goes as 1/r."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -178,18 +178,18 @@
    "type": "multiple-choice",
    "prompt": "In a uniform electric field of 500 V/m, a point moves 0.040 m in the direction of the field. How does the potential change?",
    "choices": [
-    "It decreases by 20 V",
-    "It increases by 20 V",
     "It decreases by 12,500 V",
-    "It doesn't change"
+    "It decreases by 20 V",
+    "It doesn't change",
+    "It increases by 20 V"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "ΔV = −Ed = −(500 V/m)(0.040 m) = −20 V. Potential falls along the field direction.",
    "choiceExplanations": [
-    "",
-    "Moving along the field lowers the potential; moving against it raises it.",
     "12,500 divides E by d instead of multiplying.",
-    "Potential is constant only when moving perpendicular to the field."
+    "",
+    "Potential is constant only when moving perpendicular to the field.",
+    "Moving along the field lowers the potential; moving against it raises it."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -206,17 +206,17 @@
    "type": "multiple-choice",
    "prompt": "In a region, the electric potential is V(x) = 3x² − 2x volts, with x in meters. What is the electric field at x = 1.0 m?",
    "choices": [
-    "4.0 V/m in the −x direction",
     "4.0 V/m in the +x direction",
     "1.0 V/m in the +x direction",
+    "4.0 V/m in the −x direction",
     "6.0 V/m in the −x direction"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "E_x = −dV/dx = −(6x − 2). At x = 1.0 m, E_x = −4.0 V/m: magnitude 4.0 V/m, pointing in the −x direction.",
    "choiceExplanations": [
-    "",
     "The minus sign in E_x = −dV/dx matters: the field points toward decreasing potential.",
     "1.0 is V(1.0), the potential in volts, not the field.",
+    "",
     "6.0 is the second derivative of V, not the field."
    ],
    "sourceType": "original",
@@ -264,16 +264,16 @@
    "choices": [
     "kQ/√(z² + R²)",
     "kQ/z",
-    "kQ/(z² + R²)",
-    "kQz/(z² + R²)^(3/2)"
+    "kQz/(z² + R²)^(3/2)",
+    "kQ/(z² + R²)"
    ],
    "correctAnswer": 0,
    "explanation": "Every piece dq of the ring is the same distance √(z² + R²) from the point, so V = ∫k dq/√(z² + R²) = kQ/√(z² + R²). No components are needed because potential is a scalar.",
    "choiceExplanations": [
     "",
     "kQ/z ignores that the charge is spread around the ring, farther than z from the point.",
-    "kQ/(z² + R²) uses distance squared; potential goes as 1/distance.",
-    "kQz/(z² + R²)^(3/2) is the electric field on the axis, not the potential."
+    "kQz/(z² + R²)^(3/2) is the electric field on the axis, not the potential.",
+    "kQ/(z² + R²) uses distance squared; potential goes as 1/distance."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -290,18 +290,18 @@
    "type": "multiple-choice",
    "prompt": "Along the perpendicular bisector of an electric dipole (a +q and a −q a short distance apart), which statement is true?",
    "choices": [
+    "Neither the potential nor the field is zero along it",
     "The potential is zero everywhere along it, but the field is not",
     "The field is zero everywhere along it, but the potential is not",
-    "Both the potential and the field are zero along it",
-    "Neither the potential nor the field is zero along it"
+    "Both the potential and the field are zero along it"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "Every point on the bisector is equally far from +q and −q, so the potentials kq/r and −kq/r cancel: V = 0. The two field vectors don't cancel; they add to a field parallel to the dipole's axis, pointing from the + side toward the − side.",
    "choiceExplanations": [
+    "Equal distances make the potentials cancel exactly.",
     "",
     "This reverses the two: the potentials cancel, the fields don't.",
-    "The field components along the axis add rather than cancel.",
-    "Equal distances make the potentials cancel exactly."
+    "The field components along the axis add rather than cancel."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -318,18 +318,18 @@
    "type": "multiple-choice",
    "prompt": "An electron starts from rest and is accelerated through a potential difference of 1000 V. What kinetic energy does it gain? (e = 1.6 × 10⁻¹⁹ C)",
    "choices": [
-    "1.6 × 10⁻¹⁶ J",
-    "1000 J",
     "1.6 × 10⁻¹⁹ J",
-    "−1.6 × 10⁻¹⁶ J"
+    "−1.6 × 10⁻¹⁶ J",
+    "1.6 × 10⁻¹⁶ J",
+    "1000 J"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "ΔK = |q|ΔV = (1.6 × 10⁻¹⁹ C)(1000 V) = 1.6 × 10⁻¹⁶ J, which is 1000 eV.",
    "choiceExplanations": [
-    "",
-    "1000 J treats the electron's charge as 1 C.",
     "1.6 × 10⁻¹⁹ J is the energy gained through only 1 V.",
-    "Kinetic energy gained is positive; −1.6 × 10⁻¹⁶ J is the change in potential energy."
+    "Kinetic energy gained is positive; −1.6 × 10⁻¹⁶ J is the change in potential energy.",
+    "",
+    "1000 J treats the electron's charge as 1 C."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -346,18 +346,18 @@
    "type": "multiple-choice",
    "prompt": "Two protons are released from rest 1.0 × 10⁻¹⁰ m apart and fly apart. What kinetic energy does each have when they are very far apart? (k = 9.0 × 10⁹ N·m²/C², e = 1.6 × 10⁻¹⁹ C)",
    "choices": [
-    "About 1.2 × 10⁻¹⁸ J each",
-    "About 2.3 × 10⁻¹⁸ J each",
     "About 2.3 × 10⁻⁸ J each",
-    "0 J, because the total energy is zero"
+    "About 1.2 × 10⁻¹⁸ J each",
+    "0 J, because the total energy is zero",
+    "About 2.3 × 10⁻¹⁸ J each"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "The initial potential energy is ke²/r = (9.0 × 10⁹)(1.6 × 10⁻¹⁹)²/(1.0 × 10⁻¹⁰) ≈ 2.3 × 10⁻¹⁸ J. It all becomes kinetic energy. Momentum conservation gives the equal-mass protons equal speeds, so each gets half: about 1.2 × 10⁻¹⁸ J.",
    "choiceExplanations": [
-    "",
-    "2.3 × 10⁻¹⁸ J is the total; it is shared equally between the two protons.",
     "2.3 × 10⁻⁸ uses ke²/r², the form for force; potential energy goes as 1/r.",
-    "The total energy is positive: like charges start with positive potential energy, which becomes kinetic energy."
+    "",
+    "The total energy is positive: like charges start with positive potential energy, which becomes kinetic energy.",
+    "2.3 × 10⁻¹⁸ J is the total; it is shared equally between the two protons."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -374,18 +374,18 @@
    "type": "multiple-choice",
    "prompt": "How much work must be done to bring a +3.0 μC charge from very far away to a point where the electric potential is 400 V?",
    "choices": [
-    "1.2 × 10⁻³ J",
     "1.2 × 10³ J",
-    "7.5 × 10⁻⁹ J",
-    "400 J"
+    "1.2 × 10⁻³ J",
+    "400 J",
+    "7.5 × 10⁻⁹ J"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "W = qV = (3.0 × 10⁻⁶ C)(400 V) = 1.2 × 10⁻³ J.",
    "choiceExplanations": [
-    "",
     "1.2 × 10³ J ignores the micro prefix on 3.0 μC.",
-    "7.5 × 10⁻⁹ divides q by V instead of multiplying.",
-    "400 J treats the charge as 1 C."
+    "",
+    "400 J treats the charge as 1 C.",
+    "7.5 × 10⁻⁹ divides q by V instead of multiplying."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",

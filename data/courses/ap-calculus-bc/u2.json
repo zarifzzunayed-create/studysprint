@@ -1,0 +1,402 @@
+{
+ "courseId": "ap-calculus-bc",
+ "unitId": "u2",
+ "title": "Unit 2: Differentiation: Definition and Fundamental Properties",
+ "topics": [
+  {
+   "id": "b2-def",
+   "name": "The definition of the derivative",
+   "covers": [
+    "Defining the derivative of a function at a point and as a function"
+   ]
+  },
+  {
+   "id": "b2-diffcont",
+   "name": "Differentiability and continuity",
+   "covers": [
+    "Connecting differentiability and continuity"
+   ]
+  },
+  {
+   "id": "b2-rules",
+   "name": "Derivatives of elementary functions and differentiation rules",
+   "covers": [
+    "Determining derivatives for elementary functions",
+    "Applying differentiation rules"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Differentiation: definition and fundamental properties: review guide",
+  "intro": "The derivative is the instantaneous rate of change: the limit of average rates of change. This unit defines it, connects it to continuity, and builds the rules for differentiating sums, products, quotients, and elementary functions.",
+  "sections": [
+   {
+    "id": "s-b2-def",
+    "topicId": "b2-def",
+    "title": "The definition of the derivative",
+    "body": [
+     "f′(a) = lim h→0 (f(a + h) − f(a))/h: the slope of the tangent line at x = a, and the instantaneous rate of change. As a function, f′(x) uses the same limit at every x.",
+     "A difference quotient computed from a table or graph estimates the derivative. A symmetric difference, (f(a + h) − f(a − h))/(2h), is usually the better estimate."
+    ],
+    "points": [
+     "Recognize a limit as a derivative in disguise: lim h→0 ((2 + h)³ − 8)/h is f′(2) for f(x) = x³.",
+     "The derivative's units are output units per input unit.",
+     "Notations: f′(x), dy/dx, d/dx[f(x)]."
+    ],
+    "equations": [
+     [
+      "f′(a) = lim h→0 (f(a + h) − f(a))/h",
+      "definition of the derivative"
+     ]
+    ]
+   },
+   {
+    "id": "s-b2-diffcont",
+    "topicId": "b2-diffcont",
+    "title": "Differentiability and continuity",
+    "body": [
+     "If f is differentiable at a, it is continuous at a. The converse fails: a function can be continuous but not differentiable at a corner, a cusp, or a vertical tangent.",
+     "To make a piecewise function differentiable at a break point, make it continuous there (values match) and make the one-sided derivatives match (slopes match)."
+    ],
+    "points": [
+     "|x| is continuous but not differentiable at 0 (a corner).",
+     "A jump or a hole rules out differentiability.",
+     "Check the values first, then the slopes."
+    ]
+   },
+   {
+    "id": "s-b2-rules",
+    "topicId": "b2-rules",
+    "title": "Differentiation rules",
+    "body": [
+     "Power rule: d/dx xⁿ = nxⁿ⁻¹. Constant multiples and sums differentiate term by term. Product rule: (uv)′ = u′v + uv′. Quotient rule: (u/v)′ = (u′v − uv′)/v².",
+     "Elementary derivatives: (sin x)′ = cos x, (cos x)′ = −sin x, (tan x)′ = sec²x, (eˣ)′ = eˣ, (ln x)′ = 1/x, (aˣ)′ = aˣ ln a."
+    ],
+    "points": [
+     "Tangent line at x = a: y = f(a) + f′(a)(x − a).",
+     "Simplify before differentiating when you can.",
+     "The quotient rule's numerator starts with u′v (“low d-high minus high d-low”)."
+    ],
+    "equations": [
+     [
+      "(uv)′ = u′v + uv′",
+      "product rule"
+     ],
+     [
+      "(u/v)′ = (u′v − uv′)/v²",
+      "quotient rule"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Find the equation of the line tangent to f(x) = x² eˣ at x = 1.",
+   "solution": "f′(x) = 2x eˣ + x² eˣ = eˣ(x² + 2x), so f′(1) = 3e and f(1) = e. The tangent line is y = e + 3e(x − 1), or y = 3ex − 2e."
+  },
+  "misconceptions": [
+   [
+    "“Continuous means differentiable.”",
+    "Corners, cusps, and vertical tangents are continuous but not differentiable."
+   ],
+   [
+    "“(uv)′ = u′v′.”",
+    "The product rule is u′v + uv′."
+   ],
+   [
+    "“The derivative at a point is the average rate of change.”",
+    "It is the limit of average rates as the interval shrinks to zero."
+   ],
+   [
+    "“d/dx eˣ = xeˣ⁻¹.”",
+    "The power rule doesn't apply to exponentials; d/dx eˣ = eˣ."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+  "sourceTitle": "AP Calculus BC – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "cbc-u2-q01",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u2",
+   "topicId": "b2-def",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is lim h→0 ((2 + h)³ − 8)/h?",
+   "choices": [
+    "6",
+    "0",
+    "12",
+    "8"
+   ],
+   "correctAnswer": 2,
+   "explanation": "This is the definition of f′(2) for f(x) = x³. f′(x) = 3x², so f′(2) = 12.",
+   "choiceExplanations": [
+    "6 is 3 · 2, which forgets to square the 2 in 3x².",
+    "Substituting h = 0 gives 0/0, an indeterminate form, not 0.",
+    "",
+    "8 is f(2) = 2³, not the derivative."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u2-q02",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u2",
+   "topicId": "b2-def",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is lim h→0 (sin(π/2 + h) − 1)/h?",
+   "choices": [
+    "−1",
+    "It does not exist",
+    "1",
+    "0"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Since sin(π/2) = 1, this is the definition of the derivative of sin x at x = π/2, which is cos(π/2) = 0.",
+   "choiceExplanations": [
+    "−1 would be the derivative of cos x at π/2.",
+    "It is a derivative of a differentiable function, so the limit exists.",
+    "1 is sin(π/2), the function's value, not its derivative.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u2-q03",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u2",
+   "topicId": "b2-def",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A differentiable function has f(1.9) = 3.61 and f(2.1) = 4.41. Using these values, what is the best estimate of f′(2)?",
+   "choices": [
+    "8.0",
+    "0.80",
+    "4.0",
+    "2.0"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Use the symmetric difference quotient: (f(2.1) − f(1.9))/(2.1 − 1.9) = 0.80/0.20 = 4.0.",
+   "choiceExplanations": [
+    "8.0 divides 0.80 by 0.10, the half-width, instead of the full width 0.20.",
+    "0.80 is the change in f, not divided by the change in x.",
+    "",
+    "2.0 is the x-value, not the derivative."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u2-q04",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u2",
+   "topicId": "b2-diffcont",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which describes f(x) = |x − 1| at x = 1?",
+   "choices": [
+    "Neither continuous nor differentiable",
+    "Continuous but not differentiable",
+    "Differentiable but not continuous",
+    "Both continuous and differentiable"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The graph has no break at x = 1, so f is continuous. It has a corner there: the slope is −1 on the left and +1 on the right, so f′(1) doesn't exist.",
+   "choiceExplanations": [
+    "There is no break in the graph, so f is continuous.",
+    "",
+    "Differentiability always implies continuity, so this combination is impossible.",
+    "The left and right slopes disagree, so there is no derivative at the corner."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u2-q05",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u2",
+   "topicId": "b2-diffcont",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Let f(x) = ax² + b for x ≤ 1 and f(x) = 4x − 1 for x > 1. For which values of a and b is f differentiable at x = 1?",
+   "choices": [
+    "a = 2, b = 1",
+    "a = 4, b = −1",
+    "a = 1, b = 2",
+    "a = 2, b = 3"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Continuity: a + b = 4(1) − 1 = 3. Matching slopes: 2a(1) = 4, so a = 2. Then b = 3 − 2 = 1.",
+   "choiceExplanations": [
+    "",
+    "a = 4 matches the slope as if the left piece's derivative were a, not 2ax.",
+    "a = 1, b = 2 makes f continuous, but the left slope is 2, not 4.",
+    "b = 3 makes a + b = 5, so f would jump at x = 1."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u2-q06",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u2",
+   "topicId": "b2-rules",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx (5x⁴ − 3x + 7)?",
+   "choices": [
+    "20x³ − 3 + 7",
+    "20x³ − 3",
+    "x⁵ − (3/2)x² + 7x",
+    "5x³ − 3"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Differentiate term by term: 5 · 4x³ − 3 + 0 = 20x³ − 3.",
+   "choiceExplanations": [
+    "The derivative of a constant is 0, so the 7 disappears.",
+    "",
+    "This is an antiderivative (integral), not the derivative.",
+    "5x³ forgets to multiply by the exponent 4."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u2-q07",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u2",
+   "topicId": "b2-rules",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx (x² eˣ)?",
+   "choices": [
+    "eˣ(x² + 2x)",
+    "2x eˣ",
+    "2x eˣ + eˣ",
+    "x² eˣ"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Product rule: (x²)′eˣ + x²(eˣ)′ = 2x eˣ + x² eˣ = eˣ(x² + 2x).",
+   "choiceExplanations": [
+    "",
+    "2x eˣ differentiates only the x² factor and misses the x² eˣ term.",
+    "2x eˣ + eˣ replaces x² eˣ with eˣ in the second term.",
+    "x² eˣ differentiates only eˣ."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u2-q08",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u2",
+   "topicId": "b2-rules",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx (sin x / x)?",
+   "choices": [
+    "(x cos x + sin x)/x²",
+    "cos x",
+    "(sin x − x cos x)/x²",
+    "(x cos x − sin x)/x²"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Quotient rule: ((sin x)′ · x − sin x · (x)′)/x² = (x cos x − sin x)/x².",
+   "choiceExplanations": [
+    "The quotient rule subtracts the two terms; it doesn't add them.",
+    "cos x divides the derivatives, which isn't the quotient rule.",
+    "This reverses the order of subtraction in the numerator.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u2-q09",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u2",
+   "topicId": "b2-rules",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is the equation of the line tangent to y = ln x at x = e?",
+   "choices": [
+    "y = ex − e² + 1",
+    "y = x − e + 1",
+    "y = x/e",
+    "y = x/e + 1"
+   ],
+   "correctAnswer": 2,
+   "explanation": "At x = e, y = ln e = 1 and the slope is 1/e. So y − 1 = (1/e)(x − e), which simplifies to y = x/e.",
+   "choiceExplanations": [
+    "y = ex − e² + 1 uses slope e, the reciprocal of the correct slope.",
+    "y = x − e + 1 uses slope 1 instead of 1/e.",
+    "",
+    "y = x/e + 1 doesn't pass through (e, 1); it adds the y-value without subtracting (1/e)e."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "cbc-u2-q01",
+    "cbc-u2-q02",
+    "cbc-u2-q03",
+    "cbc-u2-q04",
+    "cbc-u2-q05",
+    "cbc-u2-q06",
+    "cbc-u2-q07",
+    "cbc-u2-q09"
+   ]
+  }
+ ]
+}

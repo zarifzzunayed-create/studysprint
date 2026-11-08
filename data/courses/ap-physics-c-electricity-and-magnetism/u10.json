@@ -139,18 +139,18 @@
    "type": "multiple-choice",
    "prompt": "A solid metal sphere carries excess charge and is in electrostatic equilibrium. What is the electric field inside the metal?",
    "choices": [
-    "Zero, and the excess charge sits on the outer surface",
-    "Zero, and the excess charge is spread evenly through the volume",
     "kQ/r², the same as outside",
-    "It points toward the center"
+    "Zero, and the excess charge is spread evenly through the volume",
+    "It points toward the center",
+    "Zero, and the excess charge sits on the outer surface"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "If there were a field inside, the free charges would keep moving. In equilibrium the field inside the metal is zero, and the excess charge pushes itself out to the surface.",
    "choiceExplanations": [
-    "",
-    "In a conductor the excess charge moves to the surface; spread through the volume would make a field inside.",
     "kQ/r² describes the field outside the sphere, not inside the metal.",
-    "Any field inside would move charges, so equilibrium requires no field there."
+    "In a conductor the excess charge moves to the surface; spread through the volume would make a field inside.",
+    "Any field inside would move charges, so equilibrium requires no field there.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -167,18 +167,18 @@
    "type": "multiple-choice",
    "prompt": "A thick, hollow conducting shell carries net charge +Q. A point charge +q is placed at the center of its cavity, not touching it. What charge ends up on the shell's inner and outer surfaces?",
    "choices": [
-    "Inner surface −q; outer surface Q + q",
     "Inner surface 0; outer surface Q",
-    "Inner surface +q; outer surface Q − q",
-    "Inner surface −Q; outer surface 2Q"
+    "Inner surface −Q; outer surface 2Q",
+    "Inner surface −q; outer surface Q + q",
+    "Inner surface +q; outer surface Q − q"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "The field inside the metal must be zero, so a Gaussian surface within the metal must enclose zero net charge: the inner surface carries −q. The shell's total is +Q, so the outer surface carries Q − (−q) = Q + q.",
    "choiceExplanations": [
-    "",
     "With no charge on the inner surface, the field from +q would reach into the metal.",
-    "The induced charge on the inner surface is opposite in sign to q.",
-    "The inner surface responds to the charge in the cavity, q, not to the shell's own charge Q."
+    "The inner surface responds to the charge in the cavity, q, not to the shell's own charge Q.",
+    "",
+    "The induced charge on the inner surface is opposite in sign to q."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -195,18 +195,18 @@
    "type": "multiple-choice",
    "prompt": "Two separated conducting spheres, of radii R and 2R, are connected by a long thin wire and share a total charge Q. Which sphere has the greater surface charge density?",
    "choices": [
-    "The smaller sphere, with twice the larger sphere's density",
     "They have equal surface charge densities",
     "The larger sphere, because it holds more charge",
-    "The smaller sphere, with four times the larger sphere's density"
+    "The smaller sphere, with four times the larger sphere's density",
+    "The smaller sphere, with twice the larger sphere's density"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "Connected spheres are at the same potential: kq₁/R = kq₂/(2R), so q₂ = 2q₁, giving q₁ = Q/3 and q₂ = 2Q/3. Densities: σ₁ = (Q/3)/(4πR²) and σ₂ = (2Q/3)/(16πR²) = (Q/6)/(4πR²). The smaller sphere's density is twice as large.",
    "choiceExplanations": [
-    "",
     "Equal potentials, not equal densities, are what the wire enforces.",
     "The larger sphere holds more charge, but over four times the area, so its density is lower.",
-    "Density goes as q/R², and q ∝ R, so σ ∝ 1/R: a factor of 2, not 4."
+    "Density goes as q/R², and q ∝ R, so σ ∝ 1/R: a factor of 2, not 4.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -223,18 +223,18 @@
    "type": "multiple-choice",
    "prompt": "A parallel-plate capacitor has plates of area 0.020 m² separated by 1.0 mm of air. What is its capacitance? (ε₀ = 8.85 × 10⁻¹² C²/(N·m²))",
    "choices": [
-    "About 1.8 × 10⁻¹⁰ F",
     "About 1.8 × 10⁻¹⁶ F",
-    "About 4.4 × 10⁻¹³ F",
-    "About 1.8 × 10⁻¹³ F"
+    "About 1.8 × 10⁻¹⁰ F",
+    "About 1.8 × 10⁻¹³ F",
+    "About 4.4 × 10⁻¹³ F"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "C = ε₀A/d = (8.85 × 10⁻¹²)(0.020)/(1.0 × 10⁻³) ≈ 1.8 × 10⁻¹⁰ F, about 180 pF.",
    "choiceExplanations": [
-    "",
     "1.8 × 10⁻¹⁶ multiplies by d instead of dividing.",
-    "4.4 × 10⁻¹³ uses d/A instead of A/d.",
-    "1.8 × 10⁻¹³ uses 1.0 m for the gap instead of 1.0 mm."
+    "",
+    "1.8 × 10⁻¹³ uses 1.0 m for the gap instead of 1.0 mm.",
+    "4.4 × 10⁻¹³ uses d/A instead of A/d."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -251,17 +251,17 @@
    "type": "multiple-choice",
    "prompt": "A 3.0 μF capacitor and a 6.0 μF capacitor are connected in series. What is their equivalent capacitance?",
    "choices": [
-    "2.0 μF",
     "9.0 μF",
     "4.5 μF",
+    "2.0 μF",
     "0.50 μF"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "In series, 1/C = 1/3.0 + 1/6.0 = 1/2.0, so C = 2.0 μF, less than either capacitor.",
    "choiceExplanations": [
-    "",
     "9.0 μF adds them, which is the rule for capacitors in parallel.",
     "4.5 μF is their average, which isn't a circuit rule.",
+    "",
     "0.50 is 1/C; it still has to be inverted."
    ],
    "sourceType": "original",
@@ -279,18 +279,18 @@
    "type": "multiple-choice",
    "prompt": "A charged parallel-plate capacitor is disconnected from its battery, and its plates are pulled twice as far apart. What happens to the energy it stores?",
    "choices": [
-    "It doubles",
     "It halves",
+    "It quadruples",
     "It stays the same",
-    "It quadruples"
+    "It doubles"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "Disconnected, its charge Q stays fixed. Doubling d halves C, and U = Q²/(2C) doubles. The extra energy comes from the work done pulling the attracting plates apart.",
    "choiceExplanations": [
-    "",
     "Halving happens if the battery stays connected, so that ΔV is fixed.",
+    "U depends on 1/C, which only doubles here.",
     "Changing C with Q fixed changes U = Q²/(2C).",
-    "U depends on 1/C, which only doubles here."
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -307,18 +307,18 @@
    "type": "multiple-choice",
    "prompt": "A parallel-plate capacitor stays connected to a battery while its plates are pulled twice as far apart. What happens to its charge and its stored energy?",
    "choices": [
-    "Both are cut in half",
-    "The charge stays the same and the energy doubles",
+    "The charge halves and the energy stays the same",
     "Both double",
-    "The charge halves and the energy stays the same"
+    "Both are cut in half",
+    "The charge stays the same and the energy doubles"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "Connected to the battery, ΔV stays fixed. Doubling d halves C, so Q = CΔV halves and U = ½C(ΔV)² halves. The battery takes back charge as the plates separate.",
    "choiceExplanations": [
-    "",
-    "That describes a disconnected capacitor, where Q is fixed.",
+    "U = ½C(ΔV)² halves along with C when ΔV is fixed.",
     "A smaller C at the same voltage holds less charge, not more.",
-    "U = ½C(ΔV)² halves along with C when ΔV is fixed."
+    "",
+    "That describes a disconnected capacitor, where Q is fixed."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -336,17 +336,17 @@
    "prompt": "An isolated, charged capacitor has its gap filled with a dielectric of constant κ = 3. What happens to the voltage across it?",
    "choices": [
     "It falls to one third",
-    "It triples",
+    "It falls to one ninth",
     "It stays the same",
-    "It falls to one ninth"
+    "It triples"
    ],
    "correctAnswer": 0,
    "explanation": "Isolated, Q stays fixed. The dielectric multiplies C by 3, so ΔV = Q/C becomes one third as large.",
    "choiceExplanations": [
     "",
-    "Voltage falls, because the same charge now sits on a larger capacitance.",
+    "C changes by κ, not κ², so the voltage falls by a factor of 3.",
     "ΔV stays the same only when a battery holds it fixed.",
-    "C changes by κ, not κ², so the voltage falls by a factor of 3."
+    "Voltage falls, because the same charge now sits on a larger capacitance."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -363,18 +363,18 @@
    "type": "multiple-choice",
    "prompt": "Why does inserting a dielectric between a capacitor's plates increase its capacitance?",
    "choices": [
-    "The dielectric's molecules polarize, partly cancelling the field, so the plates hold more charge at the same voltage",
+    "The dielectric increases the distance between the plates",
     "The dielectric conducts extra charge onto the plates",
-    "The dielectric makes the plates larger",
-    "The dielectric increases the distance between the plates"
+    "The dielectric's molecules polarize, partly cancelling the field, so the plates hold more charge at the same voltage",
+    "The dielectric makes the plates larger"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "In a field, the dielectric's molecules polarize, with their charges shifting slightly. That creates an opposing field inside, so for a given voltage the plates can hold more charge: C = κε₀A/d is larger.",
    "choiceExplanations": [
-    "",
+    "A larger gap would lower the capacitance, not raise it.",
     "A dielectric is an insulator; no charge flows through it.",
-    "The plate area doesn't change.",
-    "A larger gap would lower the capacitance, not raise it."
+    "",
+    "The plate area doesn't change."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",

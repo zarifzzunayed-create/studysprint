@@ -1,0 +1,488 @@
+{
+ "courseId": "ap-calculus-bc",
+ "unitId": "u10",
+ "title": "Unit 10: Infinite Sequences and Series",
+ "topics": [
+  {
+   "id": "b10-types",
+   "name": "Convergence and common series",
+   "covers": [
+    "Applying limits to understand convergence of infinite series",
+    "Types of series: Geometric, harmonic, and p-series"
+   ]
+  },
+  {
+   "id": "b10-tests",
+   "name": "Convergence tests and error bounds",
+   "covers": [
+    "A test for divergence and several tests for convergence",
+    "Approximating sums of convergent infinite series and associated error bounds"
+   ]
+  },
+  {
+   "id": "b10-taylor",
+   "name": "Power series and Taylor series",
+   "covers": [
+    "Determining the radius and interval of convergence for a series",
+    "Representing a function as a Taylor series or a Maclaurin series on an appropriate interval"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Infinite sequences and series: review guide",
+  "intro": "This BC-only unit asks when an infinite sum has a finite value, how to test it, how far a partial sum can be from the total, and how to write functions as power series.",
+  "sections": [
+   {
+    "id": "s-b10-types",
+    "topicId": "b10-types",
+    "title": "Convergence and common series",
+    "body": [
+     "A series Σaₙ converges if its partial sums Sₙ = a₁ + … + aₙ approach a finite limit; that limit is the sum.",
+     "Geometric series Σ arⁿ converge to a/(1 − r) (first term over 1 minus the ratio) when |r| < 1 and diverge otherwise. p-series Σ 1/nᵖ converge for p > 1 and diverge for p ≤ 1; the harmonic series Σ 1/n (p = 1) diverges."
+    ],
+    "points": [
+     "The first term matters in a/(1 − r): start counting from the series' actual first term.",
+     "Σ 1/√n is a p-series with p = 1/2, so it diverges.",
+     "A sequence converging is different from its series converging."
+    ],
+    "equations": [
+     [
+      "Σ arⁿ = a/(1 − r), |r| < 1",
+      "geometric series"
+     ]
+    ]
+   },
+   {
+    "id": "s-b10-tests",
+    "topicId": "b10-tests",
+    "title": "Convergence tests and error bounds",
+    "body": [
+     "nth-term test: if aₙ doesn't approach 0, the series diverges. (If aₙ → 0, the test says nothing.) Other tests: integral, comparison and limit comparison, alternating series, and ratio (L = lim |aₙ₊₁/aₙ|; converges if L < 1, diverges if L > 1, inconclusive if L = 1).",
+     "A series converges absolutely if Σ|aₙ| converges, and conditionally if it converges but Σ|aₙ| doesn't. For an alternating series that meets the test's conditions, the error after n terms is at most the first omitted term. The Lagrange error bound for a Taylor polynomial of degree n is M|x − a|ⁿ⁺¹/(n + 1)!, where M bounds |f⁽ⁿ⁺¹⁾| on the interval."
+    ],
+    "points": [
+     "The nth-term test can prove divergence but never convergence.",
+     "Use the ratio test for factorials and exponentials.",
+     "The alternating series error bound uses the next term after the last one you used."
+    ]
+   },
+   {
+    "id": "s-b10-taylor",
+    "topicId": "b10-taylor",
+    "title": "Power series and Taylor series",
+    "body": [
+     "A power series Σ cₙ(x − a)ⁿ converges on an interval centered at a with radius R, which the ratio test usually finds. Check each endpoint separately; it can converge at both, either, or neither.",
+     "The Taylor series of f about x = a is Σ f⁽ⁿ⁾(a)(x − a)ⁿ/n!; a Maclaurin series has a = 0. Know eˣ = Σ xⁿ/n!, sin x = x − x³/3! + x⁵/5! − …, cos x = 1 − x²/2! + x⁴/4! − …, and 1/(1 − x) = Σ xⁿ for |x| < 1. Build new series by substituting, multiplying, differentiating, or integrating these."
+    ],
+    "points": [
+     "Each Taylor coefficient is f⁽ⁿ⁾(a)/n!; don't forget the factorial.",
+     "Substituting −x² into 1/(1 − x) gives 1/(1 + x²) on |x| < 1.",
+     "Differentiating or integrating a power series keeps the radius but may change endpoint behavior."
+    ],
+    "equations": [
+     [
+      "f(x) = Σ f⁽ⁿ⁾(a)(x − a)ⁿ / n!",
+      "Taylor series"
+     ],
+     [
+      "|error| ≤ M|x − a|ⁿ⁺¹/(n + 1)!",
+      "Lagrange error bound"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Find the interval of convergence of Σ (from n = 1) xⁿ/(n·2ⁿ).",
+   "solution": "Ratio test: |x|·n/(2(n + 1)) → |x|/2 < 1, so R = 2. At x = 2 the series is Σ 1/n (harmonic), which diverges. At x = −2 it is Σ (−1)ⁿ/n, which converges by the alternating series test. The interval is [−2, 2)."
+  },
+  "misconceptions": [
+   [
+    "“If aₙ → 0, the series converges.”",
+    "The harmonic series has aₙ → 0 and diverges."
+   ],
+   [
+    "“The ratio test decides every series.”",
+    "When L = 1 it is inconclusive; use another test."
+   ],
+   [
+    "“The interval of convergence is always open.”",
+    "Check each endpoint; it may be included."
+   ],
+   [
+    "“Taylor coefficients are just the derivatives.”",
+    "Divide each derivative by n!."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+  "sourceTitle": "AP Calculus BC – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "cbc-u10-q01",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u10",
+   "topicId": "b10-types",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the sum of the geometric series 6 + 2 + 2/3 + 2/9 + …?",
+   "choices": [
+    "It diverges",
+    "9",
+    "26/3",
+    "4.5"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The first term is 6 and the ratio is 1/3, so the sum is 6/(1 − 1/3) = 9.",
+   "choiceExplanations": [
+    "|r| = 1/3 < 1, so the series converges.",
+    "",
+    "26/3 is only the sum of the first three terms.",
+    "4.5 uses 1 + r instead of 1 − r in the denominator."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u10-q02",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u10",
+   "topicId": "b10-types",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which series converges?",
+   "choices": [
+    "Σ (1.01)ⁿ",
+    "Σ 1/√n",
+    "Σ 1/n^(3/2)",
+    "Σ 1/n"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Σ 1/n^(3/2) is a p-series with p = 3/2 > 1, so it converges.",
+   "choiceExplanations": [
+    "Σ (1.01)ⁿ is geometric with r = 1.01 > 1, so it diverges.",
+    "Σ 1/√n is a p-series with p = 1/2 ≤ 1, so it diverges.",
+    "",
+    "Σ 1/n is the harmonic series, which diverges."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u10-q03",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u10",
+   "topicId": "b10-tests",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What does the nth-term test tell you about Σ n/(2n + 1)?",
+   "choices": [
+    "It converges, because the terms approach a finite number",
+    "The test is inconclusive",
+    "It converges to 1/2",
+    "It diverges, because the terms approach 1/2, not 0"
+   ],
+   "correctAnswer": 3,
+   "explanation": "lim n→∞ n/(2n + 1) = 1/2 ≠ 0, so the series diverges: it keeps adding about 1/2.",
+   "choiceExplanations": [
+    "A series can converge only if its terms approach 0.",
+    "The test is inconclusive only when the terms approach 0.",
+    "1/2 is the limit of the terms, not the sum; adding about 1/2 forever grows without bound.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u10-q04",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u10",
+   "topicId": "b10-tests",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Using the ratio test, what can you conclude about Σ n²/3ⁿ?",
+   "choices": [
+    "It diverges, because the limit of the ratio is 3",
+    "It converges, because the limit of the ratio is 1/3",
+    "It diverges, because n² grows without bound",
+    "The test is inconclusive, because the limit is 1"
+   ],
+   "correctAnswer": 1,
+   "explanation": "aₙ₊₁/aₙ = ((n + 1)²/n²)·(1/3) → 1/3 < 1, so the series converges.",
+   "choiceExplanations": [
+    "The ratio is inverted: aₙ₊₁/aₙ has 3ⁿ⁺¹ in the denominator.",
+    "",
+    "3ⁿ grows much faster than n², so the terms approach 0.",
+    "(n + 1)²/n² → 1, but the factor 1/3 remains."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u10-q05",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u10",
+   "topicId": "b10-tests",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The sum S of Σ (from n = 1) (−1)ⁿ⁺¹/n² is approximated by its first four terms. What bound does the alternating series error bound give for the error?",
+   "choices": [
+    "1/25",
+    "1/125",
+    "1/16",
+    "1/5"
+   ],
+   "correctAnswer": 0,
+   "explanation": "For an alternating series with decreasing terms approaching 0, the error is at most the first omitted term: 1/5² = 1/25.",
+   "choiceExplanations": [
+    "",
+    "1/125 cubes n instead of squaring it.",
+    "1/16 is the fourth term, the last one used, not the first one left out.",
+    "1/5 forgets to square n."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u10-q06",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u10",
+   "topicId": "b10-tests",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How does Σ (from n = 1) (−1)ⁿ/n behave?",
+   "choices": [
+    "It diverges by the nth-term test",
+    "It converges absolutely",
+    "It converges conditionally",
+    "It diverges, because Σ 1/n diverges"
+   ],
+   "correctAnswer": 2,
+   "explanation": "It converges by the alternating series test (1/n decreases to 0), but Σ |(−1)ⁿ/n| = Σ 1/n diverges. So it converges conditionally.",
+   "choiceExplanations": [
+    "The terms approach 0, so the nth-term test is inconclusive.",
+    "Absolute convergence would need Σ 1/n to converge, and it doesn't.",
+    "",
+    "The divergence of Σ 1/n rules out absolute convergence, not convergence."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u10-q07",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u10",
+   "topicId": "b10-taylor",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which is the Maclaurin series for eˣ?",
+   "choices": [
+    "1 + x + x²/2! + x³/3! + …",
+    "1 − x²/2! + x⁴/4! − …",
+    "1 + x + x² + x³ + …",
+    "x − x³/3! + x⁵/5! − …"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Every derivative of eˣ equals 1 at x = 0, so each coefficient is 1/n!.",
+   "choiceExplanations": [
+    "",
+    "1 − x²/2! + … is the series for cos x.",
+    "1 + x + x² + … is the series for 1/(1 − x).",
+    "x − x³/3! + … is the series for sin x."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u10-q08",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u10",
+   "topicId": "b10-taylor",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A function has f(1) = 3, f′(1) = −2, and f″(1) = 4. What is its second-degree Taylor polynomial about x = 1?",
+   "choices": [
+    "3 − 2(x − 1) + 2(x − 1)²",
+    "3 − 2(x − 1) + 4(x − 1)²",
+    "3 + 2(x − 1) + 2(x − 1)²",
+    "3 − 2x + 2x²"
+   ],
+   "correctAnswer": 0,
+   "explanation": "P₂(x) = f(1) + f′(1)(x − 1) + (f″(1)/2!)(x − 1)² = 3 − 2(x − 1) + 2(x − 1)².",
+   "choiceExplanations": [
+    "",
+    "This forgets to divide f″(1) by 2!.",
+    "This drops the sign of f′(1) = −2.",
+    "This centers the polynomial at 0 instead of 1."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u10-q09",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u10",
+   "topicId": "b10-taylor",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the interval of convergence of Σ (x − 2)ⁿ/3ⁿ?",
+   "choices": [
+    "(−3, 3)",
+    "(−1, 5)",
+    "(−1, 5]",
+    "[−1, 5]"
+   ],
+   "correctAnswer": 1,
+   "explanation": "It's geometric with ratio (x − 2)/3, so it converges when |x − 2| < 3: −1 < x < 5. At both endpoints the terms have absolute value 1, so it diverges there.",
+   "choiceExplanations": [
+    "(−3, 3) is centered at 0, but the series is centered at x = 2.",
+    "",
+    "At x = 5 the series is Σ 1, which diverges.",
+    "At x = 5 the series is Σ 1 and at x = −1 it is Σ (−1)ⁿ; both diverge."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u10-q10",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u10",
+   "topicId": "b10-taylor",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is the interval of convergence of Σ (from n = 1) xⁿ/n?",
+   "choices": [
+    "[−1, 1)",
+    "[−1, 1]",
+    "(−1, 1]",
+    "(−1, 1)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The ratio test gives R = 1. At x = 1 the series is Σ 1/n, which diverges. At x = −1 it is Σ (−1)ⁿ/n, which converges by the alternating series test.",
+   "choiceExplanations": [
+    "",
+    "x = 1 gives the harmonic series, which diverges.",
+    "This reverses the endpoints: x = 1 diverges and x = −1 converges.",
+    "The endpoint x = −1 is included: Σ (−1)ⁿ/n converges."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u10-q11",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u10",
+   "topicId": "b10-taylor",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Using the series for 1/(1 − x), what is the Maclaurin series for 1/(1 + x²)?",
+   "choices": [
+    "1 − x² + x⁴ − x⁶ + …",
+    "1 − x + x² − x³ + …",
+    "x − x³/3 + x⁵/5 − …",
+    "1 + x² + x⁴ + x⁶ + …"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Replace x with −x² in 1 + x + x² + …: 1 − x² + x⁴ − x⁶ + …, valid for |x| < 1.",
+   "choiceExplanations": [
+    "",
+    "This substitutes −x and gives 1/(1 + x).",
+    "This is the series for arctan x, the antiderivative of 1/(1 + x²).",
+    "This substitutes x², not −x², and gives 1/(1 − x²)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u10-q12",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u10",
+   "topicId": "b10-tests",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The second-degree Maclaurin polynomial for eˣ is used to approximate e^0.2. Given that |f‴(x)| ≤ 1.3 on [0, 0.2], what is the Lagrange error bound?",
+   "choices": [
+    "About 0.0052",
+    "About 0.0104",
+    "About 0.0087",
+    "About 0.0017"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The bound is M·x³/3! = 1.3(0.2)³/6 = 1.3(0.008)/6 ≈ 0.0017.",
+   "choiceExplanations": [
+    "0.0052 divides by 2! instead of 3!.",
+    "0.0104 leaves out the 3! in the denominator.",
+    "0.0087 uses (0.2)² instead of (0.2)³.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "cbc-u10-q01",
+    "cbc-u10-q02",
+    "cbc-u10-q03",
+    "cbc-u10-q04",
+    "cbc-u10-q06",
+    "cbc-u10-q07",
+    "cbc-u10-q08",
+    "cbc-u10-q10"
+   ]
+  }
+ ]
+}

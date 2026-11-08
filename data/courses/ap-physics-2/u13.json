@@ -144,17 +144,17 @@
    "prompt": "A light ray strikes a flat mirror at 35° from the normal. At what angle from the normal does it reflect?",
    "choices": [
     "35°",
-    "55°",
+    "145°",
     "70°",
-    "145°"
+    "55°"
    ],
    "correctAnswer": 0,
    "explanation": "The law of reflection: the angle of reflection equals the angle of incidence, both measured from the normal. So the ray reflects at 35°.",
    "choiceExplanations": [
     "",
-    "55° is the angle from the mirror's surface; both angles are measured from the normal.",
+    "145° is 180° − 35°; the reflected ray leaves at the same angle from the normal as it arrived.",
     "70° is the angle between the incoming and reflected rays, not the angle of reflection.",
-    "145° is 180° − 35°; the reflected ray leaves at the same angle from the normal as it arrived."
+    "55° is the angle from the mirror's surface; both angles are measured from the normal."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -172,16 +172,16 @@
    "prompt": "Light in air (n = 1.00) strikes a glass surface (n = 1.50) at 60° from the normal. At about what angle from the normal does it travel in the glass?",
    "choices": [
     "35°",
-    "40°",
     "60°",
+    "40°",
     "55°"
    ],
    "correctAnswer": 0,
    "explanation": "Snell's law: sin θ₂ = (1.00)(sin 60°)/1.50 = 0.866/1.50 = 0.577, so θ₂ ≈ 35°. The light bends toward the normal as it slows down.",
    "choiceExplanations": [
     "",
-    "40° divides the angle itself by 1.50; Snell's law relates the sines of the angles.",
     "60° would mean no bending, but light changes direction when it changes speed.",
+    "40° divides the angle itself by 1.50; Snell's law relates the sines of the angles.",
     "55° is the angle from the surface (90° − 35°); angles are measured from the normal."
    ],
    "sourceType": "original",
@@ -201,16 +201,16 @@
    "choices": [
     "2.3 × 10⁸ m/s",
     "4.0 × 10⁸ m/s",
-    "3.0 × 10⁸ m/s",
-    "4.4 × 10⁻⁹ m/s"
+    "4.4 × 10⁻⁹ m/s",
+    "3.0 × 10⁸ m/s"
    ],
    "correctAnswer": 0,
    "explanation": "n = c/v, so v = c/n = (3.0 × 10⁸ m/s)/1.33 ≈ 2.3 × 10⁸ m/s.",
    "choiceExplanations": [
     "",
     "4.0 × 10⁸ m/s multiplies by n; light is slower in water, not faster.",
-    "3.0 × 10⁸ m/s is the speed in a vacuum; an index above 1 means light is slower.",
-    "4.4 × 10⁻⁹ is n/c, the ratio upside down."
+    "4.4 × 10⁻⁹ is n/c, the ratio upside down.",
+    "3.0 × 10⁸ m/s is the speed in a vacuum; an index above 1 means light is slower."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -228,17 +228,17 @@
    "prompt": "Light inside a block of glass (n = 1.50) meets the glass–air boundary at 45° from the normal. What happens?",
    "choices": [
     "It is totally reflected back into the glass, because 45° is larger than the critical angle of about 42°",
+    "It passes straight into the air without bending",
     "It passes into the air, bending toward the normal",
-    "It passes into the air, bending away from the normal, at about 64°",
-    "It passes straight into the air without bending"
+    "It passes into the air, bending away from the normal, at about 64°"
    ],
    "correctAnswer": 0,
    "explanation": "The critical angle is given by sin θ_c = 1.00/1.50, so θ_c ≈ 41.8°. Since 45° is larger, Snell's law would need sin θ₂ = 1.50 × sin 45° ≈ 1.06, which is impossible, so all the light reflects.",
    "choiceExplanations": [
     "",
+    "Light bends at any boundary it meets at an angle; here, beyond the critical angle, none of it leaves.",
     "Going into air (smaller n), light would bend away from the normal, and here it cannot leave at all.",
-    "No refracted angle exists: 1.50 × sin 45° ≈ 1.06 is greater than 1, so no light leaves the glass.",
-    "Light bends at any boundary it meets at an angle; here, beyond the critical angle, none of it leaves."
+    "No refracted angle exists: 1.50 × sin 45° ≈ 1.06 is greater than 1, so no light leaves the glass."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -255,17 +255,17 @@
    "type": "multiple-choice",
    "prompt": "Why does a leaf look green in white light?",
    "choices": [
-    "It absorbs most other colors and reflects mostly green light",
-    "It absorbs mostly green light and reflects the rest",
     "It creates green light from the white light",
+    "It absorbs mostly green light and reflects the rest",
+    "It absorbs most other colors and reflects mostly green light",
     "It slows green light down more than other colors"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "White light contains all colors. The leaf absorbs much of the red and blue light and reflects mostly green, so green light reaches your eyes.",
    "choiceExplanations": [
-    "",
-    "The color you see is the light that is reflected, not the light that is absorbed.",
     "The leaf does not create light; it removes some colors from the white light by absorbing them.",
+    "The color you see is the light that is reflected, not the light that is absorbed.",
+    "",
     "The leaf's color comes from absorption and reflection, not from light slowing down inside it."
    ],
    "sourceType": "original",
@@ -283,18 +283,18 @@
    "type": "multiple-choice",
    "prompt": "You stand 2.0 m in front of a flat (plane) mirror. Where is your image, and what is it like?",
    "choices": [
-    "2.0 m behind the mirror: virtual, upright, and the same size",
-    "On the surface of the mirror: virtual and upright",
     "2.0 m in front of the mirror: real and inverted",
-    "4.0 m behind the mirror: virtual and half the size"
+    "4.0 m behind the mirror: virtual and half the size",
+    "2.0 m behind the mirror: virtual, upright, and the same size",
+    "On the surface of the mirror: virtual and upright"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "A plane mirror forms a virtual image as far behind the mirror as the object is in front, upright and the same size.",
    "choiceExplanations": [
-    "",
-    "The image appears behind the mirror, not on its surface.",
     "A plane mirror cannot form a real image; reflected rays only appear to come from behind it.",
-    "4.0 m is the distance from you to your image; the image is 2.0 m behind the mirror and the same size as you."
+    "4.0 m is the distance from you to your image; the image is 2.0 m behind the mirror and the same size as you.",
+    "",
+    "The image appears behind the mirror, not on its surface."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -311,18 +311,18 @@
    "type": "multiple-choice",
    "prompt": "An object is 30 cm in front of a concave mirror with a focal length of 10 cm. Where is the image, and what is it like?",
    "choices": [
-    "15 cm in front of the mirror: real, inverted, and half the size",
-    "15 cm behind the mirror: virtual, upright, and half the size",
     "7.5 cm in front of the mirror: real and inverted",
-    "20 cm in front of the mirror: real and inverted"
+    "20 cm in front of the mirror: real and inverted",
+    "15 cm in front of the mirror: real, inverted, and half the size",
+    "15 cm behind the mirror: virtual, upright, and half the size"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "1/s_i = 1/10 − 1/30 = 2/30, so s_i = +15 cm: a real image in front of the mirror. M = −15/30 = −0.5, so it is inverted and half the size.",
    "choiceExplanations": [
-    "",
-    "A positive image distance means the image is in front of the mirror, where it is real; virtual images have negative s_i.",
     "7.5 cm adds 1/10 + 1/30 instead of subtracting 1/30.",
-    "20 cm subtracts the distances (30 − 10); the mirror equation uses reciprocals."
+    "20 cm subtracts the distances (30 − 10); the mirror equation uses reciprocals.",
+    "",
+    "A positive image distance means the image is in front of the mirror, where it is real; virtual images have negative s_i."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -339,18 +339,18 @@
    "type": "multiple-choice",
    "prompt": "An object is 20 cm in front of a convex mirror with a focal length of −20 cm. Where is the image, and what is it like?",
    "choices": [
-    "10 cm behind the mirror: virtual, upright, and half the size",
-    "No image forms, because the object is at the focal length",
+    "20 cm behind the mirror: virtual, upright, and the same size",
     "10 cm in front of the mirror: real and inverted",
-    "20 cm behind the mirror: virtual, upright, and the same size"
+    "No image forms, because the object is at the focal length",
+    "10 cm behind the mirror: virtual, upright, and half the size"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "1/s_i = 1/f − 1/s_o = −1/20 − 1/20 = −1/10, so s_i = −10 cm: a virtual image 10 cm behind the mirror. M = −(−10)/20 = +0.5: upright and half the size.",
    "choiceExplanations": [
-    "",
-    "That happens for a concave mirror with the object at its focal point. A convex mirror's focal point is behind it, so an image always forms.",
+    "Same distance and same size describes a plane mirror; a convex mirror makes images smaller and closer.",
     "A convex mirror always forms a virtual image; the negative s_i puts it behind the mirror.",
-    "Same distance and same size describes a plane mirror; a convex mirror makes images smaller and closer."
+    "That happens for a concave mirror with the object at its focal point. A convex mirror's focal point is behind it, so an image always forms.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -367,18 +367,18 @@
    "type": "multiple-choice",
    "prompt": "An object is 3.0 cm from a converging lens with a focal length of 5.0 cm, as with a magnifying glass. What image forms?",
    "choices": [
-    "A virtual, upright image 2.5 times as tall, 7.5 cm from the lens on the object's side",
-    "A real, inverted image 7.5 cm from the lens on the other side",
     "A real image 1.9 cm from the lens",
-    "No image, because the object is inside the focal length"
+    "No image, because the object is inside the focal length",
+    "A virtual, upright image 2.5 times as tall, 7.5 cm from the lens on the object's side",
+    "A real, inverted image 7.5 cm from the lens on the other side"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "1/s_i = 1/5.0 − 1/3.0 = −2/15, so s_i = −7.5 cm: a virtual image on the same side as the object. M = −(−7.5)/3.0 = +2.5: upright and 2.5 times as tall.",
    "choiceExplanations": [
-    "",
-    "The negative image distance means the image is virtual and on the object's side, not real on the far side.",
     "1.9 cm adds 1/5.0 + 1/3.0 instead of subtracting.",
-    "An object inside the focal length gives a virtual, enlarged image; that is how a magnifying glass works."
+    "An object inside the focal length gives a virtual, enlarged image; that is how a magnifying glass works.",
+    "",
+    "The negative image distance means the image is virtual and on the object's side, not real on the far side."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -423,18 +423,18 @@
    "type": "multiple-choice",
    "prompt": "An object is 30 cm from a diverging lens with a focal length of −15 cm. What image forms?",
    "choices": [
-    "A virtual, upright image one third as tall, 10 cm from the lens on the object's side",
-    "A real, inverted image 30 cm from the lens",
+    "No image, because a diverging lens spreads the light out",
     "A virtual, upright image three times as tall",
-    "No image, because a diverging lens spreads the light out"
+    "A real, inverted image 30 cm from the lens",
+    "A virtual, upright image one third as tall, 10 cm from the lens on the object's side"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "1/s_i = −1/15 − 1/30 = −3/30, so s_i = −10 cm: a virtual image on the object's side. M = −(−10)/30 = +1/3: upright and one third as tall.",
    "choiceExplanations": [
-    "",
-    "A diverging lens cannot form a real image of a real object.",
+    "The spreading rays appear to come from a point on the object's side, which is the virtual image.",
     "A diverging lens makes images smaller, not larger: M = 1/3.",
-    "The spreading rays appear to come from a point on the object's side, which is the virtual image."
+    "A diverging lens cannot form a real image of a real object.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",

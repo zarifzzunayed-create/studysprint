@@ -182,18 +182,18 @@
    "type": "multiple-choice",
    "prompt": "A neutral metal sphere loses 5.0 × 10¹⁰ electrons. What is its charge? (e = 1.6 × 10⁻¹⁹ C)",
    "choices": [
-    "+8.0 × 10⁻⁹ C",
-    "−8.0 × 10⁻⁹ C",
     "+3.1 × 10²⁹ C",
-    "+5.0 × 10¹⁰ C"
+    "+5.0 × 10¹⁰ C",
+    "+8.0 × 10⁻⁹ C",
+    "−8.0 × 10⁻⁹ C"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "Losing electrons leaves the sphere positive: q = Ne = (5.0 × 10¹⁰)(1.6 × 10⁻¹⁹ C) = +8.0 × 10⁻⁹ C.",
    "choiceExplanations": [
-    "",
-    "Losing negative electrons makes the sphere positive, not negative.",
     "3.1 × 10²⁹ divides the number of electrons by e instead of multiplying.",
-    "5.0 × 10¹⁰ is the number of electrons, not the charge in coulombs; multiply by e."
+    "5.0 × 10¹⁰ is the number of electrons, not the charge in coulombs; multiply by e.",
+    "",
+    "Losing negative electrons makes the sphere positive, not negative."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -210,18 +210,18 @@
    "type": "multiple-choice",
    "prompt": "A negatively charged rod is held near, but not touching, a neutral metal sphere. The sphere is briefly connected to ground, the ground connection is removed, and then the rod is taken away. What is the sphere's final charge?",
    "choices": [
+    "It depends on how long the ground was connected",
     "Positive",
     "Negative",
-    "Zero",
-    "It depends on how long the ground was connected"
+    "Zero"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "The rod repels electrons in the sphere toward the far side. Grounding lets some of those electrons escape. With the ground removed first, they cannot return, so the sphere is left positive: charging by induction gives the opposite sign to the rod.",
    "choiceExplanations": [
+    "Charge moves through the ground connection almost instantly; even a brief connection leaves the sphere positive.",
     "",
     "A negative charge would need electrons to move onto the sphere, as in charging by touching. Here electrons were pushed off it.",
-    "Electrons left through the ground connection and could not come back, so the sphere is no longer neutral.",
-    "Charge moves through the ground connection almost instantly; even a brief connection leaves the sphere positive."
+    "Electrons left through the ground connection and could not come back, so the sphere is no longer neutral."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -266,18 +266,18 @@
    "type": "multiple-choice",
    "prompt": "The distance between two point charges is doubled. What happens to the electric force between them?",
    "choices": [
-    "It becomes one quarter as large",
+    "It stays the same",
     "It becomes half as large",
     "It doubles",
-    "It stays the same"
+    "It becomes one quarter as large"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "Coulomb's law is an inverse-square law: F ∝ 1/r². Doubling r divides the force by 2² = 4.",
    "choiceExplanations": [
-    "",
+    "The force depends on the distance between the charges, so it changes.",
     "Half would be true for a force ∝ 1/r; the electric force goes as 1/r².",
     "The force gets weaker with distance, not stronger.",
-    "The force depends on the distance between the charges, so it changes."
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -294,18 +294,18 @@
    "type": "multiple-choice",
    "prompt": "A +2.0 μC charge and a −3.0 μC charge are 0.30 m apart. What is the electric force between them? (k = 9.0 × 10⁹ N·m²/C²)",
    "choices": [
-    "0.60 N, attractive",
-    "0.60 N, repulsive",
+    "0.054 N, attractive",
     "0.18 N, attractive",
-    "0.054 N, attractive"
+    "0.60 N, attractive",
+    "0.60 N, repulsive"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 2,
    "explanation": "F = k|q₁q₂|/r² = (9.0 × 10⁹)(2.0 × 10⁻⁶)(3.0 × 10⁻⁶)/(0.30)² = 0.054/0.090 = 0.60 N. Opposite charges attract.",
    "choiceExplanations": [
-    "",
-    "A positive and a negative charge attract each other; repulsion is for like charges.",
+    "0.054 N leaves out the division by r².",
     "0.18 N divides by r instead of r².",
-    "0.054 N leaves out the division by r²."
+    "",
+    "A positive and a negative charge attract each other; repulsion is for like charges."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -350,18 +350,18 @@
    "type": "multiple-choice",
    "prompt": "Two small charged spheres are moved from a vacuum into oil with a dielectric constant (relative permittivity) of 4, keeping the same distance between them. What happens to the electric force between them?",
    "choices": [
-    "It becomes one quarter as large",
     "It becomes four times as large",
     "It stays the same",
-    "It becomes half as large"
+    "It becomes half as large",
+    "It becomes one quarter as large"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "In a material with dielectric constant κ, the force is F = |q₁q₂|/(4πκε₀r²), so it is κ = 4 times smaller than in a vacuum.",
    "choiceExplanations": [
-    "",
     "A material between the charges weakens the force; it does not strengthen it.",
     "The material between the charges changes the force even though the charges and the distance do not change.",
-    "The force scales as 1/κ, so κ = 4 reduces it to one quarter, not one half."
+    "The force scales as 1/κ, so κ = 4 reduces it to one quarter, not one half.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -378,18 +378,18 @@
    "type": "multiple-choice",
    "prompt": "At a point, the electric field is 500 N/C east. What force acts on a −2.0 μC charge placed there?",
    "choices": [
-    "1.0 × 10⁻³ N west",
     "1.0 × 10⁻³ N east",
-    "2.5 × 10⁸ N west",
-    "1000 N west"
+    "1.0 × 10⁻³ N west",
+    "1000 N west",
+    "2.5 × 10⁸ N west"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "F = qE = (2.0 × 10⁻⁶ C)(500 N/C) = 1.0 × 10⁻³ N. The charge is negative, so the force points opposite to the field: west.",
    "choiceExplanations": [
-    "",
     "The force on a negative charge points opposite to the field, so it is west, not east.",
-    "2.5 × 10⁸ divides E by q instead of multiplying.",
-    "1000 N ignores the micro prefix: 2.0 μC is 2.0 × 10⁻⁶ C."
+    "",
+    "1000 N ignores the micro prefix: 2.0 μC is 2.0 × 10⁻⁶ C.",
+    "2.5 × 10⁸ divides E by q instead of multiplying."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -406,18 +406,18 @@
    "type": "multiple-choice",
    "prompt": "What is the electric field 0.20 m from a +4.0 nC point charge? (k = 9.0 × 10⁹ N·m²/C²)",
    "choices": [
-    "900 N/C, pointing away from the charge",
-    "900 N/C, pointing toward the charge",
     "180 N/C, pointing away from the charge",
-    "36 N/C, pointing away from the charge"
+    "900 N/C, pointing away from the charge",
+    "36 N/C, pointing away from the charge",
+    "900 N/C, pointing toward the charge"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "E = kq/r² = (9.0 × 10⁹)(4.0 × 10⁻⁹)/(0.20)² = 36/0.040 = 900 N/C. A positive charge's field points away from it.",
    "choiceExplanations": [
-    "",
-    "The field of a positive charge points away from it; it points toward a negative charge.",
     "180 N/C divides by r instead of r².",
-    "36 N/C leaves out the division by r²."
+    "",
+    "36 N/C leaves out the division by r².",
+    "The field of a positive charge points away from it; it points toward a negative charge."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -434,18 +434,18 @@
    "type": "multiple-choice",
    "prompt": "A uniform electric field of 200 N/C passes through a flat surface of area 0.50 m². The field makes a 60° angle with the line perpendicular to the surface. What is the electric flux through the surface?",
    "choices": [
+    "400 N·m²/C",
     "50 N·m²/C",
-    "100 N·m²/C",
     "87 N·m²/C",
-    "400 N·m²/C"
+    "100 N·m²/C"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "Φ = EA cos θ = (200)(0.50)(cos 60°) = 100 × 0.5 = 50 N·m²/C.",
    "choiceExplanations": [
+    "400 N·m²/C divides E by A; flux multiplies them.",
     "",
-    "100 N·m²/C would be the flux if the field met the surface head-on; the angle reduces it.",
     "87 N·m²/C uses sin 60°; the angle is measured from the perpendicular, so the formula uses cosine.",
-    "400 N·m²/C divides E by A; flux multiplies them."
+    "100 N·m²/C would be the flux if the field met the surface head-on; the angle reduces it."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -463,17 +463,17 @@
    "prompt": "A proton starts from rest and is accelerated through a potential difference of 500 V. What kinetic energy does it gain? (e = 1.6 × 10⁻¹⁹ C)",
    "choices": [
     "8.0 × 10⁻¹⁷ J",
-    "−8.0 × 10⁻¹⁷ J",
+    "1.6 × 10⁻¹⁹ J",
     "500 J",
-    "1.6 × 10⁻¹⁹ J"
+    "−8.0 × 10⁻¹⁷ J"
    ],
    "correctAnswer": 0,
    "explanation": "The energy gained is qΔV = (1.6 × 10⁻¹⁹ C)(500 V) = 8.0 × 10⁻¹⁷ J, which is 500 eV.",
    "choiceExplanations": [
     "",
-    "−8.0 × 10⁻¹⁷ J is the change in electric potential energy; the kinetic energy gained is positive.",
+    "1.6 × 10⁻¹⁹ J is the energy gained through only 1 V.",
     "500 J treats the proton's charge as 1 C.",
-    "1.6 × 10⁻¹⁹ J is the energy gained through only 1 V."
+    "−8.0 × 10⁻¹⁷ J is the change in electric potential energy; the kinetic energy gained is positive."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
@@ -490,16 +490,16 @@
    "type": "multiple-choice",
    "prompt": "Two +3.0 μC point charges are 0.10 m apart. How much work must be done to push them closer, to 0.050 m apart? (k = 9.0 × 10⁹ N·m²/C²)",
    "choices": [
-    "0.81 J",
     "−0.81 J",
+    "0.81 J",
     "1.6 J",
     "24 J"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "W = ΔU = kq²(1/r_f − 1/r_i) = (9.0 × 10⁹)(3.0 × 10⁻⁶)²(1/0.050 − 1/0.10) = 0.081 × (20 − 10) = 0.81 J.",
    "choiceExplanations": [
-    "",
     "Like charges repel, so it takes positive work to push them closer; the potential energy goes up.",
+    "",
     "1.6 J is the potential energy at the final separation; the work equals the change from 0.10 m to 0.050 m.",
     "24 J uses 1/r², the form for force; potential energy goes as 1/r."
    ],

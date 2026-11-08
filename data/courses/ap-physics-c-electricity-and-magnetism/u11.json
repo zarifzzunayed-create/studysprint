@@ -157,17 +157,17 @@
    "prompt": "A copper wire is 10 m long with a cross-sectional area of 1.0 × 10⁻⁶ m². Copper's resistivity is 1.7 × 10⁻⁸ Ω·m. What is the wire's resistance?",
    "choices": [
     "0.17 Ω",
-    "1.7 × 10⁻¹³ Ω",
     "5.9 Ω",
-    "0.017 Ω"
+    "0.017 Ω",
+    "1.7 × 10⁻¹³ Ω"
    ],
    "correctAnswer": 0,
    "explanation": "R = ρL/A = (1.7 × 10⁻⁸)(10)/(1.0 × 10⁻⁶) = 0.17 Ω.",
    "choiceExplanations": [
     "",
-    "1.7 × 10⁻¹³ multiplies by the area instead of dividing.",
     "5.9 is 1/R, the result inverted.",
-    "0.017 Ω uses a length of 1.0 m instead of 10 m."
+    "0.017 Ω uses a length of 1.0 m instead of 10 m.",
+    "1.7 × 10⁻¹³ multiplies by the area instead of dividing."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -184,17 +184,17 @@
    "type": "multiple-choice",
    "prompt": "A copper wire with cross-sectional area 1.0 × 10⁻⁶ m² carries 2.0 A. Copper has 8.5 × 10²⁸ free electrons per cubic meter. What is the electrons' drift speed? (e = 1.6 × 10⁻¹⁹ C)",
    "choices": [
+    "About 6.8 × 10³ m/s",
     "About 1.5 × 10⁻⁴ m/s",
     "About 1.5 × 10⁻¹⁰ m/s",
-    "About 6.8 × 10³ m/s",
     "About 3.0 × 10⁸ m/s"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "v_d = I/(nqA) = 2.0/((8.5 × 10²⁸)(1.6 × 10⁻¹⁹)(1.0 × 10⁻⁶)) ≈ 1.5 × 10⁻⁴ m/s, a fraction of a millimeter per second.",
    "choiceExplanations": [
+    "6.8 × 10³ is the reciprocal of the drift speed.",
     "",
     "1.5 × 10⁻¹⁰ leaves out the cross-sectional area.",
-    "6.8 × 10³ is the reciprocal of the drift speed.",
     "3.0 × 10⁸ m/s is the speed of light; the signal travels fast, but the electrons themselves drift slowly."
    ],
    "sourceType": "original",
@@ -212,18 +212,18 @@
    "type": "multiple-choice",
    "prompt": "A resistor uses 40 W when 20 V is across it. How much power does it use when 10 V is across it? (Its resistance doesn't change.)",
    "choices": [
-    "10 W",
     "20 W",
-    "40 W",
-    "80 W"
+    "10 W",
+    "80 W",
+    "40 W"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "P = (ΔV)²/R. Halving the voltage divides the power by 2² = 4: 40 W ÷ 4 = 10 W. (R = 20²/40 = 10 Ω, and 10²/10 = 10 W.)",
    "choiceExplanations": [
-    "",
     "20 W assumes power is proportional to voltage; it goes as voltage squared.",
-    "The power changes when the voltage changes.",
-    "Lowering the voltage lowers the power."
+    "",
+    "Lowering the voltage lowers the power.",
+    "The power changes when the voltage changes."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -240,18 +240,18 @@
    "type": "multiple-choice",
    "prompt": "A 12 V battery drives a 4.0 Ω resistor in series with a parallel pair of 6.0 Ω and 3.0 Ω resistors. What current does the battery supply?",
    "choices": [
+    "3.0 A",
     "2.0 A",
-    "0.92 A",
     "6.0 A",
-    "3.0 A"
+    "0.92 A"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 1,
    "explanation": "The parallel pair is (6.0 × 3.0)/(6.0 + 3.0) = 2.0 Ω, so the total is 6.0 Ω and I = 12/6.0 = 2.0 A.",
    "choiceExplanations": [
+    "3.0 A uses only the 4.0 Ω resistor.",
     "",
-    "0.92 A treats all three resistors as being in series (13 Ω).",
     "6.0 A uses only the parallel pair, ignoring the 4.0 Ω resistor.",
-    "3.0 A uses only the 4.0 Ω resistor."
+    "0.92 A treats all three resistors as being in series (13 Ω)."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -268,18 +268,18 @@
    "type": "multiple-choice",
    "prompt": "A battery with emf 12 V and internal resistance 0.50 Ω is connected to a 5.5 Ω resistor. What is the battery's terminal voltage?",
    "choices": [
-    "11 V",
-    "12 V",
     "1.0 V",
-    "11.5 V"
+    "12 V",
+    "11.5 V",
+    "11 V"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "I = ε/(R + r) = 12/6.0 = 2.0 A. Terminal voltage = ε − Ir = 12 − (2.0)(0.50) = 11 V.",
    "choiceExplanations": [
-    "",
-    "12 V is the emf; part of it is lost across the internal resistance while current flows.",
     "1.0 V is the drop across the internal resistance, not the terminal voltage.",
-    "11.5 V subtracts the internal resistance itself (0.50) instead of the voltage across it (Ir = 1.0 V)."
+    "12 V is the emf; part of it is lost across the internal resistance while current flows.",
+    "11.5 V subtracts the internal resistance itself (0.50) instead of the voltage across it (Ir = 1.0 V).",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -297,16 +297,16 @@
    "prompt": "Three branches connect points A and B. Branch 1 is a 10 V battery (positive terminal toward A) in series with 2.0 Ω. Branch 2 is a 4.0 V battery (positive terminal toward A) in series with 2.0 Ω. Branch 3 is a 4.0 Ω resistor. The batteries are ideal. What current flows through the 4.0 Ω resistor?",
    "choices": [
     "1.4 A",
-    "3.5 A",
     "1.5 A",
+    "3.5 A",
     "0.75 A"
    ],
    "correctAnswer": 0,
    "explanation": "Let V be the potential of A relative to B. Junction rule at A: (10 − V)/2.0 + (4.0 − V)/2.0 = V/4.0. Multiply by 4: 28 − 4V = V, so V = 5.6 V and the current in the 4.0 Ω resistor is 5.6/4.0 = 1.4 A.",
    "choiceExplanations": [
     "",
-    "3.5 A adds the two emfs across the 4.0 Ω resistor alone, ignoring the branch resistors.",
     "1.5 A puts the difference of the emfs, 6.0 V, across the 4.0 Ω resistor.",
+    "3.5 A adds the two emfs across the 4.0 Ω resistor alone, ignoring the branch resistors.",
     "0.75 A treats the circuit as one loop with the emfs opposing; the 4.0 Ω resistor is a separate branch."
    ],
    "sourceType": "original",
@@ -325,17 +325,17 @@
    "prompt": "A 6.0 Ω resistor and a 3.0 Ω resistor are connected in parallel across a 12 V battery. Which uses more power?",
    "choices": [
     "The 3.0 Ω resistor: 48 W, versus 24 W for the 6.0 Ω resistor",
-    "The 6.0 Ω resistor: 48 W, versus 24 W for the 3.0 Ω resistor",
     "They use the same power, 36 W each",
-    "Neither: in parallel, power doesn't depend on resistance"
+    "Neither: in parallel, power doesn't depend on resistance",
+    "The 6.0 Ω resistor: 48 W, versus 24 W for the 3.0 Ω resistor"
    ],
    "correctAnswer": 0,
    "explanation": "Both have 12 V across them, so P = (ΔV)²/R: 144/3.0 = 48 W and 144/6.0 = 24 W. The smaller resistor carries more current and uses more power.",
    "choiceExplanations": [
     "",
-    "P = I²R suggests the larger resistor wins only when the currents are equal, as in series; here the voltages are equal.",
     "Same voltage across different resistances gives different powers.",
-    "With equal voltage, P = (ΔV)²/R depends directly on R."
+    "With equal voltage, P = (ΔV)²/R depends directly on R.",
+    "P = I²R suggests the larger resistor wins only when the currents are equal, as in series; here the voltages are equal."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -352,18 +352,18 @@
    "type": "multiple-choice",
    "prompt": "A wire of length L and resistivity ρ has a cross-sectional area that grows steadily along its length: A(x) = A₀(1 + x/L), from A₀ at one end to 2A₀ at the other. What is its resistance?",
    "choices": [
-    "(ρL/A₀) ln 2",
-    "ρL/A₀",
+    "2ρL/(3A₀)",
     "ρL/(2A₀)",
-    "2ρL/(3A₀)"
+    "ρL/A₀",
+    "(ρL/A₀) ln 2"
    ],
-   "correctAnswer": 0,
+   "correctAnswer": 3,
    "explanation": "Add thin slices in series: R = ∫₀ᴸ ρ dx/(A₀(1 + x/L)) = (ρL/A₀) ln(1 + x/L) from 0 to L = (ρL/A₀) ln 2 ≈ 0.69ρL/A₀.",
    "choiceExplanations": [
-    "",
-    "ρL/A₀ uses the smallest area for the whole wire.",
+    "2ρL/(3A₀) uses the average area, 1.5A₀; resistance adds up 1/A along the wire, which isn't the same.",
     "ρL/(2A₀) uses the largest area for the whole wire.",
-    "2ρL/(3A₀) uses the average area, 1.5A₀; resistance adds up 1/A along the wire, which isn't the same."
+    "ρL/A₀ uses the smallest area for the whole wire.",
+    ""
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
@@ -381,16 +381,16 @@
    "prompt": "In a wire, the free electrons drift toward the left. Which way does the conventional current point?",
    "choices": [
     "To the right",
-    "To the left",
     "There is no current, because electrons cancel the protons",
+    "To the left",
     "It depends on the wire's resistance"
    ],
    "correctAnswer": 0,
    "explanation": "Conventional current is defined as the direction positive charge would move, which is opposite to the electrons' drift: to the right.",
    "choiceExplanations": [
     "",
-    "Conventional current points opposite to the motion of negative charges.",
     "Moving electrons make a current even though the wire stays neutral overall.",
+    "Conventional current points opposite to the motion of negative charges.",
     "Resistance affects the size of the current, not its direction."
    ],
    "sourceType": "original",

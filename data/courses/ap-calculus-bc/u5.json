@@ -1,0 +1,388 @@
+{
+ "courseId": "ap-calculus-bc",
+ "unitId": "u5",
+ "title": "Unit 5: Analytical Applications of Differentiation",
+ "topics": [
+  {
+   "id": "b5-thm",
+   "name": "The Mean Value and Extreme Value theorems",
+   "covers": [
+    "Mean Value Theorem and Extreme Value Theorem"
+   ]
+  },
+  {
+   "id": "b5-tests",
+   "name": "Derivative tests, graphs, and implicit relations",
+   "covers": [
+    "Derivatives and properties of functions",
+    "How to use the first derivative test, second derivative test, and candidates test",
+    "Sketching graphs of functions and their derivatives",
+    "Behaviors of Implicit relations"
+   ]
+  },
+  {
+   "id": "b5-opt",
+   "name": "Optimization",
+   "covers": [
+    "How to solve optimization problems"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Analytical applications of differentiation: review guide",
+  "intro": "This unit uses derivatives to describe the shape of a graph: where it rises and falls, where it bends, where its extreme values are, and how to find the best value in a real problem.",
+  "sections": [
+   {
+    "id": "s-b5-thm",
+    "topicId": "b5-thm",
+    "title": "The Mean Value and Extreme Value theorems",
+    "body": [
+     "Mean Value Theorem (MVT): if f is continuous on [a, b] and differentiable on (a, b), then f′(c) = (f(b) − f(a))/(b − a) for at least one c in (a, b): somewhere the instantaneous rate equals the average rate.",
+     "Extreme Value Theorem (EVT): a function continuous on a closed interval [a, b] has an absolute maximum and an absolute minimum on that interval."
+    ],
+    "points": [
+     "State the hypotheses (continuity, differentiability) when you use a theorem.",
+     "Without a closed interval or continuity, the EVT guarantees nothing.",
+     "The MVT guarantees a value of c exists, not how many."
+    ]
+   },
+   {
+    "id": "s-b5-tests",
+    "topicId": "b5-tests",
+    "title": "Derivative tests, graphs, and implicit relations",
+    "body": [
+     "f is increasing where f′ > 0 and decreasing where f′ < 0. First derivative test: a relative maximum where f′ changes from + to −, a relative minimum where it changes from − to +. Second derivative test: at a critical point, f″ < 0 gives a maximum and f″ > 0 a minimum.",
+     "f is concave up where f″ > 0 (f′ increasing) and concave down where f″ < 0; an inflection point is where concavity changes. Candidates test: for absolute extrema on [a, b], compare f at the critical points and the endpoints."
+    ],
+    "points": [
+     "A critical point where f′ doesn't change sign isn't an extremum.",
+     "For an implicit relation, horizontal tangents occur where dy/dx = 0 and vertical tangents where its denominator is 0.",
+     "Reading f′'s graph: its zeros give f's critical points, and its turning points give f's inflection points."
+    ]
+   },
+   {
+    "id": "s-b5-opt",
+    "topicId": "b5-opt",
+    "title": "Optimization",
+    "body": [
+     "To optimize: write the quantity to maximize or minimize, use a constraint to write it in one variable, find its critical points on the allowed domain, and compare values (or use a derivative test) to justify the answer.",
+     "Always check the endpoints of the domain and answer the question that was asked, with units."
+    ],
+    "points": [
+     "State the domain from the context (lengths are positive).",
+     "A single critical point with a sign change gives an absolute extremum on an interval.",
+     "Answer with the dimensions or value requested, not just x."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Find the absolute maximum and minimum of f(x) = x³ − 3x² + 1 on [−1, 3].",
+   "solution": "f′(x) = 3x² − 6x = 3x(x − 2), so the critical points are x = 0 and x = 2. Values: f(−1) = −3, f(0) = 1, f(2) = −3, f(3) = 1. The absolute maximum is 1 (at x = 0 and x = 3) and the absolute minimum is −3 (at x = −1 and x = 2)."
+  },
+  "misconceptions": [
+   [
+    "“f′(c) = 0 means f has an extremum at c.”",
+    "The derivative must also change sign there."
+   ],
+   [
+    "“f″(c) = 0 means an inflection point.”",
+    "The concavity must actually change at c."
+   ],
+   [
+    "“The largest critical value is the absolute maximum.”",
+    "Compare the endpoint values too."
+   ],
+   [
+    "“The MVT says the derivative equals zero somewhere.”",
+    "That's Rolle's theorem, a special case; the MVT says it equals the average rate of change."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+  "sourceTitle": "AP Calculus BC – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "cbc-u5-q01",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u5",
+   "topicId": "b5-thm",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "For f(x) = x² on [1, 3], what value of c satisfies the conclusion of the Mean Value Theorem?",
+   "choices": [
+    "c = 2",
+    "c = 1.5",
+    "c = √5",
+    "c = 4"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The average rate of change is (9 − 1)/(3 − 1) = 4. Setting f′(c) = 2c = 4 gives c = 2.",
+   "choiceExplanations": [
+    "",
+    "c = 1.5 sets 2c = 3.",
+    "√5 solves c² = 5, the average of the function's values, not of its slope.",
+    "4 is the average rate of change, not the value of c."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u5-q02",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u5",
+   "topicId": "b5-thm",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which function is guaranteed by the Extreme Value Theorem to have both an absolute maximum and an absolute minimum on its interval?",
+   "choices": [
+    "f(x) = x² on (0, 1)",
+    "f(x) = tan x on [0, π/2)",
+    "f(x) = x² + sin x on [0, 1]",
+    "f(x) = 1/x on (0, 1]"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The EVT needs a function continuous on a closed interval. x² + sin x is continuous everywhere, and [0, 1] is closed.",
+   "choiceExplanations": [
+    "On the open interval (0, 1), x² approaches 0 and 1 but never reaches them.",
+    "tan x grows without bound as x → π/2, and the interval isn't closed.",
+    "",
+    "1/x grows without bound as x → 0⁺, and the interval isn't closed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u5-q03",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u5",
+   "topicId": "b5-tests",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "If f′(x) = (x − 2)(x + 1)², where does f have relative extrema?",
+   "choices": [
+    "Relative minima at x = −1 and x = 2",
+    "A relative maximum at x = 2 only",
+    "A relative maximum at x = −1 and a relative minimum at x = 2",
+    "A relative minimum at x = 2 only"
+   ],
+   "correctAnswer": 3,
+   "explanation": "f′ changes from negative to positive at x = 2 (a minimum). At x = −1, (x + 1)² ≥ 0 keeps f′ negative on both sides, so there is no extremum there.",
+   "choiceExplanations": [
+    "x = −1 isn't an extremum, because f′ is negative on both sides of it.",
+    "f′ goes from − to + at x = 2, which makes a minimum, not a maximum.",
+    "f′ doesn't change sign at x = −1, so that critical point isn't an extremum.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u5-q04",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u5",
+   "topicId": "b5-tests",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the absolute maximum value of f(x) = x³ − 3x on [0, 2]?",
+   "choices": [
+    "0",
+    "9",
+    "2",
+    "−2"
+   ],
+   "correctAnswer": 2,
+   "explanation": "f′(x) = 3x² − 3 = 0 at x = 1 (in the interval). Candidates: f(0) = 0, f(1) = −2, f(2) = 2. The absolute maximum is 2, at x = 2.",
+   "choiceExplanations": [
+    "0 is f(0), smaller than f(2).",
+    "9 is f′(2), a slope, not a value of f.",
+    "",
+    "−2 is the absolute minimum."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u5-q05",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u5",
+   "topicId": "b5-tests",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Where does f(x) = x⁴ − 4x³ have inflection points?",
+   "choices": [
+    "x = 3",
+    "x = 0 and x = 2",
+    "x = 2 only",
+    "x = 0 only"
+   ],
+   "correctAnswer": 1,
+   "explanation": "f″(x) = 12x² − 24x = 12x(x − 2), which changes sign at both x = 0 and x = 2, so concavity changes at both.",
+   "choiceExplanations": [
+    "x = 3 is a critical point (f′ = 0), not an inflection point.",
+    "",
+    "f″ also changes sign at x = 0.",
+    "f″ also changes sign at x = 2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u5-q06",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u5",
+   "topicId": "b5-tests",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "f′ is positive for x < 1, negative for 1 < x < 4, and positive for x > 4. f′ is decreasing for x < 2.5 and increasing for x > 2.5. Which describes f?",
+   "choices": [
+    "Relative minimum at x = 1, relative maximum at x = 4, inflection point at x = 2.5",
+    "Relative maximum at x = 1, relative minimum at x = 4, no inflection point",
+    "Relative maximum at x = 2.5, inflection points at x = 1 and x = 4",
+    "Relative maximum at x = 1, relative minimum at x = 4, inflection point at x = 2.5"
+   ],
+   "correctAnswer": 3,
+   "explanation": "f′ goes from + to − at x = 1 (maximum) and from − to + at x = 4 (minimum). f′ changes from decreasing to increasing at x = 2.5, so f″ changes sign there: an inflection point.",
+   "choiceExplanations": [
+    "This reverses the sign changes of f′.",
+    "f′ changes from decreasing to increasing at 2.5, so f's concavity changes there.",
+    "x = 2.5 is where f′ is smallest, which gives f an inflection point, not an extremum.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u5-q07",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u5",
+   "topicId": "b5-tests",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "On the curve x² + xy + y² = 3, at which points is the tangent line horizontal?",
+   "choices": [
+    "(−2, 1) and (2, −1)",
+    "(1, −2) and (−1, 2)",
+    "(0, √3) and (0, −√3)",
+    "(1, 1) and (−1, −1)"
+   ],
+   "correctAnswer": 1,
+   "explanation": "dy/dx = −(2x + y)/(x + 2y). Horizontal tangents need 2x + y = 0, so y = −2x. Substituting: x² − 2x² + 4x² = 3x² = 3, so x = ±1, giving (1, −2) and (−1, 2).",
+   "choiceExplanations": [
+    "These points make x + 2y = 0, where the tangent is vertical.",
+    "",
+    "At (0, ±√3), dy/dx = −y/(2y) = −1/2, not 0.",
+    "(1, 1) and (−1, −1) are on the curve, but dy/dx = −1 there."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u5-q08",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u5",
+   "topicId": "b5-opt",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A rectangle has a perimeter of 40 m. What is the largest area it can have?",
+   "choices": [
+    "100 m²",
+    "75 m²",
+    "96 m²",
+    "400 m²"
+   ],
+   "correctAnswer": 0,
+   "explanation": "With sides x and 20 − x, A = x(20 − x). A′ = 20 − 2x = 0 at x = 10, so the best rectangle is a 10 by 10 square with area 100 m².",
+   "choiceExplanations": [
+    "",
+    "75 m² (15 by 5) isn't the maximum.",
+    "96 m² (12 by 8) is a valid area but not the maximum.",
+    "400 uses a side of 20, the half-perimeter, as both sides."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u5-q09",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u5",
+   "topicId": "b5-opt",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "An open-top box with a square base must hold 32 cubic units. Which dimensions use the least material?",
+   "choices": [
+    "Base 4 by 4, height 2",
+    "A cube with side ∛32",
+    "Base 8 by 8, height 0.5",
+    "Base 2 by 2, height 8"
+   ],
+   "correctAnswer": 0,
+   "explanation": "With base x and height 32/x², the surface area is S = x² + 4x(32/x²) = x² + 128/x. S′ = 2x − 128/x² = 0 gives x³ = 64, x = 4, and height 2. S = 48, and S″ > 0 confirms a minimum.",
+   "choiceExplanations": [
+    "",
+    "A cube is best for a closed box, not an open one.",
+    "Base 8 gives S = 64 + 16 = 80.",
+    "Base 2 gives S = 4 + 64 = 68."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "cbc-u5-q01",
+    "cbc-u5-q02",
+    "cbc-u5-q03",
+    "cbc-u5-q04",
+    "cbc-u5-q05",
+    "cbc-u5-q06",
+    "cbc-u5-q08",
+    "cbc-u5-q09"
+   ]
+  }
+ ]
+}

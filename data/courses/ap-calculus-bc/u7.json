@@ -1,0 +1,403 @@
+{
+ "courseId": "ap-calculus-bc",
+ "unitId": "u7",
+ "title": "Unit 7: Differential Equations",
+ "topics": [
+  {
+   "id": "b7-fields",
+   "name": "Slope fields and Euler's method",
+   "covers": [
+    "Sketching slope fields and families of solution curves",
+    "Using Euler’s method to approximate values on a particular solution curve"
+   ]
+  },
+  {
+   "id": "b7-sep",
+   "name": "Writing and solving separable differential equations",
+   "covers": [
+    "Interpreting verbal descriptions of change as separable differential equations",
+    "Solving separable differential equations to find general and particular solutions"
+   ]
+  },
+  {
+   "id": "b7-models",
+   "name": "Exponential and logistic models",
+   "covers": [
+    "Deriving and applying exponential and logistic models"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Differential equations: review guide",
+  "intro": "A differential equation describes how a quantity changes. This unit turns descriptions of change into equations, pictures solutions with slope fields, approximates them with Euler's method, solves separable equations exactly, and applies exponential and logistic growth models.",
+  "sections": [
+   {
+    "id": "s-b7-fields",
+    "topicId": "b7-fields",
+    "title": "Slope fields and Euler's method",
+    "body": [
+     "A slope field draws a short segment with slope dy/dx at many points (x, y). Solution curves follow the segments. If dy/dx depends only on x, slopes are the same along each vertical line; if it depends only on y, they are the same along each horizontal line.",
+     "Euler's method follows the tangent line in small steps: starting at (x₀, y₀), use y_new = y_old + (dy/dx at the old point) × Δx, then repeat from the new point."
+    ],
+    "points": [
+     "Find slopes by substituting the point into dy/dx.",
+     "Euler's method overestimates where solutions are concave down and underestimates where they are concave up.",
+     "Smaller steps usually give better approximations."
+    ],
+    "equations": [
+     [
+      "yₙ₊₁ = yₙ + f(xₙ, yₙ)·Δx",
+      "Euler's method"
+     ]
+    ]
+   },
+   {
+    "id": "s-b7-sep",
+    "topicId": "b7-sep",
+    "title": "Writing and solving separable differential equations",
+    "body": [
+     "“The rate of change of y is proportional to y” translates to dy/dt = ky. A separable equation can be written as g(y) dy = f(x) dx.",
+     "To solve: separate the variables, integrate both sides (with one + C), use the initial condition to find C, then solve for y. Keep the solution branch that passes through the initial point."
+    ],
+    "points": [
+     "Add + C as soon as you integrate, not at the end after exponentiating.",
+     "Check the sign of y at the initial point when taking a square root.",
+     "A general solution has C; a particular solution satisfies the initial condition."
+    ]
+   },
+   {
+    "id": "s-b7-models",
+    "topicId": "b7-models",
+    "title": "Exponential and logistic models",
+    "body": [
+     "dy/dt = ky has the solution y = y₀e^(kt): growth for k > 0, decay for k < 0. Newton's law of cooling, dy/dt = k(y − A), has the solution y = A + (y₀ − A)e^(kt).",
+     "Logistic growth, dP/dt = kP(1 − P/L), levels off at the carrying capacity L. The population grows fastest when P = L/2, where the solution curve has an inflection point."
+    ],
+    "points": [
+     "Read L directly from the logistic equation.",
+     "lim t→∞ P(t) = L for any positive starting value.",
+     "In exponential models, a doubling time T gives k = ln 2 / T."
+    ],
+    "equations": [
+     [
+      "y = y₀e^(kt)",
+      "solution of dy/dt = ky"
+     ],
+     [
+      "dP/dt = kP(1 − P/L)",
+      "logistic model"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Solve dy/dx = 2xy with y(0) = 5.",
+   "solution": "Separate: dy/y = 2x dx. Integrate: ln|y| = x² + C. Then |y| = e^C e^(x²), so y = Ae^(x²). With y(0) = 5, A = 5, and y = 5e^(x²)."
+  },
+  "misconceptions": [
+   [
+    "“Adding C at the end is fine.”",
+    "C belongs right after integrating; after exponentiating it becomes a multiplier, not an added constant."
+   ],
+   [
+    "“Euler's method gives the exact value.”",
+    "It follows tangent lines, so it only approximates the solution."
+   ],
+   [
+    "“Logistic growth is fastest at the carrying capacity.”",
+    "It's fastest at half the carrying capacity; at L the growth rate is 0."
+   ],
+   [
+    "“Slope fields show the solution's values.”",
+    "They show slopes; you sketch solution curves that follow them."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+  "sourceTitle": "AP Calculus BC – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-10-22"
+ },
+ "questions": [
+  {
+   "id": "cbc-u7-q01",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u7",
+   "topicId": "b7-sep",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The rate of change of a population P with respect to time t is proportional to P. Which differential equation models this?",
+   "choices": [
+    "P = kt",
+    "dP/dt = k",
+    "dP/dt = kP",
+    "dP/dt = kt"
+   ],
+   "correctAnswer": 2,
+   "explanation": "“The rate of change of P” is dP/dt, and “proportional to P” means it equals a constant times P.",
+   "choiceExplanations": [
+    "P = kt describes P itself, not its rate of change.",
+    "dP/dt = k is a constant rate, not one proportional to P.",
+    "",
+    "dP/dt = kt is proportional to time, not to P."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u7-q02",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u7",
+   "topicId": "b7-fields",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What slope does the slope field for dy/dx = x − y show at the point (2, 1)?",
+   "choices": [
+    "−1",
+    "3",
+    "2",
+    "1"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Substitute x = 2 and y = 1: dy/dx = 2 − 1 = 1.",
+   "choiceExplanations": [
+    "−1 computes y − x instead of x − y.",
+    "3 adds x and y instead of subtracting.",
+    "2 uses only the x-coordinate.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u7-q03",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u7",
+   "topicId": "b7-fields",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a slope field, every segment on any given vertical line has the same slope. Which differential equation could it show?",
+   "choices": [
+    "dy/dx = xy",
+    "dy/dx = y²",
+    "dy/dx = x²",
+    "dy/dx = x + y"
+   ],
+   "correctAnswer": 2,
+   "explanation": "On a vertical line x is fixed. The slopes stay the same along it only if dy/dx depends on x alone.",
+   "choiceExplanations": [
+    "xy changes as y changes along a vertical line (except on x = 0).",
+    "dy/dx = y² gives equal slopes along horizontal lines instead.",
+    "",
+    "x + y changes as y changes along a vertical line."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u7-q04",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u7",
+   "topicId": "b7-fields",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Let y be the solution of dy/dx = x + y with y(0) = 1. Using Euler's method with two steps of size 0.5, what is the approximation of y(1)?",
+   "choices": [
+    "2",
+    "2.5",
+    "3.44",
+    "1.5"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Step 1: the slope at (0, 1) is 1, so y(0.5) ≈ 1 + 1(0.5) = 1.5. Step 2: the slope at (0.5, 1.5) is 2, so y(1) ≈ 1.5 + 2(0.5) = 2.5.",
+   "choiceExplanations": [
+    "2 uses one step of size 1.",
+    "",
+    "3.44 is about the exact value, 2e − 2, not the Euler approximation.",
+    "1.5 stops after the first step."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u7-q05",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u7",
+   "topicId": "b7-sep",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the particular solution of dy/dx = xy with y(0) = 3?",
+   "choices": [
+    "y = 3e^(x²/2)",
+    "y = e^(x²/2) + 2",
+    "y = 3eˣ",
+    "y = 3e^(x²)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Separate: dy/y = x dx, so ln|y| = x²/2 + C and y = Ae^(x²/2). y(0) = 3 gives A = 3.",
+   "choiceExplanations": [
+    "",
+    "Adding the constant after exponentiating is invalid: this doesn't satisfy dy/dx = xy.",
+    "3eˣ solves dy/dx = y, not dy/dx = xy.",
+    "∫ x dx is x²/2, not x²."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u7-q06",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u7",
+   "topicId": "b7-sep",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is the particular solution of dy/dx = 2x/y with y(1) = −2?",
+   "choices": [
+    "y = −2x",
+    "y = √(2x² + 2)",
+    "y = −√(2x² + 2)",
+    "y = −√(x² + 3)"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Separate: y dy = 2x dx, so y²/2 = x² + C and y² = 2x² + 2C. y(1) = −2 gives 4 = 2 + 2C, so y² = 2x² + 2. The point has y < 0, so take the negative root.",
+   "choiceExplanations": [
+    "y = −2x passes through (1, −2), but its slope is −2 while 2x/y = −1 there.",
+    "The positive root gives y(1) = 2, not −2.",
+    "",
+    "This forgets to multiply x² by 2 when clearing the 1/2 from y²/2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u7-q07",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u7",
+   "topicId": "b7-models",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A population follows dP/dt = 0.4P(1 − P/500). What is its carrying capacity?",
+   "choices": [
+    "250",
+    "500",
+    "0.4",
+    "200"
+   ],
+   "correctAnswer": 1,
+   "explanation": "In dP/dt = kP(1 − P/L), the carrying capacity is L = 500.",
+   "choiceExplanations": [
+    "250 is half the carrying capacity, where growth is fastest.",
+    "",
+    "0.4 is the growth constant k.",
+    "200 is 0.4 × 500, which has no special meaning."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u7-q08",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u7",
+   "topicId": "b7-models",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For dP/dt = 0.4P(1 − P/500), at what population is P growing fastest?",
+   "choices": [
+    "250",
+    "0",
+    "500",
+    "125"
+   ],
+   "correctAnswer": 0,
+   "explanation": "dP/dt = 0.4P − 0.0008P² is a downward parabola in P, largest at its vertex, P = 250 (half the carrying capacity).",
+   "choiceExplanations": [
+    "",
+    "At P = 0, dP/dt = 0.",
+    "At P = 500, dP/dt = 0: the population has leveled off.",
+    "125 is a quarter of the carrying capacity, not the vertex."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "cbc-u7-q09",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u7",
+   "topicId": "b7-models",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Coffee cools in a 70°F room according to dy/dt = −0.2(y − 70), with y(0) = 190°F. Which is its temperature function?",
+   "choices": [
+    "y = 70 + 120e^(−0.2t)",
+    "y = 70 + 190e^(−0.2t)",
+    "y = 190e^(−0.2t)",
+    "y = 120 + 70e^(−0.2t)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Let u = y − 70: du/dt = −0.2u, so u = u₀e^(−0.2t) with u₀ = 190 − 70 = 120. Then y = 70 + 120e^(−0.2t).",
+   "choiceExplanations": [
+    "",
+    "This starts at 260°F, not 190°F.",
+    "This decays toward 0°F, not toward the room's 70°F.",
+    "This swaps the room temperature and the initial difference; it levels off at 120°F."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "cbc-u7-q01",
+    "cbc-u7-q02",
+    "cbc-u7-q03",
+    "cbc-u7-q04",
+    "cbc-u7-q05",
+    "cbc-u7-q06",
+    "cbc-u7-q07",
+    "cbc-u7-q09"
+   ]
+  }
+ ]
+}
