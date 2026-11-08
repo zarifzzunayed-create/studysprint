@@ -1,0 +1,707 @@
+{
+ "courseId": "ap-chemistry",
+ "unitId": "u1",
+ "title": "Unit 1: Atomic Structure and Properties",
+ "topics": [
+  {
+   "id": "c1-moles",
+   "name": "Moles, mass spectra, and composition",
+   "covers": [
+    "Moles and molar mass",
+    "Mass spectra of elements",
+    "Elemental composition of pure substances",
+    "Composition of mixtures"
+   ],
+   "frameworkCovers": [
+    "1.1 Moles and Molar Mass",
+    "1.2 Mass Spectra of Elements",
+    "1.3 Elemental Composition of Pure Substances",
+    "1.4 Composition of Mixtures"
+   ]
+  },
+  {
+   "id": "c1-structure",
+   "name": "Electron configuration and photoelectron spectroscopy",
+   "covers": [
+    "Atomic structure and electron configuration",
+    "Photoelectron spectroscopy"
+   ],
+   "frameworkCovers": [
+    "1.5 Atomic Structure and Electron Configuration",
+    "1.6 Photoelectron Spectroscopy"
+   ]
+  },
+  {
+   "id": "c1-trends",
+   "name": "Periodic trends and ionic compounds",
+   "covers": [
+    "Periodic trends",
+    "Valence electrons and ionic compounds"
+   ],
+   "frameworkCovers": [
+    "1.7 Periodic Trends",
+    "1.8 Valence Electrons and Ionic Compounds"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Atomic structure and properties: review guide",
+  "intro": "Chemistry counts particles in moles. This unit connects mass to moles, uses mass spectra and percent composition to identify substances, and explains the periodic table through electron configurations and photoelectron spectroscopy.",
+  "equationNote": "Avogadro's number N_A = 6.022 × 10²³ per mole. Molar masses are given in each question.",
+  "sections": [
+   {
+    "id": "s-c1-moles",
+    "topicId": "c1-moles",
+    "title": "Moles, mass spectra, and composition",
+    "body": [
+     "A mole is 6.022 × 10²³ particles. The molar mass (g/mol) converts between grams and moles: n = m/M. Multiply moles by N_A to get the number of particles.",
+     "A mass spectrum shows an element's isotopes: each peak's position is an isotope's mass and its height is its relative abundance. The average atomic mass is the abundance-weighted average. Percent composition by mass identifies a pure substance's empirical formula (the simplest whole-number mole ratio); for a mixture, it gives how much of each component is present."
+    ],
+    "points": [
+     "Empirical formula: convert each mass percent to moles (assume 100 g), divide by the smallest, and round to whole numbers.",
+     "A pure substance always has the same composition; a mixture's composition can vary.",
+     "Average atomic mass is closer to the more abundant isotope."
+    ],
+    "equations": [
+     [
+      "n = m/M",
+      "moles from mass and molar mass"
+     ],
+     [
+      "N = n·N_A",
+      "number of particles"
+     ],
+     [
+      "average mass = Σ (isotope mass × fractional abundance)",
+      "average atomic mass"
+     ]
+    ]
+   },
+   {
+    "id": "s-c1-structure",
+    "topicId": "c1-structure",
+    "title": "Electron configuration and photoelectron spectroscopy",
+    "body": [
+     "Electrons fill subshells in order of increasing energy (1s, 2s, 2p, 3s, 3p, 4s, 3d, …), with up to 2 electrons in each orbital: s holds 2, p holds 6, d holds 10. Coulomb's law explains the energies: electrons closer to a nucleus with more protons are held more tightly.",
+     "Photoelectron spectroscopy (PES) knocks electrons out of atoms and measures the energy needed. Each peak is a subshell: its binding energy shows how tightly those electrons are held, and its height is proportional to the number of electrons in it."
+    ],
+    "points": [
+     "Valence electrons are those in the outermost shell (highest n).",
+     "The 1s peak always has the highest binding energy.",
+     "For the same subshell, more protons means a higher binding energy."
+    ]
+   },
+   {
+    "id": "s-c1-trends",
+    "topicId": "c1-trends",
+    "title": "Periodic trends and ionic compounds",
+    "body": [
+     "Across a period, nuclear charge increases while the shielding from inner electrons stays about the same, so atoms get smaller and ionization energy and electronegativity increase. Down a group, electrons occupy higher shells, so atoms get larger and ionization energy decreases.",
+     "Main-group elements form ions that reach a noble-gas configuration: metals lose valence electrons and nonmetals gain them. The ions combine in the ratio that makes the compound neutral, such as Al₂O₃ from Al³⁺ and O²⁻."
+    ],
+    "points": [
+     "A large jump in successive ionization energies shows when a core (non-valence) electron is being removed.",
+     "In an isoelectronic series, the ion with more protons is smaller.",
+     "Exceptions such as N > O in first ionization energy come from electron–electron repulsion in a paired orbital."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A compound is 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Find its empirical formula. (C 12.01, H 1.008, O 16.00 g/mol)",
+   "solution": "In 100 g: C 40.0/12.01 = 3.33 mol, H 6.7/1.008 = 6.6 mol, O 53.3/16.00 = 3.33 mol. Divide by 3.33: C 1, H 2, O 1. The empirical formula is CH₂O."
+  },
+  "misconceptions": [
+   [
+    "“The average atomic mass is the mass of one real atom.”",
+    "It's a weighted average; no single atom may have that mass."
+   ],
+   [
+    "“A PES peak's height shows how tightly electrons are held.”",
+    "Height shows the number of electrons; the binding energy (position) shows how tightly they are held."
+   ],
+   [
+    "“Atoms get bigger across a period because they have more electrons.”",
+    "They get smaller: the added protons pull the same shell in more tightly."
+   ],
+   [
+    "“The empirical formula is the molecular formula.”",
+    "It's the simplest ratio; the molecular formula may be a whole-number multiple of it."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Chemistry Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+  "sourceTitle": "AP Chemistry – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "chem-u1-q01",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-moles",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How many moles of water are in 36.0 g of water? (H₂O: 18.0 g/mol)",
+   "choices": [
+    "2.00 mol",
+    "0.500 mol",
+    "648 mol",
+    "1.20 × 10²⁴ mol"
+   ],
+   "correctAnswer": 0,
+   "explanation": "n = m/M = 36.0 g ÷ 18.0 g/mol = 2.00 mol.",
+   "choiceExplanations": [
+    "",
+    "0.500 divides the molar mass by the mass, which is upside down.",
+    "648 multiplies the mass by the molar mass instead of dividing.",
+    "1.20 × 10²⁴ is the number of molecules in 2.00 mol, not a number of moles."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q02",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-moles",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How many iron atoms are in 0.500 mol of iron? (N_A = 6.022 × 10²³ mol⁻¹)",
+   "choices": [
+    "1.20 × 10²⁴",
+    "3.01 × 10²³",
+    "6.02 × 10²³",
+    "27.9"
+   ],
+   "correctAnswer": 1,
+   "explanation": "N = n·N_A = 0.500 × 6.022 × 10²³ = 3.01 × 10²³ atoms.",
+   "choiceExplanations": [
+    "1.20 × 10²⁴ divides by 0.500 instead of multiplying.",
+    "",
+    "6.02 × 10²³ is the number in a full mole, not half a mole.",
+    "27.9 is the mass in grams of 0.500 mol of iron, not the number of atoms."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q03",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-moles",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A mass spectrum of an element shows two peaks: mass 10.0 u with 19.9% abundance and mass 11.0 u with 80.1% abundance. What is the element's average atomic mass?",
+   "choices": [
+    "11.0 u",
+    "10.2 u",
+    "10.5 u",
+    "10.8 u"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Average = 10.0(0.199) + 11.0(0.801) = 1.99 + 8.81 = 10.8 u. It is closer to 11.0 because that isotope is more abundant.",
+   "choiceExplanations": [
+    "11.0 is the mass of the more abundant isotope alone.",
+    "10.2 swaps the abundances of the two isotopes.",
+    "10.5 is the plain average of the two masses, ignoring abundance.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q04",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-moles",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A compound is 40.0% C, 6.7% H, and 53.3% O by mass. What is its empirical formula? (C 12.01, H 1.008, O 16.00 g/mol)",
+   "choices": [
+    "CH₂O",
+    "CH₃O",
+    "C₂H₄O₂",
+    "CHO"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Per 100 g: C 3.33 mol, H 6.6 mol, O 3.33 mol. Dividing by 3.33 gives a 1 : 2 : 1 ratio, so CH₂O.",
+   "choiceExplanations": [
+    "",
+    "CH₃O overcounts hydrogen; the mole ratio of H to C is 2, not 3.",
+    "C₂H₄O₂ has the right ratio but isn't the simplest whole-number ratio, so it isn't the empirical formula.",
+    "CHO misses that there are about twice as many moles of H as of C."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q05",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-moles",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 2.00 g sample of a mixture of NaCl and sand contains 0.0200 mol of NaCl (58.44 g/mol). What percent of the mixture's mass is NaCl?",
+   "choices": [
+    "41.6%",
+    "1.0%",
+    "1.17%",
+    "58.4%"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Mass of NaCl = 0.0200 × 58.44 = 1.17 g. Percent = 1.17/2.00 × 100 = 58.4%.",
+   "choiceExplanations": [
+    "41.6% is the percent of sand.",
+    "1.0% divides moles of NaCl by the sample's mass in grams, mixing units.",
+    "1.17% treats the 1.17 g of NaCl as if the sample were 100 g.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q06",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-moles",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Heating a 1.00 g mixture of CaCO₃ (100.1 g/mol) and an unreactive solid releases 0.00600 mol of CO₂ (CaCO₃ → CaO + CO₂). What is the mass percent of CaCO₃ in the mixture?",
+   "choices": [
+    "33.6%",
+    "39.9%",
+    "26.4%",
+    "60.1%"
+   ],
+   "correctAnswer": 3,
+   "explanation": "One mole of CaCO₃ gives one mole of CO₂, so the sample had 0.00600 mol CaCO₃ = 0.601 g, which is 60.1% of 1.00 g.",
+   "choiceExplanations": [
+    "33.6% is the mass of CaO formed (0.336 g).",
+    "39.9% is the percent of the unreactive solid.",
+    "26.4% is the mass of CO₂ released (0.264 g), not of CaCO₃.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q07",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-structure",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the ground-state electron configuration of sulfur (Z = 16)?",
+   "choices": [
+    "1s² 2s² 2p⁶ 3s² 3p² 3d²",
+    "1s² 2s² 2p⁸ 3s² 3p²",
+    "1s² 2s² 2p⁶ 3s² 3p⁴",
+    "1s² 2s² 2p⁶ 3s² 3p⁶"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Fill 1s (2), 2s (2), 2p (6), 3s (2), and the remaining 4 electrons go into 3p: 1s² 2s² 2p⁶ 3s² 3p⁴.",
+   "choiceExplanations": [
+    "3p fills before 3d; ground-state sulfur has no 3d electrons.",
+    "A p subshell holds at most 6 electrons, not 8.",
+    "",
+    "This has 18 electrons: it's the configuration of argon or the S²⁻ ion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q08",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-structure",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How many valence electrons does a phosphorus atom (Z = 15) have?",
+   "choices": [
+    "7",
+    "15",
+    "5",
+    "3"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Phosphorus is 1s² 2s² 2p⁶ 3s² 3p³; the outer shell (n = 3) holds 2 + 3 = 5 electrons.",
+   "choiceExplanations": [
+    "7 is the number for the halogens, such as chlorine.",
+    "15 is the total number of electrons, not just the valence ones.",
+    "",
+    "3 counts only the 3p electrons and misses the two 3s electrons."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q09",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-structure",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A photoelectron spectrum shows five peaks. From highest to lowest binding energy, their relative heights are 2, 2, 6, 2, 1. Which element is it?",
+   "choices": [
+    "Magnesium",
+    "Silicon",
+    "Sodium",
+    "Aluminum"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The peaks are 1s², 2s², 2p⁶, 3s², 3p¹: 13 electrons, which is aluminum.",
+   "choiceExplanations": [
+    "Magnesium (2, 2, 6, 2) has no 3p peak.",
+    "Silicon's 3p peak would have a height of 2.",
+    "Sodium (2, 2, 6, 1) has only four peaks.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q10",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-structure",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In the photoelectron spectrum of calcium, which peak has the highest binding energy, and why?",
+   "choices": [
+    "The 1s peak, because those electrons are closest to the nucleus and the least shielded",
+    "The 3p peak, because that subshell holds the most electrons",
+    "All peaks have the same binding energy, because they belong to the same atom",
+    "The 4s peak, because those electrons are in the highest energy level"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Binding energy depends on attraction to the nucleus. The 1s electrons are closest and experience nearly the full nuclear charge.",
+   "choiceExplanations": [
+    "",
+    "The number of electrons in a subshell sets a peak's height, not its binding energy.",
+    "Each subshell has its own binding energy, which is why there are separate peaks.",
+    "Outer electrons are held least tightly, so the 4s peak has the lowest binding energy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q11",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-structure",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The 1s peak in the photoelectron spectrum of sodium appears at a higher binding energy than the 1s peak of neon. What best explains this?",
+   "choices": [
+    "Sodium's 1s subshell holds more electrons than neon's",
+    "Sodium has 11 protons, so its nucleus attracts the 1s electrons more strongly",
+    "Sodium's extra 3s electron shields the 1s electrons more",
+    "Sodium atoms are larger than neon atoms"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Both 1s subshells hold 2 electrons at about the same distance from the nucleus, but sodium's nucleus has one more proton, so it pulls harder on them.",
+   "choiceExplanations": [
+    "Every 1s subshell holds at most 2 electrons.",
+    "",
+    "Outer electrons barely shield inner ones, and more shielding would lower the binding energy, not raise it.",
+    "Atomic size reflects the outer electrons; the 1s binding energy depends on nuclear charge."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q12",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-trends",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which of these atoms has the largest atomic radius?",
+   "choices": [
+    "Na",
+    "Cl",
+    "Ar",
+    "Mg"
+   ],
+   "correctAnswer": 0,
+   "explanation": "All four are in period 3. Radius decreases across a period as nuclear charge increases, so sodium, on the left, is largest.",
+   "choiceExplanations": [
+    "",
+    "Cl is near the right of the period, so it is small.",
+    "Ar is at the far right of the period.",
+    "Mg has one more proton than Na pulling on the same shell, so it is smaller."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q13",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-trends",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which element has the highest first ionization energy?",
+   "choices": [
+    "C",
+    "O",
+    "F",
+    "Li"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Across period 2, ionization energy generally increases with nuclear charge. Fluorine has the most protons of these four.",
+   "choiceExplanations": [
+    "C has fewer protons than O and F.",
+    "O has fewer protons than F and loses a paired 2p electron easily.",
+    "",
+    "Li loses its single 2s electron very easily, so it has the lowest of the four."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q14",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-trends",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the formula of the ionic compound formed by aluminum and oxygen?",
+   "choices": [
+    "AlO₂",
+    "Al₂O₃",
+    "AlO",
+    "Al₃O₂"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Al forms Al³⁺ and O forms O²⁻. Two Al³⁺ (+6) balance three O²⁻ (−6), giving Al₂O₃.",
+   "choiceExplanations": [
+    "AlO₂ has a net charge of −1.",
+    "",
+    "AlO would have a net charge of +1.",
+    "Al₃O₂ has a net charge of +5; this swaps the subscripts."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q15",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-trends",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The first ionization energy of oxygen is lower than that of nitrogen, even though oxygen has more protons. Why?",
+   "choices": [
+    "Oxygen's removed electron is in a 2p orbital that already holds another electron, and their repulsion makes it easier to remove",
+    "Nitrogen has more valence electrons than oxygen",
+    "Oxygen has a smaller nuclear charge than nitrogen",
+    "Oxygen's valence electrons are in a higher energy level than nitrogen's"
+   ],
+   "correctAnswer": 0,
+   "explanation": "N has three unpaired 2p electrons. O's fourth 2p electron must pair up, and electron–electron repulsion in that orbital lowers its ionization energy.",
+   "choiceExplanations": [
+    "",
+    "Oxygen has 6 valence electrons and nitrogen 5.",
+    "Oxygen has 8 protons and nitrogen 7, so oxygen's nuclear charge is larger.",
+    "Both elements' valence electrons are in the n = 2 shell."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q16",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-trends",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The first four ionization energies of an element are 738, 1451, 7733, and 10,540 kJ/mol. What is the most likely formula of its chloride?",
+   "choices": [
+    "XCl₃",
+    "XCl₂",
+    "XCl",
+    "X₂Cl"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The large jump comes after the second ionization, so the element has 2 valence electrons and forms X²⁺. With Cl⁻, that gives XCl₂.",
+   "choiceExplanations": [
+    "XCl₃ would need a +3 ion; removing a third electron here takes a core electron.",
+    "",
+    "XCl would need a +1 ion, which would show the big jump after the first ionization.",
+    "X₂Cl doesn't balance a +2 ion with Cl⁻."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u1-q17",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "topicId": "c1-trends",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "S²⁻, Cl⁻, K⁺, and Ca²⁺ all have 18 electrons. Which ion is smallest?",
+   "choices": [
+    "K⁺",
+    "S²⁻",
+    "Ca²⁺",
+    "Cl⁻"
+   ],
+   "correctAnswer": 2,
+   "explanation": "With the same number of electrons, the ion with the most protons (calcium, 20) pulls them in most tightly.",
+   "choiceExplanations": [
+    "K⁺ has 19 protons, one fewer than Ca²⁺.",
+    "S²⁻ has the fewest protons (16), so it is the largest.",
+    "",
+    "Cl⁻ has only 17 protons."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-chem-u1-os1",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "title": "OpenStax Chemistry 2e, 3.1 Formula Mass and the Mole Concept",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free textbook section on moles and molar mass (CED topic 1.1).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u1-os2",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "title": "OpenStax Chemistry 2e, 6.4 Electronic Structure of Atoms (Electron Configurations)",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Electron configurations (CED topic 1.5). It goes beyond AP scope in places.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/6-4-electronic-structure-of-atoms-electron-configurations",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u1-os3",
+   "courseId": "ap-chemistry",
+   "unitId": "u1",
+   "title": "OpenStax Chemistry 2e, 6.5 Periodic Variations in Element Properties",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/6-5-periodic-variations-in-element-properties",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Atomic radius, ionization energy, and other periodic trends (CED topic 1.7).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/6-5-periodic-variations-in-element-properties",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "chem-u1-q01",
+    "chem-u1-q02",
+    "chem-u1-q03",
+    "chem-u1-q07",
+    "chem-u1-q09",
+    "chem-u1-q10",
+    "chem-u1-q16",
+    "chem-u1-q17"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "chem-u1-q04",
+    "chem-u1-q05",
+    "chem-u1-q06",
+    "chem-u1-q08",
+    "chem-u1-q11",
+    "chem-u1-q12",
+    "chem-u1-q13",
+    "chem-u1-q14"
+   ]
+  }
+ ]
+}

@@ -72,6 +72,17 @@ const swapTo = outlineOnly || CAT.courses.find(c => c.id === 'ap-calculus-bc');
   await p.waitForSelector('#v-test form legend');
   T.ok(/Question 1 of 8/.test(await T.text(p, '.test-status')) && /AP Physics 2: Algebra-Based · Unit 15: Modern Physics/.test(await T.text(p, '#v-test')), 'a new Physics 2 unit test opens with 8 questions');
   await p.click('#v-test button:has-text("Save and exit")');
+  // Two-test units: both tests are listed, they share no questions, and test 2 opens with its own questions.
+  const chem = JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', 'ap-chemistry', 'u3.json')));
+  await T.openUnit(p, 'AP Chemistry', 'u3');
+  const cards = p.locator('#v-overview .test-cards > li');
+  T.ok(await cards.count() === 2 && /These 2 tests share no questions/.test(await T.text(p, '#v-overview')), 'Chemistry Unit 3 lists 2 practice tests and says they share no questions');
+  await cards.nth(1).locator('button:has-text("Start untimed")').click();
+  await p.waitForSelector('#v-test form legend');
+  const t2prompts = chem.tests[1].questionIds.map(id => chem.questions.find(q => q.id === id).prompt);
+  const t2shown = await T.text(p, '#v-test form legend');
+  T.ok(/Question 1 of 8/.test(await T.text(p, '.test-status')) && t2prompts.some(pr => t2shown.includes(pr.slice(0, 40))), 'Chemistry Practice test 2 opens with 8 of its own questions');
+  await p.click('#v-test button:has-text("Save and exit")');
   await T.openUnit(p, 'AP Physics C: Mechanics', 'u5');
   await p.click('#v-overview button:has-text("Start untimed")');
   await p.waitForSelector('#v-test form legend');
