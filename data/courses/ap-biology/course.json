@@ -1,0 +1,260 @@
+{
+ "id": "ap-biology",
+ "name": "AP Biology",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-biology",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf",
+ "frameworkVersion": "AP Biology Course and Exam Description, effective Fall 2025 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections implemented as of June 2026.",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-biology/exam/past-exam-questions",
+  "note": null,
+  "releasedSets": [
+   {
+    "year": 2026,
+    "title": "2026 AP Biology Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-biology.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP Biology Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-biology.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP Biology Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-biology.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP Biology Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-biology.pdf"
+   }
+  ],
+  "setsNote": "Whole released exams (PDF, College Board), linked from the course's past-exam-questions page and checked to load on 2026-11-08. They are not matched to units. Scoring guidelines are on the course's past-exam-questions page. The 2023–2025 sets were written for the CED in effect before Fall 2025."
+ },
+ "source": {
+  "title": "AP Biology – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-biology",
+  "verified": "2026-11-08",
+  "note": "Unit names, the “topics may include” lists, and exam weightings were read from this page on 2026-11-08 and are recorded exactly as written there, including two apparent typos on the page: “Structure of water hydrogen bonding” (the CED says “Structure of Water and Hydrogen Bonding”) and “Natural and aritificial selection”. Some weightings on the page use a hyphen instead of a dash; StudySprint writes them with a dash."
+ },
+ "frameworkCheck": {
+  "checked": "2026-11-08",
+  "source": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf",
+  "title": "AP Biology Course and Exam Description (effective Fall 2025)",
+  "how": "The 60 numbered CED topics (1.1–8.7) were read from the current PDF on AP Central and cross-checked against College Board's Course at a Glance; each is matched to the StudySprint topic whose guide section and questions teach it. The Clarifications and Corrections (implemented as of June 2025 and June 2026) change front matter, sample exam questions, resource locations, and Progress Check wording only; no unit or topic changed.",
+  "weightsSource": "the AP Students course page (“On The Exam”), checked 2026-11-08; the CED's Course at a Glance gives the same ranges",
+  "differences": [
+   "The AP Students page's topic list is a summary of the CED's topics in different words (for example, it lists “Mutations” under Unit 6 and “Population genetics” under Unit 7, matching CED topics 6.7 and 7.4, but does not name 7.5 Hardy–Weinberg equilibrium separately). Both lists are recorded and both are build-checked."
+  ]
+ },
+ "generalResources": [
+  {
+   "id": "gen-bio-openstax",
+   "title": "OpenStax Biology for AP® Courses (whole book)",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/details/books/biology-ap-courses",
+   "scope": "general",
+   "kind": "textbook",
+   "note": "General: a free biology textbook written for AP courses. Its chapters follow a textbook order, so they don't line up one-to-one with the current AP units.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/details/books/biology-ap-courses",
+   "sourceTitle": "OpenStax book page",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Chemistry of Life",
+   "status": "practice-ready",
+   "file": "data/courses/ap-biology/u1.json",
+   "officialTopics": [
+    "Structure of water hydrogen bonding",
+    "Elements of life",
+    "Carbohydrates",
+    "Lipids",
+    "Nucleic acids",
+    "Proteins"
+   ],
+   "examWeight": "8%–11%",
+   "frameworkTopics": [
+    "1.1 Structure of Water and Hydrogen Bonding",
+    "1.2 Elements of Life",
+    "1.3 Introduction to Macromolecules",
+    "1.4 Carbohydrates",
+    "1.5 Lipids",
+    "1.6 Nucleic Acids",
+    "1.7 Proteins"
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Cells",
+   "status": "practice-ready",
+   "file": "data/courses/ap-biology/u2.json",
+   "officialTopics": [
+    "Cellular structure and functions",
+    "Cell size",
+    "Cellular interactions with its environment",
+    "Plasma membrane and membrane transport",
+    "Cell regulatory mechanisms (like osmosis and selective permeability)",
+    "Cellular compartmentalization"
+   ],
+   "examWeight": "10%–13%",
+   "frameworkTopics": [
+    "2.1 Cell Structure and Function",
+    "2.2 Cell Size",
+    "2.3 Plasma Membrane",
+    "2.4 Membrane Permeability",
+    "2.5 Membrane Transport",
+    "2.6 Facilitated Diffusion",
+    "2.7 Tonicity and Osmoregulation",
+    "2.8 Mechanisms of Transport",
+    "2.9 Cell Compartmentalization",
+    "2.10 Origins of Cell Compartmentalization"
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Cellular Energetics",
+   "status": "practice-ready",
+   "file": "data/courses/ap-biology/u3.json",
+   "officialTopics": [
+    "The structure and function of enzymes",
+    "Cellular energy",
+    "The processes of photosynthesis and cellular respiration"
+   ],
+   "examWeight": "12%–16%",
+   "frameworkTopics": [
+    "3.1 Enzymes",
+    "3.2 Environmental Impacts on Enzyme Function",
+    "3.3 Cellular Energy",
+    "3.4 Photosynthesis",
+    "3.5 Cellular Respiration"
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Cell Communication and Cell Cycle",
+   "status": "practice-ready",
+   "file": "data/courses/ap-biology/u4.json",
+   "officialTopics": [
+    "Cell communication",
+    "Signal transduction pathways",
+    "Feedback",
+    "Cell cycle and regulation"
+   ],
+   "examWeight": "10%–15%",
+   "frameworkTopics": [
+    "4.1 Cell Communication",
+    "4.2 Introduction to Signal Transduction",
+    "4.3 Signal Transduction Pathways",
+    "4.4 Feedback",
+    "4.5 Cell Cycle",
+    "4.6 Regulation of Cell Cycle"
+   ]
+  },
+  {
+   "id": "u5",
+   "name": "Unit 5: Heredity",
+   "status": "practice-ready",
+   "file": "data/courses/ap-biology/u5.json",
+   "officialTopics": [
+    "Meiosis and genetic diversity",
+    "Mendelian genetics",
+    "Non-mendelian Inheritance",
+    "Environmental effects on phenotype"
+   ],
+   "examWeight": "8%–11%",
+   "frameworkTopics": [
+    "5.1 Meiosis",
+    "5.2 Meiosis and Genetic Diversity",
+    "5.3 Mendelian Genetics",
+    "5.4 Non-Mendelian Genetics",
+    "5.5 Environmental Effects on Phenotype"
+   ]
+  },
+  {
+   "id": "u6",
+   "name": "Unit 6: Gene Expression and Regulation",
+   "status": "practice-ready",
+   "file": "data/courses/ap-biology/u6.json",
+   "officialTopics": [
+    "DNA and RNA structure",
+    "DNA replication",
+    "Transcription and RNA processing",
+    "Translation",
+    "Regulation of gene expression",
+    "Gene expression and cell specialization",
+    "Mutations",
+    "Biotechnology"
+   ],
+   "examWeight": "12%–16%",
+   "frameworkTopics": [
+    "6.1 DNA and RNA Structure",
+    "6.2 DNA Replication",
+    "6.3 Transcription and RNA Processing",
+    "6.4 Translation",
+    "6.5 Regulation of Gene Expression",
+    "6.6 Gene Expression and Cell Specialization",
+    "6.7 Mutations",
+    "6.8 Biotechnology"
+   ]
+  },
+  {
+   "id": "u7",
+   "name": "Unit 7: Natural Selection",
+   "status": "practice-ready",
+   "file": "data/courses/ap-biology/u7.json",
+   "officialTopics": [
+    "Natural and aritificial selection",
+    "Population genetics",
+    "Evidence of evolution and common ancestry",
+    "Phylogeny",
+    "Speciation and variations in populations",
+    "Origin of life on Earth"
+   ],
+   "examWeight": "13%–20%",
+   "frameworkTopics": [
+    "7.1 Introduction to Natural Selection",
+    "7.2 Natural Selection",
+    "7.3 Artificial Selection",
+    "7.4 Population Genetics",
+    "7.5 Hardy–Weinberg Equilibrium",
+    "7.6 Evidence of Evolution",
+    "7.7 Common Ancestry",
+    "7.8 Continuing Evolution",
+    "7.9 Phylogeny",
+    "7.10 Speciation",
+    "7.11 Variations in Populations",
+    "7.12 Origins of Life on Earth"
+   ]
+  },
+  {
+   "id": "u8",
+   "name": "Unit 8: Ecology",
+   "status": "practice-ready",
+   "file": "data/courses/ap-biology/u8.json",
+   "officialTopics": [
+    "Responses to the environment",
+    "Energy flow through ecosystems",
+    "Population ecology and population density",
+    "Community ecology",
+    "Biodiversity",
+    "Disruptions in ecosystems"
+   ],
+   "examWeight": "10%–15%",
+   "frameworkTopics": [
+    "8.1 Responses to the Environment",
+    "8.2 Energy Flow Through Ecosystems",
+    "8.3 Population Ecology",
+    "8.4 Effect of Density on Populations",
+    "8.5 Community Ecology",
+    "8.6 Biodiversity",
+    "8.7 Disruptions in Ecosystems"
+   ]
+  }
+ ]
+}

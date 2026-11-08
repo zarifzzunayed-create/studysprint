@@ -1,0 +1,690 @@
+{
+ "courseId": "ap-biology",
+ "unitId": "u1",
+ "title": "Unit 1: Chemistry of Life",
+ "topics": [
+  {
+   "id": "bio1-water",
+   "name": "Water and the elements of life",
+   "covers": [
+    "Structure of water hydrogen bonding",
+    "Elements of life"
+   ],
+   "frameworkCovers": [
+    "1.1 Structure of Water and Hydrogen Bonding",
+    "1.2 Elements of Life"
+   ]
+  },
+  {
+   "id": "bio1-carb",
+   "name": "Macromolecules: carbohydrates and lipids",
+   "covers": [
+    "Carbohydrates",
+    "Lipids"
+   ],
+   "frameworkCovers": [
+    "1.3 Introduction to Macromolecules",
+    "1.4 Carbohydrates",
+    "1.5 Lipids"
+   ]
+  },
+  {
+   "id": "bio1-info",
+   "name": "Nucleic acids and proteins",
+   "covers": [
+    "Nucleic acids",
+    "Proteins"
+   ],
+   "frameworkCovers": [
+    "1.3 Introduction to Macromolecules",
+    "1.6 Nucleic Acids",
+    "1.7 Proteins"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Chemistry of life: review guide",
+  "intro": "Living things are built from a few elements arranged into water and four kinds of macromolecules. This unit explains water's special properties and how the structure of carbohydrates, lipids, nucleic acids, and proteins determines what they do.",
+  "sections": [
+   {
+    "id": "s-bio1-water",
+    "topicId": "bio1-water",
+    "title": "Water and the elements of life",
+    "body": [
+     "A water molecule is polar: oxygen pulls electrons more strongly than hydrogen. The partial charges let water molecules form hydrogen bonds with each other (cohesion) and with other polar surfaces (adhesion). Hydrogen bonding gives water a high specific heat, surface tension, and the ability to dissolve many polar and ionic substances; it also makes ice less dense than liquid water.",
+     "Living things are built mostly from C, H, O, N, P, and S. Carbon forms the backbone of organic molecules. Nitrogen is needed for proteins and nucleic acids, and phosphorus for nucleic acids, ATP, and phospholipids."
+    ],
+    "points": [
+     "Cohesion and adhesion move water up narrow xylem vessels.",
+     "Organisms take in nitrogen and phosphorus to build macromolecules.",
+     "Floating ice insulates the water below it."
+    ]
+   },
+   {
+    "id": "s-bio1-carb",
+    "topicId": "bio1-carb",
+    "title": "Macromolecules: carbohydrates and lipids",
+    "body": [
+     "Macromolecules are polymers built from monomers. Dehydration synthesis joins monomers and releases one water molecule per bond; hydrolysis breaks the bonds by adding water. Carbohydrates are built from monosaccharides such as glucose. Starch and glycogen store energy, while cellulose builds plant cell walls; they differ in how their glucose units are linked.",
+     "Lipids are nonpolar and hydrophobic. Saturated fatty acids have no C=C double bonds and pack tightly (solid fats); unsaturated fatty acids have double bonds that kink the chain (liquid oils). Phospholipids have a hydrophilic phosphate head and hydrophobic tails, so in water they form bilayers, the basis of membranes."
+    ],
+    "points": [
+     "Joining n monomers in a chain releases n − 1 water molecules.",
+     "Lipids aren't true polymers.",
+     "More unsaturated tails make a membrane more fluid."
+    ]
+   },
+   {
+    "id": "s-bio1-info",
+    "topicId": "bio1-info",
+    "title": "Nucleic acids and proteins",
+    "body": [
+     "Nucleotides have a phosphate, a five-carbon sugar, and a nitrogenous base. DNA uses deoxyribose and the bases A, T, C, G; RNA uses ribose and U instead of T. DNA's two strands are antiparallel (one runs 5′→3′, the other 3′→5′) and pair A–T and C–G.",
+     "Proteins are chains of amino acids joined by peptide bonds. The amino acid sequence (primary structure) determines folding: hydrogen bonds in the backbone form α-helices and β-sheets (secondary), interactions between R groups give the 3-D shape (tertiary), and some proteins have several subunits (quaternary). Shape determines function."
+    ],
+    "points": [
+     "Hydrophobic R groups tend to cluster inside a folded protein.",
+     "Changing one amino acid can change a protein's shape and function.",
+     "Write complementary DNA strands antiparallel."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "One DNA strand reads 5′-ATGC-3′. Write the complementary strand 5′ to 3′.",
+   "solution": "Pair each base (A–T, T–A, G–C, C–G) to get 3′-TACG-5′, then read it from its 5′ end: 5′-GCAT-3′."
+  },
+  "misconceptions": [
+   [
+    "“Hydrogen bonds hold the atoms of a water molecule together.”",
+    "Covalent bonds hold each molecule together; hydrogen bonds act between molecules."
+   ],
+   [
+    "“Dehydration synthesis uses up water.”",
+    "It releases water; hydrolysis uses water."
+   ],
+   [
+    "“DNA and RNA differ only in the number of strands.”",
+    "They also differ in their sugar (deoxyribose vs ribose) and in one base (T vs U)."
+   ],
+   [
+    "“A protein's function doesn't depend on its shape.”",
+    "Shape, set by the amino acid sequence, determines function."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Biology Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+  "sourceTitle": "AP Biology – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "bio-u1-q01",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-water",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What gives water its cohesion?",
+   "choices": [
+    "Covalent bonds between neighboring water molecules",
+    "Hydrogen bonds between polar water molecules",
+    "Water's nonpolar structure",
+    "Ionic bonds between H⁺ and OH⁻"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Each water molecule's partial positive H is attracted to a partial negative O of another molecule, forming hydrogen bonds that hold water together.",
+   "choiceExplanations": [
+    "Covalent bonds act within each molecule, not between molecules.",
+    "",
+    "Water is polar, which is why it forms hydrogen bonds.",
+    "Liquid water is mostly intact H₂O molecules, not ions."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q02",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-water",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A cell needs nitrogen and phosphorus to build which kind of molecule, but neither to build glucose?",
+   "choices": [
+    "Water",
+    "Nucleic acids",
+    "Carbohydrates",
+    "Fatty acids"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Nucleotides contain nitrogenous bases (N) and phosphate groups (P). Glucose contains only C, H, and O.",
+   "choiceExplanations": [
+    "Water is H₂O.",
+    "",
+    "Carbohydrates such as glucose contain only C, H, and O.",
+    "Fatty acids are made of C, H, and O."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q03",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-water",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Water moves up the narrow xylem vessels of a tall tree. Which properties of water make this possible?",
+   "choices": [
+    "Cohesion between water molecules and adhesion to the vessel walls",
+    "Water's low specific heat",
+    "Water's ability to dissolve nonpolar molecules",
+    "The covalent bonds within each water molecule"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Hydrogen bonds link water molecules into a column (cohesion) and attach them to the polar cell walls (adhesion), so evaporation from leaves pulls the column up.",
+   "choiceExplanations": [
+    "",
+    "Water has a high specific heat, and that doesn't move it upward.",
+    "Water dissolves polar substances, not nonpolar ones.",
+    "Bonds within a molecule don't connect molecules into a column."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q04",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-water",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Organisms use nitrogen from their environment mainly to build which molecules?",
+   "choices": [
+    "Carbohydrates and lipids",
+    "Water and carbon dioxide",
+    "Proteins and nucleic acids",
+    "Only lipids"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Amino acids contain amino groups, and nucleotides contain nitrogenous bases.",
+   "choiceExplanations": [
+    "Carbohydrates and most lipids contain no nitrogen.",
+    "Neither water nor CO₂ contains nitrogen.",
+    "",
+    "Most lipids contain no nitrogen."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q05",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-water",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Why does ice float on liquid water?",
+   "choices": [
+    "Ice contains trapped air from the atmosphere",
+    "Ice molecules have less mass than liquid water molecules",
+    "Water molecules lose their polarity when they freeze",
+    "Hydrogen bonds hold the molecules in ice farther apart in a lattice, so ice is less dense"
+   ],
+   "correctAnswer": 3,
+   "explanation": "In ice each molecule forms stable hydrogen bonds to four neighbors in an open lattice, spacing them out more than in the liquid.",
+   "choiceExplanations": [
+    "Pure ice floats even without trapped air.",
+    "A water molecule has the same mass in either state.",
+    "Polarity is what makes the hydrogen-bonded lattice form.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q06",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-carb",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the monomer of starch?",
+   "choices": [
+    "Nucleotides",
+    "Fatty acids",
+    "Glucose, a monosaccharide",
+    "Amino acids"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Starch is a polysaccharide: a chain of glucose units.",
+   "choiceExplanations": [
+    "Nucleotides are the monomers of nucleic acids.",
+    "Fatty acids are parts of fats and phospholipids.",
+    "",
+    "Amino acids are the monomers of proteins."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q07",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-carb",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How many water molecules are released when 5 glucose molecules are joined into an unbranched chain?",
+   "choices": [
+    "10",
+    "5",
+    "4",
+    "6"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Each bond between two monomers releases one water molecule, and a chain of 5 has 4 bonds.",
+   "choiceExplanations": [
+    "10 counts two waters per monomer.",
+    "5 counts one water per monomer, but the chain has only 4 bonds.",
+    "",
+    "6 adds an extra water."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q08",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-carb",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How does an unsaturated fatty acid differ from a saturated one?",
+   "choices": [
+    "It contains nitrogen",
+    "It has more hydrogen atoms",
+    "It is polar and dissolves in water",
+    "It has one or more C=C double bonds that kink its chain"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Double bonds put bends in the chain, so unsaturated fats pack less tightly and are usually liquid at room temperature.",
+   "choiceExplanations": [
+    "Fatty acids contain only C, H, and O.",
+    "Unsaturated means fewer hydrogens, because of the double bonds.",
+    "Both kinds are hydrophobic.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q09",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-carb",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why do phospholipids form a bilayer in water?",
+   "choices": [
+    "Covalent bonds link the two layers",
+    "Their tails are attracted to water",
+    "They are carbohydrates that dissolve in water",
+    "Their hydrophilic heads face the water and their hydrophobic tails face each other, away from the water"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The polar phosphate heads interact with water while the nonpolar fatty-acid tails avoid it by pointing inward.",
+   "choiceExplanations": [
+    "The layers are held by hydrophobic interactions, not covalent bonds.",
+    "The fatty-acid tails are hydrophobic.",
+    "Phospholipids are lipids.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q10",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-carb",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Starch and cellulose are both polymers of glucose. Why do they have different properties?",
+   "choices": [
+    "Their glucose units are linked differently",
+    "They are made of different monomers",
+    "Starch is a protein",
+    "Cellulose contains nitrogen"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The type of linkage between the glucose units changes the polymer's shape: starch coils, while cellulose forms straight chains that bundle into strong fibers.",
+   "choiceExplanations": [
+    "",
+    "Both are made of glucose.",
+    "Starch is a carbohydrate.",
+    "Both contain only C, H, and O."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q11",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-carb",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which change in a plant's membrane phospholipids would best keep its membranes fluid in cold weather?",
+   "choices": [
+    "Fewer phosphate heads",
+    "More unsaturated fatty acid tails",
+    "Replacing the fatty acids with amino acids",
+    "More saturated fatty acid tails"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Kinks from double bonds keep the tails from packing tightly, so the membrane stays fluid at low temperatures.",
+   "choiceExplanations": [
+    "Without phosphate heads the molecules couldn't form a bilayer.",
+    "",
+    "Amino acids would destroy the hydrophobic interior the bilayer needs.",
+    "Saturated tails pack tightly and make membranes stiffer in the cold."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q12",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-info",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What are the three parts of a nucleotide?",
+   "choices": [
+    "A phosphate group, a five-carbon sugar, and a nitrogenous base",
+    "An amino group, a carboxyl group, and an R group",
+    "Glycerol and three fatty acids",
+    "A phosphate head and two fatty-acid tails"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Nucleotides, the monomers of DNA and RNA, have these three parts.",
+   "choiceExplanations": [
+    "",
+    "Those are the parts of an amino acid.",
+    "That describes a triglyceride.",
+    "That describes a phospholipid."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q13",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-info",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which pair of features belongs to RNA but not DNA?",
+   "choices": [
+    "Ribose sugar and the base uracil",
+    "A phosphate backbone and the base adenine",
+    "Deoxyribose sugar and the base thymine",
+    "Two antiparallel strands"
+   ],
+   "correctAnswer": 0,
+   "explanation": "RNA's sugar is ribose and it uses uracil in place of thymine.",
+   "choiceExplanations": [
+    "",
+    "Both DNA and RNA have a sugar–phosphate backbone and adenine.",
+    "These belong to DNA.",
+    "DNA is the double-stranded molecule."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q14",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-info",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What determines a protein's primary structure?",
+   "choices": [
+    "The interactions between its R groups",
+    "The number of subunits",
+    "The sequence of its amino acids",
+    "The hydrogen bonds that form α-helices"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Primary structure is the amino acid sequence, which is coded by a gene.",
+   "choiceExplanations": [
+    "R-group interactions make tertiary structure.",
+    "Subunits make quaternary structure.",
+    "",
+    "Hydrogen bonds in the backbone make secondary structure."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q15",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-info",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A protein dissolved in water folds so that most amino acids with nonpolar R groups end up inside. Why?",
+   "choices": [
+    "Nonpolar R groups form peptide bonds with water",
+    "Nonpolar R groups are hydrophobic, so they are pushed away from the surrounding water",
+    "Nonpolar R groups carry a charge",
+    "The cell actively moves them inside"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Hydrophobic interactions drive nonpolar side chains together, away from water, while polar and charged R groups stay on the surface.",
+   "choiceExplanations": [
+    "Peptide bonds join amino acids to each other, not to water.",
+    "",
+    "Nonpolar groups are uncharged.",
+    "Folding is driven by chemistry, not by active transport."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q16",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-info",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "One DNA strand has the sequence 5′-ATGC-3′. What is the complementary strand, written 5′ to 3′?",
+   "choices": [
+    "5′-UACG-3′",
+    "5′-TACG-3′",
+    "5′-CGTA-3′",
+    "5′-GCAT-3′"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The complement is 3′-TACG-5′ (A–T, G–C). The strands are antiparallel, so read from its 5′ end: 5′-GCAT-3′.",
+   "choiceExplanations": [
+    "U appears in RNA, not DNA.",
+    "TACG is the complement written 3′ to 5′; it hasn't been reversed.",
+    "CGTA reverses the original but doesn't pair the bases.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u1-q17",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "topicId": "bio1-info",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which interactions hold a protein's α-helices and β-sheets (its secondary structure) in shape?",
+   "choices": [
+    "Hydrogen bonds between atoms of the polypeptide backbone",
+    "Peptide bonds",
+    "Interactions between R groups",
+    "Interactions between separate polypeptide subunits"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Secondary structure comes from hydrogen bonds between backbone C=O and N–H groups.",
+   "choiceExplanations": [
+    "",
+    "Peptide bonds link amino acids in the primary structure.",
+    "R-group interactions give tertiary structure.",
+    "Interactions between subunits are quaternary structure."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-bio-u1-os1",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "title": "OpenStax Biology for AP® Courses, 2.2 Water",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/2-2-water",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Water's polarity, hydrogen bonding, and properties (CED topic 1.1).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/2-2-water",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u1-os2",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "title": "OpenStax Biology for AP® Courses, 3.2 Carbohydrates",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/3-2-carbohydrates",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Monosaccharides and polysaccharides (CED topic 1.4).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/3-2-carbohydrates",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u1-os3",
+   "courseId": "ap-biology",
+   "unitId": "u1",
+   "title": "OpenStax Biology for AP® Courses, 3.4 Proteins",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/3-4-proteins",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Amino acids and the levels of protein structure (CED topic 1.7).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/3-4-proteins",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "bio-u1-q01",
+    "bio-u1-q02",
+    "bio-u1-q03",
+    "bio-u1-q06",
+    "bio-u1-q07",
+    "bio-u1-q09",
+    "bio-u1-q16",
+    "bio-u1-q17"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "bio-u1-q04",
+    "bio-u1-q05",
+    "bio-u1-q08",
+    "bio-u1-q10",
+    "bio-u1-q11",
+    "bio-u1-q12",
+    "bio-u1-q13",
+    "bio-u1-q14"
+   ]
+  }
+ ]
+}

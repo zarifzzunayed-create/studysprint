@@ -1,0 +1,692 @@
+{
+ "courseId": "ap-biology",
+ "unitId": "u5",
+ "title": "Unit 5: Heredity",
+ "topics": [
+  {
+   "id": "bio5-meiosis",
+   "name": "Meiosis and genetic diversity",
+   "covers": [
+    "Meiosis and genetic diversity"
+   ],
+   "frameworkCovers": [
+    "5.1 Meiosis",
+    "5.2 Meiosis and Genetic Diversity"
+   ]
+  },
+  {
+   "id": "bio5-mendel",
+   "name": "Mendelian genetics and probability",
+   "covers": [
+    "Mendelian genetics"
+   ],
+   "frameworkCovers": [
+    "5.3 Mendelian Genetics"
+   ]
+  },
+  {
+   "id": "bio5-nonmendel",
+   "name": "Non-Mendelian inheritance and environmental effects",
+   "covers": [
+    "Non-mendelian Inheritance",
+    "Environmental effects on phenotype"
+   ],
+   "frameworkCovers": [
+    "5.4 Non-Mendelian Genetics",
+    "5.5 Environmental Effects on Phenotype"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Heredity: review guide",
+  "intro": "Heredity explains how traits pass from parents to offspring. This unit covers meiosis and the genetic variation it creates, Mendel's laws and probability, patterns that don't follow Mendel's simple rules, and how the environment shapes phenotype.",
+  "equationNote": "Chi-square: χ² = Σ (observed − expected)²/expected; degrees of freedom = number of categories − 1. The critical value for 1 degree of freedom at p = 0.05 is 3.84.",
+  "sections": [
+   {
+    "id": "s-bio5-meiosis",
+    "topicId": "bio5-meiosis",
+    "title": "Meiosis and genetic diversity",
+    "body": [
+     "Meiosis makes gametes: one diploid cell divides twice to form four haploid cells (in humans, 23 chromosomes each). In meiosis I homologous chromosomes pair and separate; in meiosis II sister chromatids separate.",
+     "Meiosis creates variation in three ways: crossing over between homologous chromosomes in prophase I, independent assortment of homologous pairs in metaphase I (2ⁿ combinations for n pairs), and random fertilization. Nondisjunction, a failure of chromosomes to separate, produces gametes with an extra or missing chromosome."
+    ],
+    "points": [
+     "Meiosis I halves the chromosome number; meiosis II is like mitosis.",
+     "Nondisjunction in meiosis I affects all four gametes; in meiosis II, two of them.",
+     "Crossing over shuffles alleles between homologous chromosomes."
+    ]
+   },
+   {
+    "id": "s-bio5-mendel",
+    "topicId": "bio5-mendel",
+    "title": "Mendelian genetics and probability",
+    "body": [
+     "Each individual has two alleles per gene, one from each parent. The law of segregation: the two alleles separate into different gametes. The law of independent assortment: genes on different chromosomes assort independently. Aa × Aa gives a 1 : 2 : 1 genotype ratio and a 3 : 1 phenotype ratio.",
+     "Use probability: the product rule (multiply for independent events, so P(aabb) from AaBb × AaBb = ¼ × ¼ = 1/16) and the sum rule (add for mutually exclusive outcomes). A test cross with a homozygous recessive individual reveals an unknown genotype. A chi-square test checks whether observed results fit the expected ratio."
+    ],
+    "points": [
+     "Two unaffected parents with an affected child indicates a recessive trait.",
+     "If χ² is less than the critical value, the difference can be explained by chance.",
+     "In a pedigree, check whether males are affected more often (a sign of X-linkage)."
+    ],
+    "equations": [
+     [
+      "χ² = Σ (o − e)²/e",
+      "chi-square"
+     ]
+    ]
+   },
+   {
+    "id": "s-bio5-nonmendel",
+    "topicId": "bio5-nonmendel",
+    "title": "Non-Mendelian inheritance and environmental effects",
+    "body": [
+     "Many patterns differ from Mendel's: incomplete dominance (red × white → pink), codominance (both alleles show, as in AB blood type), multiple alleles, sex-linked genes (X-linked recessive traits appear more often in males, who have one X), linked genes on the same chromosome (inherited together unless crossing over separates them; recombination frequency reflects their distance), and mitochondrial genes (inherited from the mother).",
+     "Phenotype depends on genotype and environment. Hydrangea flower color changes with soil pH, and some animals' fur color depends on temperature."
+    ],
+    "points": [
+     "Recombination frequency below 50% suggests linked genes.",
+     "A son gets his X chromosome from his mother.",
+     "Identical genotypes can give different phenotypes in different environments."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A cross expected to give 3 : 1 produces 290 purple and 110 white flowers. Do the data fit the expected ratio?",
+   "solution": "Expected: 300 purple and 100 white. χ² = (290 − 300)²/300 + (110 − 100)²/100 = 0.33 + 1.00 = 1.33. With 1 degree of freedom the critical value is 3.84; 1.33 < 3.84, so the difference can be explained by chance and the data fit 3 : 1."
+  },
+  "misconceptions": [
+   [
+    "“Meiosis makes identical cells.”",
+    "Crossing over and independent assortment make each gamete genetically different."
+   ],
+   [
+    "“Dominant alleles are always the most common.”",
+    "Dominance describes expression, not frequency."
+   ],
+   [
+    "“Probabilities in genetics add for independent genes.”",
+    "Multiply for independent events; add only for mutually exclusive outcomes."
+   ],
+   [
+    "“A large χ² means the hypothesis is correct.”",
+    "A χ² above the critical value means the data differ significantly from the expected ratio."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Biology Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+  "sourceTitle": "AP Biology – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "bio-u5-q01",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-meiosis",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What does meiosis produce from one diploid cell?",
+   "choices": [
+    "Two genetically identical diploid cells",
+    "Two haploid cells",
+    "Four genetically identical diploid cells",
+    "Four genetically different haploid cells"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Meiosis has two divisions that halve the chromosome number, and crossing over and independent assortment make the cells different.",
+   "choiceExplanations": [
+    "That's the result of mitosis.",
+    "Meiosis has two divisions, giving four cells.",
+    "Meiosis halves the chromosome number, and its products differ.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q02",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-meiosis",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A human body cell has 46 chromosomes. How many chromosomes are in a human egg or sperm?",
+   "choices": [
+    "92",
+    "46",
+    "23",
+    "12"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Gametes are haploid: half the diploid number.",
+   "choiceExplanations": [
+    "92 is the number in a body cell after DNA replication, counting chromatids.",
+    "46 is the diploid number of body cells.",
+    "",
+    "Halving 46 gives 23, not 12."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q03",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-meiosis",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "When does crossing over occur?",
+   "choices": [
+    "In prophase I, between homologous chromosomes",
+    "In anaphase of mitosis",
+    "In prophase II, between sister chromatids",
+    "During fertilization"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Homologous chromosomes pair up in prophase I and exchange segments.",
+   "choiceExplanations": [
+    "",
+    "Crossing over is part of meiosis, not mitosis.",
+    "Homologs aren't paired in meiosis II.",
+    "Fertilization combines gametes; it doesn't exchange segments."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q04",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-meiosis",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An organism has 3 pairs of homologous chromosomes. How many different chromosome combinations can its gametes have from independent assortment alone?",
+   "choices": [
+    "3",
+    "6",
+    "9",
+    "8"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Each pair can line up two ways, so there are 2³ = 8 combinations.",
+   "choiceExplanations": [
+    "3 is the number of pairs.",
+    "6 multiplies 2 by 3 instead of raising 2 to the 3rd power.",
+    "9 is 3², not 2³.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q05",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-meiosis",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "One pair of homologous chromosomes fails to separate in meiosis I, but meiosis II is normal. What are the four gametes like?",
+   "choices": [
+    "Two have an extra chromosome and two are missing that chromosome",
+    "All four are missing that chromosome",
+    "One has an extra chromosome, one is missing it, and two are normal",
+    "All four are normal"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Both homologs go to one cell in meiosis I. That cell's two products each get an extra copy; the other cell's two products get none.",
+   "choiceExplanations": [
+    "",
+    "The chromosomes go to one side, so half the gametes have an extra copy.",
+    "That pattern results from nondisjunction in meiosis II.",
+    "Nondisjunction makes every gamete abnormal when it happens in meiosis I."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q06",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-mendel",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Two heterozygous pea plants (Aa × Aa) are crossed. A is dominant. What phenotype ratio is expected in the offspring?",
+   "choices": [
+    "1 dominant : 1 recessive",
+    "1 : 2 : 1",
+    "All dominant",
+    "3 dominant : 1 recessive"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Genotypes are ¼ AA, ½ Aa, ¼ aa; AA and Aa look the same, giving 3 : 1.",
+   "choiceExplanations": [
+    "1 : 1 comes from Aa × aa.",
+    "1 : 2 : 1 is the genotype ratio.",
+    "All dominant comes from crosses such as AA × aa.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q07",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-mendel",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "From AaBb × AaBb, with the genes on different chromosomes, what fraction of offspring is expected to be aabb?",
+   "choices": [
+    "1/8",
+    "1/16",
+    "1/4",
+    "9/16"
+   ],
+   "correctAnswer": 1,
+   "explanation": "P(aa) = ¼ and P(bb) = ¼; the genes assort independently, so multiply: 1/16.",
+   "choiceExplanations": [
+    "1/8 adds instead of multiplying correctly.",
+    "",
+    "1/4 is the chance for one gene only.",
+    "9/16 is the fraction showing both dominant traits."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q08",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-mendel",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A plant with the dominant phenotype is crossed with a homozygous recessive plant. Some offspring show the recessive phenotype. What is the dominant parent's genotype?",
+   "choices": [
+    "Heterozygous (Aa)",
+    "Homozygous recessive (aa)",
+    "Homozygous dominant (AA)",
+    "It can't be determined"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A recessive offspring must get an a from each parent, so the dominant-looking parent carries an a.",
+   "choiceExplanations": [
+    "",
+    "An aa plant would show the recessive phenotype.",
+    "An AA parent would give only dominant offspring.",
+    "The recessive offspring reveal the genotype."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q09",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-mendel",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "From AaBbCc × AaBbCc (independent genes), what is the probability of an AABBCC offspring?",
+   "choices": [
+    "1/16",
+    "1/8",
+    "1/64",
+    "3/64"
+   ],
+   "correctAnswer": 2,
+   "explanation": "P(AA) = P(BB) = P(CC) = ¼, so the probability is (¼)³ = 1/64.",
+   "choiceExplanations": [
+    "1/16 covers only two of the three genes.",
+    "1/8 uses ½ for each gene.",
+    "",
+    "3/64 multiplies by 3 for no reason."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q10",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-mendel",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a pedigree, two unaffected parents have an affected child. What does this suggest about the trait?",
+   "choices": [
+    "It is dominant",
+    "It is recessive, and both parents are carriers",
+    "It is caused by the environment only",
+    "It is inherited only from the father"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The child must have received a recessive allele from each parent, who don't show the trait.",
+   "choiceExplanations": [
+    "A dominant trait would show in at least one parent.",
+    "",
+    "A pedigree pattern like this shows inheritance.",
+    "The child needs an allele from each parent."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q11",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-mendel",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A cross expected to give a 3 : 1 ratio produces 290 purple and 110 white flowers. What is the chi-square value, and what does it mean? (critical value 3.84 for 1 degree of freedom)",
+   "choices": [
+    "1.33; the data don't fit the 3 : 1 ratio",
+    "20; the data don't fit",
+    "1.33; the data fit the 3 : 1 ratio",
+    "0.33; the data fit perfectly"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Expected 300 : 100. χ² = 10²/300 + 10²/100 = 0.33 + 1.00 = 1.33, which is less than 3.84, so the deviation can be explained by chance.",
+   "choiceExplanations": [
+    "1.33 is below the critical value, so the hypothesis isn't rejected.",
+    "20 is the sum of the differences, not χ².",
+    "",
+    "0.33 is only the purple term; the white term adds 1.00."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q12",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-nonmendel",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Red snapdragons crossed with white snapdragons produce all pink offspring. What does this show?",
+   "choices": [
+    "Linked genes",
+    "Sex-linked inheritance",
+    "Codominance",
+    "Incomplete dominance"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The heterozygote has an intermediate phenotype.",
+   "choiceExplanations": [
+    "Only one gene is involved.",
+    "Nothing here depends on sex.",
+    "In codominance both phenotypes would show fully, such as red and white patches.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q13",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-nonmendel",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A woman who carries a recessive X-linked allele has children with an unaffected man. What is the probability that a son is affected?",
+   "choices": [
+    "1",
+    "0",
+    "1/2",
+    "1/4"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A son gets his X from his mother, who has one normal X and one carrying the allele: ½.",
+   "choiceExplanations": [
+    "The mother also has a normal X to pass on.",
+    "Sons get their X from their mother, so they can inherit it.",
+    "",
+    "1/4 is the chance that any child (son or daughter) is an affected son."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q14",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-nonmendel",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Two genes show a 10% recombination frequency in test crosses. What does this indicate?",
+   "choices": [
+    "They are linked on the same chromosome, fairly close together",
+    "They assort independently",
+    "They are the same gene",
+    "They are on different chromosomes"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Unlinked genes give about 50% recombinants. Far fewer means the genes are on the same chromosome and are separated by crossing over only occasionally.",
+   "choiceExplanations": [
+    "",
+    "Independent assortment would give about 50%.",
+    "Recombination happens between different genes.",
+    "Genes on different chromosomes give about 50% recombination."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q15",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-nonmendel",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A woman has a disorder caused by a mutation in mitochondrial DNA; her husband does not. Which of their children would be expected to inherit it?",
+   "choices": [
+    "All of them",
+    "Only their daughters",
+    "None of them",
+    "Only their sons"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Mitochondria are passed to offspring through the egg, so mitochondrial genes come from the mother.",
+   "choiceExplanations": [
+    "",
+    "Sons also receive their mother's mitochondria.",
+    "The mother passes her mitochondria to every child.",
+    "Mitochondrial inheritance doesn't depend on the child's sex."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q16",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-nonmendel",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Genetically identical hydrangea plants grow blue flowers in acidic soil and pink flowers in alkaline soil. What does this show?",
+   "choices": [
+    "Soil changes the plants' DNA sequence",
+    "The environment can affect phenotype",
+    "The plants have different genotypes",
+    "Flower color is sex-linked"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The same genotype produces different phenotypes under different conditions.",
+   "choiceExplanations": [
+    "Soil pH affects how the genes' products act, not the DNA sequence.",
+    "",
+    "The plants are genetically identical.",
+    "Nothing here involves sex chromosomes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u5-q17",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "topicId": "bio5-nonmendel",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Parents with blood type genotypes IᴬI and IᴮI have a child. (Iᴬ and Iᴮ are codominant; i is recessive.) What is the probability the child has type O blood?",
+   "choices": [
+    "3/4",
+    "1/4",
+    "1/2",
+    "0"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Type O needs ii. Each parent passes i with probability ½: ½ × ½ = ¼.",
+   "choiceExplanations": [
+    "3/4 is the chance the child is not type O.",
+    "",
+    "1/2 is the chance of getting i from one parent.",
+    "Both parents carry i, so ii is possible."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-bio-u5-os1",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "title": "OpenStax Biology for AP® Courses, 11.1 The Process of Meiosis",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/11-1-the-process-of-meiosis",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Meiosis I and II, crossing over, and independent assortment (CED topics 5.1–5.2).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/11-1-the-process-of-meiosis",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u5-os2",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "title": "OpenStax Biology for AP® Courses, 12.3 Laws of Inheritance",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/12-3-laws-of-inheritance",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Segregation, independent assortment, and probability (CED topic 5.3).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/12-3-laws-of-inheritance",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u5-os3",
+   "courseId": "ap-biology",
+   "unitId": "u5",
+   "title": "OpenStax Biology for AP® Courses, 13.1 Chromosomal Theory and Genetic Linkage",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/13-1-chromosomal-theory-and-genetic-linkages",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Linked genes and recombination (CED topic 5.4).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/13-1-chromosomal-theory-and-genetic-linkages",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "bio-u5-q01",
+    "bio-u5-q02",
+    "bio-u5-q03",
+    "bio-u5-q06",
+    "bio-u5-q07",
+    "bio-u5-q09",
+    "bio-u5-q13",
+    "bio-u5-q17"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "bio-u5-q04",
+    "bio-u5-q05",
+    "bio-u5-q08",
+    "bio-u5-q10",
+    "bio-u5-q11",
+    "bio-u5-q12",
+    "bio-u5-q14",
+    "bio-u5-q16"
+   ]
+  }
+ ]
+}
