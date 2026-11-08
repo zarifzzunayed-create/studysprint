@@ -229,3 +229,10 @@ fieldset[aria-invalid="true"]{padding:.5rem;border-radius:10px}
 @media(forced-colors:active){.test-qbtn{border:1px solid ButtonText}.test-qbtn.done{outline:2px solid Highlight}}
 .quick-list .why{margin:0}
 @media(max-width:480px){.test-nav{display:grid;grid-template-columns:1fr 1fr}.test-nav .button:nth-child(2){grid-column:1/-1;order:3}}
+
+/* shared passages and sources */
+.passage{margin:0 0 1rem;padding:.9rem 1rem;border:1px solid var(--field);border-left:4px solid var(--brand);border-radius:10px;background:var(--surface)}
+.passage p{margin:.4rem 0;line-height:1.6}
+.passage-title{margin:0 0 .4rem;font-size:1.05rem}
+.passage-src{font-size:.85rem;opacity:.8}
+details.passage summary{cursor:pointer;font-weight:600;min-height:44px;display:flex;align-items:center}

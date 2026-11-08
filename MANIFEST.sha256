@@ -110,7 +110,7 @@ fb426ec2097d6de73e0715ffbbcbee02f12de4bd8463cfb2f680f15d9b628a8b  ./js/runner.js
 7f2ac88a840d7a1e10b9440e40bec75e42e961b92b5e0d88caac98a8e48759d1  ./js/util.js
 40e18cbe2ebd6e22e80c928c33edc2fe1cebcc7effadb0608467f76b28d28d5c  ./tests/README.md
 9e54a3507ff39fd2ee129404fbd26fb6f5e57f577c0631b2b4cda147758a2ecf  ./tests/helpers.js
-df2a1505a577c3974a388cf02b180cc56ed1454031f068c4beecb14076bbf3ae  ./tests/last-run.txt
+219749588f45b27fc5efce21be9ac9b7b01a645ead44da13f90c76252bde66fd  ./tests/last-run.txt
 100b6fe8cf13ba3c260c847e1045e80a680c03042b79a3aacd186d3e14884519  ./tests/run-all.js
 3e5e80ba99350cc5cbea093cebfa9b9391799e1fb6daab6c1a169dc4ea049c7f  ./tests/subserver.js
 8bdf12be27af147ab5ad886602479a2ad5d26ee3c8a3c3deac91dee3a5f4d88b  ./tests/t10_a11y.js

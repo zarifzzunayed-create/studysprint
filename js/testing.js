@@ -49,7 +49,7 @@
     let T = o.saved ? fromSaved(o.saved, test) : null;
     if (!T) {
       const limit = o.timed ? n * env.rules.minutesPerQuestion * 60 : 0;
-      T = { v: 1, testId: test.id, order: SS.shuffle(test.questionIds.slice()), ans: {}, marked: [], idx: 0, screen: "q", timed: !!o.timed, limit, left: limit, hideClock: false };
+      T = { v: 1, testId: test.id, order: SS.groupByPassage(SS.shuffle(test.questionIds.slice()), byId), ans: {}, marked: [], idx: 0, screen: "q", timed: !!o.timed, limit, left: limit, hideClock: false };
     }
     let done = false, tick = null, endAt = 0, lastSave = 0, warned = T.left <= 300;
 
@@ -145,9 +145,11 @@
         fs.append(lab, inp, msg);
       }
       form.append(fs);
-      body.replaceChildren(form);
+      const passage = SS.passageBlock(unit, q), prev = i > 0 ? byId(T.order[i - 1]) : null;
+      body.replaceChildren(passage || "", form);
       update(); save();
-      const lg = fs.firstChild; lg.tabIndex = -1; lg.focus({ preventScroll: true });
+      const lg = fs.firstChild; lg.tabIndex = -1;
+      (passage && (!prev || prev.passageId !== q.passageId) ? passage.querySelector(".passage-title") : lg).focus({ preventScroll: true });
     }
 
     function drawReview() {
@@ -264,6 +266,7 @@
       h("div", "ans-list", rows.map((r, i) => {
         const d = h("details", "ans-item" + (r.ok ? " ok" : " bad"),
           h("summary", null, "Question " + (i + 1) + " · " + (r.ok ? "Correct" : r.skip ? "Not answered" : "Incorrect") + " · " + env.topicName(r.q.topicId) + " · " + SS.cap(r.q.difficulty)),
+          SS.passageBlock(env.unit, r.q, true),
           h("p", null, r.q.prompt),
           h("p", null, h("b", null, "Your answer: "), answerText(r.q, r.a)),
           h("p", null, h("b", null, "Correct answer: "), correctText(r.q)),
