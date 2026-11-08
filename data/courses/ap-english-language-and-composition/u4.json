@@ -1,0 +1,708 @@
+{
+ "courseId": "ap-english-language-and-composition",
+ "unitId": "u4",
+ "title": "Unit 4",
+ "topics": [
+  {
+   "id": "lang4-thesis",
+   "name": "Connecting the thesis and the line of reasoning",
+   "covers": [
+    "Developing and connecting thesis statements and lines of reasoning"
+   ],
+   "frameworkCovers": [
+    "3.B Identify and describe the overarching thesis of an argument, and any indication it provides of the argument’s structure.",
+    "4.B Write a thesis statement that requires proof or defense and that may preview the structure of the argument."
+   ]
+  },
+  {
+   "id": "lang4-intro",
+   "name": "Introductions and conclusions for a rhetorical situation",
+   "covers": [
+    "Developing introductions and conclusions"
+   ],
+   "frameworkCovers": [
+    "1.A Identify and describe components of the rhetorical situation: the exigence, audience, writer, purpose, context, and message.",
+    "2.A Write introductions and conclusions appropriate to the purpose and context of the rhetorical situation."
+   ]
+  },
+  {
+   "id": "lang4-methods",
+   "name": "Comparison–contrast and definition–description",
+   "covers": [
+    "Developing parts of a text with comparison–contrast and definition–description methods"
+   ],
+   "frameworkCovers": [
+    "5.C Recognize and explain the use of methods of development to accomplish a purpose.",
+    "6.C Use appropriate methods of development to advance an argument."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 4: Thesis, introductions, conclusions, and methods of development: review guide",
+  "intro": "An argument's thesis should connect to every part of it, from the introduction that sets up the rhetorical situation to the conclusion that explains why the argument matters. This unit also practices two methods of development: comparison–contrast and definition–description.",
+  "sections": [
+   {
+    "id": "s-lang4-thesis",
+    "topicId": "lang4-thesis",
+    "title": "Connecting the thesis and the line of reasoning",
+    "body": [
+     "Each body paragraph should advance a reason named or implied by the thesis. If a paragraph doesn't connect, either revise the paragraph or revise the thesis so it accounts for it.",
+     "Topic sentences act as signposts: they echo the thesis's language so readers can follow the line of reasoning."
+    ],
+    "points": [
+     "Read only the thesis and the topic sentences: do they make a coherent outline?",
+     "A thesis can change while drafting; revise it to match the argument you actually made."
+    ]
+   },
+   {
+    "id": "s-lang4-intro",
+    "topicId": "lang4-intro",
+    "title": "Introductions and conclusions",
+    "body": [
+     "An introduction orients a particular audience: it establishes the exigence, gives needed context, and leads to the thesis. Its opening should suit the audience and purpose (a statistic for policymakers, a scene for general readers).",
+     "A conclusion does more than repeat the thesis: it can explain the stakes, call for an action, or connect the argument to a larger issue the audience cares about."
+    ],
+    "points": [
+     "Avoid openings so broad they could begin any essay (“Since the dawn of time…”).",
+     "A strong conclusion answers “why does this matter to you?”"
+    ]
+   },
+   {
+    "id": "s-lang4-methods",
+    "topicId": "lang4-methods",
+    "title": "Comparison–contrast and definition–description",
+    "body": [
+     "Comparison–contrast examines two subjects point by point to show what a difference (or a similarity) reveals. Definition clarifies a key term, often because the argument depends on what it means; description makes a subject vivid with specific details.",
+     "Writers choose these methods to serve a purpose: defining a contested term can win an argument before it starts."
+    ],
+    "points": [
+     "Compare on the same points for both subjects.",
+     "Watch for writers who redefine a common word to support their claim.",
+     "Description should support the claim, not decorate it."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Write a conclusion sentence for an argument to a town council that a vacant lot should become a park.",
+   "solution": "“If the council acts this spring, children who now play in parking lots could have a safe field by next summer, and the town would gain a gathering place it has lacked for a generation.” It points to stakes and timing the audience can act on."
+  },
+  "misconceptions": [
+   [
+    "“A conclusion should only restate the thesis.”",
+    "It should show why the argument matters or what should happen next."
+   ],
+   [
+    "“Every introduction should start with a dictionary definition.”",
+    "Choose an opening that suits the audience and purpose."
+   ],
+   [
+    "“Comparison means listing similarities.”",
+    "Comparison–contrast analyzes similarities and differences to make a point."
+   ],
+   [
+    "“The thesis is fixed once written.”",
+    "Revise the thesis to match the argument the essay actually makes."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Language and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+  "sourceTitle": "AP English Language and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "lang4-r1",
+   "title": "Passage 1: What makes a neighborhood?",
+   "text": [
+    "(1) Real estate listings use “neighborhood” to mean a set of streets inside lines on a map. But a neighborhood, in the sense that matters, is not a place you live; it is a set of people you can ask for help.",
+    "(2) By that definition, the block where I grew up was a neighborhood. When our furnace failed in January, the family across the street lent us two space heaters before we had finished calling a repair shop.",
+    "(3) By the same definition, the new development on the edge of town, with its matching mailboxes and its homeowners' association, may not be one yet. Its residents have addresses in common, not obligations.",
+    "(4) If the city wants to “build neighborhoods,” as its new plan promises, it should fund block parties and shared gardens, not just sidewalks and street signs."
+   ],
+   "attribution": "Written for StudySprint by its editors. Names, places, and figures are invented for practice.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang4-r2",
+   "title": "Passage 2: Paper maps and GPS",
+   "text": [
+    "(1) A GPS tells you where to turn; a paper map tells you where you are. The difference sounds small, but it shapes how drivers understand a place.",
+    "(2) With GPS, attention narrows to the next instruction. Drivers arrive on time, but many could not retrace the route without the device. With a paper map, attention widens: a driver must notice the river, the highway, the direction of the sun.",
+    "(3) GPS is faster, and in an unfamiliar city at night it may be safer. Yet for students learning to drive in their own town, spending a few weeks with a paper map would build the mental picture that a screen never asks them to form."
+   ],
+   "attribution": "Written for StudySprint by its editors. Names, places, and figures are invented for practice.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang4-w1",
+   "title": "Draft 1: A student introduction about school uniforms",
+   "text": [
+    "The following is a draft introduction for an argument addressed to the school's parent–teacher association. It may need revision.",
+    "(1) Since the beginning of time, people have worn clothing. (2) This year our school is considering a uniform policy. (3) Supporters say uniforms reduce pressure to buy expensive brands. (4) Uniforms would ease financial pressure on families and reduce distractions, so the association should support the policy."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang4-w2",
+   "title": "Draft 2: A student conclusion about the town library's teen room",
+   "text": [
+    "The following is the draft conclusion of a student's argument to the library board for a teen study room. It may need revision.",
+    "(1) In conclusion, a teen room is a good idea. (2) As I have shown, teens need a quiet place to study after school. (3) They also need space to work in groups. (4) The board should approve the room."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lang-u4-q01",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-methods",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which method of development is central to paragraph 1?",
+   "choices": [
+    "Narration of a historical event",
+    "Classification",
+    "Cause and effect",
+    "Definition"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Paragraph 1 contrasts the listing meaning of “neighborhood” with the writer's own definition.",
+   "choiceExplanations": [
+    "The paragraph tells no story.",
+    "It doesn't sort things into categories.",
+    "It doesn't trace causes and effects.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-r1"
+  },
+  {
+   "id": "lang-u4-q02",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-thesis",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which sentence best states the passage's thesis?",
+   "choices": [
+    "The city should fund activities that build relationships, because a neighborhood is people you can ask for help",
+    "Furnaces often fail in January",
+    "New developments have attractive mailboxes",
+    "Real estate listings are inaccurate"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The definition in paragraph 1 leads to the recommendation in paragraph 4.",
+   "choiceExplanations": [
+    "",
+    "The furnace is part of an example.",
+    "The mailboxes are a detail.",
+    "The listings are a contrast, not the thesis."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-r1"
+  },
+  {
+   "id": "lang-u4-q03",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-methods",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How does paragraph 3 develop the writer's argument?",
+   "choices": [
+    "It applies the writer's definition to a contrasting case to show a place can have addresses without being a neighborhood",
+    "It concedes that the definition is wrong",
+    "It provides statistics about housing",
+    "It describes the writer's childhood home"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Testing the definition against the new development sharpens the contrast with paragraph 2.",
+   "choiceExplanations": [
+    "",
+    "It uses the definition rather than conceding.",
+    "There are no statistics.",
+    "Paragraph 2 describes the childhood block."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-r1"
+  },
+  {
+   "id": "lang-u4-q04",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-intro",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How does the conclusion (paragraph 4) relate to the rest of the passage?",
+   "choices": [
+    "It shifts to a story about the writer's family",
+    "It introduces a new definition that contradicts paragraph 1",
+    "It turns the definition into a recommendation by showing what the city's promise would require",
+    "It repeats paragraph 1 without adding anything"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Because a neighborhood is a set of relationships, building one means funding what creates relationships.",
+   "choiceExplanations": [
+    "No new story is told.",
+    "It relies on paragraph 1's definition.",
+    "",
+    "It adds a specific recommendation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-r1"
+  },
+  {
+   "id": "lang-u4-q05",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-methods",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which method of development does the passage mainly use?",
+   "choices": [
+    "Definition",
+    "Problem and solution only",
+    "Comparison and contrast",
+    "Narration"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The passage compares GPS and paper maps on what each asks of a driver.",
+   "choiceExplanations": [
+    "No term is formally defined.",
+    "Although it ends with a suggestion, the structure is a comparison.",
+    "",
+    "No story is told."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-r2"
+  },
+  {
+   "id": "lang-u4-q06",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-intro",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The first sentence of the passage mainly functions to",
+   "choices": [
+    "concede that GPS is better",
+    "state the key contrast in a memorable way that sets up the argument",
+    "provide evidence from research",
+    "describe a specific trip"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The balanced sentence introduces the distinction the passage will develop.",
+   "choiceExplanations": [
+    "The concession comes in paragraph 3.",
+    "",
+    "It isn't research evidence.",
+    "No particular trip is described."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-r2"
+  },
+  {
+   "id": "lang-u4-q07",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-methods",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 2, the details about the river, the highway, and the sun serve to",
+   "choices": [
+    "argue that drivers should avoid highways",
+    "describe the writer's hometown",
+    "prove that GPS is unsafe",
+    "show concretely how a paper map widens a driver's attention"
+   ],
+   "correctAnswer": 3,
+   "explanation": "They illustrate the features a map-reader must notice, supporting the contrast with GPS's narrow focus.",
+   "choiceExplanations": [
+    "The passage doesn't advise avoiding highways.",
+    "They're general features, not a description of one town.",
+    "Safety isn't argued in paragraph 2.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-r2"
+  },
+  {
+   "id": "lang-u4-q08",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-thesis",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How does paragraph 3 refine the passage's thesis?",
+   "choices": [
+    "It argues that paper maps should replace GPS for everyone",
+    "It introduces a new topic",
+    "It concedes GPS's advantages and narrows the recommendation to students learning to drive in their own town",
+    "It abandons the comparison"
+   ],
+   "correctAnswer": 2,
+   "explanation": "By granting speed and safety, the writer limits the claim to a group for whom the map's benefit matters most.",
+   "choiceExplanations": [
+    "The recommendation is limited, not universal.",
+    "The topic is the same.",
+    "",
+    "The comparison is what supports the recommendation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-r2"
+  },
+  {
+   "id": "lang-u4-q09",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-intro",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Sentence (1) is a weak opening. Why?",
+   "choices": [
+    "It contains a statistic",
+    "It is too specific",
+    "It is so broad that it could begin almost any essay and doesn't engage the audience",
+    "It contradicts the thesis"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A sweeping statement about all of history doesn't establish the exigence or interest the parents.",
+   "choiceExplanations": [
+    "It contains no statistic.",
+    "It's the opposite: too general.",
+    "",
+    "It doesn't contradict anything."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-w1"
+  },
+  {
+   "id": "lang-u4-q10",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-intro",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which replacement for sentence (1) would best suit the audience of parents and teachers?",
+   "choices": [
+    "Fashion changes every year.",
+    "Clothes are something everyone needs.",
+    "Uniforms are worn in many professions.",
+    "Last year, families at our school spent an average of several hundred dollars on back-to-school clothes, according to a parent survey."
+   ],
+   "correctAnswer": 3,
+   "explanation": "A local, specific detail about cost speaks directly to parents' concerns and sets up the thesis.",
+   "choiceExplanations": [
+    "This is vague and unconnected to the thesis.",
+    "This is as general as the original.",
+    "This isn't connected to students or families.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-w1"
+  },
+  {
+   "id": "lang-u4-q11",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-thesis",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The writer's body paragraphs will discuss cost and then classroom distractions. How well does sentence (4) set up those paragraphs?",
+   "choices": [
+    "Poorly, because it names only one reason",
+    "Well, because it names both reasons in the same order",
+    "Well, because it introduces a third reason",
+    "Poorly, because it doesn't take a position"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Sentence (4) states a position and previews “financial pressure” and “distractions” in order.",
+   "choiceExplanations": [
+    "It names two reasons.",
+    "",
+    "It names two reasons, not three.",
+    "It takes a clear position."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-w1"
+  },
+  {
+   "id": "lang-u4-q12",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-thesis",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Sentence (3) presents what supporters say. How could the writer best connect it to the thesis?",
+   "choices": [
+    "Revise it to present the cost argument as the writer's own first reason, supported by evidence, rather than attributing it vaguely to “supporters”",
+    "Delete the thesis",
+    "Replace it with a sentence about other schools' sports teams",
+    "Move sentence (3) to after the thesis without changes"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The writer is making the cost argument, so it should be stated and supported as part of the line of reasoning.",
+   "choiceExplanations": [
+    "",
+    "The thesis is needed.",
+    "Sports teams are unrelated.",
+    "Moving it doesn't fix the vague attribution."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-w1"
+  },
+  {
+   "id": "lang-u4-q13",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-intro",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the main weakness of sentence (1)?",
+   "choices": [
+    "It introduces new evidence",
+    "It is too long",
+    "It contradicts the thesis",
+    "It announces the conclusion and restates the claim in vague terms"
+   ],
+   "correctAnswer": 3,
+   "explanation": "“In conclusion, a teen room is a good idea” adds nothing the reader doesn't know.",
+   "choiceExplanations": [
+    "It contains no evidence.",
+    "Length isn't the problem; vagueness is.",
+    "It agrees with the thesis.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-w2"
+  },
+  {
+   "id": "lang-u4-q14",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-intro",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which sentence would best replace sentence (4) to show the board why the decision matters?",
+   "choices": [
+    "Approving the room this spring would give the more than eighty teens who study here each week a place to work before exams begin.",
+    "The board should approve the room because I said so.",
+    "Teen rooms exist in other places.",
+    "The board has many decisions to make."
+   ],
+   "correctAnswer": 0,
+   "explanation": "It names a specific benefit and timing the board can act on.",
+   "choiceExplanations": [
+    "",
+    "This gives no reason.",
+    "This is vague and unconnected to this library.",
+    "This is irrelevant to the recommendation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-w2"
+  },
+  {
+   "id": "lang-u4-q15",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-thesis",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Sentences (2) and (3) summarize the argument's two reasons. How could the writer best revise them?",
+   "choices": [
+    "Move them before the introduction",
+    "Combine them into one sentence that links both needs to the specific room being proposed",
+    "Delete both",
+    "Add a third, unrelated reason"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Linking the reasons to the proposal reinforces the line of reasoning without merely listing points.",
+   "choiceExplanations": [
+    "They belong in the conclusion.",
+    "",
+    "Deleting them would remove the summary of the reasons.",
+    "A new reason doesn't belong in a conclusion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-w2"
+  },
+  {
+   "id": "lang-u4-q16",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "topicId": "lang4-methods",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The writer wants to end with a brief description that makes the need vivid. Which choice best does this?",
+   "choices": [
+    "Teens are people too.",
+    "Right now, students spread textbooks across the floor of the stairwell, whispering over calculus problems while patrons step around them.",
+    "Libraries are important buildings.",
+    "The stairwell is located on the east side."
+   ],
+   "correctAnswer": 1,
+   "explanation": "Specific sensory detail shows the problem and supports the request.",
+   "choiceExplanations": [
+    "This is vague and doesn't describe the need.",
+    "",
+    "This is general and adds no image.",
+    "This is a detail without a point."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang4-w2"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lang-u4-os1",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "title": "OpenStax Writing Guide with Handbook, 10.5 Writing Process: Creating a Position Argument",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/10-5-writing-process-creating-a-position-argument",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on building a thesis-driven argument, including introductions and conclusions. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/10-5-writing-process-creating-a-position-argument",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-lang-u4-os2",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u4",
+   "title": "OpenStax Writing Guide with Handbook, 15.3 Glance at Genre: Observation, Description, and Analysis",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/15-3-glance-at-genre-observation-description-and-analysis",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on description as a method of development. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/15-3-glance-at-genre-observation-description-and-analysis",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Language free-response questions (synthesis, rhetorical analysis, and argument) each draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lang-u4-q01",
+    "lang-u4-q02",
+    "lang-u4-q03",
+    "lang-u4-q04",
+    "lang-u4-q09",
+    "lang-u4-q10",
+    "lang-u4-q11",
+    "lang-u4-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lang-u4-q05",
+    "lang-u4-q06",
+    "lang-u4-q07",
+    "lang-u4-q08",
+    "lang-u4-q13",
+    "lang-u4-q14",
+    "lang-u4-q15",
+    "lang-u4-q16"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,707 @@
+{
+ "courseId": "ap-english-language-and-composition",
+ "unitId": "u5",
+ "title": "Unit 5",
+ "topics": [
+  {
+   "id": "lang5-commentary",
+   "name": "Commentary and maintaining a line of reasoning",
+   "covers": [
+    "Developing commentary throughout paragraphs",
+    "Maintaining ideas throughout an argument"
+   ],
+   "frameworkCovers": [
+    "5.A Describe the line of reasoning and explain whether it supports an argument’s overarching thesis.",
+    "6.A Develop a line of reasoning and commentary that explains it throughout an argument."
+   ]
+  },
+  {
+   "id": "lang5-coherence",
+   "name": "Unity, coherence, and transitions",
+   "covers": [
+    "Using transitions"
+   ],
+   "frameworkCovers": [
+    "5.B Explain how the organization of a text creates unity and coherence and reflects a line of reasoning.",
+    "6.B Use transitional elements to guide the reader through the line of reasoning of an argument."
+   ]
+  },
+  {
+   "id": "lang5-style",
+   "name": "Modifiers, word choice, and perspective",
+   "covers": [
+    "Using modifiers to qualify an argument and convey perspective"
+   ],
+   "frameworkCovers": [
+    "7.A Explain how word choice, comparisons, and syntax contribute to the specific tone or style of a text.",
+    "8.A Strategically use words, comparisons, and syntax to convey a specific tone or style in an argument."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 5: Commentary, coherence, and precise language: review guide",
+  "intro": "Small choices hold an argument together: commentary that explains evidence, transitions that show how ideas relate, and modifiers that make claims precise. This unit practices recognizing and making those choices.",
+  "sections": [
+   {
+    "id": "s-lang5-commentary",
+    "topicId": "lang5-commentary",
+    "title": "Commentary and the line of reasoning",
+    "body": [
+     "Commentary explains how evidence supports a claim and connects it to the thesis. Without commentary, evidence is just a fact sitting on the page.",
+     "Maintaining a line of reasoning means each paragraph keeps returning to the same central idea, developing it rather than drifting to a new one."
+    ],
+    "points": [
+     "After each piece of evidence, explain why it matters.",
+     "Commentary often begins: “This shows…,” “Because of this…”"
+    ]
+   },
+   {
+    "id": "s-lang5-coherence",
+    "topicId": "lang5-coherence",
+    "title": "Unity, coherence, and transitions",
+    "body": [
+     "Transitions signal relationships: addition (also, furthermore), contrast (however, yet), cause (therefore, as a result), example (for instance), concession (although, granted).",
+     "Choose the transition that names the actual relationship between two ideas; a wrong transition misleads readers about the reasoning."
+    ],
+    "points": [
+     "“However” signals contrast, not addition.",
+     "Repeated key words and pronouns also create coherence."
+    ]
+   },
+   {
+    "id": "s-lang5-style",
+    "topicId": "lang5-style",
+    "title": "Modifiers, word choice, and perspective",
+    "body": [
+     "Modifiers (often, rarely, most, some, probably) qualify a claim, making it more precise and more defensible. Absolute words (always, never, everyone) are easy to refute.",
+     "Word choice also conveys the writer's perspective and tone: “the policy gambled” and “the policy tested” describe the same act with different attitudes."
+    ],
+    "points": [
+     "Qualifiers can strengthen an argument by making it accurate.",
+     "Connotation reveals attitude."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Add commentary: “Students who eat breakfast at school miss fewer days, according to the district's data.”",
+   "solution": "Commentary: “Because attendance is the first step toward learning, a free breakfast program would do more than feed students: it would bring them into the classroom where every other effort begins.”"
+  },
+  "misconceptions": [
+   [
+    "“Evidence speaks for itself.”",
+    "Commentary explains what evidence shows and why it matters."
+   ],
+   [
+    "“Any transition will do.”",
+    "The transition must match the relationship between the ideas."
+   ],
+   [
+    "“Qualifiers make an argument weak.”",
+    "Accurate qualifiers make a claim harder to refute."
+   ],
+   [
+    "“Synonyms are interchangeable.”",
+    "Words with similar meanings can carry different connotations."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Language and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+  "sourceTitle": "AP English Language and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "lang5-r1",
+   "title": "Passage 1: Murals and the city",
+   "text": [
+    "(1) When the city commissioned murals for the underpass on Grant Avenue, many residents called it a waste. The underpass had long been dim and covered with graffiti, and few people walked through it after dark.",
+    "(2) Two years later, foot traffic through the underpass has roughly doubled, according to counts by a neighborhood group. Shops on both sides report more evening customers. The murals did not make the underpass safer by themselves, but they made it a place people chose to walk, and more people walking made it feel safer still.",
+    "(3) Murals will not solve every problem a neighborhood faces. Still, for a modest cost, they can turn a passage people avoid into one they use."
+   ],
+   "attribution": "Written for StudySprint by its editors. Names, places, and figures are invented for practice.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang5-r2",
+   "title": "Passage 2: In defense of boredom",
+   "text": [
+    "(1) We treat boredom as a problem to be solved, usually with a screen. Yet boredom may be one of the more useful feelings we have.",
+    "(2) Boredom is a signal: it tells us that what we are doing does not engage us. Researchers who study it suggest that this discomfort often pushes people to look for something new. A bored child invents a game; a bored adult sketches, tinkers, or daydreams a solution to a problem at work.",
+    "(3) When we answer every flicker of boredom by reaching for a phone, we silence the signal before it can do its work. The point is not to seek boredom, but to stop running from it quite so fast."
+   ],
+   "attribution": "Written for StudySprint by its editors. It describes research on boredom in general terms rather than quoting a specific study.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang5-w1",
+   "title": "Draft 1: A student paragraph about a recycling program",
+   "text": [
+    "The following is a draft of a student's paragraph for the school newspaper. It may need revision.",
+    "(1) Our school started a recycling program in September. (2) ____, the cafeteria now sends far less trash to the landfill. (3) Many students still throw bottles in the regular bins. (4) The program needs clearer labels on its bins. (5) ____, the student council could post signs showing what belongs in each bin."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang5-w2",
+   "title": "Draft 2: A student paragraph about after-school jobs",
+   "text": [
+    "The following is a draft of a student's paragraph for an essay about teenagers and work. It may need revision.",
+    "(1) After-school jobs always hurt students' grades. (2) A survey at our school found that students working more than twenty hours a week reported lower grades than students who did not work. (3) Students who worked fewer hours reported grades similar to non-working students. (4) Jobs teach responsibility."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lang-u5-q01",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-commentary",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which sentence best states the passage's main claim?",
+   "choices": [
+    "The underpass was dim and covered with graffiti",
+    "Murals solve every problem a neighborhood faces",
+    "Shops on Grant Avenue are popular",
+    "Murals can, for a modest cost, turn an avoided passage into one people use"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Paragraph 3 states the claim that the evidence in paragraph 2 supports.",
+   "choiceExplanations": [
+    "That's background.",
+    "The writer explicitly rejects this.",
+    "That's evidence.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-r1"
+  },
+  {
+   "id": "lang-u5-q02",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-coherence",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 3, “Still” signals",
+   "choices": [
+    "a contrast: despite the limitation just stated, the writer reaffirms the claim",
+    "an example of the previous point",
+    "a new topic",
+    "a cause of the previous point"
+   ],
+   "correctAnswer": 0,
+   "explanation": "“Still” moves from a concession (murals won't solve everything) to the writer's position.",
+   "choiceExplanations": [
+    "",
+    "It doesn't introduce an example.",
+    "The topic stays the same.",
+    "It doesn't show cause."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-r1"
+  },
+  {
+   "id": "lang-u5-q03",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-commentary",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The last sentence of paragraph 2 (“The murals did not make the underpass safer by themselves…”) mainly",
+   "choices": [
+    "introduces new statistics",
+    "explains how the evidence supports the claim, while avoiding an overstatement",
+    "contradicts the passage's claim",
+    "describes the murals' colors"
+   ],
+   "correctAnswer": 1,
+   "explanation": "It is commentary: it interprets the foot-traffic numbers and the shop reports, explaining the mechanism carefully.",
+   "choiceExplanations": [
+    "No new statistics appear.",
+    "",
+    "It supports the claim with a careful explanation.",
+    "The murals' appearance isn't described."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-r1"
+  },
+  {
+   "id": "lang-u5-q04",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-style",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is the effect of the words “roughly” (paragraph 2) and “modest” (paragraph 3)?",
+   "choices": [
+    "They qualify the claims, making the writer sound careful and the claims more defensible",
+    "They shift the tone from serious to playful",
+    "They exaggerate the murals' success",
+    "They express the writer's doubt that murals work"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Precise qualifiers keep the claims accurate, which builds credibility with skeptical readers.",
+   "choiceExplanations": [
+    "",
+    "The tone stays measured.",
+    "They do the opposite of exaggerating.",
+    "The writer still clearly supports the murals."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-r1"
+  },
+  {
+   "id": "lang-u5-q05",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-commentary",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the writer's main claim?",
+   "choices": [
+    "Phones should be banned",
+    "Children should be bored more often",
+    "Boredom is always pleasant",
+    "People should stop rushing to escape boredom, because boredom can push them toward new ideas"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Paragraph 3 says the point is not to seek boredom but to stop running from it, because of its usefulness.",
+   "choiceExplanations": [
+    "The writer doesn't call for a ban.",
+    "The writer says the point is not to seek boredom.",
+    "The writer calls it a discomfort.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-r2"
+  },
+  {
+   "id": "lang-u5-q06",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-style",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 1, the word “may” in “boredom may be one of the more useful feelings” serves to",
+   "choices": [
+    "introduce a counterargument",
+    "qualify the claim so it is more defensible",
+    "show that the writer is certain",
+    "change the subject"
+   ],
+   "correctAnswer": 1,
+   "explanation": "“May” and “more useful” make a measured claim rather than an absolute one.",
+   "choiceExplanations": [
+    "It isn't a counterargument.",
+    "",
+    "“May” signals possibility, not certainty.",
+    "The subject stays the same."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-r2"
+  },
+  {
+   "id": "lang-u5-q07",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-coherence",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How does paragraph 2 connect to paragraph 1?",
+   "choices": [
+    "It contradicts paragraph 1",
+    "It explains why boredom is useful, supporting the claim made at the end of paragraph 1",
+    "It begins a new argument about work",
+    "It repeats paragraph 1 in different words"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Paragraph 2 develops the claim by describing boredom as a signal that prompts new activity.",
+   "choiceExplanations": [
+    "It supports paragraph 1.",
+    "",
+    "Work is one example among several.",
+    "It adds an explanation and examples."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-r2"
+  },
+  {
+   "id": "lang-u5-q08",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-style",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 3, the writer says we “silence the signal before it can do its work.” What is the effect of this wording?",
+   "choices": [
+    "It extends the image of boredom as a signal, suggesting phones interrupt something useful",
+    "It introduces a technical term from research",
+    "It shifts the passage's tone to anger",
+    "It suggests boredom is dangerous"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Continuing the “signal” metaphor ties the conclusion to paragraph 2's reasoning.",
+   "choiceExplanations": [
+    "",
+    "“Silence the signal” isn't a technical term.",
+    "The tone remains reflective.",
+    "The passage presents boredom as useful."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-r2"
+  },
+  {
+   "id": "lang-u5-q09",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-coherence",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which transition best fills the blank in sentence (2)?",
+   "choices": [
+    "For example",
+    "In contrast",
+    "However",
+    "As a result"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Sentence (2) describes an effect of the program in sentence (1).",
+   "choiceExplanations": [
+    "Sentence (2) isn't an example of (1).",
+    "There's no contrast.",
+    "“However” signals contrast, but (2) is an effect.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-w1"
+  },
+  {
+   "id": "lang-u5-q10",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-coherence",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which word or phrase best begins sentence (3) to show its relationship to sentence (2)?",
+   "choices": [
+    "Therefore,",
+    "Similarly,",
+    "Even so,",
+    "For instance,"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Sentence (3) presents a problem that remains despite the success in (2).",
+   "choiceExplanations": [
+    "(3) isn't a result of (2).",
+    "(3) isn't similar to (2).",
+    "",
+    "(3) isn't an example of (2)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-w1"
+  },
+  {
+   "id": "lang-u5-q11",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-coherence",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which transition best fills the blank in sentence (5)?",
+   "choices": [
+    "As a result",
+    "However",
+    "In contrast",
+    "For example"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Posting signs is one specific way to provide the clearer labels called for in sentence (4).",
+   "choiceExplanations": [
+    "(5) isn't a result of (4).",
+    "(5) doesn't contrast with (4).",
+    "There's no contrast.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-w1"
+  },
+  {
+   "id": "lang-u5-q12",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-commentary",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The writer wants to add commentary after sentence (2) that connects the evidence to the paragraph's point. Which choice is best?",
+   "choices": [
+    "Recycling was invented many years ago.",
+    "That reduction shows the program works when students use it, which is why getting the rest of the bottles into the right bins matters.",
+    "Trash is collected on Tuesdays.",
+    "The landfill is outside of town."
+   ],
+   "correctAnswer": 1,
+   "explanation": "This explains what the evidence shows and links it to the problem the paragraph goes on to address.",
+   "choiceExplanations": [
+    "This is unrelated background.",
+    "",
+    "This is an unrelated detail.",
+    "This is an unrelated detail."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-w1"
+  },
+  {
+   "id": "lang-u5-q13",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-style",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Sentence (1) overstates the claim. Which revision best fits the evidence in sentences (2) and (3)?",
+   "choices": [
+    "After-school jobs never hurt grades.",
+    "All after-school jobs are bad.",
+    "Working long hours after school can hurt students' grades.",
+    "Jobs are a part of life."
+   ],
+   "correctAnswer": 2,
+   "explanation": "The survey shows lower grades only for students working many hours; the qualifiers “long hours” and “can” match that evidence.",
+   "choiceExplanations": [
+    "This contradicts the survey.",
+    "This is even broader than the original.",
+    "",
+    "This makes no claim about grades."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-w2"
+  },
+  {
+   "id": "lang-u5-q14",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-commentary",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which sentence would best follow sentence (3) as commentary?",
+   "choices": [
+    "The survey was given in October.",
+    "Some students have siblings.",
+    "The difference suggests that the number of hours, not the job itself, is what matters.",
+    "Many students work at restaurants."
+   ],
+   "correctAnswer": 2,
+   "explanation": "It interprets the contrast between (2) and (3) and connects it to the paragraph's point.",
+   "choiceExplanations": [
+    "This is a minor fact without interpretation.",
+    "This is irrelevant.",
+    "",
+    "This is an unrelated detail."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-w2"
+  },
+  {
+   "id": "lang-u5-q15",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-commentary",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Should the writer keep sentence (4)?",
+   "choices": [
+    "Delete it or develop it, because as written it shifts to an unrelated point about responsibility",
+    "Keep it, because it cites evidence",
+    "Keep it, because it is the paragraph's claim",
+    "Delete it, because it repeats sentence (2)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Responsibility isn't the paragraph's topic (grades), so the sentence breaks its line of reasoning.",
+   "choiceExplanations": [
+    "",
+    "It cites no evidence.",
+    "The paragraph's claim is about grades.",
+    "It doesn't repeat (2)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-w2"
+  },
+  {
+   "id": "lang-u5-q16",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "topicId": "lang5-style",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The writer wants to describe the survey results precisely. Which wording is most accurate?",
+   "choices": [
+    "students' grades collapsed",
+    "every working student failed",
+    "students who worked more than twenty hours a week tended to report lower grades",
+    "working students proved that jobs ruin school"
+   ],
+   "correctAnswer": 2,
+   "explanation": "“Tended to report” matches what a survey of self-reported grades can show.",
+   "choiceExplanations": [
+    "“Collapsed” exaggerates the evidence.",
+    "The survey doesn't show that every student failed.",
+    "",
+    "A survey doesn't “prove” this, and it overgeneralizes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang5-w2"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lang-u5-os1",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "title": "OpenStax Writing Guide with Handbook, 10.6 Editing Focus: Paragraphs and Transitions",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/10-6-editing-focus-paragraphs-and-transitions",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on paragraphs and transitions. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/10-6-editing-focus-paragraphs-and-transitions",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-lang-u5-os2",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u5",
+   "title": "OpenStax Writing Guide with Handbook, 18.6 Evaluation: Transitions",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/18-6-evaluation-transitions",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on evaluating transitions. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/18-6-evaluation-transitions",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Language free-response questions (synthesis, rhetorical analysis, and argument) each draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lang-u5-q01",
+    "lang-u5-q02",
+    "lang-u5-q03",
+    "lang-u5-q04",
+    "lang-u5-q09",
+    "lang-u5-q10",
+    "lang-u5-q11",
+    "lang-u5-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lang-u5-q05",
+    "lang-u5-q06",
+    "lang-u5-q07",
+    "lang-u5-q08",
+    "lang-u5-q13",
+    "lang-u5-q14",
+    "lang-u5-q15",
+    "lang-u5-q16"
+   ]
+  }
+ ]
+}

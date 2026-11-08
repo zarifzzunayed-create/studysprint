@@ -1,0 +1,707 @@
+{
+ "courseId": "ap-english-language-and-composition",
+ "unitId": "u6",
+ "title": "Unit 6",
+ "topics": [
+  {
+   "id": "lang6-perspectives",
+   "name": "Multiple perspectives and bias",
+   "covers": [
+    "Incorporating multiple perspectives strategically into an argument",
+    "Recognizing and accounting for bias"
+   ],
+   "frameworkCovers": [
+    "3.A Identify and explain claims and evidence within an argument.",
+    "4.A Develop a paragraph that includes a claim and evidence supporting the claim."
+   ]
+  },
+  {
+   "id": "lang6-adjust",
+   "name": "Adjusting a thesis to new evidence",
+   "covers": [
+    "Adjusting an argument to address new evidence"
+   ],
+   "frameworkCovers": [
+    "3.B Identify and describe the overarching thesis of an argument, and any indication it provides of the argument’s structure.",
+    "4.B Write a thesis statement that requires proof or defense and that may preview the structure of the argument."
+   ]
+  },
+  {
+   "id": "lang6-tone",
+   "name": "Tone and shifts in tone",
+   "covers": [
+    "Analyzing tone and shifts in tone"
+   ],
+   "frameworkCovers": [
+    "7.A Explain how word choice, comparisons, and syntax contribute to the specific tone or style of a text.",
+    "8.A Strategically use words, comparisons, and syntax to convey a specific tone or style in an argument."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 6: Perspectives, bias, new evidence, and tone: review guide",
+  "intro": "Thoughtful arguments account for more than one perspective, recognize bias (including their own), and change when new evidence appears. This unit also practices describing tone and noticing when it shifts.",
+  "sections": [
+   {
+    "id": "s-lang6-perspectives",
+    "topicId": "lang6-perspectives",
+    "title": "Multiple perspectives and bias",
+    "body": [
+     "A perspective is a way of seeing an issue shaped by someone's role, experience, or values; a position is the stance they take. Strong arguments represent other perspectives fairly and explain how they relate to the writer's position.",
+     "Bias shows up in which evidence a writer includes or leaves out, loaded word choices, and sources with a stake in the outcome. Account for bias by noting a source's interests and seeking evidence from more than one side."
+    ],
+    "points": [
+     "Ask: who benefits if readers accept this source's claim?",
+     "Representing opponents fairly builds credibility."
+    ]
+   },
+   {
+    "id": "s-lang6-adjust",
+    "topicId": "lang6-adjust",
+    "title": "Adjusting a thesis to new evidence",
+    "body": [
+     "When evidence complicates a claim, a writer can qualify the thesis (narrow its scope), add a condition, or change position. Ignoring contrary evidence weakens credibility.",
+     "Revised theses often use words such as “in most cases,” “unless,” or “only if.”"
+    ],
+    "points": [
+     "A qualified thesis is often more persuasive than an absolute one.",
+     "Match the thesis to what the evidence can actually support."
+    ]
+   },
+   {
+    "id": "s-lang6-tone",
+    "topicId": "lang6-tone",
+    "title": "Tone and shifts in tone",
+    "body": [
+     "Tone is the writer's attitude toward the subject or audience, shown through word choice, comparisons, and sentence structure. Describe tone precisely: “wry,” “urgent,” “measured,” “indignant.”",
+     "A shift in tone often marks a turn in the argument, for example from describing a problem calmly to calling urgently for action."
+    ],
+    "points": [
+     "Name the tone with an exact adjective and point to the words that create it.",
+     "Look for shifts at “but,” “yet,” or a new paragraph."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Revise for new evidence: thesis “Homework improves learning for all students,” but you find studies showing little benefit for young children.",
+   "solution": "“For high school students, moderate homework appears to improve learning, though evidence of benefits for younger children is weak.” The thesis now matches the evidence."
+  },
+  "misconceptions": [
+   [
+    "“Acknowledging other views weakens an argument.”",
+    "Fairly addressing them usually strengthens it."
+   ],
+   [
+    "“Biased sources must be ignored.”",
+    "Use them carefully, noting their interests and checking their claims."
+   ],
+   [
+    "“Tone and mood are the same.”",
+    "Tone is the writer's attitude; mood is the feeling created in the reader."
+   ],
+   [
+    "“Changing your thesis means you lost the argument.”",
+    "Adjusting to evidence is part of honest reasoning."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Language and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+  "sourceTitle": "AP English Language and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "lang6-r1",
+   "title": "Passage 1: Ride apps and the late-night shift",
+   "text": [
+    "(1) The first time I used a ride app to get home from a night shift, I felt like I had discovered a small miracle. A car appeared in four minutes. The driver knew the way. The fare was half what a taxi used to charge.",
+    "(2) Then I started asking drivers about their nights. One told me he worked fourteen hours to clear what he once earned in eight. Another had a second job and slept in his car between them.",
+    "(3) The miracle, it turns out, has a price, and someone else is paying it. Cities that license these services should require the companies to disclose how much drivers actually earn per hour after expenses, so that riders like me know what our cheap fares cost."
+   ],
+   "attribution": "Written for StudySprint by its editors. Names, places, and figures are invented for practice.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang6-r2",
+   "title": "Passage 2: Two views of the Clearwater dam",
+   "text": [
+    "(1) For the farmers of the Clearwater Valley, the dam proposed upstream means reliable water in dry summers. Several families say they lost half their crops in the last drought, and the dam would let them irrigate through August.",
+    "(2) For the fishing guides downstream, the same dam means warmer, slower water and fewer trout. A study paid for by the guides' association predicts the trout population could fall sharply within ten years. A study paid for by the irrigation district predicts only small effects.",
+    "(3) Both groups depend on the river, and both studies were funded by people with something to gain. Before the state decides, it should commission an independent study, and it should ask whether smaller reservoirs could serve the farms without changing the river so much."
+   ],
+   "attribution": "Written for StudySprint by its editors. Names, places, and figures are invented for practice.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang6-w1",
+   "title": "Draft 1: A student argument about a phone ban",
+   "text": [
+    "The following is a draft of a student's paragraph. While revising, the student found a survey showing that teachers at the school use phones for in-class quizzes about twice a week. The draft may need revision.",
+    "(1) Phones should be banned from all classrooms at all times. (2) Notifications pull students' attention away from lessons. (3) Several teachers report that students check their phones during lectures. (4) A complete ban is the only way to protect learning."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang6-w2",
+   "title": "Draft 2: A student paragraph about a new grocery store",
+   "text": [
+    "The following is a draft of a student's paragraph for the local paper. It may need revision.",
+    "(1) The new supermarket on Route 4 has been great for our town. (2) It stays open until midnight and sells fresh produce year-round. (3) Owners of the two small markets downtown, however, say their sales have dropped. (4) Anyone who complains about the supermarket is just afraid of change."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lang-u6-q01",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-tone",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which word best describes the writer's tone in paragraph 1?",
+   "choices": [
+    "Bitter",
+    "Delighted",
+    "Detached",
+    "Fearful"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Words like “small miracle” and the quick list of advantages convey the writer's pleasure.",
+   "choiceExplanations": [
+    "Bitterness doesn't appear until the writer learns more.",
+    "",
+    "The writer is personally involved, not detached.",
+    "Nothing in paragraph 1 expresses fear."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-r1"
+  },
+  {
+   "id": "lang-u6-q02",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-tone",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Where does the passage's tone shift most clearly?",
+   "choices": [
+    "At the last sentence of paragraph 3",
+    "In the middle of paragraph 1",
+    "At the beginning of paragraph 2, when the writer starts asking drivers about their nights",
+    "It doesn't shift"
+   ],
+   "correctAnswer": 2,
+   "explanation": "“Then I started asking drivers…” turns from delight to troubled discovery.",
+   "choiceExplanations": [
+    "The last sentence continues the critical tone already established.",
+    "Paragraph 1 stays consistently pleased.",
+    "",
+    "The tone clearly changes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-r1"
+  },
+  {
+   "id": "lang-u6-q03",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-perspectives",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How does the writer use the drivers' accounts in paragraph 2?",
+   "choices": [
+    "To introduce a perspective the writer had not considered, which complicates the writer's first impression",
+    "To argue that riders should stop using the apps",
+    "To prove that all drivers are unhappy",
+    "To show the writer's expertise about the industry"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The drivers' experiences show a cost the rider hadn't seen, leading to the claim in paragraph 3.",
+   "choiceExplanations": [
+    "",
+    "The writer asks for disclosure, not a boycott.",
+    "Two drivers can't represent all drivers, and the writer doesn't claim they do.",
+    "The writer presents themself as a rider, not an expert."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-r1"
+  },
+  {
+   "id": "lang-u6-q04",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-tone",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 3, the writer returns to the word “miracle.” What is the effect?",
+   "choices": [
+    "It shows that the writer still feels only delight",
+    "It introduces a religious argument",
+    "It contradicts the writer's request to cities",
+    "It turns the writer's earlier delight into irony, highlighting the hidden cost"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Saying the miracle “has a price” recasts the earlier word ironically and marks the argument's turn.",
+   "choiceExplanations": [
+    "The context makes clear the delight has been complicated.",
+    "The word is used figuratively.",
+    "It supports the request by naming the cost.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-r1"
+  },
+  {
+   "id": "lang-u6-q05",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-perspectives",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the main purpose of paragraphs 1 and 2?",
+   "choices": [
+    "To present two groups' perspectives on the dam",
+    "To describe the history of the valley",
+    "To argue that the dam should be built",
+    "To argue that the dam should be cancelled"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Paragraph 1 gives the farmers' view and paragraph 2 the fishing guides' view.",
+   "choiceExplanations": [
+    "",
+    "The valley's history isn't discussed.",
+    "The writer doesn't take that position.",
+    "The writer doesn't take that position either."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-r2"
+  },
+  {
+   "id": "lang-u6-q06",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-perspectives",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Why does the writer mention who paid for each study?",
+   "choices": [
+    "To prove that the guides' study is correct",
+    "To praise both groups for funding research",
+    "To show that the studies are illegal",
+    "To show that each study may be biased toward its sponsor's interests"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Noting the sponsors helps readers account for possible bias in both predictions.",
+   "choiceExplanations": [
+    "The writer treats both studies with the same caution.",
+    "The point is caution, not praise.",
+    "Nothing suggests the studies are illegal.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-r2"
+  },
+  {
+   "id": "lang-u6-q07",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-adjust",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which best describes the writer's position in paragraph 3?",
+   "choices": [
+    "The fishing guides are right",
+    "The state should seek independent evidence and consider an alternative before deciding",
+    "The dam should be built immediately",
+    "The farmers should move to another valley"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Rather than siding with either group, the writer calls for an independent study and asks about smaller reservoirs.",
+   "choiceExplanations": [
+    "The writer doesn't side with the guides.",
+    "",
+    "The writer asks the state to wait for better evidence.",
+    "This isn't suggested."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-r2"
+  },
+  {
+   "id": "lang-u6-q08",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-perspectives",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How does acknowledging both groups' dependence on the river strengthen the writer's argument?",
+   "choices": [
+    "It weakens the argument by refusing to take a side",
+    "It hides the writer's bias in favor of the farmers",
+    "It shows that the writer prefers fishing to farming",
+    "It establishes fairness, making the call for an independent study more credible to both sides"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Treating both perspectives as legitimate makes the writer's proposal seem balanced rather than partisan.",
+   "choiceExplanations": [
+    "The writer does take a side: on how the decision should be made.",
+    "Nothing suggests a hidden bias.",
+    "No preference is shown.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-r2"
+  },
+  {
+   "id": "lang-u6-q09",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-adjust",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which part of the draft is most directly challenged by the survey the student found?",
+   "choices": [
+    "Nothing in the draft",
+    "Sentence (1)'s claim that phones should be banned at all times",
+    "Sentence (2)'s claim about notifications",
+    "Sentence (3)'s report about lectures"
+   ],
+   "correctAnswer": 1,
+   "explanation": "If teachers use phones for quizzes, a total ban at all times would block a use teachers find helpful.",
+   "choiceExplanations": [
+    "The survey clearly complicates the absolute claim.",
+    "",
+    "The survey doesn't address notifications.",
+    "The survey doesn't contradict what students do during lectures."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-w1"
+  },
+  {
+   "id": "lang-u6-q10",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-adjust",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which revision of sentence (1) best accounts for the new evidence?",
+   "choices": [
+    "Phones are sometimes used in schools.",
+    "Phones should stay put away during class unless a teacher asks students to use them for a lesson.",
+    "Teachers should stop giving quizzes.",
+    "Phones should be banned forever."
+   ],
+   "correctAnswer": 1,
+   "explanation": "The revised claim keeps the writer's concern about distraction while allowing teacher-directed use.",
+   "choiceExplanations": [
+    "This drops the argument altogether.",
+    "",
+    "This is an unrelated proposal.",
+    "This ignores the new evidence."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-w1"
+  },
+  {
+   "id": "lang-u6-q11",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-adjust",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "After sentence (1) is revised to allow teacher-directed use, how should sentence (4) change?",
+   "choices": [
+    "It should mention the cafeteria",
+    "It should stay the same",
+    "It should be revised so it no longer calls a complete ban the only way to protect learning",
+    "It should be moved to the beginning"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Sentence (4) still demands a total ban, which now contradicts the revised thesis.",
+   "choiceExplanations": [
+    "The cafeteria is irrelevant.",
+    "Keeping it would contradict the revised claim.",
+    "",
+    "Moving it doesn't fix the contradiction."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-w1"
+  },
+  {
+   "id": "lang-u6-q12",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-perspectives",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which sentence, added after sentence (3), would best incorporate the teachers' perspective strategically?",
+   "choices": [
+    "Teachers have their own phones.",
+    "Phones were invented in the 1800s.",
+    "Some teachers, though, use phones for quick quizzes, which suggests the problem is unstructured use, not the phones themselves.",
+    "Teachers disagree about many things."
+   ],
+   "correctAnswer": 2,
+   "explanation": "It represents the teachers' practice fairly and uses it to sharpen the writer's actual concern.",
+   "choiceExplanations": [
+    "This doesn't connect to the argument.",
+    "This is irrelevant and inaccurate for smartphones.",
+    "",
+    "This is too vague to help."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-w1"
+  },
+  {
+   "id": "lang-u6-q13",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-tone",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How would you describe the tone of sentence (4)?",
+   "choices": [
+    "Apologetic",
+    "Neutral",
+    "Respectful",
+    "Dismissive"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Calling all critics “just afraid of change” brushes aside their concerns.",
+   "choiceExplanations": [
+    "It doesn't apologize.",
+    "It takes a sharp stance.",
+    "It doesn't show respect for critics.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-w2"
+  },
+  {
+   "id": "lang-u6-q14",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-perspectives",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why does sentence (4) weaken the paragraph?",
+   "choices": [
+    "It dismisses the downtown owners' concern instead of responding to the evidence in sentence (3)",
+    "It is the paragraph's only claim",
+    "It provides too much evidence",
+    "It agrees with the downtown owners"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Sentence (3) reports a real cost; attacking critics' motives ignores it and costs the writer credibility.",
+   "choiceExplanations": [
+    "",
+    "Sentence (1) is the main claim.",
+    "It provides no evidence.",
+    "It attacks the downtown owners."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-w2"
+  },
+  {
+   "id": "lang-u6-q15",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-tone",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which revision of sentence (4) best keeps the writer's position while adopting a fairer tone?",
+   "choices": [
+    "The supermarket is perfect.",
+    "Downtown owners should simply close their shops.",
+    "The town could help downtown shops adapt, for example by promoting a weekend market, while still welcoming the supermarket's longer hours.",
+    "Change is scary."
+   ],
+   "correctAnswer": 2,
+   "explanation": "It acknowledges the downtown owners' problem and proposes a response, without abandoning support for the supermarket.",
+   "choiceExplanations": [
+    "This overstates and ignores the concern.",
+    "This is harsher, not fairer.",
+    "",
+    "This is vague and still dismissive."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-w2"
+  },
+  {
+   "id": "lang-u6-q16",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "topicId": "lang6-adjust",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Given sentence (3), which revision of sentence (1) best reflects all the evidence in the paragraph?",
+   "choices": [
+    "The new supermarket has given residents longer hours and fresh food, though it has also hurt downtown businesses.",
+    "The new supermarket has been great for everyone.",
+    "The new supermarket should be closed.",
+    "Supermarkets sell food."
+   ],
+   "correctAnswer": 0,
+   "explanation": "The qualified thesis accounts for both the benefits and the cost the paragraph reports.",
+   "choiceExplanations": [
+    "",
+    "Sentence (3) shows it hasn't been great for everyone.",
+    "This abandons the writer's position without reason.",
+    "This isn't a claim."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang6-w2"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lang-u6-os1",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "title": "OpenStax Writing Guide with Handbook, 12.8 Spotlight on … Bias in Language and Research",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/12-8-spotlight-on-bias-in-language-and-research",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on recognizing bias. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/12-8-spotlight-on-bias-in-language-and-research",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-lang-u6-os2",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u6",
+   "title": "OpenStax Writing Guide with Handbook, 8.9 Portfolio: Evidence and Objectivity",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/8-9-portfolio-evidence-and-objectivity",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on evidence and objectivity. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/8-9-portfolio-evidence-and-objectivity",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Language free-response questions (synthesis, rhetorical analysis, and argument) each draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lang-u6-q01",
+    "lang-u6-q02",
+    "lang-u6-q03",
+    "lang-u6-q04",
+    "lang-u6-q09",
+    "lang-u6-q10",
+    "lang-u6-q11",
+    "lang-u6-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lang-u6-q05",
+    "lang-u6-q06",
+    "lang-u6-q07",
+    "lang-u6-q08",
+    "lang-u6-q13",
+    "lang-u6-q14",
+    "lang-u6-q15",
+    "lang-u6-q16"
+   ]
+  }
+ ]
+}

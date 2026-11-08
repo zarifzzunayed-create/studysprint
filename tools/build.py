@@ -69,6 +69,24 @@ def check_unit(course_id, meta, d):
     for o in fwt:
         if o not in fclaimed:
             err("%s: framework topic '%s' is neither covered nor listed in frameworkTopicsNotYetCovered" % (where, o))
+    # Shared passages / source sets: every passage is complete, sourced, and used; every passageId points to one.
+    pids = []
+    for p in d.get("passages", []):
+        pw = "%s passage %s" % (where, p.get("id"))
+        pids.append(p.get("id"))
+        if not p.get("id") or not p.get("title") or not isinstance(p.get("text"), list) or not all(isinstance(x, str) and x.strip() for x in p["text"]) or not p["text"]:
+            err(pw + ": needs id, title, and text (a list of non-empty paragraphs)")
+        if not p.get("attribution") or not p.get("licenseOrRights") or p.get("sourceType") not in ("original", "public-domain"):
+            err(pw + ": needs attribution, licenseOrRights, and sourceType 'original' or 'public-domain'")
+        if p.get("sourceType") == "original" and p.get("isOriginal") is not True:
+            err(pw + ": an original passage needs isOriginal true")
+        if not any(q.get("passageId") == p.get("id") for q in d["questions"]):
+            err(pw + ": no question uses this passage")
+    if len(set(pids)) != len(pids):
+        err("%s: duplicate passage ids" % where)
+    for q in d["questions"]:
+        if "passageId" in q and q["passageId"] not in pids:
+            err("%s %s: passageId '%s' is not a passage in this unit" % (where, q["id"], q["passageId"]))
     for t in d["topics"]:
         if not any(q["topicId"] == t["id"] for q in d["questions"]):
             err("%s: topic %s has no questions" % (where, t["id"]))
@@ -392,13 +410,17 @@ def write_status(cat, detail, planner, rules):
             L.append("Framework check (%s): %s Source: [%s](%s)." % (fc["checked"], fc["how"], fc.get("title", "Course and Exam Description"), fc["source"]))
             if fc.get("weightsSource"):
                 L.append("Exam weightings: from %s." % fc["weightsSource"])
+            if fc.get("unitWeightNote"):
+                L.append("Exam weightings: " + fc["unitWeightNote"])
+            if fc.get("examFormat"):
+                L.append("Exam format (checked %s): %s" % (fc["checked"], fc["examFormat"]))
             if fc.get("differences"):
                 L.append("Recorded differences between College Board sources: " + " ".join(fc["differences"]))
             L.append("")
         L.append("| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |")
         L.append("|---|---|---|---|---|---|---|---|---|---|---|---|---|")
         for u, d, status, ti in units:
-            wt = u.get("examWeight") or "not recorded"
+            wt = u.get("examWeight") or ("none per unit (see above)" if fc and fc.get("unitWeightNote") else "not recorded")
             if d is None:
                 fwn = ("0 of %d" % len(u["frameworkTopics"])) if u.get("frameworkTopics") else "not recorded"
                 L.append("| %s | %s | %s | %s | no | 0 | 0 | 0 | 0 | 0 | course page only | %s | all |" % (u["name"], status, exam_cell(u), wt, fwn))

@@ -22,15 +22,16 @@ StudySprint is a review site, not a complete course or textbook. Guides are shor
 8. AP Physics C: Electricity and Magnetism: complete. 6 of 6 units practice-ready, 0 in progress, 0 outline only
 9. AP Chemistry: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
 10. AP Biology: complete. 8 of 8 units practice-ready, 0 in progress, 0 outline only
-11. AP Computer Science A: catalog entry only (course framework not checked yet)
+11. AP English Language and Composition: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
+12. AP Computer Science A: catalog entry only (course framework not checked yet)
 
 ## Course inventory (every catalog course)
 
 Each row comes from `data/catalog.json` and the course's `course.json`. A course framework counts as checked only when its official units were read from College Board's pages and recorded with a source link and date. Courses that have not been checked list no units at all; their "expected format" is a planning note from general knowledge, not a verified fact, and must be confirmed against the official Course and Exam Description before any content is written.
 
-**Totals:** 10 of 40 catalog courses have a checked course framework, with 72 official units in all. **72 of those 72 units have usable review content and a question bank (practice-ready).** 10 courses are complete. 30 courses have no checked framework yet.
+**Totals:** 11 of 40 catalog courses have a checked course framework, with 81 official units in all. **81 of those 81 units have usable review content and a question bank (practice-ready).** 11 courses are complete. 29 courses have no checked framework yet.
 
-**Framework coverage and exam coverage are counted separately.** 1 of the 72 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 71 units with no such exclusion recorded, 71 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
+**Framework coverage and exam coverage are counted separately.** 1 of the 81 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 80 units with no such exclusion recorded, 80 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
 
 | Course | Official framework | Source and edition | Official units | Practice-ready units | Exam coverage | Units with a practice test | Course status | Practice format |
 |---|---|---|---|---|---|---|---|---|
@@ -44,6 +45,7 @@ Each row comes from `data/catalog.json` and the course's `course.json`. A course
 | AP Physics C: Electricity and Magnetism | Unit-based (units checked) | [AP Physics C: Electricity and Magnetism – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism), checked 2026-11-08. Not recorded at the last check; confirm the current edition of the Course and Exam Description. [Course framework (PDF)](https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf). | 6 | 6 | 6 of 6 exam-assessed units ready; no unit recorded as excluded from the exam | 6 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP Chemistry | Unit-based (units checked) | [AP Chemistry – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-chemistry), checked 2026-11-08. AP Chemistry Course and Exam Description, effective Fall 2024 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections implemented as of June 2026. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP Biology | Unit-based (units checked) | [AP Biology – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-biology), checked 2026-11-08. AP Biology Course and Exam Description, effective Fall 2025 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections implemented as of June 2026. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf). | 8 | 8 | 8 of 8 exam-assessed units ready; no unit recorded as excluded from the exam | 8 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
+| AP English Language and Composition | Unit-based (units checked) | [AP English Language and Composition – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-english-language-and-composition), checked 2026-11-08. AP English Language and Composition Course and Exam Description, effective Fall 2024 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections implemented as of June 2025. Further corrections listed as forthcoming concern resource links and Progress Check wording only. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP Computer Science A | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; multiple-choice questions fit the existing format, but free-response questions ask for Java code, which the site cannot check. |
 | AP Research | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be assessed through a year-long research project (an academic paper and a presentation with oral defense) rather than a multiple-choice exam. Needs project guidance, not a question bank. |
 | AP Seminar | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to combine team and individual performance tasks with an end-of-course written exam. Needs source-analysis and argument-writing practice, not multiple-choice sets. |
@@ -52,7 +54,6 @@ Each row comes from `data/catalog.json` and the course's `course.json`. A course
 | AP Drawing | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be assessed through a portfolio of the student's own work, with no written exam. A question bank does not fit; it would need portfolio-planning guidance. |
 | AP Art History | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based, but most questions depend on images of specific works of art, which need image rights or verified links. |
 | AP Music Theory | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based, but the exam includes listening and sight-singing tasks that need audio, which the site does not support. |
-| AP English Language and Composition | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be skill-based: passage-based multiple-choice questions and essay writing. Needs original passages and essay practice rather than single questions. |
 | AP English Literature and Composition | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be skill-based: passage-based multiple-choice questions on literature and essay writing. Needs original or public-domain passages and essay practice. |
 | AP African American Studies | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; many questions are expected to use primary sources (texts and images), which need rights-cleared sources or verified links. |
 | AP Comparative Government and Politics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
@@ -82,7 +83,7 @@ Courses expected to need a different practice format than unit questions (to con
 - **portfolio**: AP 2-D Art and Design, AP 3-D Art and Design, AP Drawing.
 - **image-based**: AP Art History.
 - **audio**: AP Music Theory.
-- **passages and essays**: AP English Language and Composition, AP English Literature and Composition, AP Spanish Literature and Culture.
+- **passages and essays**: AP English Literature and Composition, AP Spanish Literature and Culture.
 - **source-based**: AP African American Studies, AP European History, AP United States History, AP World History: Modern.
 - **big ideas and performance task**: AP Computer Science Principles.
 - **language skills**: AP Chinese Language and Culture, AP French Language and Culture, AP German Language and Culture, AP Italian Language and Culture, AP Japanese Language and Culture, AP Spanish Language and Culture.
@@ -246,7 +247,23 @@ Retaking a test shows the same questions in a new order; those answers are recor
 | Unit 7: Natural Selection | 20 | 2 (8, 8) | 4 | 2 | 4 |
 | Unit 8: Ecology | 18 | 2 (8, 8) | 2 | 2 | 6 |
 
-Across the site: 89 practice tests in 72 units. Reaching 3 tests in each of those units needs at least 880 more original questions. 
+### AP English Language and Composition
+
+9 of 9 units have a practice test (18 tests in all); 9 units have more than one.
+
+| Unit | Questions in bank | Practice tests (questions each) | Questions not in any test | Distinct tests the bank could support | More original questions needed for 3 tests (at least) |
+|---|---|---|---|---|---|
+| Unit 1 | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 2 | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 3 | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 4 | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 5 | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 6 | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 7 | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 8 | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 9 | 16 | 2 (8, 8) | 0 | 2 | 8 |
+
+Across the site: 107 practice tests in 81 units. Reaching 3 tests in each of those units needs at least 952 more original questions. 
 
 ## Study planner
 
@@ -454,11 +471,34 @@ Recorded differences between College Board sources: The AP Students page's topic
 | Unit 7: Natural Selection | practice-ready | no exclusion recorded | 13%–20% | yes (4 sections) | 20 (6 / 10 / 4) | 0 | 2 | 3 (reading) | 0 | course page and 4 whole released sets (no per-question matches) | 12 of 12 | none |
 | Unit 8: Ecology | practice-ready | no exclusion recorded | 10%–15% | yes (4 sections) | 18 (6 / 8 / 4) | 0 | 2 | 3 (reading) | 0 | course page and 4 whole released sets (no per-question matches) | 7 of 7 | none |
 
+## AP English Language and Composition
+
+Unit outline source: [AP English Language and Composition – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-english-language-and-composition), verified 2026-11-08. College Board numbers this course's units 1–9 without titles; StudySprint uses the same names (“Unit 1” and so on) and adds its own short description to each review guide's title. Each unit's “skills you will practice may include” list was read from this page on 2026-11-08 and is recorded as the unit's official topics.
+Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-english-language-and-composition/exam/past-exam-questions), plus whole released sets for 2026, 2025, 2025, 2024, 2024, 2023, 2023 (linked as whole exams, not matched to units).
+General resources (shown on every unit's Learn first page, labelled general): [OpenStax Writing Guide with Handbook (whole book)](https://openstax.org/details/books/writing-guide).
+
+Framework check (2026-11-08): The CED organizes this course by skills rather than content topics. Each unit's skill codes (for example 1.A, 3.A, 4.A in Unit 1) were read from the CED's Course at a Glance and cross-checked against the skills table, which lists the units for each skill; every skill code in a unit is matched to the StudySprint topic whose guide section and questions practice it. Source: [AP English Language and Composition Course and Exam Description (effective Fall 2024)](https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf).
+Exam weightings: College Board gives no exam weighting by unit for this course. The multiple-choice section weights eight skill categories: Rhetorical Situation – Reading 11–14%, Rhetorical Situation – Writing 11–14%, Claims and Evidence – Reading 13–16%, Claims and Evidence – Writing 11–14%, Reasoning and Organization – Reading 13–16%, Reasoning and Organization – Writing 11–14%, Style – Reading 11–14%, Style – Writing 11–14% (CED exam section, checked 2026-11-08).
+Exam format (checked 2026-11-08): From the AP Students assessment page: 3 hours 15 minutes. Section 1, 45 multiple-choice questions (45% of the score) on excerpts from nonfiction texts: 23–25 reading questions and 20–22 writing questions that ask you to read like a writer and consider revisions. Section 2, 3 free-response questions (55%) in 2 hours 15 minutes including a 15-minute reading period: synthesis (an argument citing at least 3 of 6 sources), rhetorical analysis, and argument. StudySprint practice is multiple-choice only, in the same reading-passage and revision-draft style; free-response practice uses College Board's released questions.
+Recorded differences between College Board sources: The AP Students page's skill lists are summaries in different words from the CED's numbered skills; both are recorded and both are build-checked.
+
+| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Unit 1 | practice-ready | no exclusion recorded | none per unit (see above) | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 3 of 3 | none |
+| Unit 2 | practice-ready | no exclusion recorded | none per unit (see above) | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 6 of 6 | none |
+| Unit 3 | practice-ready | no exclusion recorded | none per unit (see above) | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 6 of 6 | none |
+| Unit 4 | practice-ready | no exclusion recorded | none per unit (see above) | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 6 of 6 | none |
+| Unit 5 | practice-ready | no exclusion recorded | none per unit (see above) | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 6 of 6 | none |
+| Unit 6 | practice-ready | no exclusion recorded | none per unit (see above) | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 6 of 6 | none |
+| Unit 7 | practice-ready | no exclusion recorded | none per unit (see above) | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 8 of 8 | none |
+| Unit 8 | practice-ready | no exclusion recorded | none per unit (see above) | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 6 of 6 | none |
+| Unit 9 | practice-ready | no exclusion recorded | none per unit (see above) | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 2 of 2 | none |
+
 ## Catalog entries without a unit outline
 
-These courses appear in search with a link to College Board's released free-response page and are labelled "Catalog only". Nothing is invented for them. (30 entries; the number is not assumed anywhere in the site.)
+These courses appear in search with a link to College Board's released free-response page and are labelled "Catalog only". Nothing is invented for them. (29 entries; the number is not assumed anywhere in the site.)
 
-AP Research, AP Seminar, AP 2-D Art and Design, AP 3-D Art and Design, AP Drawing, AP Art History, AP Music Theory, AP English Language and Composition, AP English Literature and Composition, AP African American Studies, AP Comparative Government and Politics, AP European History, AP Human Geography, AP Macroeconomics, AP Microeconomics, AP Psychology, AP U.S. Government and Politics, AP United States History, AP World History: Modern, AP Computer Science A, AP Computer Science Principles, AP Environmental Science, AP Chinese Language and Culture, AP French Language and Culture, AP German Language and Culture, AP Italian Language and Culture, AP Japanese Language and Culture, AP Latin Exam, AP Spanish Language and Culture, AP Spanish Literature and Culture.
+AP Research, AP Seminar, AP 2-D Art and Design, AP 3-D Art and Design, AP Drawing, AP Art History, AP Music Theory, AP English Literature and Composition, AP African American Studies, AP Comparative Government and Politics, AP European History, AP Human Geography, AP Macroeconomics, AP Microeconomics, AP Psychology, AP U.S. Government and Politics, AP United States History, AP World History: Modern, AP Computer Science A, AP Computer Science Principles, AP Environmental Science, AP Chinese Language and Culture, AP French Language and Culture, AP German Language and Culture, AP Italian Language and Culture, AP Japanese Language and Culture, AP Latin Exam, AP Spanish Language and Culture, AP Spanish Literature and Culture.
 
 ## Known gaps
 

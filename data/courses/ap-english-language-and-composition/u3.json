@@ -1,0 +1,713 @@
+{
+ "courseId": "ap-english-language-and-composition",
+ "unitId": "u3",
+ "title": "Unit 3",
+ "topics": [
+  {
+   "id": "lang3-reasoning",
+   "name": "Lines of reasoning, sound and flawed",
+   "covers": [
+    "Identifying and describing different claims or lines of reasoning",
+    "Identifying and avoiding flawed lines of reasoning"
+   ],
+   "frameworkCovers": [
+    "5.A Describe the line of reasoning and explain whether it supports an argument’s overarching thesis.",
+    "6.A Develop a line of reasoning and commentary that explains it throughout an argument."
+   ]
+  },
+  {
+   "id": "lang3-sources",
+   "name": "Introducing, citing, and using sufficient evidence",
+   "covers": [
+    "Introducing and integrating sources and evidence",
+    "Using sufficient evidence for an argument",
+    "Attributing and citing references"
+   ],
+   "frameworkCovers": [
+    "3.A Identify and explain claims and evidence within an argument.",
+    "4.A Develop a paragraph that includes a claim and evidence supporting the claim."
+   ]
+  },
+  {
+   "id": "lang3-methods",
+   "name": "Cause-effect and narrative development",
+   "covers": [
+    "Developing parts of a text with cause-effect and narrative methods"
+   ],
+   "frameworkCovers": [
+    "5.C Recognize and explain the use of methods of development to accomplish a purpose.",
+    "6.C Use appropriate methods of development to advance an argument."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 3: Reasoning, sources, and methods of development: review guide",
+  "intro": "Arguments respond to one another. This unit practices tracing a line of reasoning, spotting flawed reasoning, introducing and citing sources fairly, judging whether evidence is sufficient, and developing ideas through cause and effect or narrative.",
+  "sections": [
+   {
+    "id": "s-lang3-reasoning",
+    "topicId": "lang3-reasoning",
+    "title": "Lines of reasoning, sound and flawed",
+    "body": [
+     "A line of reasoning is the sequence of claims and evidence that leads to a conclusion. Trace it by asking what each paragraph claims and how it connects to the thesis.",
+     "Common flaws include assuming that because one event followed another it was caused by it, generalizing from too few cases, presenting only two options when more exist, and attacking a person instead of an argument."
+    ],
+    "points": [
+     "Correlation alone doesn't prove causation.",
+     "One vivid example can't prove a broad trend.",
+     "Look for alternative explanations a writer ignores."
+    ]
+   },
+   {
+    "id": "s-lang3-sources",
+    "topicId": "lang3-sources",
+    "title": "Introducing, citing, and using sufficient evidence",
+    "body": [
+     "When you use a source, attribute it (who said it and why they are credible), integrate it smoothly, and cite it so readers can find it. Paraphrases and summaries need attribution too.",
+     "Evidence is sufficient when it covers the claim's scope: a claim about most students needs more than one student's story."
+    ],
+    "points": [
+     "Attribution phrases: “According to…,” “As X found…”",
+     "Match the strength of a claim to the strength of the evidence.",
+     "Use sources in conversation: agree, extend, or push back."
+    ]
+   },
+   {
+    "id": "s-lang3-methods",
+    "topicId": "lang3-methods",
+    "title": "Cause-effect and narrative development",
+    "body": [
+     "Cause-effect development traces how one thing leads to another; it is persuasive when each link is supported. Narrative development tells a story that illustrates or grounds a claim.",
+     "Writers choose a method to fit their purpose: a narrative can make an abstract problem human, and a causal chain can explain why a solution will work."
+    ],
+    "points": [
+     "Each link in a causal chain needs support.",
+     "A narrative should serve the claim, not replace it.",
+     "Signal causes with words like because, therefore, as a result."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Identify the flaw: “After the town installed new streetlights, the high school's test scores rose. The lights must have helped students study.”",
+   "solution": "It assumes that because the scores rose after the lights were installed, the lights caused the rise. Many other factors could explain it, and no evidence links the lights to studying."
+  },
+  "misconceptions": [
+   [
+    "“If B happened after A, A caused B.”",
+    "Timing alone doesn't establish cause."
+   ],
+   [
+    "“Paraphrasing means you don't need to credit the source.”",
+    "Paraphrased ideas still need attribution."
+   ],
+   [
+    "“A powerful story proves the point.”",
+    "A story illustrates; broad claims need broader evidence."
+   ],
+   [
+    "“Disagreeing with a source weakens your essay.”",
+    "Responding to sources shows you understand the conversation."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Language and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+  "sourceTitle": "AP English Language and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "lang3-r1",
+   "title": "Passage 1: A letter to the editor about the Elm Street pool",
+   "text": [
+    "(1) Five years ago the town closed the Elm Street pool to save money. Since then, the number of children enrolled in the summer swim program at the county pool has fallen by a third. The closure clearly made our children worse swimmers.",
+    "(2) Anyone who doubts this should talk to my neighbor, whose son never learned to swim after the pool closed.",
+    "(3) The choice before the council is simple: reopen the Elm Street pool or accept a generation that cannot swim.",
+    "(4) Some will say the county pool is only a short drive away. But many families in our neighborhood do not own cars, and the bus runs once an hour."
+   ],
+   "attribution": "Written for StudySprint by its editors. Names, places, and figures are invented for practice.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang3-r2",
+   "title": "Passage 2: What I learned at the food bank",
+   "text": [
+    "(1) The first Saturday I volunteered at the Eastside Food Bank, I was assigned to sort cans. By noon I had filled forty boxes, and I felt proud. Then the manager showed me the line outside: two hundred people, and we had boxes for one hundred and fifty.",
+    "(2) The shortage, she explained, had a chain of causes. When the grocery store on Fifth Street closed, the food bank lost its largest donor of fresh produce. With less produce, it bought more canned food, which used up its budget faster. By the end of each month, the shelves were nearly empty.",
+    "(3) I went home that day thinking about the line, not the boxes. Charity, I realized, depends on systems as much as on generosity. A town that wants its food bank to work must replace what that one store used to give."
+   ],
+   "attribution": "Written for StudySprint by its editors. Names, places, and figures are invented for practice.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang3-w1",
+   "title": "Draft 1: A student paragraph that uses sources",
+   "text": [
+    "The following is a draft of a student's paragraph for an essay about school recess. It may need revision.",
+    "(1) Recess helps students focus in class. (2) Recess is good. (3) A pediatric health organization has reported that unstructured breaks improve students' attention when they return to class. (4) My friend Sam says he concentrates better after recess. (5) Therefore, all schools should guarantee at least twenty minutes of recess daily."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang3-w2",
+   "title": "Draft 2: A student paragraph about a bus route",
+   "text": [
+    "The following is a draft of a student's paragraph for a letter to the transit authority. It may need revision.",
+    "(1) The transit authority cut the Route 9 bus last spring. (2) Many students now walk two miles to school along a road without sidewalks. (3) Walking that far takes time. (4) Restoring Route 9 would make the trip safer and get students to class on time."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lang-u3-q01",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-reasoning",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which statement best describes the writer's main claim?",
+   "choices": [
+    "The bus should run more often",
+    "The town should reopen the Elm Street pool because its closure harmed children's swimming",
+    "Children should take swimming lessons in school",
+    "The county pool should be closed"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The letter argues that the closure caused harm and that the council should reopen the pool.",
+   "choiceExplanations": [
+    "The bus schedule supports the claim; it isn't the claim.",
+    "",
+    "School lessons are never proposed.",
+    "The county pool is mentioned as an alternative, not something to close."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-r1"
+  },
+  {
+   "id": "lang-u3-q02",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-reasoning",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 1, the writer concludes that the closure “clearly made our children worse swimmers.” What is the main weakness in this reasoning?",
+   "choices": [
+    "It relies on a quotation from an expert",
+    "It uses too many statistics",
+    "It ignores the cost of reopening the pool",
+    "It assumes that because enrollment fell after the closure, the closure caused children to swim less well"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Lower enrollment after the closure doesn't show that children became worse swimmers, or that the closure was the cause.",
+   "choiceExplanations": [
+    "There is no expert quotation.",
+    "The paragraph uses only one statistic.",
+    "Cost isn't the logical flaw in this conclusion.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-r1"
+  },
+  {
+   "id": "lang-u3-q03",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-sources",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The example of the neighbor's son in paragraph 2 is weak support for the writer's claim mainly because",
+   "choices": [
+    "a single case can't show what happened to children in general",
+    "it comes from a neighbor rather than a stranger",
+    "it contradicts the statistic in paragraph 1",
+    "it is about a boy rather than a girl"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The claim is about the town's children overall; one child's experience isn't sufficient evidence.",
+   "choiceExplanations": [
+    "",
+    "Who tells the story matters less than how much it can show.",
+    "It's consistent with the statistic; it just can't support the broad claim.",
+    "The child's sex is irrelevant to the reasoning."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-r1"
+  },
+  {
+   "id": "lang-u3-q04",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-reasoning",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Paragraph 3 says the council must either reopen the pool or “accept a generation that cannot swim.” How does paragraph 4 relate to this claim?",
+   "choices": [
+    "It concedes that the pool should stay closed",
+    "It provides statistics proving paragraph 3",
+    "It answers an alternative that paragraph 3 ignored, which shows that paragraph 3 presented a false choice",
+    "It shifts the letter's audience to bus riders"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Paragraph 4 addresses the county pool option, a third possibility the either-or framing left out.",
+   "choiceExplanations": [
+    "Paragraph 4 rebuts the objection rather than conceding.",
+    "Paragraph 4 contains no statistics.",
+    "",
+    "The letter still addresses the council."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-r1"
+  },
+  {
+   "id": "lang-u3-q05",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-methods",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which method of development does the writer mainly use in paragraph 2?",
+   "choices": [
+    "Cause and effect",
+    "Definition",
+    "Classification",
+    "Comparison and contrast"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Paragraph 2 traces a chain: the store closes, produce donations drop, the budget runs out, and the shelves empty.",
+   "choiceExplanations": [
+    "",
+    "The paragraph doesn't define a term.",
+    "It doesn't sort things into categories.",
+    "No two things are compared point by point."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-r2"
+  },
+  {
+   "id": "lang-u3-q06",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-methods",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The writer begins with the story of sorting cans in order to",
+   "choices": [
+    "explain how food banks are funded",
+    "draw readers into the problem through a personal experience before explaining its causes",
+    "show that the writer is a fast worker",
+    "argue that canned food is better than produce"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The narrative moves from pride to the shock of the line, leading naturally into the explanation.",
+   "choiceExplanations": [
+    "Funding is explained later, in paragraph 2.",
+    "",
+    "The writer's speed matters only as a contrast with the size of the need.",
+    "The writer doesn't rank canned food above produce."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-r2"
+  },
+  {
+   "id": "lang-u3-q07",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-reasoning",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which sentence best expresses the claim the passage builds toward?",
+   "choices": [
+    "“By noon I had filled forty boxes, and I felt proud.”",
+    "“The first Saturday I volunteered … I was assigned to sort cans.”",
+    "“A town that wants its food bank to work must replace what that one store used to give.”",
+    "“By the end of each month, the shelves were nearly empty.”"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The final sentence states what the narrative and causal chain have been leading to.",
+   "choiceExplanations": [
+    "This is part of the narrative.",
+    "This sets the scene.",
+    "",
+    "This is the last link in the causal chain, not the claim."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-r2"
+  },
+  {
+   "id": "lang-u3-q08",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-methods",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How do the narrative in paragraph 1 and the causal chain in paragraph 2 work together?",
+   "choices": [
+    "The narrative shows the effect firsthand, and the causal chain explains why it happened, preparing for the claim",
+    "Both present the same information in different words",
+    "The causal chain disproves the narrative",
+    "The narrative introduces a counterargument that the causal chain accepts"
+   ],
+   "correctAnswer": 0,
+   "explanation": "One method makes the shortage vivid; the other makes it understandable, and together they justify the conclusion.",
+   "choiceExplanations": [
+    "",
+    "They provide different kinds of support.",
+    "The causal chain explains the narrative rather than contradicting it.",
+    "Neither paragraph presents a counterargument."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-r2"
+  },
+  {
+   "id": "lang-u3-q09",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-sources",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which sentence provides the most credible evidence for the claim in sentence (1)?",
+   "choices": [
+    "Sentence (2)",
+    "Sentence (3)",
+    "Sentence (5)",
+    "Sentence (4)"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Sentence (3) attributes a finding to a relevant health organization.",
+   "choiceExplanations": [
+    "Sentence (2) is an opinion with no support.",
+    "",
+    "Sentence (5) is the conclusion.",
+    "One friend's experience is weaker evidence."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-w1"
+  },
+  {
+   "id": "lang-u3-q10",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-sources",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Should the writer keep or delete sentence (2)?",
+   "choices": [
+    "Delete it, because it repeats the idea vaguely and adds no evidence",
+    "Delete it, because it contradicts sentence (5)",
+    "Keep it, because it is the paragraph's claim",
+    "Keep it, because it cites a source"
+   ],
+   "correctAnswer": 0,
+   "explanation": "“Recess is good” is vaguer than sentence (1) and offers no support.",
+   "choiceExplanations": [
+    "",
+    "It doesn't contradict the conclusion.",
+    "Sentence (1) is the claim; (2) adds nothing to it.",
+    "It cites nothing."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-w1"
+  },
+  {
+   "id": "lang-u3-q11",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-sources",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The writer wants to cite the source in sentence (3) more fully. Which revision is best?",
+   "choices": [
+    "Breaks improve attention, which everyone knows.",
+    "Some experts somewhere have said breaks are helpful.",
+    "A pediatric organization reported this, according to the internet.",
+    "In a 2013 policy statement, the American Academy of Pediatrics reported that unstructured breaks improve students' attention when they return to class."
+   ],
+   "correctAnswer": 3,
+   "explanation": "This names the organization and the document and keeps the specific finding. (The American Academy of Pediatrics did publish a 2013 policy statement on recess.)",
+   "choiceExplanations": [
+    "This presents a claim as common knowledge without a source.",
+    "This removes the attribution instead of strengthening it.",
+    "“The internet” isn't a source readers can check.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-w1"
+  },
+  {
+   "id": "lang-u3-q12",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-reasoning",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Sentence (5) concludes that all schools should guarantee twenty minutes of recess. What would best make this conclusion follow from the evidence?",
+   "choices": [
+    "Delete sentence (3)",
+    "Add more stories from friends",
+    "Add evidence connecting a specific length of break to improved attention, or qualify the recommendation",
+    "Change “all schools” to “every single school”"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The evidence shows breaks help but says nothing about twenty minutes or all schools; the writer should support or qualify that leap.",
+   "choiceExplanations": [
+    "Removing the best evidence would weaken the paragraph.",
+    "More anecdotes still wouldn't support a specific, universal policy.",
+    "",
+    "This makes the claim broader, not better supported."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-w1"
+  },
+  {
+   "id": "lang-u3-q13",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-methods",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which method of development does the paragraph mainly use?",
+   "choices": [
+    "Description of a place",
+    "Definition",
+    "Cause and effect",
+    "Comparison and contrast"
+   ],
+   "correctAnswer": 2,
+   "explanation": "It traces the effects of cutting Route 9 and argues that restoring it would reverse them.",
+   "choiceExplanations": [
+    "Description isn't the main method.",
+    "No term is defined.",
+    "",
+    "Nothing is compared point by point."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-w2"
+  },
+  {
+   "id": "lang-u3-q14",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-methods",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Sentence (3) is weak. Which revision best develops the causal link to the writer's claim about getting to class on time?",
+   "choices": [
+    "Some students like walking.",
+    "The two-mile walk takes about forty minutes, and the attendance office reports that first-period tardies have doubled since the route was cut.",
+    "Walking is good exercise for teenagers.",
+    "Walking that far takes a long time, which is bad."
+   ],
+   "correctAnswer": 1,
+   "explanation": "It quantifies the effect and links it to tardiness with evidence.",
+   "choiceExplanations": [
+    "This undercuts the argument without addressing it.",
+    "",
+    "This argues against the claim.",
+    "This is vague and gives no evidence."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-w2"
+  },
+  {
+   "id": "lang-u3-q15",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-sources",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The writer wants to add evidence about safety. Which addition would be most relevant and credible?",
+   "choices": [
+    "The writer's cousin thinks the road is dangerous.",
+    "Roads can be dangerous in many places.",
+    "Some roads have sidewalks.",
+    "The county's traffic report lists three accidents involving pedestrians on that road in the past year."
+   ],
+   "correctAnswer": 3,
+   "explanation": "A specific, attributed finding about this road supports the safety claim.",
+   "choiceExplanations": [
+    "One person's opinion is weaker than recorded data.",
+    "This is too general to support a claim about this road.",
+    "This doesn't address the road in question.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-w2"
+  },
+  {
+   "id": "lang-u3-q16",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "topicId": "lang3-reasoning",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A transit official might reply that ridership on Route 9 was very low. How could the writer best strengthen the line of reasoning?",
+   "choices": [
+    "Change the topic to bus fares",
+    "Ignore the objection to keep the paragraph short",
+    "Claim that ridership was actually the highest in the city, without evidence",
+    "Acknowledge low ridership and argue that safety and attendance justify the route even with few riders"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Addressing a likely objection and explaining why the benefits still matter makes the reasoning harder to dismiss.",
+   "choiceExplanations": [
+    "Changing the subject avoids the issue.",
+    "Ignoring an obvious objection leaves the argument vulnerable.",
+    "An unsupported claim is flawed reasoning.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang3-w2"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lang-u3-os1",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "title": "OpenStax Writing Guide with Handbook, 11.3 Glance at Genre: Reasoning Strategies and Signal Words",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/11-3-glance-at-genre-reasoning-strategies-and-signal-words",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on lines of reasoning and signal words. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/11-3-glance-at-genre-reasoning-strategies-and-signal-words",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-lang-u3-os2",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u3",
+   "title": "OpenStax Writing Guide with Handbook, 12.6 Editing Focus: Integrating Sources and Quotations",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/12-6-editing-focus-integrating-sources-and-quotations",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on integrating and citing sources. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/12-6-editing-focus-integrating-sources-and-quotations",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Language free-response questions (synthesis, rhetorical analysis, and argument) each draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lang-u3-q01",
+    "lang-u3-q02",
+    "lang-u3-q03",
+    "lang-u3-q04",
+    "lang-u3-q13",
+    "lang-u3-q14",
+    "lang-u3-q15",
+    "lang-u3-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lang-u3-q05",
+    "lang-u3-q06",
+    "lang-u3-q07",
+    "lang-u3-q08",
+    "lang-u3-q09",
+    "lang-u3-q10",
+    "lang-u3-q11",
+    "lang-u3-q12"
+   ]
+  }
+ ]
+}

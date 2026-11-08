@@ -1,0 +1,710 @@
+{
+ "courseId": "ap-english-language-and-composition",
+ "unitId": "u7",
+ "title": "Unit 7",
+ "topics": [
+  {
+   "id": "lang7-complexity",
+   "name": "Complexity, introductions, and conclusions",
+   "covers": [
+    "Examining complexities in issues"
+   ],
+   "frameworkCovers": [
+    "1.A Identify and describe components of the rhetorical situation: the exigence, audience, writer, purpose, context, and message.",
+    "2.A Write introductions and conclusions appropriate to the purpose and context of the rhetorical situation."
+   ]
+  },
+  {
+   "id": "lang7-qualify",
+   "name": "Qualifying claims and addressing counterarguments",
+   "covers": [
+    "Considering how words, phrases, and clauses can modify and limit an argument",
+    "Examining how counterargument or alternative perspectives affect an argument"
+   ],
+   "frameworkCovers": [
+    "3.C Explain ways claims are qualified through modifiers, counterarguments, and alternative perspectives.",
+    "4.C Qualify a claim using modifiers, counterarguments, or alternative perspectives."
+   ]
+  },
+  {
+   "id": "lang7-sentences",
+   "name": "Sentence development, clauses, and conventions",
+   "covers": [
+    "Exploring how sentence development affects an argument"
+   ],
+   "frameworkCovers": [
+    "7.B Explain how writers create, combine, and place independent and dependent clauses to show relationships between and among ideas.",
+    "8.B Write sentences that clearly convey ideas and arguments.",
+    "7.C Explain how grammar and mechanics contribute to the clarity and effectiveness of an argument.",
+    "8.C Use established conventions of grammar and mechanics to communicate clearly and effectively."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 7: Complexity, qualification, and sentences: review guide",
+  "intro": "Complex issues need arguments that account for tensions and limits. This unit practices recognizing complexity, qualifying claims with words, phrases, and clauses, responding to counterarguments, and building sentences whose structure shows how ideas relate.",
+  "sections": [
+   {
+    "id": "s-lang7-complexity",
+    "topicId": "lang7-complexity",
+    "title": "Complexity",
+    "body": [
+     "An issue is complex when reasonable people weigh competing values (freedom and safety, cost and benefit) or when the facts vary by situation. Sophisticated arguments acknowledge these tensions rather than pretending they don't exist.",
+     "Introductions and conclusions can signal complexity: an introduction might present a genuine dilemma, and a conclusion might explain when the writer's position applies."
+    ],
+    "points": [
+     "Ask: under what conditions would the opposite be true?",
+     "Complexity isn't indecision; the writer still takes a position."
+    ]
+   },
+   {
+    "id": "s-lang7-qualify",
+    "topicId": "lang7-qualify",
+    "title": "Qualifying claims and addressing counterarguments",
+    "body": [
+     "Words (often, some), phrases (in most cases), and clauses (unless the cost rises) limit a claim's scope. A concession grants part of an opposing view; a rebuttal explains why the writer's position still holds.",
+     "Qualifying is not weakening: a claim the evidence fully supports is stronger than an absolute one a single example could refute."
+    ],
+    "points": [
+     "Concession words: although, granted, admittedly.",
+     "Rebuttal words: but, nevertheless, still."
+    ]
+   },
+   {
+    "id": "s-lang7-sentences",
+    "topicId": "lang7-sentences",
+    "title": "Sentence development, clauses, and conventions",
+    "body": [
+     "Independent clauses can stand alone; dependent clauses (beginning with although, because, when, which) cannot. Placing an idea in the main clause emphasizes it; placing it in a dependent clause subordinates it.",
+     "Conventions of punctuation make these relationships clear: a semicolon joins two closely related independent clauses, a colon introduces an explanation or list, and commas set off introductory dependent clauses."
+    ],
+    "points": [
+     "“Although X, Y” emphasizes Y.",
+     "A comma alone can't join two independent clauses (a comma splice).",
+     "Parallel structure clarifies lists and comparisons."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Combine to emphasize the benefit: “The program is expensive.” “It saves lives.”",
+   "solution": "“Although the program is expensive, it saves lives.” The cost goes in the dependent clause; the benefit gets the emphasis of the main clause."
+  },
+  "misconceptions": [
+   [
+    "“Qualifying a claim means you aren't sure.”",
+    "It means the claim is precise about what the evidence shows."
+   ],
+   [
+    "“A semicolon is a fancy comma.”",
+    "It joins independent clauses or separates complex list items."
+   ],
+   [
+    "“Counterarguments should be hidden.”",
+    "Addressing them makes an argument more credible."
+   ],
+   [
+    "“Longer sentences are always better.”",
+    "Sentence structure should fit the relationship between ideas."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Language and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+  "sourceTitle": "AP English Language and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "lang7-r1",
+   "title": "Passage 1: The homework question",
+   "text": [
+    "(1) Few school debates generate as much heat as homework. Parents who remember long evenings at the kitchen table are sure it builds discipline; students who spend those evenings exhausted are sure it does not.",
+    "(2) The research suggests that both are partly right. For older students, a moderate amount of homework is generally associated with better achievement, although the benefit appears to level off as the hours climb. For young children, evidence of any academic benefit is much weaker.",
+    "(3) Admittedly, homework can teach habits that tests do not measure. Yet a habit learned at the cost of sleep and family time may not be worth teaching. The better question is not whether to assign homework but how much, to whom, and for what purpose."
+   ],
+   "attribution": "Written for StudySprint by its editors. It summarizes research on homework in general terms rather than quoting a specific study.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang7-r2",
+   "title": "Passage 2: Should we stop changing the clocks?",
+   "text": [
+    "(1) Twice a year, most of the country moves its clocks, and twice a year people complain. The complaint is easy; the solution is not.",
+    "(2) Permanent standard time would give brighter winter mornings, which some sleep scientists favor because morning light helps set the body's clock. Permanent daylight saving time would give brighter winter evenings, which many businesses favor because shoppers stay out later.",
+    "(3) Each choice trades one kind of light for another. Unless lawmakers decide which they value more, health or commerce, ending the clock change will simply replace one complaint with another."
+   ],
+   "attribution": "Written for StudySprint by its editors. It describes the debate in general terms.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang7-w1",
+   "title": "Draft 1: A student paragraph about a skate park",
+   "text": [
+    "The following is a draft of a student's paragraph. It may need revision.",
+    "(1) The town should build a skate park. (2) Skateboarders currently use the library steps, this damages the stone and annoys patrons. (3) A skate park would cost money. (4) It would give skaters a safe place. (5) It would protect public property. (6) It would bring visitors to town."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang7-w2",
+   "title": "Draft 2: A student introduction about a four-way stop",
+   "text": [
+    "The following is a draft introduction to a student's letter to the town traffic committee. It may need revision.",
+    "(1) The intersection of Oak and Third is dangerous. (2) A traffic light would solve all of its problems. (3) Last year there were six collisions there. (4) The committee should install a light."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lang-u7-q01",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-complexity",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the main purpose of paragraph 1?",
+   "choices": [
+    "To state the writer's final position",
+    "To describe the writer's own childhood",
+    "To provide research evidence",
+    "To present the opposing views that make the homework debate heated"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Paragraph 1 lays out parents' and students' opposing certainties.",
+   "choiceExplanations": [
+    "The position comes in paragraph 3.",
+    "The writer doesn't describe their own childhood.",
+    "Research is summarized in paragraph 2.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-r1"
+  },
+  {
+   "id": "lang-u7-q02",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-qualify",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 2, the clause “although the benefit appears to level off as the hours climb” serves to",
+   "choices": [
+    "describe young children's homework",
+    "introduce a story",
+    "limit the claim about homework's benefit for older students",
+    "contradict the claim that homework helps older students"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The clause qualifies the benefit: it exists, but more hours don't keep adding to it.",
+   "choiceExplanations": [
+    "Young children are discussed in the next sentence.",
+    "No story is introduced.",
+    "",
+    "It qualifies rather than contradicts."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-r1"
+  },
+  {
+   "id": "lang-u7-q03",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-qualify",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How does paragraph 3 respond to the view that homework builds discipline?",
+   "choices": [
+    "It ignores the view",
+    "It rejects the view without explanation",
+    "It concedes that homework may teach habits, then argues that the cost may outweigh that benefit",
+    "It accepts the view completely"
+   ],
+   "correctAnswer": 2,
+   "explanation": "“Admittedly” grants the point; “Yet” introduces the rebuttal about sleep and family time.",
+   "choiceExplanations": [
+    "The writer addresses it directly.",
+    "The writer gives a reason.",
+    "",
+    "The writer limits the view."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-r1"
+  },
+  {
+   "id": "lang-u7-q04",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-complexity",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The final sentence reframes the debate. What does this reframing accomplish?",
+   "choices": [
+    "It introduces a new topic unrelated to homework",
+    "It shows that the writer agrees with the parents",
+    "It ends the essay without a position",
+    "It replaces an all-or-nothing question with one that accounts for the complexity the research reveals"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Asking “how much, to whom, and for what purpose” reflects the evidence that homework's value depends on age and amount.",
+   "choiceExplanations": [
+    "The topic is still homework.",
+    "The writer partly agrees with both sides.",
+    "The reframing is the writer's position.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-r1"
+  },
+  {
+   "id": "lang-u7-q05",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-complexity",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What makes the issue in the passage complex, according to the writer?",
+   "choices": [
+    "Scientists and businesses agree",
+    "Each option benefits one set of values at the expense of another",
+    "The clocks are expensive to change",
+    "No one complains about changing clocks"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Morning light serves health; evening light serves commerce. Choosing one sacrifices the other.",
+   "choiceExplanations": [
+    "The passage shows they disagree.",
+    "",
+    "Cost isn't discussed.",
+    "People complain twice a year."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-r2"
+  },
+  {
+   "id": "lang-u7-q06",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-sentences",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 1, the semicolon in “The complaint is easy; the solution is not” serves to",
+   "choices": [
+    "set off a dependent clause",
+    "join two closely related, contrasting independent clauses",
+    "introduce a list",
+    "mark a quotation"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The two short clauses balance each other, emphasizing the contrast.",
+   "choiceExplanations": [
+    "Both parts are independent clauses.",
+    "",
+    "No list follows.",
+    "There's no quotation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-r2"
+  },
+  {
+   "id": "lang-u7-q07",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-sentences",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Paragraph 2 uses two sentences with the same structure. What is the effect of this parallel structure?",
+   "choices": [
+    "It makes the two options easy to compare point by point",
+    "It makes the paragraph harder to follow",
+    "It shows that the options are identical",
+    "It hides the writer's opinion"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Matching structure (“Permanent … would give …, which … favor because …”) lines up the options for comparison.",
+   "choiceExplanations": [
+    "",
+    "It makes the paragraph easier to follow.",
+    "They differ; the structure highlights how.",
+    "The structure supports comparison, not concealment."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-r2"
+  },
+  {
+   "id": "lang-u7-q08",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-qualify",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In the final sentence, how does the clause beginning “Unless lawmakers decide…” shape the writer's claim?",
+   "choices": [
+    "It introduces a counterargument the writer rejects",
+    "It sets the condition under which ending the clock change would succeed",
+    "It shows the writer supports permanent daylight saving time",
+    "It states that lawmakers will never decide"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The conditional clause limits the claim: ending the change only solves the problem if a value choice is made.",
+   "choiceExplanations": [
+    "It's the writer's own qualification.",
+    "",
+    "The writer doesn't pick an option.",
+    "It describes a condition, not a prediction."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-r2"
+  },
+  {
+   "id": "lang-u7-q09",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-sentences",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Sentence (2) contains an error. Which revision is correct?",
+   "choices": [
+    "Skateboarders, currently use the library steps, this damages the stone, and annoys patrons.",
+    "Skateboarders currently use the library steps, this damages, the stone and annoys patrons.",
+    "Skateboarders currently use the library steps; this damages the stone and annoys patrons.",
+    "Skateboarders currently use the library steps this damages the stone and annoys patrons."
+   ],
+   "correctAnswer": 2,
+   "explanation": "The original joins two independent clauses with only a comma (a comma splice). A semicolon correctly joins two closely related independent clauses.",
+   "choiceExplanations": [
+    "This adds incorrect commas and keeps the splice.",
+    "This keeps the comma splice and adds an error.",
+    "",
+    "This creates a run-on."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-w1"
+  },
+  {
+   "id": "lang-u7-q10",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-sentences",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The writer wants to combine sentences (3) and (4) so that the benefit receives the emphasis. Which is best?",
+   "choices": [
+    "A skate park would cost money; it would cost money.",
+    "Although a skate park would give skaters a safe place, it would cost money.",
+    "Although a skate park would cost money, it would give skaters a safe place.",
+    "A skate park would cost money and give skaters a safe place."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Putting the cost in the dependent clause and the benefit in the main clause emphasizes the benefit.",
+   "choiceExplanations": [
+    "This repeats the cost.",
+    "This puts the benefit in the dependent clause and the cost in the main clause, so the cost gets the emphasis.",
+    "",
+    "“And” treats cost and benefit as equal."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-w1"
+  },
+  {
+   "id": "lang-u7-q11",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-sentences",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which revision best combines sentences (4), (5), and (6) using parallel structure?",
+   "choices": [
+    "It would give skaters a safe place, protect public property, and bring visitors to town.",
+    "It would give skaters a safe place, protecting public property, and visitors would come.",
+    "It would give skaters a safe place and property and visitors.",
+    "Giving skaters a safe place, it protects property and also visitors."
+   ],
+   "correctAnswer": 0,
+   "explanation": "Three verb phrases in the same form (give, protect, bring) make a clear, parallel list.",
+   "choiceExplanations": [
+    "",
+    "The forms are mixed.",
+    "This drops the verbs and changes the meaning.",
+    "This is ungrammatical and unclear."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-w1"
+  },
+  {
+   "id": "lang-u7-q12",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-qualify",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Sentence (3) mentions a counterargument but doesn't respond to it. Which revision best concedes and rebuts?",
+   "choices": [
+    "Money doesn't matter.",
+    "A skate park would cost money, but the town already spends money every year repairing the library steps.",
+    "A skate park would cost a lot of money.",
+    "Some people don't like skateboarding."
+   ],
+   "correctAnswer": 1,
+   "explanation": "It grants the cost, then rebuts it with a comparison to an existing expense.",
+   "choiceExplanations": [
+    "This dismisses the concern without a reason.",
+    "",
+    "This concedes without rebutting.",
+    "This raises a different objection without answering it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-w1"
+  },
+  {
+   "id": "lang-u7-q13",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-qualify",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which sentence in the draft makes an absolute claim that could easily be refuted?",
+   "choices": [
+    "Sentence (1)",
+    "Sentence (3)",
+    "Sentence (4)",
+    "Sentence (2)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "“Would solve all of its problems” overstates what any single change can do.",
+   "choiceExplanations": [
+    "Sentence (1) is a supported judgment.",
+    "Sentence (3) is a factual report.",
+    "Sentence (4) is the request.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-w2"
+  },
+  {
+   "id": "lang-u7-q14",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-qualify",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which revision of sentence (2) best qualifies the claim?",
+   "choices": [
+    "A traffic light would solve every problem in town.",
+    "A traffic light might do something.",
+    "A traffic light is a light.",
+    "A traffic light would likely reduce collisions by giving each direction a clear turn."
+   ],
+   "correctAnswer": 3,
+   "explanation": "“Likely reduce” and the explanation make a precise, defensible claim.",
+   "choiceExplanations": [
+    "This is even broader.",
+    "This is too vague to argue anything.",
+    "This says nothing.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-w2"
+  },
+  {
+   "id": "lang-u7-q15",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-complexity",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which sentence would best open the introduction for the traffic committee?",
+   "choices": [
+    "Six collisions in a single year have made the four-way stop at Oak and Third the town's most dangerous intersection.",
+    "Traffic exists in every town.",
+    "Cars were invented over a century ago.",
+    "I like to walk."
+   ],
+   "correctAnswer": 0,
+   "explanation": "It establishes the exigence with specific evidence the committee cares about.",
+   "choiceExplanations": [
+    "",
+    "This is too general.",
+    "This is unrelated background.",
+    "This is irrelevant to the committee."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-w2"
+  },
+  {
+   "id": "lang-u7-q16",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "topicId": "lang7-complexity",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The committee might note that traffic lights can increase rear-end crashes. How could the writer best account for this complexity?",
+   "choices": [
+    "Acknowledge the trade-off and argue that, at this intersection, preventing the more serious side-impact collisions matters more",
+    "Ignore it so the letter stays short",
+    "Say that rear-end crashes never happen",
+    "Withdraw the request"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Acknowledging the trade-off and explaining why the benefit outweighs it here keeps the argument credible.",
+   "choiceExplanations": [
+    "",
+    "Ignoring a known objection weakens credibility.",
+    "This is false and easy to refute.",
+    "One trade-off doesn't require abandoning the position."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang7-w2"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lang-u7-os1",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "title": "OpenStax Writing Guide with Handbook, 3.6 Editing Focus: Sentence Structure",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/3-6-editing-focus-sentence-structure",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on sentence structure. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/3-6-editing-focus-sentence-structure",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-lang-u7-os2",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u7",
+   "title": "OpenStax Writing Guide with Handbook, 9.6 Editing Focus: Mixed Sentence Constructions",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/9-6-editing-focus-mixed-sentence-constructions",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on clear sentence construction. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/9-6-editing-focus-mixed-sentence-constructions",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Language free-response questions (synthesis, rhetorical analysis, and argument) each draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lang-u7-q01",
+    "lang-u7-q02",
+    "lang-u7-q03",
+    "lang-u7-q04",
+    "lang-u7-q09",
+    "lang-u7-q10",
+    "lang-u7-q11",
+    "lang-u7-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lang-u7-q05",
+    "lang-u7-q06",
+    "lang-u7-q07",
+    "lang-u7-q08",
+    "lang-u7-q13",
+    "lang-u7-q14",
+    "lang-u7-q15",
+    "lang-u7-q16"
+   ]
+  }
+ ]
+}

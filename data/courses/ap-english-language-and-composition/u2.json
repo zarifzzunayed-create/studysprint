@@ -1,0 +1,712 @@
+{
+ "courseId": "ap-english-language-and-composition",
+ "unitId": "u2",
+ "title": "Unit 2",
+ "topics": [
+  {
+   "id": "lang2-audience",
+   "name": "Audience and purpose",
+   "covers": [
+    "Analyzing audience and its relationship to the purpose of an argument"
+   ],
+   "frameworkCovers": [
+    "1.B Explain how an argument demonstrates understanding of an audience’s beliefs, values, or needs.",
+    "2.B Demonstrate an understanding of an audience’s beliefs, values, or needs."
+   ]
+  },
+  {
+   "id": "lang2-evidence",
+   "name": "Strategic evidence and structure",
+   "covers": [
+    "Building an argument with relevant and strategic evidence",
+    "Developing structure and integrating evidence to reflect a line of reasoning"
+   ],
+   "frameworkCovers": [
+    "3.A Identify and explain claims and evidence within an argument.",
+    "4.A Develop a paragraph that includes a claim and evidence supporting the claim."
+   ]
+  },
+  {
+   "id": "lang2-thesis",
+   "name": "Thesis statements",
+   "covers": [
+    "Developing thesis statements"
+   ],
+   "frameworkCovers": [
+    "3.B Identify and describe the overarching thesis of an argument, and any indication it provides of the argument’s structure.",
+    "4.B Write a thesis statement that requires proof or defense and that may preview the structure of the argument."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 2: Audience, evidence, and thesis: review guide",
+  "intro": "Writers choose evidence and build a thesis with a particular audience in mind. This unit practices reading those choices and making them yourself: matching evidence to what an audience values, and writing a thesis that is arguable and previews the argument.",
+  "sections": [
+   {
+    "id": "s-lang2-audience",
+    "topicId": "lang2-audience",
+    "title": "Audience and purpose",
+    "body": [
+     "Writers adapt to what their audience already believes, values, and needs. A skeptical audience may need common ground before a request; an audience that agrees may need a reason to act now.",
+     "Ask: what does this audience care about most (money, safety, fairness, tradition, their children)? Which details seem chosen because of that? A writer who shares the audience's background may mention it to build credibility."
+    ],
+    "points": [
+     "Common ground lowers resistance.",
+     "The same claim can be argued with different evidence for different audiences.",
+     "Notice what a writer assumes the audience already knows."
+    ]
+   },
+   {
+    "id": "s-lang2-evidence",
+    "topicId": "lang2-evidence",
+    "title": "Strategic evidence and structure",
+    "body": [
+     "Strategic evidence is not just true; it is chosen because it will matter to this audience and supports this particular claim. Writers often order evidence to build a line of reasoning, for example from the problem, to its cause, to the solution.",
+     "When integrating evidence, introduce its source, keep the quotation or statistic short, and follow it with commentary that explains what it shows."
+    ],
+    "points": [
+     "Introduce a source's authority before quoting it.",
+     "Place evidence next to the claim it supports.",
+     "Order body paragraphs so each builds on the last."
+    ]
+   },
+   {
+    "id": "s-lang2-thesis",
+    "topicId": "lang2-thesis",
+    "title": "Thesis statements",
+    "body": [
+     "A thesis states the writer's position on an issue in a way that requires proof or defense. A fact (“The library opens at nine”) is not a thesis; a position (“The library should open at seven so commuters can use it”) is.",
+     "A thesis may preview the structure of the argument by naming its main reasons in the order they will appear."
+    ],
+    "points": [
+     "Test a thesis by asking whether someone could reasonably disagree.",
+     "A preview lists reasons in the same order as the body paragraphs.",
+     "Avoid announcing (“In this essay I will…”); state the position."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Turn this topic into an arguable thesis that previews its reasons: “School lunch.”",
+   "solution": "“Our school should lengthen lunch to forty minutes, because students currently skip meals to make it through the line, rushed eating hurts afternoon focus, and a longer break would cost no instructional time if passing periods were shortened.”"
+  },
+  "misconceptions": [
+   [
+    "“A thesis is the topic of the essay.”",
+    "A thesis is the arguable position on the topic."
+   ],
+   [
+    "“All true evidence is equally useful.”",
+    "Evidence is strong when it fits the claim and matters to the audience."
+   ],
+   [
+    "“A writer should never mention their own background.”",
+    "Shared experience can build credibility with an audience."
+   ],
+   [
+    "“A quotation can speak for itself.”",
+    "Evidence needs an introduction and commentary to show what it proves."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Language and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+  "sourceTitle": "AP English Language and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "lang2-r1",
+   "title": "Passage 1: Remarks at a meeting of the Main Street Merchants Association",
+   "text": [
+    "(1) I know what many of you are thinking, because I thought it too. When the city proposed replacing a row of parking spaces on Main Street with a protected bike lane, I wrote a letter against it. I have run this hardware store for nineteen years, and I believed every lost space was a lost customer.",
+    "(2) Then I drove to Fairview, where the same change was made three years ago, and I asked the shop owners there to show me their numbers. Of the eleven I spoke with, nine said their sales were the same or higher. The bakery owner showed me her receipts: weekday sales up eight percent.",
+    "(3) People on bikes, it turns out, stop more often. They don't need to circle for a space, and they can't carry a week's groceries, so they come back.",
+    "(4) I am not asking you to love bicycles. I am asking you to look at the receipts before we oppose something that may help our registers."
+   ],
+   "attribution": "Written for StudySprint by its editors. Names, places, and figures are invented for practice.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang2-r2",
+   "title": "Passage 2: A pediatric dentist on school vending machines",
+   "text": [
+    "(1) Parents, we want the same thing: children who can sit through an afternoon class without a toothache. That is why I am asking our school board to replace sugary drinks in vending machines with water and milk. My reasons are cost, comfort, and habit.",
+    "(2) First, cost. A single filling can run well over a hundred dollars, and many families pay it out of pocket.",
+    "(3) Second, comfort. Last month an eight-year-old patient told me she hides her mouth when she laughs. She had four cavities, and she drinks two sodas a day, both bought at school.",
+    "(4) Third, habit. Children copy what is easy. If the easy choice at school is water, they will carry that habit home."
+   ],
+   "attribution": "Written for StudySprint by its editors. Names, places, and figures are invented for practice.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang2-w1",
+   "title": "Draft 1: An essay introduction about personal finance classes",
+   "text": [
+    "The following is a draft introduction to a student's argument for the school board. It may need revision.",
+    "(1) Many graduates leave high school without knowing how to read a pay stub or a loan agreement. (2) Our district offers one personal finance elective, and it fills up in minutes. (3) Personal finance is a subject. (4) The board should make a one-semester personal finance course a graduation requirement."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang2-w2",
+   "title": "Draft 2: A student paragraph about free museum days",
+   "text": [
+    "The following is a draft of a student's paragraph for a letter to the city council. It may need revision.",
+    "(1) The city museum should offer one free day each month. (2) Ticket prices have risen to eighteen dollars. (3) Families with several children may find that cost hard to justify. (4) The museum's director said, “Attendance on our last free day was triple a normal Saturday.” (5) A free day would bring in visitors who might later become members."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lang-u2-q01",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-audience",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Whom is the speaker mainly trying to persuade?",
+   "choices": [
+    "City officials who designed the bike lane",
+    "Fellow shop owners who fear the bike lane will hurt their sales",
+    "Cyclists who want more bike lanes",
+    "Shop owners in Fairview"
+   ],
+   "correctAnswer": 1,
+   "explanation": "He addresses the association's members and responds to their worry about lost parking and customers.",
+   "choiceExplanations": [
+    "He mentions the city's proposal but speaks to merchants.",
+    "",
+    "He says he isn't asking anyone to love bicycles; cyclists aren't the audience.",
+    "Fairview's owners are his sources of evidence."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-r1"
+  },
+  {
+   "id": "lang-u2-q02",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-thesis",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which best states the speaker's main claim?",
+   "choices": [
+    "The city should never remove parking spaces",
+    "Fairview's bakery is very successful",
+    "Bicycles are better than cars",
+    "Merchants should examine the evidence before opposing the bike lane, because it may help their sales"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Paragraph 4 asks merchants to look at the receipts before opposing a change that may help them.",
+   "choiceExplanations": [
+    "This was his earlier view, which he has changed.",
+    "The bakery is one piece of evidence.",
+    "He explicitly declines to argue that bicycles are better.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-r1"
+  },
+  {
+   "id": "lang-u2-q03",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-audience",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why does the speaker begin by saying he once opposed the bike lane himself?",
+   "choices": [
+    "To apologize for his earlier letter",
+    "To establish common ground and credibility with listeners who share his original concern",
+    "To show that he dislikes changing his mind",
+    "To introduce statistics about bicycles"
+   ],
+   "correctAnswer": 1,
+   "explanation": "By sharing their fear and his long experience as a merchant, he makes his change of mind persuasive to a skeptical audience.",
+   "choiceExplanations": [
+    "He doesn't apologize; he explains how evidence changed his view.",
+    "",
+    "The point is that he did change his mind.",
+    "The statistics come in paragraph 2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-r1"
+  },
+  {
+   "id": "lang-u2-q04",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-evidence",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The speaker relies on sales figures from Fairview shop owners rather than, for example, data on how many people ride bikes. What does this choice suggest?",
+   "choices": [
+    "He believes cycling statistics are always inaccurate",
+    "He chose evidence that speaks to his audience's main concern, which is revenue",
+    "He wants to change the audience's opinion of cyclists",
+    "He has no access to traffic data"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Merchants worry about sales, so evidence about other merchants' receipts addresses that concern directly.",
+   "choiceExplanations": [
+    "He never comments on the accuracy of other statistics.",
+    "",
+    "He explicitly says he isn't asking them to love bicycles.",
+    "Nothing in the passage suggests he lacked other data."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-r1"
+  },
+  {
+   "id": "lang-u2-q05",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-audience",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Who is the intended audience of the passage?",
+   "choices": [
+    "Vending machine companies",
+    "Dentists in the community",
+    "The eight-year-old patient",
+    "Parents of students at the school"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The writer opens with “Parents, we want the same thing.”",
+   "choiceExplanations": [
+    "The companies are never addressed.",
+    "Dentists aren't addressed.",
+    "The patient is an example, not the audience.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-r2"
+  },
+  {
+   "id": "lang-u2-q06",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-thesis",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 1, the sentence “My reasons are cost, comfort, and habit” mainly serves to",
+   "choices": [
+    "introduce a counterargument",
+    "state a fact that ends the argument",
+    "preview the structure of the argument that follows",
+    "describe the writer's credentials"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The three reasons are then developed in order, in paragraphs 2, 3, and 4.",
+   "choiceExplanations": [
+    "No opposing view is introduced.",
+    "It previews reasons that are developed afterward.",
+    "",
+    "The writer's role as a dentist is clear from the title, not from this sentence."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-r2"
+  },
+  {
+   "id": "lang-u2-q07",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-evidence",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The story of the eight-year-old patient in paragraph 3 primarily",
+   "choices": [
+    "makes the reason “comfort” concrete with an example parents can picture",
+    "explains how much fillings cost",
+    "proves that every child who drinks soda will get cavities",
+    "shows that the writer's patients are mostly young"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A specific child hiding her smile shows what “comfort” means emotionally and physically.",
+   "choiceExplanations": [
+    "",
+    "Cost is discussed in paragraph 2.",
+    "One example can't prove a universal claim, and the writer doesn't claim it does.",
+    "The writer doesn't describe her practice's patients overall."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-r2"
+  },
+  {
+   "id": "lang-u2-q08",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-audience",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How does the opening sentence (“we want the same thing”) relate to the writer's purpose?",
+   "choices": [
+    "It shifts the argument's focus from children to dentists",
+    "It concedes that the request is unpopular",
+    "It frames the request as serving a goal parents already hold, making them more willing to support it",
+    "It suggests parents disagree with the school board"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Starting from shared values lets the writer present the vending change as a way to reach the parents' own goal.",
+   "choiceExplanations": [
+    "The focus stays on children.",
+    "The writer doesn't concede anything about popularity.",
+    "",
+    "The writer wants parents to support the board, not oppose it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-r2"
+  },
+  {
+   "id": "lang-u2-q09",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-thesis",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which sentence in the draft functions as the thesis?",
+   "choices": [
+    "Sentence (1)",
+    "Sentence (4)",
+    "Sentence (3)",
+    "Sentence (2)"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Sentence (4) takes an arguable position: the course should be a graduation requirement.",
+   "choiceExplanations": [
+    "Sentence (1) describes the problem.",
+    "",
+    "Sentence (3) is a vague statement of fact.",
+    "Sentence (2) gives evidence of demand."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-w1"
+  },
+  {
+   "id": "lang-u2-q10",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-thesis",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The writer plans body paragraphs on (a) real-world mistakes graduates make, (b) the elective's waiting list, and (c) the low cost of the change. Which revision of sentence (4) best previews them in order?",
+   "choices": [
+    "The board should require a one-semester personal finance course, because graduates face costly financial mistakes, students already want the class, and the change would cost little.",
+    "The board should require personal finance because it is important.",
+    "Because the change would cost little, the board should consider personal finance.",
+    "Personal finance should be required, and in this essay I will explain why."
+   ],
+   "correctAnswer": 0,
+   "explanation": "This version states the position and lists the three reasons in the order the essay will develop them.",
+   "choiceExplanations": [
+    "",
+    "It gives no specific reasons.",
+    "It previews only one reason, and out of order.",
+    "It announces the essay instead of previewing the reasons."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-w1"
+  },
+  {
+   "id": "lang-u2-q11",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-evidence",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Should the writer keep or delete sentence (3)?",
+   "choices": [
+    "Delete it, because it states something obvious and adds no support",
+    "Keep it, because it is the thesis",
+    "Keep it, because it gives a statistic",
+    "Delete it, because it contradicts sentence (2)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "“Personal finance is a subject” neither makes a claim nor supports one.",
+   "choiceExplanations": [
+    "",
+    "Sentence (4) is the thesis.",
+    "It contains no statistic.",
+    "It doesn't contradict anything."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-w1"
+  },
+  {
+   "id": "lang-u2-q12",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-audience",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Board members are concerned about crowded schedules. Which sentence, added before sentence (4), would best address that concern?",
+   "choices": [
+    "Board members should not worry about schedules.",
+    "Students already have too many classes.",
+    "Some students prefer art classes.",
+    "The course could replace the current one-semester computer applications requirement, which covers similar spreadsheet skills, so students' schedules would not grow."
+   ],
+   "correctAnswer": 3,
+   "explanation": "This answers the audience's specific concern with a practical solution, which makes the thesis easier to accept.",
+   "choiceExplanations": [
+    "This dismisses the concern without a reason.",
+    "This strengthens the concern without answering it.",
+    "This is unrelated to the concern or the thesis.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-w1"
+  },
+  {
+   "id": "lang-u2-q13",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-evidence",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which sentence provides the strongest evidence that a free day would increase attendance?",
+   "choices": [
+    "Sentence (5)",
+    "Sentence (3)",
+    "Sentence (4)",
+    "Sentence (2)"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The director's report that a past free day tripled attendance is direct evidence.",
+   "choiceExplanations": [
+    "Sentence (5) predicts a benefit without evidence.",
+    "Sentence (3) is a reason families might stay away.",
+    "",
+    "Sentence (2) explains a cost, not what a free day would do."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-w2"
+  },
+  {
+   "id": "lang-u2-q14",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-evidence",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The writer wants to introduce the quotation in sentence (4) so that readers understand why it is credible. Which revision is best?",
+   "choices": [
+    "Someone said, “Attendance on our last free day was triple a normal Saturday.”",
+    "“Attendance on our last free day was triple a normal Saturday,” which is a quotation.",
+    "The museum's director said something about attendance.",
+    "Maria Ortiz, who has directed the museum for ten years and tracks its attendance, said, “Attendance on our last free day was triple a normal Saturday.”"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Naming the source and her relevant role tells readers why her numbers can be trusted.",
+   "choiceExplanations": [
+    "“Someone” gives readers no reason to trust the claim.",
+    "Labeling it a quotation adds nothing about credibility.",
+    "Paraphrasing vaguely loses the specific evidence.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-w2"
+  },
+  {
+   "id": "lang-u2-q15",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-audience",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The letter is for the city council, which funds the museum. Which sentence, added after sentence (5), would best appeal to this audience?",
+   "choices": [
+    "The writer's favorite exhibit is the dinosaur hall.",
+    "Many other cities have beautiful museums.",
+    "Members' fees and gift shop sales on free days could offset much of the lost ticket revenue.",
+    "Museums are fun places to visit."
+   ],
+   "correctAnswer": 2,
+   "explanation": "A council that funds the museum will care whether the plan affects the budget.",
+   "choiceExplanations": [
+    "A personal preference doesn't address the council's concerns.",
+    "This doesn't address this museum or its budget.",
+    "",
+    "This is too general to persuade a funding body."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-w2"
+  },
+  {
+   "id": "lang-u2-q16",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "topicId": "lang2-evidence",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which order of sentences (2) through (5) best reflects a clear line of reasoning from problem to evidence to benefit?",
+   "choices": [
+    "(2), (3), (4), (5)",
+    "(3), (5), (2), (4)",
+    "(5), (4), (3), (2)",
+    "(4), (2), (5), (3)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The draft already moves from the cost problem, to who it affects, to evidence that a free day works, to the longer-term benefit.",
+   "choiceExplanations": [
+    "",
+    "This separates the cost from the families it affects.",
+    "This starts with the benefit and ends with the problem.",
+    "This puts the evidence before the problem it addresses."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang2-w2"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lang-u2-os1",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "title": "OpenStax Writing Guide with Handbook, 10.3 Glance at Genre: Thesis, Reasoning, and Evidence",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/10-3-glance-at-genre-thesis-reasoning-and-evidence",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on thesis statements and evidence. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/10-3-glance-at-genre-thesis-reasoning-and-evidence",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-lang-u2-os2",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u2",
+   "title": "OpenStax Writing Guide with Handbook, 18.3 Glance at Genre: Genre, Audience, Purpose, Organization",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/18-3-glance-at-genre-genre-audience-purpose-organization",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on adapting to audience and purpose. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/18-3-glance-at-genre-genre-audience-purpose-organization",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Language free-response questions (synthesis, rhetorical analysis, and argument) each draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lang-u2-q01",
+    "lang-u2-q02",
+    "lang-u2-q03",
+    "lang-u2-q04",
+    "lang-u2-q09",
+    "lang-u2-q10",
+    "lang-u2-q11",
+    "lang-u2-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lang-u2-q05",
+    "lang-u2-q06",
+    "lang-u2-q07",
+    "lang-u2-q08",
+    "lang-u2-q13",
+    "lang-u2-q14",
+    "lang-u2-q15",
+    "lang-u2-q16"
+   ]
+  }
+ ]
+}
