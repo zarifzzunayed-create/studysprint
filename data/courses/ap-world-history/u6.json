@@ -1,0 +1,705 @@
+{
+ "courseId": "ap-world-history",
+ "unitId": "u6",
+ "title": "Unit 6: Consequences of Industrialization",
+ "topics": [
+  {
+   "id": "wh6-empire",
+   "name": "Rationales for imperialism and state expansion",
+   "covers": [
+    "State expansion in the 18th and 19th centuries"
+   ],
+   "frameworkCovers": [
+    "6.1 Rationales for Imperialism from 1750 to 1900",
+    "6.2 State Expansion from 1750 to 1900"
+   ]
+  },
+  {
+   "id": "wh6-resist",
+   "name": "Responses to imperialism",
+   "covers": [
+    "Resistance to imperialism"
+   ],
+   "frameworkCovers": [
+    "6.3 Indigenous Responses to State Expansion from 1750 to 1900",
+    "6.8 Causation in the Imperial Age"
+   ]
+  },
+  {
+   "id": "wh6-economy",
+   "name": "The global economy, economic imperialism, and migration",
+   "covers": [
+    "The growth of the global economy",
+    "Economic imperialism",
+    "Causes and effects of new migration patterns"
+   ],
+   "frameworkCovers": [
+    "6.4 Global Economic Development from 1750 to 1900",
+    "6.5 Economic Imperialism from 1750 to 1900",
+    "6.6 Causes of Migration in an Interconnected World",
+    "6.7 Effects of Migration"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 6: Consequences of Industrialization: review guide",
+  "intro": "Industrial states sought raw materials, markets, and prestige, and between 1750 and 1900 they expanded their empires across Africa, Asia, and the Pacific. This unit covers the justifications and methods of imperialism, the many forms of resistance, the growth of a global economy, and the migrations that industrialization set in motion.",
+  "sections": [
+   {
+    "id": "s-wh6-empire",
+    "topicId": "wh6-empire",
+    "title": "Rationales and expansion",
+    "body": [
+     "Imperialists justified expansion with ideas such as the “civilizing mission,” Social Darwinism, and racial hierarchy, as well as with economic and strategic arguments. Industrial technology (steamships, railroads, the telegraph, quinine against malaria, and rapid-fire guns) made conquest easier.",
+     "European states divided most of Africa after the Berlin Conference (1884–1885); Britain extended its rule over India after 1858; the United States annexed the Philippines in 1898; and Japan took Taiwan (1895) and Korea (1910). Some states, such as Russia and the United States, also expanded across neighboring land."
+    ],
+    "points": [
+     "Separate justifications (ideas) from means (technology) and motives (economic needs).",
+     "Settler colonies, such as Australia, differed from colonies ruled by small administrations."
+    ]
+   },
+   {
+    "id": "s-wh6-resist",
+    "topicId": "wh6-resist",
+    "title": "Resistance and reform",
+    "body": [
+     "Resistance took many forms: armed revolt (the Indian Rebellion of 1857, the Zulu wars, Ethiopia's victory over Italy at Adwa in 1896), religious movements (the Ghost Dance, the Xhosa cattle killing), and political organization (the Indian National Congress, founded in 1885).",
+     "Writers such as Dadabhai Naoroji criticized the economic “drain” of wealth from India to Britain. Some states, such as the Ottoman Empire during the Tanzimat reforms and Meiji Japan, reformed and modernized in order to resist outside pressure."
+    ],
+    "points": [
+     "Ask whether resistance aimed to restore old ways, reform, or win independence.",
+     "Causation questions often link industrial needs to both expansion and resistance."
+    ]
+   },
+   {
+    "id": "s-wh6-economy",
+    "topicId": "wh6-economy",
+    "title": "The global economy and migration",
+    "body": [
+     "Colonies and independent states alike shifted toward exporting raw materials, such as cotton from Egypt and India, rubber from the Congo, and beef from Argentina, to industrial countries. Britain fought the Opium Wars (1839–1842 and 1856–1860) to force China to open trade, and imposed unequal treaties. Some historians call this economic imperialism.",
+     "Millions migrated: Irish families fleeing famine, Italians to Argentina and the United States, and Chinese and Indian indentured laborers to the Caribbean, Southeast Asia, and Africa. Receiving societies often reacted with restrictions such as the U.S. Chinese Exclusion Act (1882) and the White Australia policy, while migrants built ethnic enclaves."
+    ],
+    "points": [
+     "Explain push factors (famine, poverty) and pull factors (jobs, land).",
+     "Economic imperialism could control a country without formally ruling it."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain one way industrialization caused imperial expansion.",
+   "solution": "Factories needed raw materials such as cotton and rubber and new markets for their goods, so industrial states sought colonies or controlled trade with weaker states; technologies such as steamships and rapid-fire guns made that expansion easier."
+  },
+  "misconceptions": [
+   [
+    "“Imperialism was only about economics.”",
+    "Nationalism, religion, prestige, and racial ideas also drove expansion."
+   ],
+   [
+    "“Colonized peoples did not resist.”",
+    "Resistance was widespread, from armed revolts to political movements."
+   ],
+   [
+    "“Indentured servitude was the same as slavery.”",
+    "Indentured workers signed contracts for a set term, though conditions could be harsh and coercive."
+   ],
+   [
+    "“Economic imperialism required colonies.”",
+    "Countries such as China and Argentina were shaped by foreign economic power without becoming colonies."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP World History: Modern Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+  "sourceTitle": "AP World History: Modern – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "wh6-a",
+   "title": "Source A: Rudyard Kipling, “The White Man's Burden,” 1899",
+   "text": [
+    "“Take up the White Man's burden— / Send forth the best ye breed— / Go, bind your sons to exile / To serve your captives’ need; / To wait, in heavy harness, / On fluttered folk and wild— / Your new-caught sullen peoples, / Half devil and half child.”"
+   ],
+   "attribution": "Rudyard Kipling, British writer, first stanza of a poem published in 1899 urging the United States to take control of the Philippines. Public domain. Wording follows the excerpt quoted in OpenStax World History, Volume 2, section 9.2.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (written in English and published in 1899). StudySprint quotes it as excerpted in OpenStax World History, Volume 2 (openstax.org/books/world-history-volume-2/pages/9-2-motives-and-means-of-imperialism); no OpenStax commentary is copied."
+  },
+  {
+   "id": "wh6-b",
+   "title": "Source B: Two American views of annexing the Philippines, 1900",
+   "text": [
+    "Source 1, Senator Albert Beveridge, speech in the U.S. Senate, January 1900: “The Philippines are ours forever . . . And just beyond the Philippines are China’s illimitable markets. We will not retreat from either. . . . Our largest trade henceforth must be with Asia. The Pacific is our ocean. . . . Where shall we turn for consumers of our surplus? Geography answers the question. China is our natural customer.”",
+    "Source 2, Negro National Democratic League, Address to the Public, July 1900: “We hold that the policy known as imperialism is hostile to liberty and leans toward the destruction of government by the people themselves. . . . A nation cannot oppress a people without the borders of the country without sooner or later introducing some such oppression within its borders.”"
+   ],
+   "attribution": "A speech by a U.S. senator from Indiana, and a public statement by an African American political organization, both 1900. Public domain. Wording follows the excerpt quoted in OpenStax World History, Volume 2, section 9.3.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (the Senate speech is printed in the Congressional Record, a U.S. government publication, and the League's address was published in 1900). StudySprint quotes it as excerpted in OpenStax World History, Volume 2 (openstax.org/books/world-history-volume-2/pages/9-3-colonial-empires); no OpenStax commentary is copied."
+  },
+  {
+   "id": "wh6-c",
+   "title": "Source C: Dadabhai Naoroji, “The Benefits of British Rule,” 1871",
+   "text": [
+    "“Politically: Repeated breach of pledges to give the natives a fair and reasonable share in the higher administration of their own country, which has much shaken confidence in the good faith of the British word. . . . Financially: All attention is engrossed in devising new modes of taxation, without any adequate effort to increase the means of the people to pay . . . To sum up the whole, the British rule has been: morally, a great blessing; politically, peace and order on one hand, blunders on the other; materially, impoverishment, relieved as far as the railway and other loans go. The natives call the British system Sakar ki Churi, the knife of sugar. That is to say, there is no oppression, it is all smooth and sweet, but it is the knife, notwithstanding.”"
+   ],
+   "attribution": "Dadabhai Naoroji, Indian merchant, scholar, and later a founder of the Indian National Congress, writing in English for a British audience, 1871. Public domain. Wording follows the excerpt quoted in OpenStax World History, Volume 2, section 9.4.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (written in English in 1871). StudySprint quotes it as excerpted in OpenStax World History, Volume 2 (openstax.org/books/world-history-volume-2/pages/9-4-exploitation-and-resistance); no OpenStax commentary is copied."
+  },
+  {
+   "id": "wh6-d",
+   "title": "Source D: An interpretation of the global economy and migration, 1800–1900",
+   "text": [
+    "“Steamships, railroads, the telegraph, and the Suez Canal, opened in 1869, knit the world into a single market. Industrial countries bought cotton from Egypt and India, rubber from the Congo, and beef and wheat from Argentina, and sold manufactured goods in return. When China restricted the opium trade, Britain fought the Opium Wars and imposed treaties that opened Chinese ports. The same networks moved people. Irish families fled famine; Italians sailed to Buenos Aires and New York; Chinese and Indian laborers signed contracts of indenture to work for years on plantations and railroads in the Caribbean, Southeast Asia, and East Africa. Receiving societies often pushed back, as in the U.S. Chinese Exclusion Act of 1882.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "wh-u6-q01",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-empire",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Source A presents imperial rule as",
+   "choices": [
+    "a duty owed by the conquerors to the peoples they rule",
+    "a mistake that the conquerors should quickly undo by withdrawing",
+    "a partnership between equal peoples",
+    "a profitable business that requires no sacrifice"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Kipling calls empire a “burden” that requires the best sons to “serve your captives’ need”: the idea of a civilizing mission.",
+   "choiceExplanations": [
+    "",
+    "He urges readers to “Take up” the burden.",
+    "He describes the ruled as “captives,” not equals.",
+    "He stresses sacrifice (“exile,” “heavy harness”), not easy profit."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-a"
+  },
+  {
+   "id": "wh-u6-q02",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-empire",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The phrase “Half devil and half child” portrays colonized peoples as",
+   "choices": [
+    "skilled rulers who should be left to govern themselves",
+    "equal partners in trade with the West",
+    "a military threat that must be destroyed",
+    "uncivilized and in need of guidance"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The phrase depicts colonized peoples as both wicked and immature, a racist justification for rule.",
+   "choiceExplanations": [
+    "The poem denies their ability to govern.",
+    "The poem presents them as subordinate.",
+    "The poem calls for ruling, not destroying, them.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-a"
+  },
+  {
+   "id": "wh-u6-q03",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-empire",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The historical situation in which Source A was written is best described as",
+   "choices": [
+    "U.S. debate over ruling the Philippines after the war with Spain",
+    "the end of European empires after World War II",
+    "the Berlin Conference's division of East Asia among the European powers and Japan",
+    "Britain's loss of its American colonies"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Kipling wrote in 1899, as the United States debated ruling the Philippines after the Spanish–American War.",
+   "choiceExplanations": [
+    "",
+    "The poem was written decades before decolonization.",
+    "The Berlin Conference concerned Africa.",
+    "The American Revolution ended in 1783."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-a"
+  },
+  {
+   "id": "wh-u6-q04",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-resist",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which development most directly challenged the view of colonized peoples in Source A?",
+   "choices": [
+    "The opening of the Suez Canal in 1869",
+    "The rapid spread of Kipling's poems in British schools",
+    "Filipino armed resistance to U.S. rule after 1899",
+    "The British government's decision to send more troops to India"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Filipino independence fighters' long armed resistance contradicted the image of passive peoples waiting for guidance.",
+   "choiceExplanations": [
+    "The Suez Canal was a trade route.",
+    "The poem's popularity spread its view rather than challenging it.",
+    "",
+    "Sending troops reflects imperial power, not a challenge to the poem's view."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-a"
+  },
+  {
+   "id": "wh-u6-q05",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-economy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In Source 1, Beveridge's main economic reason for keeping the Philippines is",
+   "choices": [
+    "access to Chinese markets for American goods",
+    "a plan to grow sugar for European markets",
+    "cheap Filipino labor for American factories and farms",
+    "the gold mines of the Philippine islands"
+   ],
+   "correctAnswer": 0,
+   "explanation": "He calls China “our natural customer” and says the Philippines give a base near “China's illimitable markets.”",
+   "choiceExplanations": [
+    "",
+    "He looks to Asian, not European, markets.",
+    "He speaks of consumers, not laborers.",
+    "He does not mention gold."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-b"
+  },
+  {
+   "id": "wh-u6-q06",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-resist",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Source 2 opposes annexation chiefly on the grounds that",
+   "choices": [
+    "the Philippines are too far away to defend",
+    "ruling other peoples betrays liberty and invites oppression at home",
+    "the islands have no value for American trade",
+    "annexation would cost American workers their jobs and lower their wages"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The League calls imperialism “hostile to liberty” and warns that oppression abroad will return “within its borders.”",
+   "choiceExplanations": [
+    "Distance is not their argument.",
+    "",
+    "They make a moral and political, not commercial, argument.",
+    "Jobs are not mentioned."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-b"
+  },
+  {
+   "id": "wh-u6-q07",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-empire",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Source 1 best illustrates which development of the late nineteenth century?",
+   "choices": [
+    "Spain expanding its empire in the Pacific",
+    "The United States withdrawing from all foreign trade to protect its industries",
+    "The United States seeking overseas territory and markets",
+    "China colonizing islands in Southeast Asia"
+   ],
+   "correctAnswer": 2,
+   "explanation": "After 1898 the United States took the Philippines and looked to Asian markets, as European powers and Japan were expanding too.",
+   "choiceExplanations": [
+    "Spain lost the Philippines in 1898.",
+    "Beveridge calls for more trade, not withdrawal.",
+    "",
+    "China was the target of trade, not a colonizer here."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-b"
+  },
+  {
+   "id": "wh-u6-q08",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-resist",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The League's position as an African American organization in 1900 best explains why Source 2",
+   "choices": [
+    "argues that Filipinos are unfit to govern themselves",
+    "praises the federal government's policy in the American South",
+    "links oppression abroad to racial oppression at home",
+    "supports annexation as a duty of the white race"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The full address compares U.S. rule in the Philippines to white control of Black-majority areas of the South; the excerpt's warning about oppression “within its borders” reflects that experience.",
+   "choiceExplanations": [
+    "It insists that all peoples are entitled to liberty.",
+    "The League criticizes conditions in the South.",
+    "",
+    "It opposes the “White Man's burden” argument."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-b"
+  },
+  {
+   "id": "wh-u6-q09",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-resist",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Naoroji's main political complaint in Source C is that",
+   "choices": [
+    "Indians had too much influence over British laws",
+    "Indians were denied a fair share in governing their own country",
+    "the British had refused to build any railways or roads in India",
+    "British rule had brought no peace or order to India"
+   ],
+   "correctAnswer": 1,
+   "explanation": "He cites the “repeated breach of pledges to give the natives a fair and reasonable share in the higher administration.”",
+   "choiceExplanations": [
+    "His complaint is the reverse: too little voice.",
+    "",
+    "He mentions the railway as a partial relief.",
+    "He grants that British rule brought “peace and order.”"
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-c"
+  },
+  {
+   "id": "wh-u6-q10",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-economy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "When Naoroji describes British rule as “materially, impoverishment,” he means that",
+   "choices": [
+    "India was poor before the British arrived and stayed the same",
+    "Britain sent large amounts of money to India",
+    "British rule made India's farmers rich",
+    "British rule made India poorer"
+   ],
+   "correctAnswer": 3,
+   "explanation": "He judges British rule's material effect on India as impoverishment, the idea later called the “drain” of wealth.",
+   "choiceExplanations": [
+    "He blames British rule for the impoverishment.",
+    "He argues that wealth flowed out of India, not into it.",
+    "That is the opposite of his claim.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-c"
+  },
+  {
+   "id": "wh-u6-q11",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-resist",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The image of the “knife of sugar” suggests that British rule",
+   "choices": [
+    "brought only benefits to Indians",
+    "was openly violent and cruel at every turn",
+    "was about to end because Indians had grown rich",
+    "seemed gentle while still causing real harm"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Naoroji explains that “it is all smooth and sweet, but it is the knife, notwithstanding.”",
+   "choiceExplanations": [
+    "The image shows hidden harm.",
+    "He says “there is no oppression” on the surface; the harm is hidden.",
+    "Nothing suggests an end to British rule.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-c"
+  },
+  {
+   "id": "wh-u6-q12",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-resist",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Naoroji's tone and his statement that the British would “do justice” if they understood India suggest that, in 1871, his purpose was to",
+   "choices": [
+    "defend British rule against Indian critics",
+    "persuade the British to reform their rule, not end it",
+    "call for an immediate armed revolt against British rule",
+    "ask another European power to replace Britain"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Writing in English for a British audience, he balances praise and criticism and appeals to British “fair play,” which reflects early reformist nationalism.",
+   "choiceExplanations": [
+    "He criticizes British rule.",
+    "",
+    "He calls for no revolt.",
+    "He addresses Britain, not another power."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-c"
+  },
+  {
+   "id": "wh-u6-q13",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-economy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source D, indentured laborers were workers who",
+   "choices": [
+    "were enslaved for life with no contract",
+    "signed contracts to work for a set term",
+    "traveled only within their home countries",
+    "owned the plantations where they worked"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The source says laborers “signed contracts of indenture to work for years.”",
+   "choiceExplanations": [
+    "Indentured labor was contract labor, not lifelong slavery.",
+    "",
+    "They traveled overseas.",
+    "They worked on plantations; they did not own them."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-d"
+  },
+  {
+   "id": "wh-u6-q14",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-economy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Chinese Exclusion Act mentioned in Source D is an example of",
+   "choices": [
+    "an agreement to recruit more Chinese workers",
+    "a Chinese law banning emigration",
+    "a receiving society restricting immigration",
+    "a British law ending the opium trade"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The U.S. law barred most Chinese immigration, a reaction against migrants by a receiving society.",
+   "choiceExplanations": [
+    "It restricted, rather than recruited, Chinese workers.",
+    "It was a U.S. law.",
+    "",
+    "It had nothing to do with opium."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-d"
+  },
+  {
+   "id": "wh-u6-q15",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-economy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Opium Wars, as described in Source D, are an example of",
+   "choices": [
+    "economic imperialism: forcing a country open to trade",
+    "a successful Chinese effort to end all foreign trade",
+    "a migration caused by famine",
+    "China expanding its empire into Britain"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Britain fought to keep selling opium and imposed treaties that opened Chinese ports without making China a colony.",
+   "choiceExplanations": [
+    "",
+    "China was defeated and forced to open its ports.",
+    "The wars concerned trade, not famine.",
+    "China was the target of British pressure."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-d"
+  },
+  {
+   "id": "wh-u6-q16",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "topicId": "wh6-empire",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which development described in Source D did the most to make both imperial expansion and global trade possible?",
+   "choices": [
+    "The Chinese Exclusion Act of 1882",
+    "The migration of Italians to Buenos Aires",
+    "The decline of demand for raw materials in the industrial countries",
+    "New technologies such as steamships, railroads, and the telegraph"
+   ],
+   "correctAnswer": 3,
+   "explanation": "These technologies connected markets and made it easier to move goods, troops, and orders over long distances.",
+   "choiceExplanations": [
+    "The act restricted migration; it did not enable trade.",
+    "Migration was a result of these connections.",
+    "Demand for raw materials rose.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh6-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-wh-u6-os1",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "title": "OpenStax World History, Volume 2: from 1400, 9.2 Motives and Means of Imperialism",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/9-2-motives-and-means-of-imperialism",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on the motives and means of imperialism. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/9-2-motives-and-means-of-imperialism",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  },
+  {
+   "id": "res-wh-u6-os2",
+   "courseId": "ap-world-history",
+   "unitId": "u6",
+   "title": "OpenStax World History, Volume 2: from 1400, 9.4 Exploitation and Resistance",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/9-4-exploitation-and-resistance",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on exploitation and resistance in colonial empires. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/9-4-exploitation-and-resistance",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP World History: Modern short-answer, document-based, and long-essay questions often span several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "wh-u6-q01",
+    "wh-u6-q02",
+    "wh-u6-q03",
+    "wh-u6-q04",
+    "wh-u6-q05",
+    "wh-u6-q06",
+    "wh-u6-q07",
+    "wh-u6-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "wh-u6-q09",
+    "wh-u6-q10",
+    "wh-u6-q11",
+    "wh-u6-q12",
+    "wh-u6-q13",
+    "wh-u6-q14",
+    "wh-u6-q15",
+    "wh-u6-q16"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,705 @@
+{
+ "courseId": "ap-world-history",
+ "unitId": "u4",
+ "title": "Unit 4: Transoceanic Interconnections",
+ "topics": [
+  {
+   "id": "wh4-explore",
+   "name": "Technology, exploration, and maritime empires",
+   "covers": [
+    "The influence of scientific learning and technological innovation",
+    "Development and expansion of maritime empires"
+   ],
+   "frameworkCovers": [
+    "4.1 Technological Innovations from 1450 to 1750",
+    "4.2 Exploration: Causes and Events from 1450 to 1750",
+    "4.4 Maritime Empires Established",
+    "4.5 Maritime Empires Maintained and Developed"
+   ]
+  },
+  {
+   "id": "wh4-exchange",
+   "name": "The Columbian Exchange",
+   "covers": [
+    "The Columbian Exchange"
+   ],
+   "frameworkCovers": [
+    "4.3 Columbian Exchange"
+   ]
+  },
+  {
+   "id": "wh4-society",
+   "name": "Challenges to state power and changing social hierarchies",
+   "covers": [
+    "Internal and external challenges to state power",
+    "Changes to social hierarchies linked to the spread of empires"
+   ],
+   "frameworkCovers": [
+    "4.6 Internal and External Challenges to State Power from 1450 to 1750",
+    "4.7 Changing Social Hierarchies from 1450 to 1750",
+    "4.8 Continuity and Change from 1450 to 1750"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 4: Transoceanic Interconnections: review guide",
+  "intro": "After 1450, new ships and navigation tools let Europeans cross oceans, building maritime empires and linking the Eastern and Western Hemispheres for the first time. This unit covers exploration, the Columbian Exchange, how maritime empires were built and run, and the resistance and new social hierarchies that followed.",
+  "sections": [
+   {
+    "id": "s-wh4-explore",
+    "topicId": "wh4-explore",
+    "title": "Technology, exploration, and maritime empires",
+    "body": [
+     "Europeans adapted older technologies (the magnetic compass, the astrolabe, and the lateen sail) and built ships such as the caravel. Portugal explored the West African coast and reached India in 1498; Spain sponsored Columbus in 1492. Motives included gold, trade with Asia, rivalry among states, and spreading Christianity.",
+     "Portugal built a trading-post empire of fortified ports (Elmina, Goa, Malacca), while Spain conquered large land empires in the Americas. Joint-stock companies such as the Dutch East India Company spread risk among investors, and mercantilist governments tried to export more than they imported."
+    ],
+    "points": [
+     "Separate motives (why) from means (how) in exploration questions.",
+     "Maritime empires used both armed force and trade agreements with local rulers."
+    ]
+   },
+   {
+    "id": "s-wh4-exchange",
+    "topicId": "wh4-exchange",
+    "title": "The Columbian Exchange",
+    "body": [
+     "The Columbian Exchange moved plants, animals, people, and diseases between the hemispheres. Smallpox and other diseases killed a large share of Indigenous Americans. Horses, cattle, pigs, wheat, and sugar came to the Americas; maize, potatoes, and cassava went to Afro-Eurasia, where they supported population growth.",
+     "Sugar plantations in Brazil and the Caribbean demanded enormous labor, which drove the growth of the Atlantic slave trade. Silver mined at Potosí flowed to Europe and on to China, which demanded silver for taxes and trade."
+    ],
+    "points": [
+     "Name the direction of each exchange.",
+     "Link the exchange to demographic change on both sides of the Atlantic."
+    ]
+   },
+   {
+    "id": "s-wh4-society",
+    "topicId": "wh4-society",
+    "title": "Resistance and social hierarchies",
+    "body": [
+     "Expansion met resistance: the Pueblo Revolt (1680) drove the Spanish from New Mexico for a time, Queen Nzinga of Ndongo and Matamba resisted the Portuguese, and the Marathas challenged Mughal rule. Rulers also faced internal rivals and revolts.",
+     "New hierarchies formed. In Spanish America the casta system ranked people by ancestry, with peninsulares (people born in Spain) at the top, then creoles, mestizos, and mulattoes, and Indigenous and enslaved Africans at the bottom. Labor systems included the encomienda, the mit'a adapted for silver mines, and chattel slavery."
+    ],
+    "points": [
+     "Continuity and change: many older labor systems were adapted rather than replaced.",
+     "Ask whose perspective a source on encounters represents."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain one way the Columbian Exchange affected population in Afro-Eurasia.",
+   "solution": "American crops such as maize and potatoes produced many calories and grew in poor soils, so they increased food supplies and supported population growth in regions such as China and Europe."
+  },
+  "misconceptions": [
+   [
+    "“Europeans invented the compass and astrolabe.”",
+    "They adopted and adapted technologies developed in China and the Islamic world."
+   ],
+   [
+    "“The Columbian Exchange was only harmful.”",
+    "It devastated Indigenous Americans, but new crops also fed growing populations elsewhere."
+   ],
+   [
+    "“Maritime empires ruled large territories everywhere.”",
+    "In Asia and Africa, Europeans usually held only fortified coastal posts."
+   ],
+   [
+    "“Slavery in Africa and in the Americas were the same.”",
+    "Many African systems differed from the hereditary, race-based chattel slavery of the Americas."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP World History: Modern Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+  "sourceTitle": "AP World History: Modern – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "wh4-a",
+   "title": "Source A: Christopher Columbus, journal of his first voyage, 1492",
+   "text": [
+    "Entry headed October 11: “All I saw were youths, none more than thirty years of age. . . . They neither carry nor know anything of arms, for I showed them swords, and they took them by the blade and cut themselves through ignorance. . . . They should be good servants and intelligent, for I observed that they quickly took in what was said to them, and I believe that they would easily be made Christians, as it appeared to me that they had no religion.”",
+    "Entry headed October 14: “These people are very simple as regards the use of arms, as your Highnesses will see from the seven that I caused to be taken, to bring home and learn our language and return; unless your Highnesses should order them all to be brought to Castile, or to be kept as captives on the same island; for with fifty men they can all be subjugated and made to do what is required of them.”"
+   ],
+   "attribution": "Christopher Columbus, journal of his first voyage, written for the Spanish monarchs, October 1492, in the English translation by Clements R. Markham. Public domain. Wording follows the excerpt quoted in OpenStax World History, Volume 2, section 6.1.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (Columbus's journal dates from 1492, and Clements R. Markham's English translation was published in 1893). StudySprint quotes it as excerpted in OpenStax World History, Volume 2 (openstax.org/books/world-history-volume-2/pages/6-1-european-colonization-in-the-americas); no OpenStax commentary is copied."
+  },
+  {
+   "id": "wh4-b",
+   "title": "Source B: Olaudah Equiano, The Interesting Narrative, 1789",
+   "text": [
+    "“They generally bring us fire-arms, gunpowder, hats, beads, and dried fish . . . . These articles they barter with us for odoriferous woods and earth, and our salt of wood-ashes. They always carry slaves through our land but the strictest account is exacted of their manner of procuring them before they are suffered to pass. Sometimes indeed we sold slaves to them but they were only prisoners of war, or such among us as had been convicted of kidnapping, or adultery, and some other crimes which we esteemed heinous . . . . Those prisoners which were not sold or redeemed we kept as slaves but how different was their condition from that of the slaves in the West Indies! With us they do no more work than other members of the community, even their master.”"
+   ],
+   "attribution": "Olaudah Equiano, a formerly enslaved man who became an abolitionist in London, describing the West African society of his childhood in his autobiography, published in 1789. Public domain. Wording follows the excerpt quoted in OpenStax World History, Volume 2, section 3.4.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (written in English and published in 1789). StudySprint quotes it as excerpted in OpenStax World History, Volume 2 (openstax.org/books/world-history-volume-2/pages/3-4-the-trans-saharan-slave-trade); no OpenStax commentary is copied."
+  },
+  {
+   "id": "wh4-c",
+   "title": "Source C: An interpretation of the Columbian Exchange",
+   "text": [
+    "“The voyages of 1492 began an exchange between hemispheres that had been separated for thousands of years. Smallpox, measles, and influenza, to which Indigenous Americans had no immunity, spread ahead of European armies and killed a large share of the population, by many estimates most of it within a century. Europeans brought horses, cattle, pigs, wheat, and sugarcane. In return, maize, potatoes, and cassava spread across Africa, Europe, and Asia, where they fed growing populations. Silver from the mountain of Potosí in the Andes flowed to Spain and onward to China, where the Ming government required taxes in silver. Meanwhile sugar plantations in Brazil and the Caribbean devoured labor at a terrible rate.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh4-d",
+   "title": "Source D: An interpretation of maritime empires and their challengers",
+   "text": [
+    "“Portuguese ships using the lateen sail, the astrolabe, and improved maps reached India in 1498. Rather than conquer large territories in Asia, Portugal seized fortified ports such as Goa and Malacca and tried to force merchants to buy passes; yet most Indian Ocean trade remained in Asian hands. Later, the Dutch East India Company, a joint-stock company, raised money from many investors to fund fleets and forts. European expansion did not go unchallenged. Queen Nzinga of Ndongo fought the Portuguese in Angola for decades, and in 1680 the Pueblo peoples drove the Spanish out of New Mexico for twelve years. In Spanish America, a hierarchy of castas ranked people by ancestry, with Spanish-born peninsulares at the top.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "wh-u4-q01",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-explore",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Columbus's observations in Source A most clearly show his interest in",
+   "choices": [
+    "learning the religious beliefs and customs of the people he met",
+    "finding a sea route back to Castile",
+    "whether the people could be converted and controlled",
+    "trading European weapons for local goods"
+   ],
+   "correctAnswer": 2,
+   "explanation": "He notes that they “would easily be made Christians” and could be “subjugated,” linking religion and conquest.",
+   "choiceExplanations": [
+    "He claims they “had no religion” and shows no interest in learning their beliefs.",
+    "The entries describe the people, not navigation home.",
+    "",
+    "He shows them swords; he is not trading weapons."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-a"
+  },
+  {
+   "id": "wh-u4-q02",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-society",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The October 14 entry suggests that Columbus viewed the people he encountered as",
+   "choices": [
+    "people who could be captured and made to labor",
+    "a powerful military threat to Spain",
+    "equals who should be left in peace",
+    "skilled traders with whom Spain should form an alliance"
+   ],
+   "correctAnswer": 0,
+   "explanation": "He has already taken seven captives and says that with fifty men “they can all be subjugated and made to do what is required of them.”",
+   "choiceExplanations": [
+    "",
+    "He stresses that they are “very simple as regards the use of arms.”",
+    "He proposes capture, not peace.",
+    "He describes subjugation, not alliance."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-a"
+  },
+  {
+   "id": "wh-u4-q03",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-explore",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Columbus wrote his journal for the Spanish monarchs (“your Highnesses”). This audience most likely led him to",
+   "choices": [
+    "criticize Spain's plans for colonization",
+    "describe the people only in neutral, scientific terms, without judging their usefulness",
+    "hide the fact that he had taken any captives",
+    "stress opportunities that would win royal support for more voyages"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Writing to his royal sponsors, he emphasizes easy conversion, useful servants, and easy conquest, which are reasons to fund more expeditions.",
+   "choiceExplanations": [
+    "He proposes colonization rather than criticizing it.",
+    "His descriptions are judgments about usefulness, not neutral observations.",
+    "He openly reports taking seven captives.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-a"
+  },
+  {
+   "id": "wh-u4-q04",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-exchange",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which later development is most directly connected to the attitudes in Source A?",
+   "choices": [
+    "The Taíno conquest of Castile",
+    "The end of Spanish interest in the Caribbean after 1492",
+    "Spanish forced-labor systems that, with epidemic disease, devastated Native populations",
+    "A Spanish ban on the conversion of Indigenous peoples to Christianity in its new American colonies"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Columbus's view of the people as servants to be subjugated anticipated forced labor systems such as the encomienda, which, along with smallpox and other diseases, caused catastrophic population loss.",
+   "choiceExplanations": [
+    "The Taíno did not conquer Spain.",
+    "Spanish colonization of the Caribbean expanded after 1492.",
+    "",
+    "Spain actively promoted conversion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-a"
+  },
+  {
+   "id": "wh-u4-q05",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-society",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source B, slavery in Equiano's homeland was limited mainly to",
+   "choices": [
+    "prisoners of war and people convicted of serious crimes",
+    "anyone who could not pay the community's taxes",
+    "traders from the southwest who brought firearms",
+    "people born to enslaved parents and brought back from the West Indies"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Equiano says the only people sold were “prisoners of war, or such among us as had been convicted of kidnapping, or adultery, and some other crimes.”",
+   "choiceExplanations": [
+    "",
+    "He does not mention taxes.",
+    "The traders brought goods; they were not enslaved.",
+    "He contrasts his society with the West Indies."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-b"
+  },
+  {
+   "id": "wh-u4-q06",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-explore",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The goods the traders bring in Source B, including “fire-arms” and “gunpowder,” best show that",
+   "choices": [
+    "trade in the region had stopped by the eighteenth century",
+    "European goods had entered West African trade networks",
+    "West Africans manufactured firearms for export to Europe",
+    "traders refused to exchange goods for local products"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Firearms and gunpowder came through Atlantic trade with Europeans and were traded inland for local goods.",
+   "choiceExplanations": [
+    "The source describes active trade.",
+    "",
+    "The traders bring the firearms to Equiano's community.",
+    "They barter the goods for woods, earth, and salt."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-b"
+  },
+  {
+   "id": "wh-u4-q07",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-society",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Equiano contrasts slavery in his homeland with slavery in the West Indies mainly in order to",
+   "choices": [
+    "show that the two systems were identical",
+    "praise the traders who carried slaves through his land toward the coast",
+    "emphasize the far harsher conditions of slavery in the Caribbean",
+    "argue that slavery should be expanded in Africa"
+   ],
+   "correctAnswer": 2,
+   "explanation": "His exclamation, “how different was their condition from that of the slaves in the West Indies!”, points to the brutality of Caribbean plantation slavery.",
+   "choiceExplanations": [
+    "He stresses the difference between the systems.",
+    "He describes the traders with caution, not praise.",
+    "",
+    "He criticizes slavery; he does not call for its expansion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-b"
+  },
+  {
+   "id": "wh-u4-q08",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-society",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which aspect of Source B's sourcing should a historian consider most carefully when using it as evidence about West African slavery?",
+   "choices": [
+    "As an abolitionist, Equiano may have stressed the mildness of African slavery to sharpen his case.",
+    "Equiano was a trader in firearms and wished to promote his business.",
+    "Equiano never lived in Africa, so his account is entirely secondhand.",
+    "Equiano wrote for a West African audience who already knew these facts, so he left out the important details."
+   ],
+   "correctAnswer": 0,
+   "explanation": "Writing in London in 1789 to support abolition, and recalling his childhood, Equiano had reasons to draw a sharp contrast; this purpose may limit the source.",
+   "choiceExplanations": [
+    "",
+    "He was not a firearms trader; he was formerly enslaved.",
+    "He describes his own childhood in Africa.",
+    "He wrote in English for British readers."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-b"
+  },
+  {
+   "id": "wh-u4-q09",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-exchange",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, the main cause of the sharp decline in Indigenous American populations was",
+   "choices": [
+    "a long series of droughts across the Americas",
+    "diseases such as smallpox, to which there was no immunity",
+    "the arrival of potatoes and maize from Europe",
+    "the movement of large numbers of Indigenous Americans to Afro-Eurasia"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The source says smallpox, measles, and influenza “killed a large share of the population.”",
+   "choiceExplanations": [
+    "Droughts are not mentioned.",
+    "",
+    "Potatoes and maize came from the Americas, not Europe.",
+    "Few Indigenous Americans traveled to Afro-Eurasia."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-c"
+  },
+  {
+   "id": "wh-u4-q10",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-exchange",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Source C says that American crops such as maize and potatoes",
+   "choices": [
+    "caused famines across Afro-Eurasia",
+    "fed growing populations across Afro-Eurasia",
+    "were grown only in the Americas",
+    "were banned by European governments as unsafe to eat"
+   ],
+   "correctAnswer": 1,
+   "explanation": "These crops spread across the Eastern Hemisphere and supported population growth.",
+   "choiceExplanations": [
+    "They increased food supplies.",
+    "",
+    "The source says they spread widely.",
+    "No ban is mentioned."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-c"
+  },
+  {
+   "id": "wh-u4-q11",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-explore",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The flow of Potosí silver described in Source C best illustrates",
+   "choices": [
+    "how China sent silver to the Americas to buy sugar",
+    "the decline of trade between Europe and Asia after 1500, once the Americas offered new markets",
+    "the end of Spain's control over the Andes",
+    "how American silver linked Spain's empire to trade with China"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Silver mined in the Andes went to Spain and then to China, whose demand for silver connected the Americas to Asian markets.",
+   "choiceExplanations": [
+    "Silver flowed to China, not from it.",
+    "The silver trade increased exchange.",
+    "Spain controlled Potosí during this period.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-c"
+  },
+  {
+   "id": "wh-u4-q12",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-society",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The statement that sugar plantations “devoured labor at a terrible rate” helps explain which development?",
+   "choices": [
+    "A decline in the European demand for sugar",
+    "The replacement of slavery with wage labor on the plantations of Brazil and the Caribbean",
+    "The growth of the Atlantic slave trade and race-based slavery",
+    "The end of sugar production in the Caribbean"
+   ],
+   "correctAnswer": 2,
+   "explanation": "High death rates on plantations created constant demand for enslaved Africans, and race-based chattel slavery became central to American colonies.",
+   "choiceExplanations": [
+    "European demand for sugar rose.",
+    "Slavery grew on plantations in this period.",
+    "",
+    "Production expanded."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-c"
+  },
+  {
+   "id": "wh-u4-q13",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-explore",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source D, the Dutch East India Company raised money for its fleets and forts by",
+   "choices": [
+    "taxing Portuguese ships in Goa and Malacca",
+    "borrowing silver from the Ming government",
+    "collecting tribute from the Pueblo peoples",
+    "selling shares to many investors"
+   ],
+   "correctAnswer": 3,
+   "explanation": "A joint-stock company raised money from many investors, spreading the risk.",
+   "choiceExplanations": [
+    "Goa and Malacca were Portuguese ports.",
+    "No Ming loan is mentioned.",
+    "The Pueblo peoples fought the Spanish in New Mexico.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-d"
+  },
+  {
+   "id": "wh-u4-q14",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-society",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Queen Nzinga's war and the Pueblo Revolt, as described in Source D, are both examples of",
+   "choices": [
+    "conflicts between rival European empires",
+    "uprisings by Spanish-born peninsulares",
+    "alliances between Europeans and local rulers",
+    "resistance to European expansion"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Both fought European powers that were expanding into their lands.",
+   "choiceExplanations": [
+    "Each fought a single European power.",
+    "Peninsulares were the ruling elite, not rebels here.",
+    "Both fought against Europeans.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-d"
+  },
+  {
+   "id": "wh-u4-q15",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-society",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The casta hierarchy described in Source D ranked people in Spanish America mainly by",
+   "choices": [
+    "skill in navigation",
+    "ancestry and place of birth",
+    "wealth earned in trade and mining",
+    "religious belief alone"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Peninsulares (born in Spain) stood at the top, followed by groups ranked by mixed or non-European ancestry.",
+   "choiceExplanations": [
+    "Navigation skill had nothing to do with it.",
+    "",
+    "Wealth mattered, but the system was based on ancestry.",
+    "Most people in the system were Catholic."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-d"
+  },
+  {
+   "id": "wh-u4-q16",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "topicId": "wh4-society",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which statement best describes continuity and change in Indian Ocean trade between 1450 and 1750, according to Source D?",
+   "choices": [
+    "Europeans used armed ships and forts to enter it, but Asian merchants kept most of it.",
+    "Europeans ended all Asian participation in the trade.",
+    "Indian Ocean trade disappeared once the Americas were reached.",
+    "The trade was entirely unchanged, because no European ships reached the Indian Ocean in this period."
+   ],
+   "correctAnswer": 0,
+   "explanation": "Portugal's forts and passes were a change, but “most Indian Ocean trade remained in Asian hands,” which is a continuity.",
+   "choiceExplanations": [
+    "",
+    "The source says Asian merchants kept most of the trade.",
+    "The trade continued and grew.",
+    "Portuguese ships reached India in 1498."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh4-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-wh-u4-os1",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "title": "OpenStax World History, Volume 2: from 1400, 5.2 Crossing the Atlantic",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/5-2-crossing-the-atlantic",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on European voyages across the Atlantic. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/5-2-crossing-the-atlantic",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  },
+  {
+   "id": "res-wh-u4-os2",
+   "courseId": "ap-world-history",
+   "unitId": "u4",
+   "title": "OpenStax World History, Volume 2: from 1400, 6.1 European Colonization in the Americas",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/6-1-european-colonization-in-the-americas",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on European colonization of the Americas. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/6-1-european-colonization-in-the-americas",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP World History: Modern short-answer, document-based, and long-essay questions often span several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "wh-u4-q01",
+    "wh-u4-q02",
+    "wh-u4-q03",
+    "wh-u4-q04",
+    "wh-u4-q05",
+    "wh-u4-q06",
+    "wh-u4-q07",
+    "wh-u4-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "wh-u4-q09",
+    "wh-u4-q10",
+    "wh-u4-q11",
+    "wh-u4-q12",
+    "wh-u4-q13",
+    "wh-u4-q14",
+    "wh-u4-q15",
+    "wh-u4-q16"
+   ]
+  }
+ ]
+}

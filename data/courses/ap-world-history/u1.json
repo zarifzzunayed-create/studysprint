@@ -1,0 +1,705 @@
+{
+ "courseId": "ap-world-history",
+ "unitId": "u1",
+ "title": "Unit 1: The Global Tapestry",
+ "topics": [
+  {
+   "id": "wh1-asia",
+   "name": "East Asia, Dar al-Islam, and belief systems",
+   "covers": [
+    "States in: East Asia",
+    "States in: Afro-Eurasia",
+    "Global and regional religions and belief systems"
+   ],
+   "frameworkCovers": [
+    "1.1 Developments in East Asia from c. 1200 to c. 1450",
+    "1.2 Developments in Dar al-Islam from c. 1200 to c. 1450"
+   ]
+  },
+  {
+   "id": "wh1-south",
+   "name": "South and Southeast Asia, the Americas, and Africa",
+   "covers": [
+    "States in: South and Southeast Asia",
+    "States in: The Americas",
+    "States in: Africa"
+   ],
+   "frameworkCovers": [
+    "1.3 Developments in South and Southeast Asia from c. 1200 to c. 1450",
+    "1.4 State Building in the Americas",
+    "1.5 State Building in Africa"
+   ]
+  },
+  {
+   "id": "wh1-europe",
+   "name": "Europe and comparing states",
+   "covers": [
+    "States in: Europe"
+   ],
+   "frameworkCovers": [
+    "1.6 Developments in Europe from c. 1200 to c. 1450",
+    "1.7 Comparison in the Period from c. 1200 to c. 1450"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 1: The Global Tapestry: review guide",
+  "intro": "Between about 1200 and 1450, states in every region drew on older traditions to govern, tax, and justify their power. This unit surveys East Asia, Dar al-Islam, South and Southeast Asia, the Americas, Africa, and Europe, and practices comparing how states were built and held together.",
+  "sections": [
+   {
+    "id": "s-wh1-asia",
+    "topicId": "wh1-asia",
+    "title": "East Asia and Dar al-Islam",
+    "body": [
+     "Song China (960–1279) governed through a large bureaucracy staffed by officials who passed civil service examinations on Confucian texts. Neo-Confucianism blended Confucian ethics with Buddhist and Daoist ideas and reinforced family and gender hierarchies. Fast-ripening Champa rice, the Grand Canal, and paper money supported population growth and commercial expansion.",
+     "In Dar al-Islam, the Abbasid caliphate weakened and new Turkic Muslim states (the Seljuks, the Mamluks of Egypt, and the Delhi Sultanate) took power. Islam spread through merchants and Sufi teachers as well as conquest, and scholars preserved and extended Greek, Persian, and Indian learning in mathematics, astronomy, and medicine."
+    ],
+    "points": [
+     "Belief systems (Confucianism, Buddhism, Islam, Christianity) shaped how rulers justified authority.",
+     "Tie each state to how it recruited officials and raised revenue."
+    ]
+   },
+   {
+    "id": "s-wh1-south",
+    "topicId": "wh1-south",
+    "title": "South and Southeast Asia, the Americas, and Africa",
+    "body": [
+     "In South Asia the Delhi Sultanate ruled a largely Hindu population, while Hindu kingdoms such as Vijayanagara persisted in the south; Hinduism and Buddhism shaped Southeast Asian states such as the Khmer Empire. Sea-based states such as Srivijaya grew rich by controlling trade straits.",
+     "In the Americas, the Mexica (Aztec) state collected tribute from conquered city-states, and the Inca governed through a road network and the mit'a, a system of required labor for the state. In Africa, Mali grew wealthy from trans-Saharan trade in gold and salt; Great Zimbabwe traded with the Swahili coast; and Christian Ethiopia built rock-cut churches at Lalibela."
+    ],
+    "points": [
+     "Tribute, labor obligations, and trade taxes were different ways of funding a state.",
+     "Many African and Asian rulers adopted Islam while keeping local traditions."
+    ]
+   },
+   {
+    "id": "s-wh1-europe",
+    "topicId": "wh1-europe",
+    "title": "Europe and comparing states",
+    "body": [
+     "Europe was politically decentralized. Under feudalism, lords exchanged land for military service, and under manorialism serfs worked a lord's land in return for protection. The Roman Catholic Church gave a shared religious framework across many small states, while monarchs in England and France gradually strengthened royal power.",
+     "Comparison questions ask for similarities and differences. For example, Song China's examination-based bureaucracy was more centralized than Europe's feudal arrangements, while Mali and the Inca both built large states by controlling key resources (trade goods or labor)."
+    ],
+    "points": [
+     "A good comparison names a specific similarity or difference and explains it.",
+     "The Black Death (1347–1351) caused labor shortages that weakened serfdom in western Europe."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Compare how the Inca state and Song China obtained the labor and revenue they needed.",
+   "solution": "The Inca required households to provide labor service (mit'a) on roads, farms, and armies, while Song China relied on taxes collected by an examination-trained bureaucracy and on a growing commercial economy. Both were centralized, but the Inca drew directly on labor and the Song on taxes and trade."
+  },
+  "misconceptions": [
+   [
+    "“Islam spread only by conquest.”",
+    "Merchants, Sufi teachers, and scholars spread Islam widely through trade and teaching."
+   ],
+   [
+    "“Feudal Europe had strong central governments.”",
+    "Power was divided among lords; monarchies centralized only gradually."
+   ],
+   [
+    "“The Aztec and Inca states governed in the same way.”",
+    "The Mexica relied on tribute from conquered peoples; the Inca on labor service and roads."
+   ],
+   [
+    "“Civil service exams meant anyone could easily become an official.”",
+    "Exams opened some mobility, but preparing for them required wealth and years of study."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP World History: Modern Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+  "sourceTitle": "AP World History: Modern – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "wh1-a",
+   "title": "Source A: An interpretation of Song China, 960–1279",
+   "text": [
+    "“The Song dynasty ruled through scholar-officials rather than hereditary nobles. Men who passed demanding civil service examinations on the Confucian classics staffed a bureaucracy that reached down to the counties. Neo-Confucian thinkers taught that a stable society depended on proper relationships: subjects to rulers, children to parents, wives to husbands. Elite families increasingly bound the feet of their daughters, a practice that limited women's mobility. Meanwhile the economy boomed. Champa rice, a fast-ripening variety brought from Vietnam, allowed two harvests a year in some regions, and the population grew rapidly. The Grand Canal carried grain north, and the state issued paper money to keep up with trade.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh1-b",
+   "title": "Source B: An interpretation of Dar al-Islam, c. 1200–1450",
+   "text": [
+    "“By 1200 the Abbasid caliphs in Baghdad held little real power, and the Mongols destroyed the city in 1258. Yet Islamic societies did not collapse. Turkic Muslim rulers, among them the Seljuks, the Mamluks of Egypt, and the sultans of Delhi, built new states and often defended Sunni Islam. Islam continued to spread, carried less by armies than by merchants and Sufi teachers who adapted their message to local customs. In cities from Cairo to Samarkand, scholars translated and preserved Greek, Persian, and Indian works and added to them. Nasir al-Din al-Tusi's observatory produced astronomical tables used for centuries.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh1-c",
+   "title": "Source C: An interpretation of states in the Americas and Africa",
+   "text": [
+    "“In the Valley of Mexico, the Mexica built their capital, Tenochtitlan, on an island in a lake and demanded tribute in food, cloth, and captives from the city-states they conquered. Farther south, the Inca governed millions in the Andes. Rather than tribute in goods, the Inca required the mit'a, a set period of labor service on roads, terraces, and in the army, and they connected the empire with thousands of miles of roads. In West Africa, the empire of Mali grew rich by taxing the trans-Saharan trade in gold and salt. When Mansa Musa traveled to Mecca in 1324, the gold he spent in Cairo was remembered for years.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh1-d",
+   "title": "Source D: An interpretation of Europe, c. 1200–1450",
+   "text": [
+    "“Western Europe in 1200 was a patchwork of kingdoms, duchies, and city-states. Lords granted land to vassals in exchange for military service, and on manors serfs farmed the lord's fields in return for protection and the right to work their own plots. What held this divided world together was the Roman Catholic Church, whose bishops, monasteries, and courts reached into every region. Kings in England and France slowly built stronger royal governments. Then, from 1347 to 1351, the Black Death killed perhaps a third of Europe's people. Surviving peasants found that their labor was suddenly scarce, and many demanded better terms.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "wh-u1-q01",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-asia",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source A, the Song state chose most of its officials through",
+   "choices": [
+    "civil service examinations on Confucian texts",
+    "elections held in each county",
+    "inheritance of office within the great noble families",
+    "sale of offices to wealthy merchants"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The source says “men who passed demanding civil service examinations on the Confucian classics staffed a bureaucracy.”",
+   "choiceExplanations": [
+    "",
+    "Song China did not elect officials.",
+    "The source contrasts scholar-officials with hereditary nobles.",
+    "The source describes examinations, not the sale of office."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-a"
+  },
+  {
+   "id": "wh-u1-q02",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-asia",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Source A suggests that Champa rice contributed most directly to",
+   "choices": [
+    "the end of paper money",
+    "rapid population growth",
+    "the decline of the Grand Canal",
+    "the spread of foot-binding"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A fast-ripening rice allowed two harvests a year in some areas, so more food supported a growing population.",
+   "choiceExplanations": [
+    "The source says the state issued paper money to keep up with trade.",
+    "",
+    "The Grand Canal carried grain north; the rice increased supply.",
+    "Foot-binding was a social practice unrelated to rice."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-a"
+  },
+  {
+   "id": "wh-u1-q03",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-asia",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The source's description of Neo-Confucianism best supports which conclusion?",
+   "choices": [
+    "It rejected the idea that rulers deserved obedience.",
+    "It replaced the examination system with offices inherited within the leading families.",
+    "It encouraged women to take civil service examinations.",
+    "It reinforced hierarchical relationships, including women's subordination to men."
+   ],
+   "correctAnswer": 3,
+   "explanation": "Neo-Confucian thought stressed proper hierarchy (subjects to rulers, wives to husbands), and the source links this to restrictive practices such as foot-binding.",
+   "choiceExplanations": [
+    "It taught obedience to rulers.",
+    "The examinations continued under the Song.",
+    "Women could not take the examinations.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-a"
+  },
+  {
+   "id": "wh-u1-q04",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-europe",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Compared with states in western Europe in the same period, the Song state described in Source A was distinctive mainly in its",
+   "choices": [
+    "centralized bureaucracy of officials selected by examination",
+    "reliance on a single universal church to unite many separate kingdoms",
+    "use of serfs bound to manors",
+    "lack of any commercial economy"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Song China was governed by an examination-trained bureaucracy, while western Europe was decentralized, with power divided among lords and the Church as a unifying institution.",
+   "choiceExplanations": [
+    "",
+    "The Catholic Church played that role in Europe, not in Song China.",
+    "Manorial serfdom describes Europe, not Song China.",
+    "The Song economy was highly commercial."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-a"
+  },
+  {
+   "id": "wh-u1-q05",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-asia",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source B, after the Abbasid caliphs lost power, political authority in Dar al-Islam",
+   "choices": [
+    "returned to the Byzantine emperors",
+    "came under Song Chinese control",
+    "passed to new Turkic Muslim states",
+    "was taken over by European crusaders"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The source names the Seljuks, the Mamluks, and the sultans of Delhi as new Turkic Muslim rulers.",
+   "choiceExplanations": [
+    "The Byzantines did not regain these lands.",
+    "Song China never ruled Dar al-Islam.",
+    "",
+    "The crusader states were small and short-lived."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-b"
+  },
+  {
+   "id": "wh-u1-q06",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-asia",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which development described in Source B best shows Islam spreading through cultural rather than military means?",
+   "choices": [
+    "The Mongol destruction of Baghdad and its great libraries in 1258",
+    "Merchants and Sufi teachers adapting the faith to local customs",
+    "Turkic rulers defending Sunni Islam",
+    "The weakening of the Abbasid caliphs"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The source says Islam was carried “less by armies than by merchants and Sufi teachers.”",
+   "choiceExplanations": [
+    "The Mongol attack was military and was not a spread of Islam.",
+    "",
+    "Defending Sunni Islam describes politics, not peaceful spread.",
+    "The caliphs' decline is a political change, not a means of spread."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-b"
+  },
+  {
+   "id": "wh-u1-q07",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-south",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The sultans of Delhi mentioned in Source B are an example of",
+   "choices": [
+    "Muslim rulers governing a largely Hindu population in South Asia",
+    "Christian rulers in East Africa",
+    "Buddhist kings ruling over the wealthy trading states of Southeast Asia",
+    "Mongol khans ruling in China"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The Delhi Sultanate was a Muslim state in northern India, where most subjects were Hindu.",
+   "choiceExplanations": [
+    "",
+    "Christian Ethiopia is a different state.",
+    "The Delhi sultans were Muslim, not Buddhist.",
+    "They ruled in India, not China."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-b"
+  },
+  {
+   "id": "wh-u1-q08",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-asia",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The scholarly work described at the end of Source B was most directly made possible by",
+   "choices": [
+    "the end of trade between Dar al-Islam and other regions after the Mongol invasions",
+    "the rejection of all non-Islamic knowledge",
+    "the translation and preservation of earlier Greek, Persian, and Indian learning",
+    "the closing of cities after the Mongol conquest"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The source says scholars “translated and preserved Greek, Persian, and Indian works and added to them”; Islamic scholarship built on this inherited learning.",
+   "choiceExplanations": [
+    "Trade continued and helped move ideas.",
+    "They drew on non-Islamic learning rather than rejecting it.",
+    "",
+    "Scholars worked in cities from Cairo to Samarkand."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-b"
+  },
+  {
+   "id": "wh-u1-q09",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-south",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, the Inca mit'a was",
+   "choices": [
+    "a period of required labor service for the state",
+    "a trade route linking the Andes to the Valley of Mexico",
+    "a religious festival held each year",
+    "a tax paid in gold to the emperor"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The source defines the mit'a as “a set period of labor service on roads, terraces, and in the army.”",
+   "choiceExplanations": [
+    "",
+    "The mit'a was not a route; the roads linked the Inca Empire.",
+    "The mit'a was a labor obligation, not a festival.",
+    "The Inca collected labor rather than gold taxes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-c"
+  },
+  {
+   "id": "wh-u1-q10",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-south",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, the Mexica obtained wealth from conquered city-states mainly by",
+   "choices": [
+    "selling land to settlers",
+    "taxing trade in gold and salt",
+    "requiring labor service on roads, terraces, and in the army",
+    "demanding tribute in food, cloth, and captives"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The source says the Mexica “demanded tribute in food, cloth, and captives.”",
+   "choiceExplanations": [
+    "Land sales are not mentioned.",
+    "Taxing gold and salt describes Mali.",
+    "Labor service describes the Inca.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-c"
+  },
+  {
+   "id": "wh-u1-q11",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-south",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Mansa Musa's journey to Mecca, as described in Source C, best illustrates",
+   "choices": [
+    "the spread of Christianity in West Africa through Mansa Musa's travels",
+    "Mali's wealth from trade and its ties to the wider Islamic world",
+    "the decline of trans-Saharan trade",
+    "Mali's conquest of Egypt"
+   ],
+   "correctAnswer": 1,
+   "explanation": "His pilgrimage shows both the gold Mali gained from trans-Saharan trade and its rulers' place in the Islamic world.",
+   "choiceExplanations": [
+    "Mecca is the holy city of Islam, not Christianity.",
+    "",
+    "His spending shows trade thriving, not declining.",
+    "He traveled through Cairo; he did not conquer it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-c"
+  },
+  {
+   "id": "wh-u1-q12",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-europe",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A historian comparing the Inca and Mali would most likely argue that both states",
+   "choices": [
+    "were Christian kingdoms that traded with Europe",
+    "depended on tribute from conquered city-states",
+    "grew powerful by controlling key resources: labor for the Inca and trade goods for Mali",
+    "governed through bureaucracies of officials trained for and selected by written examinations"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The Inca drew on labor service; Mali taxed gold and salt. Each controlled a resource that sustained the state.",
+   "choiceExplanations": [
+    "Neither state was Christian.",
+    "Tribute from city-states describes the Mexica.",
+    "",
+    "Examination bureaucracies describe China."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-c"
+  },
+  {
+   "id": "wh-u1-q13",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-europe",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source D, manorialism was a system in which",
+   "choices": [
+    "kings appointed officials who had passed written examinations",
+    "the Church collected all taxes",
+    "serfs farmed a lord's land in return for protection",
+    "merchants governed independent city-states"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The source says “serfs farmed the lord's fields in return for protection and the right to work their own plots.”",
+   "choiceExplanations": [
+    "Examinations describe Song China.",
+    "The Church had courts and lands but did not collect all taxes.",
+    "",
+    "City-states existed, but manorialism concerns lords and serfs."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-d"
+  },
+  {
+   "id": "wh-u1-q14",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-europe",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Source D presents the Roman Catholic Church as",
+   "choices": [
+    "an institution limited to a few cities",
+    "the main cause of Europe's political division into rival kingdoms",
+    "a rival to Islam that ruled most kingdoms",
+    "a unifying institution in a politically divided Europe"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The source says the Church held the divided world together through bishops, monasteries, and courts.",
+   "choiceExplanations": [
+    "It “reached into every region.”",
+    "The source credits the Church with unity, not division.",
+    "The Church did not rule the kingdoms directly.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-d"
+  },
+  {
+   "id": "wh-u1-q15",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-asia",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The role of the Church in Source D is most similar to the role of which belief system in East Asia in the same period?",
+   "choices": [
+    "Hinduism in the Delhi Sultanate's government",
+    "Inca religion, which centered on the emperor as a descendant of the sun",
+    "Sufism, which spread Islam into West Africa",
+    "Confucianism, which shaped government and social order in China"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Like the Church in Europe, Confucian ideas shaped East Asian government, education, and family life.",
+   "choiceExplanations": [
+    "The Delhi Sultanate's rulers were Muslim.",
+    "The Inca were in South America.",
+    "Sufism belongs to Dar al-Islam, not East Asia.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-d"
+  },
+  {
+   "id": "wh-u1-q16",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "topicId": "wh1-europe",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which development described in Source D would most likely weaken the manorial system?",
+   "choices": [
+    "The granting of land to vassals for military service.",
+    "Labor shortages after the Black Death strengthened peasants' bargaining power.",
+    "The spread of Church courts into every region.",
+    "The growth of stronger royal governments in England and France during the period."
+   ],
+   "correctAnswer": 1,
+   "explanation": "With perhaps a third of the population dead, surviving peasants were scarce and could demand better terms, loosening serfdom.",
+   "choiceExplanations": [
+    "Granting land for service is part of the feudal system itself.",
+    "",
+    "Church courts did not change peasants' labor.",
+    "Stronger monarchies developed alongside manorialism, not against it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh1-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-wh-u1-os1",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "title": "OpenStax World History, Volume 1: to 1500, 14.1 Song China and the Steppe Peoples",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-1/pages/14-1-song-china-and-the-steppe-peoples",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on Song China and its neighbors. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-1/pages/14-1-song-china-and-the-steppe-peoples",
+   "sourceTitle": "OpenStax World History, Volume 1: to 1500",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 1: to 1500 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  },
+  {
+   "id": "res-wh-u1-os2",
+   "courseId": "ap-world-history",
+   "unitId": "u1",
+   "title": "OpenStax World History, Volume 1: to 1500, 15.2 Medieval Sub-Saharan Africa",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-1/pages/15-2-medieval-sub-saharan-africa",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on states in West and East Africa, including Mali. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-1/pages/15-2-medieval-sub-saharan-africa",
+   "sourceTitle": "OpenStax World History, Volume 1: to 1500",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 1: to 1500 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP World History: Modern short-answer, document-based, and long-essay questions often span several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "wh-u1-q01",
+    "wh-u1-q02",
+    "wh-u1-q03",
+    "wh-u1-q04",
+    "wh-u1-q05",
+    "wh-u1-q06",
+    "wh-u1-q07",
+    "wh-u1-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "wh-u1-q09",
+    "wh-u1-q10",
+    "wh-u1-q11",
+    "wh-u1-q12",
+    "wh-u1-q13",
+    "wh-u1-q14",
+    "wh-u1-q15",
+    "wh-u1-q16"
+   ]
+  }
+ ]
+}

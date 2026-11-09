@@ -66,18 +66,31 @@ const titleOf = id => d.passages.find(p => p.id === id).title;
   const litText = await p.locator('#v-test .passage').first().textContent();
   T.ok(/written for StudySprint/.test(litSrc) && /\(1\) /.test(litText) && /\(8\) /.test(litText), 'English Literature poems show numbered lines and are labelled as original to StudySprint');
   await p.click('#v-test button:has-text("Save and exit")');
+  /* ---- World History source sets label public-domain documents and interpretations ---- */
+  await T.openUnit(p, 'AP World History', 'u5');
+  await p.locator('#v-overview .test-cards > li').nth(1).locator('button:has-text("Start untimed")').click();
+  await p.waitForSelector('#v-test .passage .passage-src');
+  const whSrc = [];
+  for (let i = 0; i < 8; i++) {
+    whSrc.push(await p.locator('#v-test .passage .passage-src').first().textContent());
+    if (i < 7) await p.click('#v-test .test-nav button.button-primary');
+  }
+  T.ok(whSrc.some(x => /Public domain/.test(x)) && whSrc.some(x => /Interpretation written for StudySprint/.test(x)) && whSrc.every(x => /Public domain|written for StudySprint/.test(x)),
+    'World History source sets label each source as a public-domain document or as an interpretation written for StudySprint');
+  await p.click('#v-test button:has-text("Save and exit")');
   T.ok(!p.errs.length, 'no page errors' + (p.errs.length ? ': ' + p.errs.join(' | ') : ''));
 
-  /* ---- answer length gives nothing away in the English Literature bank ---- */
-  let litN = 0, litLongest = 0;
-  for (const f of fs.readdirSync(path.join(T.ROOT, 'data', 'courses', 'ap-english-literature-and-composition')).filter(x => /^u\d+\.json$/.test(x))) {
-    for (const q of JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', 'ap-english-literature-and-composition', f))).questions) {
-      const L = q.choices.map(c => c.length), k = L[q.correctAnswer];
-      litN++; if (L.filter(x => x >= k).length === 1) litLongest++;
+  /* ---- answer length gives nothing away in the English Literature and World History banks ---- */
+  for (const [cid, label] of [['ap-english-literature-and-composition', 'English Literature'], ['ap-world-history', 'World History']]) {
+    let n = 0, longest = 0;
+    for (const f of fs.readdirSync(path.join(T.ROOT, 'data', 'courses', cid)).filter(x => /^u\d+\.json$/.test(x))) {
+      for (const q of JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', cid, f))).questions) {
+        const L = q.choices.map(c => c.length), k = L[q.correctAnswer];
+        n++; if (L.filter(x => x >= k).length === 1) longest++;
+      }
     }
+    T.ok(n >= 144 && longest / n < 0.15, 'in ' + label + ' the correct choice is the uniquely longest in under 15% of questions (' + longest + ' of ' + n + ')');
   }
-  T.ok(litN >= 144 && litLongest / litN < 0.15, 'in English Literature the correct choice is the uniquely longest in under 15% of questions (' + litLongest + ' of ' + litN + ')');
-  await p.context().close();
 
   /* ---- build rules for passages ---- */
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'ss-passages-'));

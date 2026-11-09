@@ -1,0 +1,703 @@
+{
+ "courseId": "ap-world-history",
+ "unitId": "u2",
+ "title": "Unit 2: Networks of Exchange",
+ "topics": [
+  {
+   "id": "wh2-routes",
+   "name": "Silk Roads, Indian Ocean, and trans-Saharan routes",
+   "covers": [
+    "The Silk Roads",
+    "The Indian Ocean trading network",
+    "The trans-Saharan trade routes"
+   ],
+   "frameworkCovers": [
+    "2.1 The Silk Roads",
+    "2.3 Exchange in the Indian Ocean",
+    "2.4 Trans-Saharan Trade Routes",
+    "2.7 Comparison of Economic Exchange"
+   ]
+  },
+  {
+   "id": "wh2-mongols",
+   "name": "The Mongol Empire",
+   "covers": [
+    "The Mongol Empire"
+   ],
+   "frameworkCovers": [
+    "2.2 The Mongol Empire and the Making of the Modern World"
+   ]
+  },
+  {
+   "id": "wh2-effects",
+   "name": "Consequences of connectivity",
+   "covers": [
+    "The effects of cross-cultural interactions"
+   ],
+   "frameworkCovers": [
+    "2.5 Cultural Consequences of Connectivity",
+    "2.6 Environmental Consequences of Connectivity"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 2: Networks of Exchange: review guide",
+  "intro": "From about 1200 to 1450, trade routes across Eurasia, the Indian Ocean, and the Sahara grew busier. Merchants carried goods, religions, technologies, crops, and diseases. This unit studies the routes, the Mongol Empire that linked many of them, and the cultural and environmental results.",
+  "sections": [
+   {
+    "id": "s-wh2-routes",
+    "topicId": "wh2-routes",
+    "title": "The major trade networks",
+    "body": [
+     "The Silk Roads carried mainly luxury goods (silk, porcelain, spices) overland; caravanserai (roadside inns) and new forms of credit such as bills of exchange made long-distance trade easier. The Indian Ocean network relied on predictable monsoon winds and on technologies such as the lateen sail, the astrolabe, and the magnetic compass, and it could carry bulkier goods by sea.",
+     "Trans-Saharan trade grew with camel caravans and improved camel saddles, linking West African gold to Saharan salt and Mediterranean goods. States such as Mali and the Swahili city-states (Kilwa, Mombasa) grew rich by taxing this trade; the Ming admiral Zheng He's voyages (1405–1433) displayed Chinese power across the Indian Ocean."
+    ],
+    "points": [
+     "Compare routes by goods, technology, and the states that profited.",
+     "Merchant communities settled far from home (diasporas) and spread their cultures."
+    ]
+   },
+   {
+    "id": "s-wh2-mongols",
+    "topicId": "wh2-mongols",
+    "title": "The Mongol Empire",
+    "body": [
+     "Chinggis Khan united the Mongols in 1206, and his successors built the largest land empire in history. After his death it divided into khanates such as the Yuan in China, the Ilkhanate in Persia, and the Golden Horde in Russia.",
+     "Mongol rulers often relied on local officials and tolerated many religions. By making overland routes safer, they increased trade and the transfer of knowledge, such as Persian astronomy and medicine reaching China, but their networks also helped carry the plague westward."
+    ],
+    "points": [
+     "The Mongols destroyed cities such as Baghdad (1258) but also promoted exchange.",
+     "Each khanate adapted to local cultures; several later converted to Islam."
+    ]
+   },
+   {
+    "id": "s-wh2-effects",
+    "topicId": "wh2-effects",
+    "title": "Cultural and environmental consequences",
+    "body": [
+     "Trade spread religions (Buddhism, Islam), languages, and technologies such as paper and gunpowder. The Swahili language, a Bantu language with many Arabic words, reflects contact between East Africans and Arab merchants. Travelers such as Ibn Battuta and Marco Polo recorded these connections.",
+     "Exchange also changed environments. Crops such as Champa rice, sugar, and citrus spread to new regions, and the bubonic plague moved along trade and military routes in the 1300s, killing huge numbers in Asia, the Middle East, and Europe."
+    ],
+    "points": [
+     "Tie each consequence to the route that carried it.",
+     "Environmental consequences include crops, animals, and disease."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Why could Indian Ocean trade carry heavier goods than the Silk Roads?",
+   "solution": "Ships could carry large cargoes cheaply, and monsoon winds made voyages predictable, so bulk goods such as textiles, timber, and grain could travel by sea. Overland caravans were limited to what animals could carry, so they favored light, valuable luxuries."
+  },
+  "misconceptions": [
+   [
+    "“The Silk Road was one road.”",
+    "It was a network of many routes and cities across Eurasia."
+   ],
+   [
+    "“The Mongols only destroyed.”",
+    "They were destructive conquerors, but they also protected trade and moved knowledge across Eurasia."
+   ],
+   [
+    "“Trade moved only goods.”",
+    "Trade also spread religions, technologies, crops, and diseases."
+   ],
+   [
+    "“Zheng He's voyages founded Chinese colonies.”",
+    "They displayed Ming power and brought tribute; China did not establish colonies."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP World History: Modern Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+  "sourceTitle": "AP World History: Modern – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "wh2-a",
+   "title": "Source A: An interpretation of the Silk Roads",
+   "text": [
+    "“The Silk Roads were never a single road but a web of routes linking China, Central Asia, Persia, and the Mediterranean. Few merchants traveled the whole distance; goods passed from trader to trader through oasis cities such as Kashgar and Samarkand. Because camels and horses could carry only so much, merchants favored goods that were valuable and light: silk, porcelain, spices, and precious stones. Caravanserai offered travelers food, shelter, and safety, and bills of exchange let merchants avoid carrying large amounts of coin. Ideas and technologies traveled too. Buddhism had followed these routes into China centuries earlier, and papermaking moved from China into the Islamic world and later into Europe.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh2-b",
+   "title": "Source B: An interpretation of the Mongol Empire",
+   "text": [
+    "“In 1206 an assembly of Mongol chiefs proclaimed Temujin as Chinggis Khan. Within decades his armies and those of his successors had conquered northern China, Central Asia, Persia, and much of Russia, and in 1258 they destroyed Baghdad. After Chinggis's death the empire split into several khanates, including the Yuan dynasty in China, the Ilkhanate in Persia, and the Golden Horde in Russia. Mongol rulers were few in number, so they relied on local officials and generally tolerated the religions of their subjects. Under their protection, merchants, diplomats, and scholars crossed Eurasia more safely than before. Persian astronomers worked in China; Chinese technologies reached the west. So, in the 1300s, did the plague.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh2-c",
+   "title": "Source C: An interpretation of the Indian Ocean network",
+   "text": [
+    "“Indian Ocean commerce depended on the monsoons, winds that blow from the southwest in summer and the northeast in winter. Merchants timed their voyages to them, waiting in port for the wind to turn. Ships such as Arab dhows with lateen sails and large Chinese junks carried textiles, spices, timber, and porcelain. Port cities from Kilwa and Mombasa on the East African coast to Calicut in India and Malacca in Southeast Asia grew rich. In the Swahili cities, African and Arab traditions mingled, and many merchants converted to Islam. Between 1405 and 1433 the Ming admiral Zheng He led huge fleets as far as East Africa, displaying Chinese power and collecting tribute.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh2-d",
+   "title": "Source D: An interpretation of trans-Saharan trade",
+   "text": [
+    "“Crossing the Sahara became practical only when merchants used camels, which can travel long distances with little water, and improved saddles that let camels carry heavy loads. Caravans carried salt from Saharan mines south and returned with gold from West Africa. The rulers of Mali taxed this trade and grew wealthy. Muslim merchants brought Islam, and many West African rulers converted; Timbuktu became a center of Islamic scholarship with schools and libraries. Trade networks also moved plants. Sugar and citrus fruits spread across the Islamic world, and Champa rice had earlier moved from Vietnam into China, changing what farmers grew and how many people the land could feed.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "wh-u2-q01",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-routes",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source A, caravanserai mainly served to",
+   "choices": [
+    "produce silk for export",
+    "train soldiers to guard the routes",
+    "collect taxes on each caravan for the Chinese emperor",
+    "give traveling merchants food, shelter, and safety"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The source says caravanserai “offered travelers food, shelter, and safety,” which encouraged trade.",
+   "choiceExplanations": [
+    "Silk was produced in China, not at roadside inns.",
+    "They housed travelers, not soldiers in training.",
+    "They were inns, not tax offices.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-a"
+  },
+  {
+   "id": "wh-u2-q02",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-routes",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Source A explains that goods on the Silk Roads were mostly luxuries because",
+   "choices": [
+    "governments banned the trade in bulk goods",
+    "ships carried all the heavy goods along the same overland routes at lower cost",
+    "animals could carry only limited loads, so light, valuable goods paid best",
+    "few people in Eurasia could afford food"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Pack animals limited what could be carried, so merchants chose goods with high value for their weight.",
+   "choiceExplanations": [
+    "The source does not mention a ban.",
+    "The Silk Roads were overland routes.",
+    "",
+    "The source says nothing about food shortages."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-a"
+  },
+  {
+   "id": "wh-u2-q03",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-effects",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The movement of papermaking described in Source A is an example of",
+   "choices": [
+    "the transfer of technology along trade routes",
+    "a decline in trade between regions",
+    "the spread of a religion by merchants and missionaries",
+    "a government monopoly on writing"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Papermaking moved from China to the Islamic world and Europe, showing how technologies traveled along trade networks.",
+   "choiceExplanations": [
+    "",
+    "Its spread shows connection, not decline.",
+    "Papermaking is a technology, not a religion.",
+    "The source describes spread, not monopoly."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-a"
+  },
+  {
+   "id": "wh-u2-q04",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-mongols",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on your knowledge, how did the Mongol conquests of the 1200s most affect the routes described in Source A?",
+   "choices": [
+    "By banning the export of silk.",
+    "By uniting much of Eurasia under one rule, they made overland travel safer.",
+    "By closing the routes to all foreign merchants for nearly a century afterward.",
+    "By replacing overland trade with sea routes."
+   ],
+   "correctAnswer": 1,
+   "explanation": "Mongol control from China to Persia protected travelers, a period sometimes called the Pax Mongolica, and trade increased.",
+   "choiceExplanations": [
+    "No such ban existed.",
+    "",
+    "Mongol rulers encouraged foreign merchants.",
+    "Overland trade grew under the Mongols."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-a"
+  },
+  {
+   "id": "wh-u2-q05",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-mongols",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source B, after Chinggis Khan's death the Mongol Empire",
+   "choices": [
+    "shrank back to the Mongolian steppe",
+    "united with the Byzantine Empire",
+    "divided into several khanates",
+    "came under the rule of the Abbasid caliph"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The source names the Yuan, the Ilkhanate, and the Golden Horde as separate khanates.",
+   "choiceExplanations": [
+    "The khanates ruled vast territories.",
+    "There was no union with Byzantium.",
+    "",
+    "The Mongols destroyed Abbasid Baghdad."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-b"
+  },
+  {
+   "id": "wh-u2-q06",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-mongols",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Source B suggests that Mongol rulers governed conquered peoples largely by",
+   "choices": [
+    "forcing all of their subjects to adopt the Mongols' own religion",
+    "relying on local officials and tolerating local religions",
+    "replacing every local official with a Mongol",
+    "dividing land equally among peasants"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Because Mongols were few, they used local administrators and “generally tolerated the religions of their subjects.”",
+   "choiceExplanations": [
+    "The source describes toleration, not forced conversion.",
+    "",
+    "The source says they relied on local officials.",
+    "Land redistribution is not mentioned."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-b"
+  },
+  {
+   "id": "wh-u2-q07",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-effects",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The final sentence of Source B points to which consequence of Mongol-era connections?",
+   "choices": [
+    "The spread of the plague along the trade and military routes",
+    "The conversion of China to Islam",
+    "The invention of the printing press in Europe by Mongol craftsmen",
+    "The end of trade between China and Persia"
+   ],
+   "correctAnswer": 0,
+   "explanation": "“So, in the 1300s, did the plague”: disease moved along the same routes as people and goods.",
+   "choiceExplanations": [
+    "",
+    "China did not convert to Islam.",
+    "The source does not mention printing.",
+    "It describes increased exchange, not an end to trade."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-b"
+  },
+  {
+   "id": "wh-u2-q08",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-mongols",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which evidence from Source B best supports the claim that the Mongols helped connect Eurasia?",
+   "choices": [
+    "An assembly of Mongol chiefs proclaimed Temujin as Chinggis Khan in 1206.",
+    "Persian astronomers worked in China; Chinese technologies reached the west.",
+    "Mongol rulers were few in number.",
+    "The Mongols destroyed Baghdad in 1258."
+   ],
+   "correctAnswer": 1,
+   "explanation": "The exchange of scholars and technologies across the empire directly shows connection.",
+   "choiceExplanations": [
+    "The proclamation explains the empire's origin.",
+    "",
+    "Their small numbers explain how they ruled, not how they connected regions.",
+    "The destruction of Baghdad shows conquest, not connection."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-b"
+  },
+  {
+   "id": "wh-u2-q09",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-routes",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, merchants timed their voyages according to",
+   "choices": [
+    "the movement of camel caravans",
+    "the orders of the Ming emperor",
+    "the seasonal monsoon winds",
+    "the flooding of the Nile"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The monsoons reverse direction by season, so merchants waited for the wind to turn.",
+   "choiceExplanations": [
+    "Camel caravans belong to overland trade.",
+    "Merchants followed the winds, not imperial orders.",
+    "",
+    "The Nile is not mentioned."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-c"
+  },
+  {
+   "id": "wh-u2-q10",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-effects",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The mingling of traditions in the Swahili cities described in Source C is an example of",
+   "choices": [
+    "cultural blending resulting from trade",
+    "the spread of Christianity by force of arms",
+    "the isolation of African societies",
+    "Mongol rule in East Africa"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Contact between African and Arab merchants blended cultures (the Swahili language and Islam among them).",
+   "choiceExplanations": [
+    "",
+    "The source describes Islam spreading through merchants, not Christianity.",
+    "The cities were deeply connected, not isolated.",
+    "The Mongols did not rule East Africa."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-c"
+  },
+  {
+   "id": "wh-u2-q11",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-routes",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, Zheng He's voyages were mainly intended to",
+   "choices": [
+    "spread Buddhism to East Africa",
+    "establish permanent Chinese colonies in Africa",
+    "display Ming power and collect tribute",
+    "find a sea route to Europe"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The source says the fleets displayed “Chinese power” and collected tribute.",
+   "choiceExplanations": [
+    "The voyages were diplomatic and political, not missionary.",
+    "China did not found colonies on these voyages.",
+    "",
+    "They sailed west to Africa, not to Europe."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-c"
+  },
+  {
+   "id": "wh-u2-q12",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-routes",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Compared with trade on the Silk Roads, the Indian Ocean trade described in Source C was better suited to carrying",
+   "choices": [
+    "only luxury goods, because storms made the sea too dangerous for heavy cargo ships",
+    "goods that needed no merchants to move them",
+    "nothing but gold and salt",
+    "bulkier goods such as timber and textiles, because ships held large cargoes"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Ships could carry far more than pack animals, so the sea routes moved bulk goods as well as luxuries.",
+   "choiceExplanations": [
+    "The source lists timber and textiles as well as luxuries.",
+    "Merchants ran the trade.",
+    "Gold and salt describe trans-Saharan trade.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-c"
+  },
+  {
+   "id": "wh-u2-q13",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-routes",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source D, trans-Saharan trade became practical because of",
+   "choices": [
+    "the monsoon winds",
+    "Roman roads built across the desert",
+    "paper money issued by Mali",
+    "camels and improved camel saddles"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Camels can go long distances with little water, and better saddles let them carry heavy loads.",
+   "choiceExplanations": [
+    "Monsoons drove Indian Ocean trade.",
+    "There were no Roman roads across the Sahara.",
+    "The source does not mention paper money.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-d"
+  },
+  {
+   "id": "wh-u2-q14",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-effects",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The growth of Timbuktu as a center of learning, described in Source D, shows that",
+   "choices": [
+    "trade brought Islam and Islamic scholarship to West Africa",
+    "West Africa was cut off from other regions",
+    "trade made West African rulers reject Islam and expel Muslim merchants",
+    "Timbuktu's wealth came from farming alone"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Muslim merchants brought Islam; rulers converted, and Timbuktu developed schools and libraries.",
+   "choiceExplanations": [
+    "",
+    "The city was linked by trade to North Africa and beyond.",
+    "The source says many rulers converted.",
+    "The source ties its growth to trade."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-d"
+  },
+  {
+   "id": "wh-u2-q15",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-effects",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The spread of sugar, citrus, and Champa rice described in Source D best illustrates",
+   "choices": [
+    "a religious consequence of trade",
+    "the effects of the Mongol conquests on Africa",
+    "a decline in agriculture caused by trade",
+    "an environmental consequence of connectivity"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Moving crops changed what farmers grew and how many people the land could support, which is an environmental consequence of connection.",
+   "choiceExplanations": [
+    "Crops are environmental, not religious, changes.",
+    "The Mongols are not involved here.",
+    "The spread of crops expanded agriculture.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-d"
+  },
+  {
+   "id": "wh-u2-q16",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "topicId": "wh2-mongols",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Mali's relationship to trans-Saharan trade in Source D was most similar to the Mongols' relationship to Silk Road trade in that both",
+   "choices": [
+    "spread Buddhism along the routes",
+    "profited by protecting and taxing long-distance commerce",
+    "invented the technologies that made long-distance trade possible",
+    "banned foreign merchants from their lands"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Mali taxed the gold and salt trade; the Mongols protected and profited from Eurasian commerce.",
+   "choiceExplanations": [
+    "Mali's rulers were Muslim, and the Mongols tolerated many faiths.",
+    "",
+    "Neither invented the camel saddle or the routes.",
+    "Both welcomed foreign merchants."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh2-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-wh-u2-os1",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "title": "OpenStax World History, Volume 1: to 1500, 14.2 Chinggis Khan and the Early Mongol Empire",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-1/pages/14-2-chinggis-khan-and-the-early-mongol-empire",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on the rise of the Mongol Empire. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-1/pages/14-2-chinggis-khan-and-the-early-mongol-empire",
+   "sourceTitle": "OpenStax World History, Volume 1: to 1500",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 1: to 1500 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  },
+  {
+   "id": "res-wh-u2-os2",
+   "courseId": "ap-world-history",
+   "unitId": "u2",
+   "title": "OpenStax World History, Volume 1: to 1500, 16.3 The Black Death from East to West",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-1/pages/16-3-the-black-death-from-east-to-west",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on the spread of the Black Death along trade routes. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-1/pages/16-3-the-black-death-from-east-to-west",
+   "sourceTitle": "OpenStax World History, Volume 1: to 1500",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 1: to 1500 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP World History: Modern short-answer, document-based, and long-essay questions often span several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "wh-u2-q01",
+    "wh-u2-q02",
+    "wh-u2-q03",
+    "wh-u2-q04",
+    "wh-u2-q05",
+    "wh-u2-q06",
+    "wh-u2-q07",
+    "wh-u2-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "wh-u2-q09",
+    "wh-u2-q10",
+    "wh-u2-q11",
+    "wh-u2-q12",
+    "wh-u2-q13",
+    "wh-u2-q14",
+    "wh-u2-q15",
+    "wh-u2-q16"
+   ]
+  }
+ ]
+}

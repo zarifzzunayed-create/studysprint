@@ -25,7 +25,7 @@ StudySprint is a review site, not a complete course or textbook. Guides are shor
 11. AP English Language and Composition: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
 12. AP United States History: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
 13. AP English Literature and Composition: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
-14. AP World History: Modern: catalog entry only (course framework not checked yet)
+14. AP World History: Modern: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
 15. AP U.S. Government and Politics: catalog entry only (course framework not checked yet)
 16. AP Psychology: catalog entry only (course framework not checked yet)
 17. AP Macroeconomics: catalog entry only (course framework not checked yet)
@@ -38,9 +38,9 @@ StudySprint's catalog is deliberately limited to the courses the project owner c
 
 Each row comes from `data/catalog.json` and the course's `course.json`. A course framework counts as checked only when its official units were read from College Board's pages and recorded with a source link and date. Courses that have not been checked list no units at all; their "expected format" is a planning note from general knowledge, not a verified fact, and must be confirmed against the official Course and Exam Description before any content is written.
 
-**Totals:** 13 of 19 catalog courses have a checked course framework, with 99 official units in all. **99 of those 99 units have usable review content and a question bank (practice-ready).** 13 courses are complete. 6 courses have no checked framework yet.
+**Totals:** 14 of 19 catalog courses have a checked course framework, with 108 official units in all. **108 of those 108 units have usable review content and a question bank (practice-ready).** 14 courses are complete. 5 courses have no checked framework yet.
 
-**Framework coverage and exam coverage are counted separately.** 1 of the 99 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 98 units with no such exclusion recorded, 98 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
+**Framework coverage and exam coverage are counted separately.** 1 of the 108 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 107 units with no such exclusion recorded, 107 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
 
 | Course | Official framework | Source and edition | Official units | Practice-ready units | Exam coverage | Units with a practice test | Course status | Practice format |
 |---|---|---|---|---|---|---|---|---|
@@ -57,16 +57,12 @@ Each row comes from `data/catalog.json` and the course's `course.json`. A course
 | AP English Language and Composition | Unit-based (units checked) | [AP English Language and Composition – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-english-language-and-composition), checked 2026-11-08. AP English Language and Composition Course and Exam Description, effective Fall 2024 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections implemented as of June 2025. Further corrections listed as forthcoming concern resource links and Progress Check wording only. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 18 practice tests across 9 ready units (see Practice tests below) |
 | AP United States History | Unit-based (units checked) | [AP United States History – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-united-states-history), checked 2026-11-08. AP U.S. History Course and Exam Description, effective Fall 2026 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections for Fall 2026 (exam changes beginning with the May 2027 exam). [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 18 practice tests across 9 ready units (see Practice tests below) |
 | AP English Literature and Composition | Unit-based (units checked) | [AP English Literature and Composition – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition), checked 2026-11-09. AP English Literature and Composition Course and Exam Description, effective Fall 2024 (current PDF on AP Central, checked 2026-11-09), with College Board's Clarifications and Corrections implemented as of August 2025 (front matter only; further corrections listed as forthcoming concern resource links and Progress Check wording). [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 18 practice tests across 9 ready units (see Practice tests below) |
-| AP World History: Modern | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based, with many multiple-choice questions built in sets around a shared historical source. The site's single-question format only partly supports that; source sets would need rights-cleared or public-domain sources. |
+| AP World History: Modern | Unit-based (units checked) | [AP World History: Modern – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-world-history-modern), checked 2026-11-09. AP World History: Modern Course and Exam Description, effective Fall 2026 (current PDF on AP Central, checked 2026-11-09), with College Board's Clarifications and Corrections implemented for Fall 2026 (exam changes beginning with the May 2027 exam; course content unchanged). [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 18 practice tests across 9 ready units (see Practice tests below) |
 | AP U.S. Government and Politics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
 | AP Psychology | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
 | AP Macroeconomics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
 | AP Microeconomics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
 | AP Computer Science A | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; multiple-choice questions fit the existing format, but free-response questions ask for Java code, which the site cannot check. |
-
-Courses expected to need a different practice format than unit questions (to confirm once their frameworks are checked):
-
-- **source-based**: AP World History: Modern.
 
 ### Catalog leads to verify (checked 2026-10-21)
 
@@ -274,7 +270,23 @@ Retaking a test shows the same questions in a new order; those answers are recor
 | Unit 8: Poetry III | 16 | 2 (8, 8) | 0 | 2 | 8 |
 | Unit 9: Longer Fiction or Drama III | 16 | 2 (8, 8) | 0 | 2 | 8 |
 
-Across the site: 143 practice tests in 99 units. Reaching 3 tests in each of those units needs at least 1096 more original questions. 
+### AP World History: Modern
+
+9 of 9 units have a practice test (18 tests in all); 9 units have more than one.
+
+| Unit | Questions in bank | Practice tests (questions each) | Questions not in any test | Distinct tests the bank could support | More original questions needed for 3 tests (at least) |
+|---|---|---|---|---|---|
+| Unit 1: The Global Tapestry | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 2: Networks of Exchange | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 3: Land-Based Empires | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 4: Transoceanic Interconnections | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 5: Revolutions | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 6: Consequences of Industrialization | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 7: Global Conflict | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 8: Cold War and Decolonization | 16 | 2 (8, 8) | 0 | 2 | 8 |
+| Unit 9: Globalization | 16 | 2 (8, 8) | 0 | 2 | 8 |
+
+Across the site: 161 practice tests in 108 units. Reaching 3 tests in each of those units needs at least 1168 more original questions. 
 
 ## Study planner
 
@@ -551,11 +563,34 @@ Recorded differences between College Board sources: The AP Students page's topic
 | Unit 8: Poetry III | practice-ready | no exclusion recorded | 36–45% (shared by the poetry units 2, 5, and 8) | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 10 of 10 | none |
 | Unit 9: Longer Fiction or Drama III | practice-ready | no exclusion recorded | 15–18% (shared by the longer fiction or drama units 3, 6, and 9) | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 7 of 7 | none |
 
+## AP World History: Modern
+
+Unit outline source: [AP World History: Modern – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-world-history-modern), verified 2026-11-09. Unit names, the “topics may include” lists, and exam weightings were read from this page on 2026-11-09 (the older address /courses/ap-world-history redirects here). Unit 1 lists “States in:” with six regions under it; StudySprint records each as “States in: <region>”. The CED's unit table gives the same weightings.
+Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-world-history/exam/past-exam-questions), plus whole released sets for 2026, 2025, 2025, 2024, 2024, 2023, 2023 (linked as whole exams, not matched to units).
+General resources (shown on every unit's Learn first page, labelled general): [OpenStax World History, Volume 1: to 1500 (whole book)](https://openstax.org/details/books/world-history-volume-1); [OpenStax World History, Volume 2: from 1400 (whole book)](https://openstax.org/details/books/world-history-volume-2).
+
+Framework check (2026-11-09): The 71 numbered CED topics (1.1–9.9) were read from the topic pages of the current PDF on AP Central, and each is matched to the StudySprint topic whose guide section and questions teach it. A unit's final topic (comparison, causation, or continuity and change) is covered by the topic whose questions practice that reasoning. The CED's six historical thinking skills were also checked: its exam section says multiple-choice questions assess Developments and Processes, Sourcing and Situation, Claims and Evidence in Sources, Contextualization, and Making Connections, and that no multiple-choice questions explicitly assess Argumentation. Source: [AP World History: Modern Course and Exam Description (effective Fall 2026)](https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf).
+Exam weightings: from the AP Students course page (“On The Exam”) and the CED's unit table, both checked 2026-11-09.
+Exam format (checked 2026-11-09): From the AP Students exam page and the CED clarifications (beginning with the May 2027 exam; 3 hours 15 minutes, fully digital in Bluebook): Section IA, 55 multiple-choice questions in 55 minutes (40% of the score), in sets of usually 3–4 questions about the same source or sources (texts, images, charts, and maps); Section IB, 3 required short-answer questions in 40 minutes (20%): one with a secondary source, one with a primary source, and one with a non-text source, each on developments between 1200 and 2001; Section II, a document-based question (25%, 7 documents, 60 minutes recommended including a 15-minute reading period) and one required long essay (15%, 40 minutes) whose prompt spans about half of the course's time periods. StudySprint practice is multiple-choice only, in source-based sets; written-response practice uses College Board's released questions.
+Recorded differences between College Board sources: The Course at a Glance titles topic 7.4 “The Economy in the Interwar Period”; the topic page prints “Economy in the Interwar Period”. StudySprint records the topic-page titles as printed. The AP Students page's unit topic lists are summaries; the CED's 71 topics are the required content and are listed per unit as framework topics. The CED clarifications for Fall 2026 change the short-answer and long-essay sections (all three short-answer questions are required and include sources; one long essay is required). The AP Students exam page already describes the new format.
+
+| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: The Global Tapestry | practice-ready | no exclusion recorded | 8%–10% | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 7 of 7 | none |
+| Unit 2: Networks of Exchange | practice-ready | no exclusion recorded | 8%–10% | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 7 of 7 | none |
+| Unit 3: Land-Based Empires | practice-ready | no exclusion recorded | 12%–15% | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 4 of 4 | none |
+| Unit 4: Transoceanic Interconnections | practice-ready | no exclusion recorded | 12%–15% | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 8 of 8 | none |
+| Unit 5: Revolutions | practice-ready | no exclusion recorded | 12%–15% | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 10 of 10 | none |
+| Unit 6: Consequences of Industrialization | practice-ready | no exclusion recorded | 12%–15% | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 8 of 8 | none |
+| Unit 7: Global Conflict | practice-ready | no exclusion recorded | 8%–10% | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 9 of 9 | none |
+| Unit 8: Cold War and Decolonization | practice-ready | no exclusion recorded | 8%–10% | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 9 of 9 | none |
+| Unit 9: Globalization | practice-ready | no exclusion recorded | 8%–10% | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 9 of 9 | none |
+
 ## Catalog entries without a unit outline
 
-These courses are planned for future content work. They appear in search with a link to College Board's released free-response page and are labelled "Catalog only". Nothing is invented for them. (6 entries.)
+These courses are planned for future content work. They appear in search with a link to College Board's released free-response page and are labelled "Catalog only". Nothing is invented for them. (5 entries.)
 
-AP Macroeconomics, AP Microeconomics, AP Psychology, AP U.S. Government and Politics, AP World History: Modern, AP Computer Science A.
+AP Macroeconomics, AP Microeconomics, AP Psychology, AP U.S. Government and Politics, AP Computer Science A.
 
 ## Courses removed from the catalog (2026-11-09)
 
