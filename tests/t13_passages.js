@@ -58,7 +58,25 @@ const titleOf = id => d.passages.find(p => p.id === id).title;
   T.ok(srcs.some(x => /Public domain/.test(x)) && srcs.some(x => /Interpretation written for StudySprint/.test(x)) && srcs.every(x => /Public domain|written for StudySprint/.test(x)),
     'U.S. History source sets label each source as a public-domain document or as an interpretation written for StudySprint');
   await p.click('#v-test button:has-text("Save and exit")');
+  /* ---- English Literature poems show numbered lines and say they were written for StudySprint ---- */
+  await T.openUnit(p, 'AP English Literature', 'u2');
+  await p.locator('#v-overview .test-cards > li').nth(0).locator('button:has-text("Start untimed")').click();
+  await p.waitForSelector('#v-test .passage .passage-src');
+  const litSrc = await p.locator('#v-test .passage .passage-src').first().textContent();
+  const litText = await p.locator('#v-test .passage').first().textContent();
+  T.ok(/written for StudySprint/.test(litSrc) && /\(1\) /.test(litText) && /\(8\) /.test(litText), 'English Literature poems show numbered lines and are labelled as original to StudySprint');
+  await p.click('#v-test button:has-text("Save and exit")');
   T.ok(!p.errs.length, 'no page errors' + (p.errs.length ? ': ' + p.errs.join(' | ') : ''));
+
+  /* ---- answer length gives nothing away in the English Literature bank ---- */
+  let litN = 0, litLongest = 0;
+  for (const f of fs.readdirSync(path.join(T.ROOT, 'data', 'courses', 'ap-english-literature-and-composition')).filter(x => /^u\d+\.json$/.test(x))) {
+    for (const q of JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', 'ap-english-literature-and-composition', f))).questions) {
+      const L = q.choices.map(c => c.length), k = L[q.correctAnswer];
+      litN++; if (L.filter(x => x >= k).length === 1) litLongest++;
+    }
+  }
+  T.ok(litN >= 144 && litLongest / litN < 0.15, 'in English Literature the correct choice is the uniquely longest in under 15% of questions (' + litLongest + ' of ' + litN + ')');
   await p.context().close();
 
   /* ---- build rules for passages ---- */

@@ -1,0 +1,703 @@
+{
+ "courseId": "ap-english-literature-and-composition",
+ "unitId": "u4",
+ "title": "Unit 4: Short Fiction II",
+ "topics": [
+  {
+   "id": "lit4-character",
+   "name": "Characters, conflict, and archetypes",
+   "covers": [
+    "Protagonists, antagonists, character relationships, and conflict",
+    "Archetypes in literature"
+   ],
+   "frameworkCovers": [
+    "1.A Identify and describe what specific textual details reveal about a character, that character’s perspective, and that character’s motives.",
+    "1.C Explain the function of contrasting characters.",
+    "1.D Describe how textual details reveal nuances and complexities in characters’ relationships with one another.",
+    "3.A Identify and describe how plot orders events in a narrative.",
+    "3.D Explain the function of contrasts within a text."
+   ]
+  },
+  {
+   "id": "lit4-setting",
+   "name": "Characters and setting",
+   "covers": [
+    "Character interactions with setting and its significance"
+   ],
+   "frameworkCovers": [
+    "2.B Explain the function of setting in a narrative.",
+    "2.C Describe the relationship between a character and a setting."
+   ]
+  },
+  {
+   "id": "lit4-narration",
+   "name": "Narration, distance, and tone",
+   "covers": [
+    "Types of narration like stream of consciousness",
+    "Narrative distance, tone, and perspective"
+   ],
+   "frameworkCovers": [
+    "4.A Identify and describe the narrator or speaker of a text.",
+    "4.B Identify and explain the function of point of view in a narrative.",
+    "4.C Identify and describe details, diction, or syntax in a text that reveal a narrator’s or speaker’s perspective.",
+    "7.B Develop a thesis statement that conveys a defensible claim about an interpretation of literature and that may establish a line of reasoning.",
+    "7.C Develop commentary that establishes and explains relationships among textual evidence, the line of reasoning, and the thesis.",
+    "7.D Select and use relevant and sufficient evidence to both develop and support a line of reasoning.",
+    "7.E Demonstrate control over the elements of composition to communicate clearly."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 4: Short Fiction II: review guide",
+  "intro": "This unit looks more closely at how characters come into conflict, how they respond to the places they live in, and how the way a story is narrated (close inside a mind, or from a distance) shapes what readers notice.",
+  "sections": [
+   {
+    "id": "s-lit4-character",
+    "topicId": "lit4-character",
+    "title": "Conflict, relationships, and archetypes",
+    "body": [
+     "The protagonist is the character whose desires drive the story; an antagonist is whatever opposes them, which may be another person, a group, nature, or part of the protagonist's own mind. Conflict can be external (between characters or with the world) or internal (within one character).",
+     "An archetype is a character type or pattern that recurs across many stories, such as the wise mentor, the journey, or the outsider. Recognizing an archetype helps you see what a reader expects, and then what the writer does with or against that expectation."
+    ],
+    "points": [
+     "Name the conflict precisely: who or what opposes whom, and over what.",
+     "An archetype is a starting point for analysis, not a conclusion; ask how this character differs from the type."
+    ]
+   },
+   {
+    "id": "s-lit4-setting",
+    "topicId": "lit4-setting",
+    "title": "Characters and setting",
+    "body": [
+     "Characters act on their setting and are shaped by it. A place can test a character, mirror a character's state of mind, or press on a character's choices.",
+     "When a setting detail seems to echo a mood (a dry fountain in a heat wave, a brown field in the rain), ask what it shows about the characters who move through it."
+    ],
+    "points": [
+     "Explain how the setting functions, not only what it looks like.",
+     "Notice how a character treats a place; it can reveal what they value or fear."
+    ]
+   },
+   {
+    "id": "s-lit4-narration",
+    "topicId": "lit4-narration",
+    "title": "Narration, distance, and tone",
+    "body": [
+     "Stream of consciousness narration follows a character's thoughts as they flow, often in long, loosely linked sentences that jump between present sensations and memories.",
+     "Narrative distance is how close the narration stays to a character's mind. A narrator looking back years later may understand what a young character could not. Tone is the narrator's attitude toward the subject, shown through word choice and detail."
+    ],
+    "points": [
+     "Ask what the narrator knows, and when the narrator learned it.",
+     "Describe tone with precise words (restrained, wry, tender), not just “positive” or “negative.”"
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A story's narrator says: “I was eight that winter, and I thought the snow had come for me.” What does this sentence reveal about narrative distance?",
+   "solution": "The narrator is an adult looking back (“I was eight”), so the story can show both the child's view (the snow came for me) and the adult's quiet recognition that the belief was a child's. A claim might be: “The adult narrator treats the child's wonder with tenderness rather than correction.”"
+  },
+  "misconceptions": [
+   [
+    "“The antagonist is always a villain.”",
+    "An antagonist is any opposing force, including nature, society, or the protagonist's own fear."
+   ],
+   [
+    "“Stream of consciousness is just careless writing.”",
+    "Its run-on style is deliberate: it imitates how thoughts move."
+   ],
+   [
+    "“Calling a character an archetype is enough analysis.”",
+    "Explain what the archetype does in this story and how the writer uses or changes it."
+   ],
+   [
+    "“A first-person narrator always knows everything about the story.”",
+    "A narrator may understand only part of what happened, or understand it only later."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Literature and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+  "sourceTitle": "AP English Literature and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "lit4-a",
+   "title": "Passage 1: from a story about two brothers and a farm",
+   "text": [
+    "(1) Ray had stayed. That was the whole of the argument, as far as he was concerned, and he made it again at the kitchen table while his brother Owen turned his hat in his hands. “Twenty years I've run this place. You sent a card at Christmas.”",
+    "(2) Owen did not answer at once. He looked past Ray to the window, where the north field lay brown under a thin rain, and he thought of the letter from the bank folded in his coat pocket, the one Ray had not opened.",
+    "(3) “I'm not here to take it from you,” Owen said at last. “I'm here because it's already being taken.”",
+    "(4) Ray laughed, a short sound with no pleasure in it, and stood to put the kettle on, which was what their father had always done when he wanted a conversation to end."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit4-b",
+   "title": "Passage 2: from a story about a bus stop",
+   "text": [
+    "(1) The 42 was late again, of course it was late, it was always late on Thursdays, and Teresa counted the cracks in the shelter's plastic wall, seven, eight, the one shaped like a river, the river behind her mother's house where they had thrown bread to the ducks, did ducks still come there, did anyone, her mother would have said stop fretting, Teresa, the bus comes when it comes.",
+    "(2) A man beside her was eating an orange. The smell was so sharp and so sudden that for a moment she was nine years old and holding a peeled orange in both hands like a lamp.",
+    "(3) Then the bus came, wheezing, and she climbed on and showed her pass and sat by the window, and she did not look back at the shelter, or at the man, or at the crack shaped like a river."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit4-c",
+   "title": "Passage 3: from a story about a heat wave",
+   "text": [
+    "(1) In the fourth week of the heat, the city stopped pretending. Shops kept their grates half down at noon; the fountain in Delancey Square was switched off and filled with dry leaves; and old Mr. Sato, who had swept his front step every morning for thirty years, left the broom leaning against the door.",
+    "(2) Only Benny, who was eleven and had nowhere else to be, still went out. He walked the length of the avenue in the white glare, touching each lamppost as he passed it, as though the street might come apart if someone did not keep count.",
+    "(3) I was sixteen that summer, and I watched him from the window. I can say now, so many years later, what neither of us could have said then: that our father had left in June, and that the counting was a kind of prayer."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit4-d",
+   "title": "Passage 4: from a story about a ferry",
+   "text": [
+    "(1) The ferryman was older than anyone in the village could remember, and he had a way of looking at a passenger as if he already knew where they were going, and why.",
+    "(2) Ana was fourteen when she asked to learn the river. He gave her the pole without a word and let her push them out into the current, and when the boat swung sideways and she nearly lost it, he said only, “The river is not your enemy. Your hurry is.”",
+    "(3) She came every morning that spring. By June she could read the water, the slick that meant a sunken log, the ripple over a sandbar, and the morning he did not come down to the landing, she took the boat across alone, as if she had always known she would."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lit-u4-q01",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The central conflict in the passage is primarily between",
+   "choices": [
+    "Ray and his late father over how to run the farm",
+    "Owen and the weather, which has ruined the north field and with it the year's harvest",
+    "Owen and the bank officer who wrote the letter",
+    "Ray and Owen, over the farm and who has the right to speak about its future"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The brothers argue at the kitchen table: Ray claims the farm because he stayed, and Owen brings news Ray does not want to hear.",
+   "choiceExplanations": [
+    "The father is mentioned only in the final comparison; he takes no part in the argument.",
+    "The rain is part of the setting, not the source of the conflict.",
+    "The bank never appears; the letter is a source of the brothers' tension.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-a"
+  },
+  {
+   "id": "lit-u4-q02",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-narration",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The narration in paragraph 2, which reports Owen's thoughts, allows the reader to know",
+   "choices": [
+    "that Ray secretly plans to sell the farm",
+    "about the bank letter, which Ray has not read",
+    "that Owen wants to move back to the farm",
+    "what Ray thinks of his brother's Christmas cards"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The narrator enters Owen's mind and reveals the folded bank letter “the one Ray had not opened,” so the reader knows more than Ray does.",
+   "choiceExplanations": [
+    "Nothing suggests Ray plans to sell; he insists on keeping it.",
+    "",
+    "Owen says he is not there to take the farm.",
+    "The narration reports Owen's thoughts, not Ray's."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-a"
+  },
+  {
+   "id": "lit-u4-q03",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-setting",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The description of the north field that “lay brown under a thin rain” (paragraph 2) mainly serves to",
+   "choices": [
+    "explain why Owen arrived late",
+    "show that the farm, after a long dry spell, is about to have a good harvest",
+    "establish that the story takes place in summer",
+    "mirror the farm's decline and the gloom of the meeting"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Owen looks at the field as he thinks of the bank letter; the dull, wet field echoes the farm's trouble and the mood in the kitchen.",
+   "choiceExplanations": [
+    "The passage says nothing about Owen arriving late.",
+    "A brown field in thin rain suggests failure, not plenty.",
+    "The image suggests a bleak season; nothing points to summer.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-a"
+  },
+  {
+   "id": "lit-u4-q04",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-character",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Ray's decision to put the kettle on in paragraph 4 most strongly suggests that he",
+   "choices": [
+    "is offering Owen hospitality, a sign that he has calmly accepted his brother's news",
+    "has decided to open the bank letter after all",
+    "wants to show that he is calmer than his brother",
+    "is ending the talk as his father used to, avoiding a truth he won't face"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The narrator says this was what their father did “when he wanted a conversation to end,” so Ray repeats a family habit of shutting down conflict instead of facing the news.",
+   "choiceExplanations": [
+    "His laugh has “no pleasure in it,” and the father comparison signals refusal, not acceptance.",
+    "Nothing suggests he has opened the letter.",
+    "The gesture is linked to ending conversations, not to calm.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-a"
+  },
+  {
+   "id": "lit-u4-q05",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-narration",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The long, loosely linked sentence in paragraph 1 is best described as",
+   "choices": [
+    "stream of consciousness that follows Teresa's thoughts as they wander",
+    "objective reporting of events in the order they occurred, as a detached observer would see them",
+    "a dialogue between Teresa and her mother",
+    "a formal description of the bus schedule"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The sentence moves from the late bus to cracks in the wall to a river and her mother's voice, the way thoughts drift: stream of consciousness.",
+   "choiceExplanations": [
+    "",
+    "The narration follows Teresa's mind, not an outside view of events.",
+    "Her mother's words are only imagined (“would have said”); no conversation takes place.",
+    "The schedule is mentioned only as a complaint, not described formally."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-b"
+  },
+  {
+   "id": "lit-u4-q06",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-setting",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The crack in the shelter wall “shaped like a river” (paragraph 1) functions mainly to",
+   "choices": [
+    "carry Teresa's thoughts from the shelter to memories of home",
+    "foreshadow a flood later in the story",
+    "show that the bus shelter is unsafe",
+    "suggest that the city's rivers are polluted and that the damage has reached even the bus shelters"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The crack reminds her of the river behind her mother's house, so an ordinary detail of the setting opens a path into memory.",
+   "choiceExplanations": [
+    "",
+    "No flood is suggested; the river belongs to her past.",
+    "Nothing suggests danger; the crack prompts a memory.",
+    "The passage says nothing about pollution."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-b"
+  },
+  {
+   "id": "lit-u4-q07",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-character",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The effect of the orange's smell on Teresa (paragraph 2) suggests that she",
+   "choices": [
+    "dislikes the man and wants to move away",
+    "is afraid of the strangers around her",
+    "is easily carried back into her childhood by small sensations",
+    "is hungry after a long day and wishes the man would share his orange"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A sudden smell makes her “nine years old” again for a moment: her present keeps opening onto her past.",
+   "choiceExplanations": [
+    "She shows no dislike of the man.",
+    "Nothing suggests fear.",
+    "",
+    "The passage describes memory, not hunger."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-b"
+  },
+  {
+   "id": "lit-u4-q08",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-narration",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Compared with paragraph 1, the narration in paragraph 3 is",
+   "choices": [
+    "more orderly and focused on actions, as Teresa turns away from her memories",
+    "focused on the thoughts of the man eating the orange",
+    "even more crowded with memories than paragraph 1",
+    "shifted into the first person, so that Teresa speaks directly to the reader about her memories"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Paragraph 3 lists actions in order (climbed on, showed her pass, sat) and says she “did not look back” at the crack: the drifting thoughts stop as she closes off the past.",
+   "choiceExplanations": [
+    "",
+    "The man is mentioned only as something she does not look back at.",
+    "Paragraph 3 contains no memories at all.",
+    "The narration stays in the third person (“she”)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-b"
+  },
+  {
+   "id": "lit-u4-q09",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-setting",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Details in paragraph 1 such as the half-lowered grates and the dry fountain mainly convey",
+   "choices": [
+    "the first cool days of autumn",
+    "a neighborhood under construction for the summer",
+    "a city preparing for a holiday",
+    "a city worn down and slowed by the heat"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Shops half close, the fountain is shut off, and even Mr. Sato stops sweeping: the heat has made the city give up its routines.",
+   "choiceExplanations": [
+    "It is the “fourth week of the heat,” not a cool season.",
+    "No construction is mentioned.",
+    "Nothing festive is described.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-c"
+  },
+  {
+   "id": "lit-u4-q10",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Benny's habit of touching each lamppost (paragraph 2) most likely reflects his",
+   "choices": [
+    "game with friends who are following him",
+    "need to hold on to some order in a world that feels unstable",
+    "confusion about which street he lives on, since the heat has made the avenue look strange",
+    "plan to repair the street lights"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The narrator says he touched them “as though the street might come apart if someone did not keep count,” a small ritual of control.",
+   "choiceExplanations": [
+    "He walks alone; no friends are mentioned.",
+    "",
+    "Nothing suggests he is lost.",
+    "The touching is a ritual, not a repair."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-c"
+  },
+  {
+   "id": "lit-u4-q11",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-narration",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Paragraph 3 reveals that the narrator is",
+   "choices": [
+    "an outsider with no connection to Benny's family who happened to see him that summer",
+    "Mr. Sato, watching from across the street",
+    "Benny's older sibling, recalling the summer many years later",
+    "Benny himself as an adult"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The narrator was “sixteen that summer,” watched Benny from the window, and speaks of “our father,” so the narrator is an older sibling looking back.",
+   "choiceExplanations": [
+    "“Our father” shows the narrator belongs to Benny's family.",
+    "Mr. Sato is described in the third person in paragraph 1.",
+    "",
+    "The narrator watched “him,” so the narrator is not Benny."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-c"
+  },
+  {
+   "id": "lit-u4-q12",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-narration",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The distance between the adult narrator and the events (paragraph 3) affects the passage chiefly by",
+   "choices": [
+    "making the events seem invented and unreliable",
+    "hiding the reason for Benny's behavior from the reader until the story's very last line",
+    "letting the narrator name a meaning the children could not have put into words",
+    "creating suspense about whether the father will leave"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Looking back “so many years later,” the narrator can name what the counting meant (a prayer after the father left), which the children could not have said then.",
+   "choiceExplanations": [
+    "Nothing signals that the memory is false; distance adds understanding.",
+    "Paragraph 3 reveals the reason rather than hiding it.",
+    "",
+    "The father has already left (“in June”); there is no suspense about it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-c"
+  },
+  {
+   "id": "lit-u4-q13",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The ferryman most closely fits which character archetype?",
+   "choices": [
+    "The wise mentor who guides a younger person",
+    "The villain who blocks the young hero's path",
+    "The fool whose mistakes bring laughter",
+    "The trickster who deceives others"
+   ],
+   "correctAnswer": 0,
+   "explanation": "He is ageless, seems to know where people are going, teaches Ana with few words, and then disappears: the pattern of the wise mentor.",
+   "choiceExplanations": [
+    "",
+    "He helps Ana rather than opposing her.",
+    "His words are wise, not foolish.",
+    "He never deceives anyone."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-d"
+  },
+  {
+   "id": "lit-u4-q14",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-narration",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 1, the narrator describes the ferryman from a distance that",
+   "choices": [
+    "reveals his private thoughts about each passenger",
+    "emphasizes how mysterious he seems to the village",
+    "mocks the villagers for their superstitions",
+    "lets him tell his own story in the first person"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The narrator reports what the village sees (older than anyone “could remember,” a look “as if he already knew”), never his inner thoughts, which keeps him mysterious.",
+   "choiceExplanations": [
+    "His thoughts are never given; the narrator says only how he looks at passengers.",
+    "",
+    "The tone is respectful, not mocking.",
+    "The passage is in the third person."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-d"
+  },
+  {
+   "id": "lit-u4-q15",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-setting",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The river in the passage functions mainly as",
+   "choices": [
+    "a danger that ends Ana's life",
+    "a challenge through which Ana's growing skill and patience are measured",
+    "a symbol of the village's wealth",
+    "a background with no real effect on the characters or on what they learn"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Ana nearly loses the boat at first; by June she can “read the water” and crosses alone. The river is the test that shows her growth.",
+   "choiceExplanations": [
+    "Ana succeeds; she is not harmed.",
+    "",
+    "Nothing links the river to wealth.",
+    "The river shapes everything Ana learns."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-d"
+  },
+  {
+   "id": "lit-u4-q16",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "topicId": "lit4-character",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The final sentence of the passage most strongly suggests that",
+   "choices": [
+    "Ana has taken the boat without permission",
+    "Ana regrets the time she spent learning the river",
+    "Ana has taken the ferryman's place, completing the pattern in which a mentor passes on his knowledge",
+    "the ferryman has moved to another village, where he will begin to teach someone else the river"
+   ],
+   "correctAnswer": 2,
+   "explanation": "When he does not come, she crosses “as if she had always known she would”: the apprentice becomes the new ferryman, as the mentor pattern leads readers to expect.",
+   "choiceExplanations": [
+    "“As if she had always known” presents the crossing as fitting, not as theft.",
+    "Nothing suggests regret.",
+    "",
+    "The passage does not say where he has gone; the focus is on Ana taking up his role."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit4-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lit-u4-os1",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u4",
+   "title": "OpenStax Writing Guide with Handbook, 16.5 Writing Process: Thinking Critically About Text",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/16-5-writing-process-thinking-critically-about-text",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on exploring areas of analysis in fiction, such as character, setting, and point of view. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/16-5-writing-process-thinking-critically-about-text",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Literature free-response questions (poetry analysis, prose fiction analysis, and literary argument) draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lit-u4-q01",
+    "lit-u4-q02",
+    "lit-u4-q03",
+    "lit-u4-q04",
+    "lit-u4-q05",
+    "lit-u4-q06",
+    "lit-u4-q07",
+    "lit-u4-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lit-u4-q09",
+    "lit-u4-q10",
+    "lit-u4-q11",
+    "lit-u4-q12",
+    "lit-u4-q13",
+    "lit-u4-q14",
+    "lit-u4-q15",
+    "lit-u4-q16"
+   ]
+  }
+ ]
+}

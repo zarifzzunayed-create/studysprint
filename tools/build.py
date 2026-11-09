@@ -532,7 +532,8 @@ def write_inventory(L, cat, detail):
             excl = [u["name"].split(":")[0] for u, d, st, ti in us if u.get("examAssessed") is False]
             exam = "%d of %d exam-assessed units ready" % (s["examReady"], s["examUnits"]) + ("; %s in the framework but not assessed on the AP Exam" % " and ".join(excl) if excl else "; no unit recorded as excluded from the exam")
             L.append("| %s | Unit-based (units checked) | %s | %d | %d | %s | %d | %s | %s |" % (c["name"], src, s["units"], s["ready"], exam, len(s["unitTests"]), course_state(c)[1],
-                "Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit"))
+                "Unit review notes, original multiple-choice (and numeric) questions, %s" % (
+                    "%d practice tests across %d ready units (see Practice tests below)" % (sum(s["unitTests"].values()), len(s["unitTests"])) if s["unitTests"] else "no practice tests yet")))
         else:
             fw = c["framework"]
             L.append("| %s | Not checked | — | not listed | 0 | not known | 0 | %s | Expected (unverified): %s |" % (c["name"], course_state(c)[1], fw["expectedNote"]))

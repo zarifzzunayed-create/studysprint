@@ -1,0 +1,729 @@
+{
+ "courseId": "ap-english-literature-and-composition",
+ "unitId": "u8",
+ "title": "Unit 8: Poetry III",
+ "topics": [
+  {
+   "id": "lit8-structure",
+   "name": "Punctuation and structural patterns",
+   "covers": [
+    "Looking at punctuation and structural patterns"
+   ],
+   "frameworkCovers": [
+    "3.C Explain the function of structure in a text.",
+    "3.D Explain the function of contrasts within a text."
+   ]
+  },
+  {
+   "id": "lit8-ambiguity",
+   "name": "Juxtaposition, paradox, irony, ambiguity, and symbol",
+   "covers": [
+    "Interpreting juxtaposition, paradox, and irony",
+    "How ambiguity can allow for various interpretations",
+    "Identifying symbols, conceits, and allusions"
+   ],
+   "frameworkCovers": [
+    "5.B Explain the function of specific words and phrases in a text.",
+    "5.C Identify and explain the function of a symbol.",
+    "6.B Identify and explain the function of a metaphor.",
+    "6.D Identify and explain the function of an allusion."
+   ]
+  },
+  {
+   "id": "lit8-argument",
+   "name": "Writing about poems: citation and thesis",
+   "covers": [
+    "Learning proper attribution and citation in literary analysis"
+   ],
+   "frameworkCovers": [
+    "7.B Develop a thesis statement that conveys a defensible claim about an interpretation of literature and that may establish a line of reasoning.",
+    "7.C Develop commentary that establishes and explains relationships among textual evidence, the line of reasoning, and the thesis.",
+    "7.D Select and use relevant and sufficient evidence to both develop and support a line of reasoning.",
+    "7.E Demonstrate control over the elements of composition to communicate clearly."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 8: Poetry III: review guide",
+  "intro": "This unit reads poems whose meaning depends on punctuation, line breaks, and contrast, and on figures such as paradox, irony, conceit, and allusion. It also practices quoting and citing poems accurately in your own analysis.",
+  "sections": [
+   {
+    "id": "s-lit8-structure",
+    "topicId": "lit8-structure",
+    "title": "Punctuation and structural patterns",
+    "body": [
+     "Punctuation controls pace. Short, full-stop sentences can sound stunned or flat; dashes interrupt; a line that runs on into the next without punctuation (enjambment) pulls the reader forward.",
+     "Structural patterns include repetition, parallel lines, and a line set apart by length or position. A very short final line stands out, so ask what it emphasizes."
+    ],
+    "points": [
+     "Read the punctuation as part of the meaning.",
+     "Notice which line or word a break or pause isolates."
+    ]
+   },
+   {
+    "id": "s-lit8-ambiguity",
+    "topicId": "lit8-ambiguity",
+    "title": "Juxtaposition, paradox, irony, symbol, conceit, allusion",
+    "body": [
+     "Juxtaposition places two things side by side so that each sharpens the other. A paradox seems self-contradictory but expresses a truth (“the loudest quiet”). Irony is a gap between what is said or expected and what is meant or happens.",
+     "A conceit is an extended, often surprising comparison developed in detail, such as love as map-making. An allusion refers briefly to a well-known story. Ambiguity, when a line supports more than one reading, can be part of a poem's meaning; choose the reading the evidence best supports, and explain why."
+    ],
+    "points": [
+     "Explain what a paradox or irony reveals, not just that it exists.",
+     "When a line is ambiguous, show how more than one meaning works together."
+    ]
+   },
+   {
+    "id": "s-lit8-argument",
+    "topicId": "lit8-argument",
+    "title": "Quoting and citing poems",
+    "body": [
+     "When you quote a poem, use its exact words inside quotation marks, mark line breaks with a slash ( / ), and cite line numbers in parentheses, for example: the speaker's father has hands “rough as bark” (line 1). Attribute ideas to “the speaker,” not to the poet, unless you have a reason to.",
+     "Each quotation should support a claim, and your commentary should explain how it supports that claim. Quote only the words you need."
+    ],
+    "points": [
+     "Quote exactly; check every word.",
+     "Pair every quotation with commentary that connects it to your thesis."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Rewrite this sentence to quote and cite correctly: The poet says the city is a field of lit windows that never sleeps in lines 3 and 4.",
+   "solution": "The speaker calls the city “a field of lit windows / that never sleeps” (lines 3–4). The fix adds quotation marks around the exact words, a slash for the line break, a line citation, and attributes the words to the speaker."
+  },
+  "misconceptions": [
+   [
+    "“The speaker is always the poet.”",
+    "The speaker is the voice of the poem; refer to “the speaker” unless there is evidence otherwise."
+   ],
+   [
+    "“Ambiguity means the poem is unclear or badly written.”",
+    "Ambiguity can be deliberate, letting a line hold more than one meaning."
+   ],
+   [
+    "“Irony just means something funny.”",
+    "Irony is a gap between expectation and reality, or between words and meaning; it can be serious."
+   ],
+   [
+    "“Line numbers don't matter if the quotation is right.”",
+    "Citations let readers find and check your evidence."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Literature and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+  "sourceTitle": "AP English Literature and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "lit8-a",
+   "title": "Poem 1: “Inventory After the Flood”",
+   "text": [
+    "(1) One chair. One cup — the blue one — cracked.",
+    "(2) The photographs, which held their breath",
+    "(3) a week in water, now",
+    "(4) let go of every face.",
+    "(5) The clock. The coat. My mother's ring,",
+    "(6) which the river did not want,",
+    "(7) and gave back."
+   ],
+   "attribution": "Original poem written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit8-b",
+   "title": "Poem 2: “Hospital Window”",
+   "text": [
+    "(1) Below, the parking lot is full of arrivals;",
+    "(2) above, the window shows a sky of leaving.",
+    "(3) My grandfather sleeps between them,",
+    "(4) the loudest quiet in the building.",
+    "(5) The nurse says he is comfortable.",
+    "(6) I am the one who cannot sit still."
+   ],
+   "attribution": "Original poem written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit8-c",
+   "title": "Poem 3: “The Cartographer”",
+   "text": [
+    "(1) I have been mapping you for years:",
+    "(2) the coastline of your temper,",
+    "(3) the inland calm I reach by Sunday,",
+    "(4) the river of your laughter",
+    "(5) that floods its banks each spring.",
+    "(6) And still the map is mostly white,",
+    "(7) marked only with a question, or a guess:",
+    "(8) a dragon here, or here, perhaps, a city."
+   ],
+   "attribution": "Original poem written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit8-d",
+   "title": "Poem 4: “Icarus, Retired”",
+   "text": [
+    "(1) He kept the wax, of course. A man",
+    "(2) who fell that far keeps everything.",
+    "(3) He lives now by the sea he fell in,",
+    "(4) sells honey at a roadside stand,",
+    "(5) and when the tourists ask about the sun",
+    "(6) he says it is a fine thing, at a distance."
+   ],
+   "attribution": "Original poem written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lit-u8-q01",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-structure",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The short, clipped sentences in lines 1 and 5 (such as “The clock. The coat.”) mainly create the effect of",
+   "choices": [
+    "a long argument with the river",
+    "a stunned list of what is left",
+    "a joyful celebration of what was saved",
+    "a refrain sung at the end of each stanza"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Fragments ending in full stops read like an item-by-item inventory spoken in shock, matching the title.",
+   "choiceExplanations": [
+    "The speaker lists, not argues.",
+    "",
+    "The tone is subdued, and the list includes broken and ruined things.",
+    "The phrases are not repeated as a refrain."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-a"
+  },
+  {
+   "id": "lit-u8-q02",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-argument",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which sentence correctly quotes and cites the poem?",
+   "choices": [
+    "The speaker notes that the photographs “held there breath / a week in water” (lines 2–3).",
+    "The speaker notes that the photographs held their breath a week in water.",
+    "The speaker notes that the photographs “held their breath / a week in water” (lines 2–3).",
+    "The speaker notes that the photographs “held their breath / a week in water” (lines 6–7)."
+   ],
+   "correctAnswer": 2,
+   "explanation": "The correct sentence uses the exact words in quotation marks, marks the line break with a slash, and cites the right lines.",
+   "choiceExplanations": [
+    "The quotation misspells “their,” so it does not match the poem.",
+    "The poem's words are used without quotation marks or a citation.",
+    "",
+    "The words are from lines 2–3, not lines 6–7."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-a"
+  },
+  {
+   "id": "lit-u8-q03",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-ambiguity",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In lines 6–7, the ring “the river did not want, / and gave back” functions mainly as",
+   "choices": [
+    "a symbol of what lasts beyond the flood",
+    "an allusion to a famous myth about a ring",
+    "the cause of the flood",
+    "evidence that the river has kept everything of value"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Among ruined things, the mother's ring returns. It stands for what endures, such as family memory, after loss.",
+   "choiceExplanations": [
+    "",
+    "No myth is referred to.",
+    "Nothing links the ring to the flood's cause.",
+    "The river gives the ring back."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-a"
+  },
+  {
+   "id": "lit-u8-q04",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-structure",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Setting “and gave back.” alone as the short final line (line 7) mainly serves to",
+   "choices": [
+    "complete a regular rhyme scheme",
+    "begin a new list of damaged objects",
+    "isolate and give weight to the poem's one moment of return",
+    "express the speaker's anger at the river for taking the photographs, the clock, and the coat"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The brief last line stands apart, so the one thing the river returned is emphasized against everything it took.",
+   "choiceExplanations": [
+    "The poem does not rhyme.",
+    "The poem ends here; nothing new is listed.",
+    "",
+    "The line is quiet; it does not express anger."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-a"
+  },
+  {
+   "id": "lit-u8-q05",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-ambiguity",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The phrase “the loudest quiet in the building” (line 4) is an example of",
+   "choices": [
+    "allusion",
+    "paradox",
+    "enjambment",
+    "conceit"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Quiet cannot literally be loud; the contradiction expresses how overwhelming the grandfather's silent sleep feels to the speaker.",
+   "choiceExplanations": [
+    "It refers to no outside story.",
+    "",
+    "Enjambment concerns line breaks; this phrase is complete within its line.",
+    "It is a brief phrase, not an extended comparison."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-b"
+  },
+  {
+   "id": "lit-u8-q06",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-structure",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Lines 1–2, which begin “Below” and “above,” are structured to",
+   "choices": [
+    "list the rules of the hospital",
+    "show that the speaker is lost in the building",
+    "juxtapose arrivals with leaving",
+    "describe the weather outside the hospital"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Parallel lines place a lot “full of arrivals” beside a sky “of leaving,” framing the grandfather between life coming and going.",
+   "choiceExplanations": [
+    "No rules are mentioned.",
+    "The speaker is in the room, watching.",
+    "",
+    "The “sky of leaving” is figurative, not a weather report."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-b"
+  },
+  {
+   "id": "lit-u8-q07",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-ambiguity",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Lines 5–6 contain irony mainly because",
+   "choices": [
+    "the nurse is secretly lying to the family about how ill the grandfather really is",
+    "the speaker has fallen asleep",
+    "the hospital is about to close",
+    "the dying man is called comfortable, while his visitor cannot rest"
+   ],
+   "correctAnswer": 3,
+   "explanation": "We might expect the patient to suffer and the visitor to be calm; the poem reverses this.",
+   "choiceExplanations": [
+    "Nothing suggests the nurse is lying.",
+    "The speaker “cannot sit still.”",
+    "No closing is mentioned.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-b"
+  },
+  {
+   "id": "lit-u8-q08",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-argument",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which of the following is the most defensible thesis about the poem?",
+   "choices": [
+    "Everyone should visit their grandparents in the hospital more often, since visits like the speaker's comfort the sick.",
+    "Through juxtaposition and paradox, the poem shows grief making a calm room unbearable.",
+    "The poem is about a hospital.",
+    "The poem has six lines and does not rhyme."
+   ],
+   "correctAnswer": 1,
+   "explanation": "This thesis makes an arguable interpretation and names the techniques that support it.",
+   "choiceExplanations": [
+    "This is advice about real life, not a claim about the poem.",
+    "",
+    "This names a topic, not a claim.",
+    "This is a fact about the poem's form, not an interpretation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-b"
+  },
+  {
+   "id": "lit-u8-q09",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-ambiguity",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The poem develops an extended comparison, or conceit, between",
+   "choices": [
+    "fighting a war and losing a friend",
+    "planting a garden and raising a child",
+    "traveling to the moon and leaving home",
+    "knowing a loved one and mapping land"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The coastline, inland calm, river, and blank parts of a map all stand for the beloved's moods and unknown depths.",
+   "choiceExplanations": [
+    "Nothing describes war.",
+    "No garden appears.",
+    "The poem maps land and water, not space.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-c"
+  },
+  {
+   "id": "lit-u8-q10",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-argument",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which sentence correctly attributes and cites a detail from the poem?",
+   "choices": [
+    "The speaker compares the beloved's temper to a river (line 4).",
+    "The poet admits that her husband has a bad temper (line 2).",
+    "The speaker compares the beloved's temper to a coastline (line 5).",
+    "The speaker compares the beloved's temper to a coastline (line 2)."
+   ],
+   "correctAnswer": 3,
+   "explanation": "The coastline image is in line 2, and the sentence refers to the speaker rather than assuming the poem is the poet's autobiography.",
+   "choiceExplanations": [
+    "The river is the beloved's laughter, not temper.",
+    "This treats the speaker as the poet and invents facts (a husband) not in the poem.",
+    "The coastline is in line 2, not line 5.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-c"
+  },
+  {
+   "id": "lit-u8-q11",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-ambiguity",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The statement that “the map is mostly white” (line 6) suggests that",
+   "choices": [
+    "much of the beloved is still unknown",
+    "the beloved is literally pale",
+    "the map has just been started",
+    "the speaker has stopped caring about the beloved"
+   ],
+   "correctAnswer": 0,
+   "explanation": "In the conceit, blank space on a map is unexplored territory: after years, the beloved is still largely a mystery.",
+   "choiceExplanations": [
+    "",
+    "The image is figurative.",
+    "The speaker has been mapping “for years.”",
+    "The speaker is still mapping, which shows care."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-c"
+  },
+  {
+   "id": "lit-u8-q12",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-ambiguity",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The final line, “a dragon here, or here, perhaps, a city,” can be read in more than one way. Which interpretation is best supported by the poem?",
+   "choices": [
+    "The speaker intends to move to a city.",
+    "The beloved is dangerous, and the speaker plans to leave before the dragon is found.",
+    "The unknown parts of the beloved may hold danger or wonder.",
+    "The speaker has finished mapping and found only cities."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Following “a question, or a guess,” the line offers two possibilities, threat (a dragon) or discovery (a city), and leaves the choice open: the ambiguity is the point.",
+   "choiceExplanations": [
+    "The city is part of the map conceit, not a literal move.",
+    "The line offers danger only as one possibility; there is no plan to leave.",
+    "",
+    "The map is “mostly white,” so it is not finished."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-c"
+  },
+  {
+   "id": "lit-u8-q13",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-ambiguity",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The title and details such as “the wax” and “the sun” are an allusion to",
+   "choices": [
+    "the story of Noah's flood",
+    "the Greek myth of Icarus",
+    "Prometheus's theft of fire",
+    "Odysseus's long voyage home"
+   ],
+   "correctAnswer": 1,
+   "explanation": "In the myth, Icarus's wax wings melted when he flew too near the sun, and he fell into the sea. The poem imagines his life afterward.",
+   "choiceExplanations": [
+    "Nothing refers to a flood or an ark.",
+    "",
+    "The sun here is what Icarus flew toward, not stolen fire.",
+    "No voyage home is described."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-d"
+  },
+  {
+   "id": "lit-u8-q14",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-structure",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The poem's movement from the fall (lines 1–2) to his present life (lines 3–6) mainly serves to",
+   "choices": [
+    "contrast a dramatic fall with a chastened, ordinary life",
+    "show that Icarus has forgotten his fall",
+    "retell the myth exactly as it is traditionally told, from the flight to the fall into the sea",
+    "build toward a second flight at the end"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The poem turns a story of spectacular failure into a quiet life by the sea, selling honey and offering cautious advice.",
+   "choiceExplanations": [
+    "",
+    "He “kept the wax,” so he remembers.",
+    "In the traditional myth Icarus dies; the poem imagines an afterward.",
+    "There is no second flight; he admires the sun “at a distance.”"
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-d"
+  },
+  {
+   "id": "lit-u8-q15",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-argument",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which sentence uses evidence from the poem most effectively to support the claim that Icarus has learned caution?",
+   "choices": [
+    "He calls the sun “a fine thing, at a distance” (line 6), suggesting he now respects limits.",
+    "He sells honey at a roadside stand, which shows he is rich.",
+    "He “kept the wax” (line 1), proving that he is secretly planning to fly toward the sun again someday.",
+    "The poem is about Icarus, so it must be about caution."
+   ],
+   "correctAnswer": 0,
+   "explanation": "The quotation is accurate and cited, and the commentary explains how it supports the claim.",
+   "choiceExplanations": [
+    "",
+    "No quotation or citation is given, and nothing suggests wealth.",
+    "The quotation is accurate, but the poem gives no evidence of plans to fly again.",
+    "This assumes the claim rather than supporting it with evidence."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-d"
+  },
+  {
+   "id": "lit-u8-q16",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "topicId": "lit8-ambiguity",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which reading of the detail that he “sells honey” (line 4) is best supported?",
+   "choices": [
+    "It is an allusion to a different myth about bees.",
+    "It shows that he has become wealthy and powerful.",
+    "It shows that he has completely forgotten the fall and has moved on to a new, untroubled life.",
+    "Bees make both honey and wax, so his new life stays linked to what failed him."
+   ],
+   "correctAnswer": 3,
+   "explanation": "The poem pairs “He kept the wax” with a man who “keeps everything”; selling honey ties him again to bees and wax. The past remains part of his present.",
+   "choiceExplanations": [
+    "No second myth is referred to.",
+    "A roadside stand suggests a modest life.",
+    "He keeps the wax and talks about the sun, so he has not forgotten.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit8-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lit-u8-os1",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "title": "OpenStax Writing Guide with Handbook, 12.6 Editing Focus: Integrating Sources and Quotations",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/12-6-editing-focus-integrating-sources-and-quotations",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on introducing and integrating quotations. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/12-6-editing-focus-integrating-sources-and-quotations",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-lit-u8-os2",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u8",
+   "title": "OpenStax Writing Guide with Handbook, 16.6 Editing Focus: Literary Works Live in the Present",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/16-6-editing-focus-literary-works-live-in-the-present",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on using the literary present tense. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/16-6-editing-focus-literary-works-live-in-the-present",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Literature free-response questions (poetry analysis, prose fiction analysis, and literary argument) draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lit-u8-q01",
+    "lit-u8-q02",
+    "lit-u8-q03",
+    "lit-u8-q04",
+    "lit-u8-q05",
+    "lit-u8-q06",
+    "lit-u8-q07",
+    "lit-u8-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lit-u8-q09",
+    "lit-u8-q10",
+    "lit-u8-q11",
+    "lit-u8-q12",
+    "lit-u8-q13",
+    "lit-u8-q14",
+    "lit-u8-q15",
+    "lit-u8-q16"
+   ]
+  }
+ ]
+}

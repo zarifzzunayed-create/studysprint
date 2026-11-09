@@ -1,0 +1,321 @@
+{
+ "id": "ap-english-literature-and-composition",
+ "name": "AP English Literature and Composition",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-english-literature-and-composition",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf",
+ "frameworkVersion": "AP English Literature and Composition Course and Exam Description, effective Fall 2024 (current PDF on AP Central, checked 2026-11-09), with College Board's Clarifications and Corrections implemented as of August 2025 (front matter only; further corrections listed as forthcoming concern resource links and Progress Check wording).",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-english-literature-and-composition/exam/past-exam-questions",
+  "note": null,
+  "releasedSets": [
+   {
+    "year": 2026,
+    "title": "2026 AP English Literature and Composition Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-english-literature.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP English Literature and Composition Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-english-literature-set-1.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP English Literature and Composition Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-english-literature-set-2.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP English Literature and Composition Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-english-lit-set-1.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP English Literature and Composition Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-english-lit-set-2.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP English Literature and Composition Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-english-lit-set-1.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP English Literature and Composition Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-english-lit-set-2.pdf"
+   }
+  ],
+  "setsNote": "Whole released free-response sets (PDF, College Board), linked from the course's past-exam-questions page and checked to load on 2026-11-09. For 2023–2025 College Board released two sets each year. They are not matched to units. Scoring guidelines and sample responses are on the past-exam-questions page."
+ },
+ "source": {
+  "title": "AP English Literature and Composition – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+  "verified": "2026-11-09",
+  "note": "Unit names and the “topics may include” lists were read from this page on 2026-11-09. The page gives no exam weightings by unit; the CED gives them by unit type (see the framework check)."
+ },
+ "frameworkCheck": {
+  "checked": "2026-11-09",
+  "source": "https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf",
+  "title": "AP English Literature and Composition Course and Exam Description (effective Fall 2024)",
+  "how": "The CED organizes this course by skills. Each unit's skills were read from the skill column of its unit-overview table in the CED and cross-checked against the Course at a Glance; every skill in a unit is matched to the StudySprint topic whose guide section and questions practice it. Skill wording is the CED's, with spaces restored where the PDF's text runs words together.",
+  "weightsSource": "the CED's exam section, checked 2026-11-09 (weightings are given for each unit type, not for single units)",
+  "examFormat": "From the AP Students assessment page and the CED, checked 2026-11-09: Section 1, 55 multiple-choice questions (45% of the score) in 5 sets of 8–13 questions, each set following a passage of prose fiction (which may include drama) or poetry, with at least 2 prose fiction and 2 poetry passages. Multiple-choice weighting by skill category: character 16–20%, setting 3–6%, plot and structure 16–20%, narrator or speaker 21–26%, word choice, imagery, and symbols 10–13%, comparison 10–13%, textually substantiated arguments 10–13%. Section 2, 3 free-response questions (55%): poetry analysis, prose fiction analysis, and a literary argument about a work the student chooses. StudySprint practice is multiple-choice only, in passage-based sets; essay practice uses College Board's released questions.",
+  "differences": [
+   "The AP Students page's topic lists are summaries in different words from the CED's numbered skills; both are recorded and both are build-checked. Some listed topics (for example, symbolism in Unit 3) go beyond the skills the CED assigns to that unit."
+  ]
+ },
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Short Fiction I",
+   "status": "practice-ready",
+   "file": "data/courses/ap-english-literature-and-composition/u1.json",
+   "officialTopics": [
+    "Interpreting the role of character in fiction",
+    "Identifying and interpreting setting",
+    "Understanding how a story’s structure affects interpretations",
+    "Understanding and interpreting a narrator’s perspective",
+    "Reading texts literally and figuratively",
+    "The basics of literary analysis"
+   ],
+   "examWeight": "42–49% (shared by the short fiction units 1, 4, and 7)",
+   "frameworkTopics": [
+    "1.A Identify and describe what specific textual details reveal about a character, that character’s perspective, and that character’s motives.",
+    "2.A Identify and describe specific textual details that convey or reveal a setting.",
+    "3.A Identify and describe how plot orders events in a narrative.",
+    "3.B Explain the function of a particular sequence of events in a plot.",
+    "4.A Identify and describe the narrator or speaker of a text.",
+    "4.B Identify and explain the function of point of view in a narrative.",
+    "7.A Develop a paragraph that includes 1) a claim that requires defense with evidence from the text and 2) the evidence itself."
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Poetry I",
+   "status": "practice-ready",
+   "file": "data/courses/ap-english-literature-and-composition/u2.json",
+   "officialTopics": [
+    "Identifying characters in poetry",
+    "Understanding and interpreting meaning in poetic structure",
+    "Analyzing word choice to find meaning",
+    "Identifying techniques like contrast, simile, metaphor, and alliteration"
+   ],
+   "examWeight": "36–45% (shared by the poetry units 2, 5, and 8)",
+   "frameworkTopics": [
+    "1.A Identify and describe what specific textual details reveal about a character, that character’s perspective, and that character’s motives.",
+    "3.C Explain the function of structure in a text.",
+    "3.D Explain the function of contrasts within a text.",
+    "5.B Explain the function of specific words and phrases in a text.",
+    "6.A Identify and explain the function of a simile.",
+    "6.B Identify and explain the function of a metaphor.",
+    "7.A Develop a paragraph that includes 1) a claim that requires defense with evidence from the text and 2) the evidence itself."
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Longer Fiction or Drama I",
+   "status": "practice-ready",
+   "file": "data/courses/ap-english-literature-and-composition/u3.json",
+   "officialTopics": [
+    "Interpreting character description and perspective",
+    "Character evolution throughout a narrative",
+    "Conflict and plot development",
+    "Interpreting symbolism",
+    "Identifying evidence and supporting literary arguments"
+   ],
+   "examWeight": "15–18% (shared by the longer fiction or drama units 3, 6, and 9)",
+   "frameworkTopics": [
+    "1.A Identify and describe what specific textual details reveal about a character, that character’s perspective, and that character’s motives.",
+    "1.B Explain the function of a character changing or remaining unchanged.",
+    "2.A Identify and describe specific textual details that convey or reveal a setting.",
+    "3.E Explain the function of a significant event or related set of significant events in a plot.",
+    "7.A Develop a paragraph that includes 1) a claim that requires defense with evidence from the text and 2) the evidence itself.",
+    "7.B Develop a thesis statement that conveys a defensible claim about an interpretation of literature and that may establish a line of reasoning.",
+    "7.C Develop commentary that establishes and explains relationships among textual evidence, the line of reasoning, and the thesis.",
+    "7.D Select and use relevant and sufficient evidence to both develop and support a line of reasoning.",
+    "7.E Demonstrate control over the elements of composition to communicate clearly."
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Short Fiction II",
+   "status": "practice-ready",
+   "file": "data/courses/ap-english-literature-and-composition/u4.json",
+   "officialTopics": [
+    "Protagonists, antagonists, character relationships, and conflict",
+    "Character interactions with setting and its significance",
+    "Archetypes in literature",
+    "Types of narration like stream of consciousness",
+    "Narrative distance, tone, and perspective"
+   ],
+   "examWeight": "42–49% (shared by the short fiction units 1, 4, and 7)",
+   "frameworkTopics": [
+    "1.A Identify and describe what specific textual details reveal about a character, that character’s perspective, and that character’s motives.",
+    "1.C Explain the function of contrasting characters.",
+    "1.D Describe how textual details reveal nuances and complexities in characters’ relationships with one another.",
+    "2.B Explain the function of setting in a narrative.",
+    "2.C Describe the relationship between a character and a setting.",
+    "3.A Identify and describe how plot orders events in a narrative.",
+    "3.D Explain the function of contrasts within a text.",
+    "4.A Identify and describe the narrator or speaker of a text.",
+    "4.B Identify and explain the function of point of view in a narrative.",
+    "4.C Identify and describe details, diction, or syntax in a text that reveal a narrator’s or speaker’s perspective.",
+    "7.B Develop a thesis statement that conveys a defensible claim about an interpretation of literature and that may establish a line of reasoning.",
+    "7.C Develop commentary that establishes and explains relationships among textual evidence, the line of reasoning, and the thesis.",
+    "7.D Select and use relevant and sufficient evidence to both develop and support a line of reasoning.",
+    "7.E Demonstrate control over the elements of composition to communicate clearly."
+   ]
+  },
+  {
+   "id": "u5",
+   "name": "Unit 5: Poetry II",
+   "status": "practice-ready",
+   "file": "data/courses/ap-english-literature-and-composition/u5.json",
+   "officialTopics": [
+    "Traits of closed and open structures in poetry",
+    "Use of techniques like imagery and hyperbole",
+    "Types of comparisons in poetry including personification and allusion",
+    "Identifying and interpreting extended metaphors"
+   ],
+   "examWeight": "36–45% (shared by the poetry units 2, 5, and 8)",
+   "frameworkTopics": [
+    "3.C Explain the function of structure in a text.",
+    "5.A Distinguish between the literal and figurative meanings of words and phrases.",
+    "5.B Explain the function of specific words and phrases in a text.",
+    "5.D Identify and explain the function of an image or imagery.",
+    "6.B Identify and explain the function of a metaphor.",
+    "6.C Identify and explain the function of personification.",
+    "6.D Identify and explain the function of an allusion.",
+    "7.B Develop a thesis statement that conveys a defensible claim about an interpretation of literature and that may establish a line of reasoning.",
+    "7.C Develop commentary that establishes and explains relationships among textual evidence, the line of reasoning, and the thesis.",
+    "7.D Select and use relevant and sufficient evidence to both develop and support a line of reasoning.",
+    "7.E Demonstrate control over the elements of composition to communicate clearly."
+   ]
+  },
+  {
+   "id": "u6",
+   "name": "Unit 6: Longer Fiction or Drama II",
+   "status": "practice-ready",
+   "file": "data/courses/ap-english-literature-and-composition/u6.json",
+   "officialTopics": [
+    "Interpreting foil characters",
+    "Understanding and interpreting character motives",
+    "Understanding nonlinear narrative structures like flashbacks and foreshadowing",
+    "The effect of narrative tone and bias on reading",
+    "Characters as symbols, metaphors, and archetypes",
+    "Developing literary arguments within a broader context of works"
+   ],
+   "examWeight": "15–18% (shared by the longer fiction or drama units 3, 6, and 9)",
+   "frameworkTopics": [
+    "1.A Identify and describe what specific textual details reveal about a character, that character’s perspective, and that character’s motives.",
+    "1.C Explain the function of contrasting characters.",
+    "1.E Explain how a character’s own choices, actions, and speech reveal complexities in that character, and explain the function of those complexities.",
+    "3.A Identify and describe how plot orders events in a narrative.",
+    "3.B Explain the function of a particular sequence of events in a plot.",
+    "3.D Explain the function of contrasts within a text.",
+    "4.C Identify and describe details, diction, or syntax in a text that reveal a narrator’s or speaker’s perspective.",
+    "4.D Explain how a narrator’s reliability affects a narrative.",
+    "5.C Identify and explain the function of a symbol.",
+    "7.B Develop a thesis statement that conveys a defensible claim about an interpretation of literature and that may establish a line of reasoning.",
+    "7.C Develop commentary that establishes and explains relationships among textual evidence, the line of reasoning, and the thesis.",
+    "7.D Select and use relevant and sufficient evidence to both develop and support a line of reasoning.",
+    "7.E Demonstrate control over the elements of composition to communicate clearly."
+   ]
+  },
+  {
+   "id": "u7",
+   "name": "Unit 7: Short Fiction III",
+   "status": "practice-ready",
+   "file": "data/courses/ap-english-literature-and-composition/u7.json",
+   "officialTopics": [
+    "Sudden and more gradual change in characters",
+    "Epiphany as a driver of plot",
+    "Relationships between characters and groups",
+    "Character interactions with settings",
+    "The significance of the pacing of a narrative",
+    "Setting as a symbol",
+    "Interpreting texts in their historical and societal contexts"
+   ],
+   "examWeight": "42–49% (shared by the short fiction units 1, 4, and 7)",
+   "frameworkTopics": [
+    "1.B Explain the function of a character changing or remaining unchanged.",
+    "1.D Describe how textual details reveal nuances and complexities in characters’ relationships with one another.",
+    "2.B Explain the function of setting in a narrative.",
+    "2.C Describe the relationship between a character and a setting.",
+    "3.A Identify and describe how plot orders events in a narrative.",
+    "3.B Explain the function of a particular sequence of events in a plot.",
+    "4.D Explain how a narrator’s reliability affects a narrative.",
+    "5.C Identify and explain the function of a symbol.",
+    "5.D Identify and explain the function of an image or imagery.",
+    "6.A Identify and explain the function of a simile.",
+    "6.C Identify and explain the function of personification.",
+    "7.B Develop a thesis statement that conveys a defensible claim about an interpretation of literature and that may establish a line of reasoning.",
+    "7.C Develop commentary that establishes and explains relationships among textual evidence, the line of reasoning, and the thesis.",
+    "7.D Select and use relevant and sufficient evidence to both develop and support a line of reasoning."
+   ]
+  },
+  {
+   "id": "u8",
+   "name": "Unit 8: Poetry III",
+   "status": "practice-ready",
+   "file": "data/courses/ap-english-literature-and-composition/u8.json",
+   "officialTopics": [
+    "Looking at punctuation and structural patterns",
+    "Interpreting juxtaposition, paradox, and irony",
+    "How ambiguity can allow for various interpretations",
+    "Identifying symbols, conceits, and allusions",
+    "Learning proper attribution and citation in literary analysis"
+   ],
+   "examWeight": "36–45% (shared by the poetry units 2, 5, and 8)",
+   "frameworkTopics": [
+    "3.C Explain the function of structure in a text.",
+    "3.D Explain the function of contrasts within a text.",
+    "5.B Explain the function of specific words and phrases in a text.",
+    "5.C Identify and explain the function of a symbol.",
+    "6.B Identify and explain the function of a metaphor.",
+    "6.D Identify and explain the function of an allusion.",
+    "7.B Develop a thesis statement that conveys a defensible claim about an interpretation of literature and that may establish a line of reasoning.",
+    "7.C Develop commentary that establishes and explains relationships among textual evidence, the line of reasoning, and the thesis.",
+    "7.D Select and use relevant and sufficient evidence to both develop and support a line of reasoning.",
+    "7.E Demonstrate control over the elements of composition to communicate clearly."
+   ]
+  },
+  {
+   "id": "u9",
+   "name": "Unit 9: Longer Fiction or Drama III",
+   "status": "practice-ready",
+   "file": "data/courses/ap-english-literature-and-composition/u9.json",
+   "officialTopics": [
+    "Looking at a character’s response to the resolution of a narrative",
+    "Suspense, resolution, and plot development",
+    "Narrative inconsistencies and contrasting perspectives"
+   ],
+   "examWeight": "15–18% (shared by the longer fiction or drama units 3, 6, and 9)",
+   "frameworkTopics": [
+    "1.B Explain the function of a character changing or remaining unchanged.",
+    "1.E Explain how a character’s own choices, actions, and speech reveal complexities in that character, and explain the function of those complexities.",
+    "3.E Explain the function of a significant event or related set of significant events in a plot.",
+    "4.C Identify and describe details, diction, or syntax in a text that reveal a narrator’s or speaker’s perspective.",
+    "7.B Develop a thesis statement that conveys a defensible claim about an interpretation of literature and that may establish a line of reasoning.",
+    "7.C Develop commentary that establishes and explains relationships among textual evidence, the line of reasoning, and the thesis.",
+    "7.D Select and use relevant and sufficient evidence to both develop and support a line of reasoning."
+   ]
+  }
+ ],
+ "generalResources": [
+  {
+   "id": "gen-lit-openstax",
+   "title": "OpenStax Writing Guide with Handbook (whole book)",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/details/books/writing-guide",
+   "scope": "general",
+   "kind": "textbook",
+   "note": "General: a free college writing textbook covering rhetoric, argument, textual and literary analysis, research, and style. It is not organized around the AP units, and it does not teach poetry terms in depth.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/details/books/writing-guide",
+   "sourceTitle": "OpenStax book page",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ]
+}

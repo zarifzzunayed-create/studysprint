@@ -1,0 +1,717 @@
+{
+ "courseId": "ap-english-literature-and-composition",
+ "unitId": "u3",
+ "title": "Unit 3: Longer Fiction or Drama I",
+ "topics": [
+  {
+   "id": "lit3-character",
+   "name": "Character description, perspective, and change",
+   "covers": [
+    "Interpreting character description and perspective",
+    "Character evolution throughout a narrative"
+   ],
+   "frameworkCovers": [
+    "1.A Identify and describe what specific textual details reveal about a character, that character’s perspective, and that character’s motives.",
+    "1.B Explain the function of a character changing or remaining unchanged."
+   ]
+  },
+  {
+   "id": "lit3-plot",
+   "name": "Conflict, plot development, and setting",
+   "covers": [
+    "Conflict and plot development",
+    "Interpreting symbolism"
+   ],
+   "frameworkCovers": [
+    "2.A Identify and describe specific textual details that convey or reveal a setting.",
+    "3.E Explain the function of a significant event or related set of significant events in a plot."
+   ]
+  },
+  {
+   "id": "lit3-argument",
+   "name": "Evidence and literary argument",
+   "covers": [
+    "Identifying evidence and supporting literary arguments"
+   ],
+   "frameworkCovers": [
+    "7.A Develop a paragraph that includes 1) a claim that requires defense with evidence from the text and 2) the evidence itself.",
+    "7.B Develop a thesis statement that conveys a defensible claim about an interpretation of literature and that may establish a line of reasoning.",
+    "7.C Develop commentary that establishes and explains relationships among textual evidence, the line of reasoning, and the thesis.",
+    "7.D Select and use relevant and sufficient evidence to both develop and support a line of reasoning.",
+    "7.E Demonstrate control over the elements of composition to communicate clearly."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 3: Longer Fiction or Drama I: review guide",
+  "intro": "Novels and plays develop characters and conflicts over time. This unit practices tracing how characters are described and how they change, how significant events drive a plot, and how to build a literary argument with a thesis and evidence.",
+  "sections": [
+   {
+    "id": "s-lit3-character",
+    "topicId": "lit3-character",
+    "title": "Character description, perspective, and change",
+    "body": [
+     "In longer works, characters may change (dynamic) or stay the same (static). Both matter: a character who refuses to change can reveal as much as one who transforms.",
+     "In drama, character is revealed almost entirely through dialogue and stage directions, so read what characters say, how they say it, and what they do."
+    ],
+    "points": [
+     "Compare a character early and late in a work.",
+     "Stage directions are part of the text."
+    ]
+   },
+   {
+    "id": "s-lit3-plot",
+    "topicId": "lit3-plot",
+    "title": "Conflict, plot, and setting",
+    "body": [
+     "Conflict drives plot: a character against another character, society, nature, or themselves. A significant event (a decision, a revelation, an arrival) can turn the plot.",
+     "Setting details can reveal tension and sometimes take on symbolic meaning, such as a house that falls apart as a family does."
+    ],
+    "points": [
+     "Identify the turning point and explain why it matters.",
+     "Ask how setting reflects or intensifies conflict."
+    ]
+   },
+   {
+    "id": "s-lit3-argument",
+    "topicId": "lit3-argument",
+    "title": "Evidence and literary argument",
+    "body": [
+     "A thesis states a defensible interpretation and may preview a line of reasoning. Evidence is specific textual detail; commentary explains how it supports the claim.",
+     "Choose evidence that is relevant and sufficient: enough to support the claim without padding it."
+    ],
+    "points": [
+     "A thesis is arguable, not a fact about the plot.",
+     "Commentary connects evidence to the thesis."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Write a thesis about a character who keeps a family business open long after it stops making money.",
+   "solution": "“Through his refusal to close the failing shop, the novel presents loyalty to the past as both admirable and self-destructive, a devotion that preserves the family's identity while draining its future.”"
+  },
+  "misconceptions": [
+   [
+    "“Static characters are badly written.”",
+    "A static character can be essential to the meaning of a work."
+   ],
+   [
+    "“A thesis restates the plot.”",
+    "A thesis makes an arguable claim about meaning."
+   ],
+   [
+    "“Stage directions don't count as evidence.”",
+    "They are part of the text and often reveal character."
+   ],
+   [
+    "“More quotations make a stronger argument.”",
+    "Relevant evidence with clear commentary is what persuades."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Literature and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+  "sourceTitle": "AP English Literature and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "lit3-a",
+   "title": "Passage 1: from a novel about a family orchard",
+   "text": [
+    "(1) For forty years Tomas Vela had walked the rows of the orchard every evening, touching each trunk as if counting his children. When the cannery offered to buy the land, his sons laid the papers on the kitchen table and waited.",
+    "(2) “The trees are old,” said Ramon, the elder. “They give half what they gave when you planted them.”",
+    "(3) Tomas did not look at the papers. He looked out the window, where the last light lay along the rows like a hand on a sleeping animal. “So do I,” he said.",
+    "(4) That night he walked the rows as always. But he stopped at the end of the first, and stood a long time, and came back to the house before dark."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit3-b",
+   "title": "Passage 2: from a play, Act I",
+   "text": [
+    "A cramped apartment. A suitcase stands by the door. EVE, thirty, buttons her coat. Her mother, ROSA, sits at the table, peeling potatoes she will not cook.",
+    "ROSA: You'll miss the bus.",
+    "EVE: It doesn't leave for an hour.",
+    "ROSA: (not looking up) Then you'll miss it slowly.",
+    "EVE: Mama. I'll call every Sunday.",
+    "ROSA: Sundays are long. (She sets down the knife.) Go. The city doesn't wait for anyone. That's what you like about it.",
+    "(EVE picks up the suitcase. At the door she stops, turns, and comes back to kiss her mother's hair. ROSA does not move until the door closes. Then she picks up the knife again.)"
+   ],
+   "attribution": "Original drama scene written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit3-c",
+   "title": "Passage 3: from a novel about a lighthouse school",
+   "text": [
+    "(1) When Ada arrived at the island school, she spoke to no one for a month. She ate alone, read alone, and answered questions in class with a single word.",
+    "(2) In the second month, the storm came. The power failed, and the students huddled in the library while the wind battered the windows. It was Ada who found the lanterns, Ada who knew how to light them, Ada who read aloud from the only book on the shelf, a guide to seabirds, until the younger children fell asleep.",
+    "(3) By spring, the teachers noticed, she sat at the long table with the others. She still did not say much. But when she spoke, the others leaned in."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit3-d",
+   "title": "Passage 4: a student's draft paragraph about a novel",
+   "text": [
+    "The following is a draft paragraph from a student's argument about a novel in which a woman named June inherits her aunt's piano. It may need revision.",
+    "(1) In the novel, June inherits a piano. (2) At first, June refuses to play it and covers it with a sheet. (3) Later, after she reads her aunt's letters, she begins to play every night. (4) The piano is very important in the story. (5) June's change shows that she has accepted her aunt's influence on her life."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lit-u3-q01",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Tomas's habit of touching each trunk “as if counting his children” (paragraph 1) suggests that he",
+   "choices": [
+    "is worried about money",
+    "doesn't trust his sons to run the orchard after him",
+    "regards the orchard with deep, almost parental love",
+    "is preparing to cut the trees down"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The simile links the trees to children, showing his devotion.",
+   "choiceExplanations": [
+    "Money isn't what this habit reveals.",
+    "Nothing here concerns trust.",
+    "",
+    "He tends the trees lovingly."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-a"
+  },
+  {
+   "id": "lit-u3-q02",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-plot",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the central conflict in the passage?",
+   "choices": [
+    "A dispute between the two sons",
+    "Tomas's attachment to the orchard against his sons' wish to sell it",
+    "A conflict between the cannery and the town over the land the orchard stands on",
+    "A storm threatening the trees"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The sons present the papers and argue the trees are old; Tomas resists.",
+   "choiceExplanations": [
+    "Only one son speaks; they don't disagree with each other.",
+    "",
+    "The town isn't involved.",
+    "No storm appears."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-a"
+  },
+  {
+   "id": "lit-u3-q03",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-character",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Tomas's reply “So do I” (paragraph 3) most directly reveals that he",
+   "choices": [
+    "intends to plant new trees immediately",
+    "misunderstands his son's point",
+    "is boasting about his strength",
+    "sees his own aging in the aging trees"
+   ],
+   "correctAnswer": 3,
+   "explanation": "He answers that he, too, gives less than he once did, identifying with the orchard.",
+   "choiceExplanations": [
+    "Nothing suggests replanting.",
+    "He understands and turns the point on himself.",
+    "He admits weakness rather than boasting.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-a"
+  },
+  {
+   "id": "lit-u3-q04",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-character",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How does paragraph 4 suggest a change in Tomas?",
+   "choices": [
+    "He decides firmly, then and there, that he will never sell the land to the cannery at any price",
+    "He becomes angry with his sons",
+    "He forgets to walk the rows",
+    "He breaks his long routine, hinting that he has begun to accept the end of the orchard"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Stopping after the first row and returning early departs from forty years of habit, suggesting the beginning of acceptance.",
+   "choiceExplanations": [
+    "The broken routine suggests change, not stronger resistance.",
+    "No anger is shown.",
+    "He walks the rows but stops early; he doesn't forget.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-a"
+  },
+  {
+   "id": "lit-u3-q05",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-plot",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which detail in the opening stage directions most directly signals the conflict?",
+   "choices": [
+    "The cramped apartment",
+    "The suitcase standing by the door",
+    "Rosa's age",
+    "Eve buttoning her coat by the door"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The suitcase shows that someone is leaving, the event that creates the tension.",
+   "choiceExplanations": [
+    "The apartment sets the scene but doesn't signal departure.",
+    "",
+    "Rosa's age isn't given.",
+    "Buttoning a coat is less specific than a packed suitcase."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-b"
+  },
+  {
+   "id": "lit-u3-q06",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Rosa's line “Then you'll miss it slowly” most likely reveals",
+   "choices": [
+    "her confusion about the bus schedule",
+    "her resentment and sadness at Eve's leaving, expressed through dry humor",
+    "her excitement about Eve's trip to the city and the new life Eve will have there",
+    "her wish that Eve leave quickly"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The wry remark masks hurt: Rosa can't say directly that she doesn't want Eve to go.",
+   "choiceExplanations": [
+    "She isn't confused; she is deflecting.",
+    "",
+    "Nothing suggests excitement.",
+    "Her later actions show she wishes Eve would stay."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-b"
+  },
+  {
+   "id": "lit-u3-q07",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-plot",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The detail that Rosa is “peeling potatoes she will not cook” most likely suggests that",
+   "choices": [
+    "she has forgotten how to cook",
+    "she is angry about the cost of food and wants to waste none of it",
+    "she is preparing a farewell dinner",
+    "she is keeping her hands busy to avoid facing the moment"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The pointless task is a way of avoiding emotion.",
+   "choiceExplanations": [
+    "Nothing suggests she forgot.",
+    "Cost isn't mentioned.",
+    "She “will not cook” them.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-b"
+  },
+  {
+   "id": "lit-u3-q08",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-character",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What do the final stage directions reveal about Rosa?",
+   "choices": [
+    "She plans to follow Eve to the city on a later bus, once the potatoes are peeled",
+    "She holds back her emotion until Eve is gone, then returns to her task to cope",
+    "She is indifferent to Eve's departure",
+    "She is relieved that Eve has left"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Her stillness until the door closes, then resuming the knife, shows restrained grief.",
+   "choiceExplanations": [
+    "Nothing suggests she will follow.",
+    "",
+    "Her stillness suggests strong, suppressed feeling.",
+    "Her stillness suggests grief, not relief."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-b"
+  },
+  {
+   "id": "lit-u3-q09",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How is Ada characterized in paragraph 1?",
+   "choices": [
+    "As outgoing and talkative",
+    "As rude to her teachers",
+    "As withdrawn and solitary",
+    "As homesick and tearful at school"
+   ],
+   "correctAnswer": 2,
+   "explanation": "She speaks to no one, eats and reads alone, and answers in single words.",
+   "choiceExplanations": [
+    "She is the opposite of outgoing.",
+    "Brief answers aren't described as rude.",
+    "",
+    "No tears are mentioned."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-c"
+  },
+  {
+   "id": "lit-u3-q10",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-plot",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the function of the storm in the plot?",
+   "choices": [
+    "It is the significant event that reveals Ada's abilities and begins her change",
+    "It introduces a new teacher",
+    "It ends the school year",
+    "It forces Ada and her family to leave the island and start again on the mainland"
+   ],
+   "correctAnswer": 0,
+   "explanation": "During the storm Ada takes charge, and afterward her relationship with the others changes.",
+   "choiceExplanations": [
+    "",
+    "No new teacher appears.",
+    "The school year continues to spring.",
+    "She stays."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-c"
+  },
+  {
+   "id": "lit-u3-q11",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-character",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "By spring, how has Ada changed?",
+   "choices": [
+    "She joins the others and is listened to, though she still speaks little",
+    "She has stopped reading",
+    "She has become the most talkative student in the class, leading every discussion",
+    "She has left the school"
+   ],
+   "correctAnswer": 0,
+   "explanation": "She sits with the others, and when she speaks they lean in; her quietness remains.",
+   "choiceExplanations": [
+    "",
+    "Nothing says she stopped reading.",
+    "She “still did not say much.”",
+    "She is still there."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-c"
+  },
+  {
+   "id": "lit-u3-q12",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-argument",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which thesis is best supported by the passage?",
+   "choices": [
+    "The novel shows that island schools are lonely places where quiet students are never noticed by anyone at all",
+    "The novel argues that storms are dangerous",
+    "The novel proves that reading aloud is easy",
+    "The novel suggests that crisis can reveal a quiet person's strength and earn her a place in a community"
+   ],
+   "correctAnswer": 3,
+   "explanation": "This defensible interpretation connects Ada's isolation, her actions in the storm, and her acceptance.",
+   "choiceExplanations": [
+    "Ada's loneliness ends, so this misses the passage's arc.",
+    "This is a general statement, not an interpretation of the passage.",
+    "This isn't a defensible literary claim.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-c"
+  },
+  {
+   "id": "lit-u3-q13",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-argument",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which sentence in the draft states the student's interpretive claim?",
+   "choices": [
+    "Sentence (1)",
+    "Sentence (2)",
+    "Sentence (5)",
+    "Sentence (4)"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Sentence (5) interprets June's change; the others summarize or generalize.",
+   "choiceExplanations": [
+    "Sentence (1) is plot summary.",
+    "Sentence (2) is evidence.",
+    "",
+    "Sentence (4) is vague."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-d"
+  },
+  {
+   "id": "lit-u3-q14",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-argument",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why is sentence (4) weak?",
+   "choices": [
+    "It makes a vague assertion without explaining why the piano matters",
+    "It contradicts the claim that the paragraph goes on to make in sentence (5)",
+    "It is a quotation",
+    "It contains too much evidence"
+   ],
+   "correctAnswer": 0,
+   "explanation": "“Very important” says nothing specific about the piano's role.",
+   "choiceExplanations": [
+    "",
+    "It doesn't contradict anything.",
+    "It isn't a quotation.",
+    "It contains no evidence."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-d"
+  },
+  {
+   "id": "lit-u3-q15",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-argument",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which revision of sentence (4) adds the most useful commentary?",
+   "choices": [
+    "The covered piano reflects June's refusal to acknowledge her aunt; playing it marks her acceptance of that inheritance.",
+    "The piano has eighty-eight keys.",
+    "Pianos appear in many novels about families and inheritance, often as symbols of the past, of memory, and of lost talent.",
+    "The piano is a large instrument."
+   ],
+   "correctAnswer": 0,
+   "explanation": "It explains how the evidence (covering, then playing) supports the claim.",
+   "choiceExplanations": [
+    "",
+    "This is an irrelevant fact.",
+    "This is unrelated to the novel's meaning.",
+    "This is a fact, not commentary."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-d"
+  },
+  {
+   "id": "lit-u3-q16",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "topicId": "lit3-argument",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which revision of sentence (5) makes the most defensible, precise thesis?",
+   "choices": [
+    "The novel is about a piano.",
+    "June's aunt was a talented musician, as the novel says, and for many years she played the piano every single night.",
+    "June's shift from covering the piano to playing it nightly shows her accepting, and continuing, her aunt's influence.",
+    "June changes."
+   ],
+   "correctAnswer": 2,
+   "explanation": "It names the specific change and its meaning in a claim the evidence can support.",
+   "choiceExplanations": [
+    "This states the topic, not a claim.",
+    "This is a factual statement, not an interpretation.",
+    "",
+    "This is too vague to argue."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit3-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lit-u3-os1",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "title": "OpenStax Writing Guide with Handbook, 16.5 Writing Process: Thinking Critically About Text",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/16-5-writing-process-thinking-critically-about-text",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on drafting an analysis of fiction, including character and theme. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/16-5-writing-process-thinking-critically-about-text",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-lit-u3-os2",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u3",
+   "title": "OpenStax Writing Guide with Handbook, 16.6 Editing Focus: Literary Works Live in the Present",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/16-6-editing-focus-literary-works-live-in-the-present",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on using the literary present tense. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/16-6-editing-focus-literary-works-live-in-the-present",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Literature free-response questions (poetry analysis, prose fiction analysis, and literary argument) draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lit-u3-q01",
+    "lit-u3-q02",
+    "lit-u3-q03",
+    "lit-u3-q04",
+    "lit-u3-q09",
+    "lit-u3-q10",
+    "lit-u3-q11",
+    "lit-u3-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lit-u3-q05",
+    "lit-u3-q06",
+    "lit-u3-q07",
+    "lit-u3-q08",
+    "lit-u3-q13",
+    "lit-u3-q14",
+    "lit-u3-q15",
+    "lit-u3-q16"
+   ]
+  }
+ ]
+}
