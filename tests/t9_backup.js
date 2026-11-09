@@ -133,5 +133,13 @@ async function loadFile(p, name, content) {
   T.ok(/blocking storage/.test(await T.text(p, '#v-data')) && await stat(p, 'questions answered') === '1', 'My data warns and still offers a backup of this tab\'s answers');
   T.ok(p.errs.length === 0, 'no page errors with storage blocked (' + p.errs.join(' | ') + ')');
 
+  /* ---- a backup that mentions a removed course names it as no longer offered ---- */
+  p = await T.fresh(b); await myData(p);
+  const remBackup = { app: 'StudySprint', format: 1, exportedAt: new Date().toISOString(),
+    progress: { v: 3, q: {}, u: { 'ap-drawing/u1': { level: 1, streak: 0, wrong: 0, pref: [0, 2], cycle: [] } }, ctx: null, sess: [], runs: {} } };
+  const remPv = await loadFile(p, 'removed.json', JSON.stringify(remBackup));
+  T.ok(/AP Drawing \(no longer offered on StudySprint\): 1 unit/.test(remPv), 'restore preview names a removed course as no longer offered: ' + remPv.slice(0, 160));
+  await p.context().close();
+
   console.log(T.summary()); await b.close();
 })().catch(e => { console.error(e); process.exit(1); });

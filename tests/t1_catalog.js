@@ -100,5 +100,33 @@ const swapTo = outlineOnly || CAT.courses.find(c => c.id === 'ap-calculus-bc');
   await T.openUnit(p, 'AP Precalculus', 'u2');
   T.ok(!/not assessed on the AP Exam/.test(await T.text(p, '#v-overview')), 'an exam-assessed unit carries no such label');
   T.ok(p.errs.length === 0, 'no console errors ' + JSON.stringify(p.errs));
+  /* ---- removed courses: not offered anywhere, and old saved progress that mentions one is handled safely ---- */
+  const REM = CAT.removedCourses.courses;
+  T.ok(REM.length === 21 && CAT.courses.length === 19 && REM.every(r => !CAT.courses.some(c => c.id === r.id) && !fs.existsSync(path.join(T.ROOT, 'data', 'courses', r.id))),
+    'catalog keeps 19 courses; the 21 removed courses are listed as removed and have no course folders');
+  const pr = await T.fresh(b);
+  const searchHits = [];
+  for (const r of REM) {
+    await pr.fill('#c-search', r.name);
+    const opts = await pr.$$eval('#c-list .opt', e => e.map(x => x.textContent));
+    if (opts.some(o => o.startsWith(r.name))) searchHits.push(r.name);
+  }
+  await pr.fill('#c-search', '');
+  const quick = await pr.$$eval('#c-quick .quick-list li', l => l.map(x => x.textContent));
+  T.ok(!searchHits.length && !REM.some(r => quick.some(q => q.startsWith(r.name))), 'no removed course appears in course search or the home page' + (searchHits.length ? ': ' + searchHits.join(', ') : ''));
+  await pr.fill('#c-search', 'AP Drawing');
+  T.ok(await pr.$eval('#c-msg', e => !e.hidden && e.textContent.includes('is not available yet')), 'searching for a removed course says it is not available');
+  await pr.context().close();
+  const old = { v: 3, q: {}, u: { 'ap-drawing/u1': { level: 1, streak: 0, wrong: 0, pref: [0, 2], cycle: [] }, 'ap-physics-1/u1': { level: 2, streak: 1, wrong: 0, pref: [0, 2], cycle: [] } },
+    ctx: { courseId: 'ap-drawing', unitId: 'u1', unitName: 'Unit 1', view: 'overview' }, sess: [],
+    runs: { 'practice|ap-drawing/u1': { key: 'practice|ap-drawing/u1', kind: 'practice', unitKey: 'ap-drawing/u1', courseId: 'ap-drawing', unitId: 'u1', unitName: 'Unit 1', updated: Date.now(), state: {}, opts: {} } } };
+  const po = await T.fresh(b, { init: `if (!sessionStorage.getItem('seeded')) { localStorage.setItem('studysprint:v3', ${JSON.stringify(JSON.stringify(old))}); sessionStorage.setItem('seeded', '1'); }` });
+  await po.reload(); await po.waitForSelector('#c-search');
+  const home = await T.text(po, '#v-home');
+  const kept = await po.evaluate(() => JSON.parse(localStorage.getItem('studysprint:v3')).u['ap-physics-1/u1']);
+  T.ok(!/AP Drawing/.test(home) && !/Unfinished practice/.test(home) && !/Continue where you left off/.test(home) && kept && kept.level === 2 && !po.errs.length,
+    'saved progress that mentions a removed course loads without errors, offers nothing for that course, and keeps progress for kept courses');
+  await po.context().close();
+
   console.log(T.summary()); await b.close();
 })();

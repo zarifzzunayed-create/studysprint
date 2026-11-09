@@ -831,7 +831,11 @@
     ["practice", "planner", "learn", "test"].forEach((v) => $("v-" + v).replaceChildren());
     renderResume();
   }
-  const courseName = (id) => { const c = ST.cat && ST.cat.courses.find((x) => x.id === id); return c ? c.name : "Course not on this site (" + id + ")"; };
+  const courseName = (id) => {
+    const c = ST.cat && ST.cat.courses.find((x) => x.id === id); if (c) return c.name;
+    const r = ST.cat && ST.cat.removedCourses && (ST.cat.removedCourses.courses || []).find((x) => x.id === id);
+    return r ? r.name + " (no longer offered on StudySprint)" : "Course not on this site (" + id + ")";
+  };
   function field(el, text, help) {
     const l = h("label", null, text); l.htmlFor = el.id;
     let hp = null;

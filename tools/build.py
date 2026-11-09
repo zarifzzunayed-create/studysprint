@@ -246,6 +246,19 @@ def main():
     ids = [c["id"] for c in cat["courses"]]
     if len(set(ids)) != len(ids):
         err("catalog: duplicate course ids")
+    # Removed courses: documented, never offered, and never holding content.
+    rem = cat.get("removedCourses") or {}
+    for r in rem.get("courses", []):
+        if r.get("id") in ids:
+            err("catalog: %s is listed as removed but is still in the active catalog" % r.get("id"))
+        if os.path.exists(os.path.join(ROOT, "data", "courses", r.get("id", ""))):
+            err("catalog: removed course %s still has a data/courses folder" % r.get("id"))
+        if not r.get("name"):
+            err("catalog: removed course %s needs its name" % r.get("id"))
+    if rem.get("courses") and not (rem.get("removed") and rem.get("note")):
+        err("catalog: removedCourses needs a removed date and a note")
+    if set(cat["priorityOrder"]) - set(ids):
+        err("catalog: priorityOrder lists courses that are not in the catalog: %s" % sorted(set(cat["priorityOrder"]) - set(ids)))
     all_q = set()
     detail = {}
     for c in cat["courses"]:
@@ -444,8 +457,13 @@ def write_status(cat, detail, planner, rules):
         L.append("")
     out = [c["name"] for c in cat["courses"] if not c["outline"]]
     L.append("## Catalog entries without a unit outline\n")
-    L.append("These courses appear in search with a link to College Board's released free-response page and are labelled \"Catalog only\". Nothing is invented for them. (%d entries; the number is not assumed anywhere in the site.)\n" % len(out))
-    L.append(", ".join(out) + ".\n")
+    L.append("These courses are planned for future content work. They appear in search with a link to College Board's released free-response page and are labelled \"Catalog only\". Nothing is invented for them. (%d entries.)\n" % len(out))
+    L.append((", ".join(out) if out else "None") + ".\n")
+    rem = cat.get("removedCourses") or {}
+    if rem.get("courses"):
+        L.append("## Courses removed from the catalog (%s)\n" % rem["removed"])
+        L.append(rem["note"] + "\n")
+        L.append(", ".join(r["name"] for r in rem["courses"]) + ". (%d courses.)\n" % len(rem["courses"]))
     # gaps computed from the data
     no_links, listing = [], []
     for cid, (cd, units) in detail.items():
@@ -493,6 +511,8 @@ def write_inventory(L, cat, detail):
     eu = sum(c["summary"]["examUnits"] for c in checked)
     er = sum(c["summary"]["examReady"] for c in checked)
     L.append("## Course inventory (every catalog course)\n")
+    if cat.get("catalogScope"):
+        L.append(cat["catalogScope"]["note"] + " (Decided %s.)\n" % cat["catalogScope"]["decided"])
     L.append("Each row comes from `data/catalog.json` and the course's `course.json`. A course framework counts as checked only when its official units were read from College Board's pages and recorded with a source link and date. Courses that have not been checked list no units at all; their \"expected format\" is a planning note from general knowledge, not a verified fact, and must be confirmed against the official Course and Exam Description before any content is written.\n")
     L.append("**Totals:** %d of %d catalog courses have a checked course framework, with %d official units in all. **%d of those %d units have usable review content and a question bank (practice-ready).** %d course%s %s complete. %d course%s %s no checked framework yet.\n" % (
         len(checked), len(courses), units, ready, units,

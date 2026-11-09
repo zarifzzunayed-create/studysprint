@@ -24,13 +24,21 @@ StudySprint is a review site, not a complete course or textbook. Guides are shor
 10. AP Biology: complete. 8 of 8 units practice-ready, 0 in progress, 0 outline only
 11. AP English Language and Composition: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
 12. AP United States History: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
-13. AP Computer Science A: catalog entry only (course framework not checked yet)
+13. AP English Literature and Composition: catalog entry only (course framework not checked yet)
+14. AP World History: Modern: catalog entry only (course framework not checked yet)
+15. AP U.S. Government and Politics: catalog entry only (course framework not checked yet)
+16. AP Psychology: catalog entry only (course framework not checked yet)
+17. AP Macroeconomics: catalog entry only (course framework not checked yet)
+18. AP Microeconomics: catalog entry only (course framework not checked yet)
+19. AP Computer Science A: catalog entry only (course framework not checked yet)
 
 ## Course inventory (every catalog course)
 
+StudySprint's catalog is deliberately limited to the courses the project owner chose to support: 12 complete courses and 7 planned for future content work. It is not a list of every AP course College Board offers. (Decided 2026-11-09.)
+
 Each row comes from `data/catalog.json` and the course's `course.json`. A course framework counts as checked only when its official units were read from College Board's pages and recorded with a source link and date. Courses that have not been checked list no units at all; their "expected format" is a planning note from general knowledge, not a verified fact, and must be confirmed against the official Course and Exam Description before any content is written.
 
-**Totals:** 12 of 40 catalog courses have a checked course framework, with 90 official units in all. **90 of those 90 units have usable review content and a question bank (practice-ready).** 12 courses are complete. 28 courses have no checked framework yet.
+**Totals:** 12 of 19 catalog courses have a checked course framework, with 90 official units in all. **90 of those 90 units have usable review content and a question bank (practice-ready).** 12 courses are complete. 7 courses have no checked framework yet.
 
 **Framework coverage and exam coverage are counted separately.** 1 of the 90 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 89 units with no such exclusion recorded, 89 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
 
@@ -48,47 +56,18 @@ Each row comes from `data/catalog.json` and the course's `course.json`. A course
 | AP Biology | Unit-based (units checked) | [AP Biology – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-biology), checked 2026-11-08. AP Biology Course and Exam Description, effective Fall 2025 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections implemented as of June 2026. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf). | 8 | 8 | 8 of 8 exam-assessed units ready; no unit recorded as excluded from the exam | 8 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP English Language and Composition | Unit-based (units checked) | [AP English Language and Composition – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-english-language-and-composition), checked 2026-11-08. AP English Language and Composition Course and Exam Description, effective Fall 2024 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections implemented as of June 2025. Further corrections listed as forthcoming concern resource links and Progress Check wording only. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
 | AP United States History | Unit-based (units checked) | [AP United States History – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-united-states-history), checked 2026-11-08. AP U.S. History Course and Exam Description, effective Fall 2026 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections for Fall 2026 (exam changes beginning with the May 2027 exam). [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, one short practice test per ready unit |
-| AP Computer Science A | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; multiple-choice questions fit the existing format, but free-response questions ask for Java code, which the site cannot check. |
-| AP Research | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be assessed through a year-long research project (an academic paper and a presentation with oral defense) rather than a multiple-choice exam. Needs project guidance, not a question bank. |
-| AP Seminar | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to combine team and individual performance tasks with an end-of-course written exam. Needs source-analysis and argument-writing practice, not multiple-choice sets. |
-| AP 2-D Art and Design | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be assessed through a portfolio of the student's own work, with no written exam. A question bank does not fit; it would need portfolio-planning guidance. |
-| AP 3-D Art and Design | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be assessed through a portfolio of the student's own work, with no written exam. A question bank does not fit; it would need portfolio-planning guidance. |
-| AP Drawing | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be assessed through a portfolio of the student's own work, with no written exam. A question bank does not fit; it would need portfolio-planning guidance. |
-| AP Art History | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based, but most questions depend on images of specific works of art, which need image rights or verified links. |
-| AP Music Theory | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based, but the exam includes listening and sight-singing tasks that need audio, which the site does not support. |
 | AP English Literature and Composition | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be skill-based: passage-based multiple-choice questions on literature and essay writing. Needs original or public-domain passages and essay practice. |
-| AP African American Studies | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; many questions are expected to use primary sources (texts and images), which need rights-cleared sources or verified links. |
-| AP Comparative Government and Politics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
-| AP European History | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based, with many multiple-choice questions built in sets around a shared historical source. The site's single-question format only partly supports that; source sets would need rights-cleared or public-domain sources. |
-| AP Human Geography | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP World History: Modern | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based, with many multiple-choice questions built in sets around a shared historical source. The site's single-question format only partly supports that; source sets would need rights-cleared or public-domain sources. |
+| AP U.S. Government and Politics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP Psychology | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
 | AP Macroeconomics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
 | AP Microeconomics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
-| AP Psychology | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
-| AP U.S. Government and Politics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
-| AP World History: Modern | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based, with many multiple-choice questions built in sets around a shared historical source. The site's single-question format only partly supports that; source sets would need rights-cleared or public-domain sources. |
-| AP Computer Science Principles | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be organized by big ideas rather than units, with a performance task in addition to the exam. Multiple-choice practice could fit; the performance task needs a different format. |
-| AP Environmental Science | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
-| AP Chinese Language and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice. |
-| AP French Language and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice. |
-| AP German Language and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice. |
-| AP Italian Language and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice. |
-| AP Japanese Language and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice. |
-| AP Latin Exam | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be based on reading assigned Latin texts. Needs passage-based practice with public-domain texts. |
-| AP Spanish Language and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be theme-based, assessing listening, reading, writing, and speaking. Needs audio and spoken or written response practice. |
-| AP Spanish Literature and Culture | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be based on a required reading list of works in Spanish. Needs passage-based and essay practice. |
+| AP Computer Science A | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; multiple-choice questions fit the existing format, but free-response questions ask for Java code, which the site cannot check. |
 
 Courses expected to need a different practice format than unit questions (to confirm once their frameworks are checked):
 
-- **project**: AP Research.
-- **performance tasks**: AP Seminar.
-- **portfolio**: AP 2-D Art and Design, AP 3-D Art and Design, AP Drawing.
-- **image-based**: AP Art History.
-- **audio**: AP Music Theory.
-- **passages and essays**: AP English Literature and Composition, AP Spanish Literature and Culture.
-- **source-based**: AP African American Studies, AP European History, AP World History: Modern.
-- **big ideas and performance task**: AP Computer Science Principles.
-- **language skills**: AP Chinese Language and Culture, AP French Language and Culture, AP German Language and Culture, AP Italian Language and Culture, AP Japanese Language and Culture, AP Spanish Language and Culture.
-- **passages**: AP Latin Exam.
+- **passages and essays**: AP English Literature and Composition.
+- **source-based**: AP World History: Modern.
 
 ### Catalog leads to verify (checked 2026-10-21)
 
@@ -536,9 +515,15 @@ Recorded differences between College Board sources: Several topic titles differ 
 
 ## Catalog entries without a unit outline
 
-These courses appear in search with a link to College Board's released free-response page and are labelled "Catalog only". Nothing is invented for them. (28 entries; the number is not assumed anywhere in the site.)
+These courses are planned for future content work. They appear in search with a link to College Board's released free-response page and are labelled "Catalog only". Nothing is invented for them. (7 entries.)
 
-AP Research, AP Seminar, AP 2-D Art and Design, AP 3-D Art and Design, AP Drawing, AP Art History, AP Music Theory, AP English Literature and Composition, AP African American Studies, AP Comparative Government and Politics, AP European History, AP Human Geography, AP Macroeconomics, AP Microeconomics, AP Psychology, AP U.S. Government and Politics, AP World History: Modern, AP Computer Science A, AP Computer Science Principles, AP Environmental Science, AP Chinese Language and Culture, AP French Language and Culture, AP German Language and Culture, AP Italian Language and Culture, AP Japanese Language and Culture, AP Latin Exam, AP Spanish Language and Culture, AP Spanish Literature and Culture.
+AP English Literature and Composition, AP Macroeconomics, AP Microeconomics, AP Psychology, AP U.S. Government and Politics, AP World History: Modern, AP Computer Science A.
+
+## Courses removed from the catalog (2026-11-09)
+
+Removed from StudySprint's active catalog and course selector at the project owner's request on 2026-11-09. None had any StudySprint content (each was a catalog-only entry), so no units, questions, or test history are lost. They no longer appear in search or on the home page; a backup that mentions one names it as no longer offered instead of treating it as available.
+
+AP Research, AP Seminar, AP 2-D Art and Design, AP 3-D Art and Design, AP Drawing, AP Art History, AP Music Theory, AP African American Studies, AP Comparative Government and Politics, AP European History, AP Human Geography, AP Computer Science Principles, AP Environmental Science, AP Chinese Language and Culture, AP French Language and Culture, AP German Language and Culture, AP Italian Language and Culture, AP Japanese Language and Culture, AP Latin Exam, AP Spanish Language and Culture, AP Spanish Literature and Culture. (21 courses.)
 
 ## Known gaps
 
