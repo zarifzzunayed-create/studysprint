@@ -1,0 +1,791 @@
+{
+ "courseId": "ap-united-states-government-and-politics",
+ "unitId": "u4",
+ "title": "Unit 4: American Political Ideologies and Beliefs",
+ "topics": [
+  {
+   "id": "gov4-beliefs",
+   "name": "Core values, socialization, and changing ideology",
+   "covers": [
+    "How cultural and social factors affect citizens’ beliefs about government"
+   ],
+   "frameworkCovers": [
+    "4.1 American Attitudes About Government and Politics",
+    "4.2 Political Socialization",
+    "4.3 Changes in Ideology",
+    "4.4 Influence of Political Events on Ideology"
+   ]
+  },
+  {
+   "id": "gov4-polls",
+   "name": "Measuring public opinion",
+   "covers": [
+    "How polls are used to gather data about public opinion"
+   ],
+   "frameworkCovers": [
+    "4.5 Measuring Public Opinion",
+    "4.6 Evaluating Public Opinion Data"
+   ]
+  },
+  {
+   "id": "gov4-ideology",
+   "name": "Party ideologies and policy",
+   "covers": [
+    "The ideologies of the Democratic and Republican parties",
+    "How political ideologies affect policy on economic and social issues"
+   ],
+   "frameworkCovers": [
+    "4.7 Ideologies of Political Parties",
+    "4.8 Ideology and Policymaking",
+    "4.9 Ideology and Economic Policy",
+    "4.10 Ideology and Social Policy"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 4: American Political Ideologies and Beliefs: review guide",
+  "intro": "This unit covers where Americans' political attitudes come from, how polls measure public opinion, and how liberal, conservative, and libertarian ideologies shape positions on economic and social policy. The required document here is the set of core principles from Adam Smith's The Wealth of Nations.",
+  "sections": [
+   {
+    "id": "s-gov4-beliefs",
+    "topicId": "gov4-beliefs",
+    "title": "Core values and political socialization",
+    "body": [
+     "Americans broadly share core values such as individualism, equality of opportunity, free enterprise (associated with Adam Smith's argument for markets with limited government regulation), and the rule of law, but they interpret them differently. Political socialization is the process by which people form political attitudes; family, schools, peers, religion, and media are major agents.",
+     "Attitudes shift over time. A generational effect occurs when a major event (such as the Great Depression or September 11) shapes the views of people who came of age then; a life-cycle effect occurs when people's priorities change as they age, such as greater concern about Social Security in later life."
+    ],
+    "points": [
+     "Separate generational effects from life-cycle effects.",
+     "Core values can be shared while their meaning is disputed."
+    ]
+   },
+   {
+    "id": "s-gov4-polls",
+    "topicId": "gov4-polls",
+    "title": "Measuring public opinion",
+    "body": [
+     "Scientific polls use random samples so that every member of the population has an equal chance of being chosen. A margin of error describes the range within which the true value probably falls. Pollsters weight results so the sample matches the population's demographics, and they word questions neutrally.",
+     "Types of polls include opinion polls, tracking polls (repeated over a campaign), entrance and exit polls (of voters at polling places), and focus groups. Unscientific opt-in online surveys and so-called push polls (campaign messages disguised as polls) are unreliable."
+    ],
+    "points": [
+     "A margin of error of ±3 points means a 50% result could be 47%–53%.",
+     "Question wording and sampling can bias results."
+    ]
+   },
+   {
+    "id": "s-gov4-ideology",
+    "topicId": "gov4-ideology",
+    "title": "Ideology and policy",
+    "body": [
+     "Liberals generally favor a larger government role in regulating the economy and providing social programs; conservatives generally favor lower taxes, less regulation, and free markets; libertarians favor minimal government in both economic and social matters. In recent decades the Democratic Party has been more liberal and the Republican Party more conservative.",
+     "Fiscal policy (taxing and spending) is set by Congress and the president; monetary policy (the money supply and interest rates) is set by the Federal Reserve. Keynesian economics favors government spending to boost demand in downturns, while supply-side economics favors tax cuts to encourage investment."
+    ],
+    "points": [
+     "Know at least one economic and one social position for each ideology.",
+     "Fiscal policy and monetary policy are made by different institutions."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A poll finds 54% support for a measure with a margin of error of ±4 points. What can you conclude?",
+   "solution": "True support is probably between 50% and 58%. Because the lower end reaches 50%, the poll can't be certain that a majority supports the measure."
+  },
+  "misconceptions": [
+   [
+    "“A bigger sample is always a better sample.”",
+    "A large biased sample is still biased; randomness matters most."
+   ],
+   [
+    "“Every Democrat is liberal and every Republican is conservative.”",
+    "Party labels track ideology on average, with many exceptions."
+   ],
+   [
+    "“Monetary policy is set by Congress.”",
+    "The Federal Reserve sets monetary policy; Congress and the president set fiscal policy."
+   ],
+   [
+    "“Political socialization ends in childhood.”",
+    "Attitudes keep developing through events and life changes."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. Government and Politics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+  "sourceTitle": "AP U.S. Government and Politics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "gov4-a",
+   "title": "Source A: Poll on a proposed state transit tax (hypothetical data)",
+   "text": [
+    "Survey of 1,000 likely voters, chosen at random, one month before the vote. Margin of error: ±3 percentage points.",
+    "All likely voters: Support 52%; Oppose 44%; Undecided 4%",
+    "Ages 18–29: Support 64%; Oppose 31%; Undecided 5%",
+    "Ages 30–64: Support 51%; Oppose 45%; Undecided 4%",
+    "Ages 65 and older: Support 43%; Oppose 54%; Undecided 3%"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice data analysis. The numbers are invented and do not describe any real survey, election, or government record.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "gov4-b",
+   "title": "Source B: A summary of liberal, conservative, and libertarian views",
+   "text": [
+    "“Liberals generally believe government should play an active role in the economy: regulating businesses, funding programs such as public health insurance, and taxing higher incomes at higher rates to reduce inequality. Conservatives generally believe the economy grows best when taxes are low and regulation is light, and they prefer that individuals, families, and private charities meet many social needs. Libertarians want government to stay small in both economic and personal matters, opposing most regulation of business and most restrictions on individual choices.”"
+   ],
+   "attribution": "Summary written for StudySprint by its editors. It describes widely held views in general terms and is not a quotation from any party platform or published author.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "gov-u4-q01",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-polls",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Based on the margin of error in Source A, true support among all likely voters is probably between",
+   "choices": [
+    "48% and 56%",
+    "52% and 55%",
+    "44% and 52%",
+    "49% and 55%"
+   ],
+   "correctAnswer": 3,
+   "explanation": "A ±3-point margin of error around 52% gives a range of 49% to 55%.",
+   "choiceExplanations": [
+    "That range applies a ±4-point margin, not ±3.",
+    "The margin applies in both directions, not only upward.",
+    "That range uses the oppose figure and the support figure as endpoints.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov4-a"
+  },
+  {
+   "id": "gov-u4-q02",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-polls",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why is it important that the respondents in Source A were chosen at random?",
+   "choices": [
+    "A random sample guarantees that the poll has no margin of error",
+    "A random sample is more likely to represent all likely voters",
+    "A random sample ensures that each age group has the same size",
+    "A random sample includes every voter in the state in the results"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Random selection gives every likely voter an equal chance of being chosen, so the sample is likely to resemble the population.",
+   "choiceExplanations": [
+    "Random samples still have a margin of error.",
+    "",
+    "Randomness doesn't make age groups equal in size.",
+    "A sample by definition surveys only part of the population."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov4-a"
+  },
+  {
+   "id": "gov-u4-q03",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-beliefs",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which explanation is best supported by the differences among age groups in Source A?",
+   "choices": [
+    "Older voters have more information about the tax than younger voters do",
+    "Age has no relationship to how voters respond to the proposed transit tax",
+    "Younger and older voters may weigh costs and benefits differently at different life stages",
+    "Younger voters are less likely than older voters to vote in any of the state's elections"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Support falls as age rises, consistent with life-cycle differences such as commuting needs and fixed incomes.",
+   "choiceExplanations": [
+    "The data show opinions, not how informed each group is.",
+    "The data show a clear pattern by age.",
+    "",
+    "The data show opinions among likely voters, not turnout rates."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov4-a"
+  },
+  {
+   "id": "gov-u4-q04",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-polls",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is the most important limitation of Source A for predicting the result of the vote?",
+   "choices": [
+    "The poll surveyed likely voters instead of the adults who live in the state",
+    "Opinions may change during the month between the poll and the election",
+    "The poll's sample of 1,000 people is too small to be useful at all",
+    "The poll reports results for only three age groups of likely voters"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A poll measures opinion at one moment; campaigns and news can shift views before election day.",
+   "choiceExplanations": [
+    "Surveying likely voters is appropriate for predicting a vote.",
+    "",
+    "A random sample of 1,000 is a standard size for reliable polls.",
+    "Reporting three age groups doesn't weaken the overall estimate."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov4-a"
+  },
+  {
+   "id": "gov-u4-q05",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-ideology",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which policy is most consistent with the liberal views described in Source B?",
+   "choices": [
+    "Ending most government restrictions on both business and personal choices",
+    "Cutting income taxes and reducing regulations on businesses",
+    "Expanding public health insurance funded by higher taxes on top earners",
+    "Relying on private charities to meet most social needs"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Source B says liberals favor programs such as public health insurance and higher tax rates on higher incomes.",
+   "choiceExplanations": [
+    "Minimal regulation of both business and personal life describes libertarian views.",
+    "Lower taxes and light regulation describe conservative views.",
+    "",
+    "Relying on private charity describes conservative views."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov4-b"
+  },
+  {
+   "id": "gov-u4-q06",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-ideology",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Supply-side economics, favored by many conservatives, holds that",
+   "choices": [
+    "higher taxes on businesses are the best way to raise wages",
+    "government spending should rise sharply during each recession to boost demand",
+    "the Federal Reserve should set tax rates to control inflation",
+    "tax cuts encourage investment and work, leading to economic growth"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Supply-side theory argues that lower taxes and less regulation increase investment, production, and growth.",
+   "choiceExplanations": [
+    "Supply-side economics favors lower, not higher, business taxes.",
+    "Increased spending in downturns is a Keynesian idea.",
+    "The Federal Reserve sets monetary policy, not tax rates.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov4-b"
+  },
+  {
+   "id": "gov-u4-q07",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-ideology",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "According to Source B, a libertarian would be most likely to support",
+   "choices": [
+    "reducing both business regulation and laws limiting personal choices",
+    "expanding social programs while reducing the limits on personal choices",
+    "increasing business regulation while limiting personal choices",
+    "keeping business regulation high and personal freedom limited"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Source B describes libertarians as wanting small government in both economic and personal matters.",
+   "choiceExplanations": [
+    "",
+    "Expanding social programs is a liberal position.",
+    "Libertarians oppose both kinds of government restriction.",
+    "Libertarians want less regulation of both business and personal life."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov4-b"
+  },
+  {
+   "id": "gov-u4-q08",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-ideology",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How does fiscal policy differ from monetary policy?",
+   "choices": [
+    "Fiscal policy is taxing and spending; monetary policy is managing money and interest rates",
+    "Fiscal policy concerns trade with other nations; monetary policy concerns the state budgets",
+    "Fiscal policy is set by the Supreme Court; monetary policy is set by the president",
+    "Fiscal policy is set by the Federal Reserve; monetary policy is set by Congress"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Congress and the president set fiscal policy; the Federal Reserve sets monetary policy.",
+   "choiceExplanations": [
+    "",
+    "Neither definition matches; both policies concern the national economy.",
+    "The Supreme Court doesn't set economic policy.",
+    "This reverses which institution sets which policy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov4-b"
+  },
+  {
+   "id": "gov-u4-q09",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-beliefs",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The belief that each person can shape his or her own life through individual choices and effort reflects which core value?",
+   "choices": [
+    "Federalism",
+    "Individualism",
+    "Rule of law",
+    "Popular sovereignty"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Individualism holds that each person can shape his or her own destiny.",
+   "choiceExplanations": [
+    "Federalism is a division of government power, not a personal value.",
+    "",
+    "Rule of law means everyone, including leaders, must obey the law.",
+    "Popular sovereignty concerns the source of government authority."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u4-q10",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-beliefs",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Political socialization is best defined as",
+   "choices": [
+    "the act of voting in a party's primary election",
+    "the process by which people develop their political beliefs",
+    "a survey that measures opinions on public issues",
+    "a government program that pays for public services such as schools"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Political socialization is how people form political attitudes, through family, school, peers, media, and events.",
+   "choiceExplanations": [
+    "Voting is political participation, not socialization.",
+    "",
+    "That describes a poll.",
+    "That describes social policy, not socialization."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u4-q11",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-beliefs",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "As people near retirement age, they become more concerned about Social Security. This is an example of",
+   "choices": [
+    "a realignment",
+    "a generational effect",
+    "a push poll",
+    "a life-cycle effect"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Changing priorities that come with age are a life-cycle effect.",
+   "choiceExplanations": [
+    "A realignment is a lasting shift in party coalitions.",
+    "A generational effect comes from a shared formative event, not aging.",
+    "A push poll is a campaign tactic disguised as a survey.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u4-q12",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-beliefs",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Many Americans who grew up during the Great Depression supported the Democratic Party for the rest of their lives. This best illustrates",
+   "choices": [
+    "the influence of opt-in online surveys on voters",
+    "the role of the Federal Reserve in shaping opinion",
+    "a generational effect of a major political event",
+    "a life-cycle effect that comes with growing older"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A major event that shapes the lasting views of a whole generation is a generational effect.",
+   "choiceExplanations": [
+    "Online surveys didn't exist then and don't create loyalty.",
+    "The Federal Reserve doesn't shape party loyalty.",
+    "",
+    "The shift came from a shared event, not from aging."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u4-q13",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-beliefs",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which policy debate best shows Americans interpreting the shared value of equality of opportunity differently?",
+   "choices": [
+    "Whether the Senate should keep the rule that allows filibusters on bills",
+    "Whether government should fund preschool so all children start school prepared",
+    "Whether federal judges should be appointed for life or elected by the voters",
+    "Whether the president should be elected for a four-year term or a six-year term"
+   ],
+   "correctAnswer": 1,
+   "explanation": "People agree children should have an equal chance but disagree about whether government programs are the right way to provide it.",
+   "choiceExplanations": [
+    "The filibuster concerns Senate procedure.",
+    "",
+    "Judicial selection concerns judicial independence.",
+    "Term length concerns institutional design, not equality of opportunity."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u4-q14",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-polls",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "An exit poll is a survey of",
+   "choices": [
+    "people who refuse to answer other polls",
+    "candidates about their positions on issues",
+    "party members before a nominating convention",
+    "voters as they leave their polling places"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Exit polls question voters right after they vote.",
+   "choiceExplanations": [
+    "Exit polls survey voters, not people who refuse polls.",
+    "Exit polls survey voters, not candidates.",
+    "That describes a survey of party members, not an exit poll.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u4-q15",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-polls",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A campaign calls voters and asks, “Would you still support Smith if you knew she voted to raise taxes?” This is best described as",
+   "choices": [
+    "a push poll that spreads a message rather than measuring opinion",
+    "a tracking poll that measures changes in opinion over a campaign",
+    "a focus group that studies a small group's reactions in depth",
+    "an exit poll that measures how people voted on election day"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Leading questions designed to influence voters, not measure them, are a push poll.",
+   "choiceExplanations": [
+    "",
+    "Tracking polls repeat neutral questions over time.",
+    "Focus groups are moderated discussions, not mass phone calls.",
+    "Exit polls are taken as voters leave the polls."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u4-q16",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-polls",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A news website invites readers to vote online on a policy question. Its results are unreliable mainly because",
+   "choices": [
+    "online surveys always have a margin of error of exactly zero",
+    "the question is about a policy rather than a political candidate",
+    "the website reports its results as percentages of the people who responded",
+    "respondents choose themselves rather than being selected at random"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Opt-in surveys attract people with strong views, so the sample doesn't represent the public.",
+   "choiceExplanations": [
+    "No survey has a zero margin of error, and opt-in surveys have no meaningful one.",
+    "Polls about policies can be reliable if they are scientific.",
+    "Reporting percentages isn't the problem.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u4-q17",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-polls",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Pollsters weight survey results in order to",
+   "choices": [
+    "make the sample match the population's demographic makeup",
+    "increase support for the side that paid for the poll",
+    "give extra influence to the opinions of experts and officials",
+    "remove the answers of respondents who are undecided"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Weighting adjusts for groups that are over- or under-represented in the sample.",
+   "choiceExplanations": [
+    "",
+    "Honest weighting isn't meant to favor a sponsor.",
+    "Weighting adjusts for demographics, not expertise.",
+    "Undecided answers are reported, not removed by weighting."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u4-q18",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-ideology",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Conservatives in the United States generally favor",
+   "choices": [
+    "government ownership of major industries",
+    "higher taxes to fund new social programs",
+    "lower taxes and fewer regulations on business",
+    "stricter federal regulation of private businesses"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Conservatives generally prefer lower taxes, limited regulation, and free markets.",
+   "choiceExplanations": [
+    "Government ownership of industries is a socialist position.",
+    "Higher taxes for new programs is a liberal position.",
+    "",
+    "Stricter regulation is generally a liberal position."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u4-q19",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-ideology",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Keynesian economics recommends that during a recession the government should",
+   "choices": [
+    "raise interest rates to slow the growth of the economy",
+    "cut spending to balance the budget as quickly as possible",
+    "increase spending to boost demand for goods and services",
+    "leave the economy alone so markets can correct themselves"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Keynes argued that government spending can make up for falling private demand in a downturn.",
+   "choiceExplanations": [
+    "Raising interest rates is a monetary tool to slow growth, not to fight a recession.",
+    "Cutting spending in a recession is the opposite of Keynesian advice.",
+    "",
+    "Leaving the economy alone is a laissez-faire view."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u4-q20",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "topicId": "gov4-ideology",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which development best illustrates a change in the ideologies of the major parties over time?",
+   "choices": [
+    "The South shifting from mostly Democratic to mostly Republican after the 1960s",
+    "The creation of the Federal Reserve to manage the nation's money supply",
+    "The growth of the federal bureaucracy after the Pendleton Act of 1883",
+    "The Supreme Court's decision in Marbury v. Madison establishing judicial review"
+   ],
+   "correctAnswer": 0,
+   "explanation": "After national Democrats backed civil rights laws, many white Southern conservatives moved to the Republican Party, sorting the parties more clearly by ideology.",
+   "choiceExplanations": [
+    "",
+    "The Federal Reserve's creation concerns monetary policy, not party change.",
+    "Bureaucratic growth isn't a change in party ideology.",
+    "Marbury concerns judicial power, not party ideology."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-gov-u4-os1",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "title": "OpenStax American Government 4e, 6.1 The Nature of Public Opinion",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/6-1-the-nature-of-public-opinion",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on political socialization and ideology. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/6-1-the-nature-of-public-opinion",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-gov-u4-os2",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u4",
+   "title": "OpenStax American Government 4e, 6.2 How Is Public Opinion Measured?",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/6-2-how-is-public-opinion-measured",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on how polls measure public opinion. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/6-2-how-is-public-opinion-measured",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP U.S. Government and Politics free-response set has four questions (concept application, quantitative analysis, SCOTUS comparison, and argument essay) that usually draw on several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "gov-u4-q01",
+    "gov-u4-q02",
+    "gov-u4-q03",
+    "gov-u4-q04",
+    "gov-u4-q09",
+    "gov-u4-q10",
+    "gov-u4-q11",
+    "gov-u4-q20"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "gov-u4-q05",
+    "gov-u4-q06",
+    "gov-u4-q07",
+    "gov-u4-q08",
+    "gov-u4-q12",
+    "gov-u4-q13",
+    "gov-u4-q14",
+    "gov-u4-q18"
+   ]
+  }
+ ]
+}

@@ -78,11 +78,33 @@ const titleOf = id => d.passages.find(p => p.id === id).title;
   T.ok(whSrc.some(x => /Public domain/.test(x)) && whSrc.some(x => /Interpretation written for StudySprint/.test(x)) && whSrc.every(x => /Public domain|written for StudySprint/.test(x)),
     'World History source sets label each source as a public-domain document or as an interpretation written for StudySprint');
   await p.click('#v-test button:has-text("Save and exit")');
+  /* ---- U.S. Government tests mix one whole stimulus set with individual questions, as on the exam ---- */
+  const gd = JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', 'ap-united-states-government-and-politics', 'u1.json')));
+  const gByPrompt = Object.fromEntries(gd.questions.map(q => [q.prompt, q]));
+  await T.openUnit(p, 'AP U.S. Government', 'u1');
+  await p.locator('#v-overview .test-cards > li').nth(0).locator('button:has-text("Start untimed")').click();
+  await p.waitForSelector('#v-test form legend');
+  const gSeen = [];
+  for (let i = 0; i < 8; i++) {
+    const q = gByPrompt[(await p.locator('#v-test form legend').first().textContent())];
+    const src = await p.locator('#v-test .passage .passage-src').count() ? await p.locator('#v-test .passage .passage-src').first().textContent() : null;
+    gSeen.push({ pid: q && q.passageId || null, src });
+    if (i < 7) {
+      const was = await p.locator('#v-test form legend').first().textContent();
+      await p.click('#v-test .test-nav button.button-primary');
+      await p.waitForFunction(w => { const l = document.querySelector('#v-test form legend'); return l && l.textContent !== w; }, was);
+    }
+  }
+  const withP = gSeen.filter(x => x.pid), pRuns = gSeen.map(x => x.pid).filter((x, i, a) => x && (i === 0 || a[i - 1] !== x));
+  T.ok(withP.length === 4 && gSeen.length - withP.length === 4 && pRuns.length === 1 && gSeen.every(x => !x.pid === !x.src) && withP.every(x => /Public domain|Hypothetical/.test(x.src)),
+    'a U.S. Government test has one whole, labelled stimulus set (4 questions kept together) and 4 individual questions without a stimulus');
+  await p.click('#v-test button:has-text("Save and exit")');
   T.ok(!p.errs.length, 'no page errors' + (p.errs.length ? ': ' + p.errs.join(' | ') : ''));
 
   /* ---- answer length gives nothing away in the passage-based banks ---- */
   for (const [cid, label] of [['ap-english-language-and-composition', 'English Language'], ['ap-united-states-history', 'U.S. History'],
-                              ['ap-english-literature-and-composition', 'English Literature'], ['ap-world-history', 'World History']]) {
+                              ['ap-english-literature-and-composition', 'English Literature'], ['ap-world-history', 'World History'],
+                              ['ap-united-states-government-and-politics', 'U.S. Government']]) {
     let n = 0, longest = 0;
     for (const f of fs.readdirSync(path.join(T.ROOT, 'data', 'courses', cid)).filter(x => /^u\d+\.json$/.test(x))) {
       for (const q of JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', cid, f))).questions) {
@@ -90,7 +112,8 @@ const titleOf = id => d.passages.find(p => p.id === id).title;
         n++; if (L.filter(x => x >= k).length === 1) longest++;
       }
     }
-    T.ok(n >= 144 && longest / n < 0.15, 'in ' + label + ' the correct choice is the uniquely longest in under 15% of questions (' + longest + ' of ' + n + ')');
+    const units = JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', cid, 'course.json'))).units.length;
+    T.ok(n >= 16 * units && longest / n < 0.15, 'in ' + label + ' the correct choice is the uniquely longest in under 15% of questions (' + longest + ' of ' + n + ')');
   }
 
   /* ---- build rules for passages ---- */

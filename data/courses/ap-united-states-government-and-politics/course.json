@@ -1,0 +1,256 @@
+{
+ "id": "ap-united-states-government-and-politics",
+ "name": "AP U.S. Government and Politics",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-united-states-government-and-politics",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description.pdf",
+ "frameworkVersion": "AP U.S. Government and Politics Course and Exam Description, effective Fall 2026 (current PDF on AP Central, checked 2026-11-14), with College Board's Clarifications and Corrections to be implemented for Fall 2026.",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-united-states-government-and-politics/exam/past-exam-questions",
+  "note": null,
+  "releasedSets": [
+   {
+    "year": 2026,
+    "title": "2026 AP U.S. Government and Politics Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-us-gov-pol.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP U.S. Government and Politics Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-us-gov-pol-set-1.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP U.S. Government and Politics Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-us-gov-pol-set-2.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP U.S. Government and Politics Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-us-gov-pol-set-1.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP U.S. Government and Politics Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-us-gov-pol-set-2.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP U.S. Government and Politics Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-us-gov-pol-set-1.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP U.S. Government and Politics Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-us-gov-pol-set-2.pdf"
+   }
+  ],
+  "setsNote": "Whole released free-response sets (PDF, College Board), linked from the course's past-exam-questions page and checked to load on 2026-11-14. For 2023–2025 College Board released two sets each year. They are not matched to units; each set's four questions (concept application, quantitative analysis, SCOTUS comparison, argument essay) usually draw on several units. Scoring guidelines are on the past-exam-questions page."
+ },
+ "source": {
+  "title": "AP U.S. Government and Politics – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+  "verified": "2026-11-14",
+  "note": "Unit names, the “topics may include” lists, and exam weightings were read from this page on 2026-11-14. The page and the CED give the weightings as shares of the multiple-choice score."
+ },
+ "frameworkCheck": {
+  "checked": "2026-11-14",
+  "source": "https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description.pdf",
+  "title": "AP U.S. Government and Politics Course and Exam Description (effective Fall 2026)",
+  "how": "The 60 numbered CED topics (1.1–5.13) were read from the topic pages of the current PDF on AP Central, and each is matched to the StudySprint topic whose guide section and questions teach it. The CED's 13 required foundational documents and 14 required Supreme Court cases were read from its course framework (pp. 25 and 30) and are named in the unit guides where they apply. Its five skill categories (Concept Application, SCOTUS Application, Data Analysis, Source Analysis, Argumentation) were also checked: the CED says multiple-choice questions assess the first four and that no multiple-choice question explicitly assesses Argumentation. The Fall 2026 Clarifications and Corrections (https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description-clarifications.pdf) add four required documents (the Emancipation Proclamation, Federalist No. 39, the Gettysburg Address, and core principles from Adam Smith's The Wealth of Nations), which the current CED already lists.",
+  "weightsSource": "the AP Students course page and the CED's exam section (shares of the multiple-choice score), both checked 2026-11-14",
+  "examFormat": "From the AP Students exam page and the CED (3 hours, digital in Bluebook): Section I, 55 multiple-choice questions in 80 minutes (50% of the score): about 30 individual questions plus sets of typically two to four questions on quantitative data (five sets), text-based sources (two sets, one with a foundational document), and visual sources (three sets). Section II, 4 free-response questions in 100 minutes (50%, 12.5% each): concept application, quantitative analysis, SCOTUS comparison (a non-required case compared with a required one), and an argument essay. StudySprint practice is multiple-choice only, with individual questions and stimulus sets; written-response practice uses College Board's released questions.",
+  "requiredDocuments": [
+   "The Articles of Confederation",
+   "Brutus No. 1",
+   "The Constitution of the United States (including the Bill of Rights and subsequent amendments)",
+   "The Declaration of Independence",
+   "Emancipation Proclamation",
+   "Federalist No. 10",
+   "Federalist No. 39",
+   "Federalist No. 51",
+   "Federalist No. 70",
+   "Federalist No. 78",
+   "Gettysburg Address",
+   "“Letter from a Birmingham Jail” (Martin Luther King, Jr.)",
+   "Core principles from Adam Smith’s The Wealth of Nations"
+  ],
+  "requiredCases": [
+   "Marbury v. Madison (1803)",
+   "McCulloch v. Maryland (1819)",
+   "Schenck v. United States (1919)",
+   "Brown v. Board of Education (1954)",
+   "Baker v. Carr (1962)",
+   "Engel v. Vitale (1962)",
+   "Gideon v. Wainwright (1963)",
+   "Tinker v. Des Moines Independent Community School District (1969)",
+   "New York Times Co. v. United States (1971)",
+   "Wisconsin v. Yoder (1972)",
+   "Shaw v. Reno (1993)",
+   "United States v. Lopez (1995)",
+   "McDonald v. Chicago (2010)",
+   "Citizens United v. Federal Election Commission (2010)"
+  ],
+  "differences": [
+   "The AP Students page's unit topic lists are summaries; the CED's 60 topics are the required content and are listed per unit as framework topics.",
+   "Some topic titles appear split across columns in the Course at a Glance PDF text; StudySprint records the topic-page titles as printed in the CED.",
+   "StudySprint's data stimuli are labelled hypothetical; the AP Exam uses real data sources. Foundational-document excerpts are quoted from the public-domain texts printed in OpenStax American Government 4e."
+  ]
+ },
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Foundations of American Democracy",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-government-and-politics/u1.json",
+   "officialTopics": [
+    "The ideals of democracy as shown in the Declaration of Independence and the Constitution",
+    "Federalist and Anti-Federalist views on central government and democracy",
+    "Separation of powers and “checks and balances”",
+    "The relationship between the states and the national government (federalism)",
+    "How federalism has been interpreted differently over time"
+   ],
+   "examWeight": "15%–22% of the multiple-choice score",
+   "frameworkTopics": [
+    "1.1 Ideals of Democracy",
+    "1.2 Types of Democracy",
+    "1.3 Government Power and Individual Rights",
+    "1.4 Challenges of the Articles of Confederation",
+    "1.5 Ratification of the U.S. Constitution",
+    "1.6 Principles of American Government",
+    "1.7 Relationship Between the States and National Government",
+    "1.8 Constitutional Interpretations of Federalism",
+    "1.9 Federalism in Action"
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Interactions Among Branches of Government",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-government-and-politics/u2.json",
+   "officialTopics": [
+    "The structures, powers, and functions of each house of Congress",
+    "The roles and powers of the president",
+    "The roles and powers of the Supreme Court and other federal courts",
+    "The roles of the federal bureaucracy (departments, agencies, commissions, and government corporations)"
+   ],
+   "examWeight": "25%–36% of the multiple-choice score",
+   "frameworkTopics": [
+    "2.1 Congress: The Senate and the House of Representatives",
+    "2.2 Structures, Powers, and Functions of Congress",
+    "2.3 Congressional Behavior",
+    "2.4 Roles and Powers of the President",
+    "2.5 Checks on the Presidency",
+    "2.6 Expansion of Presidential Power",
+    "2.7 Presidential Communication",
+    "2.8 The Judicial Branch",
+    "2.9 The Role of the Judicial Branch",
+    "2.10 The Court in Action",
+    "2.11 Checks on the Judicial Branch",
+    "2.12 The Bureaucracy",
+    "2.13 Discretionary and Rulemaking Authority",
+    "2.14 Holding the Bureaucracy Accountable",
+    "2.15 Policy and the Branches of Government"
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Civil Liberties and Civil Rights",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-government-and-politics/u3.json",
+   "officialTopics": [
+    "The intent of the Bill of Rights",
+    "The First Amendment (freedom of speech, freedom of religion, and freedom of the press) and how the Supreme Court has interpreted it",
+    "The Second Amendment (the right to bear arms) and how the Supreme Court has interpreted it",
+    "Supreme Court interpretations of other amendments",
+    "How the due process and equal protection clauses of the Fourteenth Amendment have motivated social movements"
+   ],
+   "examWeight": "13%–18% of the multiple-choice score",
+   "frameworkTopics": [
+    "3.1 The Bill of Rights",
+    "3.2 First Amendment: Freedom of Religion",
+    "3.3 First Amendment: Freedom of Speech",
+    "3.4 First Amendment: Freedom of the Press",
+    "3.5 Second Amendment: Right to Bear Arms",
+    "3.6 Amendments: Balancing Individual Freedom with Public Order and Safety",
+    "3.7 Selective Incorporation",
+    "3.8 Amendments: Due Process and the Rights of the Accused",
+    "3.9 Amendments: Due Process and the Right to Privacy",
+    "3.10 Social Movements and Equal Protection",
+    "3.11 Government Responses to Social Movements",
+    "3.12 Balancing Minority and Majority Rights",
+    "3.13 Affirmative Action"
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: American Political Ideologies and Beliefs",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-government-and-politics/u4.json",
+   "officialTopics": [
+    "How cultural and social factors affect citizens’ beliefs about government",
+    "How polls are used to gather data about public opinion",
+    "The ideologies of the Democratic and Republican parties",
+    "How political ideologies affect policy on economic and social issues"
+   ],
+   "examWeight": "10%–15% of the multiple-choice score",
+   "frameworkTopics": [
+    "4.1 American Attitudes About Government and Politics",
+    "4.2 Political Socialization",
+    "4.3 Changes in Ideology",
+    "4.4 Influence of Political Events on Ideology",
+    "4.5 Measuring Public Opinion",
+    "4.6 Evaluating Public Opinion Data",
+    "4.7 Ideologies of Political Parties",
+    "4.8 Ideology and Policymaking",
+    "4.9 Ideology and Economic Policy",
+    "4.10 Ideology and Social Policy"
+   ]
+  },
+  {
+   "id": "u5",
+   "name": "Unit 5: Political Participation",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-government-and-politics/u5.json",
+   "officialTopics": [
+    "Laws that protect the right to vote",
+    "Why it’s hard for third parties and independent candidates to succeed",
+    "Interest groups and their influence",
+    "Campaign finance and its role in elections",
+    "The media’s role in elections"
+   ],
+   "examWeight": "20%–27% of the multiple-choice score",
+   "frameworkTopics": [
+    "5.1 Voting Rights and Models of Voting Behavior",
+    "5.2 Voter Turnout",
+    "5.3 Political Parties",
+    "5.4 How and Why Political Parties Change and Adapt",
+    "5.5 Third-Party Politics",
+    "5.6 Interest Groups Influencing Policymaking",
+    "5.7 Groups Influencing Policy Outcomes",
+    "5.8 Electing a President",
+    "5.9 Congressional Elections",
+    "5.10 Modern Campaigns",
+    "5.11 Campaign Finance",
+    "5.12 The Media",
+    "5.13 Changing Media"
+   ]
+  }
+ ],
+ "generalResources": [
+  {
+   "id": "gen-gov-openstax",
+   "title": "OpenStax American Government 4e (whole book)",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/details/books/american-government-4e",
+   "scope": "general",
+   "kind": "textbook",
+   "note": "General: a free college American government textbook. It is not organized around the AP units.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/details/books/american-government-4e",
+   "sourceTitle": "OpenStax book page",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here; the public-domain founding documents it prints are quoted as public-domain texts.",
+   "verified": "2026-11-14"
+  }
+ ]
+}

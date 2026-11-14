@@ -1,0 +1,804 @@
+{
+ "courseId": "ap-united-states-government-and-politics",
+ "unitId": "u1",
+ "title": "Unit 1: Foundations of American Democracy",
+ "topics": [
+  {
+   "id": "gov1-ideals",
+   "name": "Democratic ideals and types of democracy",
+   "covers": [
+    "The ideals of democracy as shown in the Declaration of Independence and the Constitution"
+   ],
+   "frameworkCovers": [
+    "1.1 Ideals of Democracy",
+    "1.2 Types of Democracy"
+   ]
+  },
+  {
+   "id": "gov1-constitution",
+   "name": "Constitutional design, ratification, and checks and balances",
+   "covers": [
+    "Federalist and Anti-Federalist views on central government and democracy",
+    "Separation of powers and “checks and balances”"
+   ],
+   "frameworkCovers": [
+    "1.3 Government Power and Individual Rights",
+    "1.4 Challenges of the Articles of Confederation",
+    "1.5 Ratification of the U.S. Constitution",
+    "1.6 Principles of American Government"
+   ]
+  },
+  {
+   "id": "gov1-federalism",
+   "name": "Federalism and its interpretation",
+   "covers": [
+    "The relationship between the states and the national government (federalism)",
+    "How federalism has been interpreted differently over time"
+   ],
+   "frameworkCovers": [
+    "1.7 Relationship Between the States and National Government",
+    "1.8 Constitutional Interpretations of Federalism",
+    "1.9 Federalism in Action"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 1: Foundations of American Democracy: review guide",
+  "intro": "This unit covers the ideas behind American government, the weaknesses of the Articles of Confederation, how the Constitution divides and limits power, and how federalism shares power between the nation and the states. Required documents here include the Declaration of Independence, the Articles of Confederation, the Constitution, Federalist Nos. 10, 39, and 51, Brutus No. 1, and the Gettysburg Address; required cases include McCulloch v. Maryland (1819) and United States v. Lopez (1995).",
+  "sections": [
+   {
+    "id": "s-gov1-ideals",
+    "topicId": "gov1-ideals",
+    "title": "Democratic ideals and types of democracy",
+    "body": [
+     "The Declaration of Independence drew on natural rights philosophy (associated with John Locke): people have unalienable rights, and governments get their just powers from the consent of the governed, which is popular sovereignty. The Constitution put these ideas into a social contract with limited government and a republic in which citizens elect representatives. Lincoln's Gettysburg Address later reaffirmed equality and government by the people.",
+     "Political scientists describe three models of democracy. Participatory democracy stresses broad, direct participation; pluralist democracy stresses competition among many groups; and elite democracy stresses limited participation, with power held by a well-educated or wealthy few. Features of American government reflect all three."
+    ],
+    "points": [
+     "Match each ideal to the document and phrase that expresses it.",
+     "Each model of democracy describes who actually influences decisions."
+    ]
+   },
+   {
+    "id": "s-gov1-constitution",
+    "topicId": "gov1-constitution",
+    "title": "From the Articles to the Constitution",
+    "body": [
+     "Under the Articles of Confederation, Congress could not tax, regulate interstate commerce, or easily enforce its laws; Shays' Rebellion (1786–1787) convinced many leaders that a stronger national government was needed. At the Constitutional Convention, the Great (Connecticut) Compromise created a House based on population and a Senate with equal representation; other compromises addressed slavery, including the Three-Fifths Compromise.",
+     "The Constitution separates powers among three branches and gives each checks on the others, as Federalist No. 51 explains (“Ambition must be made to counteract ambition”). Federalists argued that a large republic would control factions (Federalist No. 10); Anti-Federalists such as Brutus warned that a powerful, distant national government would threaten liberty. The promise of a Bill of Rights helped win ratification. Amendments are proposed by two-thirds of both houses of Congress (or a national convention) and ratified by three-fourths of the states."
+    ],
+    "points": [
+     "Separation of powers divides power; checks and balances let each branch limit the others.",
+     "Know a specific check for each pair of branches."
+    ]
+   },
+   {
+    "id": "s-gov1-federalism",
+    "topicId": "gov1-federalism",
+    "title": "Federalism",
+    "body": [
+     "Federalism shares power between the national and state governments. Some powers are exclusive to the nation (coining money), some are reserved to the states by the Tenth Amendment, and some are concurrent (taxing). The Supremacy Clause makes the Constitution and federal laws supreme over conflicting state laws. Federalist No. 39 describes the Constitution as combining national and federal (state-based) features.",
+     "Interpretation has shifted. In McCulloch v. Maryland (1819) the Court read the Necessary and Proper Clause broadly and held that a state could not tax the national bank. In United States v. Lopez (1995) it held that Congress exceeded its commerce power by making gun possession in a school zone a federal crime. Money shapes federalism too: categorical grants come with strict conditions, block grants give states more discretion, and unfunded mandates impose requirements without money."
+    ],
+    "points": [
+     "McCulloch expanded national power; Lopez limited it.",
+     "Grants and mandates are tools the national government uses to influence states."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain how the Senate's role in approving treaties illustrates checks and balances.",
+   "solution": "The president negotiates treaties, but two-thirds of the senators present must approve them, so the legislative branch can limit the executive's power in foreign affairs."
+  },
+  "misconceptions": [
+   [
+    "“Separation of powers and checks and balances mean the same thing.”",
+    "Separation divides powers among branches; checks and balances let each branch limit the others."
+   ],
+   [
+    "“The Tenth Amendment lists the states' powers.”",
+    "It reserves undelegated powers to the states or the people without listing them."
+   ],
+   [
+    "“The Anti-Federalists opposed any national government.”",
+    "Many accepted a national government but wanted it limited and wanted a bill of rights."
+   ],
+   [
+    "“Federalism has always worked the same way.”",
+    "Court decisions, grants, and mandates have shifted the balance over time."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. Government and Politics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+  "sourceTitle": "AP U.S. Government and Politics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "gov1-a",
+   "title": "Source A: James Madison, Federalist No. 51, 1788",
+   "text": [
+    "“Ambition must be made to counteract ambition. The interest of the man must be connected with the constitutional rights of the place. . . . If men were angels, no government would be necessary. If angels were to govern men, neither external nor internal controls on government would be necessary. In framing a government which is to be administered by men over men, the great difficulty lies in this: you must first enable the government to control the governed; and in the next place oblige it to control itself.”"
+   ],
+   "attribution": "James Madison, writing as “Publius” to urge New York to ratify the Constitution. Public domain. Wording follows the text printed in OpenStax American Government 4e, Appendix C.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published in 1788). StudySprint quotes it as printed in OpenStax American Government 4e (openstax.org/books/american-government-4e/pages/c-federalist-papers-10-and-51); no OpenStax commentary is copied."
+  },
+  {
+   "id": "gov1-b",
+   "title": "Source B: The Supremacy Clause and the Tenth Amendment",
+   "text": [
+    "Article VI: “This Constitution, and the Laws of the United States which shall be made in Pursuance thereof; and all Treaties made, or which shall be made, under the Authority of the United States, shall be the supreme Law of the Land; and the Judges in every State shall be bound thereby, any Thing in the Constitution or Laws of any State to the Contrary notwithstanding.”",
+    "Amendment X: “The powers not delegated to the United States by the Constitution, nor prohibited by it to the States, are reserved to the States respectively, or to the people.”"
+   ],
+   "attribution": "The U.S. Constitution, Article VI (1787) and the Tenth Amendment (ratified 1791). Public domain. Wording follows the text printed in OpenStax American Government 4e, Appendix B.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (the U.S. Constitution, a public document adopted in 1787 and amended since). StudySprint quotes it as printed in OpenStax American Government 4e (openstax.org/books/american-government-4e/pages/b-the-constitution-of-the-united-states); no OpenStax commentary is copied."
+  }
+ ],
+ "questions": [
+  {
+   "id": "gov-u1-q01",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-constitution",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Madison's statement that “Ambition must be made to counteract ambition” supports which feature of the Constitution?",
+   "choices": [
+    "A single legislature that can act quickly without delay",
+    "Separation of powers, with each branch able to check the others",
+    "A strong national executive who directs and controls the other branches",
+    "Direct election of every federal official by the voters"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Madison wants each branch to have the means and the motive to resist the others, which is the logic of separation of powers with checks and balances.",
+   "choiceExplanations": [
+    "Madison wants power divided and checked, not concentrated in one fast-acting body.",
+    "",
+    "Giving one branch control over the others is the danger Madison wants to prevent.",
+    "The excerpt concerns how branches check one another, not how officials are chosen."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov1-a"
+  },
+  {
+   "id": "gov-u1-q02",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-constitution",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Madison writes that government must first “control the governed” and then “control itself.” This idea most directly reflects the principle of",
+   "choices": [
+    "federal supremacy",
+    "popular sovereignty",
+    "limited government",
+    "judicial review"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A government strong enough to govern but restrained from abusing its power is a limited government.",
+   "choiceExplanations": [
+    "Federal supremacy concerns national law over state law, which the passage doesn't address.",
+    "Popular sovereignty is the idea that authority comes from the people; the passage stresses restraints on government.",
+    "",
+    "Judicial review is one possible check, but the passage describes the broader principle of restraining government."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov1-a"
+  },
+  {
+   "id": "gov-u1-q03",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-constitution",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which constitutional provision best illustrates the principle Madison describes?",
+   "choices": [
+    "Congress can override a presidential veto by a two-thirds vote in each house",
+    "The Constitution can be ratified by nine of the thirteen states",
+    "The president must be at least thirty-five years old and a natural-born citizen",
+    "Each state has two senators, regardless of its population"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The veto lets the president check Congress, and the override lets Congress check the president: ambition counteracting ambition.",
+   "choiceExplanations": [
+    "",
+    "The ratification rule concerned adopting the Constitution, not checks between branches.",
+    "Qualifications for office don't set one branch against another.",
+    "Equal Senate representation came from the Great Compromise about representation, not checks between branches."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov1-a"
+  },
+  {
+   "id": "gov-u1-q04",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-constitution",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "An Anti-Federalist such as the author of Brutus No. 1 would most likely respond to Madison's argument by warning that",
+   "choices": [
+    "the national government created by the Constitution would be too weak to collect its taxes",
+    "the states should be abolished so that the national government could act alone",
+    "the Constitution divided power among too many separate branches of government",
+    "a powerful national government in a large republic would threaten liberty and the states"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Brutus argued that a large republic with broad national powers would be too distant from the people and would swallow up the states, endangering liberty.",
+   "choiceExplanations": [
+    "Anti-Federalists feared the national government would be too strong, not too weak.",
+    "Anti-Federalists defended the states; they didn't call for abolishing them.",
+    "Their worry was concentrated national power, not too many branches.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov1-a"
+  },
+  {
+   "id": "gov-u1-q05",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-federalism",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the Tenth Amendment in Source B, powers not delegated to the national government are",
+   "choices": [
+    "transferred to the national government in an emergency",
+    "held by the Supreme Court until Congress acts",
+    "shared equally by the president and Congress",
+    "reserved to the states or to the people"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The amendment reserves undelegated powers “to the States respectively, or to the people.”",
+   "choiceExplanations": [
+    "It contains no emergency transfer of power.",
+    "The amendment says nothing about the Court holding powers.",
+    "It concerns the division between nation and states, not between branches.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov1-b"
+  },
+  {
+   "id": "gov-u1-q06",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-federalism",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "If a state law conflicts with a valid federal law, the Supremacy Clause in Source B means that",
+   "choices": [
+    "the two laws apply equally until voters choose between them",
+    "the federal law prevails, and state judges must follow it",
+    "Congress must ask the state legislature to repeal its law",
+    "the state law prevails inside that state's borders"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Federal law made under the Constitution is “the supreme Law of the Land,” and state judges are bound by it.",
+   "choiceExplanations": [
+    "The clause settles the conflict; it doesn't leave both laws in force.",
+    "",
+    "No request to the state is required; the federal law simply controls.",
+    "The clause says state laws to the contrary do not prevail."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov1-b"
+  },
+  {
+   "id": "gov-u1-q07",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-federalism",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which required Supreme Court case most directly relied on the principle stated in Article VI?",
+   "choices": [
+    "McCulloch v. Maryland, which held that a state could not tax the national bank",
+    "Engel v. Vitale, which barred school-sponsored prayer in public schools as unconstitutional",
+    "Marbury v. Madison, which established judicial review of federal laws",
+    "Baker v. Carr, which allowed federal courts to hear redistricting cases"
+   ],
+   "correctAnswer": 0,
+   "explanation": "In McCulloch (1819) the Court held that federal supremacy barred Maryland from taxing the Second Bank of the United States.",
+   "choiceExplanations": [
+    "",
+    "Engel is a First Amendment Establishment Clause case.",
+    "Marbury concerned the Court's power over the other branches, not federal supremacy over states.",
+    "Baker concerned whether courts could hear redistricting challenges."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov1-b"
+  },
+  {
+   "id": "gov-u1-q08",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-federalism",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The Court's reasoning in United States v. Lopez (1995) most closely reflects which part of Source B?",
+   "choices": [
+    "The Tenth Amendment's reservation of undelegated powers",
+    "Article VI's requirement that state judges follow federal law",
+    "Article VI's rule that treaties are supreme law",
+    "The Tenth Amendment's list of powers denied to Congress"
+   ],
+   "correctAnswer": 0,
+   "explanation": "In Lopez the Court held that Congress exceeded its commerce power, leaving the regulation of guns near schools to the states, consistent with reserved powers.",
+   "choiceExplanations": [
+    "",
+    "Lopez limited federal power rather than enforcing federal law over states.",
+    "Lopez involved a federal criminal statute, not a treaty.",
+    "The Tenth Amendment contains no list of denied powers; it reserves undelegated powers."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov1-b"
+  },
+  {
+   "id": "gov-u1-q09",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-ideals",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The Declaration of Independence's statement that governments derive “their just powers from the consent of the governed” expresses the principle of",
+   "choices": [
+    "judicial review",
+    "popular sovereignty",
+    "checks and balances",
+    "federalism"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Authority that comes from the people's consent is popular sovereignty.",
+   "choiceExplanations": [
+    "Judicial review is the courts' power to strike down laws; the Declaration doesn't mention it.",
+    "",
+    "Checks and balances describe relations among branches, a later constitutional design.",
+    "Federalism is the division of power between levels of government."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u1-q10",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-ideals",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The Declaration's claim that people have “unalienable Rights” such as life and liberty draws most directly on",
+   "choices": [
+    "Adam Smith's argument for free markets and trade",
+    "natural rights philosophy associated with John Locke",
+    "the divine right of kings to rule without consent",
+    "the Articles of Confederation's list of state powers"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Locke argued that people have natural rights that governments exist to protect.",
+   "choiceExplanations": [
+    "Smith wrote about economics, not the source of political rights.",
+    "",
+    "The Declaration rejects rule without the consent of the governed.",
+    "The Articles came after the Declaration and list no natural rights."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u1-q11",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-ideals",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Residents of a small town gather each spring to debate and vote directly on the town's budget. This practice best reflects",
+   "choices": [
+    "participatory democracy",
+    "federalism",
+    "pluralist democracy",
+    "elite democracy by a few"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Broad, direct participation by ordinary citizens in decisions is participatory democracy.",
+   "choiceExplanations": [
+    "",
+    "Federalism concerns levels of government, not how citizens take part.",
+    "Pluralist democracy centers on competing groups rather than direct citizen votes.",
+    "Elite democracy limits influence to a small, privileged group."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u1-q12",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-ideals",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Many organized groups, from farmers to teachers, compete to influence a new law. This competition best illustrates",
+   "choices": [
+    "elite democracy",
+    "popular sovereignty",
+    "participatory democracy",
+    "pluralist democracy"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Pluralist democracy emphasizes competition among many groups for influence.",
+   "choiceExplanations": [
+    "Elite democracy stresses influence by a small, privileged group.",
+    "Popular sovereignty is the source of authority, not group competition.",
+    "Participatory democracy stresses direct participation by individual citizens.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u1-q13",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-ideals",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which feature of the original Constitution best reflects elite democracy?",
+   "choices": [
+    "Amendments required approval by three-fourths of the state legislatures",
+    "The president could veto bills passed by Congress",
+    "Senators were chosen by state legislatures rather than by voters",
+    "Members of the House were elected directly by the voters"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Indirect selection of senators kept the voters at a distance; the Seventeenth Amendment (1913) later required direct election.",
+   "choiceExplanations": [
+    "The amendment process spreads power among states rather than limiting it to an elite.",
+    "The veto is a check between branches, not a limit on who participates.",
+    "",
+    "Direct election of the House reflects participatory, not elite, democracy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u1-q14",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-constitution",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which weakness of the Articles of Confederation did the Constitution most directly correct?",
+   "choices": [
+    "Each state had too many votes in Congress",
+    "Congress could not levy taxes",
+    "The national courts were too powerful",
+    "States could not print paper money"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Under the Articles, Congress could only request money from the states; the Constitution gave Congress the power to tax.",
+   "choiceExplanations": [
+    "Each state had one vote under the Articles; that wasn't the problem the Constitution fixed this way.",
+    "",
+    "The Articles created no national court system.",
+    "States did issue their own money under the Articles."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u1-q15",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-constitution",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Great (Connecticut) Compromise resolved the dispute between large and small states by",
+   "choices": [
+    "counting three-fifths of the enslaved population for representation",
+    "letting each state choose how many senators it would send",
+    "creating a House based on population and a Senate with equal votes",
+    "giving every state one vote in a single-house legislature"
+   ],
+   "correctAnswer": 2,
+   "explanation": "It combined the Virginia Plan (representation by population) and the New Jersey Plan (equal representation) in a bicameral Congress.",
+   "choiceExplanations": [
+    "The Three-Fifths Compromise was a separate agreement about counting enslaved people.",
+    "The Constitution gives every state two senators.",
+    "",
+    "One vote per state in a single house describes the Articles."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u1-q16",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-constitution",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Anti-Federalists' demand for protections of individual liberty most directly led to",
+   "choices": [
+    "the addition of the Bill of Rights",
+    "the Three-Fifths Compromise",
+    "the creation of the Electoral College",
+    "the Articles of Confederation"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Federalists promised amendments protecting rights to win ratification, and the Bill of Rights was ratified in 1791.",
+   "choiceExplanations": [
+    "",
+    "The Three-Fifths Compromise concerned representation and slavery.",
+    "The Electoral College came from debates over choosing the president.",
+    "The Articles came before the ratification debate."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u1-q17",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-federalism",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which is an example of a concurrent power?",
+   "choices": [
+    "Coining money",
+    "Making foreign treaties",
+    "Declaring war",
+    "Collecting taxes"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Both the national and state governments may tax, so taxing is a concurrent power.",
+   "choiceExplanations": [
+    "Coining money is an exclusive national power.",
+    "Treaties are made only by the national government.",
+    "Declaring war belongs to Congress alone.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u1-q18",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-federalism",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Compared with a categorical grant, a block grant gives state governments",
+   "choices": [
+    "less money and more detailed federal conditions",
+    "the power to set national standards for other states",
+    "more freedom to decide how to spend the money",
+    "no obligation to report how the money was used"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Block grants fund broad purposes and leave states discretion; categorical grants come with specific conditions.",
+   "choiceExplanations": [
+    "Detailed conditions describe categorical grants.",
+    "Grants don't let one state set standards for others.",
+    "",
+    "States still report on how grant money is used."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u1-q19",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-federalism",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which statement best explains how McCulloch v. Maryland and United States v. Lopez together show change in federalism?",
+   "choices": [
+    "Both cases held that states could tax the national government",
+    "McCulloch limited the commerce power, while Lopez expanded it greatly",
+    "Both cases expanded Congress's power to regulate the states",
+    "McCulloch broadened national power, while Lopez set a limit on it"
+   ],
+   "correctAnswer": 3,
+   "explanation": "McCulloch read the Necessary and Proper Clause broadly; Lopez held that Congress had gone beyond the Commerce Clause.",
+   "choiceExplanations": [
+    "McCulloch held that states could not tax the national bank.",
+    "This reverses the two cases.",
+    "Lopez limited, rather than expanded, Congress's power.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u1-q20",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "topicId": "gov1-ideals",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Lincoln's description of “government of the people, by the people, for the people” in the Gettysburg Address restates the idea of",
+   "choices": [
+    "judicial independence",
+    "separation of powers",
+    "popular sovereignty",
+    "federal supremacy"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Government drawing its authority from, and serving, the people is popular sovereignty.",
+   "choiceExplanations": [
+    "The phrase doesn't concern courts.",
+    "The phrase doesn't describe dividing power among branches.",
+    "",
+    "The phrase doesn't concern national law over state law."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-gov-u1-os1",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "title": "OpenStax American Government 4e, 2.3 The Development of the Constitution",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/2-3-the-development-of-the-constitution",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on the Constitutional Convention and its compromises. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/2-3-the-development-of-the-constitution",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-gov-u1-os2",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "title": "OpenStax American Government 4e, 2.4 The Ratification of the Constitution",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/2-4-the-ratification-of-the-constitution",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on the ratification debate between Federalists and Anti-Federalists. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/2-4-the-ratification-of-the-constitution",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-gov-u1-os3",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u1",
+   "title": "OpenStax American Government 4e, 3.2 The Evolution of American Federalism",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/3-2-the-evolution-of-american-federalism",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on how federalism has changed over time. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/3-2-the-evolution-of-american-federalism",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP U.S. Government and Politics free-response set has four questions (concept application, quantitative analysis, SCOTUS comparison, and argument essay) that usually draw on several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "gov-u1-q01",
+    "gov-u1-q02",
+    "gov-u1-q03",
+    "gov-u1-q04",
+    "gov-u1-q09",
+    "gov-u1-q10",
+    "gov-u1-q11",
+    "gov-u1-q19"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "gov-u1-q05",
+    "gov-u1-q06",
+    "gov-u1-q07",
+    "gov-u1-q08",
+    "gov-u1-q12",
+    "gov-u1-q13",
+    "gov-u1-q14",
+    "gov-u1-q17"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,807 @@
+{
+ "courseId": "ap-united-states-government-and-politics",
+ "unitId": "u3",
+ "title": "Unit 3: Civil Liberties and Civil Rights",
+ "topics": [
+  {
+   "id": "gov3-first",
+   "name": "The Bill of Rights and the First Amendment",
+   "covers": [
+    "The intent of the Bill of Rights",
+    "The First Amendment (freedom of speech, freedom of religion, and freedom of the press) and how the Supreme Court has interpreted it"
+   ],
+   "frameworkCovers": [
+    "3.1 The Bill of Rights",
+    "3.2 First Amendment: Freedom of Religion",
+    "3.3 First Amendment: Freedom of Speech",
+    "3.4 First Amendment: Freedom of the Press"
+   ]
+  },
+  {
+   "id": "gov3-rights",
+   "name": "Other amendments, incorporation, due process, and privacy",
+   "covers": [
+    "The Second Amendment (the right to bear arms) and how the Supreme Court has interpreted it",
+    "Supreme Court interpretations of other amendments"
+   ],
+   "frameworkCovers": [
+    "3.5 Second Amendment: Right to Bear Arms",
+    "3.6 Amendments: Balancing Individual Freedom with Public Order and Safety",
+    "3.7 Selective Incorporation",
+    "3.8 Amendments: Due Process and the Rights of the Accused",
+    "3.9 Amendments: Due Process and the Right to Privacy"
+   ]
+  },
+  {
+   "id": "gov3-equal",
+   "name": "Equal protection, social movements, and minority rights",
+   "covers": [
+    "How the due process and equal protection clauses of the Fourteenth Amendment have motivated social movements"
+   ],
+   "frameworkCovers": [
+    "3.10 Social Movements and Equal Protection",
+    "3.11 Government Responses to Social Movements",
+    "3.12 Balancing Minority and Majority Rights",
+    "3.13 Affirmative Action"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 3: Civil Liberties and Civil Rights: review guide",
+  "intro": "Civil liberties are protections against government (such as free speech); civil rights are protections against unequal treatment (such as equal protection). This unit covers how the Supreme Court has interpreted the Bill of Rights and the Fourteenth Amendment. Required cases here include Engel v. Vitale, Wisconsin v. Yoder, Tinker v. Des Moines, Schenck v. United States, New York Times Co. v. United States, McDonald v. Chicago, Gideon v. Wainwright, Brown v. Board of Education, and Shaw v. Reno; required documents include the Emancipation Proclamation and the “Letter from a Birmingham Jail.”",
+  "sections": [
+   {
+    "id": "s-gov3-first",
+    "topicId": "gov3-first",
+    "title": "The Bill of Rights and the First Amendment",
+    "body": [
+     "The Bill of Rights originally limited only the national government. The First Amendment's Establishment Clause bars government sponsorship of religion (Engel v. Vitale, 1962, struck down school-sponsored prayer), and its Free Exercise Clause protects religious practice (Wisconsin v. Yoder, 1972, held that requiring Amish children to attend school past eighth grade violated free exercise).",
+     "Speech protections are broad but not absolute. Schenck v. United States (1919) allowed limits on speech creating a “clear and present danger”; Tinker v. Des Moines (1969) protected students' symbolic speech (black armbands) that didn't cause substantial disruption; and New York Times Co. v. United States (1971) set a heavy presumption against prior restraint of the press. Governments may also set content-neutral time, place, and manner rules."
+    ],
+    "points": [
+     "Tell the Establishment Clause from the Free Exercise Clause.",
+     "Know the test or rule each speech case created."
+    ]
+   },
+   {
+    "id": "s-gov3-rights",
+    "topicId": "gov3-rights",
+    "title": "Other amendments, incorporation, and due process",
+    "body": [
+     "Through selective incorporation, the Court has applied most Bill of Rights protections to the states, case by case, through the Fourteenth Amendment's Due Process Clause. McDonald v. Chicago (2010) incorporated the Second Amendment right to keep and bear arms for self-defense; Gideon v. Wainwright (1963) required states to provide lawyers for felony defendants who can't afford one.",
+     "Rights of the accused include protection from unreasonable searches (the Fourth Amendment, with the exclusionary rule barring illegally obtained evidence), from self-incrimination (Fifth), and from cruel and unusual punishment (Eighth). The Court has also found a right to privacy implied by several amendments, a right whose scope has been contested."
+    ],
+    "points": [
+     "Incorporation runs through the Fourteenth Amendment's Due Process Clause.",
+     "Match each right of the accused to its amendment."
+    ]
+   },
+   {
+    "id": "s-gov3-equal",
+    "topicId": "gov3-equal",
+    "title": "Equal protection and social movements",
+    "body": [
+     "The Fourteenth Amendment's Equal Protection Clause was the basis for Brown v. Board of Education (1954), which held that race-based school segregation is unconstitutional and overturned the “separate but equal” doctrine of Plessy v. Ferguson (1896). Social movements, such as the civil rights movement described in King's “Letter from a Birmingham Jail,” used protest, lawsuits, and lobbying.",
+     "Government responses included the Civil Rights Act of 1964, the Voting Rights Act of 1965, and Title IX (1972), which bars sex discrimination in federally funded education. Courts balance majority and minority rights: Shaw v. Reno (1993) held that a majority-minority district drawn with race as the only factor can be challenged under equal protection. Affirmative action has been debated and narrowed by the Court."
+    ],
+    "points": [
+     "Civil rights claims usually rest on equal protection.",
+     "Courts, Congress, and movements all shape civil rights."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A state requires all students to recite a prayer written by state officials. Which required case applies, and why?",
+   "solution": "Engel v. Vitale (1962): the Court held that school-sponsored prayer violates the Establishment Clause, even if the prayer is nondenominational and voluntary."
+  },
+  "misconceptions": [
+   [
+    "“Civil liberties and civil rights are the same.”",
+    "Liberties limit government action; rights guarantee equal treatment."
+   ],
+   [
+    "“The First Amendment protects all speech.”",
+    "Some speech, such as speech creating a clear and present danger, can be limited."
+   ],
+   [
+    "“The Bill of Rights has always applied to the states.”",
+    "It applied only to the national government until incorporation through the Fourteenth Amendment."
+   ],
+   [
+    "“Brown v. Board ended segregation everywhere at once.”",
+    "Desegregation met resistance and took years of further action."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. Government and Politics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+  "sourceTitle": "AP U.S. Government and Politics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "gov3-a",
+   "title": "Source A: The First Amendment, 1791",
+   "text": [
+    "“Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.”"
+   ],
+   "attribution": "The U.S. Constitution, First Amendment (ratified 1791). Public domain. Wording follows the text printed in OpenStax American Government 4e, Appendix B.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (the U.S. Constitution, a public document adopted in 1787 and amended since). StudySprint quotes it as printed in OpenStax American Government 4e (openstax.org/books/american-government-4e/pages/b-the-constitution-of-the-united-states); no OpenStax commentary is copied."
+  },
+  {
+   "id": "gov3-b",
+   "title": "Source B: The Fourteenth Amendment, Section 1, 1868",
+   "text": [
+    "“All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside. No State shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws.”"
+   ],
+   "attribution": "The U.S. Constitution, Fourteenth Amendment, Section 1 (ratified 1868). Public domain. Wording follows the text printed in OpenStax American Government 4e, Appendix B.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (the U.S. Constitution, a public document adopted in 1787 and amended since). StudySprint quotes it as printed in OpenStax American Government 4e (openstax.org/books/american-government-4e/pages/b-the-constitution-of-the-united-states); no OpenStax commentary is copied."
+  }
+ ],
+ "questions": [
+  {
+   "id": "gov-u3-q01",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-first",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A public school begins each day with a prayer written by state officials. This practice would most likely be challenged under which part of Source A?",
+   "choices": [
+    "“the right of the people peaceably to assemble, and to petition”",
+    "“no law respecting an establishment of religion”",
+    "“abridging the freedom . . . of the press”",
+    "“prohibiting the free exercise thereof”"
+   ],
+   "correctAnswer": 1,
+   "explanation": "School-sponsored prayer is government endorsement of religion, which Engel v. Vitale (1962) held violates the Establishment Clause.",
+   "choiceExplanations": [
+    "The assembly clause concerns gatherings, not school prayer.",
+    "",
+    "The press clause concerns publishing, not school prayer.",
+    "Free exercise protects private religious practice; the problem here is government sponsorship."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov3-a"
+  },
+  {
+   "id": "gov-u3-q02",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-first",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In Tinker v. Des Moines (1969), the Court held that students' black armbands protesting the Vietnam War were",
+   "choices": [
+    "unprotected because students give up their rights when they enter the schoolhouse gate",
+    "protected only because the armbands were worn outside school hours",
+    "protected symbolic speech because they didn't substantially disrupt school",
+    "unprotected because they created a clear and present danger to others"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The Court ruled that students keep free speech rights at school and that the quiet protest caused no substantial disruption.",
+   "choiceExplanations": [
+    "The Court famously said students do not shed their rights “at the schoolhouse gate.”",
+    "The armbands were worn in school, and the protest was protected there.",
+    "",
+    "The clear and present danger test came from Schenck and didn't apply to a silent protest."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov3-a"
+  },
+  {
+   "id": "gov-u3-q03",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-first",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "New York Times Co. v. United States (1971) applied the press clause in Source A by",
+   "choices": [
+    "ruling that the press clause protects only newspapers, not other publishers",
+    "allowing the government to block any publication that involved national security",
+    "requiring newspapers to get government approval before printing classified material",
+    "setting a heavy presumption against government prior restraint of publication"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The Court refused to block publication of the Pentagon Papers, holding that prior restraint faces a heavy presumption against it.",
+   "choiceExplanations": [
+    "The case concerned prior restraint, not which kinds of publishers are covered.",
+    "The Court rejected the government's national-security argument in that case.",
+    "The decision protected publication without prior government approval.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov3-a"
+  },
+  {
+   "id": "gov-u3-q04",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-first",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which statement best compares Schenck v. United States (1919) and Tinker v. Des Moines (1969)?",
+   "choices": [
+    "Schenck upheld limits on dangerous wartime speech, while Tinker protected peaceful student protest",
+    "Schenck protected antiwar leaflets in wartime, while Tinker allowed schools to ban student armbands",
+    "Both cases upheld government punishment of people who criticized a war",
+    "Both cases held that the First Amendment does not apply to political speech"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Schenck upheld a conviction for antidraft leaflets under the clear and present danger test; Tinker protected students' symbolic antiwar speech.",
+   "choiceExplanations": [
+    "",
+    "This reverses the outcomes of the two cases.",
+    "Tinker protected the students' speech rather than upholding punishment.",
+    "Both cases treated political speech as covered by the First Amendment, though with different results."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov3-a"
+  },
+  {
+   "id": "gov-u3-q05",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-equal",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which part of Source B was the basis for the decision in Brown v. Board of Education (1954)?",
+   "choices": [
+    "“the equal protection of the laws”",
+    "“privileges or immunities of citizens”",
+    "“born or naturalized in the United States”",
+    "“citizens of the United States”"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Brown held that race-based school segregation violates the Equal Protection Clause.",
+   "choiceExplanations": [
+    "",
+    "The Court relied on equal protection, not the Privileges or Immunities Clause.",
+    "That phrase concerns birthright citizenship, not segregation.",
+    "The citizenship clause defines who is a citizen, not equal treatment in schools."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov3-b"
+  },
+  {
+   "id": "gov-u3-q06",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-rights",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The phrase “nor shall any State deprive any person of life, liberty, or property, without due process of law” has been used by the Supreme Court mainly to",
+   "choices": [
+    "give Congress the power to regulate interstate commerce",
+    "require states to follow the decisions of the president",
+    "apply most Bill of Rights protections to the states",
+    "allow states to ignore the Bill of Rights in emergencies"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Through selective incorporation, the Court has applied Bill of Rights protections to the states through the Due Process Clause, as in McDonald v. Chicago (2010).",
+   "choiceExplanations": [
+    "The commerce power comes from Article I.",
+    "Due process limits states; it doesn't put them under the president's control.",
+    "",
+    "The clause restricts states; it doesn't create emergency exceptions."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov3-b"
+  },
+  {
+   "id": "gov-u3-q07",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-equal",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which federal action was most directly a response to the civil rights movement's pressure for equal protection?",
+   "choices": [
+    "The Pendleton Act of 1883, which created a merit-based federal civil service",
+    "The War Powers Resolution of 1973, which limited presidential use of troops",
+    "The Civil Rights Act of 1964, which banned discrimination in public accommodations",
+    "The Seventeenth Amendment of 1913, which provided for the direct election of senators"
+   ],
+   "correctAnswer": 2,
+   "explanation": "After years of protest and lobbying, Congress passed the Civil Rights Act of 1964 to ban discrimination in public accommodations and employment.",
+   "choiceExplanations": [
+    "The Pendleton Act concerned civil service hiring, not civil rights.",
+    "The War Powers Resolution concerned military deployments.",
+    "",
+    "The Seventeenth Amendment concerned how senators are chosen."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov3-b"
+  },
+  {
+   "id": "gov-u3-q08",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-equal",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In Shaw v. Reno (1993), the Court applied Source B to hold that",
+   "choices": [
+    "a district drawn with race as the only factor can be challenged under equal protection",
+    "federal courts may never hear cases that challenge a state's redistricting plan",
+    "states must draw districts in which a majority of the voters belong to a minority group",
+    "the Fourteenth Amendment does not apply to how states draw congressional districts"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Shaw held that voters may challenge majority-minority districts drawn solely on the basis of race under the Equal Protection Clause.",
+   "choiceExplanations": [
+    "",
+    "Baker v. Carr (1962) had already allowed federal courts to hear redistricting cases.",
+    "Shaw limited race-based districting rather than requiring it.",
+    "Shaw applied the Fourteenth Amendment to districting."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov3-b"
+  },
+  {
+   "id": "gov-u3-q09",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-first",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In Wisconsin v. Yoder (1972), the Court held that requiring Amish children to attend school past eighth grade violated",
+   "choices": [
+    "the right to bear arms",
+    "the Free Exercise Clause",
+    "the Establishment Clause",
+    "the Equal Protection Clause"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The compulsory attendance law burdened the Amish families' religious practice, violating free exercise.",
+   "choiceExplanations": [
+    "The case had nothing to do with the Second Amendment.",
+    "",
+    "The case concerned a burden on religious practice, not government sponsorship of religion.",
+    "The ruling rested on religious freedom, not equal protection."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u3-q10",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-first",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "When it was ratified in 1791, the Bill of Rights was intended mainly to",
+   "choices": [
+    "give the states new powers over the national government's laws",
+    "describe the powers of the three branches of government",
+    "protect individual liberties from state governments",
+    "protect individual liberties from the national government"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The Bill of Rights originally limited the national government; it was applied to states much later through incorporation.",
+   "choiceExplanations": [
+    "It protects individuals rather than granting states new powers.",
+    "The branches' powers are set out in Articles I–III.",
+    "It didn't apply to the states until incorporation.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u3-q11",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-first",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A city requires groups to get a permit before holding a parade downtown, without regard to the groups' message. Such a rule is generally",
+   "choices": [
+    "allowed as a content-neutral time, place, and manner restriction",
+    "allowed only if the city also bans the groups' political message",
+    "forbidden because the First Amendment bars any limit on assembly",
+    "forbidden because parades are protected by the Second Amendment"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Governments may regulate the time, place, and manner of expression if the rules are content neutral and reasonable.",
+   "choiceExplanations": [
+    "",
+    "Banning a message would make the rule content based and unconstitutional.",
+    "The right to assemble is not absolute; reasonable content-neutral rules are allowed.",
+    "The Second Amendment concerns arms, not parades."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u3-q12",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-rights",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Gideon v. Wainwright (1963) held that",
+   "choices": [
+    "states must provide a lawyer to felony defendants who can't afford one",
+    "the death penalty is always cruel and unusual punishment",
+    "police must warn suspects of their rights before any questioning in custody",
+    "evidence found in an illegal search must be excluded from trial"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Gideon applied the Sixth Amendment right to counsel to state felony cases.",
+   "choiceExplanations": [
+    "",
+    "Gideon concerned counsel, not the death penalty.",
+    "Warnings before questioning come from Miranda v. Arizona (1966), a different case.",
+    "The exclusionary rule for states comes from Mapp v. Ohio (1961)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u3-q13",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-rights",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The exclusionary rule means that",
+   "choices": [
+    "suspects have a right to a speedy and public trial by jury",
+    "defendants may refuse to testify against themselves in court in any criminal case",
+    "no person may be tried twice for the same crime",
+    "evidence gained through an unconstitutional search generally can't be used at trial"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The exclusionary rule enforces the Fourth Amendment by barring illegally obtained evidence.",
+   "choiceExplanations": [
+    "That is the Sixth Amendment right to a speedy, public jury trial.",
+    "That is the Fifth Amendment protection against self-incrimination.",
+    "That is the Fifth Amendment protection against double jeopardy.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u3-q14",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-rights",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The right to privacy is best described as a right that",
+   "choices": [
+    "applies only to the national government and never to the laws of the states",
+    "the Court has found implied by several amendments, though it isn't named",
+    "is listed word for word in the First Amendment's guarantees",
+    "was created by Congress in a law passed after World War II"
+   ],
+   "correctAnswer": 1,
+   "explanation": "In cases such as Griswold v. Connecticut (1965), the Court found a right to privacy implied by several amendments; its scope remains debated.",
+   "choiceExplanations": [
+    "The Court has applied privacy protections against state laws.",
+    "",
+    "The word “privacy” doesn't appear in the Constitution.",
+    "The right comes from Court interpretation, not a statute."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u3-q15",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-rights",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A state law sets a sentence of life in prison for stealing a small item. A challenge to this law would most likely rely on",
+   "choices": [
+    "the First Amendment protection of the freedom of speech and press",
+    "the Second Amendment right to keep and bear arms",
+    "the Eighth Amendment ban on cruel and unusual punishment",
+    "the Tenth Amendment reservation of powers to the states"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A sentence grossly out of proportion to the crime raises an Eighth Amendment question.",
+   "choiceExplanations": [
+    "Speech isn't at issue in a sentencing dispute.",
+    "The Second Amendment concerns weapons, not punishment.",
+    "",
+    "The Tenth Amendment would support state power, not limit the sentence."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u3-q16",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-rights",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Gideon v. Wainwright (1963) and McDonald v. Chicago (2010) are similar in that both",
+   "choices": [
+    "held that the Bill of Rights applies only to actions taken by the national government",
+    "applied a Bill of Rights protection to the states through the Fourteenth Amendment",
+    "concerned the meaning of the First Amendment's Establishment Clause",
+    "expanded the power of the police to search homes without a warrant"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Both are selective incorporation cases: Gideon incorporated the right to counsel and McDonald the right to bear arms.",
+   "choiceExplanations": [
+    "Both extended rights to state cases, the opposite of this claim.",
+    "",
+    "Neither case concerned religion.",
+    "Neither case was about searches."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u3-q17",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-equal",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Admissions policies that consider race to increase the diversity of a student body are known as",
+   "choices": [
+    "prior restraint",
+    "selective incorporation",
+    "affirmative action",
+    "judicial restraint"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Affirmative action refers to policies meant to increase opportunities for groups that faced discrimination; the Court has narrowed and then sharply limited race-conscious admissions.",
+   "choiceExplanations": [
+    "Prior restraint is government censorship before publication.",
+    "Selective incorporation applies the Bill of Rights to the states.",
+    "",
+    "Judicial restraint is a judicial philosophy of deference."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u3-q18",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-equal",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Title IX of the Education Amendments of 1972 is best understood as a government response to",
+   "choices": [
+    "the gun rights movement's demand to incorporate the Second Amendment right",
+    "the women's rights movement's demand for equal treatment in education",
+    "the labor movement's demand for a federal minimum wage",
+    "the civil rights movement's demand to end literacy tests"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Title IX bars sex discrimination in education programs that receive federal money, a goal of the women's movement.",
+   "choiceExplanations": [
+    "Incorporation of the Second Amendment came from McDonald v. Chicago (2010).",
+    "",
+    "The minimum wage came from the Fair Labor Standards Act of 1938.",
+    "Literacy tests were banned by the Voting Rights Act of 1965."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u3-q19",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-equal",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Brown v. Board of Education (1954) overturned the precedent set in",
+   "choices": [
+    "Schenck v. United States (1919)",
+    "Marbury v. Madison (1803)",
+    "McCulloch v. Maryland (1819)",
+    "Plessy v. Ferguson (1896)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Plessy upheld “separate but equal” facilities; Brown held that separate schools are inherently unequal.",
+   "choiceExplanations": [
+    "Schenck concerned wartime speech.",
+    "Marbury established judicial review and remains good law.",
+    "McCulloch concerned federalism and the national bank.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u3-q20",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "topicId": "gov3-equal",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which example best shows the Supreme Court protecting minority rights against a policy supported by a majority?",
+   "choices": [
+    "Refusing to hear challenges to redistricting plans before Baker v. Carr",
+    "Allowing states to limit the size of protests without regard to their message",
+    "Upholding a wartime law that punished people who opposed the military draft",
+    "Striking down state laws that required racially segregated public schools"
+   ],
+   "correctAnswer": 3,
+   "explanation": "In Brown, the Court struck down segregation laws passed by state majorities, protecting the rights of Black students.",
+   "choiceExplanations": [
+    "Refusing to hear redistricting cases left majority-drawn plans in place.",
+    "Content-neutral limits on protests treat all groups alike and don't protect a minority.",
+    "Schenck upheld government power over a dissenter, not minority rights.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-gov-u3-os1",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "title": "OpenStax American Government 4e, 4.2 Securing Basic Freedoms",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/4-2-securing-basic-freedoms",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on First Amendment and other basic freedoms. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/4-2-securing-basic-freedoms",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-gov-u3-os2",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "title": "OpenStax American Government 4e, 4.3 The Rights of Suspects",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/4-3-the-rights-of-suspects",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on the rights of people accused of crimes. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/4-3-the-rights-of-suspects",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-gov-u3-os3",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u3",
+   "title": "OpenStax American Government 4e, 5.2 The African American Struggle for Equality",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/5-2-the-african-american-struggle-for-equality",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on the civil rights movement and equal protection. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/5-2-the-african-american-struggle-for-equality",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP U.S. Government and Politics free-response set has four questions (concept application, quantitative analysis, SCOTUS comparison, and argument essay) that usually draw on several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "gov-u3-q01",
+    "gov-u3-q02",
+    "gov-u3-q03",
+    "gov-u3-q04",
+    "gov-u3-q09",
+    "gov-u3-q10",
+    "gov-u3-q14",
+    "gov-u3-q20"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "gov-u3-q05",
+    "gov-u3-q06",
+    "gov-u3-q07",
+    "gov-u3-q08",
+    "gov-u3-q11",
+    "gov-u3-q12",
+    "gov-u3-q13",
+    "gov-u3-q16"
+   ]
+  }
+ ]
+}

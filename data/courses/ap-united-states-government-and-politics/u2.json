@@ -1,0 +1,850 @@
+{
+ "courseId": "ap-united-states-government-and-politics",
+ "unitId": "u2",
+ "title": "Unit 2: Interactions Among Branches of Government",
+ "topics": [
+  {
+   "id": "gov2-congress",
+   "name": "Congress: structure, powers, and behavior",
+   "covers": [
+    "The structures, powers, and functions of each house of Congress"
+   ],
+   "frameworkCovers": [
+    "2.1 Congress: The Senate and the House of Representatives",
+    "2.2 Structures, Powers, and Functions of Congress",
+    "2.3 Congressional Behavior"
+   ]
+  },
+  {
+   "id": "gov2-president",
+   "name": "The presidency",
+   "covers": [
+    "The roles and powers of the president"
+   ],
+   "frameworkCovers": [
+    "2.4 Roles and Powers of the President",
+    "2.5 Checks on the Presidency",
+    "2.6 Expansion of Presidential Power",
+    "2.7 Presidential Communication"
+   ]
+  },
+  {
+   "id": "gov2-courts",
+   "name": "The federal courts",
+   "covers": [
+    "The roles and powers of the Supreme Court and other federal courts"
+   ],
+   "frameworkCovers": [
+    "2.8 The Judicial Branch",
+    "2.9 The Role of the Judicial Branch",
+    "2.10 The Court in Action",
+    "2.11 Checks on the Judicial Branch"
+   ]
+  },
+  {
+   "id": "gov2-bureaucracy",
+   "name": "The bureaucracy and policymaking",
+   "covers": [
+    "The roles of the federal bureaucracy (departments, agencies, commissions, and government corporations)"
+   ],
+   "frameworkCovers": [
+    "2.12 The Bureaucracy",
+    "2.13 Discretionary and Rulemaking Authority",
+    "2.14 Holding the Bureaucracy Accountable",
+    "2.15 Policy and the Branches of Government"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 2: Interactions Among Branches of Government: review guide",
+  "intro": "This unit, the most heavily weighted on the exam, covers how Congress, the president, the courts, and the bureaucracy use and check power. Required documents include Federalist No. 70 (on a single, energetic executive) and Federalist No. 78 (on the judiciary); the required case is Marbury v. Madison (1803).",
+  "sections": [
+   {
+    "id": "s-gov2-congress",
+    "topicId": "gov2-congress",
+    "title": "Congress",
+    "body": [
+     "The House (435 members, two-year terms, seats by population) and the Senate (100 members, six-year terms, two per state) share lawmaking but differ in rules. The House uses a Rules Committee to limit debate; the Senate allows unlimited debate, so a filibuster can block a bill unless 60 senators vote for cloture. Most bills die in committee.",
+     "Congress has enumerated powers (taxing, spending, regulating commerce, declaring war) and implied powers through the Necessary and Proper Clause. Members act as delegates (following constituents' views), trustees (using their own judgment), or politicos (mixing both). Divided government and partisanship often produce gridlock."
+    ],
+    "points": [
+     "Know at least one difference in House and Senate rules.",
+     "Committees control which bills advance."
+    ]
+   },
+   {
+    "id": "s-gov2-president",
+    "topicId": "gov2-president",
+    "title": "The presidency",
+    "body": [
+     "Formal powers include the veto, commander in chief, treaty making (with two-thirds Senate approval), and appointments (with Senate confirmation). Informal powers include executive orders, executive agreements, signing statements, and the bully pulpit of public communication. Federalist No. 70 argued that a single executive brings energy and decisiveness to government.",
+     "Congress checks the president through veto overrides (two-thirds of each house), confirmation, the power of the purse, impeachment, and the War Powers Resolution of 1973, which requires presidents to notify Congress after sending troops and to withdraw them within 60 days without congressional approval (plus 30 days to withdraw)."
+    ],
+    "points": [
+     "Separate formal (constitutional) from informal powers.",
+     "Presidents expand power through executive orders and agreements."
+    ]
+   },
+   {
+    "id": "s-gov2-courts",
+    "topicId": "gov2-courts",
+    "title": "The federal courts",
+    "body": [
+     "In Marbury v. Madison (1803) the Court established judicial review, the power to strike down laws and actions that violate the Constitution. Federal judges serve during good behavior (effectively for life), which Federalist No. 78 defended as protecting judicial independence; Hamilton called the judiciary the “least dangerous” branch.",
+     "Courts generally follow precedent (stare decisis). Judicial restraint means deferring to elected branches; judicial activism means a willingness to overturn their decisions. The other branches check the courts through appointments, confirmation, changes to the courts' jurisdiction, constitutional amendments, and by passing new laws."
+    ],
+    "points": [
+     "Judicial review comes from Marbury, not the text of the Constitution.",
+     "Know at least two checks on the courts."
+    ]
+   },
+   {
+    "id": "s-gov2-bureaucracy",
+    "topicId": "gov2-bureaucracy",
+    "title": "The bureaucracy",
+    "body": [
+     "The federal bureaucracy includes cabinet departments, independent regulatory commissions, independent executive agencies such as the Environmental Protection Agency, and government corporations. Congress often passes broad laws and leaves details to agencies, which use discretionary and rulemaking authority to write regulations.",
+     "Congress oversees the bureaucracy through committee hearings and the power of the purse; the president through appointments and executive orders; courts through review of agency rules. Iron triangles link an agency, a congressional committee, and an interest group with shared interests; issue networks are looser webs of experts and advocates. The merit-based civil service began with the Pendleton Act of 1883."
+    ],
+    "points": [
+     "Rulemaking authority is delegated by Congress.",
+     "Oversight tools include hearings, budgets, appointments, and lawsuits."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain one way Congress can respond if it disagrees with how an agency is enforcing a law.",
+   "solution": "Congress can hold oversight hearings to question agency officials, cut or condition the agency's funding (the power of the purse), or pass a new law that changes the agency's authority."
+  },
+  "misconceptions": [
+   [
+    "“A filibuster can happen in the House.”",
+    "House rules limit debate; the filibuster is a Senate practice."
+   ],
+   [
+    "“Executive orders are laws passed by Congress.”",
+    "They direct the executive branch and can be overturned by courts or later presidents."
+   ],
+   [
+    "“The Constitution explicitly grants judicial review.”",
+    "Judicial review was established by the Court in Marbury v. Madison."
+   ],
+   [
+    "“Bureaucrats are elected.”",
+    "Most are civil servants hired on merit; top officials are appointed."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. Government and Politics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+  "sourceTitle": "AP U.S. Government and Politics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "gov2-a",
+   "title": "Source A: The Constitution, Article II, Section 2",
+   "text": [
+    "“The President shall be Commander in Chief of the Army and Navy of the United States, and of the Militia of the several States, when called into the actual Service of the United States . . . He shall have Power, by and with the Advice and Consent of the Senate, to make Treaties, provided two thirds of the Senators present concur; and he shall nominate, and by and with the Advice and Consent of the Senate, shall appoint Ambassadors, other public Ministers and Consuls, Judges of the supreme Court, and all other Officers of the United States, whose Appointments are not herein otherwise provided for”"
+   ],
+   "attribution": "The U.S. Constitution, Article II, Section 2 (1787). Public domain. Wording follows the text printed in OpenStax American Government 4e, Appendix B.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (the U.S. Constitution, a public document adopted in 1787 and amended since). StudySprint quotes it as printed in OpenStax American Government 4e (openstax.org/books/american-government-4e/pages/b-the-constitution-of-the-united-states); no OpenStax commentary is copied."
+  },
+  {
+   "id": "gov2-b",
+   "title": "Source B: What happened to bills in one two-year Congress (hypothetical data)",
+   "intro": "The table shows how far bills got in a hypothetical two-year session of Congress.",
+   "text": [
+    "Bills introduced in the House and Senate: 10,000",
+    "Bills reported out of committee: 900",
+    "Bills passed by the House: 700",
+    "Bills passed by the Senate: 350",
+    "Bills that became law: 250"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice data analysis. The numbers are invented and do not describe any real survey, election, or government record.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "gov-u2-q01",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-president",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source A, which presidential power requires approval by two-thirds of the senators present?",
+   "choices": [
+    "Commanding the military",
+    "Nominating Supreme Court justices",
+    "Appointing ambassadors",
+    "Making treaties"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The excerpt says treaties require that “two thirds of the Senators present concur.”",
+   "choiceExplanations": [
+    "The excerpt names the president commander in chief without requiring Senate approval.",
+    "Justices are nominated by the president and confirmed by majority Senate vote.",
+    "Appointments need Senate consent, but by majority vote, not two-thirds.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov2-a"
+  },
+  {
+   "id": "gov-u2-q02",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-congress",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Senate's role in confirming judges and officials, described in Source A, is best understood as",
+   "choices": [
+    "a power that lets the Senate choose its own nominees",
+    "a way for the states to approve each federal appointment",
+    "a legislative check on the president's appointment power",
+    "a judicial check on the Senate's power to make laws"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Requiring Senate consent lets the legislative branch limit whom the president can appoint.",
+   "choiceExplanations": [
+    "The president nominates; the Senate can only approve or reject.",
+    "Senators vote, not the state governments.",
+    "",
+    "Confirmation is a Senate power over the executive, not a court power."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov2-a"
+  },
+  {
+   "id": "gov-u2-q03",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-president",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Presidents often make executive agreements with other countries instead of treaties mainly because executive agreements",
+   "choices": [
+    "require the approval of both houses of Congress",
+    "must be approved by the Supreme Court before they can take effect",
+    "are permanent and can't be changed by later presidents",
+    "don't require the two-thirds Senate approval described in Source A"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Executive agreements avoid the treaty ratification process, which expands presidential power in foreign affairs.",
+   "choiceExplanations": [
+    "Avoiding congressional approval is the point; they don't require both houses.",
+    "The Court doesn't approve agreements in advance.",
+    "Later presidents can change or end executive agreements.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov2-a"
+  },
+  {
+   "id": "gov-u2-q04",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-president",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Alexander Hamilton argued in Federalist No. 70 that good government needs an energetic executive. This argument most directly supports which feature in Source A?",
+   "choices": [
+    "A list of offices filled by appointment",
+    "Senate approval of treaties by a two-thirds vote",
+    "A single president serving as commander in chief",
+    "Senate confirmation of Supreme Court justices"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Hamilton argued that a single executive can act with decision and speed, as a unified commander in chief can.",
+   "choiceExplanations": [
+    "The list of appointments describes how offices are filled, not why one executive is needed.",
+    "Senate approval of treaties limits executive energy rather than supplying it.",
+    "",
+    "Confirmation is a check on the executive, not a source of energy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov2-a"
+  },
+  {
+   "id": "gov-u2-q05",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-congress",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Based on Source B, at which stage did the largest number of bills fail to advance?",
+   "choices": [
+    "Between passing the House and passing the Senate as well",
+    "Between committee and passing the House",
+    "Between introduction and being reported out of committee",
+    "Between passing the Senate and becoming law"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The number fell from 10,000 introduced to 900 reported out of committee, a drop of 9,100 bills.",
+   "choiceExplanations": [
+    "That drop was 350 bills (700 to 350).",
+    "That drop was 200 bills (900 to 700).",
+    "",
+    "That drop was 100 bills (350 to 250)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov2-b"
+  },
+  {
+   "id": "gov-u2-q06",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-congress",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which feature of Congress best explains the pattern at the first stage in Source B?",
+   "choices": [
+    "Committees and their chairs decide which bills get hearings and votes",
+    "The Supreme Court reviews each bill before it reaches committee",
+    "Senators may filibuster bills while they are still in committee",
+    "The president must sign each bill before any committee can consider it"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Committees screen legislation, and most bills are never taken up, so they die in committee.",
+   "choiceExplanations": [
+    "",
+    "Courts review laws after enactment, not bills in committee.",
+    "Filibusters occur on the Senate floor, not in committee.",
+    "Presidents sign bills only after both houses pass them."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov2-b"
+  },
+  {
+   "id": "gov-u2-q07",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-congress",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which Senate rule could help explain why fewer bills passed the Senate than the House in Source B?",
+   "choices": [
+    "Equal representation, which requires that senators vote unanimously",
+    "Unlimited debate, which lets a filibuster block a vote unless 60 senators end it",
+    "The requirement that each Senate bill be approved by the president before a vote",
+    "The Rules Committee, which sets strict time limits on floor debate"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The filibuster and the 60-vote cloture rule make it harder to bring bills to a final vote in the Senate.",
+   "choiceExplanations": [
+    "Equal representation doesn't require unanimous votes.",
+    "",
+    "Presidential approval comes after congressional passage.",
+    "The Rules Committee is a House institution that speeds bills along."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov2-b"
+  },
+  {
+   "id": "gov-u2-q08",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-congress",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which is the most important limitation of Source B for judging how productive Congress was?",
+   "choices": [
+    "It shows only Senate actions and leaves out the House",
+    "It counts bills without showing how important or far-reaching each one was",
+    "It reports percentages instead of the actual number of bills in each stage",
+    "It includes bills that were never introduced in Congress"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A count treats a major budget law and a minor renaming bill the same, so it can't show how much Congress accomplished.",
+   "choiceExplanations": [
+    "The table includes House passage.",
+    "",
+    "It reports numbers, not percentages.",
+    "It begins with bills that were introduced."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov2-b"
+  },
+  {
+   "id": "gov-u2-q09",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-president",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How can Congress override a presidential veto?",
+   "choices": [
+    "By asking the Supreme Court to declare the veto unconstitutional",
+    "By a three-fourths vote of the state legislatures",
+    "By a two-thirds vote in both the House and the Senate",
+    "By a simple majority vote in the House of Representatives"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Article I requires two-thirds of each house to override a veto.",
+   "choiceExplanations": [
+    "Vetoes are overridden by Congress, not courts.",
+    "State legislatures ratify amendments; they don't override vetoes.",
+    "",
+    "A simple majority in one house isn't enough."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u2-q10",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-president",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An executive order is best described as",
+   "choices": [
+    "a directive managing the executive branch that later presidents can reverse",
+    "a law passed by Congress at the request of the president",
+    "a court ruling that interprets the president's powers",
+    "a treaty made with another nation without the Senate's approval or debate"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Executive orders direct federal agencies and carry legal force, but courts can strike them down and later presidents can revoke them.",
+   "choiceExplanations": [
+    "",
+    "Laws are passed by Congress; executive orders come from the president.",
+    "Court rulings come from the judicial branch.",
+    "Agreements with other nations are executive agreements, not orders."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u2-q11",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-president",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The War Powers Resolution of 1973 was intended mainly to",
+   "choices": [
+    "transfer command of the military from the president to Congress during any war",
+    "limit how long presidents can keep troops in combat without congressional approval",
+    "give the president sole power to declare war on other nations",
+    "require Supreme Court approval before troops are sent abroad"
+   ],
+   "correctAnswer": 1,
+   "explanation": "It requires the president to notify Congress after deploying troops and to withdraw them within 60 days (with 30 more to withdraw) unless Congress authorizes the action.",
+   "choiceExplanations": [
+    "The president remains commander in chief.",
+    "",
+    "The Constitution gives Congress, not the president, the power to declare war.",
+    "The courts play no approval role under the law."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u2-q12",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-courts",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Marbury v. Madison (1803) is significant because it established",
+   "choices": [
+    "the Supreme Court's power of judicial review",
+    "Congress's power to create lower federal courts",
+    "the right of states to nullify federal laws",
+    "the president's power to appoint federal judges"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Marshall's opinion held that the Court can strike down laws that conflict with the Constitution.",
+   "choiceExplanations": [
+    "",
+    "Congress's power to create lower courts comes from Article III.",
+    "Marbury didn't address state nullification.",
+    "The appointment power comes from Article II, not Marbury."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u2-q13",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-courts",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Federal judges serve “during good Behaviour,” effectively for life. The main purpose of this arrangement is to",
+   "choices": [
+    "make the judiciary the most powerful of the three branches",
+    "ensure that judges follow the wishes of the voters as shown in each election",
+    "allow the president to remove judges whose decisions he dislikes",
+    "protect judges from political pressure so they can rule independently"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Federalist No. 78 argued that permanent tenure keeps judges independent of the elected branches.",
+   "choiceExplanations": [
+    "Hamilton called the judiciary the “least dangerous” branch.",
+    "Life tenure insulates judges from elections rather than tying them to voters.",
+    "Presidents can't remove judges; only impeachment can.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u2-q14",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-courts",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A court that decides a case by following an earlier decision on the same legal question is applying",
+   "choices": [
+    "senatorial courtesy",
+    "judicial activism",
+    "stare decisis",
+    "original jurisdiction"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Stare decisis (“let the decision stand”) means following precedent.",
+   "choiceExplanations": [
+    "Senatorial courtesy concerns the confirmation of judges in a senator's state.",
+    "Activism means a willingness to overturn the elected branches' decisions.",
+    "",
+    "Original jurisdiction is a court's power to hear a case first."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u2-q15",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-courts",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A justice who usually defers to Congress and state legislatures unless a law clearly violates the Constitution is practicing",
+   "choices": [
+    "executive privilege",
+    "judicial review",
+    "judicial activism",
+    "judicial restraint"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Deferring to elected branches is judicial restraint.",
+   "choiceExplanations": [
+    "Executive privilege is a presidential claim, not a judicial approach.",
+    "Judicial review is the power itself, which restraint uses sparingly.",
+    "Activism is a greater willingness to overturn elected branches' decisions.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u2-q16",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-courts",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which is a way Congress can check the federal courts?",
+   "choices": [
+    "Proposing a constitutional amendment to reverse a decision",
+    "Overruling a Supreme Court decision by a joint resolution",
+    "Ordering the Court to rehear a case it has already decided",
+    "Removing a justice by a simple majority vote in the House"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Congress can propose amendments (as with several decisions in the past), confirm or reject nominees, and change the courts' jurisdiction.",
+   "choiceExplanations": [
+    "",
+    "A resolution can't overrule a constitutional decision.",
+    "Congress can't order the Court to rehear cases.",
+    "Removal requires House impeachment and conviction by two-thirds of the Senate."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u2-q17",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-bureaucracy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The Environmental Protection Agency is an example of",
+   "choices": [
+    "an independent executive agency",
+    "a congressional committee",
+    "a cabinet department",
+    "a government corporation like the Postal Service"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The EPA is an independent executive agency outside the cabinet departments.",
+   "choiceExplanations": [
+    "",
+    "Congressional committees are part of the legislative branch.",
+    "Cabinet departments include agencies such as the Department of Education.",
+    "Government corporations, such as the Postal Service, sell services; the EPA regulates."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u2-q18",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-bureaucracy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Congress passes a law requiring cleaner air but leaves the specific limits on pollutants to an agency. This illustrates",
+   "choices": [
+    "judicial review",
+    "delegated rulemaking authority",
+    "an executive agreement with Congress",
+    "a congressional veto"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Congress delegates authority, and the agency uses discretion to write detailed regulations.",
+   "choiceExplanations": [
+    "Judicial review is a power of the courts.",
+    "",
+    "Executive agreements are made by the president with other nations, not with Congress.",
+    "No veto is involved in delegating authority."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u2-q19",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-bureaucracy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An iron triangle is a relationship among",
+   "choices": [
+    "the president, the Senate, and the Supreme Court's justices",
+    "a state government, a city, and a federal court",
+    "voters, political parties, and the news media",
+    "an agency, a congressional committee, and an interest group"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Iron triangles form among an agency, the committee that oversees it, and the group it affects, all with shared interests.",
+   "choiceExplanations": [
+    "Those are constitutional actors, not the triangle's members.",
+    "These are levels of government and a court, not an iron triangle.",
+    "These are actors in elections, not policy subsystems.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u2-q20",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "topicId": "gov2-bureaucracy",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which action is the clearest example of Congress holding the bureaucracy accountable?",
+   "choices": [
+    "An interest group sues the agency in federal court",
+    "A committee holds hearings and then cuts the agency's budget",
+    "A federal court rules that an agency rule exceeds its legal authority",
+    "The president appoints a new head of the agency"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Oversight hearings and the power of the purse are Congress's main accountability tools.",
+   "choiceExplanations": [
+    "A lawsuit is an outside challenge, not congressional oversight.",
+    "",
+    "Court rulings are a judicial check.",
+    "Appointments are a presidential check, not a congressional one."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-gov-u2-os1",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "title": "OpenStax American Government 4e, 11.5 The Legislative Process",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/11-5-the-legislative-process",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on how a bill moves through Congress. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/11-5-the-legislative-process",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-gov-u2-os2",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "title": "OpenStax American Government 4e, 12.5 Presidential Governance: Direct Presidential Action",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/12-5-presidential-governance-direct-presidential-action",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on executive orders and other direct presidential action. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/12-5-presidential-governance-direct-presidential-action",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-gov-u2-os3",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "title": "OpenStax American Government 4e, 13.4 The Supreme Court",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/13-4-the-supreme-court",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on the Supreme Court and how it decides cases. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/13-4-the-supreme-court",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-gov-u2-os4",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u2",
+   "title": "OpenStax American Government 4e, 15.4 Controlling the Bureaucracy",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/15-4-controlling-the-bureaucracy",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on how Congress and the president oversee the bureaucracy. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/15-4-controlling-the-bureaucracy",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP U.S. Government and Politics free-response set has four questions (concept application, quantitative analysis, SCOTUS comparison, and argument essay) that usually draw on several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "gov-u2-q01",
+    "gov-u2-q02",
+    "gov-u2-q03",
+    "gov-u2-q04",
+    "gov-u2-q09",
+    "gov-u2-q10",
+    "gov-u2-q12",
+    "gov-u2-q20"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "gov-u2-q05",
+    "gov-u2-q06",
+    "gov-u2-q07",
+    "gov-u2-q08",
+    "gov-u2-q11",
+    "gov-u2-q13",
+    "gov-u2-q14",
+    "gov-u2-q17"
+   ]
+  }
+ ]
+}

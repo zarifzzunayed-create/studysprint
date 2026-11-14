@@ -38,6 +38,8 @@ legend{margin-bottom:.25rem;padding:0}
 .field-help{max-width:68ch;margin-bottom:.9rem;color:var(--muted)}
 .button{display:inline-flex;min-height:46px;padding:.65rem 1rem;align-items:center;justify-content:center;border:2px solid transparent;border-radius:9px;font-weight:750;text-align:center;transition:background-color .12s ease,transform .12s ease}
 .button:hover:not(:disabled){transform:translateY(-1px)}
+/* The 1px hover lift must not move the button off a pointer resting on its bottom edge (that loops hover on/off and makes the button jitter). */
+.button{position:relative}.button:hover:not(:disabled)::after{content:"";position:absolute;left:0;right:0;top:0;bottom:-3px}
 .button-primary{background:var(--brand);color:var(--on-brand)}
 .button-primary:hover:not(:disabled){background:var(--brand-hover)}
 .button-secondary{border-color:var(--brand);background:var(--surface);color:var(--brand-text)}

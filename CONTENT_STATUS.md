@@ -26,7 +26,7 @@ StudySprint is a review site, not a complete course or textbook. Guides are shor
 12. AP United States History: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
 13. AP English Literature and Composition: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
 14. AP World History: Modern: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
-15. AP U.S. Government and Politics: catalog entry only (course framework not checked yet)
+15. AP U.S. Government and Politics: complete. 5 of 5 units practice-ready, 0 in progress, 0 outline only
 16. AP Psychology: catalog entry only (course framework not checked yet)
 17. AP Macroeconomics: catalog entry only (course framework not checked yet)
 18. AP Microeconomics: catalog entry only (course framework not checked yet)
@@ -38,9 +38,9 @@ StudySprint's catalog is deliberately limited to the courses the project owner c
 
 Each row comes from `data/catalog.json` and the course's `course.json`. A course framework counts as checked only when its official units were read from College Board's pages and recorded with a source link and date. Courses that have not been checked list no units at all; their "expected format" is a planning note from general knowledge, not a verified fact, and must be confirmed against the official Course and Exam Description before any content is written.
 
-**Totals:** 14 of 19 catalog courses have a checked course framework, with 108 official units in all. **108 of those 108 units have usable review content and a question bank (practice-ready).** 14 courses are complete. 5 courses have no checked framework yet.
+**Totals:** 15 of 19 catalog courses have a checked course framework, with 113 official units in all. **113 of those 113 units have usable review content and a question bank (practice-ready).** 15 courses are complete. 4 courses have no checked framework yet.
 
-**Framework coverage and exam coverage are counted separately.** 1 of the 108 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 107 units with no such exclusion recorded, 107 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
+**Framework coverage and exam coverage are counted separately.** 1 of the 113 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 112 units with no such exclusion recorded, 112 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
 
 | Course | Official framework | Source and edition | Official units | Practice-ready units | Exam coverage | Units with a practice test | Course status | Practice format |
 |---|---|---|---|---|---|---|---|---|
@@ -58,7 +58,7 @@ Each row comes from `data/catalog.json` and the course's `course.json`. A course
 | AP United States History | Unit-based (units checked) | [AP United States History – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-united-states-history), checked 2026-11-08. AP U.S. History Course and Exam Description, effective Fall 2026 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections for Fall 2026 (exam changes beginning with the May 2027 exam). [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 18 practice tests across 9 ready units (see Practice tests below) |
 | AP English Literature and Composition | Unit-based (units checked) | [AP English Literature and Composition – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition), checked 2026-11-09. AP English Literature and Composition Course and Exam Description, effective Fall 2024 (current PDF on AP Central, checked 2026-11-09), with College Board's Clarifications and Corrections implemented as of August 2025 (front matter only; further corrections listed as forthcoming concern resource links and Progress Check wording). [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 18 practice tests across 9 ready units (see Practice tests below) |
 | AP World History: Modern | Unit-based (units checked) | [AP World History: Modern – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-world-history-modern), checked 2026-11-09. AP World History: Modern Course and Exam Description, effective Fall 2026 (current PDF on AP Central, checked 2026-11-09), with College Board's Clarifications and Corrections implemented for Fall 2026 (exam changes beginning with the May 2027 exam; course content unchanged). [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 18 practice tests across 9 ready units (see Practice tests below) |
-| AP U.S. Government and Politics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP U.S. Government and Politics | Unit-based (units checked) | [AP U.S. Government and Politics – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics), checked 2026-11-14. AP U.S. Government and Politics Course and Exam Description, effective Fall 2026 (current PDF on AP Central, checked 2026-11-14), with College Board's Clarifications and Corrections to be implemented for Fall 2026. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description.pdf). | 5 | 5 | 5 of 5 exam-assessed units ready; no unit recorded as excluded from the exam | 5 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 10 practice tests across 5 ready units (see Practice tests below) |
 | AP Psychology | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
 | AP Macroeconomics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
 | AP Microeconomics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
@@ -286,7 +286,19 @@ Retaking a test shows the same questions in a new order; those answers are recor
 | Unit 8: Cold War and Decolonization | 16 | 2 (8, 8) | 0 | 2 | 8 |
 | Unit 9: Globalization | 16 | 2 (8, 8) | 0 | 2 | 8 |
 
-Across the site: 161 practice tests in 108 units. Reaching 3 tests in each of those units needs at least 1168 more original questions. 
+### AP U.S. Government and Politics
+
+5 of 5 units have a practice test (10 tests in all); 5 units have more than one.
+
+| Unit | Questions in bank | Practice tests (questions each) | Questions not in any test | Distinct tests the bank could support | More original questions needed for 3 tests (at least) |
+|---|---|---|---|---|---|
+| Unit 1: Foundations of American Democracy | 20 | 2 (8, 8) | 4 | 2 | 4 |
+| Unit 2: Interactions Among Branches of Government | 20 | 2 (8, 8) | 4 | 2 | 4 |
+| Unit 3: Civil Liberties and Civil Rights | 20 | 2 (8, 8) | 4 | 2 | 4 |
+| Unit 4: American Political Ideologies and Beliefs | 20 | 2 (8, 8) | 4 | 2 | 4 |
+| Unit 5: Political Participation | 20 | 2 (8, 8) | 4 | 2 | 4 |
+
+Across the site: 171 practice tests in 113 units. Reaching 3 tests in each of those units needs at least 1188 more original questions. 
 
 ## Study planner
 
@@ -586,11 +598,30 @@ Recorded differences between College Board sources: The Course at a Glance title
 | Unit 8: Cold War and Decolonization | practice-ready | no exclusion recorded | 8%–10% | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 9 of 9 | none |
 | Unit 9: Globalization | practice-ready | no exclusion recorded | 8%–10% | yes (3 sections) | 16 (6 / 6 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 9 of 9 | none |
 
+## AP U.S. Government and Politics
+
+Unit outline source: [AP U.S. Government and Politics – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics), verified 2026-11-14. Unit names, the “topics may include” lists, and exam weightings were read from this page on 2026-11-14. The page and the CED give the weightings as shares of the multiple-choice score.
+Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-united-states-government-and-politics/exam/past-exam-questions), plus whole released sets for 2026, 2025, 2025, 2024, 2024, 2023, 2023 (linked as whole exams, not matched to units).
+General resources (shown on every unit's Learn first page, labelled general): [OpenStax American Government 4e (whole book)](https://openstax.org/details/books/american-government-4e).
+
+Framework check (2026-11-14): The 60 numbered CED topics (1.1–5.13) were read from the topic pages of the current PDF on AP Central, and each is matched to the StudySprint topic whose guide section and questions teach it. The CED's 13 required foundational documents and 14 required Supreme Court cases were read from its course framework (pp. 25 and 30) and are named in the unit guides where they apply. Its five skill categories (Concept Application, SCOTUS Application, Data Analysis, Source Analysis, Argumentation) were also checked: the CED says multiple-choice questions assess the first four and that no multiple-choice question explicitly assesses Argumentation. The Fall 2026 Clarifications and Corrections (https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description-clarifications.pdf) add four required documents (the Emancipation Proclamation, Federalist No. 39, the Gettysburg Address, and core principles from Adam Smith's The Wealth of Nations), which the current CED already lists. Source: [AP U.S. Government and Politics Course and Exam Description (effective Fall 2026)](https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description.pdf).
+Exam weightings: from the AP Students course page and the CED's exam section (shares of the multiple-choice score), both checked 2026-11-14.
+Exam format (checked 2026-11-14): From the AP Students exam page and the CED (3 hours, digital in Bluebook): Section I, 55 multiple-choice questions in 80 minutes (50% of the score): about 30 individual questions plus sets of typically two to four questions on quantitative data (five sets), text-based sources (two sets, one with a foundational document), and visual sources (three sets). Section II, 4 free-response questions in 100 minutes (50%, 12.5% each): concept application, quantitative analysis, SCOTUS comparison (a non-required case compared with a required one), and an argument essay. StudySprint practice is multiple-choice only, with individual questions and stimulus sets; written-response practice uses College Board's released questions.
+Recorded differences between College Board sources: The AP Students page's unit topic lists are summaries; the CED's 60 topics are the required content and are listed per unit as framework topics. Some topic titles appear split across columns in the Course at a Glance PDF text; StudySprint records the topic-page titles as printed in the CED. StudySprint's data stimuli are labelled hypothetical; the AP Exam uses real data sources. Foundational-document excerpts are quoted from the public-domain texts printed in OpenStax American Government 4e.
+
+| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Foundations of American Democracy | practice-ready | no exclusion recorded | 15%–22% of the multiple-choice score | yes (3 sections) | 20 (7 / 9 / 4) | 0 | 2 | 3 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 9 of 9 | none |
+| Unit 2: Interactions Among Branches of Government | practice-ready | no exclusion recorded | 25%–36% of the multiple-choice score | yes (4 sections) | 20 (6 / 10 / 4) | 0 | 2 | 4 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 15 of 15 | none |
+| Unit 3: Civil Liberties and Civil Rights | practice-ready | no exclusion recorded | 13%–18% of the multiple-choice score | yes (3 sections) | 20 (7 / 9 / 4) | 0 | 2 | 3 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 13 of 13 | none |
+| Unit 4: American Political Ideologies and Beliefs | practice-ready | no exclusion recorded | 10%–15% of the multiple-choice score | yes (3 sections) | 20 (6 / 10 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 10 of 10 | none |
+| Unit 5: Political Participation | practice-ready | no exclusion recorded | 20%–27% of the multiple-choice score | yes (3 sections) | 20 (6 / 10 / 4) | 0 | 2 | 4 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 13 of 13 | none |
+
 ## Catalog entries without a unit outline
 
-These courses are planned for future content work. They appear in search with a link to College Board's released free-response page and are labelled "Catalog only". Nothing is invented for them. (5 entries.)
+These courses are planned for future content work. They appear in search with a link to College Board's released free-response page and are labelled "Catalog only". Nothing is invented for them. (4 entries.)
 
-AP Macroeconomics, AP Microeconomics, AP Psychology, AP U.S. Government and Politics, AP Computer Science A.
+AP Macroeconomics, AP Microeconomics, AP Psychology, AP Computer Science A.
 
 ## Courses removed from the catalog (2026-11-09)
 
