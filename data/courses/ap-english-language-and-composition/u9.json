@@ -205,10 +205,10 @@
    "type": "multiple-choice",
    "prompt": "What is the purpose of the sentence that begins “But the fifth day does not disappear for families”?",
    "choices": [
-    "To summarize the research",
-    "To rebut the supporters' argument by raising a cost the savings don't account for",
-    "To agree fully with supporters",
-    "To describe a school bus"
+    "To summarize the research on the four-day school week",
+    "To rebut supporters by raising a cost the savings don't account for",
+    "To agree fully with supporters that the savings justify the change to four days",
+    "To describe the cost of running school buses on Fridays"
    ],
    "correctAnswer": 1,
    "explanation": "After conceding the savings, the writer explains why they don't settle the question.",
@@ -234,16 +234,16 @@
    "type": "multiple-choice",
    "prompt": "How does paragraph 3 differ from paragraph 2 in how it responds to supporters?",
    "choices": [
-    "Both paragraphs agree with supporters",
-    "Paragraph 3 concedes, while paragraph 2 refutes",
-    "Paragraph 3 refutes a specific claim as unsupported, while paragraph 2 concedes a point and then rebuts it",
-    "Paragraph 3 introduces the supporters' view for the first time"
+    "Both paragraphs agree with supporters that the savings are worth the change",
+    "Paragraph 3 concedes a point and rebuts it, while paragraph 2 refutes a specific claim as unsupported",
+    "Paragraph 3 refutes a specific claim, while paragraph 2 concedes a point and then rebuts it",
+    "Paragraph 3 introduces the supporters' view for the first time in the passage"
    ],
    "correctAnswer": 2,
    "explanation": "“Nor is it true…” challenges the claim that longer days compensate; paragraph 2 grants savings before answering.",
    "choiceExplanations": [
     "Both challenge supporters.",
-    "This reverses them.",
+    "This reverses what the two paragraphs do.",
     "",
     "Supporters' views appear in paragraph 1."
    ],
@@ -263,15 +263,15 @@
    "type": "multiple-choice",
    "prompt": "How does the conclusion (paragraph 4) reflect the complexity of the argument?",
    "choices": [
-    "It abandons the writer's concerns",
-    "It introduces an unrelated topic",
-    "It insists that no district should ever use four days",
-    "It allows that a district may still choose four days but adds a condition that addresses the writer's main concern"
+    "It abandons the writer's concerns and endorses the four-day week for districts without adding any conditions",
+    "It introduces an unrelated topic, the hiring of teachers",
+    "It insists that no district should ever use a four-day week, whatever its budget",
+    "It allows that a district may still choose four days but adds a condition addressing the writer's main concern"
    ],
    "correctAnswer": 3,
    "explanation": "Rather than an absolute ban, the writer qualifies the position with a practical condition.",
    "choiceExplanations": [
-    "The condition answers the concern about families.",
+    "The conclusion adds a condition that answers the concern about families.",
     "It stays on topic.",
     "The conclusion explicitly allows the choice.",
     ""
@@ -293,15 +293,15 @@
    "prompt": "In paragraph 2, “He is right about the cost” functions as",
    "choices": [
     "a concession to the developer's point",
-    "a description of the mill",
+    "a description of the mill's condition",
     "a refutation of the developer's point",
-    "the passage's conclusion"
+    "the passage's conclusion about cost"
    ],
    "correctAnswer": 0,
    "explanation": "The writer grants that demolition is cheaper before turning to what would be lost.",
    "choiceExplanations": [
     "",
-    "This sentence grants a point; the description follows.",
+    "This sentence grants a point; the description of the mill comes before it.",
     "The writer agrees with this part.",
     "The conclusion is in paragraph 3."
    ],
@@ -321,10 +321,10 @@
    "type": "multiple-choice",
    "prompt": "What is the main effect of the description of the winter sun on the brick floor?",
    "choices": [
-    "It proves that repairs would be cheap",
-    "It describes the developer's plans",
-    "It shows that the building is dangerous",
-    "It helps readers see the building's beauty and history, making its loss feel concrete"
+    "It proves that repairing the old mill would be cheaper than the developer claims",
+    "It describes the developer's plans for the building after it is torn down",
+    "It shows that the building is too dangerous for people to walk through",
+    "It helps readers see the building's beauty and history, making its loss concrete"
    ],
    "correctAnswer": 3,
    "explanation": "Vivid, specific imagery shows what the town would lose.",
@@ -350,10 +350,10 @@
    "type": "multiple-choice",
    "prompt": "Why does the writer describe the broken windows and nesting pigeons in paragraph 1?",
    "choices": [
-    "To describe the town's wildlife",
+    "To describe the wildlife that has moved into the town's empty buildings",
     "To present the building's poor condition honestly before arguing for it",
-    "To show that the developer is dishonest",
-    "To argue that the building should be torn down"
+    "To show that the developer is dishonest about what the building is worth",
+    "To argue that the building should be torn down because it cannot be saved"
    ],
    "correctAnswer": 1,
    "explanation": "Admitting the decay up front makes the later argument more credible.",
@@ -379,9 +379,9 @@
    "type": "multiple-choice",
    "prompt": "How do the final two sentences (“A wrecking ball is cheaper this year. It is not cheaper forever.”) answer the developer?",
    "choices": [
-    "They change the subject to the town's history",
+    "They change the subject from cost to the town's long history of making blankets",
     "They accept his short-term point while rebutting it with a longer view of cost",
-    "They agree with him completely",
+    "They agree with him completely that demolition is the better choice",
     "They refute his claim that demolition is cheaper now"
    ],
    "correctAnswer": 1,
@@ -408,10 +408,10 @@
    "type": "multiple-choice",
    "prompt": "What is the main problem with sentence (4)?",
    "choices": [
-    "It concedes too much",
-    "It repeats sentence (1)",
+    "It concedes too much to the residents who oppose the change",
+    "It repeats the claim already made in sentence (1)",
     "It dismisses the residents' concern without giving a reason",
-    "It provides too much evidence"
+    "It provides too much evidence about noise and vandalism"
    ],
    "correctAnswer": 2,
    "explanation": "Saying “those people are wrong” offers no rebuttal.",
@@ -437,17 +437,17 @@
    "type": "multiple-choice",
    "prompt": "Which revision of sentence (4) best rebuts the concern in sentence (3)?",
    "choices": [
-    "But the later curfew would apply only on weekends, when most teens out late are coming home from supervised school events.",
-    "Those people should mind their own business.",
-    "Vandalism happens everywhere.",
-    "Noise is sometimes a problem."
+    "But the later curfew would cover only weekends, when most teens out late are coming home from supervised school events.",
+    "Those residents should mind their own business and let teenagers decide for themselves what time they should come home.",
+    "Vandalism happens everywhere, in towns large and small, no matter what time the curfew is set for teenagers.",
+    "Noise is sometimes a problem on weekend nights in some neighborhoods."
    ],
    "correctAnswer": 0,
    "explanation": "It answers the concern by limiting when the change applies and explaining who would be out.",
    "choiceExplanations": [
     "",
     "This is dismissive.",
-    "This doesn't connect the concern to the proposal.",
+    "This doesn't connect the concern to the weekend proposal.",
     "This concedes without answering."
    ],
    "sourceType": "original",
@@ -467,9 +467,9 @@
    "prompt": "Which sentence, added after sentence (3), would best concede part of the residents' concern?",
    "choices": [
     "It is reasonable to expect that some teenagers would misuse the extra hour.",
-    "Curfews were invented long ago.",
-    "Teenagers never cause problems.",
-    "Residents always complain."
+    "Curfews were invented long ago, and many towns across the country still use them.",
+    "Teenagers never cause problems when they are out late on weekends.",
+    "Residents always complain about any change the town tries to make."
    ],
    "correctAnswer": 0,
    "explanation": "Granting a reasonable point builds credibility before the rebuttal.",
@@ -495,9 +495,9 @@
    "type": "multiple-choice",
    "prompt": "Where should the writer place the response to the residents' concern for the greatest effect?",
    "choices": [
-    "At the very beginning of the paragraph",
-    "Right after the concern is stated, before the paragraph ends on the benefit to students",
-    "It shouldn't be included",
+    "At the very beginning of the paragraph, before the claim is stated",
+    "Right after the concern is stated, before ending on the benefit to students",
+    "It shouldn't be included, because responding just draws attention to the concern",
     "After sentence (5), as the paragraph's last sentence"
    ],
    "correctAnswer": 1,
@@ -524,9 +524,9 @@
    "type": "multiple-choice",
    "prompt": "Sentence (2), “The pool is a place,” is weak because",
    "choices": [
-    "it contains a rebuttal",
-    "it is too detailed",
-    "it uses a comparison",
+    "it contains a rebuttal of the city's objection",
+    "it is too detailed for the opening of an argument",
+    "it uses a comparison readers may not understand",
     "it is vague and adds no description or support"
    ],
    "correctAnswer": 3,
@@ -553,16 +553,16 @@
    "type": "multiple-choice",
    "prompt": "Which revision of sentence (2) uses description most effectively to support the writer's purpose?",
    "choices": [
-    "On July afternoons, the pool is the one cool place within walking distance for families in apartments without air conditioning.",
-    "The pool is very nice.",
+    "On July afternoons, the pool is the one cool place within walking distance for families without air conditioning.",
+    "The pool is very nice, and many people in the neighborhood say they enjoy going there in summer.",
     "The pool is a rectangle of water.",
-    "The pool is a public facility owned by the city."
+    "The pool is a public facility owned and operated by the city's parks department ever since it first opened."
    ],
    "correctAnswer": 0,
    "explanation": "Specific details show who depends on the pool and why, supporting the argument against closing it.",
    "choiceExplanations": [
     "",
-    "This is vague.",
+    "This is vague and adds no persuasive description.",
     "This is accurate but irrelevant to the argument.",
     "This is a neutral fact without persuasive force."
    ],
@@ -582,10 +582,10 @@
    "type": "multiple-choice",
    "prompt": "Sentence (4) presents the city's objection. Which sentence, added after it, best concedes and rebuts?",
    "choices": [
-    "Money is not important.",
-    "The city is lying.",
-    "The pool costs a lot.",
-    "The pool does cost money to run, but a small summer fee or a sponsor could cover much of that cost without closing it."
+    "Money is not important when hundreds of kids need a place to swim in the summer.",
+    "The city is lying about how much the pool costs to run, as everyone in the neighborhood already knows.",
+    "The pool costs a lot, and the city's budget is tight this year for each department.",
+    "The pool does cost money to run, but a small summer fee or a sponsor could cover much of that cost."
    ],
    "correctAnswer": 3,
    "explanation": "It grants the cost, then offers a reasoned alternative to closure.",
@@ -611,9 +611,9 @@
    "type": "multiple-choice",
    "prompt": "Which revision of sentence (5) best combines precise word choice with the writer's position?",
    "choices": [
-    "Closing it would be a total catastrophe for the universe.",
-    "Closing it would be really, really bad.",
-    "Closing the Westside pool would take away a safe, free summer refuge from the families with the fewest alternatives.",
+    "Closing it would be a total catastrophe for the universe and for every single person who has ever lived in this city.",
+    "Closing it would be really, really bad for the neighborhood and for everyone in it.",
+    "Closing the Westside pool would take a safe, free summer refuge from the families with the fewest alternatives.",
     "Closing it would be a choice."
    ],
    "correctAnswer": 2,

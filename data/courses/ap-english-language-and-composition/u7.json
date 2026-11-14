@@ -184,16 +184,16 @@
    "type": "multiple-choice",
    "prompt": "What is the main purpose of paragraph 1?",
    "choices": [
-    "To state the writer's final position",
-    "To describe the writer's own childhood",
-    "To provide research evidence",
-    "To present the opposing views that make the homework debate heated"
+    "To state the writer's final position on how much homework to assign",
+    "To describe the writer's own childhood evenings doing homework",
+    "To provide research evidence about homework and achievement",
+    "To present the opposing views that make the debate heated"
    ],
    "correctAnswer": 3,
    "explanation": "Paragraph 1 lays out parents' and students' opposing certainties.",
    "choiceExplanations": [
-    "The position comes in paragraph 3.",
-    "The writer doesn't describe their own childhood.",
+    "The writer's position comes in paragraph 3.",
+    "The writer describes what parents remember, not their own childhood.",
     "Research is summarized in paragraph 2.",
     ""
    ],
@@ -213,10 +213,10 @@
    "type": "multiple-choice",
    "prompt": "In paragraph 2, the clause “although the benefit appears to level off as the hours climb” serves to",
    "choices": [
-    "describe young children's homework",
-    "introduce a story",
+    "describe the homework assigned to young children in school",
+    "introduce a story about a student who did too much homework",
     "limit the claim about homework's benefit for older students",
-    "contradict the claim that homework helps older students"
+    "contradict the claim that homework helps older students in any way"
    ],
    "correctAnswer": 2,
    "explanation": "The clause qualifies the benefit: it exists, but more hours don't keep adding to it.",
@@ -224,7 +224,7 @@
     "Young children are discussed in the next sentence.",
     "No story is introduced.",
     "",
-    "It qualifies rather than contradicts."
+    "It qualifies the benefit rather than denying it."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -242,18 +242,18 @@
    "type": "multiple-choice",
    "prompt": "How does paragraph 3 respond to the view that homework builds discipline?",
    "choices": [
-    "It ignores the view",
-    "It rejects the view without explanation",
-    "It concedes that homework may teach habits, then argues that the cost may outweigh that benefit",
-    "It accepts the view completely"
+    "It ignores the view and turns instead to research on achievement",
+    "It rejects the view outright, without explaining why",
+    "It concedes that homework may teach habits, then argues the cost may outweigh that benefit",
+    "It accepts the view completely and argues that teachers should assign more homework every night"
    ],
    "correctAnswer": 2,
    "explanation": "“Admittedly” grants the point; “Yet” introduces the rebuttal about sleep and family time.",
    "choiceExplanations": [
-    "The writer addresses it directly.",
-    "The writer gives a reason.",
+    "The writer addresses the view directly in paragraph 3.",
+    "The writer gives a reason: the cost in sleep and family time.",
     "",
-    "The writer limits the view."
+    "The writer limits the view and doesn't call for more homework."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -271,16 +271,16 @@
    "type": "multiple-choice",
    "prompt": "The final sentence reframes the debate. What does this reframing accomplish?",
    "choices": [
-    "It introduces a new topic unrelated to homework",
-    "It shows that the writer agrees with the parents",
-    "It ends the essay without a position",
-    "It replaces an all-or-nothing question with one that accounts for the complexity the research reveals"
+    "It introduces a new topic, the value of tests, that is unrelated to homework",
+    "It shows that the writer agrees with the parents who believe that homework builds discipline",
+    "It ends the essay without taking any position on the question",
+    "It replaces an all-or-nothing question with one that fits the complexity the research reveals"
    ],
    "correctAnswer": 3,
    "explanation": "Asking “how much, to whom, and for what purpose” reflects the evidence that homework's value depends on age and amount.",
    "choiceExplanations": [
-    "The topic is still homework.",
-    "The writer partly agrees with both sides.",
+    "The topic is still homework; tests are mentioned only in passing.",
+    "The writer partly agrees with both sides, not only with the parents.",
     "The reframing is the writer's position.",
     ""
    ],
@@ -300,18 +300,18 @@
    "type": "multiple-choice",
    "prompt": "What makes the issue in the passage complex, according to the writer?",
    "choices": [
-    "Scientists and businesses agree",
-    "Each option benefits one set of values at the expense of another",
-    "The clocks are expensive to change",
-    "No one complains about changing clocks"
+    "Scientists and businesses agree on permanent daylight saving time",
+    "Each option serves one set of values at the expense of another",
+    "Changing the clocks twice a year is expensive for businesses",
+    "No one complains about changing the clocks except sleep scientists"
    ],
    "correctAnswer": 1,
    "explanation": "Morning light serves health; evening light serves commerce. Choosing one sacrifices the other.",
    "choiceExplanations": [
-    "The passage shows they disagree.",
+    "The passage shows they disagree about which time to keep.",
     "",
-    "Cost isn't discussed.",
-    "People complain twice a year."
+    "The cost of changing clocks isn't discussed.",
+    "The passage says people complain twice a year."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -329,10 +329,10 @@
    "type": "multiple-choice",
    "prompt": "In paragraph 1, the semicolon in “The complaint is easy; the solution is not” serves to",
    "choices": [
-    "set off a dependent clause",
+    "set off a dependent clause from the main clause of the sentence",
     "join two closely related, contrasting independent clauses",
-    "introduce a list",
-    "mark a quotation"
+    "introduce a list of the complaints people make",
+    "mark a quotation from the people who complain"
    ],
    "correctAnswer": 1,
    "explanation": "The two short clauses balance each other, emphasizing the contrast.",
@@ -359,9 +359,9 @@
    "prompt": "Paragraph 2 uses two sentences with the same structure. What is the effect of this parallel structure?",
    "choices": [
     "It makes the two options easy to compare point by point",
-    "It makes the paragraph harder to follow",
-    "It shows that the options are identical",
-    "It hides the writer's opinion"
+    "It makes the paragraph harder to follow by repeating itself",
+    "It shows that the two options are identical in their effects",
+    "It hides the writer's opinion about which option is better"
    ],
    "correctAnswer": 0,
    "explanation": "Matching structure (“Permanent … would give …, which … favor because …”) lines up the options for comparison.",
@@ -387,15 +387,15 @@
    "type": "multiple-choice",
    "prompt": "In the final sentence, how does the clause beginning “Unless lawmakers decide…” shape the writer's claim?",
    "choices": [
-    "It introduces a counterargument the writer rejects",
+    "It introduces a counterargument that the writer then rejects as unrealistic",
     "It sets the condition under which ending the clock change would succeed",
     "It shows the writer supports permanent daylight saving time",
-    "It states that lawmakers will never decide"
+    "It states that lawmakers will never decide between health and commerce"
    ],
    "correctAnswer": 1,
    "explanation": "The conditional clause limits the claim: ending the change only solves the problem if a value choice is made.",
    "choiceExplanations": [
-    "It's the writer's own qualification.",
+    "It's the writer's own qualification, not an opposing view.",
     "",
     "The writer doesn't pick an option.",
     "It describes a condition, not a prediction."
@@ -445,7 +445,7 @@
    "type": "multiple-choice",
    "prompt": "The writer wants to combine sentences (3) and (4) so that the benefit receives the emphasis. Which is best?",
    "choices": [
-    "A skate park would cost money; it would cost money.",
+    "A skate park would cost the town money; it would also cost the town money to build.",
     "Although a skate park would give skaters a safe place, it would cost money.",
     "Although a skate park would cost money, it would give skaters a safe place.",
     "A skate park would cost money and give skaters a safe place."
@@ -453,7 +453,7 @@
    "correctAnswer": 2,
    "explanation": "Putting the cost in the dependent clause and the benefit in the main clause emphasizes the benefit.",
    "choiceExplanations": [
-    "This repeats the cost.",
+    "This repeats the cost and drops the benefit entirely.",
     "This puts the benefit in the dependent clause and the cost in the main clause, so the cost gets the emphasis.",
     "",
     "“And” treats cost and benefit as equal."
@@ -476,7 +476,7 @@
    "choices": [
     "It would give skaters a safe place, protect public property, and bring visitors to town.",
     "It would give skaters a safe place, protecting public property, and visitors would come.",
-    "It would give skaters a safe place and property and visitors.",
+    "It would give skaters a safe place and give property and visitors to the town.",
     "Giving skaters a safe place, it protects property and also visitors."
    ],
    "correctAnswer": 0,
@@ -484,7 +484,7 @@
    "choiceExplanations": [
     "",
     "The forms are mixed.",
-    "This drops the verbs and changes the meaning.",
+    "This drops the needed verbs and changes the meaning.",
     "This is ungrammatical and unclear."
    ],
    "sourceType": "original",
@@ -503,10 +503,10 @@
    "type": "multiple-choice",
    "prompt": "Sentence (3) mentions a counterargument but doesn't respond to it. Which revision best concedes and rebuts?",
    "choices": [
-    "Money doesn't matter.",
-    "A skate park would cost money, but the town already spends money every year repairing the library steps.",
-    "A skate park would cost a lot of money.",
-    "Some people don't like skateboarding."
+    "Money doesn't matter when the safety and happiness of young people in our town are at stake.",
+    "A skate park would cost money, but the town already pays every year to repair the library steps.",
+    "A skate park would cost a lot of money, perhaps more than the town spends on its parks in a year.",
+    "Some people in town don't like skateboarding and would not visit a skate park."
    ],
    "correctAnswer": 1,
    "explanation": "It grants the cost, then rebuts it with a comparison to an existing expense.",
@@ -561,17 +561,17 @@
    "type": "multiple-choice",
    "prompt": "Which revision of sentence (2) best qualifies the claim?",
    "choices": [
-    "A traffic light would solve every problem in town.",
-    "A traffic light might do something.",
-    "A traffic light is a light.",
+    "A traffic light would solve every traffic problem in town, from speeding to street parking.",
+    "A traffic light might do something about the problems at the intersection someday.",
+    "A traffic light is a light that turns red, yellow, and green.",
     "A traffic light would likely reduce collisions by giving each direction a clear turn."
    ],
    "correctAnswer": 3,
    "explanation": "“Likely reduce” and the explanation make a precise, defensible claim.",
    "choiceExplanations": [
-    "This is even broader.",
+    "This is even broader than the original.",
     "This is too vague to argue anything.",
-    "This says nothing.",
+    "This only describes a traffic light and says nothing about the intersection.",
     ""
    ],
    "sourceType": "original",
@@ -590,17 +590,17 @@
    "type": "multiple-choice",
    "prompt": "Which sentence would best open the introduction for the traffic committee?",
    "choices": [
-    "Six collisions in a single year have made the four-way stop at Oak and Third the town's most dangerous intersection.",
-    "Traffic exists in every town.",
-    "Cars were invented over a century ago.",
+    "Six collisions in one year have made the four-way stop at Oak and Third the town's most dangerous intersection.",
+    "Traffic exists in every town, and drivers everywhere complain about intersections that seem dangerous.",
+    "Cars were invented over a century ago, and the first traffic lights appeared soon after that in many large cities.",
     "I like to walk."
    ],
    "correctAnswer": 0,
    "explanation": "It establishes the exigence with specific evidence the committee cares about.",
    "choiceExplanations": [
     "",
-    "This is too general.",
-    "This is unrelated background.",
+    "This is too general to interest the committee.",
+    "This is unrelated history.",
     "This is irrelevant to the committee."
    ],
    "sourceType": "original",
@@ -619,10 +619,10 @@
    "type": "multiple-choice",
    "prompt": "The committee might note that traffic lights can increase rear-end crashes. How could the writer best account for this complexity?",
    "choices": [
-    "Acknowledge the trade-off and argue that, at this intersection, preventing the more serious side-impact collisions matters more",
-    "Ignore it so the letter stays short",
-    "Say that rear-end crashes never happen",
-    "Withdraw the request"
+    "Acknowledge the trade-off and argue that, here, preventing the more serious side-impact collisions matters more",
+    "Ignore it so that the letter stays short and focused on the six collisions",
+    "Say that rear-end crashes never happen at intersections that have traffic lights",
+    "Withdraw the request and ask the committee to study the intersection for several more years instead"
    ],
    "correctAnswer": 0,
    "explanation": "Acknowledging the trade-off and explaining why the benefit outweighs it here keeps the argument credible.",

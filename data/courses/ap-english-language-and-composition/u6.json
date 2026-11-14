@@ -181,7 +181,7 @@
    "type": "multiple-choice",
    "prompt": "Which word best describes the writer's tone in paragraph 1?",
    "choices": [
-    "Bitter",
+    "Resentful",
     "Delighted",
     "Detached",
     "Fearful"
@@ -210,18 +210,18 @@
    "type": "multiple-choice",
    "prompt": "Where does the passage's tone shift most clearly?",
    "choices": [
-    "At the last sentence of paragraph 3",
-    "In the middle of paragraph 1",
-    "At the beginning of paragraph 2, when the writer starts asking drivers about their nights",
-    "It doesn't shift"
+    "At the last sentence of paragraph 3, when the writer turns to what cities should require",
+    "In the middle of paragraph 1, when the writer mentions that the driver knew the way",
+    "At the start of paragraph 2, when the writer begins asking drivers about their nights",
+    "It doesn't shift; the writer is critical of ride apps from the first sentence to the last"
    ],
    "correctAnswer": 2,
    "explanation": "“Then I started asking drivers…” turns from delight to troubled discovery.",
    "choiceExplanations": [
-    "The last sentence continues the critical tone already established.",
-    "Paragraph 1 stays consistently pleased.",
+    "The last sentence continues the critical tone already established in paragraph 2.",
+    "Paragraph 1 stays consistently pleased; knowing the way is part of the delight.",
     "",
-    "The tone clearly changes."
+    "The tone clearly changes; paragraph 1 is delighted."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -239,10 +239,10 @@
    "type": "multiple-choice",
    "prompt": "How does the writer use the drivers' accounts in paragraph 2?",
    "choices": [
-    "To introduce a perspective the writer had not considered, which complicates the writer's first impression",
-    "To argue that riders should stop using the apps",
-    "To prove that all drivers are unhappy",
-    "To show the writer's expertise about the industry"
+    "To introduce a perspective the writer hadn't considered, complicating the first impression",
+    "To argue that riders should stop using the apps until drivers earn more",
+    "To prove that all of the drivers who work for ride apps are unhappy with their pay and hours",
+    "To show the writer's expertise about how the ride-app industry works"
    ],
    "correctAnswer": 0,
    "explanation": "The drivers' experiences show a cost the rider hadn't seen, leading to the claim in paragraph 3.",
@@ -268,16 +268,16 @@
    "type": "multiple-choice",
    "prompt": "In paragraph 3, the writer returns to the word “miracle.” What is the effect?",
    "choices": [
-    "It shows that the writer still feels only delight",
-    "It introduces a religious argument",
-    "It contradicts the writer's request to cities",
-    "It turns the writer's earlier delight into irony, highlighting the hidden cost"
+    "It shows that the writer still feels only delight about cheap, fast rides",
+    "It introduces a religious argument about fairness to workers",
+    "It contradicts the writer's request that cities require companies to disclose pay",
+    "It turns the earlier delight into irony, highlighting the hidden cost"
    ],
    "correctAnswer": 3,
    "explanation": "Saying the miracle “has a price” recasts the earlier word ironically and marks the argument's turn.",
    "choiceExplanations": [
     "The context makes clear the delight has been complicated.",
-    "The word is used figuratively.",
+    "The word is used figuratively; no religious argument is made.",
     "It supports the request by naming the cost.",
     ""
    ],
@@ -297,10 +297,10 @@
    "type": "multiple-choice",
    "prompt": "What is the main purpose of paragraphs 1 and 2?",
    "choices": [
-    "To present two groups' perspectives on the dam",
-    "To describe the history of the valley",
-    "To argue that the dam should be built",
-    "To argue that the dam should be cancelled"
+    "To present two groups' perspectives on the proposed dam",
+    "To describe the history of farming and fishing in the valley",
+    "To argue that the dam should be built to protect farmers' crops",
+    "To argue that the dam should be cancelled to protect the trout"
    ],
    "correctAnswer": 0,
    "explanation": "Paragraph 1 gives the farmers' view and paragraph 2 the fishing guides' view.",
@@ -326,17 +326,17 @@
    "type": "multiple-choice",
    "prompt": "Why does the writer mention who paid for each study?",
    "choices": [
-    "To prove that the guides' study is correct",
-    "To praise both groups for funding research",
-    "To show that the studies are illegal",
-    "To show that each study may be biased toward its sponsor's interests"
+    "To prove that the guides' study is correct and the district's study is not",
+    "To praise both groups for paying for research on the river",
+    "To show that studies funded by interest groups are illegal",
+    "To show that each study may favor its sponsor's interests"
    ],
    "correctAnswer": 3,
    "explanation": "Noting the sponsors helps readers account for possible bias in both predictions.",
    "choiceExplanations": [
     "The writer treats both studies with the same caution.",
     "The point is caution, not praise.",
-    "Nothing suggests the studies are illegal.",
+    "Nothing suggests such studies are illegal.",
     ""
    ],
    "sourceType": "original",
@@ -355,10 +355,10 @@
    "type": "multiple-choice",
    "prompt": "Which best describes the writer's position in paragraph 3?",
    "choices": [
-    "The fishing guides are right",
-    "The state should seek independent evidence and consider an alternative before deciding",
-    "The dam should be built immediately",
-    "The farmers should move to another valley"
+    "The fishing guides are right, so the state should reject the dam",
+    "The state should seek independent evidence and consider an alternative first",
+    "The dam should be built immediately so that the farmers can irrigate next summer",
+    "The farmers should move to another valley where water is more reliable"
    ],
    "correctAnswer": 1,
    "explanation": "Rather than siding with either group, the writer calls for an independent study and asks about smaller reservoirs.",
@@ -366,7 +366,7 @@
     "The writer doesn't side with the guides.",
     "",
     "The writer asks the state to wait for better evidence.",
-    "This isn't suggested."
+    "Moving the farmers is never suggested."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -384,10 +384,10 @@
    "type": "multiple-choice",
    "prompt": "How does acknowledging both groups' dependence on the river strengthen the writer's argument?",
    "choices": [
-    "It weakens the argument by refusing to take a side",
-    "It hides the writer's bias in favor of the farmers",
-    "It shows that the writer prefers fishing to farming",
-    "It establishes fairness, making the call for an independent study more credible to both sides"
+    "It weakens the argument by refusing to take a clear side on the question of building the dam",
+    "It hides the writer's bias in favor of the farmers who need water in August",
+    "It shows that the writer prefers fishing to farming as a way to use the river",
+    "It establishes fairness, making the call for an independent study credible to both sides"
    ],
    "correctAnswer": 3,
    "explanation": "Treating both perspectives as legitimate makes the writer's proposal seem balanced rather than partisan.",
@@ -413,15 +413,15 @@
    "type": "multiple-choice",
    "prompt": "Which part of the draft is most directly challenged by the survey the student found?",
    "choices": [
-    "Nothing in the draft",
+    "Nothing in the draft, since the survey is about teachers",
     "Sentence (1)'s claim that phones should be banned at all times",
-    "Sentence (2)'s claim about notifications",
-    "Sentence (3)'s report about lectures"
+    "Sentence (2)'s claim that notifications pull attention away",
+    "Sentence (3)'s report that students check their phones during lectures"
    ],
    "correctAnswer": 1,
    "explanation": "If teachers use phones for quizzes, a total ban at all times would block a use teachers find helpful.",
    "choiceExplanations": [
-    "The survey clearly complicates the absolute claim.",
+    "The survey is about classroom use, so it complicates the absolute claim.",
     "",
     "The survey doesn't address notifications.",
     "The survey doesn't contradict what students do during lectures."
@@ -442,9 +442,9 @@
    "type": "multiple-choice",
    "prompt": "Which revision of sentence (1) best accounts for the new evidence?",
    "choices": [
-    "Phones are sometimes used in schools.",
-    "Phones should stay put away during class unless a teacher asks students to use them for a lesson.",
-    "Teachers should stop giving quizzes.",
+    "Phones are sometimes used in schools, and opinions about them differ widely among teachers and students.",
+    "Phones should stay put away in class unless a teacher asks students to use them for a lesson.",
+    "Teachers should stop giving phone quizzes so that a complete ban can be enforced in each classroom.",
     "Phones should be banned forever."
    ],
    "correctAnswer": 1,
@@ -452,7 +452,7 @@
    "choiceExplanations": [
     "This drops the argument altogether.",
     "",
-    "This is an unrelated proposal.",
+    "Stopping quizzes ignores the evidence instead of accounting for it.",
     "This ignores the new evidence."
    ],
    "sourceType": "original",
@@ -471,15 +471,15 @@
    "type": "multiple-choice",
    "prompt": "After sentence (1) is revised to allow teacher-directed use, how should sentence (4) change?",
    "choices": [
-    "It should mention the cafeteria",
-    "It should stay the same",
+    "It should mention the cafeteria, where phones are also a problem at lunch",
+    "It should stay the same, because it is the paragraph's strongest sentence",
     "It should be revised so it no longer calls a complete ban the only way to protect learning",
-    "It should be moved to the beginning"
+    "It should be moved to the beginning of the paragraph so that it states the main claim first"
    ],
    "correctAnswer": 2,
    "explanation": "Sentence (4) still demands a total ban, which now contradicts the revised thesis.",
    "choiceExplanations": [
-    "The cafeteria is irrelevant.",
+    "The cafeteria is irrelevant to the contradiction.",
     "Keeping it would contradict the revised claim.",
     "",
     "Moving it doesn't fix the contradiction."
@@ -500,15 +500,15 @@
    "type": "multiple-choice",
    "prompt": "Which sentence, added after sentence (3), would best incorporate the teachers' perspective strategically?",
    "choices": [
-    "Teachers have their own phones.",
+    "Teachers have their own phones, and many of them check messages during the school day just as their students do.",
     "Phones were invented in the 1800s.",
-    "Some teachers, though, use phones for quick quizzes, which suggests the problem is unstructured use, not the phones themselves.",
-    "Teachers disagree about many things."
+    "Some teachers, though, use phones for quick quizzes, suggesting the problem is unstructured use, not phones.",
+    "Teachers disagree about many things, including how strict classroom rules should be in a modern school."
    ],
    "correctAnswer": 2,
    "explanation": "It represents the teachers' practice fairly and uses it to sharpen the writer's actual concern.",
    "choiceExplanations": [
-    "This doesn't connect to the argument.",
+    "This doesn't connect to how phones are used for learning.",
     "This is irrelevant and inaccurate for smartphones.",
     "",
     "This is too vague to help."
@@ -558,10 +558,10 @@
    "type": "multiple-choice",
    "prompt": "Why does sentence (4) weaken the paragraph?",
    "choices": [
-    "It dismisses the downtown owners' concern instead of responding to the evidence in sentence (3)",
-    "It is the paragraph's only claim",
-    "It provides too much evidence",
-    "It agrees with the downtown owners"
+    "It dismisses the downtown owners' concern instead of answering the evidence in sentence (3)",
+    "It is the paragraph's only claim, so the paragraph has no other main point for it to support",
+    "It provides too much evidence about the downtown markets' sales",
+    "It agrees with the downtown owners that the supermarket has hurt them"
    ],
    "correctAnswer": 0,
    "explanation": "Sentence (3) reports a real cost; attacking critics' motives ignores it and costs the writer credibility.",
@@ -569,7 +569,7 @@
     "",
     "Sentence (1) is the main claim.",
     "It provides no evidence.",
-    "It attacks the downtown owners."
+    "It attacks the downtown owners rather than agreeing with them."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -587,15 +587,15 @@
    "type": "multiple-choice",
    "prompt": "Which revision of sentence (4) best keeps the writer's position while adopting a fairer tone?",
    "choices": [
-    "The supermarket is perfect.",
-    "Downtown owners should simply close their shops.",
-    "The town could help downtown shops adapt, for example by promoting a weekend market, while still welcoming the supermarket's longer hours.",
+    "The supermarket is perfect, and residents who disagree have not shopped there yet.",
+    "Downtown owners should simply close their shops, since the new supermarket on Route 4 now meets every need that the town has.",
+    "The town could help downtown shops adapt, perhaps with a weekend market, while welcoming the supermarket's longer hours.",
     "Change is scary."
    ],
    "correctAnswer": 2,
    "explanation": "It acknowledges the downtown owners' problem and proposes a response, without abandoning support for the supermarket.",
    "choiceExplanations": [
-    "This overstates and ignores the concern.",
+    "This overstates and dismisses the concern.",
     "This is harsher, not fairer.",
     "",
     "This is vague and still dismissive."
@@ -616,16 +616,16 @@
    "type": "multiple-choice",
    "prompt": "Given sentence (3), which revision of sentence (1) best reflects all the evidence in the paragraph?",
    "choices": [
-    "The new supermarket has given residents longer hours and fresh food, though it has also hurt downtown businesses.",
-    "The new supermarket has been great for everyone.",
-    "The new supermarket should be closed.",
+    "The new supermarket has given residents longer hours and fresh food, though it has hurt downtown shops.",
+    "The new supermarket has been great for everyone in town, from shoppers to the owners of downtown markets.",
+    "The new supermarket should be closed so that the two downtown markets can recover their sales.",
     "Supermarkets sell food."
    ],
    "correctAnswer": 0,
    "explanation": "The qualified thesis accounts for both the benefits and the cost the paragraph reports.",
    "choiceExplanations": [
     "",
-    "Sentence (3) shows it hasn't been great for everyone.",
+    "Sentence (3) shows it hasn't been great for downtown owners.",
     "This abandons the writer's position without reason.",
     "This isn't a claim."
    ],

@@ -185,15 +185,15 @@
    "type": "multiple-choice",
    "prompt": "Bryan's main purpose in the excerpt is to",
    "choices": [
-    "argue against all government regulation",
-    "defend the gold standard",
-    "claim that workers and farmers are as important to the economy as wealthy financiers",
-    "praise speculators on the Board of Trade"
+    "argue against government regulation of railroads and banks",
+    "defend the gold standard against those who want free silver",
+    "claim that workers and farmers matter to the economy as much as wealthy financiers",
+    "praise speculators on the Board of Trade for creating the nation's wealth and jobs"
    ],
    "correctAnswer": 2,
    "explanation": "He insists that wage earners, small merchants, and farmers are “as much a business man” as big-city financiers.",
    "choiceExplanations": [
-    "His supporters wanted more government action.",
+    "His supporters wanted more government regulation, not less.",
     "He was the leading opponent of the gold standard.",
     "",
     "He contrasts honest work with betting on grain prices."
@@ -215,9 +215,9 @@
    "prompt": "Bryan's speech was most closely associated with which policy?",
    "choices": [
     "Restricting immigration from southern Europe",
-    "High tariffs on imported goods",
+    "High tariffs on imported manufactured goods",
     "Free coinage of silver to expand the money supply",
-    "Ending the Homestead Act"
+    "Ending the Homestead Act's grants of western land"
    ],
    "correctAnswer": 2,
    "explanation": "Bryan campaigned in 1896 for free silver, which farmers hoped would raise prices and ease debts.",
@@ -243,10 +243,10 @@
    "type": "multiple-choice",
    "prompt": "Bryan's reference to “the man who goes upon the Board of Trade and bets upon the price of grain” reflects which concern of his supporters?",
    "choices": [
-    "Resentment of financiers who profited without producing goods, while farmers struggled",
-    "Fear of competition from immigrant farmers",
-    "Approval of railroad rates",
-    "Support for the growth of large corporations"
+    "Resentment of financiers who profited without producing goods while farmers struggled",
+    "Fear of competition from the immigrant farmers who were settling the Great Plains in large numbers",
+    "Approval of the rates railroads charged to ship crops",
+    "Support for the growth of large corporations that could buy farmers' grain"
    ],
    "correctAnswer": 0,
    "explanation": "Farmers blamed speculators, bankers, and railroads for low prices and high costs.",
@@ -272,10 +272,10 @@
    "type": "multiple-choice",
    "prompt": "Which group's earlier demands are most similar to the ideas in Bryan's speech?",
    "choices": [
-    "The Populist Party, whose 1892 Omaha Platform called for free silver and government regulation",
-    "The Anti-Imperialist League",
-    "The Federalists of the 1790s",
-    "The Know-Nothing Party of the 1850s"
+    "The Populist Party, whose 1892 Omaha Platform called for free silver and regulation",
+    "The Anti-Imperialist League, which opposed taking colonies",
+    "The Federalists of the 1790s, who supported a national bank",
+    "The Know-Nothing Party of the 1850s and its many supporters in the Northern cities"
    ],
    "correctAnswer": 0,
    "explanation": "Populists had championed farmers, free silver, and regulation; they endorsed Bryan in 1896.",
@@ -301,10 +301,10 @@
    "type": "multiple-choice",
    "prompt": "The excerpt describes the end of which conflict?",
    "choices": [
-    "King Philip's War",
+    "King Philip's War in New England",
     "The Nez Perce flight from the U.S. Army in 1877",
-    "The Mexican–American War",
-    "The Pullman Strike"
+    "The Mexican–American War in the Southwest, 1846–1848",
+    "The Pullman Strike by railroad workers"
    ],
    "correctAnswer": 1,
    "explanation": "Chief Joseph led the Nez Perce on a long retreat that ended near the Canadian border in 1877.",
@@ -331,15 +331,15 @@
    "prompt": "Which conditions does Chief Joseph describe as reasons for surrender?",
    "choices": [
     "The deaths of leaders, cold, and lack of food and blankets",
-    "Victory over the army",
-    "A promise of land in Mexico",
-    "The arrival of new allies"
+    "Victory over the army and a peace treaty",
+    "A promise of land in Mexico for his people",
+    "The arrival of new allies from other Plains nations to help him"
    ],
    "correctAnswer": 0,
    "explanation": "He says the chiefs are killed and the children are freezing without blankets or food.",
    "choiceExplanations": [
     "",
-    "He is surrendering.",
+    "He is surrendering, not celebrating a victory.",
     "He doesn't mention land in Mexico.",
     "He describes his people scattered and suffering."
    ],
@@ -359,16 +359,16 @@
    "type": "multiple-choice",
    "prompt": "The conflict described in the excerpt was part of which broader development?",
    "choices": [
-    "The New Deal",
-    "The rise of the Populist Party",
-    "Federal efforts to confine American Indians to reservations as settlement expanded west",
+    "The New Deal programs for Western farmers",
+    "The rise of the Populist Party among Western farmers and ranchers during the 1890s",
+    "Federal efforts to confine American Indians to reservations as settlers moved west",
     "The Great Migration of African Americans to Northern cities"
    ],
    "correctAnswer": 2,
    "explanation": "The Nez Perce resisted being forced onto a much-reduced reservation.",
    "choiceExplanations": [
     "The New Deal came in the 1930s.",
-    "Populism was a farmers' movement.",
+    "Populism was a farmers' political movement.",
     "",
     "The Great Migration began around World War I."
    ],
@@ -388,10 +388,10 @@
    "type": "multiple-choice",
    "prompt": "A historian should consider which issue when using this excerpt as evidence of Chief Joseph's views?",
    "choices": [
-    "The words were translated and recorded by U.S. Army officers, who shaped how they were presented",
-    "Chief Joseph wrote the speech decades later",
-    "The speech was given in Washington, D.C.",
-    "Chief Joseph was a U.S. Army general"
+    "The words were translated and recorded by U.S. Army officers, who shaped how they appeared",
+    "Chief Joseph wrote the speech decades later from memory, long after the fighting had ended",
+    "The speech was given in Washington, D.C., to members of Congress",
+    "Chief Joseph was a U.S. Army general who led the troops pursuing the Nez Perce"
    ],
    "correctAnswer": 0,
    "explanation": "Because the speech was interpreted and written down by others, its exact wording reflects their record, not necessarily his.",
@@ -417,9 +417,9 @@
    "type": "multiple-choice",
    "prompt": "The interpretation's main claim is that industrialization",
    "choices": [
-    "made all Americans equally prosperous",
-    "slowed economic growth",
-    "eliminated dangerous work",
+    "made all Americans equally prosperous by 1900",
+    "slowed economic growth in the steel and oil industries",
+    "eliminated dangerous work in factories and mills",
     "created great wealth along with great inequality"
    ],
    "correctAnswer": 3,
@@ -447,7 +447,7 @@
    "prompt": "Carnegie's control of “every stage of production, from iron mines to rail mills” is an example of",
    "choices": [
     "a political machine",
-    "a labor union",
+    "a labor union of steelworkers",
     "horizontal integration",
     "vertical integration"
    ],
@@ -455,7 +455,7 @@
    "explanation": "Owning each stage of the supply chain is vertical integration.",
    "choiceExplanations": [
     "Machines are political organizations.",
-    "Unions organize workers.",
+    "Unions organize workers; this is a business structure.",
     "Horizontal integration combines competitors at the same stage, as Standard Oil did.",
     ""
    ],
@@ -477,8 +477,8 @@
    "choices": [
     "The Chinese Exclusion Act of 1882",
     "The Sherman Antitrust Act of 1890",
-    "The Homestead Act of 1862",
-    "The Dawes Act of 1887"
+    "The Homestead Act of 1862 for settlers",
+    "The Dawes Act of 1887 on Indian lands"
    ],
    "correctAnswer": 1,
    "explanation": "The Sherman Act banned combinations in restraint of trade, though it was weakly enforced at first.",
@@ -504,10 +504,10 @@
    "type": "multiple-choice",
    "prompt": "The strikes mentioned in the passage most directly reflect which pattern of the period?",
    "choices": [
-    "Workers rarely organized",
-    "Unions usually won major strikes",
+    "Workers rarely organized or went on strike in this period",
+    "Unions usually won major strikes with help from state governments",
     "Governments often sided with employers, using force against strikers",
-    "The federal government stayed neutral in labor disputes"
+    "The federal government stayed neutral in labor disputes between workers and owners"
    ],
    "correctAnswer": 2,
    "explanation": "The passage notes that militias and federal troops were called in and the strikes failed.",
@@ -533,17 +533,17 @@
    "type": "multiple-choice",
    "prompt": "According to the interpretation, where did most new immigrants of 1880–1900 come from?",
    "choices": [
-    "Mainly West Africa",
-    "Mainly Mexico",
-    "Mainly Great Britain",
+    "Mainly West Africa and the Caribbean islands",
+    "Mainly Mexico and Central America",
+    "Mainly Great Britain and Ireland",
     "Increasingly, southern and eastern Europe"
    ],
    "correctAnswer": 3,
    "explanation": "The passage says arrivals came increasingly from southern and eastern Europe.",
    "choiceExplanations": [
     "This isn't what the passage describes.",
-    "Large-scale Mexican migration came later.",
-    "British immigration was declining as a share.",
+    "Large-scale migration from Mexico and Central America came later.",
+    "British and Irish immigration was declining as a share.",
     ""
    ],
    "sourceType": "original",
@@ -562,9 +562,9 @@
    "type": "multiple-choice",
    "prompt": "According to the passage, why did political machines gain immigrants' support?",
    "choices": [
-    "They required English-only schools",
-    "They opposed city growth",
-    "They banned immigration",
+    "They required English-only schools in cities",
+    "They opposed the growth of cities and factories",
+    "They banned new immigration to their cities",
     "They traded jobs and favors for votes"
    ],
    "correctAnswer": 3,
@@ -591,10 +591,10 @@
    "type": "multiple-choice",
    "prompt": "The Chinese Exclusion Act mentioned in the passage is best understood as an example of",
    "choices": [
-    "the Gospel of Wealth",
+    "the Gospel of Wealth and philanthropy",
     "nativist responses to immigration",
-    "Reconstruction policy",
-    "Populist economic reform"
+    "Reconstruction policy toward the South",
+    "Populist economic reform for farmers"
    ],
    "correctAnswer": 1,
    "explanation": "It restricted immigration based on national origin, reflecting nativist fears.",
@@ -620,15 +620,15 @@
    "type": "multiple-choice",
    "prompt": "Which comparison is best supported by the passage and your knowledge of the period?",
    "choices": [
-    "Immigrants and Black Southerners both gained full political equality in the 1890s",
-    "Like immigrants in Northern cities, many Black Southerners faced new legal barriers to full membership in society in the 1880s–1890s",
-    "Black Southerners moved to cities in larger numbers than European immigrants did",
+    "Immigrants and Black Southerners both gained full political equality in the 1890s, as Congress extended new protections to them",
+    "Like immigrants in Northern cities, many Black Southerners faced new barriers to full membership in society in the 1880s–1890s",
+    "Black Southerners moved to Northern cities in far larger numbers than European immigrants did during these years",
     "Immigrants were welcomed equally from every country"
    ],
    "correctAnswer": 1,
    "explanation": "Exclusion laws and nativism paralleled Jim Crow laws and disfranchisement in the South, which reopened “who could become an American.”",
    "choiceExplanations": [
-    "Both faced growing restrictions.",
+    "Both faced growing restrictions, and Congress extended no new protections.",
     "",
     "European immigration to cities was far larger in this period.",
     "The passage describes exclusion of Chinese immigrants."

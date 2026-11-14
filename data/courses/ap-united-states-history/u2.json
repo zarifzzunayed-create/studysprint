@@ -178,15 +178,15 @@
    "type": "multiple-choice",
    "prompt": "The signers of the document agreed to",
    "choices": [
-    "trade only with the Dutch",
-    "declare independence from England",
-    "abolish the Church of England",
+    "trade only with the Dutch to avoid English taxes",
+    "declare their independence from England and from King James",
+    "abolish the Church of England in the new colony",
     "form a body that would make laws for the good of the colony"
    ],
    "correctAnswer": 3,
    "explanation": "They “covenant and combine” into a “civil body politic” to make “just and equal laws.”",
    "choiceExplanations": [
-    "Trade isn't mentioned.",
+    "Trade isn't mentioned in the compact.",
     "They call themselves loyal subjects of King James.",
     "The document doesn't address the Church of England.",
     ""
@@ -207,15 +207,15 @@
    "type": "multiple-choice",
    "prompt": "The excerpt best reflects which development in the English colonies?",
    "choices": [
-    "The spread of the encomienda system",
+    "The spread of the encomienda labor system",
     "The rise of plantation slavery in New England",
     "The growth of colonial self-government",
-    "Spanish missionary efforts"
+    "Spanish missionary efforts in North America"
    ],
    "correctAnswer": 2,
    "explanation": "The settlers created their own governing agreement, an early example of self-government.",
    "choiceExplanations": [
-    "The encomienda was Spanish.",
+    "The encomienda was a Spanish labor system.",
     "The document doesn't concern labor or slavery.",
     "",
     "This is an English Protestant document."
@@ -237,16 +237,16 @@
    "prompt": "Which feature of the document most clearly shows that its signers did NOT see themselves as breaking with England?",
    "choices": [
     "They promise to make “just and equal laws”",
-    "They mention “the general good of the colony”",
-    "They refer to “Northern parts of Virginia”",
-    "They describe themselves as “loyal subjects” of King James"
+    "They mention “the general good of the colony” they are founding",
+    "They refer to “Northern parts of Virginia” as their destination",
+    "They call themselves “loyal subjects” of King James"
    ],
    "correctAnswer": 3,
    "explanation": "Affirming loyalty to the king shows they saw self-government as working within the empire.",
    "choiceExplanations": [
     "Making laws doesn't by itself show loyalty.",
-    "Concern for the colony's good is about local governance.",
-    "This describes their intended destination.",
+    "Concern for the colony's good is about local governance, not loyalty.",
+    "This describes their intended destination, not their loyalty.",
     ""
    ],
    "sourceType": "original",
@@ -265,9 +265,9 @@
    "type": "multiple-choice",
    "prompt": "The religious language in the excerpt (“for the Glory of God, and advancements of the Christian faith”) is best explained by the fact that",
    "choices": [
-    "many of the signers were Separatists seeking to build a community based on their religious beliefs",
-    "the Great Awakening had already swept the colonies",
-    "the colony was founded mainly to grow tobacco",
+    "many signers were Separatists seeking to build a community based on their religious beliefs",
+    "the Great Awakening had already swept through the English colonies and inspired the signers",
+    "the colony was founded mainly to grow tobacco for export to English markets",
     "the Spanish crown required conversion of Native peoples"
    ],
    "correctAnswer": 0,
@@ -294,17 +294,17 @@
    "type": "multiple-choice",
    "prompt": "According to Beverley, what was the key difference between “Slaves” and “Servants”?",
    "choices": [
-    "Servants worked in fields and slaves did not",
-    "Slaves served for life and passed their status to their children; servants served for a limited term",
-    "Slaves were paid wages and servants were not",
-    "Servants came from Africa and slaves from England"
+    "Servants worked in the tobacco fields, while slaves worked mainly inside the planter's own house",
+    "Slaves served for life and passed their status to their children; servants served a set term",
+    "Slaves were paid small wages for their labor, while servants were paid in land instead",
+    "Servants came from Africa and slaves came from England and Ireland"
    ],
    "correctAnswer": 1,
    "explanation": "He says slaves serve for life with status inherited from the mother, while servants serve for a few years.",
    "choiceExplanations": [
     "He says both worked together in the fields.",
     "",
-    "Neither group received wages in this description.",
+    "Neither group received wages or land in this description.",
     "This reverses who came from where."
    ],
    "sourceType": "original",
@@ -323,18 +323,18 @@
    "type": "multiple-choice",
    "prompt": "The rule that children followed “the condition of the Mother” most directly ensured that",
    "choices": [
-    "indentured servants would become enslaved",
+    "indentured servants would become enslaved for life when their terms ended",
     "enslaved mothers could choose their children's status",
     "slavery became a hereditary status passed down through generations",
-    "enslaved people could easily gain freedom"
+    "enslaved people could easily gain freedom through their fathers"
    ],
    "correctAnswer": 2,
    "explanation": "Making status follow the mother meant children of enslaved women were born enslaved.",
    "choiceExplanations": [
-    "It concerned the children of enslaved women.",
+    "It concerned the children of enslaved women, not servants.",
     "Mothers had no choice under this rule.",
     "",
-    "It made freedom harder to obtain."
+    "It made freedom harder to obtain; status came from the mother."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
@@ -352,10 +352,10 @@
    "type": "multiple-choice",
    "prompt": "Which development most directly contributed to the shift in the Chesapeake from indentured servants toward enslaved African labor, as reflected in the excerpt?",
    "choices": [
-    "The Great Awakening's opposition to slavery",
-    "Planters' concerns after Bacon's Rebellion about large numbers of landless former servants",
-    "A British ban on the Atlantic slave trade in the 1600s",
-    "The end of tobacco cultivation in Virginia"
+    "The Great Awakening's opposition to slavery, which turned planters against indentured servants",
+    "Planters' fears after Bacon's Rebellion about large numbers of landless former servants",
+    "A British ban on the Atlantic slave trade in the 1600s that raised servants' value",
+    "The end of tobacco cultivation in Virginia and the shift to growing wheat"
    ],
    "correctAnswer": 1,
    "explanation": "Bacon's Rebellion (1676) showed planters the danger of discontented former servants and encouraged reliance on enslaved Africans.",
@@ -382,9 +382,9 @@
    "prompt": "A historian would most likely use this excerpt as evidence of",
    "choices": [
     "how colonial elites defined slavery as a permanent, racial status by the early 1700s",
-    "English policies toward American Indians",
-    "the experiences of enslaved people in their own words",
-    "the absence of slavery in the British colonies"
+    "English policies toward American Indians in the Virginia colony",
+    "the experiences of enslaved people, described in their own words",
+    "the absence of slavery from Britain's mainland North American colonies before the 1700s"
    ],
    "correctAnswer": 0,
    "explanation": "Written by a planter, it shows how elites understood and described the system; it doesn't give enslaved people's own views.",
@@ -411,8 +411,8 @@
    "prompt": "According to the interpretation, why did the French rely on alliances with American Indians?",
    "choices": [
     "Their fur trade depended on Native hunters, and they had few settlers",
-    "They had no interest in North America",
-    "They grew tobacco on large plantations",
+    "They had little interest in settling or trading anywhere in North America",
+    "They grew tobacco on large plantations that needed Native labor",
     "They wanted to convert Native peoples to Protestantism"
    ],
    "correctAnswer": 0,
@@ -440,17 +440,17 @@
    "prompt": "The interpretation's comparison of empires most directly supports which conclusion?",
    "choices": [
     "All European empires had similar relations with American Indians",
-    "The French sent the most settlers",
-    "English demand for farmland made conflict with American Indians more likely than in New France",
-    "The Spanish faced no resistance"
+    "The French sent the most settlers, which caused the most conflict over land",
+    "English demand for farmland made conflict with American Indians likelier than in New France",
+    "The Spanish faced no serious resistance from the Native peoples they sought to convert and use"
    ],
    "correctAnswer": 2,
    "explanation": "The passage contrasts French trade-based alliances with English settlement and land hunger.",
    "choiceExplanations": [
-    "It stresses differences.",
+    "It stresses differences among the empires.",
     "It says New France held few settlers.",
     "",
-    "It cites the Pueblo Revolt."
+    "It cites the Pueblo Revolt as fierce resistance."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
@@ -468,10 +468,10 @@
    "type": "multiple-choice",
    "prompt": "Which event best illustrates the conflicts the passage associates with English settlement?",
    "choices": [
-    "The Columbian Exchange",
-    "The founding of Quebec, 1608",
+    "The Columbian Exchange of plants and animals",
+    "The founding of Quebec by the French, 1608",
     "Metacom's War (King Philip's War), 1675–1676",
-    "The Pueblo Revolt, 1680"
+    "The Pueblo Revolt against settlers, 1680"
    ],
    "correctAnswer": 2,
    "explanation": "Metacom's War arose from New England settlers' expansion onto Native lands.",
@@ -479,7 +479,7 @@
     "The Columbian Exchange was a broader process, not a conflict with English settlers.",
     "Quebec was a French trading settlement.",
     "",
-    "The Pueblo Revolt was against Spanish rule."
+    "The Pueblo Revolt was against Spanish rule, not English settlers."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
@@ -497,15 +497,15 @@
    "type": "multiple-choice",
    "prompt": "Which statement best compares Spanish and French colonization as described in the passage?",
    "choices": [
-    "Both avoided contact with Native peoples",
-    "Both depended on Native peoples, but the Spanish sought converts and labor while the French sought furs through alliances",
-    "Both sought land for large numbers of family farms",
+    "Both avoided contact with Native peoples, unlike the English, who traded with them widely and often",
+    "Both depended on Native peoples, but the Spanish sought converts and labor, the French furs through alliances",
+    "Both sought land for large numbers of family farms, so both came into frequent and bloody conflict with Native peoples",
     "The French built missions and the Spanish relied on fur trading"
    ],
    "correctAnswer": 1,
    "explanation": "The passage shows both empires relying on Native peoples for different goals and through different relationships.",
    "choiceExplanations": [
-    "Both had extensive contact.",
+    "Both had extensive contact with Native peoples.",
     "",
     "That describes the English.",
     "This reverses their main strategies."
@@ -557,8 +557,8 @@
    "choices": [
     "They strengthened the authority of established ministers",
     "They encouraged ordinary people to question established religious authority",
-    "They ended religious diversity in the colonies",
-    "They united all colonists in a single church"
+    "They ended religious diversity by uniting colonists behind their established ministers",
+    "They united colonists from many colonies in a single new church"
    ],
    "correctAnswer": 1,
    "explanation": "Congregations split and colonists learned to challenge authority in the name of conscience.",
@@ -566,7 +566,7 @@
     "The passage says people judged their ministers.",
     "",
     "New churches formed, adding diversity.",
-    "Churches split rather than uniting."
+    "Churches split rather than uniting in one church."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
@@ -584,9 +584,9 @@
    "type": "multiple-choice",
    "prompt": "Which feature of the revivals, according to the passage, helped create connections across colonies?",
    "choices": [
-    "Parliament funded new churches",
-    "Revivals took place only in Virginia",
-    "Colonial governors required church attendance",
+    "Parliament funded new churches in each colony",
+    "Revivals took place mainly in Virginia's towns",
+    "Colonial governors required attendance at revivals",
     "Traveling preachers drew crowds from many colonies"
    ],
    "correctAnswer": 3,
@@ -613,9 +613,9 @@
    "type": "multiple-choice",
    "prompt": "The passage's final sentence suggests a connection between the revivals and which later development?",
    "choices": [
-    "The Pueblo Revolt",
-    "The Columbian Exchange",
-    "The founding of Jamestown",
+    "The Pueblo Revolt against Spanish rule in New Mexico",
+    "The Columbian Exchange of goods and diseases",
+    "The founding of Jamestown as a profit-seeking English colony in 1607",
     "Colonial resistance to British authority in the 1760s and 1770s"
    ],
    "correctAnswer": 3,

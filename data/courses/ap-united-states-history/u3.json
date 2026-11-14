@@ -184,15 +184,15 @@
    "type": "multiple-choice",
    "prompt": "Madison's main purpose in the excerpt is to argue that",
    "choices": [
-    "the states should remain fully independent",
-    "a pure democracy is the best form of government",
+    "the states should remain fully independent of one another",
+    "a pure democracy is the best form of government for a large and growing nation like this one",
     "a large republic with elected representatives can control the dangers of faction",
-    "the United States should have a king"
+    "the United States should have a king to control factions"
    ],
    "correctAnswer": 2,
    "explanation": "He says a republic, through representation and a larger territory, “promises the cure” for faction.",
    "choiceExplanations": [
-    "He supports the Constitution's stronger union.",
+    "He supports the Constitution's stronger union of the states.",
     "He argues that pure democracy cannot cure faction.",
     "",
     "He argues for a republic, not monarchy."
@@ -214,8 +214,8 @@
    "prompt": "The excerpt was written mainly to persuade readers to",
    "choices": [
     "support ratification of the Constitution",
-    "declare independence from Britain",
-    "oppose the Bill of Rights",
+    "declare the colonies' independence from Britain",
+    "oppose adding a bill of rights",
     "elect Thomas Jefferson president"
    ],
    "correctAnswer": 0,
@@ -242,17 +242,17 @@
    "type": "multiple-choice",
    "prompt": "Which group most strongly disagreed with Madison's claim that a large republic would protect liberty?",
    "choices": [
-    "Anti-Federalists, who feared that a distant central government would threaten the rights of the people",
-    "French allies of the United States",
-    "Federalists who wrote the Constitution",
-    "Loyalists who supported the king"
+    "Anti-Federalists, who feared that a distant central government would threaten people's rights",
+    "French allies of the United States, who feared that a strong American government would rival France",
+    "Federalists who wrote the Constitution and wanted to keep the Articles",
+    "Loyalists who supported the king and opposed the Revolution"
    ],
    "correctAnswer": 0,
    "explanation": "Anti-Federalists argued that republics worked best in small areas and that a strong national government could become tyrannical.",
    "choiceExplanations": [
     "",
     "The French weren't part of the ratification debate.",
-    "Federalists agreed with Madison.",
+    "Federalists agreed with Madison and wanted to replace the Articles.",
     "Loyalists were no longer a force in this debate."
    ],
    "sourceType": "original",
@@ -271,10 +271,10 @@
    "type": "multiple-choice",
    "prompt": "Which development most directly addressed critics of the argument in the excerpt?",
    "choices": [
-    "The Proclamation of 1763",
+    "The Proclamation of 1763 on settling western lands",
     "The addition of the Bill of Rights in 1791",
-    "Shays' Rebellion",
-    "The Northwest Ordinance"
+    "Shays' Rebellion in Massachusetts",
+    "The Northwest Ordinance of 1787"
    ],
    "correctAnswer": 1,
    "explanation": "Promising amendments that protected individual rights helped win over Anti-Federalists.",
@@ -300,16 +300,16 @@
    "type": "multiple-choice",
    "prompt": "In the last two lines, Wheatley addresses her readers in order to",
    "choices": [
-    "argue for independence from Britain",
-    "describe life in Africa",
+    "argue for the colonies' independence from Britain",
+    "describe her life in Africa before she was taken",
     "challenge the belief that Africans were inferior",
-    "praise the slave trade"
+    "praise the slave trade for bringing Africans to America"
    ],
    "correctAnswer": 2,
    "explanation": "She reminds “Christians” that Black people “may be refin’d” and join the “angelic train,” rejecting the “scornful eye.”",
    "choiceExplanations": [
     "The poem doesn't discuss independence.",
-    "Africa is mentioned only as her origin.",
+    "Africa is mentioned only as her origin; her life there isn't described.",
     "",
     "Her point is about equality before God, not praise of the trade."
    ],
@@ -329,10 +329,10 @@
    "type": "multiple-choice",
    "prompt": "Wheatley's appeal is based mainly on",
    "choices": [
-    "economic arguments about labor",
+    "economic arguments about the value of labor",
     "Christian beliefs shared by her readers",
-    "military service in the Revolution",
-    "Enlightenment ideas about science"
+    "her own military service in the Revolution",
+    "Enlightenment ideas about science and reason"
    ],
    "correctAnswer": 1,
    "explanation": "She appeals to her readers as Christians.",
@@ -340,7 +340,7 @@
     "The poem makes no economic argument.",
     "",
     "It was published before the Revolution.",
-    "Its argument is religious."
+    "Its argument is religious, not scientific."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
@@ -358,15 +358,15 @@
    "type": "multiple-choice",
    "prompt": "The publication of Wheatley's poems in 1773 is best understood in the context of",
    "choices": [
-    "the Great Awakening's rejection of all written texts",
-    "laws requiring enslaved people to be educated",
-    "the end of slavery in all the colonies",
-    "growing debates about liberty and slavery as tensions with Britain increased"
+    "the Great Awakening's rejection of poetry and other written texts in favor of preaching",
+    "colonial laws that required enslaved people to be taught to read and write",
+    "the end of slavery in all the colonies by the early 1770s",
+    "growing debates about liberty and slavery as tensions with Britain rose"
    ],
    "correctAnswer": 3,
    "explanation": "As colonists spoke of liberty, writers like Wheatley highlighted the contradiction with slavery.",
    "choiceExplanations": [
-    "Revivalists didn't reject texts.",
+    "Revivalists didn't reject poetry or printed texts.",
     "No such laws existed; many colonies discouraged teaching enslaved people.",
     "Slavery continued in every colony in 1773.",
     ""
@@ -387,9 +387,9 @@
    "type": "multiple-choice",
    "prompt": "Which later development most directly continued the challenge to slavery reflected in the poem?",
    "choices": [
-    "The Proclamation of 1763",
-    "The Alien and Sedition Acts",
-    "The Three-Fifths Compromise",
+    "The Proclamation of 1763 on western settlement",
+    "The Alien and Sedition Acts passed by Congress in 1798",
+    "The Three-Fifths Compromise reached at the Constitutional Convention in 1787",
     "Gradual emancipation laws in several northern states after the Revolution"
    ],
    "correctAnswer": 3,
@@ -417,16 +417,16 @@
    "prompt": "According to the interpretation, why did Parliament impose new taxes after 1763?",
    "choices": [
     "To help pay the large debt from the Seven Years' War",
-    "To punish colonists for the Boston Tea Party",
-    "To fund French settlements",
-    "To pay for the Revolutionary War"
+    "To punish colonists for the Boston Tea Party in the harbor",
+    "To fund settlements in former French lands",
+    "To pay for the coming Revolutionary War"
    ],
    "correctAnswer": 0,
    "explanation": "The passage ties the taxes to Britain's war debt.",
    "choiceExplanations": [
     "",
     "The Tea Party came later, in 1773.",
-    "France had lost its North American colonies.",
+    "The passage ties the taxes to the war debt, not to former French lands.",
     "The Revolution came later."
    ],
    "sourceType": "original",
@@ -474,16 +474,16 @@
    "type": "multiple-choice",
    "prompt": "The passage's statement that colonists “had grown used to governing themselves through their own assemblies” best supports which claim?",
    "choices": [
-    "Long experience of self-government had given colonists a political identity distinct from Britain's",
+    "Long experience of self-government had given colonists a political identity apart from Britain's",
     "Parliament had always closely controlled colonial assemblies",
-    "Colonists wanted France to govern North America",
-    "Colonists had no tradition of representative government"
+    "Colonists wanted France to return and govern North America instead of Britain",
+    "Colonists had little tradition of representative government before the crisis of the 1760s"
    ],
    "correctAnswer": 0,
    "explanation": "Decades of governing through their own assemblies shaped how colonists saw their rights, so taxes from London felt like a threat to that tradition.",
    "choiceExplanations": [
     "",
-    "This describes salutary neglect in reverse; Parliament had loosely enforced its rules.",
+    "This reverses the situation; Parliament had loosely enforced its rules, a policy called salutary neglect.",
     "France had just been driven from North America.",
     "The passage says the opposite."
    ],
@@ -503,17 +503,17 @@
    "type": "multiple-choice",
    "prompt": "Which statement best describes how the author treats the British point of view?",
    "choices": [
-    "The author ignores Britain's position entirely",
+    "The author ignores Britain's position entirely and presents only the colonists' view",
     "The author claims the colonists had no tradition of self-government",
-    "The author argues that Parliament acted illegally",
-    "The author presents Parliament's expectation as reasonable while explaining why colonists resisted"
+    "The author argues that Parliament acted illegally by taxing the colonists without their consent",
+    "The author presents Parliament's expectation as reasonable while explaining colonial resistance"
    ],
    "correctAnswer": 3,
    "explanation": "Calling Parliament's expectation “reasonable” shows the author considers both sides.",
    "choiceExplanations": [
     "The British view is explicitly discussed.",
     "The passage says the colonists were used to governing themselves.",
-    "The author doesn't call it illegal.",
+    "The author calls Parliament's expectation reasonable, not illegal.",
     ""
    ],
    "sourceType": "original",
@@ -532,9 +532,9 @@
    "type": "multiple-choice",
    "prompt": "According to the interpretation, why did the Articles create a weak central government?",
    "choices": [
-    "France designed the Articles",
-    "The states wanted the national government to collect all taxes",
-    "Britain required it in the peace treaty",
+    "France designed the Articles to keep its American ally weak",
+    "The states wanted the national government to collect all of their taxes for them",
+    "Britain required a weak government in the 1783 peace treaty",
     "Americans feared a powerful government after fighting one in the Revolution"
    ],
    "correctAnswer": 3,
@@ -590,10 +590,10 @@
    "type": "multiple-choice",
    "prompt": "The author mentions the Northwest Ordinance in order to",
    "choices": [
-    "explain why slavery expanded",
+    "explain why slavery expanded into the western territories",
     "prove that the Articles gave Congress the power to tax",
     "show that the Confederation had real achievements",
-    "describe a British policy"
+    "describe a British policy on settlement west of the mountains"
    ],
    "correctAnswer": 2,
    "explanation": "“Yet the Confederation was not a complete failure” introduces the Ordinance as an accomplishment.",
@@ -601,7 +601,7 @@
     "The Ordinance banned slavery north of the Ohio.",
     "The passage says Congress could not tax.",
     "",
-    "It was an American law."
+    "It was an American law passed by Congress."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
@@ -619,9 +619,9 @@
    "type": "multiple-choice",
    "prompt": "Which statement best reflects continuity between the Revolution and the debates over the Constitution?",
    "choices": [
-    "Slavery was abolished by both documents",
-    "Americans consistently favored a strong central government",
-    "Fear of concentrated, distant power shaped both the Articles and Anti-Federalist opposition to the Constitution",
+    "Slavery was abolished by both the Articles and the Constitution",
+    "Americans consistently favored a strong central government from 1776 onward, as both documents show",
+    "Fear of distant, concentrated power shaped both the Articles and Anti-Federalist opposition",
     "The Constitution kept the Articles' ban on national taxation"
    ],
    "correctAnswer": 2,

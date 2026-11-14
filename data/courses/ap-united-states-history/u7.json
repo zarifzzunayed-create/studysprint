@@ -187,17 +187,17 @@
    "type": "multiple-choice",
    "prompt": "The author connects the deaths in the fire to",
    "choices": [
-    "the outbreak of World War I",
-    "the workers' earlier demands for safer working conditions",
-    "a natural disaster no one could prevent",
-    "the Great Depression"
+    "the outbreak of World War I in Europe",
+    "the workers' earlier demands for safer conditions",
+    "a natural disaster that no one could have prevented or foreseen",
+    "the hard times of the Great Depression"
    ],
    "correctAnswer": 1,
    "explanation": "He recalls their strike for “more safety precautions” and says the dead bodies “were the answer.”",
    "choiceExplanations": [
     "The war began in 1914.",
     "",
-    "He suggests the deaths followed from ignored demands.",
+    "He suggests the deaths followed from ignored demands, not chance.",
     "The Depression began in 1929."
    ],
    "sourceType": "original",
@@ -216,10 +216,10 @@
    "type": "multiple-choice",
    "prompt": "Accounts like this one most directly contributed to",
    "choices": [
-    "the annexation of Hawaii",
-    "the end of immigration from Europe",
+    "the annexation of Hawaii and other Pacific islands",
+    "the end of immigration from southern and eastern Europe",
     "new state laws on workplace safety and fire protection",
-    "the repeal of Prohibition"
+    "the repeal of Prohibition by constitutional amendment"
    ],
    "correctAnswer": 2,
    "explanation": "Public outrage after the fire led New York to pass major factory safety reforms.",
@@ -245,10 +245,10 @@
    "type": "multiple-choice",
    "prompt": "The excerpt best illustrates the methods of which group?",
    "choices": [
-    "Populist farmers demanding free silver",
+    "Populist farmers demanding free silver and railroad regulation",
     "Muckraking journalists who exposed social problems to build support for reform",
-    "New Deal planners designing work programs",
-    "Anti-imperialists opposing the Philippine war"
+    "New Deal planners designing federal work programs for the unemployed",
+    "Anti-imperialists who opposed the war in the Philippines and the taking of new colonies"
    ],
    "correctAnswer": 1,
    "explanation": "Vivid, firsthand reporting that stirred public outrage was a hallmark of Progressive Era journalism.",
@@ -274,10 +274,10 @@
    "type": "multiple-choice",
    "prompt": "Which later federal law most directly extended the kind of protection the shirtwaist workers had sought?",
    "choices": [
-    "The Sherman Antitrust Act",
-    "The Chinese Exclusion Act",
+    "The Sherman Antitrust Act, which outlawed monopolies and combinations in restraint of trade",
+    "The Chinese Exclusion Act, which barred most immigration from China",
     "The Fair Labor Standards Act of 1938, which set federal minimum wages and maximum hours",
-    "The Espionage Act"
+    "The Espionage Act, which punished interference with the war effort"
    ],
    "correctAnswer": 2,
    "explanation": "New Deal labor laws brought federal standards for working conditions that Progressive reformers had pursued in the states.",
@@ -303,10 +303,10 @@
    "type": "multiple-choice",
    "prompt": "Roosevelt's main purpose in the excerpt is to",
    "choices": [
-    "criticize the Supreme Court",
+    "criticize the Supreme Court for blocking his banking laws",
     "restore public confidence in the banking system",
-    "announce that the United States would enter World War II",
-    "end the gold standard immediately"
+    "announce that the United States would enter the war in Europe",
+    "end the gold standard immediately and print more money"
    ],
    "correctAnswer": 1,
    "explanation": "He says “the confidence of the people” is essential and urges listeners not to be stampeded by rumors.",
@@ -332,10 +332,10 @@
    "type": "multiple-choice",
    "prompt": "The excerpt was delivered in the context of",
    "choices": [
-    "the end of World War I",
-    "the Red Scare of 1919",
-    "the stock market boom of the 1920s",
-    "a wave of bank failures and a national bank holiday early in the Great Depression"
+    "the end of World War I and the return of soldiers to their jobs",
+    "the Red Scare of 1919 and the raids against suspected radicals",
+    "the stock market boom of the late 1920s and the rush to buy stocks on margin",
+    "a wave of bank failures and a national bank holiday early in the Depression"
    ],
    "correctAnswer": 3,
    "explanation": "Roosevelt spoke after closing the banks to stop panicked withdrawals, in March 1933.",
@@ -361,9 +361,9 @@
    "type": "multiple-choice",
    "prompt": "Which New Deal reform most directly aimed to prevent the kind of panic Roosevelt describes?",
    "choices": [
-    "The Social Security Act",
-    "The Agricultural Adjustment Act",
-    "The Civilian Conservation Corps",
+    "The Social Security Act's pensions for older Americans",
+    "The Agricultural Adjustment Act's payments to farmers",
+    "The Civilian Conservation Corps and its work camps",
     "Federal insurance of bank deposits through the FDIC"
    ],
    "correctAnswer": 3,
@@ -390,10 +390,10 @@
    "type": "multiple-choice",
    "prompt": "How did Roosevelt's use of the radio in this address reflect changes that began in the 1920s?",
    "choices": [
-    "He avoided addressing the public directly",
+    "He avoided addressing the public directly and spoke mainly to bankers",
     "He used a new mass medium to speak directly to Americans in their homes",
-    "He relied on newspapers because radio was not yet available",
-    "He used television to reach a national audience"
+    "He relied on newspapers because radio was not yet available in most homes",
+    "He used television to reach a national audience in their living rooms"
    ],
    "correctAnswer": 1,
    "explanation": "Radio, which spread rapidly in the 1920s, let Roosevelt create a national, personal connection with listeners.",
@@ -419,15 +419,15 @@
    "type": "multiple-choice",
    "prompt": "According to the interpretation, anti-imperialists argued that ruling the Philippines",
    "choices": [
-    "was necessary for national defense",
-    "was required by the treaty with Spain",
+    "was necessary to defend the nation's Pacific coast",
+    "was required by the terms of the peace treaty with Spain",
     "betrayed the principle of government by consent",
-    "would spread democracy quickly"
+    "would spread democracy quickly across Asia"
    ],
    "correctAnswer": 2,
    "explanation": "They said ruling without Filipinos' consent violated the Declaration of Independence.",
    "choiceExplanations": [
-    "That was an expansionist argument.",
+    "Defense was an expansionist argument.",
     "That's not their argument in the passage.",
     "",
     "Anti-imperialists rejected this."
@@ -448,10 +448,10 @@
    "type": "multiple-choice",
    "prompt": "Which expansionist argument is most closely associated with Alfred Thayer Mahan's ideas about sea power?",
    "choices": [
-    "The duty to end slavery abroad",
-    "The need to protect Native American lands",
+    "The duty to end slavery in other countries abroad",
+    "The need to protect Native American lands in the West",
     "The need for coaling stations for a modern navy",
-    "The need to stop European immigration"
+    "The need to stop immigration from southern and eastern Europe"
    ],
    "correctAnswer": 2,
    "explanation": "Mahan argued that naval power, supported by overseas bases, was key to national greatness.",
@@ -478,9 +478,9 @@
    "prompt": "The inclusion of Jane Addams among the anti-imperialists suggests that",
    "choices": [
     "some Progressive reformers opposed overseas expansion",
-    "all Progressives supported empire",
+    "all Progressives supported an overseas empire",
     "settlement-house workers ran the Philippine government",
-    "anti-imperialists were mainly military officers"
+    "anti-imperialists were mainly military officers who had served in Cuba"
    ],
    "correctAnswer": 0,
    "explanation": "Addams, founder of Hull House, was a leading Progressive who joined the Anti-Imperialist League.",
@@ -506,10 +506,10 @@
    "type": "multiple-choice",
    "prompt": "Which later debate is most similar to the one described in the passage?",
    "choices": [
-    "The debate over whether the United States should join the League of Nations after World War I",
-    "The debate over the Indian Removal Act",
-    "The debate over free silver in the 1890s",
-    "The debate over Prohibition"
+    "The debate over whether the United States should join the League of Nations after 1919",
+    "The debate over the Indian Removal Act and the forced removal of the Cherokee from Georgia",
+    "The debate over free silver in the 1890s between Bryan and the gold Democrats",
+    "The debate over Prohibition and the Eighteenth Amendment in the 1910s"
    ],
    "correctAnswer": 0,
    "explanation": "Both concerned how far the United States should commit itself abroad and what that meant for its principles.",
@@ -535,9 +535,9 @@
    "type": "multiple-choice",
    "prompt": "According to the interpretation, what effect did World War II have on unemployment?",
    "choices": [
-    "It ended employment for women",
-    "It had no effect",
-    "It increased unemployment",
+    "It ended employment for women in industry and offices",
+    "It had no lasting effect on how many people had jobs",
+    "It increased unemployment as factories shut down to switch over to war work",
     "It nearly eliminated unemployment as factories ran around the clock"
    ],
    "correctAnswer": 3,
@@ -565,16 +565,16 @@
    "prompt": "The “Double V” campaign described in the passage sought",
    "choices": [
     "victory over fascism abroad and over racism at home",
-    "victory in two elections",
-    "voting rights for women",
-    "two victories in Europe and Asia"
+    "victory for Black candidates in two national elections",
+    "voting rights for women in Southern states",
+    "two military victories, in Europe and in the Pacific"
    ],
    "correctAnswer": 0,
    "explanation": "The passage defines the campaign directly.",
    "choiceExplanations": [
     "",
     "It wasn't an electoral campaign.",
-    "Women had won the vote in 1920.",
+    "Women had won the vote nationally in 1920.",
     "Its second “V” was against racism at home."
    ],
    "sourceType": "original",
@@ -593,9 +593,9 @@
    "type": "multiple-choice",
    "prompt": "The incarceration of Japanese Americans described in the passage was authorized by",
    "choices": [
-    "the Sedition Act of 1918",
-    "the Treaty of Versailles",
-    "the Neutrality Acts of the 1930s",
+    "the Sedition Act of 1918 against wartime critics",
+    "the Treaty of Versailles after World War I",
+    "the Neutrality Acts that Congress passed in the 1930s",
     "Executive Order 9066, issued in 1942"
    ],
    "correctAnswer": 3,
@@ -623,16 +623,16 @@
    "prompt": "Which comparison between the World War I and World War II home fronts is best supported by the passage and your knowledge?",
    "choices": [
     "In both wars, African Americans moved to industrial cities for jobs, and the government limited some civil liberties",
-    "Only World War II saw migration to Northern cities",
-    "Civil liberties were fully protected in both wars",
-    "Neither war affected women's employment"
+    "Migration to Northern cities began in World War II, after decades in which African Americans had stayed in the South",
+    "Civil liberties were fully protected in both wars, because the courts struck down every wartime restriction",
+    "Neither war affected women's employment, since most factory jobs remained closed to them"
    ],
    "correctAnswer": 0,
    "explanation": "The Great Migration began during World War I and accelerated in World War II; the Espionage and Sedition Acts and Japanese American incarceration both restricted liberties.",
    "choiceExplanations": [
     "",
     "The Great Migration began during World War I.",
-    "Both wars saw serious restrictions.",
+    "Both wars saw serious restrictions, many upheld by the courts.",
     "Women's employment grew in both wars, especially World War II."
    ],
    "sourceType": "original",

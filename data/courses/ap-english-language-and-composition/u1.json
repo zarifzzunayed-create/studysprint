@@ -182,10 +182,10 @@
    "type": "multiple-choice",
    "prompt": "Who is the primary intended audience of the letter?",
    "choices": [
-    "Night-shift nurses",
-    "Library staff members",
+    "Nurses who work night shifts in the city",
+    "The staff who work at the branch libraries",
     "Residents who visit the library on Sundays",
-    "The members of the city council"
+    "The members of the Riverside city council"
    ],
    "correctAnswer": 3,
    "explanation": "The letter opens by addressing the council directly and asks it to act in a coming vote.",
@@ -211,18 +211,18 @@
    "type": "multiple-choice",
    "prompt": "Which statement best expresses the writer's main claim?",
    "choices": [
-    "The council should restore Sunday hours at the branch libraries because many residents can visit only then",
-    "The library budget is too large",
-    "Sunday hours were cut two years ago",
-    "Libraries are more important than parks"
+    "The council should restore Sunday library hours because many residents can visit only then",
+    "The library budget is too large and should be cut further in next Tuesday's vote",
+    "Sunday hours were cut two years ago, and since then they have hardly been missed by anyone",
+    "Libraries deserve more city money than parks and pools do"
    ],
    "correctAnswer": 0,
    "explanation": "Sentence (1) asks the council to restore Sunday hours, and the rest of the letter gives reasons.",
    "choiceExplanations": [
     "",
-    "The writer accepts that the budget is tight and argues the cost is small.",
-    "That's a fact the writer reports, not the arguable position.",
-    "The writer never ranks libraries above parks."
+    "The writer argues that restoring the hours would cost little; she does not call for cuts.",
+    "The cut is a fact the writer reports, and she argues the hours are badly missed.",
+    "The writer never compares libraries with parks or pools."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -240,15 +240,15 @@
    "type": "multiple-choice",
    "prompt": "The statistic in paragraph 2 (more than 31,000 Sunday visits) mainly serves to",
    "choices": [
-    "show that weekday visits have declined",
+    "show that weekday visits have declined as Sunday visits grew",
     "show that Sunday hours met a real and widespread need",
-    "explain why the hours were cut",
+    "explain why the council chose to cut the hours",
     "prove that the libraries should be open every day"
    ],
    "correctAnswer": 1,
    "explanation": "The number, together with the note about weekday work, gives evidence that many people relied on Sunday hours.",
    "choiceExplanations": [
-    "Weekday visits aren't discussed.",
+    "Weekday visits aren't discussed, and the statistic is about Sunday visits.",
     "",
     "The writer doesn't explain the reason for the cut.",
     "The writer asks only for Sunday hours, not daily hours."
@@ -269,10 +269,10 @@
    "type": "multiple-choice",
    "prompt": "How does the reference to next Tuesday's vote in sentence (1) function in the letter?",
    "choices": [
-    "It shifts the audience from the council to the public",
-    "It provides evidence that Sunday hours are popular",
-    "It identifies the exigence that makes the request urgent and gives the council a specific moment to act",
-    "It shows the writer's anger at the council"
+    "It shifts the letter's audience from the council to the general public and the press",
+    "It provides evidence that Sunday hours were popular with the residents who worked on weekdays",
+    "It names the exigence that makes the request urgent and gives the council a moment to act",
+    "It shows the writer's anger at the council for its earlier decision"
    ],
    "correctAnswer": 2,
    "explanation": "The upcoming vote is the occasion that prompts the letter and defines when the council can grant the request.",
@@ -280,7 +280,7 @@
     "The letter keeps addressing the council.",
     "The vote is the occasion, not evidence of demand.",
     "",
-    "The tone of the letter is respectful, not angry."
+    "The tone of the letter is respectful, not angry; the vote is mentioned as the occasion."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -298,18 +298,18 @@
    "type": "multiple-choice",
    "prompt": "Which best describes the primary purpose of the passage?",
    "choices": [
-    "To criticize residents who drive to work",
+    "To criticize residents who drive to work instead of taking buses",
     "To persuade general readers that cities should plant shade trees",
     "To instruct city workers in how to water young trees",
-    "To compare oak trees with other species"
+    "To compare oak trees with other species of street trees"
    ],
    "correctAnswer": 1,
    "explanation": "The passage explains the benefits of shade and ends by weighing costs in favor of planting.",
    "choiceExplanations": [
-    "The passage doesn't criticize drivers.",
+    "The passage doesn't criticize drivers or discuss how people commute.",
     "",
     "Watering is mentioned only as a cost.",
-    "The oak is an example, not the subject of a comparison."
+    "The oak is a single example; no species are compared."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -327,9 +327,9 @@
    "type": "multiple-choice",
    "prompt": "Which detail most directly supports the claim that trees lower temperatures?",
    "choices": [
-    "The statement that young trees need water",
+    "The statement in paragraph 4 that young trees need water and care for several years",
     "The reference to older adults at the bus stop",
-    "The description of a July afternoon",
+    "The opening description of standing outside on a July afternoon",
     "Measurements showing that shaded pavement and the air under a canopy are cooler"
    ],
    "correctAnswer": 3,
@@ -358,16 +358,16 @@
    "choices": [
     "make the benefit concrete by showing who suffers most without shade",
     "introduce a new claim about public transportation",
-    "concede that trees are expensive",
-    "provide statistical evidence about heat"
+    "concede that planting trees is expensive for cities with tight budgets",
+    "provide statistical evidence about how hot bus stops get in the afternoon"
    ],
    "correctAnswer": 0,
    "explanation": "The scene connects the general claim to specific, vulnerable people, so readers see why shade matters.",
    "choiceExplanations": [
     "",
     "The passage doesn't argue about transportation policy.",
-    "The concession comes in paragraph 4.",
-    "The paragraph has no statistics."
+    "The paragraph shows who suffers; the concession about cost comes in paragraph 4.",
+    "The paragraph has no statistics; it describes a scene."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -387,8 +387,8 @@
    "choices": [
     "address a likely objection about cost before reaffirming the claim",
     "suggest that cities should plant only mature trees",
-    "change the passage's purpose from persuading to informing",
-    "undermine the passage's earlier evidence"
+    "change the passage's purpose from persuading readers to simply informing them",
+    "undermine the passage's earlier evidence about cooling"
    ],
    "correctAnswer": 0,
    "explanation": "By granting that the cost is real and then stressing decades of benefit, the writer answers budget-minded readers.",
@@ -414,18 +414,18 @@
    "type": "multiple-choice",
    "prompt": "The writer wants to replace sentence (1) with a sentence that states the paragraph's claim more clearly. Which choice best does this?",
    "choices": [
-    "Our school starts at 7:30 every morning.",
-    "Our school should move its start time to 8:45 so that students can get the sleep they need.",
+    "Our school starts at 7:30 every morning, earlier than most nearby schools.",
+    "Our school should start at 8:45 so students can get the sleep they need.",
     "Some students drink coffee before school.",
-    "Sleep is an interesting topic for scientists."
+    "Sleep is an interesting topic that many scientists have studied for years."
    ],
    "correctAnswer": 1,
    "explanation": "This choice states an arguable position and connects it to the paragraph's main reason.",
    "choiceExplanations": [
-    "This is a fact, not an arguable claim.",
+    "This is a fact about the schedule, not an arguable claim.",
     "",
     "This is a detail, not the paragraph's claim.",
-    "This is off-topic and makes no argument."
+    "This is off-topic and makes no argument about the school's start time."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -443,15 +443,15 @@
    "type": "multiple-choice",
    "prompt": "Which of these, added after sentence (3), would best strengthen the evidence for the paragraph's claim?",
    "choices": [
-    "Attendance is recorded by teachers each morning.",
+    "In those districts, attendance is recorded by each teacher at the very start of first period.",
     "Some districts have kept their original start times.",
-    "In one of those districts, first-period tardiness fell by nearly a quarter in the year after the change.",
-    "Many students also like to sleep late on weekends."
+    "In one of those districts, first-period tardiness fell by nearly a quarter after the change.",
+    "Many students at our school also like to sleep late on weekends and holidays."
    ],
    "correctAnswer": 2,
    "explanation": "A specific, relevant result makes sentence (3)'s evidence more concrete and persuasive.",
    "choiceExplanations": [
-    "This explains a procedure but provides no support.",
+    "This explains how attendance is taken but gives no evidence that the change helped.",
     "This weakens the claim without addressing it.",
     "",
     "Weekend habits don't show that a later start helps."
@@ -474,8 +474,8 @@
    "choices": [
     "Keep it, because it gives the paragraph a strong conclusion",
     "Keep it, because it adds a second reason to change the schedule",
-    "Delete it, because it repeats the claim in sentence (6)",
-    "Delete it, because it introduces a topic unrelated to the paragraph's claim"
+    "Delete it, because it repeats the claim made in sentence (6)",
+    "Delete it, because it raises a topic unrelated to the claim"
    ],
    "correctAnswer": 3,
    "explanation": "Cafeteria food has nothing to do with start times, so the sentence breaks the paragraph's focus.",
@@ -501,15 +501,15 @@
    "type": "multiple-choice",
    "prompt": "The writer wants sentence (4) to help the argument rather than simply mention a concern. Which revision best does this?",
    "choices": [
-    "Sports and jobs are a big part of students' lives.",
-    "Parents should not worry about schedules.",
-    "Some parents worry about sports and job schedules, but districts that changed found that practices and shifts could start slightly later too.",
+    "Sports and after-school jobs are a big part of many students' lives, and they take up a great deal of time each week.",
+    "Parents should not worry about schedules, because students will adjust to a later start on their own.",
+    "Some parents worry about sports and jobs, but districts that changed found practices and shifts could start later too.",
     "Some parents worry about schedules for sports and jobs, which are very important."
    ],
    "correctAnswer": 2,
    "explanation": "This revision acknowledges the objection and answers it with evidence, so it supports the claim.",
    "choiceExplanations": [
-    "This drifts from the concern and from the claim.",
+    "This only restates how much time sports and jobs take; it gives no response to the concern.",
     "This dismisses the concern without a reason.",
     "",
     "This repeats the concern and even strengthens it, without a response."
@@ -559,15 +559,15 @@
    "type": "multiple-choice",
    "prompt": "The writer is addressing the town parks board. Which added detail would be most persuasive to that audience?",
    "choices": [
-    "The writer's grandmother kept a large garden.",
+    "The writer's grandmother kept a large vegetable garden behind her house for many years.",
     "Tomatoes are the easiest vegetable to grow.",
     "The science club will maintain the beds at no cost to the parks budget.",
-    "Gardening is a popular hobby across the country."
+    "Gardening is a popular and growing hobby in towns across the country."
    ],
    "correctAnswer": 2,
    "explanation": "A board deciding how to use a parks property will care about cost and maintenance.",
    "choiceExplanations": [
-    "A personal memory is less relevant to a public decision.",
+    "A family memory is less relevant to a public decision about this lot.",
     "This is true but irrelevant to the board's decision.",
     "",
     "National popularity doesn't address this lot or this board."
@@ -617,16 +617,16 @@
    "type": "multiple-choice",
    "prompt": "The writer wants to replace sentence (6) with a conclusion that connects the evidence to the claim. Which choice best does this?",
    "choices": [
-    "In conclusion, gardens are nice.",
-    "The lot has been empty for six years.",
+    "In conclusion, gardens are nice places, and many people in towns like ours enjoy spending time in them on weekends.",
+    "The lot on Maple Street has been empty for six long years, and it is now time for the parks board to make a final decision about it.",
     "A garden would be very, very good.",
-    "Because volunteers are ready and the produce would feed neighbors in need, turning the lot into a garden would put unused land to work for the whole community."
+    "Because volunteers are ready and the produce would feed neighbors in need, a garden would put unused land to work for everyone."
    ],
    "correctAnswer": 3,
    "explanation": "This choice gathers the paragraph's evidence (volunteers, produce for the pantry) and links it back to the claim.",
    "choiceExplanations": [
-    "This is vague and doesn't connect to the evidence.",
-    "This repeats background from sentence (1).",
+    "This is vague and doesn't connect to the evidence about volunteers or the pantry.",
+    "This repeats background from sentence (1) and doesn't connect the evidence to the claim.",
     "Adding intensifiers doesn't explain anything.",
     ""
    ],

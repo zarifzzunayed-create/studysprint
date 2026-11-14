@@ -80,8 +80,9 @@ const titleOf = id => d.passages.find(p => p.id === id).title;
   await p.click('#v-test button:has-text("Save and exit")');
   T.ok(!p.errs.length, 'no page errors' + (p.errs.length ? ': ' + p.errs.join(' | ') : ''));
 
-  /* ---- answer length gives nothing away in the English Literature and World History banks ---- */
-  for (const [cid, label] of [['ap-english-literature-and-composition', 'English Literature'], ['ap-world-history', 'World History']]) {
+  /* ---- answer length gives nothing away in the passage-based banks ---- */
+  for (const [cid, label] of [['ap-english-language-and-composition', 'English Language'], ['ap-united-states-history', 'U.S. History'],
+                              ['ap-english-literature-and-composition', 'English Literature'], ['ap-world-history', 'World History']]) {
     let n = 0, longest = 0;
     for (const f of fs.readdirSync(path.join(T.ROOT, 'data', 'courses', cid)).filter(x => /^u\d+\.json$/.test(x))) {
       for (const q of JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', cid, f))).questions) {

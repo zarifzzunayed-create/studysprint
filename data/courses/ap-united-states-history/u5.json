@@ -183,7 +183,7 @@
    "type": "multiple-choice",
    "prompt": "In the excerpt, Lincoln states that his main goal in the war is to",
    "choices": [
-    "abolish slavery immediately everywhere",
+    "abolish slavery everywhere at once",
     "protect slavery in the South",
     "end the war on the Confederacy's terms",
     "preserve the Union"
@@ -212,10 +212,10 @@
    "type": "multiple-choice",
    "prompt": "Lincoln distinguishes between his “official duty” and his “personal wish.” His personal wish is that",
    "choices": [
-    "the Union should be dissolved",
-    "slavery should expand westward",
+    "the Union should be peacefully dissolved",
+    "slavery should be allowed to expand westward",
     "all people everywhere could be free",
-    "the war should end immediately at any cost"
+    "the war should end at once, at any cost"
    ],
    "correctAnswer": 2,
    "explanation": "He restates his “oft-expressed personal wish that all men, everywhere, could be free.”",
@@ -241,10 +241,10 @@
    "type": "multiple-choice",
    "prompt": "About one month after this letter, Lincoln issued the preliminary Emancipation Proclamation. Which statement best explains how it fit the position in the letter?",
    "choices": [
-    "It freed enslaved people in the border states loyal to the Union",
+    "It freed enslaved people in the border states that had stayed loyal to the Union in 1861",
     "It was presented as a war measure to help save the Union by weakening the Confederacy",
-    "It was required by a Supreme Court ruling",
-    "It abandoned the goal of preserving the Union"
+    "It was required by a Supreme Court ruling on the war powers of the president",
+    "It abandoned the goal of preserving the Union in favor of ending slavery"
    ],
    "correctAnswer": 1,
    "explanation": "Lincoln framed emancipation in Confederate-held areas as a military necessity, consistent with saving the Union.",
@@ -270,17 +270,17 @@
    "type": "multiple-choice",
    "prompt": "Lincoln's careful position in the letter is best explained by his need to",
    "choices": [
-    "persuade Britain to join the Confederacy",
-    "satisfy the Supreme Court's Dred Scott ruling",
-    "win Southern votes in the 1860 election",
-    "keep the loyal slaveholding border states and Northern moderates supporting the war"
+    "persuade Britain to recognize and join the Confederacy in the war",
+    "satisfy the Supreme Court, which had ruled in Dred Scott against Congress's powers",
+    "win Southern votes in the coming 1860 presidential election",
+    "keep the loyal slaveholding border states and Northern moderates behind the war"
    ],
    "correctAnswer": 3,
    "explanation": "Kentucky, Maryland, and Missouri were vital; announcing a war against slavery too early could have pushed them toward the Confederacy.",
    "choiceExplanations": [
     "He wanted Britain to stay out of the war.",
-    "He wasn't trying to satisfy Dred Scott.",
-    "The 1860 election was over.",
+    "He wasn't trying to satisfy the Court's Dred Scott ruling.",
+    "The 1860 election was already over.",
     ""
    ],
    "sourceType": "original",
@@ -299,16 +299,16 @@
    "type": "multiple-choice",
    "prompt": "According to Colby, his attackers were trying to",
    "choices": [
-    "force him to move to the North",
-    "collect a debt",
+    "force him to leave Georgia and move to the North",
+    "collect a debt he owed to a local landowner",
     "stop him from supporting the Republican (“Radical”) ticket",
-    "recruit him into the Confederate army"
+    "recruit him into the Confederate army to fight for the South"
    ],
    "correctAnswer": 2,
    "explanation": "They asked whether he would vote “another damned Radical ticket” and attacked him for influencing other voters.",
    "choiceExplanations": [
     "They wanted him to stop his political activity, not move.",
-    "Nothing suggests a debt.",
+    "Nothing in the testimony suggests a debt.",
     "",
     "The war had ended in 1865."
    ],
@@ -328,10 +328,10 @@
    "type": "multiple-choice",
    "prompt": "Colby's testimony is most useful as evidence of",
    "choices": [
-    "economic growth in Georgia",
+    "economic growth in Georgia after the end of the Civil War",
     "violence used to keep Black citizens from voting during Reconstruction",
     "the success of the Freedmen's Bureau in protecting voters",
-    "Northern opposition to Reconstruction"
+    "Northern opposition to the federal government's Reconstruction policies"
    ],
    "correctAnswer": 1,
    "explanation": "His account documents Klan violence aimed at Black political participation.",
@@ -357,15 +357,15 @@
    "type": "multiple-choice",
    "prompt": "Colby's ability to serve in the Georgia legislature in 1868 was made possible in part by",
    "choices": [
-    "the Black Codes passed by Southern states",
-    "Reconstruction laws and amendments that extended citizenship and voting rights to Black men",
-    "the Dred Scott decision",
-    "the Compromise of 1850"
+    "the Black Codes passed by Southern states in 1865 to define and limit the rights of freedpeople",
+    "Reconstruction laws and amendments extending citizenship and voting rights to Black men",
+    "the Dred Scott decision of the Supreme Court in 1857",
+    "the Compromise of 1850 on slavery in the territories"
    ],
    "correctAnswer": 1,
    "explanation": "Congressional Reconstruction and the Fourteenth Amendment (and soon the Fifteenth) opened politics to Black men.",
    "choiceExplanations": [
-    "Black Codes restricted freed people.",
+    "Black Codes restricted freedpeople's rights.",
     "",
     "Dred Scott denied Black citizenship.",
     "That compromise concerned slavery in new territories."
@@ -386,10 +386,10 @@
    "type": "multiple-choice",
    "prompt": "Which development of the 1870s most directly ended the federal protection that testimony like Colby's sought?",
    "choices": [
-    "The Homestead Act",
-    "The Wilmot Proviso",
-    "The Kansas–Nebraska Act",
-    "The Compromise of 1877, after which federal troops were withdrawn from the South"
+    "The Homestead Act, which gave western land to settlers",
+    "The Wilmot Proviso on the Mexican Cession",
+    "The Kansas–Nebraska Act, which ended the Missouri Compromise line",
+    "The Compromise of 1877, after which federal troops left the South"
    ],
    "correctAnswer": 3,
    "explanation": "The deal that settled the disputed 1876 election ended military Reconstruction.",
@@ -418,7 +418,7 @@
     "As natural and divinely ordained",
     "As a plan to free enslaved people",
     "As a policy forced on them by Mexico",
-    "As a temporary mistake"
+    "As a temporary mistake they would undo"
    ],
    "correctAnswer": 0,
    "explanation": "The first sentence describes expansion as “natural and even divinely ordained,” the idea of Manifest Destiny.",
@@ -444,18 +444,18 @@
    "type": "multiple-choice",
    "prompt": "The territory gained “between 1845 and 1848” included which of the following?",
    "choices": [
-    "The Louisiana Purchase",
+    "The Louisiana Purchase and the lands just west of the Mississippi River",
     "Texas, Oregon south of the 49th parallel, and the Mexican Cession",
-    "Florida",
-    "Alaska"
+    "Florida and the Gulf Coast lands bought from Spain",
+    "Alaska and the islands bought from Russia"
    ],
    "correctAnswer": 1,
    "explanation": "Texas (1845), Oregon (1846), and the Mexican Cession (1848) were all added in those years.",
    "choiceExplanations": [
     "That was in 1803.",
     "",
-    "Florida was acquired in 1819.",
-    "Alaska was purchased in 1867."
+    "Florida was acquired from Spain in 1819.",
+    "Alaska was purchased from Russia in 1867."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
@@ -473,10 +473,10 @@
    "type": "multiple-choice",
    "prompt": "Which proposal most directly raised the question the author says “no amount of destiny could answer”?",
    "choices": [
-    "The Wilmot Proviso, which would have banned slavery in land taken from Mexico",
-    "The Homestead Act",
+    "The Wilmot Proviso, which would have banned slavery in land won from Mexico",
+    "The Homestead Act, signed into law in 1862",
     "The Monroe Doctrine",
-    "The Treaty of Paris (1783)"
+    "The Treaty of Paris (1783), which set the western border at the Mississippi"
    ],
    "correctAnswer": 0,
    "explanation": "The proviso put slavery in the new territories at the center of national politics.",
@@ -502,16 +502,16 @@
    "type": "multiple-choice",
    "prompt": "The author mentions Lincoln's opposition to the war in order to",
    "choices": [
-    "prove that Lincoln supported slavery",
-    "explain why Mexico won the war",
-    "show that Congress approved every war",
+    "prove that Lincoln supported the spread of slavery into the West",
+    "explain why Mexico won the war and kept most of its northern lands",
+    "show that Congress approved every war the nation fought in the 1840s without debate",
     "show that expansion was contested at the time, not universally accepted"
    ],
    "correctAnswer": 3,
    "explanation": "Pointing to contemporary opponents challenges the idea that expansion was natural and agreed upon.",
    "choiceExplanations": [
-    "Lincoln's opposition says nothing in favor of slavery.",
-    "Mexico lost the war.",
+    "Lincoln's opposition to the war says nothing in favor of slavery.",
+    "Mexico lost the war and much of its northern territory.",
     "The point is disagreement, not unanimity.",
     ""
    ],
@@ -531,10 +531,10 @@
    "type": "multiple-choice",
    "prompt": "According to the interpretation, what was the main effect of the Fugitive Slave Act?",
    "choices": [
-    "It banned slavery in the territories",
-    "It ended the slavery debate",
+    "It banned slavery in the territories gained from Mexico",
+    "It ended the slavery debate for the rest of the decade",
     "It turned many Northern moderates against the South",
-    "It made Kansas a free state"
+    "It made Kansas a free state before settlers arrived"
    ],
    "correctAnswer": 2,
    "explanation": "The passage says it brought slavery into Northern communities and turned moderates against the South.",
@@ -560,10 +560,10 @@
    "type": "multiple-choice",
    "prompt": "The Kansas–Nebraska Act “undid the Missouri Compromise line” by",
    "choices": [
-    "returning Kansas to Mexico",
-    "admitting Kansas as a slave state immediately",
+    "returning the Kansas and Nebraska lands to Mexico under a new treaty",
+    "admitting Kansas as a slave state immediately, without a vote by the settlers living there",
     "letting settlers vote on whether to allow slavery in territories north of 36°30′",
-    "banning slavery in all territories"
+    "banning slavery in all territories north of the Missouri Compromise line"
    ],
    "correctAnswer": 2,
    "explanation": "Popular sovereignty replaced the line that had banned slavery north of 36°30′ in the Louisiana Purchase lands.",
@@ -590,9 +590,9 @@
    "prompt": "The Compromise of 1850 was needed mainly because of",
    "choices": [
     "disputes over slavery in lands acquired from Mexico, including California",
-    "the end of the Civil War",
-    "a dispute with Britain over Canada",
-    "a crisis over the national bank"
+    "the end of the Civil War and the problem of readmitting the Southern states",
+    "a dispute with Britain over the border between Canada and Oregon",
+    "a crisis over the national bank and the money supply"
    ],
    "correctAnswer": 0,
    "explanation": "California's request to join as a free state and the status of the Mexican Cession forced the compromise.",
@@ -618,10 +618,10 @@
    "type": "multiple-choice",
    "prompt": "Which statement best describes the line of reasoning in the passage?",
    "choices": [
-    "Each attempt to settle the slavery question in the 1850s instead deepened sectional conflict",
-    "Kansas settlers avoided violence",
+    "Each attempt to settle the slavery question in the 1850s deepened sectional conflict",
+    "Kansas settlers avoided violence by accepting the vote on slavery",
     "The Supreme Court resolved the slavery question peacefully",
-    "The 1850s were a decade of growing national unity"
+    "The 1850s were a decade of growing national unity on the question of slavery's expansion"
    ],
    "correctAnswer": 0,
    "explanation": "The passage traces how the 1850 Compromise, the Kansas–Nebraska Act, and Dred Scott each left less middle ground.",

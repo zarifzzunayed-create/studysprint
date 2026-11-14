@@ -181,10 +181,10 @@
    "type": "multiple-choice",
    "prompt": "Paragraph 1 repeats the pattern “You … , then …” several times. What is the main effect?",
    "choices": [
-    "It builds a rhythm that emphasizes the many obstacles the graduates overcame",
-    "It introduces statistics about the graduates",
-    "It confuses the audience about the order of events",
-    "It shows that the speaker disapproves of the graduates"
+    "It builds a rhythm that stresses the many obstacles the graduates overcame",
+    "It introduces statistics about how many of the graduates worked while studying",
+    "It confuses the audience about the order in which events happened",
+    "It shows that the speaker disapproves of the graduates' slow progress"
    ],
    "correctAnswer": 0,
    "explanation": "The parallel sentences pile up examples of the graduates' persistence.",
@@ -211,9 +211,9 @@
    "prompt": "The comparisons in paragraph 2 (budgeting an hour “like a paycheck,” a deadline “like a shift”) are chosen mainly because",
    "choices": [
     "they draw on the working lives many in the audience share",
-    "they show that the audience should quit their jobs",
-    "they describe the speaker's childhood",
-    "they come from scientific research"
+    "they show that the audience should quit their jobs to study full time",
+    "they describe the speaker's own childhood and first jobs",
+    "they come from scientific research on how adults manage time"
    ],
    "correctAnswer": 0,
    "explanation": "The speaker has just said many graduates work; comparisons from work connect to their experience.",
@@ -221,7 +221,7 @@
     "",
     "They praise the skills work taught.",
     "They describe the audience, not the speaker.",
-    "They aren't research-based."
+    "They are everyday comparisons, not research."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -239,10 +239,10 @@
    "type": "multiple-choice",
    "prompt": "What is the effect of the short sentences “They are mistaken.” and “Tell them.”?",
    "choices": [
-    "They summarize statistics",
+    "They summarize statistics about how the graduates succeeded",
     "They deliver the speaker's key judgments with emphasis",
-    "They show the speaker is unsure",
-    "They change the subject"
+    "They show that the speaker is unsure of what to say next",
+    "They change the subject from the graduates to the speaker"
    ],
    "correctAnswer": 1,
    "explanation": "After longer sentences, the short ones land as firm, memorable statements.",
@@ -268,10 +268,10 @@
    "type": "multiple-choice",
    "prompt": "How does the final sentence connect the speech's choices to its purpose?",
    "choices": [
-    "It shifts the audience to the graduates' employers",
-    "It contradicts paragraph 2",
-    "It transforms “the long way,” first presented as a hardship, into something that can help others, giving the graduates a role to play",
-    "It suggests the long way should be avoided"
+    "It shifts the speech's audience from the graduates to their employers and the coworkers they see at their jobs",
+    "It contradicts paragraph 2's claim that the long way taught the graduates valuable skills",
+    "It turns “the long way,” first presented as a hardship, into something that can help others, giving graduates a role",
+    "It suggests that the long way should be avoided by the people who ask the graduates for advice"
    ],
    "correctAnswer": 2,
    "explanation": "The repeated phrase gains a new meaning, ending with a call to action that suits a graduation audience.",
@@ -297,10 +297,10 @@
    "type": "multiple-choice",
    "prompt": "In paragraph 1, why does the writer mention being a hydrologist who has measured groundwater for fifteen years?",
    "choices": [
-    "To tell a personal story unrelated to the argument",
+    "To tell a personal story about the writer's career that is unrelated to the argument",
     "To establish expertise and credibility with the committee",
-    "To ask for a job",
-    "To criticize the committee"
+    "To ask the committee for a job running the study",
+    "To criticize the committee for ignoring groundwater data"
    ],
    "correctAnswer": 1,
    "explanation": "Stating qualifications up front makes the data more trustworthy to legislators.",
@@ -308,7 +308,7 @@
     "The credentials support the argument.",
     "",
     "The letter asks for a study, not a job.",
-    "The tone is respectful."
+    "The tone is respectful, not critical."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -326,18 +326,18 @@
    "type": "multiple-choice",
    "prompt": "Why does the writer compare the groundwater to a household budget in paragraph 2?",
    "choices": [
-    "To argue that households use too much water",
+    "To argue that households in Harlan County use too much water each year",
     "To make a technical trend easy for non-scientist legislators to grasp",
-    "To show off technical vocabulary",
-    "To change the topic to taxes"
+    "To show off technical vocabulary about aquifers and recharge rates",
+    "To change the topic to the county's taxes and spending"
    ],
    "correctAnswer": 1,
    "explanation": "A familiar comparison translates the data into terms the audience already understands.",
    "choiceExplanations": [
-    "The comparison is about the aquifer as a whole.",
+    "The comparison is about the county's groundwater as a whole.",
     "",
     "The comparison avoids technical vocabulary.",
-    "Taxes aren't discussed."
+    "Taxes and spending aren't discussed; the budget is a comparison."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -355,7 +355,7 @@
    "type": "multiple-choice",
    "prompt": "Which best describes the writer's tone in paragraph 3?",
    "choices": [
-    "Despairing",
+    "Despairing and hopeless",
     "Playful and joking",
     "Angry and accusing",
     "Respectful and measured"
@@ -384,10 +384,10 @@
    "type": "multiple-choice",
    "prompt": "In paragraph 3, the writer admits the data “do not settle every question.” How does this choice likely affect the committee's view of the writer?",
    "choices": [
-    "It makes the writer seem uninformed",
-    "It shows the writer opposes the study",
-    "It makes the writer seem honest and careful, which strengthens the request for caution",
-    "It contradicts the data in paragraph 1"
+    "It makes the writer seem uninformed about the groundwater data",
+    "It shows that the writer opposes the study and favors approving new pumping permits",
+    "It makes the writer seem honest and careful, which strengthens the request",
+    "It contradicts the data on falling water levels presented in paragraph 1"
    ],
    "correctAnswer": 2,
    "explanation": "Acknowledging the data's limits matches a scientist's careful persona and fits a request for more study.",
@@ -413,15 +413,15 @@
    "type": "multiple-choice",
    "prompt": "Sentence (2) uses a comparison that is poorly suited to sixth graders. Why?",
    "choices": [
-    "It is too short",
-    "It uses a question",
+    "It is too short to explain what joining a club involves",
+    "It uses a question the sixth graders cannot answer yet",
     "It relies on financial terms most sixth graders don't know",
-    "It mentions robotics"
+    "It mentions robotics, which just some of the sixth graders like"
    ],
    "correctAnswer": 2,
    "explanation": "“Diversified portfolio of extracurricular assets” assumes knowledge of investing.",
    "choiceExplanations": [
-    "Length isn't the problem.",
+    "Length isn't the problem; the vocabulary is.",
     "It isn't a question.",
     "",
     "It doesn't mention robotics."
@@ -442,9 +442,9 @@
    "type": "multiple-choice",
    "prompt": "Which replacement for sentence (2) best suits the audience?",
    "choices": [
-    "Joining a club is like finding a lunch table where everyone already likes the same things you do.",
-    "Joining a club is a decision with numerous ramifications.",
-    "Joining a club is a strategic investment in human capital.",
+    "Joining a club is like finding a lunch table where everyone likes the same things you do.",
+    "Joining a club is a decision with numerous ramifications for your social and academic future.",
+    "Joining a club is a strategic investment in human capital that pays dividends for years.",
     "Clubs exist."
    ],
    "correctAnswer": 0,
@@ -452,7 +452,7 @@
    "choiceExplanations": [
     "",
     "This is vague and formal.",
-    "This is even more abstract.",
+    "This is even more abstract and financial.",
     "This offers no comparison."
    ],
    "sourceType": "original",
@@ -471,18 +471,18 @@
    "type": "multiple-choice",
    "prompt": "The writer wants to combine sentences (3) and (4) to show that both benefits matter. Which is best?",
    "choices": [
-    "You meet people, which you won't learn in class.",
+    "You meet people who like what you like, which is something you won't learn in any of your classes.",
     "You meet people who like what you like, and you learn skills you won't learn in class.",
-    "You meet people who like what you like you learn skills.",
-    "Meeting people who like what you like, skills."
+    "You meet people who like what you like you learn skills you won't learn in class.",
+    "Meeting people who like what you like, and skills you won't learn in class."
    ],
    "correctAnswer": 1,
    "explanation": "“And” joins two equally important benefits in a clear, grammatical sentence.",
    "choiceExplanations": [
-    "This changes the meaning illogically.",
+    "This illogically says that meeting people is something learned in class.",
     "",
-    "This is a run-on.",
-    "This is a fragment."
+    "This is a run-on sentence.",
+    "This is a fragment with no main verb."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -500,16 +500,16 @@
    "type": "multiple-choice",
    "prompt": "Sentence (5) ends the paragraph abruptly. Which revision would best make the speaker seem relatable to sixth graders while supporting the point?",
    "choices": [
-    "Robots are machines.",
-    "My first club was the robotics team, which won several regional competitions under my leadership.",
+    "Robots are machines that many students enjoy building in clubs after school.",
+    "My first club was the robotics team, which won several regional competitions while I served as its captain and leader.",
     "My first club was the robotics team.",
-    "My first club was the robotics team, and on the first day I didn't know anyone; by spring, those were the people I ate lunch with."
+    "My first club was the robotics team; on the first day I knew no one, and by spring those were the people I ate lunch with."
    ],
    "correctAnswer": 3,
    "explanation": "Sharing the same nervousness the audience feels makes the speaker relatable and illustrates the benefit.",
    "choiceExplanations": [
     "This is irrelevant.",
-    "Boasting about leadership distances the speaker from nervous sixth graders.",
+    "Boasting about being captain distances the speaker from nervous sixth graders.",
     "This is unchanged.",
     ""
    ],
@@ -530,9 +530,9 @@
    "prompt": "How is the writer likely to be perceived because of sentences (1) and (2)?",
    "choices": [
     "As too informal and accusatory for an email to a city official",
-    "As respectful and formal",
-    "As neutral",
-    "As an expert in sports facilities"
+    "As respectful and formal, which suits a city official",
+    "As neutral and objective about the courts",
+    "As an expert in building and maintaining public sports facilities"
    ],
    "correctAnswer": 0,
    "explanation": "“Hey!” and “nobody in charge cares” may make the director defensive.",
@@ -558,10 +558,10 @@
    "type": "multiple-choice",
    "prompt": "Which revision of sentence (2) best suits the audience while keeping the writer's concern?",
    "choices": [
-    "Nobody cares about the courts except us.",
-    "The courts are, like, kind of bad.",
+    "Nobody at the parks department cares about the Lincoln Park courts except our team.",
+    "The courts at Lincoln Park are, like, kind of bad and stuff.",
     "I am writing about the basketball courts at Lincoln Park, which need repairs.",
-    "The courts are trash."
+    "The courts at Lincoln Park are trash, and everyone knows it."
    ],
    "correctAnswer": 2,
    "explanation": "A clear, polite statement of purpose suits an email to a city official.",
@@ -589,7 +589,7 @@
    "choices": [
     "Sentence (2), because it shows strong feelings",
     "Sentence (1), because it greets the director",
-    "Sentence (5), because it is short",
+    "Sentence (5), because it is short and gets straight to the point",
     "Sentence (3), because it describes specific, verifiable damage"
    ],
    "correctAnswer": 3,
@@ -597,7 +597,7 @@
    "choiceExplanations": [
     "Strong feelings without evidence may backfire.",
     "A greeting isn't persuasive evidence.",
-    "Length doesn't persuade.",
+    "Brevity alone doesn't persuade.",
     ""
    ],
    "sourceType": "original",
@@ -616,10 +616,10 @@
    "type": "multiple-choice",
    "prompt": "Which revision of sentence (5) gives the request the most effective emphasis for this audience?",
    "choices": [
-    "PLEASE FIX THE COURTS NOW!!!",
-    "Fix the courts, or else.",
+    "PLEASE FIX THE COURTS AT LINCOLN PARK NOW, BEFORE ANOTHER SEASON IS RUINED FOR EVERYONE!!!",
+    "Fix the courts this month, or our team will tell everyone in town that the parks director simply doesn't care.",
     "Courts.",
-    "Repairing the backboards and replacing the two rims before summer would let our team, and the many other families who use the courts, play safely."
+    "Repairing the backboards and replacing the two rims before summer would let our team and other families play safely."
    ],
    "correctAnswer": 3,
    "explanation": "A specific, polite request that names the benefit to the community gives the director a reason to act.",

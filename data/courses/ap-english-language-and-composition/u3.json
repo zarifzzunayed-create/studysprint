@@ -187,18 +187,18 @@
    "type": "multiple-choice",
    "prompt": "Which statement best describes the writer's main claim?",
    "choices": [
-    "The bus should run more often",
-    "The town should reopen the Elm Street pool because its closure harmed children's swimming",
-    "Children should take swimming lessons in school",
-    "The county pool should be closed"
+    "The bus to the county pool should run more often than once an hour",
+    "The town should reopen the Elm Street pool because its closure hurt children's swimming",
+    "Children should take swimming lessons in school during the year",
+    "The county pool should be closed so the town can afford to reopen the Elm Street pool"
    ],
    "correctAnswer": 1,
    "explanation": "The letter argues that the closure caused harm and that the council should reopen the pool.",
    "choiceExplanations": [
-    "The bus schedule supports the claim; it isn't the claim.",
+    "The bus schedule is support for the claim; the letter doesn't ask for more buses.",
     "",
     "School lessons are never proposed.",
-    "The county pool is mentioned as an alternative, not something to close."
+    "The county pool is mentioned as an alternative; the writer never proposes closing it."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -216,17 +216,17 @@
    "type": "multiple-choice",
    "prompt": "In paragraph 1, the writer concludes that the closure “clearly made our children worse swimmers.” What is the main weakness in this reasoning?",
    "choices": [
-    "It relies on a quotation from an expert",
-    "It uses too many statistics",
-    "It ignores the cost of reopening the pool",
-    "It assumes that because enrollment fell after the closure, the closure caused children to swim less well"
+    "It relies on a quotation from a swimming expert rather than on the county's enrollment data",
+    "It uses too many statistics for readers of a short letter",
+    "It ignores the cost of reopening and staffing the Elm Street pool",
+    "It assumes that because enrollment fell after the closure, children became worse swimmers"
    ],
    "correctAnswer": 3,
    "explanation": "Lower enrollment after the closure doesn't show that children became worse swimmers, or that the closure was the cause.",
    "choiceExplanations": [
-    "There is no expert quotation.",
-    "The paragraph uses only one statistic.",
-    "Cost isn't the logical flaw in this conclusion.",
+    "There is no expert quotation in the paragraph.",
+    "The paragraph uses only one statistic, and the flaw is in the reasoning, not the number.",
+    "Cost is a fair question, but it isn't the logical flaw in this conclusion.",
     ""
    ],
    "sourceType": "original",
@@ -246,9 +246,9 @@
    "prompt": "The example of the neighbor's son in paragraph 2 is weak support for the writer's claim mainly because",
    "choices": [
     "a single case can't show what happened to children in general",
-    "it comes from a neighbor rather than a stranger",
+    "it comes from a neighbor rather than from a stranger the writer has not met",
     "it contradicts the statistic in paragraph 1",
-    "it is about a boy rather than a girl"
+    "it describes a boy rather than a girl from the neighborhood"
    ],
    "correctAnswer": 0,
    "explanation": "The claim is about the town's children overall; one child's experience isn't sufficient evidence.",
@@ -274,16 +274,16 @@
    "type": "multiple-choice",
    "prompt": "Paragraph 3 says the council must either reopen the pool or “accept a generation that cannot swim.” How does paragraph 4 relate to this claim?",
    "choices": [
-    "It concedes that the pool should stay closed",
-    "It provides statistics proving paragraph 3",
-    "It answers an alternative that paragraph 3 ignored, which shows that paragraph 3 presented a false choice",
-    "It shifts the letter's audience to bus riders"
+    "It concedes that the Elm Street pool should stay closed because the county pool is just a short drive away",
+    "It provides statistics proving that paragraph 3 is correct",
+    "It answers an alternative paragraph 3 ignored, which shows that paragraph 3 offered a false choice",
+    "It shifts the letter's audience from the council to bus riders"
    ],
    "correctAnswer": 2,
    "explanation": "Paragraph 4 addresses the county pool option, a third possibility the either-or framing left out.",
    "choiceExplanations": [
-    "Paragraph 4 rebuts the objection rather than conceding.",
-    "Paragraph 4 contains no statistics.",
+    "Paragraph 4 rebuts the objection rather than conceding that the pool should stay closed.",
+    "Paragraph 4 contains no statistics; it gives reasons the county pool isn't practical.",
     "",
     "The letter still addresses the council."
    ],
@@ -304,16 +304,16 @@
    "prompt": "Which method of development does the writer mainly use in paragraph 2?",
    "choices": [
     "Cause and effect",
-    "Definition",
-    "Classification",
+    "Definition of a key term",
+    "Classification into types",
     "Comparison and contrast"
    ],
    "correctAnswer": 0,
    "explanation": "Paragraph 2 traces a chain: the store closes, produce donations drop, the budget runs out, and the shelves empty.",
    "choiceExplanations": [
     "",
-    "The paragraph doesn't define a term.",
-    "It doesn't sort things into categories.",
+    "The paragraph doesn't define any key term.",
+    "It doesn't sort things into types or categories.",
     "No two things are compared point by point."
    ],
    "sourceType": "original",
@@ -332,17 +332,17 @@
    "type": "multiple-choice",
    "prompt": "The writer begins with the story of sorting cans in order to",
    "choices": [
-    "explain how food banks are funded",
-    "draw readers into the problem through a personal experience before explaining its causes",
-    "show that the writer is a fast worker",
-    "argue that canned food is better than produce"
+    "explain how food banks are funded by grocery stores and donors",
+    "draw readers into the problem through personal experience before explaining causes",
+    "show that the writer is a fast, hardworking volunteer who deserves the manager's praise",
+    "argue that canned food is better for food banks than fresh produce"
    ],
    "correctAnswer": 1,
    "explanation": "The narrative moves from pride to the shock of the line, leading naturally into the explanation.",
    "choiceExplanations": [
-    "Funding is explained later, in paragraph 2.",
+    "The story isn't about funding; the causes of the shortage come in paragraph 2.",
     "",
-    "The writer's speed matters only as a contrast with the size of the need.",
+    "The writer's speed matters only as a contrast with the size of the need; no praise is mentioned.",
     "The writer doesn't rank canned food above produce."
    ],
    "sourceType": "original",
@@ -362,17 +362,17 @@
    "prompt": "Which sentence best expresses the claim the passage builds toward?",
    "choices": [
     "“By noon I had filled forty boxes, and I felt proud.”",
-    "“The first Saturday I volunteered … I was assigned to sort cans.”",
+    "“Then the manager showed me the line outside: two hundred people, and we had boxes for one hundred and fifty.”",
     "“A town that wants its food bank to work must replace what that one store used to give.”",
-    "“By the end of each month, the shelves were nearly empty.”"
+    "“With less produce, it bought more canned food, which used up its budget faster.”"
    ],
    "correctAnswer": 2,
    "explanation": "The final sentence states what the narrative and causal chain have been leading to.",
    "choiceExplanations": [
     "This is part of the narrative.",
-    "This sets the scene.",
+    "This is part of the narrative that shows the need; it doesn't state the claim.",
     "",
-    "This is the last link in the causal chain, not the claim."
+    "This is a link in the causal chain, not the claim the passage builds toward."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -390,17 +390,17 @@
    "type": "multiple-choice",
    "prompt": "How do the narrative in paragraph 1 and the causal chain in paragraph 2 work together?",
    "choices": [
-    "The narrative shows the effect firsthand, and the causal chain explains why it happened, preparing for the claim",
-    "Both present the same information in different words",
-    "The causal chain disproves the narrative",
+    "The narrative shows the effect firsthand, and the causal chain explains why it happened",
+    "Both present the same information about the shortage in different words",
+    "The causal chain disproves the narrative by showing that the food shortage was not real",
     "The narrative introduces a counterargument that the causal chain accepts"
    ],
    "correctAnswer": 0,
    "explanation": "One method makes the shortage vivid; the other makes it understandable, and together they justify the conclusion.",
    "choiceExplanations": [
     "",
-    "They provide different kinds of support.",
-    "The causal chain explains the narrative rather than contradicting it.",
+    "They provide different kinds of support: an experience and an explanation.",
+    "The causal chain explains why the shortage was real rather than disproving it.",
     "Neither paragraph presents a counterargument."
    ],
    "sourceType": "original",
@@ -449,15 +449,15 @@
    "prompt": "Should the writer keep or delete sentence (2)?",
    "choices": [
     "Delete it, because it repeats the idea vaguely and adds no evidence",
-    "Delete it, because it contradicts sentence (5)",
-    "Keep it, because it is the paragraph's claim",
-    "Keep it, because it cites a source"
+    "Delete it, because it contradicts the conclusion in sentence (5)",
+    "Keep it, because it is the paragraph's main claim and should come first",
+    "Keep it, because it cites a source for the paragraph's claim"
    ],
    "correctAnswer": 0,
    "explanation": "“Recess is good” is vaguer than sentence (1) and offers no support.",
    "choiceExplanations": [
     "",
-    "It doesn't contradict the conclusion.",
+    "It doesn't contradict the conclusion; it repeats sentence (1) vaguely.",
     "Sentence (1) is the claim; (2) adds nothing to it.",
     "It cites nothing."
    ],
@@ -477,10 +477,10 @@
    "type": "multiple-choice",
    "prompt": "The writer wants to cite the source in sentence (3) more fully. Which revision is best?",
    "choices": [
-    "Breaks improve attention, which everyone knows.",
-    "Some experts somewhere have said breaks are helpful.",
+    "Breaks improve students' attention when they return to class, which is something that teachers and parents already know.",
+    "Some experts somewhere have said in reports that breaks are helpful for students' attention in class.",
     "A pediatric organization reported this, according to the internet.",
-    "In a 2013 policy statement, the American Academy of Pediatrics reported that unstructured breaks improve students' attention when they return to class."
+    "In a 2013 policy statement, the American Academy of Pediatrics reported that unstructured breaks improve students' attention."
    ],
    "correctAnswer": 3,
    "explanation": "This names the organization and the document and keeps the specific finding. (The American Academy of Pediatrics did publish a 2013 policy statement on recess.)",
@@ -506,15 +506,15 @@
    "type": "multiple-choice",
    "prompt": "Sentence (5) concludes that all schools should guarantee twenty minutes of recess. What would best make this conclusion follow from the evidence?",
    "choices": [
-    "Delete sentence (3)",
-    "Add more stories from friends",
-    "Add evidence connecting a specific length of break to improved attention, or qualify the recommendation",
-    "Change “all schools” to “every single school”"
+    "Delete sentence (3) so the paragraph relies on the student's own experience",
+    "Add more stories from friends who say recess helps them concentrate in class",
+    "Add evidence linking a specific length of break to attention, or qualify the recommendation",
+    "Change “all schools” to “every single school” to make the recommendation sound much stronger"
    ],
    "correctAnswer": 2,
    "explanation": "The evidence shows breaks help but says nothing about twenty minutes or all schools; the writer should support or qualify that leap.",
    "choiceExplanations": [
-    "Removing the best evidence would weaken the paragraph.",
+    "Removing the best evidence and relying on anecdote would weaken the paragraph.",
     "More anecdotes still wouldn't support a specific, universal policy.",
     "",
     "This makes the claim broader, not better supported."
@@ -535,15 +535,15 @@
    "type": "multiple-choice",
    "prompt": "Which method of development does the paragraph mainly use?",
    "choices": [
-    "Description of a place",
-    "Definition",
+    "Description of a place and its features",
+    "Definition of a key term",
     "Cause and effect",
     "Comparison and contrast"
    ],
    "correctAnswer": 2,
    "explanation": "It traces the effects of cutting Route 9 and argues that restoring it would reverse them.",
    "choiceExplanations": [
-    "Description isn't the main method.",
+    "Description of the road appears, but the paragraph mainly traces causes and effects.",
     "No term is defined.",
     "",
     "Nothing is compared point by point."
@@ -564,18 +564,18 @@
    "type": "multiple-choice",
    "prompt": "Sentence (3) is weak. Which revision best develops the causal link to the writer's claim about getting to class on time?",
    "choices": [
-    "Some students like walking.",
-    "The two-mile walk takes about forty minutes, and the attendance office reports that first-period tardies have doubled since the route was cut.",
+    "Some students like walking to school because it gives them time to talk with friends.",
+    "The walk takes about forty minutes, and the attendance office reports that first-period tardies have doubled since the cut.",
     "Walking is good exercise for teenagers.",
-    "Walking that far takes a long time, which is bad."
+    "Walking that far takes a very long time, which is bad for students and makes many of their school mornings difficult and stressful."
    ],
    "correctAnswer": 1,
    "explanation": "It quantifies the effect and links it to tardiness with evidence.",
    "choiceExplanations": [
-    "This undercuts the argument without addressing it.",
+    "This undercuts the argument without addressing time or tardiness.",
     "",
-    "This argues against the claim.",
-    "This is vague and gives no evidence."
+    "This argues against the claim instead of supporting it.",
+    "This is still vague and gives no evidence of lateness."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -593,16 +593,16 @@
    "type": "multiple-choice",
    "prompt": "The writer wants to add evidence about safety. Which addition would be most relevant and credible?",
    "choices": [
-    "The writer's cousin thinks the road is dangerous.",
-    "Roads can be dangerous in many places.",
+    "The writer's cousin, who walks the road each day, thinks it is dangerous.",
+    "Roads without sidewalks can be dangerous for students who walk in many places across the country.",
     "Some roads have sidewalks.",
-    "The county's traffic report lists three accidents involving pedestrians on that road in the past year."
+    "The county's traffic report lists three accidents involving pedestrians on that road last year."
    ],
    "correctAnswer": 3,
    "explanation": "A specific, attributed finding about this road supports the safety claim.",
    "choiceExplanations": [
     "One person's opinion is weaker than recorded data.",
-    "This is too general to support a claim about this road.",
+    "This is too general to support a claim about this particular road.",
     "This doesn't address the road in question.",
     ""
    ],
@@ -622,15 +622,15 @@
    "type": "multiple-choice",
    "prompt": "A transit official might reply that ridership on Route 9 was very low. How could the writer best strengthen the line of reasoning?",
    "choices": [
-    "Change the topic to bus fares",
+    "Change the topic to bus fares, which affect the many families who ride the bus each day",
     "Ignore the objection to keep the paragraph short",
-    "Claim that ridership was actually the highest in the city, without evidence",
-    "Acknowledge low ridership and argue that safety and attendance justify the route even with few riders"
+    "Claim that ridership was actually the highest in the city",
+    "Acknowledge low ridership and argue that safety and attendance justify the route anyway"
    ],
    "correctAnswer": 3,
    "explanation": "Addressing a likely objection and explaining why the benefits still matter makes the reasoning harder to dismiss.",
    "choiceExplanations": [
-    "Changing the subject avoids the issue.",
+    "Changing the subject to fares avoids the ridership issue.",
     "Ignoring an obvious objection leaves the argument vulnerable.",
     "An unsupported claim is flawed reasoning.",
     ""

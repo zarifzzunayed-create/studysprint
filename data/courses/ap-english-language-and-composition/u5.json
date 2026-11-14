@@ -181,17 +181,17 @@
    "type": "multiple-choice",
    "prompt": "Which sentence best states the passage's main claim?",
    "choices": [
-    "The underpass was dim and covered with graffiti",
-    "Murals solve every problem a neighborhood faces",
-    "Shops on Grant Avenue are popular",
+    "The underpass was dim and covered with graffiti before the city acted",
+    "Murals solve the problems a neighborhood faces, including crime and empty shops",
+    "Shops on Grant Avenue have more evening customers than before",
     "Murals can, for a modest cost, turn an avoided passage into one people use"
    ],
    "correctAnswer": 3,
    "explanation": "Paragraph 3 states the claim that the evidence in paragraph 2 supports.",
    "choiceExplanations": [
-    "That's background.",
-    "The writer explicitly rejects this.",
-    "That's evidence.",
+    "That's background about the underpass, not the claim.",
+    "The writer explicitly says murals “will not solve every problem.”",
+    "That's evidence for the claim, not the claim itself.",
     ""
    ],
    "sourceType": "original",
@@ -210,18 +210,18 @@
    "type": "multiple-choice",
    "prompt": "In paragraph 3, “Still” signals",
    "choices": [
-    "a contrast: despite the limitation just stated, the writer reaffirms the claim",
-    "an example of the previous point",
-    "a new topic",
-    "a cause of the previous point"
+    "a contrast: despite the limitation just stated, the claim still holds",
+    "an example of the limitation that is stated in the sentence just before it",
+    "a new topic: the cost of the murals",
+    "a cause of the limitation stated in the previous sentence"
    ],
    "correctAnswer": 0,
    "explanation": "“Still” moves from a concession (murals won't solve everything) to the writer's position.",
    "choiceExplanations": [
     "",
-    "It doesn't introduce an example.",
+    "It doesn't introduce an example; it turns back to the claim.",
     "The topic stays the same.",
-    "It doesn't show cause."
+    "It doesn't show a cause; it signals contrast."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -239,18 +239,18 @@
    "type": "multiple-choice",
    "prompt": "The last sentence of paragraph 2 (“The murals did not make the underpass safer by themselves…”) mainly",
    "choices": [
-    "introduces new statistics",
-    "explains how the evidence supports the claim, while avoiding an overstatement",
-    "contradicts the passage's claim",
-    "describes the murals' colors"
+    "introduces new statistics about crime in the underpass",
+    "explains how the evidence supports the claim without overstating it",
+    "contradicts the passage's claim that the murals made a real difference",
+    "describes the murals' colors and subjects for readers"
    ],
    "correctAnswer": 1,
    "explanation": "It is commentary: it interprets the foot-traffic numbers and the shop reports, explaining the mechanism carefully.",
    "choiceExplanations": [
-    "No new statistics appear.",
+    "No new statistics appear, and crime figures aren't given.",
     "",
     "It supports the claim with a careful explanation.",
-    "The murals' appearance isn't described."
+    "The murals' appearance isn't described anywhere in the passage."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -268,18 +268,18 @@
    "type": "multiple-choice",
    "prompt": "What is the effect of the words “roughly” (paragraph 2) and “modest” (paragraph 3)?",
    "choices": [
-    "They qualify the claims, making the writer sound careful and the claims more defensible",
-    "They shift the tone from serious to playful",
-    "They exaggerate the murals' success",
-    "They express the writer's doubt that murals work"
+    "They qualify the claims, so the writer sounds careful and the claims more defensible",
+    "They shift the tone from serious to playful, so readers relax",
+    "They exaggerate the murals' success to win over doubtful residents",
+    "They express the writer's doubt that murals can work in other city neighborhoods"
    ],
    "correctAnswer": 0,
    "explanation": "Precise qualifiers keep the claims accurate, which builds credibility with skeptical readers.",
    "choiceExplanations": [
     "",
-    "The tone stays measured.",
+    "The tone stays measured and serious.",
     "They do the opposite of exaggerating.",
-    "The writer still clearly supports the murals."
+    "The writer still clearly supports murals and doesn't discuss other places."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -297,17 +297,17 @@
    "type": "multiple-choice",
    "prompt": "What is the writer's main claim?",
    "choices": [
-    "Phones should be banned",
-    "Children should be bored more often",
-    "Boredom is always pleasant",
-    "People should stop rushing to escape boredom, because boredom can push them toward new ideas"
+    "Phones should be banned from homes and schools to protect boredom",
+    "Children should be made bored more often so that they will learn to invent their own games",
+    "Boredom is always pleasant once people stop fighting it",
+    "People should stop rushing to escape boredom, which can push them toward new ideas"
    ],
    "correctAnswer": 3,
    "explanation": "Paragraph 3 says the point is not to seek boredom but to stop running from it, because of its usefulness.",
    "choiceExplanations": [
-    "The writer doesn't call for a ban.",
-    "The writer says the point is not to seek boredom.",
-    "The writer calls it a discomfort.",
+    "The writer doesn't call for a ban; the advice is to stop running from boredom.",
+    "The writer says “the point is not to seek boredom.”",
+    "The writer calls boredom a discomfort.",
     ""
    ],
    "sourceType": "original",
@@ -326,15 +326,15 @@
    "type": "multiple-choice",
    "prompt": "In paragraph 1, the word “may” in “boredom may be one of the more useful feelings” serves to",
    "choices": [
-    "introduce a counterargument",
+    "introduce a counterargument the writer will answer",
     "qualify the claim so it is more defensible",
-    "show that the writer is certain",
-    "change the subject"
+    "show that the writer is certain of the claim",
+    "change the subject from boredom to feelings"
    ],
    "correctAnswer": 1,
    "explanation": "“May” and “more useful” make a measured claim rather than an absolute one.",
    "choiceExplanations": [
-    "It isn't a counterargument.",
+    "It isn't a counterargument; it limits the writer's own claim.",
     "",
     "“May” signals possibility, not certainty.",
     "The subject stays the same."
@@ -355,17 +355,17 @@
    "type": "multiple-choice",
    "prompt": "How does paragraph 2 connect to paragraph 1?",
    "choices": [
-    "It contradicts paragraph 1",
-    "It explains why boredom is useful, supporting the claim made at the end of paragraph 1",
-    "It begins a new argument about work",
-    "It repeats paragraph 1 in different words"
+    "It contradicts paragraph 1 by showing that boredom is uncomfortable for people",
+    "It explains why boredom is useful, supporting the claim in paragraph 1",
+    "It begins a new argument about creativity at work",
+    "It repeats paragraph 1 in different words, adding nothing new"
    ],
    "correctAnswer": 1,
    "explanation": "Paragraph 2 develops the claim by describing boredom as a signal that prompts new activity.",
    "choiceExplanations": [
-    "It supports paragraph 1.",
+    "It supports paragraph 1; the discomfort is part of how boredom helps.",
     "",
-    "Work is one example among several.",
+    "Work is one example among several, not a new argument.",
     "It adds an explanation and examples."
    ],
    "sourceType": "original",
@@ -384,18 +384,18 @@
    "type": "multiple-choice",
    "prompt": "In paragraph 3, the writer says we “silence the signal before it can do its work.” What is the effect of this wording?",
    "choices": [
-    "It extends the image of boredom as a signal, suggesting phones interrupt something useful",
-    "It introduces a technical term from research",
-    "It shifts the passage's tone to anger",
-    "It suggests boredom is dangerous"
+    "It extends the image of boredom as a signal, suggesting phones cut off something useful",
+    "It introduces a technical term from the research on boredom that the writer mentioned earlier",
+    "It shifts the passage's tone to anger at phone companies",
+    "It suggests that boredom is a dangerous signal that people should silence"
    ],
    "correctAnswer": 0,
    "explanation": "Continuing the “signal” metaphor ties the conclusion to paragraph 2's reasoning.",
    "choiceExplanations": [
     "",
-    "“Silence the signal” isn't a technical term.",
-    "The tone remains reflective.",
-    "The passage presents boredom as useful."
+    "“Silence the signal” extends the writer's own image; it isn't a technical term.",
+    "The tone remains reflective, and phone companies aren't mentioned.",
+    "The passage presents boredom as useful and argues against silencing it."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -500,15 +500,15 @@
    "type": "multiple-choice",
    "prompt": "The writer wants to add commentary after sentence (2) that connects the evidence to the paragraph's point. Which choice is best?",
    "choices": [
-    "Recycling was invented many years ago.",
-    "That reduction shows the program works when students use it, which is why getting the rest of the bottles into the right bins matters.",
-    "Trash is collected on Tuesdays.",
-    "The landfill is outside of town."
+    "Recycling was invented many years ago, and many towns across the whole country have run programs like ours for decades.",
+    "That drop shows the program works when students use it, which is why getting the rest of the bottles sorted matters.",
+    "Trash from the cafeteria is collected on Tuesdays and Fridays by a private hauling company.",
+    "The landfill is outside of town, about ten miles from the school, near the old quarry."
    ],
    "correctAnswer": 1,
    "explanation": "This explains what the evidence shows and links it to the problem the paragraph goes on to address.",
    "choiceExplanations": [
-    "This is unrelated background.",
+    "This is unrelated background that doesn't explain the evidence.",
     "",
     "This is an unrelated detail.",
     "This is an unrelated detail."
@@ -529,10 +529,10 @@
    "type": "multiple-choice",
    "prompt": "Sentence (1) overstates the claim. Which revision best fits the evidence in sentences (2) and (3)?",
    "choices": [
-    "After-school jobs never hurt grades.",
-    "All after-school jobs are bad.",
+    "After-school jobs never hurt students' grades, however long the hours.",
+    "All after-school jobs are bad for students' grades.",
     "Working long hours after school can hurt students' grades.",
-    "Jobs are a part of life."
+    "Jobs are a part of life for many teenagers."
    ],
    "correctAnswer": 2,
    "explanation": "The survey shows lower grades only for students working many hours; the qualifiers “long hours” and “can” match that evidence.",
@@ -558,16 +558,16 @@
    "type": "multiple-choice",
    "prompt": "Which sentence would best follow sentence (3) as commentary?",
    "choices": [
-    "The survey was given in October.",
-    "Some students have siblings.",
+    "The survey was given in October to students in each grade at our school.",
+    "Some students have older siblings who also work after school at the same places they do.",
     "The difference suggests that the number of hours, not the job itself, is what matters.",
-    "Many students work at restaurants."
+    "Many of the students who work after school have jobs at local restaurants."
    ],
    "correctAnswer": 2,
    "explanation": "It interprets the contrast between (2) and (3) and connects it to the paragraph's point.",
    "choiceExplanations": [
     "This is a minor fact without interpretation.",
-    "This is irrelevant.",
+    "Siblings' jobs are irrelevant to the point about hours.",
     "",
     "This is an unrelated detail."
    ],
@@ -587,10 +587,10 @@
    "type": "multiple-choice",
    "prompt": "Should the writer keep sentence (4)?",
    "choices": [
-    "Delete it or develop it, because as written it shifts to an unrelated point about responsibility",
-    "Keep it, because it cites evidence",
+    "Delete or develop it, because as written it shifts to an unrelated point",
+    "Keep it, because it cites evidence from the school survey",
     "Keep it, because it is the paragraph's claim",
-    "Delete it, because it repeats sentence (2)"
+    "Delete it, because it simply repeats the survey result reported in sentence (2)"
    ],
    "correctAnswer": 0,
    "explanation": "Responsibility isn't the paragraph's topic (grades), so the sentence breaks its line of reasoning.",
@@ -598,7 +598,7 @@
     "",
     "It cites no evidence.",
     "The paragraph's claim is about grades.",
-    "It doesn't repeat (2)."
+    "It doesn't repeat the survey result in (2)."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -616,16 +616,16 @@
    "type": "multiple-choice",
    "prompt": "The writer wants to describe the survey results precisely. Which wording is most accurate?",
    "choices": [
-    "students' grades collapsed",
-    "every working student failed",
-    "students who worked more than twenty hours a week tended to report lower grades",
-    "working students proved that jobs ruin school"
+    "students' grades collapsed once they began working after school",
+    "every student who worked more than twenty hours failed",
+    "students working over twenty hours a week tended to report lower grades",
+    "working students proved that after-school jobs ruin students' school performance"
    ],
    "correctAnswer": 2,
    "explanation": "“Tended to report” matches what a survey of self-reported grades can show.",
    "choiceExplanations": [
-    "“Collapsed” exaggerates the evidence.",
-    "The survey doesn't show that every student failed.",
+    "“Collapsed” exaggerates the evidence, which shows only a tendency.",
+    "The survey shows lower grades, not that every such student failed.",
     "",
     "A survey doesn't “prove” this, and it overgeneralizes."
    ],

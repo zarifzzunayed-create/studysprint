@@ -178,10 +178,10 @@
    "type": "multiple-choice",
    "prompt": "Reagan's main concern in the excerpt is",
    "choices": [
-    "the spread of communism in Latin America",
-    "rising oil prices",
+    "the spread of communism in Latin America and the Caribbean islands",
+    "rising oil prices and energy shortages",
     "the loss of patriotism and shared memory of American values",
-    "the size of the federal budget deficit"
+    "the growing size of the federal budget deficit"
    ],
    "correctAnswer": 2,
    "explanation": "He warns of “an eradication of the American memory” and “an erosion of the American spirit.”",
@@ -209,8 +209,8 @@
    "choices": [
     "Emphasis on traditional values and patriotism",
     "Support for expanding federal social programs",
-    "Opposition to all military spending",
-    "Support for the Great Society"
+    "Opposition to all increases in military spending",
+    "Support for the Great Society's programs"
    ],
    "correctAnswer": 0,
    "explanation": "Reagan's nostalgia for a patriotic past reflects cultural conservatism.",
@@ -236,9 +236,9 @@
    "type": "multiple-choice",
    "prompt": "Reagan delivered this address as which international development was underway?",
    "choices": [
-    "The September 11 attacks had just occurred",
-    "The United States was entering World War II",
-    "The Vietnam War was escalating",
+    "The September 11 attacks had just occurred, and the war on terror was beginning",
+    "The United States was entering World War II after the attack on Pearl Harbor",
+    "The Vietnam War was escalating with new troop deployments",
     "The Cold War was ending, as Soviet power weakened in Eastern Europe"
    ],
    "correctAnswer": 3,
@@ -265,10 +265,10 @@
    "type": "multiple-choice",
    "prompt": "Reagan's claim that Americans “grew up in a different America” is best understood as a response to",
    "choices": [
-    "the New Deal's banking reforms",
-    "the Progressive movement's food safety laws",
+    "the New Deal's banking reforms and the rapid growth of federal regulation in the 1930s",
+    "the Progressive movement's food safety laws and the regulation of business",
     "the cultural changes of the 1960s and 1970s, which many conservatives saw as eroding traditional values",
-    "the end of the gold standard in the 1890s"
+    "the end of the gold standard in the 1890s and the arrival of free silver"
    ],
    "correctAnswer": 2,
    "explanation": "Conservatives contrasted the counterculture and social upheaval of the 1960s–1970s with an earlier, idealized America.",
@@ -276,7 +276,7 @@
     "Banking reforms aren't his concern here.",
     "That's unrelated to his point about values.",
     "",
-    "That's much too early and unrelated."
+    "That's much too early and unrelated; the gold standard wasn't ended in the 1890s."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
@@ -294,10 +294,10 @@
    "type": "multiple-choice",
    "prompt": "President Bush's statement was used mainly to argue that",
    "choices": [
-    "nuclear weapons should be abolished worldwide",
+    "nuclear weapons should be abolished worldwide through a new treaty signed by the great powers",
     "the United States should act against Iraq before obtaining definitive proof of weapons of mass destruction",
-    "the United States should withdraw from Afghanistan",
-    "the war in Iraq was already over"
+    "the United States should withdraw its forces from Afghanistan and focus on defending its own borders",
+    "the war in Iraq was already over and its troops could return home"
    ],
    "correctAnswer": 1,
    "explanation": "He says the nation “cannot wait for the final proof.”",
@@ -323,10 +323,10 @@
    "type": "multiple-choice",
    "prompt": "These statements were made in the context of",
    "choices": [
-    "the Persian Gulf War of 1991",
+    "the Persian Gulf War of 1991 to drive Iraqi forces out of Kuwait",
     "the war on terror that followed the September 11, 2001, attacks",
-    "the end of World War II",
-    "the Cuban Missile Crisis"
+    "the end of World War II and the start of the atomic age",
+    "the Cuban Missile Crisis and fears of nuclear war"
    ],
    "correctAnswer": 1,
    "explanation": "After 9/11, the administration argued that Iraq posed a new kind of threat.",
@@ -352,10 +352,10 @@
    "type": "multiple-choice",
    "prompt": "What happened after these statements that most directly challenged them?",
    "choices": [
-    "No stockpiles of weapons of mass destruction were found, and U.S. forces stayed in Iraq for years",
-    "The United Nations confirmed large weapons stockpiles",
-    "Iraq surrendered within five days",
-    "Congress declared war on Iran"
+    "No stockpiles of weapons of mass destruction were found, and U.S. forces stayed for years",
+    "The United Nations confirmed large weapons stockpiles in Iraq soon after the invasion began",
+    "Iraq surrendered within five days, as officials had predicted",
+    "Congress declared war on Iran, which it blamed for the attacks"
    ],
    "correctAnswer": 0,
    "explanation": "The war lasted far longer than predicted, and the weapons claims proved wrong.",
@@ -381,10 +381,10 @@
    "type": "multiple-choice",
    "prompt": "A historian would most likely use these statements as evidence of",
    "choices": [
-    "Iraqi public opinion about the war",
-    "Soviet policy at the end of the Cold War",
-    "how officials built public support for the 2003 invasion and how their expectations compared with the outcome",
-    "the economic causes of the Great Recession"
+    "Iraqi public opinion about the American war and its consequences for ordinary people in Baghdad",
+    "Soviet policy toward Iraq and the Middle East at the end of the Cold War",
+    "how officials built support for the 2003 invasion and how their expectations compared with the outcome",
+    "the economic causes of the Great Recession and the collapse of the housing market"
    ],
    "correctAnswer": 2,
    "explanation": "Public statements show the case officials made, which can be compared with what followed.",
@@ -410,16 +410,16 @@
    "type": "multiple-choice",
    "prompt": "According to the interpretation, where did employment grow after 1970?",
    "choices": [
-    "In factory jobs in the industrial Midwest",
-    "In coal mining",
+    "In factory jobs in the industrial Midwest and Northeast",
+    "In coal mining and steelmaking",
     "In services, health care, finance, and technology",
-    "In family farming"
+    "In family farming and ranching"
    ],
    "correctAnswer": 2,
    "explanation": "The passage contrasts declining factory jobs with growing service and technology work.",
    "choiceExplanations": [
     "The passage says factory jobs declined.",
-    "Coal isn't mentioned.",
+    "Coal and steel aren't mentioned.",
     "",
     "Farming isn't mentioned."
    ],
@@ -439,7 +439,7 @@
    "type": "multiple-choice",
    "prompt": "Which two causes of manufacturing job losses does the passage identify?",
    "choices": [
-    "Higher tariffs and immigration",
+    "Higher tariffs and rising immigration",
     "A shortage of college graduates and high taxes",
     "The Great Depression and World War II",
     "Automation and moving production abroad"
@@ -468,9 +468,9 @@
    "type": "multiple-choice",
    "prompt": "The tax cuts and deregulation described in the passage were most closely associated with",
    "choices": [
-    "the New Deal",
-    "the Great Society",
-    "the Progressive movement",
+    "the New Deal's banking and labor reforms",
+    "the Great Society's antipoverty programs",
+    "the Progressive movement of the early 1900s",
     "the policies of the Reagan administration"
    ],
    "correctAnswer": 3,
@@ -497,10 +497,10 @@
    "type": "multiple-choice",
    "prompt": "Which statement best summarizes the passage's argument about economic change since 1980?",
    "choices": [
-    "Manufacturing remained the main source of jobs",
-    "The economy grew, but its gains were unequally shared, and education became more important for reaching the middle class",
-    "All workers benefited equally from growth",
-    "The economy shrank continuously"
+    "Manufacturing remained the main source of jobs, though wages in factories fell sharply for most of their workers",
+    "The economy grew, but its gains were unequally shared, and a degree mattered more for reaching the middle class",
+    "All workers benefited equally from growth, because tax cuts raised wages across the whole economy",
+    "The economy shrank continuously after 1980 as factories closed"
    ],
    "correctAnswer": 1,
    "explanation": "The passage notes growth, disproportionate gains at the top, and the rising value of a college degree.",
@@ -526,9 +526,9 @@
    "type": "multiple-choice",
    "prompt": "According to the interpretation, what did the Immigration and Nationality Act of 1965 do?",
    "choices": [
-    "Applied only to European immigrants",
-    "Created the quota system",
-    "Banned all immigration",
+    "Applied only to immigrants arriving from northern Europe",
+    "Created the national-origins quota system",
+    "Banned all new immigration for a decade",
     "Ended the national-origins quotas set in the 1920s"
    ],
    "correctAnswer": 3,
@@ -557,8 +557,8 @@
    "choices": [
     "Latin America and Asia",
     "Africa and Australia",
-    "Northern Europe",
-    "Canada only"
+    "Northern and western Europe",
+    "Canada and the Caribbean"
    ],
    "correctAnswer": 0,
    "explanation": "The passage says most came “not from Europe but from Latin America and Asia.”",
@@ -584,10 +584,10 @@
    "type": "multiple-choice",
    "prompt": "Which later development reflects the “recurring political battles” the passage describes?",
    "choices": [
-    "The New Deal",
+    "The New Deal's programs for the unemployed during the Great Depression of the 1930s",
     "Debates over border security and undocumented immigration in the 2000s and 2010s",
-    "The Gulf of Tonkin Resolution",
-    "The Marshall Plan"
+    "The Gulf of Tonkin Resolution on the war in Vietnam",
+    "The Marshall Plan's aid to rebuild Europe after World War II"
    ],
    "correctAnswer": 1,
    "explanation": "Immigration remained a major political issue in the twenty-first century.",
@@ -613,17 +613,17 @@
    "type": "multiple-choice",
    "prompt": "Which comparison is best supported by the passage and your knowledge of earlier periods?",
    "choices": [
-    "Like the “new immigrants” of 1880–1920, post-1965 immigrants changed American society and prompted debates over national identity",
-    "Earlier immigrants came mainly from Asia, like those after 1965",
-    "The 1965 act restored the quotas of the 1920s",
-    "Post-1965 immigration caused no political debate, unlike earlier waves"
+    "Like the “new immigrants” of 1880–1920, post-1965 immigrants changed society and prompted debates over national identity",
+    "Earlier immigrants came mainly from Asia, like those after 1965, and settled mostly in the cities of the West Coast",
+    "The 1965 act restored the quotas of the 1920s, which had been lifted after World War II",
+    "Post-1965 immigration caused little political debate, unlike the earlier waves of 1880–1920"
    ],
    "correctAnswer": 0,
    "explanation": "Both waves transformed cities and economies and provoked nativist reactions.",
    "choiceExplanations": [
     "",
     "Earlier waves came mostly from Europe.",
-    "It ended those quotas.",
+    "It ended those quotas, which had lasted until 1965.",
     "The passage describes recurring debates."
    ],
    "sourceType": "original",

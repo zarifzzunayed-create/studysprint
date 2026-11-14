@@ -187,7 +187,7 @@
    "prompt": "Garrison's main purpose in the excerpt is to",
    "choices": [
     "support the colonization of freed people in Africa",
-    "call for compromise with slaveholders",
+    "call for compromise with slaveholders to preserve the Union",
     "argue for gradually ending slavery over many decades",
     "defend his uncompromising language against slavery"
    ],
@@ -195,7 +195,7 @@
    "explanation": "He insists he will not use moderation and will not retreat: he demands immediate action.",
    "choiceExplanations": [
     "He had turned against colonization schemes.",
-    "He says he will not compromise.",
+    "He says he will not compromise or retreat.",
     "He rejects moderation and gradualism.",
     ""
    ],
@@ -215,10 +215,10 @@
    "type": "multiple-choice",
    "prompt": "Garrison's newspaper was part of which broader movement of the period?",
    "choices": [
-    "The Progressive movement",
-    "The Populist movement",
-    "The labor movement of the Gilded Age",
-    "Reform movements influenced by the Second Great Awakening"
+    "The Progressive movement for government reform",
+    "The Populist movement of indebted Western and Southern farmers",
+    "The labor movement of the Gilded Age factories",
+    "Reform movements inspired by the Second Great Awakening"
    ],
    "correctAnswer": 3,
    "explanation": "Abolition was one of many reforms energized by religious revival in the 1820s–1840s.",
@@ -244,10 +244,10 @@
    "type": "multiple-choice",
    "prompt": "Which development was a direct response to the kind of abolitionist activism reflected in the excerpt?",
    "choices": [
-    "The Missouri Compromise was repealed",
+    "The Missouri Compromise was repealed to quiet the abolitionists",
     "The Supreme Court decided Worcester v. Georgia",
-    "The House of Representatives adopted a “gag rule” to table antislavery petitions",
-    "Congress passed the Thirteenth Amendment"
+    "The House adopted a “gag rule” to table antislavery petitions",
+    "Congress passed the Thirteenth Amendment to end slavery"
    ],
    "correctAnswer": 2,
    "explanation": "From 1836 to 1844 the House automatically tabled antislavery petitions, a defensive response by Southern members and their allies.",
@@ -255,7 +255,7 @@
     "The Missouri Compromise was effectively repealed in 1854, for other reasons.",
     "Worcester concerned Cherokee sovereignty.",
     "",
-    "The Thirteenth Amendment came in 1865."
+    "The Thirteenth Amendment came in 1865, decades later."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
@@ -275,7 +275,7 @@
    "choices": [
     "more moderate, because he accepted slavery's continuation",
     "more radical, because he demanded immediate emancipation",
-    "identical in its goals and methods",
+    "identical in its goals and in its methods of persuasion",
     "focused mainly on ending the slave trade with Africa"
    ],
    "correctAnswer": 1,
@@ -283,7 +283,7 @@
    "choiceExplanations": [
     "He rejected compromise.",
     "",
-    "His demand for immediacy was new.",
+    "His demand for immediate emancipation was new.",
     "The Atlantic slave trade had already been banned in 1808; he targeted slavery itself."
    ],
    "sourceType": "original",
@@ -304,16 +304,16 @@
    "choices": [
     "the Cherokee Nation is part of the state of Georgia",
     "Georgia's laws have no force within Cherokee territory",
-    "Georgia may govern the Cherokee as it chooses",
-    "the Cherokee must move west of the Mississippi"
+    "Georgia may govern the Cherokee as it chooses within its borders",
+    "the Cherokee must move west of the Mississippi River under federal law"
    ],
    "correctAnswer": 1,
    "explanation": "He describes the Cherokee Nation as a distinct community “in which the laws of Georgia can have no force.”",
    "choiceExplanations": [
     "He calls it a distinct community.",
     "",
-    "He rules the opposite.",
-    "The ruling protected Cherokee territory."
+    "He rules that Georgia's laws have no force there.",
+    "The ruling protected Cherokee territory; removal came from Jackson and Congress."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
@@ -331,7 +331,7 @@
    "type": "multiple-choice",
    "prompt": "According to Marshall, relations with the Cherokee Nation belonged to",
    "choices": [
-    "the Cherokee alone, with no role for any U.S. government",
+    "the Cherokee alone",
     "private land companies",
     "the federal government",
     "the state of Georgia"
@@ -339,7 +339,7 @@
    "correctAnswer": 2,
    "explanation": "He says the “whole intercourse” with the nation is vested in the government of the United States.",
    "choiceExplanations": [
-    "He assigns that role to the United States.",
+    "He assigns that role to the government of the United States.",
     "Companies aren't mentioned.",
     "",
     "He says Georgia's laws have no force."
@@ -360,9 +360,9 @@
    "type": "multiple-choice",
    "prompt": "What happened after the Court's decision?",
    "choices": [
-    "The Jackson administration pursued removal anyway, leading to the Trail of Tears",
-    "Georgia returned all Cherokee lands",
-    "Congress repealed the Indian Removal Act",
+    "Jackson's administration pursued removal anyway, leading to the Trail of Tears",
+    "Georgia returned all the Cherokee lands it had seized and paid the Cherokee for the damage",
+    "Congress repealed the Indian Removal Act and ended the policy of removal",
     "The Cherokee were granted U.S. citizenship and statehood"
    ],
    "correctAnswer": 0,
@@ -389,16 +389,16 @@
    "type": "multiple-choice",
    "prompt": "Which economic development most directly increased pressure to remove the Cherokee from Georgia?",
    "choices": [
-    "The decline of the Atlantic slave trade",
-    "The opening of the Erie Canal",
-    "The expansion of cotton cultivation and the discovery of gold on Cherokee lands",
-    "The growth of textile mills in Lowell"
+    "The decline of the Atlantic slave trade after Congress banned it in 1808",
+    "The opening of the Erie Canal and other northern transportation routes",
+    "The spread of cotton farming and the discovery of gold on Cherokee lands",
+    "The growth of textile mills in Lowell, Massachusetts, and nearby towns"
    ],
    "correctAnswer": 2,
    "explanation": "Settlers wanted Cherokee lands for cotton, and the 1829 gold rush in north Georgia intensified demands.",
    "choiceExplanations": [
     "This doesn't explain demand for Cherokee land.",
-    "The canal affected New York and the Great Lakes.",
+    "The canal affected New York and the Great Lakes, not Georgia.",
     "",
     "Mills created demand for cotton but were far away."
    ],
@@ -419,9 +419,9 @@
    "prompt": "According to the interpretation, how did the Erie Canal affect farmers in Ohio?",
    "choices": [
     "It let them sell wheat to distant buyers by lowering shipping costs",
-    "It forced them to stop farming",
-    "It closed markets in New York City",
-    "It required them to grow cotton"
+    "It forced them to stop farming and move to factory towns",
+    "It closed markets in New York City to farmers from the West",
+    "It required them to grow cotton for the textile mills of New England"
    ],
    "correctAnswer": 0,
    "explanation": "Cheaper shipping connected Western farms to Eastern markets.",
@@ -447,15 +447,15 @@
    "type": "multiple-choice",
    "prompt": "The passage's description of Lowell's mills best illustrates which change?",
    "choices": [
-    "The spread of slavery into New England",
+    "The spread of slavery into New England's mills",
     "The rise of wage labor outside the household",
-    "The end of women's work",
-    "The decline of manufacturing in New England"
+    "The end of women's work outside the home",
+    "The decline of manufacturing across New England"
    ],
    "correctAnswer": 1,
    "explanation": "Young women left farms to earn wages in factories, a major change in how people worked.",
    "choiceExplanations": [
-    "The workers were wage earners.",
+    "The workers were wage earners, not enslaved people.",
     "",
     "Women's work moved into factories.",
     "Manufacturing grew."
@@ -476,17 +476,17 @@
    "type": "multiple-choice",
    "prompt": "Which policy proposal of the period most directly aimed to build on developments like the Erie Canal?",
    "choices": [
-    "Henry Clay's American System of internal improvements, a national bank, and protective tariffs",
-    "The Monroe Doctrine",
-    "The Indian Removal Act",
-    "The Wilmot Proviso"
+    "Henry Clay's American System of roads and canals, a national bank, and protective tariffs",
+    "The Monroe Doctrine, which warned Europe against new colonies in the Americas",
+    "The Indian Removal Act, which forced the Southeastern nations to move west of the Mississippi River",
+    "The Wilmot Proviso, which would have banned slavery in the Mexican Cession"
    ],
    "correctAnswer": 0,
    "explanation": "The American System sought federally supported roads and canals to strengthen the national market.",
    "choiceExplanations": [
     "",
-    "The Monroe Doctrine concerned European colonization in the Western Hemisphere.",
-    "Removal concerned American Indian lands.",
+    "The Monroe Doctrine concerned European colonization in the Western Hemisphere, not internal improvements.",
+    "Removal concerned American Indian lands, not economic development.",
     "The Wilmot Proviso came in 1846 and concerned slavery."
    ],
    "sourceType": "original",
@@ -505,9 +505,9 @@
    "type": "multiple-choice",
    "prompt": "The final sentence argues that the Market Revolution",
    "choices": [
-    "made the regions economically identical",
-    "separated the North and South completely",
-    "ended slavery in the South",
+    "made the regions economically identical by spreading factories everywhere",
+    "separated the economies of the North and South completely from each other",
+    "ended slavery in the South by making wage labor cheaper",
     "linked the regions economically while deepening their differences"
    ],
    "correctAnswer": 3,
@@ -534,17 +534,17 @@
    "type": "multiple-choice",
    "prompt": "According to the interpretation, which group gained political participation in the age of Jackson?",
    "choices": [
-    "Women",
-    "The Cherokee",
-    "Free Black men",
+    "Women in the Northern states",
+    "The Cherokee and other nations",
+    "Free Black men in the North",
     "White men without property"
    ],
    "correctAnswer": 3,
    "explanation": "Property requirements for voting disappeared in most states, benefiting white men.",
    "choiceExplanations": [
-    "Women remained excluded.",
+    "Women remained excluded from voting.",
     "The Cherokee were removed.",
-    "The passage says many free Black men lost the vote.",
+    "The passage says free Black men lost the vote in several states.",
     ""
    ],
    "sourceType": "original",
@@ -563,17 +563,17 @@
    "type": "multiple-choice",
    "prompt": "The passage's central argument is that Jacksonian democracy",
    "choices": [
-    "had no effect on political participation",
+    "had no lasting effect on political participation in most states",
     "expanded participation for some while excluding others more sharply",
-    "reduced voting by white men",
-    "made the United States fully democratic"
+    "reduced voting by white men who owned no property",
+    "made the United States fully democratic for the first time in its history"
    ],
    "correctAnswer": 1,
    "explanation": "The final sentence states this argument directly.",
    "choiceExplanations": [
     "The passage describes major changes.",
     "",
-    "Turnout rose.",
+    "Turnout rose as property requirements disappeared.",
     "The passage stresses limits and exclusions."
    ],
    "sourceType": "original",
@@ -593,9 +593,9 @@
    "prompt": "Which action by President Jackson most directly reflected his use of federal power?",
    "choices": [
     "His veto of the recharter of the Second Bank of the United States",
-    "His purchase of Louisiana from France",
-    "His signing of the Missouri Compromise",
-    "His support for the Seneca Falls Convention"
+    "His purchase of the Louisiana Territory from France",
+    "His signing of the Missouri Compromise to admit new states",
+    "His public support for the women's rights convention at Seneca Falls"
    ],
    "correctAnswer": 0,
    "explanation": "Jackson vetoed the bank's recharter in 1832, calling it a privileged monopoly.",
@@ -621,16 +621,16 @@
    "type": "multiple-choice",
    "prompt": "Which development of the 1840s most directly challenged the exclusions described in the passage?",
    "choices": [
-    "The election of Thomas Jefferson",
-    "The Erie Canal",
-    "The Seneca Falls Convention's Declaration of Sentiments demanding rights for women",
-    "The Monroe Doctrine"
+    "The election of Thomas Jefferson as president, which he called a peaceful revolution",
+    "The opening of the Erie Canal, which linked the Great Lakes to New York City",
+    "The Seneca Falls Convention's Declaration of Sentiments demanding women's rights",
+    "The Monroe Doctrine's warning to European powers"
    ],
    "correctAnswer": 2,
    "explanation": "The 1848 convention demanded rights, including suffrage, for women, who were excluded from Jacksonian democracy.",
    "choiceExplanations": [
     "Jefferson's election was in 1800.",
-    "The canal was an economic development.",
+    "The canal was an economic development, not a challenge to exclusion.",
     "",
     "The Monroe Doctrine concerned foreign policy."
    ],

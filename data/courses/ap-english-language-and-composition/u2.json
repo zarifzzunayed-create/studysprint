@@ -186,18 +186,18 @@
    "type": "multiple-choice",
    "prompt": "Whom is the speaker mainly trying to persuade?",
    "choices": [
-    "City officials who designed the bike lane",
-    "Fellow shop owners who fear the bike lane will hurt their sales",
-    "Cyclists who want more bike lanes",
-    "Shop owners in Fairview"
+    "City officials who designed and proposed the new bike lane",
+    "Fellow shop owners who fear the bike lane will hurt sales",
+    "Cyclists who want more bike lanes on Main Street",
+    "Shop owners in Fairview, where the change was made years ago"
    ],
    "correctAnswer": 1,
    "explanation": "He addresses the association's members and responds to their worry about lost parking and customers.",
    "choiceExplanations": [
-    "He mentions the city's proposal but speaks to merchants.",
+    "He mentions the city's proposal but speaks to fellow merchants.",
     "",
     "He says he isn't asking anyone to love bicycles; cyclists aren't the audience.",
-    "Fairview's owners are his sources of evidence."
+    "Fairview's owners are his sources of evidence, not his listeners."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -215,17 +215,17 @@
    "type": "multiple-choice",
    "prompt": "Which best states the speaker's main claim?",
    "choices": [
-    "The city should never remove parking spaces",
-    "Fairview's bakery is very successful",
-    "Bicycles are better than cars",
-    "Merchants should examine the evidence before opposing the bike lane, because it may help their sales"
+    "The city should not remove parking spaces from Main Street, because every space is a customer",
+    "Fairview's bakery has grown more successful since its bike lane opened",
+    "Bicycles are a better way than cars to travel to Main Street shops",
+    "Merchants should examine the evidence before opposing the bike lane, which may help sales"
    ],
    "correctAnswer": 3,
    "explanation": "Paragraph 4 asks merchants to look at the receipts before opposing a change that may help them.",
    "choiceExplanations": [
-    "This was his earlier view, which he has changed.",
-    "The bakery is one piece of evidence.",
-    "He explicitly declines to argue that bicycles are better.",
+    "This was close to his earlier view, which he has changed.",
+    "The bakery is one piece of evidence, not the main claim.",
+    "He explicitly declines to argue that bicycles are better than cars.",
     ""
    ],
    "sourceType": "original",
@@ -244,18 +244,18 @@
    "type": "multiple-choice",
    "prompt": "Why does the speaker begin by saying he once opposed the bike lane himself?",
    "choices": [
-    "To apologize for his earlier letter",
-    "To establish common ground and credibility with listeners who share his original concern",
-    "To show that he dislikes changing his mind",
-    "To introduce statistics about bicycles"
+    "To apologize to the city for the letter he once wrote opposing its bike lane proposal",
+    "To build common ground and credibility with listeners who share his original concern",
+    "To show that he dislikes changing his mind once he has decided",
+    "To introduce statistics about how many people ride bicycles"
    ],
    "correctAnswer": 1,
    "explanation": "By sharing their fear and his long experience as a merchant, he makes his change of mind persuasive to a skeptical audience.",
    "choiceExplanations": [
-    "He doesn't apologize; he explains how evidence changed his view.",
+    "He doesn't apologize to anyone; he explains how evidence changed his view.",
     "",
     "The point is that he did change his mind.",
-    "The statistics come in paragraph 2."
+    "The statistics in paragraph 2 are about sales, not about riders."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -274,9 +274,9 @@
    "prompt": "The speaker relies on sales figures from Fairview shop owners rather than, for example, data on how many people ride bikes. What does this choice suggest?",
    "choices": [
     "He believes cycling statistics are always inaccurate",
-    "He chose evidence that speaks to his audience's main concern, which is revenue",
+    "He chose evidence that speaks to his audience's main concern: revenue",
     "He wants to change the audience's opinion of cyclists",
-    "He has no access to traffic data"
+    "He has no access to traffic data from the city or from the town of Fairview"
    ],
    "correctAnswer": 1,
    "explanation": "Merchants worry about sales, so evidence about other merchants' receipts addresses that concern directly.",
@@ -284,7 +284,7 @@
     "He never comments on the accuracy of other statistics.",
     "",
     "He explicitly says he isn't asking them to love bicycles.",
-    "Nothing in the passage suggests he lacked other data."
+    "Nothing in the passage suggests he lacked traffic data."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -302,17 +302,17 @@
    "type": "multiple-choice",
    "prompt": "Who is the intended audience of the passage?",
    "choices": [
-    "Vending machine companies",
-    "Dentists in the community",
-    "The eight-year-old patient",
+    "Companies that stock the vending machines",
+    "Other dentists in the community",
+    "The eight-year-old patient and her family",
     "Parents of students at the school"
    ],
    "correctAnswer": 3,
    "explanation": "The writer opens with “Parents, we want the same thing.”",
    "choiceExplanations": [
-    "The companies are never addressed.",
-    "Dentists aren't addressed.",
-    "The patient is an example, not the audience.",
+    "The companies that stock the machines are never addressed.",
+    "Other dentists aren't addressed.",
+    "The patient is an example in the argument, not its audience.",
     ""
    ],
    "sourceType": "original",
@@ -331,16 +331,16 @@
    "type": "multiple-choice",
    "prompt": "In paragraph 1, the sentence “My reasons are cost, comfort, and habit” mainly serves to",
    "choices": [
-    "introduce a counterargument",
-    "state a fact that ends the argument",
+    "introduce a counterargument that the writer will rebut",
+    "state a fact that settles the argument at once",
     "preview the structure of the argument that follows",
-    "describe the writer's credentials"
+    "describe the writer's credentials as a pediatric dentist"
    ],
    "correctAnswer": 2,
    "explanation": "The three reasons are then developed in order, in paragraphs 2, 3, and 4.",
    "choiceExplanations": [
-    "No opposing view is introduced.",
-    "It previews reasons that are developed afterward.",
+    "No opposing view is introduced or rebutted.",
+    "It previews reasons that are developed afterward; it settles nothing by itself.",
     "",
     "The writer's role as a dentist is clear from the title, not from this sentence."
    ],
@@ -361,15 +361,15 @@
    "prompt": "The story of the eight-year-old patient in paragraph 3 primarily",
    "choices": [
     "makes the reason “comfort” concrete with an example parents can picture",
-    "explains how much fillings cost",
-    "proves that every child who drinks soda will get cavities",
+    "explains how much the patient's fillings cost her family",
+    "proves that every child who drinks soda at school will soon get several cavities",
     "shows that the writer's patients are mostly young"
    ],
    "correctAnswer": 0,
    "explanation": "A specific child hiding her smile shows what “comfort” means emotionally and physically.",
    "choiceExplanations": [
     "",
-    "Cost is discussed in paragraph 2.",
+    "Cost is discussed in paragraph 2; the patient's story does not give her family's costs.",
     "One example can't prove a universal claim, and the writer doesn't claim it does.",
     "The writer doesn't describe her practice's patients overall."
    ],
@@ -389,16 +389,16 @@
    "type": "multiple-choice",
    "prompt": "How does the opening sentence (“we want the same thing”) relate to the writer's purpose?",
    "choices": [
-    "It shifts the argument's focus from children to dentists",
-    "It concedes that the request is unpopular",
-    "It frames the request as serving a goal parents already hold, making them more willing to support it",
-    "It suggests parents disagree with the school board"
+    "It shifts the argument's focus from children's health to the work of dentists",
+    "It concedes that the request is unpopular with many parents",
+    "It frames the request as serving a goal parents already hold, so they will support it",
+    "It suggests that parents disagree with the school board about what vending machines should sell"
    ],
    "correctAnswer": 2,
    "explanation": "Starting from shared values lets the writer present the vending change as a way to reach the parents' own goal.",
    "choiceExplanations": [
-    "The focus stays on children.",
-    "The writer doesn't concede anything about popularity.",
+    "The focus stays on children's health.",
+    "The writer doesn't concede anything about how popular the request is.",
     "",
     "The writer wants parents to support the board, not oppose it."
    ],
@@ -447,10 +447,10 @@
    "type": "multiple-choice",
    "prompt": "The writer plans body paragraphs on (a) real-world mistakes graduates make, (b) the elective's waiting list, and (c) the low cost of the change. Which revision of sentence (4) best previews them in order?",
    "choices": [
-    "The board should require a one-semester personal finance course, because graduates face costly financial mistakes, students already want the class, and the change would cost little.",
-    "The board should require personal finance because it is important.",
+    "The board should require a personal finance course, because graduates make costly mistakes, students want the class, and it would cost little.",
+    "The board should require personal finance because it is an important subject that nearly any graduate will use throughout the rest of adult life.",
     "Because the change would cost little, the board should consider personal finance.",
-    "Personal finance should be required, and in this essay I will explain why."
+    "Personal finance should be required for graduation, and in this essay I will explain the reasons why the board should agree."
    ],
    "correctAnswer": 0,
    "explanation": "This version states the position and lists the three reasons in the order the essay will develop them.",
@@ -458,7 +458,7 @@
     "",
     "It gives no specific reasons.",
     "It previews only one reason, and out of order.",
-    "It announces the essay instead of previewing the reasons."
+    "It announces the essay instead of previewing the specific reasons."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
@@ -476,17 +476,17 @@
    "type": "multiple-choice",
    "prompt": "Should the writer keep or delete sentence (3)?",
    "choices": [
-    "Delete it, because it states something obvious and adds no support",
-    "Keep it, because it is the thesis",
-    "Keep it, because it gives a statistic",
+    "Delete it, because it states the obvious and adds no support",
+    "Keep it, because it is the thesis of the introduction",
+    "Keep it, because it gives a statistic about demand for the elective",
     "Delete it, because it contradicts sentence (2)"
    ],
    "correctAnswer": 0,
    "explanation": "“Personal finance is a subject” neither makes a claim nor supports one.",
    "choiceExplanations": [
     "",
-    "Sentence (4) is the thesis.",
-    "It contains no statistic.",
+    "Sentence (4) is the thesis of the introduction.",
+    "It contains no statistic about the elective or anything else.",
     "It doesn't contradict anything."
    ],
    "sourceType": "original",
@@ -505,16 +505,16 @@
    "type": "multiple-choice",
    "prompt": "Board members are concerned about crowded schedules. Which sentence, added before sentence (4), would best address that concern?",
    "choices": [
-    "Board members should not worry about schedules.",
-    "Students already have too many classes.",
+    "Board members should not worry about crowded schedules, because students can usually find room in their day for a class that matters this much.",
+    "Students already have too many required classes, and many have little room left for electives.",
     "Some students prefer art classes.",
-    "The course could replace the current one-semester computer applications requirement, which covers similar spreadsheet skills, so students' schedules would not grow."
+    "The course could replace the computer applications requirement, which covers similar spreadsheet skills, so schedules would not grow."
    ],
    "correctAnswer": 3,
    "explanation": "This answers the audience's specific concern with a practical solution, which makes the thesis easier to accept.",
    "choiceExplanations": [
     "This dismisses the concern without a reason.",
-    "This strengthens the concern without answering it.",
+    "This strengthens the board's concern without answering it.",
     "This is unrelated to the concern or the thesis.",
     ""
    ],
@@ -564,7 +564,7 @@
    "prompt": "The writer wants to introduce the quotation in sentence (4) so that readers understand why it is credible. Which revision is best?",
    "choices": [
     "Someone said, “Attendance on our last free day was triple a normal Saturday.”",
-    "“Attendance on our last free day was triple a normal Saturday,” which is a quotation.",
+    "“Attendance on our last free day was triple a normal Saturday,” which is a quotation from someone who works at the museum.",
     "The museum's director said something about attendance.",
     "Maria Ortiz, who has directed the museum for ten years and tracks its attendance, said, “Attendance on our last free day was triple a normal Saturday.”"
    ],
@@ -572,7 +572,7 @@
    "explanation": "Naming the source and her relevant role tells readers why her numbers can be trusted.",
    "choiceExplanations": [
     "“Someone” gives readers no reason to trust the claim.",
-    "Labeling it a quotation adds nothing about credibility.",
+    "Saying it comes from “someone at the museum” still gives readers no reason to trust it.",
     "Paraphrasing vaguely loses the specific evidence.",
     ""
    ],
@@ -592,18 +592,18 @@
    "type": "multiple-choice",
    "prompt": "The letter is for the city council, which funds the museum. Which sentence, added after sentence (5), would best appeal to this audience?",
    "choices": [
-    "The writer's favorite exhibit is the dinosaur hall.",
-    "Many other cities have beautiful museums.",
-    "Members' fees and gift shop sales on free days could offset much of the lost ticket revenue.",
-    "Museums are fun places to visit."
+    "The writer's favorite exhibit is the dinosaur hall, which opened in the museum last year.",
+    "Many other cities have beautiful museums that attract tourists each year.",
+    "Membership fees and gift shop sales on free days could offset lost ticket revenue.",
+    "Museums are fun places to visit with family members of many ages."
    ],
    "correctAnswer": 2,
    "explanation": "A council that funds the museum will care whether the plan affects the budget.",
    "choiceExplanations": [
-    "A personal preference doesn't address the council's concerns.",
-    "This doesn't address this museum or its budget.",
+    "A personal preference doesn't address the council's concerns about funding.",
+    "Other cities' museums don't address this museum or its budget.",
     "",
-    "This is too general to persuade a funding body."
+    "This is too general to persuade a funding body about cost."
    ],
    "sourceType": "original",
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
