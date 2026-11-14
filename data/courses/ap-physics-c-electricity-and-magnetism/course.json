@@ -4,6 +4,7 @@
  "officialUrl": "https://apcentral.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
  "studentUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
  "frameworkUrl": "https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf",
+ "frameworkVersion": "Not recorded at the last check; confirm the current edition of the Course and Exam Description.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism/exam/past-exam-questions",
   "note": null
@@ -11,15 +12,15 @@
  "source": {
   "title": "AP Physics C: Electricity and Magnetism – AP Students (College Board)",
   "url": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
-  "verified": "2026-10-09",
-  "note": null
+  "verified": "2026-11-08",
+  "note": "Unit titles and topics re-checked against the AP Students course page on 2026-11-08 and unchanged. The page lists “Gauss’s Law” under Unit 11 (Electric Circuits) as well as Unit 8; StudySprint covers it in Unit 8 and lists it as not yet covered in Unit 11."
  },
  "units": [
   {
    "id": "u8",
    "name": "Unit 8: Electric Charges, Fields, and Gauss’s Law",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-c-electricity-and-magnetism/u8.json",
    "officialTopics": [
     "Coulomb’s Law",
     "Electric fields due to point charges or combinations of charges",
@@ -30,8 +31,8 @@
   {
    "id": "u9",
    "name": "Unit 9: Electric Potential",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-c-electricity-and-magnetism/u9.json",
    "officialTopics": [
     "Electric potential",
     "Electric potential due to point charges and uniform fields",
@@ -42,8 +43,8 @@
   {
    "id": "u10",
    "name": "Unit 10: Conductors and Capacitors",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-c-electricity-and-magnetism/u10.json",
    "officialTopics": [
     "Electrostatics with conductors",
     "Capacitors",
@@ -53,8 +54,8 @@
   {
    "id": "u11",
    "name": "Unit 11: Electric Circuits",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-c-electricity-and-magnetism/u11.json",
    "officialTopics": [
     "Current and resistance",
     "Current, resistance, and power",
@@ -65,8 +66,8 @@
   {
    "id": "u12",
    "name": "Unit 12: Magnetic Fields and Electromagnetism",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-c-electricity-and-magnetism/u12.json",
    "officialTopics": [
     "Forces on moving charges in magnetic fields",
     "Forces on current carrying wires in magnetic fields",
@@ -77,8 +78,8 @@
   {
    "id": "u13",
    "name": "Unit 13: Electromagnetic Induction",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-c-electricity-and-magnetism/u13.json",
    "officialTopics": [
     "Electromagnetic induction (including Faraday’s Law and Lenz’s Law)",
     "Inductance (including LR circuits)"

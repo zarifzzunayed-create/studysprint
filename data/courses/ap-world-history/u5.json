@@ -1,0 +1,709 @@
+{
+ "courseId": "ap-world-history",
+ "unitId": "u5",
+ "title": "Unit 5: Revolutions",
+ "topics": [
+  {
+   "id": "wh5-ideas",
+   "name": "The Enlightenment and revolutions",
+   "covers": [
+    "The Enlightenment",
+    "Revolutions against existing governments and the birth of new nation-states"
+   ],
+   "frameworkCovers": [
+    "5.1 The Enlightenment",
+    "5.2 Nationalism and Revolutions in the Period from 1750 to 1900"
+   ]
+  },
+  {
+   "id": "wh5-industry",
+   "name": "The Industrial Revolution and its spread",
+   "covers": [
+    "The Industrial Revolution",
+    "The development of industrial economies"
+   ],
+   "frameworkCovers": [
+    "5.3 Industrial Revolution Begins",
+    "5.4 Industrialization Spreads in the Period from 1750 to 1900",
+    "5.5 Technology of the Industrial Age",
+    "5.6 Industrialization: Government’s Role from 1750 to 1900"
+   ]
+  },
+  {
+   "id": "wh5-society",
+   "name": "Trade policies, reactions, and industrial society",
+   "covers": [
+    "Trade policies"
+   ],
+   "frameworkCovers": [
+    "5.7 Economic Developments and Innovations in the Industrial Age",
+    "5.8 Reactions to the Industrial Economy from 1750 to 1900",
+    "5.9 Society and the Industrial Age",
+    "5.10 Continuity and Change in the Industrial Age"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 5: Revolutions: review guide",
+  "intro": "From about 1750 to 1900, new political ideas and new ways of producing goods transformed the world. Enlightenment thinkers challenged absolute rule and inspired revolutions; industrialization began in Britain and spread; and new economic ideas, workers' movements, and social classes followed.",
+  "sections": [
+   {
+    "id": "s-wh5-ideas",
+    "topicId": "wh5-ideas",
+    "title": "The Enlightenment and revolutions",
+    "body": [
+     "Enlightenment thinkers applied reason to government and society. John Locke argued that people have natural rights to life, liberty, and property and that governments exist to protect them; Rousseau wrote of the social contract and popular sovereignty. Critics such as Jeremy Bentham argued that rights come from law, not nature.",
+     "These ideas shaped the American Revolution (1775–1783), the French Revolution (1789), the Haitian Revolution (1791–1804), in which enslaved people won independence, and the Latin American independence movements led by figures such as Simón Bolívar. Nationalism, a sense of shared identity among people with a common language or history, also grew."
+    ],
+    "points": [
+     "Connect each revolution to specific Enlightenment ideas.",
+     "Revolutions often extended rights unevenly, for example to women and enslaved people."
+    ]
+   },
+   {
+    "id": "s-wh5-industry",
+    "topicId": "wh5-industry",
+    "title": "The Industrial Revolution and its spread",
+    "body": [
+     "Industrialization began in Britain around 1750, aided by coal and iron deposits, rivers and canals, capital from trade, a growing workforce, and access to colonial markets. The steam engine powered factories, railroads, and ships, and textile production moved into factories.",
+     "Industry spread to Belgium, Germany, the United States, Russia, and Japan. Some governments directed industrialization: Meiji Japan built railroads and factories after 1868, and Muhammad Ali's Egypt developed state-run textile production. Elsewhere, cheap factory goods undercut handicraft producers, as in India's textile industry."
+    ],
+    "points": [
+     "Explain why Britain industrialized first.",
+     "Compare state-led and private industrialization."
+    ]
+   },
+   {
+    "id": "s-wh5-society",
+    "topicId": "wh5-society",
+    "title": "Trade policies, reactions, and industrial society",
+    "body": [
+     "Mercantilists such as Thomas Mun had argued that a nation should export more than it imports. Adam Smith's The Wealth of Nations (1776) argued instead for free markets and laissez-faire, and by the mid-1800s Britain moved toward free trade. New business forms such as transnational corporations and stock markets developed.",
+     "Industrial work brought long hours, child labor, and crowded cities. Workers formed unions; some, such as the Luddites, broke machines; Karl Marx called for workers to overthrow capitalism. A new middle class grew, and many governments eventually passed reforms."
+    ],
+    "points": [
+     "Trade policy questions often contrast mercantilism with free trade.",
+     "Distinguish reform (changing the system) from revolution (replacing it)."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain how Enlightenment ideas contributed to the Haitian Revolution.",
+   "solution": "Ideas of natural rights and equality, proclaimed in the French Revolution's declarations, were taken up by enslaved and free people of color in Saint-Domingue, who demanded that liberty apply to them; the revolt ended slavery and created an independent Haiti in 1804."
+  },
+  "misconceptions": [
+   [
+    "“The Industrial Revolution was a single invention.”",
+    "It was a long process of many changes in energy, machines, labor, and organization."
+   ],
+   [
+    "“Adam Smith opposed all government.”",
+    "He criticized mercantilist monopolies and trade restrictions, but accepted roles for government such as defense and justice."
+   ],
+   [
+    "“Luddites opposed all technology.”",
+    "They broke specific machines they blamed for low wages and unemployment."
+   ],
+   [
+    "“The revolutions gave rights to everyone.”",
+    "Women, the poor, and enslaved people were often excluded."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP World History: Modern Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+  "sourceTitle": "AP World History: Modern – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "wh5-a",
+   "title": "Source A: John Locke and Jeremy Bentham on natural rights",
+   "text": [
+    "Source 1, John Locke, Two Treatises of Government (1689): “The state of nature has a law of nature to govern it, which obliges every one: and reason, which is that law, teaches all mankind, who will but consult it, that being all equal and independent, no one ought to harm another in his life, health, liberty, or possessions . . .”",
+    "Source 2, Jeremy Bentham, Anarchical Fallacies, written in the 1790s in response to the declarations of rights of the French Revolution: “That there are no such things as natural rights—no such things as rights anterior to [existing before] the establishment of government . . . Natural rights is simple nonsense: natural and imprescriptible rights, rhetorical nonsense,—nonsense upon stilts.”"
+   ],
+   "attribution": "John Locke, English philosopher, 1689; Jeremy Bentham, English philosopher, written in the 1790s. The bracketed gloss is OpenStax's. Public domain. Wording follows the excerpt quoted in OpenStax World History, Volume 2, section 7.1.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (both were written in English; Locke's treatise was published in 1689, and Bentham's work was first published in English in 1843). StudySprint quotes it as excerpted in OpenStax World History, Volume 2 (openstax.org/books/world-history-volume-2/pages/7-1-the-enlightenment); no OpenStax commentary is copied."
+  },
+  {
+   "id": "wh5-b",
+   "title": "Source B: Two accounts of machine-breaking in England, 1812",
+   "text": [
+    "Source 1, sworn complaint of John Sykes of Linthwaite, Yorkshire, March 6, 1812: “Who saith that between one and two o clock this Morning a number of people came to the door of his said Master’s dwelling house and knocked violently at it . . . they secured or guarded every person of the family and then a number of them took a pound of candles and began to break the tools and did break 10 pairs of shears and one brushing machine the property of his said Master, that one of them who seemed to have the command said that if they came again and found any machinery set up, they would blow up the premises”",
+    "Source 2, letter from a magistrate in Nottingham to London, February 1812: “For some time before these troubles broke out, in many places a fifth of the frame workers were out of employ, and this naturally induced some hosiers (not perhaps of the first reputation) to give them particular kinds of work at reduced prices . . . resentment against those hosiers who paid the under price has been the leading feature up to the present day. They have seldom made free with other property altho’ opportunities at all times have presented themselves”"
+   ],
+   "attribution": "A sworn complaint taken by a justice of the peace, and a magistrate's letter, both written in England in 1812 during the Luddite disturbances. Public domain. Wording follows the excerpt quoted in OpenStax World History, Volume 2, section 6.3.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (both documents were written in England in 1812). StudySprint quotes it as excerpted in OpenStax World History, Volume 2 (openstax.org/books/world-history-volume-2/pages/6-3-capitalism-and-the-first-industrial-revolution); no OpenStax commentary is copied."
+  },
+  {
+   "id": "wh5-c",
+   "title": "Source C: An interpretation of how industrialization spread",
+   "text": [
+    "“Britain industrialized first for several reasons: it had rich deposits of coal and iron, rivers and canals for transport, merchants with capital from overseas trade, and a growing population that included many people pushed off the land by enclosure. James Watt's improved steam engine, patented in 1769, freed factories from the need to sit beside rivers and later powered railroads and steamships. Industry spread in the 1800s to Belgium, Germany, and the United States. In some places governments led the way: after 1868, Meiji Japan built railroads, shipyards, and factories, and earlier Muhammad Ali had set up state textile mills in Egypt. Elsewhere, cheap British cloth flooded markets, and India's hand-spinners and weavers lost much of their livelihood.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh5-d",
+   "title": "Source D: Thomas Mun and Adam Smith on trade policy",
+   "text": [
+    "Source 1, Thomas Mun, England's Treasure by Forraign Trade (published 1664): “The ordinary means therefore to increase our wealth and treasure is by Forraign Trade, wherein wee must ever observe this rule; to sell more to strangers yearly than wee consume of theirs in value.”",
+    "Source 2, Adam Smith, The Wealth of Nations (1776): “A great empire has been established for the sole purpose of raising up a nation of customers who should be obliged to buy from the shops of our different producers, all the goods with which these could supply them. . . . It cannot be very difficult to determine who have been the contrivers of this whole mercantile system; not the consumers, we may believe, whose interest has been entirely neglected; but the producers, whose interest has been so carefully attended to”"
+   ],
+   "attribution": "Thomas Mun, English merchant, published 1664; Adam Smith, Scottish economist and philosopher, 1776. Public domain. Wording follows the excerpt quoted in OpenStax World History, Volume 2, section 5.3.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (both were written in English and published in 1664 and 1776). StudySprint quotes it as excerpted in OpenStax World History, Volume 2 (openstax.org/books/world-history-volume-2/pages/5-3-the-mercantilist-economy); no OpenStax commentary is copied."
+  }
+ ],
+ "questions": [
+  {
+   "id": "wh-u5-q01",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-ideas",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In Source 1, Locke argues that",
+   "choices": [
+    "rights exist only when a government grants them through its laws",
+    "people have natural rights that exist before government",
+    "people in a state of nature have no rules to follow",
+    "kings receive their power directly from God"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Locke says the law of nature, known by reason, forbids anyone to harm another “in his life, health, liberty, or possessions.”",
+   "choiceExplanations": [
+    "That is Bentham's view in Source 2.",
+    "",
+    "Locke says the state of nature “has a law of nature to govern it.”",
+    "Locke does not argue for divine-right monarchy here."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-a"
+  },
+  {
+   "id": "wh-u5-q02",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-ideas",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In Source 2, Bentham argues that",
+   "choices": [
+    "people are all equal in the state of nature",
+    "natural rights are the foundation of all good government",
+    "rights come from law and government, not from nature",
+    "the French declarations did not go far enough"
+   ],
+   "correctAnswer": 2,
+   "explanation": "He denies that there are “rights anterior to [existing before] the establishment of government.”",
+   "choiceExplanations": [
+    "Equality in the state of nature is Locke's claim.",
+    "He calls natural rights “nonsense upon stilts.”",
+    "",
+    "He attacks the declarations instead of wanting more from them."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-a"
+  },
+  {
+   "id": "wh-u5-q03",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-ideas",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Ideas like those in Source 1 most directly influenced",
+   "choices": [
+    "the Ottoman devshirme system",
+    "the Qing policy of requiring the queue",
+    "the Meiji government's plans for industrial growth after 1868",
+    "the American and French revolutionary declarations of rights"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Locke's natural rights to life, liberty, and property shaped both revolutionary declarations.",
+   "choiceExplanations": [
+    "The devshirme was an Ottoman recruitment system that predates Locke.",
+    "The queue was a symbol of Manchu authority.",
+    "Meiji industrial policy concerned economic modernization.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-a"
+  },
+  {
+   "id": "wh-u5-q04",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-ideas",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Bentham's situation as he wrote Source 2 best explains which feature of his argument?",
+   "choices": [
+    "He was defending the absolute power of French kings against all critics.",
+    "He was writing before Locke and could not have known Locke's arguments.",
+    "He was writing a declaration of rights for a new government in France.",
+    "He was reacting to the French Revolution and feared disorder."
+   ],
+   "correctAnswer": 3,
+   "explanation": "Writing in response to the revolutionary declarations, Bentham warns that natural-rights talk “leads to mischief,” a fear sharpened by the revolution's upheavals.",
+   "choiceExplanations": [
+    "Bentham was a reformer, not a defender of absolutism.",
+    "Locke wrote a century earlier.",
+    "He was attacking declarations of rights rather than writing one.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-a"
+  },
+  {
+   "id": "wh-u5-q05",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-industry",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In Source 1, the people who entered the house mainly targeted",
+   "choices": [
+    "the soldiers who had been stationed in the village",
+    "the family's money and jewelry",
+    "tools and machinery belonging to the master",
+    "the magistrate who took the complaint"
+   ],
+   "correctAnswer": 2,
+   "explanation": "They broke “10 pairs of shears and one brushing machine” and threatened to return if machinery was set up again.",
+   "choiceExplanations": [
+    "No soldiers appear in Source 1.",
+    "They broke tools rather than stealing valuables.",
+    "",
+    "The magistrate recorded the complaint; he was not attacked."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-b"
+  },
+  {
+   "id": "wh-u5-q06",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-society",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Source 2 explains the unrest mainly as a response to",
+   "choices": [
+    "unemployment and work offered at reduced prices",
+    "the high price that hosiers paid for new machinery",
+    "religious conflict among workers",
+    "a ban on the sale of candles"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The magistrate says a fifth of frame workers were out of work and some hosiers paid lower prices, which bred resentment.",
+   "choiceExplanations": [
+    "",
+    "He blames low prices for work, not machine costs.",
+    "Religion is not mentioned.",
+    "Candles appear in Source 1, not as a cause."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-b"
+  },
+  {
+   "id": "wh-u5-q07",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-industry",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Together, the two sources show that the Luddite disturbances were",
+   "choices": [
+    "rebellions aimed at overthrowing the British monarchy",
+    "protests by workers who feared for their livelihood",
+    "attacks organized by factory owners against their rivals",
+    "disputes over the right of workers to vote in elections"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Machine-breaking targeted equipment and employers who paid less, reflecting fears about jobs and wages.",
+   "choiceExplanations": [
+    "Neither source mentions overthrowing the monarchy.",
+    "",
+    "Workers, not owners, broke the machines.",
+    "Voting rights are not mentioned."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-b"
+  },
+  {
+   "id": "wh-u5-q08",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-society",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How does Source 2's point of view differ from that of Source 1?",
+   "choices": [
+    "It denies that any machine-breaking took place.",
+    "It describes a single attack in detail from the point of view of a victim's household.",
+    "It explains causes and notes that the breakers rarely took other property.",
+    "It calls for the machine-breakers to be executed at once."
+   ],
+   "correctAnswer": 2,
+   "explanation": "The magistrate offers analysis of causes and a measured view of the workers; Source 1 is a sworn account of one attack.",
+   "choiceExplanations": [
+    "He refers to “these troubles” and to frames being broken.",
+    "That describes Source 1.",
+    "",
+    "He calls for no punishment in the excerpt."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-b"
+  },
+  {
+   "id": "wh-u5-q09",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-industry",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, one reason Britain industrialized first was its",
+   "choices": [
+    "ban on steam engines",
+    "lack of overseas trade",
+    "large silver mines in the Andes",
+    "rich deposits of coal and iron"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The source lists “rich deposits of coal and iron” among Britain's advantages.",
+   "choiceExplanations": [
+    "Britain developed steam engines.",
+    "Britain's overseas trade supplied capital.",
+    "The Andes silver mines belonged to Spain's empire.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-c"
+  },
+  {
+   "id": "wh-u5-q10",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-industry",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, Watt's improved steam engine mattered because it",
+   "choices": [
+    "replaced all human labor in factories",
+    "freed factories from rivers and later powered transport",
+    "ended the need for coal in British industry and its mines",
+    "was first built in Meiji Japan"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Steam power freed factories from water power and later drove railroads and steamships.",
+   "choiceExplanations": [
+    "Workers were still needed in factories.",
+    "",
+    "Steam engines burned coal.",
+    "Watt worked in Britain."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-c"
+  },
+  {
+   "id": "wh-u5-q11",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-industry",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The examples of Meiji Japan and Muhammad Ali's Egypt in Source C both show",
+   "choices": [
+    "industry spreading only through private investors",
+    "colonies forced to industrialize by Britain",
+    "governments directing industrial development",
+    "countries refusing to adopt industrial technology"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Both states built industries through government action.",
+   "choiceExplanations": [
+    "Both are examples of state, not purely private, direction.",
+    "Neither Japan nor Egypt (at that time) was a British colony forced to industrialize.",
+    "",
+    "Both adopted industrial technology."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-c"
+  },
+  {
+   "id": "wh-u5-q12",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-society",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The final sentence of Source C best supports which claim about the global effects of industrialization?",
+   "choices": [
+    "Industry in some regions undercut older crafts in others.",
+    "Industrialization benefited all regions of the world equally.",
+    "British cloth was too expensive to sell in Asian markets.",
+    "India became the world's leading industrial power in the 1800s."
+   ],
+   "correctAnswer": 0,
+   "explanation": "Cheap factory cloth from Britain cost Indian hand-spinners and weavers their livelihood: one region's industry hurt another's crafts.",
+   "choiceExplanations": [
+    "",
+    "The example shows unequal effects.",
+    "The source says British cloth was cheap.",
+    "India lost manufacturing in this period."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-c"
+  },
+  {
+   "id": "wh-u5-q13",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-society",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Mun's “rule” in Source 1 is a statement of",
+   "choices": [
+    "laissez-faire: governments should not regulate trade",
+    "mercantilism: export more than you import",
+    "socialism: workers should own the means of production",
+    "the gold standard: currency must be backed by gold"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Selling more to foreigners than one buys from them is the core idea of mercantilism.",
+   "choiceExplanations": [
+    "Laissez-faire is Smith's position.",
+    "",
+    "Mun says nothing about workers' ownership.",
+    "The gold standard is a different policy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-d"
+  },
+  {
+   "id": "wh-u5-q14",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-society",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Smith criticizes the mercantile system in Source 2 mainly because it",
+   "choices": [
+    "allowed foreign goods to flood the home market",
+    "prevented Britain from building an empire",
+    "gave too much power to consumers",
+    "served producers at the expense of consumers"
+   ],
+   "correctAnswer": 3,
+   "explanation": "He says consumers' interest “has been entirely neglected” while producers' interest was “carefully attended to.”",
+   "choiceExplanations": [
+    "Mercantilism restricted imports.",
+    "He says the system built an empire.",
+    "He says consumers were neglected.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-d"
+  },
+  {
+   "id": "wh-u5-q15",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-ideas",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Smith's argument in Source 2 most reflects which broader development of the eighteenth century?",
+   "choices": [
+    "The Enlightenment use of reason to criticize institutions",
+    "The Mongol protection of overland trade",
+    "The spread of Neo-Confucian ideas in China",
+    "The Counter-Reformation's defense of Church authority against Protestant critics"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Like other Enlightenment thinkers, Smith used reasoned analysis to challenge an accepted system.",
+   "choiceExplanations": [
+    "",
+    "The Mongol era was centuries earlier.",
+    "Neo-Confucianism belongs to East Asian history.",
+    "The Counter-Reformation was a religious movement of the 1500s."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-d"
+  },
+  {
+   "id": "wh-u5-q16",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "topicId": "wh5-society",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The contrast between Source 1 and Source 2 best illustrates which change over time?",
+   "choices": [
+    "A shift from state-managed trade toward free trade",
+    "No change, because both authors favored trade restrictions",
+    "A shift from free trade toward stricter mercantilism",
+    "A shift from agriculture to industry as the source of all wealth"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Mun (1664) defends the mercantilist balance of trade; Smith (1776) attacks the mercantile system. Britain later moved toward free trade in the 1800s.",
+   "choiceExplanations": [
+    "",
+    "Smith opposes the restrictions Mun favors.",
+    "The change runs the other way.",
+    "Neither excerpt discusses agriculture versus industry."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh5-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-wh-u5-os1",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "title": "OpenStax World History, Volume 2: from 1400, 7.1 The Enlightenment",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/7-1-the-enlightenment",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on the Enlightenment. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/7-1-the-enlightenment",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  },
+  {
+   "id": "res-wh-u5-os2",
+   "courseId": "ap-world-history",
+   "unitId": "u5",
+   "title": "OpenStax World History, Volume 2: from 1400, 6.3 Capitalism and the First Industrial Revolution",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/6-3-capitalism-and-the-first-industrial-revolution",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on capitalism and the first Industrial Revolution. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/6-3-capitalism-and-the-first-industrial-revolution",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP World History: Modern short-answer, document-based, and long-essay questions often span several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "wh-u5-q01",
+    "wh-u5-q02",
+    "wh-u5-q03",
+    "wh-u5-q04",
+    "wh-u5-q05",
+    "wh-u5-q06",
+    "wh-u5-q07",
+    "wh-u5-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "wh-u5-q09",
+    "wh-u5-q10",
+    "wh-u5-q11",
+    "wh-u5-q12",
+    "wh-u5-q13",
+    "wh-u5-q14",
+    "wh-u5-q15",
+    "wh-u5-q16"
+   ]
+  }
+ ]
+}

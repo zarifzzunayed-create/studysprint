@@ -1,0 +1,705 @@
+{
+ "courseId": "ap-world-history",
+ "unitId": "u7",
+ "title": "Unit 7: Global Conflict",
+ "topics": [
+  {
+   "id": "wh7-ww1",
+   "name": "Shifting power and World War I",
+   "covers": [
+    "Changes in the global political order after 1900",
+    "World War I: its causes and how it was fought"
+   ],
+   "frameworkCovers": [
+    "7.1 Shifting Power After 1900",
+    "7.2 Causes of World War I",
+    "7.3 Conducting World War I"
+   ]
+  },
+  {
+   "id": "wh7-interwar",
+   "name": "The interwar period",
+   "covers": [
+    "The interwar period"
+   ],
+   "frameworkCovers": [
+    "7.4 Economy in the Interwar Period",
+    "7.5 Unresolved Tensions After World War I"
+   ]
+  },
+  {
+   "id": "wh7-ww2",
+   "name": "World War II and mass atrocities",
+   "covers": [
+    "World War II: its causes and how it was fought",
+    "Mass atrocities after 1900"
+   ],
+   "frameworkCovers": [
+    "7.6 Causes of World War II",
+    "7.7 Conducting World War II",
+    "7.8 Mass Atrocities After 1900",
+    "7.9 Causation in Global Conflict"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 7: Global Conflict: review guide",
+  "intro": "The twentieth century opened with old empires collapsing and new powers rising. Two world wars, a global depression, and the rise of authoritarian states followed, and governments committed mass atrocities on an unprecedented scale. This unit covers causes, the conduct of total war, and the consequences.",
+  "sections": [
+   {
+    "id": "s-wh7-ww1",
+    "topicId": "wh7-ww1",
+    "title": "Shifting power and World War I",
+    "body": [
+     "Old land empires weakened or fell: the Qing dynasty ended in 1911, revolution began in Mexico in 1910, and the Russian, Ottoman, and Austro-Hungarian empires collapsed during or after World War I. Causes of the war included imperial rivalry, militarism, alliance systems, and nationalism; the assassination of Archduke Franz Ferdinand in 1914 set it off.",
+     "World War I was a total war: governments mobilized whole economies, used propaganda, and recruited soldiers from colonies. On the Western Front, machine guns, artillery, and poison gas produced trench warfare and enormous casualties."
+    ],
+    "points": [
+     "Separate long-term causes from the immediate trigger.",
+     "Total war blurred the line between soldiers and civilians."
+    ]
+   },
+   {
+    "id": "s-wh7-interwar",
+    "topicId": "wh7-interwar",
+    "title": "The interwar period",
+    "body": [
+     "The Treaty of Versailles (1919) blamed Germany for the war and imposed reparations. The League of Nations was created, but the United States never joined. Former Ottoman lands became League mandates under British and French control.",
+     "The Great Depression began in 1929 and spread worldwide. Responses varied: the U.S. New Deal expanded government's role in the economy; the Soviet Union pursued state-run Five-Year Plans and forced collectivization; and fascist and militarist regimes in Italy, Germany, and Japan promised national revival through authoritarian rule and expansion."
+    ],
+    "points": [
+     "Connect economic crisis to political change.",
+     "Unresolved tensions after 1919 helped cause World War II."
+    ]
+   },
+   {
+    "id": "s-wh7-ww2",
+    "topicId": "wh7-ww2",
+    "title": "World War II and mass atrocities",
+    "body": [
+     "Japan invaded Manchuria (1931) and China (1937); Germany expanded in Europe and invaded Poland in 1939. Appeasement failed. The war was fought with mass mobilization, including women in industry and millions of colonial soldiers, and with bombing of cities, ending with the U.S. atomic bombs on Hiroshima and Nagasaki in 1945.",
+     "The century saw repeated mass atrocities: the Armenian genocide in the Ottoman Empire (1915), the Holodomor famine in Soviet Ukraine (1932–1933), the Holocaust in which Nazi Germany murdered about six million Jews and millions of others, and later the Cambodian genocide (1975–1979) and the Rwandan genocide (1994)."
+    ],
+    "points": [
+     "Causation questions ask how ideology, war, and state power combined.",
+     "Compare atrocities by perpetrator, target group, and context."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain one way the Great Depression contributed to the outbreak of World War II.",
+   "solution": "Mass unemployment and economic collapse discredited democratic governments in countries such as Germany, helping the Nazis take power in 1933; their expansionist goals, along with Japanese expansion in Asia, led to war."
+  },
+  "misconceptions": [
+   [
+    "“World War I was caused only by an assassination.”",
+    "The assassination was a trigger; alliances, militarism, imperialism, and nationalism were deeper causes."
+   ],
+   [
+    "“The Great Depression affected only the United States.”",
+    "It spread worldwide through trade and finance."
+   ],
+   [
+    "“Mass atrocities happened only in World War II.”",
+    "Genocides and state-made famines occurred throughout the century."
+   ],
+   [
+    "“Colonies played no role in the world wars.”",
+    "Millions of colonial soldiers and workers served the imperial powers."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP World History: Modern Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+  "sourceTitle": "AP World History: Modern – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "wh7-a",
+   "title": "Source A: Siegfried Sassoon, “Counter-Attack,” 1918",
+   "text": [
+    "“We’d gained our first objective hours before / While dawn broke like a face with blinking eyes, / Pallid, unshaven and thirsty, blind with smoke. / Things seemed all right at first. We held their line, / With bombers posted, Lewis guns well placed, / And clink of shovels deepening the shallow trench. . . . / He crouched and flinched, dizzy with galloping fear, / Sick for escape,—loathing the strangled horror / And butchered, frantic gestures of the dead. . . . / Down, and down, and down, he sank and drowned, / Bleeding to death. The counter-attack had failed.”"
+   ],
+   "attribution": "Siegfried Sassoon, a British officer and poet who served on the Western Front, from a poem published in 1918. (Lewis guns were light machine guns.) Public domain. Wording follows the excerpt quoted in OpenStax World History, Volume 2, section 11.3.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (written in English and published in 1918). StudySprint quotes it as excerpted in OpenStax World History, Volume 2 (openstax.org/books/world-history-volume-2/pages/11-3-total-war); no OpenStax commentary is copied."
+  },
+  {
+   "id": "wh7-b",
+   "title": "Source B: An interpretation of the interwar years, 1919–1939",
+   "text": [
+    "“The peace of 1919 satisfied almost no one. The Treaty of Versailles forced Germany to accept blame for the war and to pay reparations, and many Germans called it a dictated peace. The new League of Nations lacked the United States. Arab lands taken from the Ottoman Empire became League mandates governed by Britain and France, not the independent states many Arabs had been promised. Then, after 1929, the Great Depression spread around the world. The United States answered with the New Deal, which expanded the government's role in the economy, while the Soviet Union pushed ahead with state-run Five-Year Plans. In Germany, Italy, and Japan, leaders promising order and national glory gained power.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh7-c",
+   "title": "Source C: An interpretation of World War II as total war",
+   "text": [
+    "“World War II mobilized societies more completely than any war before it. Factories in the United States, Britain, and the Soviet Union turned out tanks and aircraft by the tens of thousands, and millions of women took industrial jobs. Britain drew more than two million soldiers from India, and France recruited heavily in Africa. Civilians became targets on a vast scale: German, British, American, and Japanese bombers struck cities, and in August 1945 the United States dropped atomic bombs on Hiroshima and Nagasaki. In occupied Europe, Nazi Germany carried out the Holocaust, the systematic murder of about six million Jews, along with Roma, disabled people, and others it deemed undesirable.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh7-d",
+   "title": "Source D: An interpretation of collapsing empires and mass atrocities",
+   "text": [
+    "“Within a few years after 1910 several old empires fell. The Qing dynasty ended in 1911, and World War I destroyed the Russian, Ottoman, and Austro-Hungarian empires. Upheaval of this kind repeatedly opened the way to mass violence. During the war, Ottoman authorities deported and killed hundreds of thousands of Armenians. In 1932 and 1933, Stalin's forced collectivization and grain seizures caused a famine in Soviet Ukraine, the Holodomor, that killed millions. Later in the century, the Khmer Rouge killed some two million Cambodians between 1975 and 1979, and in 1994 Hutu extremists in Rwanda murdered hundreds of thousands of Tutsi in about a hundred days.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "wh-u7-q01",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-ww1",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Details such as “the shallow trench” and “Lewis guns well placed” show that Source A describes",
+   "choices": [
+    "a naval battle in the North Sea",
+    "trench warfare on the Western Front",
+    "a cavalry charge in the Russian steppe",
+    "guerrilla fighting in a colonial jungle"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The trench, the line, and the machine guns place the poem in the trench warfare of the Western Front, where Sassoon served.",
+   "choiceExplanations": [
+    "The poem describes trenches, not ships.",
+    "",
+    "No horses or cavalry appear.",
+    "The setting is a fixed line of trenches, not guerrilla war."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-a"
+  },
+  {
+   "id": "wh-u7-q02",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-ww1",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What happens to the soldier at the end of the excerpt?",
+   "choices": [
+    "He is promoted for his bravery in the attack.",
+    "He is killed, and the counter-attack fails.",
+    "He leads his unit to capture the enemy line.",
+    "He escapes the battle and returns home safely."
+   ],
+   "correctAnswer": 1,
+   "explanation": "He sinks down, “Bleeding to death. The counter-attack had failed.”",
+   "choiceExplanations": [
+    "Nothing suggests a promotion.",
+    "",
+    "The attack fails.",
+    "He dies on the battlefield."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-a"
+  },
+  {
+   "id": "wh-u7-q03",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-ww1",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The poem's picture of combat most directly contrasts with",
+   "choices": [
+    "Sassoon's own experience as an officer at the front",
+    "accounts showing heavy casualties on the Western Front",
+    "propaganda presenting the war as glorious",
+    "the idea that soldiers felt fear in battle"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Sassoon's images of fear, mud, and pointless death challenged official images of a heroic war.",
+   "choiceExplanations": [
+    "The poem draws on his experience; it does not contrast with it.",
+    "The poem agrees with accounts of heavy casualties.",
+    "",
+    "The poem itself shows the soldier's fear."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-a"
+  },
+  {
+   "id": "wh-u7-q04",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-ww1",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which feature of World War I does the poem best illustrate?",
+   "choices": [
+    "The use of atomic weapons against cities",
+    "Industrial weapons producing stalemate and mass death",
+    "Rapid advances that ended the war within weeks",
+    "A war fought mainly by volunteers from neutral countries"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Machine guns (the Lewis guns) and the failed counter-attack in which a soldier bleeds to death in the mud reflect the costly, deadlocked fighting of the Western Front.",
+   "choiceExplanations": [
+    "Atomic weapons were first used in 1945.",
+    "",
+    "The war lasted more than four years.",
+    "The armies were national and imperial forces."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-a"
+  },
+  {
+   "id": "wh-u7-q05",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-interwar",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source B, the League mandates in former Ottoman lands were",
+   "choices": [
+    "colonies ruled by the United States",
+    "independent Arab states",
+    "lands returned to Ottoman rule",
+    "lands governed by Britain and France"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The source says the lands “became League mandates governed by Britain and France,” not independent states.",
+   "choiceExplanations": [
+    "The United States did not even join the League.",
+    "The source says many Arabs did not receive the independence they were promised.",
+    "The Ottoman Empire had collapsed.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-b"
+  },
+  {
+   "id": "wh-u7-q06",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-interwar",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Source B suggests that the Great Depression contributed most directly to",
+   "choices": [
+    "the rise of leaders promising order and glory",
+    "the United States joining the League of Nations",
+    "the end of the Soviet Five-Year Plans",
+    "Germany's decision to pay reparations in full"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Economic crisis helped leaders in Germany, Italy, and Japan who promised order and national revival.",
+   "choiceExplanations": [
+    "",
+    "The United States never joined the League.",
+    "The Soviet Union pushed ahead with its plans.",
+    "The source says nothing about full payment of reparations."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-b"
+  },
+  {
+   "id": "wh-u7-q07",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-ww2",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which development described in Source B helps explain the causes of World War II?",
+   "choices": [
+    "German resentment of the Versailles treaty",
+    "The New Deal's expansion of government",
+    "The creation of state-run Soviet factories",
+    "The Arab support for British mandates"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Many Germans saw the treaty as unjust, a grievance that the Nazis exploited in pursuing expansion.",
+   "choiceExplanations": [
+    "",
+    "The New Deal was a domestic economic program.",
+    "Soviet planning was a response to economic goals, not a direct cause of the war.",
+    "The source says many Arabs had been promised independence instead."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-b"
+  },
+  {
+   "id": "wh-u7-q08",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-interwar",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How did the U.S. and Soviet responses to economic crisis in Source B differ?",
+   "choices": [
+    "Neither country changed its economic policies in the 1930s.",
+    "The United States rejected any government role in the economy, while the Soviets favored free markets.",
+    "The New Deal kept a market economy, while Soviet planning was fully state-run.",
+    "Both ended private property and created a command economy."
+   ],
+   "correctAnswer": 2,
+   "explanation": "The New Deal expanded government within a market system; the Soviet Five-Year Plans placed industry entirely under the state.",
+   "choiceExplanations": [
+    "Both countries changed course in the 1930s.",
+    "The New Deal expanded the government's role, and the Soviets rejected free markets.",
+    "",
+    "The United States kept private property."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-b"
+  },
+  {
+   "id": "wh-u7-q09",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-ww2",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Source C presents World War II as a total war, meaning that",
+   "choices": [
+    "only professional soldiers took part in the fighting",
+    "civilians were protected from all attacks",
+    "the war was limited to a single continent",
+    "whole societies and economies were mobilized for it"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Factories, women workers, colonial soldiers, and attacks on cities show the mobilization of entire societies.",
+   "choiceExplanations": [
+    "Millions of civilians and colonial soldiers took part.",
+    "The source says civilians “became targets on a vast scale.”",
+    "It was fought in Europe, Asia, Africa, and the Pacific.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-c"
+  },
+  {
+   "id": "wh-u7-q10",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-ww2",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, the Holocaust was",
+   "choices": [
+    "the U.S. atomic attack on Hiroshima",
+    "Nazi Germany's systematic murder of about six million Jews",
+    "the recruitment of soldiers from India",
+    "the bombing of British cities by German aircraft during the war"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The source defines it as “the systematic murder of about six million Jews,” along with other targeted groups.",
+   "choiceExplanations": [
+    "The atomic bombs are a separate event.",
+    "",
+    "Colonial recruitment is a separate development.",
+    "Bombing of cities is a separate development."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-c"
+  },
+  {
+   "id": "wh-u7-q11",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-ww2",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The recruitment of Indian and African soldiers described in Source C most likely contributed to",
+   "choices": [
+    "stronger demands for independence",
+    "an end to European rule within a year",
+    "the colonies joining the Axis powers",
+    "a decline in nationalism in the colonies"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Colonial peoples who fought and worked for the empires pressed harder for self-rule, and independence movements gained force after 1945.",
+   "choiceExplanations": [
+    "",
+    "Decolonization took years or decades.",
+    "The colonies supported the Allied empires.",
+    "Nationalism grew after the war."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-c"
+  },
+  {
+   "id": "wh-u7-q12",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-ww1",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Compared with World War I, the conduct of World War II as described in Source C was distinctive mainly because",
+   "choices": [
+    "far more civilians died from bombing and genocide",
+    "it was the first war to use machine guns and tanks",
+    "it involved no economic mobilization",
+    "it was fought without colonial soldiers"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Mass bombing of cities, atomic weapons, and the Holocaust made civilian deaths far greater than in World War I.",
+   "choiceExplanations": [
+    "",
+    "Machine guns were central in World War I.",
+    "The source describes vast economic mobilization.",
+    "The source describes colonial soldiers."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-c"
+  },
+  {
+   "id": "wh-u7-q13",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-ww1",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source D, which empires were destroyed by World War I?",
+   "choices": [
+    "The Japanese, German, and Italian",
+    "The Qing, Mughal, and Safavid",
+    "The Russian, Ottoman, and Austro-Hungarian",
+    "The British, French, and Dutch"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The source names the Russian, Ottoman, and Austro-Hungarian empires; the Qing had already ended in 1911.",
+   "choiceExplanations": [
+    "These states survived World War I.",
+    "The Qing ended before the war; the Mughals and Safavids ended long before.",
+    "",
+    "These empires survived World War I."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-d"
+  },
+  {
+   "id": "wh-u7-q14",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-ww2",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The atrocities against Armenians, Cambodians, and Tutsi described in Source D share which feature?",
+   "choices": [
+    "All were carried out by the same government",
+    "All resulted from natural disasters",
+    "All took place before World War I began",
+    "Groups were targeted amid war or upheaval."
+   ],
+   "correctAnswer": 3,
+   "explanation": "Each took place amid war or revolution, and each targeted a group defined by its ethnicity, religion, or politics.",
+   "choiceExplanations": [
+    "They were carried out by different regimes.",
+    "They were human-made atrocities.",
+    "They took place in 1915, 1975–1979, and 1994.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-d"
+  },
+  {
+   "id": "wh-u7-q15",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-interwar",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "According to Source D, the Holodomor was caused by",
+   "choices": [
+    "Ottoman deportations during World War I",
+    "a German invasion of Ukraine in 1932",
+    "a drought that no policy could have prevented",
+    "Stalin's collectivization and grain seizures"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The source attributes the famine to “forced collectivization and grain seizures.”",
+   "choiceExplanations": [
+    "The Ottoman deportations targeted Armenians.",
+    "Germany did not invade the Soviet Union until 1941.",
+    "The source blames policy, not drought.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-d"
+  },
+  {
+   "id": "wh-u7-q16",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "topicId": "wh7-ww2",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which statement best explains the pattern described in Source D?",
+   "choices": [
+    "Mass atrocities happened only where governments had collapsed entirely.",
+    "Only colonial powers carried out mass atrocities in the twentieth century.",
+    "States in crisis used ideology to blame and destroy targeted groups.",
+    "Atrocities ended once the world wars were over."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Regimes facing war or revolution, from the Ottoman government to the Khmer Rouge, defined certain groups as enemies and targeted them.",
+   "choiceExplanations": [
+    "Strong states, such as the Soviet Union, also carried out atrocities.",
+    "The examples include non-colonial regimes.",
+    "",
+    "The source gives examples from 1975 and 1994."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh7-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-wh-u7-os1",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "title": "OpenStax World History, Volume 2: from 1400, 11.3 Total War",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/11-3-total-war",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on World War I as a total war. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/11-3-total-war",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  },
+  {
+   "id": "res-wh-u7-os2",
+   "courseId": "ap-world-history",
+   "unitId": "u7",
+   "title": "OpenStax World History, Volume 2: from 1400, 12.3 The Great Depression",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/12-3-the-great-depression",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on the Great Depression. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/12-3-the-great-depression",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP World History: Modern short-answer, document-based, and long-essay questions often span several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "wh-u7-q01",
+    "wh-u7-q02",
+    "wh-u7-q03",
+    "wh-u7-q04",
+    "wh-u7-q05",
+    "wh-u7-q06",
+    "wh-u7-q07",
+    "wh-u7-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "wh-u7-q09",
+    "wh-u7-q10",
+    "wh-u7-q11",
+    "wh-u7-q12",
+    "wh-u7-q13",
+    "wh-u7-q14",
+    "wh-u7-q15",
+    "wh-u7-q16"
+   ]
+  }
+ ]
+}

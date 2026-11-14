@@ -1,0 +1,754 @@
+{
+ "courseId": "ap-macroeconomics",
+ "unitId": "u5",
+ "title": "Unit 5: Long-Run Consequences of Stabilization Policies",
+ "topics": [
+  {
+   "id": "mac5-phillips",
+   "name": "Combined policy and the Phillips curve",
+   "covers": [
+    "The Phillips Curve"
+   ],
+   "frameworkCovers": [
+    "5.1 Fiscal and Monetary Policy Actions in the Short Run",
+    "5.2 The Phillips Curve"
+   ]
+  },
+  {
+   "id": "mac5-money",
+   "name": "Money growth and inflation",
+   "covers": [
+    "Money growth and inflation"
+   ],
+   "frameworkCovers": [
+    "5.3 Money Growth and Inflation"
+   ]
+  },
+  {
+   "id": "mac5-debt",
+   "name": "Deficits, debt, and crowding out",
+   "covers": [
+    "Government deficits and national debt",
+    "Crowding out"
+   ],
+   "frameworkCovers": [
+    "5.4 Government Deficits and the National Debt",
+    "5.5 Crowding Out"
+   ]
+  },
+  {
+   "id": "mac5-growth",
+   "name": "Economic growth and growth policy",
+   "covers": [
+    "Economic growth"
+   ],
+   "frameworkCovers": [
+    "5.6 Economic Growth",
+    "5.7 Public Policy and Economic Growth"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 5: Long-Run Consequences of Stabilization Policies: review guide",
+  "intro": "This unit, the most heavily weighted on the multiple-choice section, looks at what happens after stabilization policy: combined fiscal and monetary actions, the Phillips curve trade-off between inflation and unemployment, the long-run link between money growth and inflation, the burden of deficits and debt, crowding out, and the sources of long-run growth.",
+  "sections": [
+   {
+    "id": "s-mac5-phillips",
+    "topicId": "mac5-phillips",
+    "title": "Combined policy and the Phillips curve",
+    "body": [
+     "Fiscal and monetary policy can be combined to close an output gap: both expansionary for a negative gap, both contractionary for a positive gap. Combinations also affect interest rates: expansionary fiscal policy tends to raise rates, while expansionary monetary policy lowers them.",
+     "The short-run Phillips curve (SRPC) shows an inverse relationship between inflation and unemployment. Changes in aggregate demand move the economy along the SRPC (more AD: higher inflation, lower unemployment). Supply shocks shift the SRPC: a negative supply shock shifts it right, so both inflation and unemployment rise. The long-run Phillips curve (LRPC) is vertical at the natural rate of unemployment, because there is no long-run trade-off; factors that change the natural rate shift the LRPC. Changes in inflationary expectations also shift the SRPC."
+    ],
+    "points": [
+     "AD changes → movement along the SRPC; SRAS shocks → SRPC shifts.",
+     "LRPC is vertical at the natural rate, matching the vertical LRAS."
+    ]
+   },
+   {
+    "id": "s-mac5-money",
+    "topicId": "mac5-money",
+    "title": "Money growth and inflation",
+    "body": [
+     "The quantity theory of money uses the equation of exchange: M × V = P × Y, where M is the money supply, V is velocity, P is the price level, and Y is real output, so P × Y is nominal GDP. If velocity and real output are stable, the growth rate of the money supply determines the inflation rate in the long run.",
+     "Sustained inflation (or deflation) results from the money supply growing (or shrinking) too fast for a long period. At full employment, changes in the money supply have no effect on real output in the long run; they change only the price level."
+    ],
+    "points": [
+     "M × V = nominal GDP.",
+     "In the long run, money is neutral: more money means higher prices, not more output."
+    ]
+   },
+   {
+    "id": "s-mac5-debt",
+    "topicId": "mac5-debt",
+    "title": "Deficits, debt, and crowding out",
+    "body": [
+     "A budget deficit is the amount by which government spending plus transfer payments exceed tax revenue in a year; a surplus is the reverse. The national debt is the accumulated total of past deficits minus surpluses. Interest on the debt adds to future spending and uses funds that could go elsewhere.",
+     "When a government borrows to finance a deficit, demand for loanable funds rises (or national saving falls), raising the real interest rate. Higher rates reduce interest-sensitive private spending, especially investment: crowding out. In the long run, less investment means slower growth in physical capital and slower economic growth."
+    ],
+    "points": [
+     "Deficit is a yearly flow; debt is the accumulated stock.",
+     "Crowding out: government borrowing → higher real rate → less private investment."
+    ]
+   },
+   {
+    "id": "s-mac5-growth",
+    "topicId": "mac5-growth",
+    "title": "Economic growth and growth policy",
+    "body": [
+     "Economic growth is measured as the growth rate of real GDP per capita. The aggregate production function links output to employment, and output per worker (labor productivity) depends on technology and on physical and human capital per worker. An outward shift of the PPC corresponds to a rightward shift of LRAS.",
+     "Public policies that raise productivity or labor force participation, such as investment in infrastructure, education, and research, promote growth. Supply-side fiscal policies change incentives for households and businesses (for example, tax incentives for investment or work); they can affect aggregate demand in the short run and aggregate supply and potential output in the long run."
+    ],
+    "points": [
+     "% growth in real GDP per capita ≈ % growth in real GDP − % growth in population.",
+     "Productivity rises with capital per worker, human capital, and technology."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "The money supply is $3 trillion and velocity is 6. Real output is $9 trillion. Find nominal GDP and the price level. If the money supply grows by 5% while velocity and real output stay the same, what happens to the price level?",
+   "solution": "Nominal GDP = M × V = $18 trillion, so the price level is 18 ÷ 9 = 2. With V and Y constant, a 5% rise in M raises the price level by 5%, to 2.1."
+  },
+  "misconceptions": [
+   [
+    "“The long-run Phillips curve is vertical at zero unemployment.”",
+    "It is vertical at the natural rate of unemployment."
+   ],
+   [
+    "“Printing more money makes the economy grow faster in the long run.”",
+    "In the long run, more money raises prices, not real output."
+   ],
+   [
+    "“The deficit and the debt are the same thing.”",
+    "The deficit is one year's shortfall; the debt is the total accumulated borrowing."
+   ],
+   [
+    "“Higher nominal GDP growth means a higher standard of living.”",
+    "Growth is measured by real GDP per capita."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Macroeconomics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-macroeconomics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+  "sourceTitle": "AP Macroeconomics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "mac5-t1",
+   "title": "Table: Real GDP and population of Tarsia (hypothetical data)",
+   "text": [
+    "Year 1: real GDP $500 billion; population 50 million",
+    "Year 2: real GDP $525 billion; population 51 million"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "mac-u5-q01",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-phillips",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The short-run Phillips curve shows",
+   "choices": [
+    "a positive relationship between inflation and unemployment",
+    "an inverse relationship between inflation and unemployment",
+    "a permanent trade-off between inflation and unemployment",
+    "that unemployment does not affect the rate of inflation"
+   ],
+   "correctAnswer": 1,
+   "explanation": "In the short run, lower unemployment comes with higher inflation and vice versa, so the curve slopes downward.",
+   "choiceExplanations": [
+    "A positive relationship would slope upward; the SRPC slopes downward.",
+    "",
+    "The trade-off holds only in the short run; the long-run Phillips curve is vertical.",
+    "The SRPC exists precisely because the two are related in the short run."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q02",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-phillips",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "An increase in aggregate demand moves an economy",
+   "choices": [
+    "onto a short-run Phillips curve farther to the right",
+    "onto a long-run Phillips curve farther to the left",
+    "up and to the left along the short-run Phillips curve",
+    "down and to the right along the short-run Phillips curve"
+   ],
+   "correctAnswer": 2,
+   "explanation": "More AD raises inflation and lowers unemployment, a movement up and to the left along the SRPC.",
+   "choiceExplanations": [
+    "Changes in AD move along the SRPC; supply shocks shift it.",
+    "The LRPC shifts only when the natural rate changes, not with AD.",
+    "",
+    "Down and to the right (lower inflation, higher unemployment) follows a decrease in AD."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q03",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-phillips",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A sharp increase in the price of oil shifts short-run aggregate supply to the left. On the Phillips curve graph, this causes",
+   "choices": [
+    "the short-run Phillips curve to shift to the left",
+    "a movement upward along the short-run Phillips curve",
+    "the short-run Phillips curve to shift to the right",
+    "the long-run Phillips curve to shift to the left"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A negative supply shock raises both inflation and unemployment, which is shown by a rightward shift of the SRPC.",
+   "choiceExplanations": [
+    "A leftward SRPC shift would mean lower inflation and lower unemployment, which follows a positive supply shock.",
+    "Movements along the SRPC come from AD changes; supply shocks shift the curve.",
+    "",
+    "The LRPC moves only when the natural rate of unemployment changes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q04",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-phillips",
+   "skill": "1.D",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The long-run Phillips curve is vertical at",
+   "choices": [
+    "an unemployment rate of zero, because all workers find jobs in the long run",
+    "the natural rate of unemployment, because there is no long-run trade-off",
+    "the unemployment rate at which the inflation rate becomes exactly zero",
+    "the inflation rate the central bank has chosen as its long-run target"
+   ],
+   "correctAnswer": 1,
+   "explanation": "With flexible wages and prices in the long run, unemployment returns to the natural rate at any inflation rate.",
+   "choiceExplanations": [
+    "Unemployment in the long run returns to the natural rate, which includes frictional and structural unemployment.",
+    "",
+    "The natural rate can occur at any steady inflation rate, not only at zero inflation.",
+    "The LRPC is a vertical line at an unemployment rate, not a chosen inflation rate."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q05",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-phillips",
+   "skill": "2.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "An economy has a positive (inflationary) output gap. Which combination of policies would most reduce inflationary pressure?",
+   "choices": [
+    "Cut taxes and lower the interest rate on reserves",
+    "Raise government spending and raise the interest rate on reserves",
+    "Cut government spending and raise the interest rate on reserves",
+    "Raise taxes and buy government bonds on the open market"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Contractionary fiscal policy (less spending) and contractionary monetary policy (higher administered rates) both reduce AD.",
+   "choiceExplanations": [
+    "Both actions are expansionary and would add to inflationary pressure.",
+    "Higher spending raises AD and works against the higher interest rate.",
+    "",
+    "Buying bonds is expansionary and offsets the contractionary tax increase."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q06",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-money",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the quantity theory of money, if velocity and real output are constant, a 10% increase in the money supply will",
+   "choices": [
+    "leave the overall price level unchanged",
+    "raise real output by about 10%",
+    "lower velocity by about 10%",
+    "raise the price level by about 10%"
+   ],
+   "correctAnswer": 3,
+   "explanation": "With M × V = P × Y and V and Y fixed, P rises in proportion to M.",
+   "choiceExplanations": [
+    "With more money and the same output and velocity, prices must rise.",
+    "Real output is held constant in this case.",
+    "Velocity is held constant in this case.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q07",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-money",
+   "skill": "2.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The money supply is $2 trillion and the velocity of money is 5. What is nominal GDP?",
+   "choices": [
+    "$10 trillion",
+    "$2.5 trillion",
+    "$7 trillion",
+    "$0.4 trillion"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Nominal GDP = M × V = 2 × 5 = $10 trillion.",
+   "choiceExplanations": [
+    "",
+    "$2.5 trillion divides V by M.",
+    "$7 trillion adds M and V instead of multiplying them.",
+    "$0.4 trillion divides M by V."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q08",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-money",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Sustained high inflation over many years is most likely caused by",
+   "choices": [
+    "a large decrease in government purchases",
+    "money supply growing faster than real output for years",
+    "a one-time increase in the world price of oil",
+    "a long period of high unemployment and weak consumer demand"
+   ],
+   "correctAnswer": 1,
+   "explanation": "In the long run, inflation is a monetary phenomenon: persistent money growth beyond output growth raises prices year after year.",
+   "choiceExplanations": [
+    "Less government spending reduces AD, which tends to lower inflation.",
+    "",
+    "A one-time supply shock raises the price level once; it does not create years of inflation.",
+    "High unemployment and weak demand put downward pressure on inflation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q09",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-money",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An economy is at full employment. In the long run, a one-time increase in the money supply will",
+   "choices": [
+    "raise both real output and the price level permanently",
+    "raise real output but leave the price level unchanged",
+    "lower the price level and raise real output",
+    "raise the price level but leave real output unchanged"
+   ],
+   "correctAnswer": 3,
+   "explanation": "In the long run, money changes the price level but not real output, which returns to its full-employment level.",
+   "choiceExplanations": [
+    "Any short-run output gain disappears as wages and prices adjust.",
+    "In the long run, money does not change real output; the price level adjusts.",
+    "More money raises, not lowers, the price level.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q10",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-debt",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A government runs a budget deficit when",
+   "choices": [
+    "its spending plus transfer payments exceed its tax revenue in a year",
+    "its total national debt is larger than the country's GDP",
+    "the country imports more goods than it exports in a year",
+    "its tax revenue exceeds its spending and transfer payments for the year"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A deficit is a one-year gap between government outlays and tax revenue.",
+   "choiceExplanations": [
+    "",
+    "Debt larger than GDP describes the size of the debt, not a deficit.",
+    "Imports exceeding exports is a trade deficit, not a budget deficit.",
+    "Revenue exceeding outlays is a budget surplus."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q11",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-debt",
+   "skill": "1.D",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which statement correctly describes the relationship between budget deficits and the national debt?",
+   "choices": [
+    "The national debt is the shortfall between spending and taxes in one year.",
+    "Each year's deficit adds to the national debt, the total amount owed.",
+    "Running a budget deficit reduces the national debt by the same amount.",
+    "The deficit and the national debt are two names for the same amount."
+   ],
+   "correctAnswer": 1,
+   "explanation": "The deficit is a yearly flow; the debt is the accumulated stock of borrowing, which grows with each deficit.",
+   "choiceExplanations": [
+    "That describes the deficit, not the debt.",
+    "",
+    "Deficits increase the debt; surpluses can reduce it.",
+    "They differ: one is a single year's flow and the other is an accumulated total."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q12",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-debt",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A government borrows to finance a larger budget deficit. In the loanable funds market and the wider economy,",
+   "choices": [
+    "the real interest rate rises and private investment falls",
+    "the money supply increases and the interest rate falls",
+    "the real interest rate falls and private investment rises",
+    "the real interest rate rises and private investment rises"
+   ],
+   "correctAnswer": 0,
+   "explanation": "More government borrowing raises demand for loanable funds, raising the real rate and crowding out private investment.",
+   "choiceExplanations": [
+    "",
+    "Government borrowing affects the loanable funds market, not the money supply.",
+    "More borrowing raises, not lowers, the real interest rate.",
+    "A higher real rate reduces interest-sensitive investment."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q13",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-debt",
+   "skill": "2.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Why might persistent crowding out slow an economy's long-run growth?",
+   "choices": [
+    "Lower private investment slows the growth of the economy's physical capital stock.",
+    "Crowding out lowers the overall price level, which permanently reduces firms' revenue.",
+    "Crowding out raises household saving, which permanently lowers real output.",
+    "Higher interest rates shift the long-run aggregate supply curve left at once."
+   ],
+   "correctAnswer": 0,
+   "explanation": "With less investment, the economy adds less physical capital per worker, so productivity and potential output grow more slowly.",
+   "choiceExplanations": [
+    "",
+    "Crowding out works through interest rates and investment, not through a lower price level.",
+    "Higher saving would lower interest rates and support investment; it is not how crowding out slows growth.",
+    "Crowding out works gradually through capital accumulation, not through an immediate LRAS shift."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q14",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-growth",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Economic growth is best measured as the growth rate of",
+   "choices": [
+    "the money supply",
+    "the overall price level over time",
+    "nominal GDP over time",
+    "real GDP per capita over time"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Growth in real GDP per person shows rising output per person, adjusted for inflation.",
+   "choiceExplanations": [
+    "Money supply growth does not measure output.",
+    "A rising price level is inflation, not growth.",
+    "Nominal GDP can rise because of inflation without any more output.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q15",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-growth",
+   "skill": "1.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, by about how much did Tarsia's real GDP per capita grow from Year 1 to Year 2?",
+   "choices": [
+    "About 2%",
+    "About 7%",
+    "About 3%",
+    "About 5%"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Real GDP per capita rose from $10,000 to about $10,294, roughly 3% (5% output growth minus 2% population growth).",
+   "choiceExplanations": [
+    "2% is the growth of the population.",
+    "7% adds the two growth rates instead of subtracting population growth.",
+    "",
+    "5% is the growth of total real GDP, not real GDP per person."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac5-t1"
+  },
+  {
+   "id": "mac-u5-q16",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-growth",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which policy is most likely to raise labor productivity and long-run economic growth?",
+   "choices": [
+    "Funding education and job training to build human capital",
+    "Raising tariffs on imported machinery and equipment",
+    "Increasing the money supply to raise nominal GDP",
+    "Increasing transfer payments to raise consumer spending now"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Human capital raises output per worker, which increases productivity and shifts LRAS right.",
+   "choiceExplanations": [
+    "",
+    "Tariffs on capital equipment make it costlier for firms to add physical capital.",
+    "More money raises prices in the long run, not real output.",
+    "Higher transfers can raise AD in the short run but do not raise productivity."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q17",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-growth",
+   "skill": "3.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A new tax credit encourages businesses to invest in more modern equipment. Its most likely effects are to",
+   "choices": [
+    "lower AD in the short run and lower potential output",
+    "raise AD in the short run with no effect at all on long-run supply",
+    "shift LRAS left by raising business costs in the long run",
+    "raise AD in the short run and shift LRAS right in the long run"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Investment spending raises AD now, and the added capital raises productive capacity later, a supply-side effect.",
+   "choiceExplanations": [
+    "More investment increases AD and potential output.",
+    "New equipment adds to the capital stock, so it also affects long-run supply.",
+    "The credit lowers the cost of investment; it does not raise business costs.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-mac-u5-os1",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "title": "OpenStax Principles of Macroeconomics 3e, 12.3 The Phillips Curve",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/12-3-the-phillips-curve",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on the Phillips curve. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/12-3-the-phillips-curve",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u5-os2",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "title": "OpenStax Principles of Macroeconomics 3e, 17.3 Federal Deficits and the National Debt",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/17-3-federal-deficits-and-the-national-debt",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on deficits and the national debt. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/17-3-federal-deficits-and-the-national-debt",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u5-os3",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "title": "OpenStax Principles of Macroeconomics 3e, 18.1 How Government Borrowing Affects Investment and the Trade Balance",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/18-1-how-government-borrowing-affects-investment-and-the-trade-balance",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on how government borrowing affects investment. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/18-1-how-government-borrowing-affects-investment-and-the-trade-balance",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u5-os4",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "title": "OpenStax Principles of Macroeconomics 3e, 7.2 Labor Productivity and Economic Growth",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/7-2-labor-productivity-and-economic-growth",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on labor productivity and economic growth. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/7-2-labor-productivity-and-economic-growth",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Macroeconomics free-response set has one long and two short questions that usually combine several units (for example, AD–AS with the money market or the foreign exchange market), so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "mac-u5-q01",
+    "mac-u5-q02",
+    "mac-u5-q06",
+    "mac-u5-q08",
+    "mac-u5-q11",
+    "mac-u5-q13",
+    "mac-u5-q15",
+    "mac-u5-q17"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "mac-u5-q04",
+    "mac-u5-q05",
+    "mac-u5-q07",
+    "mac-u5-q09",
+    "mac-u5-q10",
+    "mac-u5-q12",
+    "mac-u5-q14",
+    "mac-u5-q16"
+   ]
+  }
+ ]
+}

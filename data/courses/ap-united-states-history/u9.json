@@ -1,0 +1,704 @@
+{
+ "courseId": "ap-united-states-history",
+ "unitId": "u9",
+ "title": "Unit 9: Period 9: 1980–Present",
+ "topics": [
+  {
+   "id": "ush9-conservatism",
+   "name": "Reagan and the conservative movement",
+   "covers": [
+    "Reagan and conservatism"
+   ],
+   "frameworkCovers": [
+    "9.1 Contextualizing Period 9",
+    "9.2 Reagan and Conservativism"
+   ]
+  },
+  {
+   "id": "ush9-world",
+   "name": "The end of the Cold War and challenges of the 21st century",
+   "covers": [
+    "The end of the Cold War",
+    "Challenges of the 21st century"
+   ],
+   "frameworkCovers": [
+    "9.3 The End of the Cold War",
+    "9.6 Challenges of the 21st Century",
+    "9.7 Causation in Period 9"
+   ]
+  },
+  {
+   "id": "ush9-economy",
+   "name": "A changing economy, migration, and immigration",
+   "covers": [
+    "Shifts in the economy",
+    "Migration and immigration"
+   ],
+   "frameworkCovers": [
+    "9.4 A Changing Economy",
+    "9.5 Migration and Immigration in the 1990s and 2000s"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Period 9 (1980–present): review guide",
+  "intro": "Since 1980, a resurgent conservative movement, the end of the Cold War, a globalizing technology-driven economy, and new waves of immigration have reshaped the United States, which has faced new challenges after September 11, 2001. Causation is the period's key reasoning skill.",
+  "sections": [
+   {
+    "id": "s-ush9-conservatism",
+    "topicId": "ush9-conservatism",
+    "title": "Reagan and conservatism",
+    "body": [
+     "A conservative coalition of free-market advocates, anticommunists, and religious conservatives (such as the Moral Majority) elected Ronald Reagan in 1980. Reagan cut income taxes, reduced regulation, and argued that big government was more a problem than a solution, though federal deficits grew as military spending rose.",
+     "Conservatives also emphasized traditional values and patriotism, as in Reagan's warnings about losing “the American memory.” Debates over the size of government and cultural values continued in later decades."
+    ],
+    "points": [
+     "Contextualization: the 1970s' inflation, energy crises, and loss of confidence helped conservatives win.",
+     "Reagan's coalition joined economic and social conservatives."
+    ]
+   },
+   {
+    "id": "s-ush9-world",
+    "topicId": "ush9-world",
+    "title": "The end of the Cold War and new challenges",
+    "body": [
+     "Reagan's military buildup and his later diplomacy with Soviet leader Mikhail Gorbachev, along with the Soviet Union's internal economic and political problems, contributed to the fall of the Berlin Wall (1989) and the collapse of the Soviet Union (1991).",
+     "After the September 11, 2001, attacks, the United States launched a war in Afghanistan and, in 2003, invaded Iraq, arguing that it possessed weapons of mass destruction; none were found. Debates over the wars, civil liberties, climate change, and economic crises such as the Great Recession (2008) marked the new century."
+    ],
+    "points": [
+     "Causation: both U.S. pressure and Soviet internal problems ended the Cold War.",
+     "Officials' predictions about Iraq proved far too optimistic."
+    ]
+   },
+   {
+    "id": "s-ush9-economy",
+    "topicId": "ush9-economy",
+    "title": "A changing economy, migration, and immigration",
+    "body": [
+     "Manufacturing jobs declined as the economy shifted toward services and technology; globalization and trade agreements such as NAFTA (1994) increased trade, and income inequality grew. Population and political power shifted toward the Sun Belt.",
+     "Immigration, especially from Latin America and Asia (encouraged by the 1965 immigration law), changed the nation's demographics and prompted debates over immigration policy, including the 1986 Immigration Reform and Control Act."
+    ],
+    "points": [
+     "Technology and globalization reshaped work.",
+     "Immigration made the United States more diverse and became a lasting political issue."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain one cause of the end of the Cold War.",
+   "solution": "The Soviet economy stagnated and could not keep up with U.S. military spending, and Gorbachev's reforms (glasnost and perestroika) loosened control, which allowed Eastern European revolutions in 1989 and led to the Soviet Union's collapse in 1991."
+  },
+  "misconceptions": [
+   [
+    "“Reagan alone ended the Cold War.”",
+    "Soviet economic problems, Gorbachev's reforms, and Eastern European movements were also crucial."
+   ],
+   [
+    "“Conservatism in the 1980s was only about economics.”",
+    "It also stressed traditional moral and cultural values."
+   ],
+   [
+    "“Manufacturing disappeared.”",
+    "Manufacturing jobs declined as a share, while output and services grew."
+   ],
+   [
+    "“Recent immigration mainly came from Europe.”",
+    "Since the 1970s, most immigrants have come from Latin America and Asia."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. History Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+  "sourceTitle": "AP United States History – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "ush9-a",
+   "title": "Source A: President Ronald Reagan, Farewell Address, 1989",
+   "text": [
+    "“Those of us who are over thirty-five or so years of age grew up in a different America . . . We were taught, very directly, what it means to be an American. And we absorbed, almost in the air, a love of country and an appreciation of its institutions. . . . The movies celebrated democratic values and implicitly reinforced the idea that America was special. . . . I’m warning of an eradication of the American memory that could result, ultimately, in an erosion of the American spirit.”"
+   ],
+   "attribution": "President Ronald Reagan, Farewell Address to the Nation, January 1989. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 31.2.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/31-2-political-and-cultural-fusions); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush9-b",
+   "title": "Source B: Statements by U.S. officials before the Iraq War, 2002",
+   "text": [
+    "President George W. Bush, October 2002: “facing clear evidence of peril, we cannot wait for the final proof—the smoking gun—that could come in the form of a mushroom cloud.”",
+    "Secretary of Defense Donald Rumsfeld, November 2002, on how long a war would last: “Five days or five weeks or five months, but it certainly isn’t going to last any longer than that.”"
+   ],
+   "attribution": "Public statements by President George W. Bush and Secretary of Defense Donald Rumsfeld, 2002. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 32.1.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/32-1-the-war-on-terror); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush9-c",
+   "title": "Source C: An interpretation of the changing economy since 1980",
+   "text": [
+    "“The American economy of the early twenty-first century looked very different from that of 1970. Factory jobs, especially in the industrial Midwest, declined as companies automated and moved production abroad, while employment grew in services, health care, finance, and technology. Tax cuts and deregulation, beginning in the 1980s, were meant to unleash growth, and the economy did grow, but the gains went disproportionately to those at the top. A college degree became more important than ever to earning a middle-class income.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "ush9-d",
+   "title": "Source D: An interpretation of immigration since 1965",
+   "text": [
+    "“The Immigration and Nationality Act of 1965 ended the national-origins quotas of the 1920s, and its effects reached far beyond what its sponsors predicted. In the decades that followed, most immigrants came not from Europe but from Latin America and Asia. Immigrants built businesses, revitalized city neighborhoods, and filled jobs from agriculture to engineering. Their arrival also sparked recurring political battles over undocumented immigration, border security, and what it means to be American.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "ush-u9-q01",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-conservatism",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Reagan's main concern in the excerpt is",
+   "choices": [
+    "the spread of communism in Latin America and the Caribbean islands",
+    "rising oil prices and energy shortages",
+    "the loss of patriotism and shared memory of American values",
+    "the growing size of the federal budget deficit"
+   ],
+   "correctAnswer": 2,
+   "explanation": "He warns of “an eradication of the American memory” and “an erosion of the American spirit.”",
+   "choiceExplanations": [
+    "Communism isn't mentioned here.",
+    "Oil prices aren't mentioned.",
+    "",
+    "The excerpt doesn't discuss the budget."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-a"
+  },
+  {
+   "id": "ush-u9-q02",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-conservatism",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The excerpt best reflects which strand of the conservative movement?",
+   "choices": [
+    "Emphasis on traditional values and patriotism",
+    "Support for expanding federal social programs",
+    "Opposition to all increases in military spending",
+    "Support for the Great Society's programs"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Reagan's nostalgia for a patriotic past reflects cultural conservatism.",
+   "choiceExplanations": [
+    "",
+    "Reagan sought to limit federal programs.",
+    "He expanded military spending.",
+    "Conservatives criticized the Great Society."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-a"
+  },
+  {
+   "id": "ush-u9-q03",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-world",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Reagan delivered this address as which international development was underway?",
+   "choices": [
+    "The September 11 attacks had just occurred, and the war on terror was beginning",
+    "The United States was entering World War II after the attack on Pearl Harbor",
+    "The Vietnam War was escalating with new troop deployments",
+    "The Cold War was ending, as Soviet power weakened in Eastern Europe"
+   ],
+   "correctAnswer": 3,
+   "explanation": "In January 1989, Gorbachev's reforms were loosening Soviet control; the Berlin Wall fell that November.",
+   "choiceExplanations": [
+    "That was in 2001.",
+    "That was in 1941.",
+    "That was in the mid-1960s.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-a"
+  },
+  {
+   "id": "ush-u9-q04",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-conservatism",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Reagan's claim that Americans “grew up in a different America” is best understood as a response to",
+   "choices": [
+    "the New Deal's banking reforms and the rapid growth of federal regulation in the 1930s",
+    "the Progressive movement's food safety laws and the regulation of business",
+    "the cultural changes of the 1960s and 1970s, which many conservatives saw as eroding traditional values",
+    "the end of the gold standard in the 1890s and the arrival of free silver"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Conservatives contrasted the counterculture and social upheaval of the 1960s–1970s with an earlier, idealized America.",
+   "choiceExplanations": [
+    "Banking reforms aren't his concern here.",
+    "That's unrelated to his point about values.",
+    "",
+    "That's much too early and unrelated; the gold standard wasn't ended in the 1890s."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-a"
+  },
+  {
+   "id": "ush-u9-q05",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-world",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "President Bush's statement was used mainly to argue that",
+   "choices": [
+    "nuclear weapons should be abolished worldwide through a new treaty signed by the great powers",
+    "the United States should act against Iraq before obtaining definitive proof of weapons of mass destruction",
+    "the United States should withdraw its forces from Afghanistan and focus on defending its own borders",
+    "the war in Iraq was already over and its troops could return home"
+   ],
+   "correctAnswer": 1,
+   "explanation": "He says the nation “cannot wait for the final proof.”",
+   "choiceExplanations": [
+    "He's warning of a threat, not proposing abolition.",
+    "",
+    "The statement concerns Iraq.",
+    "The invasion began in 2003."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-b"
+  },
+  {
+   "id": "ush-u9-q06",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-world",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "These statements were made in the context of",
+   "choices": [
+    "the Persian Gulf War of 1991 to drive Iraqi forces out of Kuwait",
+    "the war on terror that followed the September 11, 2001, attacks",
+    "the end of World War II and the start of the atomic age",
+    "the Cuban Missile Crisis and fears of nuclear war"
+   ],
+   "correctAnswer": 1,
+   "explanation": "After 9/11, the administration argued that Iraq posed a new kind of threat.",
+   "choiceExplanations": [
+    "The statements came in 2002, before the second Iraq war.",
+    "",
+    "That was in 1945.",
+    "That was in 1962."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-b"
+  },
+  {
+   "id": "ush-u9-q07",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-world",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What happened after these statements that most directly challenged them?",
+   "choices": [
+    "No stockpiles of weapons of mass destruction were found, and U.S. forces stayed for years",
+    "The United Nations confirmed large weapons stockpiles in Iraq soon after the invasion began",
+    "Iraq surrendered within five days, as officials had predicted",
+    "Congress declared war on Iran, which it blamed for the attacks"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The war lasted far longer than predicted, and the weapons claims proved wrong.",
+   "choiceExplanations": [
+    "",
+    "No such stockpiles were found.",
+    "The war lasted years.",
+    "No such declaration occurred."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-b"
+  },
+  {
+   "id": "ush-u9-q08",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-world",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A historian would most likely use these statements as evidence of",
+   "choices": [
+    "Iraqi public opinion about the American war and its consequences for ordinary people in Baghdad",
+    "Soviet policy toward Iraq and the Middle East at the end of the Cold War",
+    "how officials built support for the 2003 invasion and how their expectations compared with the outcome",
+    "the economic causes of the Great Recession and the collapse of the housing market"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Public statements show the case officials made, which can be compared with what followed.",
+   "choiceExplanations": [
+    "These are U.S. officials' statements.",
+    "They come from 2002, after the Cold War.",
+    "",
+    "They concern war, not the economy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-b"
+  },
+  {
+   "id": "ush-u9-q09",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-economy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, where did employment grow after 1970?",
+   "choices": [
+    "In factory jobs in the industrial Midwest and Northeast",
+    "In coal mining and steelmaking",
+    "In services, health care, finance, and technology",
+    "In family farming and ranching"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The passage contrasts declining factory jobs with growing service and technology work.",
+   "choiceExplanations": [
+    "The passage says factory jobs declined.",
+    "Coal and steel aren't mentioned.",
+    "",
+    "Farming isn't mentioned."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-c"
+  },
+  {
+   "id": "ush-u9-q10",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-economy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which two causes of manufacturing job losses does the passage identify?",
+   "choices": [
+    "Higher tariffs and rising immigration",
+    "A shortage of college graduates and high taxes",
+    "The Great Depression and World War II",
+    "Automation and moving production abroad"
+   ],
+   "correctAnswer": 3,
+   "explanation": "It says companies “automated and moved production abroad.”",
+   "choiceExplanations": [
+    "The passage doesn't name these.",
+    "It describes degrees as rising in importance.",
+    "Those are from an earlier era.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-c"
+  },
+  {
+   "id": "ush-u9-q11",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-conservatism",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The tax cuts and deregulation described in the passage were most closely associated with",
+   "choices": [
+    "the New Deal's banking and labor reforms",
+    "the Great Society's antipoverty programs",
+    "the Progressive movement of the early 1900s",
+    "the policies of the Reagan administration"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Reagan's economic program, beginning in 1981, cut taxes and reduced regulation.",
+   "choiceExplanations": [
+    "The New Deal expanded regulation.",
+    "The Great Society expanded federal programs.",
+    "Progressives expanded regulation.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-c"
+  },
+  {
+   "id": "ush-u9-q12",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-economy",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which statement best summarizes the passage's argument about economic change since 1980?",
+   "choices": [
+    "Manufacturing remained the main source of jobs, though wages in factories fell sharply for most of their workers",
+    "The economy grew, but its gains were unequally shared, and a degree mattered more for reaching the middle class",
+    "All workers benefited equally from growth, because tax cuts raised wages across the whole economy",
+    "The economy shrank continuously after 1980 as factories closed"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The passage notes growth, disproportionate gains at the top, and the rising value of a college degree.",
+   "choiceExplanations": [
+    "It says factory jobs declined.",
+    "",
+    "It says gains went disproportionately to the top.",
+    "The passage says the economy grew."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-c"
+  },
+  {
+   "id": "ush-u9-q13",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-economy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, what did the Immigration and Nationality Act of 1965 do?",
+   "choices": [
+    "Applied only to immigrants arriving from northern Europe",
+    "Created the national-origins quota system",
+    "Banned all new immigration for a decade",
+    "Ended the national-origins quotas set in the 1920s"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The passage says it ended those quotas.",
+   "choiceExplanations": [
+    "Its effects were broad.",
+    "The 1920s laws created the quotas.",
+    "It changed, not banned, immigration.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-d"
+  },
+  {
+   "id": "ush-u9-q14",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-economy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "According to the passage, where did most immigrants come from after 1965?",
+   "choices": [
+    "Latin America and Asia",
+    "Africa and Australia",
+    "Northern and western Europe",
+    "Canada and the Caribbean"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The passage says most came “not from Europe but from Latin America and Asia.”",
+   "choiceExplanations": [
+    "",
+    "The passage doesn't say this.",
+    "The passage contrasts this with Europe.",
+    "The passage doesn't say this."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-d"
+  },
+  {
+   "id": "ush-u9-q15",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-world",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which later development reflects the “recurring political battles” the passage describes?",
+   "choices": [
+    "The New Deal's programs for the unemployed during the Great Depression of the 1930s",
+    "Debates over border security and undocumented immigration in the 2000s and 2010s",
+    "The Gulf of Tonkin Resolution on the war in Vietnam",
+    "The Marshall Plan's aid to rebuild Europe after World War II"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Immigration remained a major political issue in the twenty-first century.",
+   "choiceExplanations": [
+    "That was a 1930s economic program.",
+    "",
+    "That concerned Vietnam in 1964.",
+    "That was 1940s foreign aid."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-d"
+  },
+  {
+   "id": "ush-u9-q16",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "topicId": "ush9-economy",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which comparison is best supported by the passage and your knowledge of earlier periods?",
+   "choices": [
+    "Like the “new immigrants” of 1880–1920, post-1965 immigrants changed society and prompted debates over national identity",
+    "Earlier immigrants came mainly from Asia, like those after 1965, and settled mostly in the cities of the West Coast",
+    "The 1965 act restored the quotas of the 1920s, which had been lifted after World War II",
+    "Post-1965 immigration caused little political debate, unlike the earlier waves of 1880–1920"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Both waves transformed cities and economies and provoked nativist reactions.",
+   "choiceExplanations": [
+    "",
+    "Earlier waves came mostly from Europe.",
+    "It ended those quotas, which had lasted until 1965.",
+    "The passage describes recurring debates."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush9-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-ush-u9-os1",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "title": "OpenStax U.S. History, 31.1 The Reagan Revolution",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/31-1-the-reagan-revolution",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (The Reagan Revolution). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/31-1-the-reagan-revolution",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-ush-u9-os2",
+   "courseId": "ap-united-states-history",
+   "unitId": "u9",
+   "title": "OpenStax U.S. History, 31.3 A New World Order",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (A New World Order). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP U.S. History short-answer, document-based, and long-essay questions often span several periods, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ush-u9-q01",
+    "ush-u9-q02",
+    "ush-u9-q03",
+    "ush-u9-q04",
+    "ush-u9-q13",
+    "ush-u9-q14",
+    "ush-u9-q15",
+    "ush-u9-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "ush-u9-q05",
+    "ush-u9-q06",
+    "ush-u9-q07",
+    "ush-u9-q08",
+    "ush-u9-q09",
+    "ush-u9-q10",
+    "ush-u9-q11",
+    "ush-u9-q12"
+   ]
+  }
+ ]
+}

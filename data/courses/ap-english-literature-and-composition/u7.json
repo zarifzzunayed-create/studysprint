@@ -1,0 +1,705 @@
+{
+ "courseId": "ap-english-literature-and-composition",
+ "unitId": "u7",
+ "title": "Unit 7: Short Fiction III",
+ "topics": [
+  {
+   "id": "lit7-change",
+   "name": "Character change, epiphany, and pacing",
+   "covers": [
+    "Sudden and more gradual change in characters",
+    "Epiphany as a driver of plot",
+    "The significance of the pacing of a narrative"
+   ],
+   "frameworkCovers": [
+    "1.B Explain the function of a character changing or remaining unchanged.",
+    "3.A Identify and describe how plot orders events in a narrative.",
+    "3.B Explain the function of a particular sequence of events in a plot."
+   ]
+  },
+  {
+   "id": "lit7-setting",
+   "name": "Setting, symbol, and figurative language",
+   "covers": [
+    "Character interactions with settings",
+    "Setting as a symbol"
+   ],
+   "frameworkCovers": [
+    "2.B Explain the function of setting in a narrative.",
+    "2.C Describe the relationship between a character and a setting.",
+    "5.C Identify and explain the function of a symbol.",
+    "5.D Identify and explain the function of an image or imagery.",
+    "6.A Identify and explain the function of a simile.",
+    "6.C Identify and explain the function of personification."
+   ]
+  },
+  {
+   "id": "lit7-context",
+   "name": "Groups and historical context",
+   "covers": [
+    "Relationships between characters and groups",
+    "Interpreting texts in their historical and societal contexts"
+   ],
+   "frameworkCovers": [
+    "1.D Describe how textual details reveal nuances and complexities in characters’ relationships with one another.",
+    "4.D Explain how a narrator’s reliability affects a narrative.",
+    "7.B Develop a thesis statement that conveys a defensible claim about an interpretation of literature and that may establish a line of reasoning.",
+    "7.C Develop commentary that establishes and explains relationships among textual evidence, the line of reasoning, and the thesis.",
+    "7.D Select and use relevant and sufficient evidence to both develop and support a line of reasoning."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 7: Short Fiction III: review guide",
+  "intro": "This unit studies how characters change (in a flash or over time), how a story's pace shapes that change, how settings can become symbols, and how a story's time and society shape what its characters can do and say.",
+  "sections": [
+   {
+    "id": "s-lit7-change",
+    "topicId": "lit7-change",
+    "title": "Change, epiphany, and pacing",
+    "body": [
+     "Some characters change suddenly, often through an epiphany: a moment of sudden insight that changes how they understand themselves or their situation. Others change gradually, across months or years. A character who stays the same can be just as significant, especially when others around them change.",
+     "Pacing is the speed at which a story moves. A writer may cover a year in a sentence or slow down to show a single moment in detail. Ask why the story speeds up or slows down where it does."
+    ],
+    "points": [
+     "For a change, identify what the character was like before and after, and what caused it.",
+     "Notice which moments get the most space on the page."
+    ]
+   },
+   {
+    "id": "s-lit7-setting",
+    "topicId": "lit7-setting",
+    "title": "Setting as symbol",
+    "body": [
+     "A setting becomes symbolic when it stands for something beyond itself, such as an abandoned garden standing for a neglected community. Watch how characters treat a place and how the place changes with them.",
+     "Similes (comparisons using “like” or “as”) and personification can shape how readers see a setting: a bicycle wrapped in vines “like a sleeper” suggests rest rather than death."
+    ],
+    "points": [
+     "A symbol is supported by repeated or emphasized details, not a single guess.",
+     "Ask how the place changes when the characters do."
+    ]
+   },
+   {
+    "id": "s-lit7-context",
+    "topicId": "lit7-context",
+    "title": "Groups and historical context",
+    "body": [
+     "Characters belong to families, towns, workplaces, and social classes, and these groups shape their choices. A character's relationship to a group (fitting in, resisting, being judged) is often central to a story.",
+     "Historical and social context includes the events and expectations of a story's time and place. Use context to explain details in the text, such as why a family economizes during the Great Depression, but keep the focus on the text."
+    ],
+    "points": [
+     "Context supports an interpretation; it doesn't replace evidence from the text.",
+     "Ask what a character may not say aloud because of the expectations around them."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "In a story, a boy who has always obeyed his father realizes, while watching his father lose his temper at a waiter, that his father is afraid. What kind of change is this, and what might it drive?",
+   "solution": "It is an epiphany, a sudden insight. It could drive the plot by changing how the boy responds to his father from then on, perhaps with pity rather than fear."
+  },
+  "misconceptions": [
+   [
+    "“Every important character must change.”",
+    "A character who stays the same can highlight change in others or show what a world refuses to allow."
+   ],
+   [
+    "“An epiphany has to be dramatic.”",
+    "Epiphanies are often quiet: a sudden understanding of something ordinary."
+   ],
+   [
+    "“Historical context is the main point of analysis.”",
+    "Context helps explain the text; the analysis stays focused on the text."
+   ],
+   [
+    "“A symbol means one fixed thing.”",
+    "A symbol's meaning comes from the story and can be layered."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Literature and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+  "sourceTitle": "AP English Literature and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "lit7-a",
+   "title": "Passage 1: from a story about a watch",
+   "text": [
+    "(1) For three weekends Eli worked at the watch on the kitchen table, under the lamp his father had used for the same work. He had the tweezers, the loupe, the tiny screwdrivers in their felt roll. He did not have his father's hands, and the watch, which had stopped the week of the funeral, stayed stopped.",
+    "(2) On the fourth Saturday, his daughter climbed onto the chair beside him and asked what he was doing. “Fixing Grandpa's watch,” he said.",
+    "(3) “But why?” she said. “You can just look at it.”",
+    "(4) He set down the tweezers. He looked at the watch, its hands at twenty past four, and understood all at once that he had not been trying to fix it at all. He had been trying to sit, one more time, at his father's table. He closed the case, and for the first time in a month he let it be still."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit7-b",
+   "title": "Passage 2: from a story about a new teacher",
+   "text": [
+    "(1) In September, Ms. Okafor wrote the rules on the board in capital letters and read them aloud twice. She did not smile until October, which was, she had been told, the proper schedule.",
+    "(2) By November she had stopped reading the rules. By January she had let the back row move their desks into a circle, and by March she was sitting in the circle with them, arguing about a poem as if the answer mattered to her personally, which it did.",
+    "(3) In June a boy who had not spoken in September stayed after class to ask whether she would be back next year. She said she would. She had not known it until he asked."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit7-c",
+   "title": "Passage 3: from a story set during the Great Depression",
+   "text": [
+    "(1) That winter the bank in Millbrook closed its doors on a Tuesday, and by Friday the line outside it had stopped being a line and become a crowd, and then, by the next week, nothing at all, because there was no point.",
+    "(2) Mother sewed flour sacks into dresses for my sister and me. The flour company printed the sacks with flowers, and some weeks we chose the flour by the pattern. “We are not poor,” Mother said, cutting along a row of daisies. “We are careful.”",
+    "(3) My father went to the city to look for work and wrote every Sunday. The letters were cheerful and short. Years later I found the ones he had written and not sent, and they were neither."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit7-d",
+   "title": "Passage 4: from a story about a garden",
+   "text": [
+    "(1) The garden behind the apartment block had been abandoned so long that the tenants called it the Jungle, and they warned their children to stay out of it. Weeds stood as tall as men. A rusted bicycle lay in the middle, wound with vines like a sleeper under a blanket.",
+    "(2) Mrs. Adeyemi, who was seventy and new to the building, went in on her first morning with a pair of shears.",
+    "(3) She said nothing about it to anyone. But by midsummer there were tomatoes, and beans climbing strings, and a bench someone had carried down from the fourth floor. The tenants who had warned their children now sat on the bench in the evenings, and the bicycle, cleared of its vines, leaned against the fence, waiting, it seemed, for someone to ride it."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lit-u7-q01",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-change",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The change Eli experiences in paragraph 4 is best described as",
+   "choices": [
+    "a gradual change that takes place over many years of working at his father's table",
+    "a growing anger at his daughter for interrupting",
+    "a sudden epiphany about his real purpose",
+    "a decision to learn watch repair as a career"
+   ],
+   "correctAnswer": 2,
+   "explanation": "He “understood all at once” that he was not trying to fix the watch: a sudden insight, or epiphany.",
+   "choiceExplanations": [
+    "The insight comes in a single moment.",
+    "Her question helps him; he shows no anger.",
+    "",
+    "He stops working on the watch; he does not take up the trade."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-a"
+  },
+  {
+   "id": "lit-u7-q02",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-setting",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The lamp “his father had used for the same work” (paragraph 1) connects Eli's surroundings to",
+   "choices": [
+    "his own job",
+    "the jeweler who sold the watch",
+    "his memory of his father",
+    "his daughter's schoolwork"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Eli works at his father's table under his father's lamp, so the setting itself keeps his father present.",
+   "choiceExplanations": [
+    "His job is never mentioned.",
+    "No jeweler is mentioned.",
+    "",
+    "The daughter appears later and is not linked to the lamp."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-a"
+  },
+  {
+   "id": "lit-u7-q03",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-change",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The daughter's question in paragraph 3 functions in the plot mainly to",
+   "choices": [
+    "prompt Eli's realization",
+    "show that the daughter wants to keep the watch for herself",
+    "reveal that the daughter broke the watch on the week of the funeral",
+    "introduce a new conflict between Eli and his daughter"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Her simple “But why? … You can just look at it.” leads directly to Eli's insight in paragraph 4.",
+   "choiceExplanations": [
+    "",
+    "She says nothing about wanting the watch.",
+    "The watch stopped the week of the funeral; nothing suggests she broke it.",
+    "They do not argue; the question opens his understanding."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-a"
+  },
+  {
+   "id": "lit-u7-q04",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-change",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The final sentence, in which Eli closes the case and lets the watch “be still,” suggests that his change involves",
+   "choices": [
+    "deciding to teach his daughter to repair watches as his father taught him",
+    "accepting his father's death",
+    "planning to sell the watch",
+    "giving up because the repair is too difficult"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The stopped watch has stood for the moment of loss; by letting it stay still, Eli stops trying to restart the past.",
+   "choiceExplanations": [
+    "He puts the tools down; nothing suggests teaching.",
+    "",
+    "Nothing suggests selling it.",
+    "His realization is about meaning, not difficulty."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-a"
+  },
+  {
+   "id": "lit-u7-q05",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-change",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The change in Ms. Okafor is presented as",
+   "choices": [
+    "reversed at the end of the passage",
+    "sudden, happening in a single moment in October",
+    "not occurring at all",
+    "gradual, unfolding across a school year"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Month markers (September, October, November, January, March, June) trace a slow change from strictness to openness.",
+   "choiceExplanations": [
+    "In June she decides to stay, which completes the change.",
+    "No single moment changes her; the change accumulates.",
+    "She clearly changes from reading rules to joining the circle.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-b"
+  },
+  {
+   "id": "lit-u7-q06",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-change",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The pacing of paragraph 2, which covers several months in two sentences, mainly serves to",
+   "choices": [
+    "describe one school day in detail",
+    "slow the story down so that it can dwell on a single class discussion of a poem",
+    "delay the story's central conflict",
+    "compress a slow change so readers see its direction"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Moving quickly from November to March, the paragraph shows the trend of her change without dwelling on any single day.",
+   "choiceExplanations": [
+    "It covers months, not one day.",
+    "The paragraph speeds up rather than slowing down.",
+    "It shows the change itself, not a delay.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-b"
+  },
+  {
+   "id": "lit-u7-q07",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-context",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The phrase “which was, she had been told, the proper schedule” (paragraph 1) suggests that Ms. Okafor's early strictness",
+   "choices": [
+    "reflects advice she was given, not her nature",
+    "comes from a personal dislike of her students and of teaching in general",
+    "is required by a school law",
+    "was requested by the students themselves"
+   ],
+   "correctAnswer": 0,
+   "explanation": "“She had been told” shows she is following the expectations of the teaching world around her.",
+   "choiceExplanations": [
+    "",
+    "Nothing suggests dislike; she later engages with them warmly.",
+    "The phrase reports advice, not a rule or law.",
+    "The students are not said to have asked for anything."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-b"
+  },
+  {
+   "id": "lit-u7-q08",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-setting",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The changing arrangement of the classroom, from rules on the board to desks in a circle (paragraphs 1 and 2), reflects",
+   "choices": [
+    "the students' decision to take over the class",
+    "her shift from distant authority to shared discussion",
+    "a new school policy about seating",
+    "budget cuts that forced the school to rearrange its furniture and share desks between classes"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The room changes as she does: rules facing the class become a circle she joins as an equal participant.",
+   "choiceExplanations": [
+    "She allows the change and then joins it.",
+    "",
+    "No policy is mentioned.",
+    "No budget cuts are mentioned."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-b"
+  },
+  {
+   "id": "lit-u7-q09",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-context",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Details such as the failed bank and the father leaving to look for work place the story in a time of",
+   "choices": [
+    "wartime prosperity",
+    "a political revolution",
+    "a natural disaster",
+    "widespread economic hardship"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Bank failures and job hunting fit the Great Depression of the 1930s, when many banks closed and many workers lost their jobs.",
+   "choiceExplanations": [
+    "The details show scarcity, not prosperity.",
+    "No revolution is mentioned.",
+    "No storm or disaster is described.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-c"
+  },
+  {
+   "id": "lit-u7-q10",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-context",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Mother's words “We are careful.” (paragraph 2) most suggest her effort to",
+   "choices": [
+    "scold her daughters for wasting money on flour",
+    "protect the family's dignity during hard times",
+    "hide money from the bank",
+    "show that the family is wealthy"
+   ],
+   "correctAnswer": 1,
+   "explanation": "She renames poverty as carefulness while cutting dresses from flour sacks: a way of keeping pride when money is short.",
+   "choiceExplanations": [
+    "She speaks calmly while sewing; she isn't scolding.",
+    "",
+    "The bank has already closed; nothing suggests hiding money.",
+    "Sewing flour sacks into dresses shows the family has little money."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-c"
+  },
+  {
+   "id": "lit-u7-q11",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-setting",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The flowered flour sacks turned into dresses (paragraph 2) function mainly as a symbol of",
+   "choices": [
+    "making something hopeful out of scarcity",
+    "the flour company's greed",
+    "the town's wealth",
+    "rivalry between the sisters over who gets the prettier dress"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Plain necessities become dresses with flowers, and the girls even choose the flour “by the pattern”: small pleasures made from little.",
+   "choiceExplanations": [
+    "",
+    "The printed patterns give the family something; greed isn't suggested.",
+    "The bank has closed; the town is struggling.",
+    "The sisters choose together; nothing suggests rivalry."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-c"
+  },
+  {
+   "id": "lit-u7-q12",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-context",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The final sentence's revelation that the unsent letters were “neither” cheerful nor short suggests that the father",
+   "choices": [
+    "wanted the narrator to find the letters as a child",
+    "hid his struggles to protect his family, which the narrator saw only later",
+    "had found good work in the city and wrote cheerfully because he was happy and doing well there",
+    "stopped writing to the family altogether"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The sent letters were cheerful and short; the unsent ones were long and unhappy. He showed his family only part of the truth, which the narrator learned “Years later.”",
+   "choiceExplanations": [
+    "The narrator found them “Years later”; nothing suggests he meant them to be found.",
+    "",
+    "The unsent letters show he was not happy.",
+    "He “wrote every Sunday.”"
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-c"
+  },
+  {
+   "id": "lit-u7-q13",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-setting",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The simile comparing the vine-wrapped bicycle to “a sleeper under a blanket” (paragraph 1) suggests that the garden is",
+   "choices": [
+    "hiding someone from the tenants",
+    "already well cared for",
+    "dangerous and should be avoided",
+    "dormant, not dead"
+   ],
+   "correctAnswer": 3,
+   "explanation": "A sleeper can wake, so the image hints that the neglected garden can come back to life, as it does.",
+   "choiceExplanations": [
+    "The simile is figurative; no one is hiding.",
+    "It has been “abandoned so long.”",
+    "The tenants think it dangerous, but the simile suggests rest, not danger.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-d"
+  },
+  {
+   "id": "lit-u7-q14",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-context",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Over the passage, the tenants' relationship to the garden and to one another changes from",
+   "choices": [
+    "avoidance to shared evenings",
+    "indifference to anger at Mrs. Adeyemi",
+    "pride in the garden to embarrassment at what it has become",
+    "friendship to open conflict"
+   ],
+   "correctAnswer": 0,
+   "explanation": "At first they warn their children away; by midsummer they gather on the bench together.",
+   "choiceExplanations": [
+    "",
+    "No anger at Mrs. Adeyemi appears.",
+    "At first they called it the Jungle, which isn't pride.",
+    "Nothing suggests conflict."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-d"
+  },
+  {
+   "id": "lit-u7-q15",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-change",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The passage moves from Mrs. Adeyemi's first morning (paragraph 2) directly to “by midsummer” (paragraph 3). This pacing",
+   "choices": [
+    "creates suspense about whether she will enter the garden",
+    "suggests that the garden changed without anyone's effort, as if by itself over the summer",
+    "skips the labor to stress its surprising results",
+    "slows the story to show each day of gardening"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The jump in time hides the work, just as she “said nothing about it to anyone,” so the transformation appears all at once.",
+   "choiceExplanations": [
+    "She enters the garden in paragraph 2.",
+    "Her shears show the change took effort.",
+    "",
+    "The work is skipped, not shown day by day."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-d"
+  },
+  {
+   "id": "lit-u7-q16",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "topicId": "lit7-setting",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In the passage as a whole, the garden functions most clearly as a symbol of",
+   "choices": [
+    "Mrs. Adeyemi's loneliness, which never changes even as the garden grows",
+    "city neglect that no one can repair",
+    "a community that revives when one person tends it",
+    "the danger the tenants feared all along"
+   ],
+   "correctAnswer": 2,
+   "explanation": "As the garden is cleared, the tenants gather; even the bicycle, personified as “waiting,” suggests renewed life.",
+   "choiceExplanations": [
+    "She brings people together, and the passage ends with company.",
+    "The passage shows neglect being repaired.",
+    "",
+    "The tenants now sit in the garden; the danger is gone."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit7-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lit-u7-os1",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u7",
+   "title": "OpenStax Writing Guide with Handbook, 16.5 Writing Process: Thinking Critically About Text",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/16-5-writing-process-thinking-critically-about-text",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on exploring areas of analysis in fiction, such as character, setting, and context. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/16-5-writing-process-thinking-critically-about-text",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Literature free-response questions (poetry analysis, prose fiction analysis, and literary argument) draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lit-u7-q01",
+    "lit-u7-q02",
+    "lit-u7-q03",
+    "lit-u7-q04",
+    "lit-u7-q05",
+    "lit-u7-q06",
+    "lit-u7-q07",
+    "lit-u7-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lit-u7-q09",
+    "lit-u7-q10",
+    "lit-u7-q11",
+    "lit-u7-q12",
+    "lit-u7-q13",
+    "lit-u7-q14",
+    "lit-u7-q15",
+    "lit-u7-q16"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,387 @@
+{
+ "courseId": "ap-calculus-bc",
+ "unitId": "u1",
+ "title": "Unit 1: Limits and Continuity",
+ "topics": [
+  {
+   "id": "b1-lim",
+   "name": "Limits and their properties",
+   "covers": [
+    "How limits help us to handle change at an instant",
+    "Definition and properties of limits in various representations"
+   ]
+  },
+  {
+   "id": "b1-cont",
+   "name": "Continuity, the Squeeze theorem, and the IVT",
+   "covers": [
+    "Definitions of continuity of a function at a point and over a domain",
+    "Reasoning using the Squeeze theorem and the Intermediate Value Theorem"
+   ]
+  },
+  {
+   "id": "b1-inf",
+   "name": "Asymptotes and limits at infinity",
+   "covers": [
+    "Asymptotes and limits at infinity"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Limits and continuity: review guide",
+  "intro": "Limits describe what a function's values approach, which is how calculus handles change at a single instant. This unit computes limits from formulas, graphs, and tables, defines continuity, and uses the Squeeze theorem and the Intermediate Value Theorem.",
+  "sections": [
+   {
+    "id": "s-b1-lim",
+    "topicId": "b1-lim",
+    "title": "Limits and their properties",
+    "body": [
+     "lim x→a f(x) = L means f(x) gets as close to L as you like when x is close enough to a (but not equal to a). The two-sided limit exists only when the left-hand and right-hand limits exist and are equal.",
+     "Limits add, subtract, multiply, and divide (when the denominator's limit isn't 0). For a 0/0 form, rewrite the expression: factor and cancel, rationalize, or use a known limit such as lim x→0 sin x / x = 1."
+    ],
+    "points": [
+     "A limit can exist where the function is undefined, as at a hole.",
+     "Check one-sided limits at the break of a piecewise function.",
+     "lim x→0 sin(kx)/x = k."
+    ]
+   },
+   {
+    "id": "s-b1-cont",
+    "topicId": "b1-cont",
+    "title": "Continuity, the Squeeze theorem, and the IVT",
+    "body": [
+     "f is continuous at x = a when f(a) is defined, lim x→a f(x) exists, and the two are equal. Polynomials, exponentials, sine, and cosine are continuous everywhere; rational, logarithmic, and root functions are continuous on their domains.",
+     "Squeeze theorem: if g(x) ≤ f(x) ≤ h(x) near a and g and h have the same limit L at a, then f also has limit L. Intermediate Value Theorem (IVT): if f is continuous on [a, b], it takes every value between f(a) and f(b) somewhere in that interval."
+    ],
+    "points": [
+     "Discontinuities are removable (a hole), jump, or infinite (a vertical asymptote).",
+     "To make a piecewise function continuous, set the pieces' limits equal at the break.",
+     "The IVT needs continuity on the whole closed interval; it guarantees that a value is reached, not where."
+    ]
+   },
+   {
+    "id": "s-b1-inf",
+    "topicId": "b1-inf",
+    "title": "Asymptotes and limits at infinity",
+    "body": [
+     "lim x→±∞ f(x) = L means the graph levels off toward y = L: a horizontal asymptote. A vertical asymptote x = a occurs where f(x) → ±∞ as x → a from at least one side.",
+     "For rational functions, compare the degrees of the numerator and denominator. With square roots, divide by the highest power carefully: as x → −∞, √(x²) = |x| = −x."
+    ],
+    "points": [
+     "Equal degrees: the asymptote is the ratio of leading coefficients.",
+     "A function can have different horizontal asymptotes at +∞ and −∞.",
+     "For ∞ − ∞ forms with roots, multiply by the conjugate."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Find lim x→0 (√(x + 9) − 3)/x.",
+   "solution": "Multiply by the conjugate: (√(x + 9) − 3)(√(x + 9) + 3) / (x(√(x + 9) + 3)) = x / (x(√(x + 9) + 3)) = 1/(√(x + 9) + 3). As x → 0 this approaches 1/6."
+  },
+  "misconceptions": [
+   [
+    "“If f(a) is undefined, the limit at a doesn't exist.”",
+    "The limit describes nearby values; it often exists at a hole."
+   ],
+   [
+    "“0/0 means the limit is 0, or undefined.”",
+    "0/0 is an indeterminate form: rewrite the expression to find the limit."
+   ],
+   [
+    "“A graph never crosses a horizontal asymptote.”",
+    "Horizontal asymptotes describe end behavior; the graph can cross them."
+   ],
+   [
+    "“The IVT tells you where the value occurs.”",
+    "It guarantees only that the value occurs somewhere in the interval."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+  "sourceTitle": "AP Calculus BC – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "cbc-u1-q01",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u1",
+   "topicId": "b1-lim",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is lim x→3 (x² − 9)/(x − 3)?",
+   "choices": [
+    "The limit does not exist",
+    "3",
+    "0",
+    "6"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Factor: (x − 3)(x + 3)/(x − 3) = x + 3 for x ≠ 3, so the limit is 3 + 3 = 6.",
+   "choiceExplanations": [
+    "The function has a hole at x = 3, but the limit of the nearby values exists.",
+    "3 is where x is heading, not the limit of the function.",
+    "Substituting gives 0/0, an indeterminate form, not the answer 0.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u1-q02",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u1",
+   "topicId": "b1-lim",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Let f(x) = x² + 1 for x < 2 and f(x) = 4x − 1 for x ≥ 2. What is lim x→2 f(x)?",
+   "choices": [
+    "7",
+    "5",
+    "6",
+    "It does not exist"
+   ],
+   "correctAnswer": 3,
+   "explanation": "From the left, x² + 1 → 5. From the right, 4x − 1 → 7. The one-sided limits differ, so the two-sided limit does not exist.",
+   "choiceExplanations": [
+    "7 is the right-hand limit (and f(2)), not a two-sided limit.",
+    "5 is only the left-hand limit.",
+    "6 averages the one-sided limits, which isn't how limits work.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u1-q03",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u1",
+   "topicId": "b1-cont",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is lim x→0 x² sin(1/x)?",
+   "choices": [
+    "1",
+    "It does not exist, because sin(1/x) oscillates",
+    "0",
+    "∞"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Since −1 ≤ sin(1/x) ≤ 1, we have −x² ≤ x² sin(1/x) ≤ x². Both bounds approach 0, so by the Squeeze theorem the limit is 0.",
+   "choiceExplanations": [
+    "1 confuses this with lim x→0 sin x / x.",
+    "sin(1/x) alone has no limit at 0, but multiplying by x² squeezes the oscillation to 0.",
+    "",
+    "The expression stays between −x² and x², so it can't grow without bound."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u1-q04",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u1",
+   "topicId": "b1-lim",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is lim x→0 sin(3x)/x?",
+   "choices": [
+    "0",
+    "1",
+    "3",
+    "1/3"
+   ],
+   "correctAnswer": 2,
+   "explanation": "sin(3x)/x = 3 · sin(3x)/(3x), and sin(3x)/(3x) → 1 as x → 0, so the limit is 3.",
+   "choiceExplanations": [
+    "Substituting gives 0/0, which is indeterminate, not 0.",
+    "1 is the limit of sin x / x; the 3 inside the sine changes it.",
+    "",
+    "1/3 inverts the factor."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u1-q05",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u1",
+   "topicId": "b1-cont",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "For what value of k is f(x) = kx + 1 (for x < 1) and f(x) = x² + 3 (for x ≥ 1) continuous at x = 1?",
+   "choices": [
+    "k = 2",
+    "k = 3",
+    "k = 1",
+    "k = 4"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Continuity needs the left-hand limit, k + 1, to equal f(1) = 1 + 3 = 4, so k = 3.",
+   "choiceExplanations": [
+    "k = 2 matches the slopes (2x = 2) instead of the values.",
+    "",
+    "k = 1 gives a left-hand limit of 2, not 4.",
+    "k = 4 sets k itself equal to 4, forgetting the +1."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u1-q06",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u1",
+   "topicId": "b1-cont",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A function f is continuous on [1, 4], with f(1) = −2 and f(4) = 5. Which statement must be true?",
+   "choices": [
+    "f is increasing on [1, 4]",
+    "f(c) = 6 for some c between 1 and 4",
+    "f(c) = 0 for exactly one c between 1 and 4",
+    "f(c) = 0 for at least one c between 1 and 4"
+   ],
+   "correctAnswer": 3,
+   "explanation": "0 is between f(1) = −2 and f(4) = 5, and f is continuous on the closed interval, so by the IVT f takes the value 0 at least once in (1, 4).",
+   "choiceExplanations": [
+    "Nothing says f is increasing; it could go up and down.",
+    "6 isn't between −2 and 5, so the IVT doesn't guarantee it.",
+    "The IVT guarantees at least one such c, not exactly one; f could cross zero several times.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u1-q07",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u1",
+   "topicId": "b1-inf",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is lim x→∞ (3x² − x)/(2x² + 5)?",
+   "choices": [
+    "∞",
+    "−1/5",
+    "3/2",
+    "0"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Divide the numerator and denominator by x²: (3 − 1/x)/(2 + 5/x²) → 3/2.",
+   "choiceExplanations": [
+    "The degrees are equal, so the ratio levels off rather than growing.",
+    "−1/5 uses the lower-order coefficients, which don't matter as x → ∞.",
+    "",
+    "0 would need the denominator to have a higher degree."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u1-q08",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u1",
+   "topicId": "b1-inf",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What are the horizontal asymptotes of f(x) = 2x/√(x² + 1)?",
+   "choices": [
+    "There are none",
+    "y = 2 only",
+    "y = 2 and y = −2",
+    "y = 0"
+   ],
+   "correctAnswer": 2,
+   "explanation": "As x → ∞, √(x² + 1) ≈ x, so f → 2. As x → −∞, √(x² + 1) ≈ |x| = −x, so f → 2x/(−x) = −2.",
+   "choiceExplanations": [
+    "The function levels off at both ends, so it has horizontal asymptotes.",
+    "y = 2 only treats √(x²) as x for negative x too; there it equals −x.",
+    "",
+    "The numerator and the root both grow like |x|, so the ratio doesn't go to 0."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u1-q09",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u1",
+   "topicId": "b1-inf",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is lim x→∞ (√(x² + 4x) − x)?",
+   "choices": [
+    "2",
+    "0",
+    "∞",
+    "4"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Multiply by the conjugate: (x² + 4x − x²)/(√(x² + 4x) + x) = 4x/(√(x² + 4x) + x). Dividing by x: 4/(√(1 + 4/x) + 1) → 4/2 = 2.",
+   "choiceExplanations": [
+    "",
+    "0 assumes √(x² + 4x) and x cancel exactly; the 4x term leaves a difference.",
+    "This ∞ − ∞ form approaches a finite value.",
+    "4 forgets that the denominator approaches 2x, not x."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "cbc-u1-q01",
+    "cbc-u1-q02",
+    "cbc-u1-q03",
+    "cbc-u1-q04",
+    "cbc-u1-q05",
+    "cbc-u1-q06",
+    "cbc-u1-q07",
+    "cbc-u1-q09"
+   ]
+  }
+ ]
+}

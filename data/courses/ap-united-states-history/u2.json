@@ -1,0 +1,704 @@
+{
+ "courseId": "ap-united-states-history",
+ "unitId": "u2",
+ "title": "Unit 2: Period 2: 1607–1754",
+ "topics": [
+  {
+   "id": "ush2-colonies",
+   "name": "European colonization and the regions of British America",
+   "covers": [
+    "How different European colonies developed and expanded"
+   ],
+   "frameworkCovers": [
+    "2.1 Contextualizing Period 2",
+    "2.2 European Colonization",
+    "2.3 The Regions of British Colonies",
+    "2.8 Comparison in Period 2"
+   ]
+  },
+  {
+   "id": "ush2-trade",
+   "name": "Atlantic trade, slavery, and relations with American Indians",
+   "covers": [
+    "Transatlantic trade",
+    "Interactions between American Indians and Europeans",
+    "Slavery in the British colonies"
+   ],
+   "frameworkCovers": [
+    "2.4 Transatlantic Trade",
+    "2.5 Interactions Between American Indians and Europeans",
+    "2.6 Slavery in the British Colonies"
+   ]
+  },
+  {
+   "id": "ush2-society",
+   "name": "Colonial society and culture",
+   "covers": [
+    "Colonial society and culture"
+   ],
+   "frameworkCovers": [
+    "2.7 Colonial Society and Culture"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Period 2 (1607–1754): review guide",
+  "intro": "In Period 2, Spain, France, the Netherlands, and Britain built colonies with very different goals, economies, and relationships with American Indians. British colonies grew into distinct regions tied to an Atlantic economy that depended increasingly on enslaved labor.",
+  "sections": [
+   {
+    "id": "s-ush2-colonies",
+    "topicId": "ush2-colonies",
+    "title": "European colonization and British regions",
+    "body": [
+     "Spain sought wealth and Catholic converts and relied on forced Native labor; the Pueblo Revolt (1680) drove the Spanish from New Mexico for over a decade. France and the Netherlands built trading colonies with relatively few settlers, forming alliances and intermarrying with American Indians. Britain sent many more settlers, including whole families.",
+     "British colonies formed distinct regions: New England's family farms, towns, and Puritan churches; the Middle Colonies' diverse population and grain exports; the Chesapeake's tobacco plantations, first worked by indentured servants and later by enslaved Africans; and the Southern colonies and West Indies, where large plantations depended on enslaved labor. Colonists developed self-government, from the Mayflower Compact (1620) to elected assemblies. Comparing these regions and empires is a key skill."
+    ],
+    "points": [
+     "Compare: Spanish (conversion, labor) vs. French/Dutch (trade, alliance) vs. British (settlement, land).",
+     "Bacon's Rebellion (1676) helped push Chesapeake planters toward enslaved labor."
+    ]
+   },
+   {
+    "id": "s-ush2-trade",
+    "topicId": "ush2-trade",
+    "title": "Atlantic trade, slavery, and American Indians",
+    "body": [
+     "An Atlantic economy linked Europe, Africa, and the Americas. Britain's mercantilist Navigation Acts tried to keep colonial trade within the empire. Enslaved Africans were forced across the Atlantic to work on plantations; colonial laws made slavery a lifelong, inherited status passed through the mother, and enslaved people resisted through work slowdowns, escape, and revolts such as the Stono Rebellion (1739).",
+     "Relations with American Indians combined trade, alliance, conflict, and displacement. As British settlers expanded, conflicts such as Metacom's War (King Philip's War, 1675–1676) devastated both sides."
+    ],
+    "points": [
+     "Slavery became racialized and hereditary through colonial laws.",
+     "Mercantilism: colonies exist to enrich the home country."
+    ]
+   },
+   {
+    "id": "s-ush2-society",
+    "topicId": "ush2-society",
+    "title": "Colonial society and culture",
+    "body": [
+     "The Enlightenment spread ideas about reason and natural rights, while the Great Awakening (1730s–1740s) brought emotional revivals that challenged established churches. Both encouraged colonists to question authority.",
+     "Under salutary neglect, Britain loosely enforced trade laws, and colonial assemblies grew used to governing themselves, which would matter greatly after 1754."
+    ],
+    "points": [
+     "The Great Awakening crossed colonial lines and weakened church hierarchies.",
+     "Self-government grew from long practice, not just from ideas."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Compare the labor systems of the Chesapeake and New England in the 1600s.",
+   "solution": "The Chesapeake's tobacco economy relied first on indentured servants and increasingly on enslaved Africans; New England's economy of family farms, fishing, and trade relied mainly on family labor, though slavery existed there too."
+  },
+  "misconceptions": [
+   [
+    "“Slavery was the same everywhere from the start.”",
+    "It developed over time, becoming hereditary and racialized through colonial laws."
+   ],
+   [
+    "“All European colonizers treated American Indians the same way.”",
+    "The French and Dutch relied more on trade and alliance; the British sought land."
+   ],
+   [
+    "“The colonies were democracies.”",
+    "They developed elected assemblies, but voting was limited to some property-owning men."
+   ],
+   [
+    "“The Great Awakening was only about religion.”",
+    "It also encouraged challenges to established authority."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. History Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+  "sourceTitle": "AP United States History – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "ush2-a",
+   "title": "Source A: The Mayflower Compact, 1620",
+   "text": [
+    "“We, whose names are underwritten, the loyal subjects of our dread Sovereign Lord King James . . . Having undertaken, for the Glory of God, and advancements of the Christian faith and honor of our King and Country, a voyage to plant the first colony in the Northern parts of Virginia, do by these presents, solemnly and mutually, in the presence of God, and one another, covenant and combine ourselves together into a civil body politic; for our better ordering, and preservation and furtherance of the ends aforesaid; and by virtue hereof to enact, constitute, and frame, such just and equal laws, ordinances, acts, constitutions, and offices, from time to time, as shall be thought most meet and convenient for the general good of the colony; unto which we promise all due submission and obedience.”"
+   ],
+   "attribution": "The Mayflower Compact, signed by male passengers of the Mayflower before landing at Plymouth, 1620. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 3.3.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/3-3-english-settlements-in-america); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush2-b",
+   "title": "Source B: Robert Beverley on servants and slaves in Virginia, 1705",
+   "text": [
+    "“Their Servants, they distinguish by the Names of Slaves for Life, and Servants for a time. Slaves are the Negroes, and their Posterity, following the condition of the Mother, according to the Maxim, partus sequitur ventrem [status follows the womb]. They are call’d Slaves, in respect of the time of their Servitude, because it is for Life. Servants, are those which serve only for a few years, according to the time of their Indenture, or the Custom of the Country. . . . The Male-Servants, and Slaves of both Sexes, are employed together in Tilling and Manuring the Ground, in Sowing and Planting Tobacco, Corn, &c.”"
+   ],
+   "attribution": "Robert Beverley, a wealthy Virginia planter and enslaver, The History and Present State of Virginia, 1705. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 3.3.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/3-3-english-settlements-in-america); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush2-c",
+   "title": "Source C: An interpretation of European empires in North America",
+   "text": [
+    "“Europe's empires in North America took strikingly different shapes. New France stretched along rivers and lakes but held few settlers; its wealth came from furs that Native hunters supplied, so the French depended on alliances, gift-giving, and intermarriage. The Spanish built missions and presidios, seeking converts and labor, and faced fierce resistance, most dramatically in the Pueblo Revolt of 1680. The English, by contrast, arrived in large numbers, often as families, and wanted land to farm. That demand for land made conflict with American Indians far more likely.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "ush2-d",
+   "title": "Source D: An interpretation of the Great Awakening",
+   "text": [
+    "“The revivals that swept the colonies in the 1730s and 1740s were more than a religious event. Traveling preachers drew enormous crowds from many colonies, speaking directly to ordinary people and urging them to judge the spiritual condition of their own ministers. Congregations split, new churches formed, and colonists learned that they could challenge established authority in the name of conscience. A generation later, some of the same habits of questioning would be turned against the British government.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "ush-u2-q01",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-colonies",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The signers of the document agreed to",
+   "choices": [
+    "trade only with the Dutch to avoid English taxes",
+    "declare their independence from England and from King James",
+    "abolish the Church of England in the new colony",
+    "form a body that would make laws for the good of the colony"
+   ],
+   "correctAnswer": 3,
+   "explanation": "They “covenant and combine” into a “civil body politic” to make “just and equal laws.”",
+   "choiceExplanations": [
+    "Trade isn't mentioned in the compact.",
+    "They call themselves loyal subjects of King James.",
+    "The document doesn't address the Church of England.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-a"
+  },
+  {
+   "id": "ush-u2-q02",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-colonies",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The excerpt best reflects which development in the English colonies?",
+   "choices": [
+    "The spread of the encomienda labor system",
+    "The rise of plantation slavery in New England",
+    "The growth of colonial self-government",
+    "Spanish missionary efforts in North America"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The settlers created their own governing agreement, an early example of self-government.",
+   "choiceExplanations": [
+    "The encomienda was a Spanish labor system.",
+    "The document doesn't concern labor or slavery.",
+    "",
+    "This is an English Protestant document."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-a"
+  },
+  {
+   "id": "ush-u2-q03",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-colonies",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which feature of the document most clearly shows that its signers did NOT see themselves as breaking with England?",
+   "choices": [
+    "They promise to make “just and equal laws”",
+    "They mention “the general good of the colony” they are founding",
+    "They refer to “Northern parts of Virginia” as their destination",
+    "They call themselves “loyal subjects” of King James"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Affirming loyalty to the king shows they saw self-government as working within the empire.",
+   "choiceExplanations": [
+    "Making laws doesn't by itself show loyalty.",
+    "Concern for the colony's good is about local governance, not loyalty.",
+    "This describes their intended destination, not their loyalty.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-a"
+  },
+  {
+   "id": "ush-u2-q04",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-society",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The religious language in the excerpt (“for the Glory of God, and advancements of the Christian faith”) is best explained by the fact that",
+   "choices": [
+    "many signers were Separatists seeking to build a community based on their religious beliefs",
+    "the Great Awakening had already swept through the English colonies and inspired the signers",
+    "the colony was founded mainly to grow tobacco for export to English markets",
+    "the Spanish crown required conversion of Native peoples"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The Pilgrims' religious purpose shaped how they described their colony and its government.",
+   "choiceExplanations": [
+    "",
+    "The Great Awakening came in the 1730s–1740s.",
+    "Plymouth wasn't a tobacco colony; that describes the Chesapeake.",
+    "They were English, not under Spanish rule."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-a"
+  },
+  {
+   "id": "ush-u2-q05",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-trade",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Beverley, what was the key difference between “Slaves” and “Servants”?",
+   "choices": [
+    "Servants worked in the tobacco fields, while slaves worked mainly inside the planter's own house",
+    "Slaves served for life and passed their status to their children; servants served a set term",
+    "Slaves were paid small wages for their labor, while servants were paid in land instead",
+    "Servants came from Africa and slaves came from England and Ireland"
+   ],
+   "correctAnswer": 1,
+   "explanation": "He says slaves serve for life with status inherited from the mother, while servants serve for a few years.",
+   "choiceExplanations": [
+    "He says both worked together in the fields.",
+    "",
+    "Neither group received wages or land in this description.",
+    "This reverses who came from where."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-b"
+  },
+  {
+   "id": "ush-u2-q06",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-trade",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The rule that children followed “the condition of the Mother” most directly ensured that",
+   "choices": [
+    "indentured servants would become enslaved for life when their terms ended",
+    "enslaved mothers could choose their children's status",
+    "slavery became a hereditary status passed down through generations",
+    "enslaved people could easily gain freedom through their fathers"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Making status follow the mother meant children of enslaved women were born enslaved.",
+   "choiceExplanations": [
+    "It concerned the children of enslaved women, not servants.",
+    "Mothers had no choice under this rule.",
+    "",
+    "It made freedom harder to obtain; status came from the mother."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-b"
+  },
+  {
+   "id": "ush-u2-q07",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-trade",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which development most directly contributed to the shift in the Chesapeake from indentured servants toward enslaved African labor, as reflected in the excerpt?",
+   "choices": [
+    "The Great Awakening's opposition to slavery, which turned planters against indentured servants",
+    "Planters' fears after Bacon's Rebellion about large numbers of landless former servants",
+    "A British ban on the Atlantic slave trade in the 1600s that raised servants' value",
+    "The end of tobacco cultivation in Virginia and the shift to growing wheat"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Bacon's Rebellion (1676) showed planters the danger of discontented former servants and encouraged reliance on enslaved Africans.",
+   "choiceExplanations": [
+    "The Great Awakening came later and didn't end colonial slavery.",
+    "",
+    "Britain didn't ban the slave trade in the 1600s.",
+    "Tobacco remained central, as the excerpt shows."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-b"
+  },
+  {
+   "id": "ush-u2-q08",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-trade",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A historian would most likely use this excerpt as evidence of",
+   "choices": [
+    "how colonial elites defined slavery as a permanent, racial status by the early 1700s",
+    "English policies toward American Indians in the Virginia colony",
+    "the experiences of enslaved people, described in their own words",
+    "the absence of slavery from Britain's mainland North American colonies before the 1700s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Written by a planter, it shows how elites understood and described the system; it doesn't give enslaved people's own views.",
+   "choiceExplanations": [
+    "",
+    "American Indians aren't discussed.",
+    "Beverley was an enslaver, not an enslaved person.",
+    "The excerpt describes slavery in Virginia."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-b"
+  },
+  {
+   "id": "ush-u2-q09",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-colonies",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, why did the French rely on alliances with American Indians?",
+   "choices": [
+    "Their fur trade depended on Native hunters, and they had few settlers",
+    "They had little interest in settling or trading anywhere in North America",
+    "They grew tobacco on large plantations that needed Native labor",
+    "They wanted to convert Native peoples to Protestantism"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The passage says French wealth came from furs supplied by Native hunters.",
+   "choiceExplanations": [
+    "",
+    "New France stretched across much of the continent.",
+    "Tobacco plantations describe the Chesapeake.",
+    "The French were Catholic."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-c"
+  },
+  {
+   "id": "ush-u2-q10",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-colonies",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The interpretation's comparison of empires most directly supports which conclusion?",
+   "choices": [
+    "All European empires had similar relations with American Indians",
+    "The French sent the most settlers, which caused the most conflict over land",
+    "English demand for farmland made conflict with American Indians likelier than in New France",
+    "The Spanish faced no serious resistance from the Native peoples they sought to convert and use"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The passage contrasts French trade-based alliances with English settlement and land hunger.",
+   "choiceExplanations": [
+    "It stresses differences among the empires.",
+    "It says New France held few settlers.",
+    "",
+    "It cites the Pueblo Revolt as fierce resistance."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-c"
+  },
+  {
+   "id": "ush-u2-q11",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-trade",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which event best illustrates the conflicts the passage associates with English settlement?",
+   "choices": [
+    "The Columbian Exchange of plants and animals",
+    "The founding of Quebec by the French, 1608",
+    "Metacom's War (King Philip's War), 1675–1676",
+    "The Pueblo Revolt against settlers, 1680"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Metacom's War arose from New England settlers' expansion onto Native lands.",
+   "choiceExplanations": [
+    "The Columbian Exchange was a broader process, not a conflict with English settlers.",
+    "Quebec was a French trading settlement.",
+    "",
+    "The Pueblo Revolt was against Spanish rule, not English settlers."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-c"
+  },
+  {
+   "id": "ush-u2-q12",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-colonies",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which statement best compares Spanish and French colonization as described in the passage?",
+   "choices": [
+    "Both avoided contact with Native peoples, unlike the English, who traded with them widely and often",
+    "Both depended on Native peoples, but the Spanish sought converts and labor, the French furs through alliances",
+    "Both sought land for large numbers of family farms, so both came into frequent and bloody conflict with Native peoples",
+    "The French built missions and the Spanish relied on fur trading"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The passage shows both empires relying on Native peoples for different goals and through different relationships.",
+   "choiceExplanations": [
+    "Both had extensive contact with Native peoples.",
+    "",
+    "That describes the English.",
+    "This reverses their main strategies."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-c"
+  },
+  {
+   "id": "ush-u2-q13",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-society",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The interpretation describes the effects of which movement?",
+   "choices": [
+    "The Great Awakening",
+    "The Second Great Awakening",
+    "The Enlightenment",
+    "The Protestant Reformation in Europe"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The revivals of the 1730s and 1740s were the Great Awakening.",
+   "choiceExplanations": [
+    "",
+    "The Second Great Awakening came in the early 1800s.",
+    "The Enlightenment emphasized reason, not revivals.",
+    "The Reformation began in Europe in the 1500s."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-d"
+  },
+  {
+   "id": "ush-u2-q14",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-society",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "According to the passage, how did the revivals affect colonial society?",
+   "choices": [
+    "They strengthened the authority of established ministers",
+    "They encouraged ordinary people to question established religious authority",
+    "They ended religious diversity by uniting colonists behind their established ministers",
+    "They united colonists from many colonies in a single new church"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Congregations split and colonists learned to challenge authority in the name of conscience.",
+   "choiceExplanations": [
+    "The passage says people judged their ministers.",
+    "",
+    "New churches formed, adding diversity.",
+    "Churches split rather than uniting in one church."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-d"
+  },
+  {
+   "id": "ush-u2-q15",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-society",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which feature of the revivals, according to the passage, helped create connections across colonies?",
+   "choices": [
+    "Parliament funded new churches in each colony",
+    "Revivals took place mainly in Virginia's towns",
+    "Colonial governors required attendance at revivals",
+    "Traveling preachers drew crowds from many colonies"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Itinerant preachers spoke in many colonies, creating shared experiences.",
+   "choiceExplanations": [
+    "The passage doesn't mention this.",
+    "The passage says they swept the colonies.",
+    "The passage doesn't mention this.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-d"
+  },
+  {
+   "id": "ush-u2-q16",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "topicId": "ush2-colonies",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The passage's final sentence suggests a connection between the revivals and which later development?",
+   "choices": [
+    "The Pueblo Revolt against Spanish rule in New Mexico",
+    "The Columbian Exchange of goods and diseases",
+    "The founding of Jamestown as a profit-seeking English colony in 1607",
+    "Colonial resistance to British authority in the 1760s and 1770s"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Habits of questioning authority later shaped resistance to British policies leading to the Revolution.",
+   "choiceExplanations": [
+    "The Pueblo Revolt came earlier and was against Spain.",
+    "The Columbian Exchange began in 1492.",
+    "Jamestown was founded in 1607, before the revivals.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush2-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-ush-u2-os1",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "title": "OpenStax U.S. History, 3.3 English Settlements in America",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/3-3-english-settlements-in-america",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (English Settlements in America). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/3-3-english-settlements-in-america",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-ush-u2-os2",
+   "courseId": "ap-united-states-history",
+   "unitId": "u2",
+   "title": "OpenStax U.S. History, 4.3 An Empire of Slavery and the Consumer Revolution",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/4-3-an-empire-of-slavery-and-the-consumer-revolution",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (An Empire of Slavery and the Consumer Revolution). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/4-3-an-empire-of-slavery-and-the-consumer-revolution",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP U.S. History short-answer, document-based, and long-essay questions often span several periods, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ush-u2-q01",
+    "ush-u2-q02",
+    "ush-u2-q03",
+    "ush-u2-q04",
+    "ush-u2-q09",
+    "ush-u2-q10",
+    "ush-u2-q11",
+    "ush-u2-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "ush-u2-q05",
+    "ush-u2-q06",
+    "ush-u2-q07",
+    "ush-u2-q08",
+    "ush-u2-q13",
+    "ush-u2-q14",
+    "ush-u2-q15",
+    "ush-u2-q16"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,713 @@
+{
+ "courseId": "ap-english-literature-and-composition",
+ "unitId": "u1",
+ "title": "Unit 1: Short Fiction I",
+ "topics": [
+  {
+   "id": "lit1-character",
+   "name": "Character and setting",
+   "covers": [
+    "Interpreting the role of character in fiction",
+    "Identifying and interpreting setting"
+   ],
+   "frameworkCovers": [
+    "1.A Identify and describe what specific textual details reveal about a character, that character’s perspective, and that character’s motives.",
+    "2.A Identify and describe specific textual details that convey or reveal a setting."
+   ]
+  },
+  {
+   "id": "lit1-structure",
+   "name": "Plot structure and narration",
+   "covers": [
+    "Understanding how a story’s structure affects interpretations",
+    "Understanding and interpreting a narrator’s perspective"
+   ],
+   "frameworkCovers": [
+    "3.A Identify and describe how plot orders events in a narrative.",
+    "3.B Explain the function of a particular sequence of events in a plot.",
+    "4.A Identify and describe the narrator or speaker of a text.",
+    "4.B Identify and explain the function of point of view in a narrative."
+   ]
+  },
+  {
+   "id": "lit1-analysis",
+   "name": "Reading literally and figuratively; the basics of analysis",
+   "covers": [
+    "Reading texts literally and figuratively",
+    "The basics of literary analysis"
+   ],
+   "frameworkCovers": [
+    "7.A Develop a paragraph that includes 1) a claim that requires defense with evidence from the text and 2) the evidence itself."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 1: Short Fiction I: review guide",
+  "intro": "Short fiction rewards close reading: a few details reveal who characters are, where they stand, and how the story is built. This unit practices reading character, setting, plot order, and narration, and making a claim about a passage that you can defend with evidence.",
+  "sections": [
+   {
+    "id": "s-lit1-character",
+    "topicId": "lit1-character",
+    "title": "Character and setting",
+    "body": [
+     "Characters are revealed through what they do, say, think, and notice, and through what others say about them. Ask what a specific detail shows about a character's perspective (how they see things) and motives (why they act).",
+     "Setting is more than time and place: it includes the social world and the atmosphere. Look for details a writer chose to include, such as weather, objects, or sounds, and ask what they reveal."
+    ],
+    "points": [
+     "Back every claim about a character with a specific detail.",
+     "Notice what a character pays attention to; it reveals what they value."
+    ]
+   },
+   {
+    "id": "s-lit1-structure",
+    "topicId": "lit1-structure",
+    "title": "Plot structure and narration",
+    "body": [
+     "Plot is the order in which a story presents events, which may differ from the order in which they happened. A story may begin in the middle, flash back, or delay a key detail; ask what the sequence makes readers expect, feel, or misunderstand.",
+     "The narrator is the voice telling the story. A first-person narrator is a character (“I”); a third-person narrator stands outside the story and may be limited to one character's thoughts or move among several. Point of view controls what readers know."
+    ],
+    "points": [
+     "Don't confuse the narrator with the author.",
+     "Ask what the narrator knows that a character doesn't, and the reverse."
+    ]
+   },
+   {
+    "id": "s-lit1-analysis",
+    "topicId": "lit1-analysis",
+    "title": "Literal and figurative reading; making a claim",
+    "body": [
+     "Read first for what literally happens, then for what details might suggest beyond their literal meaning, such as an object that comes to stand for a relationship.",
+     "A literary claim is an arguable interpretation, not a summary. A strong paragraph states a claim and supports it with specific evidence from the text."
+    ],
+    "points": [
+     "Summary says what happens; analysis says what it means and how the text creates that meaning.",
+     "Quote or point to precise words, not general impressions."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A story opens: “Every morning Nell set two cups on the table, though for a year only one had been used.” What does this detail suggest?",
+   "solution": "It suggests that Nell has lost someone (perhaps a partner) and has not let go: the habit keeps the absent person present. A claim might be: “Nell's grief shows in routines she cannot give up.”"
+  },
+  "misconceptions": [
+   [
+    "“The narrator is the author.”",
+    "The narrator is a voice the author creates, sometimes very different from the author."
+   ],
+   [
+    "“Setting is just background.”",
+    "Setting can reveal character, create mood, and shape conflict."
+   ],
+   [
+    "“Analysis means retelling the plot.”",
+    "Analysis explains what details mean and how they work."
+   ],
+   [
+    "“A story's events are told in the order they happen.”",
+    "Writers often rearrange events for effect."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Literature and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+  "sourceTitle": "AP English Literature and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "lit1-a",
+   "title": "Passage 1: from a story about a lighthouse",
+   "text": [
+    "(1) The fog came in at four, as it always did in September, and by five Mara could no longer see the end of the jetty. She lit the lamp in the kitchen window, though her father had told her a hundred times that a kitchen lamp guided no one.",
+    "(2) “It's for me,” she had said once. He had laughed and called her practical, which was the word he used for anything he did not understand.",
+    "(3) She set out his supper on the stove, covered it with a plate, and sat with her back straight, listening. The foghorn sounded every thirty seconds. Between the blasts she heard the clock, the kettle, and once, she was almost sure, the knock of oars.",
+    "(4) It was not oars. It was the shutter. She latched it and sat down again, and did not let herself look at the clock."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit1-b",
+   "title": "Passage 2: from a story about a sewing room",
+   "text": [
+    "(1) My grandmother's sewing room smelled of cedar and machine oil, and nothing in it had moved since March. I had come to clear it out. I had brought boxes and a roll of tape and a plan.",
+    "(2) The plan lasted until the button jar. She had kept every button from every coat she ever owned, sorted by color, and the jar was so heavy I needed both hands. Halfway down the blues I found a brass one from my grandfather's uniform, polished, wrapped in a scrap of tissue.",
+    "(3) I sat on the floor with the jar between my knees for most of the afternoon. When my mother called to ask how much I had packed, I told her the truth: one box, and that one was empty."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit1-c",
+   "title": "Passage 3: from a story about a job interview",
+   "text": [
+    "(1) By the time the woman with the clipboard said, “He'll see you now,” Daniel had already decided not to take the job. He had decided it at 8:14 that morning, standing on the train platform, when the express went past without stopping.",
+    "(2) He had been up since five, ironing the shirt his brother had lent him. He had practiced his answers in the bathroom mirror while the water heater ticked. He had counted the stops: eleven, and a walk of six blocks.",
+    "(3) Now he stood, buttoned his jacket, and followed her down the hall. He would go in, he thought, and he would be polite, and he would say no. He was still thinking it when the man behind the desk stood up, held out his hand, and said, “Daniel. We've been hoping you'd come.”"
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit1-d",
+   "title": "Passage 4: from a story about a diner",
+   "text": [
+    "(1) At the all-night diner on Route 9, Luz poured coffee for truckers, nurses, and the occasional lost tourist, and she knew each of them by their order before she knew their names.",
+    "(2) The regular in the corner booth, black coffee and dry toast, came in every night at two and left a dollar under his cup. Tonight he left a folded twenty and a note in pencil: “For the girl who never lets the cup run empty.”",
+    "(3) Luz read it twice. Then she refilled the sugar jars, wiped the counter in long, slow circles, and switched on the sign in the window so that its red letters, OPEN, burned a little brighter against the dark highway."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lit-u1-q01",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which detail in paragraph 1 most directly reveals the setting?",
+   "choices": [
+    "Mara calling the lamp “for me”",
+    "The supper covered with a plate",
+    "The fog arriving at four and hiding the end of the jetty",
+    "Mara's father's often-repeated opinion that a kitchen lamp guides no one"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The fog, the hour, and the jetty establish time, place, and atmosphere.",
+   "choiceExplanations": [
+    "This comes in paragraph 2 and reveals Mara's feelings.",
+    "This is a detail of Mara's routine, in paragraph 3.",
+    "",
+    "This reveals the father's view, not the setting."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-a"
+  },
+  {
+   "id": "lit-u1-q02",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Mara most likely lights the kitchen lamp because she",
+   "choices": [
+    "needs a way to manage her worry while she waits",
+    "is afraid of the dark",
+    "wants to annoy her father",
+    "believes, despite what he says, that the lamp will guide her father's boat home"
+   ],
+   "correctAnswer": 0,
+   "explanation": "She admits it is “for me”: the lamp comforts her while her father is out in the fog.",
+   "choiceExplanations": [
+    "",
+    "The passage connects her actions to waiting, not to fear of darkness.",
+    "Nothing suggests she wants to annoy him.",
+    "She has been told it guides no one, and she doesn't claim it does."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-a"
+  },
+  {
+   "id": "lit-u1-q03",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-structure",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The sequence in paragraphs 3 and 4, in which Mara hears what she thinks are oars and then finds the shutter, mainly serves to",
+   "choices": [
+    "raise and then deflate her hope, intensifying the suspense",
+    "show that the fog and the storm have finally ended and the danger is over",
+    "reveal that her father has returned",
+    "introduce a new character"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The brief hope and its correction heighten the tension of waiting.",
+   "choiceExplanations": [
+    "",
+    "The fog and foghorn continue.",
+    "The sound turns out not to be oars.",
+    "No new character appears."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-a"
+  },
+  {
+   "id": "lit-u1-q04",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-analysis",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which claim about Mara is best supported by the passage as a whole?",
+   "choices": [
+    "She has privately lost all hope that her father will ever return from the sea",
+    "She controls her fear through small, deliberate routines",
+    "She is impatient and careless",
+    "She is indifferent to her father's safety"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Lighting the lamp, covering supper, sitting straight, latching the shutter, and refusing to look at the clock are all ways of controlling anxiety.",
+   "choiceExplanations": [
+    "She keeps the supper warm and keeps waiting, which shows continuing hope.",
+    "",
+    "Her actions are careful, not careless.",
+    "Her careful listening shows deep concern."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-a"
+  },
+  {
+   "id": "lit-u1-q05",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-structure",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The narrator of the passage is",
+   "choices": [
+    "the grandmother",
+    "a first-person narrator who is the grandmother's grandchild",
+    "a third-person narrator who knows every character's thoughts",
+    "the narrator's mother"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The narrator uses “I” and refers to “my grandmother.”",
+   "choiceExplanations": [
+    "The grandmother has died; the narrator is clearing her room.",
+    "",
+    "The narrator speaks as “I.”",
+    "The mother calls the narrator on the phone."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-b"
+  },
+  {
+   "id": "lit-u1-q06",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The details in paragraph 1 (cedar, machine oil, nothing moved since March) mainly suggest that",
+   "choices": [
+    "the narrator dislikes sewing",
+    "the room is dirty and neglected",
+    "the house is about to be sold and the room will soon belong to strangers",
+    "the room still holds the grandmother's presence"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The preserved smells and untouched objects make the room feel as if she has just left it.",
+   "choiceExplanations": [
+    "Nothing suggests dislike.",
+    "The details suggest preservation, not dirt.",
+    "No sale is mentioned.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-b"
+  },
+  {
+   "id": "lit-u1-q07",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-structure",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The phrase “The plan lasted until the button jar” marks",
+   "choices": [
+    "the introduction of the narrator's mother",
+    "the moment the narrator finishes packing",
+    "a flashback to the narrator's childhood visits to the grandmother's sewing room",
+    "the turning point where a practical task gives way to memory and grief"
+   ],
+   "correctAnswer": 3,
+   "explanation": "After this sentence, the narrator stops packing and is absorbed by the jar.",
+   "choiceExplanations": [
+    "The mother appears only at the end.",
+    "The narrator packs almost nothing.",
+    "The passage stays in the present.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-b"
+  },
+  {
+   "id": "lit-u1-q08",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-analysis",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The brass button wrapped in tissue most likely represents",
+   "choices": [
+    "the grandmother's lasting love for her husband",
+    "the grandmother's interest in military history and in collecting uniform buttons",
+    "a mistake in the grandmother's sorting",
+    "the narrator's wish to sell valuable items"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Polished and wrapped apart from the others, the button was cherished: a figurative sign of devotion.",
+   "choiceExplanations": [
+    "",
+    "The care given to one button suggests personal feeling, not historical interest.",
+    "It was deliberately set apart, not misplaced.",
+    "The narrator keeps everything."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-b"
+  },
+  {
+   "id": "lit-u1-q09",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-structure",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How does the passage order events?",
+   "choices": [
+    "It begins at the end of the day and then moves steadily backward to the night before",
+    "It tells the events strictly in the order they happened, from waking at five to the interview",
+    "It begins in the present, moves back to earlier that morning, then returns to the present",
+    "It jumps forward several years"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Paragraph 1 is set at the interview, paragraph 2 flashes back to the morning, and paragraph 3 returns.",
+   "choiceExplanations": [
+    "The passage covers one morning.",
+    "The morning's events come after the interview is introduced.",
+    "",
+    "No years pass."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-c"
+  },
+  {
+   "id": "lit-u1-q10",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-character",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The details in paragraph 2 (ironing the borrowed shirt, practicing answers, counting stops) suggest that Daniel",
+   "choices": [
+    "had never wanted the job and was going to the interview only to please his brother",
+    "cared a great deal about the interview before he decided against it",
+    "was confident and unprepared",
+    "planned to arrive late"
+   ],
+   "correctAnswer": 1,
+   "explanation": "His careful preparation shows how much the job mattered to him.",
+   "choiceExplanations": [
+    "His preparation shows he wanted it.",
+    "",
+    "He was thoroughly prepared.",
+    "Nothing suggests he planned to be late."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-c"
+  },
+  {
+   "id": "lit-u1-q11",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-structure",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The point of view of the passage is best described as",
+   "choices": [
+    "second-person, addressing the reader as “you”",
+    "third-person limited, closely following Daniel's thoughts",
+    "first-person, narrated by Daniel",
+    "third-person omniscient, entering every character's thoughts"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The narrator uses “he” and reports Daniel's thoughts only.",
+   "choiceExplanations": [
+    "The reader isn't addressed.",
+    "",
+    "The narrator doesn't use “I.”",
+    "Only Daniel's thoughts are given."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-c"
+  },
+  {
+   "id": "lit-u1-q12",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-analysis",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The ending most directly complicates Daniel's decision by",
+   "choices": [
+    "revealing that he is valued and expected, which may make saying no harder",
+    "revealing that the woman with the clipboard is his brother, who arranged the interview",
+    "showing that he has been rejected",
+    "confirming that the job was a mistake"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The welcome he never expected challenges the resolve he formed after the express train passed.",
+   "choiceExplanations": [
+    "",
+    "His brother lent him the shirt; he isn't at the office.",
+    "He is warmly welcomed.",
+    "Nothing yet shows the job is a mistake."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-c"
+  },
+  {
+   "id": "lit-u1-q13",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Luz's habit of knowing customers “by their order before she knew their names” suggests that she",
+   "choices": [
+    "is new to the job",
+    "dislikes her customers",
+    "pays close, attentive notice to the people she serves",
+    "has a poor memory for names and so relies on remembering the orders"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Knowing everyone's order shows care and attention.",
+   "choiceExplanations": [
+    "Her familiarity suggests long experience.",
+    "Nothing suggests dislike.",
+    "",
+    "The point is attentiveness, not forgetfulness."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-d"
+  },
+  {
+   "id": "lit-u1-q14",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-character",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The note's phrase “the girl who never lets the cup run empty” reveals that the customer",
+   "choices": [
+    "does not know Luz's name and wants to learn it before he stops coming in",
+    "is complaining about the service",
+    "is leaving town for good",
+    "has noticed and values Luz's quiet attentiveness"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The note thanks her for the steady care she gives without being asked.",
+   "choiceExplanations": [
+    "The note praises her rather than asking her name.",
+    "The twenty-dollar tip and praise show gratitude.",
+    "Nothing says he is leaving.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-d"
+  },
+  {
+   "id": "lit-u1-q15",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-analysis",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Luz's response in paragraph 3 (refilling jars, wiping slowly) suggests that she",
+   "choices": [
+    "is angry about the note",
+    "does not understand the note",
+    "is moved but expresses it through her ordinary work",
+    "plans to quit that night now that she has been given a large tip"
+   ],
+   "correctAnswer": 2,
+   "explanation": "She reads the note twice and then continues her work with slow, careful motions, a quiet way of absorbing the gesture.",
+   "choiceExplanations": [
+    "Nothing suggests anger.",
+    "Reading it twice suggests she understood and was affected.",
+    "",
+    "She switches the sign on more brightly, which suggests staying."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-d"
+  },
+  {
+   "id": "lit-u1-q16",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "topicId": "lit1-analysis",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Read figuratively, the image of the OPEN sign burning “a little brighter against the dark highway” most likely suggests",
+   "choices": [
+    "a warning to drivers",
+    "that the highway is under construction",
+    "a signal that the diner is about to close for the night and will not serve anyone else on the road",
+    "Luz's renewed sense that her work matters to the people who come in from the dark"
+   ],
+   "correctAnswer": 3,
+   "explanation": "After being recognized, Luz's welcoming role seems more meaningful, which the brighter sign suggests.",
+   "choiceExplanations": [
+    "The image suggests welcome, not warning.",
+    "Nothing suggests construction.",
+    "The sign says OPEN.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit1-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lit-u1-os1",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "title": "OpenStax Writing Guide with Handbook, 16.1 An Author’s Choices: What Text Says and How It Says It",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/16-1-an-authors-choices-what-text-says-and-how-it-says-it",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on analyzing and interpreting what a text says and how it says it. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/16-1-an-authors-choices-what-text-says-and-how-it-says-it",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  },
+  {
+   "id": "res-lit-u1-os2",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u1",
+   "title": "OpenStax Writing Guide with Handbook, 16.3 Glance at Genre: Print or Textual Analysis",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/16-3-glance-at-genre-print-or-textual-analysis",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on the conventions of textual analysis, including writing about fiction. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/16-3-glance-at-genre-print-or-textual-analysis",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Literature free-response questions (poetry analysis, prose fiction analysis, and literary argument) draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lit-u1-q01",
+    "lit-u1-q02",
+    "lit-u1-q03",
+    "lit-u1-q04",
+    "lit-u1-q09",
+    "lit-u1-q10",
+    "lit-u1-q11",
+    "lit-u1-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lit-u1-q05",
+    "lit-u1-q06",
+    "lit-u1-q07",
+    "lit-u1-q08",
+    "lit-u1-q13",
+    "lit-u1-q14",
+    "lit-u1-q15",
+    "lit-u1-q16"
+   ]
+  }
+ ]
+}

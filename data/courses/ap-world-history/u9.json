@@ -1,0 +1,707 @@
+{
+ "courseId": "ap-world-history",
+ "unitId": "u9",
+ "title": "Unit 9: Globalization",
+ "topics": [
+  {
+   "id": "wh9-tech",
+   "name": "Technology, disease, and the environment",
+   "covers": [
+    "Advances in technology and their effects",
+    "Disease",
+    "Environment"
+   ],
+   "frameworkCovers": [
+    "9.1 Advances in Technology and Exchange After 1900",
+    "9.2 Technological Advances and Limitations After 1900: Disease",
+    "9.3 Technological Advances: Debates About the Environment After 1900"
+   ]
+  },
+  {
+   "id": "wh9-economy",
+   "name": "Economic change and international institutions",
+   "covers": [
+    "Economic change",
+    "New international institutions"
+   ],
+   "frameworkCovers": [
+    "9.4 Economics in the Global Age",
+    "9.7 Resistance to Globalization After 1900",
+    "9.8 Institutions Developing in a Globalized World"
+   ]
+  },
+  {
+   "id": "wh9-society",
+   "name": "Reform movements and global culture",
+   "covers": [
+    "Movements for reform",
+    "How globalization changed culture"
+   ],
+   "frameworkCovers": [
+    "9.5 Calls for Reform and Responses After 1900",
+    "9.6 Globalized Culture After 1900",
+    "9.9 Continuity and Change in a Globalized World"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 9: Globalization: review guide",
+  "intro": "Since 1900, new technologies, economic policies, and international institutions have tied the world closer together. This unit covers advances in technology and medicine and their limits, environmental debates, economic change and the institutions that manage it, movements for rights and reform, and the globalization of culture, along with resistance to it.",
+  "sections": [
+   {
+    "id": "s-wh9-tech",
+    "topicId": "wh9-tech",
+    "title": "Technology, disease, and the environment",
+    "body": [
+     "Technologies such as radio, television, cell phones, and the internet sped communication; the Green Revolution's high-yield seeds, fertilizers, and irrigation raised food production in places such as Mexico and India. Antibiotics and vaccines saved millions, and smallpox was eradicated by 1980.",
+     "Yet diseases persisted or emerged: the 1918 influenza pandemic, HIV/AIDS from the 1980s, and COVID-19 from 2020, as well as heart disease and other illnesses linked to longer lives. Growing populations and fossil-fuel use caused deforestation, pollution, and climate change, prompting debates and agreements such as the 2015 Paris Agreement."
+    ],
+    "points": [
+     "Technological advances often had limits or unequal effects.",
+     "Name both benefits and costs of the Green Revolution."
+    ]
+   },
+   {
+    "id": "s-wh9-economy",
+    "topicId": "wh9-economy",
+    "title": "Economic change and international institutions",
+    "body": [
+     "After 1945, institutions such as the United Nations, the International Monetary Fund, and the World Bank were created, and the General Agreement on Tariffs and Trade (later the World Trade Organization, 1995) promoted freer trade. From the 1970s, neoliberal policies (privatization, deregulation, and free trade) spread, for example in Chile, Britain, and the United States. After 1978, Deng Xiaoping opened China to market reforms and foreign investment while the Communist Party kept political control.",
+     "Regional groups such as the European Union, ASEAN, and NAFTA expanded trade. Globalization also met resistance, from the Zapatista uprising in Mexico in 1994 to protests at the 1999 WTO meeting in Seattle."
+    ],
+    "points": [
+     "Distinguish state-led economies from neoliberal market reforms.",
+     "International institutions include governments' organizations and non-governmental organizations (NGOs)."
+    ]
+   },
+   {
+    "id": "s-wh9-society",
+    "topicId": "wh9-society",
+    "title": "Reform movements and global culture",
+    "body": [
+     "The UN's Universal Declaration of Human Rights (1948) set out rights for all people. Movements for civil rights in the United States, women's rights, and an end to apartheid in South Africa, where Nelson Mandela was elected president in 1994, won major changes; environmental activists such as Wangari Maathai's Green Belt Movement linked ecology and women's empowerment.",
+     "Culture spread in many directions: American brands and films, Indian Bollywood films, South Korean pop music, Jamaican reggae, and global sports such as the World Cup. Some groups resisted, defending local traditions or religious identities against what they saw as cultural homogenization."
+    ],
+    "points": [
+     "Continuity and change: rights expanded, but inequality and discrimination persisted.",
+     "Cultural globalization flowed from many regions, not only the West."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain one limitation of the Green Revolution.",
+   "solution": "It depended on costly fertilizers, pesticides, and irrigation, so wealthier farmers gained most, and heavy chemical and water use damaged soils and water supplies in some regions."
+  },
+  "misconceptions": [
+   [
+    "“Globalization began in 1990.”",
+    "Global connections are much older; their speed and scale grew sharply after 1945 and again with the internet."
+   ],
+   [
+    "“Medical advances ended epidemic disease.”",
+    "HIV/AIDS, COVID-19, and other diseases show disease remains a major challenge."
+   ],
+   [
+    "“Globalized culture means American culture.”",
+    "Culture flows from many regions, such as Bollywood films and K-pop."
+   ],
+   [
+    "“International institutions are always governments.”",
+    "NGOs such as Doctors Without Borders also act globally."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP World History: Modern Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+  "sourceTitle": "AP World History: Modern – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "wh9-a",
+   "title": "Source A: An interpretation of technology and disease since 1900",
+   "text": [
+    "“The twentieth century transformed how long people lived and how they communicated. Antibiotics such as penicillin, mass-produced from the 1940s, cured once-deadly infections, and a global vaccination campaign eradicated smallpox by 1980. In the 1960s, the Green Revolution brought high-yield wheat and rice, chemical fertilizers, and irrigation to Mexico, India, and other countries, sharply raising harvests, though farmers who could afford the inputs gained most, and soils and water supplies suffered in places. Disease did not disappear: HIV/AIDS spread worldwide from the 1980s, and COVID-19 shut down much of the world in 2020. Meanwhile radio, television, and later cell phones and the internet carried news and ideas across borders almost instantly.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh9-b",
+   "title": "Source B: An interpretation of economic change since 1945",
+   "text": [
+    "“The postwar order rested on new institutions: the International Monetary Fund and the World Bank, and a trade agreement that in 1995 became the World Trade Organization. From the 1970s, many governments embraced neoliberal policies, selling state industries, reducing regulation, and lowering trade barriers; Chile under Pinochet, Britain under Thatcher, and the United States under Reagan led the way. After 1978, Deng Xiaoping opened China to foreign investment and market incentives while the Communist Party kept political control, and China became a manufacturing giant. Not everyone welcomed these changes. In 1994 the Zapatistas rose in southern Mexico against free trade, and in 1999 protesters disrupted the WTO meeting in Seattle.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh9-c",
+   "title": "Source C: An interpretation of movements for rights and reform",
+   "text": [
+    "“In 1948 the United Nations General Assembly adopted the Universal Declaration of Human Rights, which declared that all people are born free and equal in dignity and rights. In the decades that followed, movements used such ideals to press for change. In the United States, the civil rights movement won the Civil Rights Act of 1964. In South Africa, decades of resistance and international pressure ended apartheid, and Nelson Mandela was elected president in 1994. In Kenya, Wangari Maathai's Green Belt Movement organized women to plant millions of trees, linking environmental protection with women's empowerment. Many movements faced arrests and violence, and discrimination persisted even where laws changed.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh9-d",
+   "title": "Source D: An interpretation of global culture and institutions",
+   "text": [
+    "“Global culture after 1950 flowed in many directions. American soft drinks, fast food, and films spread worldwide, but so did Indian Bollywood films, Jamaican reggae, Japanese anime, and South Korean pop music. Sports such as soccer's World Cup drew audiences of billions. Some communities welcomed these changes; others resisted them, reviving religious practices or local traditions as defenses against what they saw as cultural homogenization. Meanwhile new kinds of institutions addressed problems no single state could solve. Non-governmental organizations such as Doctors Without Borders provided medical aid across borders, and in 2015 almost every country signed the Paris Agreement, pledging to limit the greenhouse gas emissions that drive climate change.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "wh-u9-q01",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-tech",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source A, the Green Revolution raised harvests by introducing",
+   "choices": [
+    "high-yield crops, fertilizers, and irrigation",
+    "the collective farms of the Soviet Union",
+    "a ban on fertilizers to protect soils",
+    "new medicines that cured crop diseases"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The source lists “high-yield wheat and rice, chemical fertilizers, and irrigation.”",
+   "choiceExplanations": [
+    "",
+    "Collective farms are a different policy.",
+    "The Green Revolution increased fertilizer use.",
+    "Medicines such as penicillin were for people."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-a"
+  },
+  {
+   "id": "wh-u9-q02",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-tech",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source A, smallpox was",
+   "choices": [
+    "spread worldwide from the 1980s",
+    "cured by penicillin in the 1940s",
+    "eradicated by 1980 by vaccination",
+    "a disease of the Green Revolution"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A global vaccination campaign “eradicated smallpox by 1980.”",
+   "choiceExplanations": [
+    "That describes HIV/AIDS.",
+    "Penicillin is an antibiotic against bacterial infections; smallpox is a virus.",
+    "",
+    "Smallpox was not linked to farming changes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-a"
+  },
+  {
+   "id": "wh-u9-q03",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-tech",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Source A suggests which limitation of the Green Revolution?",
+   "choices": [
+    "It reduced harvests of wheat and rice in Mexico and India.",
+    "It was used only in the United States and Europe.",
+    "Its gains went mostly to farmers who could afford inputs.",
+    "It ended the use of irrigation in farming."
+   ],
+   "correctAnswer": 2,
+   "explanation": "The source notes that “farmers who could afford the inputs gained most” and that soils and water suffered.",
+   "choiceExplanations": [
+    "Harvests rose sharply.",
+    "It spread to Mexico, India, and other countries.",
+    "",
+    "Irrigation was one of its inputs."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-a"
+  },
+  {
+   "id": "wh-u9-q04",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-society",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The final sentence of Source A best supports which claim about globalization?",
+   "choices": [
+    "Communication technology mattered only to governments.",
+    "New technology let ideas cross borders quickly.",
+    "The internet was invented before radio and television.",
+    "Technology isolated societies from one another."
+   ],
+   "correctAnswer": 1,
+   "explanation": "Instant communication helped ideas, culture, and reform movements spread worldwide.",
+   "choiceExplanations": [
+    "The technologies reached ordinary people, carrying “news and ideas.”",
+    "",
+    "Radio and television came first.",
+    "The source describes faster connections."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-a"
+  },
+  {
+   "id": "wh-u9-q05",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-economy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source B, Deng Xiaoping's reforms after 1978",
+   "choices": [
+    "opened China to markets under Party rule",
+    "returned China to the policies of the Great Leap Forward",
+    "ended Communist Party control of China",
+    "closed China to foreign trade and investment"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The source says Deng opened China to “foreign investment and market incentives while the Communist Party kept political control.”",
+   "choiceExplanations": [
+    "",
+    "The reforms moved away from Mao-era policies.",
+    "The Party kept control.",
+    "The reforms opened China to trade."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-b"
+  },
+  {
+   "id": "wh-u9-q06",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-economy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The neoliberal policies described in Source B included",
+   "choices": [
+    "raising tariffs to protect national industries",
+    "placing all industries under state ownership",
+    "replacing markets with central planning",
+    "privatizing and lowering trade barriers"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The source lists selling state industries, reducing regulation, and lowering trade barriers.",
+   "choiceExplanations": [
+    "Neoliberalism lowered trade barriers.",
+    "That is the opposite of privatization.",
+    "Neoliberalism favored markets.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-b"
+  },
+  {
+   "id": "wh-u9-q07",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-economy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Zapatista uprising and the Seattle protests in Source B are both examples of",
+   "choices": [
+    "resistance to economic globalization",
+    "government programs to expand free trade",
+    "neoliberal reforms in Latin America",
+    "support for the World Trade Organization"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Both opposed the effects of free trade and global economic institutions.",
+   "choiceExplanations": [
+    "",
+    "They were protests, not government programs.",
+    "They opposed neoliberal policies.",
+    "They protested against the WTO and free trade."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-b"
+  },
+  {
+   "id": "wh-u9-q08",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-economy",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The creation of the World Trade Organization in 1995 most directly reflects",
+   "choices": [
+    "a return to mercantilist trade restrictions",
+    "the rejection of free trade by most governments",
+    "the end of international economic cooperation",
+    "international institutions promoting freer trade"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The WTO grew out of a postwar trade agreement and works to lower trade barriers among its members.",
+   "choiceExplanations": [
+    "Mercantilism restricted imports.",
+    "Most governments joined.",
+    "The WTO expanded cooperation.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-b"
+  },
+  {
+   "id": "wh-u9-q09",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-society",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, the Universal Declaration of Human Rights was adopted by",
+   "choices": [
+    "the U.S. Congress in 1964",
+    "the UN General Assembly in 1948",
+    "the World Trade Organization in 1995",
+    "the South African government in 1994"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The source says the UN General Assembly adopted it in 1948.",
+   "choiceExplanations": [
+    "Congress passed the Civil Rights Act in 1964.",
+    "",
+    "The WTO is a trade body.",
+    "Mandela was elected in 1994."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-c"
+  },
+  {
+   "id": "wh-u9-q10",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-society",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, apartheid in South Africa ended after",
+   "choices": [
+    "a single decision by the United Nations",
+    "the passage of the U.S. Civil Rights Act",
+    "the Green Belt Movement's protests",
+    "resistance and international pressure"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The source credits “decades of resistance and international pressure.”",
+   "choiceExplanations": [
+    "The UN alone did not end apartheid.",
+    "That law applied in the United States.",
+    "The Green Belt Movement was in Kenya.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-c"
+  },
+  {
+   "id": "wh-u9-q11",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-tech",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Green Belt Movement described in Source C linked",
+   "choices": [
+    "space exploration with new technology",
+    "industrial expansion with the end of apartheid",
+    "environmental protection and women's rights",
+    "free trade with economic growth"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The movement organized women to plant trees, connecting environmental and women's issues.",
+   "choiceExplanations": [
+    "It had nothing to do with space.",
+    "It was in Kenya and focused on trees.",
+    "",
+    "It was not a trade movement."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-c"
+  },
+  {
+   "id": "wh-u9-q12",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-society",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which statement best describes continuity and change in human rights after 1945, according to Source C?",
+   "choices": [
+    "No changes in rights occurred after 1948.",
+    "Rights movements succeeded without facing any opposition.",
+    "Legal rights expanded, but discrimination persisted.",
+    "Rights expanded, and discrimination disappeared everywhere."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Laws and governments changed, yet movements faced violence and “discrimination persisted even where laws changed.”",
+   "choiceExplanations": [
+    "The source describes major changes.",
+    "The source mentions arrests and violence.",
+    "",
+    "The source says discrimination persisted."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-c"
+  },
+  {
+   "id": "wh-u9-q13",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-society",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The global popularity of Bollywood films and South Korean pop music shows that",
+   "choices": [
+    "only American culture spread worldwide",
+    "global culture flowed from many regions",
+    "governments banned foreign films",
+    "culture stopped crossing borders after 1950"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The source lists cultural exports from India, Jamaica, Japan, and South Korea as well as the United States.",
+   "choiceExplanations": [
+    "The source names many sources of culture.",
+    "",
+    "No such bans are described.",
+    "Culture spread more widely after 1950."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-d"
+  },
+  {
+   "id": "wh-u9-q14",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-economy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Doctors Without Borders, as described in Source D, is an example of",
+   "choices": [
+    "a trade agreement among member states",
+    "a non-governmental organization",
+    "a regional military alliance",
+    "a national government's health ministry"
+   ],
+   "correctAnswer": 1,
+   "explanation": "NGOs are organizations independent of governments; this one provides medical aid internationally.",
+   "choiceExplanations": [
+    "It provides medical aid, not trade rules.",
+    "",
+    "It is a humanitarian group.",
+    "It is not part of any government."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-d"
+  },
+  {
+   "id": "wh-u9-q15",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-tech",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "According to Source D, the Paris Agreement of 2015 aimed to",
+   "choices": [
+    "replace the United Nations",
+    "promote fossil-fuel use in developing countries",
+    "end the World Cup's environmental impact",
+    "limit greenhouse gas emissions"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Countries pledged “to limit the greenhouse gas emissions that drive climate change.”",
+   "choiceExplanations": [
+    "It was an agreement among UN members.",
+    "It aimed to reduce emissions.",
+    "The World Cup is mentioned only as culture.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-d"
+  },
+  {
+   "id": "wh-u9-q16",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "topicId": "wh9-society",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Source D describes responses to globalized culture as",
+   "choices": [
+    "mixed: some embraced it; others revived traditions",
+    "limited to governments and not to ordinary people",
+    "uniformly hostile, so foreign culture failed to spread",
+    "uniformly welcoming in every society"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Some “welcomed these changes; others resisted them, reviving religious practices or local traditions.”",
+   "choiceExplanations": [
+    "",
+    "The source describes communities, not only governments.",
+    "Global culture spread widely.",
+    "Some communities resisted."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh9-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-wh-u9-os1",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "title": "OpenStax World History, Volume 2: from 1400, 15.1 A Global Economy",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/15-1-a-global-economy",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on the global economy. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/15-1-a-global-economy",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  },
+  {
+   "id": "res-wh-u9-os2",
+   "courseId": "ap-world-history",
+   "unitId": "u9",
+   "title": "OpenStax World History, Volume 2: from 1400, 15.2 Debates about the Environment",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/15-2-debates-about-the-environment",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on debates about the environment. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/15-2-debates-about-the-environment",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP World History: Modern short-answer, document-based, and long-essay questions often span several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "wh-u9-q01",
+    "wh-u9-q02",
+    "wh-u9-q03",
+    "wh-u9-q04",
+    "wh-u9-q05",
+    "wh-u9-q06",
+    "wh-u9-q07",
+    "wh-u9-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "wh-u9-q09",
+    "wh-u9-q10",
+    "wh-u9-q11",
+    "wh-u9-q12",
+    "wh-u9-q13",
+    "wh-u9-q14",
+    "wh-u9-q15",
+    "wh-u9-q16"
+   ]
+  }
+ ]
+}

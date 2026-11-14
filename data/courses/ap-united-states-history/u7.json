@@ -1,0 +1,713 @@
+{
+ "courseId": "ap-united-states-history",
+ "unitId": "u7",
+ "title": "Unit 7: Period 7: 1890–1945",
+ "topics": [
+  {
+   "id": "ush7-empire",
+   "name": "Imperialism, world wars, and diplomacy",
+   "covers": [
+    "Debates over imperialism",
+    "World War I",
+    "World War II",
+    "Postwar diplomacy"
+   ],
+   "frameworkCovers": [
+    "7.1 Contextualizing Period 7",
+    "7.2 Imperialism: Debates",
+    "7.3 The Spanish–American War",
+    "7.5 World War I: Military and Diplomacy",
+    "7.11 Interwar Foreign Policy",
+    "7.13 World War II: Military",
+    "7.14 Postwar Diplomacy"
+   ]
+  },
+  {
+   "id": "ush7-progress",
+   "name": "Progressives, the World War I home front, and the 1920s",
+   "covers": [
+    "The Progressive movement",
+    "Innovations in communications and technology in the 1920s"
+   ],
+   "frameworkCovers": [
+    "7.4 The Progressives",
+    "7.6 World War I: Home Front",
+    "7.7 1920s: Innovations in Communication and Technology",
+    "7.8 1920s: Cultural and Political Controversies"
+   ]
+  },
+  {
+   "id": "ush7-depression",
+   "name": "The Great Depression, the New Deal, and wartime mobilization",
+   "covers": [
+    "The Great Depression and the New Deal"
+   ],
+   "frameworkCovers": [
+    "7.9 Great Depression",
+    "7.10 New Deal",
+    "7.12 World War II: Mobilization",
+    "7.15 Comparison in Period 7"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Period 7 (1890–1945): review guide",
+  "intro": "In Period 7 the United States became a world power, reformers tried to tame industrial capitalism, the 1920s brought new technology and culture wars, and the Great Depression and two world wars vastly expanded the federal government's role. Comparison is the period's key reasoning skill.",
+  "sections": [
+   {
+    "id": "s-ush7-empire",
+    "topicId": "ush7-empire",
+    "title": "Imperialism, world wars, and diplomacy",
+    "body": [
+     "After the Spanish–American War (1898) the United States acquired Puerto Rico, Guam, and the Philippines, where it fought a long war against Filipino independence forces; it also annexed Hawaii. Anti-imperialists argued that colonies betrayed American principles. The United States entered World War I in 1917; afterward the Senate rejected the Treaty of Versailles and the League of Nations, and the nation largely avoided foreign commitments in the 1920s and 1930s.",
+     "After Pearl Harbor (December 1941), the United States fought in Europe and the Pacific; the war ended in 1945 after the atomic bombings of Hiroshima and Nagasaki. Wartime and postwar diplomacy led to the United Nations and set the stage for tension with the Soviet Union."
+    ],
+    "points": [
+     "Comparison: debates over involvement after WWI vs. global leadership after WWII.",
+     "Imperialism was justified by economic, strategic, and racial arguments."
+    ]
+   },
+   {
+    "id": "s-ush7-progress",
+    "topicId": "ush7-progress",
+    "title": "Progressives, the WWI home front, and the 1920s",
+    "body": [
+     "Progressives used journalism (muckrakers), science, and government to address problems of industrial society: unsafe factories (the Triangle Shirtwaist fire of 1911 led to New York safety laws), corrupt politics, monopolies, and impure food. Constitutional amendments brought the income tax, direct election of senators, Prohibition, and women's suffrage (1920). During World War I, the government restricted dissent (Espionage and Sedition Acts), and the Great Migration of African Americans to Northern cities began.",
+     "In the 1920s, radio, film, and automobiles created a national mass culture. Conflicts arose over immigration (quota laws of 1921 and 1924), Prohibition, evolution (the Scopes trial, 1925), and race; the Harlem Renaissance celebrated African American culture."
+    ],
+    "points": [
+     "Progressives were mostly middle-class reformers who trusted expertise and government.",
+     "1920s: modern culture vs. traditional values."
+    ]
+   },
+   {
+    "id": "s-ush7-depression",
+    "topicId": "ush7-depression",
+    "title": "The Great Depression, the New Deal, and mobilization",
+    "body": [
+     "The stock market crash of 1929 and bank failures deepened a depression that left about a quarter of workers unemployed by 1933. Franklin D. Roosevelt's New Deal used relief, recovery, and reform: a bank holiday and deposit insurance (FDIC), work programs, Social Security (1935), and protection for unions (the Wagner Act). Critics on the left said it did too little, and on the right that it expanded government too far.",
+     "World War II mobilization ended the Depression: factories converted to war production, women and African Americans took new jobs, and Mexican workers came through the Bracero Program. Wartime also brought injustice, most notably the forced removal and incarceration of Japanese Americans under Executive Order 9066 (1942)."
+    ],
+    "points": [
+     "Compare the Progressive Era and the New Deal: both expanded government, but the New Deal was far larger.",
+     "Mobilization, not the New Deal alone, ended mass unemployment."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Compare the Progressive movement and the New Deal in one sentence.",
+   "solution": "Both used government to address problems of industrial capitalism, but the Progressives worked mostly through state and local reforms and regulation, while the New Deal created large federal programs of relief, recovery, and social insurance in response to an economic emergency."
+  },
+  "misconceptions": [
+   [
+    "“The United States was isolationist throughout the interwar years.”",
+    "It avoided alliances but stayed active in trade, investment, and diplomacy."
+   ],
+   [
+    "“The New Deal ended the Great Depression.”",
+    "It eased hardship, but wartime mobilization ended mass unemployment."
+   ],
+   [
+    "“Progressives were radical revolutionaries.”",
+    "Most were middle-class reformers who wanted to fix, not replace, capitalism."
+   ],
+   [
+    "“Everyone agreed about imperialism in 1898.”",
+    "Anti-imperialists strongly opposed overseas colonies."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. History Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+  "sourceTitle": "AP United States History – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "ush7-a",
+   "title": "Source A: An eyewitness account of the Triangle Shirtwaist Factory fire, 1911",
+   "text": [
+    "“I saw every feature of the tragedy visible from outside the building. I learned a new sound—a more horrible sound than description can picture. It was the thud of a speeding, living body on a stone sidewalk. . . . I looked upon the heap of dead bodies and I remembered these girls were the shirtwaist makers. I remembered their great strike of last year in which these same girls had demanded more sanitary conditions and more safety precautions in the shops. These dead bodies were the answer.”"
+   ],
+   "attribution": "William Shepherd, a United Press reporter who witnessed the fire in New York City on March 25, 1911, telephoning his account to his news service. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 21.2.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/21-2-progressivism-at-the-grassroots-level); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush7-b",
+   "title": "Source B: Franklin D. Roosevelt, radio address on banking, 1933",
+   "text": [
+    "“I recognize that the many proclamations from State capitols and from Washington, the legislation, the Treasury regulations, etc., couched for the most part in banking and legal terms, should be explained for the benefit of the average citizen. . . . After all, there is an element in the readjustment of our financial system more important than currency, more important than gold, and that is the confidence of the people. Confidence and courage are the essentials of success in carrying out our plan. You people must have faith; you must not be stampeded by rumors or guesses. Let us unite in banishing fear. We have provided the machinery to restore our financial system; it is up to you to support and make it work.”"
+   ],
+   "attribution": "President Franklin D. Roosevelt, his first radio “fireside chat,” March 12, 1933. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 26.2.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/26-2-the-first-new-deal); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush7-c",
+   "title": "Source C: An interpretation of the debate over empire, 1898–1902",
+   "text": [
+    "“The war with Spain in 1898 lasted only months, but the peace raised questions Americans argued about for years. Expansionists pointed to markets in Asia, coaling stations for a modern navy, and what they called a duty to “civilize” other peoples. Anti-imperialists, a group that included Mark Twain, Andrew Carnegie, and Jane Addams, answered that ruling the Philippines without the consent of Filipinos betrayed the principles of the Declaration of Independence. The bloody war against Filipino independence fighters that followed seemed to many of them to prove their point.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "ush7-d",
+   "title": "Source D: An interpretation of the home front in World War II",
+   "text": [
+    "“World War II transformed American society more than any event since the Civil War. Factories that had stood idle in the Depression ran around the clock, unemployment nearly disappeared, and millions of women took industrial jobs once reserved for men. African Americans moved to war-industry cities and launched the “Double V” campaign for victory over fascism abroad and racism at home. Yet the same government that called the war a fight for freedom forced more than 100,000 Japanese Americans, most of them citizens, from their homes into incarceration camps.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "ush-u7-q01",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-progress",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The author connects the deaths in the fire to",
+   "choices": [
+    "the outbreak of World War I in Europe",
+    "the workers' earlier demands for safer conditions",
+    "a natural disaster that no one could have prevented or foreseen",
+    "the hard times of the Great Depression"
+   ],
+   "correctAnswer": 1,
+   "explanation": "He recalls their strike for “more safety precautions” and says the dead bodies “were the answer.”",
+   "choiceExplanations": [
+    "The war began in 1914.",
+    "",
+    "He suggests the deaths followed from ignored demands, not chance.",
+    "The Depression began in 1929."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-a"
+  },
+  {
+   "id": "ush-u7-q02",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-progress",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Accounts like this one most directly contributed to",
+   "choices": [
+    "the annexation of Hawaii and other Pacific islands",
+    "the end of immigration from southern and eastern Europe",
+    "new state laws on workplace safety and fire protection",
+    "the repeal of Prohibition by constitutional amendment"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Public outrage after the fire led New York to pass major factory safety reforms.",
+   "choiceExplanations": [
+    "Hawaii was annexed in 1898.",
+    "Immigration restrictions came for different reasons in the 1920s.",
+    "",
+    "Prohibition was repealed in 1933 for other reasons."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-a"
+  },
+  {
+   "id": "ush-u7-q03",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-progress",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The excerpt best illustrates the methods of which group?",
+   "choices": [
+    "Populist farmers demanding free silver and railroad regulation",
+    "Muckraking journalists who exposed social problems to build support for reform",
+    "New Deal planners designing federal work programs for the unemployed",
+    "Anti-imperialists who opposed the war in the Philippines and the taking of new colonies"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Vivid, firsthand reporting that stirred public outrage was a hallmark of Progressive Era journalism.",
+   "choiceExplanations": [
+    "Populists focused on farm issues in the 1890s.",
+    "",
+    "The New Deal came in the 1930s.",
+    "The excerpt concerns factory safety, not foreign policy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-a"
+  },
+  {
+   "id": "ush-u7-q04",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-depression",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which later federal law most directly extended the kind of protection the shirtwaist workers had sought?",
+   "choices": [
+    "The Sherman Antitrust Act, which outlawed monopolies and combinations in restraint of trade",
+    "The Chinese Exclusion Act, which barred most immigration from China",
+    "The Fair Labor Standards Act of 1938, which set federal minimum wages and maximum hours",
+    "The Espionage Act, which punished interference with the war effort"
+   ],
+   "correctAnswer": 2,
+   "explanation": "New Deal labor laws brought federal standards for working conditions that Progressive reformers had pursued in the states.",
+   "choiceExplanations": [
+    "That targeted business combinations in 1890.",
+    "That restricted immigration in 1882.",
+    "",
+    "That restricted dissent during World War I."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-a"
+  },
+  {
+   "id": "ush-u7-q05",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-depression",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Roosevelt's main purpose in the excerpt is to",
+   "choices": [
+    "criticize the Supreme Court for blocking his banking laws",
+    "restore public confidence in the banking system",
+    "announce that the United States would enter the war in Europe",
+    "end the gold standard immediately and print more money"
+   ],
+   "correctAnswer": 1,
+   "explanation": "He says “the confidence of the people” is essential and urges listeners not to be stampeded by rumors.",
+   "choiceExplanations": [
+    "The Court isn't mentioned.",
+    "",
+    "The excerpt is about banks in 1933.",
+    "He mentions gold only to say confidence matters more."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-b"
+  },
+  {
+   "id": "ush-u7-q06",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-depression",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The excerpt was delivered in the context of",
+   "choices": [
+    "the end of World War I and the return of soldiers to their jobs",
+    "the Red Scare of 1919 and the raids against suspected radicals",
+    "the stock market boom of the late 1920s and the rush to buy stocks on margin",
+    "a wave of bank failures and a national bank holiday early in the Depression"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Roosevelt spoke after closing the banks to stop panicked withdrawals, in March 1933.",
+   "choiceExplanations": [
+    "That was in 1918.",
+    "That was in 1919–1920.",
+    "The boom ended in 1929.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-b"
+  },
+  {
+   "id": "ush-u7-q07",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-depression",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which New Deal reform most directly aimed to prevent the kind of panic Roosevelt describes?",
+   "choices": [
+    "The Social Security Act's pensions for older Americans",
+    "The Agricultural Adjustment Act's payments to farmers",
+    "The Civilian Conservation Corps and its work camps",
+    "Federal insurance of bank deposits through the FDIC"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Insuring deposits meant savers had no reason to rush to withdraw their money.",
+   "choiceExplanations": [
+    "Social Security provided old-age insurance.",
+    "The AAA addressed farm prices.",
+    "The CCC employed young men in conservation work.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-b"
+  },
+  {
+   "id": "ush-u7-q08",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-progress",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How did Roosevelt's use of the radio in this address reflect changes that began in the 1920s?",
+   "choices": [
+    "He avoided addressing the public directly and spoke mainly to bankers",
+    "He used a new mass medium to speak directly to Americans in their homes",
+    "He relied on newspapers because radio was not yet available in most homes",
+    "He used television to reach a national audience in their living rooms"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Radio, which spread rapidly in the 1920s, let Roosevelt create a national, personal connection with listeners.",
+   "choiceExplanations": [
+    "The fireside chats addressed the public directly.",
+    "",
+    "Radio was widespread by 1933.",
+    "Television wasn't in wide use until after World War II."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-b"
+  },
+  {
+   "id": "ush-u7-q09",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-empire",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, anti-imperialists argued that ruling the Philippines",
+   "choices": [
+    "was necessary to defend the nation's Pacific coast",
+    "was required by the terms of the peace treaty with Spain",
+    "betrayed the principle of government by consent",
+    "would spread democracy quickly across Asia"
+   ],
+   "correctAnswer": 2,
+   "explanation": "They said ruling without Filipinos' consent violated the Declaration of Independence.",
+   "choiceExplanations": [
+    "Defense was an expansionist argument.",
+    "That's not their argument in the passage.",
+    "",
+    "Anti-imperialists rejected this."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-c"
+  },
+  {
+   "id": "ush-u7-q10",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-empire",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which expansionist argument is most closely associated with Alfred Thayer Mahan's ideas about sea power?",
+   "choices": [
+    "The duty to end slavery in other countries abroad",
+    "The need to protect Native American lands in the West",
+    "The need for coaling stations for a modern navy",
+    "The need to stop immigration from southern and eastern Europe"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Mahan argued that naval power, supported by overseas bases, was key to national greatness.",
+   "choiceExplanations": [
+    "This wasn't an argument for empire in 1898.",
+    "This wasn't part of the debate.",
+    "",
+    "This wasn't an expansionist argument."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-c"
+  },
+  {
+   "id": "ush-u7-q11",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-progress",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The inclusion of Jane Addams among the anti-imperialists suggests that",
+   "choices": [
+    "some Progressive reformers opposed overseas expansion",
+    "all Progressives supported an overseas empire",
+    "settlement-house workers ran the Philippine government",
+    "anti-imperialists were mainly military officers who had served in Cuba"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Addams, founder of Hull House, was a leading Progressive who joined the Anti-Imperialist League.",
+   "choiceExplanations": [
+    "",
+    "Progressives were divided on empire.",
+    "This didn't happen.",
+    "The group listed includes writers, an industrialist, and a reformer."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-c"
+  },
+  {
+   "id": "ush-u7-q12",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-empire",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which later debate is most similar to the one described in the passage?",
+   "choices": [
+    "The debate over whether the United States should join the League of Nations after 1919",
+    "The debate over the Indian Removal Act and the forced removal of the Cherokee from Georgia",
+    "The debate over free silver in the 1890s between Bryan and the gold Democrats",
+    "The debate over Prohibition and the Eighteenth Amendment in the 1910s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Both concerned how far the United States should commit itself abroad and what that meant for its principles.",
+   "choiceExplanations": [
+    "",
+    "That concerned removal of American Indians in the 1830s.",
+    "That was an economic debate.",
+    "That concerned alcohol, a domestic issue."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-c"
+  },
+  {
+   "id": "ush-u7-q13",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-depression",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, what effect did World War II have on unemployment?",
+   "choices": [
+    "It ended employment for women in industry and offices",
+    "It had no lasting effect on how many people had jobs",
+    "It increased unemployment as factories shut down to switch over to war work",
+    "It nearly eliminated unemployment as factories ran around the clock"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The passage says unemployment “nearly disappeared.”",
+   "choiceExplanations": [
+    "Women took new industrial jobs.",
+    "It describes a major change.",
+    "The passage says the opposite.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-d"
+  },
+  {
+   "id": "ush-u7-q14",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-depression",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The “Double V” campaign described in the passage sought",
+   "choices": [
+    "victory over fascism abroad and over racism at home",
+    "victory for Black candidates in two national elections",
+    "voting rights for women in Southern states",
+    "two military victories, in Europe and in the Pacific"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The passage defines the campaign directly.",
+   "choiceExplanations": [
+    "",
+    "It wasn't an electoral campaign.",
+    "Women had won the vote nationally in 1920.",
+    "Its second “V” was against racism at home."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-d"
+  },
+  {
+   "id": "ush-u7-q15",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-empire",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The incarceration of Japanese Americans described in the passage was authorized by",
+   "choices": [
+    "the Sedition Act of 1918 against wartime critics",
+    "the Treaty of Versailles after World War I",
+    "the Neutrality Acts that Congress passed in the 1930s",
+    "Executive Order 9066, issued in 1942"
+   ],
+   "correctAnswer": 3,
+   "explanation": "President Roosevelt's 1942 order allowed the military to remove people of Japanese ancestry from the West Coast.",
+   "choiceExplanations": [
+    "That law restricted speech during World War I.",
+    "That treaty ended World War I.",
+    "Those laws aimed to keep the United States out of war.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-d"
+  },
+  {
+   "id": "ush-u7-q16",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "topicId": "ush7-depression",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which comparison between the World War I and World War II home fronts is best supported by the passage and your knowledge?",
+   "choices": [
+    "In both wars, African Americans moved to industrial cities for jobs, and the government limited some civil liberties",
+    "Migration to Northern cities began in World War II, after decades in which African Americans had stayed in the South",
+    "Civil liberties were fully protected in both wars, because the courts struck down every wartime restriction",
+    "Neither war affected women's employment, since most factory jobs remained closed to them"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The Great Migration began during World War I and accelerated in World War II; the Espionage and Sedition Acts and Japanese American incarceration both restricted liberties.",
+   "choiceExplanations": [
+    "",
+    "The Great Migration began during World War I.",
+    "Both wars saw serious restrictions, many upheld by the courts.",
+    "Women's employment grew in both wars, especially World War II."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush7-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-ush-u7-os1",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "title": "OpenStax U.S. History, 21.2 Progressivism at the Grassroots Level",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/21-2-progressivism-at-the-grassroots-level",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (Progressivism at the Grassroots Level). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/21-2-progressivism-at-the-grassroots-level",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-ush-u7-os2",
+   "courseId": "ap-united-states-history",
+   "unitId": "u7",
+   "title": "OpenStax U.S. History, 26.2 The First New Deal",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/26-2-the-first-new-deal",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (The First New Deal). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/26-2-the-first-new-deal",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP U.S. History short-answer, document-based, and long-essay questions often span several periods, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ush-u7-q01",
+    "ush-u7-q02",
+    "ush-u7-q03",
+    "ush-u7-q04",
+    "ush-u7-q09",
+    "ush-u7-q10",
+    "ush-u7-q11",
+    "ush-u7-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "ush-u7-q05",
+    "ush-u7-q06",
+    "ush-u7-q07",
+    "ush-u7-q08",
+    "ush-u7-q13",
+    "ush-u7-q14",
+    "ush-u7-q15",
+    "ush-u7-q16"
+   ]
+  }
+ ]
+}

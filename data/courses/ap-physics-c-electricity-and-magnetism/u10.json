@@ -1,0 +1,406 @@
+{
+ "courseId": "ap-physics-c-electricity-and-magnetism",
+ "unitId": "u10",
+ "title": "Unit 10: Conductors and Capacitors",
+ "topics": [
+  {
+   "id": "e10-cond",
+   "name": "Electrostatics with conductors",
+   "covers": [
+    "Electrostatics with conductors"
+   ]
+  },
+  {
+   "id": "e10-cap",
+   "name": "Capacitors",
+   "covers": [
+    "Capacitors"
+   ]
+  },
+  {
+   "id": "e10-diel",
+   "name": "Dielectrics",
+   "covers": [
+    "Dielectrics"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Conductors and capacitors: review guide",
+  "intro": "Conductors let charge move until the field inside them vanishes. Capacitors use pairs of conductors to store charge and energy, and a dielectric between the plates lets them store more.",
+  "equationNote": "ε₀ = 8.85 × 10⁻¹² C²/(N·m²). μF = 10⁻⁶ F and pF = 10⁻¹² F.",
+  "sections": [
+   {
+    "id": "s-e10-cond",
+    "topicId": "e10-cond",
+    "title": "Electrostatics with conductors",
+    "body": [
+     "In electrostatic equilibrium, the field inside a conductor is zero, any excess charge sits on its outer surface, the whole conductor is at one potential, and the field just outside is perpendicular to the surface with magnitude σ/ε₀.",
+     "A charge inside a cavity of a conductor induces an equal and opposite charge on the cavity wall, and the same amount appears on the outer surface, on top of any net charge the conductor already had."
+    ],
+    "points": [
+     "Conductors joined by a wire reach the same potential; for spheres, q is proportional to R.",
+     "Charge density is highest where the surface curves most sharply.",
+     "Grounding a conductor sets its potential to zero."
+    ]
+   },
+   {
+    "id": "s-e10-cap",
+    "topicId": "e10-cap",
+    "title": "Capacitors",
+    "body": [
+     "Capacitance is C = Q/ΔV. For parallel plates, C = ε₀A/d. The stored energy is U = ½QΔV = ½C(ΔV)² = Q²/(2C).",
+     "Capacitors in parallel add: C = C₁ + C₂. In series, 1/C = 1/C₁ + 1/C₂, and each capacitor holds the same charge."
+    ],
+    "points": [
+     "A disconnected (isolated) capacitor keeps its charge Q when you change it.",
+     "A capacitor connected to a battery keeps its voltage ΔV.",
+     "The energy is stored in the field, with energy density u = ½ε₀E²."
+    ],
+    "equations": [
+     [
+      "C = Q/ΔV",
+      "capacitance"
+     ],
+     [
+      "C = ε₀A/d",
+      "parallel plates"
+     ],
+     [
+      "U = ½C(ΔV)² = Q²/(2C)",
+      "energy stored"
+     ]
+    ]
+   },
+   {
+    "id": "s-e10-diel",
+    "topicId": "e10-diel",
+    "title": "Dielectrics",
+    "body": [
+     "An insulating material (a dielectric) between the plates becomes polarized: its molecules' charges shift slightly, making a field that partly cancels the plates' field. That lets the capacitor hold more charge at the same voltage.",
+     "Filling the gap with a dielectric of constant κ multiplies the capacitance by κ: C = κε₀A/d."
+    ],
+    "points": [
+     "Isolated capacitor plus dielectric: Q stays fixed and C grows by κ, so ΔV and E fall by a factor of κ.",
+     "Capacitor on a battery plus dielectric: ΔV stays fixed, so Q grows by κ.",
+     "κ = 1 for a vacuum and is greater than 1 for every other material."
+    ],
+    "equations": [
+     [
+      "C = κε₀A/d",
+      "with a dielectric"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 4.0 μF capacitor is charged to 10 V and disconnected. The gap is then filled with a dielectric with κ = 2. Find the new capacitance, voltage, and stored energy.",
+   "solution": "Q = CΔV = 40 μC stays fixed. C becomes 8.0 μF, so ΔV = Q/C = 5.0 V. U = ½QΔV = ½(40 × 10⁻⁶)(5.0) = 1.0 × 10⁻⁴ J, half the original 2.0 × 10⁻⁴ J; the field does work pulling the dielectric in."
+  },
+  "misconceptions": [
+   [
+    "“Excess charge spreads through a conductor's volume.”",
+    "It sits on the surface; the interior stays neutral and field-free."
+   ],
+   [
+    "“Capacitors in series add like resistors in series.”",
+    "It's the reverse: capacitors in parallel add."
+   ],
+   [
+    "“A dielectric conducts charge between the plates.”",
+    "It is an insulator; it only polarizes."
+   ],
+   [
+    "“A capacitor's energy depends only on its capacitance.”",
+    "It also depends on its charge or voltage, and whether Q or ΔV stays fixed decides how it changes."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics C: Electricity and Magnetism Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+  "sourceTitle": "AP Physics C: Electricity and Magnetism – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "phceu10-q01",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u10",
+   "topicId": "e10-cond",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A solid metal sphere carries excess charge and is in electrostatic equilibrium. What is the electric field inside the metal?",
+   "choices": [
+    "kQ/r², the same as outside",
+    "Zero, and the excess charge is spread evenly through the volume",
+    "It points toward the center",
+    "Zero, and the excess charge sits on the outer surface"
+   ],
+   "correctAnswer": 3,
+   "explanation": "If there were a field inside, the free charges would keep moving. In equilibrium the field inside the metal is zero, and the excess charge pushes itself out to the surface.",
+   "choiceExplanations": [
+    "kQ/r² describes the field outside the sphere, not inside the metal.",
+    "In a conductor the excess charge moves to the surface; spread through the volume would make a field inside.",
+    "Any field inside would move charges, so equilibrium requires no field there.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu10-q02",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u10",
+   "topicId": "e10-cond",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A thick, hollow conducting shell carries net charge +Q. A point charge +q is placed at the center of its cavity, not touching it. What charge ends up on the shell's inner and outer surfaces?",
+   "choices": [
+    "Inner surface 0; outer surface Q",
+    "Inner surface −Q; outer surface 2Q",
+    "Inner surface −q; outer surface Q + q",
+    "Inner surface +q; outer surface Q − q"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The field inside the metal must be zero, so a Gaussian surface within the metal must enclose zero net charge: the inner surface carries −q. The shell's total is +Q, so the outer surface carries Q − (−q) = Q + q.",
+   "choiceExplanations": [
+    "With no charge on the inner surface, the field from +q would reach into the metal.",
+    "The inner surface responds to the charge in the cavity, q, not to the shell's own charge Q.",
+    "",
+    "The induced charge on the inner surface is opposite in sign to q."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu10-q03",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u10",
+   "topicId": "e10-cond",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Two separated conducting spheres, of radii R and 2R, are connected by a long thin wire and share a total charge Q. Which sphere has the greater surface charge density?",
+   "choices": [
+    "They have equal surface charge densities",
+    "The larger sphere, because it holds more charge",
+    "The smaller sphere, with four times the larger sphere's density",
+    "The smaller sphere, with twice the larger sphere's density"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Connected spheres are at the same potential: kq₁/R = kq₂/(2R), so q₂ = 2q₁, giving q₁ = Q/3 and q₂ = 2Q/3. Densities: σ₁ = (Q/3)/(4πR²) and σ₂ = (2Q/3)/(16πR²) = (Q/6)/(4πR²). The smaller sphere's density is twice as large.",
+   "choiceExplanations": [
+    "Equal potentials, not equal densities, are what the wire enforces.",
+    "The larger sphere holds more charge, but over four times the area, so its density is lower.",
+    "Density goes as q/R², and q ∝ R, so σ ∝ 1/R: a factor of 2, not 4.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu10-q04",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u10",
+   "topicId": "e10-cap",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A parallel-plate capacitor has plates of area 0.020 m² separated by 1.0 mm of air. What is its capacitance? (ε₀ = 8.85 × 10⁻¹² C²/(N·m²))",
+   "choices": [
+    "About 1.8 × 10⁻¹⁶ F",
+    "About 1.8 × 10⁻¹⁰ F",
+    "About 1.8 × 10⁻¹³ F",
+    "About 4.4 × 10⁻¹³ F"
+   ],
+   "correctAnswer": 1,
+   "explanation": "C = ε₀A/d = (8.85 × 10⁻¹²)(0.020)/(1.0 × 10⁻³) ≈ 1.8 × 10⁻¹⁰ F, about 180 pF.",
+   "choiceExplanations": [
+    "1.8 × 10⁻¹⁶ multiplies by d instead of dividing.",
+    "",
+    "1.8 × 10⁻¹³ uses 1.0 m for the gap instead of 1.0 mm.",
+    "4.4 × 10⁻¹³ uses d/A instead of A/d."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu10-q05",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u10",
+   "topicId": "e10-cap",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 3.0 μF capacitor and a 6.0 μF capacitor are connected in series. What is their equivalent capacitance?",
+   "choices": [
+    "9.0 μF",
+    "4.5 μF",
+    "2.0 μF",
+    "0.50 μF"
+   ],
+   "correctAnswer": 2,
+   "explanation": "In series, 1/C = 1/3.0 + 1/6.0 = 1/2.0, so C = 2.0 μF, less than either capacitor.",
+   "choiceExplanations": [
+    "9.0 μF adds them, which is the rule for capacitors in parallel.",
+    "4.5 μF is their average, which isn't a circuit rule.",
+    "",
+    "0.50 is 1/C; it still has to be inverted."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu10-q06",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u10",
+   "topicId": "e10-cap",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A charged parallel-plate capacitor is disconnected from its battery, and its plates are pulled twice as far apart. What happens to the energy it stores?",
+   "choices": [
+    "It halves",
+    "It quadruples",
+    "It stays the same",
+    "It doubles"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Disconnected, its charge Q stays fixed. Doubling d halves C, and U = Q²/(2C) doubles. The extra energy comes from the work done pulling the attracting plates apart.",
+   "choiceExplanations": [
+    "Halving happens if the battery stays connected, so that ΔV is fixed.",
+    "U depends on 1/C, which only doubles here.",
+    "Changing C with Q fixed changes U = Q²/(2C).",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu10-q07",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u10",
+   "topicId": "e10-cap",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A parallel-plate capacitor stays connected to a battery while its plates are pulled twice as far apart. What happens to its charge and its stored energy?",
+   "choices": [
+    "The charge halves and the energy stays the same",
+    "Both double",
+    "Both are cut in half",
+    "The charge stays the same and the energy doubles"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Connected to the battery, ΔV stays fixed. Doubling d halves C, so Q = CΔV halves and U = ½C(ΔV)² halves. The battery takes back charge as the plates separate.",
+   "choiceExplanations": [
+    "U = ½C(ΔV)² halves along with C when ΔV is fixed.",
+    "A smaller C at the same voltage holds less charge, not more.",
+    "",
+    "That describes a disconnected capacitor, where Q is fixed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu10-q08",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u10",
+   "topicId": "e10-diel",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An isolated, charged capacitor has its gap filled with a dielectric of constant κ = 3. What happens to the voltage across it?",
+   "choices": [
+    "It falls to one third",
+    "It falls to one ninth",
+    "It stays the same",
+    "It triples"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Isolated, Q stays fixed. The dielectric multiplies C by 3, so ΔV = Q/C becomes one third as large.",
+   "choiceExplanations": [
+    "",
+    "C changes by κ, not κ², so the voltage falls by a factor of 3.",
+    "ΔV stays the same only when a battery holds it fixed.",
+    "Voltage falls, because the same charge now sits on a larger capacitance."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu10-q09",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u10",
+   "topicId": "e10-diel",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Why does inserting a dielectric between a capacitor's plates increase its capacitance?",
+   "choices": [
+    "The dielectric increases the distance between the plates",
+    "The dielectric conducts extra charge onto the plates",
+    "The dielectric's molecules polarize, partly cancelling the field, so the plates hold more charge at the same voltage",
+    "The dielectric makes the plates larger"
+   ],
+   "correctAnswer": 2,
+   "explanation": "In a field, the dielectric's molecules polarize, with their charges shifting slightly. That creates an opposing field inside, so for a given voltage the plates can hold more charge: C = κε₀A/d is larger.",
+   "choiceExplanations": [
+    "A larger gap would lower the capacitance, not raise it.",
+    "A dielectric is an insulator; no charge flows through it.",
+    "",
+    "The plate area doesn't change."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "phceu10-q01",
+    "phceu10-q02",
+    "phceu10-q03",
+    "phceu10-q04",
+    "phceu10-q05",
+    "phceu10-q07",
+    "phceu10-q08",
+    "phceu10-q09"
+   ]
+  }
+ ]
+}

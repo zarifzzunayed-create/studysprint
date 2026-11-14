@@ -30,6 +30,32 @@
     return items[items.length - 1];
   };
 
+  /* Shared stimulus: a unit may list "passages" (a reading passage, or a set of historical sources), and a question may
+     point to one with "passageId". Every view that shows a question shows its passage the same way. */
+  SS.passageOf = (unit, q) => (q && q.passageId && unit && unit.passages ? unit.passages.find((p) => p.id === q.passageId) || null : null);
+  SS.passageBlock = (unit, q, collapsed) => {
+    const p = SS.passageOf(unit, q);
+    if (!p) return null;
+    const body = [p.intro ? SS.h("p", "why", p.intro) : null, p.text.map((t) => SS.h("p", null, t)), SS.h("p", "passage-src", p.attribution)];
+    if (collapsed) return SS.h("details", "passage", SS.h("summary", null, "Show " + p.title), body);
+    const head = SS.h("h3", "passage-title", p.title);
+    head.tabIndex = -1;
+    const sec = SS.h("section", "passage", head, body);
+    sec.setAttribute("aria-label", p.title);
+    return sec;
+  };
+  // Keep questions that share a passage next to each other (in the order the first of them appears), so a test reads
+  // like the exam: one passage, then its questions.
+  SS.groupByPassage = (ids, byId) => {
+    const out = [], done = new Set();
+    ids.forEach((id) => {
+      if (done.has(id)) return;
+      const p = (byId(id) || {}).passageId;
+      (p ? ids.filter((x) => (byId(x) || {}).passageId === p) : [id]).forEach((x) => { done.add(x); out.push(x); });
+    });
+    return out;
+  };
+
   SS.norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
   SS.LV = ["introductory", "standard", "challenging"];
   SS.cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);

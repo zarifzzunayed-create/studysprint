@@ -49,7 +49,7 @@
     let T = o.saved ? fromSaved(o.saved, test) : null;
     if (!T) {
       const limit = o.timed ? n * env.rules.minutesPerQuestion * 60 : 0;
-      T = { v: 1, testId: test.id, order: SS.shuffle(test.questionIds.slice()), ans: {}, marked: [], idx: 0, screen: "q", timed: !!o.timed, limit, left: limit, hideClock: false };
+      T = { v: 1, testId: test.id, order: SS.groupByPassage(SS.shuffle(test.questionIds.slice()), byId), ans: {}, marked: [], idx: 0, screen: "q", timed: !!o.timed, limit, left: limit, hideClock: false };
     }
     let done = false, tick = null, endAt = 0, lastSave = 0, warned = T.left <= 300;
 
@@ -145,9 +145,11 @@
         fs.append(lab, inp, msg);
       }
       form.append(fs);
-      body.replaceChildren(form);
+      const passage = SS.passageBlock(unit, q), prev = i > 0 ? byId(T.order[i - 1]) : null;
+      body.replaceChildren(passage || "", form);
       update(); save();
-      const lg = fs.firstChild; lg.tabIndex = -1; lg.focus({ preventScroll: true });
+      const lg = fs.firstChild; lg.tabIndex = -1;
+      (passage && (!prev || prev.passageId !== q.passageId) ? passage.querySelector(".passage-title") : lg).focus({ preventScroll: true });
     }
 
     function drawReview() {
@@ -244,6 +246,7 @@
         SS.statBox(rec.firstOk + " of " + rec.firsts, "first attempts correct"),
         SS.statBox(rec.timed ? SS.fmtTime(rec.secs) + " of " + SS.fmtTime(rec.limit) : "Untimed", rec.timed ? "time used" : "no time limit")),
       h("p", "note", "This is a short unit practice test of " + SS.plural(total, "question") + " from StudySprint's original question bank, not a full AP exam, and it cannot predict an AP score." +
+        (env.notOnExam ? " This unit is in the course framework but is not assessed on the AP Exam." : "") +
         (rec.answered > rec.firsts ? " " + SS.plural(rec.answered - rec.firsts, "answer was", "answers were") + " to questions you had answered before, so " + (rec.answered - rec.firsts === 1 ? "it was" : "they were") + " recorded as retries and did not change your first-attempt results." : "")));
 
     /* topic and level breakdown */
@@ -262,7 +265,8 @@
       h("p", "why", wrong + skipped ? "Questions you missed or left unanswered are open below; the rest are collapsed." : "Every answer was correct. Open any question to read its explanation."),
       h("div", "ans-list", rows.map((r, i) => {
         const d = h("details", "ans-item" + (r.ok ? " ok" : " bad"),
-          h("summary", null, "Question " + (i + 1) + " · " + (r.ok ? "Correct" : r.skip ? "Not answered" : "Incorrect") + " · " + env.topicName(r.q.topicId) + " · " + SS.cap(r.q.difficulty)),
+          h("summary", null, "Question " + (i + 1) + " · " + (r.ok ? "Correct" : r.skip ? "Not answered" : "Incorrect") + " · " + env.topicName(r.q.topicId) + " · " + SS.cap(r.q.difficulty) + (r.q.skill ? " · Skill " + r.q.skill : "")),
+          SS.passageBlock(env.unit, r.q, true),
           h("p", null, r.q.prompt),
           h("p", null, h("b", null, "Your answer: "), answerText(r.q, r.a)),
           h("p", null, h("b", null, "Correct answer: "), correctText(r.q)),

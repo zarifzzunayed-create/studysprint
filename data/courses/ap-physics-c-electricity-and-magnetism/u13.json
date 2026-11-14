@@ -1,0 +1,410 @@
+{
+ "courseId": "ap-physics-c-electricity-and-magnetism",
+ "unitId": "u13",
+ "title": "Unit 13: Electromagnetic Induction",
+ "topics": [
+  {
+   "id": "e13-faraday",
+   "name": "Faraday's law",
+   "covers": [
+    "Electromagnetic induction (including Faraday’s Law and Lenz’s Law)"
+   ]
+  },
+  {
+   "id": "e13-lenz",
+   "name": "Lenz's law",
+   "covers": [
+    "Electromagnetic induction (including Faraday’s Law and Lenz’s Law)"
+   ]
+  },
+  {
+   "id": "e13-lr",
+   "name": "Inductance and LR circuits",
+   "covers": [
+    "Inductance (including LR circuits)"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Electromagnetic induction: review guide",
+  "intro": "A changing magnetic flux creates an emf. This unit applies Faraday's and Lenz's laws to coils and moving rods, then studies inductors, which resist changes in current.",
+  "equationNote": "μ₀ = 4π × 10⁻⁷ T·m/A. In exponential growth and decay, e ≈ 2.718 (so e⁻¹ ≈ 0.37).",
+  "sections": [
+   {
+    "id": "s-e13-faraday",
+    "topicId": "e13-faraday",
+    "title": "Faraday's law",
+    "body": [
+     "Magnetic flux through a loop is Φ_B = ∫B·dA, or BA cos θ for a uniform field. Faraday's law: the induced emf is ε = −N dΦ_B/dt for a coil of N turns.",
+     "The flux can change because the field changes, the area changes, or the loop rotates. A rod of length L sliding at speed v through a perpendicular field has a motional emf ε = BLv."
+    ],
+    "points": [
+     "Differentiate the flux, not the field alone, when the area also changes.",
+     "A constant flux, however large, induces nothing.",
+     "Keeping a rod moving at constant speed takes a force equal to the magnetic drag on it, ILB."
+    ],
+    "equations": [
+     [
+      "ε = −N dΦ_B/dt",
+      "Faraday's law"
+     ],
+     [
+      "ε = BLv",
+      "motional emf"
+     ]
+    ]
+   },
+   {
+    "id": "s-e13-lenz",
+    "topicId": "e13-lenz",
+    "title": "Lenz's law",
+    "body": [
+     "Lenz's law gives the direction: the induced current creates a magnetic field that opposes the change in flux, not the flux itself.",
+     "This is energy conservation at work. The induced current always makes forces that resist the motion causing it, as with eddy currents that slow a magnet falling through a metal tube."
+    ],
+    "points": [
+     "Increasing flux into the page: the induced field points out of the page, from a counterclockwise current.",
+     "Decreasing flux: the induced field points the same way as the original, to prop it up.",
+     "Eddy currents in solid conductors turn kinetic energy into thermal energy."
+    ]
+   },
+   {
+    "id": "s-e13-lr",
+    "topicId": "e13-lr",
+    "title": "Inductance and LR circuits",
+    "body": [
+     "An inductor opposes changes in its current: ε = −L dI/dt. It stores energy U = ½LI² in its magnetic field.",
+     "When a battery is connected to an inductor and resistor in series, the current rises as I = (ε/R)(1 − e^(−t/τ)), with time constant τ = L/R. When the battery is removed, the current decays as I₀e^(−t/τ)."
+    ],
+    "points": [
+     "Just after switching on, the inductor acts like a break in the circuit (I = 0); long after, like a plain wire.",
+     "After one time constant, the rising current has reached about 63% of its final value.",
+     "An inductor's emf depends on how fast the current changes, not on the current itself."
+    ],
+    "equations": [
+     [
+      "ε = −L dI/dt",
+      "inductor emf"
+     ],
+     [
+      "τ = L/R",
+      "time constant"
+     ],
+     [
+      "U = ½LI²",
+      "energy stored"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 0.30 H inductor and a 15 Ω resistor are connected to a 6.0 V battery at t = 0. Find the time constant, the final current, and the current at t = 0.020 s.",
+   "solution": "τ = L/R = 0.30/15 = 0.020 s, and the final current is ε/R = 0.40 A. At t = τ, I = 0.40(1 − e⁻¹) ≈ 0.25 A."
+  },
+  "misconceptions": [
+   [
+    "“A strong magnetic field induces a current.”",
+    "Only a changing flux induces an emf."
+   ],
+   [
+    "“The induced field always opposes the original field.”",
+    "It opposes the change: if the flux is shrinking, the induced field points the same way as the original."
+   ],
+   [
+    "“An inductor blocks steady current.”",
+    "Long after switching on, an ideal inductor acts like a plain wire."
+   ],
+   [
+    "“The current in an LR circuit jumps to ε/R at once.”",
+    "It rises gradually, with time constant L/R."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics C: Electricity and Magnetism Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+  "sourceTitle": "AP Physics C: Electricity and Magnetism – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "phceu13-q01",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u13",
+   "topicId": "e13-faraday",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 100-turn coil of area 0.010 m² sits in a perpendicular magnetic field that drops steadily from 0.50 T to 0.10 T in 0.20 s. What is the size of the average induced emf?",
+   "choices": [
+    "0.40 V",
+    "0.020 V",
+    "200 V",
+    "2.0 V"
+   ],
+   "correctAnswer": 3,
+   "explanation": "|ε| = N·A·ΔB/Δt = (100)(0.010)(0.40)/0.20 = 2.0 V.",
+   "choiceExplanations": [
+    "0.40 is NAΔB, without dividing by the time.",
+    "0.020 V is the emf of a single turn; all 100 turns add.",
+    "200 V leaves out the coil's area.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu13-q02",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u13",
+   "topicId": "e13-faraday",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A single loop of area 0.050 m² lies perpendicular to a magnetic field B(t) = 0.20t³ tesla (t in seconds). What is the size of the induced emf at t = 2.0 s?",
+   "choices": [
+    "0.12 V",
+    "0.080 V",
+    "0.24 V",
+    "0.040 V"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Φ = AB = 0.050(0.20t³) = 0.010t³, so |ε| = dΦ/dt = 0.030t² = 0.030(4.0) = 0.12 V.",
+   "choiceExplanations": [
+    "",
+    "0.080 is the flux at t = 2.0 s, in webers; the emf depends on its rate of change.",
+    "0.24 V differentiates 0.20t³ as 0.60t³ without lowering the power.",
+    "0.040 is Φ/t, an average rate from t = 0, not the rate at t = 2.0 s."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu13-q03",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u13",
+   "topicId": "e13-faraday",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A metal rod 0.50 m long slides along two rails at a constant 3.0 m/s through a perpendicular 0.40 T magnetic field. The rails are joined by a 0.20 Ω resistor (the rod and rails have no resistance). What force must be applied to keep the rod moving at constant speed?",
+   "choices": [
+    "0 N",
+    "1.8 N",
+    "0.60 N",
+    "3.0 N"
+   ],
+   "correctAnswer": 2,
+   "explanation": "ε = BLv = (0.40)(0.50)(3.0) = 0.60 V, so I = ε/R = 3.0 A. The magnetic force on the rod opposes its motion with size ILB = (3.0)(0.50)(0.40) = 0.60 N, so an equal applied force keeps the speed constant.",
+   "choiceExplanations": [
+    "Constant speed means zero net force, not zero applied force: the applied force must balance the magnetic drag.",
+    "1.8 is the power in watts (Fv = I²R = 1.8 W), not the force.",
+    "",
+    "3.0 is the current in amperes, not the force."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu13-q04",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u13",
+   "topicId": "e13-lenz",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A magnetic field pointing into the page through a wire loop is increasing. Which way does the induced current flow, as seen from the front?",
+   "choices": [
+    "Counterclockwise",
+    "No current flows",
+    "It depends on the loop's resistance",
+    "Clockwise"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The flux into the page is increasing, so the induced current makes a field out of the page to oppose the increase. By the right-hand rule, a counterclockwise current makes a field out of the page inside the loop.",
+   "choiceExplanations": [
+    "",
+    "A changing flux always induces an emf, and a closed loop carries a current.",
+    "Resistance affects the size of the current, not its direction.",
+    "A clockwise current makes a field into the page, which would add to the increase instead of opposing it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu13-q05",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u13",
+   "topicId": "e13-lenz",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A strong magnet dropped through a vertical copper pipe falls much more slowly than it does outside the pipe. Copper isn't magnetic. Why does the magnet slow down?",
+   "choices": [
+    "Its moving field induces currents in the pipe whose fields oppose its motion",
+    "Air trapped in the pipe slows it down",
+    "The pipe's friction against the magnet slows it down",
+    "Copper attracts magnets, like iron does"
+   ],
+   "correctAnswer": 0,
+   "explanation": "As the magnet falls, the flux through each ring of the pipe changes, inducing eddy currents. By Lenz's law their magnetic fields oppose the change, pushing back on the magnet; the lost kinetic energy becomes heat in the pipe.",
+   "choiceExplanations": [
+    "",
+    "The effect happens even with plenty of room for air to escape, and it vanishes in a pipe made of an insulator.",
+    "The magnet can fall without touching the pipe's walls and still slow down.",
+    "Copper isn't attracted to magnets; the effect needs the magnet to be moving."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu13-q06",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u13",
+   "topicId": "e13-lr",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The current in a 0.50 H inductor is increasing at 4.0 A/s. What is the size of the emf across the inductor?",
+   "choices": [
+    "8.0 V",
+    "2.0 V",
+    "0.13 V",
+    "0 V"
+   ],
+   "correctAnswer": 1,
+   "explanation": "|ε| = L dI/dt = (0.50 H)(4.0 A/s) = 2.0 V.",
+   "choiceExplanations": [
+    "8.0 divides the rate by L.",
+    "",
+    "0.13 divides L by the rate instead of multiplying.",
+    "The emf is zero only when the current is steady; here it is changing."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu13-q07",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u13",
+   "topicId": "e13-lr",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 0.40 H inductor and a 20 Ω resistor are connected in series to a 12 V battery. What are the circuit's time constant and its final current?",
+   "choices": [
+    "8.0 s and 0.60 A",
+    "0.020 s and 240 A",
+    "50 s and 0.60 A",
+    "0.020 s and 0.60 A"
+   ],
+   "correctAnswer": 3,
+   "explanation": "τ = L/R = 0.40/20 = 0.020 s. Long after switching on, the inductor acts like a plain wire, so I = ε/R = 12/20 = 0.60 A.",
+   "choiceExplanations": [
+    "8.0 multiplies L and R; the time constant is L/R.",
+    "240 multiplies ε by R; Ohm's law gives I = ε/R.",
+    "50 is R/L, the ratio upside down.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu13-q08",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u13",
+   "topicId": "e13-lr",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In the circuit with τ = 0.020 s and a final current of 0.60 A, what is the current at t = 0.020 s after the battery is connected?",
+   "choices": [
+    "About 0.22 A",
+    "0.60 A",
+    "0.30 A",
+    "About 0.38 A"
+   ],
+   "correctAnswer": 3,
+   "explanation": "I = (ε/R)(1 − e^(−t/τ)). At t = τ, I = 0.60(1 − e⁻¹) = 0.60(0.632) ≈ 0.38 A.",
+   "choiceExplanations": [
+    "0.22 A is 0.60e⁻¹, which describes a decaying current, not a rising one.",
+    "0.60 A is reached only long after switching on, not after one time constant.",
+    "0.30 A is half the final current; one time constant gives about 63%, not 50%.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "phceu13-q09",
+   "courseId": "ap-physics-c-electricity-and-magnetism",
+   "unitId": "u13",
+   "topicId": "e13-lr",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How much energy is stored in a 0.40 H inductor carrying 0.60 A?",
+   "choices": [
+    "0.12 J",
+    "0.14 J",
+    "0.072 J",
+    "0.24 J"
+   ],
+   "correctAnswer": 2,
+   "explanation": "U = ½LI² = ½(0.40)(0.60)² = 0.072 J.",
+   "choiceExplanations": [
+    "0.12 is ½LI; the current must be squared.",
+    "0.14 J leaves out the factor ½.",
+    "",
+    "0.24 is LI, not an energy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "phceu13-q01",
+    "phceu13-q02",
+    "phceu13-q03",
+    "phceu13-q04",
+    "phceu13-q05",
+    "phceu13-q06",
+    "phceu13-q07",
+    "phceu13-q08"
+   ]
+  }
+ ]
+}

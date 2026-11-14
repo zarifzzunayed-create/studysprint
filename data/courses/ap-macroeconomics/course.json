@@ -1,0 +1,290 @@
+{
+ "id": "ap-macroeconomics",
+ "name": "AP Macroeconomics",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-macroeconomics",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-macroeconomics-course-and-exam-description.pdf",
+ "frameworkVersion": "AP Macroeconomics Course and Exam Description, effective Fall 2026 on its cover (the current PDF on AP Central, checked 2026-11-14; pages marked V.1, © 2026), with College Board's Clarifications and Corrections to be implemented in spring 2027.",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-macroeconomics/exam/past-exam-questions",
+  "note": null,
+  "releasedSets": [
+   {
+    "year": 2026,
+    "title": "2026 AP Macroeconomics Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-macroeconomics.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP Macroeconomics Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-macroeconomics-set-1.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP Macroeconomics Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-macroeconomics-set-2.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP Macroeconomics Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-macroeconomics-set-1.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP Macroeconomics Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-macroeconomics-set-2.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP Macroeconomics Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-macroeconomics-set-1.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP Macroeconomics Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-macroeconomics-set-2.pdf"
+   }
+  ],
+  "setsNote": "Whole released free-response sets (PDF, College Board), linked from the course's past-exam-questions page and checked to load on 2026-11-14. College Board released two sets for each of 2023–2025 and one for 2026. Each set has one long and two short questions, which usually combine several units, so they are not matched to units. Scoring guidelines are on the past-exam-questions page."
+ },
+ "source": {
+  "title": "AP Macroeconomics – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+  "verified": "2026-11-14",
+  "note": "Unit names, the “topics may include” lists, and exam weightings were read from this page on 2026-11-14; the exam format was read from its assessment page. The page's description of the CED still says it was updated in summer 2022 (for monetary policy content and the calculator policy); the PDF it links is now marked effective Fall 2026."
+ },
+ "frameworkCheck": {
+  "checked": "2026-11-14",
+  "source": "https://apcentral.collegeboard.org/media/pdf/ap-macroeconomics-course-and-exam-description.pdf",
+  "title": "AP Macroeconomics Course and Exam Description (effective Fall 2026)",
+  "how": "The 42 numbered CED topics (1.1–6.6) and their learning objectives and essential knowledge statements were read from the course framework in the current PDF on AP Central, and each topic is matched to the StudySprint topic whose guide section and questions teach it. The four skill categories and thirteen skills were read from the CED's skills table, and each question is tagged with the skill it mainly uses. The monetary policy content follows the CED's ample-reserves wording (in the United States the Federal Reserve's key policy tool is interest on reserves; open market operations change the money supply through the money multiplier only in a limited-reserves system). The Clarifications and Corrections (https://apcentral.collegeboard.org/media/pdf/ap-macroeconomics-course-and-exam-description-clarifications.pdf) were checked: they correct EK MEA-2.A.2 to say that the phases of a business cycle are contraction and expansion, effective spring 2027, and StudySprint uses the corrected wording.",
+  "weightsSource": "the AP Students course page and the CED's exam section (shares of the multiple-choice section), both checked 2026-11-14",
+  "examFormat": "From the AP Students assessment page and the CED (2 hours 10 minutes; a four-function calculator is allowed on both sections): Section I, 60 multiple-choice questions in 70 minutes (66.65% of the score). The CED says 30–40% of them assess Principles and Models, 25–32% Interpretation, and 30–40% Manipulation, and 16–20% involve numbers or calculations; Graphing and Visuals is not assessed in multiple choice, but some questions provide a graph or table. Section II, 3 free-response questions in 60 minutes including a 10-minute reading period (33.35%): one long question (10 points, half the section score) and two short questions (5 points each). StudySprint practice is multiple-choice only; graphs are described in words, and data tables are labelled hypothetical. Graph-drawing practice uses College Board's released free-response questions.",
+  "skills": [
+   {
+    "code": "1.A",
+    "category": "Principles and Models",
+    "text": "Describe economic concepts, principles, or models."
+   },
+   {
+    "code": "1.B",
+    "category": "Principles and Models",
+    "text": "Identify an economic concept, principle, or model illustrated by an example."
+   },
+   {
+    "code": "1.C",
+    "category": "Principles and Models",
+    "text": "Identify an economic concept, principle, or model using quantitative data or calculations."
+   },
+   {
+    "code": "1.D",
+    "category": "Principles and Models",
+    "text": "Describe the similarities, differences, and limitations of economic concepts, principles, or models."
+   },
+   {
+    "code": "2.A",
+    "category": "Interpretation",
+    "text": "Using economic concepts, principles, or models, explain how a specific economic outcome occurs or what action should be taken in order to achieve a specific economic outcome."
+   },
+   {
+    "code": "2.B",
+    "category": "Interpretation",
+    "text": "Using economic concepts, principles, or models, explain how a specific economic outcome occurs when there are multiple contributing variables or what multiple actions should be taken in order to achieve a specific economic outcome."
+   },
+   {
+    "code": "2.C",
+    "category": "Interpretation",
+    "text": "Interpret a specific economic outcome using quantitative data or calculations."
+   },
+   {
+    "code": "3.A",
+    "category": "Manipulation",
+    "text": "Determine the outcome of an economic situation using economic concepts, principles, or models."
+   },
+   {
+    "code": "3.B",
+    "category": "Manipulation",
+    "text": "Determine the effect(s) of one or more changes on other economic markets."
+   },
+   {
+    "code": "3.C",
+    "category": "Manipulation",
+    "text": "Determine the effect(s) of a change in an economic situation using quantitative data or calculations."
+   },
+   {
+    "code": "4.A",
+    "category": "Graphing and Visuals",
+    "text": "Draw an accurately labeled graph or visual to represent an economic model or market."
+   },
+   {
+    "code": "4.B",
+    "category": "Graphing and Visuals",
+    "text": "Demonstrate your understanding of a specific economic situation on an accurately labeled graph or visual."
+   },
+   {
+    "code": "4.C",
+    "category": "Graphing and Visuals",
+    "text": "Demonstrate the effect of a change in an economic situation on an accurately labeled graph or visual."
+   }
+  ],
+  "differences": [
+   "The AP Students page's unit topic lists are summaries; the CED's 42 topics are the required content and are listed per unit as framework topics. The student page's Unit 4 list does not name the loanable funds market, which the CED includes as topic 4.7; StudySprint teaches it in Unit 4.",
+   "The CED's Clarifications and Corrections change EK MEA-2.A.2 (business cycle phases) from “recession and expansion” to “contraction and expansion,” to be printed in spring 2027; StudySprint already uses the corrected wording.",
+   "AP multiple-choice questions show graphs as images; StudySprint describes graphs in words and does not test graph drawing (Skill Category 4), which the AP Exam assesses only in free response."
+  ]
+ },
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Basic Economic Concepts",
+   "status": "practice-ready",
+   "file": "data/courses/ap-macroeconomics/u1.json",
+   "officialTopics": [
+    "Scarcity",
+    "Opportunity cost and the Production Possibilities Curve",
+    "Comparative advantage and gains from trade",
+    "Supply and demand",
+    "Market equilibrium, disequilibrium, and changes in equilibrium"
+   ],
+   "examWeight": "5%–10% of the multiple-choice score",
+   "frameworkTopics": [
+    "1.1 Scarcity",
+    "1.2 Opportunity Cost and the Production Possibilities Curve (PPC)",
+    "1.3 Comparative Advantage and Gains from Trade",
+    "1.4 Demand",
+    "1.5 Supply",
+    "1.6 Market Equilibrium, Disequilibrium, and Changes in Equilibrium"
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Economic Indicators and the Business Cycle",
+   "status": "practice-ready",
+   "file": "data/courses/ap-macroeconomics/u2.json",
+   "officialTopics": [
+    "The circular flow and GDP",
+    "Unemployment",
+    "Price indices and inflation",
+    "Real vs. nominal GDP",
+    "Business cycles"
+   ],
+   "examWeight": "12%–17% of the multiple-choice score",
+   "frameworkTopics": [
+    "2.1 The Circular Flow and GDP",
+    "2.2 Limitations of GDP",
+    "2.3 Unemployment",
+    "2.4 Price Indices and Inflation",
+    "2.5 Costs of Inflation",
+    "2.6 Real v. Nominal GDP",
+    "2.7 Business Cycles"
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: National Income and Price Determination",
+   "status": "practice-ready",
+   "file": "data/courses/ap-macroeconomics/u3.json",
+   "officialTopics": [
+    "Aggregate demand",
+    "Short-run and long-run aggregate supply",
+    "Equilibrium and changes in the Aggregate Demand-Aggregate Supply Model",
+    "Fiscal policy"
+   ],
+   "examWeight": "17%–27% of the multiple-choice score",
+   "frameworkTopics": [
+    "3.1 Aggregate Demand (AD)",
+    "3.2 Multipliers",
+    "3.3 Short-Run Aggregate Supply (SRAS)",
+    "3.4 Long-Run Aggregate Supply (LRAS)",
+    "3.5 Equilibrium in the Aggregate Demand–Aggregate Supply (AD–AS) Model",
+    "3.6 Changes in the AD–AS Model in the Short Run",
+    "3.7 Long-Run Self-Adjustment",
+    "3.8 Fiscal Policy",
+    "3.9 Automatic Stabilizers"
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Financial Sector",
+   "status": "practice-ready",
+   "file": "data/courses/ap-macroeconomics/u4.json",
+   "officialTopics": [
+    "Financial assets",
+    "Definition, measurement, and functions of money",
+    "Banking and the expansion of the money supply",
+    "Monetary policy"
+   ],
+   "examWeight": "18%–23% of the multiple-choice score",
+   "frameworkTopics": [
+    "4.1 Financial Assets",
+    "4.2 Nominal v. Real Interest Rates",
+    "4.3 Definition, Measurement, and Functions of Money",
+    "4.4 Banking and the Expansion of the Money Supply",
+    "4.5 The Money Market",
+    "4.6 Monetary Policy",
+    "4.7 The Loanable Funds Market"
+   ]
+  },
+  {
+   "id": "u5",
+   "name": "Unit 5: Long-Run Consequences of Stabilization Policies",
+   "status": "practice-ready",
+   "file": "data/courses/ap-macroeconomics/u5.json",
+   "officialTopics": [
+    "The Phillips Curve",
+    "Money growth and inflation",
+    "Government deficits and national debt",
+    "Crowding out",
+    "Economic growth"
+   ],
+   "examWeight": "20%–30% of the multiple-choice score",
+   "frameworkTopics": [
+    "5.1 Fiscal and Monetary Policy Actions in the Short Run",
+    "5.2 The Phillips Curve",
+    "5.3 Money Growth and Inflation",
+    "5.4 Government Deficits and the National Debt",
+    "5.5 Crowding Out",
+    "5.6 Economic Growth",
+    "5.7 Public Policy and Economic Growth"
+   ]
+  },
+  {
+   "id": "u6",
+   "name": "Unit 6: Open Economy—International Trade and Finance",
+   "status": "practice-ready",
+   "file": "data/courses/ap-macroeconomics/u6.json",
+   "officialTopics": [
+    "Balance of payments accounts",
+    "Exchange rates and the foreign exchange market",
+    "Effects of changes in policies and economic conditions on the foreign exchange market",
+    "Changes in the foreign exchange market and net exports",
+    "Real interest rates and international capital flows"
+   ],
+   "examWeight": "10%–13% of the multiple-choice score",
+   "frameworkTopics": [
+    "6.1 Balance of Payments Accounts",
+    "6.2 Exchange Rates",
+    "6.3 The Foreign Exchange Market",
+    "6.4 Effect of Changes in Policies and Economic Conditions on the Foreign Exchange Market",
+    "6.5 Changes in the Foreign Exchange Market and Net Exports",
+    "6.6 Real Interest Rates and International Capital Flows"
+   ]
+  }
+ ],
+ "generalResources": [
+  {
+   "id": "gen-mac-openstax",
+   "title": "OpenStax Principles of Macroeconomics 3e (whole book)",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/details/books/principles-macroeconomics-3e",
+   "scope": "general",
+   "kind": "textbook",
+   "note": "General: a free college macroeconomics textbook. It is not organized around the AP units.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/details/books/principles-macroeconomics-3e",
+   "sourceTitle": "OpenStax book page",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ]
+}

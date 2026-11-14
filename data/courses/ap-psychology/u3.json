@@ -1,0 +1,999 @@
+{
+ "courseId": "ap-psychology",
+ "unitId": "u3",
+ "title": "Unit 3: Development and Learning",
+ "topics": [
+  {
+   "id": "psy3-themes",
+   "name": "Themes and research methods in development",
+   "covers": [
+    "Research methods used in developmental psychology"
+   ],
+   "frameworkCovers": [
+    "3.1 Themes and Methods in Developmental Psychology"
+   ]
+  },
+  {
+   "id": "psy3-physcog",
+   "name": "Physical, cognitive, and language development",
+   "covers": [
+    "Physical, cognitive, and social-emotional development across the lifespan"
+   ],
+   "frameworkCovers": [
+    "3.2 Physical Development Across the Lifespan",
+    "3.4 Cognitive Development Across the Lifespan",
+    "3.5 Communication and Language Development"
+   ]
+  },
+  {
+   "id": "psy3-social",
+   "name": "Social-emotional development, gender, and sexual orientation",
+   "covers": [
+    "Physical, cognitive, and social-emotional development across the lifespan",
+    "Gender and sexual orientation"
+   ],
+   "frameworkCovers": [
+    "3.3 Gender and Sexual Orientation",
+    "3.6 Social-Emotional Development Across the Lifespan"
+   ]
+  },
+  {
+   "id": "psy3-classical",
+   "name": "Classical conditioning",
+   "covers": [],
+   "frameworkCovers": [
+    "3.7 Classical Conditioning"
+   ]
+  },
+  {
+   "id": "psy3-operant",
+   "name": "Operant conditioning and social and cognitive learning",
+   "covers": [],
+   "frameworkCovers": [
+    "3.8 Operant Conditioning",
+    "3.9 Social, Cognitive, and Neurological Factors in Learning"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 3: Development and Learning: review guide",
+  "intro": "This unit follows physical, cognitive, and social-emotional development from before birth to late adulthood, and then turns to learning: classical conditioning, operant conditioning, and learning by observation and thought. The College Board student page lists only the development topics for this unit; the Course and Exam Description also places topics 3.7–3.9 on learning here, so they are included.",
+  "sections": [
+   {
+    "id": "s-psy3-themes",
+    "topicId": "psy3-themes",
+    "title": "Themes and research methods in development",
+    "body": [
+     "Developmental psychologists study both the order of development and enduring issues: stability and change (do traits persist?), nature and nurture, and whether development is continuous (gradual) or discontinuous (in distinct stages).",
+     "Two designs are typical. A cross-sectional study compares people of different ages at one time; it is quick, but differences may reflect cohort effects (the era each age group grew up in) rather than aging. A longitudinal study follows the same people over years; it shows change within individuals, but it is slow and costly, and participants drop out (attrition), which can leave a sample that is no longer representative. The CED's objective 3.1.B asks how these designs inform understanding; it prints no further essential knowledge statement for it."
+    ],
+    "points": [
+     "Cross-sectional: different people, different ages, one time.",
+     "Longitudinal: same people, repeated over time.",
+     "Cohort effects threaten cross-sectional studies; attrition threatens longitudinal ones."
+    ]
+   },
+   {
+    "id": "s-psy3-physcog",
+    "topicId": "psy3-physcog",
+    "title": "Physical, cognitive, and language development",
+    "body": [
+     "Before birth, teratogens (harmful agents such as alcohol), maternal illness, genetic mutations, and hormonal and environmental factors can affect development. Infants show reflexes such as the rooting reflex, and motor skills develop in a generally fixed order but at varying ages. The visual cliff showed that infants perceive depth early. Critical or sensitive periods matter especially for language; some animals imprint on the first moving object they see. Adolescence brings the growth spurt and puberty, with primary and secondary sex characteristics (such as menarche and spermarche). Adulthood brings a leveling off and then a varying decline in reproductive ability (menopause), mobility, flexibility, reaction time, and sensory acuity.",
+     "Piaget held that children build schemas through assimilation and accommodation and pass through stages: sensorimotor (object permanence develops), preoperational (pretend play and symbols, but egocentrism, animism, and no conservation or reversibility; theory of mind begins), concrete operational (logical thinking about concrete events, including conservation), and formal operational (abstract, hypothetical thinking, which not everyone reaches). Vygotsky stressed social learning: adults and more skilled peers scaffold a child's learning within the zone of proximal development, the range of tasks the child can do with help. In adulthood, crystallized intelligence (accumulated knowledge) stays relatively stable while fluid intelligence (quick reasoning) tends to decline; dementia is one cognitive disorder of later life.",
+     "Language is a shared, rule-governed system of arbitrary symbols: phonemes (sounds), morphemes (smallest units of meaning), semantics (meaning), and grammar and syntax (rules). It is generative, producing endless new sentences. Children everywhere use gestures such as pointing and move through cooing, babbling, the one-word stage, and telegraphic speech. Overgeneralization, such as “goed” or “mouses,” shows a child applying a rule too widely."
+    ],
+    "points": [
+     "Conservation and reversibility arrive in the concrete operational stage.",
+     "Scaffolding works inside the zone of proximal development.",
+     "Crystallized knowledge holds up with age; fluid reasoning declines."
+    ]
+   },
+   {
+    "id": "s-psy3-social",
+    "topicId": "psy3-social",
+    "title": "Social-emotional development, gender, and sexual orientation",
+    "body": [
+     "Ecological systems theory places a person inside nested systems: the microsystem (direct contacts such as family), mesosystem (links among those groups), exosystem (indirect influences such as a parent's workplace), macrosystem (culture), and chronosystem (the person's life stage and changes over time). Parenting styles include authoritarian (strict, little explanation), authoritative (clear rules with warmth and reasons), and permissive (warm but few demands); their effects differ across cultures.",
+     "Attachment styles are secure or insecure (avoidant, anxious, or disorganized) and are related to temperament; they vary by culture. Separation anxiety is distress when a caregiver leaves or a stranger appears. Studies with infant monkeys showed that comfort matters more than food in attachment. Children play side by side (parallel play) and pretend; adolescents rely more on peers and show adolescent egocentrism through the imaginary audience (believing others are watching) and the personal fable (believing one's experiences are unique). Culture sets a social clock for major life events, and some cultures allow emerging adulthood. Childhood attachment can shape adult relationships, and adverse childhood experiences (ACEs) affect relationships across the lifespan.",
+     "Erikson's psychosocial stages pose conflicts to resolve: trust vs. mistrust, autonomy vs. shame and doubt, initiative vs. guilt, industry vs. inferiority, identity vs. role confusion, intimacy vs. isolation, generativity vs. stagnation, and integrity vs. despair. Adolescents form identity through achievement, diffusion, foreclosure, and moratorium, including racial and ethnic, gender, religious, occupational, and family identities and sexual orientation, often by considering possible selves.",
+     "Sex usually refers to biological characteristics, while gender refers to the social and psychological roles, expectations, and identities a culture links to being male or female. Children are socialized into gender roles by family, peers, and media. Sexual orientation is a person's pattern of romantic or sexual attraction. The CED's objective 3.3.A asks how sex and gender influence socialization and other aspects of development; the current CED prints no essential knowledge statements under it, so StudySprint keeps this topic introductory."
+    ],
+    "points": [
+     "Authoritative (rules plus warmth) is not authoritarian (rules without explanation).",
+     "Imaginary audience: everyone is watching me; personal fable: no one understands me and nothing bad will happen to me.",
+     "Freud's psychosexual stages are outside the AP exam."
+    ]
+   },
+   {
+    "id": "s-psy3-classical",
+    "topicId": "psy3-classical",
+    "title": "Classical conditioning",
+    "body": [
+     "Behaviorists focus on observable behavior. In classical conditioning, a neutral stimulus is paired with an unconditioned stimulus (UCS) that naturally triggers an unconditioned response (UCR). After acquisition, the neutral stimulus has become a conditioned stimulus (CS) that triggers a similar conditioned response (CR). The order matters: the CS should come just before the UCS. If the CS is presented repeatedly without the UCS, the CR fades (extinction); after a rest, presenting the CS again can bring the CR back (spontaneous recovery). Generalization is responding to stimuli similar to the CS; discrimination is responding only to the CS. In higher-order conditioning, an established CS serves as a UCS for a new stimulus.",
+     "Emotional responses can be classically conditioned, which is the basis of counterconditioning in therapy. Taste aversions show one-trial learning and biological preparedness: a single pairing of a food with illness can create a lasting aversion, and animals learn some pairings far more readily than others. Habituation is a weakening response to a repeated stimulus."
+    ],
+    "points": [
+     "Find the UCS first: what triggers the response without learning?",
+     "The UCR and CR are usually the same behavior, triggered by different stimuli.",
+     "Delayed, trace, simultaneous, and backward conditioning are outside the AP exam."
+    ]
+   },
+   {
+    "id": "s-psy3-operant",
+    "topicId": "psy3-operant",
+    "title": "Operant conditioning and social and cognitive learning",
+    "body": [
+     "Operant conditioning links behaviors with consequences. The law of effect says reinforced behaviors become more likely and punished behaviors less likely. Positive means adding a stimulus; negative means removing one. Positive reinforcement adds something pleasant, negative reinforcement removes something unpleasant (both increase behavior); positive punishment adds something unpleasant, negative punishment removes something pleasant (both decrease behavior). Primary reinforcers meet biological needs; secondary reinforcers, such as money, are learned. Shaping rewards successive approximations; instinctive drift limits what animals can be trained to do. Superstitious behavior arises when a reward follows an unrelated behavior, and learned helplessness arises when an organism learns it cannot control aversive events.",
+     "Continuous reinforcement rewards every response and builds learning fast. Partial schedules are fixed- or variable-ratio (by number of responses) and fixed- or variable-interval (by time). Variable-ratio schedules produce high, steady responding that resists extinction; fixed-interval schedules produce a scalloped pattern, with responding rising as the reward time nears.",
+     "Social learning theory says people learn by observing models and their consequences (vicarious conditioning), especially models similar to themselves. Insight learning is a sudden solution without association, consequence, or model. Latent learning happens without reinforcement and appears later, as when rats form a cognitive map of a maze."
+    ],
+    "points": [
+     "Reinforcement always increases behavior; punishment decreases it.",
+     "“Negative” means taking something away, not something bad.",
+     "Variable-ratio: most resistant to extinction."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Each time Leo's family opens a can of cat food with an electric opener, their cat comes running. Identify the UCS, UCR, CS, and CR.",
+   "solution": "The food is the UCS and the cat's natural excitement and approach to food is the UCR. The opener's sound, once neutral, has become the CS, and running toward the sound is the CR."
+  },
+  "misconceptions": [
+   [
+    "“Negative reinforcement is punishment.”",
+    "Negative reinforcement removes something unpleasant and increases a behavior; punishment decreases a behavior."
+   ],
+   [
+    "“Extinction erases a conditioned response.”",
+    "Spontaneous recovery shows the association is suppressed rather than erased."
+   ],
+   [
+    "“Cross-sectional studies show how individuals change.”",
+    "They compare different people of different ages; only longitudinal studies follow the same people."
+   ],
+   [
+    "“Fluid and crystallized intelligence both decline steadily with age.”",
+    "Crystallized intelligence tends to remain stable; fluid intelligence tends to decline."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Psychology Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-psychology-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+  "sourceTitle": "AP Psychology – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "psy3-a",
+   "title": "Study 3: Two ways to study reasoning and vocabulary in adulthood (hypothetical study summary)",
+   "text": [
+    "Team A tested 400 adults once, in 2025: 100 each at ages 20, 40, 60, and 80. Each person took a timed puzzle test of quick reasoning and a vocabulary test.",
+    "Team B first tested 150 adults at age 20 in 1985 and retested the same people with the same two tests at ages 40 and 60. By the age-60 test, 52 of the original participants had dropped out.",
+    "Team A found that puzzle scores were much lower in each older age group, while vocabulary scores were similar across the groups aged 20 to 60. Team B also found that vocabulary held steady or rose, but its puzzle scores declined much less with age than Team A's did."
+   ],
+   "attribution": "Hypothetical study summary written for StudySprint by its editors. The researchers, participants, and results are invented for practice and do not describe any published study.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "psy3-b",
+   "title": "Data set: Conditioned eyeblinks to a tone (hypothetical data)",
+   "intro": "Adult volunteers heard a tone followed half a second later by a gentle puff of air to the eye, which makes people blink. Each line gives the percentage of trials on which participants blinked to a sound before the puff arrived (or with no puff at all).",
+   "text": [
+    "Before training (tone alone): 5% of trials",
+    "After 60 training trials (tone followed by air puff): 90% of trials",
+    "Tone alone, extinction trials 1–10: 70% of trials",
+    "Tone alone, extinction trials 31–40: 10% of trials",
+    "Tone alone, first 10 trials after a 24-hour rest: 45% of trials",
+    "After training, a slightly higher tone (never paired with the puff): 60% of trials",
+    "After training, a very different buzzing sound (never paired with the puff): 12% of trials"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice data interpretation. The numbers are invented and do not come from any real study.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "psy-u3-q01",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-themes",
+   "skill": "2.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Team A's study is best described as",
+   "choices": [
+    "a case study, because it examined each adult's history in great depth",
+    "a longitudinal study, because it followed the same adults over many years",
+    "an experiment, because the researchers randomly assigned all of the adults to ages",
+    "a cross-sectional study, because it compared different age groups at one time"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Team A tested different people of different ages once, which is the cross-sectional design.",
+   "choiceExplanations": [
+    "A case study examines one person or a few in depth; Team A tested 400 adults briefly.",
+    "Team B, not Team A, followed the same people over time.",
+    "Age cannot be randomly assigned, so comparing age groups is not an experiment.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy3-a"
+  },
+  {
+   "id": "psy-u3-q02",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-physcog",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Both teams found that vocabulary held steady while timed puzzle scores fell with age. This pattern best fits the idea that",
+   "choices": [
+    "fluid intelligence stays stable while crystallized intelligence declines",
+    "crystallized intelligence stays stable while fluid intelligence declines",
+    "formal operational thinking is lost in late adulthood for most people",
+    "adults return to concrete operational thinking as their reaction time slows"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Vocabulary reflects crystallized intelligence (accumulated knowledge), which tends to hold steady; quick puzzle solving reflects fluid intelligence, which tends to decline.",
+   "choiceExplanations": [
+    "This reverses the two kinds of intelligence: vocabulary is crystallized and timed reasoning is fluid.",
+    "",
+    "Piaget's stages do not predict a loss of formal operations with age, and vocabulary did not decline.",
+    "Piaget's theory does not describe adults returning to earlier stages, and slower reaction time is a physical change."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy3-a"
+  },
+  {
+   "id": "psy-u3-q03",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-themes",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Team A found a much steeper decline in puzzle scores than Team B. Which explanation best accounts for the difference?",
+   "choices": [
+    "Attrition: Team A lost its least able older adults before testing, which made their decline look steeper.",
+    "Practice effects: Team A's younger adults had taken the puzzle test several times before 2025.",
+    "Cohort effects: Team A's older groups grew up with less schooling and less practice at timed tests.",
+    "Random assignment: Team A placed its strongest puzzle solvers in the youngest group by chance alone."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Cross-sectional comparisons mix aging with differences between generations; older cohorts may have had less education and test experience, exaggerating the apparent decline.",
+   "choiceExplanations": [
+    "Team A tested everyone once, so it had no dropouts; attrition was a problem for Team B.",
+    "Team A tested each person only once, so earlier practice with its test was not part of the design.",
+    "",
+    "Age groups cannot be formed by random assignment, and chance would not produce a consistent pattern across four age groups."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy3-a"
+  },
+  {
+   "id": "psy-u3-q04",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-themes",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which feature of Team B's study is the most important reason to be cautious about its results at age 60?",
+   "choices": [
+    "About a third of the participants dropped out, and those who stayed may differ from those who left.",
+    "The same participants were tested more than once, so their scores cannot fairly be compared across ages.",
+    "The study compared different people at each age, so differences could reflect when they grew up.",
+    "The tests were changed at each session, so scores from different ages measure different abilities."
+   ],
+   "correctAnswer": 0,
+   "explanation": "Attrition (52 of 150 dropped out) can leave a healthier or more motivated sample, which may make decline look smaller than it is.",
+   "choiceExplanations": [
+    "",
+    "Testing the same people repeatedly is what allows a longitudinal study to track change; it does not make scores incomparable.",
+    "That describes a cross-sectional design; Team B followed the same people.",
+    "Team B used the same two tests at every session."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy3-a"
+  },
+  {
+   "id": "psy-u3-q05",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-classical",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In this study, what is the unconditioned stimulus (UCS)?",
+   "choices": [
+    "The tone heard before the puff",
+    "The blink in response to the puff",
+    "The blink in response to the tone",
+    "The puff of air to the eye"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The air puff makes people blink without any learning, so it is the unconditioned stimulus.",
+   "choiceExplanations": [
+    "The tone is the neutral stimulus that becomes the conditioned stimulus.",
+    "Blinking to the puff is the unconditioned response, not a stimulus.",
+    "Blinking to the tone is the learned, conditioned response.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy3-b"
+  },
+  {
+   "id": "psy-u3-q06",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-classical",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The rise to 45% after the 24-hour rest is evidence of",
+   "choices": [
+    "habituation",
+    "spontaneous recovery",
+    "higher-order conditioning",
+    "stimulus generalization"
+   ],
+   "correctAnswer": 1,
+   "explanation": "After extinction had reduced blinking to 10%, presenting the tone again after a rest brought the conditioned response partly back; that is spontaneous recovery.",
+   "choiceExplanations": [
+    "Habituation is a weakening response to a repeated stimulus; this result is a rebound in responding.",
+    "",
+    "Higher-order conditioning uses a CS to condition a new stimulus, which did not happen here.",
+    "Generalization is responding to stimuli similar to the CS; this result involves the original tone."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy3-b"
+  },
+  {
+   "id": "psy-u3-q07",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-classical",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Blinking to the slightly higher tone (60%) but rarely to the buzzing sound (12%) shows",
+   "choices": [
+    "extinction of the response to the higher tone and acquisition to the buzzing sound",
+    "one-trial learning for the higher tone and biological preparedness for the buzzing",
+    "generalization to a similar sound and discrimination of a very different one",
+    "discrimination of the similar sound and generalization to the very different one"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Responding to a stimulus like the CS is generalization; not responding to a clearly different stimulus is discrimination.",
+   "choiceExplanations": [
+    "The buzzing sound was never paired with the puff, so no acquisition occurred to it, and the higher tone was never extinguished.",
+    "Training took 60 trials, and preparedness concerns readiness to learn certain pairings, not low responding to an unpaired sound.",
+    "",
+    "This reverses the terms: responding to the similar tone is generalization, and not responding to the buzz is discrimination."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy3-b"
+  },
+  {
+   "id": "psy-u3-q08",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-classical",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Taken together, the extinction and rest results best support which conclusion?",
+   "choices": [
+    "The participants habituated to the air puff, so they stopped blinking to it after training.",
+    "Extinction erased the association, so the participants had to learn it again after the rest.",
+    "Extinction weakened the conditioned response but did not erase the learned association.",
+    "The 24-hour rest made the tone more strongly linked to the air puff than ever before."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Blinking fell to 10% during extinction yet rebounded to 45% after rest without new pairings, so the association was suppressed rather than erased.",
+   "choiceExplanations": [
+    "The puff was not presented during extinction; the data show changes in blinking to the tone, not to the puff.",
+    "No new tone–puff pairings occurred after the rest, so relearning cannot explain the 45%.",
+    "",
+    "Responding after the rest (45%) was well below the trained level (90%), so the link was not stronger than ever."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy3-b"
+  },
+  {
+   "id": "psy-u3-q09",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-themes",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A psychologist asks whether shy toddlers tend to become shy adults. Which enduring issue in development does this question address?",
+   "choices": [
+    "Nature and nurture",
+    "Stability and change",
+    "Critical and sensitive periods",
+    "Continuous and discontinuous stages"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Asking whether a trait persists from childhood into adulthood is the issue of stability and change.",
+   "choiceExplanations": [
+    "Nature and nurture asks where a trait comes from, not whether it persists.",
+    "",
+    "Critical periods concern windows when certain experiences matter most, not whether a trait persists.",
+    "This issue asks whether development is gradual or happens in stages, not whether a trait lasts."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q10",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-physcog",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "At 5 months, Nia stops looking for a toy once it is hidden under a blanket. At 10 months, she lifts the blanket to find it. Nia has developed",
+   "choices": [
+    "object permanence, in the sensorimotor stage",
+    "abstract reasoning, in the formal operational stage",
+    "theory of mind, in the preoperational stage",
+    "conservation, in the concrete operational stage"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Understanding that objects still exist when out of sight is object permanence, which develops in Piaget's sensorimotor stage.",
+   "choiceExplanations": [
+    "",
+    "Abstract reasoning develops in adolescence or later, not in infancy.",
+    "Theory of mind is understanding that others have their own thoughts, which is not what searching for a toy shows.",
+    "Conservation, knowing amount stays the same when shape changes, develops years later."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q11",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-physcog",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Ella cannot finish a jigsaw puzzle alone, but she can when her older brother gives hints, and he gives fewer hints as she improves. This best illustrates",
+   "choices": [
+    "scaffolding within her zone of proximal development",
+    "egocentrism typical of the preoperational stage",
+    "the conflict of industry versus inferiority",
+    "assimilation of the puzzle pieces into an existing schema"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Vygotsky's scaffolding is support that is gradually withdrawn as a child masters a task she could not yet do alone, which is the zone of proximal development.",
+   "choiceExplanations": [
+    "",
+    "Egocentrism is difficulty taking another's perspective, which the scenario does not show.",
+    "Erikson's industry stage concerns feeling competent, but the scenario is about learning with guided help.",
+    "Assimilation fits new information into an existing schema; it does not describe learning with a helper's support."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q12",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-physcog",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A 3-year-old says, “I goed to the park and saw two mouses.” These errors best show",
+   "choices": [
+    "telegraphic speech that leaves out all but the most important words",
+    "a missing understanding of what morphemes are for",
+    "babbling of speech sounds that are not yet words",
+    "overgeneralization of grammar rules to irregular words"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The child applies the regular rules for past tense (-ed) and plurals (-s) to irregular words, which is overgeneralization.",
+   "choiceExplanations": [
+    "Telegraphic speech omits small words (“go park”); this sentence is complete.",
+    "Adding -ed and -s shows that the child uses morphemes, just too widely.",
+    "Babbling comes before real words; this child speaks in full sentences.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q13",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-physcog",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "At age 4, Maya says a tall, thin glass holds more juice than the short, wide glass it was poured from. At 8, she says the amount is the same “because you could pour it back.” Her answer at 8 shows",
+   "choices": [
+    "egocentrism and animism, which are hallmarks of the preoperational stage",
+    "abstract, hypothetical reasoning, abilities of the formal operational stage",
+    "conservation and reversibility, abilities of the concrete operational stage",
+    "object permanence, an ability that develops in the sensorimotor stage"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Knowing that amount stays the same despite a change in shape (conservation) and that the change could be undone (reversibility) are concrete operational abilities.",
+   "choiceExplanations": [
+    "Egocentrism and animism are limits of younger children; Maya's answer shows she has moved past the preoperational stage.",
+    "Maya reasons about a concrete, visible event, not about abstract or hypothetical ideas.",
+    "",
+    "Object permanence develops in infancy and concerns whether hidden objects exist, not amounts."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q14",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-social",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A 16-year-old tries out different friend groups, styles, and possible careers while asking, “Who am I?” In Erikson's theory, this reflects",
+   "choices": [
+    "identity versus role confusion",
+    "intimacy versus isolation",
+    "industry versus inferiority",
+    "autonomy versus shame and doubt"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Adolescents' main psychosocial task in Erikson's theory is forming an identity.",
+   "choiceExplanations": [
+    "",
+    "Intimacy versus isolation concerns forming close relationships in young adulthood.",
+    "Industry versus inferiority concerns competence in the school-age years.",
+    "Autonomy versus shame and doubt concerns toddlers' independence."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q15",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-social",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a playroom, a toddler explores freely while her mother is present, becomes upset when her mother leaves, and is quickly comforted when she returns. This pattern best fits",
+   "choices": [
+    "anxious attachment",
+    "secure attachment",
+    "disorganized attachment",
+    "avoidant attachment"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Using the caregiver as a safe base, showing distress at separation, and being easily comforted at reunion are signs of secure attachment.",
+   "choiceExplanations": [
+    "An anxious child is hard to comfort at reunion and may cling or resist.",
+    "",
+    "A disorganized child shows confused or contradictory behavior toward the caregiver.",
+    "An avoidant child shows little distress at separation and tends to ignore the caregiver at reunion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q16",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-social",
+   "skill": "1.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Ana's parents set clear rules, explain the reasons for them, listen to her views, and are warm and supportive. Which parenting style does this describe?",
+   "choices": [
+    "Authoritative",
+    "Authoritarian",
+    "Permissive",
+    "Neglectful"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Combining clear expectations with warmth and explanation is the authoritative style. Research finds its effects can differ across cultures.",
+   "choiceExplanations": [
+    "",
+    "Authoritarian parents set strict rules but expect obedience without explanation.",
+    "Permissive parents are warm but set few rules or demands.",
+    "Neglectful parents are neither demanding nor responsive, unlike Ana's involved parents."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q17",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-social",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 14-year-old refuses to go to school because of a small pimple, certain that everyone will stare at it all day. This best illustrates",
+   "choices": [
+    "identity foreclosure, accepting an identity without exploring options",
+    "separation anxiety, fear when away from a familiar caregiver",
+    "the personal fable, a belief that one's experiences are unique",
+    "the imaginary audience, a belief that others are closely watching"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Believing that others are paying close attention to one's appearance is the imaginary audience, a form of adolescent egocentrism.",
+   "choiceExplanations": [
+    "Foreclosure concerns committing to an identity without exploring alternatives; the teen's worry is about being watched.",
+    "Separation anxiety is a young child's distress when away from a caregiver.",
+    "The personal fable is the belief that one is unique or invulnerable, not that one is being watched.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q18",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-social",
+   "skill": "1.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "From early childhood, Mia is praised for being gentle and given dolls, while her brother is given trucks and praised for being tough. This best illustrates",
+   "choices": [
+    "gender socialization, learning a culture's expectations for gender roles",
+    "assimilation, changing an existing schema to fit new information",
+    "a critical period, a fixed window in which gender identity must form",
+    "imprinting, a lasting attachment to the first moving object a child encounters"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Different praise and toys teach children what their culture expects of boys and girls, which is gender socialization.",
+   "choiceExplanations": [
+    "",
+    "Assimilation fits new information into an existing schema; changing a schema is accommodation, and neither describes the parents' teaching.",
+    "The scenario describes ongoing teaching by parents, not a fixed developmental window.",
+    "Imprinting is an attachment in some animals to the first moving object they see."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q19",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-classical",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Hours after eating shrimp for the first time, Jaden gets stomach flu. Now the smell of shrimp makes him feel sick. This best illustrates",
+   "choices": [
+    "higher-order conditioning, built on an earlier conditioned stimulus",
+    "a conditioned taste aversion, learned in a single pairing",
+    "habituation, a weaker response to a repeated stimulus",
+    "negative reinforcement, the removal of an unpleasant stimulus"
+   ],
+   "correctAnswer": 1,
+   "explanation": "One pairing of a food with illness, even hours apart, produced a lasting aversion: one-trial learning and biological preparedness.",
+   "choiceExplanations": [
+    "No earlier conditioned stimulus was used to condition the shrimp.",
+    "",
+    "Jaden's response grew stronger after one experience; habituation would weaken it.",
+    "Nothing unpleasant was removed to increase a behavior; this is an association between a food and illness."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q20",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-operant",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Kai takes a pain reliever when he has a headache, and the headache goes away. He is now more likely to take a pain reliever. This is an example of",
+   "choices": [
+    "negative punishment",
+    "negative reinforcement",
+    "positive reinforcement",
+    "positive punishment"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Removing something unpleasant (the headache) increases the behavior, which is negative reinforcement.",
+   "choiceExplanations": [
+    "Punishment decreases a behavior, but Kai's behavior increased.",
+    "",
+    "Positive reinforcement adds something pleasant; here something unpleasant is taken away.",
+    "Punishment decreases a behavior, and nothing unpleasant was added."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q21",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-operant",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A gambler wins on a slot machine after an unpredictable number of plays. Which schedule of reinforcement is this, and what pattern of responding does it produce?",
+   "choices": [
+    "Fixed-ratio, which produces bursts followed by short pauses",
+    "Fixed-interval, which produces a scalloped pattern of responding",
+    "Variable-interval, which produces slow, steady responding",
+    "Variable-ratio, which produces high, steady rates of responding"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Reinforcement after an unpredictable number of responses is a variable-ratio schedule, which produces high, steady responding that resists extinction.",
+   "choiceExplanations": [
+    "Fixed-ratio schedules reward after a set number of responses, but the gambler's wins are unpredictable.",
+    "Fixed-interval schedules reward the first response after a set time, not after a number of plays.",
+    "Interval schedules depend on time passing, but slot-machine wins depend on the number of plays.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q22",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-operant",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Rats explore a maze for 10 days with no food reward. When food is placed at the end on day 11, they quickly run to it, nearly as fast as rats rewarded all along. This best illustrates",
+   "choices": [
+    "shaping, the reinforcement of successive approximations of the route",
+    "instinctive drift, a return to the rats' natural foraging behaviors",
+    "latent learning, shown by a cognitive map formed without reinforcement",
+    "insight learning, a sudden solution reached without association or reward"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The rats learned the maze without reinforcement, and the learning appeared only when there was a reason to use it: latent learning with a cognitive map.",
+   "choiceExplanations": [
+    "No rewards were given for partial progress during the first ten days.",
+    "Instinctive drift is a trained behavior slipping back toward instinct; the rats instead showed learned knowledge of the maze.",
+    "",
+    "Insight is a sudden solution without association, consequence, or model, but these rats learned the maze over ten days of exploring it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u3-q23",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "topicId": "psy3-operant",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "After watching her older cousin get praised for clearing the table, 6-year-old Ana starts clearing the table too. This best illustrates",
+   "choices": [
+    "operant conditioning, in which Ana was praised each time she cleared",
+    "classical conditioning, in which Ana paired the table with praise",
+    "social learning, in which Ana learns from a model's consequences",
+    "insight learning, in which Ana suddenly solved a difficult problem"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Ana learned by observing a model being reinforced (vicarious conditioning), which is social learning.",
+   "choiceExplanations": [
+    "Ana started clearing before receiving any praise herself.",
+    "Classical conditioning pairs stimuli to produce an automatic response; clearing the table is a chosen behavior copied from a model.",
+    "",
+    "Insight learning is a sudden solution without a model, but Ana copied her cousin."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-psy-u3-os1",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "title": "OpenStax Psychology 2e, 9.2 Lifespan Theories",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/9-2-lifespan-theories",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on Piaget's and Erikson's theories of development. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/9-2-lifespan-theories",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u3-os2",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "title": "OpenStax Psychology 2e, 9.3 Stages of Development",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/9-3-stages-of-development",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on development from before birth through late adulthood. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/9-3-stages-of-development",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u3-os3",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "title": "OpenStax Psychology 2e, 6.2 Classical Conditioning",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/6-2-classical-conditioning",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on classical conditioning. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/6-2-classical-conditioning",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u3-os4",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "title": "OpenStax Psychology 2e, 6.3 Operant Conditioning",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/6-3-operant-conditioning",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on operant conditioning and reinforcement schedules. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/6-3-operant-conditioning",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u3-os5",
+   "courseId": "ap-psychology",
+   "unitId": "u3",
+   "title": "OpenStax Psychology 2e, 6.4 Observational Learning (Modeling)",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/6-4-observational-learning-modeling",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on observational learning. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/6-4-observational-learning-modeling",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Psychology free-response set has an Article Analysis Question and an Evidence-Based Question, and both draw on research methods and on content from across the course, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "psy-u3-q01",
+    "psy-u3-q02",
+    "psy-u3-q03",
+    "psy-u3-q04",
+    "psy-u3-q10",
+    "psy-u3-q14",
+    "psy-u3-q19",
+    "psy-u3-q21"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "psy-u3-q05",
+    "psy-u3-q06",
+    "psy-u3-q07",
+    "psy-u3-q08",
+    "psy-u3-q09",
+    "psy-u3-q11",
+    "psy-u3-q17",
+    "psy-u3-q20"
+   ]
+  }
+ ]
+}

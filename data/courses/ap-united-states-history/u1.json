@@ -1,0 +1,707 @@
+{
+ "courseId": "ap-united-states-history",
+ "unitId": "u1",
+ "title": "Unit 1: Period 1: 1491–1607",
+ "topics": [
+  {
+   "id": "ush1-native",
+   "name": "Native American societies before contact",
+   "covers": [
+    "Native American societies before European contact"
+   ],
+   "frameworkCovers": [
+    "1.1 Contextualizing Period 1",
+    "1.2 Native American Societies Before European Contact"
+   ]
+  },
+  {
+   "id": "ush1-contact",
+   "name": "Exploration, conquest, and the Columbian Exchange",
+   "covers": [
+    "European exploration in the New World",
+    "The Columbian Exchange"
+   ],
+   "frameworkCovers": [
+    "1.3 European Exploration in the Americas",
+    "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
+    "1.7 Causation in Period 1"
+   ]
+  },
+  {
+   "id": "ush1-colonial",
+   "name": "Labor, caste, and cultural interactions in Spanish America",
+   "covers": [
+    "Labor, slavery, and caste in the Spanish colonial system",
+    "Cultural interactions between Europeans, Native Americans, and Africans"
+   ],
+   "frameworkCovers": [
+    "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
+    "1.6 Cultural Interactions Between Europeans, Native Americans, and Africans"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Period 1 (1491–1607): review guide",
+  "intro": "Before 1492, the Americas held hundreds of diverse societies. European arrival began a period of exchange, conquest, and new systems of labor and identity that reshaped three continents. This guide reviews those developments and the causation questions the period raises.",
+  "sections": [
+   {
+    "id": "s-ush1-native",
+    "topicId": "ush1-native",
+    "title": "Native American societies before contact",
+    "body": [
+     "Native societies adapted to very different environments. The spread of maize cultivation northward from present-day Mexico supported larger, settled populations, irrigation systems, and social hierarchies, for example in the Southwest. Peoples of the Great Basin and Great Plains developed mobile ways of life suited to scarce water and wide grasslands. In the Northeast and the Mississippi River Valley, many societies combined farming with hunting and lived in permanent villages; in the Pacific Northwest and California, rich fishing and gathering supported large, settled communities.",
+     "Contextualizing Period 1 means seeing these societies as dynamic and varied, not as a single “Native” culture, and recognizing that the encounter with Europeans began in a world already full of trade, politics, and change."
+    ],
+    "points": [
+     "Environment shaped economy and settlement patterns.",
+     "Maize spread was a key cause of settled, complex societies.",
+     "Diversity of Native societies is a frequent exam theme."
+    ]
+   },
+   {
+    "id": "s-ush1-contact",
+    "topicId": "ush1-contact",
+    "title": "Exploration, conquest, and the Columbian Exchange",
+    "body": [
+     "European exploration was driven by the search for new routes to Asian trade, competition among monarchies, religious motives, and new maritime technology. Spanish conquests of the Aztec and Inca empires brought enormous wealth, especially silver from Mexico and Peru.",
+     "The Columbian Exchange moved plants, animals, and diseases between hemispheres. Smallpox and other diseases killed a large share of Native peoples, who lacked immunity; horses, cattle, and pigs transformed American landscapes and some Native ways of life; American crops such as maize and potatoes helped European populations grow; and American silver fed European economies and the shift toward capitalism."
+    ],
+    "points": [
+     "Causation: disease, not only warfare, explains much of the Native population collapse.",
+     "Horses later transformed Plains societies.",
+     "Silver flows strengthened Spain and spurred European commerce."
+    ]
+   },
+   {
+    "id": "s-ush1-colonial",
+    "topicId": "ush1-colonial",
+    "title": "Labor, caste, and cultural interactions",
+    "body": [
+     "The Spanish encomienda system gave colonists the right to extract labor and tribute from Native people. As Native populations fell, the Spanish and Portuguese increasingly turned to enslaved Africans. A caste system ranked people by perceived mixtures of European, Native, and African ancestry.",
+     "Europeans debated how to treat Native peoples: in the Valladolid debate (1550–1551), Bartolomé de Las Casas argued that Native people were fully human and should not be enslaved, while Juan Ginés de Sepúlveda defended conquest. Native peoples and Africans resisted, adapted, and kept their own cultural practices even under pressure to convert."
+    ],
+    "points": [
+     "Encomienda → enslaved African labor is a key change over time.",
+     "The caste system reflects European ideas about racial hierarchy.",
+     "Cultural interaction ran in many directions, including resistance."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain one cause of the decline of Native populations after 1492.",
+   "solution": "European diseases such as smallpox spread rapidly among Native peoples who had no prior exposure or immunity, causing epidemics that killed large shares of many communities, often before Europeans even arrived in person."
+  },
+  "misconceptions": [
+   [
+    "“Native Americans lived in one kind of society.”",
+    "Societies varied greatly with their environments, from mobile groups to large settled farming communities."
+   ],
+   [
+    "“Europeans conquered mainly through superior weapons.”",
+    "Disease, Native alliances against the Aztecs, and division within empires mattered greatly."
+   ],
+   [
+    "“The Columbian Exchange only affected the Americas.”",
+    "It transformed Europe, Africa, and Asia too, through crops, silver, and the slave trade."
+   ],
+   [
+    "“Europeans all agreed about how to treat Native peoples.”",
+    "Some, like Las Casas, strongly criticized Spanish treatment."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. History Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+  "sourceTitle": "AP United States History – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "ush1-a",
+   "title": "Source A: Christopher Columbus, letter describing his first voyage, 1493",
+   "text": [
+    "“This island, like all the others, is most extensive. It has many ports along the sea-coast excelling any in Christendom—and many fine, large, flowing rivers. . . . Hispaniola is a marvel. Its hills and mountains, fine plains and open country, are rich and fertile for planting and for pasturage, and for building towns and villages. The seaports there are incredibly fine, as also the magnificent rivers, most of which bear gold. . . . There are many spices and vast mines of gold and other metals in this island. They have no iron, nor steel, nor weapons, nor are they fit for them, because although they are well-made men of commanding stature, they appear extraordinarily timid.”"
+   ],
+   "attribution": "Christopher Columbus, letter to Luis de Santángel, an official of the Spanish court who had helped finance the voyage, 1493 (English translation). Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 2.1.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/2-1-portuguese-exploration-and-spanish-conquest); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush1-b",
+   "title": "Source B: Two interpretations of the Columbian Exchange",
+   "text": [
+    "Interpretation 1: “The most important consequence of 1492 was biological. Within a few generations, epidemics of smallpox, measles, and other diseases had killed a majority of the Native population in many regions. Without this catastrophe, Spanish conquest would have been far slower and far less complete.”",
+    "Interpretation 2: “Disease alone does not explain the transformation of the Americas. Spanish conquest depended on alliances with Native peoples who resented Aztec rule, and colonial labor systems that forced survivors into mines and fields deepened the decline. Human choices, not only microbes, shaped the outcome.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "ush1-c",
+   "title": "Source C: An interpretation of Native American societies before 1492",
+   "text": [
+    "“Long before Europeans arrived, the peoples of North America had built societies as varied as the land itself. Where maize could be grown and water managed, as in the Southwest, people built multistory towns and complex irrigation systems. On the Great Plains and in the Great Basin, where rainfall was scarce, many groups moved with the seasons to hunt and gather. In the Northeast, villages surrounded by cornfields stood near forests where men hunted. These were not unchanging societies waiting to be discovered; they traded, fought, migrated, and adapted for centuries.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "ush1-d",
+   "title": "Source D: An interpretation of Spanish colonial society",
+   "text": [
+    "“Spanish America was organized around labor and lineage. Through the encomienda, Spanish settlers claimed the work and tribute of Native communities, and as those communities shrank, colonists imported growing numbers of enslaved Africans. Colonial authorities sorted the resulting population into a ladder of categories based on European, Native, and African ancestry, with peninsulares, people born in Spain, at the top. Yet the system was never complete: Native and African peoples preserved languages and beliefs, blended them with Catholic practices, and sometimes rose in revolt.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "ush-u1-q01",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-contact",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Columbus most likely emphasized the islands' gold, spices, and harbors in order to",
+   "choices": [
+    "describe the religious beliefs of the Taíno in detail",
+    "encourage Spanish support for further voyages",
+    "warn other Europeans not to settle the islands he found",
+    "argue that the islands should be left to their own people"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Writing to a court official who had helped fund the voyage, Columbus highlighted wealth that would justify more expeditions.",
+   "choiceExplanations": [
+    "The excerpt says nothing about Taíno religion.",
+    "",
+    "He praises the islands rather than warning anyone away.",
+    "His descriptions of towns and pasturage point toward colonizing the islands."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-a"
+  },
+  {
+   "id": "ush-u1-q02",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-colonial",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Columbus's comments about the people of Hispaniola suggest that he viewed them as",
+   "choices": [
+    "skilled metalworkers who mined gold",
+    "military rivals equal to Spain in strength",
+    "people who could be easily dominated",
+    "traders who would control the gold supply"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Noting they have “no iron, nor steel, nor weapons” and are “extraordinarily timid” presents them as vulnerable.",
+   "choiceExplanations": [
+    "He says they have no iron or steel, and he doesn't describe them mining.",
+    "He describes them as lacking weapons and timid.",
+    "",
+    "He doesn't describe them as traders."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-a"
+  },
+  {
+   "id": "ush-u1-q03",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-contact",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Reports like the one in the excerpt most directly contributed to which development in the following decades?",
+   "choices": [
+    "An alliance between Spain and the Aztec Empire to share the region's gold",
+    "The founding of English colonies in New England by settlers seeking gold",
+    "Spanish expeditions and conquests seeking gold and silver in the Americas",
+    "The end of European interest in finding a sea route to Asian markets"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Promises of wealth helped drive Spanish conquest, from the Caribbean to the Aztec and Inca empires.",
+   "choiceExplanations": [
+    "Spain conquered the Aztec Empire rather than allying with it.",
+    "English New England colonies came over a century later, for religious and economic reasons, not gold.",
+    "",
+    "Europeans continued to seek sea routes to Asian trade."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-a"
+  },
+  {
+   "id": "ush-u1-q04",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-native",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A historian might question how fully the excerpt describes Native societies on Hispaniola mainly because",
+   "choices": [
+    "Columbus never visited Hispaniola himself and relied only on what his sailors later told him",
+    "the letter was written centuries after the voyage it describes",
+    "Columbus was a member of the Taíno people and wrote as an insider",
+    "Columbus had reason to stress wealth and Native weakness, and little grasp of Taíno society"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The letter's purpose and its author's limited knowledge shape what it includes, so it is a partial view of Native life.",
+   "choiceExplanations": [
+    "The letter describes what he saw on his own voyage to the island.",
+    "It was written in 1493, right after the voyage.",
+    "Columbus was a European explorer sailing for Spain, not an insider.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-a"
+  },
+  {
+   "id": "ush-u1-q05",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-contact",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Interpretation 1 most directly emphasizes which cause of Native population decline?",
+   "choices": [
+    "Climate change in the 1600s and the 1700s",
+    "Epidemic diseases brought by Europeans",
+    "Migration of Native peoples to Europe",
+    "Wars among Native nations before 1492"
+   ],
+   "correctAnswer": 1,
+   "explanation": "It argues that disease was the most important consequence and cause of the rapid decline.",
+   "choiceExplanations": [
+    "Climate isn't mentioned.",
+    "",
+    "This didn't happen on any significant scale.",
+    "It discusses effects after 1492, not earlier wars."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-b"
+  },
+  {
+   "id": "ush-u1-q06",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-colonial",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Interpretation 2 differs from Interpretation 1 mainly in arguing that",
+   "choices": [
+    "the Columbian Exchange began in the 1700s, long after the Spanish conquest of the Aztecs",
+    "Spain never conquered the Aztec Empire, despite its Native allies",
+    "disease had no real effect on Native populations in the Americas",
+    "Native alliances and Spanish labor systems, not disease alone, shaped the outcome"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Interpretation 2 accepts disease as part of the story but stresses human choices and labor systems.",
+   "choiceExplanations": [
+    "Neither interpretation dates it that way; it began in 1492.",
+    "It describes how the conquest depended on alliances, not a failure to conquer.",
+    "It says disease alone doesn't explain the outcome, not that it had no effect.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-b"
+  },
+  {
+   "id": "ush-u1-q07",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-contact",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which piece of evidence would best support Interpretation 2?",
+   "choices": [
+    "Spanish forces under Cortés fought with thousands of Tlaxcalan allies against the Aztecs",
+    "Europeans had no immunity to diseases they encountered in the Americas",
+    "Smallpox reached the Aztec capital in 1520 and killed many of its defenders",
+    "Horses were unknown in the Americas until Europeans brought them over after the year 1492"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Native allies' role in the conquest supports the claim that human alliances, not only disease, shaped the outcome.",
+   "choiceExplanations": [
+    "",
+    "This is inaccurate and irrelevant: the epidemics struck Native peoples.",
+    "This supports Interpretation 1's emphasis on disease.",
+    "This concerns the exchange of animals, not the cause of decline."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-b"
+  },
+  {
+   "id": "ush-u1-q08",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-contact",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Both interpretations would most likely agree that the Columbian Exchange",
+   "choices": [
+    "was mainly an exchange of ideas rather than goods and organisms",
+    "had devastating consequences for Native peoples of the Americas",
+    "had little lasting effect on the size of the population of the Americas",
+    "benefited Native and European peoples about equally in the long run"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Both describe a sharp decline in Native populations; they disagree about its causes.",
+   "choiceExplanations": [
+    "Both focus on disease and labor, which are biological and material.",
+    "",
+    "Both describe dramatic, lasting population effects.",
+    "Neither suggests the benefits were equal."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-b"
+  },
+  {
+   "id": "ush-u1-q09",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-native",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The interpretation most directly supports which claim about Native American societies before 1492?",
+   "choices": [
+    "They had no permanent towns or villages before the Europeans arrived",
+    "They were isolated from one another and did not trade",
+    "They developed different ways of life suited to their environments",
+    "They all depended on large-scale maize agriculture"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The passage contrasts Southwest towns, mobile Plains and Great Basin groups, and Northeast villages.",
+   "choiceExplanations": [
+    "It describes multistory towns and villages.",
+    "The passage says they traded.",
+    "",
+    "Plains and Great Basin groups often relied on hunting and gathering."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-c"
+  },
+  {
+   "id": "ush-u1-q10",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-native",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, what made multistory towns possible in the Southwest?",
+   "choices": [
+    "Gold mining and trade in precious metals",
+    "The arrival of horses that eased transport",
+    "Maize cultivation supported by water management",
+    "Trade with European merchants for building tools"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The passage links settled towns to growing maize and managing water.",
+   "choiceExplanations": [
+    "Gold mining and trade in metals aren't mentioned.",
+    "Horses came with Europeans, after 1492.",
+    "",
+    "This was before European contact."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-c"
+  },
+  {
+   "id": "ush-u1-q11",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-contact",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which development after 1492 most directly changed the way of life of many Great Plains peoples described in the passage?",
+   "choices": [
+    "The spread of horses introduced by the Spanish",
+    "The growth of tobacco plantations on the Plains",
+    "The building of irrigation canals for maize fields",
+    "The founding of French fur-trading posts in the Southwest"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Horses, part of the Columbian Exchange, transformed hunting, travel, and warfare on the Plains.",
+   "choiceExplanations": [
+    "",
+    "Tobacco plantations developed in the Chesapeake, not on the Plains.",
+    "Irrigation was a Southwest practice, not a change on the Plains.",
+    "French posts were mainly along the St. Lawrence and Mississippi, not the Southwest."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-c"
+  },
+  {
+   "id": "ush-u1-q12",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-native",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The interpretation's final sentence is best understood as a response to which view?",
+   "choices": [
+    "That long-distance trade in North America began only after 1492",
+    "That Native societies were static and unchanged before Europeans came",
+    "That Europeans brought maize to the Americas and taught Native peoples to farm",
+    "That Native societies were all nomadic peoples who moved with the seasons"
+   ],
+   "correctAnswer": 1,
+   "explanation": "By stressing that Native peoples traded, fought, migrated, and adapted, the author rejects the idea of unchanging societies.",
+   "choiceExplanations": [
+    "It mentions trade, but the sentence's target is the idea of static societies.",
+    "",
+    "Maize was domesticated in the Americas, and the final sentence is about change over time.",
+    "The passage already showed variety earlier; the final sentence addresses change over time."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-c"
+  },
+  {
+   "id": "ush-u1-q13",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-colonial",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The encomienda system described in the passage gave Spanish colonists the right to",
+   "choices": [
+    "trade freely with England and other European nations",
+    "elect the governors of their colonial provinces",
+    "own land in Spain in return for service in the colonies",
+    "demand labor and tribute from Native communities"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The passage defines it as claiming the work and tribute of Native communities.",
+   "choiceExplanations": [
+    "Spain restricted its colonies' trade with other nations.",
+    "Colonial governors were appointed by the Crown.",
+    "It concerned Native labor in the Americas, not land in Spain.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-d"
+  },
+  {
+   "id": "ush-u1-q14",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-colonial",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the passage, why did colonists increasingly import enslaved Africans?",
+   "choices": [
+    "Spain had abolished the encomienda system before the year 1500",
+    "Africans had immunity to all European diseases",
+    "Native peoples had become Spanish citizens and could not be made to work",
+    "Native communities were shrinking, reducing the labor available"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The passage ties the rise in enslaved African labor to the decline of Native communities.",
+   "choiceExplanations": [
+    "The encomienda continued into the 1500s.",
+    "This overstates and isn't in the passage.",
+    "The passage doesn't say this.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-d"
+  },
+  {
+   "id": "ush-u1-q15",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-colonial",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The colonial ranking of people by ancestry described in the passage most directly reflected",
+   "choices": [
+    "European ideas of a racial hierarchy with Spaniards at the top",
+    "the equal status of all Catholics in the Spanish colonies",
+    "Native American systems of government that the Spanish adopted",
+    "English common law, which ranked people by birth"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The caste ladder, topped by people born in Spain, expressed and enforced a hierarchy based on ancestry.",
+   "choiceExplanations": [
+    "",
+    "Shared religion didn't bring equal status.",
+    "It was a Spanish colonial system, not adopted from Native governments.",
+    "The system was Spanish, not English."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-d"
+  },
+  {
+   "id": "ush-u1-q16",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "topicId": "ush1-colonial",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which development provides evidence for the passage's claim that “the system was never complete”?",
+   "choices": [
+    "Native peoples blended Catholic practices with their own traditional beliefs",
+    "Colonists imported growing numbers of enslaved Africans to work",
+    "Spain's silver shipments from the Americas grew in the 1500s",
+    "Peninsulares held the highest offices in the Spanish colonial government of the Americas"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Blending religious traditions shows Native peoples preserving their cultures within the colonial system.",
+   "choiceExplanations": [
+    "",
+    "This describes the system's labor practices, not its limits.",
+    "Silver shipments show the system's success for Spain.",
+    "This shows the hierarchy working as intended."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush1-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-ush-u1-os1",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "title": "OpenStax U.S. History, 1.1 The Americas",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/1-1-the-americas",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (The Americas). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/1-1-the-americas",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-ush-u1-os2",
+   "courseId": "ap-united-states-history",
+   "unitId": "u1",
+   "title": "OpenStax U.S. History, 2.4 New Worlds in the Americas: Labor, Commerce, and the Columbian Exchange",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/2-4-new-worlds-in-the-americas-labor-commerce-and-the-columbian-exchange",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (New Worlds in the Americas: Labor, Commerce, and the Columbian Exchange). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/2-4-new-worlds-in-the-americas-labor-commerce-and-the-columbian-exchange",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP U.S. History short-answer, document-based, and long-essay questions often span several periods, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ush-u1-q01",
+    "ush-u1-q02",
+    "ush-u1-q03",
+    "ush-u1-q04",
+    "ush-u1-q05",
+    "ush-u1-q06",
+    "ush-u1-q07",
+    "ush-u1-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "ush-u1-q09",
+    "ush-u1-q10",
+    "ush-u1-q11",
+    "ush-u1-q12",
+    "ush-u1-q13",
+    "ush-u1-q14",
+    "ush-u1-q15",
+    "ush-u1-q16"
+   ]
+  }
+ ]
+}

@@ -3,7 +3,8 @@
  "name": "AP Physics 2: Algebra-Based",
  "officialUrl": "https://apcentral.collegeboard.org/courses/ap-physics-2",
  "studentUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
- "frameworkUrl": "https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-physics-2-course-and-exam-description.pdf",
+ "frameworkVersion": "AP Physics 2: Algebra-Based Course and Exam Description, effective Fall 2024 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections to be implemented for Fall 2026.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-physics-2/exam/past-exam-questions",
   "note": null
@@ -11,15 +12,69 @@
  "source": {
   "title": "AP Physics 2: Algebra-Based – AP Students (College Board)",
   "url": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
-  "verified": "2026-10-09",
-  "note": null
+  "verified": "2026-11-08",
+  "note": "Unit names, the “topics may include” lists, and exam weightings were re-read from this page on 2026-11-08 and match the saved outline exactly."
+ },
+ "topicNameCheck": {
+  "checked": "2026-11-08",
+  "source": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+  "how": "StudySprint downloaded the live AP Students page on 2026-11-08 and compared every unit name and every “topics may include” entry with the saved outline, character for character. All 7 unit names and all 39 topics match; none is missing, duplicated, or in a different unit. This replaces the 2026-10-22 check, which confirmed only 9 names.",
+  "matched": [
+   "Unit 9: Thermodynamics",
+   "Unit 10: Electric Force, Field, and Potential",
+   "Unit 11: Electric Circuits",
+   "Unit 12: Magnetism and Electromagnetism",
+   "Unit 13: Geometric Optics",
+   "Unit 14: Waves, Sound, and Physical Optics",
+   "Unit 15: Modern Physics",
+   "Thermodynamic systems",
+   "Pressure, thermal equilibrium, and the Ideal Gas Law",
+   "Thermodynamics and forces",
+   "Heat and energy transfer",
+   "Thermodynamics and collisions",
+   "Probability, thermal equilibrium, and entropy",
+   "Electric systems and charge",
+   "Charge distribution: Friction, conduction, and induction",
+   "Electric permittivity",
+   "Electric forces and free-body diagrams",
+   "Gravitational and electromagnetic forces",
+   "Electric charges and fields",
+   "Electric flux",
+   "Conservation of electric energy",
+   "Definition and conservation of electric charge",
+   "Resistivity and resistance",
+   "Resistance and capacitance",
+   "Kirchhoff’s loop rule",
+   "Kirchhoff’s junction rule and the conservation of electric charge",
+   "Magnetic systems",
+   "Magnetic permeability and magnetic dipole moment",
+   "Vector and scalar fields",
+   "Monopole and dipole fields",
+   "Magnetic fields and forces",
+   "Forces review",
+   "Magnetic flux",
+   "Refraction, reflection, and absorption",
+   "Images from lenses and mirrors",
+   "Periodic waves",
+   "Electromagnetic waves",
+   "Sound",
+   "Doppler Effect",
+   "Interference and diffraction",
+   "Radioactive decay",
+   "Energy in modern physics (energy in radioactive decay and E = mc²)",
+   "Mass–energy equivalence",
+   "Blackbody radiation",
+   "Properties of waves and particles",
+   "Photoelectric effect"
+  ],
+  "mismatched": []
  },
  "units": [
   {
    "id": "u9",
    "name": "Unit 9: Thermodynamics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u9.json",
    "officialTopics": [
     "Thermodynamic systems",
     "Pressure, thermal equilibrium, and the Ideal Gas Law",
@@ -27,13 +82,22 @@
     "Heat and energy transfer",
     "Thermodynamics and collisions",
     "Probability, thermal equilibrium, and entropy"
+   ],
+   "examWeight": "15%–18%",
+   "frameworkTopics": [
+    "9.1 Kinetic Theory of Temperature and Pressure",
+    "9.2 The Ideal Gas Law",
+    "9.3 Thermal Energy Transfer and Equilibrium",
+    "9.4 The First Law of Thermodynamics",
+    "9.5 Specific Heat and Thermal Conductivity",
+    "9.6 Entropy and the Second Law of Thermodynamics"
    ]
   },
   {
    "id": "u10",
    "name": "Unit 10: Electric Force, Field, and Potential",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u10.json",
    "officialTopics": [
     "Electric systems and charge",
     "Charge distribution: Friction, conduction, and induction",
@@ -43,26 +107,47 @@
     "Electric charges and fields",
     "Electric flux",
     "Conservation of electric energy"
+   ],
+   "examWeight": "15%–18%",
+   "frameworkTopics": [
+    "10.1 Electric Charge and Electric Force",
+    "10.2 Conservation of Electric Charge and the Process of Charging",
+    "10.3 Electric Fields",
+    "10.4 Electric Potential Energy",
+    "10.5 Electric Potential",
+    "10.6 Capacitors",
+    "10.7 Conservation of Electric Energy"
    ]
   },
   {
    "id": "u11",
    "name": "Unit 11: Electric Circuits",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u11.json",
    "officialTopics": [
     "Definition and conservation of electric charge",
     "Resistivity and resistance",
     "Resistance and capacitance",
     "Kirchhoff’s loop rule",
     "Kirchhoff’s junction rule and the conservation of electric charge"
+   ],
+   "examWeight": "15%–18%",
+   "frameworkTopics": [
+    "11.1 Electric Current",
+    "11.2 Simple Circuits",
+    "11.3 Resistance, Resistivity, and Ohm’s Law",
+    "11.4 Electric Power",
+    "11.5 Compound Direct Current (DC) Circuits",
+    "11.6 Kirchhoff’s Loop Rule",
+    "11.7 Kirchhoff’s Junction Rule",
+    "11.8 Resistor-Capacitor (RC) Circuits"
    ]
   },
   {
    "id": "u12",
    "name": "Unit 12: Magnetism and Electromagnetism",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u12.json",
    "officialTopics": [
     "Magnetic systems",
     "Magnetic permeability and magnetic dipole moment",
@@ -71,36 +156,62 @@
     "Magnetic fields and forces",
     "Forces review",
     "Magnetic flux"
+   ],
+   "examWeight": "12%–15%",
+   "frameworkTopics": [
+    "12.1 Magnetic Fields",
+    "12.2 Magnetism and Moving Charges",
+    "12.3 Magnetism and Current-Carrying Wires",
+    "12.4 Electromagnetic Induction and Faraday’s Law"
    ]
   },
   {
    "id": "u13",
    "name": "Unit 13: Geometric Optics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u13.json",
    "officialTopics": [
     "Refraction, reflection, and absorption",
     "Images from lenses and mirrors"
+   ],
+   "examWeight": "12%–15%",
+   "frameworkTopics": [
+    "13.1 Reflection",
+    "13.2 Images Formed by Mirrors",
+    "13.3 Refraction",
+    "13.4 Images Formed by Lenses"
    ]
   },
   {
    "id": "u14",
    "name": "Unit 14: Waves, Sound, and Physical Optics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u14.json",
    "officialTopics": [
     "Periodic waves",
     "Electromagnetic waves",
     "Sound",
     "Doppler Effect",
     "Interference and diffraction"
+   ],
+   "examWeight": "12%–15%",
+   "frameworkTopics": [
+    "14.1 Properties of Wave Pulses and Waves",
+    "14.2 Periodic Waves",
+    "14.3 Boundary Behavior of Waves and Polarization",
+    "14.4 Electromagnetic Waves",
+    "14.5 The Doppler Effect",
+    "14.6 Wave Interference and Standing Waves",
+    "14.7 Diffraction",
+    "14.8 Double-Slit Interference and Diffraction Gratings",
+    "14.9 Thin-Film Interference"
    ]
   },
   {
    "id": "u15",
    "name": "Unit 15: Modern Physics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-2/u15.json",
    "officialTopics": [
     "Radioactive decay",
     "Energy in modern physics (energy in radioactive decay and E = mc²)",
@@ -108,7 +219,29 @@
     "Blackbody radiation",
     "Properties of waves and particles",
     "Photoelectric effect"
+   ],
+   "examWeight": "12%–15%",
+   "frameworkTopics": [
+    "15.1 Quantum Theory and Wave-Particle Duality",
+    "15.2 The Bohr Model of Atomic Structure",
+    "15.3 Emission and Absorption Spectra",
+    "15.4 Blackbody Radiation",
+    "15.5 The Photoelectric Effect",
+    "15.6 Compton Scattering",
+    "15.7 Fission, Fusion, and Nuclear Decay",
+    "15.8 Types of Radioactive Decay"
    ]
   }
- ]
+ ],
+ "frameworkCheck": {
+  "checked": "2026-11-08",
+  "source": "https://apcentral.collegeboard.org/media/pdf/ap-physics-2-course-and-exam-description.pdf",
+  "title": "AP Physics 2: Algebra-Based Course and Exam Description (effective Fall 2024)",
+  "how": "The 46 numbered CED topics (9.1–15.8) were read from the current PDF on AP Central and from College Board's Course at a Glance, and each was matched to the StudySprint topic whose guide section and questions teach it. Before this check, nine CED topics had no guide text or questions (9.5 specific heat, 10.6 capacitors in Unit 10, 14.1 wave pulses, 14.3 boundary behavior and polarization, 14.9 thin-film interference, 15.2 the Bohr model, 15.3 emission and absorption spectra, 15.6 Compton scattering, and fission and fusion in 15.7); review notes and original questions were added for each. The Clarifications and Corrections for Fall 2026 reword one essential knowledge statement in 15.7 (radioactive decay includes a nucleus moving to a lower energy level) and change exam timing (42 multiple-choice questions in 85 minutes; free response in 95 minutes); neither changes a unit or topic.",
+  "weightsSource": "the AP Students course page (“On The Exam”), checked 2026-11-08; the CED's Course at a Glance gives the same ranges",
+  "differences": [
+   "The AP Students page lists capacitance under Unit 11 (“Resistance and capacitance”), while the CED places Topic 10.6 Capacitors in Unit 10 and RC circuits (11.8) in Unit 11. StudySprint keeps capacitors in circuits in Unit 11 and now also covers the Unit 10 material (the uniform field between parallel plates and ΔV = Ed).",
+   "The AP Students page's topic list is a summary in different words from the CED's topic titles (for example “Vector and scalar fields” and “Forces review”, which are not CED topic titles). Both lists are recorded and both are build-checked."
+  ]
+ }
 }

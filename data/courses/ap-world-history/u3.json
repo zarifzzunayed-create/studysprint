@@ -1,0 +1,698 @@
+{
+ "courseId": "ap-world-history",
+ "unitId": "u3",
+ "title": "Unit 3: Land-Based Empires",
+ "topics": [
+  {
+   "id": "wh3-expand",
+   "name": "Empires expand",
+   "covers": [
+    "The development of the Manchu, Mughal, Ottoman, and Safavid empires"
+   ],
+   "frameworkCovers": [
+    "3.1 Empires Expand"
+   ]
+  },
+  {
+   "id": "wh3-admin",
+   "name": "Administering empires",
+   "covers": [
+    "How rulers of empires maintained their power"
+   ],
+   "frameworkCovers": [
+    "3.2 Empires: Administration",
+    "3.4 Comparison in Land-Based Empires"
+   ]
+  },
+  {
+   "id": "wh3-belief",
+   "name": "Belief systems in empires",
+   "covers": [
+    "Religious developments in empires"
+   ],
+   "frameworkCovers": [
+    "3.3 Empires: Belief Systems"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 3: Land-Based Empires: review guide",
+  "intro": "From about 1450 to 1750, large land-based empires such as the Ottoman, Safavid, Mughal, and Qing expanded with gunpowder weapons and governed huge, diverse populations. This unit covers how they grew, how rulers kept power, and how religion both united and divided them.",
+  "sections": [
+   {
+    "id": "s-wh3-expand",
+    "topicId": "wh3-expand",
+    "title": "Empires expand",
+    "body": [
+     "The Ottomans used large cannons to take Constantinople in 1453 and later expanded into the Balkans, the Middle East, and North Africa. The Safavids, founded by Shah Ismail in 1501, ruled Persia; the Mughals, founded by Babur in 1526, ruled most of South Asia; and the Manchus conquered Ming China in 1644, founding the Qing dynasty, which later expanded into Mongolia, Tibet, and Xinjiang.",
+     "Historians often call the Ottoman, Safavid, and Mughal states “gunpowder empires” because firearms and artillery helped them expand and centralize. Russia also expanded across Siberia, driven partly by the fur trade."
+    ],
+    "points": [
+     "Know the founding dates and regions of the main empires.",
+     "Gunpowder weapons favored states that could afford cannons and trained infantry."
+    ]
+   },
+   {
+    "id": "s-wh3-admin",
+    "topicId": "wh3-admin",
+    "title": "How rulers kept power",
+    "body": [
+     "Rulers built bureaucracies and recruited loyal elites. The Ottoman devshirme took Christian boys from the Balkans, converted them, and trained them as Janissary soldiers or officials. The Mughals relied on zamindars to collect land taxes, and the Ottomans used tax farming. Qing emperors kept the Confucian examination system while requiring Han Chinese men to wear the Manchu queue hairstyle.",
+     "Rulers also used monumental architecture (the Taj Mahal, the Palace of Versailles) and court rituals to display power. Louis XIV kept nobles at Versailles, and the Tokugawa shoguns required lords to spend alternate years in Edo; both policies kept powerful elites close and under watch."
+    ],
+    "points": [
+     "Ask how each method helped legitimize or consolidate power.",
+     "Comparison questions often ask about methods shared across empires."
+    ]
+   },
+   {
+    "id": "s-wh3-belief",
+    "topicId": "wh3-belief",
+    "title": "Belief systems in empires",
+    "body": [
+     "Religion legitimized rulers and shaped conflict. The Sunni Ottomans and Shia Safavids fought repeatedly, as at the Battle of Chaldiran (1514). In Europe, Martin Luther's challenge to the Catholic Church in 1517 began the Protestant Reformation; the Catholic Counter-Reformation, including the Council of Trent, responded.",
+     "In South Asia, Sikhism emerged from the teachings of Guru Nanak, blending elements of Hinduism and Islam. The Mughal emperor Akbar promoted tolerance and abolished the jizya, a tax on non-Muslims, while Aurangzeb later reimposed it. The Ottoman millet system let religious communities manage many of their own affairs."
+    ],
+    "points": [
+     "Religious policy was a political tool for winning or controlling subjects.",
+     "Religious splits often matched political rivalries."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain one similarity in how the Ottoman and Mughal rulers kept control of diverse populations.",
+   "solution": "Both granted some religious toleration to large non-Muslim populations (the Ottoman millet system; Akbar's abolition of the jizya) while relying on loyal elites and tax collectors, which reduced resistance and kept revenue flowing."
+  },
+  "misconceptions": [
+   [
+    "“The gunpowder empires were all ruled by the same dynasty.”",
+    "Ottomans, Safavids, and Mughals were separate dynasties, often rivals."
+   ],
+   [
+    "“The Qing were Han Chinese.”",
+    "The Qing were Manchus who conquered Ming China and ruled a mostly Han population."
+   ],
+   [
+    "“Religious toleration meant equality.”",
+    "Non-Muslims often paid special taxes and faced limits even under tolerant rulers."
+   ],
+   [
+    "“Gunpowder was invented in Europe.”",
+    "Gunpowder came from China and spread across Eurasia."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP World History: Modern Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+  "sourceTitle": "AP World History: Modern – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "wh3-a",
+   "title": "Source A: An interpretation of the expansion of land-based empires",
+   "text": [
+    "“In 1453 the Ottoman sultan Mehmed II brought massive cannons against the walls of Constantinople, which had protected the Byzantine capital for a thousand years. The city fell, and it became the Ottoman capital. In the decades that followed, new dynasties built empires across Asia. Shah Ismail founded the Safavid state in Persia in 1501, and Babur, a descendant of Timur, defeated the sultan of Delhi in 1526 and founded the Mughal Empire. Farther east, the Manchus from the northeast seized Beijing in 1644 and founded the Qing dynasty. These states differed in language and culture, but the Ottomans, Safavids, and Mughals all invested heavily in firearms and artillery.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh3-b",
+   "title": "Source B: An interpretation of imperial administration",
+   "text": [
+    "“Rulers of vast empires needed loyal servants who owed everything to the throne. The Ottomans took Christian boys from Balkan villages through the devshirme, converted them to Islam, and trained the most able as Janissary infantry or palace administrators. In Mughal India, zamindars collected land taxes and passed a share to the emperor. European and Asian rulers alike worked to tame their nobles. Louis XIV of France required great nobles to live at his palace at Versailles, where their status depended on his favor, while in Japan the Tokugawa shoguns made regional lords spend alternate years in the capital, Edo. Across these empires, the Ottoman millet system let Christian and Jewish communities run many of their own affairs.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh3-c",
+   "title": "Source C: An interpretation of religion and power",
+   "text": [
+    "“Religion was both a source of legitimacy and a cause of conflict. The Safavid shahs made Shia Islam the official faith of Persia, while their Ottoman rivals championed Sunni Islam; in 1514 the two clashed at Chaldiran. In Europe, Martin Luther's 1517 attack on the sale of indulgences split Western Christianity, and Catholic and Protestant rulers fought for more than a century. In South Asia, Guru Nanak taught a devotion to one God that drew on both Hindu and Islamic traditions, giving rise to Sikhism. The Mughal emperor Akbar welcomed scholars of many faiths and ended the jizya, a tax on non-Muslims. His great-grandson Aurangzeb restored it in 1679.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh3-d",
+   "title": "Source D: An interpretation of the Qing and Russian empires",
+   "text": [
+    "“The Manchu rulers of the Qing dynasty faced a problem: they were a small conquering minority ruling hundreds of millions of Han Chinese. They kept the Confucian civil service examinations and employed Han officials, but they required Han men to wear the Manchu queue hairstyle as a sign of submission. Under the Kangxi and Qianlong emperors, the Qing added Taiwan, Mongolia, Tibet, and Xinjiang, roughly doubling the territory of the Ming. At the same time, Russia expanded east across Siberia, drawn by furs that could be sold at high prices. Supporting armies and officials across such distances strained every empire, and rulers experimented with ways of collecting revenue.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "wh-u3-q01",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-expand",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source A, the Ottoman conquest of Constantinople in 1453 relied on",
+   "choices": [
+    "an alliance with the Mughal Empire",
+    "a naval blockade by the Safavids",
+    "massive cannons used against the city walls",
+    "a revolt by the city's own Byzantine rulers against the emperor"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Mehmed II brought “massive cannons against the walls of Constantinople.”",
+   "choiceExplanations": [
+    "The Mughal Empire was founded in 1526.",
+    "The Safavids were Ottoman rivals and took no part.",
+    "",
+    "The city was conquered, not handed over by a revolt."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-a"
+  },
+  {
+   "id": "wh-u3-q02",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-expand",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source A, the Qing dynasty was founded by",
+   "choices": [
+    "the Ottoman sultan Mehmed II after taking Constantinople",
+    "Babur, a descendant of Timur",
+    "Shah Ismail of Persia",
+    "the Manchus, who seized Beijing in 1644"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The source says the Manchus seized Beijing in 1644 and founded the Qing.",
+   "choiceExplanations": [
+    "Mehmed II was an Ottoman sultan.",
+    "Babur founded the Mughal Empire.",
+    "Shah Ismail founded the Safavid state.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-a"
+  },
+  {
+   "id": "wh-u3-q03",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-expand",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The last sentence of Source A helps explain why historians call the Ottoman, Safavid, and Mughal states",
+   "choices": [
+    "“maritime empires”",
+    "“city-states”",
+    "“tributary kingdoms”",
+    "“gunpowder empires”"
+   ],
+   "correctAnswer": 3,
+   "explanation": "All three invested heavily in firearms and artillery, which helped them expand and centralize.",
+   "choiceExplanations": [
+    "These were land-based, not maritime, empires.",
+    "They were vast empires, not city-states.",
+    "Tributary states paid tribute to a stronger power; these were major empires.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-a"
+  },
+  {
+   "id": "wh-u3-q04",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-admin",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A historian comparing the empires in Source A would most likely argue that, despite their differences, they were similar in that each",
+   "choices": [
+    "was ruled by a Christian dynasty",
+    "used military technology to conquer and rule large, diverse populations",
+    "relied mainly on overseas colonies and long-distance sea trade for their wealth",
+    "rejected the idea of hereditary rule"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Each conquered lands with diverse peoples, and gunpowder armies supported their expansion and rule.",
+   "choiceExplanations": [
+    "The Ottomans, Safavids, and Mughals were Muslim dynasties; the Qing were Manchu.",
+    "",
+    "These were land-based empires.",
+    "All were hereditary dynasties."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-a"
+  },
+  {
+   "id": "wh-u3-q05",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-admin",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source B, the Ottoman devshirme was a system that",
+   "choices": [
+    "made regional lords live in Edo in alternate years and leave their families there",
+    "took Christian boys and trained them as soldiers or officials",
+    "collected land taxes in Mughal India",
+    "required nobles to live at Versailles"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The source describes boys taken from Balkan villages, converted, and trained as Janissaries or administrators.",
+   "choiceExplanations": [
+    "That describes the Tokugawa policy.",
+    "",
+    "That describes Mughal zamindars.",
+    "That describes Louis XIV."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-b"
+  },
+  {
+   "id": "wh-u3-q06",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-admin",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "According to Source B, Mughal zamindars served the state by",
+   "choices": [
+    "collecting land taxes and passing a share to the emperor",
+    "advising Louis XIV on court ritual",
+    "commanding the Janissary infantry",
+    "running Christian and Jewish communities under the millet system"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Zamindars collected taxes on land and sent a share to the Mughal treasury.",
+   "choiceExplanations": [
+    "",
+    "Louis XIV ruled France.",
+    "Janissaries were Ottoman.",
+    "The millet system was Ottoman."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-b"
+  },
+  {
+   "id": "wh-u3-q07",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-admin",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Louis XIV's policy at Versailles and the Tokugawa policy described in Source B were similar mainly because both",
+   "choices": [
+    "kept powerful nobles close to the ruler and dependent on his favor",
+    "converted nobles to a new religion",
+    "gave nobles control of the army",
+    "ended hereditary privilege for nobles and opened offices to all subjects"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Both kept elites near the center of power, where they could be watched and could not build independent bases.",
+   "choiceExplanations": [
+    "",
+    "Neither policy concerned religion.",
+    "Both aimed to reduce nobles' independent power.",
+    "Nobles kept their status; it depended on the ruler."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-b"
+  },
+  {
+   "id": "wh-u3-q08",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-belief",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The Ottoman millet system described in Source B shows that the empire",
+   "choices": [
+    "required all subjects to convert to Sunni Islam",
+    "managed religious diversity by allowing communities to run many of their own affairs",
+    "banned Christians and Jews from living in its cities and seized their lands and property",
+    "gave non-Muslims full control of the government"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Letting Christian and Jewish communities govern many of their own affairs reduced conflict while the state kept overall control.",
+   "choiceExplanations": [
+    "The system accepted non-Muslim communities rather than forcing conversion.",
+    "",
+    "Christians and Jews lived throughout the empire.",
+    "The sultan's government remained Muslim-led."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-b"
+  },
+  {
+   "id": "wh-u3-q09",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-belief",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, the Safavid shahs made which form of Islam the official faith of Persia?",
+   "choices": [
+    "Shia Islam",
+    "Sunni Islam",
+    "Sufism alone",
+    "Sikhism"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The source says the Safavids “made Shia Islam the official faith of Persia.”",
+   "choiceExplanations": [
+    "",
+    "The Ottomans championed Sunni Islam.",
+    "Sufism is a mystical tradition within Islam, not the official form named.",
+    "Sikhism arose in South Asia and is not a form of Islam."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-c"
+  },
+  {
+   "id": "wh-u3-q10",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-belief",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, Sikhism drew on",
+   "choices": [
+    "Catholic and Protestant traditions",
+    "Mongol shamanism alone",
+    "both Hindu and Islamic traditions",
+    "Confucian and Daoist traditions"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Guru Nanak's teachings “drew on both Hindu and Islamic traditions.”",
+   "choiceExplanations": [
+    "Sikhism arose in South Asia, not Europe.",
+    "The source mentions no Mongol influence.",
+    "",
+    "Confucianism and Daoism belong to East Asia."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-c"
+  },
+  {
+   "id": "wh-u3-q11",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-admin",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Akbar's policies described in Source C most likely aimed to",
+   "choices": [
+    "force Hindus to convert to Islam",
+    "copy the religious policies of the Safavid shahs in Persia",
+    "win the loyalty of his many non-Muslim subjects",
+    "weaken the Mughal treasury on purpose"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Ruling a mostly Hindu population, Akbar ended the jizya and welcomed many faiths, which strengthened support for Mughal rule.",
+   "choiceExplanations": [
+    "Ending the jizya is the opposite of forced conversion.",
+    "The Safavids enforced Shia Islam; Akbar was tolerant.",
+    "",
+    "The policy cost revenue but aimed to strengthen his rule."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-c"
+  },
+  {
+   "id": "wh-u3-q12",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-belief",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The conflicts described in Source C, at Chaldiran and between Catholics and Protestants, both show that",
+   "choices": [
+    "religious differences were always settled peacefully",
+    "religion had little effect on politics in this period, since rulers acted only for gain",
+    "only European states fought over religion",
+    "religious divisions became bound up with political rivalries between states"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Sunni–Shia and Catholic–Protestant divisions both fed wars between rival rulers.",
+   "choiceExplanations": [
+    "Both examples involved war.",
+    "Both examples show religion shaping politics.",
+    "Chaldiran was a battle between Muslim empires.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-c"
+  },
+  {
+   "id": "wh-u3-q13",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-expand",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source D, Russia's expansion across Siberia was driven partly by",
+   "choices": [
+    "the trade in valuable furs",
+    "the spread of Shia Islam",
+    "the Qing need for new officials",
+    "the search for a sea route to India"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The source says Russia was “drawn by furs that could be sold at high prices.”",
+   "choiceExplanations": [
+    "",
+    "Russia was Orthodox Christian.",
+    "The Qing had no role in Russian expansion.",
+    "Russia expanded over land, not by sea to India."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-d"
+  },
+  {
+   "id": "wh-u3-q14",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-admin",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Qing policies described in Source D show that Manchu rulers",
+   "choices": [
+    "adopted Han hairstyles to win acceptance",
+    "combined Chinese institutions with signs of Manchu authority",
+    "refused to employ Han Chinese officials",
+    "abolished the Confucian examination system and dismissed Han officials"
+   ],
+   "correctAnswer": 1,
+   "explanation": "They kept the exams and Han officials but required the queue, combining continuity with Manchu control.",
+   "choiceExplanations": [
+    "Han men were required to wear the Manchu queue, not the reverse.",
+    "",
+    "They employed Han officials.",
+    "The source says they kept the examinations."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-d"
+  },
+  {
+   "id": "wh-u3-q15",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-expand",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Qing conquests under the Kangxi and Qianlong emperors, as described in Source D,",
+   "choices": [
+    "took place before the Manchus seized Beijing and founded the dynasty",
+    "were limited to the island of Taiwan",
+    "ended when Russia conquered Mongolia",
+    "roughly doubled the territory the Ming had ruled"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The source says the Qing added Taiwan, Mongolia, Tibet, and Xinjiang, roughly doubling Ming territory.",
+   "choiceExplanations": [
+    "These emperors ruled after the 1644 conquest.",
+    "Taiwan was only one of the additions.",
+    "The Qing, not Russia, took Mongolia.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-d"
+  },
+  {
+   "id": "wh-u3-q16",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "topicId": "wh3-admin",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The final sentence of Source D points to which challenge shared by land-based empires?",
+   "choices": [
+    "Converting their populations to a single faith shared by the ruler",
+    "Defending themselves against European navies",
+    "Paying for armies and officials across vast territories",
+    "Finding enough land for their peasants"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Large empires needed steady revenue, which led to methods such as Ottoman tax farming and Mughal zamindars.",
+   "choiceExplanations": [
+    "Many empires tolerated religious diversity.",
+    "The source discusses distance and revenue, not navies.",
+    "",
+    "Land shortages are not mentioned."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh3-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-wh-u3-os1",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "title": "OpenStax World History, Volume 2: from 1400, 4.2 The Ottoman Empire",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/4-2-the-ottoman-empire",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on the Ottoman Empire. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/4-2-the-ottoman-empire",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  },
+  {
+   "id": "res-wh-u3-os2",
+   "courseId": "ap-world-history",
+   "unitId": "u3",
+   "title": "OpenStax World History, Volume 2: from 1400, 4.3 The Safavid Empire",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/4-3-the-safavid-empire",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on the Safavid Empire. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/4-3-the-safavid-empire",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP World History: Modern short-answer, document-based, and long-essay questions often span several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "wh-u3-q01",
+    "wh-u3-q02",
+    "wh-u3-q03",
+    "wh-u3-q04",
+    "wh-u3-q05",
+    "wh-u3-q06",
+    "wh-u3-q07",
+    "wh-u3-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "wh-u3-q09",
+    "wh-u3-q10",
+    "wh-u3-q11",
+    "wh-u3-q12",
+    "wh-u3-q13",
+    "wh-u3-q14",
+    "wh-u3-q15",
+    "wh-u3-q16"
+   ]
+  }
+ ]
+}

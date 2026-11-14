@@ -1,0 +1,277 @@
+{
+ "id": "ap-psychology",
+ "name": "AP Psychology",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-psychology",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-psychology-course-and-exam-description.pdf",
+ "frameworkVersion": "AP Psychology Course and Exam Description, effective Fall 2025 on its cover (the current PDF on AP Central, checked 2026-11-14; interior pages are marked V.1, © 2024), with College Board's Clarifications and Corrections implemented as of October 2025.",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-psychology/exam/past-exam-questions",
+  "note": null,
+  "releasedSets": [
+   {
+    "year": 2026,
+    "title": "2026 AP Psychology Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-psychology.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP Psychology Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-psychology-set-1.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP Psychology Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-psychology-set-2.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP Psychology Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-psychology-set-1.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP Psychology Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-psychology-set-2.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP Psychology Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-psychology-set-1.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP Psychology Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-psychology-set-2.pdf"
+   }
+  ],
+  "setsNote": "Whole released free-response sets (PDF, College Board) for the current exam format, linked from the course's past-exam-questions page and checked to load on 2026-11-14. College Board released two sets for each of 2023–2025 and one for 2026. Each set has one Article Analysis Question and one Evidence-Based Question; they are not matched to units, because both question types draw on research methods and on content from across the course. Scoring guidelines are on the past-exam-questions page."
+ },
+ "source": {
+  "title": "AP Psychology – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-psychology",
+  "verified": "2026-11-14",
+  "note": "Unit names, the “topics may include” lists, and exam weightings (15%–25% of the exam score for each unit) were read from this page on 2026-11-14; the exam format was read from its assessment page."
+ },
+ "frameworkCheck": {
+  "checked": "2026-11-14",
+  "source": "https://apcentral.collegeboard.org/media/pdf/ap-psychology-course-and-exam-description.pdf",
+  "title": "AP Psychology Course and Exam Description (effective Fall 2025)",
+  "how": "The 35 numbered CED topics (1.1–5.5) and their essential knowledge statements and exclusion statements were read from the course framework in the current PDF on AP Central; each topic is matched to the StudySprint topic whose guide section and questions teach it, and the questions stay inside the CED's stated limits (for example, only the eight listed neurotransmitters, the five listed hormones, and the listed sleep disorders). The four science practices and their eleven skills were read from the CED's science practices table, and each question is tagged with the skill it mainly uses. The Clarifications and Corrections implemented as of October 2025 (https://apcentral.collegeboard.org/media/pdf/ap-psychology-course-and-exam-description-clarifications.pdf) were checked: they revise wording in topics 1.3, 1.4, 1.5, 3.7, and 3.8 (for example, the all-or-none principle, alertness as a reticular activating system function, and the description of spontaneous recovery), add a list of psychological perspectives to skill 1.A and effect-size guidance to skill 3.C, and change part D of the Article Analysis Question; the guides follow the corrected wording.",
+  "weightsSource": "the AP Students course page and the CED's exam section (each unit 15%–25% of the exam), both checked 2026-11-14",
+  "examFormat": "From the AP Students assessment page and the CED (2 hours 40 minutes, digital in Bluebook): Section I, 75 multiple-choice questions in 90 minutes (66.7% of the score), a mix of individual questions and question sets built on a stimulus; the CED gives approximate multiple-choice weights of 65% Concept Application, 25% Research Methods and Design, and 10% Data Interpretation (Argumentation is not assessed in multiple choice). Section II, 2 free-response questions in 70 minutes (33.3%): an Article Analysis Question (16.65%, 25 minutes including a 10-minute reading period) on one summarized peer-reviewed study, and an Evidence-Based Question (16.65%, 45 minutes including a 15-minute reading period) that asks for a claim supported with evidence from three summarized sources. StudySprint practice is multiple-choice only, with individual questions and question sets built on hypothetical study summaries and data; written-response practice uses College Board's released questions.",
+  "skills": [
+   {
+    "code": "1.A",
+    "practice": "Concept Application",
+    "text": "Apply psychological perspectives, theories, concepts, and research findings to a scenario."
+   },
+   {
+    "code": "1.B",
+    "practice": "Concept Application",
+    "text": "Explain how cultural norms, expectations, and circumstances, as well as cognitive biases apply to behavior and mental processes."
+   },
+   {
+    "code": "2.A",
+    "practice": "Research Methods and Design",
+    "text": "Determine the type of research design(s) used in a given study."
+   },
+   {
+    "code": "2.B",
+    "practice": "Research Methods and Design",
+    "text": "Evaluate the appropriate use of research design elements in experimental methodology."
+   },
+   {
+    "code": "2.C",
+    "practice": "Research Methods and Design",
+    "text": "Evaluate the appropriate use of research design elements in non-experimental methodologies."
+   },
+   {
+    "code": "2.D",
+    "practice": "Research Methods and Design",
+    "text": "Evaluate whether a psychological research scenario followed appropriate ethical procedures."
+   },
+   {
+    "code": "3.A",
+    "practice": "Data Interpretation",
+    "text": "Identify psychology-related concepts in descriptions or representations of data."
+   },
+   {
+    "code": "3.B",
+    "practice": "Data Interpretation",
+    "text": "Calculate and interpret measures of central tendency, variation, and percentile rank in a given data set."
+   },
+   {
+    "code": "3.C",
+    "practice": "Data Interpretation",
+    "text": "Interpret quantitative or qualitative inferential data from a given table, graph, chart, figure, or diagram."
+   },
+   {
+    "code": "4.A",
+    "practice": "Argumentation",
+    "text": "Propose a defensible claim."
+   },
+   {
+    "code": "4.B",
+    "practice": "Argumentation",
+    "text": "Provide reasoning that is grounded in scientifically derived evidence to support, refute, or modify an established or provided claim, policy, or norm."
+   }
+  ],
+  "differences": [
+   "The AP Students page's unit topic lists are summaries. Its Unit 3 list names development topics only, while the CED's Unit 3 (Development and Learning) also includes topics 3.7–3.9 on classical conditioning, operant conditioning, and social, cognitive, and neurological factors in learning; StudySprint teaches those topics in Unit 3 and lists them as framework topics.",
+   "The CED's 35 topics are the required content and are listed per unit as framework topics.",
+   "In the current CED, five learning objectives have no essential knowledge statements printed under them (checked on the rendered PDF pages): 3.1.B (cross-sectional and longitudinal designs), 3.3.A (how sex and gender influence socialization), 4.1.B (locus of control), 5.1.A (how health psychology addresses physical health and wellness), and 5.5.E (how group therapy differs from individual therapy). StudySprint teaches these briefly from the objective wording and widely used introductory definitions; that coverage is unverified against any more detailed College Board statement.",
+   "StudySprint's study summaries and data are labelled hypothetical; the AP Exam's free-response questions use summaries of real peer-reviewed studies."
+  ]
+ },
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Biological Bases of Behavior",
+   "status": "practice-ready",
+   "file": "data/courses/ap-psychology/u1.json",
+   "officialTopics": [
+    "The interaction of inherited traits, environment, and evolution in shaping behavior",
+    "Structures and functions of nervous systems",
+    "Neural firing and the influence of psychoactive substances",
+    "The study of the brain, including its structures and functions",
+    "Sleep",
+    "Sensation"
+   ],
+   "examWeight": "15%–25% of the exam score",
+   "frameworkTopics": [
+    "1.1 Interaction of Heredity and Environment",
+    "1.2 Overview of the Nervous System",
+    "1.3 The Neuron and Neural Firing",
+    "1.4 The Brain",
+    "1.5 Sleep",
+    "1.6 Sensation"
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Cognition",
+   "status": "practice-ready",
+   "file": "data/courses/ap-psychology/u2.json",
+   "officialTopics": [
+    "Perception",
+    "Biases and errors in thinking, creative thinking, and problem-solving strategies",
+    "The cognitive and physiological processes that make up memory",
+    "Forgetting and typical memory errors",
+    "Defining and measuring intelligence and achievement"
+   ],
+   "examWeight": "15%–25% of the exam score",
+   "frameworkTopics": [
+    "2.1 Perception",
+    "2.2 Thinking, Problem-Solving, Judgments, and Decision-Making",
+    "2.3 Introduction to Memory",
+    "2.4 Encoding Memories",
+    "2.5 Storing Memories",
+    "2.6 Retrieving Memories",
+    "2.7 Forgetting and Other Memory Challenges",
+    "2.8 Intelligence and Achievement"
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Development and Learning",
+   "status": "practice-ready",
+   "file": "data/courses/ap-psychology/u3.json",
+   "officialTopics": [
+    "Research methods used in developmental psychology",
+    "Physical, cognitive, and social-emotional development across the lifespan",
+    "Gender and sexual orientation"
+   ],
+   "examWeight": "15%–25% of the exam score",
+   "frameworkTopics": [
+    "3.1 Themes and Methods in Developmental Psychology",
+    "3.2 Physical Development Across the Lifespan",
+    "3.3 Gender and Sexual Orientation",
+    "3.4 Cognitive Development Across the Lifespan",
+    "3.5 Communication and Language Development",
+    "3.6 Social-Emotional Development Across the Lifespan",
+    "3.7 Classical Conditioning",
+    "3.8 Operant Conditioning",
+    "3.9 Social, Cognitive, and Neurological Factors in Learning"
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Social Psychology and Personality",
+   "status": "practice-ready",
+   "file": "data/courses/ap-psychology/u4.json",
+   "officialTopics": [
+    "Attribution theory and person perception",
+    "Attitude formation and change",
+    "The psychology of social situations",
+    "Psychodynamic, humanistic, social cognitive, and trait theories of personality",
+    "Motivation",
+    "Emotion"
+   ],
+   "examWeight": "15%–25% of the exam score",
+   "frameworkTopics": [
+    "4.1 Attribution Theory and Person Perception",
+    "4.2 Attitude Formation and Attitude Change",
+    "4.3 Psychology of Social Situations",
+    "4.4 Psychodynamic and Humanistic Theories of Personality",
+    "4.5 Social-Cognitive and Trait Theories of Personality",
+    "4.6 Motivation",
+    "4.7 Emotion"
+   ]
+  },
+  {
+   "id": "u5",
+   "name": "Unit 5: Mental and Physical Health",
+   "status": "practice-ready",
+   "file": "data/courses/ap-psychology/u5.json",
+   "officialTopics": [
+    "An introduction to health and positive psychology",
+    "Standards for diagnosing and approaches to explaining psychological disorders",
+    "Neurodevelopmental and schizophrenic spectrum disorders",
+    "Bipolar, depressive, anxiety, and obsessive-compulsive disorders",
+    "Dissociative and trauma- and stress-related disorders",
+    "Eating disorders and personality disorders",
+    "Historical developments in psychological treatment",
+    "Modern treatment options and methods"
+   ],
+   "examWeight": "15%–25% of the exam score",
+   "frameworkTopics": [
+    "5.1 Introduction to Health Psychology",
+    "5.2 Positive Psychology",
+    "5.3 Explaining and Classifying Psychological Disorders",
+    "5.4 Selection of Categories of Psychological Disorders",
+    "5.5 Treatment of Psychological Disorders"
+   ]
+  }
+ ],
+ "generalResources": [
+  {
+   "id": "gen-psy-openstax",
+   "title": "OpenStax Psychology 2e (whole book)",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/details/books/psychology-2e",
+   "scope": "general",
+   "kind": "textbook",
+   "note": "General: a free introductory college psychology textbook. It is not organized around the AP units.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/details/books/psychology-2e",
+   "sourceTitle": "OpenStax book page",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gen-psy-openstax-research",
+   "title": "OpenStax Psychology 2e, 2.2 Approaches to Research",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/2-2-approaches-to-research",
+   "scope": "general",
+   "kind": "reading",
+   "note": "General: research designs (case studies, naturalistic observation, surveys, correlational and experimental research) that every AP Psychology unit and both free-response questions use.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/2-2-approaches-to-research",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ]
+}

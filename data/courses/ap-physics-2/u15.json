@@ -1,0 +1,668 @@
+{
+ "courseId": "ap-physics-2",
+ "unitId": "u15",
+ "title": "Unit 15: Modern Physics",
+ "topics": [
+  {
+   "id": "p15-nuclear",
+   "name": "Radioactive decay and mass–energy",
+   "covers": [
+    "Radioactive decay",
+    "Energy in modern physics (energy in radioactive decay and E = mc²)",
+    "Mass–energy equivalence"
+   ],
+   "frameworkCovers": [
+    "15.7 Fission, Fusion, and Nuclear Decay",
+    "15.8 Types of Radioactive Decay"
+   ]
+  },
+  {
+   "id": "p15-quantum",
+   "name": "Photons, atomic energy levels, and the photoelectric effect",
+   "covers": [
+    "Blackbody radiation",
+    "Photoelectric effect"
+   ],
+   "frameworkCovers": [
+    "15.2 The Bohr Model of Atomic Structure",
+    "15.3 Emission and Absorption Spectra",
+    "15.4 Blackbody Radiation",
+    "15.5 The Photoelectric Effect"
+   ]
+  },
+  {
+   "id": "p15-wave",
+   "name": "Wave–particle duality",
+   "covers": [
+    "Properties of waves and particles"
+   ],
+   "frameworkCovers": [
+    "15.1 Quantum Theory and Wave-Particle Duality",
+    "15.6 Compton Scattering"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Modern physics: review guide",
+  "intro": "Modern physics covers what happens at the scale of atoms and nuclei, where energy comes in packets, particles act like waves, and mass and energy can turn into each other.",
+  "equationNote": "Constants used in this unit: h = 6.63 × 10⁻³⁴ J·s, c = 3.0 × 10⁸ m/s, hc = 1240 eV·nm, 1 eV = 1.6 × 10⁻¹⁹ J, and 1 u = 931.5 MeV/c².",
+  "sections": [
+   {
+    "id": "s-p15-nuclear",
+    "topicId": "p15-nuclear",
+    "title": "Radioactive decay and mass–energy",
+    "body": [
+     "Unstable nuclei decay at random, but a large sample follows a predictable half-life: after each half-life, half of the remaining nuclei have decayed, so N = N₀(1/2)^(t/T½).",
+     "In every decay, charge and the number of nucleons are conserved. Alpha decay emits a helium nucleus (Z falls by 2 and A by 4). Beta-minus decay turns a neutron into a proton and emits an electron and an antineutrino (Z rises by 1; A is unchanged). Gamma decay emits a photon (Z and A are unchanged)."
+    ],
+    "points": [
+     "E = mc²: mass and energy are equivalent. The products of a decay have slightly less total mass than the original nucleus; the missing mass becomes kinetic energy.",
+     "A nucleus has less mass than its separate protons and neutrons. This mass defect times c² is the binding energy.",
+     "1 u of mass is equivalent to 931.5 MeV of energy.",
+     "Fission splits a heavy nucleus into lighter ones; fusion joins light nuclei. Both release energy when the products are more tightly bound and so have less total mass."
+    ],
+    "equations": [
+     [
+      "N = N₀(1/2)^(t/T½)",
+      "radioactive decay"
+     ],
+     [
+      "E = mc²",
+      "mass–energy equivalence"
+     ]
+    ]
+   },
+   {
+    "id": "s-p15-quantum",
+    "topicId": "p15-quantum",
+    "title": "Photons, atomic energy levels, and the photoelectric effect",
+    "body": [
+     "Light is emitted and absorbed in packets called photons, each with energy E = hf = hc/λ. Higher frequency, or shorter wavelength, means more energy per photon.",
+     "In the photoelectric effect, a photon gives all its energy to one electron. If hf is less than the metal's work function φ, no electrons leave, however bright the light. Otherwise the fastest electrons have K_max = hf − φ. Brighter light means more photons and so more electrons, but not faster ones.",
+     "In the Bohr model, an atom's electrons can have only certain energies (energy levels). When an electron drops to a lower level, the atom emits a photon whose energy equals the difference, E = E_i − E_f; it absorbs only photons whose energies match a gap. That is why a heated gas emits light at particular wavelengths (an emission spectrum) and a cool gas removes the same wavelengths from white light (an absorption spectrum)."
+    ],
+    "points": [
+     "Every object emits thermal (blackbody) radiation. A hotter object emits more at every wavelength, and its peak shifts to shorter wavelengths: λ_max·T ≈ 2.9 × 10⁻³ m·K (Wien's law).",
+     "The threshold frequency is f₀ = φ/h.",
+     "These results could not be explained by treating light only as a wave."
+    ],
+    "equations": [
+     [
+      "E = hf = hc/λ",
+      "photon energy"
+     ],
+     [
+      "K_max = hf − φ",
+      "photoelectric effect"
+     ],
+     [
+      "λ_max·T ≈ 2.9 × 10⁻³ m·K",
+      "Wien's law"
+     ],
+     [
+      "E_photon = E_i − E_f",
+      "photon energy from an energy-level transition"
+     ]
+    ]
+   },
+   {
+    "id": "s-p15-wave",
+    "topicId": "p15-wave",
+    "title": "Wave–particle duality",
+    "body": [
+     "Light shows wave behavior (interference and diffraction) and particle behavior (photons in the photoelectric effect). Matter does too: a particle with momentum p has a de Broglie wavelength λ = h/p.",
+     "Electrons sent through a crystal or a double slit form interference patterns, which shows that they behave as waves. Everyday objects have wavelengths far too small to notice."
+    ],
+    "points": [
+     "Smaller momentum means a longer wavelength.",
+     "At the same speed, a lighter particle has the longer wavelength.",
+     "Which behavior you see depends on the experiment.",
+     "Compton scattering: an X-ray photon that scatters off an electron gives it some energy and momentum, so the photon leaves with a longer wavelength. Photons carry momentum p = h/λ."
+    ],
+    "equations": [
+     [
+      "λ = h/p",
+      "de Broglie wavelength"
+     ],
+     [
+      "p = √(2mK)",
+      "momentum from kinetic energy (at everyday speeds)"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Light of wavelength 400 nm shines on a metal with a work function of 2.0 eV. Find the maximum kinetic energy of the ejected electrons.",
+   "solution": "Photon energy: E = hc/λ = 1240 eV·nm ÷ 400 nm = 3.1 eV. K_max = 3.1 eV − 2.0 eV = 1.1 eV."
+  },
+  "misconceptions": [
+   [
+    "“Brighter light ejects faster photoelectrons.”",
+    "Brightness sets how many photons arrive; each photon's energy depends only on its frequency."
+   ],
+   [
+    "“After two half-lives, a sample is gone.”",
+    "After two half-lives one quarter remains; the amount keeps halving."
+   ],
+   [
+    "“In beta decay, an electron that was sitting in the nucleus escapes.”",
+    "The electron is created when a neutron turns into a proton."
+   ],
+   [
+    "“Only light has a wavelength.”",
+    "Every particle with momentum has a de Broglie wavelength, λ = h/p."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Physics 2 Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-2-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+  "sourceTitle": "AP Physics 2: Algebra-Based – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "ph2u15-q01",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-nuclear",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A radioactive sample has a mass of 64 mg and a half-life of 3.0 days. How much of the radioactive material remains after 9.0 days?",
+   "choices": [
+    "0 mg",
+    "16 mg",
+    "21 mg",
+    "8.0 mg"
+   ],
+   "correctAnswer": 3,
+   "explanation": "9.0 days is 3 half-lives: 64 → 32 → 16 → 8.0 mg.",
+   "choiceExplanations": [
+    "Halving never reaches zero: after 3 half-lives, one eighth remains.",
+    "16 mg is what remains after 2 half-lives (6.0 days).",
+    "21 mg divides 64 by 3; each half-life halves the amount rather than removing a fixed third.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u15-q02",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-nuclear",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Uranium-238 (Z = 92) undergoes alpha decay. What are the atomic number Z and the mass number A of the new nucleus?",
+   "choices": [
+    "Z = 90, A = 234",
+    "Z = 90, A = 236",
+    "Z = 94, A = 242",
+    "Z = 91, A = 238"
+   ],
+   "correctAnswer": 0,
+   "explanation": "An alpha particle is a helium nucleus with Z = 2 and A = 4. Conserving charge and nucleons: Z = 92 − 2 = 90 and A = 238 − 4 = 234 (thorium-234).",
+   "choiceExplanations": [
+    "",
+    "An alpha particle carries away 4 nucleons, not 2.",
+    "This adds the alpha particle instead of removing it.",
+    "Z up by 1 with A unchanged is beta-minus decay, not alpha decay."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u15-q03",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-nuclear",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In beta-minus decay, what happens inside the nucleus?",
+   "choices": [
+    "Two protons and two neutrons leave together, so Z falls by 2 and A by 4",
+    "An electron that was stored in the nucleus is released, so Z stays the same",
+    "A neutron becomes a proton, emitting an electron and an antineutrino, so Z rises by 1 and A stays the same",
+    "A proton becomes a neutron, so Z falls by 1"
+   ],
+   "correctAnswer": 2,
+   "explanation": "In β⁻ decay, a neutron turns into a proton. Charge is conserved by emitting an electron, and an antineutrino is also emitted. The nucleus gains a proton and loses a neutron, so Z rises by 1 and A is unchanged.",
+   "choiceExplanations": [
+    "That is alpha decay.",
+    "Nuclei do not contain electrons; the electron is created in the decay.",
+    "",
+    "A proton turning into a neutron is beta-plus decay, which emits a positron."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u15-q04",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-nuclear",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a nuclear reaction, 2.0 × 10⁻²⁸ kg of mass is converted into energy. How much energy is released? (c = 3.0 × 10⁸ m/s)",
+   "choices": [
+    "2.0 × 10⁻²⁸ J",
+    "6.0 × 10⁻²⁰ J",
+    "9.0 × 10¹⁶ J",
+    "1.8 × 10⁻¹¹ J"
+   ],
+   "correctAnswer": 3,
+   "explanation": "E = mc² = (2.0 × 10⁻²⁸ kg)(3.0 × 10⁸ m/s)² = (2.0 × 10⁻²⁸)(9.0 × 10¹⁶) = 1.8 × 10⁻¹¹ J.",
+   "choiceExplanations": [
+    "2.0 × 10⁻²⁸ is the mass itself; it must be multiplied by c².",
+    "6.0 × 10⁻²⁰ J is mc; the speed of light must be squared.",
+    "9.0 × 10¹⁶ is c² alone; it must be multiplied by the mass.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u15-q05",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-nuclear",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The mass of a helium-4 nucleus is 0.0304 u less than the total mass of 2 separate protons and 2 separate neutrons. What is its binding energy? (1 u = 931.5 MeV/c²)",
+   "choices": [
+    "28.3 MeV",
+    "3.06 × 10⁴ MeV",
+    "7.08 MeV",
+    "0.0304 MeV"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Binding energy = (mass defect)c² = 0.0304 u × 931.5 MeV/u ≈ 28.3 MeV.",
+   "choiceExplanations": [
+    "",
+    "3.06 × 10⁴ divides 931.5 by 0.0304 instead of multiplying.",
+    "7.08 MeV is the binding energy per nucleon (28.3 ÷ 4), not the total.",
+    "0.0304 is the mass defect in u; it must be converted to energy with 931.5 MeV per u."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u15-q06",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-quantum",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the energy of a photon with a wavelength of 620 nm? (hc = 1240 eV·nm)",
+   "choices": [
+    "7.7 × 10⁵ eV",
+    "0.50 eV",
+    "1240 eV",
+    "2.0 eV"
+   ],
+   "correctAnswer": 3,
+   "explanation": "E = hc/λ = 1240 eV·nm ÷ 620 nm = 2.0 eV.",
+   "choiceExplanations": [
+    "7.7 × 10⁵ multiplies hc by λ; photon energy decreases as wavelength increases.",
+    "0.50 eV is λ/(hc), the ratio upside down.",
+    "1240 eV is hc alone; it must be divided by the wavelength.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u15-q07",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-quantum",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Photons of energy 3.0 eV strike a metal with a work function of 2.3 eV. What is the maximum kinetic energy of the ejected electrons?",
+   "choices": [
+    "0 eV",
+    "5.3 eV",
+    "2.3 eV",
+    "0.70 eV"
+   ],
+   "correctAnswer": 3,
+   "explanation": "K_max = hf − φ = 3.0 eV − 2.3 eV = 0.70 eV.",
+   "choiceExplanations": [
+    "The photon energy is above the work function, so electrons are ejected with some kinetic energy.",
+    "5.3 eV adds the work function; the electron must use that energy to escape.",
+    "2.3 eV is the work function, the energy needed just to escape the metal.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u15-q08",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-quantum",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Light whose frequency is below a metal's threshold frequency shines on the metal. The light is made much brighter. What happens?",
+   "choices": [
+    "More electrons are ejected, each with less kinetic energy",
+    "Electrons are ejected after the metal absorbs light for long enough",
+    "Still no electrons are ejected",
+    "Electrons are ejected once the light is bright enough"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Each photon gives its energy to one electron. Below the threshold frequency, no single photon has enough energy for an electron to escape. Brighter light means more photons, but each one still falls short.",
+   "choiceExplanations": [
+    "Below the threshold frequency no electrons are ejected at all.",
+    "An electron cannot store up energy from several photons; each photon acts alone.",
+    "",
+    "Brightness changes the number of photons, not the energy of each one."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u15-q09",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-quantum",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A star's thermal radiation peaks at a wavelength of 500 nm. Using Wien's law, λ_max·T = 2.9 × 10⁻³ m·K, what is its surface temperature?",
+   "choices": [
+    "About 5.8 × 10⁶ K",
+    "About 580 K",
+    "About 1.5 × 10⁻⁹ K",
+    "About 5800 K"
+   ],
+   "correctAnswer": 3,
+   "explanation": "T = (2.9 × 10⁻³ m·K)/(500 × 10⁻⁹ m) = (2.9 × 10⁻³)/(5.0 × 10⁻⁷) ≈ 5800 K.",
+   "choiceExplanations": [
+    "5.8 × 10⁶ K results from writing 500 nm as 5.0 × 10⁻¹⁰ m; 500 nm is 5.0 × 10⁻⁷ m.",
+    "580 K results from writing 500 nm as 5.0 × 10⁻⁶ m.",
+    "1.5 × 10⁻⁹ K multiplies the constant by the wavelength; T is the constant divided by λ_max.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u15-q10",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-wave",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "An electron has a momentum of 6.63 × 10⁻²⁴ kg·m/s. What is its de Broglie wavelength? (h = 6.63 × 10⁻³⁴ J·s)",
+   "choices": [
+    "6.63 × 10⁻³⁴ m",
+    "1.0 × 10⁻¹⁰ m",
+    "4.4 × 10⁻⁵⁷ m",
+    "1.0 × 10¹⁰ m"
+   ],
+   "correctAnswer": 1,
+   "explanation": "λ = h/p = (6.63 × 10⁻³⁴)/(6.63 × 10⁻²⁴) = 1.0 × 10⁻¹⁰ m, about the size of an atom.",
+   "choiceExplanations": [
+    "6.63 × 10⁻³⁴ is h alone; it must be divided by the momentum.",
+    "",
+    "4.4 × 10⁻⁵⁷ multiplies h by p; the wavelength is h divided by p.",
+    "1.0 × 10¹⁰ is p/h, the ratio upside down."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u15-q11",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-wave",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which observation shows that electrons can behave as waves?",
+   "choices": [
+    "Light ejects electrons from a metal surface (the photoelectric effect)",
+    "Some nuclei emit electrons in beta decay",
+    "Electrons passing through a crystal produce a diffraction pattern",
+    "Electrons are deflected by a magnetic field"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Diffraction and interference are wave behaviors. When electrons pass through the regular arrangement of atoms in a crystal, they form a diffraction pattern, just as light does through a grating.",
+   "choiceExplanations": [
+    "The photoelectric effect shows that light behaves as particles (photons), not that electrons behave as waves.",
+    "Beta decay shows that electrons can be created in nuclear decay, not that they behave as waves.",
+    "",
+    "Deflection by a magnetic field is particle behavior: a moving charge feeling a force."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u15-q12",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-wave",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "An electron and a proton have the same kinetic energy. The proton's mass is about 1836 times the electron's. Which has the longer de Broglie wavelength, and by about how much?",
+   "choices": [
+    "The proton, about 43 times longer",
+    "Neither: equal kinetic energies give equal wavelengths",
+    "The electron, about 43 times longer",
+    "The electron, about 1836 times longer"
+   ],
+   "correctAnswer": 2,
+   "explanation": "λ = h/p and p = √(2mK). With the same K, λ ∝ 1/√m, so the electron's wavelength is √1836 ≈ 43 times longer.",
+   "choiceExplanations": [
+    "The heavier proton has the larger momentum, so its wavelength is shorter, not longer.",
+    "The wavelength depends on momentum, and equal kinetic energies give different momenta for different masses.",
+    "",
+    "1836 is the ratio for equal speeds; with equal kinetic energies the ratio is the square root of the mass ratio."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-10-09); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-10-22"
+  },
+  {
+   "id": "ph2u15-q13",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-quantum",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In a hydrogen atom, an electron drops from the −3.4 eV energy level to the −13.6 eV level. What is the energy of the emitted photon?",
+   "choices": [
+    "13.6 eV",
+    "3.4 eV",
+    "17.0 eV",
+    "10.2 eV"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The photon carries away the difference between the levels: −3.4 eV − (−13.6 eV) = 10.2 eV.",
+   "choiceExplanations": [
+    "13.6 eV is the energy needed to ionize the atom from the ground state.",
+    "3.4 eV is the size of the starting level's energy, not the change.",
+    "17.0 eV adds the two level energies instead of subtracting.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "ph2u15-q14",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-quantum",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "White light containing all visible wavelengths passes through a cool gas, then into a spectrometer. What spectrum is seen?",
+   "choices": [
+    "A continuous spectrum with no lines, because white light contains every wavelength",
+    "Only bright lines at the wavelengths the gas emits when it is heated",
+    "A continuous spectrum with dark lines at the same wavelengths the gas emits when it is heated",
+    "A continuous spectrum with dark lines at wavelengths different from those the gas emits"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The gas's atoms absorb photons whose energies match the gaps between their energy levels, removing those wavelengths. The same gaps produce the emission lines, so the absorption lines fall at the same wavelengths.",
+   "choiceExplanations": [
+    "The gas absorbs the wavelengths that match its energy-level gaps, so dark lines appear.",
+    "Bright lines alone form an emission spectrum, seen when the gas itself is heated, not when light shines through it.",
+    "",
+    "Absorption and emission involve the same energy-level differences, so the lines match."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "ph2u15-q15",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-quantum",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A simple atom has only three energy levels: −10 eV, −6 eV, and −3 eV. Electrons can drop from any higher level to any lower one. How many different photon energies can these atoms emit?",
+   "choices": [
+    "2",
+    "1",
+    "3",
+    "6"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The possible drops are −3 to −6 eV (3 eV), −6 to −10 eV (4 eV), and −3 to −10 eV (7 eV): three different photon energies.",
+   "choiceExplanations": [
+    "2 counts only drops between neighboring levels and misses the jump from −3 eV straight to −10 eV.",
+    "Several different level differences are possible, not just one.",
+    "",
+    "6 counts each pair twice, once in each direction; emission only goes downward."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "ph2u15-q16",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-wave",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An X-ray photon scatters off a free electron that was at rest (Compton scattering). How does the scattered photon compare with the incoming one?",
+   "choices": [
+    "It has a longer wavelength, because it gave some energy and momentum to the electron",
+    "It has the same wavelength; only its direction changes",
+    "It has a shorter wavelength, because it gained energy from the collision",
+    "It has a longer wavelength, because it now travels more slowly than c"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The photon transfers energy and momentum to the electron, so it leaves with less energy (E = hc/λ) and therefore a longer wavelength. This particle-like collision is evidence that photons carry momentum.",
+   "choiceExplanations": [
+    "",
+    "The electron recoils, taking energy from the photon, so the photon's wavelength changes.",
+    "The electron started at rest, so it can only gain energy; the photon loses energy.",
+    "Photons always travel at c in a vacuum; the change is in wavelength, not speed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "ph2u15-q17",
+   "courseId": "ap-physics-2",
+   "unitId": "u15",
+   "topicId": "p15-nuclear",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which statement about nuclear fission and nuclear fusion is correct?",
+   "choices": [
+    "Fission splits a heavy nucleus and fusion joins light nuclei; both release energy because the products have less total mass",
+    "Only fission releases energy; fusion always absorbs energy",
+    "Fusion splits a heavy nucleus and fission joins light nuclei",
+    "Both release energy because the products have more total mass than the starting nuclei"
+   ],
+   "correctAnswer": 0,
+   "explanation": "In both processes the products are more tightly bound, so their total mass is slightly less. The missing mass appears as energy, E = Δmc².",
+   "choiceExplanations": [
+    "",
+    "Fusion of light nuclei, such as in the Sun, releases large amounts of energy.",
+    "This swaps the definitions: fission splits a nucleus, fusion joins nuclei.",
+    "Energy is released when mass decreases, not increases (E = Δmc²)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-2-algebra-based",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual College Board free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ph2u15-q01",
+    "ph2u15-q02",
+    "ph2u15-q05",
+    "ph2u15-q06",
+    "ph2u15-q07",
+    "ph2u15-q08",
+    "ph2u15-q10",
+    "ph2u15-q12"
+   ]
+  }
+ ]
+}

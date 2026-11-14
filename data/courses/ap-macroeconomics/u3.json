@@ -1,0 +1,756 @@
+{
+ "courseId": "ap-macroeconomics",
+ "unitId": "u3",
+ "title": "Unit 3: National Income and Price Determination",
+ "topics": [
+  {
+   "id": "mac3-ad",
+   "name": "Aggregate demand and multipliers",
+   "covers": [
+    "Aggregate demand"
+   ],
+   "frameworkCovers": [
+    "3.1 Aggregate Demand (AD)",
+    "3.2 Multipliers"
+   ]
+  },
+  {
+   "id": "mac3-as",
+   "name": "Short-run and long-run aggregate supply",
+   "covers": [
+    "Short-run and long-run aggregate supply"
+   ],
+   "frameworkCovers": [
+    "3.3 Short-Run Aggregate Supply (SRAS)",
+    "3.4 Long-Run Aggregate Supply (LRAS)"
+   ]
+  },
+  {
+   "id": "mac3-adas",
+   "name": "AD–AS equilibrium, shocks, and self-adjustment",
+   "covers": [
+    "Equilibrium and changes in the Aggregate Demand-Aggregate Supply Model"
+   ],
+   "frameworkCovers": [
+    "3.5 Equilibrium in the Aggregate Demand–Aggregate Supply (AD–AS) Model",
+    "3.6 Changes in the AD–AS Model in the Short Run",
+    "3.7 Long-Run Self-Adjustment"
+   ]
+  },
+  {
+   "id": "mac3-fiscal",
+   "name": "Fiscal policy and automatic stabilizers",
+   "covers": [
+    "Fiscal policy"
+   ],
+   "frameworkCovers": [
+    "3.8 Fiscal Policy",
+    "3.9 Automatic Stabilizers"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 3: National Income and Price Determination: review guide",
+  "intro": "This unit builds the aggregate demand–aggregate supply (AD–AS) model, the main model of the course, and uses it to analyze shocks, output gaps, long-run self-adjustment, and fiscal policy. Together with Units 4 and 5, it carries the most weight on the multiple-choice section. Draw the graph for every question, even when it is described in words.",
+  "sections": [
+   {
+    "id": "s-mac3-ad",
+    "topicId": "mac3-ad",
+    "title": "Aggregate demand and multipliers",
+    "body": [
+     "Aggregate demand is the total quantity of real output demanded by households (C), firms (I), government (G), and the rest of the world (net exports) at each price level. It slopes downward because of the real wealth effect (a lower price level makes money holdings worth more), the interest rate effect (a lower price level reduces money demand and interest rates, raising investment), and the exchange rate effect (lower prices make exports cheaper). A change in the price level moves along AD; a change in any component for another reason shifts it.",
+     "An initial change in spending is multiplied because one person's spending is another's income. The marginal propensity to consume (MPC) is the change in consumption divided by the change in disposable income, and MPC + MPS = 1. The spending multiplier is 1 ÷ MPS (or 1 ÷ (1 − MPC)); the tax multiplier is −MPC ÷ MPS. The tax multiplier is smaller in absolute value because part of any tax change is saved before it is spent."
+    ],
+    "points": [
+     "MPC 0.8 → spending multiplier 5, tax multiplier −4.",
+     "Change in real GDP = multiplier × initial change in spending."
+    ]
+   },
+   {
+    "id": "s-mac3-as",
+    "topicId": "mac3-as",
+    "title": "Short-run and long-run aggregate supply",
+    "body": [
+     "Short-run aggregate supply (SRAS) slopes upward because some wages and prices are sticky: when the price level rises and input costs lag, production becomes more profitable and output and employment rise (so unemployment falls). Anything that changes production costs, such as input prices, productivity, or inflationary expectations, shifts SRAS.",
+     "In the long run, wages and prices fully adjust, so long-run aggregate supply (LRAS) is vertical at full-employment (potential) output and there is no long-run trade-off between inflation and unemployment. LRAS corresponds to the PPC, since both show maximum sustainable capacity; growth in resources or technology shifts both outward."
+    ],
+    "points": [
+     "Sticky wages → upward-sloping SRAS.",
+     "LRAS is vertical at potential output, where unemployment equals the natural rate."
+    ]
+   },
+   {
+    "id": "s-mac3-adas",
+    "topicId": "mac3-adas",
+    "title": "AD–AS equilibrium, shocks, and self-adjustment",
+    "body": [
+     "Short-run equilibrium is where AD meets SRAS. Long-run equilibrium is where AD and SRAS meet on LRAS. Output above potential is a positive (inflationary) gap; output below potential is a negative (recessionary) gap.",
+     "A positive (negative) AD shock raises (lowers) output, employment, and the price level in the short run. A positive SRAS shock raises output and employment and lowers the price level; a negative SRAS shock lowers output and raises the price level (stagflation). Inflation from rising AD is demand-pull; inflation from falling SRAS is cost-push. Without policy, flexible wages and prices restore full employment in the long run: in a negative gap, nominal wages fall and SRAS shifts right; in a positive gap, nominal wages rise and SRAS shifts left."
+    ],
+    "points": [
+     "AD shocks move price level and output in the same direction; SRAS shocks move them in opposite directions.",
+     "Self-adjustment works through SRAS shifting, not AD."
+    ]
+   },
+   {
+    "id": "s-mac3-fiscal",
+    "topicId": "mac3-fiscal",
+    "title": "Fiscal policy and automatic stabilizers",
+    "body": [
+     "Fiscal policy uses government spending and taxes or transfers. Spending changes AD directly; tax and transfer changes affect AD indirectly through consumption, so the spending multiplier is larger than the tax multiplier. Expansionary fiscal policy (more spending, lower taxes) closes a negative gap; contractionary policy (less spending, higher taxes) closes a positive gap. To close a gap with spending, divide the gap by the spending multiplier.",
+     "Discretionary fiscal policy has lags: time to recognize a problem, pass a law, and put it into effect, so it can arrive after conditions have changed. Automatic stabilizers act without new laws: tax revenue falls and transfer payments such as unemployment benefits rise when GDP falls, cushioning consumption, and the reverse happens in booms."
+    ],
+    "points": [
+     "Needed change in G = output gap ÷ spending multiplier.",
+     "Automatic stabilizers need no new legislation."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "The MPC is 0.8 and real GDP is $100 billion below potential. By how much must government spending change to close the gap? By how much would taxes have to change instead?",
+   "solution": "The spending multiplier is 1 ÷ 0.2 = 5, so spending must rise by $100 ÷ 5 = $20 billion. The tax multiplier is −0.8 ÷ 0.2 = −4, so taxes must fall by $100 ÷ 4 = $25 billion."
+  },
+  "misconceptions": [
+   [
+    "“A lower price level shifts AD to the right.”",
+    "A price-level change is a movement along AD; shifts come from changes in C, I, G, or net exports."
+   ],
+   [
+    "“A tax cut and a spending increase of the same size have the same effect.”",
+    "Part of a tax cut is saved, so the tax multiplier is smaller."
+   ],
+   [
+    "“In a recession, AD recovers on its own.”",
+    "Self-adjustment happens as nominal wages fall and SRAS shifts right."
+   ],
+   [
+    "“Higher oil prices shift AD left.”",
+    "They raise production costs and shift SRAS left."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Macroeconomics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-macroeconomics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+  "sourceTitle": "AP Macroeconomics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "mac3-t1",
+   "title": "Table: Economy of Valoria (hypothetical data)",
+   "text": [
+    "Potential (full-employment) real GDP: $2,000 billion",
+    "Current real GDP: $1,800 billion",
+    "Marginal propensity to consume: 0.75"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "mac-u3-q01",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-ad",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which statement best explains why the aggregate demand curve slopes downward?",
+   "choices": [
+    "A lower price level raises real wealth, lowers interest rates, and makes exports cheaper.",
+    "When one good becomes cheaper, buyers substitute it for the other goods that now cost more.",
+    "A lower price level raises firms' production costs, so firms produce more output.",
+    "A lower price level causes the central bank to increase the money supply."
+   ],
+   "correctAnswer": 0,
+   "explanation": "The wealth, interest rate, and exchange rate effects explain why a lower price level increases the quantity of real output demanded.",
+   "choiceExplanations": [
+    "",
+    "Substitution between goods explains a single market's demand curve, not aggregate demand for all output.",
+    "A lower price level does not raise production costs, and costs concern supply, not demand.",
+    "AD's slope does not depend on a central bank action."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q02",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-ad",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which of the following would shift the aggregate demand curve to the right?",
+   "choices": [
+    "A decrease in the overall price level",
+    "Rising business optimism that raises investment",
+    "An increase in the price of imported oil",
+    "An increase in the personal income tax rates paid by households"
+   ],
+   "correctAnswer": 1,
+   "explanation": "More investment spending at every price level shifts AD right.",
+   "choiceExplanations": [
+    "A change in the price level moves along the AD curve rather than shifting it.",
+    "",
+    "Higher oil prices raise production costs and shift SRAS left.",
+    "Higher taxes reduce disposable income and consumption, shifting AD left."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q03",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-ad",
+   "skill": "1.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "If the marginal propensity to consume is 0.8, the spending multiplier is",
+   "choices": [
+    "4",
+    "0.2",
+    "5",
+    "1.25"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Spending multiplier = 1 ÷ MPS = 1 ÷ 0.2 = 5.",
+   "choiceExplanations": [
+    "4 is the absolute value of the tax multiplier (0.8 ÷ 0.2).",
+    "0.2 is the marginal propensity to save, not the multiplier.",
+    "",
+    "1.25 is 1 ÷ MPC; the multiplier divides by the MPS."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q04",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-ad",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The marginal propensity to consume is 0.75. If government purchases rise by $20 billion, what is the maximum change in real GDP?",
+   "choices": [
+    "An increase of $80 billion",
+    "An increase of $15 billion",
+    "An increase of $27 billion",
+    "An increase of $60 billion"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The spending multiplier is 1 ÷ 0.25 = 4, so real GDP can rise by up to 4 × $20 billion = $80 billion.",
+   "choiceExplanations": [
+    "",
+    "$15 billion multiplies by the MPC instead of by the multiplier.",
+    "About $27 billion divides by the MPC (×1.33), which is not the multiplier.",
+    "$60 billion uses the tax multiplier (3), which applies to tax changes, not purchases."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q05",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-ad",
+   "skill": "1.D",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why is the tax multiplier smaller in absolute value than the government spending multiplier?",
+   "choices": [
+    "Tax cuts are spent entirely on imports, so none of the cut adds to domestic spending.",
+    "Tax changes affect only aggregate supply, so they never change total spending.",
+    "Part of a tax cut is saved, so the first round of spending is smaller than the cut.",
+    "Tax changes take effect at once, while spending changes face long legislative lags."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Government purchases add to spending in full at once, but households spend only the MPC share of a tax cut, so the chain of spending starts smaller.",
+   "choiceExplanations": [
+    "Some spending goes to imports, but not all of it; the key difference is that part of a tax cut is saved.",
+    "Tax changes shift aggregate demand through consumption.",
+    "",
+    "Lags affect timing, not the size of the multiplier."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q06",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-as",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The short-run aggregate supply curve slopes upward mainly because",
+   "choices": [
+    "the economy's productive capacity grows whenever the price level rises",
+    "a higher price level raises the real value of household wealth and spending",
+    "workers immediately demand higher wages whenever the price level rises",
+    "nominal wages and some other input prices are sticky in the short run"
+   ],
+   "correctAnswer": 3,
+   "explanation": "With sticky input costs, a higher price level makes production more profitable, so firms produce more.",
+   "choiceExplanations": [
+    "Productive capacity depends on resources and technology, not on the price level.",
+    "The wealth effect explains the slope of aggregate demand, not supply.",
+    "If wages adjusted immediately, there would be no short-run output response; that describes the long run.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q07",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-as",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A large increase in the price of oil, a key input for many firms, will most likely",
+   "choices": [
+    "shift SRAS right, lowering the price level and raising real output",
+    "shift AD left, lowering both the price level and real output",
+    "shift SRAS left, raising the price level and lowering real output",
+    "shift LRAS right, raising the economy's full-employment output"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Higher input costs shift SRAS left, producing a higher price level and lower output (stagflation).",
+   "choiceExplanations": [
+    "Higher costs reduce, not increase, short-run aggregate supply.",
+    "An input-cost increase affects supply; AD does not shift directly.",
+    "",
+    "Higher oil prices do not increase the economy's long-run capacity."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q08",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-as",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The long-run aggregate supply curve is vertical at full-employment output because",
+   "choices": [
+    "in the long run, the unemployment rate always falls all the way to zero",
+    "in the long run, wages and prices fully adjust, returning output to potential",
+    "in the long run, the price level is fixed by the actions of the central bank",
+    "in the long run, aggregate demand cannot change, so output cannot change"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Once wages and prices are fully flexible, the price level does not affect real output, which is set by resources and technology.",
+   "choiceExplanations": [
+    "At full-employment output, unemployment equals the natural rate, not zero.",
+    "",
+    "The price level is not fixed in the long run; it adjusts fully.",
+    "AD can change in the long run; changes affect only the price level."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q09",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-as",
+   "skill": "1.D",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "On an economy's production possibilities curve, which points correspond to output on the long-run aggregate supply curve?",
+   "choices": [
+    "Points on the PPC, because both show maximum sustainable capacity",
+    "Only the PPC's endpoints, where all resources make a single good",
+    "Points outside the PPC, because LRAS shows output above full employment",
+    "Points inside the PPC, because LRAS includes cyclical unemployment"
+   ],
+   "correctAnswer": 0,
+   "explanation": "LRAS and the PPC both represent the output produced with all resources fully employed, so LRAS corresponds to points on the PPC.",
+   "choiceExplanations": [
+    "",
+    "Every point on the PPC uses resources fully, not just the endpoints, so LRAS is not limited to them.",
+    "Points outside the PPC are unattainable, while LRAS is at full-employment output, not above it.",
+    "At LRAS there is no cyclical unemployment; points inside the PPC show unemployed resources."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q10",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-adas",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "An economy is in long-run equilibrium when aggregate demand decreases. In the short run,",
+   "choices": [
+    "real output falls, the price level rises, and unemployment rises",
+    "real output rises, the price level falls, and unemployment falls",
+    "real output and the price level rise, and unemployment falls",
+    "real output and the price level fall, and unemployment rises"
+   ],
+   "correctAnswer": 3,
+   "explanation": "A negative AD shock moves the economy down along SRAS: lower output, a lower price level, and higher unemployment.",
+   "choiceExplanations": [
+    "A higher price level with lower output follows a negative supply shock, not a demand shock.",
+    "Lower AD reduces output rather than raising it.",
+    "Higher output and prices follow an increase in AD.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q11",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-adas",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A sharp, widespread rise in energy costs is most likely to cause",
+   "choices": [
+    "demand-pull inflation, a higher price level with higher real output",
+    "economic growth, a rightward shift of the long-run supply curve",
+    "deflation, a lower price level together with lower real output",
+    "stagflation, a higher price level together with lower real output"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Higher energy costs shift SRAS left, raising the price level while output falls.",
+   "choiceExplanations": [
+    "Demand-pull inflation comes from rising AD, which raises output; this shock lowers output.",
+    "Higher costs reduce output; they do not expand long-run capacity.",
+    "A leftward SRAS shift raises, not lowers, the price level.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q12",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-adas",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An economy has a positive (inflationary) output gap. If the government takes no action, how will the economy return to long-run equilibrium?",
+   "choices": [
+    "Nominal wages fall, shifting SRAS right until output rises even further.",
+    "Nominal wages rise, shifting SRAS left until output returns to potential.",
+    "LRAS shifts right until it reaches the economy's current level of output.",
+    "Aggregate demand shifts right on its own until prices return to normal."
+   ],
+   "correctAnswer": 1,
+   "explanation": "With unemployment below the natural rate, workers win higher nominal wages; higher costs shift SRAS left until output is back at potential, with a higher price level.",
+   "choiceExplanations": [
+    "Falling wages and a rightward SRAS shift are the adjustment to a negative gap, not a positive one.",
+    "",
+    "Potential output does not rise just because current output is above it.",
+    "Self-adjustment works through wages and SRAS, not a further AD shift."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q13",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-adas",
+   "skill": "2.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The price level rises while real output rises and unemployment falls. This combination is most likely caused by",
+   "choices": [
+    "cost-push inflation from an increase in long-run aggregate supply",
+    "demand-pull inflation from an increase in aggregate demand",
+    "cost-push inflation from a decrease in short-run aggregate supply",
+    "demand-pull inflation from a decrease in aggregate demand"
+   ],
+   "correctAnswer": 1,
+   "explanation": "When AD rises, the price level and output rise together and unemployment falls; that is demand-pull inflation.",
+   "choiceExplanations": [
+    "An increase in LRAS would lower, not raise, the price level.",
+    "",
+    "Cost-push inflation lowers output and raises unemployment.",
+    "A decrease in AD lowers both the price level and output."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q14",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-fiscal",
+   "skill": "2.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which fiscal policy is appropriate for closing a negative (recessionary) output gap?",
+   "choices": [
+    "Raising the interest rate paid on bank reserves",
+    "Decreasing government spending or raising taxes",
+    "Increasing government spending or cutting taxes",
+    "Buying government bonds to increase the money supply"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Expansionary fiscal policy raises AD, increasing output and employment.",
+   "choiceExplanations": [
+    "Changing the interest rate on reserves is a monetary policy tool, and raising it is contractionary.",
+    "Less spending or higher taxes is contractionary and would widen the gap.",
+    "",
+    "Buying bonds is monetary policy carried out by the central bank, not fiscal policy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q15",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-fiscal",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, what increase in government purchases would close Valoria's output gap, assuming no crowding out?",
+   "choices": [
+    "$50 billion",
+    "$150 billion",
+    "$67 billion",
+    "$200 billion"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The gap is $200 billion and the spending multiplier is 1 ÷ 0.25 = 4, so purchases must rise by 200 ÷ 4 = $50 billion.",
+   "choiceExplanations": [
+    "",
+    "$150 billion multiplies the gap by the MPC instead of dividing by the multiplier.",
+    "About $67 billion divides by the tax multiplier (3), which applies to tax changes, not purchases.",
+    "$200 billion is the size of the gap; the multiplier means a smaller spending increase is enough."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac3-t1"
+  },
+  {
+   "id": "mac-u3-q16",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-fiscal",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which of the following is an automatic stabilizer?",
+   "choices": [
+    "Unemployment benefits that rise as jobs are lost",
+    "A central bank purchase of government bonds",
+    "A one-time tax rebate approved to boost spending",
+    "A new highway program that Congress passes during a recession"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Unemployment benefits rise automatically when the economy weakens, supporting spending without new legislation.",
+   "choiceExplanations": [
+    "",
+    "Bond purchases are monetary policy, not an automatic part of the budget.",
+    "A one-time rebate requires a new decision, so it is discretionary.",
+    "A new spending program requires a new law, so it is discretionary fiscal policy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q17",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-fiscal",
+   "skill": "2.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Why might discretionary fiscal policy fail to stabilize the economy as intended?",
+   "choices": [
+    "It affects only aggregate supply, so it cannot change aggregate demand.",
+    "It changes the money supply directly, which always causes high inflation.",
+    "It works instantly, so it overshoots the target before lawmakers are able to respond.",
+    "Lags in deciding and acting can make it take effect after conditions change."
+   ],
+   "correctAnswer": 3,
+   "explanation": "Recognizing a problem, passing a law, and carrying it out take time, so the policy may arrive after the economy has already turned.",
+   "choiceExplanations": [
+    "Fiscal policy mainly shifts aggregate demand.",
+    "Fiscal policy uses spending and taxes; it does not directly change the money supply.",
+    "Fiscal policy is slow, not instant; its lags are the problem.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-mac-u3-os1",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "title": "OpenStax Principles of Macroeconomics 3e, 11.2 Building a Model of Aggregate Demand and Aggregate Supply",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/11-2-building-a-model-of-aggregate-demand-and-aggregate-supply",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on the AD–AS model. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/11-2-building-a-model-of-aggregate-demand-and-aggregate-supply",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u3-os2",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "title": "OpenStax Principles of Macroeconomics 3e, 11.4 Shifts in Aggregate Demand",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/11-4-shifts-in-aggregate-demand",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on shifts in aggregate demand. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/11-4-shifts-in-aggregate-demand",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u3-os3",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "title": "OpenStax Principles of Macroeconomics 3e, 12.2 The Building Blocks of Keynesian Analysis",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/12-2-the-building-blocks-of-keynesian-analysis",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on the multiplier and Keynesian analysis. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/12-2-the-building-blocks-of-keynesian-analysis",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u3-os4",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "title": "OpenStax Principles of Macroeconomics 3e, 17.5 Automatic Stabilizers",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/17-5-automatic-stabilizers",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on automatic stabilizers. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/17-5-automatic-stabilizers",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Macroeconomics free-response set has one long and two short questions that usually combine several units (for example, AD–AS with the money market or the foreign exchange market), so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "mac-u3-q01",
+    "mac-u3-q02",
+    "mac-u3-q06",
+    "mac-u3-q07",
+    "mac-u3-q10",
+    "mac-u3-q11",
+    "mac-u3-q15",
+    "mac-u3-q17"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "mac-u3-q03",
+    "mac-u3-q04",
+    "mac-u3-q08",
+    "mac-u3-q09",
+    "mac-u3-q12",
+    "mac-u3-q13",
+    "mac-u3-q14",
+    "mac-u3-q16"
+   ]
+  }
+ ]
+}

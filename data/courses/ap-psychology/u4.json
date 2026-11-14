@@ -1,0 +1,964 @@
+{
+ "courseId": "ap-psychology",
+ "unitId": "u4",
+ "title": "Unit 4: Social Psychology and Personality",
+ "topics": [
+  {
+   "id": "psy4-attribution",
+   "name": "Attribution and person perception",
+   "covers": [
+    "Attribution theory and person perception"
+   ],
+   "frameworkCovers": [
+    "4.1 Attribution Theory and Person Perception"
+   ]
+  },
+  {
+   "id": "psy4-attitudes",
+   "name": "Attitude formation and change",
+   "covers": [
+    "Attitude formation and change"
+   ],
+   "frameworkCovers": [
+    "4.2 Attitude Formation and Attitude Change"
+   ]
+  },
+  {
+   "id": "psy4-situations",
+   "name": "The psychology of social situations",
+   "covers": [
+    "The psychology of social situations"
+   ],
+   "frameworkCovers": [
+    "4.3 Psychology of Social Situations"
+   ]
+  },
+  {
+   "id": "psy4-personality",
+   "name": "Theories of personality",
+   "covers": [
+    "Psychodynamic, humanistic, social cognitive, and trait theories of personality"
+   ],
+   "frameworkCovers": [
+    "4.4 Psychodynamic and Humanistic Theories of Personality",
+    "4.5 Social-Cognitive and Trait Theories of Personality"
+   ]
+  },
+  {
+   "id": "psy4-motivation",
+   "name": "Motivation and emotion",
+   "covers": [
+    "Motivation",
+    "Emotion"
+   ],
+   "frameworkCovers": [
+    "4.6 Motivation",
+    "4.7 Emotion"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 4: Social Psychology and Personality: review guide",
+  "intro": "This unit covers how people explain behavior, form and change attitudes, and respond to groups and social pressure; the major theories of personality; and what motivates behavior and shapes emotion. Most questions describe a short situation and ask which bias, social effect, defense mechanism, or motive it shows.",
+  "sections": [
+   {
+    "id": "s-psy4-attribution",
+    "topicId": "psy4-attribution",
+    "title": "Attribution and person perception",
+    "body": [
+     "Attributions explain behavior. Dispositional attributions point to internal qualities such as personality or intelligence; situational attributions point to circumstances. A person's explanatory style for good and bad events can be optimistic or pessimistic. Biases include the fundamental attribution error (overestimating dispositional causes of others' behavior), the actor/observer bias (explaining one's own behavior by the situation but others' by their dispositions), and the self-serving bias (crediting oneself for success and blaming the situation for failure). Locus of control is the belief that outcomes are controlled internally (by oneself) or externally (by luck or others).",
+     "In person perception, the mere exposure effect makes repeated exposure increase liking. A self-fulfilling prophecy occurs when a belief leads people to act in ways that bring about the expected behavior. People evaluate themselves by social comparison, upward (with those better off) or downward (with those worse off), and judge relative deprivation by what others have."
+    ],
+    "points": [
+     "FAE: others' actions blamed on personality, situation ignored.",
+     "Self-serving bias: my success is me, my failure is the situation.",
+     "A self-fulfilling prophecy needs a belief that changes behavior, which then confirms the belief."
+    ]
+   },
+   {
+    "id": "s-psy4-attitudes",
+    "topicId": "psy4-attitudes",
+    "title": "Attitude formation and change",
+    "body": [
+     "A stereotype is a generalized belief about a group. Stereotypes reduce mental effort but can produce prejudice (a negative attitude) and discrimination (unfair action). Implicit attitudes are held without awareness. Related biases include the just-world phenomenon (believing people get what they deserve), out-group homogeneity bias (seeing members of other groups as all alike), in-group bias (favoring one's own group), and ethnocentrism (judging other cultures by one's own culture's standards).",
+     "Belief perseverance is holding on to a belief despite contrary evidence, often with confirmation bias (seeking only supporting evidence). Cognitive dissonance is the discomfort of holding an attitude that conflicts with one's actions; people reduce it by changing the attitude or the action."
+    ],
+    "points": [
+     "Prejudice is an attitude; discrimination is a behavior.",
+     "Dissonance is often reduced by changing the attitude to match what one already did."
+    ]
+   },
+   {
+    "id": "s-psy4-situations",
+    "topicId": "psy4-situations",
+    "title": "The psychology of social situations",
+    "body": [
+     "Social norms set expectations for behavior. Normative social influence is going along to be accepted; informational social influence is going along because others seem to know what is right. In the elaboration likelihood model, the central route persuades through strong arguments and the peripheral route through cues such as attractiveness (the halo effect is a peripheral cue). The foot-in-the-door technique starts with a small request before a larger one; the door-in-the-face technique starts with a large request likely to be refused before a smaller one. Research on conformity and obedience identifies conditions that make people go along with group norms or follow authority, such as a unanimous group or a nearby, legitimate authority.",
+     "Culture shapes behavior through individualism, collectivism, and multiculturalism. In groups, group polarization strengthens members' existing views, groupthink suppresses dissent to keep harmony, diffusion of responsibility lowers each person's sense of duty, social loafing reduces individual effort on group tasks, and deindividuation reduces self-awareness in crowds. Social facilitation improves performance on simple or well-practiced tasks in front of others. The false consensus effect overestimates how much others agree with us. Superordinate goals unite groups, while social traps lead individuals to pursue self-interest that harms the group. Industrial-organizational psychologists study work, workplace relationships, and burnout.",
+     "Altruism is selfless helping, though some helping may reflect the social reciprocity norm (returning favors) or the social responsibility norm (helping those who depend on us). In the bystander effect, people are less likely to help when others are present, depending on situational and attentional factors."
+    ],
+    "points": [
+     "Groupthink: harmony over critical thinking; polarization: views become more extreme.",
+     "Foot-in-the-door: small then big; door-in-the-face: big then small.",
+     "More bystanders usually means less help from each person."
+    ]
+   },
+   {
+    "id": "s-psy4-personality",
+    "topicId": "psy4-personality",
+    "title": "Theories of personality",
+    "body": [
+     "Psychodynamic theory holds that unconscious processes drive personality. Ego defense mechanisms protect the ego unconsciously: denial (refusing to accept reality), displacement (redirecting feelings to a safer target), projection (seeing one's own unacceptable feelings in others), rationalization (offering self-justifying excuses), reaction formation (acting the opposite of one's true feelings), regression (returning to childlike behavior), repression (pushing threatening memories out of awareness), and sublimation (channeling impulses into acceptable activities). Projective tests use ambiguous stimuli to probe the unconscious.",
+     "Humanistic theory emphasizes unconditional positive regard and the self-actualizing tendency, the drive to grow and fulfill one's potential. Social-cognitive theory explains personality through reciprocal determinism, in which personal factors, behavior, and environment influence one another; self-concept includes self-efficacy (belief in one's ability to succeed at a task) and self-esteem. Trait theories describe enduring characteristics; the Big Five are openness to experience, conscientiousness, extraversion, agreeableness, and emotional stability, measured with personality inventories organized by factor analysis."
+    ],
+    "points": [
+     "Projection blames others for one's own feelings; displacement redirects feelings to a safer target.",
+     "Self-efficacy is about ability at a task; self-esteem is overall self-worth.",
+     "Freud's psychosexual stages and Maslow's hierarchy are outside the AP exam."
+    ]
+   },
+   {
+    "id": "s-psy4-motivation",
+    "topicId": "psy4-motivation",
+    "title": "Motivation and emotion",
+    "body": [
+     "Drive-reduction theory says behavior reduces physical needs to maintain homeostasis. Arousal theory says people seek an optimal level of arousal; the Yerkes-Dodson law says performance is best at moderate arousal, with easy tasks tolerating higher arousal than hard ones. Self-determination theory distinguishes intrinsic from extrinsic motivation, and incentive theory focuses on rewards. Many animals show instincts, but humans do not seem to. Lewin's conflicts are approach-approach (two good options), approach-avoidance (one option with good and bad features), and avoidance-avoidance (two bad options). Sensation-seeking theory describes experience seeking, thrill and adventure seeking, disinhibition, and boredom susceptibility. Hunger is regulated by ghrelin (hunger) and leptin (fullness), with the hypothalamus involved, and by external cues such as time of day and social meals.",
+     "Theories of emotion differ on whether physical arousal and cognitive appraisal happen in sequence or at once, and whether a cognitive label is needed; the facial-feedback hypothesis proposes that facial expressions influence the feeling of emotion, with mixed research support. The CED excludes the names of specific emotion theories, so focus on the ideas. The broaden-and-build theory says positive emotions broaden thinking while negative emotions narrow it. Some emotions (anger, disgust, sadness, happiness, surprise, fear) may be recognized across cultures, though results are mixed, and display rules about when and how to show emotions differ across and within cultures."
+    ],
+    "points": [
+     "Yerkes-Dodson: moderate arousal is best, especially for hard tasks.",
+     "Approach-avoidance: one goal with both attractive and unattractive features.",
+     "Display rules govern expression, not whether the emotion is felt."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A student who failed a quiz says the questions were unfair, but when a classmate fails, the student says the classmate is lazy. Identify the biases shown.",
+   "solution": "Blaming the quiz for one's own failure is the self-serving bias. Explaining the classmate's failure by laziness while explaining one's own by the situation is the actor/observer bias; ignoring the classmate's situation also reflects the fundamental attribution error."
+  },
+  "misconceptions": [
+   [
+    "“Negative attitudes and discrimination are the same.”",
+    "Prejudice is an attitude; discrimination is an action."
+   ],
+   [
+    "“Groupthink means a group becomes more extreme.”",
+    "That is group polarization; groupthink is suppressing dissent to keep harmony."
+   ],
+   [
+    "“More arousal always means better performance.”",
+    "Performance usually peaks at moderate arousal, especially on difficult tasks."
+   ],
+   [
+    "“Projection and displacement are the same defense.”",
+    "Projection attributes one's feelings to others; displacement redirects them toward a safer target."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Psychology Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-psychology-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+  "sourceTitle": "AP Psychology – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "psy4-a",
+   "title": "Study 4: Helping when others are present (hypothetical study summary)",
+   "text": [
+    "Researchers recruited 120 college students for what they were told was a study of reading habits. Students were randomly assigned to fill out a questionnaire in a waiting room either alone or with three other people who seemed to be participants but were members of the research team (confederates).",
+    "Five minutes in, students heard a loud crash from the next room and a person calling out in pain. The confederates had been trained to look up briefly and then keep writing. A student was counted as helping if they left the room or called for help within 60 seconds.",
+    "Results: 75% of the students who were alone helped, compared with 30% of the students in the group condition.",
+    "Afterward, each student was told the true purpose of the study, that the crash was staged, and why deception had been needed, and was offered the chance to withdraw their data."
+   ],
+   "attribution": "Hypothetical study summary written for StudySprint by its editors. The researchers, participants, and results are invented for practice and do not describe any published study.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "psy4-b",
+   "title": "Data set: Arousal and task performance (hypothetical data)",
+   "intro": "Researchers randomly assigned 180 volunteers to low, moderate, or high arousal conditions, created with different amounts of time pressure and background noise. Within each condition, half did an easy task and half did a difficult task. Each number is the group's mean percentage correct.",
+   "text": [
+    "Easy task: low arousal 62; moderate arousal 80; high arousal 85",
+    "Difficult task: low arousal 55; moderate arousal 78; high arousal 50"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice data interpretation. The numbers are invented and do not come from any real study.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "psy-u4-q01",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-situations",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which concept do the results of Study 4 most directly illustrate?",
+   "choices": [
+    "Social facilitation",
+    "The bystander effect",
+    "The halo effect",
+    "The group polarization effect"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Students were much less likely to help when other people were present, which is the bystander effect.",
+   "choiceExplanations": [
+    "Social facilitation is better performance of simple tasks in front of others, not reduced helping.",
+    "",
+    "The halo effect is letting one positive trait color judgments of a person, which the study did not test.",
+    "Group polarization is a group's views becoming more extreme after discussion; no discussion took place."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy4-a"
+  },
+  {
+   "id": "psy-u4-q02",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-situations",
+   "skill": "2.D",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which ethical procedure did the researchers use to address the deception in Study 4?",
+   "choices": [
+    "Informed consent, describing the staged emergency before it began",
+    "Debriefing, explaining the study's true purpose once it was over",
+    "Confidentiality, keeping students' names out of any published report",
+    "Random assignment, placing students in the conditions by chance"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Telling participants afterward what really happened and why deception was needed is debriefing.",
+   "choiceExplanations": [
+    "Describing the emergency in advance would have ruined the study, and the summary says students were told a cover story.",
+    "",
+    "Confidentiality is an ethical guideline, but the summary does not describe it, and it does not address deception.",
+    "Random assignment is a design feature that supports causal conclusions; it does not address deception."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy4-a"
+  },
+  {
+   "id": "psy-u4-q03",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-situations",
+   "skill": "2.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the dependent variable in Study 4?",
+   "choices": [
+    "Whether a student left or called for help within 60 seconds",
+    "Whether a student waited alone or with three other people present",
+    "Whether a student believed the study was about reading",
+    "Whether the confederates looked up and then kept writing"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The researchers measured helping, defined as leaving the room or calling for help within 60 seconds.",
+   "choiceExplanations": [
+    "",
+    "Being alone or with others is what the researchers manipulated, so it is the independent variable.",
+    "The cover story was part of the procedure; students' beliefs about it were not measured.",
+    "The confederates' scripted reaction was held the same across group sessions; it was not measured."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy4-a"
+  },
+  {
+   "id": "psy-u4-q04",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-situations",
+   "skill": "2.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A critic says the group condition differed from the alone condition in more than the number of people present. Which is the strongest version of this criticism?",
+   "choices": [
+    "Students in the group condition were placed there by chance, so they may have differed from those who waited alone.",
+    "The confederates' calm reaction may have signaled no emergency, so informational influence could explain the drop.",
+    "The alone condition had no confederates, so the researchers could not record whether alone students helped.",
+    "Students were given a cover story at the start, so they may not have taken the reading questionnaire seriously."
+   ],
+   "correctAnswer": 1,
+   "explanation": "Because the confederates acted unconcerned, students may have concluded that nothing was wrong (informational social influence). That is a second difference between conditions besides the number of people present.",
+   "choiceExplanations": [
+    "Random assignment makes the groups similar on average; it is a strength, not a confound.",
+    "",
+    "Helping was recorded from the student's own actions, which did not require confederates.",
+    "Both conditions used the same cover story, so it cannot explain a difference between them."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy4-a"
+  },
+  {
+   "id": "psy-u4-q05",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-motivation",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The pattern of scores on the difficult task best illustrates",
+   "choices": [
+    "incentive theory: behavior is pulled by external rewards and goals people seek",
+    "the Yerkes-Dodson law: performance peaks at a moderate level of arousal",
+    "drive-reduction theory: behavior aims to reduce a physical need",
+    "sensation-seeking theory: people need varied and novel experiences"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Difficult-task scores rise from low to moderate arousal (55 to 78) and fall at high arousal (50), the inverted-U pattern of the Yerkes-Dodson law.",
+   "choiceExplanations": [
+    "No rewards were varied in the study, so incentive theory does not explain the pattern.",
+    "",
+    "Drive-reduction theory concerns reducing needs such as hunger; the data show performance changing with arousal.",
+    "Sensation seeking concerns a person's need for novel experiences, which the study did not measure."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy4-b"
+  },
+  {
+   "id": "psy-u4-q06",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-motivation",
+   "skill": "3.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which statement is best supported by the data?",
+   "choices": [
+    "High arousal helped on the easy task but hurt on the difficult task.",
+    "Low arousal produced the highest scores of all on the difficult task, at 55%.",
+    "Arousal level made little difference to performance on either of the two tasks.",
+    "Raising arousal from moderate to high improved scores on both kinds of task."
+   ],
+   "correctAnswer": 0,
+   "explanation": "From moderate to high arousal, easy-task scores rose (80 to 85) while difficult-task scores fell (78 to 50).",
+   "choiceExplanations": [
+    "",
+    "The highest difficult-task score was 78, at moderate arousal.",
+    "Scores changed by as much as 28 points across arousal levels.",
+    "Difficult-task scores dropped from 78 to 50 when arousal rose from moderate to high."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy4-b"
+  },
+  {
+   "id": "psy-u4-q07",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-motivation",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the mean score for the difficult task across the three arousal conditions?",
+   "choices": [
+    "78",
+    "55",
+    "28",
+    "61"
+   ],
+   "correctAnswer": 3,
+   "explanation": "(55 + 78 + 50) ÷ 3 = 183 ÷ 3 = 61.",
+   "choiceExplanations": [
+    "78 is the highest score, not the average of the three.",
+    "55 is the median of the three scores (50, 55, 78), not the mean.",
+    "28 is the range (78 − 50), a measure of spread rather than the mean.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy4-b"
+  },
+  {
+   "id": "psy-u4-q08",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-motivation",
+   "skill": "2.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Why can the researchers conclude that arousal level caused the differences in performance?",
+   "choices": [
+    "They tested both easy and difficult tasks, which rules out all confounds.",
+    "They used a large sample of 180 volunteers, which makes any result causal.",
+    "They created the arousal levels and randomly assigned volunteers to them.",
+    "They measured each volunteer's natural arousal and correlated it with scores."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Manipulating the independent variable and randomly assigning participants is what allows a cause-and-effect conclusion.",
+   "choiceExplanations": [
+    "Using two tasks lets researchers compare effects; it does not remove other possible confounds.",
+    "Sample size improves precision but cannot by itself establish cause and effect.",
+    "",
+    "The researchers did not measure natural arousal; they created it. A correlation alone would not show causation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy4-b"
+  },
+  {
+   "id": "psy-u4-q09",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-attribution",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "When a classmate trips on the stairs, Jon thinks, “He's so clumsy,” without noticing that the stairs are wet. Jon is showing",
+   "choices": [
+    "the fundamental attribution error, overestimating personal causes for others' behavior",
+    "the false consensus effect, overestimating how many people share one's views",
+    "the self-serving bias, crediting oneself for success and blaming situations for failure",
+    "the mere exposure effect, liking something more after repeated contact with it"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Jon explains the classmate's fall by personality (clumsiness) and overlooks the wet stairs, which is the fundamental attribution error.",
+   "choiceExplanations": [
+    "",
+    "The false consensus effect concerns estimates of agreement, not explanations of behavior.",
+    "The self-serving bias concerns explaining one's own successes and failures, not someone else's fall.",
+    "The mere exposure effect concerns liking, not explaining why something happened."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u4-q10",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-attribution",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "After acing a test, Mia says, “I'm smart.” After failing the next test, she says, “The questions were unfair.” This best illustrates",
+   "choices": [
+    "a pessimistic explanatory style",
+    "the self-serving bias",
+    "the fundamental attribution error",
+    "out-group homogeneity bias"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Taking credit for success and blaming the situation for failure is the self-serving bias.",
+   "choiceExplanations": [
+    "A pessimistic style would blame herself for failure and credit luck for success.",
+    "",
+    "The fundamental attribution error concerns explaining other people's behavior, not one's own.",
+    "Out-group homogeneity concerns seeing other groups as all alike."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u4-q11",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-attribution",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A coach believes a new player is lazy, so he gives her little attention and few chances to play. Over the season, she stops trying hard. This best illustrates",
+   "choices": [
+    "a self-fulfilling prophecy, as the coach's belief drew out the expected behavior",
+    "relative deprivation, as the player felt she had less than her teammates did",
+    "upward social comparison, as the player measured herself against better players",
+    "social loafing, as the player put in less effort because she was part of a group"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The coach's belief led him to treat the player in ways that produced the very behavior he expected.",
+   "choiceExplanations": [
+    "",
+    "Relative deprivation concerns feeling worse off than others, which the scenario does not describe as the cause.",
+    "Nothing suggests the player compared herself with others; the change followed the coach's treatment.",
+    "Social loafing is reduced effort when individual work is pooled; here the coach's treatment changed her effort."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u4-q12",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-attitudes",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Members of the drama club say, “The athletes are all the same,” but describe drama club members as very different from one another. This best illustrates",
+   "choices": [
+    "in-group bias, favoring one's own group over members of other groups",
+    "belief perseverance, holding a belief despite evidence against it",
+    "the just-world phenomenon, believing people get what they deserve",
+    "out-group homogeneity, seeing members of other groups as all alike"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Seeing an out-group as uniform while seeing one's own group as varied is out-group homogeneity bias.",
+   "choiceExplanations": [
+    "In-group bias is favoring one's group; the drama members' statements are about how varied each group seems.",
+    "No contrary evidence is described, so belief perseverance does not apply.",
+    "The just-world phenomenon concerns believing that people deserve their outcomes.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u4-q13",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-attitudes",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Liam believes cheating is wrong, but he copies a friend's homework. Afterward he tells himself that copying a few answers isn't really cheating. Liam is",
+   "choices": [
+    "conforming to a social norm through informational social influence",
+    "reducing cognitive dissonance by changing his attitude to fit his action",
+    "using the foot-in-the-door technique to persuade himself to cheat again",
+    "showing belief perseverance, keeping his original belief despite evidence"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Liam felt the discomfort of acting against his belief and eased it by redefining what counts as cheating, which changes his attitude.",
+   "choiceExplanations": [
+    "Nothing suggests Liam looked to others to decide what was correct.",
+    "",
+    "The foot-in-the-door technique is a persuasion strategy of escalating requests, not a way of justifying an act.",
+    "Liam changed his belief rather than holding onto it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u4-q14",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-attitudes",
+   "skill": "1.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Even after learning that the study behind a diet claim was retracted for faked data, Sam keeps believing the diet works and searches only for success stories. This best illustrates",
+   "choices": [
+    "the just-world phenomenon, a belief that people get what they deserve",
+    "cognitive dissonance, reduced by changing his behavior",
+    "belief perseverance, supported by confirmation bias",
+    "the mere exposure effect, from seeing the diet advertised"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Holding a belief after its evidence is discredited is belief perseverance, and seeking only supporting stories is confirmation bias.",
+   "choiceExplanations": [
+    "The just-world phenomenon concerns judging people's outcomes as deserved, not believing a diet works.",
+    "Sam did not change his behavior; he kept his belief and protected it.",
+    "",
+    "Nothing suggests repeated exposure to ads produced the belief."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u4-q15",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-situations",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A volunteer first asks residents to sign a petition supporting a new park. A week later, she asks the same residents to spend a Saturday helping build it. More agree than residents asked only the second request. This illustrates",
+   "choices": [
+    "the halo effect",
+    "social facilitation",
+    "the foot-in-the-door technique",
+    "the door-in-the-face technique"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Agreeing to a small request first makes people more likely to agree to a larger one later.",
+   "choiceExplanations": [
+    "The halo effect is judging someone favorably because of one good trait.",
+    "Social facilitation is improved performance of simple tasks in front of others.",
+    "",
+    "Door-in-the-face starts with a large request that is refused and follows with a smaller one; here the small request came first."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u4-q16",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-situations",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Committee members who all wanted to please their popular leader quickly approved her plan. Several had doubts but kept quiet, and no one looked at the risks. This best illustrates",
+   "choices": [
+    "deindividuation",
+    "social loafing",
+    "group polarization",
+    "groupthink"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Suppressing doubts to keep harmony and failing to consider risks is groupthink.",
+   "choiceExplanations": [
+    "Deindividuation is losing self-awareness in a crowd, often leading to impulsive acts.",
+    "Social loafing is reduced effort on a group task, not silence about a decision's risks.",
+    "Group polarization is views becoming more extreme after discussion; the problem here is that doubts went unspoken.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u4-q17",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-personality",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Lea, who feels hostile toward a coworker, insists that it is the coworker who is hostile toward her. Which defense mechanism is this?",
+   "choices": [
+    "Projection",
+    "Reaction formation",
+    "Displacement",
+    "Sublimation"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Attributing one's own unacceptable feelings to someone else is projection.",
+   "choiceExplanations": [
+    "",
+    "Reaction formation is acting the opposite of one's feelings, such as being overly friendly to the coworker.",
+    "Displacement redirects feelings to a safer target, such as yelling at a sibling after a bad day at work.",
+    "Sublimation channels impulses into acceptable activities, such as boxing to release anger."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u4-q18",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-personality",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Tara's confidence leads her to join the debate team. Winning rounds raises her confidence, and her teammates' support encourages her to practice more. This best illustrates",
+   "choices": [
+    "trait theory, as stable characteristics predict a person's typical responses",
+    "projective testing, as ambiguous images reveal a person's hidden motives",
+    "reciprocal determinism, as person, behavior, and environment influence one another",
+    "unconditional positive regard, as full acceptance frees a person to grow and to thrive"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Tara's beliefs, actions, and social environment keep affecting one another, which is reciprocal determinism in social-cognitive theory.",
+   "choiceExplanations": [
+    "The scenario shows Tara's confidence changing through experience, not a fixed trait predicting behavior.",
+    "No assessment of hidden motives is described.",
+    "",
+    "The scenario is about mutual influence among beliefs, actions, and setting, not acceptance without conditions."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u4-q19",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-personality",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Omar is organized and dependable, and he finishes assignments early. Which Big Five trait is he most likely to score high on?",
+   "choices": [
+    "Agreeableness",
+    "Extraversion",
+    "Openness to experience",
+    "Conscientiousness"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Being organized, responsible, and dependable reflects conscientiousness.",
+   "choiceExplanations": [
+    "Agreeableness concerns being cooperative and kind toward others.",
+    "Extraversion concerns sociability and energy around other people.",
+    "Openness concerns curiosity and interest in new ideas and experiences.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u4-q20",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-personality",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A therapist fully accepts a client, without conditions, believing this will free the client to grow toward his potential. Which theory of personality guides this approach?",
+   "choices": [
+    "Trait theory, which stresses enduring characteristics measured by inventories",
+    "Social-cognitive theory, which stresses self-efficacy and reciprocal determinism",
+    "Humanistic theory, which stresses unconditional regard and self-actualization",
+    "Psychodynamic theory, which stresses unconscious conflicts and projective tests"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Unconditional positive regard and the drive toward self-actualization are central to humanistic theory.",
+   "choiceExplanations": [
+    "Trait theory describes and measures stable characteristics rather than prescribing acceptance.",
+    "Social-cognitive theory focuses on beliefs about ability and the interplay of person and environment.",
+    "",
+    "Psychodynamic approaches focus on uncovering unconscious conflicts, not on unconditional acceptance."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u4-q21",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-motivation",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Rosa is offered a scholarship to an excellent college, but the college is far from her family, whom she would miss. Which type of motivational conflict is this?",
+   "choices": [
+    "Approach-avoidance",
+    "Drive reduction toward homeostasis",
+    "Approach-approach",
+    "Avoidance-avoidance"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A single goal with both attractive (an excellent college) and unattractive (distance from family) features is an approach-avoidance conflict.",
+   "choiceExplanations": [
+    "",
+    "Drive-reduction theory concerns reducing physical needs such as hunger; Rosa's dilemma is a conflict over one goal's good and bad features.",
+    "Approach-approach is choosing between two attractive options; Rosa faces one option with mixed features.",
+    "Avoidance-avoidance is choosing between two unattractive options."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u4-q22",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "topicId": "psy4-motivation",
+   "skill": "1.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In one culture, adults are taught to hide sadness in public; in another, open weeping at funerals is expected. This difference best reflects",
+   "choices": [
+    "the facial-feedback hypothesis",
+    "emotions that cannot be felt in some cultures",
+    "broaden-and-build effects of emotion",
+    "display rules for emotional expression"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Cultural norms about when and how to show emotions are display rules; they govern expression rather than whether an emotion is felt.",
+   "choiceExplanations": [
+    "The facial-feedback hypothesis concerns how expressions influence feelings, not cultural rules about showing them.",
+    "Sadness is felt in both cultures; what differs is how openly it is shown.",
+    "Broaden-and-build theory concerns how positive emotions widen thinking, not cultural norms.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-psy-u4-os1",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "title": "OpenStax Psychology 2e, 12.1 What Is Social Psychology?",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on attributions and situational influences. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u4-os2",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "title": "OpenStax Psychology 2e, 12.3 Attitudes and Persuasion",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/12-3-attitudes-and-persuasion",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on attitudes, cognitive dissonance, and persuasion. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/12-3-attitudes-and-persuasion",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u4-os3",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "title": "OpenStax Psychology 2e, 12.4 Conformity, Compliance, and Obedience",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on conformity, obedience, and group processes. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u4-os4",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "title": "OpenStax Psychology 2e, 11.7 Trait Theorists",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/11-7-trait-theorists",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on trait theories, including the Big Five. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/11-7-trait-theorists",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u4-os5",
+   "courseId": "ap-psychology",
+   "unitId": "u4",
+   "title": "OpenStax Psychology 2e, 10.1 Motivation",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/10-1-motivation",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on theories of motivation. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/10-1-motivation",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Psychology free-response set has an Article Analysis Question and an Evidence-Based Question, and both draw on research methods and on content from across the course, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "psy-u4-q01",
+    "psy-u4-q02",
+    "psy-u4-q03",
+    "psy-u4-q04",
+    "psy-u4-q09",
+    "psy-u4-q12",
+    "psy-u4-q18",
+    "psy-u4-q21"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "psy-u4-q05",
+    "psy-u4-q06",
+    "psy-u4-q07",
+    "psy-u4-q08",
+    "psy-u4-q10",
+    "psy-u4-q13",
+    "psy-u4-q16",
+    "psy-u4-q17"
+   ]
+  }
+ ]
+}

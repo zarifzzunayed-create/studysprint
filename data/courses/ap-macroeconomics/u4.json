@@ -1,0 +1,753 @@
+{
+ "courseId": "ap-macroeconomics",
+ "unitId": "u4",
+ "title": "Unit 4: Financial Sector",
+ "topics": [
+  {
+   "id": "mac4-assets",
+   "name": "Financial assets and interest rates",
+   "covers": [
+    "Financial assets"
+   ],
+   "frameworkCovers": [
+    "4.1 Financial Assets",
+    "4.2 Nominal v. Real Interest Rates"
+   ]
+  },
+  {
+   "id": "mac4-banking",
+   "name": "Money and banking",
+   "covers": [
+    "Definition, measurement, and functions of money",
+    "Banking and the expansion of the money supply"
+   ],
+   "frameworkCovers": [
+    "4.3 Definition, Measurement, and Functions of Money",
+    "4.4 Banking and the Expansion of the Money Supply"
+   ]
+  },
+  {
+   "id": "mac4-monetary",
+   "name": "The money market and monetary policy",
+   "covers": [
+    "Monetary policy"
+   ],
+   "frameworkCovers": [
+    "4.5 The Money Market",
+    "4.6 Monetary Policy"
+   ]
+  },
+  {
+   "id": "mac4-loanable",
+   "name": "The loanable funds market",
+   "covers": [],
+   "frameworkCovers": [
+    "4.7 The Loanable Funds Market"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 4: Financial Sector: review guide",
+  "intro": "This unit covers financial assets and interest rates, what money is and how banks expand the money supply, how the money market sets the nominal interest rate, how central banks conduct monetary policy (including the ample-reserves system used in the United States), and how the loanable funds market sets the real interest rate. The College Board student page lists the first four topics; the CED also includes the loanable funds market here.",
+  "sections": [
+   {
+    "id": "s-mac4-assets",
+    "topicId": "mac4-assets",
+    "title": "Financial assets and interest rates",
+    "body": [
+     "Financial assets differ in liquidity (how easily they become spendable money), rate of return, and risk. Cash and demand deposits are the most liquid; bonds pay interest and stocks represent ownership. The opportunity cost of holding money is the interest given up by not holding bonds or other assets. Prices of previously issued bonds move inversely with interest rates: when rates rise, older bonds with lower fixed payments become less attractive, so their prices fall.",
+     "A nominal interest rate is not adjusted for inflation. Lenders and borrowers set it as the expected real rate plus expected inflation, and the real rate can be found afterward as the nominal rate minus actual inflation."
+    ],
+    "points": [
+     "Rates up → existing bond prices down.",
+     "Real rate = nominal rate − inflation."
+    ]
+   },
+   {
+    "id": "s-mac4-banking",
+    "topicId": "mac4-banking",
+    "title": "Money and banking",
+    "body": [
+     "Money is any asset accepted as a means of payment. It serves as a medium of exchange, a unit of account, and a store of value. The money supply is measured by M1 (currency and checkable deposits, among others) and the broader M2 (M1 plus savings deposits and other near-monies). The monetary base is currency in circulation plus bank reserves.",
+     "Banks keep balance sheets (assets such as reserves, loans, and bonds; liabilities such as deposits) and use fractional reserve banking. Reserves are required reserves plus excess reserves, and excess reserves are what banks can lend. The money multiplier is the ratio of the money supply to the monetary base; its maximum value is 1 ÷ the required reserve ratio. The actual expansion is usually smaller, because banks may hold excess reserves and people may hold more currency."
+    ],
+    "points": [
+     "Excess reserves = total reserves − required reserves.",
+     "Maximum new money from new excess reserves = excess reserves × (1 ÷ reserve ratio)."
+    ]
+   },
+   {
+    "id": "s-mac4-monetary",
+    "topicId": "mac4-monetary",
+    "title": "The money market and monetary policy",
+    "body": [
+     "In the money market, money demand slopes downward against the nominal interest rate (higher rates raise the opportunity cost of holding money), and the money supply is vertical because the central bank sets it independently of the interest rate. A higher price level or higher real GDP increases money demand and raises the equilibrium nominal rate.",
+     "Central banks pursue goals such as price stability and full employment. Tools include the discount rate and other administered rates (such as interest on reserves), open market operations, and the required reserve ratio. Many central banks target an overnight interbank rate, the policy rate (in the United States, the federal funds rate). In a limited-reserves system, an open-market purchase adds reserves, increases the money supply through the multiplier, and lowers the nominal interest rate. In an ample-reserves system, like that of the United States, changes in the money supply do not effectively move rates; the central bank instead changes its administered rates, and the Federal Reserve's key tool is interest on reserves. Lower rates increase investment and consumption, raising AD; higher rates do the opposite. Monetary policy has lags in recognizing problems and in the economy's response."
+    ],
+    "points": [
+     "Expansionary: buy bonds (limited reserves) or lower administered rates (ample reserves) → lower rates → more investment → AD up.",
+     "The Fed's key tool in its ample-reserves system is interest on reserves."
+    ]
+   },
+   {
+    "id": "s-mac4-loanable",
+    "topicId": "mac4-loanable",
+    "title": "The loanable funds market",
+    "body": [
+     "The loanable funds market brings together savers (supply) and borrowers (demand) and sets the real interest rate. Demand slopes downward and supply slopes upward against the real rate. National saving is private saving plus public saving (the budget surplus, or minus the deficit); in an open economy, investment equals national saving plus net capital inflow.",
+     "An investment tax credit increases demand for loanable funds, raising the real rate and the quantity of funds. More saving increases supply, lowering the real rate and raising quantity. Government borrowing to cover a deficit increases demand (or reduces national saving), raising the real rate."
+    ],
+    "points": [
+     "Money market → nominal rate; loanable funds market → real rate.",
+     "A budget deficit lowers public saving."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A bank has $500,000 in deposits, $80,000 in reserves, and a required reserve ratio of 10%, in a limited-reserves system. How much can this bank lend, and by how much can the banking system increase the money supply from these excess reserves?",
+   "solution": "Required reserves are 10% × $500,000 = $50,000, so excess reserves are $80,000 − $50,000 = $30,000, which the bank can lend. With a money multiplier of 1 ÷ 0.10 = 10, the banking system can increase the money supply by up to $30,000 × 10 = $300,000."
+  },
+  "misconceptions": [
+   [
+    "“When interest rates rise, bond prices rise too.”",
+    "Existing bond prices move opposite to interest rates."
+   ],
+   [
+    "“The Fed mainly sets U.S. interest rates by changing the money supply.”",
+    "With ample reserves, the Fed's key tool is the interest rate it pays on reserves."
+   ],
+   [
+    "“The money market and the loanable funds market show the same interest rate.”",
+    "The money market shows the nominal rate; loanable funds shows the real rate."
+   ],
+   [
+    "“The simple money multiplier is always reached.”",
+    "Excess reserves and currency holdings make actual expansion smaller."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Macroeconomics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-macroeconomics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+  "sourceTitle": "AP Macroeconomics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "mac4-t1",
+   "title": "Table: Balance sheet of Northgate Bank (hypothetical data)",
+   "text": [
+    "Assets: reserves $300; loans $700",
+    "Liabilities: demand deposits $1,000",
+    "Required reserve ratio: 20%"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "mac-u4-q01",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-assets",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which of the following assets is the most liquid?",
+   "choices": [
+    "A 10-year government bond",
+    "A house owned outright",
+    "Shares of a company's stock",
+    "Currency in a wallet"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Currency can be spent immediately, so it is the most liquid asset.",
+   "choiceExplanations": [
+    "A bond must be sold, possibly at a loss, before it can be spent.",
+    "A house takes time and cost to sell, so it is among the least liquid assets.",
+    "Stock must be sold, and its price can change, before it can be spent.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q02",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-assets",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "If market interest rates rise, the prices of previously issued bonds will",
+   "choices": [
+    "rise, because savers move their money from stocks into bonds",
+    "stay the same, because a bond's price is fixed when it is first issued",
+    "fall, because their fixed payments are less attractive than new bonds'",
+    "rise, because the existing bonds now pay more interest than before"
+   ],
+   "correctAnswer": 2,
+   "explanation": "New bonds offer higher rates, so buyers will pay less for older bonds with lower fixed payments.",
+   "choiceExplanations": [
+    "Whatever savers do, existing bonds with lower fixed payments become less valuable when rates rise.",
+    "Bond prices change in the market after issue.",
+    "",
+    "An existing bond's payments are fixed; they do not rise with market rates."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q03",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-assets",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A loan carries a nominal interest rate of 7%. Over the loan's life, inflation was 3%. What was the real interest rate?",
+   "choices": [
+    "10%",
+    "2.3%",
+    "3%",
+    "4%"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Real rate = nominal rate − inflation = 7% − 3% = 4%.",
+   "choiceExplanations": [
+    "10% adds inflation to the nominal rate instead of subtracting it.",
+    "2.3% divides the two rates, which is not how the real rate is found.",
+    "3% is the inflation rate, not the real interest rate.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q04",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-assets",
+   "skill": "2.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "If lenders and borrowers come to expect higher inflation, nominal interest rates on new loans will tend to",
+   "choices": [
+    "rise, because lenders add expected inflation to the real return they want",
+    "fall, because borrowers expect to repay with dollars that are worth less",
+    "stay the same, because the expected real interest rate itself has not changed",
+    "fall, because the central bank must lower its policy rate in response"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Nominal rates are set as the expected real rate plus expected inflation, so higher expected inflation raises nominal rates.",
+   "choiceExplanations": [
+    "",
+    "Borrowers' gain from cheaper dollars is why lenders demand a higher nominal rate, not a lower one.",
+    "The real rate can stay the same while the nominal rate rises to include expected inflation.",
+    "Nothing requires the central bank to cut rates; higher expected inflation pushes nominal rates up."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q05",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-banking",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A store lists prices in dollars so that shoppers can compare the values of different goods. This illustrates money's function as a",
+   "choices": [
+    "unit of account",
+    "store of value",
+    "monetary base",
+    "medium of exchange"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Measuring and comparing values in a common unit is money's role as a unit of account.",
+   "choiceExplanations": [
+    "",
+    "Store of value is holding money to spend later.",
+    "The monetary base is currency plus reserves, not a function of money.",
+    "Medium of exchange is using money to make payments, not to compare values."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q06",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-banking",
+   "skill": "1.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on Northgate Bank's balance sheet, how much does the bank hold in excess reserves?",
+   "choices": [
+    "$200",
+    "$700",
+    "$100",
+    "$300"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Required reserves are 20% × $1,000 = $200, so excess reserves are $300 − $200 = $100.",
+   "choiceExplanations": [
+    "$200 is the required reserves, not the excess.",
+    "$700 is the bank's loans, not its reserves.",
+    "",
+    "$300 is total reserves, which include required reserves."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac4-t1"
+  },
+  {
+   "id": "mac-u4-q07",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-banking",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In a limited-reserves system with a required reserve ratio of 10%, a person deposits $1,000 of currency into a bank. If banks hold no excess reserves and the public holds no extra currency, by how much can the banking system increase the money supply through new loans?",
+   "choices": [
+    "$9,000",
+    "$900",
+    "$10,000",
+    "$1,000"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The bank keeps $100 as required reserves and can lend $900; with a multiplier of 10, new loans can create up to $900 × 10 = $9,000 of new money.",
+   "choiceExplanations": [
+    "",
+    "$900 is only the first bank's loan, not the whole banking system's expansion.",
+    "$10,000 is the maximum total change in deposits; the original $1,000 was already money (currency), so it is not new money.",
+    "$1,000 is the original deposit, which only changes the form of existing money."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q08",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-banking",
+   "skill": "1.D",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The actual increase in the money supply is often smaller than the simple money multiplier predicts because",
+   "choices": [
+    "the required reserve ratio rises automatically as banks make more loans",
+    "banks may hold excess reserves and the public may hold more currency",
+    "every new loan is repaid immediately, so new deposits disappear at once",
+    "the multiplier applies only to government bonds, not to bank loans"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The simple multiplier assumes every dollar of excess reserves is lent and redeposited; holding excess reserves or cash breaks that chain.",
+   "choiceExplanations": [
+    "The required reserve ratio is set by the central bank; it does not rise automatically with lending.",
+    "",
+    "Loans are not repaid immediately; they create deposits that stay in the system.",
+    "The multiplier describes deposit expansion through bank lending."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q09",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-monetary",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In the United States' ample-reserves banking system, the Federal Reserve's key tool for monetary policy is",
+   "choices": [
+    "the required reserve ratio, which it changes monthly",
+    "the level of federal government purchases",
+    "the interest rate it pays on banks' reserves",
+    "the federal income tax rates paid by households"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The CED states that the U.S. banking system has ample reserves and that the Federal Reserve's key policy tool is interest on reserves.",
+   "choiceExplanations": [
+    "The required reserve ratio is a possible tool, but it is not the Fed's key tool and is not changed monthly.",
+    "Government purchases are fiscal policy, not monetary policy.",
+    "",
+    "Tax rates are set by Congress as fiscal policy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q10",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-monetary",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a limited-reserves system, if the central bank buys government bonds on the open market, what happens in the money market?",
+   "choices": [
+    "The money supply decreases, and the nominal interest rate rises.",
+    "The money supply increases, and the nominal interest rate rises.",
+    "Money demand increases, and the nominal interest rate rises.",
+    "The money supply increases, and the nominal interest rate falls."
+   ],
+   "correctAnswer": 3,
+   "explanation": "Paying for bonds adds reserves, which banks lend out; the money supply shifts right and the nominal rate falls.",
+   "choiceExplanations": [
+    "Selling bonds, not buying them, would reduce the money supply.",
+    "A larger money supply lowers, not raises, the equilibrium nominal rate.",
+    "An open-market purchase affects the money supply, not money demand.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q11",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-monetary",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "If the price level rises, what happens in the money market?",
+   "choices": [
+    "Money demand increases, and the nominal interest rate rises.",
+    "Money demand increases, and the nominal interest rate falls.",
+    "The money supply increases, and the nominal interest rate falls.",
+    "Money demand decreases, and the nominal interest rate falls."
+   ],
+   "correctAnswer": 0,
+   "explanation": "At higher prices, people need more money for transactions, so money demand shifts right and the nominal rate rises.",
+   "choiceExplanations": [
+    "",
+    "With a fixed money supply, higher money demand raises the nominal rate.",
+    "The price level affects money demand; the money supply is set by the central bank.",
+    "Higher prices increase, not decrease, the money needed for transactions."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q12",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-monetary",
+   "skill": "2.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "An economy with ample bank reserves has a negative (recessionary) output gap. Which central bank action and chain of effects would help close the gap?",
+   "choices": [
+    "Raise the interest rate on reserves, lowering the policy rate and raising investment and AD",
+    "Lower the interest rate on reserves, lowering the policy rate and raising investment and AD",
+    "Sell government bonds, lowering interest rates and raising investment and AD",
+    "Lower the interest rate on reserves, raising the policy rate and reducing investment and AD"
+   ],
+   "correctAnswer": 1,
+   "explanation": "With ample reserves, the central bank lowers its administered rates; the policy rate and other rates fall, investment and consumption rise, and AD increases.",
+   "choiceExplanations": [
+    "Raising the rate paid on reserves pushes the policy rate up, not down.",
+    "",
+    "Selling bonds is contractionary, and with ample reserves bond sales do not effectively move rates.",
+    "Lowering the rate on reserves lowers, not raises, the policy rate."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q13",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-monetary",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In the United States, the federal funds rate is",
+   "choices": [
+    "the rate the Federal Reserve charges banks for its discount window loans",
+    "the rate the government pays on its 30-year bonds",
+    "the rate banks charge each other for overnight loans of reserves",
+    "the rate banks pay households on savings accounts"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The federal funds rate is the overnight interbank lending rate that serves as the Fed's policy rate.",
+   "choiceExplanations": [
+    "The rate the Fed charges on its own loans to banks is the discount rate.",
+    "Long-term government bond rates are set in the bond market, not the federal funds rate.",
+    "",
+    "Savings account rates are set by banks for depositors."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q14",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-loanable",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In the loanable funds market, the supply of loanable funds comes from",
+   "choices": [
+    "saving by households, firms, and government",
+    "government borrowing to finance deficits",
+    "central bank purchases of government bonds from banks",
+    "borrowing by firms to pay for investment"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Savers supply loanable funds; borrowers demand them.",
+   "choiceExplanations": [
+    "",
+    "Government deficit borrowing adds to demand or reduces national saving.",
+    "Central bank bond purchases are monetary policy and are not the source of loanable funds in this model.",
+    "Firms' investment borrowing is the demand for loanable funds."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q15",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-loanable",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An investment tax credit increases the demand for loanable funds. As a result,",
+   "choices": [
+    "the real interest rate and the quantity of loanable funds both fall",
+    "the real interest rate rises, and the quantity of loanable funds falls",
+    "the real interest rate falls, and the quantity of loanable funds rises",
+    "the real interest rate and the quantity of loanable funds both rise"
+   ],
+   "correctAnswer": 3,
+   "explanation": "A rightward shift of demand raises both the equilibrium real rate and quantity.",
+   "choiceExplanations": [
+    "Both fall only if demand decreases.",
+    "A demand increase raises the equilibrium quantity.",
+    "Higher demand raises, not lowers, the real rate.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q16",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-loanable",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "If households decide to save more at every real interest rate, then in the loanable funds market",
+   "choices": [
+    "demand increases, and the real interest rate rises",
+    "supply increases, and the real interest rate falls",
+    "supply decreases, and the real interest rate rises",
+    "demand decreases, and the real interest rate falls"
+   ],
+   "correctAnswer": 1,
+   "explanation": "More saving shifts the supply of loanable funds right, lowering the real rate and raising quantity.",
+   "choiceExplanations": [
+    "Saving affects the supply side of the market, not the demand side.",
+    "",
+    "Saving more increases supply rather than reducing it.",
+    "Households' saving shifts supply; demand comes from borrowers."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q17",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-loanable",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a closed economy, private saving is $300 billion and the government runs a budget deficit of $80 billion. What is national saving?",
+   "choices": [
+    "$380 billion",
+    "$220 billion",
+    "$300 billion",
+    "$80 billion"
+   ],
+   "correctAnswer": 1,
+   "explanation": "National saving = private saving + public saving = $300 billion + (−$80 billion) = $220 billion.",
+   "choiceExplanations": [
+    "$380 billion adds the deficit as if it were a surplus.",
+    "",
+    "$300 billion ignores public saving, which is negative here.",
+    "$80 billion is the deficit, not national saving."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-mac-u4-os1",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "title": "OpenStax Principles of Macroeconomics 3e, 14.1 Defining Money by Its Functions",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/14-1-defining-money-by-its-functions",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on the functions of money. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/14-1-defining-money-by-its-functions",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u4-os2",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "title": "OpenStax Principles of Macroeconomics 3e, 14.4 How Banks Create Money",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/14-4-how-banks-create-money",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on how banks create money and the money multiplier. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/14-4-how-banks-create-money",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u4-os3",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "title": "OpenStax Principles of Macroeconomics 3e, 15.3 How a Central Bank Executes Monetary Policy",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/15-3-how-a-central-bank-executes-monetary-policy",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on how central banks carry out monetary policy, including open market operations and ample reserves. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/15-3-how-a-central-bank-executes-monetary-policy",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u4-os4",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "title": "OpenStax Principles of Macroeconomics 3e, 4.2 Demand and Supply in Financial Markets",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/4-2-demand-and-supply-in-financial-markets",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on demand and supply in financial markets. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/4-2-demand-and-supply-in-financial-markets",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Macroeconomics free-response set has one long and two short questions that usually combine several units (for example, AD–AS with the money market or the foreign exchange market), so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "mac-u4-q01",
+    "mac-u4-q02",
+    "mac-u4-q05",
+    "mac-u4-q07",
+    "mac-u4-q09",
+    "mac-u4-q12",
+    "mac-u4-q15",
+    "mac-u4-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "mac-u4-q03",
+    "mac-u4-q04",
+    "mac-u4-q06",
+    "mac-u4-q08",
+    "mac-u4-q11",
+    "mac-u4-q13",
+    "mac-u4-q14",
+    "mac-u4-q17"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,711 @@
+{
+ "courseId": "ap-united-states-history",
+ "unitId": "u6",
+ "title": "Unit 6: Period 6: 1865–1898",
+ "topics": [
+  {
+   "id": "ush6-west",
+   "name": "The West, American Indians, and the New South",
+   "covers": [
+    "The settlement of the West",
+    "The \"New South\""
+   ],
+   "frameworkCovers": [
+    "6.1 Contextualizing Period 6",
+    "6.2 Westward Expansion: Economic Development",
+    "6.3 Westward Expansion: Social and Cultural Development",
+    "6.4 The “New South”"
+   ]
+  },
+  {
+   "id": "ush6-industry",
+   "name": "Industrial capitalism, labor, and the middle class",
+   "covers": [
+    "The rise of industrial capitalism"
+   ],
+   "frameworkCovers": [
+    "6.5 Technological Innovation",
+    "6.6 The Rise of Industrial Capitalism",
+    "6.7 Labor in the Gilded Age",
+    "6.10 Development of the Middle Class"
+   ]
+  },
+  {
+   "id": "ush6-politics",
+   "name": "Immigration, reform, and politics in the Gilded Age",
+   "covers": [
+    "Immigration and migration",
+    "Reform movements",
+    "Debates about the role of government"
+   ],
+   "frameworkCovers": [
+    "6.8 Immigration and Migration in the Gilded Age",
+    "6.9 Responses to Immigration in the Gilded Age",
+    "6.11 Reform in the Gilded Age",
+    "6.12 Controversies over the Role of Government in the Gilded Age",
+    "6.13 Politics in the Gilded Age",
+    "6.14 Continuity and Change Period 6"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Period 6 (1865–1898): review guide",
+  "intro": "After the Civil War, the United States became an industrial power. Railroads, corporations, and immigrants transformed the economy and cities, the West was settled at great cost to American Indians, and Americans argued over what role government should play.",
+  "sections": [
+   {
+    "id": "s-ush6-west",
+    "topicId": "ush6-west",
+    "title": "The West, American Indians, and the New South",
+    "body": [
+     "Transcontinental railroads (the first completed in 1869), the Homestead Act, mining, and cattle ranching drew settlers west. The federal government confined American Indians to reservations, fought wars against nations such as the Lakota and Nez Perce, and through the Dawes Act (1887) broke up communal lands and pushed assimilation. Some American Indians resisted, including through the Ghost Dance movement.",
+     "Boosters of a “New South” called for industry and railroads, but most Southerners remained farmers, and many Black and poor white families were trapped in sharecropping and debt. Southern states passed segregation (Jim Crow) laws, upheld in Plessy v. Ferguson (1896), and disfranchised Black voters."
+    ],
+    "points": [
+     "Contextualization: western settlement depended on federal land policy and railroads.",
+     "The New South's industrial promise was only partly realized."
+    ]
+   },
+   {
+    "id": "s-ush6-industry",
+    "topicId": "ush6-industry",
+    "title": "Industrial capitalism and labor",
+    "body": [
+     "Technological innovation (steel, electricity, the telephone) and new business methods created huge corporations. Andrew Carnegie (steel) used vertical integration; John D. Rockefeller (oil) used horizontal integration and trusts. Defenders invoked laissez-faire, Social Darwinism, and the Gospel of Wealth.",
+     "Industrial workers faced long hours, dangerous conditions, and low wages. They organized in the Knights of Labor and the American Federation of Labor, and strikes such as the Great Railroad Strike (1877), Homestead (1892), and Pullman (1894) were often broken with government help. A growing middle class of managers and clerks enjoyed new consumer goods and leisure."
+    ],
+    "points": [
+     "Vertical vs. horizontal integration.",
+     "Government usually sided with employers in major strikes."
+    ]
+   },
+   {
+    "id": "s-ush6-politics",
+    "topicId": "ush6-politics",
+    "title": "Immigration, reform, and politics",
+    "body": [
+     "“New immigrants” from southern and eastern Europe and from Asia filled growing cities; nativists pushed back, and the Chinese Exclusion Act (1882) barred most Chinese immigration. Reformers such as Jane Addams founded settlement houses, and the Pendleton Act (1883) began civil service reform.",
+     "Farmers squeezed by falling crop prices, debt, and railroad rates formed the Grange and then the Populist (People's) Party, whose Omaha Platform (1892) demanded government regulation, a graduated income tax, and free coinage of silver. William Jennings Bryan carried free silver into the 1896 election and lost to William McKinley. Continuity and change: debates about government's role in the economy carried into the Progressive Era."
+    ],
+    "points": [
+     "Populists wanted more government action, not less.",
+     "Free silver aimed to inflate prices and ease farmers' debts."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain why many farmers supported free coinage of silver in the 1890s.",
+   "solution": "Farmers faced falling crop prices and heavy debts. Coining silver freely would expand the money supply, raise prices, and make debts easier to pay back, so indebted farmers favored it over the gold standard."
+  },
+  "misconceptions": [
+   [
+    "“The West was settled by individuals without government help.”",
+    "Federal land grants, railroads, and the army were central."
+   ],
+   [
+    "“Government stayed out of the economy entirely.”",
+    "It subsidized railroads and often helped break strikes, while regulating little."
+   ],
+   [
+    "“Populists were mostly urban workers.”",
+    "Their core was indebted farmers in the South and West."
+   ],
+   [
+    "“The Dawes Act protected American Indian land.”",
+    "It broke up reservations and led to large losses of land."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. History Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+  "sourceTitle": "AP United States History – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "ush6-a",
+   "title": "Source A: William Jennings Bryan, speech to the Democratic National Convention, 1896",
+   "text": [
+    "“We say to you that you have made the definition of a business man too limited in its application. The man who is employed for wages is as much a business man as his employer; the attorney in a country town is as much a business man as the corporation counsel in a great metropolis; the merchant at the cross-roads store is as much a business man as the merchant of New York; the farmer who goes forth in the morning and toils all day, who begins in spring and toils all summer, and who by the application of brain and muscle to the natural resources of the country creates wealth, is as much a business man as the man who goes upon the Board of Trade and bets upon the price of grain; . . . We come to speak of this broader class of business men.”"
+   ],
+   "attribution": "William Jennings Bryan, speech to the Democratic National Convention in Chicago (the “Cross of Gold” speech), July 1896. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 20.4.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/20-4-social-and-labor-unrest-in-the-1890s); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush6-b",
+   "title": "Source B: Chief Joseph of the Nez Perce, 1877",
+   "text": [
+    "“Tell General Howard I know his heart. What he told me before, I have it in my heart. I am tired of fighting. Our Chiefs are killed. . . . It is cold, and we have no blankets; the little children are freezing to death. My people, some of them, have run away to the hills, and have no blankets, no food. No one knows where they are—perhaps freezing to death. I want to have time to look for my children, and see how many of them I can find. . . . Hear me, my Chiefs! I am tired; my heart is sick and sad. From where the sun now stands I will fight no more forever.”"
+   ],
+   "attribution": "Words attributed to Chief Joseph of the Nez Perce at his surrender to the U.S. Army near the Canadian border, October 1877, as recorded by U.S. Army officers. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 17.4.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/17-4-the-assault-on-american-indian-life-and-culture); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush6-c",
+   "title": "Source C: An interpretation of industrial capitalism",
+   "text": [
+    "“The industrial economy of the late nineteenth century produced astonishing wealth and astonishing inequality. Steel output soared as Andrew Carnegie controlled every stage of production, from iron mines to rail mills, while Standard Oil came to control most of the nation's oil refining. Workers who made this growth possible often labored twelve hours a day in dangerous conditions. When they struck, as at Homestead in 1892 and Pullman in 1894, employers frequently called on private guards, state militias, or federal troops, and the strikes failed.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "ush6-d",
+   "title": "Source D: An interpretation of immigration and the city",
+   "text": [
+    "“Between 1880 and 1900, millions of immigrants arrived, increasingly from southern and eastern Europe. Most settled in cities, where they found work in factories and built churches, synagogues, newspapers, and mutual-aid societies. Political machines traded jobs and favors for their votes. Many native-born Americans responded with suspicion: nativist organizations warned against Catholics and newcomers, and Congress in 1882 barred most immigration from China. The question of who could become an American was reopened with every arriving ship.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "ush-u6-q01",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-politics",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Bryan's main purpose in the excerpt is to",
+   "choices": [
+    "argue against government regulation of railroads and banks",
+    "defend the gold standard against those who want free silver",
+    "claim that workers and farmers matter to the economy as much as wealthy financiers",
+    "praise speculators on the Board of Trade for creating the nation's wealth and jobs"
+   ],
+   "correctAnswer": 2,
+   "explanation": "He insists that wage earners, small merchants, and farmers are “as much a business man” as big-city financiers.",
+   "choiceExplanations": [
+    "His supporters wanted more government regulation, not less.",
+    "He was the leading opponent of the gold standard.",
+    "",
+    "He contrasts honest work with betting on grain prices."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-a"
+  },
+  {
+   "id": "ush-u6-q02",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-politics",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Bryan's speech was most closely associated with which policy?",
+   "choices": [
+    "Restricting immigration from southern Europe",
+    "High tariffs on imported manufactured goods",
+    "Free coinage of silver to expand the money supply",
+    "Ending the Homestead Act's grants of western land"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Bryan campaigned in 1896 for free silver, which farmers hoped would raise prices and ease debts.",
+   "choiceExplanations": [
+    "This wasn't Bryan's platform.",
+    "Tariffs weren't the speech's central issue.",
+    "",
+    "This wasn't proposed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-a"
+  },
+  {
+   "id": "ush-u6-q03",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-industry",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Bryan's reference to “the man who goes upon the Board of Trade and bets upon the price of grain” reflects which concern of his supporters?",
+   "choices": [
+    "Resentment of financiers who profited without producing goods while farmers struggled",
+    "Fear of competition from the immigrant farmers who were settling the Great Plains in large numbers",
+    "Approval of the rates railroads charged to ship crops",
+    "Support for the growth of large corporations that could buy farmers' grain"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Farmers blamed speculators, bankers, and railroads for low prices and high costs.",
+   "choiceExplanations": [
+    "",
+    "Immigrant competition isn't his point.",
+    "Farmers protested high railroad rates.",
+    "His supporters distrusted concentrated corporate power."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-a"
+  },
+  {
+   "id": "ush-u6-q04",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-politics",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which group's earlier demands are most similar to the ideas in Bryan's speech?",
+   "choices": [
+    "The Populist Party, whose 1892 Omaha Platform called for free silver and regulation",
+    "The Anti-Imperialist League, which opposed taking colonies",
+    "The Federalists of the 1790s, who supported a national bank",
+    "The Know-Nothing Party of the 1850s and its many supporters in the Northern cities"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Populists had championed farmers, free silver, and regulation; they endorsed Bryan in 1896.",
+   "choiceExplanations": [
+    "",
+    "The Anti-Imperialist League formed later, in 1898, around foreign policy.",
+    "Federalists favored commercial and financial interests.",
+    "Know-Nothings focused on opposing immigrants."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-a"
+  },
+  {
+   "id": "ush-u6-q05",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-west",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The excerpt describes the end of which conflict?",
+   "choices": [
+    "King Philip's War in New England",
+    "The Nez Perce flight from the U.S. Army in 1877",
+    "The Mexican–American War in the Southwest, 1846–1848",
+    "The Pullman Strike by railroad workers"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Chief Joseph led the Nez Perce on a long retreat that ended near the Canadian border in 1877.",
+   "choiceExplanations": [
+    "King Philip's War was in the 1670s.",
+    "",
+    "That war ended in 1848.",
+    "The Pullman Strike was a labor conflict in 1894."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-b"
+  },
+  {
+   "id": "ush-u6-q06",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-west",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which conditions does Chief Joseph describe as reasons for surrender?",
+   "choices": [
+    "The deaths of leaders, cold, and lack of food and blankets",
+    "Victory over the army and a peace treaty",
+    "A promise of land in Mexico for his people",
+    "The arrival of new allies from other Plains nations to help him"
+   ],
+   "correctAnswer": 0,
+   "explanation": "He says the chiefs are killed and the children are freezing without blankets or food.",
+   "choiceExplanations": [
+    "",
+    "He is surrendering, not celebrating a victory.",
+    "He doesn't mention land in Mexico.",
+    "He describes his people scattered and suffering."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-b"
+  },
+  {
+   "id": "ush-u6-q07",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-west",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The conflict described in the excerpt was part of which broader development?",
+   "choices": [
+    "The New Deal programs for Western farmers",
+    "The rise of the Populist Party among Western farmers and ranchers during the 1890s",
+    "Federal efforts to confine American Indians to reservations as settlers moved west",
+    "The Great Migration of African Americans to Northern cities"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The Nez Perce resisted being forced onto a much-reduced reservation.",
+   "choiceExplanations": [
+    "The New Deal came in the 1930s.",
+    "Populism was a farmers' political movement.",
+    "",
+    "The Great Migration began around World War I."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-b"
+  },
+  {
+   "id": "ush-u6-q08",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-west",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A historian should consider which issue when using this excerpt as evidence of Chief Joseph's views?",
+   "choices": [
+    "The words were translated and recorded by U.S. Army officers, who shaped how they appeared",
+    "Chief Joseph wrote the speech decades later from memory, long after the fighting had ended",
+    "The speech was given in Washington, D.C., to members of Congress",
+    "Chief Joseph was a U.S. Army general who led the troops pursuing the Nez Perce"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Because the speech was interpreted and written down by others, its exact wording reflects their record, not necessarily his.",
+   "choiceExplanations": [
+    "",
+    "It was reported at the surrender in 1877.",
+    "It was given near the Canadian border.",
+    "He was the Nez Perce leader."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-b"
+  },
+  {
+   "id": "ush-u6-q09",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-industry",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The interpretation's main claim is that industrialization",
+   "choices": [
+    "made all Americans equally prosperous by 1900",
+    "slowed economic growth in the steel and oil industries",
+    "eliminated dangerous work in factories and mills",
+    "created great wealth along with great inequality"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The first sentence states this claim.",
+   "choiceExplanations": [
+    "The passage stresses inequality.",
+    "It describes soaring output.",
+    "It describes dangerous conditions.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-c"
+  },
+  {
+   "id": "ush-u6-q10",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-industry",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Carnegie's control of “every stage of production, from iron mines to rail mills” is an example of",
+   "choices": [
+    "a political machine",
+    "a labor union of steelworkers",
+    "horizontal integration",
+    "vertical integration"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Owning each stage of the supply chain is vertical integration.",
+   "choiceExplanations": [
+    "Machines are political organizations.",
+    "Unions organize workers; this is a business structure.",
+    "Horizontal integration combines competitors at the same stage, as Standard Oil did.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-c"
+  },
+  {
+   "id": "ush-u6-q11",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-politics",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which law was passed in response to the growth of business combinations such as Standard Oil?",
+   "choices": [
+    "The Chinese Exclusion Act of 1882",
+    "The Sherman Antitrust Act of 1890",
+    "The Homestead Act of 1862 for settlers",
+    "The Dawes Act of 1887 on Indian lands"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The Sherman Act banned combinations in restraint of trade, though it was weakly enforced at first.",
+   "choiceExplanations": [
+    "That restricted immigration.",
+    "",
+    "That concerned western land.",
+    "That broke up American Indian reservations."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-c"
+  },
+  {
+   "id": "ush-u6-q12",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-industry",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The strikes mentioned in the passage most directly reflect which pattern of the period?",
+   "choices": [
+    "Workers rarely organized or went on strike in this period",
+    "Unions usually won major strikes with help from state governments",
+    "Governments often sided with employers, using force against strikers",
+    "The federal government stayed neutral in labor disputes between workers and owners"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The passage notes that militias and federal troops were called in and the strikes failed.",
+   "choiceExplanations": [
+    "The strikes show organized labor.",
+    "The passage says the strikes failed.",
+    "",
+    "Federal troops intervened at Pullman."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-c"
+  },
+  {
+   "id": "ush-u6-q13",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-politics",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, where did most new immigrants of 1880–1900 come from?",
+   "choices": [
+    "Mainly West Africa and the Caribbean islands",
+    "Mainly Mexico and Central America",
+    "Mainly Great Britain and Ireland",
+    "Increasingly, southern and eastern Europe"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The passage says arrivals came increasingly from southern and eastern Europe.",
+   "choiceExplanations": [
+    "This isn't what the passage describes.",
+    "Large-scale migration from Mexico and Central America came later.",
+    "British and Irish immigration was declining as a share.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-d"
+  },
+  {
+   "id": "ush-u6-q14",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-politics",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "According to the passage, why did political machines gain immigrants' support?",
+   "choices": [
+    "They required English-only schools in cities",
+    "They opposed the growth of cities and factories",
+    "They banned new immigration to their cities",
+    "They traded jobs and favors for votes"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Machines offered help in exchange for political loyalty.",
+   "choiceExplanations": [
+    "This isn't mentioned.",
+    "Machines thrived on urban growth.",
+    "Machines depended on immigrant voters.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-d"
+  },
+  {
+   "id": "ush-u6-q15",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-politics",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Chinese Exclusion Act mentioned in the passage is best understood as an example of",
+   "choices": [
+    "the Gospel of Wealth and philanthropy",
+    "nativist responses to immigration",
+    "Reconstruction policy toward the South",
+    "Populist economic reform for farmers"
+   ],
+   "correctAnswer": 1,
+   "explanation": "It restricted immigration based on national origin, reflecting nativist fears.",
+   "choiceExplanations": [
+    "The Gospel of Wealth concerned philanthropy.",
+    "",
+    "Reconstruction concerned the South after the war.",
+    "Populist reforms targeted railroads and money."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-d"
+  },
+  {
+   "id": "ush-u6-q16",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "topicId": "ush6-west",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which comparison is best supported by the passage and your knowledge of the period?",
+   "choices": [
+    "Immigrants and Black Southerners both gained full political equality in the 1890s, as Congress extended new protections to them",
+    "Like immigrants in Northern cities, many Black Southerners faced new barriers to full membership in society in the 1880s–1890s",
+    "Black Southerners moved to Northern cities in far larger numbers than European immigrants did during these years",
+    "Immigrants were welcomed equally from every country"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Exclusion laws and nativism paralleled Jim Crow laws and disfranchisement in the South, which reopened “who could become an American.”",
+   "choiceExplanations": [
+    "Both faced growing restrictions, and Congress extended no new protections.",
+    "",
+    "European immigration to cities was far larger in this period.",
+    "The passage describes exclusion of Chinese immigrants."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush6-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-ush-u6-os1",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "title": "OpenStax U.S. History, 17.4 The Assault on American Indian Life and Culture",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/17-4-the-assault-on-american-indian-life-and-culture",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (The Assault on American Indian Life and Culture). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/17-4-the-assault-on-american-indian-life-and-culture",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-ush-u6-os2",
+   "courseId": "ap-united-states-history",
+   "unitId": "u6",
+   "title": "OpenStax U.S. History, 20.3 Farmers Revolt in the Populist Era",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/20-3-farmers-revolt-in-the-populist-era",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (Farmers Revolt in the Populist Era). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/20-3-farmers-revolt-in-the-populist-era",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP U.S. History short-answer, document-based, and long-essay questions often span several periods, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ush-u6-q01",
+    "ush-u6-q02",
+    "ush-u6-q03",
+    "ush-u6-q04",
+    "ush-u6-q13",
+    "ush-u6-q14",
+    "ush-u6-q15",
+    "ush-u6-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "ush-u6-q05",
+    "ush-u6-q06",
+    "ush-u6-q07",
+    "ush-u6-q08",
+    "ush-u6-q09",
+    "ush-u6-q10",
+    "ush-u6-q11",
+    "ush-u6-q12"
+   ]
+  }
+ ]
+}

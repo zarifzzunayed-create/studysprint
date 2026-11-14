@@ -1,0 +1,709 @@
+{
+ "courseId": "ap-united-states-history",
+ "unitId": "u5",
+ "title": "Unit 5: Period 5: 1844–1877",
+ "topics": [
+  {
+   "id": "ush5-expansion",
+   "name": "Manifest Destiny and the Mexican–American War",
+   "covers": [
+    "Manifest Destiny",
+    "The Mexican–American War"
+   ],
+   "frameworkCovers": [
+    "5.1 Contextualizing Period 5",
+    "5.2 Manifest Destiny",
+    "5.3 The Mexican–American War"
+   ]
+  },
+  {
+   "id": "ush5-sectional",
+   "name": "Sectional conflict, failed compromise, and secession",
+   "covers": [
+    "Attempts to resolve conflicts over the spread of slavery",
+    "The election of 1860 and Southern secession"
+   ],
+   "frameworkCovers": [
+    "5.4 The Compromise of 1850",
+    "5.5 Sectional Conflict: Regional Differences",
+    "5.6 Failure of Compromise",
+    "5.7 Election of 1860 and Secession"
+   ]
+  },
+  {
+   "id": "ush5-war",
+   "name": "The Civil War and Reconstruction",
+   "covers": [
+    "The Civil War",
+    "Reconstruction"
+   ],
+   "frameworkCovers": [
+    "5.8 Military Conflict in the Civil War",
+    "5.9 Government Policies During the Civil War",
+    "5.10 Reconstruction",
+    "5.11 Failure of Reconstruction",
+    "5.12 Comparison in Period 5"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Period 5 (1844–1877): review guide",
+  "intro": "Expansion across the continent reopened the question of slavery in new territories. Compromise failed, the Union split and fought a civil war, and Reconstruction tried, and in many ways failed, to secure the rights of freed people.",
+  "sections": [
+   {
+    "id": "s-ush5-expansion",
+    "topicId": "ush5-expansion",
+    "title": "Manifest Destiny and the Mexican–American War",
+    "body": [
+     "Manifest Destiny held that the United States was destined to spread across the continent. The United States annexed Texas (1845), divided Oregon with Britain (1846), and won the Mexican–American War (1846–1848), gaining California and much of the Southwest in the Treaty of Guadalupe Hidalgo.",
+     "Expansion displaced American Indians and Mexican residents and made the status of slavery in the new lands the central political question, starting with the Wilmot Proviso (1846), which proposed banning slavery in land taken from Mexico."
+    ],
+    "points": [
+     "Contextualization: expansion was driven by land hunger, economic opportunity, and ideas of destiny.",
+     "The Mexican Cession reopened the slavery question."
+    ]
+   },
+   {
+    "id": "s-ush5-sectional",
+    "topicId": "ush5-sectional",
+    "title": "Sectional conflict and secession",
+    "body": [
+     "The Compromise of 1850 admitted California as a free state and passed a stronger Fugitive Slave Act, which angered many Northerners. The Kansas–Nebraska Act (1854) let settlers decide on slavery (popular sovereignty), leading to violence in Kansas and the rise of the Republican Party, which opposed slavery's expansion.",
+     "The Dred Scott decision (1857) ruled that Black people could not be citizens and that Congress could not ban slavery in the territories. After Abraham Lincoln won the election of 1860 without Southern electoral votes, seven Deep South states seceded before his inauguration."
+    ],
+    "points": [
+     "Each compromise solved one problem and created new conflict.",
+     "Republicans opposed slavery's spread, not (at first) slavery where it existed."
+    ]
+   },
+   {
+    "id": "s-ush5-war",
+    "topicId": "ush5-war",
+    "title": "The Civil War and Reconstruction",
+    "body": [
+     "The Union's industrial and population advantages, the naval blockade, and eventually the Emancipation Proclamation (1863) and Black soldiers' service helped it win. War aims shifted from preserving the Union to ending slavery. Wartime laws such as the Homestead Act and Pacific Railway Act reshaped the West.",
+     "Reconstruction brought the Thirteenth (abolishing slavery), Fourteenth (citizenship and equal protection), and Fifteenth (voting regardless of race) Amendments. Freed people built schools, churches, and families and held office, but Black Codes, Klan violence, Northern weariness, and the Compromise of 1877 ended federal protection, and Southern states later denied Black citizens their rights."
+    ],
+    "points": [
+     "Comparison: Reconstruction's goals vs. its results.",
+     "The amendments later provided the legal basis for the civil rights movement."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain one way the Mexican–American War increased sectional conflict.",
+   "solution": "The war added vast territory, and Congress then had to decide whether slavery would be allowed there. Proposals such as the Wilmot Proviso, which would have banned slavery in the Mexican Cession, divided Northern and Southern members along sectional lines."
+  },
+  "misconceptions": [
+   [
+    "“The Civil War was fought to end slavery from the start.”",
+    "Lincoln's first aim was preserving the Union; emancipation became a war aim in 1862–1863."
+   ],
+   [
+    "“The Emancipation Proclamation freed all enslaved people.”",
+    "It applied to Confederate-held areas; the Thirteenth Amendment ended slavery nationwide."
+   ],
+   [
+    "“Reconstruction achieved nothing.”",
+    "It produced lasting constitutional amendments, though protection of rights collapsed."
+   ],
+   [
+    "“Republicans in 1860 wanted to abolish slavery everywhere.”",
+    "Their platform opposed its expansion into the territories."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. History Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+  "sourceTitle": "AP United States History – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "ush5-a",
+   "title": "Source A: Abraham Lincoln, letter to Horace Greeley, 1862",
+   "text": [
+    "“I would save the Union. I would save it the shortest way under the Constitution. . . . My paramount object in this struggle is to save the Union, and is not either to save or destroy Slavery. If I could save the Union without freeing any slave, I would do it, and if I could save it by freeing all the slaves, I would do it, and if I could save it by freeing some and leaving others alone, I would also do that. . . . I have here stated my purpose according to my view of official duty, and I intend no modification of my oft-expressed personal wish that all men, everywhere, could be free.”"
+   ],
+   "attribution": "President Abraham Lincoln, public letter to newspaper editor Horace Greeley, August 22, 1862. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 15.3.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/15-3-1863-the-changing-nature-of-the-war); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush5-b",
+   "title": "Source B: Testimony of Abram Colby to Congress, 1871",
+   "text": [
+    "“On the 29th of October, they came to my house and broke my door open, took me out of my bed and took me to the woods and whipped me three hours or more and left me in the woods for dead. They said to me, “Do you think you will ever vote another damned Radical ticket?” . . . I said, “If there was an election to-morrow, I would vote the Radical ticket.” They set in and whipped me a thousand licks more, I suppose. . . . They said I had influence with the negroes of other counties, and had carried the negroes against them.”"
+   ],
+   "attribution": "Abram Colby, a formerly enslaved man elected to the Georgia legislature in 1868, testifying on October 27, 1871, to the congressional joint committee investigating the Ku Klux Klan (published 1872). Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 16.4.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/16-4-the-collapse-of-reconstruction); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush5-c",
+   "title": "Source C: An interpretation of Manifest Destiny",
+   "text": [
+    "“Americans of the 1840s spoke of their expansion as natural and even divinely ordained. But the territory gained between 1845 and 1848 came through annexation, negotiation, and a war with Mexico that many Americans at the time, including a young congressman named Abraham Lincoln, opposed. The new lands were home to Mexican citizens and many American Indian nations, and they raised a question that no amount of destiny could answer: would slavery be allowed to spread into them? Expansion did not unite the nation; it set its sections on a collision course.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "ush5-d",
+   "title": "Source D: An interpretation of the failure of compromise in the 1850s",
+   "text": [
+    "“The Compromise of 1850 was meant to settle the slavery question for good. Instead, its Fugitive Slave Act brought slavery into Northern communities, as federal officials pursued people who had escaped, and turned many moderates against the South. Four years later, the Kansas–Nebraska Act undid the Missouri Compromise line and invited settlers to fight over slavery in Kansas. By the time the Supreme Court ruled in Dred Scott that Congress could not ban slavery in the territories, there was little middle ground left.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "ush-u5-q01",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-war",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In the excerpt, Lincoln states that his main goal in the war is to",
+   "choices": [
+    "abolish slavery everywhere at once",
+    "protect slavery in the South",
+    "end the war on the Confederacy's terms",
+    "preserve the Union"
+   ],
+   "correctAnswer": 3,
+   "explanation": "He says his “paramount object” is to save the Union.",
+   "choiceExplanations": [
+    "He says his object is not either to save or destroy slavery.",
+    "He doesn't commit to protecting slavery.",
+    "He wants to restore national authority.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-a"
+  },
+  {
+   "id": "ush-u5-q02",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-war",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Lincoln distinguishes between his “official duty” and his “personal wish.” His personal wish is that",
+   "choices": [
+    "the Union should be peacefully dissolved",
+    "slavery should be allowed to expand westward",
+    "all people everywhere could be free",
+    "the war should end at once, at any cost"
+   ],
+   "correctAnswer": 2,
+   "explanation": "He restates his “oft-expressed personal wish that all men, everywhere, could be free.”",
+   "choiceExplanations": [
+    "He wants to save the Union.",
+    "He opposed slavery's expansion.",
+    "",
+    "He doesn't say this."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-a"
+  },
+  {
+   "id": "ush-u5-q03",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-war",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "About one month after this letter, Lincoln issued the preliminary Emancipation Proclamation. Which statement best explains how it fit the position in the letter?",
+   "choices": [
+    "It freed enslaved people in the border states that had stayed loyal to the Union in 1861",
+    "It was presented as a war measure to help save the Union by weakening the Confederacy",
+    "It was required by a Supreme Court ruling on the war powers of the president",
+    "It abandoned the goal of preserving the Union in favor of ending slavery"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Lincoln framed emancipation in Confederate-held areas as a military necessity, consistent with saving the Union.",
+   "choiceExplanations": [
+    "It applied to areas in rebellion, not the loyal border states.",
+    "",
+    "No court required it.",
+    "Saving the Union remained his aim."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-a"
+  },
+  {
+   "id": "ush-u5-q04",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-sectional",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Lincoln's careful position in the letter is best explained by his need to",
+   "choices": [
+    "persuade Britain to recognize and join the Confederacy in the war",
+    "satisfy the Supreme Court, which had ruled in Dred Scott against Congress's powers",
+    "win Southern votes in the coming 1860 presidential election",
+    "keep the loyal slaveholding border states and Northern moderates behind the war"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Kentucky, Maryland, and Missouri were vital; announcing a war against slavery too early could have pushed them toward the Confederacy.",
+   "choiceExplanations": [
+    "He wanted Britain to stay out of the war.",
+    "He wasn't trying to satisfy the Court's Dred Scott ruling.",
+    "The 1860 election was already over.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-a"
+  },
+  {
+   "id": "ush-u5-q05",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-war",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Colby, his attackers were trying to",
+   "choices": [
+    "force him to leave Georgia and move to the North",
+    "collect a debt he owed to a local landowner",
+    "stop him from supporting the Republican (“Radical”) ticket",
+    "recruit him into the Confederate army to fight for the South"
+   ],
+   "correctAnswer": 2,
+   "explanation": "They asked whether he would vote “another damned Radical ticket” and attacked him for influencing other voters.",
+   "choiceExplanations": [
+    "They wanted him to stop his political activity, not move.",
+    "Nothing in the testimony suggests a debt.",
+    "",
+    "The war had ended in 1865."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-b"
+  },
+  {
+   "id": "ush-u5-q06",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-war",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Colby's testimony is most useful as evidence of",
+   "choices": [
+    "economic growth in Georgia after the end of the Civil War",
+    "violence used to keep Black citizens from voting during Reconstruction",
+    "the success of the Freedmen's Bureau in protecting voters",
+    "Northern opposition to the federal government's Reconstruction policies"
+   ],
+   "correctAnswer": 1,
+   "explanation": "His account documents Klan violence aimed at Black political participation.",
+   "choiceExplanations": [
+    "The economy isn't discussed.",
+    "",
+    "The testimony shows the failure of protection.",
+    "It concerns Southern attackers."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-b"
+  },
+  {
+   "id": "ush-u5-q07",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-war",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Colby's ability to serve in the Georgia legislature in 1868 was made possible in part by",
+   "choices": [
+    "the Black Codes passed by Southern states in 1865 to define and limit the rights of freedpeople",
+    "Reconstruction laws and amendments extending citizenship and voting rights to Black men",
+    "the Dred Scott decision of the Supreme Court in 1857",
+    "the Compromise of 1850 on slavery in the territories"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Congressional Reconstruction and the Fourteenth Amendment (and soon the Fifteenth) opened politics to Black men.",
+   "choiceExplanations": [
+    "Black Codes restricted freedpeople's rights.",
+    "",
+    "Dred Scott denied Black citizenship.",
+    "That compromise concerned slavery in new territories."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-b"
+  },
+  {
+   "id": "ush-u5-q08",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-sectional",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which development of the 1870s most directly ended the federal protection that testimony like Colby's sought?",
+   "choices": [
+    "The Homestead Act, which gave western land to settlers",
+    "The Wilmot Proviso on the Mexican Cession",
+    "The Kansas–Nebraska Act, which ended the Missouri Compromise line",
+    "The Compromise of 1877, after which federal troops left the South"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The deal that settled the disputed 1876 election ended military Reconstruction.",
+   "choiceExplanations": [
+    "The Homestead Act (1862) concerned western land.",
+    "The proviso was proposed in 1846.",
+    "That act was passed in 1854.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-b"
+  },
+  {
+   "id": "ush-u5-q09",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-expansion",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, how did Americans of the 1840s often describe their expansion?",
+   "choices": [
+    "As natural and divinely ordained",
+    "As a plan to free enslaved people",
+    "As a policy forced on them by Mexico",
+    "As a temporary mistake they would undo"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The first sentence describes expansion as “natural and even divinely ordained,” the idea of Manifest Destiny.",
+   "choiceExplanations": [
+    "",
+    "The passage says expansion raised the question of spreading slavery.",
+    "The passage describes a war many Americans chose.",
+    "The passage doesn't say this."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-c"
+  },
+  {
+   "id": "ush-u5-q10",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-expansion",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The territory gained “between 1845 and 1848” included which of the following?",
+   "choices": [
+    "The Louisiana Purchase and the lands just west of the Mississippi River",
+    "Texas, Oregon south of the 49th parallel, and the Mexican Cession",
+    "Florida and the Gulf Coast lands bought from Spain",
+    "Alaska and the islands bought from Russia"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Texas (1845), Oregon (1846), and the Mexican Cession (1848) were all added in those years.",
+   "choiceExplanations": [
+    "That was in 1803.",
+    "",
+    "Florida was acquired from Spain in 1819.",
+    "Alaska was purchased from Russia in 1867."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-c"
+  },
+  {
+   "id": "ush-u5-q11",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-sectional",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which proposal most directly raised the question the author says “no amount of destiny could answer”?",
+   "choices": [
+    "The Wilmot Proviso, which would have banned slavery in land won from Mexico",
+    "The Homestead Act, signed into law in 1862",
+    "The Monroe Doctrine",
+    "The Treaty of Paris (1783), which set the western border at the Mississippi"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The proviso put slavery in the new territories at the center of national politics.",
+   "choiceExplanations": [
+    "",
+    "The Homestead Act came in 1862.",
+    "The Monroe Doctrine concerned European colonization.",
+    "That treaty ended the Revolution."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-c"
+  },
+  {
+   "id": "ush-u5-q12",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-expansion",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The author mentions Lincoln's opposition to the war in order to",
+   "choices": [
+    "prove that Lincoln supported the spread of slavery into the West",
+    "explain why Mexico won the war and kept most of its northern lands",
+    "show that Congress approved every war the nation fought in the 1840s without debate",
+    "show that expansion was contested at the time, not universally accepted"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Pointing to contemporary opponents challenges the idea that expansion was natural and agreed upon.",
+   "choiceExplanations": [
+    "Lincoln's opposition to the war says nothing in favor of slavery.",
+    "Mexico lost the war and much of its northern territory.",
+    "The point is disagreement, not unanimity.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-c"
+  },
+  {
+   "id": "ush-u5-q13",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-sectional",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, what was the main effect of the Fugitive Slave Act?",
+   "choices": [
+    "It banned slavery in the territories gained from Mexico",
+    "It ended the slavery debate for the rest of the decade",
+    "It turned many Northern moderates against the South",
+    "It made Kansas a free state before settlers arrived"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The passage says it brought slavery into Northern communities and turned moderates against the South.",
+   "choiceExplanations": [
+    "It required the return of people who had escaped slavery.",
+    "It intensified the debate.",
+    "",
+    "Kansas's status was decided later."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-d"
+  },
+  {
+   "id": "ush-u5-q14",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-sectional",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Kansas–Nebraska Act “undid the Missouri Compromise line” by",
+   "choices": [
+    "returning the Kansas and Nebraska lands to Mexico under a new treaty",
+    "admitting Kansas as a slave state immediately, without a vote by the settlers living there",
+    "letting settlers vote on whether to allow slavery in territories north of 36°30′",
+    "banning slavery in all territories north of the Missouri Compromise line"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Popular sovereignty replaced the line that had banned slavery north of 36°30′ in the Louisiana Purchase lands.",
+   "choiceExplanations": [
+    "Kansas was never Mexican territory.",
+    "Kansas's status was left to settlers.",
+    "",
+    "It did the opposite of a ban."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-d"
+  },
+  {
+   "id": "ush-u5-q15",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-expansion",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Compromise of 1850 was needed mainly because of",
+   "choices": [
+    "disputes over slavery in lands acquired from Mexico, including California",
+    "the end of the Civil War and the problem of readmitting the Southern states",
+    "a dispute with Britain over the border between Canada and Oregon",
+    "a crisis over the national bank and the money supply"
+   ],
+   "correctAnswer": 0,
+   "explanation": "California's request to join as a free state and the status of the Mexican Cession forced the compromise.",
+   "choiceExplanations": [
+    "",
+    "The war came a decade later.",
+    "The Oregon boundary had been settled in 1846.",
+    "The bank was a Jacksonian-era issue."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-d"
+  },
+  {
+   "id": "ush-u5-q16",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "topicId": "ush5-sectional",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which statement best describes the line of reasoning in the passage?",
+   "choices": [
+    "Each attempt to settle the slavery question in the 1850s deepened sectional conflict",
+    "Kansas settlers avoided violence by accepting the vote on slavery",
+    "The Supreme Court resolved the slavery question peacefully",
+    "The 1850s were a decade of growing national unity on the question of slavery's expansion"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The passage traces how the 1850 Compromise, the Kansas–Nebraska Act, and Dred Scott each left less middle ground.",
+   "choiceExplanations": [
+    "",
+    "It says settlers fought over slavery.",
+    "It says Dred Scott left little middle ground.",
+    "The passage describes growing division."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush5-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-ush-u5-os1",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "title": "OpenStax U.S. History, 14.1 The Compromise of 1850",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/14-1-the-compromise-of-1850",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (The Compromise of 1850). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/14-1-the-compromise-of-1850",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-ush-u5-os2",
+   "courseId": "ap-united-states-history",
+   "unitId": "u5",
+   "title": "OpenStax U.S. History, 16.3 Radical Reconstruction, 1867–1872",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/16-3-radical-reconstruction-1867-1872",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (Radical Reconstruction, 1867–1872). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/16-3-radical-reconstruction-1867-1872",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP U.S. History short-answer, document-based, and long-essay questions often span several periods, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ush-u5-q01",
+    "ush-u5-q02",
+    "ush-u5-q03",
+    "ush-u5-q04",
+    "ush-u5-q09",
+    "ush-u5-q10",
+    "ush-u5-q11",
+    "ush-u5-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "ush-u5-q05",
+    "ush-u5-q06",
+    "ush-u5-q07",
+    "ush-u5-q08",
+    "ush-u5-q13",
+    "ush-u5-q14",
+    "ush-u5-q15",
+    "ush-u5-q16"
+   ]
+  }
+ ]
+}

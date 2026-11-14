@@ -1,0 +1,827 @@
+{
+ "courseId": "ap-united-states-government-and-politics",
+ "unitId": "u5",
+ "title": "Unit 5: Political Participation",
+ "topics": [
+  {
+   "id": "gov5-voting",
+   "name": "Voting rights, models of voting, and turnout",
+   "covers": [
+    "Laws that protect the right to vote"
+   ],
+   "frameworkCovers": [
+    "5.1 Voting Rights and Models of Voting Behavior",
+    "5.2 Voter Turnout"
+   ]
+  },
+  {
+   "id": "gov5-groups",
+   "name": "Parties, third parties, and interest groups",
+   "covers": [
+    "Why it’s hard for third parties and independent candidates to succeed",
+    "Interest groups and their influence"
+   ],
+   "frameworkCovers": [
+    "5.3 Political Parties",
+    "5.4 How and Why Political Parties Change and Adapt",
+    "5.5 Third-Party Politics",
+    "5.6 Interest Groups Influencing Policymaking",
+    "5.7 Groups Influencing Policy Outcomes"
+   ]
+  },
+  {
+   "id": "gov5-elections",
+   "name": "Elections, campaign finance, and the media",
+   "covers": [
+    "Campaign finance and its role in elections",
+    "The media’s role in elections"
+   ],
+   "frameworkCovers": [
+    "5.8 Electing a President",
+    "5.9 Congressional Elections",
+    "5.10 Modern Campaigns",
+    "5.11 Campaign Finance",
+    "5.12 The Media",
+    "5.13 Changing Media"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 5: Political Participation: review guide",
+  "intro": "This unit covers who votes and why, how parties and interest groups link citizens to government, how elections and campaign finance work, and how the media shape politics. The required document here is Federalist No. 10; the required case is Citizens United v. Federal Election Commission (2010), and Baker v. Carr (1962) and Shaw v. Reno (1993) bear on districting.",
+  "sections": [
+   {
+    "id": "s-gov5-voting",
+    "topicId": "gov5-voting",
+    "title": "Voting rights and turnout",
+    "body": [
+     "Voting rights expanded through amendments and laws: the Fifteenth Amendment (race), the Nineteenth (sex), the Twenty-Fourth (poll taxes in federal elections), and the Twenty-Sixth (age 18), plus the Voting Rights Act of 1965, which banned literacy tests and required federal approval of voting changes in some areas.",
+     "Models of voting include rational-choice voting (based on self-interest), retrospective voting (judging past performance), prospective voting (predicting future performance), and party-line voting. Turnout is higher among older, more educated, and wealthier citizens and in presidential years; registration rules, voter ID laws, and early voting can raise or lower it."
+    ],
+    "points": [
+     "Match each amendment to the group it protected.",
+     "Turnout differs by age, education, income, and type of election."
+    ]
+   },
+   {
+    "id": "s-gov5-groups",
+    "topicId": "gov5-groups",
+    "title": "Parties and interest groups",
+    "body": [
+     "Political parties mobilize voters, nominate candidates, and organize government. Parties adapt through critical elections and realignments. Third parties struggle because of winner-take-all, single-member district elections, ballot-access rules, and the tendency of major parties to adopt popular third-party ideas.",
+     "Interest groups lobby officials, file amicus briefs, mobilize members, and fund campaigns. Madison's Federalist No. 10 argued that the causes of faction can't be removed without destroying liberty, so a large republic must control faction's effects. Groups face the free-rider problem: people can enjoy a group's gains without joining, so groups offer selective benefits to members."
+    ],
+    "points": [
+     "Know at least two barriers to third parties.",
+     "Connect interest groups to Madison's argument about faction."
+    ]
+   },
+   {
+    "id": "s-gov5-elections",
+    "topicId": "gov5-elections",
+    "title": "Elections, money, and media",
+    "body": [
+     "Presidents are chosen by the Electoral College: 538 electors, with 270 needed to win; most states give all their electors to the statewide winner. In Congress, incumbents usually win reelection thanks to name recognition, fundraising, and districts drawn by state legislatures, sometimes through partisan gerrymandering.",
+     "The Bipartisan Campaign Reform Act of 2002 limited soft money to national parties. Citizens United v. FEC (2010) held that political spending by corporations, associations, and unions is protected speech, which helped give rise to super PACs that may spend without limit if they don't coordinate with candidates. The media act as gatekeepers and scorekeepers; horse-race coverage focuses on who is ahead, and partisan and social media can deepen polarization."
+    ],
+    "points": [
+     "Know what Citizens United decided and one consequence.",
+     "Incumbency advantage is especially strong in the House."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain one reason third-party candidates rarely win seats in Congress.",
+   "solution": "Members are elected in single-member districts where the candidate with the most votes wins, so voters often avoid “wasting” votes on a third-party candidate, and the two major parties win nearly every seat."
+  },
+  "misconceptions": [
+   [
+    "“Citizens United allowed unlimited direct donations to candidates.”",
+    "It protected independent spending; limits on direct contributions to candidates remain."
+   ],
+   [
+    "“The popular vote winner always becomes president.”",
+    "The Electoral College decides, and the two can differ."
+   ],
+   [
+    "“Interest groups and political parties are the same.”",
+    "Parties run candidates for office; interest groups try to influence policy."
+   ],
+   [
+    "“Low turnout means people don't care.”",
+    "Registration rules, election timing, and other barriers also affect turnout."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. Government and Politics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+  "sourceTitle": "AP U.S. Government and Politics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "gov5-a",
+   "title": "Source A: Voter turnout by age in one state (hypothetical data)",
+   "text": [
+    "Percentage of eligible citizens in each age group who voted:",
+    "Ages 18–29: presidential election 46%; midterm election 24%",
+    "Ages 30–44: presidential election 58%; midterm election 38%",
+    "Ages 45–64: presidential election 68%; midterm election 52%",
+    "Ages 65 and older: presidential election 74%; midterm election 61%"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice data analysis. The numbers are invented and do not describe any real survey, election, or government record.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "gov5-b",
+   "title": "Source B: James Madison, Federalist No. 10, 1787",
+   "text": [
+    "“By a faction, I understand a number of citizens, whether amounting to a majority or a minority of the whole, who are united and actuated by some common impulse of passion, or of interest, adversed to the rights of other citizens, or to the permanent and aggregate interests of the community. There are two methods of curing the mischiefs of faction: the one, by removing its causes; the other, by controlling its effects. . . . The latent causes of faction are thus sown in the nature of man”"
+   ],
+   "attribution": "James Madison, writing as “Publius” to urge New York to ratify the Constitution. Public domain. Wording follows the text printed in OpenStax American Government 4e, Appendix C.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published in 1787). StudySprint quotes it as printed in OpenStax American Government 4e (openstax.org/books/american-government-4e/pages/c-federalist-papers-10-and-51); no OpenStax commentary is copied."
+  }
+ ],
+ "questions": [
+  {
+   "id": "gov-u5-q01",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-voting",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source A, which age group had the highest turnout in the midterm election?",
+   "choices": [
+    "Ages 65 and older",
+    "Ages 30–44",
+    "Ages 18–29",
+    "Ages 45–64"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Turnout among those 65 and older was 61%, the highest of the four groups.",
+   "choiceExplanations": [
+    "",
+    "Ages 30–44 turned out at 38% in the midterm.",
+    "Ages 18–29 turned out at 24%, the lowest.",
+    "Ages 45–64 turned out at 52% in the midterm."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov5-a"
+  },
+  {
+   "id": "gov-u5-q02",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-voting",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which pattern does Source A show for every age group?",
+   "choices": [
+    "Turnout was lower in the midterm election than in the presidential election",
+    "Turnout was the same in both elections for each age group of voters",
+    "Turnout was higher in the midterm election than in the presidential election",
+    "Turnout was lower among older voters than among younger voters in both"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Each group's midterm turnout is below its presidential turnout.",
+   "choiceExplanations": [
+    "",
+    "The figures differ for every group.",
+    "Every midterm figure is lower, not higher.",
+    "Older groups turned out at higher rates in both elections."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov5-a"
+  },
+  {
+   "id": "gov-u5-q03",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-voting",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which constitutional amendment made it possible for the youngest group in Source A to vote in every state?",
+   "choices": [
+    "The Nineteenth Amendment, which barred denying the vote by sex",
+    "The Twenty-Sixth Amendment, which lowered the voting age to 18",
+    "The Twenty-Fourth Amendment, which banned poll taxes in federal elections",
+    "The Fifteenth Amendment, which barred denying the vote by race"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The Twenty-Sixth Amendment (1971) set the voting age at 18 in all elections.",
+   "choiceExplanations": [
+    "The Nineteenth Amendment concerns sex, not age.",
+    "",
+    "The Twenty-Fourth Amendment concerns poll taxes, not age.",
+    "The Fifteenth Amendment concerns race, not age."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov5-a"
+  },
+  {
+   "id": "gov-u5-q04",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-voting",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is a limitation of Source A for explaining why turnout differs by age?",
+   "choices": [
+    "It reports turnout only for citizens who were under the age of 30",
+    "It doesn't show turnout for any group in a presidential election year",
+    "It can't show whether age itself, or factors such as income, causes the differences",
+    "It shows numbers of voters rather than the percentages of eligible citizens who voted"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Older citizens also tend to have higher incomes and longer residence, so the table alone can't isolate the effect of age.",
+   "choiceExplanations": [
+    "The table covers all four age groups.",
+    "The table includes presidential-year turnout for every group.",
+    "",
+    "The table reports percentages of eligible citizens."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov5-a"
+  },
+  {
+   "id": "gov-u5-q05",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-groups",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Madison defines a faction in Source B as",
+   "choices": [
+    "a state government that refuses to obey the national government",
+    "citizens united by a shared interest or passion that threatens others' rights",
+    "a group of judges who share the same view of the Constitution",
+    "a political party that has won control of both houses of Congress and the presidency"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Madison's faction is any group, majority or minority, united by a passion or interest adverse to others' rights or the community's interests.",
+   "choiceExplanations": [
+    "Madison's definition concerns citizens, not state governments.",
+    "",
+    "Madison's definition concerns citizens, not judges.",
+    "Madison's definition doesn't mention parties controlling Congress."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov5-b"
+  },
+  {
+   "id": "gov-u5-q06",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-groups",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Madison writes that the causes of faction are “sown in the nature of man.” This suggests that he believed",
+   "choices": [
+    "faction will disappear once the Constitution is ratified by the states and put into effect",
+    "faction can't be removed without destroying liberty, so its effects must be controlled",
+    "government should outlaw groups that form around a shared interest",
+    "only small, direct democracies can protect citizens from faction"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Because faction grows from human nature, Madison concludes the cure lies in controlling its effects, through a large republic.",
+   "choiceExplanations": [
+    "Madison expects faction to persist, not disappear.",
+    "",
+    "Outlawing groups would destroy the liberty Madison wants to protect.",
+    "Madison argues that a large republic, not a small democracy, controls faction best."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov5-b"
+  },
+  {
+   "id": "gov-u5-q07",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-groups",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Many interest groups compete to influence policy, and no single group dominates. This modern pattern best reflects",
+   "choices": [
+    "elite theory, which sees power held by a small wealthy group",
+    "rational-choice voting, which sees voters acting in self-interest",
+    "pluralist theory, which sees competing groups as checking one another",
+    "participatory theory, which sees ordinary citizens deciding policy directly"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Pluralists argue that competition among many groups prevents any one faction from dominating, much as Madison hoped.",
+   "choiceExplanations": [
+    "Elite theory claims a small group dominates.",
+    "Rational-choice voting describes individual voters, not group competition.",
+    "",
+    "Participatory theory concerns direct citizen participation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov5-b"
+  },
+  {
+   "id": "gov-u5-q08",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-groups",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which modern feature of American politics best reflects Madison's goal of “controlling its effects”?",
+   "choices": [
+    "A large republic in which many competing groups make it hard for one to dominate",
+    "Elections in which only property owners are allowed to vote",
+    "Rules that require all citizens to join the same political party",
+    "Laws that ban interest groups from contacting or lobbying any members of Congress"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Madison argued that a large republic multiplies interests so no faction can easily form a dangerous majority.",
+   "choiceExplanations": [
+    "",
+    "Property requirements limit participation; they aren't Madison's cure.",
+    "Forced party membership would destroy liberty.",
+    "Banning groups attacks faction's causes by limiting liberty, which Madison rejects."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "gov5-b"
+  },
+  {
+   "id": "gov-u5-q09",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-voting",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The Fifteenth Amendment (1870) prohibits denying the right to vote on the basis of",
+   "choices": [
+    "age",
+    "wealth",
+    "sex",
+    "race"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The Fifteenth Amendment bars denying the vote because of race, color, or previous condition of servitude.",
+   "choiceExplanations": [
+    "Age was addressed by the Twenty-Sixth Amendment (1971).",
+    "Poll taxes in federal elections were banned by the Twenty-Fourth Amendment (1964).",
+    "Sex was addressed by the Nineteenth Amendment (1920).",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u5-q10",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-voting",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Voting Rights Act of 1965 increased Black voter registration mainly by",
+   "choices": [
+    "lowering the voting age for national elections from twenty-one years old to eighteen years",
+    "creating the Electoral College system for choosing the president of the country",
+    "requiring all states to hold primary elections for congressional nominations",
+    "banning literacy tests and requiring federal approval of voting changes in some areas"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The act banned literacy tests and required certain jurisdictions to get federal approval before changing voting rules.",
+   "choiceExplanations": [
+    "The voting age was lowered by the Twenty-Sixth Amendment.",
+    "The Electoral College was created by the Constitution.",
+    "The act didn't require primary elections.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u5-q11",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-voting",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A voter decides to vote against the president's party because the economy did poorly over the past four years. This is an example of",
+   "choices": [
+    "party-line (straight-ticket) voting",
+    "prospective voting",
+    "retrospective voting",
+    "ticket splitting"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Judging officials by their past performance is retrospective voting.",
+   "choiceExplanations": [
+    "Party-line voting means voting for one party regardless of performance.",
+    "Prospective voting is based on predictions of future performance.",
+    "",
+    "Ticket splitting means voting for different parties on one ballot."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u5-q12",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-groups",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which is a main function of political parties?",
+   "choices": [
+    "Nominating candidates and mobilizing voters",
+    "Writing regulations for federal agencies",
+    "Appointing judges to the federal courts",
+    "Interpreting the meaning of the Constitution"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Parties recruit and nominate candidates, mobilize voters, and organize government.",
+   "choiceExplanations": [
+    "",
+    "Agencies write regulations.",
+    "The president appoints judges with Senate consent.",
+    "Interpreting the Constitution is the courts' role."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u5-q13",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-groups",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which feature of American elections most discourages third-party candidates?",
+   "choices": [
+    "Laws that bar third-party members from voting",
+    "Winner-take-all elections in single-member districts",
+    "The Constitution's ban on parties other than two",
+    "Supreme Court rulings that outlawed most minor parties"
+   ],
+   "correctAnswer": 1,
+   "explanation": "When only the top vote-getter wins, voters avoid “wasting” votes on candidates unlikely to win.",
+   "choiceExplanations": [
+    "No law bars third-party members from voting.",
+    "",
+    "The Constitution doesn't mention political parties.",
+    "The Court hasn't outlawed minor parties."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u5-q14",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-groups",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "When an interest group files an amicus curiae brief, it is",
+   "choices": [
+    "donating money directly to a candidate's campaign committee",
+    "nominating its own candidate to run for a seat in Congress",
+    "asking voters to sign a petition to put a measure on the ballot",
+    "presenting arguments to a court in a case it isn't a party to"
+   ],
+   "correctAnswer": 3,
+   "explanation": "An amicus (“friend of the court”) brief offers a court arguments from an outside group.",
+   "choiceExplanations": [
+    "Campaign donations are a different tactic.",
+    "Interest groups don't nominate candidates; parties do.",
+    "Ballot petitions are part of direct democracy, not court cases.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u5-q15",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-groups",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Many people who benefit from an interest group's work never join it. To overcome this free-rider problem, groups often",
+   "choices": [
+    "ask Congress to require every citizen to join at least one interest group",
+    "refuse to tell the public which policies they are trying to influence",
+    "stop working on any issue that would also benefit people who aren't members",
+    "offer selective benefits, such as magazines or discounts, only to members"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Benefits available only to members give people a reason to join and pay dues.",
+   "choiceExplanations": [
+    "No law requires membership in interest groups.",
+    "Secrecy doesn't solve the free-rider problem.",
+    "Groups keep pursuing broad goals; selective benefits supplement them.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u5-q16",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-elections",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How many electoral votes does a presidential candidate need to win the election?",
+   "choices": [
+    "51",
+    "538",
+    "270",
+    "218"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A majority of the 538 electoral votes, 270, is required.",
+   "choiceExplanations": [
+    "51 is a majority of the Senate.",
+    "538 is the total number of electors.",
+    "",
+    "218 is a majority of the House of Representatives."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u5-q17",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-elections",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which factor best explains why members of the House of Representatives usually win reelection?",
+   "choices": [
+    "Incumbents' name recognition, fundraising, and favorable districts",
+    "A constitutional rule that gives incumbents extra votes in a primary",
+    "Term limits that prevent strong challengers from running for the seat",
+    "The requirement that challengers be approved by the sitting member"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Incumbents enjoy visibility, campaign money, constituent service, and districts often drawn to favor them.",
+   "choiceExplanations": [
+    "",
+    "No such rule exists.",
+    "There are no term limits for members of Congress.",
+    "Challengers need no approval from incumbents."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u5-q18",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-elections",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Citizens United v. Federal Election Commission (2010) held that",
+   "choices": [
+    "all campaign contributions must be disclosed within a day",
+    "corporations may give unlimited money directly to candidates",
+    "the Federal Election Commission may ban most political advertising",
+    "political spending by corporations and unions is protected speech"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The Court ruled that independent political spending by corporations, associations, and unions is protected by the First Amendment, which helped lead to super PACs.",
+   "choiceExplanations": [
+    "The case didn't create a one-day disclosure rule.",
+    "Limits on direct contributions to candidates remain in place.",
+    "The ruling limited, rather than expanded, the government's power to restrict political ads.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u5-q19",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-elections",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "News coverage that focuses mainly on which candidate is ahead in the polls is known as",
+   "choices": [
+    "a free-rider problem",
+    "horse-race journalism",
+    "investigative journalism",
+    "a gerrymander"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Horse-race coverage treats elections like a race, emphasizing polls and strategy over issues.",
+   "choiceExplanations": [
+    "The free-rider problem concerns interest group membership.",
+    "",
+    "Investigative journalism uncovers hidden wrongdoing.",
+    "A gerrymander is a district drawn to favor a party or group."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "gov-u5-q20",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "topicId": "gov5-elections",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which development has most likely contributed to political polarization in recent decades?",
+   "choices": [
+    "The requirement that senators be elected directly by the voters of each state",
+    "The decision in Marbury v. Madison that established the Supreme Court's power of judicial review",
+    "The growth of partisan media and social media that let people hear mainly views they share",
+    "The adoption of the Twenty-Sixth Amendment, which lowered the voting age to eighteen"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Choosing news sources that confirm existing views can harden partisan divisions, sometimes called echo chambers.",
+   "choiceExplanations": [
+    "Direct election of senators dates from 1913.",
+    "Marbury dates from 1803 and concerns judicial power.",
+    "",
+    "Lowering the voting age expanded participation; it isn't linked to recent polarization in this way."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-gov-u5-os1",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "title": "OpenStax American Government 4e, 7.2 Voter Turnout",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/7-2-voter-turnout",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on voter turnout and its causes. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/7-2-voter-turnout",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-gov-u5-os2",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "title": "OpenStax American Government 4e, 9.2 The Two-Party System",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/9-2-the-two-party-system",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on the two-party system and third parties. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/9-2-the-two-party-system",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-gov-u5-os3",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "title": "OpenStax American Government 4e, 10.4 Pathways of Interest Group Influence",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/10-4-pathways-of-interest-group-influence",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on how interest groups influence policy. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/10-4-pathways-of-interest-group-influence",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-gov-u5-os4",
+   "courseId": "ap-united-states-government-and-politics",
+   "unitId": "u5",
+   "title": "OpenStax American Government 4e, 7.4 Campaigns and Voting",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/american-government-4e/pages/7-4-campaigns-and-voting",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college American government textbook section on campaigns, campaign finance, and voting. It is written for college courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/american-government-4e/pages/7-4-campaigns-and-voting",
+   "sourceTitle": "OpenStax American Government 4e",
+   "licenseOrRights": "Linked only. OpenStax lists American Government 4e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP U.S. Government and Politics free-response set has four questions (concept application, quantitative analysis, SCOTUS comparison, and argument essay) that usually draw on several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "gov-u5-q01",
+    "gov-u5-q02",
+    "gov-u5-q03",
+    "gov-u5-q04",
+    "gov-u5-q09",
+    "gov-u5-q10",
+    "gov-u5-q12",
+    "gov-u5-q20"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "gov-u5-q05",
+    "gov-u5-q06",
+    "gov-u5-q07",
+    "gov-u5-q08",
+    "gov-u5-q11",
+    "gov-u5-q14",
+    "gov-u5-q15",
+    "gov-u5-q16"
+   ]
+  }
+ ]
+}

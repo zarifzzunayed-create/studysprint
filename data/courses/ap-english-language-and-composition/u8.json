@@ -1,0 +1,707 @@
+{
+ "courseId": "ap-english-language-and-composition",
+ "unitId": "u8",
+ "title": "Unit 8",
+ "topics": [
+  {
+   "id": "lang8-audience",
+   "name": "Choices for an audience, including comparisons",
+   "covers": [
+    "Choosing comparisons based on an audience",
+    "Considering how all choices made in an argument affect the audience"
+   ],
+   "frameworkCovers": [
+    "1.B Explain how an argument demonstrates understanding of an audience’s beliefs, values, or needs.",
+    "2.B Demonstrate an understanding of an audience’s beliefs, values, or needs."
+   ]
+  },
+  {
+   "id": "lang8-diction",
+   "name": "Word choice and how a writer is perceived",
+   "covers": [
+    "Considering how sentence development and word choice affect how the writer is perceived by an audience"
+   ],
+   "frameworkCovers": [
+    "7.A Explain how word choice, comparisons, and syntax contribute to the specific tone or style of a text.",
+    "8.A Strategically use words, comparisons, and syntax to convey a specific tone or style in an argument."
+   ]
+  },
+  {
+   "id": "lang8-style",
+   "name": "Style and sentence structure",
+   "covers": [
+    "Considering how style affects an argument"
+   ],
+   "frameworkCovers": [
+    "7.B Explain how writers create, combine, and place independent and dependent clauses to show relationships between and among ideas.",
+    "8.B Write sentences that clearly convey ideas and arguments."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 8: Style, comparisons, and audience: review guide",
+  "intro": "Style is the sum of a writer's choices: words, comparisons, and sentence structures. This unit practices explaining how those choices shape how an audience perceives the writer and the argument, and making them yourself.",
+  "sections": [
+   {
+    "id": "s-lang8-audience",
+    "topicId": "lang8-audience",
+    "title": "Choices for an audience",
+    "body": [
+     "Comparisons (analogies, metaphors, examples) work only if the audience knows the thing being compared to. A comparison to a sports team may persuade fans and lose readers who don't follow sports.",
+     "Every choice, from formality to examples, signals who the writer thinks the audience is. A mismatch can make a writer seem condescending or out of touch."
+    ],
+    "points": [
+     "Choose comparisons from the audience's experience.",
+     "Formal settings call for precise, measured language."
+    ]
+   },
+   {
+    "id": "s-lang8-diction",
+    "topicId": "lang8-diction",
+    "title": "Word choice and perception",
+    "body": [
+     "Diction (word choice) shapes the writer's persona: technical terms can show expertise but may alienate non-experts; casual words can seem friendly or unserious depending on the setting.",
+     "Connotation matters: “stubborn” and “determined” describe similar behavior with opposite judgments."
+    ],
+    "points": [
+     "Ask how each word makes the writer seem: careful, angry, trustworthy?",
+     "Define technical terms for general audiences."
+    ]
+   },
+   {
+    "id": "s-lang8-style",
+    "topicId": "lang8-style",
+    "title": "Style and sentence structure",
+    "body": [
+     "Sentence length and structure create emphasis: a short sentence after several long ones lands hard; repetition and parallelism make ideas memorable; questions invite the audience to think along.",
+     "Style should serve the argument: a dramatic style can move an audience at a rally but may seem overblown in a report."
+    ],
+    "points": [
+     "Anaphora (repeating an opening phrase) builds emphasis.",
+     "Short sentences emphasize; long ones elaborate."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Choose a comparison to explain compound interest to a group of tenth graders.",
+   "solution": "“Compound interest is like a snowball rolling downhill: the bigger it gets, the more snow it picks up each turn.” It uses an image the audience knows and captures how growth builds on growth."
+  },
+  "misconceptions": [
+   [
+    "“Fancy words always make a writer sound smart.”",
+    "Words that don't fit the audience can make a writer seem pretentious or unclear."
+   ],
+   [
+    "“Style is decoration.”",
+    "Style shapes how an audience receives the argument."
+   ],
+   [
+    "“Every audience understands the same comparisons.”",
+    "Comparisons depend on what the audience knows."
+   ],
+   [
+    "“Short sentences are childish.”",
+    "Used deliberately, they create emphasis."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Language and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+  "sourceTitle": "AP English Language and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "lang8-r1",
+   "title": "Passage 1: From a graduation speech to a community college class",
+   "text": [
+    "(1) Many of you took the long way here. You worked the early shift, then came to class. You fed your children, then opened your textbooks. You missed the bus, then caught the next one.",
+    "(2) Some people think the long way is the wrong way. They are mistaken. The long way is where you learned to budget an hour like a paycheck, to treat a deadline like a shift you could not miss.",
+    "(3) Today you have finished. Tomorrow, someone at your job, at your kitchen table, or at the next bus stop will ask how you did it. Tell them. That is how the long way becomes a road for someone else."
+   ],
+   "attribution": "Written for StudySprint by its editors. Names, places, and figures are invented for practice.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang8-r2",
+   "title": "Passage 2: A scientist's letter to state legislators",
+   "text": [
+    "(1) Dear Members of the Committee: I write as a hydrologist who has measured groundwater in Harlan County for fifteen years. The data show a steady decline: wells that reached water at forty feet in 2010 now reach it at sixty-five.",
+    "(2) To put this in terms of a household budget: the county has been spending its savings faster than it deposits them. Every dry year draws down the account further.",
+    "(3) I respectfully ask the committee to fund a two-year study of recharge rates before approving new large-scale pumping permits. The data I have described do not settle every question, but they are reason enough for caution."
+   ],
+   "attribution": "Written for StudySprint by its editors. Names, places, and figures are invented for practice.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang8-w1",
+   "title": "Draft 1: A student paragraph for a middle-school assembly",
+   "text": [
+    "The following is a draft of remarks a high school student will give to sixth graders about joining after-school clubs. It may need revision.",
+    "(1) Joining a club can seem scary. (2) Joining a club is like choosing a diversified portfolio of extracurricular assets. (3) You meet people who like what you like. (4) You also learn skills you won't learn in class. (5) My first club was the robotics team."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang8-w2",
+   "title": "Draft 2: A student email to a city parks director",
+   "text": [
+    "The following is a draft of an email a student plans to send to the city's parks director. It may need revision.",
+    "(1) Hey! (2) The basketball courts at Lincoln Park are a total disaster and nobody in charge cares. (3) The backboards are cracked, and two rims have been missing since March. (4) Our team practices there three days a week. (5) Please fix the courts."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lang-u8-q01",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-style",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Paragraph 1 repeats the pattern “You … , then …” several times. What is the main effect?",
+   "choices": [
+    "It builds a rhythm that stresses the many obstacles the graduates overcame",
+    "It introduces statistics about how many of the graduates worked while studying",
+    "It confuses the audience about the order in which events happened",
+    "It shows that the speaker disapproves of the graduates' slow progress"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The parallel sentences pile up examples of the graduates' persistence.",
+   "choiceExplanations": [
+    "",
+    "There are no statistics.",
+    "The pattern makes the sequence clearer.",
+    "The tone is admiring."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-r1"
+  },
+  {
+   "id": "lang-u8-q02",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-audience",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The comparisons in paragraph 2 (budgeting an hour “like a paycheck,” a deadline “like a shift”) are chosen mainly because",
+   "choices": [
+    "they draw on the working lives many in the audience share",
+    "they show that the audience should quit their jobs to study full time",
+    "they describe the speaker's own childhood and first jobs",
+    "they come from scientific research on how adults manage time"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The speaker has just said many graduates work; comparisons from work connect to their experience.",
+   "choiceExplanations": [
+    "",
+    "They praise the skills work taught.",
+    "They describe the audience, not the speaker.",
+    "They are everyday comparisons, not research."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-r1"
+  },
+  {
+   "id": "lang-u8-q03",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-style",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the effect of the short sentences “They are mistaken.” and “Tell them.”?",
+   "choices": [
+    "They summarize statistics about how the graduates succeeded",
+    "They deliver the speaker's key judgments with emphasis",
+    "They show that the speaker is unsure of what to say next",
+    "They change the subject from the graduates to the speaker"
+   ],
+   "correctAnswer": 1,
+   "explanation": "After longer sentences, the short ones land as firm, memorable statements.",
+   "choiceExplanations": [
+    "There are no statistics.",
+    "",
+    "They sound certain.",
+    "They advance the same subject."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-r1"
+  },
+  {
+   "id": "lang-u8-q04",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-audience",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How does the final sentence connect the speech's choices to its purpose?",
+   "choices": [
+    "It shifts the speech's audience from the graduates to their employers and the coworkers they see at their jobs",
+    "It contradicts paragraph 2's claim that the long way taught the graduates valuable skills",
+    "It turns “the long way,” first presented as a hardship, into something that can help others, giving graduates a role",
+    "It suggests that the long way should be avoided by the people who ask the graduates for advice"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The repeated phrase gains a new meaning, ending with a call to action that suits a graduation audience.",
+   "choiceExplanations": [
+    "The graduates remain the audience.",
+    "It builds on paragraph 2's praise.",
+    "",
+    "It celebrates the long way."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-r1"
+  },
+  {
+   "id": "lang-u8-q05",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-diction",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 1, why does the writer mention being a hydrologist who has measured groundwater for fifteen years?",
+   "choices": [
+    "To tell a personal story about the writer's career that is unrelated to the argument",
+    "To establish expertise and credibility with the committee",
+    "To ask the committee for a job running the study",
+    "To criticize the committee for ignoring groundwater data"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Stating qualifications up front makes the data more trustworthy to legislators.",
+   "choiceExplanations": [
+    "The credentials support the argument.",
+    "",
+    "The letter asks for a study, not a job.",
+    "The tone is respectful, not critical."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-r2"
+  },
+  {
+   "id": "lang-u8-q06",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-audience",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Why does the writer compare the groundwater to a household budget in paragraph 2?",
+   "choices": [
+    "To argue that households in Harlan County use too much water each year",
+    "To make a technical trend easy for non-scientist legislators to grasp",
+    "To show off technical vocabulary about aquifers and recharge rates",
+    "To change the topic to the county's taxes and spending"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A familiar comparison translates the data into terms the audience already understands.",
+   "choiceExplanations": [
+    "The comparison is about the county's groundwater as a whole.",
+    "",
+    "The comparison avoids technical vocabulary.",
+    "Taxes and spending aren't discussed; the budget is a comparison."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-r2"
+  },
+  {
+   "id": "lang-u8-q07",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-diction",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which best describes the writer's tone in paragraph 3?",
+   "choices": [
+    "Despairing and hopeless",
+    "Playful and joking",
+    "Angry and accusing",
+    "Respectful and measured"
+   ],
+   "correctAnswer": 3,
+   "explanation": "“I respectfully ask” and “do not settle every question” sound careful and courteous.",
+   "choiceExplanations": [
+    "The writer proposes a constructive step.",
+    "The subject is treated seriously.",
+    "The writer doesn't accuse anyone.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-r2"
+  },
+  {
+   "id": "lang-u8-q08",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-diction",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 3, the writer admits the data “do not settle every question.” How does this choice likely affect the committee's view of the writer?",
+   "choices": [
+    "It makes the writer seem uninformed about the groundwater data",
+    "It shows that the writer opposes the study and favors approving new pumping permits",
+    "It makes the writer seem honest and careful, which strengthens the request",
+    "It contradicts the data on falling water levels presented in paragraph 1"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Acknowledging the data's limits matches a scientist's careful persona and fits a request for more study.",
+   "choiceExplanations": [
+    "Admitting limits signals expertise, not ignorance.",
+    "The writer is requesting the study.",
+    "",
+    "It qualifies, not contradicts, the data."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-r2"
+  },
+  {
+   "id": "lang-u8-q09",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-audience",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Sentence (2) uses a comparison that is poorly suited to sixth graders. Why?",
+   "choices": [
+    "It is too short to explain what joining a club involves",
+    "It uses a question the sixth graders cannot answer yet",
+    "It relies on financial terms most sixth graders don't know",
+    "It mentions robotics, which just some of the sixth graders like"
+   ],
+   "correctAnswer": 2,
+   "explanation": "“Diversified portfolio of extracurricular assets” assumes knowledge of investing.",
+   "choiceExplanations": [
+    "Length isn't the problem; the vocabulary is.",
+    "It isn't a question.",
+    "",
+    "It doesn't mention robotics."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-w1"
+  },
+  {
+   "id": "lang-u8-q10",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-audience",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which replacement for sentence (2) best suits the audience?",
+   "choices": [
+    "Joining a club is like finding a lunch table where everyone likes the same things you do.",
+    "Joining a club is a decision with numerous ramifications for your social and academic future.",
+    "Joining a club is a strategic investment in human capital that pays dividends for years.",
+    "Clubs exist."
+   ],
+   "correctAnswer": 0,
+   "explanation": "A lunch-table comparison comes from sixth graders' everyday experience.",
+   "choiceExplanations": [
+    "",
+    "This is vague and formal.",
+    "This is even more abstract and financial.",
+    "This offers no comparison."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-w1"
+  },
+  {
+   "id": "lang-u8-q11",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-style",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The writer wants to combine sentences (3) and (4) to show that both benefits matter. Which is best?",
+   "choices": [
+    "You meet people who like what you like, which is something you won't learn in any of your classes.",
+    "You meet people who like what you like, and you learn skills you won't learn in class.",
+    "You meet people who like what you like you learn skills you won't learn in class.",
+    "Meeting people who like what you like, and skills you won't learn in class."
+   ],
+   "correctAnswer": 1,
+   "explanation": "“And” joins two equally important benefits in a clear, grammatical sentence.",
+   "choiceExplanations": [
+    "This illogically says that meeting people is something learned in class.",
+    "",
+    "This is a run-on sentence.",
+    "This is a fragment with no main verb."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-w1"
+  },
+  {
+   "id": "lang-u8-q12",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-diction",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Sentence (5) ends the paragraph abruptly. Which revision would best make the speaker seem relatable to sixth graders while supporting the point?",
+   "choices": [
+    "Robots are machines that many students enjoy building in clubs after school.",
+    "My first club was the robotics team, which won several regional competitions while I served as its captain and leader.",
+    "My first club was the robotics team.",
+    "My first club was the robotics team; on the first day I knew no one, and by spring those were the people I ate lunch with."
+   ],
+   "correctAnswer": 3,
+   "explanation": "Sharing the same nervousness the audience feels makes the speaker relatable and illustrates the benefit.",
+   "choiceExplanations": [
+    "This is irrelevant.",
+    "Boasting about being captain distances the speaker from nervous sixth graders.",
+    "This is unchanged.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-w1"
+  },
+  {
+   "id": "lang-u8-q13",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-diction",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How is the writer likely to be perceived because of sentences (1) and (2)?",
+   "choices": [
+    "As too informal and accusatory for an email to a city official",
+    "As respectful and formal, which suits a city official",
+    "As neutral and objective about the courts",
+    "As an expert in building and maintaining public sports facilities"
+   ],
+   "correctAnswer": 0,
+   "explanation": "“Hey!” and “nobody in charge cares” may make the director defensive.",
+   "choiceExplanations": [
+    "",
+    "The language is casual and accusing.",
+    "The tone is charged, not neutral.",
+    "Nothing shows expertise."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-w2"
+  },
+  {
+   "id": "lang-u8-q14",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-diction",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which revision of sentence (2) best suits the audience while keeping the writer's concern?",
+   "choices": [
+    "Nobody at the parks department cares about the Lincoln Park courts except our team.",
+    "The courts at Lincoln Park are, like, kind of bad and stuff.",
+    "I am writing about the basketball courts at Lincoln Park, which need repairs.",
+    "The courts at Lincoln Park are trash, and everyone knows it."
+   ],
+   "correctAnswer": 2,
+   "explanation": "A clear, polite statement of purpose suits an email to a city official.",
+   "choiceExplanations": [
+    "This still accuses.",
+    "This is too casual and vague.",
+    "",
+    "This is insulting."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-w2"
+  },
+  {
+   "id": "lang-u8-q15",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-audience",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which detail in the email would most likely persuade the parks director to act?",
+   "choices": [
+    "Sentence (2), because it shows strong feelings",
+    "Sentence (1), because it greets the director",
+    "Sentence (5), because it is short and gets straight to the point",
+    "Sentence (3), because it describes specific, verifiable damage"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Specific damage gives the director a clear problem to send crews to fix.",
+   "choiceExplanations": [
+    "Strong feelings without evidence may backfire.",
+    "A greeting isn't persuasive evidence.",
+    "Brevity alone doesn't persuade.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-w2"
+  },
+  {
+   "id": "lang-u8-q16",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "topicId": "lang8-style",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which revision of sentence (5) gives the request the most effective emphasis for this audience?",
+   "choices": [
+    "PLEASE FIX THE COURTS AT LINCOLN PARK NOW, BEFORE ANOTHER SEASON IS RUINED FOR EVERYONE!!!",
+    "Fix the courts this month, or our team will tell everyone in town that the parks director simply doesn't care.",
+    "Courts.",
+    "Repairing the backboards and replacing the two rims before summer would let our team and other families play safely."
+   ],
+   "correctAnswer": 3,
+   "explanation": "A specific, polite request that names the benefit to the community gives the director a reason to act.",
+   "choiceExplanations": [
+    "Capital letters and exclamation points seem rude.",
+    "A threat would alienate the director.",
+    "A one-word fragment doesn't make a request.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang8-w2"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lang-u8-os1",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "title": "OpenStax Writing Guide with Handbook, 9.3 Glance at Genre: Rhetorical Strategies",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/9-3-glance-at-genre-rhetorical-strategies",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on rhetorical and stylistic strategies. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/9-3-glance-at-genre-rhetorical-strategies",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-lang-u8-os2",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u8",
+   "title": "OpenStax Writing Guide with Handbook, 10.7 Evaluation: Varied Appeals",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/10-7-evaluation-varied-appeals",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on choosing appeals for an audience. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/10-7-evaluation-varied-appeals",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Language free-response questions (synthesis, rhetorical analysis, and argument) each draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lang-u8-q01",
+    "lang-u8-q02",
+    "lang-u8-q03",
+    "lang-u8-q04",
+    "lang-u8-q09",
+    "lang-u8-q10",
+    "lang-u8-q11",
+    "lang-u8-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lang-u8-q05",
+    "lang-u8-q06",
+    "lang-u8-q07",
+    "lang-u8-q08",
+    "lang-u8-q13",
+    "lang-u8-q14",
+    "lang-u8-q15",
+    "lang-u8-q16"
+   ]
+  }
+ ]
+}

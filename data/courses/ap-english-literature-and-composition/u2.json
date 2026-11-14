@@ -1,0 +1,714 @@
+{
+ "courseId": "ap-english-literature-and-composition",
+ "unitId": "u2",
+ "title": "Unit 2: Poetry I",
+ "topics": [
+  {
+   "id": "lit2-speaker",
+   "name": "Speakers and characters in poems",
+   "covers": [
+    "Identifying characters in poetry"
+   ],
+   "frameworkCovers": [
+    "1.A Identify and describe what specific textual details reveal about a character, that character’s perspective, and that character’s motives."
+   ]
+  },
+  {
+   "id": "lit2-structure",
+   "name": "Structure and contrast in poems",
+   "covers": [
+    "Understanding and interpreting meaning in poetic structure"
+   ],
+   "frameworkCovers": [
+    "3.C Explain the function of structure in a text.",
+    "3.D Explain the function of contrasts within a text."
+   ]
+  },
+  {
+   "id": "lit2-language",
+   "name": "Word choice, simile, metaphor, and sound",
+   "covers": [
+    "Analyzing word choice to find meaning",
+    "Identifying techniques like contrast, simile, metaphor, and alliteration"
+   ],
+   "frameworkCovers": [
+    "5.B Explain the function of specific words and phrases in a text.",
+    "6.A Identify and explain the function of a simile.",
+    "6.B Identify and explain the function of a metaphor.",
+    "7.A Develop a paragraph that includes 1) a claim that requires defense with evidence from the text and 2) the evidence itself."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 2: Poetry I: review guide",
+  "intro": "Poems compress meaning into a few lines. This unit practices identifying who speaks and who appears in a poem, seeing how a poem's structure and contrasts shape meaning, and explaining the effect of word choice, similes, metaphors, and sound.",
+  "sections": [
+   {
+    "id": "s-lit2-speaker",
+    "topicId": "lit2-speaker",
+    "title": "Speakers and characters",
+    "body": [
+     "The speaker is the voice of the poem, which is not necessarily the poet. Poems can also include characters: people the speaker describes or addresses.",
+     "Ask what details reveal about the speaker's or a character's perspective and feelings: what they notice, how they describe it, and what they leave unsaid."
+    ],
+    "points": [
+     "Say “the speaker,” not “the poet.”",
+     "A poem addressed to someone (“you”) reveals a relationship."
+    ]
+   },
+   {
+    "id": "s-lit2-structure",
+    "topicId": "lit2-structure",
+    "title": "Structure and contrast",
+    "body": [
+     "Structure includes line breaks, stanzas, repetition, and shifts. A shift (often signaled by “but,” “yet,” “now,” or a new stanza) can turn the poem's meaning.",
+     "Contrasts, such as past and present, inside and outside, or light and dark, often carry a poem's central tension."
+    ],
+    "points": [
+     "Look for where a poem turns.",
+     "Compare how the poem begins and ends."
+    ]
+   },
+   {
+    "id": "s-lit2-language",
+    "topicId": "lit2-language",
+    "title": "Word choice, simile, metaphor, and sound",
+    "body": [
+     "A simile compares using “like” or “as”; a metaphor states or implies that one thing is another. Ask what qualities the comparison transfers.",
+     "Diction (word choice) carries connotations: “cottage” and “shack” suggest different things. Alliteration (repeated initial sounds) can link words and set a tone."
+    ],
+    "points": [
+     "Explain the effect of a technique, not just its name.",
+     "Connotation matters as much as definition."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain the metaphor in “My grief is a house with every window shut.”",
+   "solution": "It presents grief as an enclosed space that keeps the speaker in and the world out: grief isolates and darkens, and the speaker hasn't yet opened up to others."
+  },
+  "misconceptions": [
+   [
+    "“The speaker is always the poet.”",
+    "The speaker is a voice the poet creates."
+   ],
+   [
+    "“Naming a device is enough.”",
+    "Explain what the device does to meaning."
+   ],
+   [
+    "“Every line break is random.”",
+    "Line breaks can emphasize words or create pauses and surprise."
+   ],
+   [
+    "“A poem means only one thing.”",
+    "Poems can support several interpretations, each needing evidence."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Literature and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+  "sourceTitle": "AP English Literature and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "lit2-a",
+   "title": "Poem 1: “My Father's Hands”",
+   "text": [
+    "(1) My father's hands were rough as bark,",
+    "(2) they smelled of oil and cut tobacco;",
+    "(3) he fixed the porch light after dark",
+    "(4) and cursed the hinges, soft and low.",
+    "(5) I never saw those hands at rest,",
+    "(6) not once in all the years I knew,",
+    "(7) until the morning he was dressed",
+    "(8) in someone else's idea of blue."
+   ],
+   "attribution": "Original poem written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit2-b",
+   "title": "Poem 2: “Two Windows”",
+   "text": [
+    "(1) In winter, from the kitchen window,",
+    "(2) the yard is a page no one has written on;",
+    "(3) the fence posts stand like pickets of a story",
+    "(4) that never got started.",
+    "(5) In summer, from the same window,",
+    "(6) my children shout across the grass,",
+    "(7) the swing creaks out its single note,",
+    "(8) and the page is full of their names."
+   ],
+   "attribution": "Original poem written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit2-c",
+   "title": "Poem 3: “Commute”",
+   "text": [
+    "(1) The train is a long gray thought",
+    "(2) that the city thinks every morning,",
+    "(3) carrying us, the small ideas,",
+    "(4) from one forgetting to the next.",
+    "(5) We hold our coffee, hold our phones,",
+    "(6) hold on, hold still, hold back,",
+    "(7) and at each stop the doors breathe open",
+    "(8) and nobody gets off who meant to."
+   ],
+   "attribution": "Original poem written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit2-d",
+   "title": "Poem 4: “Lesson”",
+   "text": [
+    "(1) My grandmother taught me to fold dumplings",
+    "(2) the way her mother taught her:",
+    "(3) pinch, pleat, pinch, a crescent moon",
+    "(4) of dough in my clumsy palm.",
+    "(5) Mine burst in the boiling water.",
+    "(6) Hers floated up like small white boats",
+    "(7) returning from a long voyage.",
+    "(8) She ate my broken ones herself."
+   ],
+   "attribution": "Original poem written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lit-u2-q01",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-language",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In line 1, the simile “rough as bark” suggests that the father's hands were",
+   "choices": [
+    "always cold",
+    "hardened by work and weather",
+    "covered in sap from the trees he cut",
+    "gentle and soft"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Comparing his hands to bark conveys toughness and texture from labor.",
+   "choiceExplanations": [
+    "The simile concerns texture, not temperature.",
+    "",
+    "It is figurative, not literal.",
+    "Bark is rough, not soft."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-a"
+  },
+  {
+   "id": "lit-u2-q02",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-speaker",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Who is the speaker of the poem?",
+   "choices": [
+    "A narrator who never knew the father",
+    "A neighbor fixing the porch light",
+    "The father himself",
+    "The father's child, remembering him"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The speaker says “My father's hands” and refers to “all the years I knew.”",
+   "choiceExplanations": [
+    "The speaker knew him for years.",
+    "No neighbor appears.",
+    "The father is described, not speaking.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-a"
+  },
+  {
+   "id": "lit-u2-q03",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-structure",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What contrast is central to the poem?",
+   "choices": [
+    "The father's constant activity in life versus his stillness in death",
+    "City versus country",
+    "Summer versus winter",
+    "The speaker's own youth versus the speaker's old age, many decades later"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Stanza 1 shows busy hands; stanza 2 ends with the first time they were “at rest,” at his funeral.",
+   "choiceExplanations": [
+    "",
+    "No city and country contrast appears.",
+    "Seasons aren't contrasted.",
+    "The focus is on the father, not the speaker's age."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-a"
+  },
+  {
+   "id": "lit-u2-q04",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-language",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The phrase “someone else's idea of blue” (line 8) most likely suggests that",
+   "choices": [
+    "the father was dressed for burial in clothes that didn't reflect who he was",
+    "the speaker chose the father's clothes for the funeral and now regrets choosing the color",
+    "the father loved the color blue",
+    "the father was cold"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The phrase implies the burial clothes were chosen by others, unlike the oily work clothes the speaker remembers.",
+   "choiceExplanations": [
+    "",
+    "“Someone else” chose them.",
+    "The phrase implies the choice wasn't his.",
+    "The line describes clothing, not temperature."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-a"
+  },
+  {
+   "id": "lit-u2-q05",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-language",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In line 2, the metaphor of the yard as “a page no one has written on” suggests that in winter the yard is",
+   "choices": [
+    "dangerous",
+    "full of activity",
+    "empty and quiet, waiting to be filled",
+    "covered in printed signs and the marks of other people"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A blank page suggests snow-covered emptiness and absence of life.",
+   "choiceExplanations": [
+    "Nothing suggests danger.",
+    "Activity comes in the summer stanza.",
+    "",
+    "The page is figurative."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-b"
+  },
+  {
+   "id": "lit-u2-q06",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-structure",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How does the poem's two-stanza structure develop its meaning?",
+   "choices": [
+    "It presents the same view in two seasons, contrasting emptiness with a life filled by the speaker's children",
+    "It changes setting from the speaker's kitchen to the yard of a neighbor across the fence, comparing two families",
+    "It switches speakers between stanzas",
+    "It moves from the present to the distant past"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Both stanzas begin “from the (same) kitchen window,” and the contrast lies in what fills the yard.",
+   "choiceExplanations": [
+    "",
+    "The view is from the same window.",
+    "The speaker stays the same.",
+    "Both stanzas describe the present cycle of seasons."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-b"
+  },
+  {
+   "id": "lit-u2-q07",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-language",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How does the final line return to an image from the first stanza?",
+   "choices": [
+    "The fence posts return as pickets",
+    "The blank page is now “full of their names,” completing the earlier metaphor",
+    "The kitchen window is replaced by a door",
+    "The swing, put away for the winter, is brought back out into the yard by the children"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The page metaphor is extended: winter's blank page becomes summer's written one.",
+   "choiceExplanations": [
+    "The fence posts appear only in stanza 1.",
+    "",
+    "The window is the same.",
+    "The swing appears only in stanza 2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-b"
+  },
+  {
+   "id": "lit-u2-q08",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-speaker",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What does the poem suggest about the speaker's perspective?",
+   "choices": [
+    "The speaker is annoyed by noise",
+    "The speaker prefers winter's silence",
+    "The speaker is a child watching a parent, wishing for the quiet of winter to return",
+    "The speaker finds meaning and fullness in the presence of their children"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The yard becomes a story only when the children fill it with their names and noise.",
+   "choiceExplanations": [
+    "The shouting fills the page with meaning, not annoyance.",
+    "Winter is described as an unstarted story.",
+    "The speaker refers to “my children.”",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-b"
+  },
+  {
+   "id": "lit-u2-q09",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-language",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In lines 1–2, the train is compared to",
+   "choices": [
+    "a river",
+    "a gray animal running through the streets",
+    "a clock",
+    "a thought the city thinks"
+   ],
+   "correctAnswer": 3,
+   "explanation": "“The train is a long gray thought / that the city thinks.”",
+   "choiceExplanations": [
+    "No river is mentioned.",
+    "No animal is mentioned.",
+    "No clock is mentioned.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-c"
+  },
+  {
+   "id": "lit-u2-q10",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-language",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The repetition of “hold” in lines 5–6 mainly emphasizes",
+   "choices": [
+    "the passengers' tension and self-restraint",
+    "the passengers' eager joy at going to work each day",
+    "the speaker's hunger",
+    "the speed of the train"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Holding things, holding on, still, and back accumulates into a feeling of constraint.",
+   "choiceExplanations": [
+    "",
+    "The tone is constrained, not joyful.",
+    "Coffee is only one item held.",
+    "The repetition concerns the passengers."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-c"
+  },
+  {
+   "id": "lit-u2-q11",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-structure",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The final line (“nobody gets off who meant to”) most likely suggests that the passengers",
+   "choices": [
+    "are all going to the same place",
+    "are lost in a foreign city and cannot work out which stops they need",
+    "never reach work",
+    "drift through their routines without acting on their intentions"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Read figuratively, the line suggests people continue in habits rather than making the changes they intend.",
+   "choiceExplanations": [
+    "Nothing says they share a destination.",
+    "Nothing suggests a foreign city.",
+    "The line is figurative rather than about missing stops literally.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-c"
+  },
+  {
+   "id": "lit-u2-q12",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-speaker",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "By calling the passengers “the small ideas” (line 3), the speaker presents them as",
+   "choices": [
+    "the speaker's close friends",
+    "dangerous rebels",
+    "minor parts of a larger, impersonal system",
+    "brilliant innovators who are changing the city"
+   ],
+   "correctAnswer": 2,
+   "explanation": "If the train is the city's thought, the passengers are tiny pieces of it, carried along without much control.",
+   "choiceExplanations": [
+    "The passengers aren't described as friends.",
+    "Their restraint suggests the opposite of rebellion.",
+    "",
+    "“Small” undercuts any idea of brilliance."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-c"
+  },
+  {
+   "id": "lit-u2-q13",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-speaker",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The poem presents the speaker as",
+   "choices": [
+    "a stranger watching",
+    "a grandchild learning a family tradition",
+    "the grandmother",
+    "a professional cook teaching a cooking class"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The speaker is taught “the way her mother taught her.”",
+   "choiceExplanations": [
+    "The speaker is being taught.",
+    "",
+    "The grandmother is described as “she.”",
+    "The speaker's dumplings burst, so they are a beginner."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-d"
+  },
+  {
+   "id": "lit-u2-q14",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-language",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The simile in lines 6–7 (“like small white boats / returning from a long voyage”) suggests that the grandmother's dumplings",
+   "choices": [
+    "are poorly shaped",
+    "are too heavy to float",
+    "are skillfully made and carry a long history",
+    "taste of the sea, like boats after a long voyage"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Boats returning from a voyage suggest success and the long journey of a tradition across generations.",
+   "choiceExplanations": [
+    "They float whole, unlike the speaker's.",
+    "They float up.",
+    "",
+    "The comparison concerns appearance and history, not taste."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-d"
+  },
+  {
+   "id": "lit-u2-q15",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-structure",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which contrast structures the second stanza?",
+   "choices": [
+    "Morning versus night",
+    "The speaker's bursting dumplings versus the grandmother's floating ones",
+    "Summer versus winter",
+    "The grandmother's patient silence versus the speaker's loud shouting in the kitchen"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Line 5 and lines 6–7 set the speaker's failure beside the grandmother's skill.",
+   "choiceExplanations": [
+    "Time of day isn't contrasted.",
+    "",
+    "Seasons aren't mentioned.",
+    "Sound isn't contrasted."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-d"
+  },
+  {
+   "id": "lit-u2-q16",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "topicId": "lit2-language",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The final line (“She ate my broken ones herself”) most strongly suggests",
+   "choices": [
+    "that the dumplings were wasted",
+    "the grandmother's disappointment in the speaker's lack of skill",
+    "the grandmother's quiet, protective love for the speaker",
+    "that the speaker refused to eat"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Eating the failures herself spares the speaker embarrassment: an act of tenderness.",
+   "choiceExplanations": [
+    "She eats them, so nothing is wasted.",
+    "The act is generous, not critical.",
+    "",
+    "Nothing suggests the speaker refused."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit2-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lit-u2-os1",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u2",
+   "title": "OpenStax Writing Guide with Handbook, 16.1 An Author’s Choices: What Text Says and How It Says It",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/16-1-an-authors-choices-what-text-says-and-how-it-says-it",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on analyzing an author's choices; it is about texts in general, not poetry specifically. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/16-1-an-authors-choices-what-text-says-and-how-it-says-it",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Literature free-response questions (poetry analysis, prose fiction analysis, and literary argument) draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lit-u2-q01",
+    "lit-u2-q02",
+    "lit-u2-q03",
+    "lit-u2-q04",
+    "lit-u2-q05",
+    "lit-u2-q06",
+    "lit-u2-q07",
+    "lit-u2-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lit-u2-q09",
+    "lit-u2-q10",
+    "lit-u2-q11",
+    "lit-u2-q12",
+    "lit-u2-q13",
+    "lit-u2-q14",
+    "lit-u2-q15",
+    "lit-u2-q16"
+   ]
+  }
+ ]
+}

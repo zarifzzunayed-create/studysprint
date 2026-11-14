@@ -4,6 +4,7 @@
  "officialUrl": "https://apcentral.collegeboard.org/courses/ap-physics-c-mechanics",
  "studentUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
  "frameworkUrl": "https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf",
+ "frameworkVersion": "Not recorded at the last check; confirm the current edition of the Course and Exam Description.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-physics-c-mechanics/exam/past-exam-questions",
   "note": null
@@ -18,8 +19,8 @@
   {
    "id": "u1",
    "name": "Unit 1: Kinematics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-c-mechanics/u1.json",
    "officialTopics": [
     "Kinematics in one dimension",
     "Kinematics in two dimensions"
@@ -28,8 +29,8 @@
   {
    "id": "u2",
    "name": "Unit 2: Force and Translational Dynamics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-c-mechanics/u2.json",
    "officialTopics": [
     "Center of mass",
     "Systems",
@@ -42,8 +43,8 @@
   {
    "id": "u3",
    "name": "Unit 3: Work, Energy, and Power",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-c-mechanics/u3.json",
    "officialTopics": [
     "Work–energy theorem",
     "Forces and potential energy",
@@ -54,8 +55,8 @@
   {
    "id": "u4",
    "name": "Unit 4: Linear Momentum",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-c-mechanics/u4.json",
    "officialTopics": [
     "Impulse and momentum",
     "Conservation of linear momentum, collisions"
@@ -64,8 +65,8 @@
   {
    "id": "u5",
    "name": "Unit 5: Torque and Rotational Dynamics",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-c-mechanics/u5.json",
    "officialTopics": [
     "Torque and rotational statics",
     "Rotational kinematics",
@@ -75,8 +76,8 @@
   {
    "id": "u6",
    "name": "Unit 6: Energy and Momentum of Rotating Systems",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-c-mechanics/u6.json",
    "officialTopics": [
     "Rotational kinetic energy",
     "Angular momentum",
@@ -87,8 +88,8 @@
   {
    "id": "u7",
    "name": "Unit 7: Oscillations",
-   "status": "outline",
-   "file": null,
+   "status": "practice-ready",
+   "file": "data/courses/ap-physics-c-mechanics/u7.json",
    "officialTopics": [
     "Periodic motion",
     "Pendulums",

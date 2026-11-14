@@ -1,0 +1,940 @@
+{
+ "courseId": "ap-psychology",
+ "unitId": "u2",
+ "title": "Unit 2: Cognition",
+ "topics": [
+  {
+   "id": "psy2-perception",
+   "name": "Perception and attention",
+   "covers": [
+    "Perception"
+   ],
+   "frameworkCovers": [
+    "2.1 Perception"
+   ]
+  },
+  {
+   "id": "psy2-thinking",
+   "name": "Thinking, problem-solving, judgments, and decisions",
+   "covers": [
+    "Biases and errors in thinking, creative thinking, and problem-solving strategies"
+   ],
+   "frameworkCovers": [
+    "2.2 Thinking, Problem-Solving, Judgments, and Decision-Making"
+   ]
+  },
+  {
+   "id": "psy2-memory",
+   "name": "Memory: types, encoding, storage, and retrieval",
+   "covers": [
+    "The cognitive and physiological processes that make up memory"
+   ],
+   "frameworkCovers": [
+    "2.3 Introduction to Memory",
+    "2.4 Encoding Memories",
+    "2.5 Storing Memories",
+    "2.6 Retrieving Memories"
+   ]
+  },
+  {
+   "id": "psy2-forgetting",
+   "name": "Forgetting and memory errors",
+   "covers": [
+    "Forgetting and typical memory errors"
+   ],
+   "frameworkCovers": [
+    "2.7 Forgetting and Other Memory Challenges"
+   ]
+  },
+  {
+   "id": "psy2-intelligence",
+   "name": "Intelligence and achievement",
+   "covers": [
+    "Defining and measuring intelligence and achievement"
+   ],
+   "frameworkCovers": [
+    "2.8 Intelligence and Achievement"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 2: Cognition: review guide",
+  "intro": "This unit covers how we interpret what we sense, how we think and decide, how memories are formed, stored, retrieved, and lost, and how intelligence and achievement are defined and measured. Many questions name a short scenario and ask which bias, memory process, or testing concept it shows.",
+  "sections": [
+   {
+    "id": "s-psy2-perception",
+    "topicId": "psy2-perception",
+    "title": "Perception and attention",
+    "body": [
+     "Perception organizes and interprets sensations. Bottom-up processing starts from the incoming sensory information; top-down processing uses prior knowledge and expectations. Internal factors such as schemas and perceptual sets (a readiness to perceive something in a particular way) filter perception, as do external factors such as context and cultural experience. Gestalt principles describe how we group what we see: closure (filling gaps to see a whole), figure and ground, proximity (near things group together), and similarity (alike things group together).",
+     "Attention is selective: in the cocktail party effect, a person in a noisy room still notices their own name. Inattention can cause blindness to parts of the scene; in change blindness, people fail to notice that something changed. Depth comes from binocular cues (retinal disparity and convergence, which need both eyes) and monocular cues (relative clarity, relative size, texture gradient, linear perspective, and interposition, which work on flat pictures). Perceptual constancies keep an object's perceived size, shape, and color stable as its image changes, and apparent movement is seen when nothing is actually moving."
+    ],
+    "points": [
+     "Top-down: expectations shape what you see; bottom-up: the stimulus does.",
+     "Only the listed monocular cues are on the exam.",
+     "Binocular cues need two eyes; a painting can use only monocular cues."
+    ]
+   },
+   {
+    "id": "s-psy2-thinking",
+    "topicId": "psy2-thinking",
+    "title": "Thinking, problem-solving, judgments, and decisions",
+    "body": [
+     "Concepts are the building blocks of thought, and a prototype is the best example of a concept. Schemas change through assimilation (fitting new information into an existing schema without changing it) and accommodation (changing the schema to fit new information). An algorithm works through possible solutions systematically until the right one is found; a heuristic is a mental shortcut that is faster but can err. The representativeness heuristic judges by how well something matches a stereotype or prototype; the availability heuristic judges by how easily examples come to mind.",
+     "Decisions are shaped by mental set (sticking with a method that worked before), priming (earlier exposure activating related ideas), and framing (how choices are worded). The gambler's fallacy is believing a chance event is “due” after a streak; the sunk-cost fallacy is continuing to invest because of what has already been spent. Executive functions let people plan and carry out goal-directed behavior. Creativity involves divergent thinking (generating many novel ideas) rather than convergent thinking (narrowing to one answer); functional fixedness, seeing objects only in their usual use, blocks creative solutions."
+    ],
+    "points": [
+     "Availability = what is vivid or recent; representativeness = what fits the prototype.",
+     "Mental set repeats an old method; functional fixedness limits an object's use.",
+     "Framing changes the wording, not the facts."
+    ]
+   },
+   {
+    "id": "s-psy2-memory",
+    "topicId": "psy2-memory",
+    "title": "Memory: types, encoding, storage, and retrieval",
+    "body": [
+     "Explicit memories can be put into words: episodic (personal events) and semantic (facts). Implicit memories are harder to describe; procedural memory for skills is one type. Prospective memory is remembering to do something in the future. Biologically, long-term potentiation strengthens synapses that are activated often. The multi-store model has sensory memory (iconic for sights, echoic for sounds), short-term memory, and long-term memory, with automatic and effortful processing. The working memory model describes a central executive that directs a phonological loop and a visuospatial sketchpad. The levels of processing model ranks encoding from shallow to deep: structural, phonemic, and semantic.",
+     "Encoding improves with mnemonic devices such as the method of loci, with chunking and organizing into categories or hierarchies, and with distributed rather than massed practice (the spacing effect). The serial position effect makes the first items (primacy) and last items (recency) of a list easier to remember than the middle. Memory stores differ in duration, capacity, and content; maintenance rehearsal keeps information active, while elaborative rehearsal links it to meaning and works better for long-term retention. Storage can be harmed by retrograde amnesia (loss of earlier memories), anterograde amnesia (inability to form new ones), Alzheimer's disease, and infantile amnesia.",
+     "Recall retrieves without cues; recognition uses cues, which is why multiple choice is usually easier than fill-in-the-blank. Retrieval is easier in the same place (context-dependent), mood (mood-congruent), or physical state (state-dependent) as at encoding. Retrieval practice, including the testing effect, and metacognition (judging what you know) strengthen later recall."
+    ],
+    "points": [
+     "Spacing beats cramming; testing yourself beats rereading.",
+     "Semantic (meaning-based) encoding is the deepest level.",
+     "Anterograde amnesia blocks new memories; retrograde erases old ones."
+    ]
+   },
+   {
+    "id": "s-psy2-forgetting",
+    "topicId": "psy2-forgetting",
+    "title": "Forgetting and memory errors",
+    "body": [
+     "The forgetting curve shows rapid forgetting soon after learning that then levels off. Memories fail because of encoding failure (the information never got in), interference, or inadequate retrieval, as in the tip-of-the-tongue phenomenon. Proactive interference is old learning disrupting new learning; retroactive interference is new learning disrupting old learning. Psychodynamic theorists propose repression, forgetting to protect the ego from distress.",
+     "Memories are reconstructed, not replayed. The misinformation effect occurs when misleading information after an event changes the memory of it; source amnesia is forgetting where information came from; constructive memory can add details through consolidation and imagination inflation (imagining an event makes it feel more like a memory)."
+    ],
+    "points": [
+     "Proactive works forward (old blocks new); retroactive works backward (new blocks old).",
+     "Leading questions can create the misinformation effect.",
+     "Confidence does not guarantee a memory is accurate."
+    ]
+   },
+   {
+    "id": "s-psy2-intelligence",
+    "topicId": "psy2-intelligence",
+    "title": "Intelligence and achievement",
+    "body": [
+     "Psychologists still debate whether intelligence is a general ability (g) or several distinct abilities, and definitions have been open to bias. Early tests computed a ratio IQ: mental age divided by chronological age, times 100. Useful tests are standardized (given under consistent procedures), valid (they measure what they claim; types include construct and predictive validity), and reliable (they give consistent results; types include test-retest and split-half reliability). Scores on many tests form a normal curve: with a mean of 100 and a standard deviation of 15, about 68% of people score between 85 and 115 and about 95% between 70 and 130.",
+     "Test makers try to be socioculturally responsive to reduce stereotype threat (worry about confirming a negative stereotype, which lowers performance) and stereotype lift (a boost from comparing oneself with a negatively stereotyped group). Average IQ scores have risen over generations (the Flynn effect), linked to better nutrition, health care, and living standards. Scores vary more within groups than between them, poverty and educational inequity can lower scores, and test scores have been misused to limit access to jobs, military ranks, schools, and immigration. Achievement tests measure what someone has learned; aptitude tests predict future performance. A growth mindset (intelligence can develop) is linked to higher achievement than a fixed mindset."
+    ],
+    "points": [
+     "Reliable = consistent; valid = measures the right thing. A test can be reliable but not valid.",
+     "Ratio IQ = mental age ÷ chronological age × 100.",
+     "Labelling specific cognitive abilities or disabilities is outside the AP exam."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Lena studies Spanish vocabulary for an hour and then studies French vocabulary for an hour. The next day she has trouble remembering the Spanish words. Identify and explain the memory error.",
+   "solution": "This is retroactive interference: the newer French learning disrupts retrieval of the older Spanish words. Spacing the two subjects apart, or studying them in different settings, would reduce the overlap."
+  },
+  "misconceptions": [
+   [
+    "“Memory works like a video recording.”",
+    "Memories are reconstructed each time and can change through misinformation and imagination."
+   ],
+   [
+    "“A reliable test must be valid.”",
+    "A test can give consistent scores while measuring the wrong thing; reliability does not guarantee validity."
+   ],
+   [
+    "“Heuristics are always mistakes.”",
+    "Heuristics are usually useful shortcuts; they lead to errors only in some situations."
+   ],
+   [
+    "“Cramming works as well as spacing if the total time is the same.”",
+    "Distributed practice produces better long-term retention than massed practice."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Psychology Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-psychology-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+  "sourceTitle": "AP Psychology – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "psy2-a",
+   "title": "Study 2: Spaced and massed vocabulary study (hypothetical study summary)",
+   "text": [
+    "A teacher-researcher studied 90 tenth-grade volunteers whose parents gave written permission. Students were randomly assigned to one of two study schedules for learning 50 words in a language none of them had studied.",
+    "The massed group studied in one 60-minute session. The distributed group studied in three 20-minute sessions on Monday, Wednesday, and Friday. Both groups used the same flashcards.",
+    "One week after each student's last study session, a tester who did not know the students' schedules gave a test asking students to write the meaning of each of the 50 words.",
+    "Results: massed group, mean 29 words correct (standard deviation 9); distributed group, mean 36 words correct (standard deviation 5). The difference was statistically significant (p < .01)."
+   ],
+   "attribution": "Hypothetical study summary written for StudySprint by its editors. The researchers, participants, and results are invented for practice and do not describe any published study.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "psy2-b",
+   "title": "Data set: Recall of a learned list over time (hypothetical data)",
+   "intro": "Participants were randomly assigned to two groups. Each participant learned a list of 20 nonsense syllables until they could recite it perfectly. Group 1 learned only that list. Group 2 then immediately learned a second, similar list. Different participants were tested after different delays on how much of the first list they could recall.",
+   "text": [
+    "Percentage of the first list recalled:",
+    "After 20 minutes: Group 1, 60%; Group 2, 45%",
+    "After 1 hour: Group 1, 48%; Group 2, 35%",
+    "After 1 day: Group 1, 33%; Group 2, 22%",
+    "After 6 days: Group 1, 27%; Group 2, 18%",
+    "After 30 days: Group 1, 24%; Group 2, 16%"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice data interpretation. The numbers are invented and do not come from any real study.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "psy-u2-q01",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-memory",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The results of Study 2 best illustrate which memory concept?",
+   "choices": [
+    "The serial position effect",
+    "The testing effect",
+    "Mood-congruent memory",
+    "The spacing effect"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Students who spread the same total study time over three sessions remembered more, which is the spacing effect (distributed practice beats massed practice).",
+   "choiceExplanations": [
+    "The serial position effect concerns where items fall in a list, which the study did not vary.",
+    "The testing effect concerns retrieval practice; both groups studied with the same flashcards, and only the schedule differed.",
+    "Mood-congruent memory concerns matching mood at encoding and retrieval, which the study did not measure.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy2-a"
+  },
+  {
+   "id": "psy-u2-q02",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-memory",
+   "skill": "2.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How did the researcher operationally define memory in Study 2?",
+   "choices": [
+    "The number of words correctly defined one week after the last session",
+    "Whether students felt confident that they had learned all of the words",
+    "The number of study sessions each student attended during the week",
+    "The total amount of study time each student was given, 60 minutes"
+   ],
+   "correctAnswer": 0,
+   "explanation": "An operational definition states exactly how a variable is measured; memory was measured as the number of words correctly defined on the delayed test.",
+   "choiceExplanations": [
+    "",
+    "Students' confidence was not measured, and confidence is not the same as accurate memory.",
+    "The number of sessions is how the independent variable (the study schedule) was set, not how memory was measured.",
+    "Total study time was held constant at 60 minutes for both groups, so it is a controlled variable."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy2-a"
+  },
+  {
+   "id": "psy-u2-q03",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-memory",
+   "skill": "2.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which change to Study 2 would most likely introduce a confounding variable?",
+   "choices": [
+    "Giving both groups the same flashcards and the same total of 60 minutes of study time",
+    "Using a larger sample of tenth graders drawn from several different schools in the area",
+    "Having a tester who does not know each student's schedule grade every one of the tests",
+    "Letting students pick their own schedule, so motivated students might choose spacing"
+   ],
+   "correctAnswer": 3,
+   "explanation": "If students chose their schedules, the groups could differ in motivation or ability, and that difference, rather than spacing, might explain the results.",
+   "choiceExplanations": [
+    "Equal materials and time are controls that keep the groups alike except for the schedule.",
+    "A larger, more varied sample improves generalizability; it does not create a systematic difference between groups.",
+    "A blind tester reduces experimenter bias, which removes a possible confound rather than adding one.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy2-a"
+  },
+  {
+   "id": "psy-u2-q04",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-memory",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What do the standard deviations reported in Study 2 indicate?",
+   "choices": [
+    "Scores in the distributed group were more tightly clustered around their mean.",
+    "Scores in the distributed group were spread more widely than the massed scores.",
+    "The difference between the two group means is too small to have any meaning.",
+    "The massed group had a higher mean score than the distributed group did."
+   ],
+   "correctAnswer": 0,
+   "explanation": "A smaller standard deviation (5 versus 9) means scores were closer to the group's mean, so the distributed group's scores varied less.",
+   "choiceExplanations": [
+    "",
+    "A smaller standard deviation means less spread, not more.",
+    "Standard deviations describe spread within a group; the study reports the difference between means as statistically significant.",
+    "The distributed group's mean (36) was higher than the massed group's (29)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy2-a"
+  },
+  {
+   "id": "psy-u2-q05",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-forgetting",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The pattern of recall for Group 1 best illustrates",
+   "choices": [
+    "the spacing effect: better recall after practice spread over time",
+    "the serial position effect: better recall at the start and end of a list",
+    "the forgetting curve: rapid early loss that levels off over time",
+    "steady decay: the same amount of loss for each additional day"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Group 1 lost 27 points in the first day but only 9 more over the next 29 days, which is the shape of the forgetting curve.",
+   "choiceExplanations": [
+    "Study time was not spread out or varied, so the spacing effect is not tested here.",
+    "The data show recall of a whole list at different delays, not recall by position in the list.",
+    "",
+    "Loss was fast at first and slow later, not the same each day."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy2-b"
+  },
+  {
+   "id": "psy-u2-q06",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-forgetting",
+   "skill": "3.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which statement is best supported by the data?",
+   "choices": [
+    "After 30 days, neither group could recall anything from the first list.",
+    "Recall dropped by about the same amount between every pair of delays.",
+    "Most of the forgetting of the first list happened within the first day.",
+    "Group 2 recalled more of the first list than Group 1 did at every delay."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Group 1 fell from 60% to 33% within a day and only to 24% by 30 days; Group 2 shows the same pattern.",
+   "choiceExplanations": [
+    "Both groups still recalled some of the list after 30 days (24% and 16%).",
+    "The drops shrink over time (for Group 1: 12, then 15, then 6, then 3 points), so they are not about equal.",
+    "",
+    "Group 2 recalled less than Group 1 at every delay."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy2-b"
+  },
+  {
+   "id": "psy-u2-q07",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-forgetting",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Group 2's lower recall of the first list is best explained by",
+   "choices": [
+    "proactive interference: older learning disrupted recall of newer material",
+    "retroactive interference: new learning disrupted recall of older material",
+    "encoding failure: Group 2 never paid attention to the first list at all",
+    "repression: Group 2 pushed the first list from awareness to reduce distress"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Group 2 learned a second, similar list after the first, and that newer learning interfered with retrieving the older list: retroactive interference.",
+   "choiceExplanations": [
+    "Proactive interference would show up as trouble recalling the second list; the data measure recall of the first list.",
+    "",
+    "Every participant learned the first list until they could recite it perfectly, so it was encoded.",
+    "Repression is a psychodynamic idea about distressing memories; nonsense syllables are not distressing, and the groups differed only in the second list."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy2-b"
+  },
+  {
+   "id": "psy-u2-q08",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-forgetting",
+   "skill": "2.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Because participants were randomly assigned to Group 1 or Group 2, the comparison between the groups is best described as",
+   "choices": [
+    "a case study, because each participant was examined in depth over a long time",
+    "an experiment, because the researchers manipulated whether a second list was learned",
+    "a correlational study, because recall and the length of the delay are closely related",
+    "a naturalistic observation, because participants were watched in daily life"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The researchers controlled whether participants learned a second list and randomly assigned them, which makes the group comparison an experiment.",
+   "choiceExplanations": [
+    "A case study examines one person or a few people in depth; this study tested many participants briefly.",
+    "",
+    "Recall is related to delay, but the researchers manipulated the second list and used random assignment, which goes beyond correlation.",
+    "Participants learned lists under controlled conditions, not in everyday settings."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy2-b"
+  },
+  {
+   "id": "psy-u2-q09",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-perception",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Six identical dots are printed in a row, with a wide gap after the third dot. Most people see two groups of three. Which Gestalt principle explains this?",
+   "choices": [
+    "Closure",
+    "Similarity",
+    "Figure and ground",
+    "Proximity"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Proximity means items close together are grouped; the gap splits the dots into two clusters.",
+   "choiceExplanations": [
+    "Closure fills in missing parts of a shape; nothing is missing here.",
+    "Similarity groups items that look alike, but all six dots are identical, so it cannot split them.",
+    "Figure and ground separates an object from its background, not one cluster from another.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u2-q10",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-perception",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "One class is told a blurry photo shows a ghost, and students report seeing a face in the shadows. Another class, told it shows a curtain, sees only folds of cloth. This best illustrates",
+   "choices": [
+    "a perceptual set produced by top-down processing",
+    "retinal disparity between the images in the two eyes",
+    "bottom-up processing driven by the photo's features",
+    "change blindness caused by inattention to the photo"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The photo was the same; what students expected to see shaped what they perceived, which is a perceptual set and top-down processing.",
+   "choiceExplanations": [
+    "",
+    "Retinal disparity is a binocular depth cue and does not explain different interpretations of a flat photo.",
+    "Both classes saw the same features, so the photo alone cannot explain the different perceptions.",
+    "Change blindness is failing to notice a change; nothing in the photo changed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u2-q11",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-perception",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A painter makes a road seem to stretch into the distance by drawing its edges meeting at a point on the horizon and painting far-off trees smaller. Which depth cues is the painter using?",
+   "choices": [
+    "Interposition and texture gradient, which are both binocular cues",
+    "Linear perspective and convergence, one cue of each of the two types",
+    "Linear perspective and relative size, which are both monocular cues",
+    "Retinal disparity and convergence, which are both binocular cues"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Lines meeting in the distance are linear perspective, and smaller-looking trees use relative size; both work on a flat canvas, so they are monocular.",
+   "choiceExplanations": [
+    "Interposition and texture gradient are monocular cues, and neither describes converging edges or smaller trees.",
+    "Convergence is a binocular cue from the eyes turning inward; a painting cannot use it.",
+    "",
+    "Binocular cues depend on two eyes viewing real depth; a flat painting cannot create them."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u2-q12",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-thinking",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "After watching several news reports about shark attacks, Dana believes shark attacks cause more deaths than car crashes. Which error in thinking does this show?",
+   "choices": [
+    "The sunk-cost fallacy",
+    "The availability heuristic",
+    "Functional fixedness",
+    "The representativeness heuristic"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Vivid, easily recalled examples made shark attacks seem more common than they are; that is the availability heuristic.",
+   "choiceExplanations": [
+    "The sunk-cost fallacy concerns continuing an investment, not judging how common events are.",
+    "",
+    "Functional fixedness limits how a person sees an object's uses; it is not about estimating risks.",
+    "Representativeness judges by fit to a prototype, not by how easily examples come to mind."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u2-q13",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-thinking",
+   "skill": "1.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Patients are more willing to have a surgery described as having a “90 percent survival rate” than one described as having a “10 percent death rate.” This illustrates",
+   "choices": [
+    "the gambler's fallacy",
+    "priming",
+    "framing",
+    "mental set"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The facts are identical; only the wording changed, and wording that emphasizes survival makes the choice more appealing. That is framing.",
+   "choiceExplanations": [
+    "The gambler's fallacy is believing a chance event is due after a streak, which is not involved here.",
+    "Priming is earlier exposure activating related ideas; here the difference is how the same choice is described.",
+    "",
+    "Mental set is reusing a strategy that worked before; no problem-solving strategy is involved."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u2-q14",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-thinking",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Ravi needs to tap a small nail into the wall but has no hammer. A heavy shoe is beside him, but he never thinks of using it. Which obstacle to problem-solving does this show?",
+   "choices": [
+    "Functional fixedness, which keeps him seeing the shoe only as footwear",
+    "The sunk-cost fallacy, which keeps him investing in a plan that is failing",
+    "Mental set, which keeps him repeating a method that worked for him before",
+    "Confirmation bias, which keeps him looking only for evidence he agrees with"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Functional fixedness is thinking of an object only in its usual role, so Ravi does not see the shoe as a possible hammer.",
+   "choiceExplanations": [
+    "",
+    "Ravi has not invested in a failing plan; he simply fails to see a new use for the shoe.",
+    "Mental set involves reusing an old strategy; nothing suggests Ravi is repeating a past method.",
+    "Confirmation bias concerns seeking supporting evidence for a belief, not seeing new uses for objects."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u2-q15",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-memory",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Jordan can still ride a bicycle after years without practice but finds it hard to explain how to keep balance. This skill is stored as",
+   "choices": [
+    "prospective memory, a memory for future plans",
+    "semantic memory, a type of explicit memory",
+    "procedural memory, a type of implicit memory",
+    "episodic memory, a type of explicit memory"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Skills that are performed without conscious recollection and are hard to put into words are procedural, a kind of implicit memory.",
+   "choiceExplanations": [
+    "Prospective memory is remembering to do something later, such as a planned errand.",
+    "Semantic memory holds facts that can be stated, not motor skills.",
+    "",
+    "Episodic memory holds personal events that can be described, such as a specific bike ride."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u2-q16",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-memory",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Participants hear a list of 20 words and then immediately write down as many as they can. Which words are they most likely to remember?",
+   "choices": [
+    "The words in the middle, which were rehearsed for the longest time by the end",
+    "The first few and last few words, showing primacy and recency effects",
+    "The longest words, which require deeper semantic processing to hear",
+    "Only the last few words, because the first ones fade within seconds"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The serial position effect predicts better recall for the start of the list (primacy) and the end (recency), with the middle remembered least.",
+   "choiceExplanations": [
+    "Middle items are typically remembered worst, not best.",
+    "",
+    "Word length does not determine depth of processing; meaning-based encoding does.",
+    "With immediate recall, early words are also remembered well because they were rehearsed more."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u2-q17",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-forgetting",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A witness to a minor bike accident is later asked, “How fast was the bike going when it slammed into the car?” A week later, the witness remembers a much more violent crash than the one that happened. This best illustrates",
+   "choices": [
+    "the misinformation effect",
+    "encoding failure",
+    "proactive interference from earlier memories",
+    "infantile amnesia"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Misleading wording after the event (“slammed”) changed the witness's memory of it, which is the misinformation effect.",
+   "choiceExplanations": [
+    "",
+    "The witness did encode the event; the problem is that the memory was later changed.",
+    "Proactive interference is older learning disrupting newer learning; here later information altered an earlier memory.",
+    "Infantile amnesia is the inability to recall events from early childhood."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u2-q18",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-intelligence",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Students who take the same aptitude test twice, two weeks apart, earn very similar scores both times. This shows the test has",
+   "choices": [
+    "good test-retest reliability",
+    "standardized procedures for scoring",
+    "good predictive validity",
+    "good construct validity"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Consistent scores across two administrations is test-retest reliability.",
+   "choiceExplanations": [
+    "",
+    "Standardization concerns giving the test under the same conditions; it does not by itself show that scores repeat.",
+    "Predictive validity is whether scores forecast later performance, which this result does not show.",
+    "Construct validity is whether the test measures the trait it claims to; consistent scores alone do not show that."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u2-q19",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-intelligence",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Scores on an intelligence test form a normal curve with a mean of 100 and a standard deviation of 15. About what percentage of test takers score between 85 and 115?",
+   "choices": [
+    "About 34%",
+    "About 50%",
+    "About 95%",
+    "About 68%"
+   ],
+   "correctAnswer": 3,
+   "explanation": "85 to 115 is one standard deviation on each side of the mean, which covers about 68% of a normal distribution.",
+   "choiceExplanations": [
+    "About 34% fall between the mean and one standard deviation on only one side.",
+    "About 50% score above (or below) the mean, not within one standard deviation of it.",
+    "About 95% fall within two standard deviations (70 to 130).",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u2-q20",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-intelligence",
+   "skill": "1.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Before a math test, one group of women is told the test shows gender differences, and they score lower than women told it shows none. This result is best explained by",
+   "choices": [
+    "the Flynn effect, a rise in average test scores over generations",
+    "a fixed mindset, a belief that intelligence cannot be developed",
+    "stereotype lift, a boost from comparing oneself with a stereotyped group",
+    "stereotype threat, worry about confirming a negative stereotype"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Being reminded of a negative stereotype about one's group can create anxiety that lowers performance, which is stereotype threat.",
+   "choiceExplanations": [
+    "The Flynn effect describes long-term changes across generations, not a difference caused by instructions.",
+    "Nothing in the study changed the women's beliefs about whether intelligence can develop; only the stereotype reminder differed.",
+    "Stereotype lift would raise, not lower, performance, and it applies to those not targeted by the stereotype.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u2-q21",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "topicId": "psy2-intelligence",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Average scores on intelligence tests rose steadily over several generations in many countries. Which explanation is best supported by research?",
+   "choices": [
+    "Genetic changes in each population over just a few generations of children",
+    "Societal changes such as better nutrition, health care, and living standards",
+    "Test makers making each newer version of the test easier to pass than the last",
+    "A drop in the number of people who were allowed to take intelligence tests"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The Flynn effect has been linked to societal factors such as improved nutrition, health care, and socioeconomic conditions.",
+   "choiceExplanations": [
+    "A few generations is far too short for genetic change to explain such a large rise.",
+    "",
+    "The rise appears when people take the same or older test versions, and tests are renormed to be harder, not easier.",
+    "Testing became more widespread over time, and the rise appears in broad samples, so fewer test takers cannot explain it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-psy-u2-os1",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "title": "OpenStax Psychology 2e, 5.6 Gestalt Principles of Perception",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/5-6-gestalt-principles-of-perception",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on Gestalt principles and how perception is organized. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/5-6-gestalt-principles-of-perception",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u2-os2",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "title": "OpenStax Psychology 2e, 7.3 Problem Solving",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/7-3-problem-solving",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on problem-solving strategies and their pitfalls. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/7-3-problem-solving",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u2-os3",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "title": "OpenStax Psychology 2e, 8.1 How Memory Functions",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/8-1-how-memory-functions",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on encoding, storage, and retrieval. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/8-1-how-memory-functions",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u2-os4",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "title": "OpenStax Psychology 2e, 8.3 Problems with Memory",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/8-3-problems-with-memory",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on forgetting, interference, and memory errors. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/8-3-problems-with-memory",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u2-os5",
+   "courseId": "ap-psychology",
+   "unitId": "u2",
+   "title": "OpenStax Psychology 2e, 7.5 Measures of Intelligence",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/7-5-measures-of-intelligence",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on how intelligence is measured. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/7-5-measures-of-intelligence",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Psychology free-response set has an Article Analysis Question and an Evidence-Based Question, and both draw on research methods and on content from across the course, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "psy-u2-q01",
+    "psy-u2-q02",
+    "psy-u2-q03",
+    "psy-u2-q04",
+    "psy-u2-q09",
+    "psy-u2-q12",
+    "psy-u2-q17",
+    "psy-u2-q21"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "psy-u2-q05",
+    "psy-u2-q06",
+    "psy-u2-q07",
+    "psy-u2-q08",
+    "psy-u2-q10",
+    "psy-u2-q14",
+    "psy-u2-q15",
+    "psy-u2-q19"
+   ]
+  }
+ ]
+}

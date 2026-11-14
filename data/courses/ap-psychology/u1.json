@@ -1,0 +1,896 @@
+{
+ "courseId": "ap-psychology",
+ "unitId": "u1",
+ "title": "Unit 1: Biological Bases of Behavior",
+ "topics": [
+  {
+   "id": "psy1-heredity",
+   "name": "Heredity, environment, and evolution",
+   "covers": [
+    "The interaction of inherited traits, environment, and evolution in shaping behavior"
+   ],
+   "frameworkCovers": [
+    "1.1 Interaction of Heredity and Environment"
+   ]
+  },
+  {
+   "id": "psy1-neural",
+   "name": "The nervous system, neural firing, and psychoactive drugs",
+   "covers": [
+    "Structures and functions of nervous systems",
+    "Neural firing and the influence of psychoactive substances"
+   ],
+   "frameworkCovers": [
+    "1.2 Overview of the Nervous System",
+    "1.3 The Neuron and Neural Firing"
+   ]
+  },
+  {
+   "id": "psy1-brain",
+   "name": "The brain and how it is studied",
+   "covers": [
+    "The study of the brain, including its structures and functions"
+   ],
+   "frameworkCovers": [
+    "1.4 The Brain"
+   ]
+  },
+  {
+   "id": "psy1-sleep",
+   "name": "Sleep and the sleep/wake cycle",
+   "covers": [
+    "Sleep"
+   ],
+   "frameworkCovers": [
+    "1.5 Sleep"
+   ]
+  },
+  {
+   "id": "psy1-sensation",
+   "name": "Sensation",
+   "covers": [
+    "Sensation"
+   ],
+   "frameworkCovers": [
+    "1.6 Sensation"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 1: Biological Bases of Behavior: review guide",
+  "intro": "This unit links behavior and mental processes to biology: how heredity and environment interact, how neurons and the nervous system send messages, what the major brain structures do, why we sleep, and how the senses turn energy from the world into neural signals. Questions often describe a person or a study and ask which structure, process, or theory applies.",
+  "sections": [
+   {
+    "id": "s-psy1-heredity",
+    "topicId": "psy1-heredity",
+    "title": "Heredity, environment, and evolution",
+    "body": [
+     "Heredity (“nature”) is the set of genetic or predisposed characteristics that influence traits; environment (“nurture”) is everything a person experiences, such as family interactions and education. The two interact: a genetic tendency may show itself only in some environments.",
+     "The evolutionary perspective asks how natural selection shaped behaviors that helped ancestors survive and reproduce. Its ideas have been misused to justify discrimination (eugenics), so claims about “natural” group differences need careful evidence. Researchers separate genetic and environmental influences with twin studies (identical twins share nearly all their genes; fraternal twins share about half, like other siblings), family studies, and adoption studies."
+    ],
+    "points": [
+     "Identical twins being more alike than fraternal twins raised together points to heredity.",
+     "Adopted children resembling their adoptive family points to environment.",
+     "Detailed genetics (genotype, DNA, dominant and recessive genes) is outside the AP exam."
+    ]
+   },
+   {
+    "id": "s-psy1-neural",
+    "topicId": "psy1-neural",
+    "title": "The nervous system, neural firing, and psychoactive drugs",
+    "body": [
+     "The central nervous system is the brain and spinal cord. The peripheral nervous system connects it to the body: the somatic system governs voluntary movement, and the autonomic system governs involuntary processes. The sympathetic division arouses the body (fight or flight); the parasympathetic division calms it (rest and digest).",
+     "Neurons transmit information; glial cells provide structure, insulation, and support. In a reflex arc, sensory neurons carry the signal to the spinal cord, interneurons pass it on, and motor neurons carry the response to muscles. A neuron at its resting potential fires when stimulation reaches threshold; depolarization travels down the axon as an action potential, followed by a refractory period. Firing is all-or-none: a stronger stimulus makes a neuron fire more often, not more strongly. Neurotransmitters cross the synapse and are excitatory or inhibitory; leftover neurotransmitter is taken back by reuptake.",
+     "Know the eight listed neurotransmitters: dopamine (reward, movement), serotonin (mood, sleep, appetite), norepinephrine (alertness, arousal), glutamate (main excitatory; memory), GABA (main inhibitory), endorphins (pain relief), substance P (pain signals), and acetylcholine (muscle movement, memory). Listed hormones: adrenaline (arousal), leptin (signals fullness), ghrelin (signals hunger), melatonin (sleep), and oxytocin (bonding).",
+     "Drugs can be agonists (mimic or boost a neurotransmitter), antagonists (block it), or reuptake inhibitors (keep it in the synapse longer). Stimulants such as caffeine and cocaine increase neural activity; depressants such as alcohol decrease it; hallucinogens such as marijuana distort perception or cognition; opioids such as heroin relieve pain. Repeated use can bring tolerance (needing more for the same effect), addiction, and withdrawal."
+    ],
+    "points": [
+     "Sympathetic arouses; parasympathetic calms.",
+     "All-or-none: the size of an action potential never changes with stimulus strength.",
+     "A reuptake inhibitor increases a neurotransmitter's effect by leaving it in the synapse."
+    ]
+   },
+   {
+    "id": "s-psy1-brain",
+    "topicId": "psy1-brain",
+    "title": "The brain and how it is studied",
+    "body": [
+     "The brain stem (including the medulla) controls breathing and heart rate; the reticular activating system controls alertness; the cerebellum coordinates movement, balance, and some procedural learning. The limbic system includes the thalamus (sensory relay), hypothalamus (hunger, thirst, body temperature; controls the pituitary gland), hippocampus (forming new memories), and amygdala (fear and emotion). The corpus callosum connects the two hemispheres.",
+     "The cortex has four lobes: occipital (vision, at the rear), temporal (hearing and language, at the sides), parietal (the somatosensory cortex for touch, plus association areas), and frontal (higher-order thinking and executive functions in the prefrontal cortex; the motor cortex at its rear). In most people, language centers are in the left hemisphere: Broca's area (frontal lobe) produces speech and Wernicke's area (temporal lobe) understands it; damage to either causes aphasia.",
+     "Each hemisphere receives information from the opposite visual field and controls the opposite side of the body (contralateral organization). Split-brain patients, whose corpus callosum was cut to treat severe epilepsy, cannot name an object shown only to the left visual field (it reaches the right hemisphere), but they can pick it out with the left hand. Plasticity lets the brain form new connections and sometimes shift a damaged area's function elsewhere. Researchers study the brain with EEG (electrical activity, precise timing but poor location), fMRI (blood flow to active areas), case studies, and lesioning."
+    ],
+    "points": [
+     "Broca's area makes speech; Wernicke's area understands it.",
+     "Left visual field → right hemisphere → left hand.",
+     "EEG shows when; fMRI shows where."
+    ]
+   },
+   {
+    "id": "s-psy1-sleep",
+    "topicId": "psy1-sleep",
+    "title": "Sleep and the sleep/wake cycle",
+    "body": [
+     "Sleep and wakefulness are both states of consciousness. The sleep/wake cycle is a circadian rhythm of about 24 hours; jet lag and shift work disrupt it. Sleep stages are identified by EEG patterns. NREM sleep makes up Stages 1 through 3, and its share of each cycle shrinks as the night goes on; hypnagogic sensations (such as a feeling of falling) occur as one enters Stage 1. REM sleep is called paradoxical because brain waves resemble wakefulness while the body's muscles are most relaxed; most dreaming happens in REM, and REM periods lengthen through the night. After REM deprivation, people show REM rebound.",
+     "Theories of dreaming include activation-synthesis (the brain makes a story out of random neural activity) and consolidation theory (dreams reflect processing of memories). Theories of why we sleep include memory consolidation (sleep organizes and stores the day's memories) and restoration (sleep restores depleted resources). Sleep disorders to know are insomnia (trouble falling or staying asleep), narcolepsy (sudden sleep attacks), REM sleep behavior disorder (acting out dreams because REM paralysis fails), sleep apnea (breathing stops repeatedly), and somnambulism (sleepwalking)."
+    ],
+    "points": [
+     "REM: active brain, relaxed body, most dreams.",
+     "Later sleep cycles have more REM and less deep NREM.",
+     "Freud's psychoanalytic dream theory is outside the AP exam."
+    ]
+   },
+   {
+    "id": "s-psy1-sensation",
+    "topicId": "psy1-sensation",
+    "title": "Sensation",
+    "body": [
+     "Sensation detects stimuli and transduces them into neural messages; perception (Unit 2) interprets them. The absolute threshold is the weakest stimulus detected at least 50% of the time. The just-noticeable difference is the smallest change that can be detected, and Weber's law says it is a constant proportion of the original stimulus. Sensory adaptation is reduced sensitivity to an unchanging stimulus. Senses interact (sensory interaction), and in synesthesia one sense is experienced through another.",
+     "Vision: the lens focuses light on the retina (accommodation; problems cause nearsightedness or farsightedness). Rods in the periphery work in dim light and detect shape and movement but not color; cones in the fovea detect color and detail. Trichromatic theory (red, green, and blue cones) and opponent-process theory (red/green, blue/yellow, black/white cells, which explain afterimages) together explain color vision. The blind spot is where the optic nerve leaves the eye. Damage to vision areas can cause prosopagnosia (face blindness) or blindsight.",
+     "Hearing: pitch depends on wavelength (frequency) and loudness on amplitude. Place theory (high pitches), frequency theory (low pitches), and volley theory (neurons taking turns firing) explain pitch perception. Conduction deafness involves the structures that carry vibrations; sensorineural deafness involves the receptor cells or auditory nerve. Smell is the only sense not routed first through the thalamus; taste includes sweet, sour, salty, bitter, umami, and oleogustus (fat), and supertasters have more taste receptors. Gate control theory describes how the spinal cord can block or pass pain signals, and phantom limb sensations show that pain is also produced in the brain. The vestibular sense (semicircular canals) controls balance, and kinesthesis senses body movement."
+    ],
+    "points": [
+     "Absolute threshold: detected 50% of the time.",
+     "Weber's law: the needed difference grows in proportion to the stimulus.",
+     "Afterimages support opponent-process theory."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A split-brain patient sees the word SPOON flashed only to the left visual field. Explain what the patient can and cannot do.",
+   "solution": "The left visual field sends information to the right hemisphere. Because speech is usually controlled by the left hemisphere, and the cut corpus callosum stops the information from crossing, the patient cannot say “spoon.” The right hemisphere controls the left hand, so the patient can pick out a spoon by touch with the left hand."
+  },
+  "misconceptions": [
+   [
+    "“A stronger stimulus makes a neuron fire a bigger action potential.”",
+    "Firing is all-or-none; a stronger stimulus increases how often neurons fire and how many fire."
+   ],
+   [
+    "“Rods see color in dim light.”",
+    "Rods do not detect color; that is why colors fade in dim light."
+   ],
+   [
+    "“Most dreaming happens in deep sleep.”",
+    "Most dreaming happens in REM sleep, which is not the deepest NREM stage."
+   ],
+   [
+    "“Twin studies prove a trait is entirely genetic.”",
+    "They estimate how much heredity and environment each contribute; the two interact."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Psychology Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-psychology-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+  "sourceTitle": "AP Psychology – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "psy1-a",
+   "title": "Study 1: Sleep and next-day memory (hypothetical study summary)",
+   "text": [
+    "Researchers recruited 60 first-year college students through a campus email list. Each student gave written informed consent and was told they could stop at any time. The students were randomly assigned to one of two groups.",
+    "On the study night, both groups learned 40 word pairs at 9 p.m. The full-sleep group then slept in the lab for 8 hours. The restricted-sleep group was woken after 4 hours and kept awake with quiet activities until morning.",
+    "At 9 a.m., every student was tested on the word pairs by a research assistant who did not know which group each student was in.",
+    "Results: the full-sleep group recalled an average of 31 word pairs (standard deviation 4); the restricted-sleep group recalled an average of 24 (standard deviation 5). The difference was statistically significant (p < .01), with a large effect size (d = 1.5)."
+   ],
+   "attribution": "Hypothetical study summary written for StudySprint by its editors. The researchers, participants, and results are invented for practice and do not describe any published study.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "psy1-b",
+   "title": "Data set: Reading-test correlations for pairs of relatives (hypothetical data)",
+   "intro": "Researchers gave the same reading-skill test to both people in many pairs of relatives. Each line gives the correlation (r) between the two people's scores for one kind of pair.",
+   "text": [
+    "Identical twins raised together: r = +.82 (210 pairs)",
+    "Identical twins raised apart: r = +.70 (45 pairs)",
+    "Fraternal twins raised together: r = +.55 (190 pairs)",
+    "Biological siblings raised apart: r = +.24 (60 pairs)",
+    "Unrelated children adopted into the same home: r = +.30 (80 pairs)"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice data interpretation. The numbers are invented and do not come from any real study.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "psy-u1-q01",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-sleep",
+   "skill": "2.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the independent variable in Study 1?",
+   "choices": [
+    "The 40 word pairs each student studied at 9 p.m.",
+    "The amount of sleep students were allowed during the night",
+    "Whether the tester knew which group each student had been in",
+    "The number of word pairs students recalled in the morning"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The researchers manipulated how much students slept (8 hours or 4 hours), so sleep is the independent variable.",
+   "choiceExplanations": [
+    "Every student studied the same 40 word pairs, so the word pairs are held constant rather than varied.",
+    "",
+    "Keeping the tester unaware of group membership is a blind procedure that controls bias; it is not the variable being manipulated.",
+    "Recall is what the researchers measured, which makes it the dependent variable."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy1-a"
+  },
+  {
+   "id": "psy-u1-q02",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-sleep",
+   "skill": "2.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why did the researchers randomly assign students to the two groups?",
+   "choices": [
+    "To keep students from knowing which group they were in, making the study single-blind",
+    "To ensure each group had exactly the same number of strong and weak memorizers",
+    "To make the sample representative of all college students, so the results can generalize",
+    "To make the groups similar at the start, so differences in recall can be traced to sleep"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Random assignment spreads participant differences (such as memory ability) evenly across groups by chance, so a difference in the outcome can be attributed to the independent variable.",
+   "choiceExplanations": [
+    "Students obviously knew whether they were woken after 4 hours; random assignment does not hide the condition.",
+    "Random assignment makes groups similar on average but does not guarantee exact matches on any trait.",
+    "That describes random sampling from a population; random assignment concerns how an existing sample is divided into groups.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy1-a"
+  },
+  {
+   "id": "psy-u1-q03",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-sleep",
+   "skill": "2.D",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which feature of Study 1 best reflects an ethical guideline for research with human participants?",
+   "choices": [
+    "The tester did not know which group each student was in when scoring recall.",
+    "Students gave informed consent and were told they could stop at any time.",
+    "Students were randomly assigned to the full-sleep or restricted-sleep group.",
+    "Students were recruited through a campus email list rather than in person."
+   ],
+   "correctAnswer": 1,
+   "explanation": "Informed consent and the right to withdraw are core ethical guidelines that protect participants.",
+   "choiceExplanations": [
+    "A blind tester reduces experimenter bias; that improves validity rather than protecting participants.",
+    "",
+    "Random assignment strengthens the experiment's design, but it is a method feature, not an ethical safeguard.",
+    "How participants were contacted is a sampling detail; it is not an ethical guideline."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy1-a"
+  },
+  {
+   "id": "psy-u1-q04",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-sleep",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which theory of why we sleep do the results of Study 1 most directly support?",
+   "choices": [
+    "REM rebound, because the restricted group made up its lost REM sleep before the test",
+    "Restoration theory, because the restricted group was too tired to study the word pairs",
+    "Activation-synthesis theory, because dreams during sleep produced the word pairs recalled",
+    "Memory consolidation theory, because sleep after learning was linked to better recall"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Both groups learned the pairs before the sleep manipulation, and the group that slept longer after learning recalled more, which fits the idea that sleep helps organize and store new memories.",
+   "choiceExplanations": [
+    "REM rebound is extra REM after deprivation; the restricted group was kept awake until the test, so no rebound could occur.",
+    "Both groups studied at 9 p.m., before anyone lost sleep, so tiredness during studying cannot explain the difference.",
+    "Activation-synthesis is a theory of dreams, and nothing in the study suggests dreams created the recalled pairs.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy1-a"
+  },
+  {
+   "id": "psy-u1-q05",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-heredity",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which comparison in the data set gives the clearest evidence that heredity influences reading skill?",
+   "choices": [
+    "Identical twins raised together (+.82) with identical twins raised apart (+.70)",
+    "Unrelated children raised together (+.30) with biological siblings raised apart (+.24)",
+    "Biological siblings raised apart (+.24) with fraternal twins raised together (+.55)",
+    "Identical twins raised together (+.82) with fraternal twins raised together (+.55)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Both kinds of twins share a home, so the environment is similar; identical twins share more genes, and their scores are more alike. That difference points to heredity.",
+   "choiceExplanations": [
+    "Both pairs are identical twins with the same genes, so the difference shows the effect of environment, not heredity.",
+    "These pairs differ in both genes and home, so the comparison cannot isolate either influence.",
+    "Siblings and fraternal twins are about equally related, so this comparison shows the effect of a shared home.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy1-b"
+  },
+  {
+   "id": "psy-u1-q06",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-heredity",
+   "skill": "3.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which statement best describes the correlation for identical twins raised together?",
+   "choices": [
+    "A strong positive correlation: when one twin scores high, the other tends to score high too",
+    "A strong negative correlation: when one twin scores high, the other tends to score low",
+    "Evidence of causation: one twin's high reading score causes the other twin's high reading score",
+    "A weak positive correlation: the twins' scores are only slightly related to each other"
+   ],
+   "correctAnswer": 0,
+   "explanation": "An r of +.82 is close to +1, so the relationship is strong, and the positive sign means the two scores rise and fall together.",
+   "choiceExplanations": [
+    "",
+    "A negative correlation would have a minus sign; +.82 is positive.",
+    "A correlation shows that scores are related; it does not show that one twin's score causes the other's.",
+    "A correlation of +.82 is strong; a weak correlation would be closer to 0."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy1-b"
+  },
+  {
+   "id": "psy-u1-q07",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-heredity",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Unrelated children adopted into the same home have a correlation of +.30, even though they are not genetically related. What does this result best suggest?",
+   "choices": [
+    "Reading skill is set by heredity, and the environment plays little role.",
+    "The correlation shows that one child's reading caused the other's reading.",
+    "A shared home environment contributes to similarity in reading skill.",
+    "Adopted children are genetically similar to the other children in the home."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Because these children share no genes by descent, their similarity must come from something they share, such as books, schooling, and family habits.",
+   "choiceExplanations": [
+    "A positive correlation between genetically unrelated children is evidence that environment matters, which works against this claim.",
+    "Correlation shows a relationship; it does not show that one child's reading caused the other's.",
+    "",
+    "Unrelated adopted children are not genetically similar to their adoptive siblings; that is why the comparison is useful."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy1-b"
+  },
+  {
+   "id": "psy-u1-q08",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-heredity",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which result in the data set should be interpreted with the most caution, and why?",
+   "choices": [
+    "Identical twins raised together, because it is the highest correlation",
+    "Unrelated adopted children, because a positive r means they are related",
+    "Fraternal twins raised together, because they are born at different ages",
+    "Identical twins raised apart, because it is based on the fewest pairs"
+   ],
+   "correctAnswer": 3,
+   "explanation": "With only 45 pairs, the twins-raised-apart correlation is the least stable estimate; such twins may also have been placed in similar homes, which would inflate their similarity.",
+   "choiceExplanations": [
+    "A high correlation is not a reason for caution by itself, and this result rests on 210 pairs.",
+    "A positive correlation means scores are related, not that the children are genetically related.",
+    "Fraternal twins are born at the same time; they differ genetically, not in age.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy1-b"
+  },
+  {
+   "id": "psy-u1-q09",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-heredity",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Across many cultures, people learn to fear snakes much faster than they learn to fear flowers. Which perspective explains this as a product of natural selection?",
+   "choices": [
+    "The evolutionary perspective: wariness of snakes helped ancestors survive and reproduce",
+    "The psychodynamic perspective: the fear comes from unconscious conflicts formed in childhood",
+    "The humanistic perspective: fear grows when a person's need for safety and acceptance is unmet",
+    "The sociocultural perspective: each culture teaches children to fear snakes through its stories"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The evolutionary perspective explains behaviors by how they helped ancestors survive and reproduce; quickly learning to fear a dangerous animal is a classic example.",
+   "choiceExplanations": [
+    "",
+    "The psychodynamic perspective focuses on unconscious conflicts, not natural selection.",
+    "The humanistic perspective focuses on growth and self-actualization, not on natural selection.",
+    "The fear appears across many cultures, which points away from a purely cultural explanation, and this perspective does not rely on natural selection."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u1-q10",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-neural",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Just before giving a speech, Mia's heart races, her pupils widen, and her digestion slows. Which part of the nervous system is most active?",
+   "choices": [
+    "The sympathetic nervous system",
+    "The parasympathetic nervous system",
+    "The spinal cord's reflex arc",
+    "The somatic nervous system"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The sympathetic division of the autonomic nervous system prepares the body for action: faster heart rate, wider pupils, and slower digestion.",
+   "choiceExplanations": [
+    "",
+    "The parasympathetic division calms the body after arousal, slowing the heart and restarting digestion.",
+    "A reflex arc produces a quick automatic movement, such as pulling away from heat, not a whole-body arousal response.",
+    "The somatic nervous system controls voluntary movement, not involuntary changes such as heart rate."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u1-q11",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-neural",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A neuron receives stimulation strong enough to reach its threshold. If the stimulation is then doubled, what happens to each action potential?",
+   "choices": [
+    "It becomes twice as strong, because firing grows with the stimulus",
+    "Its strength stays the same, although the neuron may fire more often",
+    "It stops, because the neuron enters a long-lasting refractory period",
+    "It reverses direction, because the membrane returns to resting potential"
+   ],
+   "correctAnswer": 1,
+   "explanation": "By the all-or-none principle, every action potential is the same size once threshold is reached; a stronger stimulus changes how often the neuron fires.",
+   "choiceExplanations": [
+    "Action potentials do not grow with stimulus strength; that is what all-or-none means.",
+    "",
+    "The refractory period is brief and follows each firing; a stronger stimulus does not stop firing.",
+    "Returning to resting potential happens after firing; it does not send the impulse backward."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u1-q12",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-neural",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A toxin binds to acetylcholine receptors on muscle cells and blocks them without activating them. Which effect is most likely?",
+   "choices": [
+    "Sharper alertness, because the toxin acts as a reuptake inhibitor",
+    "Pain relief, because the toxin mimics the action of endorphins",
+    "Muscle weakness or paralysis, because the toxin acts as an antagonist",
+    "Muscle spasms, because the toxin acts as an agonist that mimics acetylcholine"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Acetylcholine signals muscles to contract. A substance that blocks its receptors without activating them is an antagonist, so muscles cannot respond.",
+   "choiceExplanations": [
+    "A reuptake inhibitor keeps a neurotransmitter in the synapse; this toxin blocks the receptors instead.",
+    "Endorphins relieve pain, but the toxin acts on acetylcholine receptors at muscles, not on pain pathways.",
+    "",
+    "An agonist would activate the receptors; this toxin blocks them without activating them."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u1-q13",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-brain",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "After a stroke, a patient understands what others say but struggles to produce fluent speech. Damage to which area is most likely?",
+   "choices": [
+    "The cerebellum at the back of the brain",
+    "Broca's area in the frontal lobe",
+    "Wernicke's area in the temporal lobe",
+    "The visual cortex in the occipital lobe"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Broca's area produces speech, so damage there leaves comprehension largely intact but makes speaking slow and effortful.",
+   "choiceExplanations": [
+    "The cerebellum coordinates movement and balance; it is not a language center.",
+    "",
+    "Damage to Wernicke's area mainly impairs understanding language, which this patient can still do.",
+    "The occipital lobe processes vision, not speech production."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u1-q14",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-brain",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A split-brain patient stares at a dot while the word KEY is flashed only to the left visual field. What is the patient most likely to do?",
+   "choices": [
+    "Report seeing nothing, but pick out a key by touch with the left hand",
+    "Report seeing nothing, and be unable to pick out a key with either hand",
+    "Say “key,” and pick out a key by touch with the right hand",
+    "Say “key,” but be unable to pick out a key with either hand"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The left visual field sends the word to the right hemisphere. Speech is usually in the left hemisphere, so the patient cannot name it, but the right hemisphere controls the left hand, which can find the key.",
+   "choiceExplanations": [
+    "",
+    "The right hemisphere did receive the word, and it can guide the left hand to the key.",
+    "The left hemisphere, which controls speech and the right hand, never received the word.",
+    "The word reaches the right hemisphere, which usually cannot produce speech, so the patient is unlikely to say it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u1-q15",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-brain",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "To stop severe seizures, a young child has most of the left hemisphere removed. Over the next years the child regains much of her language ability. This best illustrates",
+   "choices": [
+    "the all-or-none principle, as the remaining neurons fire at full strength",
+    "contralateral organization, as each hemisphere controls the body's opposite side",
+    "lateralization, as language abilities remain fixed in the left hemisphere",
+    "brain plasticity, as other areas take over functions of the removed tissue"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Plasticity is the brain's ability to form new connections and shift functions, which is strongest in childhood; here the right hemisphere took over language.",
+   "choiceExplanations": [
+    "All-or-none describes how individual neurons fire; it does not explain recovered language.",
+    "Contralateral organization describes which side of the body each hemisphere controls, not recovery of lost functions.",
+    "If language were fixed in the left hemisphere, the child could not have regained it after that hemisphere was removed.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u1-q16",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-sleep",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "After flying from New York to Tokyo, Sam feels sleepy at noon and wide awake at 3 a.m. Which concept best explains this?",
+   "choices": [
+    "REM rebound after a night of lost REM sleep",
+    "Narcolepsy, a disorder of sudden sleep attacks",
+    "A disrupted circadian rhythm (jet lag)",
+    "Sleep apnea, which interrupts breathing during sleep"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Sam's roughly 24-hour sleep/wake cycle is still set to New York time, so it is out of step with the new time zone.",
+   "choiceExplanations": [
+    "REM rebound is extra REM sleep after deprivation; it does not shift when a person feels sleepy or alert.",
+    "Narcolepsy is a lasting disorder of sudden sleep attacks, not a temporary mismatch after travel.",
+    "",
+    "Sleep apnea interrupts breathing during sleep; it does not explain being awake at 3 a.m. after a long flight."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u1-q17",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-sensation",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In a hearing test, a tone is played many times at each of several volumes. Which volume is the listener's absolute threshold?",
+   "choices": [
+    "The softest volume the listener detects at least 50% of the time",
+    "The smallest change in volume the listener can notice",
+    "The softest volume the listener detects on every trial",
+    "The softest volume the listener detects on at least one of the trials"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The absolute threshold is defined as the weakest stimulus a person detects at least half the time.",
+   "choiceExplanations": [
+    "",
+    "The smallest noticeable change is the just-noticeable difference, not the absolute threshold.",
+    "Requiring detection on every trial sets the bar too high; the threshold is defined at 50%.",
+    "Detecting a tone once could be a lucky guess; the threshold uses the 50% standard."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u1-q18",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-sensation",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A person can just tell the difference between a 100-gram weight and a 105-gram weight. According to Weber's law, about how heavy must a second weight be for the person to just tell it apart from a 400-gram weight?",
+   "choices": [
+    "About 405 grams",
+    "About 420 grams",
+    "About 500 grams",
+    "About 800 grams"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Weber's law says the just-noticeable difference is a constant proportion: 5 grams is 5% of 100 grams, and 5% of 400 grams is 20 grams, so about 420 grams.",
+   "choiceExplanations": [
+    "This keeps the same 5-gram difference, but Weber's law keeps the same proportion, not the same amount.",
+    "",
+    "A 100-gram difference is 25% of 400 grams, far more than the 5% needed.",
+    "Doubling the weight is far beyond the 5% difference the person can detect."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u1-q19",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-sensation",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "After staring at a green square for a minute, Leo looks at a white wall and sees a red square. Which theory best explains this?",
+   "choices": [
+    "Gate control theory, because the brain closes a neural gate on the green signals",
+    "Trichromatic theory, because the resting red cones fire more strongly once they are released",
+    "Opponent-process theory, because tired green responses let paired red responses dominate",
+    "Place theory, because each color is detected at a different spot along the retina"
+   ],
+   "correctAnswer": 2,
+   "explanation": "In opponent-process theory, cells signal red or green as a pair. Fatigue of the green response leaves the red response stronger, producing a red afterimage.",
+   "choiceExplanations": [
+    "Gate control theory describes pain signals in the spinal cord, not color vision.",
+    "Trichromatic theory explains color through three cone types but does not explain afterimages in the opposite color.",
+    "",
+    "Place theory explains pitch perception in hearing, not color vision."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u1-q20",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "topicId": "psy1-sensation",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A listener hears a very high-pitched tone of 10,000 hertz. Which theory best explains how its pitch is perceived?",
+   "choices": [
+    "Trichromatic theory: three kinds of receptors combine their signals for the tone",
+    "Volley theory: groups of neurons alternate firing to keep pace with the tone",
+    "Place theory: the tone makes the basilar membrane vibrate most at one specific spot",
+    "Frequency theory: the auditory nerve fires once for every single cycle of the sound wave"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Place theory explains high pitches best: different frequencies cause the strongest vibration at different places in the cochlea.",
+   "choiceExplanations": [
+    "Trichromatic theory explains color vision, not hearing.",
+    "Volley theory extends frequency theory to middle pitches, but even taking turns, neurons cannot keep pace with a tone this high.",
+    "",
+    "Neurons cannot fire 10,000 times per second, so frequency theory works only for low pitches."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-psy-u1-os1",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "title": "OpenStax Psychology 2e, 3.2 Cells of the Nervous System",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/3-2-cells-of-the-nervous-system",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on neurons, glial cells, and neural transmission. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/3-2-cells-of-the-nervous-system",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u1-os2",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "title": "OpenStax Psychology 2e, 3.4 The Brain and Spinal Cord",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/3-4-the-brain-and-spinal-cord",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on brain structures and how the brain is studied. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/3-4-the-brain-and-spinal-cord",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u1-os3",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "title": "OpenStax Psychology 2e, 4.3 Stages of Sleep",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/4-3-stages-of-sleep",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on the stages of sleep. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/4-3-stages-of-sleep",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u1-os4",
+   "courseId": "ap-psychology",
+   "unitId": "u1",
+   "title": "OpenStax Psychology 2e, 5.3 Vision",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/5-3-vision",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on the structures of the eye and theories of color vision. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/5-3-vision",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Psychology free-response set has an Article Analysis Question and an Evidence-Based Question, and both draw on research methods and on content from across the course, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "psy-u1-q01",
+    "psy-u1-q02",
+    "psy-u1-q03",
+    "psy-u1-q04",
+    "psy-u1-q09",
+    "psy-u1-q10",
+    "psy-u1-q13",
+    "psy-u1-q20"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "psy-u1-q05",
+    "psy-u1-q06",
+    "psy-u1-q07",
+    "psy-u1-q08",
+    "psy-u1-q11",
+    "psy-u1-q14",
+    "psy-u1-q16",
+    "psy-u1-q17"
+   ]
+  }
+ ]
+}

@@ -38,6 +38,8 @@ legend{margin-bottom:.25rem;padding:0}
 .field-help{max-width:68ch;margin-bottom:.9rem;color:var(--muted)}
 .button{display:inline-flex;min-height:46px;padding:.65rem 1rem;align-items:center;justify-content:center;border:2px solid transparent;border-radius:9px;font-weight:750;text-align:center;transition:background-color .12s ease,transform .12s ease}
 .button:hover:not(:disabled){transform:translateY(-1px)}
+/* The 1px hover lift must not move the button off a pointer resting on its bottom edge (that loops hover on/off and makes the button jitter). */
+.button{position:relative}.button:hover:not(:disabled)::after{content:"";position:absolute;left:0;right:0;top:0;bottom:-3px}
 .button-primary{background:var(--brand);color:var(--on-brand)}
 .button-primary:hover:not(:disabled){background:var(--brand-hover)}
 .button-secondary{border-color:var(--brand);background:var(--surface);color:var(--brand-text)}
@@ -229,3 +231,10 @@ fieldset[aria-invalid="true"]{padding:.5rem;border-radius:10px}
 @media(forced-colors:active){.test-qbtn{border:1px solid ButtonText}.test-qbtn.done{outline:2px solid Highlight}}
 .quick-list .why{margin:0}
 @media(max-width:480px){.test-nav{display:grid;grid-template-columns:1fr 1fr}.test-nav .button:nth-child(2){grid-column:1/-1;order:3}}
+
+/* shared passages and sources */
+.passage{margin:0 0 1rem;padding:.9rem 1rem;border:1px solid var(--field);border-left:4px solid var(--brand);border-radius:10px;background:var(--surface)}
+.passage p{margin:.4rem 0;line-height:1.6}
+.passage-title{margin:0 0 .4rem;font-size:1.05rem}
+.passage-src{font-size:.85rem;opacity:.8}
+details.passage summary{cursor:pointer;font-weight:600;min-height:44px;display:flex;align-items:center}

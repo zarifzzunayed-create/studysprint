@@ -1,0 +1,710 @@
+{
+ "courseId": "ap-united-states-history",
+ "unitId": "u3",
+ "title": "Unit 3: Period 3: 1754–1800",
+ "topics": [
+  {
+   "id": "ush3-crisis",
+   "name": "From the Seven Years' War to independence",
+   "covers": [
+    "The Seven Years’ War",
+    "The American Revolution"
+   ],
+   "frameworkCovers": [
+    "3.1 Contextualizing Period 3",
+    "3.2 The Seven Years’ War (The French and Indian War)",
+    "3.3 Taxation Without Representation",
+    "3.4 Philosophical Foundations of the American Revolution",
+    "3.5 The American Revolution"
+   ]
+  },
+  {
+   "id": "ush3-constitution",
+   "name": "The Articles, the Constitution, and the new republic",
+   "covers": [
+    "The Articles of Confederation",
+    "The creation and ratification of the Constitution"
+   ],
+   "frameworkCovers": [
+    "3.7 Articles of Confederation",
+    "3.8 The Constitutional Convention and Debates over Ratification",
+    "3.9 The Constitution",
+    "3.10 Shaping a New Republic",
+    "3.13 Continuity and Change in Period 3"
+   ]
+  },
+  {
+   "id": "ush3-identity",
+   "name": "Revolutionary ideals, American identity, and movement",
+   "covers": [
+    "Developing an American identity",
+    "Immigration to and migration within America"
+   ],
+   "frameworkCovers": [
+    "3.6 Social Consequences of Revolutionary Ideals",
+    "3.11 Developing an American Identity",
+    "3.12 Movement in the Early Republic"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Period 3 (1754–1800): review guide",
+  "intro": "Britain's victory in the Seven Years' War set off a chain of new taxes, colonial protests, and ideas about rights that led to independence. Americans then experimented with governments, wrote a Constitution, and argued over what kind of republic they had created.",
+  "sections": [
+   {
+    "id": "s-ush3-crisis",
+    "topicId": "ush3-crisis",
+    "title": "From the Seven Years' War to independence",
+    "body": [
+     "The Seven Years' War (French and Indian War, 1754–1763) removed France from North America but left Britain deeply in debt. Britain's Proclamation of 1763 limited settlement west of the Appalachians, and new taxes such as the Stamp Act (1765) and Townshend duties provoked protests over “taxation without representation.”",
+     "Enlightenment ideas about natural rights and Thomas Paine's Common Sense (1776) helped turn protest into a call for independence. With help from France after the victory at Saratoga (1777), the Continental Army won independence, confirmed by the Treaty of Paris (1783)."
+    ],
+    "points": [
+     "Causation: war debt → taxes → protest → independence.",
+     "Colonists objected to Parliament taxing them without colonial representation."
+    ]
+   },
+   {
+    "id": "s-ush3-constitution",
+    "topicId": "ush3-constitution",
+    "title": "The Articles, the Constitution, and the new republic",
+    "body": [
+     "The Articles of Confederation created a weak central government with no power to tax or regulate trade, though it passed the Northwest Ordinance (1787). Shays' Rebellion (1786–1787) convinced many leaders that a stronger government was needed. The Constitution (1787) created a federal system with separated powers and checks and balances; it contained compromises over representation and slavery.",
+     "Federalists, such as Madison in The Federalist No. 10, argued that a large republic would control factions; Anti-Federalists feared distant power and demanded a bill of rights, added in 1791. Under Washington and Adams, debates over Hamilton's financial plan, foreign policy, and the Alien and Sedition Acts produced the first political parties."
+    ],
+    "points": [
+     "Continuity and change: fears of concentrated power persisted from the Revolution into the 1790s.",
+     "The Bill of Rights answered Anti-Federalist concerns."
+    ]
+   },
+   {
+    "id": "s-ush3-identity",
+    "topicId": "ush3-identity",
+    "title": "Revolutionary ideals, identity, and movement",
+    "body": [
+     "Revolutionary ideals raised questions about who was included in “all men are created equal.” Some northern states began gradual emancipation; women's roles as educators of virtuous citizens were stressed (“republican motherhood”); and writers such as the formerly enslaved poet Phillis Wheatley challenged ideas about race.",
+     "After independence, settlers pushed west across the Appalachians, leading to conflict with American Indian nations, and a distinct American culture and identity began to form."
+    ],
+    "points": [
+     "Ideals of liberty created contradictions with slavery.",
+     "Western migration increased conflict with American Indians."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain one way the Seven Years' War led to colonial resistance.",
+   "solution": "The war left Britain with large debts, so Parliament imposed new taxes on the colonies, such as the Stamp Act of 1765. Colonists protested that Parliament, in which they had no representatives, had no right to tax them."
+  },
+  "misconceptions": [
+   [
+    "“Colonists wanted independence as soon as taxes began.”",
+    "Many first sought their rights as British subjects; independence came after years of conflict."
+   ],
+   [
+    "“The Constitution was accepted without debate.”",
+    "Ratification was fiercely contested."
+   ],
+   [
+    "“The Bill of Rights was part of the original Constitution.”",
+    "It was added in 1791 after ratification debates."
+   ],
+   [
+    "“Revolutionary ideals ended slavery.”",
+    "Some northern states began gradual emancipation; slavery continued and grew in the South."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP U.S. History Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+  "sourceTitle": "AP United States History – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "ush3-a",
+   "title": "Source A: James Madison, The Federalist No. 10, 1787",
+   "text": [
+    "“From this view of the subject, it may be concluded, that a pure Democracy, by which I mean a Society consisting of a small number of citizens, who assemble and administer the Government in person, can admit of no cure for the mischiefs of faction. . . . A Republic, by which I mean a Government in which the scheme of representation takes place, opens a different prospect, and promises the cure for which we are seeking. . . . The two great points of difference, between a Democracy and a Republic, are, first, the delegation of the Government, in the latter, to a small number of citizens elected by the rest: Secondly, the greater number of citizens, and greater sphere of country, over which the latter may be extended.”"
+   ],
+   "attribution": "James Madison, The Federalist No. 10, an essay published in New York newspapers urging ratification of the Constitution, 1787. Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 7.4.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/7-4-the-constitutional-convention-and-federal-constitution); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush3-b",
+   "title": "Source B: Phillis Wheatley, “On Being Brought from Africa to America,” 1773",
+   "text": [
+    "“Twas mercy brought me from my Pagan land, / Taught my benighted soul to understand / That there’s a God, that there’s a Saviour too: / Once I redemption neither sought nor knew. / Some view our sable race with scornful eye, / “Their colour is a diabolic dye.” / Remember, Christians, Negroes, black as Cain, / May be refin’d, and join th’ angelic train.”"
+   ],
+   "attribution": "Phillis Wheatley, an enslaved poet in Boston, from Poems on Various Subjects, Religious and Moral, 1773. (Line breaks are shown with slashes.) Public domain. Wording follows the excerpt quoted in OpenStax U.S. History, section 7.2.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (published before 1931, or a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax U.S. History (openstax.org/books/us-history/pages/7-2-how-much-revolutionary-change); no OpenStax commentary is copied."
+  },
+  {
+   "id": "ush3-c",
+   "title": "Source C: An interpretation of the road to revolution",
+   "text": [
+    "“The war that drove France from North America in 1763 also loosened the ties that held Britain's colonies to the empire. Victory left Britain with a staggering debt, and Parliament reasonably expected the colonists, who had been defended by British troops, to help pay it. But the colonists had grown used to governing themselves through their own assemblies, and new taxes passed in London seemed to threaten that tradition. What began as a dispute over money became a dispute over who had the right to govern.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "ush3-d",
+   "title": "Source D: An interpretation of the Articles of Confederation",
+   "text": [
+    "“The Articles of Confederation reflected the lessons of the Revolution: Americans who had just thrown off a distant, powerful government were in no hurry to create another. Congress could not tax, could not regulate trade between the states, and could not easily raise an army. Yet the Confederation was not a complete failure. Its Northwest Ordinance established an orderly process for creating new states, and it banned slavery in the territory north of the Ohio River.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "ush-u3-q01",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-constitution",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Madison's main purpose in the excerpt is to argue that",
+   "choices": [
+    "the states should remain fully independent of one another",
+    "a pure democracy is the best form of government for a large and growing nation like this one",
+    "a large republic with elected representatives can control the dangers of faction",
+    "the United States should have a king to control factions"
+   ],
+   "correctAnswer": 2,
+   "explanation": "He says a republic, through representation and a larger territory, “promises the cure” for faction.",
+   "choiceExplanations": [
+    "He supports the Constitution's stronger union of the states.",
+    "He argues that pure democracy cannot cure faction.",
+    "",
+    "He argues for a republic, not monarchy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-a"
+  },
+  {
+   "id": "ush-u3-q02",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-constitution",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The excerpt was written mainly to persuade readers to",
+   "choices": [
+    "support ratification of the Constitution",
+    "declare the colonies' independence from Britain",
+    "oppose adding a bill of rights",
+    "elect Thomas Jefferson president"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The Federalist essays were published to win support for ratification.",
+   "choiceExplanations": [
+    "",
+    "Independence had been declared in 1776.",
+    "The essays didn't argue against a bill of rights in this way.",
+    "Jefferson's election came in 1800."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-a"
+  },
+  {
+   "id": "ush-u3-q03",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-constitution",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which group most strongly disagreed with Madison's claim that a large republic would protect liberty?",
+   "choices": [
+    "Anti-Federalists, who feared that a distant central government would threaten people's rights",
+    "French allies of the United States, who feared that a strong American government would rival France",
+    "Federalists who wrote the Constitution and wanted to keep the Articles",
+    "Loyalists who supported the king and opposed the Revolution"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Anti-Federalists argued that republics worked best in small areas and that a strong national government could become tyrannical.",
+   "choiceExplanations": [
+    "",
+    "The French weren't part of the ratification debate.",
+    "Federalists agreed with Madison and wanted to replace the Articles.",
+    "Loyalists were no longer a force in this debate."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-a"
+  },
+  {
+   "id": "ush-u3-q04",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-constitution",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which development most directly addressed critics of the argument in the excerpt?",
+   "choices": [
+    "The Proclamation of 1763 on settling western lands",
+    "The addition of the Bill of Rights in 1791",
+    "Shays' Rebellion in Massachusetts",
+    "The Northwest Ordinance of 1787"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Promising amendments that protected individual rights helped win over Anti-Federalists.",
+   "choiceExplanations": [
+    "The Proclamation was a British policy from 1763.",
+    "",
+    "Shays' Rebellion came before the Constitution and pushed for a stronger government.",
+    "The Ordinance predated ratification and concerned western lands."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-a"
+  },
+  {
+   "id": "ush-u3-q05",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-identity",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In the last two lines, Wheatley addresses her readers in order to",
+   "choices": [
+    "argue for the colonies' independence from Britain",
+    "describe her life in Africa before she was taken",
+    "challenge the belief that Africans were inferior",
+    "praise the slave trade for bringing Africans to America"
+   ],
+   "correctAnswer": 2,
+   "explanation": "She reminds “Christians” that Black people “may be refin’d” and join the “angelic train,” rejecting the “scornful eye.”",
+   "choiceExplanations": [
+    "The poem doesn't discuss independence.",
+    "Africa is mentioned only as her origin; her life there isn't described.",
+    "",
+    "Her point is about equality before God, not praise of the trade."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-b"
+  },
+  {
+   "id": "ush-u3-q06",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-identity",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Wheatley's appeal is based mainly on",
+   "choices": [
+    "economic arguments about the value of labor",
+    "Christian beliefs shared by her readers",
+    "her own military service in the Revolution",
+    "Enlightenment ideas about science and reason"
+   ],
+   "correctAnswer": 1,
+   "explanation": "She appeals to her readers as Christians.",
+   "choiceExplanations": [
+    "The poem makes no economic argument.",
+    "",
+    "It was published before the Revolution.",
+    "Its argument is religious, not scientific."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-b"
+  },
+  {
+   "id": "ush-u3-q07",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-crisis",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The publication of Wheatley's poems in 1773 is best understood in the context of",
+   "choices": [
+    "the Great Awakening's rejection of poetry and other written texts in favor of preaching",
+    "colonial laws that required enslaved people to be taught to read and write",
+    "the end of slavery in all the colonies by the early 1770s",
+    "growing debates about liberty and slavery as tensions with Britain rose"
+   ],
+   "correctAnswer": 3,
+   "explanation": "As colonists spoke of liberty, writers like Wheatley highlighted the contradiction with slavery.",
+   "choiceExplanations": [
+    "Revivalists didn't reject poetry or printed texts.",
+    "No such laws existed; many colonies discouraged teaching enslaved people.",
+    "Slavery continued in every colony in 1773.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-b"
+  },
+  {
+   "id": "ush-u3-q08",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-identity",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which later development most directly continued the challenge to slavery reflected in the poem?",
+   "choices": [
+    "The Proclamation of 1763 on western settlement",
+    "The Alien and Sedition Acts passed by Congress in 1798",
+    "The Three-Fifths Compromise reached at the Constitutional Convention in 1787",
+    "Gradual emancipation laws in several northern states after the Revolution"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Revolutionary ideals helped lead northern states to begin ending slavery.",
+   "choiceExplanations": [
+    "That was a British policy on western settlement.",
+    "Those acts targeted immigrants and political critics.",
+    "That compromise protected slaveholders' political power.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-b"
+  },
+  {
+   "id": "ush-u3-q09",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-crisis",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, why did Parliament impose new taxes after 1763?",
+   "choices": [
+    "To help pay the large debt from the Seven Years' War",
+    "To punish colonists for the Boston Tea Party in the harbor",
+    "To fund settlements in former French lands",
+    "To pay for the coming Revolutionary War"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The passage ties the taxes to Britain's war debt.",
+   "choiceExplanations": [
+    "",
+    "The Tea Party came later, in 1773.",
+    "The passage ties the taxes to the war debt, not to former French lands.",
+    "The Revolution came later."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-c"
+  },
+  {
+   "id": "ush-u3-q10",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-crisis",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which British law best illustrates the “new taxes passed in London” described in the passage?",
+   "choices": [
+    "The Mayflower Compact",
+    "The Stamp Act of 1765",
+    "The Bill of Rights",
+    "The Northwest Ordinance"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The Stamp Act taxed printed materials and provoked widespread protest.",
+   "choiceExplanations": [
+    "That was a colonial agreement from 1620.",
+    "",
+    "That was an American document from 1791.",
+    "That was passed by the American Congress in 1787."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-c"
+  },
+  {
+   "id": "ush-u3-q11",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-identity",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The passage's statement that colonists “had grown used to governing themselves through their own assemblies” best supports which claim?",
+   "choices": [
+    "Long experience of self-government had given colonists a political identity apart from Britain's",
+    "Parliament had always closely controlled colonial assemblies",
+    "Colonists wanted France to return and govern North America instead of Britain",
+    "Colonists had little tradition of representative government before the crisis of the 1760s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Decades of governing through their own assemblies shaped how colonists saw their rights, so taxes from London felt like a threat to that tradition.",
+   "choiceExplanations": [
+    "",
+    "This reverses the situation; Parliament had loosely enforced its rules, a policy called salutary neglect.",
+    "France had just been driven from North America.",
+    "The passage says the opposite."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-c"
+  },
+  {
+   "id": "ush-u3-q12",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-crisis",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which statement best describes how the author treats the British point of view?",
+   "choices": [
+    "The author ignores Britain's position entirely and presents only the colonists' view",
+    "The author claims the colonists had no tradition of self-government",
+    "The author argues that Parliament acted illegally by taxing the colonists without their consent",
+    "The author presents Parliament's expectation as reasonable while explaining colonial resistance"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Calling Parliament's expectation “reasonable” shows the author considers both sides.",
+   "choiceExplanations": [
+    "The British view is explicitly discussed.",
+    "The passage says the colonists were used to governing themselves.",
+    "The author calls Parliament's expectation reasonable, not illegal.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-c"
+  },
+  {
+   "id": "ush-u3-q13",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-constitution",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to the interpretation, why did the Articles create a weak central government?",
+   "choices": [
+    "France designed the Articles to keep its American ally weak",
+    "The states wanted the national government to collect all of their taxes for them",
+    "Britain required a weak government in the 1783 peace treaty",
+    "Americans feared a powerful government after fighting one in the Revolution"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The passage says Americans were in no hurry to create another distant, powerful government.",
+   "choiceExplanations": [
+    "Americans wrote the Articles.",
+    "Congress had no power to tax.",
+    "The treaty didn't dictate American government.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-d"
+  },
+  {
+   "id": "ush-u3-q14",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-constitution",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which event most directly convinced many leaders that the Articles needed to be replaced?",
+   "choices": [
+    "The Boston Massacre",
+    "Shays' Rebellion",
+    "The Louisiana Purchase",
+    "The Battle of Saratoga"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The uprising of indebted Massachusetts farmers in 1786–1787 exposed the government's weakness.",
+   "choiceExplanations": [
+    "That was in 1770.",
+    "",
+    "That came in 1803, under the Constitution.",
+    "That was a Revolutionary War battle."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-d"
+  },
+  {
+   "id": "ush-u3-q15",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-constitution",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The author mentions the Northwest Ordinance in order to",
+   "choices": [
+    "explain why slavery expanded into the western territories",
+    "prove that the Articles gave Congress the power to tax",
+    "show that the Confederation had real achievements",
+    "describe a British policy on settlement west of the mountains"
+   ],
+   "correctAnswer": 2,
+   "explanation": "“Yet the Confederation was not a complete failure” introduces the Ordinance as an accomplishment.",
+   "choiceExplanations": [
+    "The Ordinance banned slavery north of the Ohio.",
+    "The passage says Congress could not tax.",
+    "",
+    "It was an American law passed by Congress."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-d"
+  },
+  {
+   "id": "ush-u3-q16",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "topicId": "ush3-constitution",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which statement best reflects continuity between the Revolution and the debates over the Constitution?",
+   "choices": [
+    "Slavery was abolished by both the Articles and the Constitution",
+    "Americans consistently favored a strong central government from 1776 onward, as both documents show",
+    "Fear of distant, concentrated power shaped both the Articles and Anti-Federalist opposition",
+    "The Constitution kept the Articles' ban on national taxation"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The same fear that shaped the Articles reappeared in Anti-Federalist arguments.",
+   "choiceExplanations": [
+    "Neither abolished slavery.",
+    "The Articles show the opposite.",
+    "",
+    "The Constitution gave Congress the power to tax."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "ush3-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-ush-u3-os1",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "title": "OpenStax U.S. History, 5.2 The Stamp Act and the Sons and Daughters of Liberty",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/5-2-the-stamp-act-and-the-sons-and-daughters-of-liberty",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (The Stamp Act and the Sons and Daughters of Liberty). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/5-2-the-stamp-act-and-the-sons-and-daughters-of-liberty",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-ush-u3-os2",
+   "courseId": "ap-united-states-history",
+   "unitId": "u3",
+   "title": "OpenStax U.S. History, 7.4 The Constitutional Convention and Federal Constitution",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/us-history/pages/7-4-the-constitutional-convention-and-federal-constitution",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college textbook section on part of this period (The Constitutional Convention and Federal Constitution). The book is organized by chapter, not by AP period.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/us-history/pages/7-4-the-constitutional-convention-and-federal-constitution",
+   "sourceTitle": "OpenStax U.S. History",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP U.S. History short-answer, document-based, and long-essay questions often span several periods, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "ush-u3-q01",
+    "ush-u3-q02",
+    "ush-u3-q03",
+    "ush-u3-q04",
+    "ush-u3-q09",
+    "ush-u3-q10",
+    "ush-u3-q11",
+    "ush-u3-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "ush-u3-q05",
+    "ush-u3-q06",
+    "ush-u3-q07",
+    "ush-u3-q08",
+    "ush-u3-q13",
+    "ush-u3-q14",
+    "ush-u3-q15",
+    "ush-u3-q16"
+   ]
+  }
+ ]
+}

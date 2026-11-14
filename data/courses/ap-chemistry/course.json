@@ -1,0 +1,320 @@
+{
+ "id": "ap-chemistry",
+ "name": "AP Chemistry",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-chemistry",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf",
+ "frameworkVersion": "AP Chemistry Course and Exam Description, effective Fall 2024 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections implemented as of June 2026.",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-chemistry/exam/past-exam-questions",
+  "note": null,
+  "releasedSets": [
+   {
+    "year": 2026,
+    "title": "2026 AP Chemistry Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-chemistry.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP Chemistry Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-chemistry.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP Chemistry Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-chemistry.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP Chemistry Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-chemistry.pdf"
+   }
+  ],
+  "setsNote": "Whole released exams (PDF, College Board), linked from the course's past-exam-questions page and checked to load on 2026-11-08. They are not matched to units. Scoring guidelines are on the course's past-exam-questions page."
+ },
+ "source": {
+  "title": "AP Chemistry – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+  "verified": "2026-11-08",
+  "note": "Unit names, the “topics may include” lists, and exam weightings were read from this page on 2026-11-08. The page writes one topic as “pH and pK” with a subscript a; StudySprint records it as “pH and pKa”."
+ },
+ "frameworkCheck": {
+  "checked": "2026-11-08",
+  "source": "https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf",
+  "title": "AP Chemistry Course and Exam Description (effective Fall 2024)",
+  "how": "The 91 numbered CED topics (1.1–9.11) were read from the current PDF on AP Central and cross-checked against College Board's Course at a Glance; each is matched to the StudySprint topic whose guide section and questions teach it. The Clarifications and Corrections implemented as of June 2026 change front matter, resource locations, and Progress Check wording only; no unit or topic changed.",
+  "weightsSource": "the AP Students course page (“On The Exam”), checked 2026-11-08",
+  "differences": [
+   "The AP Students page's topic list is a shorter summary of the CED's topics (for example, it does not name 4.9 redox reactions or 7.12 the common-ion effect separately). Both lists are recorded and both are build-checked.",
+   "The AP Students page says “Faraday’s laws”; the CED topic is “9.11 Electrolysis and Faraday’s Law”."
+  ]
+ },
+ "generalResources": [
+  {
+   "id": "gen-chem-openstax",
+   "title": "OpenStax Chemistry 2e (whole book)",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/details/books/chemistry-2e",
+   "scope": "general",
+   "kind": "textbook",
+   "note": "General: a free college general chemistry textbook. It covers every AP Chemistry unit and some topics beyond the AP scope.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/details/books/chemistry-2e",
+   "sourceTitle": "OpenStax book page",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Atomic Structure and Properties",
+   "status": "practice-ready",
+   "file": "data/courses/ap-chemistry/u1.json",
+   "officialTopics": [
+    "Moles and molar mass",
+    "Mass spectra of elements",
+    "Elemental composition of pure substances",
+    "Composition of mixtures",
+    "Atomic structure and electron configuration",
+    "Photoelectron spectroscopy",
+    "Periodic trends",
+    "Valence electrons and ionic compounds"
+   ],
+   "examWeight": "7%–9%",
+   "frameworkTopics": [
+    "1.1 Moles and Molar Mass",
+    "1.2 Mass Spectra of Elements",
+    "1.3 Elemental Composition of Pure Substances",
+    "1.4 Composition of Mixtures",
+    "1.5 Atomic Structure and Electron Configuration",
+    "1.6 Photoelectron Spectroscopy",
+    "1.7 Periodic Trends",
+    "1.8 Valence Electrons and Ionic Compounds"
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Compound Structure and Properties",
+   "status": "practice-ready",
+   "file": "data/courses/ap-chemistry/u2.json",
+   "officialTopics": [
+    "Types of chemical bonds",
+    "Intramolecular force and potential energy",
+    "Structure of ionic solids",
+    "Structure of metals and alloys",
+    "Lewis diagrams",
+    "Resonance and formal charge",
+    "VSEPR and hybridization"
+   ],
+   "examWeight": "7%–9%",
+   "frameworkTopics": [
+    "2.1 Types of Chemical Bonds",
+    "2.2 Intramolecular Force and Potential Energy",
+    "2.3 Structure of Ionic Solids",
+    "2.4 Structure of Metals and Alloys",
+    "2.5 Lewis Diagrams",
+    "2.6 Resonance and Formal Charge",
+    "2.7 VSEPR and Hybridization"
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Properties of Substances and Mixtures",
+   "status": "practice-ready",
+   "file": "data/courses/ap-chemistry/u3.json",
+   "officialTopics": [
+    "Intermolecular forces",
+    "Solids, liquids, and gases",
+    "Kinetic molecular theory",
+    "Solutions and mixtures",
+    "Properties of photons",
+    "Spectroscopy"
+   ],
+   "examWeight": "18%–22%",
+   "frameworkTopics": [
+    "3.1 Intermolecular and Interparticle Forces",
+    "3.2 Properties of Solids",
+    "3.3 Solids, Liquids, and Gases",
+    "3.4 Ideal Gas Law",
+    "3.5 Kinetic Molecular Theory",
+    "3.6 Deviation from Ideal Gas Law",
+    "3.7 Solutions and Mixtures",
+    "3.8 Representations of Solutions",
+    "3.9 Separation of Solutions and Mixtures",
+    "3.10 Solubility",
+    "3.11 Spectroscopy and the Electromagnetic Spectrum",
+    "3.12 Properties of Photons",
+    "3.13 Beer-Lambert Law"
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Chemical Reactions",
+   "status": "practice-ready",
+   "file": "data/courses/ap-chemistry/u4.json",
+   "officialTopics": [
+    "Introduction for reactions",
+    "Net ionic equations",
+    "Representations of reactions",
+    "Physical and chemical changes",
+    "Stoichiometry",
+    "Types of chemical reactions"
+   ],
+   "examWeight": "7%–9%",
+   "frameworkTopics": [
+    "4.1 Introduction for Reactions",
+    "4.2 Net Ionic Equations",
+    "4.3 Representations of Reactions",
+    "4.4 Physical and Chemical Changes",
+    "4.5 Stoichiometry",
+    "4.6 Introduction to Titration",
+    "4.7 Types of Chemical Reactions",
+    "4.8 Introduction to Acid-Base Reactions",
+    "4.9 Oxidation-Reduction (Redox) Reactions"
+   ]
+  },
+  {
+   "id": "u5",
+   "name": "Unit 5: Kinetics",
+   "status": "practice-ready",
+   "file": "data/courses/ap-chemistry/u5.json",
+   "officialTopics": [
+    "Reaction rate",
+    "Introduction to rate law",
+    "Elementary reactions",
+    "Collision model",
+    "Introduction to reaction mechanisms",
+    "Multistep reaction energy profile",
+    "Catalysis"
+   ],
+   "examWeight": "7%–9%",
+   "frameworkTopics": [
+    "5.1 Reaction Rates",
+    "5.2 Introduction to Rate Law",
+    "5.3 Concentration Changes Over Time",
+    "5.4 Elementary Reactions",
+    "5.5 Collision Model",
+    "5.6 Reaction Energy Profile",
+    "5.7 Introduction to Reaction Mechanisms",
+    "5.8 Reaction Mechanism and Rate Law",
+    "5.9 Pre-Equilibrium Approximation",
+    "5.10 Multistep Reaction Energy Profile",
+    "5.11 Catalysis"
+   ]
+  },
+  {
+   "id": "u6",
+   "name": "Unit 6: Thermochemistry",
+   "status": "practice-ready",
+   "file": "data/courses/ap-chemistry/u6.json",
+   "officialTopics": [
+    "Endothermic and exothermic processes",
+    "Heat transfer and thermal equilibrium",
+    "Heat capacity and calorimetry",
+    "Energy of phase changes",
+    "Introduction to enthalpy of reaction",
+    "Enthalpy of formation",
+    "Hess’s law"
+   ],
+   "examWeight": "7%–9%",
+   "frameworkTopics": [
+    "6.1 Endothermic and Exothermic Processes",
+    "6.2 Energy Diagrams",
+    "6.3 Heat Transfer and Thermal Equilibrium",
+    "6.4 Heat Capacity and Calorimetry",
+    "6.5 Energy of Phase Changes",
+    "6.6 Introduction to Enthalpy of Reaction",
+    "6.7 Bond Enthalpies",
+    "6.8 Enthalpy of Formation",
+    "6.9 Hess’s Law"
+   ]
+  },
+  {
+   "id": "u7",
+   "name": "Unit 7: Equilibrium",
+   "status": "practice-ready",
+   "file": "data/courses/ap-chemistry/u7.json",
+   "officialTopics": [
+    "Introduction to equilibrium",
+    "Calculating the equilibrium constant",
+    "Calculating equilibrium concentrations",
+    "Introduction to Le Châtelier’s principle",
+    "Introduction to solubility equilibria"
+   ],
+   "examWeight": "7%–9%",
+   "frameworkTopics": [
+    "7.1 Introduction to Equilibrium",
+    "7.2 Direction of Reversible Reactions",
+    "7.3 Reaction Quotient and Equilibrium Constant",
+    "7.4 Calculating the Equilibrium Constant",
+    "7.5 Magnitude of the Equilibrium Constant",
+    "7.6 Properties of the Equilibrium Constant",
+    "7.7 Calculating Equilibrium Concentrations",
+    "7.8 Representations of Equilibrium",
+    "7.9 Introduction to Le Châtelier’s Principle",
+    "7.10 Reaction Quotient and Le Châtelier’s Principle",
+    "7.11 Introduction to Solubility Equilibria",
+    "7.12 Common-Ion Effect"
+   ]
+  },
+  {
+   "id": "u8",
+   "name": "Unit 8: Acids and Bases",
+   "status": "practice-ready",
+   "file": "data/courses/ap-chemistry/u8.json",
+   "officialTopics": [
+    "Introduction to acids and bases",
+    "pH and pOH of strong acids and bases",
+    "Acid-base reactions and buffers",
+    "Molecular structure of acids and bases",
+    "pH and pKa",
+    "Properties of buffers",
+    "pH and solubility"
+   ],
+   "examWeight": "11%–15%",
+   "frameworkTopics": [
+    "8.1 Introduction to Acids and Bases",
+    "8.2 pH and pOH of Strong Acids and Bases",
+    "8.3 Weak Acid and Base Equilibria",
+    "8.4 Acid-Base Reactions and Buffers",
+    "8.5 Acid-Base Titrations",
+    "8.6 Molecular Structure of Acids and Bases",
+    "8.7 pH and pKa",
+    "8.8 Properties of Buffers",
+    "8.9 Henderson-Hasselbalch Equation",
+    "8.10 Buffer Capacity",
+    "8.11 pH and Solubility"
+   ]
+  },
+  {
+   "id": "u9",
+   "name": "Unit 9: Thermodynamics and Electrochemistry",
+   "status": "practice-ready",
+   "file": "data/courses/ap-chemistry/u9.json",
+   "officialTopics": [
+    "Introduction to entropy",
+    "Gibbs free energy and thermodynamic favorability",
+    "Thermodynamic and kinetic control",
+    "Free energy and equilibrium",
+    "Free energy of dissolution",
+    "Galvanic (voltaic) and electrolytic cells",
+    "Electrolysis and Faraday’s laws"
+   ],
+   "examWeight": "7%–9%",
+   "frameworkTopics": [
+    "9.1 Introduction to Entropy",
+    "9.2 Absolute Entropy and Entropy Change",
+    "9.3 Gibbs Free Energy and Thermodynamic Favorability",
+    "9.4 Thermodynamic and Kinetic Control",
+    "9.5 Free Energy and Equilibrium",
+    "9.6 Free Energy of Dissolution",
+    "9.7 Coupled Reactions",
+    "9.8 Galvanic (Voltaic) and Electrolytic Cells",
+    "9.9 Cell Potential and Free Energy",
+    "9.10 Cell Potential Under Nonstandard Conditions",
+    "9.11 Electrolysis and Faraday’s Law"
+   ]
+  }
+ ]
+}

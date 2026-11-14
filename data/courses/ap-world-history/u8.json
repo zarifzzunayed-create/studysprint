@@ -1,0 +1,705 @@
+{
+ "courseId": "ap-world-history",
+ "unitId": "u8",
+ "title": "Unit 8: Cold War and Decolonization",
+ "topics": [
+  {
+   "id": "wh8-coldwar",
+   "name": "The Cold War and its end",
+   "covers": [
+    "The causes and effects of the Cold War",
+    "The end of the Cold War"
+   ],
+   "frameworkCovers": [
+    "8.1 Setting the Stage for the Cold War and Decolonization",
+    "8.2 The Cold War",
+    "8.3 Effects of the Cold War",
+    "8.8 End of the Cold War"
+   ]
+  },
+  {
+   "id": "wh8-communism",
+   "name": "The spread of communism",
+   "covers": [
+    "The spread of communism"
+   ],
+   "frameworkCovers": [
+    "8.4 Spread of Communism After 1900"
+   ]
+  },
+  {
+   "id": "wh8-decol",
+   "name": "Decolonization, new states, and resistance",
+   "covers": [
+    "How colonies in Asia and Africa achieved independence",
+    "The creation of new states after decolonization"
+   ],
+   "frameworkCovers": [
+    "8.5 Decolonization After 1900",
+    "8.6 Newly Independent States",
+    "8.7 Global Resistance to Established Power Structures After 1900",
+    "8.9 Causation in the Age of the Cold War and Decolonization"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 8: Cold War and Decolonization: review guide",
+  "intro": "After 1945, the United States and the Soviet Union competed for global influence without fighting each other directly, while dozens of colonies in Asia and Africa won independence. This unit covers the Cold War's causes and effects, the spread of communism, decolonization and new states, movements that challenged established power, and the end of the Cold War.",
+  "sections": [
+   {
+    "id": "s-wh8-coldwar",
+    "topicId": "wh8-coldwar",
+    "title": "The Cold War and its end",
+    "body": [
+     "World War II left the United States and the Soviet Union as rival superpowers with opposing systems: capitalist democracy and communist one-party rule. The United States pursued containment through the Truman Doctrine and the Marshall Plan (1947–1948) and formed NATO (1949); the Soviet bloc formed the Warsaw Pact (1955). A nuclear arms race followed.",
+     "Because nuclear war threatened both sides, the superpowers fought through proxy wars, as in Korea (1950–1953) and Vietnam, and competed for influence in newly independent states. The Cold War ended as Soviet economic weakness, Mikhail Gorbachev's reforms (glasnost and perestroika), and the 1989 revolutions in Eastern Europe led to the breakup of the Soviet Union in 1991."
+    ],
+    "points": [
+     "Containment explains many U.S. policies.",
+     "Name both internal and external causes for the end of the Cold War."
+    ]
+   },
+   {
+    "id": "s-wh8-communism",
+    "topicId": "wh8-communism",
+    "title": "The spread of communism",
+    "body": [
+     "Communist movements promised land reform and an end to exploitation, which appealed to peasants and workers. In China, Mao Zedong's Communists won the civil war in 1949 with strong peasant support. The Great Leap Forward (1958–1962) caused a famine that killed tens of millions, and the Cultural Revolution (1966–1976) persecuted millions more.",
+     "Communism also spread through anticolonial struggles: Ho Chi Minh combined nationalism and communism in Vietnam, and Fidel Castro took power in Cuba in 1959, which led to the Cuban Missile Crisis in 1962."
+    ],
+    "points": [
+     "Land reform was a key appeal of communist movements.",
+     "Many movements mixed nationalism with communism."
+    ]
+   },
+   {
+    "id": "s-wh8-decol",
+    "topicId": "wh8-decol",
+    "title": "Decolonization and new states",
+    "body": [
+     "Some colonies won independence through negotiation and mass nonviolent protest, as in India under Gandhi and the Indian National Congress (1947) and Ghana under Kwame Nkrumah (1957). Others fought wars, especially where many European settlers lived, as in Algeria (1954–1962) and Kenya.",
+     "Independence brought new challenges: the partition of British India into India and Pakistan (1947) caused mass migration and violence, and borders drawn by colonizers often split or combined ethnic groups. Many new states joined the Non-Aligned Movement, launched after the Bandung Conference (1955). Movements against apartheid in South Africa and against Soviet control in Eastern Europe challenged established power."
+    ],
+    "points": [
+     "Compare negotiated and violent paths to independence.",
+     "Colonial borders and economies shaped new states long after independence."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Explain why decolonization in Algeria was more violent than in Ghana.",
+   "solution": "Algeria had a large population of French settlers and France considered it part of France, so it fought to keep it, leading to a long war; Ghana had few settlers, and Britain negotiated independence with Nkrumah's movement."
+  },
+  "misconceptions": [
+   [
+    "“The Cold War was never fought.”",
+    "The superpowers avoided direct war but backed many deadly proxy wars."
+   ],
+   [
+    "“All new states sided with a superpower.”",
+    "Many joined the Non-Aligned Movement to avoid choosing a side."
+   ],
+   [
+    "“Decolonization was always peaceful.”",
+    "Some colonies won independence by negotiation; others through long wars."
+   ],
+   [
+    "“Communism spread only by Soviet invasion.”",
+    "Many communist movements, as in China, Vietnam, and Cuba, grew from local revolutions."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP World History: Modern Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+  "sourceTitle": "AP World History: Modern – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "wh8-a",
+   "title": "Source A: President Ronald Reagan, speech, March 1983",
+   "text": [
+    "“I intend to do everything I can to persuade [the Soviet Union] of our peaceful intent. [. . .] At the same time, however, they must be made to understand: we will never compromise our principles and standards. We will never give away our freedom. . . . let us be aware that while they preach the supremacy of the State, declare its omnipotence over individual man, and predict its eventual domination of all peoples on the earth, they are the focus of evil in the modern world.”"
+   ],
+   "attribution": "Ronald Reagan, President of the United States, speech to the National Association of Evangelicals, March 8, 1983. The bracketed words are OpenStax's. Public domain. Wording follows the excerpt quoted in OpenStax World History, Volume 2, section 14.5.",
+   "sourceType": "public-domain",
+   "isOriginal": false,
+   "licenseOrRights": "The original text is in the public domain (a speech given by the President in his official role, which is a work of the U.S. government). StudySprint quotes it as excerpted in OpenStax World History, Volume 2 (openstax.org/books/world-history-volume-2/pages/14-5-a-new-world-order); no OpenStax commentary is copied."
+  },
+  {
+   "id": "wh8-b",
+   "title": "Source B: An interpretation of paths to independence",
+   "text": [
+    "“In India, Mohandas Gandhi led campaigns of nonviolent civil disobedience, such as the 1930 Salt March, that drew millions into the movement for independence. Britain left in 1947, but it partitioned the subcontinent into a mostly Hindu India and a mostly Muslim Pakistan. Millions of people fled across the new borders, and hundreds of thousands were killed. In Africa, paths differed. In the Gold Coast, Kwame Nkrumah's mass party won elections, and the colony became independent Ghana in 1957 after negotiations. In Algeria, where about a million French settlers lived, the struggle became a war that lasted from 1954 to 1962. Many new states later declared themselves non-aligned in the Cold War.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh8-c",
+   "title": "Source C: An interpretation of the spread of communism in Asia and the Americas",
+   "text": [
+    "“Communist parties won their greatest victories not in industrial Europe, as Marx had expected, but among peasants. In China, Mao Zedong's Communists promised land to the poor and defeated the Nationalists in 1949. Mao's Great Leap Forward, an attempt to industrialize rapidly through vast communes, caused a famine that killed tens of millions. In Vietnam, Ho Chi Minh led a movement that fought first French colonial rule and then a U.S.-backed government, combining nationalism with communism. In 1959, Fidel Castro's revolutionaries took power in Cuba. When the Soviet Union placed nuclear missiles on the island in 1962, the world came closer to nuclear war than ever before.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "wh8-d",
+   "title": "Source D: An interpretation of the Cold War in Europe and beyond",
+   "text": [
+    "“After 1945, Soviet-backed communist governments took power across Eastern Europe. The United States responded with containment. Through the Marshall Plan it gave billions of dollars to rebuild Western European economies, and in 1949 it formed the NATO military alliance; the Soviet Union answered with the Warsaw Pact in 1955. Because both sides came to possess nuclear weapons, they avoided fighting each other directly. Instead they backed opposing sides in wars such as the Korean War of 1950 to 1953. Meanwhile, people around the world challenged entrenched power, from Czechoslovaks during the 1968 Prague Spring to the activists who fought apartheid in South Africa.”"
+   ],
+   "attribution": "Interpretation written for StudySprint by its editors. It summarizes widely held historical views and is not a quotation from any published historian.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "wh-u8-q01",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-coldwar",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In Source A, Reagan describes the Soviet leaders as",
+   "choices": [
+    "a declining power that no longer posed a threat",
+    "partners in building a peaceful world order",
+    "allies against the spread of communism",
+    "“the focus of evil in the modern world”"
+   ],
+   "correctAnswer": 3,
+   "explanation": "He calls them “the focus of evil in the modern world.”",
+   "choiceExplanations": [
+    "He presents them as a serious, expansionist threat.",
+    "He says they must understand that the United States will never compromise.",
+    "The Soviet leaders were communists.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-a"
+  },
+  {
+   "id": "wh-u8-q02",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-coldwar",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Reagan's main purpose in this excerpt is most likely to",
+   "choices": [
+    "announce the end of the Cold War",
+    "explain why the United States should leave NATO",
+    "rally Americans behind a firm, uncompromising stand",
+    "propose that the United States adopt Soviet policies"
+   ],
+   "correctAnswer": 2,
+   "explanation": "He pairs a claim of “peaceful intent” with a refusal to “compromise our principles,” building support for a hard line.",
+   "choiceExplanations": [
+    "The Cold War did not end until 1989–1991.",
+    "NATO is not mentioned, and he favors strength, not withdrawal.",
+    "",
+    "He condemns Soviet ideas."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-a"
+  },
+  {
+   "id": "wh-u8-q03",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-communism",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Reagan's phrase “preach the supremacy of the State” refers to",
+   "choices": [
+    "the free-market policies of Western Europe",
+    "the American system of checks and balances",
+    "communist one-party rule over citizens",
+    "the Non-Aligned Movement's neutrality"
+   ],
+   "correctAnswer": 2,
+   "explanation": "He criticizes the Soviet state's claimed “omnipotence over individual man” under communism.",
+   "choiceExplanations": [
+    "Free markets are the opposite of state control.",
+    "He contrasts his own system with the Soviet one.",
+    "",
+    "The Non-Aligned Movement is not his subject."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-a"
+  },
+  {
+   "id": "wh-u8-q04",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-coldwar",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which development most directly contributed to the end of the conflict Reagan describes?",
+   "choices": [
+    "Soviet economic strain, Gorbachev's reforms, and the 1989 revolutions",
+    "A Soviet victory in the arms race that forced the United States to negotiate",
+    "The formation of the Warsaw Pact in 1955",
+    "The Cuban Missile Crisis of 1962"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Economic weakness, glasnost and perestroika, and the collapse of communist governments in Eastern Europe led to the breakup of the Soviet Union in 1991.",
+   "choiceExplanations": [
+    "",
+    "The Soviet Union did not win the arms race.",
+    "The Warsaw Pact's formation deepened the Cold War.",
+    "The crisis of 1962 came two decades before the end."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-a"
+  },
+  {
+   "id": "wh-u8-q05",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-decol",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source B, Gandhi's movement relied mainly on",
+   "choices": [
+    "a long war against British troops",
+    "an alliance with the Soviet Union",
+    "nonviolent civil disobedience",
+    "negotiations led by French settlers"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The source cites “campaigns of nonviolent civil disobedience, such as the 1930 Salt March.”",
+   "choiceExplanations": [
+    "Gandhi rejected armed struggle.",
+    "The source mentions no Soviet alliance.",
+    "",
+    "French settlers were in Algeria."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-b"
+  },
+  {
+   "id": "wh-u8-q06",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-decol",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The partition of 1947 described in Source B led most directly to",
+   "choices": [
+    "the reunification of India and Pakistan",
+    "mass migration and violence",
+    "a peaceful exchange with no casualties",
+    "the return of British rule to India"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Millions fled across the borders between India and Pakistan, and hundreds of thousands were killed.",
+   "choiceExplanations": [
+    "The two states remained separate.",
+    "",
+    "The source describes mass killing.",
+    "Britain left in 1947."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-b"
+  },
+  {
+   "id": "wh-u8-q07",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-decol",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Source B suggests that the war in Algeria differed from Ghana's path to independence because",
+   "choices": [
+    "Nkrumah led an armed rebellion against Britain",
+    "Ghana had a larger population of European settlers",
+    "Algeria won independence earlier than Ghana",
+    "many settlers made France fight to keep Algeria"
+   ],
+   "correctAnswer": 3,
+   "explanation": "About a million French settlers lived in Algeria, and the struggle became a long war; Ghana's independence was negotiated.",
+   "choiceExplanations": [
+    "Nkrumah's party won elections and negotiated.",
+    "The source names Algeria as the settler colony.",
+    "Ghana became independent in 1957, Algeria in 1962.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-b"
+  },
+  {
+   "id": "wh-u8-q08",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-coldwar",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The last sentence of Source B points to which effect of the Cold War on newly independent states?",
+   "choices": [
+    "All of them adopted Soviet-style communism.",
+    "Many chose non-alignment over either bloc.",
+    "They were not affected by the Cold War at all.",
+    "All of them joined NATO to protect their independence."
+   ],
+   "correctAnswer": 1,
+   "explanation": "Leaders at the Bandung Conference (1955) and in the Non-Aligned Movement tried to avoid choosing sides.",
+   "choiceExplanations": [
+    "Some did, but many chose non-alignment.",
+    "",
+    "Both superpowers courted these states.",
+    "Most new states did not join NATO."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-b"
+  },
+  {
+   "id": "wh-u8-q09",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-communism",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, the Chinese Communists won support by",
+   "choices": [
+    "promising land to poor peasants",
+    "winning elections in Chinese cities",
+    "allying with French colonial rulers",
+    "promising factories to industrial workers"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The source says Mao's Communists “promised land to the poor.”",
+   "choiceExplanations": [
+    "",
+    "They won a civil war, not elections.",
+    "France ruled Vietnam, not China.",
+    "The source says communism's victories came among peasants, not in industry."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-c"
+  },
+  {
+   "id": "wh-u8-q10",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-communism",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source C, the Great Leap Forward resulted in",
+   "choices": [
+    "China's rapid rise as an industrial power",
+    "a famine that killed tens of millions",
+    "the placing of missiles in Cuba",
+    "the defeat of the Chinese Nationalists"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The source says the program “caused a famine that killed tens of millions.”",
+   "choiceExplanations": [
+    "The program failed to achieve its goals.",
+    "",
+    "The missiles were Soviet and in Cuba.",
+    "The Nationalists were defeated in 1949, before it began."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-c"
+  },
+  {
+   "id": "wh-u8-q11",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-decol",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Ho Chi Minh's movement, as described in Source C, illustrates how",
+   "choices": [
+    "communism spread only through Soviet invasion and occupation",
+    "Vietnam supported French colonial rule",
+    "the United States backed Ho Chi Minh",
+    "anticolonial nationalism could join with communism"
+   ],
+   "correctAnswer": 3,
+   "explanation": "His movement fought French colonial rule and then a U.S.-backed government, mixing nationalism and communism.",
+   "choiceExplanations": [
+    "Vietnam's communist movement was homegrown.",
+    "He fought French rule.",
+    "The United States backed his opponents.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-c"
+  },
+  {
+   "id": "wh-u8-q12",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-coldwar",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The events in Cuba described at the end of Source C best show that",
+   "choices": [
+    "the Cold War stayed confined to Europe",
+    "the Soviet Union avoided any role in the Americas",
+    "a local revolution could spark a superpower crisis",
+    "Cuba's revolution ended the arms race"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Castro's revolution led to Soviet missiles in Cuba and the 1962 crisis, bringing the world near nuclear war.",
+   "choiceExplanations": [
+    "The crisis took place in the Caribbean.",
+    "The Soviet Union placed missiles in Cuba.",
+    "",
+    "The arms race continued."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-c"
+  },
+  {
+   "id": "wh-u8-q13",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-coldwar",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "According to Source D, the Marshall Plan was",
+   "choices": [
+    "a military alliance formed in 1955",
+    "a Soviet plan to rebuild Eastern Europe",
+    "a treaty ending the Korean War",
+    "U.S. aid to rebuild Western Europe"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The source says the United States gave “billions of dollars to rebuild Western European economies.”",
+   "choiceExplanations": [
+    "That describes the Warsaw Pact.",
+    "It was an American program.",
+    "The Korean War ended in an armistice in 1953.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-d"
+  },
+  {
+   "id": "wh-u8-q14",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-coldwar",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "NATO and the Warsaw Pact are best described as",
+   "choices": [
+    "rival military alliances",
+    "organizations that ended the arms race",
+    "economic programs to rebuild cities",
+    "movements for decolonization in Africa"
+   ],
+   "correctAnswer": 0,
+   "explanation": "NATO (1949) and the Warsaw Pact (1955) were opposing military alliances led by the superpowers.",
+   "choiceExplanations": [
+    "",
+    "The arms race continued.",
+    "They were military, not economic, programs.",
+    "They were Cold War alliances, not decolonization movements."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-d"
+  },
+  {
+   "id": "wh-u8-q15",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-decol",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Prague Spring and the movement against apartheid, as described in Source D, are both examples of",
+   "choices": [
+    "challenges to entrenched political power",
+    "superpowers fighting each other directly",
+    "economic aid programs for new states",
+    "efforts to expand colonial empires"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Both challenged governments that held power by force: Soviet-backed rule in Czechoslovakia and white minority rule in South Africa.",
+   "choiceExplanations": [
+    "",
+    "The superpowers avoided direct war.",
+    "They were political movements, not aid programs.",
+    "They opposed domination."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-d"
+  },
+  {
+   "id": "wh-u8-q16",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "topicId": "wh8-coldwar",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "According to Source D, why did the superpowers fight through proxy wars such as the Korean War?",
+   "choices": [
+    "Both sides had already agreed to end the Cold War.",
+    "Nuclear weapons made direct war too dangerous.",
+    "Neither side had armed forces large enough to fight.",
+    "The United Nations banned all direct wars after 1945."
+   ],
+   "correctAnswer": 1,
+   "explanation": "Because both possessed nuclear weapons, they “avoided fighting each other directly” and backed opposing sides elsewhere.",
+   "choiceExplanations": [
+    "The Cold War continued for decades.",
+    "",
+    "Both had huge armies.",
+    "The source does not mention such a ban."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-world-history-modern",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-09); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "wh8-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-wh-u8-os1",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "title": "OpenStax World History, Volume 2: from 1400, 14.1 The Cold War Begins",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/14-1-the-cold-war-begins",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on the beginning of the Cold War. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/14-1-the-cold-war-begins",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  },
+  {
+   "id": "res-wh-u8-os2",
+   "courseId": "ap-world-history",
+   "unitId": "u8",
+   "title": "OpenStax World History, Volume 2: from 1400, 14.4 Global Tensions and Decolonization",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/world-history-volume-2/pages/14-4-global-tensions-and-decolonization",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college world history textbook section on decolonization during the Cold War. It is written for college survey courses, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/world-history-volume-2/pages/14-4-global-tensions-and-decolonization",
+   "sourceTitle": "OpenStax World History, Volume 2: from 1400",
+   "licenseOrRights": "Linked only. OpenStax lists World History, Volume 2: from 1400 under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP World History: Modern short-answer, document-based, and long-essay questions often span several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "wh-u8-q01",
+    "wh-u8-q02",
+    "wh-u8-q03",
+    "wh-u8-q04",
+    "wh-u8-q05",
+    "wh-u8-q06",
+    "wh-u8-q07",
+    "wh-u8-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "wh-u8-q09",
+    "wh-u8-q10",
+    "wh-u8-q11",
+    "wh-u8-q12",
+    "wh-u8-q13",
+    "wh-u8-q14",
+    "wh-u8-q15",
+    "wh-u8-q16"
+   ]
+  }
+ ]
+}

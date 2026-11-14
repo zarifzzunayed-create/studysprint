@@ -1,0 +1,755 @@
+{
+ "courseId": "ap-chemistry",
+ "unitId": "u7",
+ "title": "Unit 7: Equilibrium",
+ "topics": [
+  {
+   "id": "c7-eq",
+   "name": "Equilibrium, Q, and K",
+   "covers": [
+    "Introduction to equilibrium",
+    "Calculating the equilibrium constant"
+   ],
+   "frameworkCovers": [
+    "7.1 Introduction to Equilibrium",
+    "7.2 Direction of Reversible Reactions",
+    "7.3 Reaction Quotient and Equilibrium Constant",
+    "7.4 Calculating the Equilibrium Constant",
+    "7.5 Magnitude of the Equilibrium Constant",
+    "7.6 Properties of the Equilibrium Constant",
+    "7.8 Representations of Equilibrium"
+   ]
+  },
+  {
+   "id": "c7-calc",
+   "name": "Calculating equilibrium concentrations",
+   "covers": [
+    "Calculating equilibrium concentrations"
+   ],
+   "frameworkCovers": [
+    "7.7 Calculating Equilibrium Concentrations"
+   ]
+  },
+  {
+   "id": "c7-lechat",
+   "name": "Le Châtelier's principle",
+   "covers": [
+    "Introduction to Le Châtelier’s principle"
+   ],
+   "frameworkCovers": [
+    "7.9 Introduction to Le Châtelier’s Principle",
+    "7.10 Reaction Quotient and Le Châtelier’s Principle"
+   ]
+  },
+  {
+   "id": "c7-ksp",
+   "name": "Solubility equilibria and the common-ion effect",
+   "covers": [
+    "Introduction to solubility equilibria"
+   ],
+   "frameworkCovers": [
+    "7.11 Introduction to Solubility Equilibria",
+    "7.12 Common-Ion Effect"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Equilibrium: review guide",
+  "intro": "Many reactions don't go to completion: forward and reverse reactions reach a balance. This unit writes and uses equilibrium constants, compares Q with K, calculates equilibrium concentrations, predicts shifts with Le Châtelier's principle, and applies equilibrium to solubility.",
+  "sections": [
+   {
+    "id": "s-c7-eq",
+    "topicId": "c7-eq",
+    "title": "Equilibrium, Q, and K",
+    "body": [
+     "At equilibrium the forward and reverse rates are equal, so concentrations stay constant (they aren't necessarily equal). For aA + bB ⇌ cC + dD, K = [C]ᶜ[D]ᵈ/([A]ᵃ[B]ᵇ). Pure solids and liquids are left out. Kp uses partial pressures instead of concentrations.",
+     "The reaction quotient Q has the same form, using current amounts. If Q < K the reaction proceeds forward; if Q > K it proceeds in reverse; if Q = K it is at equilibrium. A large K (≫ 1) means products are favored; a small K (≪ 1) means reactants are favored."
+    ],
+    "points": [
+     "Reversing a reaction gives K' = 1/K.",
+     "Multiplying the coefficients by n gives K' = Kⁿ.",
+     "Adding reactions multiplies their K values."
+    ],
+    "equations": [
+     [
+      "K = [C]ᶜ[D]ᵈ / ([A]ᵃ[B]ᵇ)",
+      "equilibrium constant"
+     ]
+    ]
+   },
+   {
+    "id": "s-c7-calc",
+    "topicId": "c7-calc",
+    "title": "Calculating equilibrium concentrations",
+    "body": [
+     "Use an ICE table: Initial amounts, the Change (in terms of x and the coefficients), and Equilibrium amounts. Substitute the equilibrium expressions into K and solve for x.",
+     "When K is very small compared with the starting concentration, x is small, and (starting amount − x) ≈ starting amount. This approximation turns a quadratic into a simple calculation; check afterward that x is small (under about 5% of the start)."
+    ],
+    "points": [
+     "Changes follow the coefficients: for A ⇌ 2B, if A falls by x then B rises by 2x.",
+     "Use concentrations (mol/L), not moles, unless the volume is 1 L.",
+     "Taking a square root can simplify K when the expression is a perfect square."
+    ]
+   },
+   {
+    "id": "s-c7-lechat",
+    "topicId": "c7-lechat",
+    "title": "Le Châtelier's principle",
+    "body": [
+     "When a system at equilibrium is disturbed, it shifts to partly undo the change. Adding a reactant or removing a product shifts it toward products. Decreasing the volume (raising the pressure) of a gas reaction shifts it toward the side with fewer moles of gas.",
+     "Changing concentration or pressure changes Q, not K. Only temperature changes K: for an exothermic reaction, raising the temperature shifts it toward reactants and lowers K. A catalyst, or an inert gas added at constant volume, causes no shift."
+    ],
+    "points": [
+     "Treat heat as a product of an exothermic reaction.",
+     "Compare Q with K to decide the direction of a shift.",
+     "Equal gas moles on both sides: a volume change causes no shift."
+    ]
+   },
+   {
+    "id": "s-c7-ksp",
+    "topicId": "c7-ksp",
+    "title": "Solubility equilibria and the common-ion effect",
+    "body": [
+     "For a slightly soluble salt, Ksp is the product of the dissolved ions' concentrations, each raised to its coefficient: for Ag₂CrO₄, Ksp = [Ag⁺]²[CrO₄²⁻]. The molar solubility s is how many moles dissolve per liter; for AgCl, Ksp = s², so s = √Ksp.",
+     "Common-ion effect: a salt is less soluble in a solution that already contains one of its ions. In 0.10 M NaCl, AgCl's solubility is about Ksp/0.10."
+    ],
+    "points": [
+     "Compare solubilities directly from Ksp only for salts with the same ion ratio.",
+     "The solid isn't part of the Ksp expression.",
+     "A common ion shifts the dissolving equilibrium back toward the solid."
+    ],
+    "equations": [
+     [
+      "Ksp = [Mⁿ⁺]ᵃ[Xᵐ⁻]ᵇ",
+      "solubility product"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "For H₂ + I₂ ⇌ 2HI, K = 64. A flask starts with 1.0 M H₂ and 1.0 M I₂. Find [HI] at equilibrium.",
+   "solution": "Let H₂ and I₂ fall by x and HI rise by 2x: K = (2x)²/(1.0 − x)² = 64. Take the square root: 2x/(1.0 − x) = 8, so 2x = 8 − 8x and x = 0.80. [HI] = 2x = 1.6 M."
+  },
+  "misconceptions": [
+   [
+    "“At equilibrium, reactant and product concentrations are equal.”",
+    "They are constant, not equal."
+   ],
+   [
+    "“At equilibrium the reactions stop.”",
+    "Both continue at equal rates (dynamic equilibrium)."
+   ],
+   [
+    "“Adding a reactant changes K.”",
+    "It changes Q; only temperature changes K."
+   ],
+   [
+    "“A catalyst increases the amount of product at equilibrium.”",
+    "It only helps the system reach equilibrium faster."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Chemistry Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+  "sourceTitle": "AP Chemistry – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "chem-u7-q01",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-eq",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which statement is true for a reaction at equilibrium?",
+   "choices": [
+    "All of the reactants have turned into products",
+    "Both the forward and reverse reactions have stopped",
+    "The concentrations of reactants and products are equal",
+    "The forward and reverse rates are equal, so concentrations stay constant"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Equilibrium is dynamic: both reactions keep going at the same rate, so there is no net change.",
+   "choiceExplanations": [
+    "Some reactants always remain in an equilibrium mixture.",
+    "Both reactions continue; their rates are just equal.",
+    "Concentrations are constant at equilibrium, but usually not equal.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q02",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-eq",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the equilibrium constant expression for N₂(g) + 3H₂(g) ⇌ 2NH₃(g)?",
+   "choices": [
+    "K = [NH₃]²/([N₂][H₂]³)",
+    "K = 2[NH₃]/([N₂] + 3[H₂])",
+    "K = [NH₃]/([N₂][H₂])",
+    "K = [N₂][H₂]³/[NH₃]²"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Products over reactants, each raised to the power of its coefficient.",
+   "choiceExplanations": [
+    "",
+    "Coefficients become exponents, and concentrations are multiplied, not added.",
+    "The coefficients must appear as exponents.",
+    "This is upside down: it's the K expression for the reverse reaction."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q03",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-eq",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the equilibrium expression Kp for CaCO₃(s) ⇌ CaO(s) + CO₂(g)?",
+   "choices": [
+    "Kp = 1/P(CO₂)",
+    "Kp = P(CO₂)·[CaO]/[CaCO₃]",
+    "Kp = [CaO]/[CaCO₃]",
+    "Kp = P(CO₂)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Pure solids are left out of equilibrium expressions, so only CO₂'s pressure remains.",
+   "choiceExplanations": [
+    "CO₂ is a product, so it goes in the numerator.",
+    "Solids don't appear in K expressions.",
+    "This includes only the solids and leaves out CO₂.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q04",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-eq",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For a reaction with K = 25, a mixture has Q = 4. What happens?",
+   "choices": [
+    "The reaction proceeds in reverse, toward reactants",
+    "K decreases until it equals Q",
+    "The reaction proceeds forward, toward products, until Q = K",
+    "The mixture is already at equilibrium"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Q < K means there are relatively too few products, so the forward reaction runs until Q rises to K.",
+   "choiceExplanations": [
+    "The reverse direction happens when Q > K.",
+    "K is fixed at a given temperature; Q changes.",
+    "",
+    "Equilibrium requires Q = K."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q05",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-eq",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For A ⇌ 2B, K = 4.0. What is K for 2A ⇌ 4B at the same temperature?",
+   "choices": [
+    "8.0",
+    "16",
+    "2.0",
+    "0.25"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Doubling all coefficients squares K: 4.0² = 16.",
+   "choiceExplanations": [
+    "8.0 multiplies K by 2 instead of squaring it.",
+    "",
+    "2.0 takes the square root instead of squaring.",
+    "0.25 is K for the reverse reaction, 2B ⇌ A."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q06",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-eq",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A reaction has K = 1 × 10⁻¹⁰ at 25 °C. What does that tell you about its equilibrium mixture?",
+   "choices": [
+    "It contains mostly reactants",
+    "It contains mostly products",
+    "It contains equal amounts of reactants and products",
+    "The reaction is very slow"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A very small K means the numerator (products) is tiny compared with the denominator (reactants).",
+   "choiceExplanations": [
+    "",
+    "Mostly products would give a large K.",
+    "Equal amounts would give K near 1.",
+    "K describes the equilibrium position, not the rate."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q07",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-eq",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For A(g) + B(g) ⇌ C(g), the equilibrium concentrations are [A] = 0.20 M, [B] = 0.10 M, and [C] = 0.40 M. What is K?",
+   "choices": [
+    "20",
+    "2.0",
+    "4.0",
+    "0.050"
+   ],
+   "correctAnswer": 0,
+   "explanation": "K = [C]/([A][B]) = 0.40/(0.20 × 0.10) = 20.",
+   "choiceExplanations": [
+    "",
+    "2.0 divides only by [A].",
+    "4.0 divides only by [B].",
+    "0.050 is the reciprocal, K for the reverse reaction."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q08",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-calc",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "For H₂(g) + I₂(g) ⇌ 2HI(g), K = 64. A flask starts with 1.0 M H₂ and 1.0 M I₂ and no HI. What is [HI] at equilibrium?",
+   "choices": [
+    "8.0 M",
+    "0.80 M",
+    "1.0 M",
+    "1.6 M"
+   ],
+   "correctAnswer": 3,
+   "explanation": "(2x)²/(1.0 − x)² = 64, so 2x/(1.0 − x) = 8 and x = 0.80. [HI] = 2x = 1.6 M.",
+   "choiceExplanations": [
+    "8.0 M is the square root of K, not a concentration.",
+    "0.80 M is x, the amount of H₂ used; [HI] = 2x.",
+    "1.0 M ignores the 2 : 1 ratio and the value of K.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q09",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-calc",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "For A ⇌ B + C, K = 1.0 × 10⁻⁶. Starting with [A] = 0.10 M, about what is [B] at equilibrium?",
+   "choices": [
+    "3.2 × 10⁻⁴ M",
+    "1.0 × 10⁻³ M",
+    "1.0 × 10⁻⁷ M",
+    "1.0 × 10⁻⁶ M"
+   ],
+   "correctAnswer": 0,
+   "explanation": "x²/(0.10 − x) = 1.0 × 10⁻⁶. With x small, x² = 1.0 × 10⁻⁷, so x = 3.2 × 10⁻⁴ M (0.3% of 0.10, so the approximation holds).",
+   "choiceExplanations": [
+    "",
+    "1.0 × 10⁻³ is √K, which leaves out the starting concentration.",
+    "1.0 × 10⁻⁷ is x²; you still need the square root.",
+    "1.0 × 10⁻⁶ is K itself."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q10",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-calc",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "2.0 mol of A is placed in a 1.0 L flask and reacts by A ⇌ 2B. At equilibrium, [B] = 0.40 M. What is [A] at equilibrium?",
+   "choices": [
+    "0.20 M",
+    "1.8 M",
+    "1.6 M",
+    "2.0 M"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Making 0.40 M of B uses half as much A: 0.20 M. [A] = 2.0 − 0.20 = 1.8 M.",
+   "choiceExplanations": [
+    "0.20 M is the amount of A that reacted, not what remains.",
+    "",
+    "1.6 M subtracts 0.40 M, ignoring the 1 : 2 ratio.",
+    "2.0 M forgets that some A reacted."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q11",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-lechat",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "More reactant is added to a system at equilibrium. Which way does it shift?",
+   "choices": [
+    "Toward reactants",
+    "It doesn't shift",
+    "Toward products",
+    "It shifts only if a catalyst is present"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Adding reactant makes Q < K, so the forward reaction runs to use up some of the added reactant.",
+   "choiceExplanations": [
+    "Shifting toward reactants would add even more reactant.",
+    "The added reactant disturbs the equilibrium, so it shifts.",
+    "",
+    "A catalyst isn't needed for an equilibrium to shift."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q12",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-lechat",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An exothermic reaction is at equilibrium. The temperature is raised. What happens?",
+   "choices": [
+    "Nothing changes, because temperature doesn't affect equilibrium",
+    "The equilibrium shifts toward products and K increases",
+    "The equilibrium shifts toward reactants and K decreases",
+    "The equilibrium shifts toward reactants, but K stays the same"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Treat heat as a product of an exothermic reaction: adding heat shifts the reaction back, and temperature is the one change that alters K.",
+   "choiceExplanations": [
+    "Temperature is the one factor that changes K.",
+    "That describes an endothermic reaction.",
+    "",
+    "A temperature change does change K."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q13",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-lechat",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For N₂(g) + 3H₂(g) ⇌ 2NH₃(g) at equilibrium, the container's volume is decreased. Which way does it shift?",
+   "choices": [
+    "It doesn't shift",
+    "Toward NH₃, the side with fewer moles of gas",
+    "Toward N₂ and H₂, the side with more moles of gas",
+    "Toward NH₃, because K increases"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Smaller volume raises the pressure; shifting to 2 mol of gas from 4 mol partly relieves it.",
+   "choiceExplanations": [
+    "The two sides have different numbers of gas moles, so it shifts.",
+    "",
+    "Shifting toward more gas moles would raise the pressure further.",
+    "K doesn't change; the shift happens because Q changes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q14",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-lechat",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Argon is added to a gas-phase equilibrium mixture in a rigid container (constant volume). What happens?",
+   "choices": [
+    "It shifts toward the side with more moles of gas",
+    "It shifts toward the side with fewer moles of gas",
+    "Nothing: the reacting gases' partial pressures don't change, so Q still equals K",
+    "K increases because the total pressure rose"
+   ],
+   "correctAnswer": 2,
+   "explanation": "At constant volume, adding an inert gas raises the total pressure but leaves each reacting gas's concentration and partial pressure the same.",
+   "choiceExplanations": [
+    "The concentrations of the reacting gases are unchanged.",
+    "A shift needs Q to change, and these partial pressures don't.",
+    "",
+    "Only temperature changes K."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q15",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-ksp",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the Ksp expression for silver chromate, Ag₂CrO₄?",
+   "choices": [
+    "Ksp = [Ag⁺]²[CrO₄²⁻]/[Ag₂CrO₄]",
+    "Ksp = [Ag⁺]²[CrO₄²⁻]",
+    "Ksp = 2[Ag⁺][CrO₄²⁻]",
+    "Ksp = [Ag⁺][CrO₄²⁻]"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Ag₂CrO₄(s) ⇌ 2Ag⁺ + CrO₄²⁻. The solid is left out, and the coefficient 2 becomes an exponent.",
+   "choiceExplanations": [
+    "The solid doesn't appear in the expression.",
+    "",
+    "Coefficients become exponents, not multipliers.",
+    "The coefficient 2 on Ag⁺ must be an exponent."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q16",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-ksp",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "AgCl has Ksp = 1.8 × 10⁻¹⁰. What is its molar solubility in pure water?",
+   "choices": [
+    "1.3 × 10⁻⁵ M",
+    "1.8 × 10⁻¹⁰ M",
+    "3.6 × 10⁻¹⁰ M",
+    "9.0 × 10⁻¹¹ M"
+   ],
+   "correctAnswer": 0,
+   "explanation": "AgCl ⇌ Ag⁺ + Cl⁻, so Ksp = s². s = √(1.8 × 10⁻¹⁰) = 1.3 × 10⁻⁵ M.",
+   "choiceExplanations": [
+    "",
+    "This is Ksp itself; s is its square root.",
+    "This multiplies Ksp by 2.",
+    "This divides Ksp by 2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q17",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-ksp",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is the molar solubility of AgCl (Ksp = 1.8 × 10⁻¹⁰) in 0.10 M NaCl?",
+   "choices": [
+    "1.8 × 10⁻¹¹ M",
+    "1.8 × 10⁻⁹ M",
+    "1.3 × 10⁻⁵ M",
+    "1.8 × 10⁻¹⁰ M"
+   ],
+   "correctAnswer": 1,
+   "explanation": "[Cl⁻] ≈ 0.10 M from NaCl, so s = Ksp/[Cl⁻] = 1.8 × 10⁻¹⁰ / 0.10 = 1.8 × 10⁻⁹ M, much less than in pure water.",
+   "choiceExplanations": [
+    "This multiplies by 0.10 instead of dividing.",
+    "",
+    "That is the solubility in pure water; the common ion lowers it.",
+    "This is Ksp, not the solubility."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u7-q18",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "topicId": "c7-ksp",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "AgCl has Ksp = 1.8 × 10⁻¹⁰ and AgBr has Ksp = 5.0 × 10⁻¹³. Which is more soluble in water?",
+   "choices": [
+    "They are equally soluble",
+    "AgBr",
+    "It can't be decided from Ksp",
+    "AgCl"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Both salts have a 1 : 1 ion ratio, so the larger Ksp means the larger molar solubility.",
+   "choiceExplanations": [
+    "Their Ksp values differ by a factor of about 360.",
+    "AgBr has the smaller Ksp, so less of it dissolves.",
+    "For salts with the same ion ratio, Ksp values can be compared directly.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-chem-u7-os1",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "title": "OpenStax Chemistry 2e, 13.2 Equilibrium Constants",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "K, Q, and how to use them (CED topics 7.3–7.6).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u7-os2",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "title": "OpenStax Chemistry 2e, 13.3 Shifting Equilibria: Le Châtelier’s Principle",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Le Châtelier's principle (CED topics 7.9–7.10).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u7-os3",
+   "courseId": "ap-chemistry",
+   "unitId": "u7",
+   "title": "OpenStax Chemistry 2e, 15.1 Precipitation and Dissolution",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Ksp, molar solubility, and the common-ion effect (CED topics 7.11–7.12).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "chem-u7-q01",
+    "chem-u7-q02",
+    "chem-u7-q08",
+    "chem-u7-q09",
+    "chem-u7-q12",
+    "chem-u7-q13",
+    "chem-u7-q15",
+    "chem-u7-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "chem-u7-q03",
+    "chem-u7-q04",
+    "chem-u7-q06",
+    "chem-u7-q10",
+    "chem-u7-q11",
+    "chem-u7-q14",
+    "chem-u7-q17",
+    "chem-u7-q18"
+   ]
+  }
+ ]
+}

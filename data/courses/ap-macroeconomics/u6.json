@@ -1,0 +1,755 @@
+{
+ "courseId": "ap-macroeconomics",
+ "unitId": "u6",
+ "title": "Unit 6: Open Economy—International Trade and Finance",
+ "topics": [
+  {
+   "id": "mac6-bop",
+   "name": "Balance of payments accounts",
+   "covers": [
+    "Balance of payments accounts"
+   ],
+   "frameworkCovers": [
+    "6.1 Balance of Payments Accounts"
+   ]
+  },
+  {
+   "id": "mac6-forex",
+   "name": "Exchange rates and the foreign exchange market",
+   "covers": [
+    "Exchange rates and the foreign exchange market"
+   ],
+   "frameworkCovers": [
+    "6.2 Exchange Rates",
+    "6.3 The Foreign Exchange Market"
+   ]
+  },
+  {
+   "id": "mac6-changes",
+   "name": "Policy, the foreign exchange market, and net exports",
+   "covers": [
+    "Effects of changes in policies and economic conditions on the foreign exchange market",
+    "Changes in the foreign exchange market and net exports"
+   ],
+   "frameworkCovers": [
+    "6.4 Effect of Changes in Policies and Economic Conditions on the Foreign Exchange Market",
+    "6.5 Changes in the Foreign Exchange Market and Net Exports"
+   ]
+  },
+  {
+   "id": "mac6-capital",
+   "name": "Real interest rates and capital flows",
+   "covers": [
+    "Real interest rates and international capital flows"
+   ],
+   "frameworkCovers": [
+    "6.6 Real Interest Rates and International Capital Flows"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 6: Open Economy—International Trade and Finance: review guide",
+  "intro": "This unit opens the economy to the rest of the world: how international transactions are recorded in the balance of payments, how exchange rates are set in the foreign exchange market, how policies and economic conditions change exchange rates and net exports, and how real interest rate differences move financial capital between countries.",
+  "sections": [
+   {
+    "id": "s-mac6-bop",
+    "topicId": "mac6-bop",
+    "title": "Balance of payments accounts",
+    "body": [
+     "The balance of payments records a country's international transactions. The current account (CA) records net exports of goods and services, net income from abroad, and net unilateral transfers; the balance of trade (net exports) is part of it. The capital and financial account (CFA) records purchases and sales of assets between countries, such as factories, stocks, and bonds.",
+     "Transactions that bring money into the country are credits, and those that send money out are debits. Credits and debits balance overall, so CA + CFA = 0: a current account deficit is matched by a financial account surplus (a net capital inflow)."
+    ],
+    "points": [
+     "Goods, services, income, transfers → current account; assets → capital and financial account.",
+     "CA + CFA = 0."
+    ]
+   },
+   {
+    "id": "s-mac6-forex",
+    "topicId": "mac6-forex",
+    "title": "Exchange rates and the foreign exchange market",
+    "body": [
+     "An exchange rate is the price of one currency in terms of another. A currency appreciates when it buys more of another currency and depreciates when it buys less. To convert, divide or multiply by the rate so that the units cancel.",
+     "In the market for a currency, demand comes from foreigners who want the country's goods, services, and assets, and supply comes from residents who want to pay in other currencies. Demand slopes downward and supply slopes upward against the exchange rate, and equilibrium is where they meet; surpluses and shortages push the rate toward equilibrium."
+    ],
+    "points": [
+     "Foreigners buying our goods or assets → demand for our currency rises.",
+     "Our residents buying foreign goods or assets → supply of our currency rises."
+    ]
+   },
+   {
+    "id": "s-mac6-changes",
+    "topicId": "mac6-changes",
+    "title": "Policy, the foreign exchange market, and net exports",
+    "body": [
+     "Demand for a currency shifts with demand for the country's goods, services, and assets; supply shifts with residents' purchases abroad, which tariffs or quotas on foreign goods reduce. Fiscal and monetary policy change interest rates, prices, and income, and so affect exchange rates: expansionary monetary policy lowers interest rates, reducing foreign demand for the country's assets and depreciating its currency; expansionary fiscal policy financed by borrowing raises real interest rates and tends to appreciate it.",
+     "An appreciation makes exports more expensive abroad and imports cheaper at home, so net exports fall and AD decreases. A depreciation raises net exports and AD."
+    ],
+    "points": [
+     "Appreciation → net exports down → AD down.",
+     "Lower domestic interest rates → currency depreciates → net exports up."
+    ]
+   },
+   {
+    "id": "s-mac6-capital",
+    "topicId": "mac6-capital",
+    "title": "Real interest rates and capital flows",
+    "body": [
+     "Financial capital flows toward countries with relatively high real interest rates. When a country's real rate rises relative to others, foreigners buy more of its assets, increasing demand for its currency (appreciation) and bringing a net capital inflow. In an open economy, investment equals national saving plus net capital inflow, so a capital inflow adds to the supply of loanable funds and puts downward pressure on the real interest rate.",
+     "Central banks influence domestic interest rates in the short run and therefore affect net capital inflows and exchange rates."
+    ],
+    "points": [
+     "Higher relative real rate → capital inflow → currency appreciates.",
+     "Investment = national saving + net capital inflow."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "The central bank of Country A raises its policy rate while rates elsewhere stay the same. Trace the effects on capital flows, the value of A's currency, and A's net exports.",
+   "solution": "Higher interest rates in A attract foreign financial capital, so demand for A's currency rises and it appreciates. A's exports become more expensive and imports cheaper, so A's net exports fall."
+  },
+  "misconceptions": [
+   [
+    "“A stronger currency always helps a country's trade balance.”",
+    "Appreciation makes exports pricier and imports cheaper, so net exports fall."
+   ],
+   [
+    "“Buying a factory abroad is recorded as an import.”",
+    "It is a financial transaction, recorded in the capital and financial account."
+   ],
+   [
+    "“Higher domestic interest rates make a currency depreciate.”",
+    "They attract capital inflows, which increase demand for the currency and make it appreciate."
+   ],
+   [
+    "“A current account deficit means the balance of payments is out of balance.”",
+    "It is matched by a capital and financial account surplus."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Macroeconomics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-macroeconomics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+  "sourceTitle": "AP Macroeconomics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "mac6-t1",
+   "title": "Table: International transactions of Corland, in billions of dollars (hypothetical data)",
+   "text": [
+    "Exports of goods and services: 400",
+    "Imports of goods and services: 520",
+    "Net income from abroad: +30",
+    "Net unilateral transfers: −10"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "mac-u6-q01",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-bop",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A country's current account records",
+   "choices": [
+    "purchases and sales of financial assets such as stocks and bonds abroad",
+    "the central bank's purchases and sales of government bonds",
+    "net exports, net income from abroad, and net unilateral transfers",
+    "the government's tax revenue and spending in a given year"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The current account covers trade in goods and services, income flows, and transfers.",
+   "choiceExplanations": [
+    "Purchases and sales of assets between countries are recorded in the capital and financial account.",
+    "Domestic open market operations are monetary policy, not balance of payments accounts.",
+    "",
+    "Tax revenue and spending make up the government budget, not the balance of payments."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q02",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-bop",
+   "skill": "1.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A U.S. company builds a new factory in Mexico. In the U.S. balance of payments, this transaction is recorded",
+   "choices": [
+    "in the capital and financial account, as an outflow of financial capital",
+    "in the capital and financial account, as an inflow of financial capital",
+    "in the current account, as an export of services to Mexico",
+    "in the current account, as an import of goods and services into the United States"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Buying a real asset abroad sends money out of the United States to acquire an asset, a financial capital outflow (a debit) in the CFA.",
+   "choiceExplanations": [
+    "",
+    "Money leaves the United States, so it is an outflow, not an inflow.",
+    "No good or service is sold to Mexico; the U.S. firm is buying an asset there.",
+    "A factory is an asset purchase, not an import of goods."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q03",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-bop",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, what is Corland's current account balance?",
+   "choices": [
+    "−$120 billion",
+    "−$90 billion",
+    "−$100 billion",
+    "−$80 billion"
+   ],
+   "correctAnswer": 2,
+   "explanation": "CA = (400 − 520) + 30 + (−10) = −100.",
+   "choiceExplanations": [
+    "−$120 billion is net exports alone; the current account also includes income and transfers.",
+    "−$90 billion leaves out the net transfers of −$10 billion.",
+    "",
+    "−$80 billion treats the −$10 billion of transfers as +$10 billion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac6-t1"
+  },
+  {
+   "id": "mac-u6-q04",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-bop",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A country's current account shows a deficit of $100 billion. If the balance of payments accounts are complete, its capital and financial account must show",
+   "choices": [
+    "a surplus of $100 billion, a net inflow of financial capital",
+    "a balance of zero, because the two accounts are independent",
+    "a deficit of $100 billion, a net outflow of financial capital",
+    "a surplus of $200 billion, twice the current account deficit"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Because CA + CFA = 0, a $100 billion current account deficit is matched by a $100 billion CFA surplus.",
+   "choiceExplanations": [
+    "",
+    "The two accounts are linked; they must offset each other.",
+    "Two deficits would not sum to zero.",
+    "A $200 billion surplus would make the total +$100 billion, not zero."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q05",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-forex",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Last year $1 bought 0.80 euros; this year $1 buys 0.90 euros. The dollar has",
+   "choices": [
+    "kept the same value against the euro",
+    "depreciated against the euro",
+    "lost value because of U.S. inflation",
+    "appreciated against the euro"
+   ],
+   "correctAnswer": 3,
+   "explanation": "A dollar that buys more euros has become more valuable relative to the euro: it has appreciated.",
+   "choiceExplanations": [
+    "The rate changed from 0.80 to 0.90, so the value changed.",
+    "Depreciation would mean a dollar buys fewer euros.",
+    "The dollar gained, not lost, value against the euro.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q06",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-forex",
+   "skill": "2.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "If $1 exchanges for 0.8 euros, how many dollars does a €40 item cost?",
+   "choices": [
+    "$32",
+    "$50",
+    "$48",
+    "$40"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Each dollar buys 0.8 euros, so €40 costs 40 ÷ 0.8 = $50.",
+   "choiceExplanations": [
+    "$32 multiplies 40 by 0.8 instead of dividing.",
+    "",
+    "$48 adds 20% to the price, which is not the conversion.",
+    "$40 assumes the two currencies are worth the same."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q07",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-forex",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "If European consumers want to buy more U.S.-made goods, what happens in the foreign exchange market for dollars?",
+   "choices": [
+    "Demand for dollars increases, and the dollar depreciates.",
+    "Demand for dollars decreases, and the dollar depreciates.",
+    "Supply of dollars increases, and the dollar depreciates.",
+    "Demand for dollars increases, and the dollar appreciates."
+   ],
+   "correctAnswer": 3,
+   "explanation": "Europeans need dollars to buy U.S. goods, so demand for dollars shifts right and the dollar appreciates.",
+   "choiceExplanations": [
+    "A higher demand raises, not lowers, the dollar's value.",
+    "Wanting more U.S. goods increases demand for dollars.",
+    "Supply of dollars comes from Americans buying foreign goods or assets, which did not change here.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q08",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-forex",
+   "skill": "3.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Americans increase their purchases of Japanese-made goods. In the foreign exchange market for dollars,",
+   "choices": [
+    "the supply of dollars increases, and the dollar depreciates against the yen",
+    "the demand for dollars increases, and the dollar appreciates against the yen",
+    "the supply of dollars decreases, and the dollar appreciates against the yen",
+    "the demand for dollars decreases, and the dollar appreciates against the yen"
+   ],
+   "correctAnswer": 0,
+   "explanation": "To buy Japanese goods, Americans exchange dollars for yen, increasing the supply of dollars; the dollar depreciates.",
+   "choiceExplanations": [
+    "",
+    "Americans' purchases abroad affect the supply of dollars, not the demand.",
+    "Buying more Japanese goods increases, not decreases, the supply of dollars.",
+    "Lower demand for a currency would make it depreciate, not appreciate."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q09",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-changes",
+   "skill": "2.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A depreciation of a country's currency will tend to",
+   "choices": [
+    "leave its exports, imports, and net exports completely unchanged",
+    "increase its exports, decrease its imports, and raise net exports",
+    "increase both its exports and imports, leaving net exports unchanged",
+    "decrease its exports, increase its imports, and lower net exports"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A weaker currency makes the country's goods cheaper abroad and foreign goods pricier at home, so net exports rise.",
+   "choiceExplanations": [
+    "Changes in the currency's value change relative prices and so affect trade.",
+    "",
+    "Depreciation makes imports more expensive, so imports tend to fall.",
+    "That is the effect of an appreciation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q10",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-changes",
+   "skill": "3.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The United States places new tariffs on goods imported from Canada, and Americans buy fewer Canadian goods. In the foreign exchange market for U.S. dollars,",
+   "choices": [
+    "the demand for dollars increases, and the dollar depreciates",
+    "the supply of dollars increases, and the dollar depreciates",
+    "the supply of dollars decreases, and the dollar appreciates",
+    "the demand for dollars decreases, and the dollar depreciates"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Americans need fewer Canadian dollars, so they supply fewer U.S. dollars; the dollar appreciates.",
+   "choiceExplanations": [
+    "Higher demand for a currency makes it appreciate, and the tariff does not directly change demand.",
+    "Buying fewer Canadian goods reduces, not increases, the supply of dollars.",
+    "",
+    "The tariff changes Americans' purchases, which affect the supply of dollars rather than demand."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q11",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-changes",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "If a country's central bank lowers its interest rates while rates elsewhere stay the same, the country's currency will tend to",
+   "choices": [
+    "appreciate, decreasing the country's net exports",
+    "depreciate, decreasing the country's net exports",
+    "appreciate, increasing the country's net exports",
+    "depreciate, increasing the country's net exports"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Lower interest rates make the country's assets less attractive, reducing demand for its currency; the currency depreciates and net exports rise.",
+   "choiceExplanations": [
+    "Lower rates reduce demand for the currency, so it depreciates rather than appreciates.",
+    "A depreciation makes exports cheaper, raising net exports.",
+    "An appreciation would lower, not raise, net exports.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q12",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-changes",
+   "skill": "2.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A government increases spending and finances it by borrowing. In an open economy, which chain of effects is most likely?",
+   "choices": [
+    "The real interest rate falls, the currency appreciates, and net exports fall.",
+    "The real interest rate rises, the currency depreciates, and net exports rise.",
+    "The real interest rate falls, the currency depreciates, and net exports rise.",
+    "The real interest rate rises, the currency appreciates, and net exports fall."
+   ],
+   "correctAnswer": 3,
+   "explanation": "Government borrowing raises the real rate, attracting foreign capital; demand for the currency rises, it appreciates, and net exports fall.",
+   "choiceExplanations": [
+    "Borrowing raises the real rate; a falling rate would not attract capital.",
+    "Higher rates attract capital and appreciate the currency rather than depreciating it.",
+    "Government borrowing raises, not lowers, the real interest rate.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q13",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-changes",
+   "skill": "2.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "An appreciation of the U.S. dollar will tend to shift U.S. aggregate demand",
+   "choices": [
+    "left, because net exports fall",
+    "left, because imports fall",
+    "right, because net exports rise",
+    "right, because exports rise"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A stronger dollar makes U.S. exports more expensive and imports cheaper, so net exports and AD fall.",
+   "choiceExplanations": [
+    "",
+    "Appreciation makes imports cheaper, so imports tend to rise.",
+    "Appreciation lowers, not raises, net exports.",
+    "Appreciation makes exports more expensive abroad, so exports tend to fall."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q14",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-capital",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Financial capital tends to flow toward countries with",
+   "choices": [
+    "the highest rates of inflation",
+    "the largest trade surpluses",
+    "relatively high real interest rates",
+    "relatively low real interest rates and returns"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Investors seek the best real return, so they move funds toward countries with higher real interest rates.",
+   "choiceExplanations": [
+    "High inflation erodes real returns unless real rates are high.",
+    "Trade balances do not determine where investors seek returns.",
+    "",
+    "Lower real rates offer lower returns, so capital tends to flow out."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q15",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-capital",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "If the real interest rate in Country A rises relative to Country B, then",
+   "choices": [
+    "capital flows into B, and B's currency appreciates",
+    "capital flows into A, and A's currency appreciates",
+    "capital flows into A, and A's currency depreciates",
+    "capital flows out of A, and A's currency depreciates"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Higher real returns attract foreign capital to A, increasing demand for A's currency.",
+   "choiceExplanations": [
+    "Capital moves toward the higher real rate, which is in A.",
+    "",
+    "More demand for A's assets increases demand for A's currency, which appreciates.",
+    "A higher real rate attracts capital into A rather than out of it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q16",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-capital",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A net inflow of financial capital into a country will tend to",
+   "choices": [
+    "increase the supply of loanable funds and lower the real interest rate",
+    "decrease the supply of loanable funds and raise the real interest rate",
+    "increase the demand for loanable funds and raise the real interest rate",
+    "leave the loanable funds market and the real interest rate unchanged"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Foreign funds add to the supply of loanable funds, putting downward pressure on the real interest rate.",
+   "choiceExplanations": [
+    "",
+    "An inflow adds funds rather than removing them.",
+    "Foreign lenders supply funds; they do not add to demand for them.",
+    "Investment equals national saving plus net capital inflow, so an inflow changes the market."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q17",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-capital",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In an open economy, national saving is $500 billion and the net capital inflow is $100 billion. How much investment can be financed?",
+   "choices": [
+    "$400 billion",
+    "$600 billion",
+    "$100 billion",
+    "$500 billion"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Investment = national saving + net capital inflow = 500 + 100 = $600 billion.",
+   "choiceExplanations": [
+    "$400 billion subtracts the inflow instead of adding it.",
+    "",
+    "$100 billion is only the capital inflow.",
+    "$500 billion ignores the funds flowing in from abroad."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-mac-u6-os1",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "title": "OpenStax Principles of Macroeconomics 3e, 10.1 Measuring Trade Balances",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/10-1-measuring-trade-balances",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on measuring trade balances and the current account. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/10-1-measuring-trade-balances",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u6-os2",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "title": "OpenStax Principles of Macroeconomics 3e, 16.1 How the Foreign Exchange Market Works",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/16-1-how-the-foreign-exchange-market-works",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on how the foreign exchange market works. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/16-1-how-the-foreign-exchange-market-works",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u6-os3",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "title": "OpenStax Principles of Macroeconomics 3e, 16.2 Demand and Supply Shifts in Foreign Exchange Markets",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/16-2-demand-and-supply-shifts-in-foreign-exchange-markets",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on shifts in foreign exchange markets. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/16-2-demand-and-supply-shifts-in-foreign-exchange-markets",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u6-os4",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "title": "OpenStax Principles of Macroeconomics 3e, 16.3 Macroeconomic Effects of Exchange Rates",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/16-3-macroeconomic-effects-of-exchange-rates",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on the macroeconomic effects of exchange rates. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/16-3-macroeconomic-effects-of-exchange-rates",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Macroeconomics free-response set has one long and two short questions that usually combine several units (for example, AD–AS with the money market or the foreign exchange market), so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "mac-u6-q01",
+    "mac-u6-q02",
+    "mac-u6-q05",
+    "mac-u6-q06",
+    "mac-u6-q10",
+    "mac-u6-q12",
+    "mac-u6-q15",
+    "mac-u6-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "mac-u6-q03",
+    "mac-u6-q04",
+    "mac-u6-q07",
+    "mac-u6-q08",
+    "mac-u6-q09",
+    "mac-u6-q13",
+    "mac-u6-q14",
+    "mac-u6-q17"
+   ]
+  }
+ ]
+}
