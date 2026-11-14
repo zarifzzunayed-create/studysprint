@@ -143,12 +143,22 @@
    ],
    "group": "History and Social Sciences",
    "frqHubUrl": "https://apcentral.collegeboard.org/courses/ap-psychology/exam/past-exam-questions",
-   "outline": false,
-   "framework": {
-    "status": "not checked",
-    "expectedKind": "units",
-    "expectedNote": "Expected to be unit-based; fits the existing unit review and multiple-choice format.",
-    "why": "College Board's course framework for this course has not been checked for StudySprint yet, so no units are listed and nothing about its structure is treated as verified. The expected format is a planning note only."
+   "outline": true,
+   "summary": {
+    "units": 5,
+    "ready": 5,
+    "inProgress": 0,
+    "complete": true,
+    "examUnits": 5,
+    "examReady": 5,
+    "tests": 10,
+    "unitTests": {
+     "u1": 2,
+     "u2": 2,
+     "u3": 2,
+     "u4": 2,
+     "u5": 2
+    }
    }
   },
   {

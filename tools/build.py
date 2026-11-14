@@ -30,8 +30,8 @@ def source_ok(where, o, need_url):
     if need_url and not https(o.get("sourceUrl")):
         err("%s: sourceUrl must be an https URL" % where)
 
-def check_unit(course_id, meta, d):
-    """Validate one unit file and return its computed status."""
+def check_unit(course_id, meta, d, skills=()):
+    """Validate one unit file and return its computed status. skills: the course's skill codes (frameworkCheck.skills)."""
     uid = meta["id"]; where = "%s/%s" % (course_id, uid)
     if d["courseId"] != course_id or d["unitId"] != uid:
         err("%s: courseId/unitId do not match the course file" % where)
@@ -101,6 +101,9 @@ def check_unit(course_id, meta, d):
             err(qw + ": unknown topicId")
         if q["difficulty"] not in LEVELS:
             err(qw + ": bad difficulty")
+        # An optional skill tag must name one of the skills the course file lists from its CED.
+        if "skill" in q and q["skill"] not in skills:
+            err(qw + ": skill '%s' is not a skill listed in the course file" % q["skill"])
         if q["prompt"] in seen_prompts:
             err(qw + ": duplicate prompt")
         seen_prompts.add(q["prompt"])
@@ -308,7 +311,7 @@ def main():
                     err("%s/%s: file missing: %s" % (c["id"], u["id"], u["file"]))
                 else:
                     d = load(u["file"])
-            status = "outline" if d is None else check_unit(c["id"], u, d)
+            status = "outline" if d is None else check_unit(c["id"], u, d, {s["code"] for s in cd.get("frameworkCheck", {}).get("skills", [])})
             # Framework coverage and exam coverage are kept apart: a unit is marked examAssessed false only when
             # College Board says it is not on the AP Exam, and that needs a note saying so.
             if "examAssessed" in u and (u["examAssessed"] is not False or not u.get("examNote")):

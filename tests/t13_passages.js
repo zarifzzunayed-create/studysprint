@@ -99,12 +99,36 @@ const titleOf = id => d.passages.find(p => p.id === id).title;
   T.ok(withP.length === 4 && gSeen.length - withP.length === 4 && pRuns.length === 1 && gSeen.every(x => !x.pid === !x.src) && withP.every(x => /Public domain|Hypothetical/.test(x.src)),
     'a U.S. Government test has one whole, labelled stimulus set (4 questions kept together) and 4 individual questions without a stimulus');
   await p.click('#v-test button:has-text("Save and exit")');
+  /* ---- Psychology tests pair one hypothetical study or data set with individual questions, and review shows each question's skill ---- */
+  const pd = JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', 'ap-psychology', 'u2.json')));
+  const pByPrompt = Object.fromEntries(pd.questions.map(q => [q.prompt, q]));
+  await T.openUnit(p, 'AP Psychology', 'u2');
+  await p.locator('#v-overview .test-cards > li').nth(1).locator('button:has-text("Start untimed")').click();
+  await p.waitForSelector('#v-test form legend');
+  const pSeen = [];
+  for (let i = 0; i < 8; i++) {
+    const q = pByPrompt[(await p.locator('#v-test form legend').first().textContent())];
+    const src = await p.locator('#v-test .passage .passage-src').count() ? await p.locator('#v-test .passage .passage-src').first().textContent() : null;
+    pSeen.push({ pid: q && q.passageId || null, src, q });
+    await p.locator(`#v-test input.ans[value="${q.correctAnswer}"]`).check();
+    const was = await p.locator('#v-test form legend').first().textContent();
+    await p.click('#v-test .test-nav button.button-primary');
+    if (i < 7) await p.waitForFunction(w => { const l = document.querySelector('#v-test form legend'); return l && l.textContent !== w; }, was);
+  }
+  const pWith = pSeen.filter(x => x.pid), pBlocks = pSeen.map(x => x.pid).filter((x, i, a) => x && (i === 0 || a[i - 1] !== x));
+  T.ok(pWith.length === 4 && pBlocks.length === 1 && pSeen.every(x => !x.pid === !x.src) && pWith.every(x => /^Hypothetical (study summary|data)/.test(x.src)),
+    'a Psychology test has one whole hypothetical study or data set (4 questions together, labelled as invented) and 4 individual questions');
+  await p.click('#v-test button:has-text("Submit test")');
+  await p.click('#v-test button:has-text("Yes, submit")');
+  await p.waitForSelector('#v-test .ans-list');
+  const pSum = await p.$$eval('#v-test .ans-item > summary', s => s.map(x => x.textContent));
+  T.ok(pSum.length === 8 && pSum.every((t, i) => t.endsWith(' · Skill ' + pSeen[i].q.skill)), 'Psychology test review tags each question with its CED science-practice skill');
   T.ok(!p.errs.length, 'no page errors' + (p.errs.length ? ': ' + p.errs.join(' | ') : ''));
 
   /* ---- answer length gives nothing away in the passage-based banks ---- */
   for (const [cid, label] of [['ap-english-language-and-composition', 'English Language'], ['ap-united-states-history', 'U.S. History'],
                               ['ap-english-literature-and-composition', 'English Literature'], ['ap-world-history', 'World History'],
-                              ['ap-united-states-government-and-politics', 'U.S. Government']]) {
+                              ['ap-united-states-government-and-politics', 'U.S. Government'], ['ap-psychology', 'Psychology']]) {
     let n = 0, longest = 0;
     for (const f of fs.readdirSync(path.join(T.ROOT, 'data', 'courses', cid)).filter(x => /^u\d+\.json$/.test(x))) {
       for (const q of JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', cid, f))).questions) {

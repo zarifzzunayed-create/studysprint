@@ -1,0 +1,928 @@
+{
+ "courseId": "ap-psychology",
+ "unitId": "u5",
+ "title": "Unit 5: Mental and Physical Health",
+ "topics": [
+  {
+   "id": "psy5-health",
+   "name": "Health psychology, stress, and positive psychology",
+   "covers": [
+    "An introduction to health and positive psychology"
+   ],
+   "frameworkCovers": [
+    "5.1 Introduction to Health Psychology",
+    "5.2 Positive Psychology"
+   ]
+  },
+  {
+   "id": "psy5-explaining",
+   "name": "Defining, diagnosing, and explaining disorders",
+   "covers": [
+    "Standards for diagnosing and approaches to explaining psychological disorders"
+   ],
+   "frameworkCovers": [
+    "5.3 Explaining and Classifying Psychological Disorders"
+   ]
+  },
+  {
+   "id": "psy5-disorders",
+   "name": "Selected categories of psychological disorders",
+   "covers": [
+    "Neurodevelopmental and schizophrenic spectrum disorders",
+    "Bipolar, depressive, anxiety, and obsessive-compulsive disorders",
+    "Dissociative and trauma- and stress-related disorders",
+    "Eating disorders and personality disorders"
+   ],
+   "frameworkCovers": [
+    "5.4 Selection of Categories of Psychological Disorders"
+   ]
+  },
+  {
+   "id": "psy5-treatment",
+   "name": "Treatment of psychological disorders",
+   "covers": [
+    "Historical developments in psychological treatment",
+    "Modern treatment options and methods"
+   ],
+   "frameworkCovers": [
+    "5.5 Treatment of Psychological Disorders"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 5: Mental and Physical Health: review guide",
+  "intro": "This unit covers how stress affects health and how people cope, what positive psychology studies, how psychological disorders are defined, diagnosed, and explained, the symptoms and possible causes of the disorders named in the CED, and how disorders are treated. Exam questions usually describe symptoms or a therapy session and ask you to identify the disorder, perspective, or technique.",
+  "sections": [
+   {
+    "id": "s-psy5-health",
+    "topicId": "psy5-health",
+    "title": "Health psychology, stress, and positive psychology",
+    "body": [
+     "Health psychology studies how behavior and mental processes affect physical health. Stress raises susceptibility to disease and is linked to hypertension, headaches, and immune suppression. Stressors can be motivating (eustress) or debilitating (distress), and can be traumatic events or daily hassles that build up; adverse childhood experiences are lifelong sources of stress. The general adaptation syndrome has three phases: alarm reaction (a fight-flight-freeze response), resistance (confronting the stressor), and exhaustion (resources spent), when susceptibility to illness is greatest. Tend-and-befriend describes reacting to stress by caring for oneself and others and seeking connection, seen mostly in women. Problem-focused coping tackles the stressor; emotion-focused coping manages the emotional reaction, for example with deep breathing, meditation, or medication.",
+     "Positive psychology studies well-being, resilience, positive emotions, and psychological health. Expressing gratitude increases subjective well-being, and using one's signature strengths is linked to happiness. A classification of character strengths is organized around six virtues: wisdom, courage, humanity, justice, temperance, and transcendence. Posttraumatic growth is positive change after trauma or stress."
+    ],
+    "points": [
+     "GAS: alarm → resistance → exhaustion; illness risk peaks in exhaustion.",
+     "Problem-focused coping changes the situation; emotion-focused coping changes the reaction.",
+     "Eustress is positive stress, not the absence of stress."
+    ]
+   },
+   {
+    "id": "s-psy5-explaining",
+    "topicId": "psy5-explaining",
+    "title": "Defining, diagnosing, and explaining disorders",
+    "body": [
+     "Psychologists consider level of dysfunction, distress, and deviation from social norms when identifying disorders. Diagnosis has benefits (access to treatment) and costs (stigma), shaped by cultural norms and by racism, sexism, ageism, and other discrimination. Diagnosis requires specialized training and evidence-based tools: the American Psychiatric Association's Diagnostic and Statistical Manual of Mental Disorders (DSM) and the World Health Organization's International Classification (ICD), both updated regularly.",
+     "Most psychologists take an eclectic approach. Perspectives locate causes differently: behavioral (maladaptive learned associations), psychodynamic (unconscious thoughts and childhood experiences), humanistic (lack of social support and unfulfilled potential), cognitive (maladaptive thoughts and beliefs), evolutionary (behaviors that reduce survival), sociocultural (maladaptive social and cultural dynamics), and biological (physiological or genetic issues). The biopsychosocial model combines biological, psychological, and sociocultural factors; the diathesis-stress model says a genetic vulnerability (diathesis) combines with stressful experiences to produce a disorder."
+    ],
+    "points": [
+     "Unusual behavior is not automatically a disorder; consider dysfunction, distress, and cultural norms.",
+     "Diathesis-stress = vulnerability plus a trigger."
+    ]
+   },
+   {
+    "id": "s-psy5-disorders",
+    "topicId": "psy5-disorders",
+    "title": "Selected categories of psychological disorders",
+    "body": [
+     "Neurodevelopmental disorders begin during development and involve behavior that is not typical for a person's age; the CED's examples are ADHD and autism spectrum disorder. Schizophrenia spectrum disorders involve delusions (false beliefs, such as persecution or grandeur), hallucinations (false perceptions), disorganized thinking or speech (such as word salad), disorganized motor behavior (catatonia), and negative symptoms (the absence of typical behavior, such as flat affect or catatonic stupor). Possible causes include genetic or biological factors such as prenatal virus exposure and dopamine imbalances (the dopamine hypothesis).",
+     "Depressive disorders (major depressive disorder and persistent depressive disorder) involve sad, empty, or irritable mood with physical and cognitive changes. Bipolar I and Bipolar II involve periods of mania and periods of depression. Anxiety disorders include specific phobia (such as acrophobia or arachnophobia), agoraphobia, panic disorder (unexpected panic attacks; ataque de nervios is a culture-bound form), social anxiety disorder (intense fear of being judged; taijin kyofusho is a culture-bound form), and generalized anxiety disorder (prolonged, nonspecific anxiety). Obsessive-compulsive disorder pairs obsessions (intrusive thoughts) with compulsions (repetitive behaviors meant to relieve them); hoarding disorder is related.",
+     "Dissociative disorders (dissociative amnesia, with or without fugue, and dissociative identity disorder) involve disruptions of memory, identity, or consciousness and are linked to trauma or stress. Posttraumatic stress disorder follows a traumatic event and can bring hypervigilance, flashbacks, insomnia, emotional detachment, and hostility. Anorexia nervosa and bulimia nervosa are eating disorders. Personality disorders are enduring, inflexible patterns that deviate from one's culture and begin by early adulthood: Cluster A is odd or eccentric (paranoid, schizoid, schizotypal), Cluster B is dramatic or erratic (antisocial, histrionic, narcissistic, borderline), and Cluster C is anxious or fearful (avoidant, dependent, obsessive-compulsive personality disorder). For most categories, possible causes span biological, genetic, social, cultural, behavioral, and cognitive sources."
+    ],
+    "points": [
+     "Positive symptoms add something (delusions, hallucinations); negative symptoms take something away (flat affect).",
+     "Dissociative identity disorder is not schizophrenia.",
+     "Bipolar requires mania (or hypomania), not just mood swings."
+    ]
+   },
+   {
+    "id": "s-psy5-treatment",
+    "topicId": "psy5-treatment",
+    "title": "Treatment of psychological disorders",
+    "body": [
+     "Meta-analyses find psychotherapy generally effective. Therapists use evidence-based interventions, show cultural humility, and build a therapeutic alliance with the client. Late in the 20th century, effective psychotropic medications led to deinstitutionalization, and treatment is now usually decentralized, often combining medication with therapy. Psychologists follow APA ethical principles, including nonmaleficence (do no harm), fidelity, integrity, and respect for people's rights and dignity. Group therapy differs from individual therapy in that clients work alongside others with similar concerns; the CED lists this objective (5.5.E) without further essential knowledge statements.",
+     "Psychodynamic therapy uses free association and dream interpretation. Cognitive therapy uses cognitive restructuring and targets the cognitive triad (negative thoughts about oneself, the world, and the future). Applied behavior analysis applies conditioning: exposure therapies such as systematic desensitization (relaxation paired with a fear hierarchy), aversion therapy, and token economies; biofeedback helps clients regulate body systems. Cognitive-behavioral therapies, such as dialectical behavior therapy and rational emotive behavior therapy, combine both approaches. Humanistic, person-centered therapy uses active listening and unconditional positive regard. Hypnosis can help with pain and anxiety, but research does not support using it to recover accurate memories.",
+     "Biological treatments include antidepressants, antianxiety drugs, lithium, and antipsychotics, which act on specific neurotransmitters; side effects can include tardive dyskinesia, a movement disorder linked to dopamine regulation. Invasive or surgical options include psychosurgery (such as lesioning), transcranial magnetic stimulation, and electroconvulsive therapy; the lobotomy, popular in the mid-20th century, is rarely if ever performed today."
+    ],
+    "points": [
+     "Match therapy to perspective: free association → psychodynamic; restructuring → cognitive; desensitization → behavioral; unconditional regard → humanistic.",
+     "Hypnosis does not recover accurate memories."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A client with a fear of elevators learns deep relaxation, then imagines and later rides elevators in steps from least to most frightening. Name the therapy and the perspective it comes from.",
+   "solution": "This is systematic desensitization, an exposure therapy from the behavioral perspective (applied behavior analysis): relaxation is paired with each step of a fear hierarchy until the elevator no longer triggers fear."
+  },
+  "misconceptions": [
+   [
+    "“Schizophrenia means having multiple personalities.”",
+    "Multiple identities describe dissociative identity disorder; schizophrenia involves symptoms such as delusions and hallucinations."
+   ],
+   [
+    "“Negative symptoms are bad symptoms.”",
+    "Negative symptoms are the absence of typical behavior, such as flat affect; positive symptoms add experiences, such as hallucinations."
+   ],
+   [
+    "“Any unusual behavior is a disorder.”",
+    "Clinicians weigh dysfunction, distress, and deviation from cultural norms."
+   ],
+   [
+    "“Deinstitutionalization happened because lobotomies worked.”",
+    "It followed the wider use of effective psychotropic medications."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Psychology Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-psychology-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+  "sourceTitle": "AP Psychology – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "psy5-a",
+   "title": "Study 5: Therapy for social anxiety (hypothetical study summary)",
+   "text": [
+    "Researchers recruited 80 adults diagnosed with social anxiety disorder through community clinics. Each gave informed consent. Participants were randomly assigned either to 12 weekly sessions of cognitive-behavioral therapy (CBT) or to a wait-list group that received no treatment during those 12 weeks.",
+    "CBT sessions combined cognitive restructuring of thoughts such as “Everyone will think I'm foolish” with gradual exposure to feared social situations.",
+    "Before and after the 12 weeks, clinicians who did not know each participant's group rated social anxiety on a standardized 0–60 scale (higher scores mean more anxiety).",
+    "Results: average scores fell from 42 to 26 in the CBT group and from 41 to 38 in the wait-list group. The difference between the groups was statistically significant (p < .01), with an effect size of d = 0.9. After the study, the wait-list group was offered the same CBT."
+   ],
+   "attribution": "Hypothetical study summary written for StudySprint by its editors. The researchers, participants, and results are invented for practice and do not describe any published study.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "psy5-b",
+   "title": "Data set: Daily hassles and sick days (hypothetical data)",
+   "intro": "All 200 employees of a company were invited to complete a questionnaire measuring daily hassles (minor stressors such as traffic and deadlines) and to let researchers count their sick days over the next year; participation was voluntary and anonymous. Each line gives the mean number of sick days for one group of employees, sorted by hassle score.",
+   "text": [
+    "Lowest third of hassle scores: mean 2.1 sick days",
+    "Middle third of hassle scores: mean 3.4 sick days",
+    "Highest third of hassle scores: mean 5.8 sick days",
+    "Correlation between hassle score and sick days: r = +.41"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice data interpretation. The numbers are invented and do not come from any real study.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "psy-u5-q01",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-disorders",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which symptom is the defining feature of social anxiety disorder, the diagnosis shared by the participants in Study 5?",
+   "choices": [
+    "Intrusive thoughts relieved by repetitive behaviors",
+    "Prolonged, nonspecific worry about many things",
+    "Intense fear of being judged or watched by others",
+    "Sudden, unexpected attacks of overwhelming fear"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Social anxiety disorder involves intense fear of being judged or watched by others, which fits the thoughts targeted in the CBT sessions.",
+   "choiceExplanations": [
+    "Intrusive thoughts relieved by repetitive behaviors describe obsessive-compulsive disorder.",
+    "Prolonged worry without a specific focus describes generalized anxiety disorder.",
+    "",
+    "Unexpected panic attacks are the core of panic disorder."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy5-a"
+  },
+  {
+   "id": "psy-u5-q02",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-treatment",
+   "skill": "2.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why did the researchers use clinicians who did not know each participant's group to rate anxiety?",
+   "choices": [
+    "To reduce experimenter bias in rating participants' anxiety",
+    "To make sure every participant received the same amount of therapy",
+    "To make the sample representative of all adults with social anxiety",
+    "To let participants decide which of the two groups they preferred"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Raters who know the condition might expect the treated group to improve and rate it more favorably; keeping them blind reduces that bias.",
+   "choiceExplanations": [
+    "",
+    "Raters' knowledge has nothing to do with how much therapy was given; the wait-list group received none by design.",
+    "Representativeness depends on how participants are sampled, not on what raters know.",
+    "Participants were randomly assigned, not allowed to choose."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy5-a"
+  },
+  {
+   "id": "psy-u5-q03",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-treatment",
+   "skill": "3.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How should the effect size of d = 0.9 be interpreted?",
+   "choices": [
+    "Ninety percent of CBT participants no longer had the disorder.",
+    "The difference between CBT and the wait-list group was large.",
+    "The difference was small, because the value of d is less than 1.0.",
+    "There was a 90 percent chance the results were due to chance alone."
+   ],
+   "correctAnswer": 1,
+   "explanation": "Effect sizes of about 0.8 or greater are usually interpreted as large, so CBT made a large difference compared with waiting.",
+   "choiceExplanations": [
+    "Effect size compares group averages; it does not report the percentage of people who recovered.",
+    "",
+    "Values of 0.2 and below are usually considered small; 0.9 is large.",
+    "Effect size describes the size of a difference, not the probability that it is due to chance."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy5-a"
+  },
+  {
+   "id": "psy-u5-q04",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-treatment",
+   "skill": "2.D",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "After the study, the researchers offered the wait-list group the same CBT. Which ethical concern does this step most directly address?",
+   "choices": [
+    "Revealing participants' identities in the published results",
+    "Deceiving participants about the true purpose of the research",
+    "Withholding a potentially helpful treatment from people who need it",
+    "Pressuring participants to remain in the study against their wishes"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The wait-list group went 12 weeks without treatment; offering CBT afterward reduces the harm of withholding a helpful treatment (nonmaleficence).",
+   "choiceExplanations": [
+    "Offering therapy does not affect whether identities are kept confidential.",
+    "The summary describes no deception; participants knew they were in a treatment study.",
+    "",
+    "Offering therapy afterward concerns access to treatment, not the freedom to withdraw."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy5-a"
+  },
+  {
+   "id": "psy-u5-q05",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-health",
+   "skill": "3.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which statement best describes the relationship shown in the data?",
+   "choices": [
+    "No relationship: hassle scores and sick days were entirely unrelated",
+    "A perfect positive correlation: each added hassle caused a sick day",
+    "A strong negative correlation: more hassles went along with fewer sick days",
+    "A moderate positive correlation: more hassles went with more sick days"
+   ],
+   "correctAnswer": 3,
+   "explanation": "An r of +.41 is positive and moderate, and the group means rise from 2.1 to 5.8 sick days as hassles increase.",
+   "choiceExplanations": [
+    "An r of +.41 and rising group means show a clear relationship.",
+    "A perfect correlation would be +1.00, and correlation does not show that hassles caused sick days.",
+    "The correlation is positive (+.41), and sick days rise with hassles.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy5-b"
+  },
+  {
+   "id": "psy-u5-q06",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-health",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why can't the researchers conclude from these data that hassles caused the sick days?",
+   "choices": [
+    "The study is correlational, so illness or a third factor such as poor sleep could explain it.",
+    "Random assignment to hassle levels made the three groups too different from one another.",
+    "Sick days cannot be measured as a variable, so they cannot be correlated with hassle scores.",
+    "The sample of 200 employees was too small for any correlation to be calculated from these data."
+   ],
+   "correctAnswer": 0,
+   "explanation": "The researchers measured variables without manipulating them, so the direction of influence is unclear and a third variable could affect both.",
+   "choiceExplanations": [
+    "",
+    "Employees were not randomly assigned to hassle levels; hassles were measured, which is why the study is correlational.",
+    "Sick days were counted, so they are a measurable variable.",
+    "200 participants is plenty to calculate a correlation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy5-b"
+  },
+  {
+   "id": "psy-u5-q07",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-health",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which finding from health psychology offers a possible explanation for the pattern in the data?",
+   "choices": [
+    "Eustress strengthens the immune system, so stressed workers get sick less.",
+    "Stress can suppress the immune system, raising susceptibility to illness.",
+    "Posttraumatic growth leads stressed employees to take more sick days.",
+    "Tend-and-befriend responses to stress directly cause physical illness."
+   ],
+   "correctAnswer": 1,
+   "explanation": "Stress has been linked to immune suppression, which would make employees with more hassles more likely to get sick.",
+   "choiceExplanations": [
+    "The data show more sick days with more hassles, the opposite of this prediction.",
+    "",
+    "Posttraumatic growth is positive change after trauma; daily hassles are not traumatic events.",
+    "Tend-and-befriend is a social coping response, not a cause of illness."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy5-b"
+  },
+  {
+   "id": "psy-u5-q08",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-health",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "One employee coped well with months of heavy deadlines at first but eventually became run-down and caught one illness after another. In the general adaptation syndrome, she has most likely reached",
+   "choices": [
+    "the exhaustion phase, when resources are spent and illness risk is greatest",
+    "a recovery phase, when stress hormones gradually fall back to normal",
+    "the alarm reaction, when the fight-flight-freeze response first occurs in the body",
+    "the resistance phase, when the body confronts the stressor and copes"
+   ],
+   "correctAnswer": 0,
+   "explanation": "After a long period of resistance, resources are depleted in the exhaustion phase, when susceptibility to illness is greatest.",
+   "choiceExplanations": [
+    "",
+    "Recovery is not one of the three GAS phases, and she is getting worse, not recovering.",
+    "The alarm reaction happens when stress is first encountered, not after months.",
+    "She coped during the resistance phase; becoming run-down and ill marks the move to exhaustion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "psy5-b"
+  },
+  {
+   "id": "psy-u5-q09",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-health",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Before a big exam, Dev makes a study schedule and asks his teacher for extra help, while his friend practices deep breathing to stay calm. Which statement is accurate?",
+   "choices": [
+    "Both use problem-focused coping, because both take action on the exam.",
+    "Dev uses problem-focused coping; his friend uses emotion-focused coping.",
+    "Dev uses emotion-focused coping; his friend uses problem-focused coping.",
+    "Both use emotion-focused coping, because both try to reduce their worry."
+   ],
+   "correctAnswer": 1,
+   "explanation": "Dev works on the stressor itself (problem-focused); his friend manages his emotional reaction (emotion-focused).",
+   "choiceExplanations": [
+    "Deep breathing does not change the exam; it changes the friend's emotional state.",
+    "",
+    "This reverses the two: planning and seeking help address the problem, while deep breathing addresses emotions.",
+    "Making a schedule and getting help act on the exam itself rather than on Dev's feelings."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u5-q10",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-health",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Students who wrote down three things they were grateful for each week reported higher well-being than students who listed ordinary daily events. This finding is most closely associated with",
+   "choices": [
+    "the general adaptation syndrome, which describes the body's reactions to stress",
+    "positive psychology, which studies the factors that lead to well-being",
+    "the behavioral view that writing earns tokens in a token economy",
+    "the psychodynamic view that writing releases repressed conflicts"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Positive psychology studies sources of well-being, and expressing gratitude is one positive experience shown to increase subjective well-being.",
+   "choiceExplanations": [
+    "The general adaptation syndrome describes phases of the stress response, not gratitude.",
+    "",
+    "No tokens or rewards were given for writing.",
+    "The study concerns gratitude and well-being, not unconscious conflicts."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u5-q11",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-explaining",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A psychologist believes a client's depression stems from habitual thoughts such as “I always fail at everything.” Which perspective is the psychologist using?",
+   "choices": [
+    "Cognitive",
+    "Psychodynamic",
+    "Biological",
+    "Behavioral"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The cognitive perspective locates the causes of disorders in maladaptive thoughts and beliefs.",
+   "choiceExplanations": [
+    "",
+    "The psychodynamic perspective focuses on unconscious conflicts from childhood.",
+    "The biological perspective focuses on genetic or physiological causes.",
+    "The behavioral perspective focuses on learned associations, not thought patterns."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u5-q12",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-explaining",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Two identical twins share a family history of depression. One develops depression after losing her job and her home in the same year; the other, whose life stays stable, does not. Which model best explains this?",
+   "choices": [
+    "The eclectic approach",
+    "The humanistic perspective",
+    "The diathesis-stress model",
+    "The evolutionary perspective"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Both twins share a genetic vulnerability (diathesis), but only the one who faced major stressors developed depression.",
+   "choiceExplanations": [
+    "An eclectic approach is a clinician's use of several perspectives, not a model of how disorders develop.",
+    "The humanistic perspective stresses unmet potential and social support, not genetic vulnerability combined with stress.",
+    "",
+    "The evolutionary perspective focuses on survival value, which does not explain the difference between the twins."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u5-q13",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-explaining",
+   "skill": "1.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "During a religious ceremony, a man hears what his community understands as the voices of ancestors, an experience they honor. He works and cares for his family without difficulty and feels no distress. A clinician who diagnosed a disorder would be ignoring",
+   "choices": [
+    "that hearing voices is a sign of schizophrenia in every culture and every setting",
+    "that only the biological perspective is allowed to define psychological disorders",
+    "that the experience causes no dysfunction or distress and fits his culture's norms",
+    "that the DSM lists no symptoms involving perception, so voices cannot be diagnosed"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Clinicians weigh dysfunction, distress, and deviation from social and cultural norms; this experience meets none of those criteria.",
+   "choiceExplanations": [
+    "Cultural context matters: an experience valued by one's culture, without dysfunction or distress, is not by itself a sign of disorder.",
+    "Most psychologists use several perspectives, and none has sole authority to define disorders.",
+    "",
+    "Hallucinations are listed among schizophrenia's symptoms, so this statement is false."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u5-q14",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-disorders",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Jae has intrusive fears of germs and washes his hands about 40 times a day to relieve the anxiety. Which disorder do these symptoms best fit?",
+   "choices": [
+    "Generalized anxiety disorder (GAD)",
+    "Hoarding disorder",
+    "Specific phobia",
+    "Obsessive-compulsive disorder"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Intrusive thoughts (obsessions) relieved by repetitive behaviors (compulsions) define obsessive-compulsive disorder.",
+   "choiceExplanations": [
+    "GAD involves prolonged, nonspecific worry, not a specific obsession relieved by a ritual.",
+    "Hoarding disorder involves difficulty discarding possessions, not washing rituals.",
+    "A specific phobia is fear of a particular object or situation, without the repetitive rituals.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u5-q15",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-disorders",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which of the following is a negative symptom of schizophrenia?",
+   "choices": [
+    "Hallucinations, hearing voices that others do not hear",
+    "Word salad, stringing words together in nonsensical ways",
+    "Flat affect, showing little emotional expression",
+    "Delusions of persecution, believing others plot against one"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Negative symptoms are the absence of typical behavior; flat affect is a lack of emotional expression.",
+   "choiceExplanations": [
+    "Hallucinations add a false perception, so they are a positive symptom.",
+    "Disorganized speech such as word salad is a positive symptom.",
+    "",
+    "Delusions add a false belief, so they are a positive symptom."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u5-q16",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-disorders",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For two weeks, Ray barely sleeps, talks rapidly, and starts several grand business plans. Months later, he feels deeply sad and can hardly get out of bed. Which diagnosis best fits this pattern?",
+   "choices": [
+    "Generalized anxiety disorder",
+    "Bipolar disorder",
+    "Major depressive disorder",
+    "Persistent depressive disorder"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Alternating periods of mania (little sleep, rapid speech, grand plans) and depression characterize bipolar disorders.",
+   "choiceExplanations": [
+    "Generalized anxiety disorder involves prolonged worry, not manic episodes.",
+    "",
+    "Major depressive disorder does not include episodes of mania.",
+    "Persistent depressive disorder is long-lasting depressed mood without mania."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u5-q17",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-disorders",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A woman sometimes takes on two distinct identities, each with its own name and manner, and later cannot remember what happened while the other identity was present. Which disorder do these symptoms best fit?",
+   "choices": [
+    "Dissociative identity disorder",
+    "Bipolar II disorder",
+    "Borderline personality disorder",
+    "Schizophrenia"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Two or more distinct identities with gaps in memory define dissociative identity disorder.",
+   "choiceExplanations": [
+    "",
+    "Bipolar II involves alternating hypomania and depression, not separate identities.",
+    "Borderline personality disorder involves unstable relationships and emotions, not distinct identities with memory gaps.",
+    "Schizophrenia involves symptoms such as delusions and hallucinations, not separate identities."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u5-q18",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-disorders",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Since adolescence, Cole has repeatedly lied, broken rules, and harmed others without feeling remorse. Which diagnosis and cluster best fit this enduring pattern?",
+   "choices": [
+    "Antisocial personality disorder, in Cluster B",
+    "Schizotypal personality disorder, in Cluster A",
+    "Paranoid personality disorder, in Cluster A",
+    "Avoidant personality disorder, in Cluster C"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Disregard for others' rights without remorse is antisocial personality disorder, part of the dramatic or erratic Cluster B.",
+   "choiceExplanations": [
+    "",
+    "Schizotypal personality disorder involves odd beliefs and eccentric behavior.",
+    "Paranoid personality disorder involves pervasive distrust of others.",
+    "Avoidant personality disorder involves fear of rejection and social inhibition."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u5-q19",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-treatment",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A therapist teaches a client to relax deeply and then guides him through situations ranked from looking at a picture of a dog to petting one. Which treatment is this?",
+   "choices": [
+    "Free association, saying whatever comes to mind",
+    "Aversion therapy, pairing a habit with discomfort",
+    "A token economy, rewarding behavior with tokens",
+    "Systematic desensitization, an exposure therapy"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Pairing relaxation with each step of a fear hierarchy is systematic desensitization, a behavioral exposure therapy.",
+   "choiceExplanations": [
+    "Free association is a psychodynamic technique for uncovering unconscious thoughts.",
+    "Aversion therapy pairs an unwanted behavior with something unpleasant; here relaxation is paired with feared situations.",
+    "No tokens or rewards are used in this procedure.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u5-q20",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-treatment",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A therapist mostly listens, restates the client's feelings, and accepts the client without judgment, trusting the client to find her own direction. Which therapy is this?",
+   "choices": [
+    "Applied behavior analysis, using conditioning principles",
+    "Person-centered therapy, from the humanistic perspective",
+    "Cognitive therapy, focused on the cognitive triad",
+    "Psychodynamic therapy, using dream interpretation"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Active listening and unconditional positive regard are the hallmarks of humanistic, person-centered therapy.",
+   "choiceExplanations": [
+    "Applied behavior analysis changes behavior through conditioning, not through accepting listening.",
+    "",
+    "Cognitive therapy actively challenges negative thoughts about oneself, the world, and the future.",
+    "Psychodynamic therapy interprets dreams and free associations to uncover unconscious material."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u5-q21",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-treatment",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Why did the number of people living in psychiatric hospitals fall sharply in the late 20th century?",
+   "choices": [
+    "The DSM stopped classifying most disorders, so fewer people qualified for hospital care.",
+    "Hypnosis allowed therapists to recover patients' accurate memories and to resolve their disorders.",
+    "Lobotomies became common and cured most patients, so hospitals were no longer needed.",
+    "More effective psychotropic medications allowed many people to be treated outside hospitals."
+   ],
+   "correctAnswer": 3,
+   "explanation": "The increased use and effectiveness of psychotropic medications led to deinstitutionalization and treatment in community settings.",
+   "choiceExplanations": [
+    "The DSM continues to classify mental disorders and is regularly updated.",
+    "Research does not support hypnosis for recovering accurate memories.",
+    "Lobotomies were popular in the mid-20th century but did not cure patients and are rarely if ever performed today.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "psy-u5-q22",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "topicId": "psy5-treatment",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "After several years of taking an antipsychotic medication, a patient develops involuntary movements of the face and tongue. This is most likely",
+   "choices": [
+    "withdrawal from the medication after it was suddenly stopped by the patient",
+    "catatonic stupor, a negative symptom of schizophrenia itself",
+    "a manic episode caused by the medication lowering serotonin",
+    "tardive dyskinesia, a side effect linked to dopamine regulation"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Long-term antipsychotic use can cause tardive dyskinesia, an involuntary movement disorder related to dopamine regulation.",
+   "choiceExplanations": [
+    "The patient is still taking the medication, so withdrawal does not apply.",
+    "Catatonic stupor is a lack of movement, not involuntary facial and tongue movements.",
+    "The symptoms are movements, not a mood episode, and antipsychotics act mainly on dopamine.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-psychology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-psy-u5-os1",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "title": "OpenStax Psychology 2e, 14.2 Stressors",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/14-2-stressors",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on stressors and their effects. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/14-2-stressors",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u5-os2",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "title": "OpenStax Psychology 2e, 15.3 Perspectives on Psychological Disorders",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/15-3-perspectives-on-psychological-disorders",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on perspectives on psychological disorders. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/15-3-perspectives-on-psychological-disorders",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u5-os3",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "title": "OpenStax Psychology 2e, 15.8 Schizophrenia",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/15-8-schizophrenia",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on the symptoms and possible causes of schizophrenia. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/15-8-schizophrenia",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-psy-u5-os4",
+   "courseId": "ap-psychology",
+   "unitId": "u5",
+   "title": "OpenStax Psychology 2e, 16.2 Types of Treatment",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/psychology-2e/pages/16-2-types-of-treatment",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college psychology textbook section on types of psychotherapy and biomedical treatment. It is written for introductory college courses, not for the AP exam specifically, and may use terms outside the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/psychology-2e/pages/16-2-types-of-treatment",
+   "sourceTitle": "OpenStax Psychology 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Psychology 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Psychology free-response set has an Article Analysis Question and an Evidence-Based Question, and both draw on research methods and on content from across the course, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "psy-u5-q01",
+    "psy-u5-q02",
+    "psy-u5-q03",
+    "psy-u5-q04",
+    "psy-u5-q09",
+    "psy-u5-q10",
+    "psy-u5-q11",
+    "psy-u5-q13"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "psy-u5-q05",
+    "psy-u5-q06",
+    "psy-u5-q07",
+    "psy-u5-q08",
+    "psy-u5-q12",
+    "psy-u5-q14",
+    "psy-u5-q17",
+    "psy-u5-q19"
+   ]
+  }
+ ]
+}

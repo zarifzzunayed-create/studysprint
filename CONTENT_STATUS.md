@@ -27,7 +27,7 @@ StudySprint is a review site, not a complete course or textbook. Guides are shor
 13. AP English Literature and Composition: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
 14. AP World History: Modern: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
 15. AP U.S. Government and Politics: complete. 5 of 5 units practice-ready, 0 in progress, 0 outline only
-16. AP Psychology: catalog entry only (course framework not checked yet)
+16. AP Psychology: complete. 5 of 5 units practice-ready, 0 in progress, 0 outline only
 17. AP Macroeconomics: catalog entry only (course framework not checked yet)
 18. AP Microeconomics: catalog entry only (course framework not checked yet)
 19. AP Computer Science A: catalog entry only (course framework not checked yet)
@@ -38,9 +38,9 @@ StudySprint's catalog is deliberately limited to the courses the project owner c
 
 Each row comes from `data/catalog.json` and the course's `course.json`. A course framework counts as checked only when its official units were read from College Board's pages and recorded with a source link and date. Courses that have not been checked list no units at all; their "expected format" is a planning note from general knowledge, not a verified fact, and must be confirmed against the official Course and Exam Description before any content is written.
 
-**Totals:** 15 of 19 catalog courses have a checked course framework, with 113 official units in all. **113 of those 113 units have usable review content and a question bank (practice-ready).** 15 courses are complete. 4 courses have no checked framework yet.
+**Totals:** 16 of 19 catalog courses have a checked course framework, with 118 official units in all. **118 of those 118 units have usable review content and a question bank (practice-ready).** 16 courses are complete. 3 courses have no checked framework yet.
 
-**Framework coverage and exam coverage are counted separately.** 1 of the 113 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 112 units with no such exclusion recorded, 112 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
+**Framework coverage and exam coverage are counted separately.** 1 of the 118 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 117 units with no such exclusion recorded, 117 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
 
 | Course | Official framework | Source and edition | Official units | Practice-ready units | Exam coverage | Units with a practice test | Course status | Practice format |
 |---|---|---|---|---|---|---|---|---|
@@ -59,7 +59,7 @@ Each row comes from `data/catalog.json` and the course's `course.json`. A course
 | AP English Literature and Composition | Unit-based (units checked) | [AP English Literature and Composition – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition), checked 2026-11-09. AP English Literature and Composition Course and Exam Description, effective Fall 2024 (current PDF on AP Central, checked 2026-11-09), with College Board's Clarifications and Corrections implemented as of August 2025 (front matter only; further corrections listed as forthcoming concern resource links and Progress Check wording). [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 18 practice tests across 9 ready units (see Practice tests below) |
 | AP World History: Modern | Unit-based (units checked) | [AP World History: Modern – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-world-history-modern), checked 2026-11-09. AP World History: Modern Course and Exam Description, effective Fall 2026 (current PDF on AP Central, checked 2026-11-09), with College Board's Clarifications and Corrections implemented for Fall 2026 (exam changes beginning with the May 2027 exam; course content unchanged). [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 18 practice tests across 9 ready units (see Practice tests below) |
 | AP U.S. Government and Politics | Unit-based (units checked) | [AP U.S. Government and Politics – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics), checked 2026-11-14. AP U.S. Government and Politics Course and Exam Description, effective Fall 2026 (current PDF on AP Central, checked 2026-11-14), with College Board's Clarifications and Corrections to be implemented for Fall 2026. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description.pdf). | 5 | 5 | 5 of 5 exam-assessed units ready; no unit recorded as excluded from the exam | 5 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 10 practice tests across 5 ready units (see Practice tests below) |
-| AP Psychology | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP Psychology | Unit-based (units checked) | [AP Psychology – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-psychology), checked 2026-11-14. AP Psychology Course and Exam Description, effective Fall 2025 on its cover (the current PDF on AP Central, checked 2026-11-14; interior pages are marked V.1, © 2024), with College Board's Clarifications and Corrections implemented as of October 2025. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-psychology-course-and-exam-description.pdf). | 5 | 5 | 5 of 5 exam-assessed units ready; no unit recorded as excluded from the exam | 5 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 10 practice tests across 5 ready units (see Practice tests below) |
 | AP Macroeconomics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
 | AP Microeconomics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
 | AP Computer Science A | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; multiple-choice questions fit the existing format, but free-response questions ask for Java code, which the site cannot check. |
@@ -298,7 +298,19 @@ Retaking a test shows the same questions in a new order; those answers are recor
 | Unit 4: American Political Ideologies and Beliefs | 20 | 2 (8, 8) | 4 | 2 | 4 |
 | Unit 5: Political Participation | 20 | 2 (8, 8) | 4 | 2 | 4 |
 
-Across the site: 171 practice tests in 113 units. Reaching 3 tests in each of those units needs at least 1188 more original questions. 
+### AP Psychology
+
+5 of 5 units have a practice test (10 tests in all); 5 units have more than one.
+
+| Unit | Questions in bank | Practice tests (questions each) | Questions not in any test | Distinct tests the bank could support | More original questions needed for 3 tests (at least) |
+|---|---|---|---|---|---|
+| Unit 1: Biological Bases of Behavior | 20 | 2 (8, 8) | 4 | 2 | 4 |
+| Unit 2: Cognition | 21 | 2 (8, 8) | 5 | 2 | 3 |
+| Unit 3: Development and Learning | 23 | 2 (8, 8) | 7 | 2 | 2 |
+| Unit 4: Social Psychology and Personality | 22 | 2 (8, 8) | 6 | 2 | 2 |
+| Unit 5: Mental and Physical Health | 22 | 2 (8, 8) | 6 | 2 | 2 |
+
+Across the site: 181 practice tests in 118 units. Reaching 3 tests in each of those units needs at least 1201 more original questions. 
 
 ## Study planner
 
@@ -617,11 +629,30 @@ Recorded differences between College Board sources: The AP Students page's unit 
 | Unit 4: American Political Ideologies and Beliefs | practice-ready | no exclusion recorded | 10%–15% of the multiple-choice score | yes (3 sections) | 20 (6 / 10 / 4) | 0 | 2 | 2 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 10 of 10 | none |
 | Unit 5: Political Participation | practice-ready | no exclusion recorded | 20%–27% of the multiple-choice score | yes (3 sections) | 20 (6 / 10 / 4) | 0 | 2 | 4 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 13 of 13 | none |
 
+## AP Psychology
+
+Unit outline source: [AP Psychology – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-psychology), verified 2026-11-14. Unit names, the “topics may include” lists, and exam weightings (15%–25% of the exam score for each unit) were read from this page on 2026-11-14; the exam format was read from its assessment page.
+Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-psychology/exam/past-exam-questions), plus whole released sets for 2026, 2025, 2025, 2024, 2024, 2023, 2023 (linked as whole exams, not matched to units).
+General resources (shown on every unit's Learn first page, labelled general): [OpenStax Psychology 2e (whole book)](https://openstax.org/details/books/psychology-2e); [OpenStax Psychology 2e, 2.2 Approaches to Research](https://openstax.org/books/psychology-2e/pages/2-2-approaches-to-research).
+
+Framework check (2026-11-14): The 35 numbered CED topics (1.1–5.5) and their essential knowledge statements and exclusion statements were read from the course framework in the current PDF on AP Central; each topic is matched to the StudySprint topic whose guide section and questions teach it, and the questions stay inside the CED's stated limits (for example, only the eight listed neurotransmitters, the five listed hormones, and the listed sleep disorders). The four science practices and their eleven skills were read from the CED's science practices table, and each question is tagged with the skill it mainly uses. The Clarifications and Corrections implemented as of October 2025 (https://apcentral.collegeboard.org/media/pdf/ap-psychology-course-and-exam-description-clarifications.pdf) were checked: they revise wording in topics 1.3, 1.4, 1.5, 3.7, and 3.8 (for example, the all-or-none principle, alertness as a reticular activating system function, and the description of spontaneous recovery), add a list of psychological perspectives to skill 1.A and effect-size guidance to skill 3.C, and change part D of the Article Analysis Question; the guides follow the corrected wording. Source: [AP Psychology Course and Exam Description (effective Fall 2025)](https://apcentral.collegeboard.org/media/pdf/ap-psychology-course-and-exam-description.pdf).
+Exam weightings: from the AP Students course page and the CED's exam section (each unit 15%–25% of the exam), both checked 2026-11-14.
+Exam format (checked 2026-11-14): From the AP Students assessment page and the CED (2 hours 40 minutes, digital in Bluebook): Section I, 75 multiple-choice questions in 90 minutes (66.7% of the score), a mix of individual questions and question sets built on a stimulus; the CED gives approximate multiple-choice weights of 65% Concept Application, 25% Research Methods and Design, and 10% Data Interpretation (Argumentation is not assessed in multiple choice). Section II, 2 free-response questions in 70 minutes (33.3%): an Article Analysis Question (16.65%, 25 minutes including a 10-minute reading period) on one summarized peer-reviewed study, and an Evidence-Based Question (16.65%, 45 minutes including a 15-minute reading period) that asks for a claim supported with evidence from three summarized sources. StudySprint practice is multiple-choice only, with individual questions and question sets built on hypothetical study summaries and data; written-response practice uses College Board's released questions.
+Recorded differences between College Board sources: The AP Students page's unit topic lists are summaries. Its Unit 3 list names development topics only, while the CED's Unit 3 (Development and Learning) also includes topics 3.7–3.9 on classical conditioning, operant conditioning, and social, cognitive, and neurological factors in learning; StudySprint teaches those topics in Unit 3 and lists them as framework topics. The CED's 35 topics are the required content and are listed per unit as framework topics. In the current CED, five learning objectives have no essential knowledge statements printed under them (checked on the rendered PDF pages): 3.1.B (cross-sectional and longitudinal designs), 3.3.A (how sex and gender influence socialization), 4.1.B (locus of control), 5.1.A (how health psychology addresses physical health and wellness), and 5.5.E (how group therapy differs from individual therapy). StudySprint teaches these briefly from the objective wording and widely used introductory definitions; that coverage is unverified against any more detailed College Board statement. StudySprint's study summaries and data are labelled hypothetical; the AP Exam's free-response questions use summaries of real peer-reviewed studies.
+
+| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Biological Bases of Behavior | practice-ready | no exclusion recorded | 15%–25% of the exam score | yes (5 sections) | 20 (6 / 8 / 6) | 0 | 2 | 4 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 6 of 6 | none |
+| Unit 2: Cognition | practice-ready | no exclusion recorded | 15%–25% of the exam score | yes (5 sections) | 21 (7 / 9 / 5) | 0 | 2 | 5 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 8 of 8 | none |
+| Unit 3: Development and Learning | practice-ready | no exclusion recorded | 15%–25% of the exam score | yes (5 sections) | 23 (6 / 11 / 6) | 0 | 2 | 5 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 9 of 9 | none |
+| Unit 4: Social Psychology and Personality | practice-ready | no exclusion recorded | 15%–25% of the exam score | yes (5 sections) | 22 (6 / 11 / 5) | 0 | 2 | 5 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 7 of 7 | none |
+| Unit 5: Mental and Physical Health | practice-ready | no exclusion recorded | 15%–25% of the exam score | yes (4 sections) | 22 (6 / 11 / 5) | 0 | 2 | 4 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 5 of 5 | none |
+
 ## Catalog entries without a unit outline
 
-These courses are planned for future content work. They appear in search with a link to College Board's released free-response page and are labelled "Catalog only". Nothing is invented for them. (4 entries.)
+These courses are planned for future content work. They appear in search with a link to College Board's released free-response page and are labelled "Catalog only". Nothing is invented for them. (3 entries.)
 
-AP Macroeconomics, AP Microeconomics, AP Psychology, AP Computer Science A.
+AP Macroeconomics, AP Microeconomics, AP Computer Science A.
 
 ## Courses removed from the catalog (2026-11-09)
 

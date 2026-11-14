@@ -265,7 +265,7 @@
       h("p", "why", wrong + skipped ? "Questions you missed or left unanswered are open below; the rest are collapsed." : "Every answer was correct. Open any question to read its explanation."),
       h("div", "ans-list", rows.map((r, i) => {
         const d = h("details", "ans-item" + (r.ok ? " ok" : " bad"),
-          h("summary", null, "Question " + (i + 1) + " · " + (r.ok ? "Correct" : r.skip ? "Not answered" : "Incorrect") + " · " + env.topicName(r.q.topicId) + " · " + SS.cap(r.q.difficulty)),
+          h("summary", null, "Question " + (i + 1) + " · " + (r.ok ? "Correct" : r.skip ? "Not answered" : "Incorrect") + " · " + env.topicName(r.q.topicId) + " · " + SS.cap(r.q.difficulty) + (r.q.skill ? " · Skill " + r.q.skill : "")),
           SS.passageBlock(env.unit, r.q, true),
           h("p", null, r.q.prompt),
           h("p", null, h("b", null, "Your answer: "), answerText(r.q, r.a)),
