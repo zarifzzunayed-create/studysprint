@@ -123,12 +123,34 @@ const titleOf = id => d.passages.find(p => p.id === id).title;
   await p.waitForSelector('#v-test .ans-list');
   const pSum = await p.$$eval('#v-test .ans-item > summary', s => s.map(x => x.textContent));
   T.ok(pSum.length === 8 && pSum.every((t, i) => t.endsWith(' · Skill ' + pSeen[i].q.skill)), 'Psychology test review tags each question with its CED science-practice skill');
+  /* ---- Macroeconomics questions are individual; a question that needs data shows its own labelled table ---- */
+  const md = JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', 'ap-macroeconomics', 'u2.json')));
+  const mByPrompt = Object.fromEntries(md.questions.map(q => [q.prompt, q]));
+  const mSeen = [];
+  for (const k of [0, 1]) {
+    await T.openUnit(p, 'AP Macroeconomics', 'u2');
+    await p.locator('#v-overview .test-cards > li').nth(k).locator('button:has-text("Start untimed")').click();
+    await p.waitForSelector('#v-test form legend');
+    for (let i = 0; i < 8; i++) {
+      const q = mByPrompt[(await p.locator('#v-test form legend').first().textContent())];
+      const src = await p.locator('#v-test .passage .passage-src').count() ? await p.locator('#v-test .passage .passage-src').first().textContent() : null;
+      mSeen.push({ q, src });
+      if (i < 7) {
+        const was = await p.locator('#v-test form legend').first().textContent();
+        await p.click('#v-test .test-nav button.button-primary');
+        await p.waitForFunction(w => { const l = document.querySelector('#v-test form legend'); return l && l.textContent !== w; }, was);
+      }
+    }
+    await p.click('#v-test button:has-text("Save and exit")');
+  }
+  T.ok(mSeen.length === 16 && mSeen.every(x => x.q && !x.q.passageId === !x.src) && mSeen.some(x => x.src) && mSeen.filter(x => x.src).every(x => /^Hypothetical data/.test(x.src)),
+    'Macroeconomics tests show a labelled hypothetical data table only with the questions that use one');
   T.ok(!p.errs.length, 'no page errors' + (p.errs.length ? ': ' + p.errs.join(' | ') : ''));
 
   /* ---- answer length gives nothing away in the passage-based banks ---- */
   for (const [cid, label] of [['ap-english-language-and-composition', 'English Language'], ['ap-united-states-history', 'U.S. History'],
                               ['ap-english-literature-and-composition', 'English Literature'], ['ap-world-history', 'World History'],
-                              ['ap-united-states-government-and-politics', 'U.S. Government'], ['ap-psychology', 'Psychology']]) {
+                              ['ap-united-states-government-and-politics', 'U.S. Government'], ['ap-psychology', 'Psychology'], ['ap-macroeconomics', 'Macroeconomics']]) {
     let n = 0, longest = 0;
     for (const f of fs.readdirSync(path.join(T.ROOT, 'data', 'courses', cid)).filter(x => /^u\d+\.json$/.test(x))) {
       for (const q of JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', cid, f))).questions) {

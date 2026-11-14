@@ -1,0 +1,785 @@
+{
+ "courseId": "ap-macroeconomics",
+ "unitId": "u1",
+ "title": "Unit 1: Basic Economic Concepts",
+ "topics": [
+  {
+   "id": "mac1-scarcity",
+   "name": "Scarcity, opportunity cost, and the PPC",
+   "covers": [
+    "Scarcity",
+    "Opportunity cost and the Production Possibilities Curve"
+   ],
+   "frameworkCovers": [
+    "1.1 Scarcity",
+    "1.2 Opportunity Cost and the Production Possibilities Curve (PPC)"
+   ]
+  },
+  {
+   "id": "mac1-advantage",
+   "name": "Comparative advantage and gains from trade",
+   "covers": [
+    "Comparative advantage and gains from trade"
+   ],
+   "frameworkCovers": [
+    "1.3 Comparative Advantage and Gains from Trade"
+   ]
+  },
+  {
+   "id": "mac1-demsup",
+   "name": "Demand and supply",
+   "covers": [
+    "Supply and demand"
+   ],
+   "frameworkCovers": [
+    "1.4 Demand",
+    "1.5 Supply"
+   ]
+  },
+  {
+   "id": "mac1-equilibrium",
+   "name": "Market equilibrium and changes in equilibrium",
+   "covers": [
+    "Market equilibrium, disequilibrium, and changes in equilibrium"
+   ],
+   "frameworkCovers": [
+    "1.6 Market Equilibrium, Disequilibrium, and Changes in Equilibrium"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 1: Basic Economic Concepts: review guide",
+  "intro": "This unit sets up the tools used all year: scarcity and opportunity cost, the production possibilities curve (PPC), comparative advantage and trade, and the supply-and-demand model. Many questions give a short table or describe a graph and ask you to calculate an opportunity cost or predict how price and quantity change.",
+  "sections": [
+   {
+    "id": "s-mac1-scarcity",
+    "topicId": "mac1-scarcity",
+    "title": "Scarcity, opportunity cost, and the PPC",
+    "body": [
+     "Because most resources (land, labor, capital, and entrepreneurship) are scarce, individuals and societies must choose. The opportunity cost of a choice is the value of the next-best alternative given up, including money and time.",
+     "The PPC shows the combinations of two goods an economy can produce with all resources fully and efficiently employed. Points on the curve are efficient; points inside show unemployed or inefficiently used resources; points outside are unattainable now. A straight-line PPC means constant opportunity costs; a curve bowed outward means increasing opportunity costs, because resources are not equally suited to both goods. More or better resources, or better technology, shift the PPC outward (economic growth); losing resources shifts it inward. Moving along the curve is a trade-off, not growth."
+    ],
+    "points": [
+     "Opportunity cost of X = units of Y given up ÷ units of X gained.",
+     "Lower unemployment moves the economy toward the PPC; it does not shift it."
+    ]
+   },
+   {
+    "id": "s-mac1-advantage",
+    "topicId": "mac1-advantage",
+    "title": "Comparative advantage and gains from trade",
+    "body": [
+     "Absolute advantage means producing more of a good with the same resources. Comparative advantage means producing a good at a lower opportunity cost. A producer can have an absolute advantage in both goods but cannot have a comparative advantage in both.",
+     "When each producer specializes in its comparative-advantage good and they trade at terms between their two opportunity costs, both can consume beyond their own PPCs. Production still happens on each PPC; consumption is what moves outside it."
+    ],
+    "points": [
+     "Mutually beneficial terms of trade lie between the two producers' opportunity costs.",
+     "Use opportunity cost, not total output, to find comparative advantage."
+    ]
+   },
+   {
+    "id": "s-mac1-demsup",
+    "topicId": "mac1-demsup",
+    "title": "Demand and supply",
+    "body": [
+     "The law of demand says price and quantity demanded are inversely related, so the demand curve slopes downward. A change in the good's own price moves along the curve (a change in quantity demanded). Changes in income, tastes, prices of related goods (substitutes and complements), expectations, and the number of buyers shift the whole curve (a change in demand). For a normal good, higher income increases demand; for an inferior good, it decreases demand.",
+     "The law of supply says price and quantity supplied are positively related, so supply slopes upward. Changes in input prices, technology, taxes and subsidies, expectations, the prices of other goods producers could make, and the number of sellers shift supply."
+    ],
+    "points": [
+     "Own price → movement along a curve; anything else → a shift.",
+     "Higher input costs shift supply left."
+    ]
+   },
+   {
+    "id": "s-mac1-equilibrium",
+    "topicId": "mac1-equilibrium",
+    "title": "Market equilibrium and changes in equilibrium",
+    "body": [
+     "Equilibrium is the price at which quantity demanded equals quantity supplied. Above it, quantity supplied exceeds quantity demanded (a surplus) and the price tends to fall; below it, quantity demanded exceeds quantity supplied (a shortage) and the price tends to rise. The size of a surplus or shortage is the gap between the two quantities at that price.",
+     "An increase in demand raises equilibrium price and quantity; an increase in supply lowers price and raises quantity. When both curves shift, one outcome is certain and the other is indeterminate unless the sizes of the shifts are known: if both increase, quantity rises but the price change is uncertain; if demand rises and supply falls, price rises but the quantity change is uncertain."
+    ],
+    "points": [
+     "Surplus → price falls; shortage → price rises.",
+     "With two shifts, decide each variable separately, then see which one the shifts agree on."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "In a market, demand for bicycles increases while a rise in the price of steel reduces supply. What happens to the equilibrium price and quantity of bicycles?",
+   "solution": "Higher demand pushes price up and quantity up; lower supply pushes price up and quantity down. Both shifts raise the price, so the price rises. Their effects on quantity conflict, so the change in quantity is indeterminate without knowing which shift is larger."
+  },
+  "misconceptions": [
+   [
+    "“A lower price increases demand.”",
+    "A lower price increases quantity demanded (a movement along the curve); demand shifts only when something other than the good's price changes."
+   ],
+   [
+    "“A country that is better at everything gains nothing from trade.”",
+    "Gains come from comparative advantage, which every producer has in something."
+   ],
+   [
+    "“Reducing unemployment shifts the PPC outward.”",
+    "It moves the economy from inside the curve toward it; only more resources or better technology shift the curve."
+   ],
+   [
+    "“If demand and supply both rise, price must rise.”",
+    "Quantity rises, but the price change depends on which shift is larger."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Macroeconomics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-macroeconomics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+  "sourceTitle": "AP Macroeconomics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "mac1-t1",
+   "title": "Table: Production possibilities of Freedonia (hypothetical data)",
+   "text": [
+    "Point A: 0 robots, 100 tons of wheat",
+    "Point B: 10 robots, 90 tons of wheat",
+    "Point C: 20 robots, 70 tons of wheat",
+    "Point D: 30 robots, 40 tons of wheat",
+    "Point E: 40 robots, 0 tons of wheat"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mac1-t2",
+   "title": "Table: Output per worker per day in Alpha and Beta (hypothetical data)",
+   "text": [
+    "Alpha: 12 shirts or 4 phones",
+    "Beta: 6 shirts or 3 phones"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mac1-t3",
+   "title": "Table: Market for notebooks (hypothetical data)",
+   "text": [
+    "Price $2: quantity demanded 80, quantity supplied 20",
+    "Price $3: quantity demanded 60, quantity supplied 40",
+    "Price $4: quantity demanded 50, quantity supplied 50",
+    "Price $5: quantity demanded 40, quantity supplied 60",
+    "Price $6: quantity demanded 30, quantity supplied 70"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "mac-u1-q01",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-scarcity",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Scarcity exists because",
+   "choices": [
+    "people's wants are unlimited, but the resources to satisfy them are limited",
+    "governments often set prices below the market equilibrium level",
+    "money is limited, even though the productive resources behind it are unlimited",
+    "some goods are produced by firms that try to earn a profit"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Scarcity is the basic economic problem: limited resources cannot satisfy all wants, so choices must be made.",
+   "choiceExplanations": [
+    "",
+    "Price controls can cause shortages in particular markets, but scarcity exists even with no government at all.",
+    "Productive resources are limited; that is the source of scarcity, not a shortage of money.",
+    "Profit seeking does not create scarcity; scarcity would exist in any economic system."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u1-q02",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-scarcity",
+   "skill": "1.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Maya can work a 3-hour shift that pays $45, or she can spend those hours at a concert with a $30 ticket. What is the opportunity cost of going to the concert?",
+   "choices": [
+    "$75",
+    "$30",
+    "$45",
+    "$15"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Going to the concert costs the $30 ticket plus the $45 in wages she gives up: $75.",
+   "choiceExplanations": [
+    "",
+    "$30 counts only the ticket and leaves out the wages she gives up.",
+    "$45 counts only the forgone wages and leaves out the ticket price she pays.",
+    "$15 is the difference between the two amounts, which is not an opportunity cost."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u1-q03",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-scarcity",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An economy is producing at a point inside its production possibilities curve. This means that",
+   "choices": [
+    "the combination cannot be produced with the current resources",
+    "the economy is producing beyond its full-employment capacity",
+    "the economy is producing at its maximum efficient level",
+    "some resources are unemployed or are being used inefficiently"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Points inside the PPC show that the economy could produce more of one good without giving up any of the other, so resources are unemployed or misused.",
+   "choiceExplanations": [
+    "Points inside the curve are attainable; points outside are not.",
+    "Production beyond capacity would be a point outside the curve, which is unattainable.",
+    "Maximum efficiency is shown by points on the curve, not inside it.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u1-q04",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-scarcity",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which of the following would shift a country's production possibilities curve outward?",
+   "choices": [
+    "A shift of workers from producing one of the goods to producing the other",
+    "An improvement in the technology used to produce both goods",
+    "A rise in the market price of one of the two goods",
+    "A decrease in the country's unemployment rate"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Better technology lets the same resources produce more, so the whole curve shifts outward.",
+   "choiceExplanations": [
+    "Reallocating workers is a movement along the curve, a trade-off between the goods.",
+    "",
+    "A price change affects which point is chosen, not the economy's capacity to produce.",
+    "Lower unemployment moves the economy from inside the curve toward it; the curve itself does not move."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u1-q05",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-scarcity",
+   "skill": "1.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on Freedonia's production possibilities table, which statement is correct?",
+   "choices": [
+    "Moving from point E to point D costs the economy 40 tons of wheat.",
+    "The opportunity cost of robots is constant, so the PPC is a straight line.",
+    "Each added 10 robots costs more wheat, so the PPC is bowed outward.",
+    "Producing 30 robots and 70 tons of wheat is attainable with current resources."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Each 10 more robots costs 10, then 20, then 30, then 40 tons of wheat. Rising opportunity cost gives a PPC bowed outward from the origin.",
+   "choiceExplanations": [
+    "Moving from E to D gains 40 tons of wheat by giving up 10 robots.",
+    "The wheat given up for each 10 robots rises (10, 20, 30, 40), so opportunity cost is not constant.",
+    "",
+    "With 30 robots the economy can make at most 40 tons of wheat, so 30 robots and 70 tons is outside the PPC."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac1-t1"
+  },
+  {
+   "id": "mac-u1-q06",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-advantage",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A country has a comparative advantage in producing a good when it",
+   "choices": [
+    "can sell the good at a higher price than other countries can",
+    "can produce more of the good than another country with the same resources",
+    "can produce the good at a lower opportunity cost than another country",
+    "has more natural resources than other countries for producing the good"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Comparative advantage is defined by lower opportunity cost.",
+   "choiceExplanations": [
+    "Comparative advantage depends on production costs, not on selling prices.",
+    "Producing more with the same resources is absolute advantage.",
+    "",
+    "Having more resources does not determine opportunity cost."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u1-q07",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-advantage",
+   "skill": "1.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the table of output per worker in Alpha and Beta, which statement is correct?",
+   "choices": [
+    "Neither country can gain from trade, because Alpha is more productive in both.",
+    "Alpha has a comparative advantage in shirts, and Beta has one in phones.",
+    "Beta has a comparative advantage in shirts, and Alpha has one in phones.",
+    "Alpha has a comparative advantage in both goods, because it is more productive."
+   ],
+   "correctAnswer": 1,
+   "explanation": "In Alpha, 1 phone costs 3 shirts; in Beta, 1 phone costs 2 shirts. Beta gives up less for a phone, and Alpha gives up less for a shirt (1/3 phone versus 1/2 phone).",
+   "choiceExplanations": [
+    "Different opportunity costs mean both countries can gain by specializing and trading.",
+    "",
+    "This reverses the result: Alpha's opportunity cost of shirts is lower, and Beta's opportunity cost of phones is lower.",
+    "Alpha has an absolute advantage in both, but a country cannot have a comparative advantage in both goods."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac1-t2"
+  },
+  {
+   "id": "mac-u1-q08",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-advantage",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In Alpha, the opportunity cost of 1 phone is 3 shirts; in Beta, it is 2 shirts. If Beta exports phones to Alpha, which terms of trade would benefit both countries?",
+   "choices": [
+    "1 phone for 2.5 shirts",
+    "1 phone for 4.0 shirts",
+    "1 phone for 3.5 shirts",
+    "1 phone for 1.5 shirts"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Beta gains if it gets more than 2 shirts per phone, and Alpha gains if it pays fewer than 3. Only 2.5 shirts lies between the two opportunity costs.",
+   "choiceExplanations": [
+    "",
+    "Alpha would pay 4 shirts for a phone it can make for 3, so Alpha would not trade.",
+    "Alpha would pay more (3.5 shirts) than it costs to make a phone itself (3), so Alpha loses.",
+    "Beta would get fewer shirts (1.5) than it gives up by making a phone itself (2), so Beta loses."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u1-q09",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-advantage",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "When two countries specialize according to comparative advantage and trade at mutually beneficial terms, both countries can",
+   "choices": [
+    "consume combinations of goods outside their own production possibilities curves",
+    "produce combinations of goods outside their own production possibilities curves",
+    "end scarcity, because trade creates an unlimited supply of resources",
+    "raise the opportunity cost of every good they choose to produce"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Specializing and trading lets each country consume more than it could produce alone, although each still produces on its own PPC.",
+   "choiceExplanations": [
+    "",
+    "Production stays on each country's PPC; only consumption can move beyond it.",
+    "Trade does not create unlimited resources, so scarcity remains.",
+    "Specialization lowers, not raises, the opportunity cost of what each country obtains."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u1-q10",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-demsup",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "When the price of coffee rises, consumers buy less coffee. This is an example of",
+   "choices": [
+    "a decrease in demand, shown as a leftward shift of demand",
+    "the law of demand, shown as a movement along the demand curve",
+    "a decrease in supply, shown as a leftward shift of supply",
+    "the law of supply, shown as a movement along the supply curve"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A change in a good's own price changes quantity demanded, a movement along the downward-sloping demand curve.",
+   "choiceExplanations": [
+    "A shift in demand comes from factors other than the good's own price.",
+    "",
+    "Consumers buying less is a demand-side response; supply did not change.",
+    "The law of supply describes sellers' response to price, not buyers'."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u1-q11",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-demsup",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Tea and coffee are substitutes. If the price of tea rises, what happens in the market for coffee?",
+   "choices": [
+    "Demand is unchanged, but the supply of coffee increases.",
+    "Demand for coffee decreases, and the demand curve shifts left.",
+    "Demand is unchanged, but the quantity of coffee demanded falls.",
+    "Demand for coffee increases, and the demand curve shifts right."
+   ],
+   "correctAnswer": 3,
+   "explanation": "When a substitute becomes more expensive, some buyers switch to coffee, increasing the demand for coffee.",
+   "choiceExplanations": [
+    "The price of tea affects coffee buyers, not coffee producers' costs.",
+    "A higher price of a substitute raises demand; a decrease would follow a higher price of a complement.",
+    "The price of tea is not coffee's own price, so it shifts coffee's demand rather than moving along it.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u1-q12",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-demsup",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A rise in the wages paid to bakery workers will most likely",
+   "choices": [
+    "increase the supply of bread, shifting the supply curve to the right",
+    "reduce the quantity of bread supplied without shifting the curve",
+    "decrease the supply of bread, shifting the supply curve to the left",
+    "decrease the demand for bread, shifting the demand curve to the left"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Higher wages raise production costs, so bakers supply less bread at every price.",
+   "choiceExplanations": [
+    "Higher input costs reduce supply rather than increase it.",
+    "A change in input costs shifts the supply curve; only a change in bread's own price moves along it.",
+    "",
+    "Bakers' wages are a cost of production; they do not directly change buyers' demand."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u1-q13",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-demsup",
+   "skill": "1.D",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which of the following would cause a movement along the supply curve for laptops, rather than a shift of the curve?",
+   "choices": [
+    "A rise in the price of the chips used in laptops",
+    "An improvement in laptop production technology",
+    "An increase in the number of laptop producers",
+    "A change in the market price of laptops"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Only a change in the good's own price moves along its supply curve.",
+   "choiceExplanations": [
+    "Higher input prices raise costs and shift supply left.",
+    "Better technology lowers costs and shifts supply right.",
+    "More sellers shift the market supply curve right.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u1-q14",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-equilibrium",
+   "skill": "2.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "If the price of a good is above its equilibrium price, the market will have",
+   "choices": [
+    "a surplus, and the price will tend to rise",
+    "a shortage, and the price will tend to fall",
+    "a shortage, and the price will tend to rise",
+    "a surplus, and the price will tend to fall"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Above equilibrium, quantity supplied exceeds quantity demanded; sellers cut prices to sell the extra output.",
+   "choiceExplanations": [
+    "A surplus puts downward pressure on price, not upward.",
+    "Above equilibrium there is a surplus, not a shortage.",
+    "Shortages occur below equilibrium, where quantity demanded exceeds quantity supplied.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u1-q15",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-equilibrium",
+   "skill": "1.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, at a price of $3 the market for notebooks has",
+   "choices": [
+    "a shortage of 20 notebooks",
+    "a shortage of 60 notebooks",
+    "a surplus of 20 notebooks",
+    "a surplus of 40 notebooks"
+   ],
+   "correctAnswer": 0,
+   "explanation": "At $3, quantity demanded (60) exceeds quantity supplied (40), a shortage of 20.",
+   "choiceExplanations": [
+    "",
+    "60 is the quantity demanded, not the gap between demand and supply.",
+    "A surplus occurs when quantity supplied exceeds quantity demanded; at $3 the reverse is true.",
+    "40 is the quantity supplied, and there is no surplus at $3."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac1-t3"
+  },
+  {
+   "id": "mac-u1-q16",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-equilibrium",
+   "skill": "3.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Demand for a good increases while supply also increases. What happens to the equilibrium price and quantity?",
+   "choices": [
+    "Price rises, but the change in quantity is indeterminate.",
+    "Price falls, but the change in quantity is indeterminate.",
+    "Quantity rises, but the change in price is indeterminate.",
+    "Price and quantity both rise by the same percentage."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Both shifts raise quantity. Higher demand raises price while higher supply lowers it, so the price change depends on which shift is larger.",
+   "choiceExplanations": [
+    "Both shifts push quantity up, so quantity is certain; it is the price that is uncertain.",
+    "Higher demand pushes the price up, so a price fall is not certain.",
+    "",
+    "The price change cannot be known without the sizes of the shifts."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u1-q17",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "topicId": "mac1-equilibrium",
+   "skill": "3.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A frost destroys much of the orange crop at the same time that a health report increases consumers' desire for orange juice. In the market for orange juice,",
+   "choices": [
+    "both the price and the quantity fall by the same amount",
+    "the price rises, but the change in quantity is indeterminate",
+    "the price falls, but the change in quantity is indeterminate",
+    "the quantity rises, but the change in price is indeterminate"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Lower supply and higher demand both raise the price. Lower supply reduces quantity while higher demand increases it, so the quantity change is uncertain.",
+   "choiceExplanations": [
+    "Higher demand pushes the price up, so the price cannot be certain to fall.",
+    "",
+    "Both shifts push the price up, not down.",
+    "The two shifts move quantity in opposite directions, so quantity, not price, is uncertain."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-mac-u1-os1",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "title": "OpenStax Principles of Macroeconomics 3e, 2.2 The Production Possibilities Frontier and Social Choices",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/2-2-the-production-possibilities-frontier-and-social-choices",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on the production possibilities frontier and opportunity cost. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/2-2-the-production-possibilities-frontier-and-social-choices",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u1-os2",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "title": "OpenStax Principles of Macroeconomics 3e, 20.1 Absolute and Comparative Advantage",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/20-1-absolute-and-comparative-advantage",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on absolute and comparative advantage. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/20-1-absolute-and-comparative-advantage",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u1-os3",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "title": "OpenStax Principles of Macroeconomics 3e, 3.1 Demand, Supply, and Equilibrium in Markets for Goods and Services",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/3-1-demand-supply-and-equilibrium-in-markets-for-goods-and-services",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on demand, supply, and equilibrium. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/3-1-demand-supply-and-equilibrium-in-markets-for-goods-and-services",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u1-os4",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u1",
+   "title": "OpenStax Principles of Macroeconomics 3e, 3.3 Changes in Equilibrium Price and Quantity: The Four-Step Process",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/3-3-changes-in-equilibrium-price-and-quantity-the-four-step-process",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on how shifts change equilibrium price and quantity. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/3-3-changes-in-equilibrium-price-and-quantity-the-four-step-process",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Macroeconomics free-response set has one long and two short questions that usually combine several units (for example, AD–AS with the money market or the foreign exchange market), so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "mac-u1-q01",
+    "mac-u1-q02",
+    "mac-u1-q06",
+    "mac-u1-q07",
+    "mac-u1-q11",
+    "mac-u1-q12",
+    "mac-u1-q16",
+    "mac-u1-q17"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "mac-u1-q03",
+    "mac-u1-q05",
+    "mac-u1-q08",
+    "mac-u1-q09",
+    "mac-u1-q10",
+    "mac-u1-q13",
+    "mac-u1-q14",
+    "mac-u1-q15"
+   ]
+  }
+ ]
+}

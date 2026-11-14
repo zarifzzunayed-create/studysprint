@@ -28,7 +28,7 @@ StudySprint is a review site, not a complete course or textbook. Guides are shor
 14. AP World History: Modern: complete. 9 of 9 units practice-ready, 0 in progress, 0 outline only
 15. AP U.S. Government and Politics: complete. 5 of 5 units practice-ready, 0 in progress, 0 outline only
 16. AP Psychology: complete. 5 of 5 units practice-ready, 0 in progress, 0 outline only
-17. AP Macroeconomics: catalog entry only (course framework not checked yet)
+17. AP Macroeconomics: complete. 6 of 6 units practice-ready, 0 in progress, 0 outline only
 18. AP Microeconomics: catalog entry only (course framework not checked yet)
 19. AP Computer Science A: catalog entry only (course framework not checked yet)
 
@@ -38,9 +38,9 @@ StudySprint's catalog is deliberately limited to the courses the project owner c
 
 Each row comes from `data/catalog.json` and the course's `course.json`. A course framework counts as checked only when its official units were read from College Board's pages and recorded with a source link and date. Courses that have not been checked list no units at all; their "expected format" is a planning note from general knowledge, not a verified fact, and must be confirmed against the official Course and Exam Description before any content is written.
 
-**Totals:** 16 of 19 catalog courses have a checked course framework, with 118 official units in all. **118 of those 118 units have usable review content and a question bank (practice-ready).** 16 courses are complete. 3 courses have no checked framework yet.
+**Totals:** 17 of 19 catalog courses have a checked course framework, with 124 official units in all. **124 of those 124 units have usable review content and a question bank (practice-ready).** 17 courses are complete. 2 courses have no checked framework yet.
 
-**Framework coverage and exam coverage are counted separately.** 1 of the 118 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 117 units with no such exclusion recorded, 117 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
+**Framework coverage and exam coverage are counted separately.** 1 of the 124 units is recorded by College Board as not assessed on the AP Exam; it counts toward course-framework coverage only. Of the 123 units with no such exclusion recorded, 123 are practice-ready. "No exclusion recorded" means StudySprint has no College Board statement that the unit is left off the exam; it is not a claim about the exam's content or weighting.
 
 | Course | Official framework | Source and edition | Official units | Practice-ready units | Exam coverage | Units with a practice test | Course status | Practice format |
 |---|---|---|---|---|---|---|---|---|
@@ -60,7 +60,7 @@ Each row comes from `data/catalog.json` and the course's `course.json`. A course
 | AP World History: Modern | Unit-based (units checked) | [AP World History: Modern – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-world-history-modern), checked 2026-11-09. AP World History: Modern Course and Exam Description, effective Fall 2026 (current PDF on AP Central, checked 2026-11-09), with College Board's Clarifications and Corrections implemented for Fall 2026 (exam changes beginning with the May 2027 exam; course content unchanged). [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf). | 9 | 9 | 9 of 9 exam-assessed units ready; no unit recorded as excluded from the exam | 9 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 18 practice tests across 9 ready units (see Practice tests below) |
 | AP U.S. Government and Politics | Unit-based (units checked) | [AP U.S. Government and Politics – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics), checked 2026-11-14. AP U.S. Government and Politics Course and Exam Description, effective Fall 2026 (current PDF on AP Central, checked 2026-11-14), with College Board's Clarifications and Corrections to be implemented for Fall 2026. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description.pdf). | 5 | 5 | 5 of 5 exam-assessed units ready; no unit recorded as excluded from the exam | 5 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 10 practice tests across 5 ready units (see Practice tests below) |
 | AP Psychology | Unit-based (units checked) | [AP Psychology – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-psychology), checked 2026-11-14. AP Psychology Course and Exam Description, effective Fall 2025 on its cover (the current PDF on AP Central, checked 2026-11-14; interior pages are marked V.1, © 2024), with College Board's Clarifications and Corrections implemented as of October 2025. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-psychology-course-and-exam-description.pdf). | 5 | 5 | 5 of 5 exam-assessed units ready; no unit recorded as excluded from the exam | 5 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 10 practice tests across 5 ready units (see Practice tests below) |
-| AP Macroeconomics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
+| AP Macroeconomics | Unit-based (units checked) | [AP Macroeconomics – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-macroeconomics), checked 2026-11-14. AP Macroeconomics Course and Exam Description, effective Fall 2026 on its cover (the current PDF on AP Central, checked 2026-11-14; pages marked V.1, © 2026), with College Board's Clarifications and Corrections to be implemented in spring 2027. [Course framework (PDF)](https://apcentral.collegeboard.org/media/pdf/ap-macroeconomics-course-and-exam-description.pdf). | 6 | 6 | 6 of 6 exam-assessed units ready; no unit recorded as excluded from the exam | 6 | Complete: every official unit is practice-ready | Unit review notes, original multiple-choice (and numeric) questions, 12 practice tests across 6 ready units (see Practice tests below) |
 | AP Microeconomics | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; fits the existing unit review and multiple-choice format. |
 | AP Computer Science A | Not checked | — | not listed | 0 | not known | 0 | Unavailable: course framework not checked, so no units are listed | Expected (unverified): Expected to be unit-based; multiple-choice questions fit the existing format, but free-response questions ask for Java code, which the site cannot check. |
 
@@ -310,7 +310,20 @@ Retaking a test shows the same questions in a new order; those answers are recor
 | Unit 4: Social Psychology and Personality | 22 | 2 (8, 8) | 6 | 2 | 2 |
 | Unit 5: Mental and Physical Health | 22 | 2 (8, 8) | 6 | 2 | 2 |
 
-Across the site: 181 practice tests in 118 units. Reaching 3 tests in each of those units needs at least 1201 more original questions. 
+### AP Macroeconomics
+
+6 of 6 units have a practice test (12 tests in all); 6 units have more than one.
+
+| Unit | Questions in bank | Practice tests (questions each) | Questions not in any test | Distinct tests the bank could support | More original questions needed for 3 tests (at least) |
+|---|---|---|---|---|---|
+| Unit 1: Basic Economic Concepts | 17 | 2 (8, 8) | 1 | 2 | 7 |
+| Unit 2: Economic Indicators and the Business Cycle | 17 | 2 (8, 8) | 1 | 2 | 7 |
+| Unit 3: National Income and Price Determination | 17 | 2 (8, 8) | 1 | 2 | 7 |
+| Unit 4: Financial Sector | 17 | 2 (8, 8) | 1 | 2 | 7 |
+| Unit 5: Long-Run Consequences of Stabilization Policies | 17 | 2 (8, 8) | 1 | 2 | 7 |
+| Unit 6: Open Economy—International Trade and Finance | 17 | 2 (8, 8) | 1 | 2 | 7 |
+
+Across the site: 193 practice tests in 124 units. Reaching 3 tests in each of those units needs at least 1243 more original questions. 
 
 ## Study planner
 
@@ -648,11 +661,31 @@ Recorded differences between College Board sources: The AP Students page's unit 
 | Unit 4: Social Psychology and Personality | practice-ready | no exclusion recorded | 15%–25% of the exam score | yes (5 sections) | 22 (6 / 11 / 5) | 0 | 2 | 5 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 7 of 7 | none |
 | Unit 5: Mental and Physical Health | practice-ready | no exclusion recorded | 15%–25% of the exam score | yes (4 sections) | 22 (6 / 11 / 5) | 0 | 2 | 4 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 5 of 5 | none |
 
+## AP Macroeconomics
+
+Unit outline source: [AP Macroeconomics – AP Students (College Board)](https://apstudents.collegeboard.org/courses/ap-macroeconomics), verified 2026-11-14. Unit names, the “topics may include” lists, and exam weightings were read from this page on 2026-11-14; the exam format was read from its assessment page. The page's description of the CED still says it was updated in summer 2022 (for monetary policy content and the calculator policy); the PDF it links is now marked effective Fall 2026.
+Official released free-response questions: [course page](https://apcentral.collegeboard.org/courses/ap-macroeconomics/exam/past-exam-questions), plus whole released sets for 2026, 2025, 2025, 2024, 2024, 2023, 2023 (linked as whole exams, not matched to units).
+General resources (shown on every unit's Learn first page, labelled general): [OpenStax Principles of Macroeconomics 3e (whole book)](https://openstax.org/details/books/principles-macroeconomics-3e).
+
+Framework check (2026-11-14): The 42 numbered CED topics (1.1–6.6) and their learning objectives and essential knowledge statements were read from the course framework in the current PDF on AP Central, and each topic is matched to the StudySprint topic whose guide section and questions teach it. The four skill categories and thirteen skills were read from the CED's skills table, and each question is tagged with the skill it mainly uses. The monetary policy content follows the CED's ample-reserves wording (in the United States the Federal Reserve's key policy tool is interest on reserves; open market operations change the money supply through the money multiplier only in a limited-reserves system). The Clarifications and Corrections (https://apcentral.collegeboard.org/media/pdf/ap-macroeconomics-course-and-exam-description-clarifications.pdf) were checked: they correct EK MEA-2.A.2 to say that the phases of a business cycle are contraction and expansion, effective spring 2027, and StudySprint uses the corrected wording. Source: [AP Macroeconomics Course and Exam Description (effective Fall 2026)](https://apcentral.collegeboard.org/media/pdf/ap-macroeconomics-course-and-exam-description.pdf).
+Exam weightings: from the AP Students course page and the CED's exam section (shares of the multiple-choice section), both checked 2026-11-14.
+Exam format (checked 2026-11-14): From the AP Students assessment page and the CED (2 hours 10 minutes; a four-function calculator is allowed on both sections): Section I, 60 multiple-choice questions in 70 minutes (66.65% of the score). The CED says 30–40% of them assess Principles and Models, 25–32% Interpretation, and 30–40% Manipulation, and 16–20% involve numbers or calculations; Graphing and Visuals is not assessed in multiple choice, but some questions provide a graph or table. Section II, 3 free-response questions in 60 minutes including a 10-minute reading period (33.35%): one long question (10 points, half the section score) and two short questions (5 points each). StudySprint practice is multiple-choice only; graphs are described in words, and data tables are labelled hypothetical. Graph-drawing practice uses College Board's released free-response questions.
+Recorded differences between College Board sources: The AP Students page's unit topic lists are summaries; the CED's 42 topics are the required content and are listed per unit as framework topics. The student page's Unit 4 list does not name the loanable funds market, which the CED includes as topic 4.7; StudySprint teaches it in Unit 4. The CED's Clarifications and Corrections change EK MEA-2.A.2 (business cycle phases) from “recession and expansion” to “contraction and expansion,” to be printed in spring 2027; StudySprint already uses the corrected wording. AP multiple-choice questions show graphs as images; StudySprint describes graphs in words and does not test graph drawing (Skill Category 4), which the AP Exam assesses only in free response.
+
+| Unit | Status | AP Exam | Exam weighting | Review guide | Multiple-choice questions (intro / standard / challenging) | Numeric questions | Practice tests | Unit-specific links | General links | Official FRQ links | CED topics covered | Official topics not yet covered |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Unit 1: Basic Economic Concepts | practice-ready | no exclusion recorded | 5%–10% of the multiple-choice score | yes (4 sections) | 17 (6 / 7 / 4) | 0 | 2 | 4 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 6 of 6 | none |
+| Unit 2: Economic Indicators and the Business Cycle | practice-ready | no exclusion recorded | 12%–17% of the multiple-choice score | yes (4 sections) | 17 (6 / 7 / 4) | 0 | 2 | 4 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 7 of 7 | none |
+| Unit 3: National Income and Price Determination | practice-ready | no exclusion recorded | 17%–27% of the multiple-choice score | yes (4 sections) | 17 (6 / 7 / 4) | 0 | 2 | 4 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 9 of 9 | none |
+| Unit 4: Financial Sector | practice-ready | no exclusion recorded | 18%–23% of the multiple-choice score | yes (4 sections) | 17 (6 / 7 / 4) | 0 | 2 | 4 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 7 of 7 | none |
+| Unit 5: Long-Run Consequences of Stabilization Policies | practice-ready | no exclusion recorded | 20%–30% of the multiple-choice score | yes (4 sections) | 17 (6 / 7 / 4) | 0 | 2 | 4 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 7 of 7 | none |
+| Unit 6: Open Economy—International Trade and Finance | practice-ready | no exclusion recorded | 10%–13% of the multiple-choice score | yes (4 sections) | 17 (6 / 7 / 4) | 0 | 2 | 4 (reading) | 0 | course page and 7 whole released sets (no per-question matches) | 6 of 6 | none |
+
 ## Catalog entries without a unit outline
 
-These courses are planned for future content work. They appear in search with a link to College Board's released free-response page and are labelled "Catalog only". Nothing is invented for them. (3 entries.)
+These courses are planned for future content work. They appear in search with a link to College Board's released free-response page and are labelled "Catalog only". Nothing is invented for them. (2 entries.)
 
-AP Macroeconomics, AP Microeconomics, AP Computer Science A.
+AP Microeconomics, AP Computer Science A.
 
 ## Courses removed from the catalog (2026-11-09)
 
