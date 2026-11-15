@@ -156,6 +156,78 @@
    "sourceType": "original",
    "isOriginal": true,
    "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mac3-g1",
+   "title": "Graph: Aggregate demand and aggregate supply in Norland (hypothetical data)",
+   "intro": "The graph shows Norland's aggregate demand (AD), short-run aggregate supply (SRAS), and long-run aggregate supply (LRAS) curves. Real GDP is in billions of dollars.",
+   "figure": {
+    "kind": "lines",
+    "alt": "Aggregate demand and aggregate supply graph with real GDP on the horizontal axis and the price level on the vertical axis. The downward-sloping AD curve and the upward-sloping SRAS curve cross at point E, at real GDP of 500 billion dollars and a price level of 120. The vertical LRAS curve is at real GDP of 700 billion dollars.",
+    "xLabel": "Real GDP ($ billions)",
+    "yLabel": "Price level",
+    "xMax": 1000,
+    "yMax": 240,
+    "series": [
+     {
+      "label": "AD",
+      "points": [
+       [
+        200,
+        180
+       ],
+       [
+        800,
+        60
+       ]
+      ]
+     },
+     {
+      "label": "SRAS",
+      "points": [
+       [
+        200,
+        60
+       ],
+       [
+        800,
+        180
+       ]
+      ]
+     },
+     {
+      "label": "LRAS",
+      "points": [
+       [
+        700,
+        0
+       ],
+       [
+        700,
+        225
+       ]
+      ]
+     }
+    ],
+    "guides": [
+     {
+      "x": 500,
+      "y": 120,
+      "label": "E"
+     },
+     {
+      "x": 700
+     }
+    ]
+   },
+   "text": [
+    "AD and SRAS cross at point E: real GDP of $500 billion and a price level of 120.",
+    "LRAS is vertical at a real GDP of $700 billion."
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
   }
  ],
  "questions": [
@@ -652,6 +724,36 @@
    "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
    "isOriginal": true,
    "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u3-q18",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u3",
+   "topicId": "mac3-adas",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the graph, which statement describes Norland's economy in the short run?",
+   "choices": [
+    "It has an inflationary gap of $200 billion, with unemployment below the natural rate.",
+    "It is in long-run equilibrium at a real GDP of $500 billion and a price level of 120.",
+    "It has a recessionary gap of $200 billion, with unemployment above the natural rate.",
+    "It has a recessionary gap of $700 billion, equal to its full-employment output."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Short-run equilibrium output ($500 billion) is $200 billion below full-employment output ($700 billion, where LRAS is), a negative (recessionary) output gap, so unemployment is above the natural rate.",
+   "choiceExplanations": [
+    "An inflationary gap would put short-run equilibrium to the right of LRAS, but $500 billion is to the left of $700 billion.",
+    "Long-run equilibrium requires AD and SRAS to cross on LRAS; they cross at $500 billion, not $700 billion.",
+    "",
+    "$700 billion is full-employment output itself; the gap is the difference between it and current output, $200 billion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac3-g1"
   }
  ],
  "videos": [],

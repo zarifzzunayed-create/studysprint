@@ -155,7 +155,65 @@
    "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
    "sourceType": "original",
    "isOriginal": true,
-   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "figure": {
+    "kind": "lines",
+    "alt": "Graph of Freedonia's production possibilities curve, with robots on the horizontal axis and tons of wheat on the vertical axis. The curve is bowed outward and passes through 0 robots and 100 tons, 10 and 90, 20 and 70, 30 and 40, and 40 robots and 0 tons.",
+    "xLabel": "Robots",
+    "yLabel": "Wheat (tons)",
+    "xMax": 50,
+    "yMax": 110,
+    "series": [
+     {
+      "label": "PPC",
+      "points": [
+       [
+        0,
+        100
+       ],
+       [
+        10,
+        90
+       ],
+       [
+        20,
+        70
+       ],
+       [
+        30,
+        40
+       ],
+       [
+        40,
+        0
+       ]
+      ]
+     }
+    ],
+    "guides": [
+     {
+      "x": 10,
+      "y": 90,
+      "label": "B"
+     },
+     {
+      "x": 20,
+      "y": 70,
+      "label": "C"
+     },
+     {
+      "x": 30,
+      "y": 40,
+      "label": "D"
+     },
+     {
+      "x": 40
+     },
+     {
+      "y": 100
+     }
+    ]
+   }
   },
   {
    "id": "mac1-t2",
@@ -182,7 +240,86 @@
    "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
    "sourceType": "original",
    "isOriginal": true,
-   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "figure": {
+    "kind": "lines",
+    "alt": "Graph of the market for notebooks, with quantity on the horizontal axis and price in dollars on the vertical axis. The downward-sloping demand curve and the upward-sloping supply curve cross at a quantity of 50 and a price of 4 dollars.",
+    "xLabel": "Quantity of notebooks",
+    "yLabel": "Price ($)",
+    "xMax": 100,
+    "yMax": 7,
+    "series": [
+     {
+      "label": "D",
+      "points": [
+       [
+        80,
+        2
+       ],
+       [
+        60,
+        3
+       ],
+       [
+        50,
+        4
+       ],
+       [
+        40,
+        5
+       ],
+       [
+        30,
+        6
+       ]
+      ]
+     },
+     {
+      "label": "S",
+      "points": [
+       [
+        20,
+        2
+       ],
+       [
+        40,
+        3
+       ],
+       [
+        50,
+        4
+       ],
+       [
+        60,
+        5
+       ],
+       [
+        70,
+        6
+       ]
+      ]
+     }
+    ],
+    "guides": [
+     {
+      "x": 50,
+      "y": 4,
+      "label": "E"
+     },
+     {
+      "y": 2
+     },
+     {
+      "y": 6
+     },
+     {
+      "x": 20
+     },
+     {
+      "x": 80
+     }
+    ]
+   }
   }
  ],
  "questions": [

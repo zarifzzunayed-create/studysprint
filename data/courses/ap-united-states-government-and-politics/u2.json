@@ -175,7 +175,35 @@
    "attribution": "Hypothetical data created for StudySprint to practice data analysis. The numbers are invented and do not describe any real survey, election, or government record.",
    "sourceType": "original",
    "isOriginal": true,
-   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "figure": {
+    "kind": "bars",
+    "alt": "Bar chart of the number of bills reaching each stage in a hypothetical two-year Congress: 10,000 introduced, 900 reported out of committee, 700 passed by the House, 350 passed by the Senate, and 250 became law.",
+    "caption": "Number of bills that reached each stage",
+    "max": 10000,
+    "bars": [
+     {
+      "label": "Introduced",
+      "value": 10000
+     },
+     {
+      "label": "Out of committee",
+      "value": 900
+     },
+     {
+      "label": "Passed the House",
+      "value": 700
+     },
+     {
+      "label": "Passed the Senate",
+      "value": 350
+     },
+     {
+      "label": "Became law",
+      "value": 250
+     }
+    ]
+   }
   }
  ],
  "questions": [

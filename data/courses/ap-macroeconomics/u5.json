@@ -154,6 +154,67 @@
    "sourceType": "original",
    "isOriginal": true,
    "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mac5-g1",
+   "title": "Graph: Phillips curves for Norland (hypothetical data)",
+   "intro": "The graph shows Norland's short-run Phillips curve (SRPC) and long-run Phillips curve (LRPC).",
+   "figure": {
+    "kind": "lines",
+    "alt": "Phillips curve graph with the unemployment rate on the horizontal axis and the inflation rate on the vertical axis. The downward-sloping short-run Phillips curve passes through point A, at 6 percent unemployment and 2 percent inflation, and point B, at 4 percent unemployment and 4 percent inflation. The vertical long-run Phillips curve is at 4 percent unemployment.",
+    "xLabel": "Unemployment rate (%)",
+    "yLabel": "Inflation rate (%)",
+    "xMax": 10,
+    "yMax": 8,
+    "series": [
+     {
+      "label": "SRPC",
+      "points": [
+       [
+        2,
+        6
+       ],
+       [
+        8,
+        0
+       ]
+      ]
+     },
+     {
+      "label": "LRPC",
+      "points": [
+       [
+        4,
+        0
+       ],
+       [
+        4,
+        7.5
+       ]
+      ]
+     }
+    ],
+    "guides": [
+     {
+      "x": 6,
+      "y": 2,
+      "label": "A"
+     },
+     {
+      "x": 4,
+      "y": 4,
+      "label": "B"
+     }
+    ]
+   },
+   "text": [
+    "SRPC passes through point A (unemployment 6%, inflation 2%) and point B (unemployment 4%, inflation 4%).",
+    "LRPC is vertical at an unemployment rate of 4%."
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
   }
  ],
  "questions": [
@@ -650,6 +711,36 @@
    "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
    "isOriginal": true,
    "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u5-q18",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u5",
+   "topicId": "mac5-phillips",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the graph, which statement about point A is correct?",
+   "choices": [
+    "Unemployment is below the natural rate, so the economy has a positive output gap.",
+    "Point A is a long-run equilibrium, because it lies on the short-run Phillips curve.",
+    "The natural rate of unemployment is 6%, the unemployment rate shown at point A.",
+    "Unemployment is above the natural rate, so the economy has a negative output gap."
+   ],
+   "correctAnswer": 3,
+   "explanation": "LRPC is vertical at the natural rate, 4%. At point A unemployment is 6%, above the natural rate, which corresponds to output below potential (a recessionary gap).",
+   "choiceExplanations": [
+    "At point A unemployment (6%) is higher than the natural rate (4%), not lower.",
+    "Long-run equilibrium is where SRPC crosses LRPC, at point B.",
+    "The natural rate is where LRPC is vertical, 4%.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac5-g1"
   }
  ],
  "videos": [],

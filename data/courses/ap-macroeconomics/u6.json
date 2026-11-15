@@ -155,6 +155,70 @@
    "sourceType": "original",
    "isOriginal": true,
    "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mac6-g1",
+   "title": "Graph: The foreign exchange market for dollars (hypothetical data)",
+   "intro": "The graph shows the demand for dollars (D) and the supply of dollars (S) in the market where dollars are exchanged for euros. Quantities are in billions of dollars.",
+   "figure": {
+    "kind": "lines",
+    "alt": "Foreign exchange market graph with the quantity of dollars on the horizontal axis and euros per dollar on the vertical axis. Downward-sloping demand and upward-sloping supply cross at point E, at 300 billion dollars and 0.8 euros per dollar. At 1.0 euro per dollar, quantity demanded is 200 billion dollars and quantity supplied is 400 billion dollars.",
+    "xLabel": "Quantity of dollars ($ billions)",
+    "yLabel": "Euros per dollar",
+    "xMax": 600,
+    "yMax": 1.4,
+    "series": [
+     {
+      "label": "D",
+      "points": [
+       [
+        100,
+        1.2
+       ],
+       [
+        500,
+        0.4
+       ]
+      ]
+     },
+     {
+      "label": "S",
+      "points": [
+       [
+        100,
+        0.4
+       ],
+       [
+        500,
+        1.2
+       ]
+      ]
+     }
+    ],
+    "guides": [
+     {
+      "x": 300,
+      "y": 0.8,
+      "label": "E"
+     },
+     {
+      "x": 200,
+      "y": 1.0
+     },
+     {
+      "x": 400,
+      "y": 1.0
+     }
+    ]
+   },
+   "text": [
+    "D and S cross at point E: 300 billion dollars at an exchange rate of 0.8 euros per dollar.",
+    "At 1.0 euro per dollar, the quantity of dollars demanded is 200 billion and the quantity supplied is 400 billion."
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
   }
  ],
  "questions": [
@@ -651,6 +715,36 @@
    "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
    "isOriginal": true,
    "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u6-q18",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u6",
+   "topicId": "mac6-forex",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on the graph, if the exchange rate is 1.0 euro per dollar, the market for dollars has",
+   "choices": [
+    "a shortage of 200 billion dollars, so the dollar will appreciate",
+    "a surplus of 200 billion dollars, so the dollar will depreciate",
+    "a surplus of 200 billion dollars, so the dollar will appreciate",
+    "no surplus or shortage, so the rate will stay at 1.0 euro"
+   ],
+   "correctAnswer": 1,
+   "explanation": "At 1.0 euro per dollar, quantity supplied (400 billion) exceeds quantity demanded (200 billion) by 200 billion dollars. The surplus pushes the dollar's price down toward the equilibrium of 0.8 euros.",
+   "choiceExplanations": [
+    "A shortage occurs below the equilibrium rate; 1.0 is above the equilibrium of 0.8, so quantity supplied exceeds quantity demanded.",
+    "",
+    "A surplus of a currency pushes its price down, so the dollar depreciates rather than appreciates.",
+    "The curves cross at 0.8 euros per dollar, so 1.0 is not the equilibrium rate."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac6-g1"
   }
  ],
  "videos": [],

@@ -584,7 +584,7 @@
    "topicId": "bio5-nonmendel",
    "difficulty": "challenging",
    "type": "multiple-choice",
-   "prompt": "Parents with blood type genotypes IᴬI and IᴮI have a child. (Iᴬ and Iᴮ are codominant; i is recessive.) What is the probability the child has type O blood?",
+   "prompt": "Parents with blood type genotypes Iᴬi and Iᴮi have a child. (Iᴬ and Iᴮ are codominant; i is recessive.) What is the probability the child has type O blood?",
    "choices": [
     "3/4",
     "1/4",
@@ -603,7 +603,7 @@
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
    "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
    "isOriginal": true,
-   "verified": "2026-11-08"
+   "verified": "2026-11-14"
   }
  ],
  "videos": [],

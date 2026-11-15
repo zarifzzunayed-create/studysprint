@@ -68,7 +68,7 @@
     "topicId": "psy4-attribution",
     "title": "Attribution and person perception",
     "body": [
-     "Attributions explain behavior. Dispositional attributions point to internal qualities such as personality or intelligence; situational attributions point to circumstances. A person's explanatory style for good and bad events can be optimistic or pessimistic. Biases include the fundamental attribution error (overestimating dispositional causes of others' behavior), the actor/observer bias (explaining one's own behavior by the situation but others' by their dispositions), and the self-serving bias (crediting oneself for success and blaming the situation for failure). Locus of control is the belief that outcomes are controlled internally (by oneself) or externally (by luck or others).",
+     "Attributions explain behavior. Dispositional attributions point to internal qualities such as personality or intelligence; situational attributions point to circumstances. A person's explanatory style for good and bad events can be optimistic or pessimistic. Biases include the fundamental attribution error (overestimating dispositional causes of others' behavior), the actor/observer bias (explaining one's own behavior by the situation but others' by their dispositions), and the self-serving bias (crediting oneself for success and blaming the situation for failure). Locus of control is the belief that outcomes are controlled internally (by oneself) or externally (by luck or others); the CED lists it as objective 4.1.B without further detail.",
      "In person perception, the mere exposure effect makes repeated exposure increase liking. A self-fulfilling prophecy occurs when a belief leads people to act in ways that bring about the expected behavior. People evaluate themselves by social comparison, upward (with those better off) or downward (with those worse off), and judge relative deprivation by what others have."
     ],
     "points": [
@@ -357,7 +357,7 @@
    "skill": "3.C",
    "difficulty": "standard",
    "type": "multiple-choice",
-   "prompt": "Which statement is best supported by the data?",
+   "prompt": "Which statement about arousal and performance is best supported by the data?",
    "choices": [
     "High arousal helped on the easy task but hurt on the difficult task.",
     "Low arousal produced the highest scores of all on the difficult task, at 55%.",

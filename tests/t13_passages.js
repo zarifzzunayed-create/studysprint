@@ -145,6 +145,20 @@ const titleOf = id => d.passages.find(p => p.id === id).title;
   }
   T.ok(mSeen.length === 16 && mSeen.every(x => x.q && !x.q.passageId === !x.src) && mSeen.some(x => x.src) && mSeen.filter(x => x.src).every(x => /^Hypothetical data/.test(x.src)),
     'Macroeconomics tests show a labelled hypothetical data table only with the questions that use one');
+  /* ---- an optional chart on a stimulus is one labelled image, and the same numbers stay in the text ---- */
+  const figUnits = [['ap-united-states-government-and-politics', 'u4', 'gov4-a'], ['ap-macroeconomics', 'u3', 'mac3-g1']].map(([c, u, pid]) => {
+    const d = JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', c, u + '.json')));
+    return { unit: d, q: d.questions.find(x => x.passageId === pid) };
+  });
+  const figs = await p.evaluate((data) => data.map(({ unit, q }) => {
+    const el = SS.passageBlock(unit, q), svg = el.querySelector('svg.fig');
+    return { role: svg.getAttribute('role'), label: svg.getAttribute('aria-label') || '', bars: svg.querySelectorAll('rect.fig-bar').length, lines: svg.querySelectorAll('polyline.fig-line').length,
+      dashed: svg.querySelectorAll('polyline.fig-line[stroke-dasharray]').length, text: Array.from(el.querySelectorAll('p')).map(x => x.textContent).join(' ') };
+  }), figUnits);
+  T.ok(figs[0].role === 'img' && figs[0].label.length >= 30 && figs[0].bars === 4 && /Ages 18–29: Support 64%/.test(figs[0].text),
+    'a U.S. Government poll shows a bar chart that is one labelled image, with the same percentages still listed as text');
+  T.ok(figs[1].role === 'img' && /LRAS/.test(figs[1].label) && figs[1].lines === 3 && figs[1].dashed === 2 && /real GDP of \$500 billion/.test(figs[1].text) && /^Hypothetical data/.test(figUnits[1].unit.passages.find(x => x.id === 'mac3-g1').attribution),
+    'a Macroeconomics graph draws each curve with its own line pattern, has a text alternative, and is labelled hypothetical');
   T.ok(!p.errs.length, 'no page errors' + (p.errs.length ? ': ' + p.errs.join(' | ') : ''));
 
   /* ---- answer length gives nothing away in the passage-based banks ---- */
@@ -171,6 +185,12 @@ const titleOf = id => d.passages.find(p => p.id === id).title;
   fs.writeFileSync(f, JSON.stringify(bad));
   const out = spawnSync('python3', [path.join(tmp, 'tools', 'build.py')], { encoding: 'utf8' });
   T.ok(out.status !== 0 && /passageId 'no-such-passage' is not a passage in this unit/.test(out.stdout), 'the build rejects a question whose passage does not exist');
+  const f2 = path.join(tmp, 'data', 'courses', 'ap-macroeconomics', 'u3.json'), bad2 = JSON.parse(fs.readFileSync(f2));
+  fs.writeFileSync(f, fs.readFileSync(path.join(T.ROOT, 'data', 'courses', COURSE, 'u1.json')));
+  delete bad2.passages.find(x => x.id === 'mac3-g1').figure.alt;
+  fs.writeFileSync(f2, JSON.stringify(bad2));
+  const out2 = spawnSync('python3', [path.join(tmp, 'tools', 'build.py')], { encoding: 'utf8' });
+  T.ok(out2.status !== 0 && /figure needs an 'alt' text alternative/.test(out2.stdout), 'the build rejects a chart that has no text alternative');
   fs.rmSync(tmp, { recursive: true, force: true });
 
   console.log(T.summary()); await b.close();

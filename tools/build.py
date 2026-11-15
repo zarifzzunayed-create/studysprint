@@ -30,6 +30,33 @@ def source_ok(where, o, need_url):
     if need_url and not https(o.get("sourceUrl")):
         err("%s: sourceUrl must be an https URL" % where)
 
+def check_figure(where, f):
+    """A passage's optional chart. It needs a real text alternative, and its numbers must be drawable."""
+    num = lambda v: isinstance(v, (int, float)) and not isinstance(v, bool)
+    if not isinstance(f, dict) or f.get("kind") not in ("bars", "lines"):
+        return err(where + ": figure kind must be 'bars' or 'lines'")
+    if not isinstance(f.get("alt"), str) or len(f["alt"].strip()) < 30:
+        err(where + ": figure needs an 'alt' text alternative of at least 30 characters")
+    if "caption" in f and not (isinstance(f["caption"], str) and f["caption"].strip()):
+        err(where + ": figure caption must be text")
+    if f["kind"] == "bars":
+        bars = f.get("bars")
+        if not (num(f.get("max")) and f["max"] > 0 and isinstance(bars, list) and 2 <= len(bars) <= 12
+                and all(isinstance(b, dict) and isinstance(b.get("label"), str) and b["label"] and len(b["label"]) <= 20
+                        and num(b.get("value")) and 0 <= b["value"] <= f["max"] for b in bars)):
+            err(where + ": a bars figure needs max > 0 and 2-12 bars, each with a label (20 characters or fewer) and a value from 0 to max")
+    else:
+        ok = num(f.get("xMax")) and num(f.get("yMax")) and f["xMax"] > 0 and f["yMax"] > 0 and all(isinstance(f.get(k), str) and f[k] for k in ("xLabel", "yLabel"))
+        inside = lambda p: isinstance(p, list) and len(p) == 2 and num(p[0]) and num(p[1]) and 0 <= p[0] <= f["xMax"] and 0 <= p[1] <= f["yMax"]
+        ser = f.get("series")
+        ok = ok and isinstance(ser, list) and 1 <= len(ser) <= 4 and all(
+            isinstance(s, dict) and isinstance(s.get("label"), str) and s["label"] and isinstance(s.get("points"), list) and len(s["points"]) >= 2
+            and all(inside(p) for p in s["points"]) for s in ser)
+        ok = ok and all(isinstance(g, dict) and ("x" in g or "y" in g) and inside([g.get("x", 0), g.get("y", 0)]) for g in f.get("guides", []))
+        if not ok:
+            err(where + ": a lines figure needs xLabel, yLabel, xMax, yMax, 1-4 labelled series of 2+ points inside the axes, and guides inside the axes")
+
+
 def check_unit(course_id, meta, d, skills=()):
     """Validate one unit file and return its computed status. skills: the course's skill codes (frameworkCheck.skills)."""
     uid = meta["id"]; where = "%s/%s" % (course_id, uid)
@@ -82,6 +109,8 @@ def check_unit(course_id, meta, d, skills=()):
             err(pw + ": an original passage needs isOriginal true")
         if not any(q.get("passageId") == p.get("id") for q in d["questions"]):
             err(pw + ": no question uses this passage")
+        if "figure" in p:
+            check_figure(pw, p["figure"])
     if len(set(pids)) != len(pids):
         err("%s: duplicate passage ids" % where)
     for q in d["questions"]:
@@ -485,7 +514,11 @@ def write_status(cat, detail, planner, rules):
         L.append("- %d video links point to a general collection page that lists the video, not to the video itself, because a direct address could not be verified: %s. They are labelled general." % (len(listing), ", ".join(listing)))
     L.append("- Question review: every question is original. Numeric answers, the values behind wrong choices that come from a specific mistake, and every worked example were checked by computation; conceptual questions were checked by reading only. No question has been reviewed by a subject teacher, so a teacher review is recommended before classroom use.")
     L.append("- Learn first links: Khan Academy pages are rendered by JavaScript, so they were verified by confirming the address loads with a matching canonical URL and by the page title in a search index, not by watching each video.")
-    L.append("- Courses beyond the outlined ones (AP Computer Science A and the rest) have no verified unit outline yet.")
+    pending = [c["name"] for c in cat["courses"] if not c.get("outline")]
+    if pending:
+        L.append("- Catalog courses with no checked framework yet, so no units or questions: " + ", ".join(pending) + ".")
+    if os.path.exists(os.path.join(ROOT, "CONTENT_AUDIT.md")):
+        L.append("- Content audits and their open items (answer cues that remain in some older question banks, stimuli that are not yet primary sources or images, and items waiting for a teacher's review) are recorded in `CONTENT_AUDIT.md`. The checks behind them are in `tools/checks/`.")
     L.append("- Not yet checked on real devices or with screen readers: layout, touch targets, and keyboard behaviour were checked in an automated desktop browser at phone widths (320, 375, 390 px). Still needed: VoiceOver on an iPhone (Safari), TalkBack on an Android phone (Chrome), NVDA or JAWS on Windows, and a check that downloading and choosing a backup file works on iOS and Android.")
     L.append("")
     with open(os.path.join(ROOT, "CONTENT_STATUS.md"), "w", encoding="utf-8") as f:

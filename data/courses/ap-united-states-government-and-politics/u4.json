@@ -137,7 +137,32 @@
    "attribution": "Hypothetical data created for StudySprint to practice data analysis. The numbers are invented and do not describe any real survey, election, or government record.",
    "sourceType": "original",
    "isOriginal": true,
-   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "figure": {
+    "kind": "bars",
+    "alt": "Bar chart of the percentage of likely voters who support the transit tax: all likely voters 52 percent, ages 18 to 29 64 percent, ages 30 to 64 51 percent, ages 65 and older 43 percent.",
+    "caption": "Percentage who support the proposed tax",
+    "unit": "%",
+    "max": 100,
+    "bars": [
+     {
+      "label": "All likely voters",
+      "value": 52
+     },
+     {
+      "label": "Ages 18–29",
+      "value": 64
+     },
+     {
+      "label": "Ages 30–64",
+      "value": 51
+     },
+     {
+      "label": "Ages 65 and older",
+      "value": 43
+     }
+    ]
+   }
   },
   {
    "id": "gov4-b",
@@ -217,7 +242,7 @@
    "topicId": "gov4-beliefs",
    "difficulty": "standard",
    "type": "multiple-choice",
-   "prompt": "Which explanation is best supported by the differences among age groups in Source A?",
+   "prompt": "Which explanation is most consistent with the differences among age groups in Source A?",
    "choices": [
     "Older voters have more information about the tax than younger voters do",
     "Age has no relationship to how voters respond to the proposed transit tax",
@@ -225,7 +250,7 @@
     "Younger voters are less likely than older voters to vote in any of the state's elections"
    ],
    "correctAnswer": 2,
-   "explanation": "Support falls as age rises, consistent with life-cycle differences such as commuting needs and fixed incomes.",
+   "explanation": "Support falls as age rises. The poll cannot show why, but the pattern is consistent with life cycle effects: people at different life stages, with different commuting needs and incomes, weigh a transit tax differently.",
    "choiceExplanations": [
     "The data show opinions, not how informed each group is.",
     "The data show a clear pattern by age.",
@@ -707,7 +732,7 @@
     "The Supreme Court's decision in Marbury v. Madison establishing judicial review"
    ],
    "correctAnswer": 0,
-   "explanation": "After national Democrats backed civil rights laws, many white Southern conservatives moved to the Republican Party, sorting the parties more clearly by ideology.",
+   "explanation": "After national Democrats backed civil rights laws, many white Southern conservatives moved to the Republican Party, sorting the parties more clearly by ideology. (The CED discusses party realignment mainly in Unit 5, Topics 5.4 and 5.7; it is used here as an example of how the parties' ideological positions have changed.)",
    "choiceExplanations": [
     "",
     "The Federal Reserve's creation concerns monetary policy, not party change.",

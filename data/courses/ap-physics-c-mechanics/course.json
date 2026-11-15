@@ -3,8 +3,8 @@
  "name": "AP Physics C: Mechanics",
  "officialUrl": "https://apcentral.collegeboard.org/courses/ap-physics-c-mechanics",
  "studentUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics",
- "frameworkUrl": "https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf",
- "frameworkVersion": "Not recorded at the last check; confirm the current edition of the Course and Exam Description.",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf",
+ "frameworkVersion": "AP Physics C: Mechanics Course and Exam Description, effective Fall 2024 on its cover (the current PDF on AP Central, checked 2026-11-14). Only the edition and the AP Students unit outline were re-checked on that date; the numbered CED topics have not been matched one by one.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-physics-c-mechanics/exam/past-exam-questions",
   "note": null

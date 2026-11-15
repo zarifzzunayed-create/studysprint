@@ -70,7 +70,7 @@
     "topicId": "mac4-banking",
     "title": "Money and banking",
     "body": [
-     "Money is any asset accepted as a means of payment. It serves as a medium of exchange, a unit of account, and a store of value. The money supply is measured by M1 (currency and checkable deposits, among others) and the broader M2 (M1 plus savings deposits and other near-monies). The monetary base is currency in circulation plus bank reserves.",
+     "Money is any asset accepted as a means of payment. It serves as a medium of exchange, a unit of account, and a store of value. The money supply is measured by M1 (currency, checkable deposits, and, under the Federal Reserve's definition since 2020, savings deposits) and the broader M2 (M1 plus small time deposits and retail money market funds). The monetary base is currency in circulation plus bank reserves.",
      "Banks keep balance sheets (assets such as reserves, loans, and bonds; liabilities such as deposits) and use fractional reserve banking. Reserves are required reserves plus excess reserves, and excess reserves are what banks can lend. The money multiplier is the ratio of the money supply to the monetary base; its maximum value is 1 ÷ the required reserve ratio. The actual expansion is usually smaller, because banks may hold excess reserves and people may hold more currency."
     ],
     "points": [
@@ -148,6 +148,66 @@
     "Assets: reserves $300; loans $700",
     "Liabilities: demand deposits $1,000",
     "Required reserve ratio: 20%"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mac4-g1",
+   "title": "Graph: The money market in Norland (hypothetical data)",
+   "intro": "The graph shows money demand (MD) and the money supply (MS) in Norland, whose banking system has limited reserves. Quantities of money are in billions of dollars.",
+   "figure": {
+    "kind": "lines",
+    "alt": "Money market graph with the quantity of money on the horizontal axis and the nominal interest rate on the vertical axis. The vertical money supply curve at 400 billion dollars crosses the downward-sloping money demand curve at point E, where the interest rate is 6 percent. Money demand also passes through 600 billion dollars at 4 percent.",
+    "xLabel": "Quantity of money ($ billions)",
+    "yLabel": "Nominal interest rate (%)",
+    "xMax": 1000,
+    "yMax": 10,
+    "series": [
+     {
+      "label": "MD",
+      "points": [
+       [
+        200,
+        8
+       ],
+       [
+        800,
+        2
+       ]
+      ]
+     },
+     {
+      "label": "MS",
+      "points": [
+       [
+        400,
+        0
+       ],
+       [
+        400,
+        9.4
+       ]
+      ]
+     }
+    ],
+    "guides": [
+     {
+      "x": 400,
+      "y": 6,
+      "label": "E"
+     },
+     {
+      "x": 600,
+      "y": 4
+     }
+    ]
+   },
+   "text": [
+    "MS is vertical at $400 billion. It crosses MD at point E, where the nominal interest rate is 6%.",
+    "On the MD curve, people want to hold $600 billion when the nominal interest rate is 4%."
    ],
    "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
    "sourceType": "original",
@@ -649,6 +709,36 @@
    "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
    "isOriginal": true,
    "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u4-q18",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u4",
+   "topicId": "mac4-monetary",
+   "skill": "3.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the graph, if Norland's central bank increases the money supply from $400 billion to $600 billion, the equilibrium nominal interest rate will",
+   "choices": [
+    "fall from 6% to 4%",
+    "rise from 6% to 8%",
+    "stay at 6%, because money demand is unchanged",
+    "fall from 6% to 2%"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A larger money supply shifts MS right. The new MS at $600 billion meets MD where the nominal interest rate is 4%.",
+   "choiceExplanations": [
+    "",
+    "A larger money supply lowers the equilibrium rate; 8% is the rate at which people would hold only $200 billion.",
+    "Money demand does not shift, but the economy moves down along it to a lower rate.",
+    "2% is the rate at which people would hold $800 billion, not $600 billion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac4-g1"
   }
  ],
  "videos": [],

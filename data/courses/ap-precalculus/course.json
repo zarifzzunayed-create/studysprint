@@ -1,10 +1,10 @@
 {
  "id": "ap-precalculus",
  "name": "AP Precalculus",
- "officialUrl": "https://apcentral.collegeboard.org/courses/ap-precalculus/course",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-precalculus",
  "studentUrl": "https://apstudents.collegeboard.org/courses/ap-precalculus",
  "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-precalculus-course-and-exam-description.pdf",
- "frameworkVersion": "Not recorded at the last check; confirm the current edition of the Course and Exam Description.",
+ "frameworkVersion": "AP Precalculus Course and Exam Description, effective Fall 2026 on its title page (the current PDF on AP Central, checked 2026-11-14; its cover image also still shows Fall 2023). The AP Students unit outline was re-compared on that date and matches, but the questions were written before this edition was confirmed and have not been re-read against it.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-precalculus/exam/past-exam-questions",
   "note": null

@@ -221,7 +221,7 @@
     "a cross-sectional study, because it compared different age groups at one time"
    ],
    "correctAnswer": 3,
-   "explanation": "Team A tested different people of different ages once, which is the cross-sectional design.",
+   "explanation": "Team A tested different people of different ages once, which is the cross-sectional design. (The CED names cross-sectional and longitudinal designs in objective 3.1.B but prints no detailed content for them, so this question rests on standard textbook definitions.)",
    "choiceExplanations": [
     "A case study examines one person or a few in depth; Team A tested 400 adults briefly.",
     "Team B, not Team A, followed the same people over time.",
@@ -281,7 +281,7 @@
     "Random assignment: Team A placed its strongest puzzle solvers in the youngest group by chance alone."
    ],
    "correctAnswer": 2,
-   "explanation": "Cross-sectional comparisons mix aging with differences between generations; older cohorts may have had less education and test experience, exaggerating the apparent decline.",
+   "explanation": "Cross-sectional comparisons mix aging with differences between generations; older cohorts may have had less education and test experience, exaggerating the apparent decline. (“Cohort effects” is a standard research-methods term; the CED's objective 3.1.B does not list it.)",
    "choiceExplanations": [
     "Team A tested everyone once, so it had no dropouts; attrition was a problem for Team B.",
     "Team A tested each person only once, so earlier practice with its test was not part of the design.",
@@ -311,7 +311,7 @@
     "The tests were changed at each session, so scores from different ages measure different abilities."
    ],
    "correctAnswer": 0,
-   "explanation": "Attrition (52 of 150 dropped out) can leave a healthier or more motivated sample, which may make decline look smaller than it is.",
+   "explanation": "Attrition (52 of 150 dropped out) can leave a healthier or more motivated sample, which may make decline look smaller than it is. (“Attrition” is a standard research-methods term; the CED's objective 3.1.B does not list it.)",
    "choiceExplanations": [
     "",
     "Testing the same people repeatedly is what allows a longitudinal study to track change; it does not make scores incomparable.",
@@ -722,7 +722,7 @@
     "imprinting, a lasting attachment to the first moving object a child encounters"
    ],
    "correctAnswer": 0,
-   "explanation": "Different praise and toys teach children what their culture expects of boys and girls, which is gender socialization.",
+   "explanation": "Different praise and toys teach children what their culture expects of boys and girls, which is gender socialization. (The CED's objective 3.3.A covers how sex and gender influence socialization but prints no detailed content for it, so this question rests on a standard textbook idea.)",
    "choiceExplanations": [
     "",
     "Assimilation fits new information into an existing schema; changing a schema is accommodation, and neither describes the parents' teaching.",

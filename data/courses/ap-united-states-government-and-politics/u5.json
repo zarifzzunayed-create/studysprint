@@ -141,7 +141,48 @@
    "attribution": "Hypothetical data created for StudySprint to practice data analysis. The numbers are invented and do not describe any real survey, election, or government record.",
    "sourceType": "original",
    "isOriginal": true,
-   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "figure": {
+    "kind": "bars",
+    "alt": "Bar chart of voter turnout by age group. Presidential election: 46 percent for ages 18 to 29, 58 percent for ages 30 to 44, 68 percent for ages 45 to 64, and 74 percent for ages 65 and older. Midterm election: 24, 38, 52, and 61 percent for the same groups.",
+    "caption": "Percentage of eligible citizens who voted (P = presidential election, M = midterm election)",
+    "unit": "%",
+    "max": 100,
+    "bars": [
+     {
+      "label": "18–29, P",
+      "value": 46
+     },
+     {
+      "label": "18–29, M",
+      "value": 24
+     },
+     {
+      "label": "30–44, P",
+      "value": 58
+     },
+     {
+      "label": "30–44, M",
+      "value": 38
+     },
+     {
+      "label": "45–64, P",
+      "value": 68
+     },
+     {
+      "label": "45–64, M",
+      "value": 52
+     },
+     {
+      "label": "65 and older, P",
+      "value": 74
+     },
+     {
+      "label": "65 and older, M",
+      "value": 61
+     }
+    ]
+   }
   },
   {
    "id": "gov5-b",

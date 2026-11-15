@@ -123,7 +123,7 @@
   "links": [
    {
     "title": "Official framework: AP Physics C: Electricity and Magnetism Course and Exam Description (PDF, College Board)",
-    "url": "https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf"
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf"
    }
   ],
   "sourceType": "original",
@@ -337,7 +337,7 @@
    "topicId": "e13-lr",
    "difficulty": "challenging",
    "type": "multiple-choice",
-   "prompt": "In the circuit with τ = 0.020 s and a final current of 0.60 A, what is the current at t = 0.020 s after the battery is connected?",
+   "prompt": "A battery is connected to a resistor and an inductor in series (an LR circuit) with time constant τ = 0.020 s and a final current of 0.60 A; what is the current at t = 0.020 s after the battery is connected?",
    "choices": [
     "About 0.22 A",
     "0.60 A",
@@ -356,7 +356,7 @@
    "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism",
    "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
    "isOriginal": true,
-   "verified": "2026-11-08"
+   "verified": "2026-11-14"
   },
   {
    "id": "phceu13-q09",

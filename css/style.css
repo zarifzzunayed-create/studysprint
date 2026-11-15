@@ -237,4 +237,10 @@ fieldset[aria-invalid="true"]{padding:.5rem;border-radius:10px}
 .passage p{margin:.4rem 0;line-height:1.6}
 .passage-title{margin:0 0 .4rem;font-size:1.05rem}
 .passage-src{font-size:.85rem;opacity:.8}
+/* optional chart in a passage: inherits the text color, so it works in light and dark themes; lines differ by pattern */
+.fig-wrap{margin:.5rem 0}.fig{display:block;width:100%;max-width:460px;height:auto}
+.fig-text{font:13px system-ui,sans-serif;fill:currentColor}.fig-strong{font-weight:600}
+.fig-axis{stroke:currentColor;stroke-width:1.5}.fig-line{fill:none;stroke:currentColor;stroke-width:2.2}
+.fig-guide{stroke:currentColor;stroke-width:1;stroke-dasharray:3 3;opacity:.55}.fig-dot{fill:currentColor}
+.fig-bar{fill:currentColor;fill-opacity:.28;stroke:currentColor;stroke-width:1}
 details.passage summary{cursor:pointer;font-weight:600;min-height:44px;display:flex;align-items:center}
