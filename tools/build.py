@@ -111,6 +111,8 @@ def check_unit(course_id, meta, d, skills=()):
             err(pw + ": no question uses this passage")
         if "figure" in p:
             check_figure(pw, p["figure"])
+        if "format" in p and p["format"] != "code":
+            err(pw + ": passage format, if given, must be 'code'")
     if len(set(pids)) != len(pids):
         err("%s: duplicate passage ids" % where)
     for q in d["questions"]:
@@ -133,9 +135,12 @@ def check_unit(course_id, meta, d, skills=()):
         # An optional skill tag must name one of the skills the course file lists from its CED.
         if "skill" in q and q["skill"] not in skills:
             err(qw + ": skill '%s' is not a skill listed in the course file" % q["skill"])
-        if q["prompt"] in seen_prompts:
+        # A stem may repeat only when it is asked about a different stimulus (for example "What is printed when the
+        # code segment is executed?" on two different code listings).
+        pkey = (q["prompt"], q.get("passageId"))
+        if pkey in seen_prompts:
             err(qw + ": duplicate prompt")
-        seen_prompts.add(q["prompt"])
+        seen_prompts.add(pkey)
         if not q.get("explanation"):
             err(qw + ": missing explanation")
         source_ok(qw, q, True)

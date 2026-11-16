@@ -1,0 +1,270 @@
+{
+ "id": "ap-computer-science-a",
+ "name": "AP Computer Science A",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-computer-science-a",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-course-and-exam-description.pdf",
+ "frameworkVersion": "AP Computer Science A Course and Exam Description, effective Fall 2025 on its cover (the current PDF on AP Central, checked 2026-11-16; pages marked V.1, © 2025), with College Board's Clarifications and Corrections implemented as of August 2025.",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam/past-exam-questions",
+  "note": null,
+  "releasedSets": [
+   {
+    "year": 2026,
+    "title": "2026 AP Computer Science A Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-computer-science-a.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP Computer Science A Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-computer-science-a.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP Computer Science A Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-comp-sci-a.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP Computer Science A Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-comp-sci-a.pdf"
+   }
+  ],
+  "setsNote": "Whole released free-response sets (PDF, College Board), linked from the course's past-exam-questions page and checked to load on 2026-11-16. Each set has four questions and is not matched to units. The 2023–2025 sets were written before the Fall 2025 framework took effect, so their question types and some of their content may differ from the current exam; the 2026 set follows the current framework. Scoring guidelines are on the past-exam-questions page."
+ },
+ "source": {
+  "title": "AP Computer Science A – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+  "verified": "2026-11-16",
+  "note": "Unit names, the “topics may include” lists, and exam weightings were read from this page on 2026-11-16; the exam format was read from its assessment page."
+ },
+ "frameworkCheck": {
+  "checked": "2026-11-16",
+  "source": "https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-course-and-exam-description.pdf",
+  "title": "AP Computer Science A Course and Exam Description (effective Fall 2025)",
+  "how": "The 53 numbered CED topics (1.1–4.17) and their learning objectives, essential knowledge statements, and exclusion statements were read from the course framework in the current PDF on AP Central, and each topic is matched to the StudySprint topic whose guide section and questions teach it. The questions stay inside the CED's Java subset: only int, double, and boolean primitives; no prefix or embedded increment operators; no designing of inheritance relationships; the String, Math, Integer, Double, ArrayList, File, and Scanner methods named in the CED's Java Quick Reference; and no writing of recursive code. The five computational thinking practices and twelve skills were read from the CED's practices table, and each question is tagged with the skill it mainly uses. The Clarifications and Corrections implemented as of August 2025 (https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-course-and-exam-description-clarification.pdf) were checked: they change front matter and resource links only, not course content. Every code listing was compiled and run with a Java compiler; the outputs behind the keyed answers are recomputed by tools/checks/recompute/computer_science_a.py.",
+  "weightsSource": "the AP Students course page and the CED's exam section (shares of the multiple-choice section), both checked 2026-11-16",
+  "examFormat": "From the AP Students assessment page and the CED (3 hours; students receive the Java Quick Reference): Section I, 42 multiple-choice questions in 90 minutes (55% of the score), individual questions plus occasional sets of two questions. The CED gives approximate multiple-choice weights of 2–10% Design Code, 22–38% Develop Code, 37–53% Analyze Code, 10–15% Document Code and Computing Systems, and 2–10% Use Computers Responsibly. Section II, 4 free-response questions in 90 minutes (45%): Methods and Control Structures (7 points), Class Design (7 points), Data Analysis with ArrayList (5 points), and 2D Array (6 points). StudySprint practice is multiple-choice only; writing code by hand is practiced with College Board's released free-response questions.",
+  "skills": [
+   {
+    "code": "1.A",
+    "practice": "Design Code",
+    "text": "Determine an appropriate program design to solve a problem or accomplish a task."
+   },
+   {
+    "code": "1.B",
+    "practice": "Design Code",
+    "text": "Determine what knowledge can be extracted from data."
+   },
+   {
+    "code": "2.A",
+    "practice": "Develop Code",
+    "text": "Write program code to implement an algorithm."
+   },
+   {
+    "code": "2.B",
+    "practice": "Develop Code",
+    "text": "Write program code involving data abstractions."
+   },
+   {
+    "code": "2.C",
+    "practice": "Develop Code",
+    "text": "Write program code involving procedural abstractions."
+   },
+   {
+    "code": "3.A",
+    "practice": "Analyze Code",
+    "text": "Determine the result or output based on statement execution order in an algorithm."
+   },
+   {
+    "code": "3.B",
+    "practice": "Analyze Code",
+    "text": "Determine the result or output based on code that contains data abstractions."
+   },
+   {
+    "code": "3.C",
+    "practice": "Analyze Code",
+    "text": "Determine the result or output based on code that contains procedural abstractions."
+   },
+   {
+    "code": "3.D",
+    "practice": "Analyze Code",
+    "text": "Explain why a code segment will not compile or work as intended and modify the code to correct the error."
+   },
+   {
+    "code": "4.A",
+    "practice": "Document Code and Computing Systems",
+    "text": "Describe the behavior of a code segment or program."
+   },
+   {
+    "code": "4.B",
+    "practice": "Document Code and Computing Systems",
+    "text": "Describe the initial conditions that must be met for a code segment to work as intended or described."
+   },
+   {
+    "code": "5.A",
+    "practice": "Use Computers Responsibly",
+    "text": "Explain how computing impacts society, economy, and culture."
+   }
+  ],
+  "differences": [
+   "The AP Students page's unit topic lists are summaries; the CED's 53 topics are the required content and are listed per unit as framework topics. The page's Unit 4 list does not name text files (CED topic 4.6), which StudySprint teaches in Unit 4.",
+   "This CED (effective Fall 2025) organizes the course into four units, and its exclusion statements place designing and implementing inheritance relationships outside the course. Study materials organized differently may describe an earlier framework.",
+   "StudySprint cannot run code that a student writes, so the Develop Code practice is practiced only by choosing among given code; the AP Exam's free-response section requires writing Java by hand."
+  ]
+ },
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Using Objects and Methods",
+   "status": "practice-ready",
+   "file": "data/courses/ap-computer-science-a/u1.json",
+   "officialTopics": [
+    "Using primitive data types including int, double, and Boolean",
+    "Evaluating arithmetic expressions in program code",
+    "Using assignment operators to produce a value",
+    "Knowing how variables and operators are sequenced and combined in an expression to create a result",
+    "Using comments to describe the functionality of code",
+    "Using objects and classes to describe instances, attributes, and behaviors",
+    "Creating objects by calling constructors with and without parameters",
+    "Defining an object’s behavior using methods, including static and Math class",
+    "Calling non-static void methods with and without parameters",
+    "Using String objects and methods",
+    "Using application program interfaces (APIs) and libraries"
+   ],
+   "examWeight": "15%–25% of the multiple-choice score",
+   "frameworkTopics": [
+    "1.1 Introduction to Algorithms, Programming, and Compilers",
+    "1.2 Variables and Data Types",
+    "1.3 Expressions and Output",
+    "1.4 Assignment Statements and Input",
+    "1.5 Casting and Range of Variables",
+    "1.6 Compound Assignment Operators",
+    "1.7 Application Program Interface (API) and Libraries",
+    "1.8 Documentation with Comments",
+    "1.9 Method Signatures",
+    "1.10 Calling Class Methods",
+    "1.11 Math Class",
+    "1.12 Objects: Instances of Classes \u0007 \u0007",
+    "1.13 Object Creation and Storage (Instantiation)",
+    "1.14 Calling Instance Methods",
+    "1.15 String Manipulation"
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Selection and Iteration",
+   "status": "practice-ready",
+   "file": "data/courses/ap-computer-science-a/u2.json",
+   "officialTopics": [
+    "Finding Boolean values with expressions involving relational operators",
+    "Using conditional statements to execute different statements based on input values",
+    "Building on conditional statements to create multiple possible outcomes",
+    "Creating the same value using equivalent Boolean expressions",
+    "Creating a loop to run an expression repeatedly until certain conditions are met",
+    "Implementing standard arithmetic-based and String-based algorithms",
+    "Representing iterative processes in code using for and while loops",
+    "Nesting loop and iteration statements",
+    "Informally analyzing run-times"
+   ],
+   "examWeight": "25%–35% of the multiple-choice score",
+   "frameworkTopics": [
+    "2.1 Algorithms with Selection and Repetition",
+    "2.2 Boolean Expressions",
+    "2.3 if Statements",
+    "2.4 Nested if Statements",
+    "2.5 Compound Boolean Expressions",
+    "2.6 Comparing Boolean Expressions",
+    "2.7 while Loops",
+    "2.8 for Loops",
+    "2.9 Implementing Selection and Iteration Algorithms",
+    "2.10 Implementing String Algorithms",
+    "2.11 Nested Iteration",
+    "2.12 Informal Run-Time Analysis"
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Class Creation",
+   "status": "practice-ready",
+   "file": "data/courses/ap-computer-science-a/u3.json",
+   "officialTopics": [
+    "Designing a class, including whether attributes are public or private",
+    "Setting an object’s attributes using constructors",
+    "Defining behaviors of an object using non-void, void, and static methods",
+    "Breaking problems into smaller parts by creating methods to solve individual subproblems"
+   ],
+   "examWeight": "10%–18% of the multiple-choice score",
+   "frameworkTopics": [
+    "3.1 Abstraction and Program Design",
+    "3.2 Impact of Program Design",
+    "3.3 Anatomy of a Class",
+    "3.4 Constructors",
+    "3.5 Methods: How to Write Them",
+    "3.6 Methods: Passing and Returning References of an Object",
+    "3.7 Class Variables and Methods",
+    "3.8 Scope and Access",
+    "3.9 this Keyword"
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Data Collections",
+   "status": "practice-ready",
+   "file": "data/courses/ap-computer-science-a/u4.json",
+   "officialTopics": [
+    "Considering intellectual property and ethical concerns in programming",
+    "Considering ethical issues around data collections",
+    "Using data sets",
+    "Representing multiple related items as array objects",
+    "Traversing an array by accessing the elements using iteration statements",
+    "Implementing standard algorithms that utilize array traversals to perform functions",
+    "Utilizing class libraries, including Integer and Double",
+    "Representing collections of related object reference data using ArrayList objects",
+    "Traversing an ArrayList by accessing the elements using iteration statements",
+    "Implementing standard algorithms that utilize ArrayList traversals to perform functions",
+    "Searching and sorting using standard algorithms",
+    "Representing collections of data as arrays of arrays, or 2D arrays",
+    "Traversing a 2D array by accessing the elements using nested iteration statements",
+    "Executing recursive methods",
+    "Searching and sorting using binary search and merge sort algorithms"
+   ],
+   "examWeight": "30%–40% of the multiple-choice score",
+   "frameworkTopics": [
+    "4.1 Ethical and Social Issues Around Data Collection",
+    "4.2 Introduction to Using Data Sets",
+    "4.3 Array Creation and Access",
+    "4.4 Array Traversals",
+    "4.5 Implementing Array Algorithms",
+    "4.6 Using Text Files",
+    "4.7 Wrapper Classes",
+    "4.8 ArrayList Methods",
+    "4.9 ArrayList Traversals",
+    "4.10 Implementing ArrayList Algorithms",
+    "4.11 2D Array Creation and Access",
+    "4.12 2D Array Traversals",
+    "4.13 Implementing 2D Array Algorithms",
+    "4.14 Searching Algorithms",
+    "4.15 Sorting Algorithms",
+    "4.16 Recursion",
+    "4.17 Recursive Searching and Sorting"
+   ]
+  }
+ ],
+ "generalResources": [
+  {
+   "id": "gen-csa-quickref",
+   "title": "Java Quick Reference (the reference sheet provided on the AP exam)",
+   "provider": "College Board",
+   "url": "https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-java-quick-reference.pdf",
+   "scope": "general",
+   "kind": "reading",
+   "note": "General: College Board's list of the Java library methods (String, Math, Integer, Double, ArrayList, Scanner and File, and Object) that may appear on the exam. It is a reference list, not a lesson.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "sourceTitle": "Linked from College Board's AP Students course page",
+   "licenseOrRights": "Linked only. © College Board. Nothing from it was copied here.",
+   "verified": "2026-11-16"
+  }
+ ]
+}

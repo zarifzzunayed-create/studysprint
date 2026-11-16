@@ -1,0 +1,1015 @@
+{
+ "courseId": "ap-computer-science-a",
+ "unitId": "u4",
+ "title": "Unit 4: Data Collections",
+ "topics": [
+  {
+   "id": "csa4-data",
+   "name": "Data sets, ethics, text files, and wrapper classes",
+   "covers": [
+    "Considering intellectual property and ethical concerns in programming",
+    "Considering ethical issues around data collections",
+    "Using data sets",
+    "Utilizing class libraries, including Integer and Double"
+   ],
+   "frameworkCovers": [
+    "4.1 Ethical and Social Issues Around Data Collection",
+    "4.2 Introduction to Using Data Sets",
+    "4.6 Using Text Files",
+    "4.7 Wrapper Classes"
+   ]
+  },
+  {
+   "id": "csa4-arrays",
+   "name": "Arrays",
+   "covers": [
+    "Representing multiple related items as array objects",
+    "Traversing an array by accessing the elements using iteration statements",
+    "Implementing standard algorithms that utilize array traversals to perform functions"
+   ],
+   "frameworkCovers": [
+    "4.3 Array Creation and Access",
+    "4.4 Array Traversals",
+    "4.5 Implementing Array Algorithms"
+   ]
+  },
+  {
+   "id": "csa4-arraylist",
+   "name": "ArrayList",
+   "covers": [
+    "Representing collections of related object reference data using ArrayList objects",
+    "Traversing an ArrayList by accessing the elements using iteration statements",
+    "Implementing standard algorithms that utilize ArrayList traversals to perform functions"
+   ],
+   "frameworkCovers": [
+    "4.8 ArrayList Methods",
+    "4.9 ArrayList Traversals",
+    "4.10 Implementing ArrayList Algorithms"
+   ]
+  },
+  {
+   "id": "csa4-2d",
+   "name": "2D arrays",
+   "covers": [
+    "Representing collections of data as arrays of arrays, or 2D arrays",
+    "Traversing a 2D array by accessing the elements using nested iteration statements"
+   ],
+   "frameworkCovers": [
+    "4.11 2D Array Creation and Access",
+    "4.12 2D Array Traversals",
+    "4.13 Implementing 2D Array Algorithms"
+   ]
+  },
+  {
+   "id": "csa4-algorithms",
+   "name": "Searching, sorting, and recursion",
+   "covers": [
+    "Searching and sorting using standard algorithms",
+    "Executing recursive methods",
+    "Searching and sorting using binary search and merge sort algorithms"
+   ],
+   "frameworkCovers": [
+    "4.14 Searching Algorithms",
+    "4.15 Sorting Algorithms",
+    "4.16 Recursion",
+    "4.17 Recursive Searching and Sorting"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 4: Data Collections: review guide",
+  "intro": "This is the largest unit on the exam. It covers storing many values in arrays, ArrayList objects, and 2D arrays; the standard algorithms that traverse them; reading data from text files; wrapper classes; searching, sorting, and recursion; and the ethical issues that come with collecting and using data. Two of the four free-response questions (ArrayList and 2D array) come from here.",
+  "sections": [
+   {
+    "id": "s-csa4-data",
+    "topicId": "csa4-data",
+    "title": "Data sets, ethics, text files, and wrapper classes",
+    "body": [
+     "Programs that collect data put personal privacy at risk, so programmers should safeguard it. Algorithmic bias is systematic, repeated error that produces unfair outcomes for a group of users; it can come from how a data set was collected. Data sets can be incomplete or inaccurate, and a data set gathered for one question may not be appropriate for answering another.",
+     "A file stores data that persists after a program ends. To read a text file, create a File from its name and pass it to a Scanner; the File and IOException classes need an import from java.io, and the method header must say throws IOException. Scanner methods include nextInt, nextDouble, nextBoolean, next, nextLine, hasNext (used as a while-loop condition), and close. String's split(del) returns an array of the pieces of a string around a delimiter.",
+     "Integer and Double are immutable wrapper classes for int and double. Autoboxing converts a primitive to its wrapper automatically (for example, when adding an int to an ArrayList<Integer>), and unboxing converts back. Integer.parseInt(s) and Double.parseDouble(s) convert strings to numbers."
+    ],
+    "points": [
+     "A data set answers only the questions it was collected to answer.",
+     "while (in.hasNext()) reads until the file has no more data."
+    ]
+   },
+   {
+    "id": "s-csa4-arrays",
+    "topicId": "csa4-arrays",
+    "title": "Arrays",
+    "body": [
+     "An array holds a fixed number of values of one type; its size is set when it is created and is given by its length attribute. new int[5] creates an array whose elements have default values (0, 0.0, false, or null); an initializer list such as {4, 8, 15} gives the values directly. Valid indices run from 0 to length - 1; any other index throws an ArrayIndexOutOfBoundsException.",
+     "A traversal visits the elements with a loop. An indexed for loop can read and change elements. An enhanced for loop gives a copy of each element in turn, so assigning to its variable does not change the array (though methods called on an object element do change that object). Standard algorithms: minimum or maximum, sum or average, whether at least one or all elements have a property, counting, consecutive pairs, duplicates, shifting or rotating elements, and reversing."
+    ],
+    "points": [
+     "for (int i = 0; i < arr.length; i++) visits every index.",
+     "Assigning to an enhanced for loop variable never changes the array."
+    ]
+   },
+   {
+    "id": "s-csa4-arraylist",
+    "topicId": "csa4-arraylist",
+    "title": "ArrayList",
+    "body": [
+     "An ArrayList<E> is a resizable list of object references; it needs import java.util.ArrayList. Methods: size(); add(obj), which appends; add(index, obj), which inserts and shifts later elements right; get(index); set(index, obj), which replaces an element and returns the old one; and remove(index), which removes an element, shifts later elements left, and returns the removed element. Indices run from 0 to size() - 1; others throw an IndexOutOfBoundsException.",
+     "Removing elements while traversing forward skips the element that slides into the removed position; traverse backward, or do not advance the index after a removal. Adding or removing during an enhanced for loop can throw a ConcurrentModificationException. The standard array algorithms also apply to lists, and some algorithms traverse two lists or arrays at once."
+    ],
+    "points": [
+     "Arrays use length and [i]; lists use size(), get(i), and set(i, x).",
+     "To remove while traversing, loop from the last index down to 0."
+    ]
+   },
+   {
+    "id": "s-csa4-2d",
+    "topicId": "csa4-2d",
+    "title": "2D arrays",
+    "body": [
+     "A 2D array is an array of arrays. arr[r][c] is the element in row r and column c; arr.length is the number of rows, and arr[0].length is the number of columns (only rectangular 2D arrays are used). arr[r] is the 1D array for row r. An initializer list such as {{1, 2, 3}, {4, 5, 6}} has one inner list per row.",
+     "Nested loops traverse a 2D array. Row-major order puts the row loop outside and visits each row left to right; column-major order puts the column loop outside. In a nested enhanced for loop, the outer variable is a row (a 1D array) and the inner variable is an element. The standard algorithms can be applied to the whole array or to a single row or column."
+    ],
+    "points": [
+     "Rows first: arr[row][col].",
+     "arr.length = rows; arr[0].length = columns."
+    ]
+   },
+   {
+    "id": "s-csa4-algorithms",
+    "topicId": "csa4-algorithms",
+    "title": "Searching, sorting, and recursion",
+    "body": [
+     "Linear search checks each element in order until the target is found or the elements run out; it works on unsorted data. Binary search requires sorted data: it checks the middle element and discards half of the remaining elements each time, so it is usually much faster. Selection sort repeatedly selects the smallest (or largest) element of the unsorted part and swaps it into its final position. Insertion sort takes the next unsorted element and inserts it into its place in the sorted part by shifting larger elements over. Merge sort divides the array into halves until each piece has one element and then merges the sorted pieces.",
+     "A recursive method calls itself. It needs a base case that stops the recursion and a recursive call that moves toward the base case; each call has its own parameters and local variables. To trace one, write out each call until the base case and then work back, combining the returned values. Recursion can traverse strings, arrays, and lists, and binary search and merge sort are often written recursively. Writing recursive code is outside the AP exam; tracing it is not."
+    ],
+    "points": [
+     "Binary search needs sorted data.",
+     "Trace recursion down to the base case, then back up."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "What does this code segment print?  ArrayList<Integer> list = new ArrayList<Integer>();  list.add(4); list.add(9); list.add(0, 7); list.remove(1);  System.out.println(list + \" \" + list.size());",
+   "solution": "After the first two adds the list is [4, 9]. add(0, 7) inserts 7 at the front: [7, 4, 9]. remove(1) removes the element at index 1, which is 4: [7, 9]. The output is [7, 9] 2."
+  },
+  "misconceptions": [
+   [
+    "“arr[arr.length] is the last element.”",
+    "The last element is arr[arr.length - 1]; arr[arr.length] throws an exception."
+   ],
+   [
+    "“An enhanced for loop can change the values stored in an array of ints.”",
+    "Its variable holds a copy of each element."
+   ],
+   [
+    "“Binary search works on any array.”",
+    "It works only when the data are sorted."
+   ],
+   [
+    "“In arr[2][5], 2 is the column.”",
+    "The first index is the row and the second is the column."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Computer Science A Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+  "sourceTitle": "AP Computer Science A – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-16"
+ },
+ "passages": [
+  {
+   "id": "csa4-c1",
+   "title": "Code segment",
+   "text": [
+    "// The file scores.txt contains three lines:",
+    "//     10",
+    "//     25",
+    "//     7",
+    "Scanner in = new Scanner(new File(\"scores.txt\"));",
+    "int total = 0;",
+    "while (in.hasNext()) {",
+    "    total += in.nextInt();",
+    "}",
+    "in.close();",
+    "System.out.println(total);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa4-c2",
+   "title": "Code segment",
+   "text": [
+    "int[] vals = {1, 2, 3};",
+    "for (int v : vals) {",
+    "    v = v * 2;",
+    "}",
+    "System.out.println(vals[0] + vals[1] + vals[2]);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa4-c3",
+   "title": "Code segment",
+   "text": [
+    "int[] a = {4, 8, 15};",
+    "for (int i = 0; i <= a.length; i++) {",
+    "    System.out.print(a[i] + \" \");",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa4-c4",
+   "title": "Code segment",
+   "text": [
+    "int[] arr = {3, 6, 9, 12};",
+    "int first = arr[0];",
+    "for (int i = 0; i < arr.length - 1; i++) {",
+    "    arr[i] = arr[i + 1];",
+    "}",
+    "arr[arr.length - 1] = first;",
+    "System.out.println(arr[0] + \" \" + arr[3]);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa4-c5",
+   "title": "Code segment",
+   "text": [
+    "ArrayList<String> list = new ArrayList<String>();",
+    "list.add(\"a\");",
+    "list.add(\"b\");",
+    "list.add(1, \"c\");",
+    "System.out.println(list);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa4-c6",
+   "title": "Code segment",
+   "text": [
+    "ArrayList<Integer> nums = new ArrayList<Integer>();",
+    "nums.add(5);",
+    "nums.add(10);",
+    "nums.add(15);",
+    "nums.set(1, 20);",
+    "nums.remove(0);",
+    "System.out.println(nums.get(0) + nums.size());"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa4-c7",
+   "title": "Code segment",
+   "text": [
+    "ArrayList<Integer> list = new ArrayList<Integer>();",
+    "list.add(2);",
+    "list.add(4);",
+    "list.add(4);",
+    "list.add(5);",
+    "for (int i = 0; i < list.size(); i++) {",
+    "    if (list.get(i) % 2 == 0) {",
+    "        list.remove(i);",
+    "    }",
+    "}",
+    "System.out.println(list);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa4-c8",
+   "title": "Code segment",
+   "text": [
+    "int[][] m = {{2, 4}, {6, 8}, {1, 3}};",
+    "int sum = 0;",
+    "for (int c = 0; c < m[0].length; c++) {",
+    "    sum += m[1][c];",
+    "}",
+    "System.out.println(sum);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa4-c9",
+   "title": "Code segment",
+   "text": [
+    "int[][] t = {{5, -1, 2}, {-3, 0, 7}};",
+    "int count = 0;",
+    "for (int[] row : t) {",
+    "    for (int v : row) {",
+    "        if (v > 0) {",
+    "            count++;",
+    "        }",
+    "    }",
+    "}",
+    "System.out.println(count);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa4-c10",
+   "title": "Code segment",
+   "text": [
+    "int[][] g = {{1, 2, 3}, {4, 5, 6}};",
+    "for (int c = 0; c < g[0].length; c++) {",
+    "    for (int r = 0; r < g.length; r++) {",
+    "        System.out.print(g[r][c]);",
+    "    }",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa4-c11",
+   "title": "Method mystery",
+   "text": [
+    "public static int mystery(int n) {",
+    "    if (n <= 1) {",
+    "        return 1;",
+    "    }",
+    "    return n + mystery(n - 2);",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  }
+ ],
+ "questions": [
+  {
+   "id": "csa-u4-q01",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-data",
+   "skill": "5.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A program that ranks job applicants was built from a company's past hiring decisions, and it consistently ranks applicants from one group lower than equally qualified applicants from other groups. This is an example of",
+   "choices": [
+    "a run-time error",
+    "data encapsulation",
+    "algorithmic bias",
+    "an open-source license"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Algorithmic bias is systematic, repeated error that produces unfair outcomes for a specific group of users, often because of the data used.",
+   "choiceExplanations": [
+    "A run-time error stops or interrupts a program; this program runs but treats a group unfairly.",
+    "Encapsulation is hiding a class's implementation details.",
+    "",
+    "A license governs how code may be reused; it is unrelated to unfair outcomes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u4-q02",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-data",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A data set contains the high temperature recorded in one city on each day of last July. Which question can this data set answer?",
+   "choices": [
+    "Which city in the country had the highest temperatures last July?",
+    "What is the average daily high temperature in that city over a year?",
+    "What was the average daily high temperature in that city last July?",
+    "How much will that city's temperatures rise in the next ten years?"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The data cover one city and one month, so they can answer questions about that city in that month.",
+   "choiceExplanations": [
+    "Data from one city cannot be used to compare cities.",
+    "One month of data cannot describe a whole year.",
+    "",
+    "A single month of past data cannot support a prediction about the next ten years."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u4-q03",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-data",
+   "skill": "3.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed by the statements  String s = \"42\";  int n = Integer.parseInt(s) + 8;  Double d = 2.5;  System.out.println(n + d);  ?",
+   "choices": [
+    "4282.5",
+    "52.5",
+    "50.5",
+    "52"
+   ],
+   "correctAnswer": 1,
+   "explanation": "parseInt converts \"42\" to the int 42, so n is 50. d is unboxed to 2.5, and 50 + 2.5 is 52.5.",
+   "choiceExplanations": [
+    "4282.5 would come from joining text, but parseInt makes 42 a number.",
+    "",
+    "50.5 leaves out the + 8; n is 50, and 50 + 2.5 is 52.5.",
+    "The sum of an int and a double is a double, 52.5."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u4-q04",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-data",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The code segment is in a method whose header includes throws IOException. What is printed when it is executed?",
+   "choices": [
+    "42",
+    "7",
+    "10",
+    "35"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The loop reads an int while the file has more data: 10 + 25 + 7 = 42.",
+   "choiceExplanations": [
+    "",
+    "7 is only the last value; total accumulates all three.",
+    "10 is only the first value; the loop continues while the file has more data.",
+    "35 leaves out the last value; hasNext is still true before the 7 is read."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa4-c1"
+  },
+  {
+   "id": "csa-u4-q05",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-arrays",
+   "skill": "2.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which statement correctly declares and creates an array that can hold 10 values of type double?",
+   "choices": [
+    "double vals = new double[10];",
+    "double[] vals = new double[10];",
+    "double[10] vals = new double[];",
+    "double[] vals = new double(10);"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The type of the variable is double[], and new double[10] creates an array of 10 elements.",
+   "choiceExplanations": [
+    "The variable must be declared as an array, double[], not as a single double.",
+    "",
+    "The size belongs in the new expression, not in the declared type.",
+    "Array sizes are given in square brackets, not parentheses."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u4-q06",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-arrays",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "246",
+    "12",
+    "123",
+    "6"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The enhanced for loop variable v holds a copy of each element, so doubling v does not change the array. The sum is 1 + 2 + 3 = 6.",
+   "choiceExplanations": [
+    "The elements are not doubled, and ints are added rather than joined.",
+    "12 would be the sum if the array elements had been doubled.",
+    "The three ints are added, not joined as text.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa4-c2"
+  },
+  {
+   "id": "csa-u4-q07",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-arrays",
+   "skill": "4.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What happens when the code segment is executed?",
+   "choices": [
+    "It prints 4 8 15 and then throws an ArrayIndexOutOfBoundsException.",
+    "It prints 4 8 15 and then ends normally without throwing any exception.",
+    "It throws an ArrayIndexOutOfBoundsException before printing.",
+    "It prints 4 8 and then ends normally without any exception."
+   ],
+   "correctAnswer": 0,
+   "explanation": "The condition i <= a.length lets i reach 3, but the valid indices are 0 to 2. The first three elements print, and a[3] throws the exception.",
+   "choiceExplanations": [
+    "",
+    "The loop runs once more with i equal to 3, which is not a valid index.",
+    "Indices 0, 1, and 2 are valid, so three values print first.",
+    "All three elements are printed before the invalid index is reached."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa4-c3"
+  },
+  {
+   "id": "csa-u4-q08",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-arrays",
+   "skill": "3.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "12 3",
+    "6 3",
+    "3 12",
+    "6 12"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Each element is replaced by the one after it, giving {6, 9, 12, 12}; then the saved first value, 3, is stored in the last position: {6, 9, 12, 3}.",
+   "choiceExplanations": [
+    "The elements shift left by one position; they are not reversed.",
+    "",
+    "3 12 is the original first and last elements; the loop shifts the elements left.",
+    "The last position is overwritten with the saved value 3."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa4-c4"
+  },
+  {
+   "id": "csa-u4-q09",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-arraylist",
+   "skill": "3.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "[c, a, b]",
+    "[a, b, c]",
+    "[a, c]",
+    "[a, c, b]"
+   ],
+   "correctAnswer": 3,
+   "explanation": "add(1, \"c\") inserts c at index 1 and shifts b to index 2.",
+   "choiceExplanations": [
+    "Index 1 is the second position, not the first.",
+    "add with one argument appends, but add(1, \"c\") inserts at index 1.",
+    "Inserting shifts b to the right; it does not replace it.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa4-c5"
+  },
+  {
+   "id": "csa-u4-q10",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-arraylist",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "22",
+    "17",
+    "12",
+    "23"
+   ],
+   "correctAnswer": 0,
+   "explanation": "set(1, 20) gives [5, 20, 15]; remove(0) gives [20, 15]. get(0) is 20 and size() is 2, so the sum is 22.",
+   "choiceExplanations": [
+    "",
+    "17 uses 15 as the first element, but 20 is at index 0 after the removal.",
+    "12 would result if set had not replaced 10 with 20.",
+    "23 uses a size of 3; remove reduces the size to 2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa4-c6"
+  },
+  {
+   "id": "csa-u4-q11",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-arraylist",
+   "skill": "3.D",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The code segment is intended to remove every even number from the list. What is printed when it is executed?",
+   "choices": [
+    "[4, 5]",
+    "[5]",
+    "[2, 4, 4, 5]",
+    "[4, 4, 5]"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Removing index 0 shifts the first 4 to index 0, but i moves on to 1, so that 4 is skipped. The second 4 (now at index 1) is removed, leaving [4, 5].",
+   "choiceExplanations": [
+    "",
+    "[5] is the intended result, but a forward traversal skips the element that slides into a removed position.",
+    "Two of the even numbers are removed.",
+    "The 4 at index 1 is also removed on the next iteration."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa4-c7"
+  },
+  {
+   "id": "csa-u4-q12",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-arraylist",
+   "skill": "2.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which loop removes every negative value from an ArrayList<Integer> named list without skipping any element?",
+   "choices": [
+    "for (int i = 0; i <= list.size(); i++) { if (list.get(i) < 0) { list.remove(i); } }",
+    "for (Integer x : list) { if (x < 0) { list.remove(x); } }",
+    "for (int i = list.size() - 1; i >= 0; i--) { if (list.get(i) < 0) { list.remove(i); } }",
+    "for (int i = 0; i < list.size(); i++) { if (list.get(i) < 0) { list.remove(i); } }"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Traversing from the last index down to 0 means a removal shifts only elements that have already been checked.",
+   "choiceExplanations": [
+    "i <= list.size() reaches an index that does not exist and throws an exception.",
+    "Changing the size of a list inside an enhanced for loop can throw a ConcurrentModificationException.",
+    "",
+    "Going forward, the element that slides into a removed position is skipped."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u4-q13",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-2d",
+   "skill": "3.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is printed by the statements  int[][] grid = {{1, 2, 3}, {4, 5, 6}};  System.out.println(grid[1][0] + grid.length + grid[0].length);  ?",
+   "choices": [
+    "10",
+    "7",
+    "8",
+    "9"
+   ],
+   "correctAnswer": 3,
+   "explanation": "grid[1][0] is 4 (row 1, column 0), grid.length is 2 rows, and grid[0].length is 3 columns: 4 + 2 + 3 = 9.",
+   "choiceExplanations": [
+    "10 counts 3 rows; there are 2 rows.",
+    "7 uses grid[0][1], which is 2; the first index is the row.",
+    "8 counts 2 columns; each row has 3 elements.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u4-q14",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-2d",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "24",
+    "14",
+    "6",
+    "9"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The loop adds every element of row 1: 6 + 8 = 14.",
+   "choiceExplanations": [
+    "24 is the sum of all six elements.",
+    "",
+    "6 is the sum of row 0 (2 + 4).",
+    "9 is the sum of column 0 (2 + 6 + 1); m[1][c] stays in row 1."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa4-c8"
+  },
+  {
+   "id": "csa-u4-q15",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-2d",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "2",
+    "4",
+    "6",
+    "3"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The nested enhanced for loops visit all six elements; 5, 2, and 7 are greater than 0.",
+   "choiceExplanations": [
+    "Both rows are traversed; row 0 has two positive values and row 1 has one.",
+    "0 is not greater than 0, so it is not counted.",
+    "6 is the number of elements, not the number of positive ones.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa4-c9"
+  },
+  {
+   "id": "csa-u4-q16",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-2d",
+   "skill": "3.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "456123",
+    "135246",
+    "142536",
+    "123456"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The column loop is the outer loop, so the array is traversed one column at a time, top to bottom: 1 4, then 2 5, then 3 6.",
+   "choiceExplanations": [
+    "The rows are not visited in reverse order.",
+    "Each column is printed from row 0 to row 1, not by skipping across a row.",
+    "",
+    "123456 is row-major order, with the row loop on the outside."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa4-c10"
+  },
+  {
+   "id": "csa-u4-q17",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-algorithms",
+   "skill": "4.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Binary search can be used to find a value in an array only if the array's elements",
+   "choices": [
+    "are all positive",
+    "number a power of 2",
+    "are in sorted order",
+    "are all different"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Binary search discards half of the remaining elements by comparing with the middle one, which is valid only when the data are sorted.",
+   "choiceExplanations": [
+    "The sign of the values does not matter.",
+    "Binary search works for an array of any length.",
+    "",
+    "Duplicates do not prevent binary search from working."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u4-q18",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-algorithms",
+   "skill": "4.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Selection sort is used to put the array {7, 3, 9, 1, 5} into increasing order by repeatedly swapping the smallest remaining element into place. What is the array after the first pass?",
+   "choices": [
+    "{1, 3, 9, 7, 5}",
+    "{3, 7, 9, 1, 5}",
+    "{1, 3, 5, 7, 9}",
+    "{1, 7, 3, 9, 5}"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The smallest element, 1, is swapped with the element in the first position, 7.",
+   "choiceExplanations": [
+    "",
+    "This is the result of the first step of insertion sort, which puts 3 in front of 7.",
+    "One pass places only the smallest element; the rest are not yet sorted.",
+    "Selection sort swaps two elements; it does not shift the others over."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u4-q19",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-algorithms",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What value is returned by the call mystery(7)?",
+   "choices": [
+    "28",
+    "12",
+    "15",
+    "16"
+   ],
+   "correctAnswer": 3,
+   "explanation": "mystery(7) = 7 + mystery(5) = 7 + 5 + mystery(3) = 7 + 5 + 3 + mystery(1), and mystery(1) returns 1: 16.",
+   "choiceExplanations": [
+    "28 adds every integer from 7 down to 1, but the parameter decreases by 2.",
+    "12 stops one call early, at 7 + 5.",
+    "15 leaves out the base case's return value of 1.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa4-c11"
+  },
+  {
+   "id": "csa-u4-q20",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u4",
+   "topicId": "csa4-algorithms",
+   "skill": "4.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which description matches the merge sort algorithm?",
+   "choices": [
+    "Compare the target with the middle element and discard half of the remaining elements each time.",
+    "Divide the array in half until each piece has one element, then merge the pieces in sorted order.",
+    "Take each element in turn and insert it into its place among the elements before it.",
+    "Repeatedly find the smallest remaining element and swap it into its final position."
+   ],
+   "correctAnswer": 1,
+   "explanation": "Merge sort is a recursive divide-and-merge algorithm.",
+   "choiceExplanations": [
+    "That describes binary search, which finds a value rather than sorting.",
+    "",
+    "That describes insertion sort.",
+    "That describes selection sort."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. The four AP Computer Science A free-response questions (methods and control structures, class design, data analysis with ArrayList, and 2D array) each draw on several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "csa-u4-q01",
+    "csa-u4-q02",
+    "csa-u4-q05",
+    "csa-u4-q06",
+    "csa-u4-q10",
+    "csa-u4-q11",
+    "csa-u4-q14",
+    "csa-u4-q19"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "csa-u4-q03",
+    "csa-u4-q04",
+    "csa-u4-q07",
+    "csa-u4-q08",
+    "csa-u4-q09",
+    "csa-u4-q12",
+    "csa-u4-q13",
+    "csa-u4-q17"
+   ]
+  }
+ ]
+}

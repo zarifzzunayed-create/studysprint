@@ -1,6 +1,6 @@
 Command: python3 tools/build.py && node tests/run-all.js
-Run: 2026-11-16T02:10:14Z, Node v22.22.0, Playwright 1.56.1, Chromium headless
-Build stamp: c68fb719e1
+Run: 2026-11-16T02:37:14Z, Node v22.22.0, Playwright 1.56.1, Chromium headless
+Build stamp: aa7f65c6eb
 
 t1_catalog    34 passed 
 t2_learn      21 passed 
@@ -13,6 +13,6 @@ t8_resume     37 passed
 t9_backup     42 passed 
 t10_a11y      17 passed 
 t11_merge     23 passed 
-t12_tests     53 passed 
-t13_passages  26 passed 
-Total: 316 passed, 0 failed
+t12_tests     54 passed 
+t13_passages  31 passed 
+Total: 322 passed, 0 failed

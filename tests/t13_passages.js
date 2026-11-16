@@ -159,12 +159,47 @@ const titleOf = id => d.passages.find(p => p.id === id).title;
     'a U.S. Government poll shows a bar chart that is one labelled image, with the same percentages still listed as text');
   T.ok(figs[1].role === 'img' && /LRAS/.test(figs[1].label) && figs[1].lines === 3 && figs[1].dashed === 2 && /real GDP of \$500 billion/.test(figs[1].text) && /^Hypothetical data/.test(figUnits[1].unit.passages.find(x => x.id === 'mac3-g1').attribution),
     'a Macroeconomics graph draws each curve with its own line pattern, has a text alternative, and is labelled hypothetical');
+  /* ---- a code listing keeps its line breaks and indentation, and the same stem may be asked about different listings ---- */
+  const cd = JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', 'ap-computer-science-a', 'u4.json')));
+  const cIds = cd.tests[0].questionIds.map(id => cd.questions.find(q => q.id === id));
+  const cWant = cIds.filter(q => q.passageId).map(q => cd.passages.find(x => x.id === q.passageId).text.join('\n')).sort();
+  await T.openUnit(p, 'AP Computer Science A', 'u4');
+  await p.locator('#v-overview .test-cards > li').nth(0).locator('button:has-text("Start untimed")').click();
+  await p.waitForSelector('#v-test form legend');
+  const cSeen = [];
+  for (let i = 0; i < 8; i++) {
+    await p.waitForFunction(n => new RegExp('Question ' + n + ' of 8').test((document.querySelector('#v-test .test-status') || {}).textContent || ''), i + 1);
+    cSeen.push(await p.evaluate(() => {
+      const pre = document.querySelector('#v-test .passage pre.code'), src = document.querySelector('#v-test .passage .passage-src');
+      return pre ? { code: pre.textContent, ws: getComputedStyle(pre).whiteSpace, font: getComputedStyle(pre).fontFamily, tab: pre.tabIndex, label: pre.getAttribute('aria-label'), paras: document.querySelectorAll('#v-test .passage p:not(.passage-src):not(.why)').length, src: src && src.textContent } : null;
+    }));
+    if (i < 7) await p.click('#v-test .test-nav button.button-primary');
+  }
+  await p.click('#v-test button:has-text("Save and exit")');
+  const cCode = cSeen.filter(Boolean);
+  T.ok(cWant.length >= 4 && JSON.stringify(cCode.map(x => x.code).sort()) === JSON.stringify(cWant) && cCode.some(x => /\n {4}\S/.test(x.code)) &&
+    cCode.every(x => /^pre/.test(x.ws) && /mono/i.test(x.font) && x.tab === 0 && x.label === 'Code listing' && x.paras === 0 && /Original Java code written for StudySprint/.test(x.src)),
+    'Computer Science A tests show each code listing as preformatted, keyboard-scrollable code labelled as original (' + cCode.length + ' listings in test 1)');
+  const ph = await T.fresh(b, { vp: { width: 380, height: 800 } });
+  await T.openUnit(ph, 'AP Computer Science A', 'u3');
+  await ph.locator('#v-overview .test-cards > li').nth(0).locator('button:has-text("Start untimed")').click();
+  await ph.waitForSelector('#v-test form legend');
+  let phone = null;
+  for (let i = 0; i < 8 && !phone; i++) {
+    await ph.waitForFunction(n => new RegExp('Question ' + n + ' of 8').test((document.querySelector('#v-test .test-status') || {}).textContent || ''), i + 1);
+    phone = await ph.evaluate(() => { const pre = document.querySelector('#v-test .passage pre.code'); return pre && pre.scrollWidth > pre.clientWidth ? { page: document.documentElement.scrollWidth, win: innerWidth } : null; });
+    if (!phone && i < 7) await ph.click('#v-test .test-nav button.button-primary');
+  }
+  T.ok(phone && phone.page <= phone.win, 'on a phone-width screen a wide code listing scrolls inside its own box and the page does not scroll sideways');
+  await ph.context().close();
+  const stem = 'What is printed when the code segment is executed?', sameStem = cd.questions.filter(q => q.prompt === stem);
+  T.ok(sameStem.length >= 2 && sameStem.every(q => q.passageId) && new Set(sameStem.map(q => q.passageId)).size === sameStem.length, 'a repeated stem is always attached to a different code listing');
   T.ok(!p.errs.length, 'no page errors' + (p.errs.length ? ': ' + p.errs.join(' | ') : ''));
 
   /* ---- answer length gives nothing away in the passage-based banks ---- */
   for (const [cid, label] of [['ap-english-language-and-composition', 'English Language'], ['ap-united-states-history', 'U.S. History'],
                               ['ap-english-literature-and-composition', 'English Literature'], ['ap-world-history', 'World History'],
-                              ['ap-united-states-government-and-politics', 'U.S. Government'], ['ap-psychology', 'Psychology'], ['ap-macroeconomics', 'Macroeconomics'], ['ap-microeconomics', 'Microeconomics']]) {
+                              ['ap-united-states-government-and-politics', 'U.S. Government'], ['ap-psychology', 'Psychology'], ['ap-macroeconomics', 'Macroeconomics'], ['ap-microeconomics', 'Microeconomics'], ['ap-computer-science-a', 'Computer Science A']]) {
     let n = 0, longest = 0;
     for (const f of fs.readdirSync(path.join(T.ROOT, 'data', 'courses', cid)).filter(x => /^u\d+\.json$/.test(x))) {
       for (const q of JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', cid, f))).questions) {
@@ -191,6 +226,15 @@ const titleOf = id => d.passages.find(p => p.id === id).title;
   fs.writeFileSync(f2, JSON.stringify(bad2));
   const out2 = spawnSync('python3', [path.join(tmp, 'tools', 'build.py')], { encoding: 'utf8' });
   T.ok(out2.status !== 0 && /figure needs an 'alt' text alternative/.test(out2.stdout), 'the build rejects a chart that has no text alternative');
+  fs.writeFileSync(f2, fs.readFileSync(path.join(T.ROOT, 'data', 'courses', 'ap-macroeconomics', 'u3.json')));
+  const f3 = path.join(tmp, 'data', 'courses', 'ap-computer-science-a', 'u4.json'), bad3 = JSON.parse(fs.readFileSync(f3));
+  const twin = bad3.questions.filter(q => q.prompt === 'What is printed when the code segment is executed?');
+  twin[1].passageId = twin[0].passageId;
+  bad3.passages[0].format = 'html';
+  fs.writeFileSync(f3, JSON.stringify(bad3));
+  const out3 = spawnSync('python3', [path.join(tmp, 'tools', 'build.py')], { encoding: 'utf8' });
+  T.ok(out3.status !== 0 && new RegExp(twin[1].id + ': duplicate prompt').test(out3.stdout) && /passage format, if given, must be 'code'/.test(out3.stdout),
+    'the build rejects the same stem asked twice about one stimulus, and an unknown passage format');
   fs.rmSync(tmp, { recursive: true, force: true });
 
   console.log(T.summary()); await b.close();

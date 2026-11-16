@@ -171,7 +171,7 @@
           const q = byId(id), b = SS.btn("Question " + (i + 1) + ": " + (answered(q) ? "answered" : "not answered") + (isMarked(id) ? " · marked for review" : ""), "button-secondary", () => drawQuestion(i));
           return h("li", null, b);
         })),
-        un.length ? h("p", "notice", "Unanswered questions are scored as incorrect. They are not saved as attempts, so you can still answer them for the first time later.") : null,
+        un.length ? h("p", "notice", "Unanswered questions are scored as incorrect. They are not saved as attempts, so you can still answer them for the first time later.") : "",
         h("div", "button-row", submitBtn, SS.btn("Back to questions", "button-secondary", () => drawQuestion(T.idx))),
         confirmBox);
       update(); save();

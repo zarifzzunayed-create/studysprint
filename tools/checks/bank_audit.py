@@ -51,7 +51,7 @@ def main():
                     hard.append((cid, uid, p["id"], "interpretation is wrapped in quotation marks"))
             Q = {q["id"]: q for q in d["questions"]}
             for q in d["questions"]:
-                total += 1; n += 1; prompts[q["prompt"]] += 1
+                total += 1; n += 1; prompts[(q["prompt"], q.get("passageId"))] += 1
                 blob = json.dumps(q, ensure_ascii=False)
                 if PLACEHOLDER.search(blob): hard.append((cid, uid, q["id"], "placeholder text"))
                 if q["type"] != "multiple-choice": continue
@@ -102,7 +102,7 @@ def main():
                     run = run + 1 if a == b else 1; best = max(best, run)
                 if best >= 4: runs.append("%s/%s run of %d" % (uid, t["id"], best))
         for p, c in prompts.items():
-            if c > 1: review.append((cid, "-", "-", "same stem used %d times in the course: %s" % (c, p[:70])))
+            if c > 1: review.append((cid, "-", "-", "same stem used %d times on the same stimulus in the course: %s" % (c, p[0][:70])))
         if n:
             mc = sum(pos.values())
             stats.append((cid, n, lon, sho, "/".join(str(pos[i]) for i in range(4)), "%d/%d" % (absk, mc), "%d/%d" % (absd, nd), "; ".join(runs) or "-"))

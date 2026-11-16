@@ -1,0 +1,854 @@
+{
+ "courseId": "ap-computer-science-a",
+ "unitId": "u3",
+ "title": "Unit 3: Class Creation",
+ "topics": [
+  {
+   "id": "csa3-design",
+   "name": "Abstraction, program design, and impact",
+   "covers": [
+    "Breaking problems into smaller parts by creating methods to solve individual subproblems"
+   ],
+   "frameworkCovers": [
+    "3.1 Abstraction and Program Design",
+    "3.2 Impact of Program Design"
+   ]
+  },
+  {
+   "id": "csa3-class",
+   "name": "Anatomy of a class and constructors",
+   "covers": [
+    "Designing a class, including whether attributes are public or private",
+    "Setting an object’s attributes using constructors"
+   ],
+   "frameworkCovers": [
+    "3.3 Anatomy of a Class",
+    "3.4 Constructors"
+   ]
+  },
+  {
+   "id": "csa3-methods",
+   "name": "Writing methods and passing references",
+   "covers": [
+    "Defining behaviors of an object using non-void, void, and static methods"
+   ],
+   "frameworkCovers": [
+    "3.5 Methods: How to Write Them",
+    "3.6 Methods: Passing and Returning References of an Object"
+   ]
+  },
+  {
+   "id": "csa3-static",
+   "name": "Class variables and methods, scope, and this",
+   "covers": [
+    "Defining behaviors of an object using non-void, void, and static methods"
+   ],
+   "frameworkCovers": [
+    "3.7 Class Variables and Methods",
+    "3.8 Scope and Access",
+    "3.9 this Keyword"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 3: Class Creation: review guide",
+  "intro": "This unit is about writing your own classes: choosing attributes and behaviors, keeping data private, writing constructors and methods, and understanding static members, scope, and the keyword this. The Class Design free-response question comes from this unit, so practice reading a class and predicting what its objects do.",
+  "sections": [
+   {
+    "id": "s-csa3-design",
+    "topicId": "csa3-design",
+    "title": "Abstraction, program design, and impact",
+    "body": [
+     "Abstraction reduces complexity by hiding details. Data abstraction gives data a name without exposing how it is represented; an attribute is data defined in a class, either an instance variable (one copy per object) or a class variable (one copy shared by all objects). Procedural abstraction lets a programmer use a method knowing what it does, not how; a method's internals can be changed without affecting callers as long as its signature and behavior stay the same. Breaking a large task into smaller methods is method decomposition, and parameters let a method be reused with different values. Design a class's attributes and behaviors before writing it.",
+     "Programs should be tested under many conditions so that they are reliable. Programs affect society, the economy, and culture, sometimes with unintended harmful effects. Code published as open source may be reused under its license; other code requires the owner's permission, often through a purchased license, and the source should be acknowledged."
+    ],
+    "points": [
+     "Attributes are data (variables); behaviors are actions (methods).",
+     "Callers depend on a method's signature and behavior, not its implementation."
+    ]
+   },
+   {
+    "id": "s-csa3-class",
+    "topicId": "csa3-class",
+    "title": "Anatomy of a class and constructors",
+    "body": [
+     "Encapsulation keeps a class's implementation details hidden. In this course classes and constructors are public, instance variables are private unless stated otherwise, and methods may be public (usable anywhere) or private (usable only inside the class). Code outside the class cannot read or change a private instance variable directly.",
+     "An object's state is the current values of its instance variables. A constructor sets the initial state and has the same name as the class and no return type. If a class has no constructor, Java supplies a default constructor with no parameters, and instance variables get default values: 0 for int, 0.0 for double, false for boolean, and null for reference types. When a constructor parameter is a mutable object, store a copy so that later changes to the original do not affect the new object."
+    ],
+    "points": [
+     "new ClassName(arguments) calls the constructor whose parameters match.",
+     "Defaults: int 0, double 0.0, boolean false, references null."
+    ]
+   },
+   {
+    "id": "s-csa3-methods",
+    "topicId": "csa3-methods",
+    "title": "Writing methods and passing references",
+    "body": [
+     "A void method returns nothing; a non-void method declares a return type and returns one value of that type. A return statement ends the method immediately, even inside a loop or if statement, and code after it does not run. An accessor returns information about an object without changing it; a mutator changes instance variables and is often void.",
+     "Arguments are passed by value. For a primitive, the parameter is a copy, so changing it does not affect the caller's variable. For an object, the parameter is a copy of the reference, so the method can change that object's state through its methods, but assigning a new object to the parameter does not affect the caller's variable. A method can use the private data of another object only if that object is of the same class."
+    ],
+    "points": [
+     "Changing a primitive parameter never changes the argument.",
+     "Calling a mutator through a reference parameter changes the caller's object."
+    ]
+   },
+   {
+    "id": "s-csa3-static",
+    "topicId": "csa3-static",
+    "title": "Class variables and methods, scope, and this",
+    "body": [
+     "A class (static) variable belongs to the class, and all objects share one copy. A static method is called with the class name; it can use class variables and other static methods, but it cannot use instance variables or instance methods unless it is given an object, and it has no this reference. A variable declared final cannot be assigned a new value.",
+     "A local variable, including a parameter, exists only in the block where it is declared. If a local variable or parameter has the same name as an instance variable, the name refers to the local one, so name = name; in a constructor leaves the instance variable unchanged. Inside an instance method or constructor, this refers to the current object, so this.name = name; assigns the parameter to the instance variable; this can also be passed as an argument."
+    ],
+    "points": [
+     "One static variable is shared by every object of the class.",
+     "With a parameter called name, write this.name = name."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A class Timer has a private int instance variable seconds and the method  public void add(int s) { seconds += s; }.  A static method  reset(Timer t, int s)  executes  t.add(s); s = 0;.  After  Timer t1 = new Timer(); int n = 30; reset(t1, n);  what are t1's seconds and n?",
+   "solution": "t and t1 refer to the same Timer object, so t.add(s) raises its seconds from the default 0 to 30. The parameter s is a copy of n, so setting s to 0 does not change n. Result: seconds is 30 and n is still 30."
+  },
+  "misconceptions": [
+   [
+    "“A method can change an int variable passed to it.”",
+    "The parameter is a copy; the caller's variable keeps its value."
+   ],
+   [
+    "“Each object has its own copy of a static variable.”",
+    "All objects of the class share one copy."
+   ],
+   [
+    "“Private instance variables can be used anywhere through an object.”",
+    "They can be used only inside the class that declares them."
+   ],
+   [
+    "“Code after a return statement still runs.”",
+    "return ends the method at once."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Computer Science A Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+  "sourceTitle": "AP Computer Science A – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-16"
+ },
+ "passages": [
+  {
+   "id": "csa3-c1",
+   "title": "Class Account",
+   "text": [
+    "public class Account {",
+    "    private String owner;",
+    "    private double balance;",
+    "    public Account(String name, double start) {",
+    "        owner = name;",
+    "        balance = start;",
+    "    }",
+    "    public double getBalance() {",
+    "        return balance;",
+    "    }",
+    "    public void deposit(double amount) {",
+    "        balance += amount;",
+    "    }",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa3-c2",
+   "title": "Class Point",
+   "text": [
+    "public class Point {",
+    "    private int x;",
+    "    private double y;",
+    "    private String label;",
+    "    public String toString() {",
+    "        return x + \" \" + y + \" \" + label;",
+    "    }",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa3-c3",
+   "title": "Class Box and a code segment",
+   "text": [
+    "public class Box {",
+    "    private int size;",
+    "    public Box(int s) {",
+    "        size = s;",
+    "    }",
+    "    public int getSize() {",
+    "        return size;",
+    "    }",
+    "    public void grow(int n) {",
+    "        size += n;",
+    "    }",
+    "}",
+    "// In another class:",
+    "public static void change(Box b, int n) {",
+    "    b.grow(n);",
+    "    n = 0;",
+    "}",
+    "// Code segment:",
+    "Box box = new Box(5);",
+    "int k = 3;",
+    "change(box, k);",
+    "System.out.println(box.getSize() + \" \" + k);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa3-c4",
+   "title": "Method mystery",
+   "text": [
+    "public static int mystery(int n) {",
+    "    for (int i = 2; i < n; i++) {",
+    "        if (n % i == 0) {",
+    "            return i;",
+    "        }",
+    "    }",
+    "    return n;",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa3-c5",
+   "title": "Class Ticket and a code segment",
+   "text": [
+    "public class Ticket {",
+    "    private static int count = 0;",
+    "    private int number;",
+    "    public Ticket() {",
+    "        count++;",
+    "        number = count;",
+    "    }",
+    "    public int getNumber() {",
+    "        return number;",
+    "    }",
+    "    public static int getCount() {",
+    "        return count;",
+    "    }",
+    "}",
+    "// Code segment:",
+    "Ticket a = new Ticket();",
+    "Ticket b = new Ticket();",
+    "Ticket c = new Ticket();",
+    "System.out.println(a.getNumber() + \" \" + c.getNumber() + \" \" + Ticket.getCount());"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa3-c6",
+   "title": "Class Dog and a code segment",
+   "text": [
+    "public class Dog {",
+    "    private String name;",
+    "    public Dog(String name) {",
+    "        name = name;",
+    "    }",
+    "    public String getName() {",
+    "        return name;",
+    "    }",
+    "}",
+    "// Code segment:",
+    "Dog d = new Dog(\"Rex\");",
+    "System.out.println(d.getName());"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa3-c7",
+   "title": "Class Lamp",
+   "text": [
+    "public class Lamp {",
+    "    private boolean on;",
+    "    public static void flip() {",
+    "        on = !on;",
+    "    }",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  }
+ ],
+ "questions": [
+  {
+   "id": "csa-u3-q01",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-design",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A programmer is designing a class Book for a library program. Which of the following is best represented as an attribute (instance variable) of Book rather than as a method?",
+   "choices": [
+    "Printing the details of the book",
+    "The number of pages in the book",
+    "Checking the book out to a member",
+    "Calculating a late fee for the book"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Attributes store data about an object, such as its page count; behaviors (actions) are written as methods.",
+   "choiceExplanations": [
+    "Printing is an action, so it is a method.",
+    "",
+    "Checking out is an action, so it is a behavior written as a method.",
+    "Calculating a fee is an action that uses data, so it is a method."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u3-q02",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-design",
+   "skill": "1.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A programmer rewrites the body of a method to make it run faster. The method's signature and what it returns for every input are unchanged. What must programmers who call this method do?",
+   "choices": [
+    "Recompile only if the method's local variables were given new names.",
+    "Nothing: callers rely on what the method does, not on how it does it.",
+    "Rewrite every call, because the method's internal statements changed.",
+    "Add a cast to every call, because the return value may be a new type."
+   ],
+   "correctAnswer": 1,
+   "explanation": "Procedural abstraction lets the internals of a method change without affecting callers, as long as the signature and behavior are preserved.",
+   "choiceExplanations": [
+    "Local variable names are invisible to callers.",
+    "",
+    "Calls depend on the signature and behavior, which did not change.",
+    "The return type is part of what stayed the same."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u3-q03",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-design",
+   "skill": "5.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A navigation app that was designed to shorten commutes begins sending heavy traffic through quiet residential streets. This is an example of",
+   "choices": [
+    "an unintended harmful effect of a program beyond its intended use",
+    "a syntax error that the compiler failed to detect in the program",
+    "a precondition that the users of the program failed to satisfy",
+    "a violation of the license under which open-source code is shared"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Programs written to solve one problem can have effects on society that their designers did not intend.",
+   "choiceExplanations": [
+    "",
+    "The program works as written; the problem is its effect on neighborhoods, not its syntax.",
+    "The app behaves as designed; no method precondition is involved.",
+    "Nothing in the situation involves reusing other people's code."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u3-q04",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-design",
+   "skill": "5.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A programmer wants to include code from a library that is not open source in a product that will be sold. What should the programmer do?",
+   "choices": [
+    "Use it as long as fewer than 100 lines of the code are copied",
+    "Use it freely, because code found online is in the public domain",
+    "Rename its variables so that the code counts as original work",
+    "Obtain the owner's permission, which may require a license"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Code that is not published as open source belongs to its owner; using it requires permission, often through a purchased license.",
+   "choiceExplanations": [
+    "There is no line-count rule that makes copying permitted.",
+    "Being available online does not put code in the public domain.",
+    "Renaming variables does not change who owns the code.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u3-q05",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-class",
+   "skill": "2.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which statement, written in another class, correctly creates an Account object for the owner Ana with a starting balance of 50.0?",
+   "choices": [
+    "Account a = new Account(\"Ana\", 50.0);",
+    "Account a = Account(\"Ana\", 50.0);",
+    "Account a = new Account();",
+    "Account a = new Account(50.0, \"Ana\");"
+   ],
+   "correctAnswer": 0,
+   "explanation": "An object is created with new and a constructor call whose arguments match the parameter list: a String and then a double.",
+   "choiceExplanations": [
+    "",
+    "The keyword new is required to create an object.",
+    "Account has no constructor without parameters, because one with parameters was written.",
+    "The arguments are in the wrong order for the parameters (String, double)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa3-c1"
+  },
+  {
+   "id": "csa-u3-q06",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-class",
+   "skill": "3.D",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An Account object a has been created in another class. Why does the statement  System.out.println(a.balance);  in that other class fail to compile?",
+   "choices": [
+    "balance is private, so it can be used only inside the Account class.",
+    "balance is a double, and println cannot display values of type double.",
+    "balance can be read only by calling the deposit method of the class.",
+    "balance was never given a value by the constructor of the class."
+   ],
+   "correctAnswer": 0,
+   "explanation": "private restricts access to the declaring class. Other classes must use a public method such as getBalance().",
+   "choiceExplanations": [
+    "",
+    "println can display a double.",
+    "deposit changes the balance; getBalance is the method that returns it.",
+    "The constructor assigns start to balance."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa3-c1"
+  },
+  {
+   "id": "csa-u3-q07",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-class",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The class Point has no constructor. What is printed by the statement  System.out.println(new Point());  ?",
+   "choices": [
+    "0 0 null",
+    "0 0.0 null",
+    "0 0.0",
+    "null null null"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Java supplies a default constructor and gives instance variables default values: 0 for int, 0.0 for double, and null for a reference type such as String.",
+   "choiceExplanations": [
+    "The default value of a double is 0.0, not 0.",
+    "",
+    "A String instance variable defaults to null, which is printed as null.",
+    "Only reference types default to null; int and double default to 0 and 0.0."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa3-c2"
+  },
+  {
+   "id": "csa-u3-q08",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-class",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Why are the instance variables of a class usually declared private?",
+   "choices": [
+    "So that the variables can be used without creating an object",
+    "So that code outside the class cannot change the data directly",
+    "So that the variables keep their values after the program ends",
+    "So that each object of the class shares one copy of the variables"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Keeping data private (encapsulation) means other classes must go through the class's public methods, which control how the data changes.",
+   "choiceExplanations": [
+    "Using a variable without an object describes a static variable.",
+    "",
+    "Data that persists after a program ends is stored in a file.",
+    "Sharing one copy among all objects is what static does."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u3-q09",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-methods",
+   "skill": "3.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed by the statements  Account a = new Account(\"Ana\", 50.0);  a.deposit(25.0);  a.deposit(10.0);  System.out.println(a.getBalance());  ?",
+   "choices": [
+    "60.0",
+    "50.0",
+    "85.0",
+    "75.0"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The constructor sets balance to 50.0, and the two deposits add 25.0 and 10.0: 85.0.",
+   "choiceExplanations": [
+    "60.0 leaves out the first deposit.",
+    "50.0 is the starting balance; deposit changes the object's balance.",
+    "",
+    "75.0 leaves out the second deposit."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa3-c1"
+  },
+  {
+   "id": "csa-u3-q10",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-methods",
+   "skill": "4.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In the class Account, the method getBalance is best described as",
+   "choices": [
+    "a constructor",
+    "a static method",
+    "a mutator method",
+    "an accessor method"
+   ],
+   "correctAnswer": 3,
+   "explanation": "getBalance returns the value of an instance variable without changing the object, which is what an accessor does.",
+   "choiceExplanations": [
+    "A constructor has the same name as the class and no return type.",
+    "getBalance is called on an object and has no static keyword.",
+    "A mutator changes an instance variable, as deposit does.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa3-c1"
+  },
+  {
+   "id": "csa-u3-q11",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-methods",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "8 3",
+    "5 0",
+    "5 3",
+    "8 0"
+   ],
+   "correctAnswer": 0,
+   "explanation": "b refers to the same Box as box, so grow(3) changes its size to 8. The parameter n is a copy of k, so setting n to 0 leaves k as 3.",
+   "choiceExplanations": [
+    "",
+    "The Box is changed through the reference, and k is not changed.",
+    "change receives a copy of the reference, so b.grow(n) does change the Box that box refers to.",
+    "k is a primitive passed by value, so assigning 0 to n does not change it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa3-c3"
+  },
+  {
+   "id": "csa-u3-q12",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-methods",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is printed by the statement  System.out.println(mystery(35) + \" \" + mystery(13));  ?",
+   "choices": [
+    "35 13",
+    "7 13",
+    "5 13",
+    "5 1"
+   ],
+   "correctAnswer": 2,
+   "explanation": "mystery returns the smallest divisor of n that is at least 2. For 35 the loop returns at i = 5. For 13 no i from 2 to 12 divides it, so the method returns n, 13.",
+   "choiceExplanations": [
+    "return i ends the method as soon as a divisor is found, so 35 is not returned.",
+    "The loop returns at the first divisor it finds, 5, before reaching 7.",
+    "",
+    "When no divisor is found, the final statement returns n, not 1."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa3-c4"
+  },
+  {
+   "id": "csa-u3-q13",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-static",
+   "skill": "3.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "1 1 1",
+    "3 3 3",
+    "1 3 1",
+    "1 3 3"
+   ],
+   "correctAnswer": 3,
+   "explanation": "count is static, so all Ticket objects share it. Each constructor call adds 1 and stores the new count in that object's own number: 1, 2, and 3.",
+   "choiceExplanations": [
+    "count is shared, so it keeps increasing with each new Ticket.",
+    "number is an instance variable, so a keeps the value 1 it was given.",
+    "getCount returns the shared count, which is 3 after three objects are created.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa3-c5"
+  },
+  {
+   "id": "csa-u3-q14",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-static",
+   "skill": "3.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "Rex",
+    "Nothing: a NullPointerException is thrown",
+    "null",
+    "name"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Inside the constructor, name refers to the parameter, so name = name; assigns the parameter to itself. The instance variable keeps its default value, null.",
+   "choiceExplanations": [
+    "The instance variable was never assigned; this.name = name; would be needed.",
+    "Printing a null reference displays null; no method is called on it.",
+    "",
+    "name is a variable, not the text \"name\"."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa3-c6"
+  },
+  {
+   "id": "csa-u3-q15",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-static",
+   "skill": "4.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Within an instance method, the keyword this refers to",
+   "choices": [
+    "the object on which the method was called",
+    "the class in which the method is defined",
+    "the method that is currently being executed",
+    "the first parameter in the method's header"
+   ],
+   "correctAnswer": 0,
+   "explanation": "this holds a reference to the current object.",
+   "choiceExplanations": [
+    "",
+    "this refers to one object, not to the class as a whole.",
+    "this is a reference to an object, not to a method.",
+    "this is not a parameter in the header; it is available automatically."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u3-q16",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-static",
+   "skill": "3.D",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why does the class Lamp fail to compile?",
+   "choices": [
+    "A void method is required to end with a return statement.",
+    "The variable on must be given a value where it is declared.",
+    "A static method cannot use the instance variable on without an object.",
+    "A boolean variable cannot be reversed by using the ! operator in a method."
+   ],
+   "correctAnswer": 2,
+   "explanation": "flip is static, so it is not called on any particular Lamp and has no object whose on variable it could use.",
+   "choiceExplanations": [
+    "A void method does not need a return statement.",
+    "Instance variables get default values, so no initial value is required.",
+    "",
+    "on = !on; is a valid way to reverse a boolean."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa3-c7"
+  },
+  {
+   "id": "csa-u3-q17",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u3",
+   "topicId": "csa3-static",
+   "skill": "4.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A variable is declared with the keyword final. What does this mean?",
+   "choices": [
+    "It is shared by all of the objects of its class.",
+    "It can be used only inside of the class that declares it.",
+    "It is removed from memory when the method ends.",
+    "Its value cannot be changed after it has been assigned."
+   ],
+   "correctAnswer": 3,
+   "explanation": "final makes a variable a constant: once it has a value, it cannot be assigned another.",
+   "choiceExplanations": [
+    "Sharing among all objects is what static means.",
+    "Restricting use to the declaring class is what private means.",
+    "Being discarded when a method ends describes a local variable.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. The four AP Computer Science A free-response questions (methods and control structures, class design, data analysis with ArrayList, and 2D array) each draw on several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "csa-u3-q01",
+    "csa-u3-q02",
+    "csa-u3-q05",
+    "csa-u3-q06",
+    "csa-u3-q10",
+    "csa-u3-q11",
+    "csa-u3-q13",
+    "csa-u3-q15"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "csa-u3-q03",
+    "csa-u3-q04",
+    "csa-u3-q07",
+    "csa-u3-q08",
+    "csa-u3-q09",
+    "csa-u3-q12",
+    "csa-u3-q14",
+    "csa-u3-q17"
+   ]
+  }
+ ]
+}

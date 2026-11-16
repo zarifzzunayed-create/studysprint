@@ -202,7 +202,7 @@ fieldset[aria-invalid="true"]{padding:.5rem;border-radius:10px}
 .test-cards .card{border-width:2px;border-color:var(--brand)}
 .test-cards h4{margin:0 0 .4rem;font-size:1.15rem}
 .test-shell{display:grid;gap:.75rem}
-.test-shell>*{margin-bottom:0}
+.test-shell>*{margin-bottom:0;min-width:0}
 .test-bar{display:flex;flex-wrap:wrap;gap:.75rem 1.25rem;align-items:flex-start;justify-content:space-between;padding-bottom:.75rem;border-bottom:1px solid var(--line)}
 .test-bar h2{margin:0}
 .test-clock{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:0}
@@ -223,7 +223,7 @@ fieldset[aria-invalid="true"]{padding:.5rem;border-radius:10px}
 .test-review-list{display:grid;gap:.4rem;margin:.5rem 0 1rem;padding:0;list-style:none}
 .test-review-list .button{width:100%;justify-content:flex-start;text-align:left}
 .ans-list{display:grid;gap:.5rem;margin-bottom:1.25rem}
-.ans-item{padding:.6rem .9rem;border:1px solid var(--line);border-radius:10px;background:var(--row)}
+.ans-item{min-width:0;padding:.6rem .9rem;border:1px solid var(--line);border-radius:10px;background:var(--row)}
 .ans-item.bad{border:2px dashed var(--warn)}
 .ans-item summary{min-height:44px;padding:.4rem 0;cursor:pointer;font-weight:750}
 .ans-item[open] summary{margin-bottom:.5rem}
@@ -237,6 +237,7 @@ fieldset[aria-invalid="true"]{padding:.5rem;border-radius:10px}
 .passage p{margin:.4rem 0;line-height:1.6}
 .passage-title{margin:0 0 .4rem;font-size:1.05rem}
 .passage-src{font-size:.85rem;opacity:.8}
+.passage pre.code{margin:.5rem 0;max-width:100%;padding:.6rem .75rem;overflow-x:auto;white-space:pre;tab-size:4;font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;border:1px solid var(--field);border-radius:8px}
 /* optional chart in a passage: inherits the text color, so it works in light and dark themes; lines differ by pattern */
 .fig-wrap{margin:.5rem 0}.fig{display:block;width:100%;max-width:460px;height:auto}
 .fig-text{font:13px system-ui,sans-serif;fill:currentColor}.fig-strong{font-weight:600}

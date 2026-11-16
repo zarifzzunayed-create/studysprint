@@ -83,7 +83,11 @@
   SS.passageBlock = (unit, q, collapsed) => {
     const p = SS.passageOf(unit, q);
     if (!p) return null;
-    const body = [p.intro ? SS.h("p", "why", p.intro) : null, p.figure ? SS.figure(p.figure) : null, p.text.map((t) => SS.h("p", null, t)), SS.h("p", "passage-src", p.attribution)];
+    // format "code": the lines are one program listing, shown with its line breaks and indentation and scrollable by keyboard
+    let text;
+    if (p.format === "code") { text = SS.h("pre", "code", p.text.join("\n")); text.tabIndex = 0; text.setAttribute("role", "group"); text.setAttribute("aria-label", "Code listing"); }
+    else text = p.text.map((t) => SS.h("p", null, t));
+    const body = [p.intro ? SS.h("p", "why", p.intro) : null, p.figure ? SS.figure(p.figure) : null, text, SS.h("p", "passage-src", p.attribution)];
     if (collapsed) return SS.h("details", "passage", SS.h("summary", null, "Show " + p.title), body);
     const head = SS.h("h3", "passage-title", p.title);
     head.tabIndex = -1;

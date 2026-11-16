@@ -1,0 +1,908 @@
+{
+ "courseId": "ap-computer-science-a",
+ "unitId": "u2",
+ "title": "Unit 2: Selection and Iteration",
+ "topics": [
+  {
+   "id": "csa2-if",
+   "name": "Boolean expressions and if statements",
+   "covers": [
+    "Finding Boolean values with expressions involving relational operators",
+    "Using conditional statements to execute different statements based on input values",
+    "Building on conditional statements to create multiple possible outcomes"
+   ],
+   "frameworkCovers": [
+    "2.1 Algorithms with Selection and Repetition",
+    "2.2 Boolean Expressions",
+    "2.3 if Statements",
+    "2.4 Nested if Statements"
+   ]
+  },
+  {
+   "id": "csa2-compound",
+   "name": "Compound and equivalent Boolean expressions",
+   "covers": [
+    "Creating the same value using equivalent Boolean expressions"
+   ],
+   "frameworkCovers": [
+    "2.5 Compound Boolean Expressions",
+    "2.6 Comparing Boolean Expressions"
+   ]
+  },
+  {
+   "id": "csa2-loops",
+   "name": "while and for loops",
+   "covers": [
+    "Creating a loop to run an expression repeatedly until certain conditions are met",
+    "Representing iterative processes in code using for and while loops"
+   ],
+   "frameworkCovers": [
+    "2.7 while Loops",
+    "2.8 for Loops"
+   ]
+  },
+  {
+   "id": "csa2-algorithms",
+   "name": "Loop algorithms, nested loops, and run-time",
+   "covers": [
+    "Implementing standard arithmetic-based and String-based algorithms",
+    "Nesting loop and iteration statements",
+    "Informally analyzing run-times"
+   ],
+   "frameworkCovers": [
+    "2.9 Implementing Selection and Iteration Algorithms",
+    "2.10 Implementing String Algorithms",
+    "2.11 Nested Iteration",
+    "2.12 Informal Run-Time Analysis"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 2: Selection and Iteration: review guide",
+  "intro": "This unit covers how programs make decisions and repeat work: Boolean expressions, if statements, while and for loops, and the standard algorithms built from them. It carries a large share of the multiple-choice section. Trace code by hand, writing down each variable's value after every step.",
+  "sections": [
+   {
+    "id": "s-csa2-if",
+    "topicId": "csa2-if",
+    "title": "Boolean expressions and if statements",
+    "body": [
+     "Algorithms are built from sequencing, selection, and repetition. The relational operators ==, !=, <, >, <=, and >= produce Boolean values. With primitives, == compares values; with references, it compares whether two variables refer to the same object.",
+     "An if statement runs its body only when its condition is true; if-else chooses between two bodies. In a multiway if-else-if chain, conditions are tested in order and only the body for the first true condition runs. Separate if statements are each tested, so more than one body can run. A nested if is evaluated only when the outer condition is true."
+    ],
+    "points": [
+     "else-if chain: at most one branch runs; separate ifs: each is tested.",
+     "An else belongs to the nearest unmatched if in the same block."
+    ]
+   },
+   {
+    "id": "s-csa2-compound",
+    "topicId": "csa2-compound",
+    "title": "Compound and equivalent Boolean expressions",
+    "body": [
+     "The logical operators are ! (not), && (and), and || (or); ! is applied first, then &&, then ||. Evaluation short-circuits: in a && b, b is not evaluated when a is false, and in a || b, b is not evaluated when a is true. This lets a test such as n != 0 && 10 / n > 2 avoid dividing by zero.",
+     "Two Boolean expressions are equivalent when they have the same value in every case, which a truth table can show. De Morgan's laws: !(a && b) is equivalent to !a || !b, and !(a || b) is equivalent to !a && !b. Negating a comparison flips it: !(x < 5) is x >= 5. Object references can be compared with == and != (including with null); equals compares objects by the criteria their class defines."
+    ],
+    "points": [
+     "Not (A and B) = (not A) or (not B).",
+     "Put the safety check first so short-circuiting protects the second test."
+    ]
+   },
+   {
+    "id": "s-csa2-loops",
+    "topicId": "csa2-loops",
+    "title": "while and for loops",
+    "body": [
+     "A while loop tests its condition before each iteration, including the first, so its body may run zero times. If the condition never becomes false, the loop is infinite. An off-by-one error makes a loop run one time too many or too few.",
+     "A for loop header has an initialization (run once), a condition (tested before each iteration), and an update (run after each iteration). Any for loop can be rewritten as a while loop and vice versa: put the initialization before the loop and the update at the end of the body."
+    ],
+    "points": [
+     "for (int i = 0; i < n; i++) runs n times.",
+     "Check a loop's first value, last value, and the value that ends it."
+    ]
+   },
+   {
+    "id": "s-csa2-algorithms",
+    "topicId": "csa2-algorithms",
+    "title": "Loop algorithms, nested loops, and run-time",
+    "body": [
+     "Standard algorithms: test divisibility with % (n % d == 0); take digits off an int with n % 10 and n / 10; count how often a condition is met; find a minimum or maximum; compute a sum or average. Standard string algorithms use a loop with substring to examine each character, count substrings with a property, or build a reversed string.",
+     "With nested loops, the inner loop runs completely for each iteration of the outer loop. A statement execution count is the number of times a statement runs; find it by tracing. If the inner loop's bounds depend on the outer variable, add up the inner counts (for example 1 + 2 + 3)."
+    ],
+    "points": [
+     "Last digit: n % 10; remove it: n / 10.",
+     "Outer loop n times and inner loop m times: the inner body runs n × m times."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "How many times is the statement count++ executed?  for (int i = 0; i < 4; i++) { for (int j = 0; j < i; j++) { count++; } }",
+   "solution": "The inner loop runs i times for each i: 0 times when i is 0, then 1, 2, and 3 times. The total is 0 + 1 + 2 + 3 = 6."
+  },
+  "misconceptions": [
+   [
+    "“In an if-else-if chain, every true condition's body runs.”",
+    "Only the body for the first true condition runs."
+   ],
+   [
+    "“!(a && b) is the same as !a && !b.”",
+    "By De Morgan's law it is !a || !b."
+   ],
+   [
+    "“A while loop always runs at least once.”",
+    "Its condition is tested first, so the body may never run."
+   ],
+   [
+    "“== compares the contents of two strings.”",
+    "== compares references; use equals to compare contents."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Computer Science A Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+  "sourceTitle": "AP Computer Science A – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-16"
+ },
+ "passages": [
+  {
+   "id": "csa2-c1",
+   "title": "Code segment",
+   "text": [
+    "int score = 85;",
+    "if (score >= 70) {",
+    "    System.out.print(\"C\");",
+    "}",
+    "if (score >= 80) {",
+    "    System.out.print(\"B\");",
+    "}",
+    "if (score >= 90) {",
+    "    System.out.print(\"A\");",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa2-c2",
+   "title": "Code segment",
+   "text": [
+    "int a = 4;",
+    "int b = 9;",
+    "if (a > 3) {",
+    "    if (b < 5) {",
+    "        System.out.print(\"X\");",
+    "    } else {",
+    "        System.out.print(\"Y\");",
+    "    }",
+    "} else {",
+    "    System.out.print(\"Z\");",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa2-c3",
+   "title": "Code segment",
+   "text": [
+    "int n = 0;",
+    "if (n != 0 && 10 / n > 2) {",
+    "    System.out.print(\"yes\");",
+    "} else {",
+    "    System.out.print(\"no\");",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa2-c4",
+   "title": "Code segment",
+   "text": [
+    "int n = 20;",
+    "int count = 0;",
+    "while (n > 1) {",
+    "    n = n / 2;",
+    "    count++;",
+    "}",
+    "System.out.println(count);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa2-c5",
+   "title": "Code segment",
+   "text": [
+    "int i = 0;",
+    "while (i < 5) {",
+    "    System.out.print(i);",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa2-c6",
+   "title": "Code segment",
+   "text": [
+    "int k = 10;",
+    "while (k > 0) {",
+    "    System.out.print(k + \" \");",
+    "    k -= 3;",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa2-c7",
+   "title": "Code segment",
+   "text": [
+    "int n = 472;",
+    "int total = 0;",
+    "while (n > 0) {",
+    "    total += n % 10;",
+    "    n /= 10;",
+    "}",
+    "System.out.println(total);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa2-c8",
+   "title": "Code segment",
+   "text": [
+    "String s = \"stop\";",
+    "String r = \"\";",
+    "for (int i = 0; i < s.length(); i++) {",
+    "    r = s.substring(i, i + 1) + r;",
+    "}",
+    "System.out.println(r);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa2-c9",
+   "title": "Code segment",
+   "text": [
+    "for (int r = 1; r <= 3; r++) {",
+    "    for (int c = 1; c <= r; c++) {",
+    "        System.out.print(r);",
+    "    }",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa2-c10",
+   "title": "Code segment",
+   "text": [
+    "int count = 0;",
+    "for (int i = 0; i < 5; i++) {",
+    "    for (int j = i; j < 5; j++) {",
+    "        count++;",
+    "    }",
+    "}"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa2-c11",
+   "title": "Code segment",
+   "text": [
+    "int x = 7;",
+    "if (x > 5) {",
+    "    System.out.print(\"A\");",
+    "} else {",
+    "    System.out.print(\"B\");",
+    "}",
+    "System.out.print(\"C\");"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa2-c12",
+   "title": "Code segment",
+   "text": [
+    "int sum = 0;",
+    "for (int i = 1; i <= 4; i++) {",
+    "    sum += i;",
+    "}",
+    "System.out.println(sum);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  }
+ ],
+ "questions": [
+  {
+   "id": "csa-u2-q01",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-if",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "AC",
+    "BC",
+    "ABC",
+    "A"
+   ],
+   "correctAnswer": 0,
+   "explanation": "x > 5 is true, so A is printed and the else body is skipped. The last statement is outside the if-else, so C is always printed.",
+   "choiceExplanations": [
+    "",
+    "The else body runs only when the condition is false, and 7 > 5 is true.",
+    "Only one of the two branches of an if-else can run.",
+    "The final print statement is not part of the if-else, so C is also printed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa2-c11"
+  },
+  {
+   "id": "csa-u2-q02",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-if",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "C",
+    "CB",
+    "CBA",
+    "B"
+   ],
+   "correctAnswer": 1,
+   "explanation": "These are three separate if statements, so each condition is tested: 85 >= 70 prints C, 85 >= 80 prints B, and 85 >= 90 is false.",
+   "choiceExplanations": [
+    "The second if is also tested, and 85 >= 80 is true.",
+    "",
+    "85 >= 90 is false, so A is not printed.",
+    "B alone would be printed by an if-else-if chain ordered from 90 down; here every if is tested."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa2-c1"
+  },
+  {
+   "id": "csa-u2-q03",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-if",
+   "skill": "4.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The String variables s1 and s2 refer to two different String objects that contain the same characters. Which expression is certain to be true?",
+   "choices": [
+    "s1.compareTo(s2) > 0",
+    "s1.length() != s2.length()",
+    "s1.equals(s2)",
+    "s1 == s2"
+   ],
+   "correctAnswer": 2,
+   "explanation": "equals compares the characters of the two strings, which are the same.",
+   "choiceExplanations": [
+    "compareTo returns 0 for strings with the same characters, and 0 is not greater than 0.",
+    "Strings with the same characters have the same length.",
+    "",
+    "== compares references, and the two variables refer to different objects."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u2-q04",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-if",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "Y",
+    "Z",
+    "XY",
+    "X"
+   ],
+   "correctAnswer": 0,
+   "explanation": "a > 3 is true, so the inner if-else is evaluated: b < 5 is false, so its else prints Y. The outer else is skipped.",
+   "choiceExplanations": [
+    "",
+    "Z would be printed only if a > 3 were false.",
+    "An if-else runs exactly one of its two bodies.",
+    "X would be printed only if b were less than 5."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa2-c2"
+  },
+  {
+   "id": "csa-u2-q05",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-compound",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The int variable x has the value 6. What is printed by the statement  System.out.println((x > 2 && x < 5) + \" \" + (x > 2 || x < 5));  ?",
+   "choices": [
+    "true false",
+    "true true",
+    "false false",
+    "false true"
+   ],
+   "correctAnswer": 3,
+   "explanation": "x > 2 is true and x < 5 is false. && needs both to be true (false); || needs at least one (true).",
+   "choiceExplanations": [
+    "This reverses the two results.",
+    "&& is true only when both parts are true, and 6 < 5 is false.",
+    "|| is true when at least one part is true, and 6 > 2 is true.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u2-q06",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-compound",
+   "skill": "4.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For boolean variables a and b, which expression is equivalent to  !(a && b)  for all values of a and b?",
+   "choices": [
+    "!(a || b)",
+    "!a || !b",
+    "a || b",
+    "!a && !b"
+   ],
+   "correctAnswer": 1,
+   "explanation": "De Morgan's law: negating an and gives the or of the negations.",
+   "choiceExplanations": [
+    "!(a || b) is true only when both are false; !(a && b) is also true when just one is false.",
+    "",
+    "a || b is true when both are true, but !(a && b) is false then.",
+    "!a && !b is equivalent to !(a || b); it differs when exactly one of a and b is true."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u2-q07",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-compound",
+   "skill": "3.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What happens when the code segment is executed?",
+   "choices": [
+    "It prints yes",
+    "An ArithmeticException is thrown",
+    "Nothing is printed",
+    "It prints no"
+   ],
+   "correctAnswer": 3,
+   "explanation": "n != 0 is false, so && short-circuits: 10 / n is never evaluated. The condition is false and the else body prints no.",
+   "choiceExplanations": [
+    "The condition is false because n != 0 is false.",
+    "Short-circuit evaluation skips the division, so no exception occurs.",
+    "An if-else always runs one of its two bodies.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa2-c3"
+  },
+  {
+   "id": "csa-u2-q08",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-compound",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which expression is true exactly when the int variable year is between 2000 and 2025, inclusive?",
+   "choices": [
+    "!(year >= 2000 && year <= 2025)",
+    "year > 2000 && year < 2025",
+    "year >= 2000 && year <= 2025",
+    "year >= 2000 || year <= 2025"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Both conditions must hold at once, so they are joined with &&, and >= and <= include the endpoints.",
+   "choiceExplanations": [
+    "The ! makes this true exactly for the years outside the range.",
+    "> and < leave out the endpoints 2000 and 2025.",
+    "",
+    "With ||, every year satisfies at least one condition, so this is always true."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u2-q09",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-loops",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "15",
+    "10",
+    "4",
+    "6"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The loop adds 1, 2, 3, and 4 to sum: 1 + 2 + 3 + 4 = 10.",
+   "choiceExplanations": [
+    "15 would also add 5, but the loop stops after i is 4.",
+    "",
+    "4 is the last value added, not the total.",
+    "6 stops after adding 3; the condition i <= 4 includes 4."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa2-c12"
+  },
+  {
+   "id": "csa-u2-q10",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-loops",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "10",
+    "3",
+    "5",
+    "4"
+   ],
+   "correctAnswer": 3,
+   "explanation": "n goes 20, 10, 5, 2, 1 (integer division). The body runs four times before n > 1 becomes false.",
+   "choiceExplanations": [
+    "10 is the value of n after the first division, not the count.",
+    "After three divisions n is 2, which is still greater than 1.",
+    "The loop stops when n reaches 1, after four divisions, not five.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa2-c4"
+  },
+  {
+   "id": "csa-u2-q11",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-loops",
+   "skill": "3.D",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The code segment is intended to print 01234. What is wrong with it?",
+   "choices": [
+    "The loop prints 12345, because i should start at the value 1.",
+    "The loop stops too early, because the condition should be i <= 5.",
+    "The loop never ends, because i is never changed inside the loop.",
+    "The loop never runs, because the condition i < 5 starts out false."
+   ],
+   "correctAnswer": 2,
+   "explanation": "i stays 0, so i < 5 is always true: an infinite loop that prints 0 repeatedly. Adding i++ inside the body fixes it.",
+   "choiceExplanations": [
+    "i starts at 0 and never changes, so 1 through 5 are never printed.",
+    "The loop does not stop at all; changing the bound would not fix the missing update.",
+    "",
+    "0 < 5 is true, so the loop does run."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa2-c5"
+  },
+  {
+   "id": "csa-u2-q12",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-loops",
+   "skill": "2.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which for loop header, used with the body  System.out.print(k + \" \");  produces the same output as the code segment?",
+   "choices": [
+    "for (int k = 10; k > 0; k -= 3)",
+    "for (int k = 10; k > 1; k -= 3)",
+    "for (int k = 0; k < 10; k += 3)",
+    "for (int k = 9; k > 0; k -= 3)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The while loop prints 10 7 4 1. A for loop with the same starting value, condition, and update does the same.",
+   "choiceExplanations": [
+    "",
+    "With k > 1 the loop stops before printing 1, giving 10 7 4.",
+    "This counts up and prints 0 3 6 9.",
+    "Starting at 9 prints 9 6 3."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa2-c6"
+  },
+  {
+   "id": "csa-u2-q13",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-algorithms",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "13",
+    "3",
+    "472",
+    "2"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The loop adds the digits from right to left: 2 + 7 + 4 = 13.",
+   "choiceExplanations": [
+    "",
+    "3 is the number of digits, which is how many times the loop runs.",
+    "472 is the original number; the loop adds its digits.",
+    "2 is only the last digit, the first value added."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa2-c7"
+  },
+  {
+   "id": "csa-u2-q14",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-algorithms",
+   "skill": "3.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "post",
+    "stop",
+    "tops",
+    "pots"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Each character is placed in front of the string built so far: s, then ts, then ots, then pots, which reverses the string.",
+   "choiceExplanations": [
+    "post is not produced; the characters are added to the front in order.",
+    "stop would result from adding each character at the end: r = r + s.substring(i, i + 1).",
+    "tops is not produced; the last character, p, ends up first.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa2-c8"
+  },
+  {
+   "id": "csa-u2-q15",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-algorithms",
+   "skill": "3.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "123123123",
+    "122333",
+    "112123",
+    "123"
+   ],
+   "correctAnswer": 1,
+   "explanation": "For each r, the inner loop runs r times and prints r each time: 1 once, 2 twice, 3 three times.",
+   "choiceExplanations": [
+    "123123123 would be printed if the inner loop ran three times and printed c.",
+    "",
+    "112123 would be printed if the inner loop printed c instead of r.",
+    "123 would be printed if each value were printed once."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa2-c9"
+  },
+  {
+   "id": "csa-u2-q16",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-algorithms",
+   "skill": "4.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How many times is the statement count++ executed when the code segment runs?",
+   "choices": [
+    "15",
+    "10",
+    "5",
+    "25"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The inner loop runs from j = i to 4: 5 times when i is 0, then 4, 3, 2, and 1 times. 5 + 4 + 3 + 2 + 1 = 15.",
+   "choiceExplanations": [
+    "",
+    "10 would be correct if the inner loop started at i + 1.",
+    "5 counts only the outer loop's iterations.",
+    "25 would be correct if the inner loop always started at 0."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa2-c10"
+  },
+  {
+   "id": "csa-u2-q17",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u2",
+   "topicId": "csa2-algorithms",
+   "skill": "2.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which expression is true exactly when the positive int variable n is evenly divisible by 4?",
+   "choices": [
+    "n / 4 == 0",
+    "n % 4 == 1",
+    "n % 4 == 0",
+    "4 % n == 0"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A number is evenly divisible by 4 when dividing by 4 leaves a remainder of 0.",
+   "choiceExplanations": [
+    "n / 4 == 0 is true only when n is less than 4.",
+    "A remainder of 1 means n is one more than a multiple of 4.",
+    "",
+    "4 % n == 0 tests whether n divides 4, which is true only for 1, 2, and 4."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. The four AP Computer Science A free-response questions (methods and control structures, class design, data analysis with ArrayList, and 2D array) each draw on several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "csa-u2-q01",
+    "csa-u2-q02",
+    "csa-u2-q05",
+    "csa-u2-q06",
+    "csa-u2-q09",
+    "csa-u2-q10",
+    "csa-u2-q15",
+    "csa-u2-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "csa-u2-q03",
+    "csa-u2-q04",
+    "csa-u2-q07",
+    "csa-u2-q08",
+    "csa-u2-q11",
+    "csa-u2-q12",
+    "csa-u2-q13",
+    "csa-u2-q17"
+   ]
+  }
+ ]
+}

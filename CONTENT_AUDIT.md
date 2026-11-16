@@ -55,6 +55,23 @@ No other problems were found in the manual sample: all 68 rule-chosen questions 
 5. Primary sources for World History Units 1–3; image stimuli for Government and history courses.
 6. Links that cannot be checked automatically (finding 18).
 
+## Courses added after this audit
+
+AP Microeconomics (102 questions) and AP Computer Science A (71 questions) were written after the audit above and are not part of its 1,734-question scope or its manual sample. What was checked for them:
+
+- Outline, topic lists, exam weightings: `check_outline.py` against the live AP Students pages (both OK on 2026-11-16).
+- Microeconomics: 13 hypothetical tables and graphs; every numeric answer is recomputed from the question's own numbers by `recompute/social_science.py`.
+- Computer Science A: 54 of 71 keyed answers are confirmed by compiling and running the Java the student sees (`recompute/computer_science_a.py`, 0 failures). The other 17 are conceptual questions checked by reading against the CED's essential knowledge statements.
+- `bank_audit.py` over all 1,911 questions: 0 hard problems.
+
+Open for these two courses:
+
+- Computer Science A has no unit-specific outside reading. The free Java textbooks that would fit (for example Runestone's CSAwesome, Oracle's Java Tutorials) could not be opened from the build machine, so none is linked; only College Board's Java Quick Reference is listed, as a general resource. The interface says so and points to the review guide.
+- Computer Science A's 2023–2025 released free-response sets predate the Fall 2025 framework; the course file says so.
+- Neither course has had a subject-teacher review.
+
+Two interface defects found while adding code listings were fixed: a wide code listing made the page scroll sideways on phone-width screens in tests and test review, and the "Check your answers" screen printed the word "null" when every question was answered.
+
 ## Manual sample
 
 Rule for the 68: within each course, order questions by the SHA-256 hash of `audit-2026-11:<question id>`; take the first introductory, first standard, and first challenging question, then the next question that has a stimulus or a numeric answer (or simply the next one).
