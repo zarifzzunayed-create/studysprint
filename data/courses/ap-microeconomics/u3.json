@@ -1,0 +1,873 @@
+{
+ "courseId": "ap-microeconomics",
+ "unitId": "u3",
+ "title": "Unit 3: Production, Cost, and the Perfect Competition Model",
+ "topics": [
+  {
+   "id": "mic3-production",
+   "name": "The production function",
+   "covers": [
+    "The production function"
+   ],
+   "frameworkCovers": [
+    "3.1 The Production Function"
+   ]
+  },
+  {
+   "id": "mic3-costs",
+   "name": "Short-run and long-run costs",
+   "covers": [
+    "Short- and long-run production costs"
+   ],
+   "frameworkCovers": [
+    "3.2 Short-Run Production Costs",
+    "3.3 Long-Run Production Costs"
+   ]
+  },
+  {
+   "id": "mic3-profit",
+   "name": "Types of profit and profit maximization",
+   "covers": [
+    "Types of profit",
+    "Profit maximization"
+   ],
+   "frameworkCovers": [
+    "3.4 Types of Profit",
+    "3.5 Profit Maximization"
+   ]
+  },
+  {
+   "id": "mic3-competition",
+   "name": "Perfect competition: shutdown, entry, and exit",
+   "covers": [
+    "Perfect competition"
+   ],
+   "frameworkCovers": [
+    "3.6 Firms’ Short-Run Decisions to Produce and Long-Run Decisions to Enter or Exit a Market",
+    "3.7 Perfect Competition"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 3: Production, Cost, and the Perfect Competition Model: review guide",
+  "intro": "This unit follows a firm from production to cost to profit, and then places it in a perfectly competitive market. The key rules are that firms maximize profit where marginal revenue equals marginal cost, shut down in the short run if price is below average variable cost, and enter or exit in the long run until economic profit is zero.",
+  "sections": [
+   {
+    "id": "s-mic3-production",
+    "topicId": "mic3-production",
+    "title": "The production function",
+    "body": [
+     "The production function relates inputs to output. In the short run at least one input (usually capital) is fixed. Total product is total output; marginal product (MP) is the extra output from one more unit of the variable input; average product is output per unit of that input.",
+     "Diminishing marginal returns set in when adding more of a variable input to fixed inputs yields smaller and smaller additions to output. Marginal product can rise at first because of specialization and the division of labor, and it falls once the fixed input becomes crowded."
+    ],
+    "points": [
+     "MP of the nth worker = total product with n workers − total product with n − 1.",
+     "Diminishing marginal returns is a short-run idea: some input is fixed."
+    ]
+   },
+   {
+    "id": "s-mic3-costs",
+    "topicId": "mic3-costs",
+    "title": "Short-run and long-run costs",
+    "body": [
+     "Total cost = total fixed cost + total variable cost. Fixed cost does not change with output and is paid even at zero output. Average fixed cost (AFC) falls as output rises; average variable cost (AVC) and average total cost (ATC = AFC + AVC) are U-shaped. Marginal cost (MC) is the extra cost of one more unit; with diminishing marginal returns it slopes upward, and it crosses AVC and ATC at their minimum points. When MC is below an average, the average falls; when MC is above it, the average rises. A change in a fixed cost shifts AFC and ATC but not MC or AVC; a change in a variable cost shifts MC, AVC, and ATC.",
+     "In the long run all inputs, and so all costs, are variable. If output more than doubles when all inputs double, there are increasing returns to scale; long-run average total cost falls (economies of scale). It rises with diseconomies of scale and is flat with constant returns to scale. The minimum efficient scale helps determine how many firms a market can support."
+    ],
+    "points": [
+     "ATC = TC ÷ Q; AFC = TFC ÷ Q; AVC = TVC ÷ Q.",
+     "MC crosses AVC and ATC at their lowest points."
+    ]
+   },
+   {
+    "id": "s-mic3-profit",
+    "topicId": "mic3-profit",
+    "title": "Types of profit and profit maximization",
+    "body": [
+     "Accounting profit is total revenue minus explicit costs. Economic profit also subtracts implicit costs, such as the owner's forgone salary and the return the owner's money could earn elsewhere. A firm with zero economic profit earns a normal profit: it covers all its opportunity costs. Firms respond to economic profit, not accounting profit.",
+     "A firm maximizes profit by producing the quantity at which marginal revenue (MR) equals marginal cost (MC). If MR is greater than MC, producing more adds to profit; if MR is less than MC, producing less adds to profit."
+    ],
+    "points": [
+     "Economic profit = accounting profit − implicit costs.",
+     "MR = MC maximizes profit (or minimizes loss) in every market structure."
+    ]
+   },
+   {
+    "id": "s-mic3-competition",
+    "topicId": "mic3-competition",
+    "title": "Perfect competition: shutdown, entry, and exit",
+    "body": [
+     "In perfect competition many firms sell an identical product with no barriers to entry, so each firm is a price taker: its demand curve is horizontal at the market price, and price = marginal revenue. The firm produces where P = MC. Profit per unit is P − ATC. In the short run a firm keeps producing as long as price is at least average variable cost (total revenue covers total variable cost); below that it shuts down and loses only its fixed cost.",
+     "In the long run, economic profit attracts entry: market supply increases and price falls. Losses cause exit: supply decreases and price rises. Long-run equilibrium has zero economic profit with P = MC = minimum ATC, so the market is allocatively efficient (price equals marginal cost) and productively efficient (output at lowest average cost). In a constant-cost industry the long-run price returns to its original level; in an increasing-cost industry it ends higher, and in a decreasing-cost industry lower."
+    ],
+    "points": [
+     "Shut down in the short run only if P < minimum AVC.",
+     "Long run: P = MC = minimum ATC and economic profit is zero."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A perfectly competitive firm sells at the market price of $12. At its profit-maximizing output of 100 units, ATC is $14 and AVC is $9. What is its profit or loss, and should it produce in the short run?",
+   "solution": "Profit = (P − ATC) × Q = (12 − 14) × 100 = −$200, a loss. Because price ($12) is above AVC ($9), revenue covers variable cost and part of fixed cost, so the firm should keep producing. If it shut down it would lose its whole fixed cost, (14 − 9) × 100 = $500."
+  },
+  "misconceptions": [
+   [
+    "“A firm with zero economic profit should close.”",
+    "Zero economic profit is a normal profit: all opportunity costs, including the owner's, are covered."
+   ],
+   [
+    "“A firm making a loss should always shut down.”",
+    "It should keep operating in the short run if price covers average variable cost."
+   ],
+   [
+    "“Diminishing marginal returns means total output falls.”",
+    "Total output still rises; it rises by less with each added worker."
+   ],
+   [
+    "“Fixed costs affect how much a firm should produce.”",
+    "The profit-maximizing output depends on MR and MC, which fixed costs do not change."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Microeconomics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-microeconomics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+  "sourceTitle": "AP Microeconomics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-15"
+ },
+ "passages": [
+  {
+   "id": "mic3-t1",
+   "title": "Table: Daily output of a sandwich shop (hypothetical data)",
+   "intro": "The shop's kitchen and equipment are fixed. Each line gives total product.",
+   "text": [
+    "0 workers: 0 sandwiches",
+    "1 worker: 10 sandwiches",
+    "2 workers: 25 sandwiches",
+    "3 workers: 36 sandwiches",
+    "4 workers: 44 sandwiches",
+    "5 workers: 48 sandwiches"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mic3-t2",
+   "title": "Table: Marginal cost for a price-taking firm (hypothetical data)",
+   "intro": "The firm sells in a perfectly competitive market at a price of $10 per unit.",
+   "text": [
+    "1st unit: marginal cost $4",
+    "2nd unit: marginal cost $6",
+    "3rd unit: marginal cost $8",
+    "4th unit: marginal cost $10",
+    "5th unit: marginal cost $13",
+    "6th unit: marginal cost $17"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mic3-g1",
+   "title": "Graph: A perfectly competitive firm (hypothetical data)",
+   "figure": {
+    "kind": "lines",
+    "alt": "Graph of a perfectly competitive firm with quantity on the horizontal axis and dollars on the vertical axis. A horizontal line at 24 dollars is the firm's demand, marginal revenue, and price. The upward-sloping marginal cost curve crosses it at point A, at 60 units. The U-shaped average total cost curve has its minimum of 16 dollars at 40 units and is 18 dollars at 60 units, point B.",
+    "xLabel": "Quantity",
+    "yLabel": "Price and cost ($)",
+    "xMax": 100,
+    "yMax": 40,
+    "series": [
+     {
+      "label": "MR = P",
+      "points": [
+       [
+        0,
+        24
+       ],
+       [
+        88,
+        24
+       ]
+      ]
+     },
+     {
+      "label": "MC",
+      "points": [
+       [
+        10,
+        4
+       ],
+       [
+        90,
+        36
+       ]
+      ]
+     },
+     {
+      "label": "ATC",
+      "points": [
+       [
+        10,
+        34
+       ],
+       [
+        20,
+        23
+       ],
+       [
+        30,
+        18
+       ],
+       [
+        40,
+        16
+       ],
+       [
+        50,
+        16.6
+       ],
+       [
+        60,
+        18
+       ],
+       [
+        70,
+        20.2
+       ]
+      ]
+     }
+    ],
+    "guides": [
+     {
+      "x": 60,
+      "y": 24,
+      "label": "A"
+     },
+     {
+      "x": 60,
+      "y": 18,
+      "label": "B"
+     }
+    ]
+   },
+   "text": [
+    "The market price is $24, so the firm's demand curve (D = MR = P) is horizontal at $24.",
+    "Marginal cost (MC) crosses that line at point A, at 60 units.",
+    "At 60 units, average total cost (ATC) is $18 (point B). ATC is lowest, $16, at 40 units, where MC crosses it."
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "mic-u3-q01",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-production",
+   "skill": "1.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, what is the marginal product of the third worker?",
+   "choices": [
+    "36 sandwiches",
+    "11 sandwiches",
+    "12 sandwiches",
+    "15 sandwiches"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Marginal product is the change in total product: 36 − 25 = 11 sandwiches.",
+   "choiceExplanations": [
+    "36 is the total product with three workers.",
+    "",
+    "12 is the average product with three workers (36 ÷ 3).",
+    "15 is the marginal product of the second worker (25 − 10)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic3-t1"
+  },
+  {
+   "id": "mic-u3-q02",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-production",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the sandwich shop's output table, diminishing marginal returns begin with the hiring of the",
+   "choices": [
+    "second worker, whose marginal product (15) is above the first's (10)",
+    "fifth worker, the first whose marginal product (4) is less than 5",
+    "first worker, because total product rises with every worker hired",
+    "third worker, whose marginal product (11) is below the second's (15)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Marginal products are 10, 15, 11, 8, and 4. They start to fall with the third worker.",
+   "choiceExplanations": [
+    "The second worker's marginal product is higher than the first's, so returns are still increasing there.",
+    "Marginal product has been falling since the third worker; the fifth is not where it starts.",
+    "Rising total product does not mean diminishing returns; falling marginal product does.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic3-t1"
+  },
+  {
+   "id": "mic-u3-q03",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-production",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In the short run, diminishing marginal returns occur because",
+   "choices": [
+    "all inputs are increased together in the same proportion",
+    "the price of the firm's output falls as it sells more units",
+    "the wage rises as the firm hires each additional worker",
+    "more of a variable input is added to fixed inputs"
+   ],
+   "correctAnswer": 3,
+   "explanation": "With capital fixed, each added worker has less equipment and space to work with, so marginal product eventually falls.",
+   "choiceExplanations": [
+    "Changing all inputs together describes returns to scale in the long run.",
+    "Diminishing returns concerns physical output, not the price of the product.",
+    "Diminishing returns concerns physical output, not input prices.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u3-q04",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-costs",
+   "skill": "1.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A firm producing 20 units has total fixed cost of $100 and total variable cost of $260. What is its average total cost?",
+   "choices": [
+    "$360",
+    "$18",
+    "$13",
+    "$5"
+   ],
+   "correctAnswer": 1,
+   "explanation": "ATC = (TFC + TVC) ÷ Q = (100 + 260) ÷ 20 = $18.",
+   "choiceExplanations": [
+    "$360 is total cost, not cost per unit.",
+    "",
+    "$13 is average variable cost (260 ÷ 20).",
+    "$5 is average fixed cost (100 ÷ 20)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u3-q05",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-costs",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "At a firm's current output, marginal cost is below average total cost. As the firm produces one more unit, its average total cost will",
+   "choices": [
+    "fall, because the added unit costs less than the current average",
+    "fall only if marginal cost is also below average fixed cost",
+    "stay the same, because average total cost depends on fixed cost",
+    "rise, because marginal cost slopes upward at that level of output"
+   ],
+   "correctAnswer": 0,
+   "explanation": "An extra unit that costs less than the average pulls the average down, just as a low test score lowers a grade average.",
+   "choiceExplanations": [
+    "",
+    "The comparison that matters is MC with ATC, not with AFC.",
+    "ATC includes variable cost, and it changes whenever MC differs from it.",
+    "MC may be rising, but as long as it is below ATC, ATC still falls."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u3-q06",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-costs",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "As a firm increases its output in the short run, its average fixed cost",
+   "choices": [
+    "falls and then rises, because of diminishing marginal returns",
+    "falls continuously, because the same fixed cost is spread over more units",
+    "rises continuously, because more units require more fixed inputs",
+    "stays constant, because total fixed cost does not change as output changes"
+   ],
+   "correctAnswer": 1,
+   "explanation": "AFC = TFC ÷ Q. TFC is constant, so AFC gets smaller as Q grows.",
+   "choiceExplanations": [
+    "The U shape belongs to AVC and ATC; AFC only falls.",
+    "",
+    "Fixed inputs do not change with output in the short run.",
+    "Total fixed cost stays constant, but the average per unit falls."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u3-q07",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-costs",
+   "skill": "3.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The monthly rent on a firm's building, a fixed cost, increases. Which of the firm's short-run cost curves shift?",
+   "choices": [
+    "MC, AVC, and ATC shift up; AFC does not change",
+    "Only MC shifts up; the average curves do not change",
+    "AFC and ATC shift up; MC and AVC do not change",
+    "All four curves (MC, AVC, AFC, and ATC) shift up"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A higher fixed cost raises AFC and therefore ATC. It does not change variable cost, so MC and AVC stay where they are.",
+   "choiceExplanations": [
+    "That is the effect of a higher variable cost, such as wages.",
+    "MC is the change in variable cost from one more unit; rent does not affect it.",
+    "",
+    "MC and AVC depend only on variable costs, which have not changed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u3-q08",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-costs",
+   "skill": "1.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "When a firm doubles all of its inputs, its output more than doubles and its long-run average total cost falls. The firm is experiencing",
+   "choices": [
+    "constant returns to scale",
+    "diminishing marginal returns",
+    "economies of scale",
+    "diseconomies of scale"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Falling long-run average total cost as the firm grows is economies of scale (increasing returns to scale).",
+   "choiceExplanations": [
+    "With constant returns, output would exactly double and average cost would not change.",
+    "Diminishing marginal returns is a short-run idea with a fixed input; here all inputs change.",
+    "",
+    "Diseconomies of scale means long-run average cost rises as the firm grows."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u3-q09",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-profit",
+   "skill": "2.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A firm has total revenue of $200,000, explicit costs of $120,000, and implicit costs of $80,000. The firm is earning",
+   "choices": [
+    "zero economic profit, which is a normal profit",
+    "an economic loss of $80,000 for its owner",
+    "an economic profit of $80,000 for its owner this year",
+    "an accounting profit of zero for the year"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Economic profit = 200,000 − 120,000 − 80,000 = 0. Covering all opportunity costs exactly is a normal profit.",
+   "choiceExplanations": [
+    "",
+    "Revenue covers explicit and implicit costs exactly, so there is no economic loss.",
+    "$80,000 is the accounting profit, which leaves out implicit costs.",
+    "Accounting profit is 200,000 − 120,000 = $80,000, not zero."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u3-q10",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-profit",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "At its current output, a firm's marginal revenue is greater than its marginal cost. To increase its profit, the firm should",
+   "choices": [
+    "produce more, because the next unit adds more to revenue than to cost",
+    "keep output the same, because it is already maximizing its profit",
+    "produce less, because the last unit added more to cost than to revenue",
+    "raise its price, because marginal revenue is above marginal cost"
+   ],
+   "correctAnswer": 0,
+   "explanation": "When MR > MC, another unit adds more revenue than cost, so profit rises until MR = MC.",
+   "choiceExplanations": [
+    "",
+    "Profit is maximized only where MR = MC.",
+    "That is the right response when MR is less than MC.",
+    "The rule concerns the quantity to produce; a price-taking firm cannot raise its price at all."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u3-q11",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-profit",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, how many units should the firm produce to maximize profit?",
+   "choices": [
+    "5 units",
+    "4 units",
+    "3 units",
+    "6 units"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A price taker's marginal revenue is the price, $10. The firm produces every unit whose marginal cost is no more than $10: units 1 through 4.",
+   "choiceExplanations": [
+    "The 5th unit costs $13 but adds only $10 of revenue.",
+    "",
+    "Stopping at 3 leaves out the 4th unit, which covers its marginal cost.",
+    "The 5th and 6th units cost more ($13 and $17) than the $10 they bring in."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic3-t2"
+  },
+  {
+   "id": "mic-u3-q12",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-competition",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "At its best level of output, a firm has total revenue of $500, total variable cost of $350, and total fixed cost of $200. In the short run the firm should",
+   "choices": [
+    "keep producing: it is earning an economic profit of $150",
+    "shut down: its total cost of $550 is greater than its total revenue",
+    "shut down: it is losing $50, and closing would cut that loss to zero dollars",
+    "keep producing: its $50 loss is less than the $200 lost by closing"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Revenue ($500) covers variable cost ($350) and $150 of fixed cost, leaving a $50 loss. Shutting down would lose the whole $200 of fixed cost.",
+   "choiceExplanations": [
+    "$150 is revenue minus variable cost; after fixed cost the firm has a $50 loss.",
+    "Total cost above revenue means a loss, but the shutdown decision compares revenue with variable cost.",
+    "Fixed cost must be paid even at zero output, so shutting down would lose $200, not zero.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u3-q13",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-competition",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The demand curve facing a single perfectly competitive firm is",
+   "choices": [
+    "horizontal at the market price, so price equals MR",
+    "the same curve as the downward-sloping market demand curve",
+    "downward sloping, so price is greater than its marginal revenue",
+    "vertical at the quantity that the firm chooses to produce"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A price taker can sell any quantity at the market price, so its demand is perfectly elastic and each unit adds the price to revenue.",
+   "choiceExplanations": [
+    "",
+    "Market demand slopes downward, but one small firm can sell all it wants at the going price.",
+    "A downward-sloping demand curve with MR below price describes a firm with market power.",
+    "A vertical demand curve would mean quantity does not respond to price at all."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u3-q14",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-competition",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on the graph, what is the firm's economic profit at its profit-maximizing output?",
+   "choices": [
+    "$6",
+    "$1,080",
+    "$360",
+    "$1,440"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The firm produces 60 units, where MC = MR. Profit = (P − ATC) × Q = (24 − 18) × 60 = $360.",
+   "choiceExplanations": [
+    "$6 is the profit per unit (24 − 18), not total profit.",
+    "$1,080 is total cost (18 × 60).",
+    "",
+    "$1,440 is total revenue (24 × 60)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic3-g1"
+  },
+  {
+   "id": "mic-u3-q15",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-competition",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Firms in a perfectly competitive industry are earning positive economic profits. In the long run,",
+   "choices": [
+    "firms enter, market supply increases, and price falls until profit is zero",
+    "firms exit, market supply decreases, and price rises until profit reaches zero",
+    "firms enter, market demand increases, and price rises even further",
+    "nothing changes, because competitive firms are price takers"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Profits attract new firms. Entry shifts market supply right, lowering price until economic profit is zero.",
+   "choiceExplanations": [
+    "",
+    "Exit happens when firms are making losses, not profits.",
+    "Entry of firms changes market supply, not market demand.",
+    "Each firm takes the price as given, but entry changes the market price."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u3-q16",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-competition",
+   "skill": "1.D",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In long-run equilibrium, a perfectly competitive market is both allocatively and productively efficient because price equals",
+   "choices": [
+    "marginal revenue, which is greater than marginal cost",
+    "average variable cost and also the minimum of marginal cost",
+    "average fixed cost, so that firms cover their fixed costs",
+    "marginal cost and also the minimum of average total cost"
+   ],
+   "correctAnswer": 3,
+   "explanation": "P = MC is allocative efficiency; P = minimum ATC is productive efficiency, with zero economic profit.",
+   "choiceExplanations": [
+    "Profit-maximizing firms set MR equal to MC, not above it.",
+    "Price equal to AVC is the shutdown point, not long-run equilibrium.",
+    "Price equals ATC in the long run, which covers fixed and variable costs together.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u3-q17",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "topicId": "mic3-competition",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In the short run, a profit-maximizing firm should shut down if the price falls below its minimum",
+   "choices": [
+    "average fixed cost",
+    "long-run marginal cost",
+    "average variable cost",
+    "average total cost"
+   ],
+   "correctAnswer": 2,
+   "explanation": "If price is below AVC, revenue does not even cover variable cost, so producing loses more than shutting down.",
+   "choiceExplanations": [
+    "AFC is not the shutdown benchmark; fixed costs are paid either way.",
+    "The firm chooses output where price equals MC; the shutdown test compares price with AVC.",
+    "",
+    "Price below ATC means a loss, but the firm still operates if price covers AVC."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-mic-u3-os1",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "title": "OpenStax Principles of Microeconomics 3e, 7.2 Production in the Short Run",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/7-2-production-in-the-short-run",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on production and marginal product in the short run. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/7-2-production-in-the-short-run",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u3-os2",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "title": "OpenStax Principles of Microeconomics 3e, 7.3 Costs in the Short Run",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/7-3-costs-in-the-short-run",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on short-run cost curves. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/7-3-costs-in-the-short-run",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u3-os3",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "title": "OpenStax Principles of Microeconomics 3e, 8.2 How Perfectly Competitive Firms Make Output Decisions",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/8-2-how-perfectly-competitive-firms-make-output-decisions",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on how perfectly competitive firms choose output. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/8-2-how-perfectly-competitive-firms-make-output-decisions",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u3-os4",
+   "courseId": "ap-microeconomics",
+   "unitId": "u3",
+   "title": "OpenStax Principles of Microeconomics 3e, 8.3 Entry and Exit Decisions in the Long Run",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/8-3-entry-and-exit-decisions-in-the-long-run",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on entry, exit, and long-run equilibrium. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/8-3-entry-and-exit-decisions-in-the-long-run",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Microeconomics free-response set has one long and two short questions that usually combine several units (for example, a firm's costs with its market structure and a government policy), so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "mic-u3-q01",
+    "mic-u3-q02",
+    "mic-u3-q04",
+    "mic-u3-q05",
+    "mic-u3-q09",
+    "mic-u3-q10",
+    "mic-u3-q12",
+    "mic-u3-q14"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "mic-u3-q03",
+    "mic-u3-q06",
+    "mic-u3-q07",
+    "mic-u3-q08",
+    "mic-u3-q11",
+    "mic-u3-q13",
+    "mic-u3-q16",
+    "mic-u3-q17"
+   ]
+  }
+ ]
+}

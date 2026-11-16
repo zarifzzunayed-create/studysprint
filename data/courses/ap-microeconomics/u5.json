@@ -1,0 +1,741 @@
+{
+ "courseId": "ap-microeconomics",
+ "unitId": "u5",
+ "title": "Unit 5: Factor Markets",
+ "topics": [
+  {
+   "id": "mic5-intro",
+   "name": "Introduction to factor markets",
+   "covers": [
+    "Introduction to factor markets"
+   ],
+   "frameworkCovers": [
+    "5.1 Introduction to Factor Markets"
+   ]
+  },
+  {
+   "id": "mic5-changes",
+   "name": "Changes in factor demand and factor supply",
+   "covers": [
+    "Changes in factor demand and factor supply"
+   ],
+   "frameworkCovers": [
+    "5.2 Changes in Factor Demand and Factor Supply"
+   ]
+  },
+  {
+   "id": "mic5-hiring",
+   "name": "Hiring in perfectly competitive factor markets",
+   "covers": [
+    "Profit-maximizing behavior in perfectly competitive factor markets"
+   ],
+   "frameworkCovers": [
+    "5.3 Profit-Maximizing Behavior in Perfectly Competitive Factor Markets"
+   ]
+  },
+  {
+   "id": "mic5-monopsony",
+   "name": "Monopsonistic markets",
+   "covers": [
+    "Monopsonistic markets"
+   ],
+   "frameworkCovers": [
+    "5.4 Monopsonistic Markets"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 5: Factor Markets: review guide",
+  "intro": "This unit turns the supply and demand model around: firms are now the buyers, and households sell labor, land, and capital. The central rule is the same marginal comparison as before: hire another unit of a factor as long as what it adds to revenue is at least what it adds to cost.",
+  "sections": [
+   {
+    "id": "s-mic5-intro",
+    "topicId": "mic5-intro",
+    "title": "Introduction to factor markets",
+    "body": [
+     "Factors of production (labor, capital, and land) earn factor prices (wages, interest, and rent). A firm's demand for a factor is a derived demand: it depends on the factor's productivity, the price of the output it helps make, and the cost of the factor.",
+     "In a labor market, the quantity of labor demanded falls as the wage rises (each added worker has a lower marginal revenue product), and the quantity supplied rises as the wage rises, other things constant."
+    ],
+    "points": [
+     "Labor → wages; capital → interest; land → rent.",
+     "Factor demand is derived from demand for the product."
+    ]
+   },
+   {
+    "id": "s-mic5-changes",
+    "topicId": "mic5-changes",
+    "title": "Changes in factor demand and factor supply",
+    "body": [
+     "Labor demand shifts when the output price changes or when workers' productivity changes (through training, better technology, or more capital to work with). A higher output price or higher productivity raises marginal revenue product and shifts labor demand to the right, raising the wage and employment.",
+     "Labor supply shifts with immigration, education, working conditions, the age distribution, the availability of alternative options, preferences for leisure, and cultural expectations. A larger labor supply lowers the wage and raises employment."
+    ],
+    "points": [
+     "Output price or productivity changes shift labor demand.",
+     "When both curves shift, decide the effect on wage and on employment separately."
+    ]
+   },
+   {
+    "id": "s-mic5-hiring",
+    "topicId": "mic5-hiring",
+    "title": "Hiring in perfectly competitive factor markets",
+    "body": [
+     "Marginal revenue product (MRP) is the change in total revenue from one more unit of a factor: MRP = marginal product × marginal revenue. For a firm that sells in a perfectly competitive output market, marginal revenue is the price, so MRP equals the value of the marginal product (MP × P). Marginal factor (resource) cost is the cost of one more unit of the factor.",
+     "In a perfectly competitive labor market the firm is a wage taker: it can hire all the workers it wants at the market wage, so its marginal factor cost is the wage. It hires workers as long as MRP is at least the wage, stopping where MRP = wage. With several inputs, costs are minimized when the marginal product per dollar is equal across inputs (MP of labor ÷ wage = MP of capital ÷ rental price); if one input gives more product per dollar, use more of it."
+    ],
+    "points": [
+     "MRP = MP × MR (= MP × P for a price-taking seller).",
+     "Hire while MRP ≥ wage.",
+     "Least-cost rule: equal marginal product per dollar."
+    ]
+   },
+   {
+    "id": "s-mic5-monopsony",
+    "topicId": "mic5-monopsony",
+    "title": "Monopsonistic markets",
+    "body": [
+     "A monopsony is a market with a single buyer, such as the only large employer in a town. Because it faces the upward-sloping market supply of labor, it must raise the wage for all workers to hire one more, so its marginal factor cost is greater than the wage.",
+     "A monopsonist hires where MRP = marginal factor cost and then pays the wage on the supply curve for that quantity of labor. Compared with a competitive labor market, it hires fewer workers and pays a lower wage."
+    ],
+    "points": [
+     "Monopsony: marginal factor cost > wage.",
+     "Find the quantity where MRP = MFC, then read the wage from the labor supply curve."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A farm sells apples in a competitive market for $2 each and hires pickers in a competitive labor market at $50 a day. The marginal products of the first four pickers are 40, 32, 25, and 18 apples a day. How many pickers should it hire?",
+   "solution": "MRP = MP × P: $80, $64, $50, and $36. Hire each picker whose MRP is at least the $50 wage: the first three. The fourth adds $36 of revenue but costs $50."
+  },
+  "misconceptions": [
+   [
+    "“Firms hire workers as long as they produce something.”",
+    "Firms hire only while the worker's marginal revenue product is at least the wage."
+   ],
+   [
+    "“A monopsonist pays a wage equal to its marginal factor cost.”",
+    "It pays the lower wage on the labor supply curve at the quantity where MRP = MFC."
+   ],
+   [
+    "“Higher productivity lowers the demand for workers.”",
+    "Higher productivity raises marginal revenue product and so raises labor demand."
+   ],
+   [
+    "“Labor demand depends only on the wage.”",
+    "The wage moves along the curve; output price and productivity shift it."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Microeconomics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-microeconomics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+  "sourceTitle": "AP Microeconomics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-15"
+ },
+ "passages": [
+  {
+   "id": "mic5-t1",
+   "title": "Table: Daily output at a candle workshop (hypothetical data)",
+   "intro": "The workshop sells candles in a perfectly competitive market for $10 each and hires workers in a perfectly competitive labor market at $80 a day. Each line gives total product.",
+   "text": [
+    "0 workers: 0 candles",
+    "1 worker: 12 candles",
+    "2 workers: 22 candles",
+    "3 workers: 30 candles",
+    "4 workers: 36 candles",
+    "5 workers: 40 candles"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mic5-t2",
+   "title": "Table: A mining company that is the only employer in its town (hypothetical data)",
+   "intro": "Each line gives the hourly wage the company must pay every worker to attract that many workers, and the marginal revenue product of the last worker hired.",
+   "text": [
+    "1 worker: wage $10; marginal revenue product $30",
+    "2 workers: wage $12; marginal revenue product $26",
+    "3 workers: wage $14; marginal revenue product $22",
+    "4 workers: wage $16; marginal revenue product $18",
+    "5 workers: wage $18; marginal revenue product $14"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "mic-u5-q01",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-intro",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The demand for bakers is called a derived demand because it depends on",
+   "choices": [
+    "the demand for the bread and pastries that bakers help produce",
+    "the number of people who are willing to work as bakers",
+    "the government's rules about the minimum age for workers",
+    "the wage that bakers could earn by working in other kinds of jobs"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Firms want workers for what they produce, so demand for a factor comes from demand for the product.",
+   "choiceExplanations": [
+    "",
+    "The number of willing workers is labor supply, not the source of labor demand.",
+    "Regulations may constrain the market, but they are not why factor demand is called derived.",
+    "Workers' other options affect labor supply."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q02",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-intro",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which pairing of a factor of production with its payment is correct?",
+   "choices": [
+    "Land earns interest payments",
+    "Labor earns rent",
+    "Capital earns wages",
+    "Capital earns interest"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The factor payments are wages for labor, interest for capital, and rent for land.",
+   "choiceExplanations": [
+    "Land earns rent; interest is the payment to capital.",
+    "Labor earns wages; rent is the payment to land.",
+    "Wages are the payment to labor.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q03",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-intro",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why does a firm's demand curve for labor slope downward in the short run?",
+   "choices": [
+    "Each added worker has a lower marginal product, so MRP falls",
+    "Each added worker must be paid a higher wage than the workers hired before",
+    "The firm's fixed costs rise each time that it hires an additional worker",
+    "Workers supply fewer hours of labor when the firm offers a higher wage"
+   ],
+   "correctAnswer": 0,
+   "explanation": "With diminishing marginal returns, each additional worker adds less output and so less revenue; the firm will hire more workers only at a lower wage.",
+   "choiceExplanations": [
+    "",
+    "A wage taker pays the same market wage to every worker.",
+    "Fixed costs do not change with the number of workers.",
+    "That statement is about labor supply, and higher wages usually increase the quantity supplied."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q04",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-intro",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a competitive labor market, if the wage rises above its equilibrium level and nothing else changes, then",
+   "choices": [
+    "the labor demand curve shifts left and the supply curve shifts right",
+    "the quantity of labor demanded rises and the quantity supplied falls",
+    "the quantity of labor demanded falls and the quantity supplied rises",
+    "the quantity of labor demanded and the quantity supplied both rise"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A higher wage moves along both curves: firms want fewer workers, and more people want to work.",
+   "choiceExplanations": [
+    "A change in the wage moves along the curves; it does not shift them.",
+    "This reverses the two responses to a higher wage.",
+    "",
+    "A higher wage reduces the quantity of labor firms want to hire."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q05",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-changes",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The market price of strawberries rises. In the labor market for strawberry pickers, this will",
+   "choices": [
+    "increase the supply of pickers, lowering the wage",
+    "decrease the supply of pickers, raising the wage",
+    "increase the demand for pickers, raising the wage",
+    "decrease the demand for pickers, lowering the wage"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A higher output price raises each picker's marginal revenue product, so farms demand more pickers at every wage.",
+   "choiceExplanations": [
+    "The output price affects firms' demand for labor, not workers' supply.",
+    "The output price affects firms' demand for labor, not workers' supply.",
+    "",
+    "A higher output price makes each worker more valuable, not less."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q06",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-changes",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A training program makes welders more productive. What happens in the labor market for welders, other things constant?",
+   "choices": [
+    "Labor supply decreases, so the wage rises and employment falls",
+    "Labor demand increases, so the wage and employment both rise",
+    "Labor supply increases, so the wage falls and employment rises",
+    "Labor demand decreases, so the wage and employment both fall"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Higher productivity raises marginal revenue product, shifting labor demand to the right.",
+   "choiceExplanations": [
+    "Nothing in the scenario reduces the number of people willing to weld.",
+    "",
+    "The program changes what each welder can produce; it does not change how many welders offer to work.",
+    "More productive workers add more revenue, which raises demand for them."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q07",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-changes",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A large number of new workers with nursing degrees move into a region. In the regional labor market for nurses, other things constant,",
+   "choices": [
+    "labor demand decreases, so the wage falls and employment falls",
+    "labor supply increases, so the wage falls and employment rises",
+    "labor supply increases, so the wage rises and employment falls",
+    "labor demand increases, so the wage rises and employment rises"
+   ],
+   "correctAnswer": 1,
+   "explanation": "More qualified workers shift labor supply to the right, lowering the equilibrium wage and raising the number employed.",
+   "choiceExplanations": [
+    "The arrival of workers changes labor supply; hospitals' demand has not changed.",
+    "",
+    "A rightward supply shift lowers the wage and raises employment, not the reverse.",
+    "The arrival of workers changes labor supply; hospitals' demand has not changed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q08",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-changes",
+   "skill": "3.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "New software makes accountants more productive at the same time that many more people earn accounting degrees. In the labor market for accountants,",
+   "choices": [
+    "the wage rises, and the change in employment is indeterminate",
+    "employment falls, and the change in the wage is indeterminate",
+    "the wage falls, and the change in employment is indeterminate",
+    "employment rises, and the change in the wage is indeterminate"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Higher productivity increases labor demand and more graduates increase labor supply. Both raise employment; demand pushes the wage up while supply pushes it down.",
+   "choiceExplanations": [
+    "Both shifts raise employment, so employment is certain; the wage is what is uncertain.",
+    "An increase in demand and an increase in supply both raise employment.",
+    "Higher demand pushes the wage up, so a fall in the wage is not certain.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q09",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-hiring",
+   "skill": "1.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A firm sells its product in a perfectly competitive market for $5 a unit. If the fourth worker hired adds 6 units to output, that worker's marginal revenue product is",
+   "choices": [
+    "$11",
+    "$1.20",
+    "$20",
+    "$30"
+   ],
+   "correctAnswer": 3,
+   "explanation": "MRP = marginal product × price = 6 × $5 = $30.",
+   "choiceExplanations": [
+    "$11 adds the two numbers instead of multiplying them.",
+    "$1.20 divides marginal product by the price.",
+    "$20 multiplies the price by the number of workers, not by the marginal product.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q10",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-hiring",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, how many workers should the candle workshop hire to maximize profit?",
+   "choices": [
+    "3 workers",
+    "5 workers",
+    "2 workers",
+    "4 workers"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Marginal products are 12, 10, 8, 6, and 4 candles, so MRP is $120, $100, $80, $60, and $40. The workshop hires every worker whose MRP is at least the $80 wage: the first three.",
+   "choiceExplanations": [
+    "",
+    "The 4th and 5th workers add $60 and $40 of revenue but cost $80 each.",
+    "Stopping at 2 leaves out the 3rd worker, whose MRP just covers the wage.",
+    "The 4th worker adds $60 of revenue but costs $80."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic5-t1"
+  },
+  {
+   "id": "mic-u5-q11",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-hiring",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A profit-maximizing firm in a perfectly competitive labor market will hire an additional worker as long as the worker's",
+   "choices": [
+    "wage is at least as great as the marginal revenue product",
+    "average product is greater than the firm's average total cost of output",
+    "marginal revenue product is at least as great as the market wage",
+    "marginal product is greater than zero units of output"
+   ],
+   "correctAnswer": 2,
+   "explanation": "An additional worker raises profit when the revenue the worker adds (MRP) is at least what the worker costs (the wage).",
+   "choiceExplanations": [
+    "If the wage is above MRP, hiring the worker lowers profit.",
+    "The hiring decision compares marginal revenue product with the wage, not averages.",
+    "",
+    "A worker can add output yet add less revenue than the wage."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q12",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-hiring",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A firm pays workers $10 an hour and rents machines for $20 an hour. The marginal product of the last worker is 20 units, and the marginal product of the last machine is 60 units. To produce its output at lower cost, the firm should use",
+   "choices": [
+    "fewer of both inputs, because both marginal products are positive",
+    "more machines and fewer workers, because machines add more per dollar",
+    "more workers and fewer machines, because workers cost less per hour",
+    "the same mix, because the firm is already minimizing its costs"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Marginal product per dollar is 20 ÷ 10 = 2 for labor and 60 ÷ 20 = 3 for machines. Shifting spending toward machines gives more output for the same cost.",
+   "choiceExplanations": [
+    "Using less of both would reduce output rather than lower the cost of a given output.",
+    "",
+    "A lower price does not make an input the better buy; output per dollar does.",
+    "Costs are minimized only when marginal product per dollar is equal; here 2 is less than 3."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q13",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-hiring",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A firm that hires in a perfectly competitive labor market is a wage taker. This means that the firm",
+   "choices": [
+    "can hire as many workers as it wants at the market wage",
+    "chooses the wage that will maximize its own profit",
+    "pays each worker that worker's own marginal product",
+    "must raise its wage each time that it hires another worker"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A wage taker faces a horizontal labor supply curve at the market wage, so its marginal factor cost equals the wage.",
+   "choiceExplanations": [
+    "",
+    "A wage taker cannot choose the wage; the market sets it.",
+    "All workers are paid the market wage, which equals the MRP of the last worker hired.",
+    "Raising the wage to hire more describes a monopsonist."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q14",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-monopsony",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A monopsony is a market that has",
+   "choices": [
+    "a few large sellers that watch one another's prices",
+    "a single seller, such as the only water company in a town",
+    "many buyers and many sellers of an identical product",
+    "a single buyer, such as the only employer in a town"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Monopsony means one buyer; in a labor market, one employer.",
+   "choiceExplanations": [
+    "A few interdependent sellers form an oligopoly.",
+    "A single seller is a monopoly.",
+    "Many buyers and sellers of an identical product is perfect competition.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q15",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-monopsony",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For a monopsonist, the marginal factor cost of labor is greater than the wage because",
+   "choices": [
+    "workers in the town can easily find jobs with many other employers",
+    "it must lower the price of its product in order to sell more output",
+    "to hire one more worker, it must pay a higher wage to all of its workers",
+    "each additional worker has a lower marginal product than the one before it"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Hiring another worker requires a higher wage, and that raise goes to existing workers too, so total labor cost rises by more than the new wage.",
+   "choiceExplanations": [
+    "A monopsony exists because workers have few other employers.",
+    "Lowering the output price affects marginal revenue, not the cost of labor.",
+    "",
+    "Falling marginal product affects MRP, not marginal factor cost."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u5-q16",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-monopsony",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, how many workers will the mining company hire, and what wage will it pay?",
+   "choices": [
+    "5 workers at a wage of $18",
+    "3 workers at a wage of $14",
+    "3 workers at a wage of $18",
+    "4 workers at a wage of $16"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Total labor cost is $10, $24, $42, $64, and $90, so marginal factor cost is $10, $14, $18, $22, and $26. MRP is at least MFC through the third worker (22 ≥ 18) but not the fourth (18 < 22). The wage for three workers is $14.",
+   "choiceExplanations": [
+    "The fifth worker's MRP ($14) is far below the marginal factor cost ($26).",
+    "",
+    "$18 is the marginal factor cost of the third worker; the wage paid is read from the supply schedule, $14.",
+    "Four workers is where MRP ($18) still exceeds the wage ($16), but the fourth worker's marginal factor cost is $22."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic5-t2"
+  },
+  {
+   "id": "mic-u5-q17",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "topicId": "mic5-monopsony",
+   "skill": "1.D",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Compared with a perfectly competitive labor market that has the same supply of labor and the same marginal revenue product, a monopsony will",
+   "choices": [
+    "hire fewer workers and pay a lower wage",
+    "hire more workers and pay a lower wage",
+    "hire more workers and pay a higher wage",
+    "hire fewer workers and pay a higher wage"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The monopsonist stops hiring where MRP = MFC, which is at a smaller quantity, and pays the lower wage that the supply curve requires for that quantity.",
+   "choiceExplanations": [
+    "",
+    "Hiring more workers would require a higher wage, not a lower one.",
+    "A monopsonist restricts hiring to hold wages down.",
+    "With fewer workers hired, the supply curve allows a lower wage, not a higher one."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-mic-u5-os1",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "title": "OpenStax Principles of Microeconomics 3e, 14.1 The Theory of Labor Markets",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/14-1-the-theory-of-labor-markets",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on labor demand, marginal revenue product, and hiring. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/14-1-the-theory-of-labor-markets",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u5-os2",
+   "courseId": "ap-microeconomics",
+   "unitId": "u5",
+   "title": "OpenStax Principles of Microeconomics 3e, 14.2 Wages and Employment in an Imperfectly Competitive Labor Market",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/14-2-wages-and-employment-in-an-imperfectly-competitive-labor-market",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on monopsony and other imperfectly competitive labor markets. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/14-2-wages-and-employment-in-an-imperfectly-competitive-labor-market",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Microeconomics free-response set has one long and two short questions that usually combine several units (for example, a firm's costs with its market structure and a government policy), so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "mic-u5-q01",
+    "mic-u5-q02",
+    "mic-u5-q05",
+    "mic-u5-q06",
+    "mic-u5-q10",
+    "mic-u5-q11",
+    "mic-u5-q15",
+    "mic-u5-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "mic-u5-q03",
+    "mic-u5-q04",
+    "mic-u5-q07",
+    "mic-u5-q08",
+    "mic-u5-q09",
+    "mic-u5-q12",
+    "mic-u5-q13",
+    "mic-u5-q14"
+   ]
+  }
+ ]
+}

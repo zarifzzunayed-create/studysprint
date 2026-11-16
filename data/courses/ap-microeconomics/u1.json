@@ -1,0 +1,818 @@
+{
+ "courseId": "ap-microeconomics",
+ "unitId": "u1",
+ "title": "Unit 1: Basic Economic Concepts",
+ "topics": [
+  {
+   "id": "mic1-scarcity",
+   "name": "Scarcity, economic systems, and the PPC",
+   "covers": [
+    "Scarcity",
+    "Resource allocation and economic systems",
+    "The Production Possibilities Curve"
+   ],
+   "frameworkCovers": [
+    "1.1 Scarcity",
+    "1.2 Resource Allocation and Economic Systems",
+    "1.3 Production Possibilities Curve"
+   ]
+  },
+  {
+   "id": "mic1-trade",
+   "name": "Comparative advantage and trade",
+   "covers": [
+    "Comparative advantage and gains from trade"
+   ],
+   "frameworkCovers": [
+    "1.4 Comparative Advantage and Trade"
+   ]
+  },
+  {
+   "id": "mic1-cba",
+   "name": "Cost-benefit analysis",
+   "covers": [
+    "Cost-benefit analysis"
+   ],
+   "frameworkCovers": [
+    "1.5 Cost-Benefit Analysis"
+   ]
+  },
+  {
+   "id": "mic1-marginal",
+   "name": "Marginal analysis and consumer choice",
+   "covers": [
+    "Marginal analysis and consumer choice"
+   ],
+   "frameworkCovers": [
+    "1.6 Marginal Analysis and Consumer Choice"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 1: Basic Economic Concepts: review guide",
+  "intro": "This unit introduces how economists think: resources are scarce, every choice has an opportunity cost, trade can make both sides better off, and good decisions compare costs with benefits at the margin. The marginal reasoning here (keep going while marginal benefit is at least marginal cost) returns in every later unit.",
+  "sections": [
+   {
+    "id": "s-mic1-scarcity",
+    "topicId": "mic1-scarcity",
+    "title": "Scarcity, economic systems, and the PPC",
+    "body": [
+     "Scarcity means resources are not sufficient to meet all of society's wants, so trade-offs are unavoidable. Most factors of production (land, labor, capital) are scarce; some, such as established knowledge, may not be, because they are non-rival: one person's use does not reduce what is left for others. Every economy must answer what to produce, how to produce it, and who consumes it. A command economy answers through central planning, a market economy through prices and the choices of buyers and sellers, and a mixed economy through both.",
+     "The production possibilities curve (PPC) shows the combinations of two goods an economy can produce with its resources and technology. Points on the curve are efficient, points inside show unused or misused resources, and points outside are unattainable. A straight-line PPC has a constant opportunity cost; a PPC bowed outward has an increasing opportunity cost. More resources or better technology shift the PPC outward (growth); producing more capital goods today shifts it outward faster in the future."
+    ],
+    "points": [
+     "Opportunity cost of one more unit of X = units of Y given up ÷ units of X gained.",
+     "Moving from inside the PPC to the curve is not growth; a shift of the curve is."
+    ]
+   },
+   {
+    "id": "s-mic1-trade",
+    "topicId": "mic1-trade",
+    "title": "Comparative advantage and trade",
+    "body": [
+     "A producer has an absolute advantage when it can make more of a good with the same resources, and a comparative advantage when it can make the good at a lower opportunity cost. Specializing according to comparative advantage, not absolute advantage, lets both sides consume beyond their own PPCs.",
+     "Trade benefits both sides only when the terms of trade fall between their opportunity costs. If one cake costs Ana 2 pies and Ben 3 pies, Ana should sell cakes at a price between 2 and 3 pies each."
+    ],
+    "points": [
+     "With output-per-day data, the opportunity cost of X is (output of Y) ÷ (output of X).",
+     "A producer can have an absolute advantage in everything, but never a comparative advantage in everything."
+    ]
+   },
+   {
+    "id": "s-mic1-cba",
+    "topicId": "mic1-cba",
+    "title": "Cost-benefit analysis",
+    "body": [
+     "Rational decision makers count all opportunity costs, explicit (money paid out) and implicit (the value of what is given up, such as a salary forgone). Total benefit is measured as utility for consumers and total revenue for firms. The best choice maximizes total net benefit: total benefit minus total cost.",
+     "Some choices can be adjusted a little at a time and are best analyzed at the margin. Others are all-or-nothing and must be judged by comparing total benefits with total costs. Costs that have already been paid and cannot be recovered (sunk costs) should not affect a decision."
+    ],
+    "points": [
+     "Economic profit = revenue − explicit costs − implicit costs.",
+     "Ignore sunk costs; compare only the benefits and costs still to come."
+    ]
+   },
+   {
+    "id": "s-mic1-marginal",
+    "topicId": "mic1-marginal",
+    "title": "Marginal analysis and consumer choice",
+    "body": [
+     "Marginal benefit (MB) is the extra benefit from one more unit of an activity; marginal cost (MC) is the extra cost. Do more while MB exceeds MC, and stop where MB = MC; fixed costs and sunk costs do not change that point.",
+     "Consumers get diminishing marginal utility: each additional unit adds less satisfaction than the one before. With limited income, a consumer maximizes utility by buying so that the marginal utility per dollar (MU ÷ price) is equal across goods. If MU per dollar is higher for one good, buy more of it and less of the other. Indifference curves are outside the AP course."
+    ],
+    "points": [
+     "Optimal quantity: the last unit for which MB ≥ MC.",
+     "Utility-maximizing rule: MUx ÷ Px = MUy ÷ Py."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A consumer has $10. Snacks cost $2 and drinks cost $1. The marginal utility of successive snacks is 20, 16, 10, 6; of successive drinks, 12, 9, 8, 5, 4, 2. Which bundle maximizes utility?",
+   "solution": "Compare marginal utility per dollar. Snacks: 10, 8, 5, 3. Drinks: 12, 9, 8, 5, 4, 2. Buy in order of the highest value until $10 is spent: drink (12), snack (10), drink (9), then the second snack and third drink (8 each), then the third snack and fourth drink (5 each). That is 3 snacks ($6) and 4 drinks ($4), where MU per dollar is 5 for both."
+  },
+  "misconceptions": [
+   [
+    "“Absolute advantage decides who should produce what.”",
+    "Comparative advantage, the lower opportunity cost, decides it."
+   ],
+   [
+    "“I already paid for it, so I should use it.”",
+    "Money already spent is a sunk cost and should not affect the decision."
+   ],
+   [
+    "“The best choice has the largest total benefit.”",
+    "The best choice has the largest net benefit: total benefit minus total cost."
+   ],
+   [
+    "“Consumers should buy the good with the highest marginal utility.”",
+    "Compare marginal utility per dollar, not marginal utility alone."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Microeconomics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-microeconomics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+  "sourceTitle": "AP Microeconomics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-15"
+ },
+ "passages": [
+  {
+   "id": "mic1-t1",
+   "title": "Table and graph: Production possibilities of Eastland (hypothetical data)",
+   "figure": {
+    "kind": "lines",
+    "alt": "Graph of Eastland's production possibilities curve, with bikes on the horizontal axis and kayaks on the vertical axis. It is a straight line from 0 bikes and 60 kayaks to 40 bikes and 0 kayaks, passing through 10 and 45, 20 and 30, and 30 and 15.",
+    "xLabel": "Bikes",
+    "yLabel": "Kayaks",
+    "xMax": 50,
+    "yMax": 70,
+    "series": [
+     {
+      "label": "PPC",
+      "points": [
+       [
+        0,
+        60
+       ],
+       [
+        40,
+        0
+       ]
+      ]
+     }
+    ],
+    "guides": [
+     {
+      "x": 10,
+      "y": 45,
+      "label": "B"
+     },
+     {
+      "x": 20,
+      "y": 30,
+      "label": "C"
+     },
+     {
+      "x": 30,
+      "y": 15,
+      "label": "D"
+     },
+     {
+      "x": 40
+     },
+     {
+      "y": 60
+     }
+    ]
+   },
+   "text": [
+    "Point A: 0 bikes, 60 kayaks",
+    "Point B: 10 bikes, 45 kayaks",
+    "Point C: 20 bikes, 30 kayaks",
+    "Point D: 30 bikes, 15 kayaks",
+    "Point E: 40 bikes, 0 kayaks"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mic1-t2",
+   "title": "Table: Output per day for two bakers (hypothetical data)",
+   "text": [
+    "Ana: 10 cakes or 20 pies",
+    "Ben: 5 cakes or 15 pies"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mic1-t3",
+   "title": "Table: Marginal benefit and marginal cost of studying (hypothetical data)",
+   "intro": "A student measures the benefit of each hour of studying in exam points gained, and its cost in points lost on another exam.",
+   "text": [
+    "1st hour: marginal benefit 30 points, marginal cost 12 points",
+    "2nd hour: marginal benefit 24 points, marginal cost 12 points",
+    "3rd hour: marginal benefit 18 points, marginal cost 12 points",
+    "4th hour: marginal benefit 12 points, marginal cost 12 points",
+    "5th hour: marginal benefit 6 points, marginal cost 12 points"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "mic-u1-q01",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-scarcity",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Most factors of production are scarce, but established knowledge may not be, because it is",
+   "choices": [
+    "non-rival: one person's use leaves no less for others to use",
+    "a capital good: it wears out a little more each time it is used",
+    "unlimited: it can be produced without using any resources",
+    "excludable: its owner can charge every person who uses it"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Knowledge that already exists can be used by many people at once without being used up, which is what non-rival means.",
+   "choiceExplanations": [
+    "",
+    "Knowledge does not wear out with use, unlike physical capital.",
+    "Creating knowledge uses resources; the point is that once it exists, using it does not use it up.",
+    "Excludability is about whether people can be kept from using something; it does not explain why knowledge is not scarce."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u1-q02",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-scarcity",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In a market economy, the questions of what to produce, how to produce it, and who consumes it are answered mainly by",
+   "choices": [
+    "customs handed down from earlier generations",
+    "prices and the choices of buyers and sellers",
+    "a central planning agency that sets output targets",
+    "votes taken in the national legislature each year"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Markets coordinate decisions through prices, which signal what buyers want and what producers can supply.",
+   "choiceExplanations": [
+    "Custom guides a traditional economy, not a market economy.",
+    "",
+    "Central planning is the coordinating mechanism of a command economy.",
+    "Legislatures set rules and some policies, but they do not allocate most resources in a market economy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u1-q03",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-scarcity",
+   "skill": "1.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the table and graph, the opportunity cost of producing one more bike in Eastland is",
+   "choices": [
+    "15 kayaks at every point, so the PPC is bowed outward",
+    "0.67 kayaks at every point, so the PPC is a straight line",
+    "higher with each bike made, so the PPC is bowed outward",
+    "1.5 kayaks at every point, so the PPC is a straight line"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Each 10 more bikes costs 15 kayaks, or 1.5 kayaks per bike, at every step. A constant opportunity cost gives a straight-line PPC.",
+   "choiceExplanations": [
+    "15 kayaks is the cost of 10 bikes, not one, and a constant cost gives a straight line.",
+    "0.67 is the cost of one kayak in bikes (10 ÷ 15), not the cost of a bike.",
+    "The kayaks given up per bike are the same at every step, so the cost is not rising.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic1-t1"
+  },
+  {
+   "id": "mic-u1-q04",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-scarcity",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An economy moves from a point inside its production possibilities curve to a point on the curve. This change shows that",
+   "choices": [
+    "resources that were idle or misused are now fully used",
+    "the economy is now producing more than its resources allow",
+    "the economy has grown, because its PPC has shifted outward",
+    "the opportunity cost of both goods has fallen to zero"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Points inside the PPC mean some resources are unemployed or used inefficiently; reaching the curve means they are now used fully.",
+   "choiceExplanations": [
+    "",
+    "Points on the curve are attainable; only points outside it are beyond the economy's resources.",
+    "Growth is a shift of the curve itself; here the curve has not moved.",
+    "On the curve, producing more of one good requires giving up some of the other, so opportunity cost is not zero."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u1-q05",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-scarcity",
+   "skill": "3.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Two identical countries start on the same PPC. Country X chooses a point with more capital goods and fewer consumer goods than Country Y. Over time, compared with Country Y's, Country X's PPC will most likely",
+   "choices": [
+    "stay the same, because both countries began with the same resources",
+    "shift outward more, because capital goods add to future capacity",
+    "shift inward, because producing capital goods uses up resources",
+    "shift outward less, because consumer goods add more to future capacity"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Capital goods such as machines and factories increase what an economy can produce later, so choosing more of them now speeds up growth.",
+   "choiceExplanations": [
+    "The countries' different choices lead to different capital stocks, so their PPCs will not stay the same.",
+    "",
+    "Every point on the PPC uses the economy's resources; choosing capital goods does not shrink future capacity.",
+    "Consumer goods satisfy wants now; they do not add to productive capacity."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u1-q06",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-trade",
+   "skill": "1.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, which baker has an absolute advantage in each good?",
+   "choices": [
+    "Ben has an absolute advantage in both cakes and pies.",
+    "Ben has it in cakes, and Ana has it in pies.",
+    "Ana has an absolute advantage in both cakes and pies.",
+    "Ana has it in cakes, and Ben has it in pies."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Ana can make more cakes (10 versus 5) and more pies (20 versus 15) in a day, so she has an absolute advantage in both.",
+   "choiceExplanations": [
+    "Ben makes fewer of each good per day than Ana.",
+    "Ana makes more of both goods, so Ben has no absolute advantage in cakes.",
+    "",
+    "Ana makes more pies than Ben (20 versus 15), so Ben has no absolute advantage in pies."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic1-t2"
+  },
+  {
+   "id": "mic-u1-q07",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-trade",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the table of the two bakers' daily output, who should specialize in cakes, and why?",
+   "choices": [
+    "Ana, because a cake costs her 2 pies while it costs Ben 3 pies",
+    "Ben, because he gives up fewer cakes for each pie that he bakes",
+    "Ben, because a cake costs him 3 pies while it costs Ana 2 pies",
+    "Ana, because she can bake more cakes in a day than Ben can"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Ana gives up 20 ÷ 10 = 2 pies per cake; Ben gives up 15 ÷ 5 = 3. Ana's opportunity cost of cakes is lower, so she has the comparative advantage in cakes.",
+   "choiceExplanations": [
+    "",
+    "Ben's lower cost of pies (1/3 cake) is a reason for him to make pies, not cakes.",
+    "A higher opportunity cost (3 pies) means Ben has the comparative disadvantage in cakes.",
+    "Making more cakes is absolute advantage; specialization follows comparative advantage. The conclusion is right here, but the reason is not."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic1-t2"
+  },
+  {
+   "id": "mic-u1-q08",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-trade",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A cake costs Ana 2 pies to make and costs Ben 3 pies. If Ana sells cakes to Ben, which price would make both of them better off?",
+   "choices": [
+    "2.5 pies per cake",
+    "1.5 pies per cake",
+    "3.5 pies per cake",
+    "5.0 pies per cake"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Ana gains if she receives more than 2 pies per cake, and Ben gains if he pays fewer than 3. Only 2.5 lies between their opportunity costs.",
+   "choiceExplanations": [
+    "",
+    "Ana would receive 1.5 pies for a cake that costs her 2 pies, so she would lose.",
+    "Ben would pay 3.5 pies for a cake he could make for 3, so he would lose.",
+    "Ben would pay 5 pies for a cake he could make for 3, so he would not trade."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u1-q09",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-trade",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why can two producers both gain when each specializes according to comparative advantage and they trade?",
+   "choices": [
+    "The producer with the absolute advantage takes over the production of both of the goods",
+    "Each good is made by the lower-opportunity-cost producer, so total output rises",
+    "Each producer stops facing scarcity once it specializes in a single good",
+    "Trade moves each producer's own production possibilities curve outward"
+   ],
+   "correctAnswer": 1,
+   "explanation": "When each good is produced where it costs the least in other goods forgone, the same resources yield more total output to share.",
+   "choiceExplanations": [
+    "If one producer made everything, the gains from the other's lower opportunity cost would be lost.",
+    "",
+    "Specialization and trade raise consumption but do not end scarcity.",
+    "Trade lets producers consume beyond their PPCs; it does not shift the curves themselves."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u1-q10",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-cba",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Lena leaves a job paying $50,000 a year to open a shop. In its first year the shop earns $130,000 in revenue and pays $70,000 in explicit costs. What is her economic profit?",
+   "choices": [
+    "$10,000",
+    "$80,000",
+    "$60,000",
+    "$130,000"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Economic profit subtracts both explicit costs and the implicit cost of the salary she gave up: 130,000 − 70,000 − 50,000 = $10,000.",
+   "choiceExplanations": [
+    "",
+    "$80,000 subtracts only the forgone salary and leaves out the explicit costs.",
+    "$60,000 is the accounting profit, which leaves out the forgone salary.",
+    "$130,000 is total revenue, before any costs are subtracted."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u1-q11",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-cba",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A rational decision maker choosing among several options should pick the one that has the",
+   "choices": [
+    "greatest total benefit, whatever its total cost may turn out to be",
+    "lowest total cost, whatever its total benefit may be",
+    "greatest marginal benefit from the first unit chosen",
+    "greatest total net benefit (total benefit minus total cost)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The optimal choice maximizes total net benefit, the difference between total benefits and total costs.",
+   "choiceExplanations": [
+    "A large benefit can come with an even larger cost.",
+    "A low cost can come with an even lower benefit.",
+    "The first unit's marginal benefit says nothing about total costs or later units.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u1-q12",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-cba",
+   "skill": "2.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Sam paid $40 for a concert ticket that cannot be refunded or resold. On the day of the concert he feels tired. In deciding whether to go, Sam should",
+   "choices": [
+    "count the $40 as the opportunity cost of going tonight",
+    "go, because otherwise the $40 he paid for it would be wasted money",
+    "stay home, because the concert has already cost him $40",
+    "ignore the $40, because it is a sunk cost he cannot recover"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The $40 is gone whichever choice he makes, so only the benefits and costs still ahead (enjoyment versus rest) matter.",
+   "choiceExplanations": [
+    "The opportunity cost of going is the rest or other activity he gives up tonight, not money already spent.",
+    "The $40 is lost either way; going does not recover it.",
+    "The payment is the same whether he goes or not, so it is not a reason to stay home.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u1-q13",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-cba",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A town can build either a pool (total benefit $900,000, total cost $700,000) or a park (total benefit $600,000, total cost $300,000), but not both. Which should it build?",
+   "choices": [
+    "The pool, because its total benefit of $900,000 is larger",
+    "The pool, because its net benefit of $200,000 is positive",
+    "The park, because its net benefit of $300,000 is larger",
+    "Neither, because both projects have costs above $250,000"
+   ],
+   "correctAnswer": 2,
+   "explanation": "This is an all-or-nothing choice, so compare total net benefits: the park's is 600,000 − 300,000 = $300,000, and the pool's is 900,000 − 700,000 = $200,000.",
+   "choiceExplanations": [
+    "Total benefit alone ignores the pool's much higher cost.",
+    "A positive net benefit is not enough when another option has a larger one.",
+    "",
+    "Both projects have benefits greater than their costs, so building one beats building neither."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u1-q14",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-marginal",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "As Mia eats more slices of pizza at one meal, each additional slice adds less to her satisfaction than the slice before. This illustrates",
+   "choices": [
+    "increasing opportunity cost",
+    "diminishing marginal returns",
+    "the utility-maximizing rule",
+    "diminishing marginal utility"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Diminishing marginal utility means the extra satisfaction from each additional unit consumed falls.",
+   "choiceExplanations": [
+    "Increasing opportunity cost describes a bowed-out PPC, not satisfaction from consumption.",
+    "Diminishing marginal returns describes production: extra output from added inputs, not extra satisfaction.",
+    "The utility-maximizing rule compares marginal utility per dollar across goods.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u1-q15",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-marginal",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, how many hours should the student study to maximize total net benefit?",
+   "choices": [
+    "3 hours",
+    "5 hours",
+    "4 hours",
+    "1 hour"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The student should keep studying while marginal benefit is at least marginal cost. That holds through the 4th hour (12 = 12); the 5th hour adds 6 points but costs 12.",
+   "choiceExplanations": [
+    "Stopping at 3 hours leaves out the 4th hour, whose benefit still covers its cost.",
+    "The 5th hour's marginal benefit (6) is less than its marginal cost (12), so it lowers net benefit.",
+    "",
+    "The 1st hour has the highest marginal benefit, but later hours still add more than they cost."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic1-t3"
+  },
+  {
+   "id": "mic-u1-q16",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-marginal",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Tacos cost $2 and juice costs $1. At her current purchases, Rosa's marginal utility is 10 from the last taco and 8 from the last juice. To increase her total utility with the same budget, Rosa should buy",
+   "choices": [
+    "more of both goods, because both still add to her total utility",
+    "more juice and fewer tacos, because juice gives more utility per dollar",
+    "the same amounts, because she is already maximizing her utility",
+    "more tacos and less juice, because each taco gives her more marginal utility"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Marginal utility per dollar is 10 ÷ 2 = 5 for tacos and 8 ÷ 1 = 8 for juice. Shifting spending toward juice raises total utility.",
+   "choiceExplanations": [
+    "Her budget is fixed, so she cannot buy more of both.",
+    "",
+    "Utility is maximized only when marginal utility per dollar is equal; here 5 is less than 8.",
+    "The taco's marginal utility is higher, but it costs twice as much; per dollar it gives less."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u1-q17",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "topicId": "mic1-marginal",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A firm finds that the marginal benefit of the last unit of an activity is less than its marginal cost. To increase its total net benefit, the firm should",
+   "choices": [
+    "stop the activity entirely, because it is producing a loss",
+    "do more of the activity, until its total benefit is as large as possible",
+    "do less of the activity, because the last unit cost more than it added",
+    "keep the same level, because its fixed costs are already paid"
+   ],
+   "correctAnswer": 2,
+   "explanation": "When MB < MC, the last unit reduced net benefit, so cutting back raises it until MB = MC.",
+   "choiceExplanations": [
+    "Earlier units may have added more benefit than cost; only the units beyond MB = MC should be cut.",
+    "More units would add even more cost than benefit.",
+    "",
+    "Fixed costs do not affect the optimal quantity, and the current level is past the optimum."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-mic-u1-os1",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "title": "OpenStax Principles of Microeconomics 3e, 2.2 The Production Possibilities Frontier and Social Choices",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/2-2-the-production-possibilities-frontier-and-social-choices",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on the production possibilities frontier and opportunity cost. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/2-2-the-production-possibilities-frontier-and-social-choices",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u1-os2",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "title": "OpenStax Principles of Microeconomics 3e, 19.1 Absolute and Comparative Advantage",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/19-1-absolute-and-comparative-advantage",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on absolute and comparative advantage. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/19-1-absolute-and-comparative-advantage",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u1-os3",
+   "courseId": "ap-microeconomics",
+   "unitId": "u1",
+   "title": "OpenStax Principles of Microeconomics 3e, 6.1 Consumption Choices",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/6-1-consumption-choices",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on marginal utility and consumer choice. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/6-1-consumption-choices",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Microeconomics free-response set has one long and two short questions that usually combine several units (for example, a firm's costs with its market structure and a government policy), so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "mic-u1-q01",
+    "mic-u1-q02",
+    "mic-u1-q06",
+    "mic-u1-q07",
+    "mic-u1-q10",
+    "mic-u1-q13",
+    "mic-u1-q15",
+    "mic-u1-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "mic-u1-q03",
+    "mic-u1-q05",
+    "mic-u1-q08",
+    "mic-u1-q09",
+    "mic-u1-q11",
+    "mic-u1-q12",
+    "mic-u1-q14",
+    "mic-u1-q17"
+   ]
+  }
+ ]
+}

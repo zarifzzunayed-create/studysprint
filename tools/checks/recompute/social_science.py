@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Recomputes the data-based answers in AP Macroeconomics and AP Psychology (offline).
+"""Recomputes the data-based answers in AP Macroeconomics, AP Microeconomics, and AP Psychology (offline).
 Run: python3 tools/checks/recompute/social_science.py
 
 Each entry reads the numbers from the question's own stem, table, or graph in the data files, redoes the calculation,
@@ -10,7 +10,7 @@ import glob, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 QS, PS = {}, {}
-for c in ("ap-macroeconomics", "ap-psychology"):
+for c in ("ap-macroeconomics", "ap-microeconomics", "ap-psychology"):
     for f in glob.glob(os.path.join(ROOT, "data", "courses", c, "u*.json")):
         d = json.load(open(f, encoding="utf-8"))
         for p in d.get("passages", []): PS[p["id"]] = p
@@ -21,6 +21,8 @@ key = lambda i: QS[i]["choices"][QS[i]["correctAnswer"]]
 stem = lambda i: QS[i]["prompt"]
 table = lambda i: " | ".join(PS[QS[i]["passageId"]]["text"])
 fig = lambda i: PS[QS[i]["passageId"]]["figure"]
+intro = lambda i: PS[QS[i]["passageId"]].get("intro", "")
+rows = lambda i: [nums(l) for l in PS[QS[i]["passageId"]]["text"]]
 nums = lambda s: [float(x.replace(",", "")) for x in re.findall(r"-?(?:\d[\d,]*\.?\d*|\.\d+)", s.replace("−", "-"))]
 
 
@@ -85,6 +87,52 @@ a = nums(stem("mac-u6-q06")); check("mac-u6-q06", key("mac-u6-q06") == "$%d" % r
 a = nums(stem("mac-u6-q17")); check("mac-u6-q17", key("mac-u6-q17") == "$%d billion" % (a[0] + a[1]), "national saving plus net capital inflow")
 rate = nums(stem("mac-u6-q18"))[0]; qs, qd = line_x(S("mac-u6-q18", "S"), rate), line_x(S("mac-u6-q18", "D"), rate); eq = cross(S("mac-u6-q18", "D"), S("mac-u6-q18", "S"))
 check("mac-u6-q18", qs > qd and rate > eq[1] and key("mac-u6-q18") == "a surplus of %d billion dollars, so the dollar will depreciate" % round(qs - qd), "quantity supplied minus quantity demanded at the stated rate")
+
+# ---------------- AP Microeconomics ----------------
+k = [r[1] for r in rows("mic-u1-q03")]; b = [r[0] for r in rows("mic-u1-q03")]; per = {(k[i] - k[i + 1]) / (b[i + 1] - b[i]) for i in range(4)}
+check("mic-u1-q03", per == {1.5} and key("mic-u1-q03").startswith("1.5 kayaks at every point"), "kayaks given up per bike")
+(ac, ap), (bc, bp) = rows("mic-u1-q06")
+check("mic-u1-q06", ac > bc and ap > bp and key("mic-u1-q06").startswith("Ana has an absolute advantage in both"), "Ana makes more of both goods")
+check("mic-u1-q07", ap / ac < bp / bc and key("mic-u1-q07").startswith("Ana, because a cake costs her %d pies while it costs Ben %d" % (ap / ac, bp / bc)), "pies given up per cake")
+lo, hi = sorted(nums(stem("mic-u1-q08"))[:2]); check("mic-u1-q08", lo < nums(key("mic-u1-q08"))[0] < hi and all(not lo < nums(c)[0] < hi for c in QS["mic-u1-q08"]["choices"] if c != key("mic-u1-q08")), "price between the two opportunity costs")
+a = nums(stem("mic-u1-q10")); check("mic-u1-q10", key("mic-u1-q10") == "${:,.0f}".format(a[1] - a[2] - a[0]), "revenue minus explicit and implicit costs")
+a = nums(stem("mic-u1-q13")); check("mic-u1-q13", a[2] - a[3] > a[0] - a[1] and key("mic-u1-q13").startswith("The park") and "${:,.0f}".format(a[2] - a[3]) in key("mic-u1-q13"), "net benefit of each project")
+r = rows("mic-u1-q15"); check("mic-u1-q15", key("mic-u1-q15") == "%d hours" % sum(1 for x in r if x[1] >= x[2]), "hours with marginal benefit at least marginal cost")
+a = nums(stem("mic-u1-q16")); check("mic-u1-q16", a[3] / a[1] > a[2] / a[0] and key("mic-u1-q16").startswith("more juice and fewer tacos"), "marginal utility per dollar")
+a = nums(stem("mic-u2-q04")); check("mic-u2-q04", key("mic-u2-q04") == "%d apps" % (a[1] + a[2]), "sum of individual quantities")
+a = nums(stem("mic-u2-q05")); check("mic-u2-q05", key("mic-u2-q05") == "%d, so demand is elastic" % (a[1] / a[0]), "percentage change in quantity over percentage change in price")
+a = nums(stem("mic-u2-q08")); check("mic-u2-q08", key("mic-u2-q08").startswith("−%s, so instant noodles are an inferior good" % (a[1] / a[0])), "negative income elasticity")
+a = nums(stem("mic-u2-q09")); check("mic-u2-q09", key("mic-u2-q09") == "%d, so supply is elastic" % (a[1] / a[0]), "elasticity of supply")
+x, y = cross(S("mic-u2-q11", "D"), S("mic-u2-q11", "S")); top = S("mic-u2-q11", "D")["points"][0][1]
+check("mic-u2-q11", key("mic-u2-q11") == "$%d" % round(.5 * x * (top - y)), "triangle under demand and above the price")
+(p0, q0), (pb, ps, q1) = rows("mic-u2-q15"); check("mic-u2-q15", key("mic-u2-q15") == "Tax revenue $%d; deadweight loss $%d" % ((pb - ps) * q1, .5 * (pb - ps) * (q0 - q1)), "tax times new quantity; half the tax times the fall in quantity")
+tp = [r[1] for r in rows("mic-u3-q01")]; mp = [b - a for a, b in zip(tp, tp[1:])]
+check("mic-u3-q01", key("mic-u3-q01") == "%d sandwiches" % mp[2], "marginal product of the third worker")
+check("mic-u3-q02", next(i for i in range(1, 5) if mp[i] < mp[i - 1]) == 2 and key("mic-u3-q02").startswith("third worker"), "first worker whose marginal product falls")
+a = nums(stem("mic-u3-q04")); check("mic-u3-q04", key("mic-u3-q04") == "$%d" % ((a[1] + a[2]) / a[0]), "total cost over quantity")
+a = nums(stem("mic-u3-q09")); check("mic-u3-q09", a[0] - a[1] - a[2] == 0 and key("mic-u3-q09").startswith("zero economic profit"), "revenue minus all costs")
+price = nums(intro("mic-u3-q11"))[0]; check("mic-u3-q11", key("mic-u3-q11") == "%d units" % sum(1 for r in rows("mic-u3-q11") if r[1] <= price), "units whose marginal cost is no more than the price")
+a = nums(stem("mic-u3-q12")); check("mic-u3-q12", a[0] > a[1] and a[1] + a[2] - a[0] < a[2] and key("mic-u3-q12").startswith("keep producing: its $%d loss" % (a[1] + a[2] - a[0])), "loss from producing versus fixed cost")
+A, B = [g for g in fig("mic-u3-q14")["guides"]][:2]
+check("mic-u3-q14", round(line_y(S("mic-u3-q14", "MC"), A["x"]), 6) == A["y"] and key("mic-u3-q14") == "$%d" % ((A["y"] - B["y"]) * A["x"]), "(price − ATC) × quantity where MC = MR")
+mc = S("mic-u4-q03", "MC = ATC")["points"][0][1]; q = line_x(S("mic-u4-q03", "MR"), mc); pm = line_y(S("mic-u4-q03", "D"), q); qc = line_x(S("mic-u4-q03", "D"), mc)
+check("mic-u4-q03", key("mic-u4-q03") == "%d units at a price of $%d" % (q, pm), "MR = MC, then the price on the demand curve")
+check("mic-u4-q04", key("mic-u4-q04") == "$%d" % (.5 * (pm - mc) * (qc - q)), "triangle between demand and MC from the monopoly to the efficient quantity")
+hh, hl, lh, ll = rows("mic-u4-q15")   # each row: [A's profit, B's profit]
+check("mic-u4-q15", lh[0] > hh[0] and ll[0] > hl[0] and key("mic-u4-q15").startswith("A low price"), "A earns more with low whichever price B chooses")
+check("mic-u4-q16", hl[1] > hh[1] and ll[1] > lh[1] and ll[0] < hh[0] and key("mic-u4-q16").startswith("Both charge low and earn $%d each, less than the $%d" % (ll[0], hh[0])), "low is dominant for both; both-low pays less than both-high")
+a = nums(stem("mic-u5-q09")); check("mic-u5-q09", key("mic-u5-q09") == "$%d" % (a[0] * a[1]), "marginal product times price")
+price, wage = nums(intro("mic-u5-q10"))[:2]; tp = [r[1] for r in rows("mic-u5-q10")]
+check("mic-u5-q10", key("mic-u5-q10") == "%d workers" % sum(1 for a, b in zip(tp, tp[1:]) if (b - a) * price >= wage), "workers whose MRP is at least the wage")
+a = nums(stem("mic-u5-q12")); check("mic-u5-q12", a[3] / a[1] > a[2] / a[0] and key("mic-u5-q12").startswith("more machines and fewer workers"), "marginal product per dollar")
+r = rows("mic-u5-q16"); tc = [x[0] * x[1] for x in r]; mfc = [tc[0]] + [b - a for a, b in zip(tc, tc[1:])]; n = sum(1 for x, m in zip(r, mfc) if x[2] >= m)
+check("mic-u5-q16", key("mic-u5-q16") == "%d workers at a wage of $%d" % (n, r[n - 1][1]), "workers whose MRP is at least marginal factor cost; wage from the supply schedule")
+a = nums(stem("mic-u6-q04")); check("mic-u6-q04", a[0] > a[1] and key("mic-u6-q04").startswith("increased"), "MSB above MSC")
+D_, MPC, MSC = S("mic-u6-q06", "D = MSB"), S("mic-u6-q06", "MPC"), S("mic-u6-q06", "MSC"); qm = cross(D_, MPC)[0]; qo = cross(D_, MSC)[0]; gap = line_y(MSC, qm) - line_y(D_, qm)
+check("mic-u6-q06", key("mic-u6-q06") == "The market produces %d units; the socially optimal quantity is %d units" % (round(qm), round(qo)), "demand meets MPC and MSC")
+check("mic-u6-q07", key("mic-u6-q07") == "$%d" % round(.5 * gap * (qm - qo)), "triangle between MSC and MSB")
+check("mic-u6-q09", key("mic-u6-q09").startswith("A per-unit tax of $%d on producers" % round(line_y(MSC, 0) - line_y(MPC, 0))), "tax equal to the marginal external cost")
+a = nums(stem("mic-u6-q17")); check("mic-u6-q17", a[3] > a[1] and a[2] > a[0] and key("mic-u6-q17") == "progressive", "tax share rises with income")
 
 # ---------------- AP Psychology ----------------
 r = {l.split(":")[0]: nums(l.split(":")[1]) for l in PS["psy1-b"]["text"]}

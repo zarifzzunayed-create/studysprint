@@ -55,7 +55,7 @@
     } else {
       const left = 46, right = 64, top = 24, bottom = 40; H = 250;
       const pw = W - left - right, ph = H - top - bottom, X = (x) => left + pw * x / f.xMax, Y = (y) => top + ph * (1 - y / f.yMax);
-      const dash = ["", "7 4", "2 4", "9 3 2 3"];
+      const dash = ["", "7 4", "3 3", "9 3 2 3"];
       kids.push(el("line", { x1: left, y1: top, x2: left, y2: top + ph, class: "fig-axis" }), el("line", { x1: left, y1: top + ph, x2: left + pw, y2: top + ph, class: "fig-axis" }),
         el("text", { x: 4, y: 14, class: "fig-text" }, f.yLabel), el("text", { x: left + pw, y: H - 6, "text-anchor": "end", class: "fig-text" }, f.xLabel));
       // A guide marks a point with dashed lines to both axes and prints its values there; with only x (or only y) it is an axis value.

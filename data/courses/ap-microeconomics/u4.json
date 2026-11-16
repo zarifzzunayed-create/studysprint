@@ -1,0 +1,836 @@
+{
+ "courseId": "ap-microeconomics",
+ "unitId": "u4",
+ "title": "Unit 4: Imperfect Competition",
+ "topics": [
+  {
+   "id": "mic4-monopoly",
+   "name": "Imperfect competition and monopoly",
+   "covers": [
+    "Monopoly"
+   ],
+   "frameworkCovers": [
+    "4.1 Introduction to Imperfectly Competitive Markets",
+    "4.2 Monopoly"
+   ]
+  },
+  {
+   "id": "mic4-discrimination",
+   "name": "Price discrimination",
+   "covers": [
+    "Price discrimination"
+   ],
+   "frameworkCovers": [
+    "4.3 Price Discrimination"
+   ]
+  },
+  {
+   "id": "mic4-monopolistic",
+   "name": "Monopolistic competition",
+   "covers": [
+    "Monopolistic competition"
+   ],
+   "frameworkCovers": [
+    "4.4 Monopolistic Competition"
+   ]
+  },
+  {
+   "id": "mic4-oligopoly",
+   "name": "Oligopoly and game theory",
+   "covers": [
+    "Oligopoly and game theory"
+   ],
+   "frameworkCovers": [
+    "4.5 Oligopoly and Game Theory"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 4: Imperfect Competition: review guide",
+  "intro": "This unit covers markets in which firms have power over price: monopoly, monopolistic competition, and oligopoly. Firms still maximize profit where MR = MC, but because they must lower price to sell more, price ends up above marginal cost and output is below the efficient level. Game theory explains how a few interdependent firms behave.",
+  "sections": [
+   {
+    "id": "s-mic4-monopoly",
+    "topicId": "mic4-monopoly",
+    "title": "Imperfect competition and monopoly",
+    "body": [
+     "In imperfectly competitive output markets a firm must lower its price to sell more, so its demand curve slopes downward and marginal revenue is less than price. Barriers to entry, such as high start-up costs, legal barriers (patents, licenses), and ownership of a key resource, sustain these market structures. A monopoly is a single seller protected by barriers to entry.",
+     "A monopolist produces the quantity where MR = MC and charges the price on the demand curve at that quantity, so price is greater than marginal cost. Compared with perfect competition, output is lower, price is higher, and there is deadweight loss. A natural monopoly exists when economies of scale continue over the whole range of market demand, so one firm can supply the market at lower average cost than several could."
+    ],
+    "points": [
+     "Find Q where MR = MC, then go up to the demand curve for the price.",
+     "With straight-line demand, MR has the same intercept and twice the slope."
+    ]
+   },
+   {
+    "id": "s-mic4-discrimination",
+    "topicId": "mic4-discrimination",
+    "title": "Price discrimination",
+    "body": [
+     "A firm with market power can raise its profit by charging different prices for the same product when it can separate buyers by willingness to pay and prevent resale. Student and senior discounts are examples: the firm captures consumer surplus that a single price would leave with buyers.",
+     "With perfect price discrimination, each buyer pays exactly their willingness to pay. The firm then produces the quantity where price equals marginal cost, the same quantity as a competitive market, so there is no deadweight loss; but the firm takes all the surplus and consumer surplus is zero."
+    ],
+    "points": [
+     "Conditions: market power, separable buyers, no resale.",
+     "Perfect price discrimination: efficient quantity, zero consumer surplus."
+    ]
+   },
+   {
+    "id": "s-mic4-monopolistic",
+    "topicId": "mic4-monopolistic",
+    "title": "Monopolistic competition",
+    "body": [
+     "Monopolistic competition has many firms, differentiated products, and free entry and exit. Each firm faces a downward-sloping demand curve and uses advertising to differentiate its product. In the short run a firm may earn a profit, a loss, or zero economic profit.",
+     "In the long run, entry and exit drive economic profit to zero: each firm's demand shifts until it is tangent to its ATC curve. Even so, price is above marginal cost (allocative inefficiency), and output is less than the output that minimizes ATC (excess capacity)."
+    ],
+    "points": [
+     "Long run: P = ATC (zero profit) but P > MC.",
+     "Excess capacity: output below minimum ATC."
+    ]
+   },
+   {
+    "id": "s-mic4-oligopoly",
+    "topicId": "mic4-oligopoly",
+    "title": "Oligopoly and game theory",
+    "body": [
+     "An oligopoly has a few interdependent firms and high barriers to entry. Firms have an incentive to collude and form a cartel that acts like a monopoly, but each member also has an incentive to cheat by producing more, so cartels are unstable. Prices are generally higher and quantities lower than under perfect competition.",
+     "A game shows the payoff each player receives for each combination of strategies (the AP exam uses two players with two actions each). A dominant strategy gives a player a higher payoff whatever the other player does. A Nash equilibrium is a set of actions from which no player can gain by changing its own action alone. In a prisoner's dilemma, both players follow their dominant strategies and end up worse off than if they had cooperated."
+    ],
+    "points": [
+     "To find a dominant strategy, compare one player's payoffs column by column (or row by row).",
+     "At a Nash equilibrium, neither player wants to switch alone."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A monopolist faces demand P = 20 − Q, so MR = 20 − 2Q, and has a constant marginal cost of $4. Find its quantity and price, and compare them with the efficient outcome.",
+   "solution": "Set MR = MC: 20 − 2Q = 4, so Q = 8 and P = 20 − 8 = $12. The efficient quantity is where P = MC: 20 − Q = 4, so Q = 16 at a price of $4. The monopolist produces half the efficient quantity at a higher price, creating deadweight loss of ½ × (12 − 4) × (16 − 8) = $32."
+  },
+  "misconceptions": [
+   [
+    "“A monopolist charges the highest price it can.”",
+    "It charges the price on the demand curve at the quantity where MR = MC."
+   ],
+   [
+    "“A monopolist sets its price where MR = MC.”",
+    "MR = MC gives the quantity; the price comes from the demand curve above that quantity."
+   ],
+   [
+    "“Zero profit in monopolistic competition means the market is efficient.”",
+    "Price is still above marginal cost, and firms have excess capacity."
+   ],
+   [
+    "“A Nash equilibrium is the best outcome for both players.”",
+    "It is only stable; in a prisoner's dilemma both players would do better by cooperating."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Microeconomics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-microeconomics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+  "sourceTitle": "AP Microeconomics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-15"
+ },
+ "passages": [
+  {
+   "id": "mic4-g1",
+   "title": "Graph: A single-price monopolist (hypothetical data)",
+   "figure": {
+    "kind": "lines",
+    "alt": "Monopoly graph with quantity on the horizontal axis and dollars on the vertical axis. Demand falls in a straight line from 24 dollars at 0 units to 0 dollars at 120 units. Marginal revenue falls from 24 dollars at 0 units to 0 dollars at 60 units. A horizontal line at 8 dollars is marginal cost and average total cost. Marginal revenue crosses marginal cost at 40 units, where the demand curve is at 16 dollars, point M. Demand crosses marginal cost at 80 units.",
+    "xLabel": "Quantity",
+    "yLabel": "Price and cost ($)",
+    "xMax": 150,
+    "yMax": 26,
+    "series": [
+     {
+      "label": "D",
+      "points": [
+       [
+        0,
+        24
+       ],
+       [
+        120,
+        0
+       ]
+      ]
+     },
+     {
+      "label": "MR",
+      "points": [
+       [
+        0,
+        24
+       ],
+       [
+        60,
+        0
+       ]
+      ]
+     },
+     {
+      "label": "MC = ATC",
+      "points": [
+       [
+        0,
+        8
+       ],
+       [
+        112,
+        8
+       ]
+      ]
+     }
+    ],
+    "guides": [
+     {
+      "x": 40,
+      "y": 16,
+      "label": "M"
+     },
+     {
+      "x": 80
+     },
+     {
+      "y": 8
+     },
+     {
+      "y": 24
+     }
+    ]
+   },
+   "text": [
+    "Demand (D) is a straight line from a price of $24 at 0 units to $0 at 120 units.",
+    "Marginal revenue (MR) is a straight line from $24 at 0 units to $0 at 60 units.",
+    "Marginal cost and average total cost are constant at $8 (the horizontal line MC = ATC).",
+    "MR crosses MC at 40 units, where the price on the demand curve is $16 (point M). Demand crosses MC at 80 units."
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mic4-t1",
+   "title": "Table: Daily profits for two rival firms (hypothetical data)",
+   "intro": "Firm A and Firm B are the only sellers in a market. Each chooses a high or a low price at the same time, without knowing the other's choice.",
+   "text": [
+    "Both charge a high price: Firm A earns $50; Firm B earns $50",
+    "A charges high and B charges low: Firm A earns $20; Firm B earns $70",
+    "A charges low and B charges high: Firm A earns $70; Firm B earns $20",
+    "Both charge a low price: Firm A earns $30; Firm B earns $30"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "mic-u4-q01",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-monopoly",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A monopoly can keep earning economic profit in the long run mainly because of",
+   "choices": [
+    "barriers to entry, such as patents or control of a key resource",
+    "its horizontal demand curve at the going market price",
+    "its ability to produce where price equals marginal cost",
+    "the large number of rival firms that sell close substitutes for it"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Barriers to entry keep new firms from entering and competing away the monopolist's profit.",
+   "choiceExplanations": [
+    "",
+    "A horizontal demand curve belongs to a price taker in perfect competition.",
+    "A monopolist produces where MR = MC and charges a price above marginal cost.",
+    "A monopoly has no close rivals; many rivals would compete profits away."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u4-q02",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-monopoly",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For a monopolist that charges every buyer the same price, marginal revenue is less than price because",
+   "choices": [
+    "new firms enter the market whenever it raises its price above cost",
+    "to sell one more unit, it must lower the price on all the units it sells",
+    "its marginal cost rises as it produces each additional unit of its output",
+    "its fixed costs are spread over a larger number of units of output"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The extra unit brings in its price, but the price cut also applies to the units that would have sold at the higher price, so revenue rises by less than the price.",
+   "choiceExplanations": [
+    "Barriers to entry keep new firms out; entry does not explain the gap between MR and price.",
+    "",
+    "Marginal cost concerns the cost side, not why MR is below price.",
+    "Spreading fixed cost affects average fixed cost, not marginal revenue."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u4-q03",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-monopoly",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on the graph, which quantity and price maximize the monopolist's profit?",
+   "choices": [
+    "40 units at a price of $8",
+    "80 units at a price of $8",
+    "60 units at a price of $12",
+    "40 units at a price of $16"
+   ],
+   "correctAnswer": 3,
+   "explanation": "MR = MC at 40 units. The price is read from the demand curve at that quantity: $16.",
+   "choiceExplanations": [
+    "$8 is marginal cost at 40 units; the monopolist charges what buyers will pay, read from the demand curve.",
+    "80 units at $8 is where price equals marginal cost, the efficient (competitive) outcome.",
+    "60 units is where MR is zero and total revenue is greatest, not where profit is greatest.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic4-g1"
+  },
+  {
+   "id": "mic-u4-q04",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-monopoly",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on the monopoly graph, what is the deadweight loss when the firm charges its profit-maximizing price?",
+   "choices": [
+    "$640",
+    "$160",
+    "$320",
+    "$0"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The efficient quantity is 80 units (where P = MC). Deadweight loss is the triangle between demand and MC from 40 to 80 units: ½ × (16 − 8) × (80 − 40) = $160.",
+   "choiceExplanations": [
+    "$640 is the firm's total revenue (16 × 40).",
+    "",
+    "$320 is the monopolist's profit, (16 − 8) × 40, or the triangle without the ½.",
+    "Output is below the efficient quantity, so some gains from trade are lost."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic4-g1"
+  },
+  {
+   "id": "mic-u4-q05",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-monopoly",
+   "skill": "1.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In one industry, a single firm can supply the entire market at a lower average total cost than two or more firms could, because economies of scale continue over the whole range of demand. This industry is",
+   "choices": [
+    "a cartel",
+    "a perfectly competitive industry",
+    "a monopolistically competitive industry",
+    "a natural monopoly"
+   ],
+   "correctAnswer": 3,
+   "explanation": "A natural monopoly arises when long-run economies of scale persist throughout the market's demand.",
+   "choiceExplanations": [
+    "A cartel is a group of firms that collude; here there is one efficient producer.",
+    "Perfect competition requires many small firms, each at an efficient scale.",
+    "Monopolistic competition has many firms with differentiated products.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u4-q06",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-discrimination",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A movie theater charges adults $12 and students with a school ID $8 for the same showing. This is an example of",
+   "choices": [
+    "price discrimination",
+    "product differentiation",
+    "perfect competition",
+    "a price ceiling"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Charging different buyers different prices for the same product, not because of cost differences, is price discrimination.",
+   "choiceExplanations": [
+    "",
+    "Both groups get the same product; the difference is in the price, not the product.",
+    "A perfectly competitive firm is a price taker and cannot set different prices.",
+    "A price ceiling is a legal maximum price set by government."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u4-q07",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-discrimination",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "To price discriminate successfully, a firm must have market power and must also be able to",
+   "choices": [
+    "sell a product that is identical to its rivals' products",
+    "set its price equal to its marginal cost for every buyer",
+    "separate buyers by willingness to pay and prevent resale",
+    "produce at the minimum of its average total cost curve"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Without a way to tell buyers apart and stop low-price buyers from reselling, different prices cannot be sustained.",
+   "choiceExplanations": [
+    "Identical products and many rivals would leave the firm with no power over price.",
+    "Pricing at marginal cost for everyone is the competitive outcome, not price discrimination.",
+    "",
+    "Producing at minimum ATC is not a condition for price discrimination."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u4-q08",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-discrimination",
+   "skill": "2.B",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Compared with a single-price monopoly, a monopoly that practices perfect price discrimination will have",
+   "choices": [
+    "more output, no deadweight loss, and more consumer surplus",
+    "more output, no deadweight loss, and no consumer surplus",
+    "less output, more deadweight loss, and no consumer surplus",
+    "the same output, the same deadweight loss, and more profit"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Charging each buyer their willingness to pay makes price equal marginal revenue, so the firm produces until price equals marginal cost. All surplus goes to the firm.",
+   "choiceExplanations": [
+    "The firm captures all the surplus, so consumers keep none.",
+    "",
+    "Perfect price discrimination raises output to the efficient level; it does not reduce it.",
+    "Output rises to where price equals marginal cost, which removes the deadweight loss."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u4-q09",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-discrimination",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An airline with market power begins charging business travelers more than vacation travelers for the same seats. Compared with charging one price, this will most likely",
+   "choices": [
+    "raise the airline's profit by capturing some consumer surplus",
+    "turn the airline into a perfectly competitive firm",
+    "lower the airline's profit by reducing its total revenue from sales",
+    "leave profit unchanged while raising consumer surplus"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Charging more to buyers with a higher willingness to pay turns some of their consumer surplus into revenue for the firm.",
+   "choiceExplanations": [
+    "",
+    "Setting different prices requires market power, the opposite of perfect competition.",
+    "A firm adopts price discrimination because it increases profit.",
+    "Price discrimination moves surplus from consumers to the firm."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u4-q10",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-monopolistic",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which set of features describes monopolistic competition?",
+   "choices": [
+    "A few interdependent firms and high barriers to entry",
+    "One firm, a unique product, and high barriers to entry",
+    "Many firms, identical products, and easy entry into and exit from it",
+    "Many firms, differentiated products, and easy entry and exit"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Monopolistic competition combines many sellers and free entry with products that differ from one another.",
+   "choiceExplanations": [
+    "A few interdependent firms describes an oligopoly.",
+    "One firm with barriers to entry is a monopoly.",
+    "Identical products with many firms is perfect competition.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u4-q11",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-monopolistic",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Restaurants in a monopolistically competitive market are earning economic profits. In the long run, new restaurants enter, and each existing restaurant's demand curve",
+   "choices": [
+    "becomes horizontal, so each restaurant becomes a price taker",
+    "shifts right until price equals the minimum point of average total cost",
+    "shifts left until it is tangent to ATC and profit is zero",
+    "does not move, because each restaurant's product is different"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Entry takes customers from existing firms, shifting each firm's demand left until price equals ATC and economic profit is zero.",
+   "choiceExplanations": [
+    "Products remain differentiated, so demand still slopes downward.",
+    "Entry reduces each firm's demand; and in the long run these firms do not reach minimum ATC.",
+    "",
+    "Differentiated products are still substitutes, so entry does take away customers."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u4-q12",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-monopolistic",
+   "skill": "1.D",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In long-run equilibrium, how does a monopolistically competitive firm differ from a perfectly competitive firm?",
+   "choices": [
+    "Its price is above marginal cost, and its output is below the level that minimizes ATC",
+    "Its price equals marginal cost, but it produces more than the output that minimizes ATC",
+    "It earns a positive economic profit, while the perfectly competitive firm earns zero",
+    "It produces where marginal revenue is greater than marginal cost to keep prices high"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Both earn zero economic profit, but the monopolistically competitive firm has P > MC and excess capacity.",
+   "choiceExplanations": [
+    "",
+    "Its price is above marginal cost, and its output is below, not above, the cost-minimizing level.",
+    "Free entry drives economic profit to zero in both market structures.",
+    "Both kinds of firm maximize profit where MR = MC."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u4-q13",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-monopolistic",
+   "skill": "2.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Firms in monopolistic competition advertise mainly in order to",
+   "choices": [
+    "differentiate their products and increase demand for them",
+    "make their products identical to the products sold by rivals",
+    "lower their marginal cost of producing each unit",
+    "create legal barriers that keep new firms out"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Advertising helps a firm set its product apart, raising demand for it and making that demand less elastic.",
+   "choiceExplanations": [
+    "",
+    "The aim of advertising is to make products seem different, not identical.",
+    "Advertising adds to costs; it does not reduce marginal cost.",
+    "Advertising is not a legal barrier, and entry remains free in this market structure."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u4-q14",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-oligopoly",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Four large firms supply nearly all of a country's cell phone service. Each watches the others' prices closely before setting its own, and new firms find it very costly to enter. This market is",
+   "choices": [
+    "a monopoly",
+    "perfectly competitive",
+    "monopolistically competitive",
+    "an oligopoly"
+   ],
+   "correctAnswer": 3,
+   "explanation": "A few interdependent firms protected by high barriers to entry form an oligopoly.",
+   "choiceExplanations": [
+    "A monopoly has a single seller.",
+    "Perfect competition has many price-taking firms and no barriers to entry.",
+    "Monopolistic competition has many firms and easy entry.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u4-q15",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-oligopoly",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, what is Firm A's dominant strategy?",
+   "choices": [
+    "A high price if B charges high, and a low price if B charges low",
+    "A high price: it earns more than a low price whichever price B chooses",
+    "A low price: it earns more than a high price whichever price B chooses",
+    "Firm A has no dominant strategy, because its best choice depends on B"
+   ],
+   "correctAnswer": 2,
+   "explanation": "If B charges high, A earns $70 with low versus $50 with high. If B charges low, A earns $30 with low versus $20 with high. Low is better either way.",
+   "choiceExplanations": [
+    "When B charges high, A does better with a low price ($70) than a high one ($50).",
+    "A high price earns A less in both cases ($50 < $70 and $20 < $30).",
+    "",
+    "A's best choice is low regardless of B's choice, which is what a dominant strategy means."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic4-t1"
+  },
+  {
+   "id": "mic-u4-q16",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-oligopoly",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on the table of the two rival firms' profits, what is the Nash equilibrium, and how does it compare with both firms charging a high price?",
+   "choices": [
+    "Both charge low and earn $30 each, more than they would earn from both charging high",
+    "A charges low and B charges high, because $70 is the largest single payoff",
+    "Both charge low and earn $30 each, less than the $50 each from both charging high",
+    "Both charge high and earn $50 each, the most the two firms can earn together"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Low is a dominant strategy for each firm, so both charge low. Neither can gain by switching alone, yet both would earn more ($50) if both charged high: a prisoner's dilemma.",
+   "choiceExplanations": [
+    "$30 each is less, not more, than the $50 each from both charging high.",
+    "B would switch to low and earn $30 instead of $20, so this is not an equilibrium.",
+    "",
+    "If both charge high, each can gain by switching to low ($70 > $50), so it is not an equilibrium."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic4-t1"
+  },
+  {
+   "id": "mic-u4-q17",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "topicId": "mic4-oligopoly",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Firms in an oligopoly form a cartel and agree to restrict output to raise the price. Such agreements tend to break down because",
+   "choices": [
+    "the cartel's price is below marginal cost, so every member makes a loss on sales",
+    "each member can raise its own profit by secretly producing more than agreed",
+    "members become price takers once they agree on a common price",
+    "restricting output shifts the market demand curve to the left"
+   ],
+   "correctAnswer": 1,
+   "explanation": "At the high cartel price, each firm gains by selling extra output; when many cheat, output rises and the price falls.",
+   "choiceExplanations": [
+    "A cartel sets price above marginal cost, like a monopoly.",
+    "",
+    "Cartel members jointly set price; they do not become price takers.",
+    "Restricting output moves the market up along its demand curve; it does not shift demand."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-mic-u4-os1",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "title": "OpenStax Principles of Microeconomics 3e, 9.1 How Monopolies Form: Barriers to Entry",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/9-1-how-monopolies-form-barriers-to-entry",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on barriers to entry. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/9-1-how-monopolies-form-barriers-to-entry",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u4-os2",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "title": "OpenStax Principles of Microeconomics 3e, 9.2 How a Profit-Maximizing Monopoly Chooses Output and Price",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/9-2-how-a-profit-maximizing-monopoly-chooses-output-and-price",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on how a monopoly chooses output and price. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/9-2-how-a-profit-maximizing-monopoly-chooses-output-and-price",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u4-os3",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "title": "OpenStax Principles of Microeconomics 3e, 10.1 Monopolistic Competition",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/10-1-monopolistic-competition",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on monopolistic competition. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/10-1-monopolistic-competition",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u4-os4",
+   "courseId": "ap-microeconomics",
+   "unitId": "u4",
+   "title": "OpenStax Principles of Microeconomics 3e, 10.2 Oligopoly",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/10-2-oligopoly",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on oligopoly and the prisoner's dilemma. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/10-2-oligopoly",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Microeconomics free-response set has one long and two short questions that usually combine several units (for example, a firm's costs with its market structure and a government policy), so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "mic-u4-q01",
+    "mic-u4-q02",
+    "mic-u4-q06",
+    "mic-u4-q08",
+    "mic-u4-q10",
+    "mic-u4-q11",
+    "mic-u4-q15",
+    "mic-u4-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "mic-u4-q03",
+    "mic-u4-q04",
+    "mic-u4-q07",
+    "mic-u4-q09",
+    "mic-u4-q12",
+    "mic-u4-q13",
+    "mic-u4-q14",
+    "mic-u4-q17"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,824 @@
+{
+ "courseId": "ap-microeconomics",
+ "unitId": "u2",
+ "title": "Unit 2: Supply and Demand",
+ "topics": [
+  {
+   "id": "mic2-demsup",
+   "name": "Demand and supply",
+   "covers": [
+    "Demand",
+    "Supply"
+   ],
+   "frameworkCovers": [
+    "2.1 Demand",
+    "2.2 Supply"
+   ]
+  },
+  {
+   "id": "mic2-elasticity",
+   "name": "Elasticity",
+   "covers": [
+    "Elasticity"
+   ],
+   "frameworkCovers": [
+    "2.3 Price Elasticity of Demand",
+    "2.4 Price Elasticity of Supply",
+    "2.5 Other Elasticities"
+   ]
+  },
+  {
+   "id": "mic2-equilibrium",
+   "name": "Equilibrium, surplus, and changes in equilibrium",
+   "covers": [
+    "Market equilibrium, disequilibrium, and changes in equilibrium"
+   ],
+   "frameworkCovers": [
+    "2.6 Market Equilibrium and Consumer and Producer Surplus",
+    "2.7 Market Disequilibrium and Changes in Equilibrium"
+   ]
+  },
+  {
+   "id": "mic2-policy",
+   "name": "Government intervention and trade",
+   "covers": [
+    "The effects of government intervention in markets",
+    "International trade and public policy"
+   ],
+   "frameworkCovers": [
+    "2.8 The Effects of Government Intervention in Markets",
+    "2.9 International Trade and Public Policy"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 2: Supply and Demand: review guide",
+  "intro": "This unit builds the supply and demand model in full: why the curves slope and shift, how elasticity measures responsiveness, how equilibrium creates consumer and producer surplus, and how price controls, taxes, subsidies, and tariffs change prices, quantities, and surplus. Expect elasticity calculations and questions that read areas from a graph.",
+  "sections": [
+   {
+    "id": "s-mic2-demsup",
+    "topicId": "mic2-demsup",
+    "title": "Demand and supply",
+    "body": [
+     "Markets work when property rights are well defined and people respond to incentives. The law of demand says that a change in a good's own price changes quantity demanded in the opposite direction, a movement along the demand (marginal benefit) curve. Demand slopes downward because of the income effect, the substitution effect, and diminishing marginal utility. Market demand is the sum of individual demands at each price. Demand shifts with income (normal and inferior goods), tastes, prices of substitutes and complements, expectations, and the number of buyers.",
+     "A change in own price changes quantity supplied in the same direction, a movement along the upward-sloping supply curve. Supply shifts with input prices, technology, taxes and subsidies, prices of other goods the firm could make, expectations, and the number of sellers."
+    ],
+    "points": [
+     "Own price moves along a curve; everything else shifts it.",
+     "A lower price of a complement raises demand; a lower price of a substitute lowers it."
+    ]
+   },
+   {
+    "id": "s-mic2-elasticity",
+    "topicId": "mic2-elasticity",
+    "title": "Elasticity",
+    "body": [
+     "Price elasticity of demand is the percentage change in quantity demanded divided by the percentage change in price. If its magnitude is greater than 1, demand is elastic; less than 1, inelastic; equal to 1, unit elastic. Elasticity changes along a straight-line demand curve, so slope is not elasticity. Demand is more elastic when close substitutes are available, the good takes a large share of the budget, or buyers have more time to adjust. When demand is elastic, a price increase lowers total revenue; when it is inelastic, a price increase raises total revenue.",
+     "Price elasticity of supply is the percentage change in quantity supplied divided by the percentage change in price; it is greater when producers can adjust inputs easily. Income elasticity of demand (percentage change in quantity ÷ percentage change in income) is positive for normal goods and negative for inferior goods. Cross-price elasticity (percentage change in quantity of one good ÷ percentage change in the price of another) is positive for substitutes, negative for complements, and zero for unrelated goods."
+    ],
+    "points": [
+     "Elastic demand: price and total revenue move in opposite directions.",
+     "Signs matter for income and cross-price elasticity."
+    ]
+   },
+   {
+    "id": "s-mic2-equilibrium",
+    "topicId": "mic2-equilibrium",
+    "title": "Equilibrium, surplus, and changes in equilibrium",
+    "body": [
+     "At the equilibrium price, quantity demanded equals quantity supplied and the market clears. Consumer surplus is the difference between what buyers are willing to pay and what they pay (the area below demand and above the price). Producer surplus is the difference between the price and the lowest price sellers would accept (the area above supply and below the price). In the absence of market failures, competitive equilibrium maximizes total economic surplus, so the market is efficient.",
+     "Surpluses and shortages push price toward equilibrium. Shifts in demand or supply change price, quantity, and both surpluses, and the size of each change depends on the elasticities: the more inelastic the other curve, the more a shift changes price rather than quantity."
+    ],
+    "points": [
+     "With straight lines, each surplus is a triangle: ½ × base × height.",
+     "A supply shift against perfectly inelastic demand changes only the price."
+    ]
+   },
+   {
+    "id": "s-mic2-policy",
+    "topicId": "mic2-policy",
+    "title": "Government intervention and trade",
+    "body": [
+     "A binding price ceiling (below equilibrium) causes a shortage; a binding price floor (above equilibrium) causes a surplus. A per-unit tax drives a wedge between the price buyers pay and the price sellers receive, reduces quantity, raises tax revenue (tax × new quantity), and creates deadweight loss (½ × tax × fall in quantity, with straight lines). The side of the market that is less elastic bears more of a tax. A subsidy does the reverse and costs the government money. In a market that was already efficient, these interventions can only reduce total surplus.",
+     "Opening to trade moves the domestic price to the world price: if the world price is lower, the country imports, consumers gain, producers lose, and total surplus rises. A tariff raises the domestic price, cuts imports, raises revenue for the government, and reduces consumer and total surplus. A quota limits the quantity imported with similar effects on price; graphing quotas is outside the AP course."
+    ],
+    "points": [
+     "Tax revenue = tax × quantity sold after the tax.",
+     "The more inelastic side bears more of the tax burden."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "When the price of a movie ticket rises from $10 to $12, weekly tickets sold fall from 500 to 450. Using simple percentage changes from the starting values, find the price elasticity of demand and say what happens to total revenue.",
+   "solution": "Price rises 20% and quantity falls 10%, so elasticity is 10 ÷ 20 = 0.5: demand is inelastic. Total revenue rises from $5,000 to $5,400, as expected when price rises along an inelastic stretch of demand."
+  },
+  "misconceptions": [
+   [
+    "“A steep demand curve is inelastic everywhere.”",
+    "Elasticity changes along a straight-line demand curve; slope is not elasticity."
+   ],
+   [
+    "“The side that sends the tax to the government bears it.”",
+    "The burden depends on the elasticities of demand and supply, not on who is billed."
+   ],
+   [
+    "“A price ceiling above the equilibrium price causes a shortage.”",
+    "Only a ceiling below equilibrium is binding."
+   ],
+   [
+    "“Tariffs raise total surplus because the government collects revenue.”",
+    "The revenue is smaller than the surplus consumers lose; total surplus falls."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Microeconomics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-microeconomics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+  "sourceTitle": "AP Microeconomics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-15"
+ },
+ "passages": [
+  {
+   "id": "mic2-g1",
+   "title": "Graph: The market for bike helmets (hypothetical data)",
+   "figure": {
+    "kind": "lines",
+    "alt": "Supply and demand graph for bike helmets, with quantity on the horizontal axis and price in dollars on the vertical axis. Demand falls in a straight line from 10 dollars at a quantity of 0 to 0 dollars at a quantity of 100. Supply rises in a straight line from 2 dollars at a quantity of 0. They cross at point E, at 40 helmets and 6 dollars.",
+    "xLabel": "Quantity of helmets",
+    "yLabel": "Price ($)",
+    "xMax": 110,
+    "yMax": 12,
+    "series": [
+     {
+      "label": "D",
+      "points": [
+       [
+        0,
+        10
+       ],
+       [
+        100,
+        0
+       ]
+      ]
+     },
+     {
+      "label": "S",
+      "points": [
+       [
+        0,
+        2
+       ],
+       [
+        90,
+        11
+       ]
+      ]
+     }
+    ],
+    "guides": [
+     {
+      "x": 40,
+      "y": 6,
+      "label": "E"
+     },
+     {
+      "y": 10
+     },
+     {
+      "y": 2
+     },
+     {
+      "x": 100
+     }
+    ]
+   },
+   "text": [
+    "Demand (D) is a straight line from a price of $10 at a quantity of 0 to a price of $0 at a quantity of 100.",
+    "Supply (S) is a straight line that starts at a price of $2 at a quantity of 0 and rises by $1 for every 10 helmets.",
+    "D and S cross at point E: 40 helmets at a price of $6."
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mic2-t1",
+   "title": "Table: A $2 per-unit tax on sandwiches (hypothetical data)",
+   "intro": "Demand and supply are straight lines.",
+   "text": [
+    "Before the tax: price $6; quantity 40",
+    "After the tax: buyers pay $7; sellers receive $5; quantity 30"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "mic-u2-q01",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-demsup",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which of the following helps explain why demand curves slope downward?",
+   "choices": [
+    "The substitution effect: buyers switch toward a good when its price falls",
+    "Price ceilings: government limits how high a price may legally go",
+    "The law of supply: sellers offer more of a good when its market price rises",
+    "Diminishing marginal returns: each added worker adds less to output"
+   ],
+   "correctAnswer": 0,
+   "explanation": "When a good's price falls, it becomes cheaper relative to other goods, so buyers substitute toward it; the income effect and diminishing marginal utility also contribute.",
+   "choiceExplanations": [
+    "",
+    "A price ceiling is a government policy, not a reason for the slope of demand.",
+    "The law of supply describes sellers, not the slope of demand.",
+    "Diminishing marginal returns concerns production and the shape of cost curves."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q02",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-demsup",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Printers and ink cartridges are complements. If the price of printers falls, the demand for ink cartridges will",
+   "choices": [
+    "increase, shifting the demand curve for ink to the right",
+    "stay the same, while the supply of ink cartridges rises",
+    "stay the same, while the quantity of ink demanded rises instead",
+    "decrease, shifting the demand curve for ink to the left"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Cheaper printers mean more printers are bought, and more printers need more ink, so demand for ink increases.",
+   "choiceExplanations": [
+    "",
+    "The price of printers affects ink buyers, not the cost of producing ink.",
+    "The printer's price is not ink's own price, so it shifts ink's demand curve rather than moving along it.",
+    "Demand for a good falls when the price of its complement rises, not when it falls."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q03",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-demsup",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The government begins paying solar panel producers a subsidy for each panel they make. In the market for solar panels, this will",
+   "choices": [
+    "raise the quantity supplied by moving along the supply curve",
+    "increase demand, shifting the demand curve to the right",
+    "decrease supply, shifting the supply curve to the left",
+    "increase supply, shifting the supply curve to the right"
+   ],
+   "correctAnswer": 3,
+   "explanation": "A subsidy to producers lowers their net cost of production, so they supply more at every price.",
+   "choiceExplanations": [
+    "A movement along the curve comes from a change in the panel's own price; a subsidy shifts the whole curve.",
+    "A subsidy paid to producers changes sellers' costs, not buyers' willingness to pay.",
+    "A tax on producers, not a subsidy, would decrease supply.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q04",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-demsup",
+   "skill": "1.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "At a price of $4, Ana wants to buy 2 game apps, Ben wants 5, and Cy wants none. If they are the only buyers, the market quantity demanded at $4 is",
+   "choices": [
+    "5 apps",
+    "3.5 apps",
+    "2 apps",
+    "7 apps"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Market demand adds the quantities all buyers want at each price: 2 + 5 + 0 = 7.",
+   "choiceExplanations": [
+    "5 is only Ben's quantity.",
+    "3.5 is the average of Ana's and Ben's quantities; market demand is the sum.",
+    "2 is only Ana's quantity.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q05",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-elasticity",
+   "skill": "1.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "When the price of a good rises by 10%, the quantity demanded falls by 20%. The price elasticity of demand (in absolute value) is",
+   "choices": [
+    "2, so demand is inelastic",
+    "0.5, so demand is elastic",
+    "2, so demand is elastic",
+    "0.5, so demand is inelastic"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Elasticity = 20% ÷ 10% = 2. A value greater than 1 means demand is elastic.",
+   "choiceExplanations": [
+    "The value 2 is correct, but values above 1 are called elastic.",
+    "The calculation is inverted, and 0.5 would be inelastic in any case.",
+    "",
+    "0.5 divides the price change by the quantity change, which is inverted."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q06",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-elasticity",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A bus company raises its fares, and its total revenue increases. In this price range, demand for bus rides is",
+   "choices": [
+    "elastic: riders fell by a larger percentage than fares rose",
+    "unit elastic: riders fell by the same percentage as fares rose",
+    "perfectly elastic: any fare increase loses every single rider",
+    "inelastic: riders fell by a smaller percentage than fares rose"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Total revenue rises with price only when the percentage fall in quantity is smaller than the percentage rise in price, which is inelastic demand.",
+   "choiceExplanations": [
+    "With elastic demand, a fare increase would lower total revenue.",
+    "With unit elastic demand, total revenue would not change.",
+    "With perfectly elastic demand, revenue would fall to zero after any increase.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q07",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-elasticity",
+   "skill": "1.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For which of the following is demand likely to be the most price elastic?",
+   "choices": [
+    "Table salt, which takes a tiny share of a household's budget",
+    "Insulin for a person with diabetes, which has no substitute",
+    "One brand of bottled water, which has many close substitutes",
+    "Gasoline during the week right after its price has gone up"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The more close substitutes a good has, the more buyers switch when its price rises, so demand for a single brand is very elastic.",
+   "choiceExplanations": [
+    "Goods that take a very small share of the budget tend to have inelastic demand.",
+    "A necessity with no substitutes has very inelastic demand.",
+    "",
+    "In a short period, buyers have little time to adjust, so demand is inelastic."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q08",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-elasticity",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "When consumers' incomes rise by 10%, the quantity of instant noodles demanded falls by 5%. The income elasticity of demand is",
+   "choices": [
+    "+0.5, so instant noodles are a normal good",
+    "−0.5, so instant noodles are an inferior good",
+    "−0.5, so instant noodles are a normal good",
+    "−2, so instant noodles are a complementary good"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Income elasticity = −5% ÷ 10% = −0.5. A negative income elasticity means the good is inferior.",
+   "choiceExplanations": [
+    "The quantity fell as income rose, so the elasticity is negative, not positive.",
+    "",
+    "The value is right, but a negative income elasticity identifies an inferior good.",
+    "−2 inverts the ratio, and complements are identified by cross-price elasticity, not income elasticity."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q09",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-elasticity",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "When the price of strawberries rises by 10%, the quantity supplied rises by 20%. The price elasticity of supply is",
+   "choices": [
+    "2, so supply is inelastic",
+    "0.5, so supply is elastic",
+    "2, so supply is elastic",
+    "0.5, so supply is inelastic"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Elasticity of supply = 20% ÷ 10% = 2. A value above 1 means supply is elastic.",
+   "choiceExplanations": [
+    "The value 2 is correct, but values above 1 are called elastic.",
+    "The calculation is inverted, and 0.5 would be inelastic in any case.",
+    "",
+    "0.5 divides the price change by the quantity change, which is inverted."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q10",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-equilibrium",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Consumer surplus is best defined as the difference between",
+   "choices": [
+    "the quantity demanded and the quantity supplied at a given price",
+    "what buyers are willing to pay for a good and the price they pay",
+    "the price sellers receive and the lowest price they would accept",
+    "total revenue received by sellers and their total cost of production"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Consumer surplus measures buyers' gain: willingness to pay minus the price actually paid.",
+   "choiceExplanations": [
+    "That is a shortage or surplus of the good, not consumer surplus.",
+    "",
+    "That is producer surplus.",
+    "That is profit, a measure for firms."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q11",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-equilibrium",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on the graph, what is consumer surplus in the market for bike helmets at equilibrium?",
+   "choices": [
+    "$80",
+    "$160",
+    "$240",
+    "$40"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Consumer surplus is the triangle below demand and above the price: ½ × 40 × ($10 − $6) = $80.",
+   "choiceExplanations": [
+    "",
+    "$160 is total surplus (consumer plus producer surplus), or the triangle's area without the ½.",
+    "$240 is total spending, price × quantity (6 × 40).",
+    "$40 uses half the base twice or the wrong height; the triangle is ½ × 40 × 4."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic2-g1"
+  },
+  {
+   "id": "mic-u2-q12",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-equilibrium",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a competitive market with a downward-sloping demand curve, a decrease in supply will",
+   "choices": [
+    "raise the price, lower the quantity, and reduce consumer surplus",
+    "lower the price, lower the quantity, and reduce producer surplus",
+    "raise the price, raise the quantity, and raise producer surplus",
+    "lower the price, raise the quantity, and raise consumer surplus"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A leftward shift of supply moves the market up along demand: a higher price and a smaller quantity, which shrinks the area of consumer surplus.",
+   "choiceExplanations": [
+    "",
+    "Price and quantity both fall when demand decreases.",
+    "Price and quantity both rise when demand increases, not when supply decreases.",
+    "Those are the effects of an increase in supply."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q13",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-equilibrium",
+   "skill": "3.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The demand for a life-saving medicine is perfectly inelastic. If the supply of the medicine decreases, then",
+   "choices": [
+    "the price rises, and the quantity sold falls as well",
+    "the price does not change, and the quantity sold falls",
+    "the price rises, and the quantity sold does not change",
+    "neither the price nor the quantity sold will change"
+   ],
+   "correctAnswer": 2,
+   "explanation": "With a vertical demand curve, buyers purchase the same quantity at any price, so a supply decrease shows up entirely as a higher price.",
+   "choiceExplanations": [
+    "Quantity would fall only if demand had some responsiveness to price.",
+    "That would happen if demand were perfectly elastic (horizontal).",
+    "",
+    "A supply shift must change price or quantity; here it changes the price."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q14",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-policy",
+   "skill": "2.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A city sets a price ceiling on apartment rents that is below the equilibrium rent. The most likely result is",
+   "choices": [
+    "no change, because a ceiling below equilibrium is not binding",
+    "a shortage, because quantity demanded exceeds quantity supplied",
+    "a surplus, because quantity supplied exceeds quantity demanded",
+    "a higher equilibrium rent, because landlords raise their prices"
+   ],
+   "correctAnswer": 1,
+   "explanation": "At a rent below equilibrium, more apartments are wanted than landlords offer, so there is a shortage.",
+   "choiceExplanations": [
+    "A ceiling below equilibrium is binding; one above equilibrium would have no effect.",
+    "",
+    "A surplus results from a binding price floor, not a ceiling.",
+    "The ceiling legally prevents rents from rising above it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q15",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-policy",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, what are the government's tax revenue and the deadweight loss from the tax?",
+   "choices": [
+    "Tax revenue $60; deadweight loss $10",
+    "Tax revenue $60; deadweight loss $20",
+    "Tax revenue $80; deadweight loss $10",
+    "Tax revenue $30; deadweight loss $15"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Revenue is the tax times the quantity still sold: 2 × 30 = $60. Deadweight loss is the triangle ½ × tax × fall in quantity: ½ × 2 × 10 = $10.",
+   "choiceExplanations": [
+    "",
+    "$20 leaves out the ½ in the area of the deadweight-loss triangle.",
+    "$80 multiplies the tax by the old quantity (40), but only 30 units are sold after the tax.",
+    "$30 counts only $1 of tax per unit; the full wedge is $2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic2-t1"
+  },
+  {
+   "id": "mic-u2-q16",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-policy",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A per-unit tax is placed on a good for which demand is much more inelastic than supply. Most of the burden of the tax will fall on",
+   "choices": [
+    "whichever side is legally required to send the tax to the government",
+    "buyers, because they respond less to price changes than sellers do",
+    "buyers and sellers equally, because the tax is split between them",
+    "sellers, because they respond less to price changes than buyers do"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The less elastic side of the market cannot easily change its behavior, so it bears more of the tax; here that is buyers.",
+   "choiceExplanations": [
+    "Who is billed does not determine who bears the burden.",
+    "",
+    "The split is equal only when the elasticities are equal.",
+    "Sellers are the more elastic side here, so they bear less."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u2-q17",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "topicId": "mic2-policy",
+   "skill": "3.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A country that imports steel at the world price places a tariff on imported steel. In its domestic steel market, the tariff will",
+   "choices": [
+    "leave the price unchanged, because foreign producers pay the tariff",
+    "lower the price, raise imports, and raise consumer surplus",
+    "raise the price and raise total surplus by the tariff revenue",
+    "raise the price, reduce imports, and reduce total economic surplus"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The tariff raises the domestic price above the world price; consumers buy less, domestic firms produce more, imports fall, and the loss to consumers exceeds the gains to producers and the government.",
+   "choiceExplanations": [
+    "The tariff raises the price domestic buyers pay for steel.",
+    "A tariff makes imports more expensive; it does not lower the price.",
+    "Tariff revenue is only part of what consumers lose, so total surplus falls.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-mic-u2-os1",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "title": "OpenStax Principles of Microeconomics 3e, 3.1 Demand, Supply, and Equilibrium in Markets for Goods and Services",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/3-1-demand-supply-and-equilibrium-in-markets-for-goods-and-services",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on demand, supply, and equilibrium. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/3-1-demand-supply-and-equilibrium-in-markets-for-goods-and-services",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u2-os2",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "title": "OpenStax Principles of Microeconomics 3e, 5.1 Price Elasticity of Demand and Price Elasticity of Supply",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/5-1-price-elasticity-of-demand-and-price-elasticity-of-supply",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on price elasticity of demand and supply. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/5-1-price-elasticity-of-demand-and-price-elasticity-of-supply",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u2-os3",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "title": "OpenStax Principles of Microeconomics 3e, 3.4 Price Ceilings and Price Floors",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/3-4-price-ceilings-and-price-floors",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on price ceilings and price floors. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/3-4-price-ceilings-and-price-floors",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u2-os4",
+   "courseId": "ap-microeconomics",
+   "unitId": "u2",
+   "title": "OpenStax Principles of Microeconomics 3e, 3.5 Demand, Supply, and Efficiency",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/3-5-demand-supply-and-efficiency",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on consumer surplus, producer surplus, and efficiency. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/3-5-demand-supply-and-efficiency",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Microeconomics free-response set has one long and two short questions that usually combine several units (for example, a firm's costs with its market structure and a government policy), so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "mic-u2-q01",
+    "mic-u2-q02",
+    "mic-u2-q05",
+    "mic-u2-q06",
+    "mic-u2-q10",
+    "mic-u2-q11",
+    "mic-u2-q15",
+    "mic-u2-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "mic-u2-q03",
+    "mic-u2-q04",
+    "mic-u2-q07",
+    "mic-u2-q08",
+    "mic-u2-q12",
+    "mic-u2-q13",
+    "mic-u2-q14",
+    "mic-u2-q17"
+   ]
+  }
+ ]
+}

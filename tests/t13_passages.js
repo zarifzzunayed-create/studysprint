@@ -164,7 +164,7 @@ const titleOf = id => d.passages.find(p => p.id === id).title;
   /* ---- answer length gives nothing away in the passage-based banks ---- */
   for (const [cid, label] of [['ap-english-language-and-composition', 'English Language'], ['ap-united-states-history', 'U.S. History'],
                               ['ap-english-literature-and-composition', 'English Literature'], ['ap-world-history', 'World History'],
-                              ['ap-united-states-government-and-politics', 'U.S. Government'], ['ap-psychology', 'Psychology'], ['ap-macroeconomics', 'Macroeconomics']]) {
+                              ['ap-united-states-government-and-politics', 'U.S. Government'], ['ap-psychology', 'Psychology'], ['ap-macroeconomics', 'Macroeconomics'], ['ap-microeconomics', 'Microeconomics']]) {
     let n = 0, longest = 0;
     for (const f of fs.readdirSync(path.join(T.ROOT, 'data', 'courses', cid)).filter(x => /^u\d+\.json$/.test(x))) {
       for (const q of JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'courses', cid, f))).questions) {
