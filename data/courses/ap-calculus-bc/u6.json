@@ -1,0 +1,460 @@
+{
+ "courseId": "ap-calculus-bc",
+ "unitId": "u6",
+ "title": "Unit 6: Integration and Accumulation of Change",
+ "topics": [
+  {
+   "id": "b6-accum",
+   "name": "Accumulated change and Riemann sums",
+   "covers": [
+    "Using definite integrals to determine accumulated change over an interval",
+    "Approximating integrals with Riemann Sums"
+   ]
+  },
+  {
+   "id": "b6-ftc",
+   "name": "The Fundamental Theorem of Calculus and antiderivatives",
+   "covers": [
+    "Accumulation functions, the Fundamental Theorem of Calculus, and definite integrals",
+    "Antiderivatives and indefinite integrals"
+   ]
+  },
+  {
+   "id": "b6-tech",
+   "name": "Integration techniques and improper integrals",
+   "covers": [
+    "Properties of integrals and integration techniques, extended",
+    "Determining improper integrals"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Integration and accumulation of change: review guide",
+  "intro": "A definite integral adds up a rate of change to give the total change. This unit approximates integrals with sums, connects them to antiderivatives through the Fundamental Theorem of Calculus, and builds the BC integration techniques: substitution, integration by parts, partial fractions, and improper integrals.",
+  "sections": [
+   {
+    "id": "s-b6-accum",
+    "topicId": "b6-accum",
+    "title": "Accumulated change and Riemann sums",
+    "body": [
+     "If r(t) is a rate, ∫ from a to b of r(t) dt is the net amount accumulated from t = a to t = b, in units of (rate units) × (time units). Starting amount + the integral of the rate = the ending amount.",
+     "A Riemann sum adds rectangle areas: (height) × (width) for each subinterval. Left and right sums use the function's value at each subinterval's left or right end; a trapezoidal sum averages them. The widths may be unequal when the data come from a table."
+    ],
+    "points": [
+     "For an increasing function, a left sum underestimates and a right sum overestimates.",
+     "Use each subinterval's own width when the table's spacing is uneven.",
+     "Area below the axis counts as negative in a definite integral."
+    ]
+   },
+   {
+    "id": "s-b6-ftc",
+    "topicId": "b6-ftc",
+    "title": "The Fundamental Theorem of Calculus and antiderivatives",
+    "body": [
+     "FTC part 1: if g(x) = ∫ from a to x of f(t) dt, then g′(x) = f(x). With a function as the upper limit, use the chain rule: d/dx ∫ from a to u(x) of f(t) dt = f(u(x))·u′(x).",
+     "FTC part 2: ∫ from a to b of f(x) dx = F(b) − F(a), where F′ = f. An indefinite integral ∫ f(x) dx = F(x) + C names the whole family of antiderivatives."
+    ],
+    "points": [
+     "Don't forget + C on an indefinite integral.",
+     "The lower limit's constant disappears when you differentiate an accumulation function.",
+     "Basic antiderivatives reverse the derivative rules: ∫ xⁿ dx = xⁿ⁺¹/(n + 1) + C for n ≠ −1, and ∫ 1/x dx = ln|x| + C."
+    ],
+    "equations": [
+     [
+      "d/dx ∫ₐ^u(x) f(t) dt = f(u(x))·u′(x)",
+      "FTC with the chain rule"
+     ],
+     [
+      "∫ₐᵇ f(x) dx = F(b) − F(a)",
+      "evaluating a definite integral"
+     ]
+    ]
+   },
+   {
+    "id": "s-b6-tech",
+    "topicId": "b6-tech",
+    "title": "Integration techniques and improper integrals",
+    "body": [
+     "Substitution (u-sub) reverses the chain rule: choose u so that du appears in the integrand. Integration by parts reverses the product rule: ∫ u dv = uv − ∫ v du. Partial fractions split a rational function with distinct linear factors into simpler fractions that integrate to logarithms.",
+     "An improper integral has an infinite limit or an integrand that becomes unbounded. Write it as a limit, such as ∫ from 1 to ∞ = lim b→∞ ∫ from 1 to b, and evaluate the limit: if it is finite, the integral converges."
+    ],
+    "points": [
+     "For parts, choose u to get simpler when differentiated (often a polynomial).",
+     "∫ from 1 to ∞ of 1/xᵖ dx converges for p > 1 and diverges for p ≤ 1.",
+     "An unbounded integrand can still have a finite integral, as with 1/√x on [0, 1]."
+    ],
+    "equations": [
+     [
+      "∫ u dv = uv − ∫ v du",
+      "integration by parts"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Evaluate ∫ x eˣ dx.",
+   "solution": "Use parts with u = x and dv = eˣ dx, so du = dx and v = eˣ. Then ∫ x eˣ dx = x eˣ − ∫ eˣ dx = x eˣ − eˣ + C = eˣ(x − 1) + C. Check: the derivative is eˣ + x eˣ − eˣ = x eˣ."
+  },
+  "misconceptions": [
+   [
+    "“A definite integral is always an area, so it's never negative.”",
+    "It's a net (signed) total; parts below the axis subtract."
+   ],
+   [
+    "“d/dx ∫ from 0 to x³ of f(t) dt = f(x³).”",
+    "With a function as the upper limit, multiply by its derivative: f(x³)·3x²."
+   ],
+   [
+    "“If the integrand blows up, the integral diverges.”",
+    "Evaluate the limit: some unbounded integrands have finite integrals."
+   ],
+   [
+    "“∫ f(x)g(x) dx = ∫ f(x) dx · ∫ g(x) dx.”",
+    "Integrals don't split over products; use substitution or parts."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+  "sourceTitle": "AP Calculus BC – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "cbc-u6-q01",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u6",
+   "topicId": "b6-accum",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Water flows into a tank at r(t) gallons per minute, where t is in minutes. What does ∫ from 0 to 10 of r(t) dt represent?",
+   "choices": [
+    "The rate of flow at t = 10 minutes",
+    "The amount of water in the tank at t = 10 minutes",
+    "The total gallons that flow into the tank during the first 10 minutes",
+    "The average rate of flow during the first 10 minutes"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Integrating a rate over a time interval gives the total change: gallons per minute × minutes = gallons that entered from t = 0 to t = 10.",
+   "choiceExplanations": [
+    "r(10) is the rate at t = 10; the integral adds up the rate over the whole interval.",
+    "The tank's amount at t = 10 also includes whatever was in it at t = 0.",
+    "",
+    "The average rate would be the integral divided by 10."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u6-q02",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u6",
+   "topicId": "b6-accum",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A table gives f(0) = 4, f(2) = 6, f(5) = 3, and f(9) = 5. Using a left Riemann sum with the three subintervals the table gives, what is the approximation of ∫ from 0 to 9 of f(x) dx?",
+   "choices": [
+    "41",
+    "39",
+    "38",
+    "39.5"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Use each subinterval's own width: 4·2 + 6·3 + 3·4 = 8 + 18 + 12 = 38.",
+   "choiceExplanations": [
+    "41 is the right Riemann sum (6·2 + 3·3 + 5·4).",
+    "39 uses a width of 3 for every subinterval, but the widths are 2, 3, and 4.",
+    "",
+    "39.5 is the trapezoidal sum."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u6-q03",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u6",
+   "topicId": "b6-accum",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A tank holds 50 liters at t = 0. Water leaks out at r(t) = 2t liters per minute for 0 ≤ t ≤ 5. How much water is in the tank at t = 5?",
+   "choices": [
+    "25 liters",
+    "40 liters",
+    "75 liters",
+    "0 liters"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The amount leaked is ∫ from 0 to 5 of 2t dt = 25 liters, so 50 − 25 = 25 liters remain.",
+   "choiceExplanations": [
+    "",
+    "40 subtracts the rate at t = 5 (10 L/min), not the total leaked.",
+    "75 adds the leaked amount instead of subtracting it.",
+    "0 assumes the leak rate stays at its maximum, 10 L/min, for all 5 minutes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u6-q04",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u6",
+   "topicId": "b6-ftc",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx ∫ from 1 to x of cos(t²) dt?",
+   "choices": [
+    "cos(x²)",
+    "sin(x²)",
+    "2x cos(x²)",
+    "cos(x²) − cos(1)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "By the Fundamental Theorem of Calculus, the derivative of ∫ from a to x of f(t) dt is f(x), so the answer is cos(x²).",
+   "choiceExplanations": [
+    "",
+    "sin(x²) treats the problem as finding an antiderivative.",
+    "The upper limit is x, whose derivative is 1, so there is no factor 2x.",
+    "The constant lower limit contributes nothing to the derivative."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u6-q05",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u6",
+   "topicId": "b6-ftc",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx ∫ from 0 to x³ of √(1 + t) dt?",
+   "choices": [
+    "3x²√(1 + x)",
+    "3x²√(1 + x³)",
+    "√(1 + x³)",
+    "√(1 + x³) − 1"
+   ],
+   "correctAnswer": 1,
+   "explanation": "FTC with the chain rule: f(x³)·(x³)′ = √(1 + x³)·3x².",
+   "choiceExplanations": [
+    "3x²√(1 + x) evaluates the integrand at x instead of at x³.",
+    "",
+    "√(1 + x³) forgets to multiply by the derivative of the upper limit.",
+    "The lower limit is a constant, so nothing is subtracted."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u6-q06",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u6",
+   "topicId": "b6-ftc",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is ∫ from 0 to 2 of (3x² − 2x) dx?",
+   "choices": [
+    "12",
+    "8",
+    "4",
+    "0"
+   ],
+   "correctAnswer": 2,
+   "explanation": "An antiderivative is x³ − x², so the integral is (8 − 4) − 0 = 4.",
+   "choiceExplanations": [
+    "12 adds the two parts (8 + 4) instead of subtracting.",
+    "8 is the integrand's value at x = 2, not the integral.",
+    "",
+    "0 uses 2x² as the antiderivative of 2x."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u6-q07",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u6",
+   "topicId": "b6-tech",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is ∫ x e^(x²) dx?",
+   "choices": [
+    "e^(x²) + C",
+    "(x²/2)e^(x²) + C",
+    "(1/2)e^(x²) + C",
+    "2e^(x²) + C"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Let u = x², so du = 2x dx and x dx = du/2. Then ∫ eᵘ du/2 = (1/2)eᵘ + C = (1/2)e^(x²) + C.",
+   "choiceExplanations": [
+    "Its derivative is 2x e^(x²), twice the integrand.",
+    "This integrates x and e^(x²) separately and multiplies, which isn't valid.",
+    "",
+    "Its derivative is 4x e^(x²), four times the integrand."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u6-q08",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u6",
+   "topicId": "b6-tech",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is ∫ x cos x dx?",
+   "choices": [
+    "(x²/2) sin x + C",
+    "x sin x − cos x + C",
+    "x sin x + cos x + C",
+    "−x sin x + cos x + C"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Parts with u = x, dv = cos x dx: du = dx, v = sin x. So ∫ x cos x dx = x sin x − ∫ sin x dx = x sin x + cos x + C.",
+   "choiceExplanations": [
+    "Integrals don't split over products: the derivative of (x²/2) sin x isn't x cos x.",
+    "∫ sin x dx = −cos x, so subtracting it gives + cos x, not − cos x.",
+    "",
+    "The sign of x sin x is wrong: v = ∫ cos x dx = +sin x."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u6-q09",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u6",
+   "topicId": "b6-tech",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is ∫ 1/((x − 1)(x + 2)) dx?",
+   "choices": [
+    "ln|(x − 1)(x + 2)| + C",
+    "(1/3) ln|(x − 1)/(x + 2)| + C",
+    "(1/3) ln|(x + 2)/(x − 1)| + C",
+    "3 ln|(x − 1)/(x + 2)| + C"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Partial fractions: 1/((x − 1)(x + 2)) = (1/3)/(x − 1) − (1/3)/(x + 2). Integrate: (1/3)ln|x − 1| − (1/3)ln|x + 2| + C.",
+   "choiceExplanations": [
+    "Its derivative is 1/(x − 1) + 1/(x + 2), which isn't the integrand.",
+    "",
+    "This has the wrong sign: it's the negative of the answer.",
+    "The coefficients are 1/3, not 3."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u6-q10",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u6",
+   "topicId": "b6-tech",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is ∫ from 1 to ∞ of 1/x² dx?",
+   "choices": [
+    "−1",
+    "0",
+    "1",
+    "It diverges"
+   ],
+   "correctAnswer": 2,
+   "explanation": "lim b→∞ ∫ from 1 to b of x⁻² dx = lim b→∞ (1 − 1/b) = 1. It converges because p = 2 > 1.",
+   "choiceExplanations": [
+    "−1 subtracts in the wrong order: the antiderivative −1/x goes from −1 at x = 1 up to 0, a change of +1.",
+    "The integrand is positive, so the integral can't be 0.",
+    "",
+    "1/xᵖ integrals from 1 to ∞ converge when p > 1; here p = 2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u6-q11",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u6",
+   "topicId": "b6-tech",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is ∫ from 0 to 1 of 1/√x dx?",
+   "choices": [
+    "It diverges, because 1/√x is unbounded near 0",
+    "2",
+    "1/2",
+    "1"
+   ],
+   "correctAnswer": 1,
+   "explanation": "lim a→0⁺ ∫ from a to 1 of x^(−1/2) dx = lim a→0⁺ (2 − 2√a) = 2. The integrand is unbounded, but the area is finite.",
+   "choiceExplanations": [
+    "An unbounded integrand doesn't automatically mean divergence; the limit here is finite.",
+    "",
+    "1/2 multiplies by the exponent instead of dividing by the new exponent 1/2.",
+    "1 forgets the factor 2 in the antiderivative 2√x."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "cbc-u6-q01",
+    "cbc-u6-q02",
+    "cbc-u6-q03",
+    "cbc-u6-q04",
+    "cbc-u6-q05",
+    "cbc-u6-q08",
+    "cbc-u6-q09",
+    "cbc-u6-q10"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,753 @@
+{
+ "courseId": "ap-chemistry",
+ "unitId": "u9",
+ "title": "Unit 9: Thermodynamics and Electrochemistry",
+ "topics": [
+  {
+   "id": "c9-entropy",
+   "name": "Entropy",
+   "covers": [
+    "Introduction to entropy"
+   ],
+   "frameworkCovers": [
+    "9.1 Introduction to Entropy",
+    "9.2 Absolute Entropy and Entropy Change"
+   ]
+  },
+  {
+   "id": "c9-gibbs",
+   "name": "Gibbs free energy, favorability, and equilibrium",
+   "covers": [
+    "Gibbs free energy and thermodynamic favorability",
+    "Thermodynamic and kinetic control",
+    "Free energy and equilibrium",
+    "Free energy of dissolution"
+   ],
+   "frameworkCovers": [
+    "9.3 Gibbs Free Energy and Thermodynamic Favorability",
+    "9.4 Thermodynamic and Kinetic Control",
+    "9.5 Free Energy and Equilibrium",
+    "9.6 Free Energy of Dissolution",
+    "9.7 Coupled Reactions"
+   ]
+  },
+  {
+   "id": "c9-echem",
+   "name": "Electrochemical cells and electrolysis",
+   "covers": [
+    "Galvanic (voltaic) and electrolytic cells",
+    "Electrolysis and Faraday’s laws"
+   ],
+   "frameworkCovers": [
+    "9.8 Galvanic (Voltaic) and Electrolytic Cells",
+    "9.9 Cell Potential and Free Energy",
+    "9.10 Cell Potential Under Nonstandard Conditions",
+    "9.11 Electrolysis and Faraday’s Law"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Thermodynamics and electrochemistry: review guide",
+  "intro": "Whether a process is favorable depends on both enthalpy and entropy, combined in Gibbs free energy. This unit links ΔG to K and to cell potential, and covers galvanic cells, electrolysis, and Faraday's law.",
+  "equationNote": "R = 8.314 J/(mol·K); F = 96,485 C/mol e⁻; T in kelvins. Convert ΔS from J/K to kJ/K before combining it with ΔH in kJ.",
+  "sections": [
+   {
+    "id": "s-c9-entropy",
+    "topicId": "c9-entropy",
+    "title": "Entropy",
+    "body": [
+     "Entropy (S) measures how dispersed matter and energy are. Entropy increases from solid to liquid to gas, when a solid dissolves, when the number of gas molecules increases, and when temperature rises.",
+     "ΔS° for a reaction = ΣS°(products) − ΣS°(reactants), each multiplied by its coefficient. Unlike ΔH°f, the standard entropy of an element isn't zero."
+    ],
+    "points": [
+     "Fewer moles of gas in the products usually means ΔS < 0.",
+     "S° values are in J/(mol·K).",
+     "A gas has much more entropy than its liquid."
+    ],
+    "equations": [
+     [
+      "ΔS° = ΣS°(products) − ΣS°(reactants)",
+      "standard entropy change"
+     ]
+    ]
+   },
+   {
+    "id": "s-c9-gibbs",
+    "topicId": "c9-gibbs",
+    "title": "Gibbs free energy, favorability, and equilibrium",
+    "body": [
+     "ΔG = ΔH − TΔS. A process is thermodynamically favorable when ΔG < 0. If ΔH < 0 and ΔS > 0 it is favorable at all temperatures; if ΔH > 0 and ΔS < 0, at none; otherwise favorability depends on T, switching at T = ΔH/ΔS.",
+     "ΔG° = −RT ln K: ΔG° < 0 means K > 1. A favorable reaction can still be too slow to observe when its activation energy is high (kinetic control), as with diamond turning to graphite. An unfavorable reaction can be driven by coupling it to a more favorable one, so their total ΔG is negative."
+    ],
+    "points": [
+     "Favorable doesn't mean fast.",
+     "Dissolving can be favorable even when endothermic, if entropy increases enough.",
+     "Units: ΔH in kJ, ΔS in kJ/K."
+    ],
+    "equations": [
+     [
+      "ΔG = ΔH − TΔS",
+      "Gibbs free energy"
+     ],
+     [
+      "ΔG° = −RT ln K",
+      "free energy and equilibrium"
+     ]
+    ]
+   },
+   {
+    "id": "s-c9-echem",
+    "topicId": "c9-echem",
+    "title": "Electrochemical cells and electrolysis",
+    "body": [
+     "In a galvanic (voltaic) cell, a favorable redox reaction produces current: oxidation at the anode, reduction at the cathode, and electrons flow through the wire from anode to cathode. E°cell = E°(cathode) − E°(anode); a positive E° means ΔG° < 0, since ΔG° = −nFE°.",
+     "Under nonstandard conditions, increasing the reactants' concentrations (Q < 1) raises the cell potential, and E falls toward 0 as the cell approaches equilibrium. Electrolytic cells use an outside power source to drive an unfavorable reaction. Faraday's law: moles of electrons = charge ÷ F, where charge q = It."
+    ],
+    "points": [
+     "“An ox, red cat”: anode oxidation, reduction cathode.",
+     "A salt bridge keeps each half-cell neutral.",
+     "Copper(II) needs 2 mol e⁻ per mol Cu deposited."
+    ],
+    "equations": [
+     [
+      "E°cell = E°cathode − E°anode",
+      "standard cell potential"
+     ],
+     [
+      "ΔG° = −nFE°",
+      "free energy and cell potential"
+     ],
+     [
+      "q = It",
+      "charge from current and time"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A current of 2.00 A runs for 965 s through a Cu²⁺ solution. What mass of copper is deposited? (Cu 63.55 g/mol)",
+   "solution": "q = It = 2.00 × 965 = 1930 C. Moles e⁻ = 1930/96,485 = 0.0200 mol. Cu²⁺ + 2e⁻ → Cu, so 0.0100 mol Cu × 63.55 g/mol = 0.636 g."
+  },
+  "misconceptions": [
+   [
+    "“Exothermic reactions are always favorable.”",
+    "Entropy matters too; ΔG decides."
+   ],
+   [
+    "“Thermodynamically favorable reactions happen quickly.”",
+    "A high activation energy can make them extremely slow."
+   ],
+   [
+    "“Doubling a half-reaction doubles its E°.”",
+    "E° doesn't depend on the amount; don't multiply it by coefficients."
+   ],
+   [
+    "“The anode is always positive.”",
+    "In a galvanic cell the anode is negative; in an electrolytic cell it is positive. Oxidation is at the anode in both."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Chemistry Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+  "sourceTitle": "AP Chemistry – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "chem-u9-q01",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-entropy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which process has ΔS > 0?",
+   "choices": [
+    "H₂O(l) → H₂O(s)",
+    "H₂O(l) → H₂O(g)",
+    "H₂O(g) → H₂O(l)",
+    "2H₂(g) + O₂(g) → 2H₂O(l)"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A gas is far more dispersed than a liquid, so vaporizing increases entropy.",
+   "choiceExplanations": [
+    "Freezing makes the particles more ordered.",
+    "",
+    "Condensing makes the particles less dispersed.",
+    "Three moles of gas become a liquid, so entropy falls."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q02",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-entropy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the sign of ΔS for 2SO₂(g) + O₂(g) → 2SO₃(g), and why?",
+   "choices": [
+    "Zero, because everything stays a gas",
+    "Positive, because the reaction releases energy",
+    "Positive, because the products are larger molecules",
+    "Negative, because 3 mol of gas become 2 mol of gas"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Fewer gas molecules means fewer ways to arrange matter and energy, so entropy decreases.",
+   "choiceExplanations": [
+    "The number of gas moles changes, so ΔS isn't zero.",
+    "The sign of ΔH doesn't decide the sign of ΔS.",
+    "Fewer gas particles outweighs larger molecules.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q03",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-entropy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Using S° values (N₂ 191.6, H₂ 130.7, NH₃ 192.5 J/(mol·K)), find ΔS° for N₂ + 3H₂ → 2NH₃.",
+   "choices": [
+    "−198.7 J/K",
+    "−129.8 J/K",
+    "+198.7 J/K",
+    "+583.7 J/K"
+   ],
+   "correctAnswer": 0,
+   "explanation": "ΔS° = 2(192.5) − [191.6 + 3(130.7)] = 385.0 − 583.7 = −198.7 J/K.",
+   "choiceExplanations": [
+    "",
+    "−129.8 J/K ignores the coefficients.",
+    "This subtracts in the wrong order.",
+    "+583.7 J/K is only the reactants' total."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q04",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-entropy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which has the greater standard molar entropy, Br₂(l) or Br₂(g)?",
+   "choices": [
+    "Br₂(l)",
+    "It depends on the mass of the sample",
+    "Br₂(g)",
+    "They are equal, because they are the same substance"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Gas molecules move freely through a much larger volume, so the gas has more entropy.",
+   "choiceExplanations": [
+    "The liquid's molecules are much less dispersed.",
+    "Standard molar entropy is per mole, so it doesn't depend on sample size.",
+    "",
+    "The same substance in different states has different entropies."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q05",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-gibbs",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What does ΔG < 0 tell you about a process?",
+   "choices": [
+    "It is at equilibrium",
+    "It is endothermic",
+    "It is fast",
+    "It is thermodynamically favorable"
+   ],
+   "correctAnswer": 3,
+   "explanation": "A negative Gibbs free energy change means the process is favorable under those conditions.",
+   "choiceExplanations": [
+    "At equilibrium, ΔG = 0.",
+    "ΔG < 0 can happen for endothermic or exothermic processes.",
+    "ΔG says nothing about the rate.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q06",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-gibbs",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A reaction has ΔH = −100. kJ and ΔS = −200. J/K. What is ΔG at 298 K?",
+   "choices": [
+    "+59,500 kJ",
+    "−159.6 kJ",
+    "+40.4 kJ",
+    "−40.4 kJ"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Convert ΔS to −0.200 kJ/K: ΔG = −100. − (298)(−0.200) = −100. + 59.6 = −40.4 kJ.",
+   "choiceExplanations": [
+    "This uses ΔS in J/K with ΔH in kJ.",
+    "This adds TΔS with the wrong sign.",
+    "This has the wrong overall sign.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q07",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-gibbs",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A reaction has ΔH > 0 and ΔS > 0. When is it thermodynamically favorable?",
+   "choices": [
+    "At all temperatures",
+    "Only at high temperatures",
+    "At no temperature",
+    "Only at low temperatures"
+   ],
+   "correctAnswer": 1,
+   "explanation": "ΔG = ΔH − TΔS becomes negative once TΔS is larger than ΔH, which happens at high T.",
+   "choiceExplanations": [
+    "That requires ΔH < 0 and ΔS > 0.",
+    "",
+    "That requires ΔH > 0 and ΔS < 0.",
+    "At low T the positive ΔH dominates, so ΔG > 0."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q08",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-gibbs",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A reaction has ΔH = +40.0 kJ and ΔS = +100. J/K. Above what temperature is it favorable?",
+   "choices": [
+    "400. K",
+    "4000 K",
+    "0.400 K",
+    "2.50 K"
+   ],
+   "correctAnswer": 0,
+   "explanation": "It becomes favorable when T > ΔH/ΔS = 40,000 J ÷ 100. J/K = 400. K.",
+   "choiceExplanations": [
+    "",
+    "4000 K multiplies by 10 by mistake.",
+    "0.400 K mixes kJ with J/K.",
+    "2.50 K inverts the ratio."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q09",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-gibbs",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "For a reaction with ΔG° < 0, what is true of its equilibrium constant K?",
+   "choices": [
+    "K = 1",
+    "K < 1",
+    "K > 1",
+    "K = 0"
+   ],
+   "correctAnswer": 2,
+   "explanation": "ΔG° = −RT ln K, so a negative ΔG° requires ln K > 0, which means K > 1.",
+   "choiceExplanations": [
+    "K = 1 goes with ΔG° = 0.",
+    "K < 1 goes with ΔG° > 0.",
+    "",
+    "K is never zero."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q10",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-gibbs",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Diamond turning into graphite is thermodynamically favorable at room temperature, yet diamonds last essentially forever. Why?",
+   "choices": [
+    "The reaction is actually unfavorable at room temperature",
+    "The reaction needs a catalyst to be favorable",
+    "The reaction has a very high activation energy, so it is extremely slow (kinetic control)",
+    "Diamond and graphite are at equilibrium"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Favorability (ΔG < 0) says nothing about rate. Breaking diamond's network of C–C bonds needs a huge activation energy.",
+   "choiceExplanations": [
+    "The question states the reaction is favorable (ΔG < 0).",
+    "A catalyst changes the rate, not whether a reaction is favorable.",
+    "",
+    "At room temperature graphite is more stable, so they aren't at equilibrium."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q11",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-gibbs",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An unfavorable reaction (ΔG° = +30 kJ) is coupled with a favorable one (ΔG° = −45 kJ) that shares an intermediate. What is ΔG° for the overall process?",
+   "choices": [
+    "−15 kJ: the coupled process is favorable",
+    "+30 kJ: coupling doesn't change it",
+    "−75 kJ: very favorable",
+    "+75 kJ: still unfavorable"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Free energies of coupled reactions add: +30 + (−45) = −15 kJ.",
+   "choiceExplanations": [
+    "",
+    "The overall ΔG° is the sum of both reactions' values.",
+    "−75 adds the sizes as if both were negative.",
+    "+75 subtracts the negative value."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q12",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-gibbs",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "At 298 K, a reaction has ΔG° = −5.7 kJ/mol. What is K, approximately? (R = 8.314 J/(mol·K))",
+   "choices": [
+    "0.10",
+    "1.0",
+    "2.3",
+    "10"
+   ],
+   "correctAnswer": 3,
+   "explanation": "ln K = −ΔG°/RT = 5700/(8.314 × 298) = 2.30, so K = e^2.30 ≈ 10.",
+   "choiceExplanations": [
+    "0.10 uses the wrong sign for ΔG°.",
+    "K = 1 would need ΔG° = 0.",
+    "2.3 is ln K, not K.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q13",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-echem",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In a galvanic cell, where does oxidation occur?",
+   "choices": [
+    "At the anode",
+    "At the cathode",
+    "In the salt bridge",
+    "In the external wire"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Oxidation always happens at the anode, and electrons leave it through the wire.",
+   "choiceExplanations": [
+    "",
+    "Reduction happens at the cathode.",
+    "The salt bridge moves ions to keep the half-cells neutral; no redox happens there.",
+    "Electrons travel through the wire, but the reactions happen at the electrodes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q14",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-echem",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Using E°(Cu²⁺/Cu) = +0.34 V and E°(Zn²⁺/Zn) = −0.76 V, what is E°cell for Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)?",
+   "choices": [
+    "+0.42 V",
+    "+1.10 V",
+    "−1.10 V",
+    "−0.42 V"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Cu²⁺ is reduced (cathode) and Zn oxidized (anode): E° = 0.34 − (−0.76) = +1.10 V.",
+   "choiceExplanations": [
+    "+0.42 V adds the two potentials.",
+    "",
+    "This subtracts in the wrong order.",
+    "−0.42 V adds them and flips the sign."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q15",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-echem",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For the zinc–copper cell, n = 2 and E° = +1.10 V. What is ΔG°? (F = 96,485 C/mol)",
+   "choices": [
+    "−0.212 kJ",
+    "+212 kJ",
+    "−212 kJ",
+    "−106 kJ"
+   ],
+   "correctAnswer": 2,
+   "explanation": "ΔG° = −nFE° = −(2)(96,485)(1.10) J = −212,000 J = −212 kJ.",
+   "choiceExplanations": [
+    "This divides by 1000 twice.",
+    "A positive E° gives a negative ΔG°.",
+    "",
+    "−106 kJ uses n = 1."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q16",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-echem",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In the zinc–copper galvanic cell, [Cu²⁺] is increased while [Zn²⁺] stays the same. What happens to the cell potential?",
+   "choices": [
+    "It stays the same, because E° doesn't change",
+    "It increases, because Q decreases",
+    "It decreases, because Q increases",
+    "It drops to zero"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Q = [Zn²⁺]/[Cu²⁺]. More Cu²⁺ (a reactant) lowers Q, moving the cell further from equilibrium, so E rises above its previous value.",
+   "choiceExplanations": [
+    "E° is fixed, but the actual potential E changes with concentrations.",
+    "",
+    "Adding a reactant lowers Q.",
+    "E reaches zero only at equilibrium."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q17",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-echem",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A current of 2.00 A passes through a Cu²⁺ solution for 965 s. What mass of copper is deposited? (Cu 63.55 g/mol, F = 96,485 C/mol)",
+   "choices": [
+    "0.318 g",
+    "0.636 g",
+    "0.0100 g",
+    "1.27 g"
+   ],
+   "correctAnswer": 1,
+   "explanation": "q = 1930 C → 0.0200 mol e⁻ → 0.0100 mol Cu (2 e⁻ per Cu²⁺) → 0.636 g.",
+   "choiceExplanations": [
+    "0.318 g uses 4 electrons per Cu²⁺.",
+    "",
+    "0.0100 is the moles of copper, not grams.",
+    "1.27 g uses 1 electron per Cu²⁺."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u9-q18",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "topicId": "c9-echem",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How does an electrolytic cell differ from a galvanic cell?",
+   "choices": [
+    "It uses an outside power source to drive a thermodynamically unfavorable reaction",
+    "Oxidation occurs at its cathode",
+    "It produces electrical energy from a favorable reaction",
+    "It has no electrodes"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Electrolysis forces a nonspontaneous redox reaction (ΔG > 0) using electrical energy.",
+   "choiceExplanations": [
+    "",
+    "Oxidation is at the anode in every electrochemical cell.",
+    "That describes a galvanic cell.",
+    "Electrolytic cells have an anode and a cathode."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-chem-u9-os1",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "title": "OpenStax Chemistry 2e, 16.4 Free Energy",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/16-4-free-energy",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Gibbs free energy and its link to K (CED topics 9.3–9.5).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/16-4-free-energy",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u9-os2",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "title": "OpenStax Chemistry 2e, 17.3 Electrode and Cell Potentials",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Standard reduction potentials and cell potential (CED topics 9.8–9.9).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u9-os3",
+   "courseId": "ap-chemistry",
+   "unitId": "u9",
+   "title": "OpenStax Chemistry 2e, 17.7 Electrolysis",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Electrolytic cells and Faraday's law (CED topic 9.11).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "chem-u9-q01",
+    "chem-u9-q02",
+    "chem-u9-q03",
+    "chem-u9-q05",
+    "chem-u9-q06",
+    "chem-u9-q08",
+    "chem-u9-q13",
+    "chem-u9-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "chem-u9-q04",
+    "chem-u9-q07",
+    "chem-u9-q09",
+    "chem-u9-q10",
+    "chem-u9-q12",
+    "chem-u9-q14",
+    "chem-u9-q17",
+    "chem-u9-q18"
+   ]
+  }
+ ]
+}

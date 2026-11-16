@@ -1,0 +1,757 @@
+{
+ "courseId": "ap-computer-science-a",
+ "unitId": "u1",
+ "title": "Unit 1: Using Objects and Methods",
+ "topics": [
+  {
+   "id": "csa1-basics",
+   "name": "Programs, variables, data types, and comments",
+   "covers": [
+    "Using primitive data types including int, double, and Boolean",
+    "Using comments to describe the functionality of code"
+   ],
+   "frameworkCovers": [
+    "1.1 Introduction to Algorithms, Programming, and Compilers",
+    "1.2 Variables and Data Types",
+    "1.8 Documentation with Comments"
+   ]
+  },
+  {
+   "id": "csa1-expressions",
+   "name": "Expressions, assignment, and casting",
+   "covers": [
+    "Evaluating arithmetic expressions in program code",
+    "Using assignment operators to produce a value",
+    "Knowing how variables and operators are sequenced and combined in an expression to create a result"
+   ],
+   "frameworkCovers": [
+    "1.3 Expressions and Output",
+    "1.4 Assignment Statements and Input",
+    "1.5 Casting and Range of Variables",
+    "1.6 Compound Assignment Operators"
+   ]
+  },
+  {
+   "id": "csa1-objects",
+   "name": "Objects, constructors, and calling methods",
+   "covers": [
+    "Using objects and classes to describe instances, attributes, and behaviors",
+    "Creating objects by calling constructors with and without parameters",
+    "Defining an object’s behavior using methods, including static and Math class",
+    "Calling non-static void methods with and without parameters",
+    "Using application program interfaces (APIs) and libraries"
+   ],
+   "frameworkCovers": [
+    "1.7 Application Program Interface (API) and Libraries",
+    "1.9 Method Signatures",
+    "1.10 Calling Class Methods",
+    "1.11 Math Class",
+    "1.12 Objects: Instances of Classes \u0007 \u0007",
+    "1.13 Object Creation and Storage (Instantiation)",
+    "1.14 Calling Instance Methods"
+   ]
+  },
+  {
+   "id": "csa1-strings",
+   "name": "String objects and methods",
+   "covers": [
+    "Using String objects and methods"
+   ],
+   "frameworkCovers": [
+    "1.15 String Manipulation"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 1: Using Objects and Methods: review guide",
+  "intro": "This unit covers the building blocks of Java programs: variables and the three primitive types, arithmetic and assignment, casting, and how to create objects and call methods, especially methods of the Math and String classes. Most exam questions here give a short code segment and ask what it prints or why it fails.",
+  "sections": [
+   {
+    "id": "s-csa1-basics",
+    "topicId": "csa1-basics",
+    "title": "Programs, variables, data types, and comments",
+    "body": [
+     "An algorithm is a step-by-step process; a program is written in an editor or IDE and checked by a compiler. A syntax error breaks the rules of the language and is caught by the compiler. A logic error makes a program that runs give the wrong result and is found by testing. A run-time error happens during execution and usually ends the program; an exception is one kind.",
+     "A data type is a set of values and the operations on them. The primitive types in this course are int (integers), double (real numbers), and boolean (true or false); everything else, such as String, is a reference type. A variable has a name and a type and must be given a value before it is used. Comments (// for one line, /* */ for a block, /** */ for Javadoc) are ignored by the compiler. A precondition is what must be true before a method is called for it to work as described (the method is not expected to check it); a postcondition is what is true after it finishes."
+    ],
+    "points": [
+     "Compiler finds syntax errors; testing finds logic errors.",
+     "Only int, double, and boolean are tested as primitives."
+    ]
+   },
+   {
+    "id": "s-csa1-expressions",
+    "topicId": "csa1-expressions",
+    "title": "Expressions, assignment, and casting",
+    "body": [
+     "System.out.print displays text and stays on the line; System.out.println moves to a new line afterward. In a string literal, \\\" is a quotation mark, \\\\ is a backslash, and \\n is a new line. The arithmetic operators are +, -, *, /, and %. With two int operands, / keeps only the integer part of the quotient (7 / 2 is 3) and % gives the remainder (7 % 2 is 1); if either operand is a double, the result is a double. *, /, and % are done before + and -, left to right, unless parentheses change the order. Dividing an int by the int zero throws an ArithmeticException.",
+     "The assignment operator = stores the value of the expression on its right in the variable on its left. The compound operators +=, -=, *=, /=, and %= combine an operation with assignment, and x++ and x-- add or subtract 1. A cast changes a value's type: (int) truncates the digits after the decimal point, and (double) turns an int into a double. An int is widened to a double automatically when needed, but a double cannot be stored in an int without a cast. To round a non-negative double x to the nearest int, use (int) (x + 0.5). An int must lie between Integer.MIN_VALUE and Integer.MAX_VALUE; going outside that range causes overflow and an unexpected value."
+    ],
+    "points": [
+     "int / int truncates: 9 / 2 is 4, and (double) (9 / 2) is 4.0.",
+     "A cast applies to the value right after it: (double) a / b divides as doubles."
+    ]
+   },
+   {
+    "id": "s-csa1-objects",
+    "topicId": "csa1-objects",
+    "title": "Objects, constructors, and calling methods",
+    "body": [
+     "A class is a blueprint for objects; an object is an instance of a class with its own attributes. Libraries are collections of classes, and an API tells programmers how to use them. A variable of a reference type holds a reference to an object, or null if there is none. Objects are created with the keyword new and a call to a constructor, which has the same name as the class; constructors can be overloaded with different parameter lists. Every class is a subclass of Object.",
+     "A method's signature is its name and its ordered list of parameter types. Arguments in a call must match the parameters in number, order, and type; they are passed by value (the parameter gets a copy). A void method returns nothing and is called as a statement; a non-void method returns a value that should be stored or used in an expression. Class (static) methods are called with the class name, such as Math.sqrt(x); instance methods are called on an object with the dot operator. Calling a method on a null reference throws a NullPointerException. Math methods to know: abs, pow, sqrt, and random, which returns a double from 0.0 up to but not including 1.0; (int) (Math.random() * n) + low gives a random int from low to low + n - 1."
+    ],
+    "points": [
+     "Arguments must match the parameter list in number, order, and type.",
+     "Random int from 1 to 6: (int) (Math.random() * 6) + 1."
+    ]
+   },
+   {
+    "id": "s-csa1-strings",
+    "topicId": "csa1-strings",
+    "title": "String objects and methods",
+    "body": [
+     "A String is a sequence of characters with index values from 0 to length() - 1; using an index outside that range throws a StringIndexOutOfBoundsException. Strings are immutable: String methods return new strings and never change the original, so a result that is not stored is lost. The + and += operators concatenate strings, and a primitive joined to a string is converted to text.",
+     "Methods from the Java Quick Reference: length(); substring(from, to), which returns the characters from index from up to but not including index to; substring(from), which goes to the end; indexOf(str), which returns the index of the first occurrence or -1; equals(other), which compares contents; and compareTo(other), which returns a negative value, zero, or a positive value depending on whether the string comes before, equals, or comes after other alphabetically. The single character at position i is substring(i, i + 1)."
+    ],
+    "points": [
+     "substring(a, b) has length b - a and stops before index b.",
+     "Use equals, not ==, to compare the contents of strings."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "What does this code segment print?  String word = \"planet\";  String part = word.substring(1, 4);  System.out.println(part + word.indexOf(\"n\") + word.length());",
+   "solution": "substring(1, 4) takes indices 1, 2, and 3: \"lan\". indexOf(\"n\") is 3 and length() is 6. Concatenation goes left to right starting with a string, so the numbers are joined as text: lan36."
+  },
+  "misconceptions": [
+   [
+    "“7 / 2 is 3.5 in Java.”",
+    "With two int operands the result is the int 3; at least one operand must be a double to get 3.5."
+   ],
+   [
+    "“Calling s.toUpperCase() changes s.”",
+    "Strings are immutable; the method returns a new string that must be stored to be used."
+   ],
+   [
+    "“substring(2, 5) includes the character at index 5.”",
+    "It includes indices 2, 3, and 4 only."
+   ],
+   [
+    "“(int) rounds to the nearest integer.”",
+    "It truncates: (int) 3.9 is 3."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Computer Science A Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+  "sourceTitle": "AP Computer Science A – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-16"
+ },
+ "passages": [
+  {
+   "id": "csa1-c1",
+   "title": "Code segment",
+   "text": [
+    "int x = 10;",
+    "x += 3;",
+    "x *= 2;",
+    "x %= 7;",
+    "x++;",
+    "System.out.println(x);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa1-c2",
+   "title": "Code segment",
+   "text": [
+    "String s = null;",
+    "int n = s.length();",
+    "System.out.println(n);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa1-c3",
+   "title": "Code segment",
+   "text": [
+    "String a = \"hello\";",
+    "String b = a;",
+    "a = a + \" world\";",
+    "a.toUpperCase();",
+    "System.out.println(b + \"|\" + a);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  },
+  {
+   "id": "csa1-c4",
+   "title": "Code segment",
+   "text": [
+    "int a = 7;",
+    "int b = 2;",
+    "double first = (double) a / b;",
+    "double second = (double) (a / b);",
+    "System.out.println(first + \" \" + second);"
+   ],
+   "attribution": "Original Java code written for StudySprint.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam.",
+   "format": "code"
+  }
+ ],
+ "questions": [
+  {
+   "id": "csa-u1-q01",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-basics",
+   "skill": "4.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A program compiles and runs to completion, but it prints the wrong average because the programmer divided the total by the wrong number. This mistake is",
+   "choices": [
+    "a syntax error",
+    "a logic error",
+    "an exception",
+    "a run-time error"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The program follows Java's rules and does not crash; it simply does the wrong thing, which is a logic error found by testing.",
+   "choiceExplanations": [
+    "A syntax error breaks the rules of the language and is caught by the compiler, so the program would not run.",
+    "",
+    "An exception is a kind of run-time error that interrupts the program; none occurred here.",
+    "A run-time error occurs during execution and typically stops the program; this program finished."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u1-q02",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-basics",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which data type is the most appropriate for a variable that records whether a student has paid a club fee?",
+   "choices": [
+    "String",
+    "boolean",
+    "double",
+    "int"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Paid or not paid is a true-or-false value, which is exactly what boolean stores.",
+   "choiceExplanations": [
+    "A String could hold text such as \"yes\", but it allows any text and is harder to test reliably.",
+    "",
+    "A double is for real numbers, not a yes-or-no fact.",
+    "An int could hold 0 or 1, but it allows many meaningless values; boolean matches the two possibilities."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u1-q03",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-basics",
+   "skill": "4.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A method's comment states: Precondition: n > 0. Which statement about this precondition is correct?",
+   "choices": [
+    "After the method finishes, the value of n is guaranteed to be greater than 0.",
+    "The method must test n and print an error message when n is not positive.",
+    "The compiler rejects any call in which the argument is not greater than 0.",
+    "The caller must make sure n > 0; the method is not expected to check it."
+   ],
+   "correctAnswer": 3,
+   "explanation": "A precondition states what must be true before the call for the method to work as described; responsibility lies with the caller.",
+   "choiceExplanations": [
+    "A guarantee about what is true afterward is a postcondition.",
+    "A method may check its preconditions, but it is not expected to.",
+    "The compiler ignores comments and cannot know the argument's run-time value.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u1-q04",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-basics",
+   "skill": "3.D",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The statements  int count = 5;  count = count + 2.5;  do not compile. Why?",
+   "choices": [
+    "A double value cannot be stored in an int variable without a cast.",
+    "The + operator cannot be used with an int and a double together.",
+    "The variable count is declared twice in the same code segment.",
+    "An int variable must be given its final value when it is declared."
+   ],
+   "correctAnswer": 0,
+   "explanation": "count + 2.5 is a double (7.5). Java will not narrow a double to an int automatically; it would need (int).",
+   "choiceExplanations": [
+    "",
+    "Adding an int and a double is allowed; the result is a double.",
+    "count is declared once and then assigned a new value.",
+    "Variables can be reassigned any number of times."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u1-q05",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-expressions",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is printed by the statement  System.out.println(7 / 2 + 7 % 2);  ?",
+   "choices": [
+    "4",
+    "4.5",
+    "5",
+    "3"
+   ],
+   "correctAnswer": 0,
+   "explanation": "7 / 2 is 3 (integer division) and 7 % 2 is 1 (the remainder), so the sum is 4.",
+   "choiceExplanations": [
+    "",
+    "4.5 treats 7 / 2 as 3.5, but both operands are ints.",
+    "5 would need 7 / 2 to round up to 4; integer division truncates.",
+    "3 leaves out the remainder term, 7 % 2, which is 1."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u1-q06",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-expressions",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed by the statements  double x = 9 / 2;  System.out.println(x);  ?",
+   "choices": [
+    "5.0",
+    "4.5",
+    "4.0",
+    "4"
+   ],
+   "correctAnswer": 2,
+   "explanation": "9 / 2 is evaluated first with two ints, giving 4; the int 4 is then widened to the double 4.0.",
+   "choiceExplanations": [
+    "Integer division truncates; it does not round up.",
+    "4.5 would require at least one double operand, such as 9.0 / 2.",
+    "",
+    "x is a double, so it prints with a decimal point."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u1-q07",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-expressions",
+   "skill": "3.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "3.5 3.5",
+    "3.0 3.0",
+    "3.5 3.0",
+    "3.0 3.5"
+   ],
+   "correctAnswer": 2,
+   "explanation": "(double) a / b casts a to 7.0 first, so the division gives 3.5. (double) (a / b) divides the ints first (3) and then casts the result: 3.0.",
+   "choiceExplanations": [
+    "In the second expression the division happens inside the parentheses with ints, before the cast.",
+    "In the first expression the cast applies to a before the division, so it is not integer division.",
+    "",
+    "This reverses the two results."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa1-c4"
+  },
+  {
+   "id": "csa-u1-q08",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-expressions",
+   "skill": "3.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "5",
+    "7",
+    "27",
+    "6"
+   ],
+   "correctAnswer": 3,
+   "explanation": "x becomes 13, then 26, then 26 % 7 = 5, then 6.",
+   "choiceExplanations": [
+    "5 is the value before x++ is executed.",
+    "7 would be printed only if 26 % 7 were 6; the remainder is 5.",
+    "27 skips the remainder step: 26 + 1.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa1-c1"
+  },
+  {
+   "id": "csa-u1-q09",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-expressions",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is displayed by the statements  System.out.print(\"A\");  System.out.println(\"B\");  System.out.print(\"C\");  ?",
+   "choices": [
+    "AB on the first line and C on the second line",
+    "A, B, and C each on its own separate line",
+    "ABC all together on a single line of output",
+    "A on the first line and BC on the second line"
+   ],
+   "correctAnswer": 0,
+   "explanation": "print leaves the cursor on the same line, so B follows A; println then moves to a new line, where C is printed.",
+   "choiceExplanations": [
+    "",
+    "print does not start a new line after A.",
+    "println moves to a new line after B, so C is not on the first line.",
+    "The new line comes after B is printed, not before it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u1-q10",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-objects",
+   "skill": "3.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is printed by the statement  System.out.println(Math.abs(-3) + Math.pow(2, 3));  ?",
+   "choices": [
+    "11",
+    "5.0",
+    "11.0",
+    "12.0"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Math.abs(-3) is the int 3, and Math.pow(2, 3) is the double 8.0, so the sum is the double 11.0.",
+   "choiceExplanations": [
+    "Math.pow returns a double, so the sum prints with a decimal point.",
+    "5.0 would come from -3 + 8.0, ignoring the absolute value.",
+    "",
+    "12.0 would come from 3 + 9.0, computing 3 squared instead of 2 cubed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u1-q11",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-objects",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which expression produces a random int from 1 to 6, inclusive, with each value possible?",
+   "choices": [
+    "(int) Math.random() * 6 + 1",
+    "(int) (Math.random() * 6 + 1.5)",
+    "(int) (Math.random() * 6)",
+    "(int) (Math.random() * 6) + 1"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Math.random() * 6 is in the range 0.0 up to (not including) 6.0; the cast gives 0 to 5, and adding 1 gives 1 to 6.",
+   "choiceExplanations": [
+    "The cast applies to Math.random() alone, which becomes 0, so the result is always 1.",
+    "This gives 1 to 7, so it can produce 7.",
+    "This gives 0 to 5, so it can produce 0 and never 6.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u1-q12",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-objects",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A class contains the method  public static int combine(int a, double b).  Which call to combine, made inside the same class, compiles?",
+   "choices": [
+    "combine(3, 4.5)",
+    "combine(4.5, 3)",
+    "combine(3)",
+    "combine(\"3\", 4.5)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The arguments must match the parameters in number, order, and type: an int and then a double.",
+   "choiceExplanations": [
+    "",
+    "The first argument is a double, which cannot be passed to an int parameter without a cast.",
+    "The method needs two arguments.",
+    "A String cannot be passed to an int parameter."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u1-q13",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-objects",
+   "skill": "4.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What happens when the code segment is executed?",
+   "choices": [
+    "The code prints 0, because s refers to no characters.",
+    "A NullPointerException is thrown at the second statement.",
+    "The code does not compile, because null is not a String value.",
+    "The code prints null, because s was assigned null."
+   ],
+   "correctAnswer": 1,
+   "explanation": "s holds null, so there is no object on which to call length(); calling a method on a null reference throws a NullPointerException.",
+   "choiceExplanations": [
+    "An empty string \"\" has length 0, but null is not a string object at all.",
+    "",
+    "null can be assigned to any reference variable, so the code compiles.",
+    "The exception occurs before anything can be printed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa1-c2"
+  },
+  {
+   "id": "csa-u1-q14",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-strings",
+   "skill": "3.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is printed by the statements  String s = \"computer\";  System.out.println(s.substring(3, 6));  ?",
+   "choices": [
+    "pute",
+    "mpu",
+    "mput",
+    "put"
+   ],
+   "correctAnswer": 3,
+   "explanation": "substring(3, 6) returns the characters at indices 3, 4, and 5: p, u, t.",
+   "choiceExplanations": [
+    "pute includes index 6; the second argument is not included.",
+    "mpu starts at index 2; the first argument, 3, is included.",
+    "mput covers indices 2 through 5, starting one position too early.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u1-q15",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-strings",
+   "skill": "3.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed by the statements  String s = \"banana\";  System.out.println(s.indexOf(\"an\") + s.length());  ?",
+   "choices": [
+    "7",
+    "8",
+    "9",
+    "16"
+   ],
+   "correctAnswer": 0,
+   "explanation": "indexOf(\"an\") returns 1, the index of the first occurrence, and length() is 6, so 1 + 6 = 7.",
+   "choiceExplanations": [
+    "",
+    "8 uses index 2, but the first \"an\" starts at index 1.",
+    "9 uses index 3, where the second \"an\" starts; indexOf returns the first.",
+    "Both values are ints, so + adds them; it does not join them as text."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  },
+  {
+   "id": "csa-u1-q16",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-strings",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is printed when the code segment is executed?",
+   "choices": [
+    "hello|HELLO WORLD",
+    "hello world|hello world",
+    "hello|hello world",
+    "HELLO WORLD|HELLO WORLD"
+   ],
+   "correctAnswer": 2,
+   "explanation": "b still refers to the original \"hello\". a + \" world\" creates a new string that a now refers to. toUpperCase returns a new string that is not stored, so a is unchanged.",
+   "choiceExplanations": [
+    "The result of toUpperCase() is discarded; strings are immutable.",
+    "Reassigning a does not change the string that b refers to.",
+    "",
+    "Neither string is changed by toUpperCase(), and b never referred to the longer string."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16",
+   "passageId": "csa1-c3"
+  },
+  {
+   "id": "csa-u1-q17",
+   "courseId": "ap-computer-science-a",
+   "unitId": "u1",
+   "topicId": "csa1-strings",
+   "skill": "3.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is printed by the statements  String s1 = \"cat\";  String s2 = \"car\";  System.out.println(s1.equals(s2) + \" \" + (s1.compareTo(s2) > 0));  ?",
+   "choices": [
+    "false false",
+    "false true",
+    "true true",
+    "true false"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The strings differ, so equals is false. They first differ at index 2, where t comes after r, so compareTo is positive.",
+   "choiceExplanations": [
+    "compareTo is positive because \"cat\" comes after \"car\" alphabetically.",
+    "",
+    "The strings have different last letters, so equals is false.",
+    "The strings are not equal, and \"cat\" comes after \"car\"."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-computer-science-a",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-16); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-16"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. The four AP Computer Science A free-response questions (methods and control structures, class design, data analysis with ArrayList, and 2D array) each draw on several units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "csa-u1-q01",
+    "csa-u1-q02",
+    "csa-u1-q05",
+    "csa-u1-q06",
+    "csa-u1-q11",
+    "csa-u1-q12",
+    "csa-u1-q15",
+    "csa-u1-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "csa-u1-q03",
+    "csa-u1-q04",
+    "csa-u1-q08",
+    "csa-u1-q09",
+    "csa-u1-q10",
+    "csa-u1-q13",
+    "csa-u1-q14",
+    "csa-u1-q17"
+   ]
+  }
+ ]
+}

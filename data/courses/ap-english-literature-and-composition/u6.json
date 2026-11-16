@@ -1,0 +1,724 @@
+{
+ "courseId": "ap-english-literature-and-composition",
+ "unitId": "u6",
+ "title": "Unit 6: Longer Fiction or Drama II",
+ "topics": [
+  {
+   "id": "lit6-character",
+   "name": "Foils, motives, and characters as symbols",
+   "covers": [
+    "Interpreting foil characters",
+    "Understanding and interpreting character motives",
+    "Characters as symbols, metaphors, and archetypes"
+   ],
+   "frameworkCovers": [
+    "1.A Identify and describe what specific textual details reveal about a character, that character’s perspective, and that character’s motives.",
+    "1.C Explain the function of contrasting characters.",
+    "1.E Explain how a character’s own choices, actions, and speech reveal complexities in that character, and explain the function of those complexities.",
+    "5.C Identify and explain the function of a symbol."
+   ]
+  },
+  {
+   "id": "lit6-structure",
+   "name": "Nonlinear structure: flashback and foreshadowing",
+   "covers": [
+    "Understanding nonlinear narrative structures like flashbacks and foreshadowing"
+   ],
+   "frameworkCovers": [
+    "3.A Identify and describe how plot orders events in a narrative.",
+    "3.B Explain the function of a particular sequence of events in a plot.",
+    "3.D Explain the function of contrasts within a text."
+   ]
+  },
+  {
+   "id": "lit6-narrator",
+   "name": "Tone, bias, and building an argument",
+   "covers": [
+    "The effect of narrative tone and bias on reading",
+    "Developing literary arguments within a broader context of works"
+   ],
+   "frameworkCovers": [
+    "4.C Identify and describe details, diction, or syntax in a text that reveal a narrator’s or speaker’s perspective.",
+    "4.D Explain how a narrator’s reliability affects a narrative.",
+    "7.B Develop a thesis statement that conveys a defensible claim about an interpretation of literature and that may establish a line of reasoning.",
+    "7.C Develop commentary that establishes and explains relationships among textual evidence, the line of reasoning, and the thesis.",
+    "7.D Select and use relevant and sufficient evidence to both develop and support a line of reasoning.",
+    "7.E Demonstrate control over the elements of composition to communicate clearly."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 6: Longer Fiction or Drama II: review guide",
+  "intro": "Longer works give characters room to contrast with one another, let writers move back and forth in time, and let narrators reveal their own biases. This unit practices reading foils, motives, flashbacks and foreshadowing, and narrators who cannot be fully trusted.",
+  "sections": [
+   {
+    "id": "s-lit6-character",
+    "topicId": "lit6-character",
+    "title": "Foils, motives, and characters as symbols",
+    "body": [
+     "A foil is a character whose contrasting traits or choices highlight another character's. When two characters face the same situation and respond differently, ask what the contrast shows about each.",
+     "Motives are the reasons behind a character's actions; they are often implied rather than stated, so infer them from what the character says, does, and avoids. A character, or an object closely tied to one, can also take on symbolic meaning, standing for an idea such as a family's past or a town's identity."
+    ],
+    "points": [
+     "Describe a foil relationship in terms of the specific contrast.",
+     "Support a claim about motive with evidence of what the character does."
+    ]
+   },
+   {
+    "id": "s-lit6-structure",
+    "topicId": "lit6-structure",
+    "title": "Flashback and foreshadowing",
+    "body": [
+     "A flashback interrupts the present action to show an earlier event; it can explain a character's feelings or set a past choice beside a present one. Foreshadowing hints at what will happen later, creating expectation or dread.",
+     "Writers may also delay key information. When you learn something late, ask how your earlier reading looks now."
+    ],
+    "points": [
+     "Ask why the writer placed the past event exactly here.",
+     "Hints such as “later, they would remember” signal foreshadowing."
+    ]
+   },
+   {
+    "id": "s-lit6-narrator",
+    "topicId": "lit6-narrator",
+    "title": "Tone, bias, and literary argument",
+    "body": [
+     "A narrator's tone (attitude) and bias (unfair leaning) shape how events are presented. A narrator who judges quickly or admits to assumptions may be unreliable; readers then learn to read past the narrator's view.",
+     "A literary argument begins with a defensible thesis: an interpretation others could dispute, supported with evidence and commentary that explains how the evidence supports the claim."
+    ],
+    "points": [
+     "Separate what happens from how the narrator judges it.",
+     "A thesis interprets; it does not summarize or state an opinion about real life."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A narrator writes: “My cousin always got the credit, though I did the work, as anyone fair would see.” What should a careful reader notice?",
+   "solution": "The narrator's claim is self-serving and depends on readers agreeing (“as anyone fair would see”). A careful reader treats it as possible bias and looks for evidence elsewhere in the story before accepting it."
+  },
+  "misconceptions": [
+   [
+    "“A foil is the same as an antagonist.”",
+    "A foil highlights another character by contrast; a foil need not oppose that character at all."
+   ],
+   [
+    "“A flashback is just background information.”",
+    "Its placement creates meaning, often by setting past beside present."
+   ],
+   [
+    "“The narrator's opinions are the story's message.”",
+    "Narrators can be biased or wrong; the work may invite readers to judge them."
+   ],
+   [
+    "“A thesis restates the plot.”",
+    "A thesis makes a defensible interpretive claim."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Literature and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+  "sourceTitle": "AP English Literature and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "lit6-a",
+   "title": "Passage 1: from a play, Act II",
+   "text": [
+    "A hardware store after closing. JONAH, twenty-five, counts the money in the register. His older sister, CLAIRE, leans on the counter with her car keys in her hand.",
+    "CLAIRE: Leave it. Dad will count it again in the morning anyway.",
+    "JONAH: That's why I count it tonight. So he doesn't find anything.",
+    "CLAIRE: He never finds anything. There's never anything to find.",
+    "JONAH: (still counting) Not since I started counting.",
+    "CLAIRE: You could come with me, you know. Chicago has hardware stores.",
+    "JONAH: Chicago has a lot of things. (He snaps a rubber band around the bills.) It doesn't have Dad.",
+    "(CLAIRE jingles her keys, starts to answer, and doesn't. She sets a twenty on the counter for the gas money she borrowed last week and goes out. JONAH counts the twenty, adds it to the stack, and writes the total in the book.)"
+   ],
+   "attribution": "Original drama scene written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit6-b",
+   "title": "Passage 2: from a novel about a wedding",
+   "text": [
+    "(1) On the morning of her daughter's wedding, Helen found the old tin box at the back of the closet, and before she could stop herself she had opened it.",
+    "(2) Inside was a train ticket, unused, dated June 1979. She remembered the station: the heat, the smell of diesel, the boy in the blue shirt who had said he would wait by the clock. She had stood across the street for an hour, holding the ticket, and then she had walked home, and in September she had married Frank.",
+    "(3) “Mom?” Her daughter was at the door in her slip, laughing, a bobby pin in her mouth. “Can you help me with the buttons? There are about a hundred.”",
+    "(4) Helen put the ticket back in the box and closed the lid. “Of course,” she said. “Turn around.”"
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit6-c",
+   "title": "Passage 3: from a novel narrated by a neighbor",
+   "text": [
+    "(1) I have lived on Alder Street for thirty-one years, and I can tell you that the Pruitts were trouble from the day their moving van blocked my driveway. I said so to my husband at the time.",
+    "(2) The boy played his radio with the windows open. The girl painted the porch railing purple, which is not a color for a porch. And Mrs. Pruitt, if that was her name, went out every evening after dark and did not come back until morning. Where a woman goes at that hour I will leave to your imagination.",
+    "(3) It was only at the funeral, years later, that I learned she had worked nights at the county hospital. A nurse. The whole street turned out. I sent a card."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit6-d",
+   "title": "Passage 4: from a novel about a mill town",
+   "text": [
+    "(1) The mill whistle blew at six, at noon, and at six again, and the town of Harlow set its days by it the way other towns set theirs by church bells. Old Abel Finch had blown that whistle for forty-four years. Children waved to him on his way to work as if he were the mayor.",
+    "(2) In the spring of the year this story concerns, Abel began to forget things: his hat, the names of streets, once the way home. Nobody said much. The whistle still blew on time.",
+    "(3) “As long as Abel blows it,” people said at the post office, “Harlow will be Harlow.” They said it as a joke. Later, they would remember that they had said it."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lit-u6-q01",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Claire and Jonah function as foils mainly because",
+   "choices": [
+    "Claire is honest about money, while Jonah has been quietly taking it from the register",
+    "Claire is ready to leave, while Jonah stays out of loyalty to their father",
+    "both of them plan to move to Chicago",
+    "they compete to take over the hardware store"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Claire has her keys in hand and invites Jonah to Chicago; Jonah stays because Chicago “doesn't have Dad.” Their contrasting choices highlight each other.",
+   "choiceExplanations": [
+    "Both are careful with money: Jonah counts it, and Claire repays her loan.",
+    "",
+    "Only Claire is leaving; Jonah declines.",
+    "Neither expresses a wish to take over the store."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-a"
+  },
+  {
+   "id": "lit-u6-q02",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-character",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Jonah's lines “So he doesn't find anything” and “Not since I started counting” suggest that his motive for counting the register is to",
+   "choices": [
+    "delay going home for the night",
+    "take money from the register before his father counts it again in the morning",
+    "impress Claire with how hard he works",
+    "keep his father from finding mistakes, hinting that the father makes them"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Jonah implies there used to be something to find before he began checking: he is quietly covering for his father's errors.",
+   "choiceExplanations": [
+    "His reason is stated: so his father “doesn't find anything.”",
+    "Jonah adds money to the stack; nothing suggests theft.",
+    "He keeps counting while Claire talks and does not seek her praise.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-a"
+  },
+  {
+   "id": "lit-u6-q03",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-narrator",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which of the following is the most defensible thesis about the scene?",
+   "choices": [
+    "Claire and Jonah talk in a hardware store after it closes.",
+    "The scene proves that Claire does not love her father.",
+    "Through Jonah's nightly counting, the scene suggests that loyalty can hide a family's decline.",
+    "Chicago is a better place for young people to live and work than a small town with only a hardware store."
+   ],
+   "correctAnswer": 2,
+   "explanation": "This claim interprets the scene, can be argued against, and can be supported with evidence (Jonah's lines, his refusal to leave).",
+   "choiceExplanations": [
+    "This only summarizes the setting; it makes no claim.",
+    "The scene gives no evidence that Claire doesn't love her father; her unfinished reply suggests feeling.",
+    "",
+    "This is an opinion about real life, not a claim about the scene."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-a"
+  },
+  {
+   "id": "lit-u6-q04",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-character",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The final stage direction, in which Jonah counts Claire's twenty and writes the total in the book, most strongly suggests that he",
+   "choices": [
+    "absorbs even his sister's departure into his routine of order",
+    "suspects that Claire stole from the store and is checking whether she has returned it all",
+    "has decided to follow Claire to Chicago",
+    "is angry that Claire repaid so little"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Instead of responding to Claire's leaving, Jonah turns it into one more entry in the book: order and duty are how he copes.",
+   "choiceExplanations": [
+    "",
+    "The twenty repays gas money she borrowed; nothing suggests theft.",
+    "He stays behind in the store, and his words reject Chicago.",
+    "Nothing shows anger; he simply counts."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-a"
+  },
+  {
+   "id": "lit-u6-q05",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-structure",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Paragraph 2 interrupts the present-day scene with",
+   "choices": [
+    "a dream Helen has the night before the wedding",
+    "a glimpse of her daughter's future marriage, years after the wedding day",
+    "a flashback to a choice Helen made as a young woman",
+    "a letter Frank wrote to Helen"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The ticket sends Helen back to 1979, when she chose not to meet the boy and later married Frank: a flashback.",
+   "choiceExplanations": [
+    "She is awake, remembering, not dreaming.",
+    "The paragraph moves into the past, not the future.",
+    "",
+    "No letter appears; the object is a ticket."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-b"
+  },
+  {
+   "id": "lit-u6-q06",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The unused train ticket (paragraph 2) most likely represents",
+   "choices": [
+    "a trip Helen and Frank took together",
+    "her daughter's honeymoon plans",
+    "a souvenir of her first job",
+    "a life Helen chose not to live"
+   ],
+   "correctAnswer": 3,
+   "explanation": "She held the ticket and walked home instead of leaving with the boy; the unused ticket stands for that other possible life.",
+   "choiceExplanations": [
+    "The ticket is “unused”; no trip happened.",
+    "It is dated 1979, long before the daughter's wedding.",
+    "It is tied to the boy at the station, not to work.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-b"
+  },
+  {
+   "id": "lit-u6-q07",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-structure",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Placing the flashback on the morning of her daughter's wedding mainly serves to",
+   "choices": [
+    "reveal that the daughter knows about the boy at the station and has kept the secret",
+    "show that Frank disapproves of the wedding",
+    "set Helen's past choice beside her daughter's present one",
+    "explain the schedule of the wedding day"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The memory of the road not taken arrives just as her daughter marries, so readers weigh Helen's choice against the new one.",
+   "choiceExplanations": [
+    "Nothing suggests the daughter knows.",
+    "Frank is mentioned only in the past; nothing concerns his view of the wedding.",
+    "",
+    "The passage gives no schedule."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-b"
+  },
+  {
+   "id": "lit-u6-q08",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-narrator",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The narrator's tone in the passage is best described as",
+   "choices": [
+    "restrained, letting small actions suggest unspoken feelings",
+    "comic, treating the wedding as a farce",
+    "mocking, ridiculing Helen for living in the past instead of enjoying her daughter's day",
+    "openly bitter about Helen's marriage"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The narrator never states Helen's feelings; she closes the lid and says “Turn around,” and readers infer what she sets aside.",
+   "choiceExplanations": [
+    "",
+    "The daughter laughs, but the passage itself is quiet and serious.",
+    "The narrator treats Helen with sympathy, not ridicule.",
+    "The narrator states no judgment of the marriage."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-b"
+  },
+  {
+   "id": "lit-u6-q09",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-narrator",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The narrator's attitude toward the Pruitts in paragraphs 1 and 2 is best described as",
+   "choices": [
+    "admiring and warm",
+    "suspicious and disapproving",
+    "indifferent and uninterested",
+    "fearful for her own safety"
+   ],
+   "correctAnswer": 1,
+   "explanation": "She calls them “trouble” from the first day and criticizes the radio, the porch color, and Mrs. Pruitt's nights out.",
+   "choiceExplanations": [
+    "She praises nothing about them.",
+    "",
+    "She watches them closely; she is not uninterested.",
+    "She disapproves, but she never says she feels unsafe."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-c"
+  },
+  {
+   "id": "lit-u6-q10",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-narrator",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Paragraph 3 affects the reader's view of the narrator's earlier judgments by",
+   "choices": [
+    "revealing that her suspicions were mistaken and shaped by bias",
+    "revealing that the narrator's husband had misled her",
+    "showing that the narrator was herself a nurse",
+    "confirming that Mrs. Pruitt was hiding something shameful from her neighbors all along"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Mrs. Pruitt was a night nurse; the narrator's insinuation (“I will leave to your imagination”) was wrong, which exposes her bias.",
+   "choiceExplanations": [
+    "",
+    "The husband is only mentioned as someone she complained to.",
+    "Mrs. Pruitt, not the narrator, was the nurse.",
+    "The truth is honorable, the opposite of what she hinted."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-c"
+  },
+  {
+   "id": "lit-u6-q11",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-character",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The narrator's remark that purple “is not a color for a porch” (paragraph 2) reveals her",
+   "choices": [
+    "secret affection for the Pruitt girl and her bright paint",
+    "rigid sense of how things ought to be done",
+    "expert knowledge of house painting",
+    "concern that the paint was unsafe"
+   ],
+   "correctAnswer": 1,
+   "explanation": "She treats a matter of taste as a rule, showing how quickly she judges neighbors who differ from her expectations.",
+   "choiceExplanations": [
+    "The remark is a complaint, not affection.",
+    "",
+    "Nothing suggests expertise; it is a personal judgment.",
+    "Safety is never mentioned."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-c"
+  },
+  {
+   "id": "lit-u6-q12",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-structure",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Withholding the information about Mrs. Pruitt's job until paragraph 3 mainly functions to",
+   "choices": [
+    "build suspense about the cause of the funeral",
+    "let readers share the narrator's assumptions, then see past them",
+    "make the narrator seem more trustworthy",
+    "show that the Pruitts moved away from Alder Street before the funeral, long before anyone knew them"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Because the truth comes last, readers have followed her insinuations and must now reread them as prejudice; the brief “I sent a card” underlines how little she gave.",
+   "choiceExplanations": [
+    "The passage never discusses how anyone died; the reveal concerns Mrs. Pruitt's job.",
+    "",
+    "The late reveal makes her seem less trustworthy, not more.",
+    "Nothing is said about the Pruitts moving away."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-c"
+  },
+  {
+   "id": "lit-u6-q13",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-structure",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The sentence “Later, they would remember that they had said it” (paragraph 3) is an example of",
+   "choices": [
+    "foreshadowing",
+    "stream of consciousness",
+    "flashback",
+    "dialogue"
+   ],
+   "correctAnswer": 0,
+   "explanation": "It hints at a future event that will make the joke painful, creating dread about what will happen to Abel and the town.",
+   "choiceExplanations": [
+    "",
+    "It is an outside narrator's statement, not a flow of a character's thoughts.",
+    "It looks ahead, not back.",
+    "It is narration, not a character's speech."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-d"
+  },
+  {
+   "id": "lit-u6-q14",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In the passage, Abel Finch functions as a symbol of",
+   "choices": [
+    "the mill owner's greed",
+    "the outside world's threat to Harlow and its old ways",
+    "the energy of youth",
+    "the town's identity and its sense of continuity"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The town sets its days by his whistle and jokes that “As long as Abel blows it,” Harlow will stay Harlow: he stands for the town itself.",
+   "choiceExplanations": [
+    "He is a worker, and nothing links him to greed.",
+    "He is the heart of Harlow, not an outside threat.",
+    "He is “old Abel Finch.”",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-d"
+  },
+  {
+   "id": "lit-u6-q15",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-narrator",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The phrase “the year this story concerns” (paragraph 2) indicates that the narrator",
+   "choices": [
+    "is unsure whether the events really happened, since they were told to the narrator secondhand",
+    "is a child who does not understand the events",
+    "is telling the story from a later time and already knows how it ends",
+    "is Abel Finch describing himself"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Speaking of “the year this story concerns” and of what people “would remember” shows a narrator looking back on events already complete.",
+   "choiceExplanations": [
+    "The narrator states events with confidence.",
+    "The narrator's perspective is wide and knowing, not a child's.",
+    "",
+    "The narrator describes Abel in the third person."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-d"
+  },
+  {
+   "id": "lit-u6-q16",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "topicId": "lit6-character",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Placed beside the townspeople's joke, Abel's growing forgetfulness suggests that",
+   "choices": [
+    "the town will cheerfully replace Abel with someone younger and keep the whistle blowing on time",
+    "the townspeople do not care about Abel at all",
+    "the mill is about to expand",
+    "the town's identity rests on something fragile that is starting to fail"
+   ],
+   "correctAnswer": 3,
+   "explanation": "If Abel is Harlow, then his failing memory threatens the town's identity; the joke and the foreshadowing turn this into a quiet warning.",
+   "choiceExplanations": [
+    "The passage hints at loss, not a cheerful replacement.",
+    "Children wave to him; the town is fond of him even if “nobody said much.”",
+    "Nothing suggests expansion.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit6-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lit-u6-os1",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "title": "OpenStax Writing Guide with Handbook, 16.3 Glance at Genre: Print or Textual Analysis",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/16-3-glance-at-genre-print-or-textual-analysis",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on the conventions of textual analysis and building an interpretation. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/16-3-glance-at-genre-print-or-textual-analysis",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  },
+  {
+   "id": "res-lit-u6-os2",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u6",
+   "title": "OpenStax Writing Guide with Handbook, 16.6 Editing Focus: Literary Works Live in the Present",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/16-6-editing-focus-literary-works-live-in-the-present",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on using the literary present tense. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/16-6-editing-focus-literary-works-live-in-the-present",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Literature free-response questions (poetry analysis, prose fiction analysis, and literary argument) draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lit-u6-q01",
+    "lit-u6-q02",
+    "lit-u6-q03",
+    "lit-u6-q04",
+    "lit-u6-q05",
+    "lit-u6-q06",
+    "lit-u6-q07",
+    "lit-u6-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lit-u6-q09",
+    "lit-u6-q10",
+    "lit-u6-q11",
+    "lit-u6-q12",
+    "lit-u6-q13",
+    "lit-u6-q14",
+    "lit-u6-q15",
+    "lit-u6-q16"
+   ]
+  }
+ ]
+}

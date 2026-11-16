@@ -1,0 +1,750 @@
+{
+ "courseId": "ap-biology",
+ "unitId": "u8",
+ "title": "Unit 8: Ecology",
+ "topics": [
+  {
+   "id": "bio8-resp",
+   "name": "Responses to the environment and energy flow",
+   "covers": [
+    "Responses to the environment",
+    "Energy flow through ecosystems"
+   ],
+   "frameworkCovers": [
+    "8.1 Responses to the Environment",
+    "8.2 Energy Flow Through Ecosystems"
+   ]
+  },
+  {
+   "id": "bio8-pop",
+   "name": "Population ecology and density",
+   "covers": [
+    "Population ecology and population density"
+   ],
+   "frameworkCovers": [
+    "8.3 Population Ecology",
+    "8.4 Effect of Density on Populations"
+   ]
+  },
+  {
+   "id": "bio8-comm",
+   "name": "Community ecology and biodiversity",
+   "covers": [
+    "Community ecology",
+    "Biodiversity"
+   ],
+   "frameworkCovers": [
+    "8.5 Community Ecology",
+    "8.6 Biodiversity"
+   ]
+  },
+  {
+   "id": "bio8-disrupt",
+   "name": "Disruptions in ecosystems",
+   "covers": [
+    "Disruptions in ecosystems"
+   ],
+   "frameworkCovers": [
+    "8.7 Disruptions in Ecosystems"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Ecology: review guide",
+  "intro": "Ecology studies how organisms interact with each other and their environment. This unit covers responses to the environment, energy flow, population growth, community interactions, biodiversity, and how disruptions affect ecosystems.",
+  "equationNote": "Exponential growth: dN/dt = rN. Logistic growth: dN/dt = rN(K − N)/K. Simpson's diversity index: D = 1 − Σ(n/N)².",
+  "sections": [
+   {
+    "id": "s-bio8-resp",
+    "topicId": "bio8-resp",
+    "title": "Responses to the environment and energy flow",
+    "body": [
+     "Organisms respond to changes in their environment through behavior and physiology: plants grow toward light (phototropism), many animals migrate or breed in response to day length, and communication between organisms affects survival and reproduction.",
+     "Energy enters most ecosystems through photosynthesis and flows from producers to consumers; only about 10% of the energy at one trophic level reaches the next, because most is used for metabolism and lost as heat. Net primary productivity = gross primary productivity − energy producers use in respiration. Decomposers recycle nutrients. Endotherms use much more energy than ectotherms of the same size to maintain body temperature."
+    ],
+    "points": [
+     "Energy flows; matter (such as carbon and nitrogen) cycles.",
+     "Food chains rarely have more than four or five levels.",
+     "Smaller endotherms use more energy per gram of body mass."
+    ]
+   },
+   {
+    "id": "s-bio8-pop",
+    "topicId": "bio8-pop",
+    "title": "Population ecology and density",
+    "body": [
+     "With unlimited resources a population grows exponentially (dN/dt = rN, a J-shaped curve). With limited resources growth is logistic (dN/dt = rN(K − N)/K, an S-shaped curve), leveling off at the carrying capacity K. Logistic growth is fastest at N = K/2.",
+     "Density-dependent factors, such as competition, disease, and predation, have more effect as a population gets more crowded. Density-independent factors, such as floods, fires, and freezes, affect a population regardless of its density."
+    ],
+    "points": [
+     "r is the per capita growth rate (births − deaths per individual).",
+     "Near K, growth slows to zero.",
+     "Carrying capacity can change when the environment changes."
+    ],
+    "equations": [
+     [
+      "dN/dt = rN",
+      "exponential growth"
+     ],
+     [
+      "dN/dt = rN(K − N)/K",
+      "logistic growth"
+     ]
+    ]
+   },
+   {
+    "id": "s-bio8-comm",
+    "topicId": "bio8-comm",
+    "title": "Community ecology and biodiversity",
+    "body": [
+     "Species interact through competition (−/−), predation and parasitism (+/−), mutualism (+/+), and commensalism (+/0). Two species can't share exactly the same niche indefinitely (competitive exclusion), so they often partition resources. A keystone species has an effect far larger than its numbers suggest; removing it can change the whole community.",
+     "Biodiversity includes species richness and evenness; Simpson's index D = 1 − Σ(n/N)² is higher for more diverse communities. More diverse ecosystems are usually more resilient to disturbances."
+    ],
+    "points": [
+     "Sea otters are a classic keystone species: they keep sea urchins from destroying kelp forests.",
+     "Two communities with the same species can differ in diversity because of evenness.",
+     "Producers and decomposers support whole ecosystems."
+    ]
+   },
+   {
+    "id": "s-bio8-disrupt",
+    "topicId": "bio8-disrupt",
+    "title": "Disruptions in ecosystems",
+    "body": [
+     "Invasive species often lack natural predators and outcompete native species. Human activities such as habitat loss, pollution, and climate change alter ecosystems. Fertilizer runoff causes eutrophication: an algal bloom, then decomposers use up oxygen as the algae die, and fish suffocate.",
+     "Fat-soluble pollutants such as some pesticides build up in organisms and become more concentrated at each higher trophic level (biomagnification), so top predators carry the highest levels. Natural events such as volcanic eruptions and hurricanes also disrupt ecosystems."
+    ],
+    "points": [
+     "Disruptions can change population sizes, community structure, and allele frequencies.",
+     "Low-diversity ecosystems recover more slowly.",
+     "Biomagnification happens because predators eat many prey and keep the toxin."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A population has r = 0.2 per year, N = 250, and K = 1000. Using the logistic model, how fast is it growing?",
+   "solution": "dN/dt = rN(K − N)/K = 0.2 × 250 × (750/1000) = 37.5 individuals per year."
+  },
+  "misconceptions": [
+   [
+    "“Energy is recycled in ecosystems.”",
+    "Energy flows through and leaves as heat; matter is recycled."
+   ],
+   [
+    "“A population always grows exponentially.”",
+    "Limited resources slow growth as it approaches carrying capacity."
+   ],
+   [
+    "“The most abundant species is the keystone species.”",
+    "A keystone species has an outsized effect relative to its numbers."
+   ],
+   [
+    "“Biodiversity just means the number of species.”",
+    "It includes how evenly individuals are spread among species."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Biology Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+  "sourceTitle": "AP Biology – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "bio-u8-q01",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-resp",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A houseplant on a windowsill bends toward the window. What is this response called?",
+   "choices": [
+    "Phototropism",
+    "Hibernation",
+    "Migration",
+    "Photosynthesis"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Phototropism is growth toward (or away from) light.",
+   "choiceExplanations": [
+    "",
+    "Hibernation is an animal's seasonal dormancy.",
+    "Migration is the seasonal movement of animals.",
+    "Photosynthesis is how plants make sugar; it isn't a growth response."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q02",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-resp",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "About what fraction of the energy at one trophic level is passed to the next level?",
+   "choices": [
+    "About 10%",
+    "About 90%",
+    "About 50%",
+    "100%"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Most energy is used for metabolism and lost as heat, so only about a tenth reaches the next level.",
+   "choiceExplanations": [
+    "",
+    "About 90% is lost, not passed on.",
+    "Energy transfer is far less efficient than 50%.",
+    "Energy is lost as heat at every level."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q03",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-resp",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Producers in an ecosystem capture 10,000 kcal of energy. About how much reaches the tertiary consumers?",
+   "choices": [
+    "100 kcal",
+    "1 kcal",
+    "10 kcal",
+    "1,000 kcal"
+   ],
+   "correctAnswer": 2,
+   "explanation": "10,000 → 1,000 (primary consumers) → 100 (secondary) → 10 (tertiary).",
+   "choiceExplanations": [
+    "100 kcal reaches the secondary consumers.",
+    "1 kcal would be one level higher still.",
+    "",
+    "1,000 kcal reaches the primary consumers."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q04",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-resp",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A mouse (an endotherm) and a lizard (an ectotherm) have the same body mass. Which needs more food energy, and why?",
+   "choices": [
+    "The lizard, because ectotherms grow faster",
+    "The mouse, because it uses metabolic heat to keep its body temperature constant",
+    "Both need the same amount, because they have the same mass",
+    "The lizard, because it must warm itself in the sun"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Endotherms spend a lot of energy producing heat, so they need much more food than ectotherms of the same size.",
+   "choiceExplanations": [
+    "Growth rate isn't the reason; heat production is.",
+    "",
+    "Their energy needs differ greatly despite equal mass.",
+    "Basking uses the sun's heat, not food energy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q05",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-resp",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "If most decomposers in a forest disappeared, what would be the most direct long-term effect?",
+   "choices": [
+    "Herbivore numbers would immediately rise",
+    "Nutrients would stay locked in dead material, so plant growth would decline",
+    "The forest would get more sunlight",
+    "Energy would be recycled back to the producers"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Decomposers return nutrients such as nitrogen and phosphorus to the soil. Without them, producers run short.",
+   "choiceExplanations": [
+    "Plants, and then herbivores, would decline as nutrients ran out.",
+    "",
+    "Decomposers don't affect sunlight directly.",
+    "Energy isn't recycled in ecosystems."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q06",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-pop",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What does a J-shaped population growth curve represent?",
+   "choices": [
+    "Exponential growth with unlimited resources",
+    "A population in decline",
+    "Logistic growth near carrying capacity",
+    "A population at equilibrium"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Without limits, a population grows faster and faster: exponential growth.",
+   "choiceExplanations": [
+    "",
+    "A J-curve rises.",
+    "Logistic growth makes an S-shaped curve that levels off.",
+    "At equilibrium the size stays roughly constant."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q07",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-pop",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In logistic growth, at what population size is the population growing fastest?",
+   "choices": [
+    "When the population is very small",
+    "At half the carrying capacity (K/2)",
+    "When the population exceeds K",
+    "At the carrying capacity (K)"
+   ],
+   "correctAnswer": 1,
+   "explanation": "dN/dt = rN(K − N)/K is largest at N = K/2, where the product of N and (K − N) is greatest.",
+   "choiceExplanations": [
+    "A tiny population adds few individuals because N is small.",
+    "",
+    "Above K the population shrinks.",
+    "At K the growth rate is zero."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q08",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-pop",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A population of 500 grows exponentially with r = 0.1 per year. How many individuals does it add per year right now?",
+   "choices": [
+    "50",
+    "500",
+    "5000",
+    "0.1"
+   ],
+   "correctAnswer": 0,
+   "explanation": "dN/dt = rN = 0.1 × 500 = 50 individuals per year.",
+   "choiceExplanations": [
+    "",
+    "500 is the population size.",
+    "5000 divides by r instead of multiplying.",
+    "0.1 is the per capita rate."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q09",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-pop",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which is a density-dependent factor limiting a population?",
+   "choices": [
+    "A forest fire",
+    "A disease that spreads more easily when individuals are crowded",
+    "An unusually cold winter",
+    "A flood"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Disease transmission increases with density, so its effect grows as the population gets more crowded.",
+   "choiceExplanations": [
+    "Fires affect populations regardless of density.",
+    "",
+    "Weather affects populations regardless of density.",
+    "Floods affect populations regardless of density."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q10",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-pop",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A population has r = 0.2 per year, N = 250, and carrying capacity K = 1000. Using the logistic model, what is its growth rate?",
+   "choices": [
+    "150 individuals per year",
+    "50 individuals per year",
+    "37.5 individuals per year",
+    "12.5 individuals per year"
+   ],
+   "correctAnswer": 2,
+   "explanation": "dN/dt = rN(K − N)/K = 0.2 × 250 × 750/1000 = 37.5.",
+   "choiceExplanations": [
+    "150 is r(K − N), which leaves out the factor N/K.",
+    "50 uses the exponential model (rN) and ignores K.",
+    "",
+    "12.5 uses N/K instead of (K − N)/K."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q11",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-comm",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Bees collect nectar from flowers and carry pollen between them, helping the plants reproduce. What kind of interaction is this?",
+   "choices": [
+    "Parasitism",
+    "Competition",
+    "Commensalism",
+    "Mutualism"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Both species benefit: the bees get food and the plants are pollinated.",
+   "choiceExplanations": [
+    "In parasitism one species is harmed.",
+    "In competition both are harmed.",
+    "In commensalism one benefits and the other is unaffected.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q12",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-comm",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Sea otters eat sea urchins, which eat kelp. When otters are removed, the kelp forest disappears. What role do the otters play?",
+   "choices": [
+    "They are producers",
+    "They are decomposers",
+    "They are an invasive species",
+    "They are a keystone species"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The otters' effect on the community is far larger than their numbers: without them urchins overgraze the kelp.",
+   "choiceExplanations": [
+    "Kelp is the producer.",
+    "Decomposers break down dead matter.",
+    "Sea otters are native to these communities.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q13",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-comm",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Two warbler species feed in the same trees, but one feeds on the top branches and the other on lower branches. What does this illustrate?",
+   "choices": [
+    "Resource partitioning, which reduces competition",
+    "Mutualism",
+    "Predation",
+    "Competitive exclusion of one species"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Dividing the resource lets two similar species coexist instead of one excluding the other.",
+   "choiceExplanations": [
+    "",
+    "Neither species benefits the other.",
+    "Neither warbler eats the other.",
+    "Both species persist, so neither was excluded."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q14",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-comm",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Community P has four species with 25 individuals each. Community Q has four species with 85, 5, 5, and 5 individuals. Using Simpson's index D = 1 − Σ(n/N)², which is more diverse?",
+   "choices": [
+    "P, with D = 0.25",
+    "They are equally diverse, because both have four species",
+    "Q, with D = 0.75",
+    "P, with D = 0.75 compared with about 0.27 for Q"
+   ],
+   "correctAnswer": 3,
+   "explanation": "P: 1 − 4(0.25²) = 0.75. Q: 1 − (0.85² + 3 × 0.05²) = 1 − 0.73 = 0.27. Same richness, but P is far more even.",
+   "choiceExplanations": [
+    "0.25 is Σ(n/N)² for P; D = 1 − 0.25 = 0.75.",
+    "Evenness matters as well as the number of species.",
+    "Q's index is about 0.27, not 0.75.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q15",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-comm",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Why are ecosystems with high biodiversity usually more resilient to disturbances?",
+   "choices": [
+    "They have no predators",
+    "They have fewer interactions between species",
+    "With more species, others can fill the roles of species that decline",
+    "They don't need producers"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Several species with similar roles act as backups, so the ecosystem keeps functioning.",
+   "choiceExplanations": [
+    "Diverse ecosystems still have predators.",
+    "Diverse ecosystems have more interactions, not fewer.",
+    "",
+    "Every ecosystem needs producers."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q16",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-disrupt",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "An invasive species often spreads rapidly in a new habitat. Why?",
+   "choices": [
+    "It needs no resources",
+    "Native species help it grow",
+    "It always has a higher mutation rate",
+    "It often lacks the natural predators and diseases that limited it in its original range"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Without its usual enemies, an invasive species can outcompete native species for resources.",
+   "choiceExplanations": [
+    "All organisms need resources.",
+    "Native species usually compete with it.",
+    "Mutation rate isn't the usual reason.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q17",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-disrupt",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Fertilizer runoff enters a lake, causing an algal bloom, and later many fish die. What directly kills the fish?",
+   "choices": [
+    "The water becomes too cold",
+    "Algae eat the fish",
+    "Low oxygen, because decomposers use up oxygen while breaking down dead algae",
+    "The fertilizer poisons the fish"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Decomposition of the large mass of dead algae consumes dissolved oxygen (eutrophication).",
+   "choiceExplanations": [
+    "The temperature isn't the cause.",
+    "Algae are producers; they don't eat fish.",
+    "",
+    "The harm comes from the oxygen drop, not direct poisoning."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u8-q18",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "topicId": "bio8-disrupt",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A fat-soluble pesticide is found at a very low concentration in lake water but at a high concentration in fish-eating birds. Why?",
+   "choices": [
+    "Energy transfer between trophic levels is 100% efficient",
+    "The pesticide is stored in fat rather than excreted, so it builds up at each trophic level as predators eat many prey (biomagnification)",
+    "The birds drink more lake water than other animals",
+    "The pesticide is produced by the birds"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Each predator eats many prey and keeps most of their pesticide, so the concentration rises at each step up the food chain.",
+   "choiceExplanations": [
+    "Energy transfer is only about 10% efficient, but the toxin is retained.",
+    "",
+    "The main source is food, not water.",
+    "The pesticide comes from human use, not the birds."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-bio-u8-os1",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "title": "OpenStax Biology for AP® Courses, 36.3 Environmental Limits to Population Growth",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/36-3-environmental-limits-to-population-growth",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Exponential and logistic growth (CED topics 8.3–8.4).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/36-3-environmental-limits-to-population-growth",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u8-os2",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "title": "OpenStax Biology for AP® Courses, 37.2 Energy Flow through Ecosystems",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/37-2-energy-flow-through-ecosystems",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Trophic levels and productivity (CED topic 8.2).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/37-2-energy-flow-through-ecosystems",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u8-os3",
+   "courseId": "ap-biology",
+   "unitId": "u8",
+   "title": "OpenStax Biology for AP® Courses, 36.6 Community Ecology",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/36-6-community-ecology",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Species interactions and keystone species (CED topic 8.5).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/36-6-community-ecology",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "bio-u8-q01",
+    "bio-u8-q02",
+    "bio-u8-q06",
+    "bio-u8-q07",
+    "bio-u8-q12",
+    "bio-u8-q14",
+    "bio-u8-q17",
+    "bio-u8-q18"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "bio-u8-q03",
+    "bio-u8-q04",
+    "bio-u8-q05",
+    "bio-u8-q08",
+    "bio-u8-q10",
+    "bio-u8-q11",
+    "bio-u8-q15",
+    "bio-u8-q16"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,725 @@
+{
+ "courseId": "ap-chemistry",
+ "unitId": "u6",
+ "title": "Unit 6: Thermochemistry",
+ "topics": [
+  {
+   "id": "c6-heat",
+   "name": "Endothermic and exothermic processes and heat transfer",
+   "covers": [
+    "Endothermic and exothermic processes",
+    "Heat transfer and thermal equilibrium"
+   ],
+   "frameworkCovers": [
+    "6.1 Endothermic and Exothermic Processes",
+    "6.2 Energy Diagrams",
+    "6.3 Heat Transfer and Thermal Equilibrium"
+   ]
+  },
+  {
+   "id": "c6-calor",
+   "name": "Calorimetry and phase changes",
+   "covers": [
+    "Heat capacity and calorimetry",
+    "Energy of phase changes"
+   ],
+   "frameworkCovers": [
+    "6.4 Heat Capacity and Calorimetry",
+    "6.5 Energy of Phase Changes"
+   ]
+  },
+  {
+   "id": "c6-enth",
+   "name": "Enthalpy of reaction, bond enthalpies, enthalpies of formation, and Hess's law",
+   "covers": [
+    "Introduction to enthalpy of reaction",
+    "Enthalpy of formation",
+    "Hess’s law"
+   ],
+   "frameworkCovers": [
+    "6.6 Introduction to Enthalpy of Reaction",
+    "6.7 Bond Enthalpies",
+    "6.8 Enthalpy of Formation",
+    "6.9 Hess’s Law"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Thermochemistry: review guide",
+  "intro": "Thermochemistry tracks the energy that flows as heat in physical and chemical changes. This unit covers endothermic and exothermic processes, calorimetry, phase changes, and three ways to find ΔH: bond enthalpies, enthalpies of formation, and Hess's law.",
+  "equationNote": "Specific heat of water: c = 4.18 J/(g·°C). 1 kJ = 1000 J.",
+  "sections": [
+   {
+    "id": "s-c6-heat",
+    "topicId": "c6-heat",
+    "title": "Endothermic and exothermic processes and heat transfer",
+    "body": [
+     "An exothermic process releases heat to the surroundings (ΔH < 0; the surroundings warm). An endothermic process absorbs heat (ΔH > 0; the surroundings cool). On an energy diagram, exothermic products are lower than the reactants.",
+     "Heat flows from hotter to colder objects until they reach the same temperature (thermal equilibrium). With no heat lost, heat lost by the hot object = heat gained by the cold one."
+    ],
+    "points": [
+     "A cold pack feels cold because the dissolving salt absorbs heat from your hand.",
+     "At thermal equilibrium the temperatures are equal, not the amounts of heat.",
+     "Bond breaking absorbs energy; bond forming releases it."
+    ]
+   },
+   {
+    "id": "s-c6-calor",
+    "topicId": "c6-calor",
+    "title": "Calorimetry and phase changes",
+    "body": [
+     "Heat for a temperature change is q = mcΔT. In a coffee-cup calorimeter, the reaction's heat is the negative of the solution's: q_rxn = −m c ΔT_solution. Divide by moles to get ΔH in kJ/mol.",
+     "During a phase change the temperature stays constant: the energy goes into changing IMFs, not kinetic energy. q = n·ΔH_fus for melting and n·ΔH_vap for vaporizing; condensing and freezing release the same amounts."
+    ],
+    "points": [
+     "If the solution cools, the process is endothermic.",
+     "Vaporization takes much more energy than melting.",
+     "Watch the sign: q_rxn and q_solution are opposite."
+    ],
+    "equations": [
+     [
+      "q = mcΔT",
+      "heat for a temperature change"
+     ],
+     [
+      "q = n·ΔH_phase",
+      "heat for a phase change"
+     ]
+    ]
+   },
+   {
+    "id": "s-c6-enth",
+    "topicId": "c6-enth",
+    "title": "Enthalpy of reaction, bond enthalpies, formation, and Hess's law",
+    "body": [
+     "ΔH for a reaction can be estimated from average bond enthalpies: ΔH = Σ(bonds broken) − Σ(bonds formed). From standard enthalpies of formation: ΔH° = ΣΔH°f(products) − ΣΔH°f(reactants), with each multiplied by its coefficient; ΔH°f of an element in its standard state is 0.",
+     "Hess's law: ΔH is the same however you get from reactants to products. Reverse a reaction and its ΔH changes sign; multiply a reaction and multiply its ΔH by the same factor; add reactions and add their ΔH values."
+    ],
+    "points": [
+     "ΔH scales with amount: twice the moles, twice the heat.",
+     "Bond enthalpies are averages, so they give estimates.",
+     "ΔH°f(O₂(g)) = 0, but ΔH°f(H₂O(l)) is not."
+    ],
+    "equations": [
+     [
+      "ΔH = Σ(bonds broken) − Σ(bonds formed)",
+      "from bond enthalpies"
+     ],
+     [
+      "ΔH° = ΣΔH°f(products) − ΣΔH°f(reactants)",
+      "from enthalpies of formation"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Dissolving 0.050 mol of a salt in 100. g of water lowers the temperature by 2.0 °C. Find ΔH for dissolving, in kJ/mol.",
+   "solution": "q_solution = mcΔT = (100.)(4.18)(−2.0) = −836 J, so the dissolving absorbed +836 J. ΔH = +0.836 kJ / 0.050 mol = +16.7 kJ/mol (endothermic)."
+  },
+  "misconceptions": [
+   [
+    "“A cold pack transfers cold to your hand.”",
+    "Heat flows from your hand into the pack."
+   ],
+   [
+    "“Temperature rises steadily while ice melts.”",
+    "It stays at 0 °C until all the ice has melted."
+   ],
+   [
+    "“Breaking bonds releases energy.”",
+    "Breaking bonds always absorbs energy."
+   ],
+   [
+    "“Reversing a reaction leaves ΔH unchanged.”",
+    "Reversing a reaction changes the sign of ΔH."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Chemistry Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+  "sourceTitle": "AP Chemistry – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "chem-u6-q01",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-heat",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A cold pack gets cold when ammonium nitrate dissolves in water. What kind of process is this?",
+   "choices": [
+    "Exothermic: heat flows from the system to the surroundings",
+    "Endothermic: heat flows from the surroundings into the system",
+    "Endothermic: cold flows from the system into the surroundings",
+    "Neither, because no reaction occurs"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The dissolving absorbs heat from its surroundings, so the surroundings (and the pack) get colder.",
+   "choiceExplanations": [
+    "An exothermic process would warm the surroundings.",
+    "",
+    "Heat flows; “cold” isn't something that flows.",
+    "Dissolving involves energy changes even without a chemical reaction."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q02",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-heat",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "On an energy diagram, the products are lower in energy than the reactants. What does this show?",
+   "choices": [
+    "The reaction is exothermic, with ΔH < 0",
+    "The reaction is endothermic, with ΔH > 0",
+    "The reaction has no activation energy",
+    "The reaction can't happen"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Energy is released as the system goes down to the products, so ΔH = H(products) − H(reactants) < 0.",
+   "choiceExplanations": [
+    "",
+    "Endothermic products are higher than the reactants.",
+    "The diagram's barrier, not the products' position, shows Ea.",
+    "Exothermic reactions happen all the time."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q03",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-heat",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "100. g of water at 80.0 °C is mixed with 100. g of water at 20.0 °C in an insulated cup. What is the final temperature?",
+   "choices": [
+    "50.0 °C",
+    "100. °C",
+    "60.0 °C",
+    "40.0 °C"
+   ],
+   "correctAnswer": 0,
+   "explanation": "With equal masses of the same substance, heat lost = heat gained gives equal temperature changes: the average, 50.0 °C.",
+   "choiceExplanations": [
+    "",
+    "Temperatures don't add when water is mixed.",
+    "60.0 °C would need more hot water than cold.",
+    "40.0 °C would need more cold water than hot."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q04",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-heat",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A hot metal block is dropped into cool water in an insulated container. When thermal equilibrium is reached, which is true?",
+   "choices": [
+    "The block has transferred all of its thermal energy to the water",
+    "The block and the water have the same amount of thermal energy",
+    "The block and the water are at the same temperature",
+    "The water is warmer than the block"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Heat flows until there is no temperature difference; then the net flow stops.",
+   "choiceExplanations": [
+    "The block keeps thermal energy; it just stops losing it when the temperatures match.",
+    "Equal temperature doesn't mean equal thermal energy; that depends on mass and specific heat.",
+    "",
+    "Heat stops flowing once the temperatures are equal."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q05",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-heat",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "50.0 g of water at 90.0 °C is mixed with 150.0 g of water at 10.0 °C. What is the final temperature?",
+   "choices": [
+    "30.0 °C",
+    "50.0 °C",
+    "40.0 °C",
+    "70.0 °C"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Heat lost = heat gained: 50.0(90.0 − T) = 150.0(T − 10.0), so 4500 + 1500 = 200T and T = 30.0 °C.",
+   "choiceExplanations": [
+    "",
+    "50.0 °C averages the temperatures, ignoring the different masses.",
+    "40.0 °C doesn't satisfy heat lost = heat gained.",
+    "70.0 °C swaps the masses."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q06",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-calor",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How much heat is needed to raise the temperature of 50.0 g of water by 10.0 °C? (c = 4.18 J/(g·°C))",
+   "choices": [
+    "209 J",
+    "500. J",
+    "41.8 J",
+    "2090 J"
+   ],
+   "correctAnswer": 3,
+   "explanation": "q = mcΔT = (50.0)(4.18)(10.0) = 2090 J.",
+   "choiceExplanations": [
+    "209 J leaves out the factor of 10 for the temperature change.",
+    "500. J leaves out the specific heat.",
+    "41.8 J leaves out the mass.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q07",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-calor",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Dissolving 0.050 mol of a salt in 100. g of water lowers the water's temperature by 2.0 °C. What is ΔH for dissolving the salt? (c = 4.18 J/(g·°C))",
+   "choices": [
+    "+0.84 kJ/mol",
+    "−16.7 kJ/mol",
+    "+16.7 kJ/mol",
+    "+836 kJ/mol"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The water lost 836 J, which the dissolving absorbed: ΔH = +0.836 kJ ÷ 0.050 mol = +16.7 kJ/mol.",
+   "choiceExplanations": [
+    "0.84 kJ is the heat, not yet divided by the moles.",
+    "The solution cooled, so the process absorbed heat; ΔH is positive.",
+    "",
+    "836 is in joules, not kilojoules, and isn't divided by the moles."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q08",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-calor",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How much heat is needed to melt 36.0 g of ice at 0 °C? (H₂O 18.0 g/mol; ΔH_fus = 6.01 kJ/mol)",
+   "choices": [
+    "3.01 kJ",
+    "12.0 kJ",
+    "216 kJ",
+    "6.01 kJ"
+   ],
+   "correctAnswer": 1,
+   "explanation": "36.0 g is 2.00 mol, and q = nΔH_fus = 2.00 × 6.01 = 12.0 kJ.",
+   "choiceExplanations": [
+    "3.01 kJ divides by 2 instead of multiplying.",
+    "",
+    "216 kJ multiplies by grams instead of moles.",
+    "6.01 kJ melts only 1 mol (18.0 g)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q09",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-calor",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "While water is boiling, the temperature stays at 100 °C even though heat is still being added. Where does the energy go?",
+   "choices": [
+    "Into raising the average kinetic energy of the molecules",
+    "Into breaking the O–H bonds in the molecules",
+    "Into overcoming the attractions between water molecules",
+    "Nowhere; the energy is lost"
+   ],
+   "correctAnswer": 2,
+   "explanation": "During a phase change, added energy increases potential energy by separating molecules against their IMFs, so temperature doesn't change.",
+   "choiceExplanations": [
+    "Constant temperature means the average kinetic energy isn't changing.",
+    "Boiling doesn't break covalent bonds; steam is still H₂O.",
+    "",
+    "Energy is conserved; it goes into the change of state."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q10",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-calor",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 50.0 g metal block at 100.0 °C is placed in 100.0 g of water at 20.0 °C. The final temperature is 25.0 °C. What is the metal's specific heat? (water: 4.18 J/(g·°C))",
+   "choices": [
+    "1.79 J/(g·°C)",
+    "0.139 J/(g·°C)",
+    "0.557 J/(g·°C)",
+    "0.418 J/(g·°C)"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Heat gained by water = (100.0)(4.18)(5.0) = 2090 J = heat lost by metal = (50.0)c(75.0). So c = 2090/3750 = 0.557 J/(g·°C).",
+   "choiceExplanations": [
+    "1.79 is the reciprocal of the right ratio.",
+    "0.139 swaps the masses of the metal and the water.",
+    "",
+    "0.418 uses the metal's starting temperature (100) instead of its change (75)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q11",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-enth",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What happens to energy when a chemical bond breaks?",
+   "choices": [
+    "No energy change occurs",
+    "Energy is absorbed",
+    "Energy is released",
+    "Energy is released only if the bond is weak"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Separating bonded atoms takes energy; energy is released only when bonds form.",
+   "choiceExplanations": [
+    "Every bond has a bond energy that must be supplied to break it.",
+    "",
+    "Energy is released when bonds form, not when they break.",
+    "Even weak bonds take some energy to break."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q12",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-enth",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Using bond enthalpies (H–H 436, Cl–Cl 243, H–Cl 431 kJ/mol), estimate ΔH for H₂ + Cl₂ → 2HCl.",
+   "choices": [
+    "−183 kJ",
+    "−431 kJ",
+    "+183 kJ",
+    "+248 kJ"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Bonds broken: 436 + 243 = 679 kJ. Bonds formed: 2 × 431 = 862 kJ. ΔH = 679 − 862 = −183 kJ.",
+   "choiceExplanations": [
+    "",
+    "−431 kJ uses only the energy of forming one H–Cl bond.",
+    "+183 kJ subtracts in the wrong order.",
+    "+248 kJ counts only one H–Cl bond formed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q13",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-enth",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Using ΔH°f values (CH₄ −74.8, CO₂ −393.5, H₂O(l) −285.8 kJ/mol), find ΔH° for CH₄ + 2O₂ → CO₂ + 2H₂O(l).",
+   "choices": [
+    "−1039.9 kJ",
+    "−604.5 kJ",
+    "+890.3 kJ",
+    "−890.3 kJ"
+   ],
+   "correctAnswer": 3,
+   "explanation": "ΔH° = [−393.5 + 2(−285.8)] − [−74.8 + 0] = −965.1 + 74.8 = −890.3 kJ.",
+   "choiceExplanations": [
+    "−1039.9 kJ adds the reactant term instead of subtracting it.",
+    "−604.5 kJ forgets the coefficient 2 on water.",
+    "This reverses products and reactants.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q14",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-enth",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For A → B, ΔH = +50 kJ. What is ΔH for 2B → 2A?",
+   "choices": [
+    "−100 kJ",
+    "+100 kJ",
+    "+50 kJ",
+    "−50 kJ"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Reversing the reaction changes the sign (−50 kJ), and doubling it doubles ΔH: −100 kJ.",
+   "choiceExplanations": [
+    "",
+    "+100 kJ doubles but doesn't reverse the sign.",
+    "+50 kJ does neither.",
+    "−50 kJ reverses the sign but doesn't double."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q15",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-enth",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Given C(s) + O₂(g) → CO₂(g), ΔH = −393.5 kJ, and CO(g) + ½O₂(g) → CO₂(g), ΔH = −283.0 kJ, find ΔH for C(s) + ½O₂(g) → CO(g).",
+   "choices": [
+    "−393.5 kJ",
+    "−676.5 kJ",
+    "+110.5 kJ",
+    "−110.5 kJ"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Keep the first reaction and reverse the second (+283.0 kJ). Adding them: C + ½O₂ → CO, ΔH = −393.5 + 283.0 = −110.5 kJ.",
+   "choiceExplanations": [
+    "−393.5 kJ is the first reaction only.",
+    "−676.5 kJ adds the two values without reversing the second reaction.",
+    "+110.5 kJ has the wrong sign.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q16",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-enth",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the standard enthalpy of formation of O₂(g)?",
+   "choices": [
+    "−285.8 kJ/mol",
+    "0 kJ/mol",
+    "+498 kJ/mol",
+    "It depends on the reaction"
+   ],
+   "correctAnswer": 1,
+   "explanation": "An element in its standard state, such as O₂ gas, has ΔH°f = 0 by definition.",
+   "choiceExplanations": [
+    "−285.8 kJ/mol is ΔH°f of liquid water.",
+    "",
+    "498 kJ/mol is about the O=O bond enthalpy, not a formation enthalpy.",
+    "ΔH°f is a fixed property of each substance."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q17",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-enth",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For 2H₂(g) + O₂(g) → 2H₂O(l), ΔH = −572 kJ. How much heat is released when 4.0 g of H₂ (2.0 g/mol) burns?",
+   "choices": [
+    "286 kJ",
+    "2288 kJ",
+    "1144 kJ",
+    "572 kJ"
+   ],
+   "correctAnswer": 3,
+   "explanation": "4.0 g is 2.0 mol H₂, exactly the amount in the equation as written, so 572 kJ is released.",
+   "choiceExplanations": [
+    "286 kJ is the heat for 1.0 mol of H₂.",
+    "2288 kJ multiplies by the mass in grams.",
+    "1144 kJ doubles the heat, as if 4.0 mol had burned.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u6-q18",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "topicId": "c6-enth",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "ΔH for a reaction estimated from average bond enthalpies differs a little from the value calculated from enthalpies of formation. What best explains this?",
+   "choices": [
+    "The reaction's ΔH depends on the method used to calculate it",
+    "Bond enthalpies are averages over many compounds, so they don't exactly match the bonds in these particular molecules",
+    "Enthalpies of formation don't follow Hess's law",
+    "Bond enthalpies include the energy of intermolecular forces"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A C–H bond's strength varies slightly from molecule to molecule; tables list an average, so bond-enthalpy results are estimates.",
+   "choiceExplanations": [
+    "ΔH is a state function with one true value; methods only approximate it differently.",
+    "",
+    "Enthalpies of formation are consistent with Hess's law.",
+    "Average bond enthalpies are for bonds in gases and don't include IMFs."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-chem-u6-os1",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "title": "OpenStax Chemistry 2e, 5.2 Calorimetry",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Heat capacity and calorimetry (CED topics 6.3–6.4).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u6-os2",
+   "courseId": "ap-chemistry",
+   "unitId": "u6",
+   "title": "OpenStax Chemistry 2e, 5.3 Enthalpy",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Enthalpy of reaction, enthalpies of formation, and Hess's law (CED topics 6.6–6.9).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "chem-u6-q01",
+    "chem-u6-q02",
+    "chem-u6-q03",
+    "chem-u6-q06",
+    "chem-u6-q07",
+    "chem-u6-q08",
+    "chem-u6-q15",
+    "chem-u6-q18"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "chem-u6-q04",
+    "chem-u6-q05",
+    "chem-u6-q09",
+    "chem-u6-q10",
+    "chem-u6-q11",
+    "chem-u6-q12",
+    "chem-u6-q13",
+    "chem-u6-q16"
+   ]
+  }
+ ]
+}

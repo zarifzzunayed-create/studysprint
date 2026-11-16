@@ -1,0 +1,702 @@
+{
+ "courseId": "ap-english-language-and-composition",
+ "unitId": "u9",
+ "title": "Unit 9",
+ "topics": [
+  {
+   "id": "lang9-concede",
+   "name": "Explaining concessions, rebuttals, and refutations",
+   "covers": [
+    "Strategically conceding, rebutting, or refuting information"
+   ],
+   "frameworkCovers": [
+    "3.C Explain ways claims are qualified through modifiers, counterarguments, and alternative perspectives."
+   ]
+  },
+  {
+   "id": "lang9-rebut",
+   "name": "Writing concessions and rebuttals",
+   "covers": [
+    "Strategically conceding, rebutting, or refuting information"
+   ],
+   "frameworkCovers": [
+    "4.C Qualify a claim using modifiers, counterarguments, or alternative perspectives."
+   ]
+  },
+  {
+   "id": "lang9-style",
+   "name": "Stylistic choices in a complex argument",
+   "covers": [
+    "Crafting an argument through stylistic choices like word choice and description"
+   ],
+   "frameworkCovers": []
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 9: Concession, rebuttal, and style in complex arguments: review guide",
+  "intro": "The final unit brings everything together: arguments that engage opposing views strategically and use word choice and description to persuade. You'll practice recognizing and writing concessions, rebuttals, and refutations.",
+  "sections": [
+   {
+    "id": "s-lang9-concede",
+    "topicId": "lang9-concede",
+    "title": "Concession, rebuttal, and refutation",
+    "body": [
+     "A concession grants that part of an opposing view is valid. A rebuttal answers it by explaining why the writer's position still holds. A refutation shows that the opposing claim is false or unsupported.",
+     "Strategic concessions build credibility: granting a minor point can make the audience more willing to accept the main one."
+    ],
+    "points": [
+     "Concede what is true; rebut what still matters.",
+     "Refute with evidence, not with insults."
+    ]
+   },
+   {
+    "id": "s-lang9-rebut",
+    "topicId": "lang9-rebut",
+    "title": "Writing concessions and rebuttals",
+    "body": [
+     "A useful pattern: state the opposing view fairly, grant what is reasonable, then explain why your claim still stands (“Although…, …”; “It is true that…; however…”).",
+     "Place the strongest objection where readers will expect it to be answered, usually right after you present your main reasons."
+    ],
+    "points": [
+     "Represent the opposing view in terms its supporters would accept.",
+     "End the paragraph on your position, not the opponent's."
+    ]
+   },
+   {
+    "id": "s-lang9-style",
+    "topicId": "lang9-style",
+    "title": "Stylistic choices in a complex argument",
+    "body": [
+     "Word choice and description shape an argument's force: precise, concrete details help readers see what is at stake, and a consistent tone keeps the writer credible.",
+     "In complex arguments, style can signal fairness (measured diction when presenting opponents) and urgency (vivid description of consequences)."
+    ],
+    "points": [
+     "Concrete details persuade more than abstractions.",
+     "Avoid loaded words when describing opposing views."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Write a concession and rebuttal for the claim “The town should keep the old courthouse” against the objection “Repairs would be expensive.”",
+   "solution": "“Restoring the courthouse would cost more than demolishing it, at least at first. But a restored building can house offices the town now rents elsewhere, and over twenty years that rent would exceed the repair bill.”"
+  },
+  "misconceptions": [
+   [
+    "“A concession means giving up your position.”",
+    "It grants part of an opposing view while keeping your claim."
+   ],
+   [
+    "“Rebuttal and refutation are the same.”",
+    "A rebuttal explains why your view still holds; a refutation shows the other claim is false."
+   ],
+   [
+    "“Strong arguments ignore opponents.”",
+    "They address the strongest objections."
+   ],
+   [
+    "“Vivid language replaces evidence.”",
+    "Description supports evidence; it doesn't substitute for it."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Language and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+  "sourceTitle": "AP English Language and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "lang9-r1",
+   "title": "Passage 1: The four-day school week",
+   "text": [
+    "(1) Supporters of a four-day school week point to real savings. Districts that have tried it report lower costs for buses, heating, and substitute teachers, and some say teachers are easier to recruit.",
+    "(2) Those savings are real, and in a district struggling to fill classrooms, they matter. But the fifth day does not disappear for families. Parents who work five days must find care for that day, and the students least likely to have a supervised, enriching Friday are the ones who most need school.",
+    "(3) Nor is it true, as some supporters claim, that longer school days make up for the lost day. The added minutes come at the end of the afternoon, when attention is lowest, and the research on whether achievement holds steady is mixed at best.",
+    "(4) A district may still choose four days. If it does, it should fund the fifth day for the families who cannot."
+   ],
+   "attribution": "Written for StudySprint by its editors. It describes reported experiences with four-day weeks in general terms.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang9-r2",
+   "title": "Passage 2: The Grover Street mill",
+   "text": [
+    "(1) The mill on Grover Street has been empty for thirty years. Its windows are broken, pigeons nest in the loading bays, and the developer who bought it last spring says it would be cheaper to tear down than to repair.",
+    "(2) He is right about the cost. But walk inside on a winter afternoon, when the low sun comes through what is left of the glass and lights the long brick floor, and you will see what the town would lose: the room where three generations of its workers made blankets that warmed the country.",
+    "(3) Other towns have turned buildings like this into apartments, shops, and studios that draw visitors for decades. A wrecking ball is cheaper this year. It is not cheaper forever."
+   ],
+   "attribution": "Written for StudySprint by its editors. Names, places, and figures are invented for practice.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang9-w1",
+   "title": "Draft 1: A student paragraph about a later curfew",
+   "text": [
+    "The following is a draft of a student's paragraph. It may need revision.",
+    "(1) The town's 10 p.m. curfew for teenagers should be moved to 11 p.m. on weekends. (2) Many school events, such as concerts and games, end after 9:30. (3) Some residents worry that a later curfew would increase noise and vandalism. (4) Those people are wrong. (5) A later curfew would let students attend events and get home legally."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang9-w2",
+   "title": "Draft 2: A student paragraph about saving a neighborhood pool",
+   "text": [
+    "The following is a draft of a student's paragraph. It may need revision.",
+    "(1) The city plans to close the Westside pool. (2) The pool is a place. (3) In summer, hundreds of kids use it. (4) The city says the pool costs too much to operate. (5) Closing it would be bad."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lang-u9-q01",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-concede",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 2, the sentence “Those savings are real, and in a district struggling to fill classrooms, they matter” is best described as",
+   "choices": [
+    "an anecdote",
+    "the thesis",
+    "a concession",
+    "a refutation"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The writer grants that the supporters' point about savings is valid.",
+   "choiceExplanations": [
+    "No story is told.",
+    "The thesis comes later; this grants an opposing point.",
+    "",
+    "A refutation would show the claim is false."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-r1"
+  },
+  {
+   "id": "lang-u9-q02",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-concede",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the purpose of the sentence that begins “But the fifth day does not disappear for families”?",
+   "choices": [
+    "To summarize the research on the four-day school week",
+    "To rebut supporters by raising a cost the savings don't account for",
+    "To agree fully with supporters that the savings justify the change to four days",
+    "To describe the cost of running school buses on Fridays"
+   ],
+   "correctAnswer": 1,
+   "explanation": "After conceding the savings, the writer explains why they don't settle the question.",
+   "choiceExplanations": [
+    "Research is discussed in paragraph 3.",
+    "",
+    "It turns away from agreement.",
+    "Buses were mentioned earlier as a saving."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-r1"
+  },
+  {
+   "id": "lang-u9-q03",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-concede",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How does paragraph 3 differ from paragraph 2 in how it responds to supporters?",
+   "choices": [
+    "Both paragraphs agree with supporters that the savings are worth the change",
+    "Paragraph 3 concedes a point and rebuts it, while paragraph 2 refutes a specific claim as unsupported",
+    "Paragraph 3 refutes a specific claim, while paragraph 2 concedes a point and then rebuts it",
+    "Paragraph 3 introduces the supporters' view for the first time in the passage"
+   ],
+   "correctAnswer": 2,
+   "explanation": "“Nor is it true…” challenges the claim that longer days compensate; paragraph 2 grants savings before answering.",
+   "choiceExplanations": [
+    "Both challenge supporters.",
+    "This reverses what the two paragraphs do.",
+    "",
+    "Supporters' views appear in paragraph 1."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-r1"
+  },
+  {
+   "id": "lang-u9-q04",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-concede",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How does the conclusion (paragraph 4) reflect the complexity of the argument?",
+   "choices": [
+    "It abandons the writer's concerns and endorses the four-day week for districts without adding any conditions",
+    "It introduces an unrelated topic, the hiring of teachers",
+    "It insists that no district should ever use a four-day week, whatever its budget",
+    "It allows that a district may still choose four days but adds a condition addressing the writer's main concern"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Rather than an absolute ban, the writer qualifies the position with a practical condition.",
+   "choiceExplanations": [
+    "The conclusion adds a condition that answers the concern about families.",
+    "It stays on topic.",
+    "The conclusion explicitly allows the choice.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-r1"
+  },
+  {
+   "id": "lang-u9-q05",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-concede",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 2, “He is right about the cost” functions as",
+   "choices": [
+    "a concession to the developer's point",
+    "a description of the mill's condition",
+    "a refutation of the developer's point",
+    "the passage's conclusion about cost"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The writer grants that demolition is cheaper before turning to what would be lost.",
+   "choiceExplanations": [
+    "",
+    "This sentence grants a point; the description of the mill comes before it.",
+    "The writer agrees with this part.",
+    "The conclusion is in paragraph 3."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-r2"
+  },
+  {
+   "id": "lang-u9-q06",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-style",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the main effect of the description of the winter sun on the brick floor?",
+   "choices": [
+    "It proves that repairing the old mill would be cheaper than the developer claims",
+    "It describes the developer's plans for the building after it is torn down",
+    "It shows that the building is too dangerous for people to walk through",
+    "It helps readers see the building's beauty and history, making its loss concrete"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Vivid, specific imagery shows what the town would lose.",
+   "choiceExplanations": [
+    "The writer concedes the cost.",
+    "The developer's plans aren't described here.",
+    "The description is admiring, not about danger.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-r2"
+  },
+  {
+   "id": "lang-u9-q07",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-style",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why does the writer describe the broken windows and nesting pigeons in paragraph 1?",
+   "choices": [
+    "To describe the wildlife that has moved into the town's empty buildings",
+    "To present the building's poor condition honestly before arguing for it",
+    "To show that the developer is dishonest about what the building is worth",
+    "To argue that the building should be torn down because it cannot be saved"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Admitting the decay up front makes the later argument more credible.",
+   "choiceExplanations": [
+    "Pigeons illustrate neglect, not wildlife.",
+    "",
+    "The writer agrees with the developer about cost.",
+    "The writer argues the opposite."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-r2"
+  },
+  {
+   "id": "lang-u9-q08",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-concede",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How do the final two sentences (“A wrecking ball is cheaper this year. It is not cheaper forever.”) answer the developer?",
+   "choices": [
+    "They change the subject from cost to the town's long history of making blankets",
+    "They accept his short-term point while rebutting it with a longer view of cost",
+    "They agree with him completely that demolition is the better choice",
+    "They refute his claim that demolition is cheaper now"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The first grants the present cost; the second rebuts by pointing to long-term value.",
+   "choiceExplanations": [
+    "They stay focused on cost.",
+    "",
+    "The second sentence pushes back.",
+    "The first sentence agrees that demolition is cheaper now."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-r2"
+  },
+  {
+   "id": "lang-u9-q09",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-rebut",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the main problem with sentence (4)?",
+   "choices": [
+    "It concedes too much to the residents who oppose the change",
+    "It repeats the claim already made in sentence (1)",
+    "It dismisses the residents' concern without giving a reason",
+    "It provides too much evidence about noise and vandalism"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Saying “those people are wrong” offers no rebuttal.",
+   "choiceExplanations": [
+    "It concedes nothing.",
+    "It doesn't repeat the claim.",
+    "",
+    "It provides no evidence."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-w1"
+  },
+  {
+   "id": "lang-u9-q10",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-rebut",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which revision of sentence (4) best rebuts the concern in sentence (3)?",
+   "choices": [
+    "But the later curfew would cover only weekends, when most teens out late are coming home from supervised school events.",
+    "Those residents should mind their own business and let teenagers decide for themselves what time they should come home.",
+    "Vandalism happens everywhere, in towns large and small, no matter what time the curfew is set for teenagers.",
+    "Noise is sometimes a problem on weekend nights in some neighborhoods."
+   ],
+   "correctAnswer": 0,
+   "explanation": "It answers the concern by limiting when the change applies and explaining who would be out.",
+   "choiceExplanations": [
+    "",
+    "This is dismissive.",
+    "This doesn't connect the concern to the weekend proposal.",
+    "This concedes without answering."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-w1"
+  },
+  {
+   "id": "lang-u9-q11",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-rebut",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which sentence, added after sentence (3), would best concede part of the residents' concern?",
+   "choices": [
+    "It is reasonable to expect that some teenagers would misuse the extra hour.",
+    "Curfews were invented long ago, and many towns across the country still use them.",
+    "Teenagers never cause problems when they are out late on weekends.",
+    "Residents always complain about any change the town tries to make."
+   ],
+   "correctAnswer": 0,
+   "explanation": "Granting a reasonable point builds credibility before the rebuttal.",
+   "choiceExplanations": [
+    "",
+    "This is irrelevant.",
+    "This is an absolute, easily refuted claim.",
+    "This dismisses residents."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-w1"
+  },
+  {
+   "id": "lang-u9-q12",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-rebut",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Where should the writer place the response to the residents' concern for the greatest effect?",
+   "choices": [
+    "At the very beginning of the paragraph, before the claim is stated",
+    "Right after the concern is stated, before ending on the benefit to students",
+    "It shouldn't be included, because responding just draws attention to the concern",
+    "After sentence (5), as the paragraph's last sentence"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Answering the objection as soon as it's raised, then ending on the writer's position, leaves readers with the claim.",
+   "choiceExplanations": [
+    "Before the concern appears, the response would make no sense.",
+    "",
+    "An unanswered objection weakens the paragraph.",
+    "Ending on the objection gives it the last word."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-w1"
+  },
+  {
+   "id": "lang-u9-q13",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-style",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Sentence (2), “The pool is a place,” is weak because",
+   "choices": [
+    "it contains a rebuttal of the city's objection",
+    "it is too detailed for the opening of an argument",
+    "it uses a comparison readers may not understand",
+    "it is vague and adds no description or support"
+   ],
+   "correctAnswer": 3,
+   "explanation": "It tells the reader nothing about why the pool matters.",
+   "choiceExplanations": [
+    "It contains no rebuttal.",
+    "It has no detail.",
+    "It contains no comparison.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-w2"
+  },
+  {
+   "id": "lang-u9-q14",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-style",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which revision of sentence (2) uses description most effectively to support the writer's purpose?",
+   "choices": [
+    "On July afternoons, the pool is the one cool place within walking distance for families without air conditioning.",
+    "The pool is very nice, and many people in the neighborhood say they enjoy going there in summer.",
+    "The pool is a rectangle of water.",
+    "The pool is a public facility owned and operated by the city's parks department ever since it first opened."
+   ],
+   "correctAnswer": 0,
+   "explanation": "Specific details show who depends on the pool and why, supporting the argument against closing it.",
+   "choiceExplanations": [
+    "",
+    "This is vague and adds no persuasive description.",
+    "This is accurate but irrelevant to the argument.",
+    "This is a neutral fact without persuasive force."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-w2"
+  },
+  {
+   "id": "lang-u9-q15",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-rebut",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Sentence (4) presents the city's objection. Which sentence, added after it, best concedes and rebuts?",
+   "choices": [
+    "Money is not important when hundreds of kids need a place to swim in the summer.",
+    "The city is lying about how much the pool costs to run, as everyone in the neighborhood already knows.",
+    "The pool costs a lot, and the city's budget is tight this year for each department.",
+    "The pool does cost money to run, but a small summer fee or a sponsor could cover much of that cost."
+   ],
+   "correctAnswer": 3,
+   "explanation": "It grants the cost, then offers a reasoned alternative to closure.",
+   "choiceExplanations": [
+    "This dismisses a real concern.",
+    "This attacks without evidence.",
+    "This concedes without rebutting.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-w2"
+  },
+  {
+   "id": "lang-u9-q16",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "topicId": "lang9-style",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which revision of sentence (5) best combines precise word choice with the writer's position?",
+   "choices": [
+    "Closing it would be a total catastrophe for the universe and for every single person who has ever lived in this city.",
+    "Closing it would be really, really bad for the neighborhood and for everyone in it.",
+    "Closing the Westside pool would take a safe, free summer refuge from the families with the fewest alternatives.",
+    "Closing it would be a choice."
+   ],
+   "correctAnswer": 2,
+   "explanation": "Precise words (safe, free, refuge, fewest alternatives) name exactly what would be lost and for whom.",
+   "choiceExplanations": [
+    "Exaggeration costs credibility.",
+    "Intensifiers add emphasis but no meaning.",
+    "",
+    "This is neutral and vague."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang9-w2"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lang-u9-os1",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "title": "OpenStax Writing Guide with Handbook, 10.1 Making a Case: Defining a Position Argument",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/10-1-making-a-case-defining-a-position-argument",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on taking and defending a position. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/10-1-making-a-case-defining-a-position-argument",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-lang-u9-os2",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u9",
+   "title": "OpenStax Writing Guide with Handbook, 11.5 Writing Process: Reasoning Supported by Evidence",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/11-5-writing-process-reasoning-supported-by-evidence",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on reasoning that answers objections with evidence. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/11-5-writing-process-reasoning-supported-by-evidence",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Language free-response questions (synthesis, rhetorical analysis, and argument) each draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lang-u9-q01",
+    "lang-u9-q02",
+    "lang-u9-q03",
+    "lang-u9-q04",
+    "lang-u9-q13",
+    "lang-u9-q14",
+    "lang-u9-q15",
+    "lang-u9-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lang-u9-q05",
+    "lang-u9-q06",
+    "lang-u9-q07",
+    "lang-u9-q08",
+    "lang-u9-q09",
+    "lang-u9-q10",
+    "lang-u9-q11",
+    "lang-u9-q12"
+   ]
+  }
+ ]
+}

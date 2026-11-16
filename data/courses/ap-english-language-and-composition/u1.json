@@ -1,0 +1,708 @@
+{
+ "courseId": "ap-english-language-and-composition",
+ "unitId": "u1",
+ "title": "Unit 1",
+ "topics": [
+  {
+   "id": "lang1-situation",
+   "name": "The rhetorical situation: purpose, audience, and exigence",
+   "covers": [
+    "Identifying the purpose and intended audience of a text"
+   ],
+   "frameworkCovers": [
+    "1.A Identify and describe components of the rhetorical situation: the exigence, audience, writer, purpose, context, and message."
+   ]
+  },
+  {
+   "id": "lang1-claims",
+   "name": "Claims and the evidence that supports them",
+   "covers": [
+    "Examining how evidence supports a claim"
+   ],
+   "frameworkCovers": [
+    "3.A Identify and explain claims and evidence within an argument."
+   ]
+  },
+  {
+   "id": "lang1-paragraph",
+   "name": "Developing an argumentative paragraph",
+   "covers": [
+    "Developing paragraphs as part of an effective argument"
+   ],
+   "frameworkCovers": [
+    "4.A Develop a paragraph that includes a claim and evidence supporting the claim."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 1: The rhetorical situation, claims, and evidence: review guide",
+  "intro": "Every argument is written by someone, for someone, for a reason. This unit practices naming those parts of the rhetorical situation, finding a text's claims and evidence, and building a paragraph in which evidence clearly supports a claim.",
+  "sections": [
+   {
+    "id": "s-lang1-situation",
+    "topicId": "lang1-situation",
+    "title": "The rhetorical situation",
+    "body": [
+     "The rhetorical situation has six parts: the writer; the audience (who the writer is trying to reach, which may differ from who happens to read it); the purpose (what the writer wants the audience to think or do); the context (the time, place, and circumstances); the exigence (the problem, event, or need that prompts the writing); and the message.",
+     "Look for clues: who is addressed directly, what the audience is assumed to know or value, what event is mentioned as the reason for writing now, and what action the writer asks for."
+    ],
+    "points": [
+     "Exigence answers “why write this now?”",
+     "Purpose is what the writer wants to happen, not just the topic.",
+     "A letter can be addressed to one group while aiming to influence another."
+    ]
+   },
+   {
+    "id": "s-lang1-claims",
+    "topicId": "lang1-claims",
+    "title": "Claims and evidence",
+    "body": [
+     "A claim is an arguable statement the writer wants the audience to accept. Evidence (facts, statistics, examples, expert testimony, anecdotes) gives the audience reasons to accept it.",
+     "Ask what each piece of evidence does: does it show the problem is real, show that a solution works, make an abstract point concrete, or answer an objection? Strong evidence is relevant to the specific claim, sufficient, and suited to the audience."
+    ],
+    "points": [
+     "A fact by itself isn't a claim; a claim can be disputed.",
+     "Anecdotes make a point vivid; statistics show how widespread it is.",
+     "Evidence only persuades when the writer connects it to the claim."
+    ]
+   },
+   {
+    "id": "s-lang1-paragraph",
+    "topicId": "lang1-paragraph",
+    "title": "Developing an argumentative paragraph",
+    "body": [
+     "A strong argumentative paragraph states a claim, offers evidence that fits that claim, and explains (in commentary) how the evidence supports it. Each sentence should serve the paragraph's claim.",
+     "When revising, check that the claim is clear and arguable, that the evidence is specific and relevant, that off-topic sentences are cut, and that the last sentence connects the evidence back to the claim."
+    ],
+    "points": [
+     "Put evidence right after the claim it supports.",
+     "Cut sentences that introduce a new topic.",
+     "Commentary answers “so what?” for each piece of evidence."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Name the rhetorical situation: a principal emails parents the night before a snowstorm, asking them to check the school website by 6 a.m. for closing news.",
+   "solution": "Writer: the principal. Audience: parents. Exigence: the coming storm. Purpose: to get parents to check the website early. Context: a school community facing possible closure. Message: “check the website by 6 a.m.”"
+  },
+  "misconceptions": [
+   [
+    "“The audience is whoever reads the text.”",
+    "The intended audience is who the writer is trying to reach and adapts the text for."
+   ],
+   [
+    "“The topic and the claim are the same thing.”",
+    "The topic is what a text is about; the claim is the arguable position the writer takes on it."
+   ],
+   [
+    "“More evidence always makes a paragraph stronger.”",
+    "Evidence must be relevant and explained; unrelated facts weaken a paragraph."
+   ],
+   [
+    "“Exigence is the writer's purpose.”",
+    "Exigence is what prompts the writing; purpose is what the writer hopes to achieve."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Language and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+  "sourceTitle": "AP English Language and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "passages": [
+  {
+   "id": "lang1-r1",
+   "title": "Passage 1: An open letter about library hours",
+   "text": [
+    "(1) To the members of the Riverside City Council: Next Tuesday you will vote on the library budget, and I ask you to restore Sunday hours at our four branch libraries.",
+    "(2) When Sunday hours were cut two years ago, the decision looked small. Yet in the last year they were offered, our branches recorded more than 31,000 Sunday visits, nearly a third of them from people who told our staff they could not come during the week because of work.",
+    "(3) Those numbers have faces. On Sundays I watched a night-shift nurse renew her certification online because her apartment has no internet. I watched a father and his two sons build a model bridge for a science fair from library books.",
+    "(4) Restoring the hours would cost about $180,000 a year, less than one percent of the parks and libraries budget. I know every dollar in that budget is claimed. But a city that says it values opportunity should keep its doors open on the one day many residents are free to walk through them."
+   ],
+   "attribution": "Written for StudySprint by its editors. The library, city, and figures are invented for practice.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang1-r2",
+   "title": "Passage 2: Why cities should plant shade trees",
+   "text": [
+    "(1) On a July afternoon, stand on an unshaded sidewalk, then step under a large oak. The difference you feel is not imagined. In measurements across many cities, shaded pavement can be dramatically cooler to the touch than pavement in full sun, and the air beneath a full canopy is often several degrees cooler than the air over an open parking lot.",
+    "(2) Trees cool in two ways. Their leaves block sunlight before it heats the ground, and they release water vapor, which carries heat away, much as sweat cools skin.",
+    "(3) Consider the bus stop on a treeless avenue at three in the afternoon. The people waiting there are often older adults and workers without cars, the same residents most at risk during heat waves.",
+    "(4) Young trees do need water and care for their first few years, and that cost is real. But a mature tree delivers its cooling for decades, and the residents who wait at that bus stop will feel the difference every summer."
+   ],
+   "attribution": "Written for StudySprint by its editors. It summarizes widely reported findings about urban shade in general terms rather than quoting a specific study.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang1-w1",
+   "title": "Draft 1: A student paragraph about school start times",
+   "text": [
+    "The following is a draft of a student's paragraph for the school newspaper. It may need revision.",
+    "(1) Many students at our school arrive tired. (2) Teenagers' sleep cycles shift later during adolescence, so an 8:45 start would let students get closer to the sleep they need. (3) Several districts that moved their start times later reported better attendance in first-period classes. (4) Some parents worry about schedules for sports and jobs. (5) Our cafeteria also needs more vegetarian options. (6) A later start would cost little and would help students arrive ready to learn."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lang1-w2",
+   "title": "Draft 2: A student paragraph about a community garden",
+   "text": [
+    "The following is a draft of a student's letter to the town parks board. It may need revision.",
+    "(1) The empty lot on Maple Street has been unused for six years. (2) The parks board should turn it into a community garden. (3) Gardens give neighbors a reason to meet and work together. (4) Our school's science club has already offered to build raised beds. (5) Fresh vegetables grown there could be shared with the food pantry two blocks away. (6) A garden would be good."
+   ],
+   "attribution": "Written for StudySprint by its editors.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lang-u1-q01",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-situation",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Who is the primary intended audience of the letter?",
+   "choices": [
+    "Nurses who work night shifts in the city",
+    "The staff who work at the branch libraries",
+    "Residents who visit the library on Sundays",
+    "The members of the Riverside city council"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The letter opens by addressing the council directly and asks it to act in a coming vote.",
+   "choiceExplanations": [
+    "The nurse is one example within the argument.",
+    "Staff are mentioned as sources of information, not addressed.",
+    "Sunday visitors are the people the writer describes, not the readers being asked to act.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-r1"
+  },
+  {
+   "id": "lang-u1-q02",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-claims",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which statement best expresses the writer's main claim?",
+   "choices": [
+    "The council should restore Sunday library hours because many residents can visit only then",
+    "The library budget is too large and should be cut further in next Tuesday's vote",
+    "Sunday hours were cut two years ago, and since then they have hardly been missed by anyone",
+    "Libraries deserve more city money than parks and pools do"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Sentence (1) asks the council to restore Sunday hours, and the rest of the letter gives reasons.",
+   "choiceExplanations": [
+    "",
+    "The writer argues that restoring the hours would cost little; she does not call for cuts.",
+    "The cut is a fact the writer reports, and she argues the hours are badly missed.",
+    "The writer never compares libraries with parks or pools."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-r1"
+  },
+  {
+   "id": "lang-u1-q03",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-claims",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The statistic in paragraph 2 (more than 31,000 Sunday visits) mainly serves to",
+   "choices": [
+    "show that weekday visits have declined as Sunday visits grew",
+    "show that Sunday hours met a real and widespread need",
+    "explain why the council chose to cut the hours",
+    "prove that the libraries should be open every day"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The number, together with the note about weekday work, gives evidence that many people relied on Sunday hours.",
+   "choiceExplanations": [
+    "Weekday visits aren't discussed, and the statistic is about Sunday visits.",
+    "",
+    "The writer doesn't explain the reason for the cut.",
+    "The writer asks only for Sunday hours, not daily hours."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-r1"
+  },
+  {
+   "id": "lang-u1-q04",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-situation",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "How does the reference to next Tuesday's vote in sentence (1) function in the letter?",
+   "choices": [
+    "It shifts the letter's audience from the council to the general public and the press",
+    "It provides evidence that Sunday hours were popular with the residents who worked on weekdays",
+    "It names the exigence that makes the request urgent and gives the council a moment to act",
+    "It shows the writer's anger at the council for its earlier decision"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The upcoming vote is the occasion that prompts the letter and defines when the council can grant the request.",
+   "choiceExplanations": [
+    "The letter keeps addressing the council.",
+    "The vote is the occasion, not evidence of demand.",
+    "",
+    "The tone of the letter is respectful, not angry; the vote is mentioned as the occasion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-r1"
+  },
+  {
+   "id": "lang-u1-q05",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-situation",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which best describes the primary purpose of the passage?",
+   "choices": [
+    "To criticize residents who drive to work instead of taking buses",
+    "To persuade general readers that cities should plant shade trees",
+    "To instruct city workers in how to water young trees",
+    "To compare oak trees with other species of street trees"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The passage explains the benefits of shade and ends by weighing costs in favor of planting.",
+   "choiceExplanations": [
+    "The passage doesn't criticize drivers or discuss how people commute.",
+    "",
+    "Watering is mentioned only as a cost.",
+    "The oak is a single example; no species are compared."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-r2"
+  },
+  {
+   "id": "lang-u1-q06",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-claims",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which detail most directly supports the claim that trees lower temperatures?",
+   "choices": [
+    "The statement in paragraph 4 that young trees need water and care for several years",
+    "The reference to older adults at the bus stop",
+    "The opening description of standing outside on a July afternoon",
+    "Measurements showing that shaded pavement and the air under a canopy are cooler"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Measurements across many cities are direct evidence of the cooling effect.",
+   "choiceExplanations": [
+    "Watering is a cost, not evidence of cooling.",
+    "The bus stop shows who benefits, not that cooling happens.",
+    "The July scene invites the reader to imagine the effect but doesn't measure it.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-r2"
+  },
+  {
+   "id": "lang-u1-q07",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-claims",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 3, the writer describes the bus stop on a treeless avenue in order to",
+   "choices": [
+    "make the benefit concrete by showing who suffers most without shade",
+    "introduce a new claim about public transportation",
+    "concede that planting trees is expensive for cities with tight budgets",
+    "provide statistical evidence about how hot bus stops get in the afternoon"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The scene connects the general claim to specific, vulnerable people, so readers see why shade matters.",
+   "choiceExplanations": [
+    "",
+    "The passage doesn't argue about transportation policy.",
+    "The paragraph shows who suffers; the concession about cost comes in paragraph 4.",
+    "The paragraph has no statistics; it describes a scene."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-r2"
+  },
+  {
+   "id": "lang-u1-q08",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-claims",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In paragraph 4, the writer acknowledges that young trees need water and care. This acknowledgment most likely serves to",
+   "choices": [
+    "address a likely objection about cost before reaffirming the claim",
+    "suggest that cities should plant only mature trees",
+    "change the passage's purpose from persuading readers to simply informing them",
+    "undermine the passage's earlier evidence about cooling"
+   ],
+   "correctAnswer": 0,
+   "explanation": "By granting that the cost is real and then stressing decades of benefit, the writer answers budget-minded readers.",
+   "choiceExplanations": [
+    "",
+    "Mature trees can't be planted as mature trees; the point is long-term benefit.",
+    "The paragraph still argues for planting.",
+    "The writer concedes a cost but doesn't question the evidence."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-r2"
+  },
+  {
+   "id": "lang-u1-q09",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-paragraph",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The writer wants to replace sentence (1) with a sentence that states the paragraph's claim more clearly. Which choice best does this?",
+   "choices": [
+    "Our school starts at 7:30 every morning, earlier than most nearby schools.",
+    "Our school should start at 8:45 so students can get the sleep they need.",
+    "Some students drink coffee before school.",
+    "Sleep is an interesting topic that many scientists have studied for years."
+   ],
+   "correctAnswer": 1,
+   "explanation": "This choice states an arguable position and connects it to the paragraph's main reason.",
+   "choiceExplanations": [
+    "This is a fact about the schedule, not an arguable claim.",
+    "",
+    "This is a detail, not the paragraph's claim.",
+    "This is off-topic and makes no argument about the school's start time."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-w1"
+  },
+  {
+   "id": "lang-u1-q10",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-paragraph",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which of these, added after sentence (3), would best strengthen the evidence for the paragraph's claim?",
+   "choices": [
+    "In those districts, attendance is recorded by each teacher at the very start of first period.",
+    "Some districts have kept their original start times.",
+    "In one of those districts, first-period tardiness fell by nearly a quarter after the change.",
+    "Many students at our school also like to sleep late on weekends and holidays."
+   ],
+   "correctAnswer": 2,
+   "explanation": "A specific, relevant result makes sentence (3)'s evidence more concrete and persuasive.",
+   "choiceExplanations": [
+    "This explains how attendance is taken but gives no evidence that the change helped.",
+    "This weakens the claim without addressing it.",
+    "",
+    "Weekend habits don't show that a later start helps."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-w1"
+  },
+  {
+   "id": "lang-u1-q11",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-paragraph",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Should the writer keep or delete sentence (5)?",
+   "choices": [
+    "Keep it, because it gives the paragraph a strong conclusion",
+    "Keep it, because it adds a second reason to change the schedule",
+    "Delete it, because it repeats the claim made in sentence (6)",
+    "Delete it, because it raises a topic unrelated to the claim"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Cafeteria food has nothing to do with start times, so the sentence breaks the paragraph's focus.",
+   "choiceExplanations": [
+    "Sentence (6) is the conclusion; (5) is a digression.",
+    "It isn't a reason for changing the start time.",
+    "Sentence (5) doesn't repeat anything.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-w1"
+  },
+  {
+   "id": "lang-u1-q12",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-paragraph",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The writer wants sentence (4) to help the argument rather than simply mention a concern. Which revision best does this?",
+   "choices": [
+    "Sports and after-school jobs are a big part of many students' lives, and they take up a great deal of time each week.",
+    "Parents should not worry about schedules, because students will adjust to a later start on their own.",
+    "Some parents worry about sports and jobs, but districts that changed found practices and shifts could start later too.",
+    "Some parents worry about schedules for sports and jobs, which are very important."
+   ],
+   "correctAnswer": 2,
+   "explanation": "This revision acknowledges the objection and answers it with evidence, so it supports the claim.",
+   "choiceExplanations": [
+    "This only restates how much time sports and jobs take; it gives no response to the concern.",
+    "This dismisses the concern without a reason.",
+    "",
+    "This repeats the concern and even strengthens it, without a response."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-w1"
+  },
+  {
+   "id": "lang-u1-q13",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-paragraph",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which sentence states the main claim of the draft?",
+   "choices": [
+    "Sentence (2)",
+    "Sentence (5)",
+    "Sentence (4)",
+    "Sentence (1)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Sentence (2) says what the parks board should do; the other sentences give reasons or background.",
+   "choiceExplanations": [
+    "",
+    "Sentence (5) is a benefit that supports the claim.",
+    "Sentence (4) is evidence that the plan is practical.",
+    "Sentence (1) gives background about the lot."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-w2"
+  },
+  {
+   "id": "lang-u1-q14",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-situation",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The writer is addressing the town parks board. Which added detail would be most persuasive to that audience?",
+   "choices": [
+    "The writer's grandmother kept a large vegetable garden behind her house for many years.",
+    "Tomatoes are the easiest vegetable to grow.",
+    "The science club will maintain the beds at no cost to the parks budget.",
+    "Gardening is a popular and growing hobby in towns across the country."
+   ],
+   "correctAnswer": 2,
+   "explanation": "A board deciding how to use a parks property will care about cost and maintenance.",
+   "choiceExplanations": [
+    "A family memory is less relevant to a public decision about this lot.",
+    "This is true but irrelevant to the board's decision.",
+    "",
+    "National popularity doesn't address this lot or this board."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-w2"
+  },
+  {
+   "id": "lang-u1-q15",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-paragraph",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Where would this sentence best be placed: “Last year the pantry served more than 200 families each week.”",
+   "choices": [
+    "After sentence (1)",
+    "After sentence (5)",
+    "After sentence (3)",
+    "After sentence (6)"
+   ],
+   "correctAnswer": 1,
+   "explanation": "It gives evidence for sentence (5)'s point that the pantry would benefit from fresh vegetables.",
+   "choiceExplanations": [
+    "After (1) it would interrupt the background about the lot.",
+    "",
+    "After (3) it would interrupt the point about neighbors meeting.",
+    "After (6) it would come after the conclusion."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-w2"
+  },
+  {
+   "id": "lang-u1-q16",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "topicId": "lang1-paragraph",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The writer wants to replace sentence (6) with a conclusion that connects the evidence to the claim. Which choice best does this?",
+   "choices": [
+    "In conclusion, gardens are nice places, and many people in towns like ours enjoy spending time in them on weekends.",
+    "The lot on Maple Street has been empty for six long years, and it is now time for the parks board to make a final decision about it.",
+    "A garden would be very, very good.",
+    "Because volunteers are ready and the produce would feed neighbors in need, a garden would put unused land to work for everyone."
+   ],
+   "correctAnswer": 3,
+   "explanation": "This choice gathers the paragraph's evidence (volunteers, produce for the pantry) and links it back to the claim.",
+   "choiceExplanations": [
+    "This is vague and doesn't connect to the evidence about volunteers or the pantry.",
+    "This repeats background from sentence (1) and doesn't connect the evidence to the claim.",
+    "Adding intensifiers doesn't explain anything.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lang1-w2"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lang-u1-os1",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "title": "OpenStax Writing Guide with Handbook, 1.3 Glance at Critical Response: Rhetoric and Critical Thinking",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/1-3-glance-at-critical-response-rhetoric-and-critical-thinking",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on the rhetorical situation and reading critically. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/1-3-glance-at-critical-response-rhetoric-and-critical-thinking",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-lang-u1-os2",
+   "courseId": "ap-english-language-and-composition",
+   "unitId": "u1",
+   "title": "OpenStax Writing Guide with Handbook, 10.3 Glance at Genre: Thesis, Reasoning, and Evidence",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/10-3-glance-at-genre-thesis-reasoning-and-evidence",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on claims and evidence in an argument. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/10-3-glance-at-genre-thesis-reasoning-and-evidence",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Language free-response questions (synthesis, rhetorical analysis, and argument) each draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lang-u1-q01",
+    "lang-u1-q02",
+    "lang-u1-q03",
+    "lang-u1-q04",
+    "lang-u1-q09",
+    "lang-u1-q10",
+    "lang-u1-q11",
+    "lang-u1-q12"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lang-u1-q05",
+    "lang-u1-q06",
+    "lang-u1-q07",
+    "lang-u1-q08",
+    "lang-u1-q13",
+    "lang-u1-q14",
+    "lang-u1-q15",
+    "lang-u1-q16"
+   ]
+  }
+ ]
+}

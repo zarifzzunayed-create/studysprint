@@ -1,0 +1,817 @@
+{
+ "courseId": "ap-microeconomics",
+ "unitId": "u6",
+ "title": "Unit 6: Market Failure and the Role of Government",
+ "topics": [
+  {
+   "id": "mic6-efficiency",
+   "name": "Socially efficient and inefficient market outcomes",
+   "covers": [
+    "Socially efficient and inefficient market outcomes"
+   ],
+   "frameworkCovers": [
+    "6.1 Socially Efficient and Inefficient Market Outcomes"
+   ]
+  },
+  {
+   "id": "mic6-externalities",
+   "name": "Externalities",
+   "covers": [
+    "Externalities"
+   ],
+   "frameworkCovers": [
+    "6.2 Externalities"
+   ]
+  },
+  {
+   "id": "mic6-goods",
+   "name": "Public and private goods",
+   "covers": [
+    "Public and private goods"
+   ],
+   "frameworkCovers": [
+    "6.3 Public and Private Goods"
+   ]
+  },
+  {
+   "id": "mic6-policy",
+   "name": "Government intervention and inequality",
+   "covers": [
+    "The effects of government intervention in different market structures",
+    "Income and wealth inequality"
+   ],
+   "frameworkCovers": [
+    "6.4 The Effects of Government Intervention in Different Market Structures",
+    "6.5 Inequality"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 6: Market Failure and the Role of Government: review guide",
+  "intro": "This unit asks when markets fail to produce the socially optimal quantity and what government can do about it: externalities, public goods, market power, and inequality. The benchmark throughout is the quantity at which marginal social benefit equals marginal social cost.",
+  "sections": [
+   {
+    "id": "s-mic6-efficiency",
+    "topicId": "mic6-efficiency",
+    "title": "Socially efficient and inefficient market outcomes",
+    "body": [
+     "The socially optimal quantity is where the marginal social benefit (MSB) of the last unit equals its marginal social cost (MSC); total economic surplus is greatest there. A market reaches that quantity only when all benefits and costs are internalized by the people making the decisions.",
+     "Markets can miss the efficient quantity because of market power (monopoly, oligopoly, monopolistic competition), externalities, asymmetric information (one side knows more than the other), and too little production of public goods. Any quantity other than the efficient one creates deadweight loss. Policymakers use cost-benefit analysis to choose policies that bring MSB and MSC back into line."
+    ],
+    "points": [
+     "Efficient quantity: MSB = MSC.",
+     "If MSB > MSC for the last unit, more should be produced; if MSB < MSC, less."
+    ]
+   },
+   {
+    "id": "s-mic6-externalities",
+    "topicId": "mic6-externalities",
+    "title": "Externalities",
+    "body": [
+     "An externality is a cost or benefit that falls on someone outside a transaction. Externalities arise from poorly defined property rights or high transaction costs, and buyers and sellers respond to private costs and benefits, not external ones. With a negative externality (such as pollution), MSC is above marginal private cost, so the market produces more than the socially optimal quantity. With a positive externality (such as vaccination), MSB is above marginal private benefit, so the market produces too little.",
+     "Policies include per-unit taxes equal to the marginal external cost, per-unit subsidies equal to the marginal external benefit, environmental regulation, public provision, and assigning property rights so that the parties can bargain. The deadweight loss of an uncorrected externality is the triangle between MSB and MSC from the optimal quantity to the market quantity."
+    ],
+    "points": [
+     "Negative externality: overproduction; correct with a tax.",
+     "Positive externality: underproduction; correct with a subsidy."
+    ]
+   },
+   {
+    "id": "s-mic6-goods",
+    "topicId": "mic6-goods",
+    "title": "Public and private goods",
+    "body": [
+     "A good is rival if one person's use reduces what is left for others, and excludable if people who do not pay can be kept from using it. Private goods are rival and excludable. Public goods, such as national defense, are non-rival and non-excludable.",
+     "Because no one can be excluded from a public good, people have an incentive to free ride, so private firms usually do not provide it and government does. Governments also sometimes provide private goods, such as education, free of charge. Open-access natural resources, such as fish in the open ocean, are rival but non-excludable and tend to be overused."
+    ],
+    "points": [
+     "Public good = non-rival + non-excludable.",
+     "Non-excludable → free riders; rival + non-excludable → overuse."
+    ]
+   },
+   {
+    "id": "s-mic6-policy",
+    "topicId": "mic6-policy",
+    "title": "Government intervention and inequality",
+    "body": [
+     "Per-unit taxes and subsidies change the price buyers pay, the price sellers receive, the quantity, both surpluses, and government revenue or cost, with effects that depend on elasticities. A lump-sum tax or subsidy changes only fixed cost, so it does not change marginal cost, output, or price. Governments can regulate a monopoly's price to reduce inefficiency and use antitrust policy to promote competition. For a natural monopoly, the efficient price (P = MC) is below average total cost, so the firm needs a lump-sum subsidy to produce the efficient quantity.",
+     "Incomes and poverty rates vary across and within groups and countries. The Lorenz curve and the Gini coefficient describe how unequal a distribution is: a Gini coefficient near 0 means near equality, and one near 1 means extreme inequality (drawing the curve and calculating the coefficient are outside the AP course). Sources of inequality include differences in human capital, social capital, inheritance, discrimination, access to financial markets, mobility, bargaining power, and tax structures. A progressive tax takes a larger share of income as income rises; a regressive tax takes a smaller share."
+    ],
+    "points": [
+     "Lump-sum taxes do not change MC, so output and price stay the same.",
+     "Gini coefficient: 0 = perfect equality, 1 = maximum inequality."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Each unit of a chemical imposes $3 of pollution damage on neighbors. The market produces 500 units; the socially optimal quantity is 400. What policy would move the market to the optimum, and what is the deadweight loss without it?",
+   "solution": "A per-unit tax of $3, equal to the marginal external cost, makes producers face the full social cost, so they cut output to 400. Without it, the deadweight loss is the triangle ½ × $3 × (500 − 400) = $150."
+  },
+  "misconceptions": [
+   [
+    "“A negative externality means the market produces too little.”",
+    "It produces too much, because producers ignore the external cost."
+   ],
+   [
+    "“A public good is anything the government provides.”",
+    "A public good is defined by being non-rival and non-excludable; governments also provide private goods such as education."
+   ],
+   [
+    "“A lump-sum tax makes a monopolist raise its price.”",
+    "It changes fixed cost only, so the profit-maximizing output and price do not change."
+   ],
+   [
+    "“Regulating a natural monopoly to price at marginal cost has no downside.”",
+    "Price would be below average total cost, so the firm would need a subsidy."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Microeconomics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-microeconomics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+  "sourceTitle": "AP Microeconomics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-15"
+ },
+ "passages": [
+  {
+   "id": "mic6-g1",
+   "title": "Graph: A market with a negative externality (hypothetical data)",
+   "figure": {
+    "kind": "lines",
+    "alt": "Graph of a market with a negative externality, with quantity on the horizontal axis and dollars on the vertical axis. Demand, equal to marginal social benefit, falls in a straight line from 20 dollars at 0 units to 0 dollars at 100 units. Marginal private cost rises from 4 dollars at 0 units. Marginal social cost is parallel to it and 8 dollars higher. Demand crosses marginal private cost at point M, 40 units and 12 dollars, and crosses marginal social cost at point S, 20 units and 16 dollars.",
+    "xLabel": "Quantity",
+    "yLabel": "Price and cost ($)",
+    "xMax": 110,
+    "yMax": 22,
+    "series": [
+     {
+      "label": "D = MSB",
+      "points": [
+       [
+        0,
+        20
+       ],
+       [
+        85,
+        3
+       ]
+      ]
+     },
+     {
+      "label": "MPC",
+      "points": [
+       [
+        0,
+        4
+       ],
+       [
+        70,
+        18
+       ]
+      ]
+     },
+     {
+      "label": "MSC",
+      "points": [
+       [
+        0,
+        12
+       ],
+       [
+        45,
+        21
+       ]
+      ]
+     }
+    ],
+    "guides": [
+     {
+      "x": 40,
+      "y": 12,
+      "label": "M"
+     },
+     {
+      "x": 20,
+      "y": 16,
+      "label": "S"
+     }
+    ]
+   },
+   "text": [
+    "Demand (D), which equals marginal social benefit, is a straight line from $20 at 0 units to $0 at 100 units.",
+    "Marginal private cost (MPC), the market supply curve, starts at $4 at 0 units and rises by $2 for every 10 units.",
+    "Marginal social cost (MSC) is $8 above MPC at every quantity.",
+    "D crosses MPC at 40 units and a price of $12 (point M). D crosses MSC at 20 units and $16 (point S)."
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "mic-u6-q01",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-efficiency",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The socially optimal quantity of a good is the quantity at which",
+   "choices": [
+    "marginal social benefit equals marginal social cost",
+    "marginal private benefit equals average total cost",
+    "total social benefit equals total social cost",
+    "total revenue of producers is as large as it can be"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Total economic surplus is maximized where the last unit's marginal social benefit equals its marginal social cost.",
+   "choiceExplanations": [
+    "",
+    "The efficiency condition compares marginal benefit with marginal cost, not with average cost.",
+    "Where total benefit equals total cost, net benefit is zero, not maximized.",
+    "Maximum revenue for producers is not the same as maximum surplus for society."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u6-q02",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-efficiency",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A competitive market's equilibrium quantity equals the socially optimal quantity only when",
+   "choices": [
+    "the government sets the price at the average total cost of production",
+    "producers in the market earn positive economic profits in the long run",
+    "all the benefits and costs of the good fall on its buyers and sellers",
+    "the good is non-rival, so that everyone can consume the same units"
+   ],
+   "correctAnswer": 2,
+   "explanation": "If buyers and sellers bear every benefit and cost, the private marginal benefit and cost they respond to equal the social ones.",
+   "choiceExplanations": [
+    "Price regulation is not what makes a competitive market efficient.",
+    "Long-run profits are not a condition for efficiency, and competitive profit is zero in the long run.",
+    "",
+    "Non-rival goods tend to be underprovided by markets."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u6-q03",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-efficiency",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Sellers of used cars usually know much more about a car's condition than buyers do. This source of market inefficiency is called",
+   "choices": [
+    "asymmetric information",
+    "a price floor",
+    "a public good",
+    "a negative externality"
+   ],
+   "correctAnswer": 0,
+   "explanation": "When one side of a transaction knows more than the other, the market can fail to reach the efficient outcome.",
+   "choiceExplanations": [
+    "",
+    "A price floor is a legal minimum price set by government.",
+    "A used car is rival and excludable, so it is a private good.",
+    "An externality is a cost or benefit to people outside the transaction."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u6-q04",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-efficiency",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "At the current level of output, the marginal social benefit of the last unit of a good is $12 and its marginal social cost is $8. Total economic surplus would increase if output",
+   "choices": [
+    "increased, because the next units add more benefit than cost",
+    "stayed the same, because the market is already efficient",
+    "fell to zero, because the good has a positive social cost",
+    "decreased, because the last unit added more cost than benefit"
+   ],
+   "correctAnswer": 0,
+   "explanation": "When MSB exceeds MSC, producing more adds more to benefit than to cost, raising total surplus until the two are equal.",
+   "choiceExplanations": [
+    "",
+    "The market is efficient only where MSB equals MSC.",
+    "Every good has a positive cost; what matters is whether benefit exceeds cost at the margin.",
+    "The last unit added $12 of benefit for $8 of cost, so it raised surplus."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u6-q05",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-externalities",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A factory's smoke damages the health of people who live nearby and who neither buy nor sell its product. This is an example of",
+   "choices": [
+    "a public good",
+    "a positive externality",
+    "asymmetric information",
+    "a negative externality"
+   ],
+   "correctAnswer": 3,
+   "explanation": "A cost imposed on people outside the transaction is a negative externality.",
+   "choiceExplanations": [
+    "A public good is non-rival and non-excludable; smoke damage is a harm, not a good.",
+    "A positive externality is a benefit to outsiders, such as from vaccination.",
+    "Asymmetric information is about one side of a deal knowing more than the other.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u6-q06",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-externalities",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the graph, how does the quantity produced by the unregulated market compare with the socially optimal quantity?",
+   "choices": [
+    "The market produces 20 units; the socially optimal quantity is 40 units",
+    "The market produces 100 units; the socially optimal quantity is 20 units",
+    "The market produces 40 units; the socially optimal quantity is 20 units",
+    "The market produces 40 units, which is also the socially optimal quantity"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The market produces where demand meets marginal private cost (40 units). The optimum is where demand (MSB) meets marginal social cost (20 units).",
+   "choiceExplanations": [
+    "This reverses the two: the market ignores the external cost and so produces more, not less.",
+    "100 units is where the demand curve reaches a price of zero, not the market equilibrium.",
+    "",
+    "With an external cost, the market quantity is above the socially optimal quantity."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic6-g1"
+  },
+  {
+   "id": "mic-u6-q07",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-externalities",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on the negative-externality graph, what is the deadweight loss when the market is left unregulated?",
+   "choices": [
+    "$160",
+    "$320",
+    "$20",
+    "$80"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Deadweight loss is the triangle between MSC and MSB from 20 to 40 units. At 40 units MSC is $20 and MSB is $12, a gap of $8: ½ × 8 × 20 = $80.",
+   "choiceExplanations": [
+    "$160 leaves out the ½ in the area of the triangle.",
+    "$320 is the total external cost at the market quantity ($8 × 40), not the deadweight loss.",
+    "$20 is the difference between the two quantities, not an area.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic6-g1"
+  },
+  {
+   "id": "mic-u6-q08",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-externalities",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Vaccinations protect not only the people who receive them but also others who are less likely to catch the disease. Without government action, the market for vaccinations will",
+   "choices": [
+    "produce too little, because buyers ignore the benefit to other people",
+    "produce the socially optimal quantity, because buyers pay the full price",
+    "produce nothing, because vaccinations are a pure public good",
+    "produce too much, because buyers ignore the benefit to other people"
+   ],
+   "correctAnswer": 0,
+   "explanation": "With a positive externality, marginal social benefit exceeds marginal private benefit, so the market quantity is below the social optimum.",
+   "choiceExplanations": [
+    "",
+    "Buyers pay the price but do not capture the benefit to others, so the market is not at the optimum.",
+    "A vaccination is rival and excludable, so it is a private good that the market does supply.",
+    "Ignoring an external benefit leads to underproduction, not overproduction."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u6-q09",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-externalities",
+   "skill": "3.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on the negative-externality graph, which policy would lead this market to produce the socially optimal quantity?",
+   "choices": [
+    "A price ceiling of $12, equal to the unregulated market price",
+    "A per-unit tax of $8 on producers, equal to the marginal external cost",
+    "A per-unit tax of $16 on producers, equal to the price at the optimum",
+    "A per-unit subsidy of $8 to producers, equal to the marginal external cost"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A tax equal to the external cost ($8 per unit) shifts producers' costs up to MSC, so the market moves to 20 units.",
+   "choiceExplanations": [
+    "A ceiling at the current market price changes nothing and does not address the external cost.",
+    "",
+    "A $16 tax is twice the external cost and would cut output below the optimum.",
+    "A subsidy would lower producers' costs and increase output further beyond the optimum."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15",
+   "passageId": "mic6-g1"
+  },
+  {
+   "id": "mic-u6-q10",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-goods",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A public good is a good that is",
+   "choices": [
+    "rival but non-excludable",
+    "non-rival and non-excludable",
+    "provided only by governments",
+    "rival and excludable"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Public goods can be used by many people at once (non-rival), and non-payers cannot be kept out (non-excludable).",
+   "choiceExplanations": [
+    "Rival but non-excludable describes an open-access resource.",
+    "",
+    "Public goods are defined by their characteristics, and governments also provide some private goods.",
+    "Rival and excludable describes a private good."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u6-q11",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-goods",
+   "skill": "1.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Fish in the open ocean can be caught by anyone, and a fish caught by one boat cannot be caught by another. These fish are",
+   "choices": [
+    "non-rival and non-excludable, so they are a public good",
+    "non-rival but excludable, so they are underused",
+    "rival but non-excludable, so they tend to be overused",
+    "rival and excludable, so they are a private good"
+   ],
+   "correctAnswer": 2,
+   "explanation": "One boat's catch reduces what is left (rival), but no one can be kept from fishing (non-excludable), so each boat takes too much.",
+   "choiceExplanations": [
+    "Fish are rival: a fish caught by one boat is not available to another.",
+    "The fish are rival and open to all, the opposite of both descriptions.",
+    "",
+    "No one can be excluded from the open ocean, so the fish are not excludable until they are caught."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u6-q12",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-goods",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Private firms usually do not provide public goods such as national defense because",
+   "choices": [
+    "public goods cost more to produce than any private good does",
+    "one person's use of a public good leaves less of it for other people",
+    "the government forbids private firms from producing such goods",
+    "people who do not pay cannot be excluded, so many would free ride"
+   ],
+   "correctAnswer": 3,
+   "explanation": "If people can enjoy the good without paying, a firm cannot collect enough revenue to cover its costs.",
+   "choiceExplanations": [
+    "The obstacle is collecting payment, not the size of the cost.",
+    "Public goods are non-rival: one person's use does not reduce what is available to others.",
+    "The lack of private provision comes from the free rider problem, not from a legal ban.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u6-q13",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-goods",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which of the following is the best example of a private good?",
+   "choices": [
+    "A slice of pizza",
+    "Clean air in a city",
+    "A lighthouse beam",
+    "National defense"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A slice of pizza is rival (only one person can eat it) and excludable (the seller can refuse those who do not pay).",
+   "choiceExplanations": [
+    "",
+    "Clean air is available to everyone in the city, and no one can be excluded.",
+    "A lighthouse beam can be used by every passing ship, and none can be excluded.",
+    "National defense protects everyone in the country at once."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u6-q14",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-policy",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A country's Gini coefficient is very close to 0. This indicates that its income is distributed",
+   "choices": [
+    "equally between labor and capital",
+    "almost equally among its households",
+    "more unequally than in most countries",
+    "almost entirely to a few households"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A Gini coefficient of 0 means perfect equality; values closer to 1 mean greater inequality.",
+   "choiceExplanations": [
+    "The Gini coefficient measures inequality among households, not the split between factors.",
+    "",
+    "A value near 0 is as equal as a distribution can be.",
+    "A coefficient near 1, not 0, would mean income is concentrated in a few households."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u6-q15",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-policy",
+   "skill": "3.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The government places a lump-sum tax on a profit-maximizing monopolist. If the firm stays in business, the tax will",
+   "choices": [
+    "raise its output and lower its price toward the efficient level",
+    "reduce its output, raise its price, and reduce its profit",
+    "leave its output and price unchanged and reduce its profit",
+    "raise its marginal cost and shift its supply curve to the left"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A lump-sum tax is a fixed cost. It does not change marginal cost or marginal revenue, so the profit-maximizing quantity and price stay the same; only profit falls.",
+   "choiceExplanations": [
+    "A lump-sum tax gives the firm no reason to produce more.",
+    "Output and price would change only if marginal cost or marginal revenue changed.",
+    "",
+    "A lump-sum tax does not vary with output, so it does not affect marginal cost."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u6-q16",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-policy",
+   "skill": "3.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A regulator requires a natural monopoly to charge a price equal to its marginal cost. Because the firm's average total cost is still falling at that output, the firm will",
+   "choices": [
+    "reduce its output to the single-price monopoly quantity",
+    "earn a normal profit, because price will equal average total cost",
+    "earn an economic profit, because it faces no competition",
+    "make a loss and need a lump-sum subsidy to stay in business"
+   ],
+   "correctAnswer": 3,
+   "explanation": "When ATC is falling, marginal cost is below ATC, so a price equal to marginal cost does not cover average total cost.",
+   "choiceExplanations": [
+    "The regulated price requires a larger, not smaller, output than the unregulated monopoly's.",
+    "Price equals ATC under average-cost pricing, a different rule from marginal-cost pricing.",
+    "With price below ATC, the firm cannot earn a profit.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "mic-u6-q17",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "topicId": "mic6-policy",
+   "skill": "1.B",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Under a country's income tax, a household earning $30,000 pays 10% of its income and a household earning $300,000 pays 30%. This tax is",
+   "choices": [
+    "a lump-sum tax",
+    "progressive",
+    "regressive",
+    "proportional"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A tax that takes a larger share of income as income rises is progressive.",
+   "choiceExplanations": [
+    "A lump-sum tax is the same dollar amount for everyone.",
+    "",
+    "A regressive tax takes a smaller share of income as income rises.",
+    "A proportional tax takes the same share at every income."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-15); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-15"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-mic-u6-os1",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "title": "OpenStax Principles of Microeconomics 3e, 12.1 The Economics of Pollution",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/12-1-the-economics-of-pollution",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on negative externalities and pollution. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/12-1-the-economics-of-pollution",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u6-os2",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "title": "OpenStax Principles of Microeconomics 3e, 13.3 Public Goods",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/13-3-public-goods",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on public goods and free riders. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/13-3-public-goods",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u6-os3",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "title": "OpenStax Principles of Microeconomics 3e, 11.3 Regulating Natural Monopolies",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/11-3-regulating-natural-monopolies",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on regulating natural monopolies. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/11-3-regulating-natural-monopolies",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  },
+  {
+   "id": "res-mic-u6-os4",
+   "courseId": "ap-microeconomics",
+   "unitId": "u6",
+   "title": "OpenStax Principles of Microeconomics 3e, 15.4 Income Inequality: Measurement and Causes",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-microeconomics-3e/pages/15-4-income-inequality-measurement-and-causes",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college microeconomics textbook section on measuring income inequality and its causes. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-microeconomics-3e/pages/15-4-income-inequality-measurement-and-causes",
+   "sourceTitle": "OpenStax Principles of Microeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Microeconomics free-response set has one long and two short questions that usually combine several units (for example, a firm's costs with its market structure and a government policy), so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "mic-u6-q01",
+    "mic-u6-q02",
+    "mic-u6-q05",
+    "mic-u6-q06",
+    "mic-u6-q10",
+    "mic-u6-q11",
+    "mic-u6-q15",
+    "mic-u6-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "mic-u6-q03",
+    "mic-u6-q04",
+    "mic-u6-q07",
+    "mic-u6-q09",
+    "mic-u6-q12",
+    "mic-u6-q13",
+    "mic-u6-q14",
+    "mic-u6-q17"
+   ]
+  }
+ ]
+}

@@ -89,6 +89,8 @@
       draw(p);
     }
 
+    let lastPassage = null; // the passage shown with the previous question, so a repeated passage does not take focus again
+
     function draw(p) {
       const q = p.q, first = !S.P.q[q.id], id = "q" + ++seq;
       R.count++;
@@ -117,9 +119,12 @@
       const row = h("div", "fb-actions", sub);
       if (o.allowEnd) row.append(SS.btn("End and see results", "button-secondary", end));
       form.append(fs, err, row);
-      host.replaceChildren(head, chips, h("p", "why", p.why.join(" ")), h("p", "why", A.levelLine(unit, o.range)), form);
+      const passage = SS.passageBlock(unit, q), newPassage = passage && q.passageId !== lastPassage;
+      lastPassage = q.passageId || null;
+      host.replaceChildren(head, chips, h("p", "why", p.why.join(" ")), h("p", "why", A.levelLine(unit, o.range)), passage, form);
       form.onsubmit = (e) => { e.preventDefault(); submit(q, p, form, err, sub, row); };
-      const lg = fs.firstChild; lg.tabIndex = -1; lg.focus({ preventScroll: true });
+      const lg = fs.firstChild; lg.tabIndex = -1;
+      (newPassage ? passage.querySelector(".passage-title") : lg).focus({ preventScroll: true });
       changed();
     }
 

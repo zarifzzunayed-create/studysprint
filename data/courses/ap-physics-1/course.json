@@ -4,6 +4,7 @@
  "officialUrl": "https://apcentral.collegeboard.org/courses/ap-physics-1",
  "studentUrl": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based",
  "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description.pdf",
+ "frameworkVersion": "AP Physics 1: Algebra-Based Course and Exam Description, effective Fall 2024 on its cover (the current PDF on AP Central, checked 2026-11-14). Only the edition and the AP Students unit outline were re-checked on that date; the numbered CED topics have not been matched one by one.",
  "frq": {
   "hubUrl": "https://apcentral.collegeboard.org/courses/ap-physics-1/exam/past-exam-questions",
   "note": "College Board states that, after the 2024–25 AP Physics course and exam revisions, the questions and scoring information on its past-exam-questions page do not completely align with the current AP Physics 1 exam."

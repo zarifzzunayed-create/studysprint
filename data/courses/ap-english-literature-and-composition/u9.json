@@ -1,0 +1,713 @@
+{
+ "courseId": "ap-english-literature-and-composition",
+ "unitId": "u9",
+ "title": "Unit 9: Longer Fiction or Drama III",
+ "topics": [
+  {
+   "id": "lit9-character",
+   "name": "Characters' responses to resolution",
+   "covers": [
+    "Looking at a character’s response to the resolution of a narrative"
+   ],
+   "frameworkCovers": [
+    "1.B Explain the function of a character changing or remaining unchanged.",
+    "1.E Explain how a character’s own choices, actions, and speech reveal complexities in that character, and explain the function of those complexities."
+   ]
+  },
+  {
+   "id": "lit9-plot",
+   "name": "Suspense, resolution, and plot development",
+   "covers": [
+    "Suspense, resolution, and plot development"
+   ],
+   "frameworkCovers": [
+    "3.E Explain the function of a significant event or related set of significant events in a plot."
+   ]
+  },
+  {
+   "id": "lit9-perspective",
+   "name": "Inconsistencies and contrasting perspectives",
+   "covers": [
+    "Narrative inconsistencies and contrasting perspectives"
+   ],
+   "frameworkCovers": [
+    "4.C Identify and describe details, diction, or syntax in a text that reveal a narrator’s or speaker’s perspective.",
+    "7.B Develop a thesis statement that conveys a defensible claim about an interpretation of literature and that may establish a line of reasoning.",
+    "7.C Develop commentary that establishes and explains relationships among textual evidence, the line of reasoning, and the thesis.",
+    "7.D Select and use relevant and sufficient evidence to both develop and support a line of reasoning."
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 9: Longer Fiction or Drama III: review guide",
+  "intro": "This final unit looks at how long works build suspense and reach resolution, how characters respond when the conflict ends, and how inconsistent or competing perspectives complicate what readers believe.",
+  "sections": [
+   {
+    "id": "s-lit9-character",
+    "topicId": "lit9-character",
+    "title": "Characters' responses to resolution",
+    "body": [
+     "When a conflict is resolved, characters do not always respond as expected. A long-awaited rescue may feel like a loss; a defeat may bring relief. Their responses reveal what they truly wanted.",
+     "Ask whether a character has changed by the end. A character's final choice, word, or gesture often carries the work's meaning, especially when it is left open."
+    ],
+    "points": [
+     "Compare what a character wanted with how they respond to getting (or not getting) it.",
+     "An ending can resolve the plot while leaving the character unresolved."
+    ]
+   },
+   {
+    "id": "s-lit9-plot",
+    "topicId": "lit9-plot",
+    "title": "Suspense and resolution",
+    "body": [
+     "Suspense comes from uncertainty about what will happen. Writers build it by delaying information, raising and dashing hopes, and making the stakes clear.",
+     "Resolution is the outcome of the main conflict. A significant event, such as news arriving or a sale completed, can resolve one conflict while opening another."
+    ],
+    "points": [
+     "Notice what the writer withholds, and for how long.",
+     "Identify which conflict an event resolves, and which it leaves open."
+    ]
+   },
+   {
+    "id": "s-lit9-perspective",
+    "topicId": "lit9-perspective",
+    "title": "Inconsistencies and contrasting perspectives",
+    "body": [
+     "A narrator may contradict himself or herself, for example by claiming not to care while showing that he or she cares a great deal. Such inconsistencies invite readers to look past the narrator's claims.",
+     "Other characters' perspectives can confirm or challenge a narrator's view. When two accounts differ, ask which the details support and what the difference reveals."
+    ],
+    "points": [
+     "Track what a narrator says against what he or she shows.",
+     "A strong thesis can explain why a narrator is inconsistent."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A narrator writes: “I was glad when she left. I kept her chair by the window for a year in case she wanted it.” What does the inconsistency suggest?",
+   "solution": "The narrator's claim (glad she left) is undercut by his or her action (keeping the chair for a year). A reader might argue that the narrator is hiding grief or hope behind a show of indifference."
+  },
+  "misconceptions": [
+   [
+    "“A resolution means a happy ending.”",
+    "A resolution is the outcome of a conflict; it can be happy, sad, or mixed."
+   ],
+   [
+    "“Suspense requires action or danger.”",
+    "Suspense can come from a delayed answer or an unread letter."
+   ],
+   [
+    "“If a narrator contradicts himself, the writer made a mistake.”",
+    "Inconsistencies are often deliberate clues to the narrator's real feelings."
+   ],
+   [
+    "“The ending tells you everything.”",
+    "Many endings leave a character's future open on purpose."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP English Literature and Composition Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+  "sourceTitle": "AP English Literature and Composition – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-09"
+ },
+ "passages": [
+  {
+   "id": "lit9-a",
+   "title": "Passage 1: from a play, final scene",
+   "text": [
+    "A bakery, early morning, the last day before its sale. The shelves are empty, and cardboard boxes are stacked by the door. OLGA, sixty, sits at a table. Her nephew, DAVID, comes in holding a phone.",
+    "DAVID: The buyer pulled out. He called last night. It's over, Aunt Olga. You keep it.",
+    "OLGA: (a long pause) Keep it.",
+    "DAVID: I thought you'd be happy.",
+    "OLGA: I packed the pans, David. Forty years of pans. (She looks at the boxes.) I said goodbye to every one.",
+    "DAVID: So unpack them.",
+    "(OLGA rises slowly, opens the nearest box, takes out a single loaf pan, and turns it over in her hands. She does not put it on the shelf. The lights fade.)"
+   ],
+   "attribution": "Original drama scene written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit9-b",
+   "title": "Passage 2: from a novel about a fishing town",
+   "text": [
+    "(1) By the third day the radio had stopped saying “overdue” and started saying “missing,” and the women of Port Ellis stopped going down to the harbor wall, all except Nora.",
+    "(2) She went every morning at six and every evening at six and stood where the wall met the old ferry steps, and she did not speak to anyone, and no one spoke to her.",
+    "(3) On the fourth evening a light showed beyond the point, low on the water, and then went out. Nora did not move. The light showed again, closer. Somewhere behind her a door opened, and then another, and people began coming down the hill."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit9-c",
+   "title": "Passage 3: from a novel narrated by a gardener",
+   "text": [
+    "(1) I never cared about the county fair prize. I want that understood. Other men grew tomatoes to win; I grew them to eat.",
+    "(2) Still, I will say that Harlan Pike's tomato that year was not a tomato at all but a pumpkin painted red, practically, and that the judges, two of whom were his cousins, ought to have been ashamed. I said so in a letter to the paper. Three letters, if you count the follow-ups.",
+    "(3) My wife says I measured my plants every morning that summer with her sewing tape. She remembers it that way. I remember it differently, but I have learned not to argue with her about the past."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "lit9-d",
+   "title": "Passage 4: from the last chapter of a novel about a family house",
+   "text": [
+    "(1) The house was sold by the end of August. Lena signed the papers at the lawyer's office, shook hands with the young couple who had bought it, and drove back one last time to return the keys.",
+    "(2) All summer she had told herself she would feel nothing. She had fought her brother over every chair and every spoon, and won most of them, and given most of them away.",
+    "(3) On the porch she found that the couple's little boy had already chalked a hopscotch grid on the boards, just where she and her brother had chalked theirs thirty years before. She stood looking at it for a long time. Then she took out her phone and, for the first time since the funeral, called her brother."
+   ],
+   "attribution": "Original prose fiction written for StudySprint by its editors; it is not taken or adapted from any published work or College Board exam.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "lit-u9-q01",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-plot",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "David's news that the buyer has pulled out resolves which conflict?",
+   "choices": [
+    "Whether David will move away",
+    "Whether the bakery will be sold",
+    "Whether the bakery's suppliers will be paid",
+    "Whether Olga is healthy enough to work"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The scene takes place on “the last day before its sale”; the buyer's withdrawal settles that Olga will keep the bakery.",
+   "choiceExplanations": [
+    "David's plans are not discussed.",
+    "",
+    "No suppliers are mentioned.",
+    "Olga's health is never mentioned."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-a"
+  },
+  {
+   "id": "lit-u9-q02",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Olga's response, “Keep it,” after a long pause, suggests that she",
+   "choices": [
+    "is unsure how she feels",
+    "is overjoyed and relieved",
+    "has not heard what David said",
+    "is angry with David for interfering"
+   ],
+   "correctAnswer": 0,
+   "explanation": "She repeats his words slowly, without joy, and David notes that he expected her to be happy: she is still absorbing a change she had stopped wanting.",
+   "choiceExplanations": [
+    "",
+    "David's line “I thought you'd be happy” shows she isn't visibly pleased.",
+    "She repeats his words, so she heard them.",
+    "Nothing suggests anger at David."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-a"
+  },
+  {
+   "id": "lit-u9-q03",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-perspective",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The scene contrasts David's perspective with Olga's mainly by showing that",
+   "choices": [
+    "David wants to buy the bakery himself, while Olga wants to sell it to the original buyer",
+    "Olga knew the buyer would pull out, while David did not",
+    "David sees only good luck; Olga has already said goodbye",
+    "David blames Olga for the failed sale"
+   ],
+   "correctAnswer": 2,
+   "explanation": "To David the solution is easy (“So unpack them”); Olga has packed “Forty years of pans” and said goodbye to each, so the rescue is complicated for her.",
+   "choiceExplanations": [
+    "Nothing suggests David wants to buy it.",
+    "Her long pause suggests the news surprises her.",
+    "",
+    "David brings good news; he blames no one."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-a"
+  },
+  {
+   "id": "lit-u9-q04",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-character",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The final stage direction, in which Olga takes out a pan but does not put it on the shelf, mainly suggests that",
+   "choices": [
+    "her response is unsettled, leaving her future open",
+    "she has decided to sell the bakery to another buyer as soon as she can find one",
+    "she plans to give the pan to David as a gift",
+    "she will start baking immediately"
+   ],
+   "correctAnswer": 0,
+   "explanation": "She takes one pan out (a step back toward the old life) but does not shelve it; the lights fade before she decides.",
+   "choiceExplanations": [
+    "",
+    "No other buyer is mentioned.",
+    "She holds the pan herself; nothing suggests a gift.",
+    "She does not put the pan on the shelf, let alone start baking."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-a"
+  },
+  {
+   "id": "lit-u9-q05",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-plot",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The radio's change from “overdue” to “missing” in paragraph 1 mainly serves to",
+   "choices": [
+    "raise the danger and the suspense",
+    "show that the boat has returned safely",
+    "introduce a new character",
+    "explain how radios work"
+   ],
+   "correctAnswer": 0,
+   "explanation": "“Missing” sounds far graver than “overdue”: hope is fading, and the stakes rise.",
+   "choiceExplanations": [
+    "",
+    "The boat has not returned at this point.",
+    "No new character is introduced by the word change.",
+    "The radio is a source of news, not a subject."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-b"
+  },
+  {
+   "id": "lit-u9-q06",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-plot",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Paragraph 3 builds suspense mainly by",
+   "choices": [
+    "flashing back to the day the boat left",
+    "switching to the point of view of the sailors on the missing boat",
+    "revealing at once that the boat has sunk",
+    "having a light appear, vanish, and reappear"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The light shows, goes out, then shows again closer, so readers, like the town, are kept between hope and fear.",
+   "choiceExplanations": [
+    "The paragraph stays in the present evening.",
+    "The narration stays on shore with Nora and the town.",
+    "The outcome is not revealed.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-b"
+  },
+  {
+   "id": "lit-u9-q07",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-character",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Nora's continuing to go to the harbor wall after the others stop (paragraphs 1 and 2) suggests that she",
+   "choices": [
+    "is paid to watch the harbor",
+    "is angry with the other women",
+    "has not heard the radio reports",
+    "refuses to give up hope"
+   ],
+   "correctAnswer": 3,
+   "explanation": "She keeps her vigil twice a day, unchanged, when the others have stopped coming: her steadiness is a refusal to give up.",
+   "choiceExplanations": [
+    "Nothing suggests she is paid.",
+    "The silence between her and the others is not described as anger.",
+    "The whole town hears the reports; she goes anyway.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-b"
+  },
+  {
+   "id": "lit-u9-q08",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-perspective",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The contrast between Nora's stillness and the townspeople coming down the hill (paragraph 3) suggests that",
+   "choices": [
+    "the town's hope revives at the sign Nora alone has waited for",
+    "the townspeople are coming to take Nora home",
+    "the light is a warning of a new storm",
+    "Nora no longer cares whether the boat returns, having waited so long that she has given up"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Nora never stopped watching; the others return only when the light appears. Their perspectives meet at the end.",
+   "choiceExplanations": [
+    "",
+    "They come because of the light, not for Nora.",
+    "Nothing suggests a storm; the light draws closer, like a boat.",
+    "Her stillness is concentration, not indifference."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-b"
+  },
+  {
+   "id": "lit-u9-q09",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-perspective",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The narrator's claim in paragraph 1 that he “never cared about the county fair prize” is contradicted most directly by",
+   "choices": [
+    "the size of Harlan Pike's tomato (paragraph 2)",
+    "his letters to the paper about the judging (paragraph 2)",
+    "his statement that he grew tomatoes to eat (paragraph 1)",
+    "his wife's sewing tape (paragraph 3)"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Someone who didn't care would not write three letters to the paper about the result.",
+   "choiceExplanations": [
+    "Pike's tomato is the subject of his complaint, not evidence about his feelings.",
+    "",
+    "This repeats his claim; it does not contradict it.",
+    "The sewing tape matters only through the wife's memory, a separate contradiction; the letters are the narrator's own admission."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-c"
+  },
+  {
+   "id": "lit-u9-q10",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-character",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The narrator's description of Harlan Pike's tomato as “a pumpkin painted red, practically” (paragraph 2) reveals his",
+   "choices": [
+    "fondness for pumpkins",
+    "belief that the judges were fair",
+    "resentment of his rival",
+    "admiration for Pike's skill"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The exaggerated insult (and the complaint about the judges) shows a bitterness he says he doesn't feel.",
+   "choiceExplanations": [
+    "Pumpkins are an insult here.",
+    "He says the judges “ought to have been ashamed.”",
+    "",
+    "The comment mocks; it doesn't admire."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-c"
+  },
+  {
+   "id": "lit-u9-q11",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-perspective",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The wife's memory in paragraph 3 functions mainly to",
+   "choices": [
+    "show that the wife won the county fair prize",
+    "offer a contrasting view that undermines his claim",
+    "introduce a new conflict about sewing",
+    "prove that the narrator's memory is always reliable, even when his wife disagrees"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Measuring plants daily with a sewing tape is hardly indifference; her account adds to the evidence against him.",
+   "choiceExplanations": [
+    "Nothing suggests she entered the fair.",
+    "",
+    "The sewing tape matters only as evidence about the tomatoes.",
+    "Her version disagrees with his, which casts doubt on his memory."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-c"
+  },
+  {
+   "id": "lit-u9-q12",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-perspective",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which thesis best accounts for the narrator's inconsistencies?",
+   "choices": [
+    "The narrator's wife is lying about the past.",
+    "The narrator is a reliable guide to what happened at the fair, since he was there and saw the judging himself.",
+    "The narrator's contradictions reveal that his claimed indifference covers wounded pride.",
+    "The passage shows that county fairs are always unfair."
+   ],
+   "correctAnswer": 2,
+   "explanation": "The thesis explains why he contradicts himself and how readers are meant to respond, and it can be supported with evidence from all three paragraphs.",
+   "choiceExplanations": [
+    "The details (three letters, the judges complaint) support her version, not his.",
+    "The contradictions show he is not reliable.",
+    "",
+    "This is a sweeping claim about real life, not an interpretation of the passage."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-c"
+  },
+  {
+   "id": "lit-u9-q13",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-plot",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The sale of the house in paragraph 1 serves as",
+   "choices": [
+    "a flashback to Lena's childhood",
+    "the resolution of the property conflict",
+    "an obstacle that prevents the sale",
+    "the cause of the funeral"
+   ],
+   "correctAnswer": 1,
+   "explanation": "With the papers signed, the summer-long struggle over the house ends.",
+   "choiceExplanations": [
+    "Paragraph 1 is in the present of the story.",
+    "",
+    "The sale is completed, not blocked.",
+    "The funeral came before the sale; the sale didn't cause it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-d"
+  },
+  {
+   "id": "lit-u9-q14",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-character",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Lena's fighting over “every chair and every spoon” and then giving most of them away (paragraph 2) reveals that",
+   "choices": [
+    "she wanted to sell the objects for profit",
+    "she did not care what happened to the house or to anything in it",
+    "she needed the furniture for a new home",
+    "the fight was about something other than the objects"
+   ],
+   "correctAnswer": 3,
+   "explanation": "She fights hard to win things she then gives away: what she wanted was not the objects but something in the struggle with her brother.",
+   "choiceExplanations": [
+    "She gives them away rather than selling them.",
+    "Her intensity in the fight shows she cared.",
+    "She gives most of them away, so she didn't need them.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-d"
+  },
+  {
+   "id": "lit-u9-q15",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-perspective",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Paragraph 3 reveals Lena's perspective mainly through",
+   "choices": [
+    "a direct statement of her feelings by the narrator, who explains why she calls",
+    "a letter she writes to her brother",
+    "her conversation with the young couple",
+    "what she notices and what she does"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The narrator never names her feelings; her attention to the grid and her call show what she feels.",
+   "choiceExplanations": [
+    "The narrator does not state her feelings directly.",
+    "She calls; she doesn't write.",
+    "She speaks to no one on the porch.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-d"
+  },
+  {
+   "id": "lit-u9-q16",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "topicId": "lit9-character",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Lena's call to her brother at the end shows that her response to the resolution is",
+   "choices": [
+    "unchanged: she remains as bitter as she was all summer",
+    "a complaint about the price the house sold for",
+    "a change: she reaches back toward her brother",
+    "a plan to buy the house back from the young couple"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Seeing the hopscotch grid where she and her brother once played, she calls him “for the first time since the funeral”: the sale ends the fight and opens the way back to him.",
+   "choiceExplanations": [
+    "The call is a reaching out, the first since the funeral.",
+    "The price is never mentioned.",
+    "",
+    "Nothing suggests she wants the house back."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08",
+   "passageId": "lit9-d"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-lit-u9-os1",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "title": "OpenStax Writing Guide with Handbook, 16.5 Writing Process: Thinking Critically About Text",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/16-5-writing-process-thinking-critically-about-text",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on drafting and revising a thesis-driven analysis of fiction. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/16-5-writing-process-thinking-critically-about-text",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  },
+  {
+   "id": "res-lit-u9-os2",
+   "courseId": "ap-english-literature-and-composition",
+   "unitId": "u9",
+   "title": "OpenStax Writing Guide with Handbook, 16.3 Glance at Genre: Print or Textual Analysis",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/writing-guide/pages/16-3-glance-at-genre-print-or-textual-analysis",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college writing textbook section on the conventions of textual analysis. It is written for college composition, not for the AP exam specifically.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/writing-guide/pages/16-3-glance-at-genre-print-or-textual-analysis",
+   "sourceTitle": "OpenStax Writing Guide with Handbook",
+   "licenseOrRights": "Linked only. OpenStax lists Writing Guide with Handbook under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-09"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. AP English Literature free-response questions (poetry analysis, prose fiction analysis, and literary argument) draw on skills from many units, so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "lit-u9-q01",
+    "lit-u9-q02",
+    "lit-u9-q03",
+    "lit-u9-q04",
+    "lit-u9-q05",
+    "lit-u9-q06",
+    "lit-u9-q07",
+    "lit-u9-q08"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "lit-u9-q09",
+    "lit-u9-q10",
+    "lit-u9-q11",
+    "lit-u9-q12",
+    "lit-u9-q13",
+    "lit-u9-q14",
+    "lit-u9-q15",
+    "lit-u9-q16"
+   ]
+  }
+ ]
+}

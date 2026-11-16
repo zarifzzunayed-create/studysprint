@@ -1,0 +1,833 @@
+{
+ "courseId": "ap-chemistry",
+ "unitId": "u3",
+ "title": "Unit 3: Properties of Substances and Mixtures",
+ "topics": [
+  {
+   "id": "c3-imf",
+   "name": "Intermolecular forces and properties of solids",
+   "covers": [
+    "Intermolecular forces",
+    "Solids, liquids, and gases"
+   ],
+   "frameworkCovers": [
+    "3.1 Intermolecular and Interparticle Forces",
+    "3.2 Properties of Solids"
+   ]
+  },
+  {
+   "id": "c3-gas",
+   "name": "Gases: the ideal gas law and kinetic molecular theory",
+   "covers": [
+    "Solids, liquids, and gases",
+    "Kinetic molecular theory"
+   ],
+   "frameworkCovers": [
+    "3.3 Solids, Liquids, and Gases",
+    "3.4 Ideal Gas Law",
+    "3.5 Kinetic Molecular Theory",
+    "3.6 Deviation from Ideal Gas Law"
+   ]
+  },
+  {
+   "id": "c3-sol",
+   "name": "Solutions, separation, and solubility",
+   "covers": [
+    "Solutions and mixtures"
+   ],
+   "frameworkCovers": [
+    "3.7 Solutions and Mixtures",
+    "3.8 Representations of Solutions",
+    "3.9 Separation of Solutions and Mixtures",
+    "3.10 Solubility"
+   ]
+  },
+  {
+   "id": "c3-light",
+   "name": "Photons, spectroscopy, and the Beer–Lambert law",
+   "covers": [
+    "Properties of photons",
+    "Spectroscopy"
+   ],
+   "frameworkCovers": [
+    "3.11 Spectroscopy and the Electromagnetic Spectrum",
+    "3.12 Properties of Photons",
+    "3.13 Beer-Lambert Law"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Properties of substances and mixtures: review guide",
+  "intro": "Forces between particles explain melting and boiling points, gas behavior, and solubility. This unit also uses light to study matter: photon energy, spectroscopy, and the Beer–Lambert law for measuring concentration.",
+  "equationNote": "R = 0.08206 L·atm/(mol·K); h = 6.626 × 10⁻³⁴ J·s; c = 3.00 × 10⁸ m/s. Gas laws use temperature in kelvins: T(K) = T(°C) + 273.",
+  "sections": [
+   {
+    "id": "s-c3-imf",
+    "topicId": "c3-imf",
+    "title": "Intermolecular forces and properties of solids",
+    "body": [
+     "Intermolecular forces (IMFs) act between molecules. London dispersion forces exist in all molecules and grow with the number of electrons (polarizability). Dipole–dipole forces act between polar molecules. Hydrogen bonds, a strong kind of dipole attraction, form when H is bonded to N, O, or F and is attracted to a lone pair on another N, O, or F.",
+     "Stronger IMFs mean higher boiling and melting points and lower vapor pressure. Solids are classified by their particles: ionic (ions), molecular (molecules held by IMFs; low melting points), covalent network (atoms in a continuous bonded network such as diamond or SiO₂; very high melting points), and metallic."
+    ],
+    "points": [
+     "Boiling breaks IMFs, not covalent bonds within molecules.",
+     "Among similar molecules, more electrons means stronger dispersion forces.",
+     "Covalent network solids are hard and usually don't conduct (graphite is an exception)."
+    ]
+   },
+   {
+    "id": "s-c3-gas",
+    "topicId": "c3-gas",
+    "title": "Gases: the ideal gas law and kinetic molecular theory",
+    "body": [
+     "In solids particles vibrate in fixed positions; in liquids they are close but move past each other; in gases they are far apart and move freely. For gases, PV = nRT, and in a mixture each gas contributes its partial pressure: P_A = X_A·P_total (Dalton's law).",
+     "Kinetic molecular theory models a gas as tiny particles in constant random motion with elastic collisions and no attractions. Average kinetic energy is proportional to absolute temperature, so at the same temperature lighter particles move faster. Real gases deviate from ideal behavior at high pressure (particle volume matters) and low temperature (attractions matter)."
+    ],
+    "points": [
+     "Always convert to kelvins.",
+     "Molecules of every gas at the same temperature have the same average kinetic energy.",
+     "Mole fraction X_A = n_A/n_total."
+    ],
+    "equations": [
+     [
+      "PV = nRT",
+      "ideal gas law"
+     ],
+     [
+      "P_A = X_A·P_total",
+      "partial pressure (Dalton's law)"
+     ]
+    ]
+   },
+   {
+    "id": "s-c3-sol",
+    "topicId": "c3-sol",
+    "title": "Solutions, separation, and solubility",
+    "body": [
+     "A solution is a homogeneous mixture. Molarity M = moles of solute / liters of solution; when diluting, M₁V₁ = M₂V₂. Ionic solutes separate into ions, so 0.30 M CaCl₂ contains 0.60 M Cl⁻.",
+     "“Like dissolves like”: substances dissolve well when solute–solvent attractions are similar in strength to the ones they replace. Mixtures are separated using differences in particle properties: filtration (particle size), distillation (boiling point, from IMF strength), and chromatography (how strongly components are attracted to the stationary and mobile phases)."
+    ],
+    "points": [
+     "Use liters of solution, not of solvent.",
+     "In paper chromatography, the component more attracted to the paper moves the shortest distance.",
+     "Polar and ionic solutes dissolve in water; nonpolar solutes dissolve in nonpolar solvents."
+    ],
+    "equations": [
+     [
+      "M = n/V",
+      "molarity"
+     ],
+     [
+      "M₁V₁ = M₂V₂",
+      "dilution"
+     ]
+    ]
+   },
+   {
+    "id": "s-c3-light",
+    "topicId": "c3-light",
+    "title": "Photons, spectroscopy, and the Beer–Lambert law",
+    "body": [
+     "Light carries energy in photons: E = hν = hc/λ. Shorter wavelength means more energy. Different regions of the spectrum cause different molecular changes: microwaves change rotational states, infrared changes vibrational states, and ultraviolet and visible light change electronic states.",
+     "The Beer–Lambert law, A = εbc, says absorbance is proportional to concentration (and to path length b). A spectrophotometer set to the wavelength of maximum absorbance measures A, and a calibration line turns it into a concentration."
+    ],
+    "points": [
+     "c = λν connects wavelength and frequency.",
+     "At a fixed wavelength and cuvette, doubling the concentration doubles the absorbance.",
+     "UV light can break bonds; infrared makes bonds vibrate."
+    ],
+    "equations": [
+     [
+      "E = hν = hc/λ",
+      "photon energy"
+     ],
+     [
+      "A = εbc",
+      "Beer–Lambert law"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A 2.00 mol sample of gas is at 27 °C in a 10.0 L container. What is its pressure?",
+   "solution": "Convert: T = 27 + 273 = 300 K. P = nRT/V = (2.00)(0.08206)(300)/10.0 = 4.92 atm."
+  },
+  "misconceptions": [
+   [
+    "“Boiling water breaks O–H bonds.”",
+    "Boiling separates whole molecules by overcoming IMFs; the molecules stay intact."
+   ],
+   [
+    "“Heavier gas molecules have more kinetic energy.”",
+    "At the same temperature all gases have the same average kinetic energy; heavier ones move more slowly."
+   ],
+   [
+    "“1 M CaCl₂ has 1 M of chloride.”",
+    "Each formula unit releases two Cl⁻, so [Cl⁻] = 2 M."
+   ],
+   [
+    "“Absorbance doesn't depend on concentration.”",
+    "By the Beer–Lambert law, absorbance is directly proportional to concentration."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Chemistry Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+  "sourceTitle": "AP Chemistry – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "chem-u3-q01",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-imf",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the strongest intermolecular force between water molecules?",
+   "choices": [
+    "Covalent bonding",
+    "Hydrogen bonding",
+    "Ionic bonding",
+    "London dispersion forces"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Water has H bonded to O, and that H is attracted to a lone pair on another water molecule's O: a hydrogen bond.",
+   "choiceExplanations": [
+    "Covalent bonds hold atoms together within a molecule; they aren't forces between molecules.",
+    "",
+    "Water molecules are neutral, not ions.",
+    "Dispersion forces exist between water molecules but are much weaker than its hydrogen bonds."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q02",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-imf",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which of these nonpolar hydrocarbons has the highest boiling point?",
+   "choices": [
+    "C₂H₆",
+    "C₄H₁₀",
+    "C₃H₈",
+    "CH₄"
+   ],
+   "correctAnswer": 1,
+   "explanation": "All are nonpolar, so only dispersion forces act. C₄H₁₀ has the most electrons, so it is most polarizable and has the strongest dispersion forces.",
+   "choiceExplanations": [
+    "C₂H₆ has fewer electrons still.",
+    "",
+    "C₃H₈ has fewer electrons than C₄H₁₀.",
+    "CH₄ has the fewest electrons and the weakest dispersion forces."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q03",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-imf",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Quartz (SiO₂) melts above 1600 °C and doesn't conduct electricity. What kind of solid is it?",
+   "choices": [
+    "Metallic solid",
+    "Molecular solid",
+    "Covalent network solid",
+    "Ionic solid"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Melting quartz means breaking strong Si–O covalent bonds that run through the whole solid, and it has no mobile charges.",
+   "choiceExplanations": [
+    "Metals conduct electricity.",
+    "Molecular solids are held by IMFs and melt at low temperatures.",
+    "",
+    "SiO₂'s Si–O bonds are covalent, and ionic solids conduct when melted."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q04",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-imf",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "H₂S has more electrons than H₂O, yet water boils at 100 °C and H₂S at about −60 °C. What best explains this?",
+   "choices": [
+    "Water molecules form hydrogen bonds, which are much stronger than the dipole and dispersion forces between H₂S molecules",
+    "H₂S molecules are nonpolar",
+    "The S–H covalent bonds break more easily than O–H bonds when the liquids boil",
+    "Water molecules are heavier than H₂S molecules"
+   ],
+   "correctAnswer": 0,
+   "explanation": "O is small and very electronegative, so water forms hydrogen bonds. S isn't electronegative enough, so H₂S has only weaker dipole–dipole and dispersion forces.",
+   "choiceExplanations": [
+    "",
+    "H₂S is bent and slightly polar; it just can't form hydrogen bonds.",
+    "Boiling separates molecules; no covalent bonds break.",
+    "H₂O (18 g/mol) is lighter than H₂S (34 g/mol)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q05",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-imf",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Solid iodine (I₂) is a molecular solid. Which properties would you expect?",
+   "choices": [
+    "Malleability and good conductivity",
+    "A low melting point and no electrical conductivity",
+    "A very high melting point and conductivity only when melted",
+    "A very high melting point and good conductivity"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Molecular solids are held together by relatively weak intermolecular forces and have no mobile charges.",
+   "choiceExplanations": [
+    "Malleability and conductivity are properties of metals.",
+    "",
+    "That describes an ionic solid.",
+    "That describes a metal with a high melting point."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q06",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-gas",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the pressure of 2.00 mol of an ideal gas at 300 K in a 10.0 L container? (R = 0.08206 L·atm/(mol·K))",
+   "choices": [
+    "499 atm",
+    "0.443 atm",
+    "4.92 atm",
+    "0.203 atm"
+   ],
+   "correctAnswer": 2,
+   "explanation": "P = nRT/V = (2.00)(0.08206)(300)/10.0 = 4.92 atm.",
+   "choiceExplanations": [
+    "499 atm uses R = 8.314, which goes with pascals and cubic meters, not liters and atmospheres.",
+    "0.443 atm uses 27 instead of 300 for the temperature; gas laws need kelvins.",
+    "",
+    "0.203 atm is the reciprocal of the correct value."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q07",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-gas",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Samples of helium and argon are at the same temperature. Which statement is true?",
+   "choices": [
+    "Both have the same average kinetic energy, so helium atoms move faster on average",
+    "Both move at the same average speed",
+    "Helium atoms have more average kinetic energy, because they move faster",
+    "Argon atoms have more average kinetic energy, because they are heavier"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Average kinetic energy depends only on absolute temperature. With the same KE = ½mv², the lighter helium atoms must move faster.",
+   "choiceExplanations": [
+    "",
+    "Equal kinetic energy with different masses means different speeds.",
+    "Helium's higher speed is exactly offset by its smaller mass.",
+    "Mass doesn't change the average kinetic energy at a given temperature."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q08",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-gas",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A gas mixture contains 2.0 mol N₂ and 1.0 mol O₂ at a total pressure of 1.5 atm. What is the partial pressure of O₂?",
+   "choices": [
+    "0.50 atm",
+    "1.5 atm",
+    "1.0 atm",
+    "0.75 atm"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The mole fraction of O₂ is 1.0/3.0, so P(O₂) = (1/3)(1.5 atm) = 0.50 atm.",
+   "choiceExplanations": [
+    "",
+    "1.5 atm is the total pressure.",
+    "1.0 atm is the partial pressure of N₂.",
+    "0.75 atm splits the pressure equally, ignoring the amounts."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q09",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-gas",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Under which conditions does a real gas behave least like an ideal gas?",
+   "choices": [
+    "Low pressure and high temperature",
+    "High pressure and high temperature",
+    "High pressure and low temperature",
+    "Low pressure and low temperature"
+   ],
+   "correctAnswer": 2,
+   "explanation": "At high pressure the particles' own volume becomes significant, and at low temperature they move slowly enough for attractions to matter. Both assumptions of the ideal model fail.",
+   "choiceExplanations": [
+    "These are the conditions under which gases are most ideal.",
+    "High temperature makes attractions less important, so only one assumption fails.",
+    "",
+    "Low pressure keeps particles far apart, so only one assumption fails."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q10",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-gas",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In which state of matter do particles stay in fixed positions and only vibrate?",
+   "choices": [
+    "All three states",
+    "Gas",
+    "Liquid",
+    "Solid"
+   ],
+   "correctAnswer": 3,
+   "explanation": "In a solid, particles are held in place by the forces between them and vibrate about fixed positions.",
+   "choiceExplanations": [
+    "Only solids have fixed particle positions.",
+    "In a gas, particles move freely and are far apart.",
+    "In a liquid, particles are close together but can move past each other.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q11",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-sol",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the molarity of a solution made by dissolving 0.50 mol of NaCl in enough water to make 250 mL of solution?",
+   "choices": [
+    "125 M",
+    "0.0020 M",
+    "2.0 M",
+    "0.13 M"
+   ],
+   "correctAnswer": 2,
+   "explanation": "M = n/V = 0.50 mol ÷ 0.250 L = 2.0 M.",
+   "choiceExplanations": [
+    "125 M multiplies the moles by 250.",
+    "0.0020 M divides by 250 mL without converting to liters.",
+    "",
+    "0.13 M multiplies by the volume instead of dividing."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q12",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-sol",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "50.0 mL of 2.00 M HCl is diluted with water to a total volume of 200.0 mL. What is the new concentration?",
+   "choices": [
+    "0.250 M",
+    "8.00 M",
+    "1.50 M",
+    "0.500 M"
+   ],
+   "correctAnswer": 3,
+   "explanation": "M₂ = M₁V₁/V₂ = (2.00)(50.0)/200.0 = 0.500 M.",
+   "choiceExplanations": [
+    "0.250 M divides by 8 instead of 4.",
+    "8.00 M multiplies by the volume ratio instead of dividing; diluting lowers the concentration.",
+    "1.50 M subtracts instead of using M₁V₁ = M₂V₂.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q13",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-sol",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which technique separates the dyes in an ink by how strongly each is attracted to a stationary phase compared with a moving solvent?",
+   "choices": [
+    "Evaporation",
+    "Filtration",
+    "Distillation",
+    "Chromatography"
+   ],
+   "correctAnswer": 3,
+   "explanation": "In chromatography, components travel at different rates depending on their attractions to the stationary and mobile phases.",
+   "choiceExplanations": [
+    "Evaporation removes the solvent but doesn't separate the dissolved dyes.",
+    "Filtration separates solids from liquids by particle size.",
+    "Distillation separates by boiling point.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q14",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-sol",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which substance is most soluble in water?",
+   "choices": [
+    "Methanol, CH₃OH",
+    "Iodine, I₂",
+    "Carbon tetrachloride, CCl₄",
+    "Hexane, C₆H₁₄"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Methanol is polar and forms hydrogen bonds with water.",
+   "choiceExplanations": [
+    "",
+    "I₂ is nonpolar, so it dissolves poorly in water.",
+    "CCl₄ is nonpolar (its bond dipoles cancel).",
+    "Hexane is nonpolar and can't replace water's hydrogen bonds."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q15",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-sol",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the concentration of chloride ions in a 0.30 M CaCl₂ solution?",
+   "choices": [
+    "0.90 M",
+    "0.60 M",
+    "0.15 M",
+    "0.30 M"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Each CaCl₂ releases two Cl⁻ ions: [Cl⁻] = 2 × 0.30 M = 0.60 M.",
+   "choiceExplanations": [
+    "0.90 M counts all three ions as chloride.",
+    "",
+    "0.15 M divides by 2 instead of multiplying.",
+    "0.30 M is the concentration of Ca²⁺ (and of CaCl₂)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q16",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-sol",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Ethanol (CH₃CH₂OH) mixes with water in any proportion, but hexane barely dissolves. What best explains the difference?",
+   "choices": [
+    "Ethanol reacts with water to form ions",
+    "Hexane molecules are too large to fit between water molecules",
+    "Ethanol can form hydrogen bonds with water, so mixing replaces water–water attractions with similar ones; hexane can't",
+    "Hexane is more dense than water"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Dissolving requires breaking water's hydrogen bonds. Ethanol's –OH group hydrogen-bonds with water, making up for them; hexane offers only weak dispersion forces.",
+   "choiceExplanations": [
+    "Ethanol dissolves as intact molecules; it doesn't ionize.",
+    "Molecular size isn't the main factor; small nonpolar molecules also dissolve poorly in water.",
+    "",
+    "Hexane is less dense than water, and density doesn't decide solubility."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q17",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-light",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which kind of electromagnetic radiation has photons with the most energy?",
+   "choices": [
+    "Microwave",
+    "Visible",
+    "Infrared",
+    "Ultraviolet"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Photon energy is E = hc/λ, and ultraviolet has the shortest wavelength of these.",
+   "choiceExplanations": [
+    "Microwaves have the longest wavelengths of these, so the least energy per photon.",
+    "Visible light has longer wavelengths than ultraviolet.",
+    "Infrared has longer wavelengths than visible light.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q18",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-light",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the energy of one photon of 500. nm light? (h = 6.626 × 10⁻³⁴ J·s, c = 3.00 × 10⁸ m/s)",
+   "choices": [
+    "3.98 × 10⁻¹⁹ J",
+    "1.33 × 10⁻²⁷ J",
+    "6.00 × 10¹⁴ J",
+    "3.98 × 10⁻²⁸ J"
+   ],
+   "correctAnswer": 0,
+   "explanation": "E = hc/λ = (6.626 × 10⁻³⁴)(3.00 × 10⁸)/(500. × 10⁻⁹ m) = 3.98 × 10⁻¹⁹ J.",
+   "choiceExplanations": [
+    "",
+    "1.33 × 10⁻²⁷ is h/λ, the photon's momentum, not its energy.",
+    "6.00 × 10¹⁴ is the frequency in hertz, not an energy.",
+    "This uses 500 m instead of 500 × 10⁻⁹ m."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q19",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-light",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Absorbing which kind of radiation mainly changes a molecule's vibrational energy?",
+   "choices": [
+    "Visible",
+    "Microwave",
+    "Ultraviolet",
+    "Infrared"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Infrared photons match the energy spacing of molecular vibrations, which is why IR spectroscopy identifies bonds.",
+   "choiceExplanations": [
+    "Visible light changes electronic energy levels.",
+    "Microwaves mainly change rotational energy.",
+    "Ultraviolet light changes electronic energy levels and can break bonds.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u3-q20",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "topicId": "c3-light",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 0.10 M solution has an absorbance of 0.40 at its wavelength of maximum absorbance. Using the same cuvette and wavelength, what absorbance would a 0.25 M solution have?",
+   "choices": [
+    "0.65",
+    "1.0",
+    "0.16",
+    "0.40"
+   ],
+   "correctAnswer": 1,
+   "explanation": "By A = εbc, absorbance is proportional to concentration: 0.40 × (0.25/0.10) = 1.0.",
+   "choiceExplanations": [
+    "0.65 adds 0.25 to 0.40 instead of scaling.",
+    "",
+    "0.16 multiplies 0.40 by 0.40 rather than scaling by the concentration ratio.",
+    "Absorbance changes with concentration."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-chem-u3-os1",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "title": "OpenStax Chemistry 2e, 10.1 Intermolecular Forces",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Dispersion forces, dipole–dipole forces, and hydrogen bonding (CED topic 3.1).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u3-os2",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "title": "OpenStax Chemistry 2e, 9.5 The Kinetic-Molecular Theory",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/9-5-the-kinetic-molecular-theory",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "The kinetic molecular theory of gases (CED topic 3.5).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/9-5-the-kinetic-molecular-theory",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u3-os3",
+   "courseId": "ap-chemistry",
+   "unitId": "u3",
+   "title": "OpenStax Chemistry 2e, 11.3 Solubility",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/11-3-solubility",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "What makes substances dissolve (CED topic 3.10). It goes beyond AP scope in places.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/11-3-solubility",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "chem-u3-q01",
+    "chem-u3-q02",
+    "chem-u3-q06",
+    "chem-u3-q07",
+    "chem-u3-q11",
+    "chem-u3-q16",
+    "chem-u3-q18",
+    "chem-u3-q20"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "chem-u3-q04",
+    "chem-u3-q05",
+    "chem-u3-q09",
+    "chem-u3-q10",
+    "chem-u3-q12",
+    "chem-u3-q13",
+    "chem-u3-q17",
+    "chem-u3-q19"
+   ]
+  }
+ ]
+}

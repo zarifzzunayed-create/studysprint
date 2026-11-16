@@ -1,0 +1,746 @@
+{
+ "courseId": "ap-chemistry",
+ "unitId": "u2",
+ "title": "Unit 2: Compound Structure and Properties",
+ "topics": [
+  {
+   "id": "c2-bonds",
+   "name": "Bond types and bond energy",
+   "covers": [
+    "Types of chemical bonds",
+    "Intramolecular force and potential energy"
+   ],
+   "frameworkCovers": [
+    "2.1 Types of Chemical Bonds",
+    "2.2 Intramolecular Force and Potential Energy"
+   ]
+  },
+  {
+   "id": "c2-solids",
+   "name": "Ionic solids, metals, and alloys",
+   "covers": [
+    "Structure of ionic solids",
+    "Structure of metals and alloys"
+   ],
+   "frameworkCovers": [
+    "2.3 Structure of Ionic Solids",
+    "2.4 Structure of Metals and Alloys"
+   ]
+  },
+  {
+   "id": "c2-lewis",
+   "name": "Lewis diagrams, resonance, and formal charge",
+   "covers": [
+    "Lewis diagrams",
+    "Resonance and formal charge"
+   ],
+   "frameworkCovers": [
+    "2.5 Lewis Diagrams",
+    "2.6 Resonance and Formal Charge"
+   ]
+  },
+  {
+   "id": "c2-vsepr",
+   "name": "VSEPR and hybridization",
+   "covers": [
+    "VSEPR and hybridization"
+   ],
+   "frameworkCovers": [
+    "2.7 VSEPR and Hybridization"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Compound structure and properties: review guide",
+  "intro": "How atoms bond determines a substance's structure and properties. This unit covers ionic, covalent, and metallic bonding, the solids they form, Lewis diagrams, and how VSEPR theory predicts molecular shape and polarity.",
+  "sections": [
+   {
+    "id": "s-c2-bonds",
+    "topicId": "c2-bonds",
+    "title": "Bond types and bond energy",
+    "body": [
+     "Electronegativity difference describes a bond: large differences (typically a metal with a nonmetal) give ionic bonds, small differences give polar covalent bonds, and identical atoms give nonpolar covalent bonds. Metals bond to each other with a sea of delocalized electrons.",
+     "A graph of potential energy against the distance between two atoms has a minimum: the distance at the minimum is the bond length, and the depth is the bond energy. Coulomb's law says ionic attraction is stronger for larger charges and smaller ions."
+    ],
+    "points": [
+     "More shared electron pairs (single → double → triple) make a bond shorter and stronger.",
+     "Lattice energy is larger for higher charges (Mg²⁺O²⁻ > Na⁺Cl⁻).",
+     "Bond polarity depends on the electronegativity difference."
+    ]
+   },
+   {
+    "id": "s-c2-solids",
+    "topicId": "c2-solids",
+    "title": "Ionic solids, metals, and alloys",
+    "body": [
+     "Ionic solids are lattices of alternating cations and anions. They are hard and brittle, with high melting points, and conduct electricity only when melted or dissolved, when the ions can move.",
+     "Metals conduct and are malleable because their delocalized electrons let the cations shift without breaking bonds. In a substitutional alloy (such as brass), atoms of similar size replace one another; in an interstitial alloy (such as steel), small atoms fill the holes between larger ones, making the metal harder and less malleable."
+    ],
+    "points": [
+     "Solid ionic compounds don't conduct: the ions are locked in place.",
+     "Substitutional alloys need atoms of similar radius.",
+     "Interstitial atoms block the layers from sliding."
+    ]
+   },
+   {
+    "id": "s-c2-lewis",
+    "topicId": "c2-lewis",
+    "title": "Lewis diagrams, resonance, and formal charge",
+    "body": [
+     "To draw a Lewis diagram, count all valence electrons (adjusting for any ion charge), connect the atoms with single bonds, complete the outer atoms' octets, and then use multiple bonds if the central atom still lacks an octet.",
+     "When more than one valid diagram differs only in where electrons are placed, the real structure is a resonance hybrid of them, with bonds of equal, intermediate length. Formal charge = valence electrons − nonbonding electrons − ½(bonding electrons). The best structure has formal charges closest to zero, with any negative charge on the more electronegative atom."
+    ],
+    "points": [
+     "Formal charges add up to the molecule's or ion's overall charge.",
+     "Resonance structures don't flip back and forth; the hybrid is the real structure.",
+     "Some atoms (B, Be) have fewer than 8 electrons, and atoms in period 3 or below can have more."
+    ],
+    "equations": [
+     [
+      "FC = V − N − B/2",
+      "formal charge (V valence, N nonbonding, B bonding electrons)"
+     ]
+    ]
+   },
+   {
+    "id": "s-c2-vsepr",
+    "topicId": "c2-vsepr",
+    "title": "VSEPR and hybridization",
+    "body": [
+     "VSEPR theory: electron domains (bonds and lone pairs) around a central atom spread out to minimize repulsion. Two domains are linear (180°), three trigonal planar (120°), four tetrahedral (109.5°). Lone pairs count as domains but aren't part of the shape's name, so NH₃ is trigonal pyramidal and H₂O is bent.",
+     "Hybridization matches the number of domains: 2 → sp, 3 → sp², 4 → sp³. A molecule is polar if its bond dipoles don't cancel; symmetric shapes such as linear CO₂ are nonpolar even with polar bonds."
+    ],
+    "points": [
+     "A double or triple bond counts as one domain.",
+     "Lone pairs squeeze bond angles slightly (H₂O is about 104.5°).",
+     "A double bond contains one sigma and one pi bond; a triple bond has one sigma and two pi."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Predict the shape, bond angle, hybridization, and polarity of NH₃.",
+   "solution": "N has 5 valence electrons and each H 1, so 8 electrons: three N–H bonds and one lone pair on N. Four domains give tetrahedral electron geometry and sp³ hybridization. With one lone pair, the shape is trigonal pyramidal, with angles a little under 109.5° (about 107°). The dipoles don't cancel, so NH₃ is polar."
+  },
+  "misconceptions": [
+   [
+    "“Breaking a bond releases energy.”",
+    "Breaking a bond always takes energy; forming one releases it."
+   ],
+   [
+    "“Molecules with polar bonds are always polar.”",
+    "Symmetric shapes, such as CO₂ and CH₄, cancel the bond dipoles."
+   ],
+   [
+    "“Resonance structures switch back and forth.”",
+    "The molecule is one hybrid of the structures."
+   ],
+   [
+    "“Solid NaCl conducts because it contains ions.”",
+    "The ions must be free to move, as in molten or dissolved NaCl."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Chemistry Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+  "sourceTitle": "AP Chemistry – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "chem-u2-q01",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-bonds",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which pair of elements is most likely to form an ionic bond?",
+   "choices": [
+    "Cu and Zn",
+    "Na and Cl",
+    "N and H",
+    "C and O"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Sodium (a metal) and chlorine (a nonmetal) have a large electronegativity difference, so sodium transfers an electron to chlorine.",
+   "choiceExplanations": [
+    "Copper and zinc are both metals; they form metallic bonding (an alloy).",
+    "",
+    "Nitrogen and hydrogen form polar covalent bonds, as in NH₃.",
+    "Carbon and oxygen are both nonmetals; they share electrons in covalent bonds."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q02",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-bonds",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which bond is the most polar?",
+   "choices": [
+    "H–F",
+    "H–Cl",
+    "H–H",
+    "H–Br"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Fluorine is the most electronegative element, so the H–F bond has the largest electronegativity difference.",
+   "choiceExplanations": [
+    "",
+    "Cl is less electronegative than F.",
+    "H–H joins identical atoms, so it is nonpolar.",
+    "Br is less electronegative than Cl and F."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q03",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-bonds",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "On a graph of potential energy against the distance between two hydrogen atoms, what does the distance at the energy minimum represent?",
+   "choices": [
+    "The bond energy",
+    "The distance at which the atoms repel most strongly",
+    "The bond length",
+    "The distance at which the atoms no longer interact"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The atoms settle where the energy is lowest; that equilibrium distance is the bond length.",
+   "choiceExplanations": [
+    "The bond energy is the depth of the minimum (an energy), not the distance.",
+    "Strong repulsion happens at distances shorter than the bond length, where the curve rises steeply.",
+    "",
+    "Atoms stop interacting at large distances, where the curve levels off at zero."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q04",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-bonds",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which compound has the strongest attraction between its ions (the largest lattice energy)?",
+   "choices": [
+    "KBr",
+    "MgO",
+    "NaF",
+    "NaCl"
+   ],
+   "correctAnswer": 1,
+   "explanation": "By Coulomb's law, attraction grows with the product of the charges and shrinks with distance. Mg²⁺ and O²⁻ have double charges and are small.",
+   "choiceExplanations": [
+    "KBr has single charges and large ions, so it has the weakest attraction here.",
+    "",
+    "NaF has small ions but only single charges.",
+    "NaCl has only +1 and −1 charges."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q05",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-bonds",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Compared with the N–N single bond, the N≡N triple bond is:",
+   "choices": [
+    "Shorter and stronger",
+    "Longer and stronger",
+    "Shorter and weaker",
+    "The same length but stronger"
+   ],
+   "correctAnswer": 0,
+   "explanation": "More shared electron pairs pull the nuclei closer and take more energy to break.",
+   "choiceExplanations": [
+    "",
+    "More shared pairs make a bond shorter, not longer.",
+    "A triple bond takes much more energy to break than a single bond.",
+    "The extra shared pairs also shorten the bond."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q06",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-solids",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Solid NaCl does not conduct electricity, but molten NaCl does. Why?",
+   "choices": [
+    "Melting turns the ions into neutral atoms",
+    "Molten NaCl contains free electrons, like a metal",
+    "In the solid the ions are fixed in place; in the liquid they can move",
+    "Solid NaCl contains no ions"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Conduction needs mobile charged particles. Melting frees the Na⁺ and Cl⁻ ions to move.",
+   "choiceExplanations": [
+    "The ions stay ions when NaCl melts.",
+    "Molten NaCl conducts by moving ions, not free electrons.",
+    "",
+    "Solid NaCl is made of ions; they just can't move."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q07",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-solids",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Steel is iron with a small amount of carbon. What kind of alloy is it, and how does that affect it?",
+   "choices": [
+    "Interstitial: carbon atoms make it more malleable by letting layers slide",
+    "Substitutional: carbon atoms replace iron atoms of similar size, making it softer",
+    "Ionic: carbon and iron form a lattice of ions, making it brittle",
+    "Interstitial: small carbon atoms fill gaps between iron atoms, making it harder and less malleable"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Carbon atoms are much smaller than iron atoms, so they fit in the holes between them and keep the layers from sliding.",
+   "choiceExplanations": [
+    "Interstitial atoms block sliding, so they make the metal less malleable.",
+    "Carbon atoms are far smaller than iron atoms, so they don't substitute for them.",
+    "Steel keeps metallic bonding; it isn't an ionic compound.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q08",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-solids",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why can metals be hammered into sheets without shattering?",
+   "choices": [
+    "They are made of alternating positive and negative ions",
+    "Only weak intermolecular forces hold them together",
+    "Their atoms are held by strong directional covalent bonds",
+    "Their delocalized electrons let layers of cations slide past each other without breaking the bonding"
+   ],
+   "correctAnswer": 3,
+   "explanation": "In metallic bonding the electron sea holds the cations together however they shift, so the metal bends instead of breaking.",
+   "choiceExplanations": [
+    "Ionic lattices shatter when like charges are pushed next to each other.",
+    "Metals have strong bonding; weak forces describe molecular solids.",
+    "Directional covalent networks (such as diamond) are brittle.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q09",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-solids",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Brass is a substitutional alloy of copper and zinc. Which property makes this possible?",
+   "choices": [
+    "Copper and zinc atoms have similar radii",
+    "Zinc is a nonmetal",
+    "Zinc atoms are much smaller than copper atoms",
+    "Copper and zinc have the same number of valence electrons"
+   ],
+   "correctAnswer": 0,
+   "explanation": "In a substitutional alloy one metal's atoms take the place of the other's in the lattice, which works when the atoms are about the same size.",
+   "choiceExplanations": [
+    "",
+    "Zinc is a metal.",
+    "Much smaller atoms would fit between the copper atoms instead (an interstitial alloy).",
+    "Matching valence electron counts isn't what lets atoms swap places in the lattice."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q10",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-lewis",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How many valence electrons are shown in the Lewis diagram of CO₂?",
+   "choices": [
+    "12",
+    "16",
+    "18",
+    "22"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Carbon has 4 valence electrons and each oxygen has 6: 4 + 2(6) = 16.",
+   "choiceExplanations": [
+    "12 counts only 4 per oxygen.",
+    "",
+    "18 adds an extra electron pair.",
+    "22 is the total number of electrons, including the inner ones."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q11",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-lewis",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the formal charge on nitrogen in the ammonium ion, NH₄⁺?",
+   "choices": [
+    "−1",
+    "+4",
+    "+1",
+    "0"
+   ],
+   "correctAnswer": 2,
+   "explanation": "N has 5 valence electrons, no lone pairs, and 8 bonding electrons: FC = 5 − 0 − 8/2 = +1. This matches the ion's charge, since each H has a formal charge of 0.",
+   "choiceExplanations": [
+    "−1 subtracts in the wrong direction.",
+    "+4 counts each bond as a full positive charge.",
+    "",
+    "0 is nitrogen's formal charge in NH₃, where it has a lone pair."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q12",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-lewis",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which molecule is best described by resonance structures?",
+   "choices": [
+    "O₃",
+    "CH₄",
+    "NH₃",
+    "H₂O"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Ozone's double bond can be drawn on either side, so it has two equivalent Lewis diagrams; the real molecule has two equal bonds.",
+   "choiceExplanations": [
+    "",
+    "CH₄ has only single bonds and no choice of placement.",
+    "NH₃ has a single Lewis diagram.",
+    "H₂O has one Lewis diagram with two single bonds."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q13",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-lewis",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Two Lewis diagrams are drawn for CO₂: (1) O=C=O and (2) O≡C–O, each with octets. Which is the better structure, and why?",
+   "choices": [
+    "Both are equally good, because both have octets",
+    "(1), because every atom has a formal charge of zero",
+    "(2), because it puts a positive formal charge on an oxygen atom",
+    "(2), because it has a triple bond"
+   ],
+   "correctAnswer": 1,
+   "explanation": "In (1) all formal charges are 0. In (2) the triple-bonded O is +1 and the single-bonded O is −1; structures with formal charges closest to zero are preferred.",
+   "choiceExplanations": [
+    "Having octets is necessary but not enough; formal charges decide between the structures.",
+    "",
+    "Putting positive formal charge on oxygen, a very electronegative atom, makes a structure worse.",
+    "A triple bond doesn't make a structure better; formal charges do."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q14",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-vsepr",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the shape of a methane (CH₄) molecule, and its H–C–H bond angle?",
+   "choices": [
+    "Trigonal pyramidal, 107°",
+    "Square planar, 90°",
+    "Tetrahedral, 109.5°",
+    "Trigonal planar, 120°"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Carbon has four bonding domains and no lone pairs, which spread out tetrahedrally.",
+   "choiceExplanations": [
+    "Trigonal pyramidal needs a lone pair, as in NH₃.",
+    "Four domains don't stay flat; the tetrahedral arrangement keeps them farther apart.",
+    "",
+    "Trigonal planar has only three domains."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q15",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-vsepr",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "BF₃ has three bonding domains and no lone pairs on boron. What are its shape and bond angle?",
+   "choices": [
+    "T-shaped, 90°",
+    "Trigonal pyramidal, 107°",
+    "Tetrahedral, 109.5°",
+    "Trigonal planar, 120°"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Three domains spread out in a plane, 120° apart.",
+   "choiceExplanations": [
+    "T-shaped geometry needs five electron domains.",
+    "Trigonal pyramidal needs a lone pair on the central atom.",
+    "Tetrahedral needs four domains.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q16",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-vsepr",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the shape of an ammonia (NH₃) molecule?",
+   "choices": [
+    "Trigonal pyramidal",
+    "Tetrahedral",
+    "Trigonal planar",
+    "Bent"
+   ],
+   "correctAnswer": 0,
+   "explanation": "N has three bonds and one lone pair: four domains in a tetrahedral arrangement, but the shape describes only the atoms, giving a pyramid.",
+   "choiceExplanations": [
+    "",
+    "Tetrahedral is the electron geometry; the lone pair isn't part of the shape.",
+    "Trigonal planar has no lone pair on the central atom.",
+    "Bent has two bonds, as in H₂O."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q17",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-vsepr",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the hybridization of the carbon atom in CO₂?",
+   "choices": [
+    "sp³",
+    "sp²",
+    "sp³d",
+    "sp"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Carbon has two electron domains (two double bonds), which is sp hybridization and a linear shape.",
+   "choiceExplanations": [
+    "sp³ goes with four domains, as in CH₄.",
+    "sp² goes with three domains, as in BF₃.",
+    "sp³d goes with five domains.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u2-q18",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "topicId": "c2-vsepr",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which molecule is nonpolar even though its bonds are polar?",
+   "choices": [
+    "H₂O",
+    "CO₂",
+    "SO₂",
+    "NH₃"
+   ],
+   "correctAnswer": 1,
+   "explanation": "CO₂ is linear, so its two equal C=O bond dipoles point in opposite directions and cancel.",
+   "choiceExplanations": [
+    "H₂O is bent, so its bond dipoles add to a net dipole.",
+    "",
+    "SO₂ is bent because of the lone pair on sulfur, so it is polar.",
+    "NH₃ is trigonal pyramidal, so its dipoles don't cancel."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-chem-u2-os1",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "title": "OpenStax Chemistry 2e, 7.4 Formal Charges and Resonance",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/7-4-formal-charges-and-resonance",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Formal charge and resonance (CED topic 2.6).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/7-4-formal-charges-and-resonance",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u2-os2",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "title": "OpenStax Chemistry 2e, 7.6 Molecular Structure and Polarity",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "VSEPR shapes and molecular polarity (CED topic 2.7).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u2-os3",
+   "courseId": "ap-chemistry",
+   "unitId": "u2",
+   "title": "OpenStax Chemistry 2e, 8.2 Hybrid Atomic Orbitals",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/8-2-hybrid-atomic-orbitals",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Hybridization (CED topic 2.7). It goes beyond AP scope in places.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/8-2-hybrid-atomic-orbitals",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "chem-u2-q01",
+    "chem-u2-q02",
+    "chem-u2-q06",
+    "chem-u2-q07",
+    "chem-u2-q11",
+    "chem-u2-q13",
+    "chem-u2-q16",
+    "chem-u2-q18"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "chem-u2-q03",
+    "chem-u2-q05",
+    "chem-u2-q08",
+    "chem-u2-q09",
+    "chem-u2-q10",
+    "chem-u2-q12",
+    "chem-u2-q14",
+    "chem-u2-q15"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,285 @@
+{
+ "id": "ap-microeconomics",
+ "name": "AP Microeconomics",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-microeconomics",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-microeconomics-course-and-exam-description.pdf",
+ "frameworkVersion": "AP Microeconomics Course and Exam Description, effective Fall 2026 on its cover (the current PDF on AP Central, checked 2026-11-15; pages marked V.1, © 2026), with College Board's Clarifications and Corrections implemented as of June 2026.",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-microeconomics/exam/past-exam-questions",
+  "note": null,
+  "releasedSets": [
+   {
+    "year": 2026,
+    "title": "2026 AP Microeconomics Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-microeconomics.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP Microeconomics Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-microeconomics-set-1.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP Microeconomics Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-microeconomics-set-2.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP Microeconomics Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-microeconomics-set-1.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP Microeconomics Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-microeconomics-set-2.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP Microeconomics Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-microeconomics-set-1.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP Microeconomics Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-microeconomics-set-2.pdf"
+   }
+  ],
+  "setsNote": "Whole released free-response sets (PDF, College Board), linked from the course's past-exam-questions page and checked to load on 2026-11-15. College Board released two sets for each of 2023–2025 and one for 2026. Each set has one long and two short questions, which usually combine several units, so they are not matched to units. Scoring guidelines are on the past-exam-questions page."
+ },
+ "source": {
+  "title": "AP Microeconomics – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-microeconomics",
+  "verified": "2026-11-15",
+  "note": "Unit names, the “topics may include” lists, and exam weightings were read from this page on 2026-11-15; the exam format was read from its assessment page."
+ },
+ "frameworkCheck": {
+  "checked": "2026-11-15",
+  "source": "https://apcentral.collegeboard.org/media/pdf/ap-microeconomics-course-and-exam-description.pdf",
+  "title": "AP Microeconomics Course and Exam Description (effective Fall 2026)",
+  "how": "The 36 numbered CED topics (1.1–6.5) and their learning objectives, essential knowledge statements, and exclusion statements were read from the course framework in the current PDF on AP Central, and each topic is matched to the StudySprint topic whose guide section and questions teach it. The questions respect the CED's exclusions (no indifference curves, no graphing of quotas, no drawing of Lorenz curves or calculating Gini coefficients, and only two-player, two-action games). The four skill categories and thirteen skills (shared with AP Macroeconomics) were read from the CED's skills table, and each question is tagged with the skill it mainly uses. The Clarifications and Corrections implemented as of June 2026 (https://apcentral.collegeboard.org/media/pdf/ap-microeconomics-course-and-exam-description-clarifications.pdf) were checked: they change front matter, resource links, and Progress Check wording only, not course content.",
+  "weightsSource": "the AP Students course page and the CED's exam section (shares of the multiple-choice section), both checked 2026-11-15",
+  "examFormat": "From the AP Students assessment page and the CED (2 hours 10 minutes; a four-function calculator is allowed on both sections): Section I, 60 multiple-choice questions in 70 minutes (66.65% of the score). The CED says 30–42% of them assess Principles and Models, 37–47% Interpretation, and 16–25% Manipulation, and 20–30% involve numbers or calculations; Graphing and Visuals is not assessed in multiple choice, but some questions provide a graph or table. Section II, 3 free-response questions in 60 minutes including a 10-minute reading period (33.35%): one long question (10 points, half the section score) and two short questions (5 points each). StudySprint practice is multiple-choice only; some stimuli show a simple drawn graph or a data table labelled hypothetical, and other graphs are described in words. Graph-drawing practice uses College Board's released free-response questions.",
+  "skills": [
+   {
+    "code": "1.A",
+    "category": "Principles and Models",
+    "text": "Describe economic concepts, principles, or models."
+   },
+   {
+    "code": "1.B",
+    "category": "Principles and Models",
+    "text": "Identify an economic concept, principle, or model illustrated by an example."
+   },
+   {
+    "code": "1.C",
+    "category": "Principles and Models",
+    "text": "Identify an economic concept, principle, or model using quantitative data or calculations."
+   },
+   {
+    "code": "1.D",
+    "category": "Principles and Models",
+    "text": "Describe the similarities, differences, and limitations of economic concepts, principles, or models."
+   },
+   {
+    "code": "2.A",
+    "category": "Interpretation",
+    "text": "Using economic concepts, principles, or models, explain how a specific economic outcome occurs or what action should be taken in order to achieve a specific economic outcome."
+   },
+   {
+    "code": "2.B",
+    "category": "Interpretation",
+    "text": "Using economic concepts, principles, or models, explain how a specific economic outcome occurs when there are multiple contributing variables or what multiple actions should be taken in order to achieve a specific economic outcome."
+   },
+   {
+    "code": "2.C",
+    "category": "Interpretation",
+    "text": "Interpret a specific economic outcome using quantitative data or calculations."
+   },
+   {
+    "code": "3.A",
+    "category": "Manipulation",
+    "text": "Determine the outcome of an economic situation using economic concepts, principles, or models."
+   },
+   {
+    "code": "3.B",
+    "category": "Manipulation",
+    "text": "Determine the effect(s) of one or more changes on other economic markets."
+   },
+   {
+    "code": "3.C",
+    "category": "Manipulation",
+    "text": "Determine the effect(s) of a change in an economic situation using quantitative data or calculations."
+   },
+   {
+    "code": "4.A",
+    "category": "Graphing and Visuals",
+    "text": "Draw an accurately labeled graph or visual to represent an economic model or market."
+   },
+   {
+    "code": "4.B",
+    "category": "Graphing and Visuals",
+    "text": "Demonstrate your understanding of a specific economic situation on an accurately labeled graph or visual."
+   },
+   {
+    "code": "4.C",
+    "category": "Graphing and Visuals",
+    "text": "Demonstrate the effect of a change in an economic situation on an accurately labeled graph or visual."
+   }
+  ],
+  "differences": [
+   "The AP Students page's unit topic lists are summaries; the CED's 36 topics are the required content and are listed per unit as framework topics. For example, the page lists “Elasticity” once, while the CED has three elasticity topics (2.3–2.5), and the page does not name the CED's topic 3.6 on shutdown, entry, and exit or topic 4.1 on imperfectly competitive markets.",
+   "AP multiple-choice questions often show graphs as images. StudySprint draws a simple graph in some stimuli and describes other graphs in words; it does not test graph drawing (Skill Category 4), which the AP Exam assesses only in free response."
+  ]
+ },
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Basic Economic Concepts",
+   "status": "practice-ready",
+   "file": "data/courses/ap-microeconomics/u1.json",
+   "officialTopics": [
+    "Scarcity",
+    "Resource allocation and economic systems",
+    "The Production Possibilities Curve",
+    "Comparative advantage and gains from trade",
+    "Cost-benefit analysis",
+    "Marginal analysis and consumer choice"
+   ],
+   "examWeight": "12%–15% of the multiple-choice score",
+   "frameworkTopics": [
+    "1.1 Scarcity",
+    "1.2 Resource Allocation and Economic Systems",
+    "1.3 Production Possibilities Curve",
+    "1.4 Comparative Advantage and Trade",
+    "1.5 Cost-Benefit Analysis",
+    "1.6 Marginal Analysis and Consumer Choice"
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Supply and Demand",
+   "status": "practice-ready",
+   "file": "data/courses/ap-microeconomics/u2.json",
+   "officialTopics": [
+    "Demand",
+    "Supply",
+    "Elasticity",
+    "Market equilibrium, disequilibrium, and changes in equilibrium",
+    "The effects of government intervention in markets",
+    "International trade and public policy"
+   ],
+   "examWeight": "20%–25% of the multiple-choice score",
+   "frameworkTopics": [
+    "2.1 Demand",
+    "2.2 Supply",
+    "2.3 Price Elasticity of Demand",
+    "2.4 Price Elasticity of Supply",
+    "2.5 Other Elasticities",
+    "2.6 Market Equilibrium and Consumer and Producer Surplus",
+    "2.7 Market Disequilibrium and Changes in Equilibrium",
+    "2.8 The Effects of Government Intervention in Markets",
+    "2.9 International Trade and Public Policy"
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Production, Cost, and the Perfect Competition Model",
+   "status": "practice-ready",
+   "file": "data/courses/ap-microeconomics/u3.json",
+   "officialTopics": [
+    "The production function",
+    "Short- and long-run production costs",
+    "Types of profit",
+    "Profit maximization",
+    "Perfect competition"
+   ],
+   "examWeight": "22%–25% of the multiple-choice score",
+   "frameworkTopics": [
+    "3.1 The Production Function",
+    "3.2 Short-Run Production Costs",
+    "3.3 Long-Run Production Costs",
+    "3.4 Types of Profit",
+    "3.5 Profit Maximization",
+    "3.6 Firms’ Short-Run Decisions to Produce and Long-Run Decisions to Enter or Exit a Market",
+    "3.7 Perfect Competition"
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Imperfect Competition",
+   "status": "practice-ready",
+   "file": "data/courses/ap-microeconomics/u4.json",
+   "officialTopics": [
+    "Monopoly",
+    "Price discrimination",
+    "Monopolistic competition",
+    "Oligopoly and game theory"
+   ],
+   "examWeight": "15%–22% of the multiple-choice score",
+   "frameworkTopics": [
+    "4.1 Introduction to Imperfectly Competitive Markets",
+    "4.2 Monopoly",
+    "4.3 Price Discrimination",
+    "4.4 Monopolistic Competition",
+    "4.5 Oligopoly and Game Theory"
+   ]
+  },
+  {
+   "id": "u5",
+   "name": "Unit 5: Factor Markets",
+   "status": "practice-ready",
+   "file": "data/courses/ap-microeconomics/u5.json",
+   "officialTopics": [
+    "Introduction to factor markets",
+    "Changes in factor demand and factor supply",
+    "Profit-maximizing behavior in perfectly competitive factor markets",
+    "Monopsonistic markets"
+   ],
+   "examWeight": "10%–13% of the multiple-choice score",
+   "frameworkTopics": [
+    "5.1 Introduction to Factor Markets",
+    "5.2 Changes in Factor Demand and Factor Supply",
+    "5.3 Profit-Maximizing Behavior in Perfectly Competitive Factor Markets",
+    "5.4 Monopsonistic Markets"
+   ]
+  },
+  {
+   "id": "u6",
+   "name": "Unit 6: Market Failure and the Role of Government",
+   "status": "practice-ready",
+   "file": "data/courses/ap-microeconomics/u6.json",
+   "officialTopics": [
+    "Socially efficient and inefficient market outcomes",
+    "Externalities",
+    "Public and private goods",
+    "The effects of government intervention in different market structures",
+    "Income and wealth inequality"
+   ],
+   "examWeight": "8%–13% of the multiple-choice score",
+   "frameworkTopics": [
+    "6.1 Socially Efficient and Inefficient Market Outcomes",
+    "6.2 Externalities",
+    "6.3 Public and Private Goods",
+    "6.4 The Effects of Government Intervention in Different Market Structures",
+    "6.5 Inequality"
+   ]
+  }
+ ],
+ "generalResources": [
+  {
+   "id": "gen-mic-openstax",
+   "title": "OpenStax Principles of Microeconomics 3e (whole book)",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/details/books/principles-microeconomics-3e",
+   "scope": "general",
+   "kind": "textbook",
+   "note": "General: a free college microeconomics textbook. It is not organized around the AP units.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/details/books/principles-microeconomics-3e",
+   "sourceTitle": "OpenStax book page",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Microeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-15"
+  }
+ ]
+}

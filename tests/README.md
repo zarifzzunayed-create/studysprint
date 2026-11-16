@@ -22,7 +22,7 @@ Ports 8791 and 8799 must be free. Set `STUDYSPRINT_ROOT` to test a project folde
 
 | Suite | What it checks |
 |---|---|
-| t1_catalog | course search, catalog labels, unit lists |
+| t1_catalog | course search, catalog labels matching the built content status, unit lists, every practice-ready unit loading with a guide, question bank and valid test, framework-only (not on the AP Exam) labels |
 | t2_learn | Learn first: confidence rating, warm-up, resource recommendations, easier practice |
 | t3_planner | 5-step planner, checklist kept apart from evidence, threshold, status file agreement |
 | t4_kbd | keyboard use and a phone-width Learn first page |
@@ -34,5 +34,6 @@ Ports 8791 and 8799 must be free. Set `STUDYSPRINT_ROOT` to test a project folde
 | t10_a11y | no sideways scroll at 320/375/390 px, 44 px targets, labels, unique ids, keyboard and screen-reader feedback |
 | t11_merge | My data wording on what a backup includes and excludes, and merge rules matching what merge does |
 | t12_tests | practice tests: honest test library, nothing scored until submit, navigation and review marks, resume after refresh, confirmed submit, first attempts vs retries, results and explanations, separate retry set, review plan from results, retakes, timed auto-submit, test history in backups, fair question rotation, build rules that reject reshuffled tests |
+| t13_passages | shared passages and source sets: each question shows its passage in practice, tests and review; a test keeps a passage's questions together; focus moves to a passage only when it changes; U.S. History sources are labelled public domain or written for StudySprint; the build rejects a missing passage |
 
 Some suites pick questions at random, so individual question choices differ between runs; the checks do not depend on which question appears.

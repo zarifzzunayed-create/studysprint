@@ -1,0 +1,771 @@
+{
+ "courseId": "ap-chemistry",
+ "unitId": "u8",
+ "title": "Unit 8: Acids and Bases",
+ "topics": [
+  {
+   "id": "c8-strong",
+   "name": "Acids, bases, and the pH of strong acids and bases",
+   "covers": [
+    "Introduction to acids and bases",
+    "pH and pOH of strong acids and bases"
+   ],
+   "frameworkCovers": [
+    "8.1 Introduction to Acids and Bases",
+    "8.2 pH and pOH of Strong Acids and Bases"
+   ]
+  },
+  {
+   "id": "c8-weak",
+   "name": "Weak acids and bases, titrations, and pKa",
+   "covers": [
+    "pH and pKa"
+   ],
+   "frameworkCovers": [
+    "8.3 Weak Acid and Base Equilibria",
+    "8.5 Acid-Base Titrations",
+    "8.7 pH and pKa"
+   ]
+  },
+  {
+   "id": "c8-buffer",
+   "name": "Buffers",
+   "covers": [
+    "Acid-base reactions and buffers",
+    "Properties of buffers"
+   ],
+   "frameworkCovers": [
+    "8.4 Acid-Base Reactions and Buffers",
+    "8.8 Properties of Buffers",
+    "8.9 Henderson-Hasselbalch Equation",
+    "8.10 Buffer Capacity"
+   ]
+  },
+  {
+   "id": "c8-struct",
+   "name": "Molecular structure of acids and pH-dependent solubility",
+   "covers": [
+    "Molecular structure of acids and bases",
+    "pH and solubility"
+   ],
+   "frameworkCovers": [
+    "8.6 Molecular Structure of Acids and Bases",
+    "8.11 pH and Solubility"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Acids and bases: review guide",
+  "intro": "This unit measures acidity with pH, separates strong from weak acids and bases, follows titrations, and explains buffers. It also connects acid strength to molecular structure and pH to solubility.",
+  "equationNote": "At 25 °C: Kw = [H₃O⁺][OH⁻] = 1.0 × 10⁻¹⁴, pH + pOH = 14.00, and Ka × Kb = Kw for a conjugate pair.",
+  "sections": [
+   {
+    "id": "s-c8-strong",
+    "topicId": "c8-strong",
+    "title": "Acids, bases, and the pH of strong acids and bases",
+    "body": [
+     "A Brønsted–Lowry acid donates H⁺ and a base accepts it; after reacting, they become a conjugate base and conjugate acid. pH = −log[H₃O⁺] and pOH = −log[OH⁻]; at 25 °C, pH + pOH = 14.",
+     "Strong acids (such as HCl, HNO₃, and HClO₄) and strong bases (such as NaOH and Ba(OH)₂) ionize completely, so their ion concentrations come straight from the formula: 0.0050 M Ba(OH)₂ gives 0.010 M OH⁻."
+    ],
+    "points": [
+     "Each pH unit is a factor of 10 in [H₃O⁺].",
+     "Pure water at 25 °C has pH 7.",
+     "A conjugate base has one fewer H⁺ than its acid."
+    ],
+    "equations": [
+     [
+      "pH = −log[H₃O⁺]",
+      "pH"
+     ],
+     [
+      "pH + pOH = 14.00",
+      "at 25 °C"
+     ]
+    ]
+   },
+   {
+    "id": "s-c8-weak",
+    "topicId": "c8-weak",
+    "title": "Weak acids and bases, titrations, and pKa",
+    "body": [
+     "Weak acids ionize only partly: Ka = [H₃O⁺][A⁻]/[HA]. For a weak acid much stronger than water, [H₃O⁺] ≈ √(Ka·C). pKa = −log Ka; a smaller pKa means a stronger acid.",
+     "In a titration of a weak acid with a strong base, the pH at the half-equivalence point equals pKa, and the pH at the equivalence point is above 7 because the solution then contains the conjugate base. When pH < pKa the acid form dominates; when pH > pKa the base form dominates."
+    ],
+    "points": [
+     "Ka × Kb = Kw for a conjugate pair.",
+     "A strong acid–strong base titration has pH 7 at equivalence.",
+     "Choose an indicator whose color change falls at the equivalence-point pH."
+    ],
+    "equations": [
+     [
+      "Ka = [H₃O⁺][A⁻]/[HA]",
+      "acid ionization constant"
+     ],
+     [
+      "pKa = −log Ka",
+      "pKa"
+     ]
+    ]
+   },
+   {
+    "id": "s-c8-buffer",
+    "topicId": "c8-buffer",
+    "title": "Buffers",
+    "body": [
+     "A buffer contains a weak acid and its conjugate base in similar amounts. It resists pH change: added OH⁻ reacts with HA, and added H₃O⁺ reacts with A⁻.",
+     "Henderson–Hasselbalch: pH = pKa + log([A⁻]/[HA]). When [A⁻] = [HA], pH = pKa. Buffer capacity grows with the amounts of HA and A⁻: a more concentrated buffer can absorb more acid or base before its pH changes much."
+    ],
+    "points": [
+     "To make a buffer at a target pH, choose an acid with pKa near that pH.",
+     "After adding strong acid or base, update the moles of HA and A⁻ first, then use the equation.",
+     "A strong acid with its salt (such as HCl and NaCl) isn't a buffer."
+    ],
+    "equations": [
+     [
+      "pH = pKa + log([A⁻]/[HA])",
+      "Henderson–Hasselbalch equation"
+     ]
+    ]
+   },
+   {
+    "id": "s-c8-struct",
+    "topicId": "c8-struct",
+    "title": "Molecular structure of acids and pH-dependent solubility",
+    "body": [
+     "Acid strength depends on how stable the conjugate base is. Electronegative atoms near the acidic H (such as Cl atoms in chloroacetic acids, or extra O atoms in oxyacids like HClO₄) pull electron density away and spread out the negative charge of the conjugate base, making the acid stronger.",
+     "A salt whose anion is the conjugate base of a weak acid (such as F⁻, CO₃²⁻, or OH⁻) becomes more soluble as the pH falls: H₃O⁺ removes the anion, shifting the dissolving equilibrium toward more dissolved salt. Salts of strong-acid anions (such as Cl⁻) are unaffected."
+    ],
+    "points": [
+     "More oxygens on the central atom → stronger oxyacid.",
+     "More electronegative substituents → stronger carboxylic acid.",
+     "Lowering the pH dissolves CaF₂ and CaCO₃ more, but not AgCl."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A buffer contains 0.10 mol HA and 0.10 mol A⁻ in 1.0 L (pKa = 4.74). Find the pH after adding 0.020 mol HCl.",
+   "solution": "H₃O⁺ reacts with A⁻: A⁻ falls to 0.080 mol and HA rises to 0.12 mol. pH = 4.74 + log(0.080/0.12) = 4.74 − 0.18 = 4.56."
+  },
+  "misconceptions": [
+   [
+    "“A strong acid is the same as a concentrated acid.”",
+    "Strength is about ionizing fully; concentration is about how much is dissolved."
+   ],
+   [
+    "“The equivalence point is always at pH 7.”",
+    "Only for a strong acid with a strong base; a weak acid gives pH > 7."
+   ],
+   [
+    "“A buffer keeps the pH from changing at all.”",
+    "It keeps the pH change small, and only until its capacity is used up."
+   ],
+   [
+    "“Higher pKa means a stronger acid.”",
+    "Lower pKa (larger Ka) means stronger."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Chemistry Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+  "sourceTitle": "AP Chemistry – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "chem-u8-q01",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-strong",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the pH of 0.010 M HCl?",
+   "choices": [
+    "12.00",
+    "0.010",
+    "2.00",
+    "1.00"
+   ],
+   "correctAnswer": 2,
+   "explanation": "HCl is a strong acid, so [H₃O⁺] = 0.010 M and pH = −log(0.010) = 2.00.",
+   "choiceExplanations": [
+    "12.00 is the pOH.",
+    "0.010 is the concentration, not the pH.",
+    "",
+    "1.00 would be the pH of 0.10 M HCl."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q02",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-strong",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A solution at 25 °C has [H₃O⁺] = 1.0 × 10⁻⁴ M. What is its pOH?",
+   "choices": [
+    "1.0 × 10⁻¹⁰",
+    "4.00",
+    "14.00",
+    "10.00"
+   ],
+   "correctAnswer": 3,
+   "explanation": "pH = 4.00, so pOH = 14.00 − 4.00 = 10.00.",
+   "choiceExplanations": [
+    "1.0 × 10⁻¹⁰ M is [OH⁻], not the pOH.",
+    "4.00 is the pH.",
+    "14.00 is the sum pH + pOH.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q03",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-strong",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the pH of 0.0050 M Ba(OH)₂ at 25 °C?",
+   "choices": [
+    "11.70",
+    "12.00",
+    "2.30",
+    "2.00"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Each Ba(OH)₂ releases two OH⁻: [OH⁻] = 0.010 M, pOH = 2.00, and pH = 12.00.",
+   "choiceExplanations": [
+    "11.70 forgets that each formula unit releases two OH⁻ ions.",
+    "",
+    "2.30 is the pOH from using 0.0050 M OH⁻, which misses the factor of 2 and stops at pOH.",
+    "2.00 is the pOH, not the pH."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q04",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-strong",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the conjugate base of HSO₄⁻?",
+   "choices": [
+    "SO₄²⁻",
+    "HSO₄",
+    "OH⁻",
+    "H₂SO₄"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A conjugate base has one fewer H⁺: HSO₄⁻ − H⁺ = SO₄²⁻.",
+   "choiceExplanations": [
+    "",
+    "Removing H⁺ also removes a positive charge, so the charge must become 2−.",
+    "OH⁻ is water's conjugate base.",
+    "H₂SO₄ is HSO₄⁻'s conjugate acid."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q05",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-strong",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which statement about 0.10 M HCl and 0.10 M HF is true? (HF is a weak acid.)",
+   "choices": [
+    "They have the same pH, because their concentrations are equal",
+    "HF has the lower pH, because fluorine is more electronegative",
+    "HF is a stronger acid because it is more concentrated",
+    "HCl has the lower pH, because it ionizes completely"
+   ],
+   "correctAnswer": 3,
+   "explanation": "HCl ionizes completely, giving 0.10 M H₃O⁺. HF ionizes only partly, so its [H₃O⁺] is much lower and its pH higher.",
+   "choiceExplanations": [
+    "Equal concentrations of acid don't give equal [H₃O⁺] when one is weak.",
+    "Despite fluorine's electronegativity, the strong H–F bond makes HF weak.",
+    "Both solutions have the same concentration.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q06",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-weak",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the pH of a 0.10 M solution of a weak acid with Ka = 1.0 × 10⁻⁵?",
+   "choices": [
+    "5.00",
+    "3.00",
+    "6.00",
+    "1.00"
+   ],
+   "correctAnswer": 1,
+   "explanation": "[H₃O⁺] ≈ √(Ka·C) = √(1.0 × 10⁻⁶) = 1.0 × 10⁻³ M, so pH = 3.00.",
+   "choiceExplanations": [
+    "5.00 is the pKa.",
+    "",
+    "6.00 is −log(Ka·C), which forgets the square root.",
+    "1.00 treats the acid as strong (fully ionized)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q07",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-weak",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which acid is strongest?",
+   "choices": [
+    "An acid with pKa = 7.2",
+    "An acid with pKa = 4.8",
+    "An acid with pKa = 9.3",
+    "An acid with pKa = 2.1"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Smaller pKa means larger Ka, so the acid with pKa 2.1 ionizes the most.",
+   "choiceExplanations": [
+    "pKa 7.2 is a weaker acid still.",
+    "pKa 4.8 means a smaller Ka than pKa 2.1.",
+    "pKa 9.3 is the weakest of these.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q08",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-weak",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A weak acid is titrated with NaOH. What is the pH at the equivalence point?",
+   "choices": [
+    "Greater than 7",
+    "Exactly 7",
+    "Equal to the pKa",
+    "Less than 7"
+   ],
+   "correctAnswer": 0,
+   "explanation": "At equivalence the acid has all become its conjugate base, which reacts with water to make OH⁻.",
+   "choiceExplanations": [
+    "",
+    "pH 7 at equivalence happens for a strong acid with a strong base.",
+    "pH = pKa at the half-equivalence point, not at equivalence.",
+    "Below 7 happens for a weak base titrated with a strong acid."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q09",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-weak",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "During the titration of a weak acid HA with NaOH, what is true at the half-equivalence point?",
+   "choices": [
+    "pH = 7",
+    "pH = pKa, because [HA] = [A⁻]",
+    "All of the HA has reacted",
+    "pH = 14 − pKa"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Half of the HA has turned into A⁻, so [A⁻]/[HA] = 1 and pH = pKa + log 1 = pKa.",
+   "choiceExplanations": [
+    "pH 7 isn't special in a weak acid titration.",
+    "",
+    "All HA has reacted only at the equivalence point.",
+    "14 − pKa doesn't apply here."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q10",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-weak",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Acetic acid has Ka = 1.8 × 10⁻⁵. What is Kb of the acetate ion at 25 °C?",
+   "choices": [
+    "5.6 × 10⁴",
+    "1.8 × 10⁻¹⁹",
+    "5.6 × 10⁻¹⁰",
+    "1.8 × 10⁻⁵"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Kb = Kw/Ka = (1.0 × 10⁻¹⁴)/(1.8 × 10⁻⁵) = 5.6 × 10⁻¹⁰.",
+   "choiceExplanations": [
+    "This is 1/Ka, which leaves out Kw.",
+    "This multiplies Kw by Ka instead of dividing.",
+    "",
+    "This is Ka, not Kb."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q11",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-buffer",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which mixture is a buffer?",
+   "choices": [
+    "Equal moles of HCl and NaOH",
+    "CH₃COOH and CH₃COONa",
+    "NaOH and NaCl",
+    "HCl and NaCl"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A buffer needs a weak acid and its conjugate base; acetic acid and acetate are such a pair.",
+   "choiceExplanations": [
+    "Equal moles of HCl and NaOH just make salt water.",
+    "",
+    "NaOH is a strong base with no weak acid partner.",
+    "HCl is a strong acid, and Cl⁻ is too weak a base to neutralize added acid."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q12",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-buffer",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A buffer has [A⁻]/[HA] = 10 and the acid's pKa is 4.74. What is its pH?",
+   "choices": [
+    "14.74",
+    "4.74",
+    "3.74",
+    "5.74"
+   ],
+   "correctAnswer": 3,
+   "explanation": "pH = pKa + log([A⁻]/[HA]) = 4.74 + log 10 = 5.74.",
+   "choiceExplanations": [
+    "14.74 adds 10 instead of log 10.",
+    "4.74 is the pH only when the ratio is 1.",
+    "3.74 inverts the ratio.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q13",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-buffer",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Buffer X is 1.0 M HA and 1.0 M A⁻. Buffer Y is 0.10 M HA and 0.10 M A⁻. Which statement is true?",
+   "choices": [
+    "They have the same pH and the same buffer capacity",
+    "Y has the greater buffer capacity, because it is more dilute",
+    "They have the same pH, but X has the greater buffer capacity",
+    "X has the lower pH, because it is more concentrated"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Both have [A⁻]/[HA] = 1, so pH = pKa for both. X has ten times as much acid and base to neutralize additions.",
+   "choiceExplanations": [
+    "Capacity depends on the amounts, which differ by a factor of 10.",
+    "A more dilute buffer runs out of acid or base sooner.",
+    "",
+    "The pH depends on the ratio, which is the same."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q14",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-buffer",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A 1.0 L buffer contains 0.10 mol HA and 0.10 mol A⁻ (pKa = 4.74). What is the pH after 0.020 mol HCl is added?",
+   "choices": [
+    "1.70",
+    "4.56",
+    "4.74",
+    "4.92"
+   ],
+   "correctAnswer": 1,
+   "explanation": "H₃O⁺ converts A⁻ to HA: A⁻ = 0.080 mol and HA = 0.12 mol. pH = 4.74 + log(0.080/0.12) = 4.56.",
+   "choiceExplanations": [
+    "1.70 is the pH of 0.020 M HCl with no buffer.",
+    "",
+    "Adding acid lowers the pH a little; it doesn't stay exactly at pKa.",
+    "4.92 flips the ratio, as if base had been added."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q15",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-buffer",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "NaOH is added to a buffer of CH₃COOH and CH₃COO⁻. Which reaction keeps the pH from rising much?",
+   "choices": [
+    "OH⁻ + CH₃COOH → CH₃COO⁻ + H₂O",
+    "OH⁻ + CH₃COO⁻ → CH₃COOH + O²⁻",
+    "H₂O → H⁺ + OH⁻",
+    "Na⁺ + CH₃COO⁻ → CH₃COONa(s)"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The weak acid in the buffer neutralizes added hydroxide, turning it into water and more conjugate base.",
+   "choiceExplanations": [
+    "",
+    "Acetate is a base; it doesn't react with another base.",
+    "Water's ionization doesn't neutralize added OH⁻.",
+    "Sodium acetate is soluble, and Na⁺ is a spectator."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q16",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-struct",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which of these acetic acid derivatives is the strongest acid?",
+   "choices": [
+    "CCl₃COOH",
+    "CH₂ClCOOH",
+    "CH₃COOH",
+    "CHCl₂COOH"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Each Cl pulls electron density away from the –COOH group and stabilizes the conjugate base. Three Cl atoms have the largest effect.",
+   "choiceExplanations": [
+    "",
+    "One Cl atom has even less effect.",
+    "Acetic acid has no electron-withdrawing Cl atoms.",
+    "Two Cl atoms have less effect than three."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q17",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-struct",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Why is HClO₄ a much stronger acid than HClO?",
+   "choices": [
+    "HClO₄ contains more hydrogen atoms",
+    "Its O–H bond is stronger",
+    "Its extra oxygen atoms pull electron density from the O–H bond and spread out the negative charge on ClO₄⁻",
+    "ClO₄⁻ is a stronger base than ClO⁻"
+   ],
+   "correctAnswer": 2,
+   "explanation": "More electronegative O atoms on chlorine weaken the O–H bond and stabilize the conjugate base by delocalizing its charge.",
+   "choiceExplanations": [
+    "Both acids have one acidic hydrogen.",
+    "A stronger O–H bond would make the acid weaker.",
+    "",
+    "A stronger acid has a weaker conjugate base; ClO₄⁻ is a very weak base."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u8-q18",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "topicId": "c8-struct",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Lowering the pH increases the solubility of which salt?",
+   "choices": [
+    "CaF₂",
+    "AgI",
+    "AgCl",
+    "AgBr"
+   ],
+   "correctAnswer": 0,
+   "explanation": "F⁻ is the conjugate base of the weak acid HF, so H₃O⁺ removes F⁻ and more CaF₂ dissolves. Cl⁻, Br⁻, and I⁻ come from strong acids and aren't removed by H₃O⁺.",
+   "choiceExplanations": [
+    "",
+    "I⁻ comes from the strong acid HI.",
+    "Cl⁻ is the conjugate base of a strong acid, so acid doesn't remove it.",
+    "Br⁻ comes from the strong acid HBr."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-chem-u8-os1",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "title": "OpenStax Chemistry 2e, 14.2 pH and pOH",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "pH, pOH, and Kw (CED topics 8.1–8.2).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u8-os2",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "title": "OpenStax Chemistry 2e, 14.6 Buffers",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/14-6-buffers",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "How buffers work and the Henderson–Hasselbalch equation (CED topics 8.8–8.10).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/14-6-buffers",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u8-os3",
+   "courseId": "ap-chemistry",
+   "unitId": "u8",
+   "title": "OpenStax Chemistry 2e, 14.7 Acid-Base Titrations",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Titration curves and indicators (CED topic 8.5).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "chem-u8-q01",
+    "chem-u8-q02",
+    "chem-u8-q06",
+    "chem-u8-q07",
+    "chem-u8-q12",
+    "chem-u8-q13",
+    "chem-u8-q17",
+    "chem-u8-q18"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "chem-u8-q03",
+    "chem-u8-q04",
+    "chem-u8-q05",
+    "chem-u8-q08",
+    "chem-u8-q10",
+    "chem-u8-q11",
+    "chem-u8-q14",
+    "chem-u8-q16"
+   ]
+  }
+ ]
+}

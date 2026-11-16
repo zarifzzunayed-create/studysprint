@@ -1,0 +1,785 @@
+{
+ "courseId": "ap-macroeconomics",
+ "unitId": "u2",
+ "title": "Unit 2: Economic Indicators and the Business Cycle",
+ "topics": [
+  {
+   "id": "mac2-gdp",
+   "name": "GDP: measurement and limitations",
+   "covers": [
+    "The circular flow and GDP"
+   ],
+   "frameworkCovers": [
+    "2.1 The Circular Flow and GDP",
+    "2.2 Limitations of GDP"
+   ]
+  },
+  {
+   "id": "mac2-unemployment",
+   "name": "Unemployment",
+   "covers": [
+    "Unemployment"
+   ],
+   "frameworkCovers": [
+    "2.3 Unemployment"
+   ]
+  },
+  {
+   "id": "mac2-inflation",
+   "name": "Price indices, inflation, and its costs",
+   "covers": [
+    "Price indices and inflation"
+   ],
+   "frameworkCovers": [
+    "2.4 Price Indices and Inflation",
+    "2.5 Costs of Inflation"
+   ]
+  },
+  {
+   "id": "mac2-cycle",
+   "name": "Real GDP and the business cycle",
+   "covers": [
+    "Real vs. nominal GDP",
+    "Business cycles"
+   ],
+   "frameworkCovers": [
+    "2.6 Real v. Nominal GDP",
+    "2.7 Business Cycles"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Unit 2: Economic Indicators and the Business Cycle: review guide",
+  "intro": "This unit covers how economists measure an economy's performance: GDP, unemployment, and inflation, and how real GDP moves through the business cycle. Expect calculations (GDP, unemployment and participation rates, CPI, inflation, real values) and questions about what each measure leaves out.",
+  "sections": [
+   {
+    "id": "s-mac2-gdp",
+    "topicId": "mac2-gdp",
+    "title": "GDP: measurement and limitations",
+    "body": [
+     "Gross domestic product is the market value of all final goods and services produced within a country in a year. In the circular flow, households sell land, labor, and capital to firms in the factor market and buy goods and services in the product market, so total spending equals total income. GDP can be measured by expenditures (C + I + G + net exports, where net exports are exports minus imports), by income, or by value added at each stage of production.",
+     "GDP excludes intermediate goods (to avoid double counting), used goods, financial transactions such as stock purchases, transfer payments such as Social Security, and nonmarket activity such as unpaid household work. It also ignores leisure, environmental damage, and how income is distributed, so it is an imperfect measure of well-being."
+    ],
+    "points": [
+     "Imports are subtracted; transfer payments are not counted.",
+     "The sum of values added equals the price of the final good."
+    ]
+   },
+   {
+    "id": "s-mac2-unemployment",
+    "topicId": "mac2-unemployment",
+    "title": "Unemployment",
+    "body": [
+     "The labor force is the employed plus the unemployed (people without work who are actively looking). The unemployment rate is unemployed ÷ labor force × 100, and the labor force participation rate is labor force ÷ adult population × 100. Discouraged workers, who have stopped looking, are not in the labor force, so the measured rate understates joblessness; it also counts part-time workers who want full-time jobs as employed.",
+     "Frictional unemployment is short-term job searching; structural unemployment comes from a mismatch between workers' skills or locations and available jobs, such as after technological change; cyclical unemployment comes from a downturn in the business cycle. The natural rate of unemployment is frictional plus structural unemployment, the rate at full-employment output. It can change over time as the labor force changes. Cyclical unemployment is the difference between the actual rate and the natural rate."
+    ],
+    "points": [
+     "Full employment does not mean zero unemployment.",
+     "Discouraged workers leaving the labor force lower the measured rate."
+    ]
+   },
+   {
+    "id": "s-mac2-inflation",
+    "topicId": "mac2-inflation",
+    "title": "Price indices, inflation, and its costs",
+    "body": [
+     "The consumer price index compares the cost of a fixed market basket with its cost in the base year: CPI = (cost this year ÷ cost in the base year) × 100. The inflation rate is the percentage change in a price index such as the CPI or the GDP deflator. Deflation is a falling price level; disinflation is a falling inflation rate. Real values remove inflation: a real wage rises only if wages grow faster than prices. Because consumers substitute away from goods whose prices rise most while the basket stays fixed, the CPI tends to overstate inflation (substitution bias).",
+     "Unexpected inflation redistributes wealth arbitrarily: it hurts lenders and savers receiving fixed nominal payments and people on fixed incomes, and helps borrowers who repay with less valuable dollars."
+    ],
+    "points": [
+     "Inflation rate = (new index − old index) ÷ old index × 100.",
+     "% change in real wage ≈ % change in nominal wage − inflation rate."
+    ]
+   },
+   {
+    "id": "s-mac2-cycle",
+    "topicId": "mac2-cycle",
+    "title": "Real GDP and the business cycle",
+    "body": [
+     "Nominal GDP measures output at current prices; real GDP measures it at constant (base-year) prices, removing changes in the price level. Real GDP = nominal GDP ÷ GDP deflator × 100. If nominal GDP rises only as fast as the price level, real output has not grown.",
+     "Business cycles are fluctuations in real output and employment caused by changes in aggregate demand or aggregate supply. The phases are contraction and expansion; the turning points are the peak and the trough. Potential (full-employment) output is the level at which unemployment equals the natural rate. The output gap is actual minus potential output: a negative (recessionary) gap brings unemployment above the natural rate, and a positive (inflationary) gap brings it below."
+    ],
+    "points": [
+     "Real GDP = nominal GDP ÷ deflator × 100.",
+     "Peak and trough are turning points; contraction and expansion are phases."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A country's adult population is 50 million. Of these, 28.5 million are employed and 1.5 million are unemployed. Find the unemployment rate and the labor force participation rate.",
+   "solution": "The labor force is 28.5 + 1.5 = 30 million. Unemployment rate = 1.5 ÷ 30 × 100 = 5%. Participation rate = 30 ÷ 50 × 100 = 60%."
+  },
+  "misconceptions": [
+   [
+    "“GDP counts everything that is bought.”",
+    "It counts only final goods and services produced this year in the country; used goods, stocks, and transfers are excluded."
+   ],
+   [
+    "“Discouraged workers raise the unemployment rate.”",
+    "They are no longer in the labor force, so they lower the measured rate."
+   ],
+   [
+    "“A higher nominal GDP means the economy produced more.”",
+    "Higher prices alone can raise nominal GDP; check real GDP."
+   ],
+   [
+    "“Full employment means an unemployment rate of zero.”",
+    "At full employment, frictional and structural unemployment remain (the natural rate)."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Macroeconomics Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-macroeconomics-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+  "sourceTitle": "AP Macroeconomics – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-14"
+ },
+ "passages": [
+  {
+   "id": "mac2-t1",
+   "title": "Table: National accounts of Lakeland, in billions of dollars (hypothetical data)",
+   "text": [
+    "Consumption spending: 600",
+    "Gross private investment: 150",
+    "Government purchases of goods and services: 200",
+    "Exports: 80",
+    "Imports: 110",
+    "Government transfer payments: 90"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mac2-t2",
+   "title": "Table: Labor market of Rivia, in millions of people (hypothetical data)",
+   "text": [
+    "Adult population: 200",
+    "Employed: 114",
+    "Unemployed and actively seeking work: 6"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  },
+  {
+   "id": "mac2-t3",
+   "title": "Table: Output and prices in Coastia (hypothetical data)",
+   "text": [
+    "Year 1: nominal GDP $500 billion; GDP deflator 100",
+    "Year 2: nominal GDP $550 billion; GDP deflator 110"
+   ],
+   "attribution": "Hypothetical data created for StudySprint to practice economic analysis. The numbers are invented and do not describe any real economy.",
+   "sourceType": "original",
+   "isOriginal": true,
+   "licenseOrRights": "Original text written for StudySprint; it is not taken or adapted from any College Board exam."
+  }
+ ],
+ "questions": [
+  {
+   "id": "mac-u2-q01",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-gdp",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which of the following is counted in this year's U.S. GDP?",
+   "choices": [
+    "A new car built this year in Ohio by a Japanese-owned company",
+    "A Social Security payment made to a retiree this year",
+    "Shares of stock in a U.S. company bought this year",
+    "The full price paid this year for a used car bought from a neighbor"
+   ],
+   "correctAnswer": 0,
+   "explanation": "GDP counts final goods produced within the country this year, regardless of who owns the factory.",
+   "choiceExplanations": [
+    "",
+    "Transfer payments are not payments for current production, so they are excluded.",
+    "Buying stock is a financial transaction, not production of a good or service.",
+    "Used goods were counted when they were first produced, so resales are excluded."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u2-q02",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-gdp",
+   "skill": "1.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, what is Lakeland's GDP?",
+   "choices": [
+    "$1,030 billion",
+    "$1,010 billion",
+    "$920 billion",
+    "$1,140 billion"
+   ],
+   "correctAnswer": 2,
+   "explanation": "GDP = C + I + G + (exports − imports) = 600 + 150 + 200 + (80 − 110) = 920.",
+   "choiceExplanations": [
+    "This adds exports but forgets to subtract imports.",
+    "This adds transfer payments (90), which are not part of GDP.",
+    "",
+    "This adds imports instead of subtracting them."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac2-t1"
+  },
+  {
+   "id": "mac-u2-q03",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-gdp",
+   "skill": "1.D",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which of the following is a limitation of GDP as a measure of a society's well-being?",
+   "choices": [
+    "It leaves out nonmarket activities such as unpaid household work.",
+    "It measures output only at constant base-year prices, not current ones.",
+    "It counts only goods and leaves out services such as health care.",
+    "It counts intermediate goods twice, so it overstates total output."
+   ],
+   "correctAnswer": 0,
+   "explanation": "GDP counts only market transactions, so valuable unpaid work, leisure, and environmental quality are missed.",
+   "choiceExplanations": [
+    "",
+    "Nominal GDP uses current prices; only real GDP uses base-year prices.",
+    "GDP includes services as well as goods.",
+    "GDP counts only final goods precisely to avoid double counting intermediate goods."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u2-q04",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-gdp",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In the circular flow model, households sell resources such as labor to firms in the factor market and receive",
+   "choices": [
+    "transfer payments that are paid by the government",
+    "income in the form of wages, rent, interest, and profit",
+    "goods and services, which they receive in exchange for their payments",
+    "revenue from selling goods in the product market"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Households own the factors of production and receive income for them, which they spend in the product market.",
+   "choiceExplanations": [
+    "Transfer payments come from government and are not payment for resources.",
+    "",
+    "Households receive goods and services in the product market, not the factor market.",
+    "Firms, not households, earn revenue from selling goods in the product market."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u2-q05",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-gdp",
+   "skill": "3.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A farmer sells wheat to a miller for $1. The miller sells flour to a baker for $3, and the baker sells bread to consumers for $7. How much do these transactions add to GDP?",
+   "choices": [
+    "$3",
+    "$11",
+    "$4",
+    "$7"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Only the final good counts. The values added ($1 + $2 + $4) also sum to $7.",
+   "choiceExplanations": [
+    "$3 is the price of the flour, an intermediate good.",
+    "$11 adds every sale, double counting the wheat and flour inside the bread.",
+    "$4 is only the baker's value added, not the whole value of the bread.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u2-q06",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-unemployment",
+   "skill": "1.B",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A recent college graduate is spending a few weeks searching for her first job in her field. She is",
+   "choices": [
+    "frictionally unemployed",
+    "cyclically unemployed",
+    "not in the labor force",
+    "structurally unemployed"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Short-term unemployment while searching for a suitable job is frictional.",
+   "choiceExplanations": [
+    "",
+    "Cyclical unemployment comes from a downturn in the business cycle.",
+    "She is actively looking for work, so she is in the labor force.",
+    "Structural unemployment comes from a mismatch of skills or location with available jobs."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u2-q07",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-unemployment",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, what are Rivia's unemployment rate and labor force participation rate?",
+   "choices": [
+    "5% and 57%",
+    "3% and 57%",
+    "5% and 60%",
+    "3% and 60%"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The labor force is 114 + 6 = 120. Unemployment rate = 6 ÷ 120 = 5%; participation = 120 ÷ 200 = 60%.",
+   "choiceExplanations": [
+    "The participation rate divides the employed alone (114) by the population; it should include the unemployed.",
+    "These divide by the adult population: 6 ÷ 200 and 114 ÷ 200.",
+    "",
+    "The unemployment rate divides by the population (6 ÷ 200) instead of the labor force."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac2-t2"
+  },
+  {
+   "id": "mac-u2-q08",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-unemployment",
+   "skill": "2.A",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "If many unemployed people stop looking for work because they believe no jobs are available, the measured unemployment rate will",
+   "choices": [
+    "fall, because discouraged workers are no longer in the labor force",
+    "rise, because discouraged workers are counted among the unemployed",
+    "fall, because discouraged workers are counted among the employed",
+    "stay the same, because the size of the labor force does not change at all"
+   ],
+   "correctAnswer": 0,
+   "explanation": "People who stop searching leave the labor force, so they drop out of both the count of unemployed and the labor force, lowering the rate.",
+   "choiceExplanations": [
+    "",
+    "Discouraged workers are not counted as unemployed, because they are not looking for work.",
+    "Discouraged workers have no job, so they are not counted as employed.",
+    "The labor force shrinks when discouraged workers leave it."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u2-q09",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-unemployment",
+   "skill": "1.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Which statement about the natural rate of unemployment is correct?",
+   "choices": [
+    "It is the rate at which both cyclical and structural unemployment are equal to zero.",
+    "It equals frictional plus structural unemployment, at full-employment output.",
+    "It equals zero when the economy is producing at its full-employment level of output.",
+    "It is set by government policy and cannot change as the labor force changes."
+   ],
+   "correctAnswer": 1,
+   "explanation": "The natural rate is the unemployment that remains when cyclical unemployment is zero: frictional plus structural.",
+   "choiceExplanations": [
+    "Structural unemployment is part of the natural rate, so it is not zero at the natural rate.",
+    "",
+    "Frictional and structural unemployment remain at full employment, so the rate is above zero.",
+    "The natural rate can change gradually over time, for example as labor force characteristics change."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u2-q10",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-inflation",
+   "skill": "1.C",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A market basket of goods cost $200 in the base year and costs $230 this year. What is this year's consumer price index?",
+   "choices": [
+    "130",
+    "115",
+    "87",
+    "30"
+   ],
+   "correctAnswer": 1,
+   "explanation": "CPI = (230 ÷ 200) × 100 = 115.",
+   "choiceExplanations": [
+    "130 adds the $30 increase to 100 without dividing by the base-year cost.",
+    "",
+    "87 divides the base-year cost by this year's cost, which is inverted.",
+    "30 is the dollar increase in the basket's cost, not an index number."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u2-q11",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-inflation",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Over a year, a worker's nominal wage rises by 3% while the price level rises by 5%. What happened to the worker's real wage?",
+   "choices": [
+    "It rose by about 2%.",
+    "It did not change at all.",
+    "It rose by about 8%.",
+    "It fell by about 2%."
+   ],
+   "correctAnswer": 3,
+   "explanation": "Real wage change ≈ nominal wage change − inflation = 3% − 5% = −2%.",
+   "choiceExplanations": [
+    "Prices rose faster than wages, so purchasing power fell.",
+    "The wage rose by less than prices, so the real wage changed.",
+    "Adding the two rates is not how real values are found.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u2-q12",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-inflation",
+   "skill": "3.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which group is most likely to be hurt by unexpectedly high inflation?",
+   "choices": [
+    "Borrowers who repay fixed-rate loans",
+    "Workers whose wages rise faster than prices",
+    "Firms whose selling prices rise with inflation",
+    "Lenders who receive fixed-rate loan payments"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Unexpected inflation means fixed nominal repayments buy less, so lenders lose and borrowers gain.",
+   "choiceExplanations": [
+    "Borrowers gain, because they repay with dollars that are worth less.",
+    "If wages rise faster than prices, real wages increase.",
+    "Firms whose prices keep pace with inflation are protected from it.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u2-q13",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-inflation",
+   "skill": "1.D",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Why might the consumer price index overstate the true increase in the cost of living?",
+   "choices": [
+    "The CPI counts only goods produced in the current year, not imported goods.",
+    "Consumers switch to goods whose prices rose less, but the basket stays fixed.",
+    "The CPI includes the prices of goods that the country exports to other nations.",
+    "The CPI leaves out price increases for services, which tend to rise faster."
+   ],
+   "correctAnswer": 1,
+   "explanation": "Substitution bias: a fixed basket assumes people keep buying goods whose prices rose most, overstating the cost of maintaining their standard of living.",
+   "choiceExplanations": [
+    "The CPI includes imported goods that consumers buy; it is not limited to domestic production.",
+    "",
+    "The CPI is based on what consumers buy, not on exports.",
+    "The CPI basket includes services such as rent and medical care."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u2-q14",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-cycle",
+   "skill": "2.C",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Nominal GDP is $1,200 billion and the GDP deflator is 120. What is real GDP?",
+   "choices": [
+    "$10 billion",
+    "$1,440 billion",
+    "$1,080 billion",
+    "$1,000 billion"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Real GDP = nominal GDP ÷ deflator × 100 = 1,200 ÷ 120 × 100 = 1,000.",
+   "choiceExplanations": [
+    "This divides by 120 but forgets to multiply by 100.",
+    "This multiplies by the deflator (×1.2) instead of dividing.",
+    "This subtracts 120 from 1,200 instead of dividing by 1.20.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u2-q15",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-cycle",
+   "skill": "1.A",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The low point of a business cycle, where a contraction ends and an expansion begins, is called the",
+   "choices": [
+    "peak",
+    "contraction",
+    "trough",
+    "output gap"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The trough is the turning point at the bottom of the cycle.",
+   "choiceExplanations": [
+    "The peak is the high point, where an expansion ends.",
+    "A contraction is a phase, not a turning point.",
+    "",
+    "The output gap is the difference between actual and potential output."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "mac-u2-q16",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-cycle",
+   "skill": "2.C",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Based on the table, which statement about Coastia from Year 1 to Year 2 is correct?",
+   "choices": [
+    "Real GDP was unchanged; nominal GDP rose only because prices rose.",
+    "Real GDP rose by 5%, half of the percentage rise in nominal GDP.",
+    "Real GDP rose by 10%, the same percentage as the rise in nominal GDP.",
+    "Real GDP fell by 10%, because the price level rose by 10%."
+   ],
+   "correctAnswer": 0,
+   "explanation": "Real GDP is $500 billion in Year 1 (500 ÷ 100 × 100) and $500 billion in Year 2 (550 ÷ 110 × 100), so real output was unchanged.",
+   "choiceExplanations": [
+    "",
+    "Real GDP is 500 in both years; there is no 5% increase.",
+    "Nominal GDP rose 10%, but prices also rose 10%, so real GDP did not rise.",
+    "Prices and nominal GDP rose by the same percentage, so real GDP was unchanged, not lower."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14",
+   "passageId": "mac2-t3"
+  },
+  {
+   "id": "mac-u2-q17",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "topicId": "mac2-cycle",
+   "skill": "2.A",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Actual real GDP is $18 trillion and potential real GDP is $19 trillion. Which describes this economy?",
+   "choices": [
+    "A negative output gap, with unemployment below the natural rate",
+    "Full employment, because actual output is close to potential",
+    "A negative output gap, with unemployment above the natural rate",
+    "A positive output gap, with unemployment below the natural rate"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Output below potential is a negative (recessionary) gap, so there is cyclical unemployment and the rate is above the natural rate.",
+   "choiceExplanations": [
+    "With output below potential, cyclical unemployment pushes the rate above the natural rate, not below.",
+    "A $1 trillion shortfall is a recessionary gap, not full employment.",
+    "",
+    "A positive gap means output is above potential, but here it is below."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-macroeconomics",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-14); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-14"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-mac-u2-os1",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "title": "OpenStax Principles of Macroeconomics 3e, 6.1 Measuring the Size of the Economy: Gross Domestic Product",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/6-1-measuring-the-size-of-the-economy-gross-domestic-product",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on measuring GDP. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/6-1-measuring-the-size-of-the-economy-gross-domestic-product",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u2-os2",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "title": "OpenStax Principles of Macroeconomics 3e, 6.2 Adjusting Nominal Values to Real Values",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/6-2-adjusting-nominal-values-to-real-values",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on nominal and real values and the GDP deflator. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/6-2-adjusting-nominal-values-to-real-values",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u2-os3",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "title": "OpenStax Principles of Macroeconomics 3e, 8.1 How Economists Define and Compute Unemployment Rate",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/8-1-how-economists-define-and-compute-unemployment-rate",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on computing the unemployment rate. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/8-1-how-economists-define-and-compute-unemployment-rate",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  },
+  {
+   "id": "res-mac-u2-os4",
+   "courseId": "ap-macroeconomics",
+   "unitId": "u2",
+   "title": "OpenStax Principles of Macroeconomics 3e, 9.2 How to Measure Changes in the Cost of Living",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/principles-macroeconomics-3e/pages/9-2-how-to-measure-changes-in-the-cost-of-living",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "A free college macroeconomics textbook section on price indices such as the CPI. It is written for college courses, not for the AP exam specifically, and may use terms or graphs that differ from the AP course.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/principles-macroeconomics-3e/pages/9-2-how-to-measure-changes-in-the-cost-of-living",
+   "sourceTitle": "OpenStax Principles of Macroeconomics 3e",
+   "licenseOrRights": "Linked only. OpenStax lists Principles of Macroeconomics 3e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-14"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Each AP Macroeconomics free-response set has one long and two short questions that usually combine several units (for example, AD–AS with the money market or the foreign exchange market), so they are linked as whole released sets for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "mac-u2-q01",
+    "mac-u2-q02",
+    "mac-u2-q06",
+    "mac-u2-q07",
+    "mac-u2-q10",
+    "mac-u2-q11",
+    "mac-u2-q16",
+    "mac-u2-q17"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "mac-u2-q03",
+    "mac-u2-q04",
+    "mac-u2-q08",
+    "mac-u2-q09",
+    "mac-u2-q12",
+    "mac-u2-q13",
+    "mac-u2-q14",
+    "mac-u2-q15"
+   ]
+  }
+ ]
+}

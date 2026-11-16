@@ -238,7 +238,7 @@
         miss.forEach((a) => {
           const q = qOf(a.qid); if (!q) return;
           const ans = q.type === "multiple-choice" ? "ABCD"[q.correctAnswer] + ". " + q.choices[q.correctAnswer] : q.correctAnswer + " " + q.answerUnit;
-          panel.append(h("div", "guide-sec", h("h4", null, q.prompt), h("p", null, h("b", null, "Correct answer: "), ans), h("p", null, q.explanation),
+          panel.append(h("div", "guide-sec", SS.passageBlock(unit, q, true), h("h4", null, q.prompt), h("p", null, h("b", null, "Correct answer: "), ans), h("p", null, q.explanation),
             q.type === "multiple-choice" ? h("ul", null, q.choices.map((c, i) => (i === q.correctAnswer ? null : h("li", null, "ABCD"[i] + ". " + q.choiceExplanations[i])))) : null));
         });
         PL.t3 = PL.t3 || timer("explain"); panel.append(PL.t3);

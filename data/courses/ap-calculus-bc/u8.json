@@ -1,0 +1,408 @@
+{
+ "courseId": "ap-calculus-bc",
+ "unitId": "u8",
+ "title": "Unit 8: Applications of Integration",
+ "topics": [
+  {
+   "id": "b8-avg",
+   "name": "Average value, motion, and accumulation",
+   "covers": [
+    "Determining the average value of a function using definite integrals",
+    "Modeling particle motion",
+    "Solving accumulation problems"
+   ]
+  },
+  {
+   "id": "b8-area",
+   "name": "Area between curves",
+   "covers": [
+    "Finding the area between curves"
+   ]
+  },
+  {
+   "id": "b8-vol",
+   "name": "Volume and arc length",
+   "covers": [
+    "Determining volume with cross-sections, the disc method, and the washer method",
+    "Determining the length of a planar curve using a definite integral"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Applications of integration: review guide",
+  "intro": "Integrals add up small pieces. This unit uses that idea for average values, motion along a line, accumulation, the area between curves, volumes of solids, and (in BC) the length of a curve.",
+  "sections": [
+   {
+    "id": "s-b8-avg",
+    "topicId": "b8-avg",
+    "title": "Average value, motion, and accumulation",
+    "body": [
+     "The average value of f on [a, b] is (1/(b − a)) ∫ from a to b of f(x) dx.",
+     "For motion along a line, ∫ v(t) dt is the displacement and ∫ |v(t)| dt is the total distance. Position at time b = position at time a + ∫ from a to b of v(t) dt."
+    ],
+    "points": [
+     "For total distance, split the integral where v changes sign, or integrate |v|.",
+     "Average value is not the average of the endpoint values.",
+     "Always add the initial amount when finding an amount, not just a change."
+    ],
+    "equations": [
+     [
+      "f_avg = (1/(b − a)) ∫ₐᵇ f(x) dx",
+      "average value"
+     ],
+     [
+      "x(b) = x(a) + ∫ₐᵇ v(t) dt",
+      "position from velocity"
+     ]
+    ]
+   },
+   {
+    "id": "s-b8-area",
+    "topicId": "b8-area",
+    "title": "Area between curves",
+    "body": [
+     "Area = ∫ (top − bottom) dx between the curves' intersection points. If the curves cross inside the interval, split the integral so the difference stays positive.",
+     "When the region is easier to describe left-to-right, integrate in y: area = ∫ (right − left) dy."
+    ],
+    "points": [
+     "Find the intersection points first; they are usually the limits.",
+     "A negative result means top and bottom were reversed.",
+     "Curves given as x = g(y) usually call for integrating with respect to y."
+    ]
+   },
+   {
+    "id": "s-b8-vol",
+    "topicId": "b8-vol",
+    "title": "Volume and arc length",
+    "body": [
+     "Cross sections: V = ∫ A(x) dx, where A(x) is the area of a slice (for a square with side s, A = s²). Disc method: V = π ∫ R(x)² dx. Washer method: V = π ∫ (R(x)² − r(x)²) dx, with outer radius R and inner radius r.",
+     "Arc length (BC): the length of y = f(x) from a to b is ∫ from a to b of √(1 + f′(x)²) dx."
+    ],
+    "points": [
+     "Square each radius separately in the washer method: R² − r², not (R − r)².",
+     "Cross sections of a base region don't include π unless the slices are circles.",
+     "Measure radii from the axis of rotation."
+    ],
+    "equations": [
+     [
+      "V = π ∫ₐᵇ (R² − r²) dx",
+      "washer method"
+     ],
+     [
+      "L = ∫ₐᵇ √(1 + (f′(x))²) dx",
+      "arc length"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "The region between y = √x and the x-axis on [0, 4] is revolved about the x-axis. Find the volume.",
+   "solution": "Disc method with R = √x: V = π ∫ from 0 to 4 of x dx = π · 16/2 = 8π."
+  },
+  "misconceptions": [
+   [
+    "“∫ v dt gives the total distance.”",
+    "It gives displacement; total distance needs ∫ |v| dt."
+   ],
+   [
+    "“The washer method uses (R − r)².”",
+    "It subtracts the squared radii: R² − r²."
+   ],
+   [
+    "“The average value is (f(a) + f(b))/2.”",
+    "Use the integral divided by the interval's length."
+   ],
+   [
+    "“Arc length is ∫ f(x) dx.”",
+    "That's a signed area; arc length is ∫ √(1 + f′(x)²) dx."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+  "sourceTitle": "AP Calculus BC – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "cbc-u8-q01",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u8",
+   "topicId": "b8-avg",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the average value of f(x) = x² on [0, 3]?",
+   "choices": [
+    "9",
+    "2.25",
+    "4.5",
+    "3"
+   ],
+   "correctAnswer": 3,
+   "explanation": "(1/(3 − 0)) ∫ from 0 to 3 of x² dx = (1/3)(9) = 3.",
+   "choiceExplanations": [
+    "9 is the integral; it still needs dividing by the interval length 3.",
+    "2.25 is f(1.5), the value at the midpoint.",
+    "4.5 averages the endpoint values f(0) = 0 and f(3) = 9.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u8-q02",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u8",
+   "topicId": "b8-avg",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A particle's velocity is v(t) = t² − 4 for 0 ≤ t ≤ 3. What total distance does it travel?",
+   "choices": [
+    "5",
+    "3",
+    "23/3",
+    "−3"
+   ],
+   "correctAnswer": 2,
+   "explanation": "v changes sign at t = 2. Distance = ∫ from 0 to 2 of (4 − t²) dt + ∫ from 2 to 3 of (t² − 4) dt = 16/3 + 7/3 = 23/3.",
+   "choiceExplanations": [
+    "5 is v(3), the velocity at the end.",
+    "3 is the size of the displacement; it misses the backtracking.",
+    "",
+    "−3 is the displacement, ∫ from 0 to 3 of v dt."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u8-q03",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u8",
+   "topicId": "b8-avg",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A particle has velocity v(t) = 3t² − 2t and position x(0) = 5. What is x(2)?",
+   "choices": [
+    "8",
+    "9",
+    "4",
+    "13"
+   ],
+   "correctAnswer": 1,
+   "explanation": "x(2) = x(0) + ∫ from 0 to 2 of (3t² − 2t) dt = 5 + (8 − 4) = 9.",
+   "choiceExplanations": [
+    "8 is v(2), the velocity at t = 2.",
+    "",
+    "4 is the displacement only; it forgets the starting position 5.",
+    "13 adds v(2) to the starting position instead of integrating."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u8-q04",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u8",
+   "topicId": "b8-area",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the area of the region between y = x and y = x² for 0 ≤ x ≤ 1?",
+   "choices": [
+    "1/3",
+    "1/6",
+    "1/2",
+    "−1/6"
+   ],
+   "correctAnswer": 1,
+   "explanation": "On [0, 1], x ≥ x², so the area is ∫ from 0 to 1 of (x − x²) dx = 1/2 − 1/3 = 1/6.",
+   "choiceExplanations": [
+    "1/3 is the area under y = x² alone.",
+    "",
+    "1/2 is the area under y = x alone.",
+    "An area can't be negative; this subtracts the curves in the wrong order."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u8-q05",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u8",
+   "topicId": "b8-area",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the area of the region bounded by x = y² and x = y + 2?",
+   "choices": [
+    "9/2",
+    "−9/2",
+    "10/3",
+    "7/6"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The curves meet where y² = y + 2, at y = −1 and y = 2. The line is on the right, so the area is ∫ from −1 to 2 of (y + 2 − y²) dy = 9/2.",
+   "choiceExplanations": [
+    "",
+    "This subtracts in the wrong order; an area is positive.",
+    "10/3 integrates only from y = 0 to y = 2.",
+    "7/6 integrates only from y = −1 to y = 0."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u8-q06",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u8",
+   "topicId": "b8-vol",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The region under y = √x on [0, 4] is revolved about the x-axis. What is the volume of the solid?",
+   "choices": [
+    "8",
+    "16π",
+    "16π/3",
+    "8π"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Disc method: V = π ∫ from 0 to 4 of (√x)² dx = π ∫ from 0 to 4 of x dx = 8π.",
+   "choiceExplanations": [
+    "8 leaves out the π from each disc's area.",
+    "16π forgets the 1/2 in ∫ x dx = x²/2.",
+    "16π/3 integrates the radius √x instead of its square.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u8-q07",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u8",
+   "topicId": "b8-vol",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The region between y = x and y = x² on [0, 1] is revolved about the x-axis. What is the volume of the solid?",
+   "choices": [
+    "2π/15",
+    "2/15",
+    "π/6",
+    "π/30"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Washer method with R = x and r = x²: V = π ∫ from 0 to 1 of (x² − x⁴) dx = π(1/3 − 1/5) = 2π/15.",
+   "choiceExplanations": [
+    "",
+    "2/15 leaves out π.",
+    "π/6 multiplies the region's area by π, which isn't a volume formula.",
+    "π/30 squares the difference, (x − x²)², instead of subtracting the squares."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u8-q08",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u8",
+   "topicId": "b8-vol",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A solid's base is the region between y = 1 − x² and the x-axis. Cross sections perpendicular to the x-axis are squares. What is its volume?",
+   "choices": [
+    "16/15",
+    "8/15",
+    "4/3",
+    "16π/15"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Each square has side 1 − x², so V = ∫ from −1 to 1 of (1 − x²)² dx = 2∫ from 0 to 1 of (1 − 2x² + x⁴) dx = 2(8/15) = 16/15.",
+   "choiceExplanations": [
+    "",
+    "8/15 integrates only from 0 to 1, half the base.",
+    "4/3 is the area of the base, not the volume.",
+    "16π/15 is the volume when the region is revolved about the x-axis (disc method); square slices have no π."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u8-q09",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u8",
+   "topicId": "b8-vol",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is the length of the curve y = (2/3)x^(3/2) from x = 0 to x = 3?",
+   "choices": [
+    "16/3",
+    "2√3",
+    "15/2",
+    "14/3"
+   ],
+   "correctAnswer": 3,
+   "explanation": "y′ = √x, so L = ∫ from 0 to 3 of √(1 + x) dx = (2/3)(1 + x)^(3/2) from 0 to 3 = (2/3)(8 − 1) = 14/3.",
+   "choiceExplanations": [
+    "16/3 forgets to subtract the antiderivative's value at x = 0.",
+    "2√3 is y(3), the curve's rise, not its length.",
+    "15/2 integrates 1 + (y′)² without the square root.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "cbc-u8-q01",
+    "cbc-u8-q02",
+    "cbc-u8-q03",
+    "cbc-u8-q04",
+    "cbc-u8-q05",
+    "cbc-u8-q06",
+    "cbc-u8-q08",
+    "cbc-u8-q09"
+   ]
+  }
+ ]
+}

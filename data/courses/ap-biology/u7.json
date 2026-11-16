@@ -1,0 +1,810 @@
+{
+ "courseId": "ap-biology",
+ "unitId": "u7",
+ "title": "Unit 7: Natural Selection",
+ "topics": [
+  {
+   "id": "bio7-select",
+   "name": "Natural and artificial selection",
+   "covers": [
+    "Natural and aritificial selection"
+   ],
+   "frameworkCovers": [
+    "7.1 Introduction to Natural Selection",
+    "7.2 Natural Selection",
+    "7.3 Artificial Selection"
+   ]
+  },
+  {
+   "id": "bio7-popgen",
+   "name": "Population genetics and Hardy–Weinberg equilibrium",
+   "covers": [
+    "Population genetics"
+   ],
+   "frameworkCovers": [
+    "7.4 Population Genetics",
+    "7.5 Hardy–Weinberg Equilibrium"
+   ]
+  },
+  {
+   "id": "bio7-evidence",
+   "name": "Evidence of evolution and common ancestry",
+   "covers": [
+    "Evidence of evolution and common ancestry"
+   ],
+   "frameworkCovers": [
+    "7.6 Evidence of Evolution",
+    "7.7 Common Ancestry",
+    "7.8 Continuing Evolution"
+   ]
+  },
+  {
+   "id": "bio7-phylo",
+   "name": "Phylogeny, speciation, variation, and the origin of life",
+   "covers": [
+    "Phylogeny",
+    "Speciation and variations in populations",
+    "Origin of life on Earth"
+   ],
+   "frameworkCovers": [
+    "7.9 Phylogeny",
+    "7.10 Speciation",
+    "7.11 Variations in Populations",
+    "7.12 Origins of Life on Earth"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Natural selection: review guide",
+  "intro": "Evolution is change in the genetic makeup of populations over time. This unit explains natural and artificial selection, measures evolution with population genetics and the Hardy–Weinberg equations, reviews the evidence for common ancestry, and covers phylogeny, speciation, and the origin of life.",
+  "sections": [
+   {
+    "id": "s-bio7-select",
+    "topicId": "bio7-select",
+    "title": "Natural and artificial selection",
+    "body": [
+     "Natural selection needs heritable variation, more offspring than can survive, and differences in reproductive success. Individuals whose heritable traits suit the environment leave more offspring, so those alleles become more common. Selection acts on phenotypes; populations, not individuals, evolve. Fitness means reproductive success.",
+     "Selection can be directional (favoring one extreme), stabilizing (favoring intermediate values, as with human birth weight), or disruptive (favoring both extremes). In artificial selection, humans choose which individuals breed, as with crops and dog breeds."
+    ],
+    "points": [
+     "Antibiotics don't cause resistance mutations; they select resistant variants that already exist.",
+     "Changes in the environment change which traits are favored.",
+     "Variation comes from mutation and sexual reproduction."
+    ]
+   },
+   {
+    "id": "s-bio7-popgen",
+    "topicId": "bio7-popgen",
+    "title": "Population genetics and Hardy–Weinberg equilibrium",
+    "body": [
+     "Allele frequencies change by natural selection, genetic drift (random change, strongest in small populations, as after a bottleneck or in a founder population), gene flow (migration), mutation, and nonrandom mating.",
+     "Hardy–Weinberg equilibrium is the null model of no evolution: p + q = 1 and p² + 2pq + q² = 1, where p and q are allele frequencies. It requires a large population, random mating, and no selection, mutation, or migration. Finding q² from the recessive phenotype's frequency lets you calculate everything else."
+    ],
+    "points": [
+     "q = √(frequency of the recessive phenotype).",
+     "Gene flow makes populations more similar to each other.",
+     "Genetic drift can remove alleles regardless of their usefulness."
+    ],
+    "equations": [
+     [
+      "p + q = 1",
+      "allele frequencies"
+     ],
+     [
+      "p² + 2pq + q² = 1",
+      "genotype frequencies"
+     ]
+    ]
+   },
+   {
+    "id": "s-bio7-evidence",
+    "topicId": "bio7-evidence",
+    "title": "Evidence of evolution and common ancestry",
+    "body": [
+     "Evidence includes the fossil record (deeper layers are generally older), homologous structures (similar structure from a common ancestor, such as the bones of a human arm and a whale flipper), vestigial structures, and molecular similarities: species that share more of their DNA or protein sequences share a more recent common ancestor. All life shares features such as DNA, the genetic code, and ribosomes.",
+     "Evolution continues today: pathogens evolve resistance to drugs, and new disease strains emerge. Analogous structures (such as bird and insect wings) come from convergent evolution, not close common ancestry."
+    ],
+    "points": [
+     "Homologous: shared ancestry. Analogous: similar function, separate origins.",
+     "Fewer molecular differences means a more recent common ancestor.",
+     "Ongoing evolution can be observed in organisms with short generation times."
+    ]
+   },
+   {
+    "id": "s-bio7-phylo",
+    "topicId": "bio7-phylo",
+    "title": "Phylogeny, speciation, variation, and the origin of life",
+    "body": [
+     "Phylogenetic trees and cladograms show hypothesized relationships based on shared derived characters; each node is a most recent common ancestor. Molecular data are often the most reliable evidence. A biological species is a group that can interbreed and produce fertile offspring. New species form when populations become reproductively isolated, often after geographic separation (allopatric speciation). Prezygotic barriers (different habitats, mating times, or behaviors) prevent mating or fertilization; postzygotic barriers (such as sterile hybrids like mules) act afterward.",
+     "Populations with more genetic variation are more likely to have some individuals that survive environmental change, such as a new disease. Hypotheses about the origin of life propose that organic molecules formed from inorganic ones under early-Earth conditions (shown in laboratory experiments) and that RNA, which can both store information and catalyze reactions, may have been the first genetic material."
+    ],
+    "points": [
+     "The closer two branches join, the more closely related the groups.",
+     "Low genetic diversity makes a population vulnerable.",
+     "The Earth is about 4.6 billion years old; the oldest evidence of life is about 3.5 billion years old."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "In a population at Hardy–Weinberg equilibrium, 16% of individuals show a recessive phenotype. What percent are heterozygous?",
+   "solution": "q² = 0.16, so q = 0.4 and p = 0.6. Heterozygotes: 2pq = 2(0.6)(0.4) = 0.48, or 48%."
+  },
+  "misconceptions": [
+   [
+    "“Individuals evolve.”",
+    "Populations evolve; individuals don't change their genes."
+   ],
+   [
+    "“Organisms develop traits because they need them.”",
+    "Selection acts on existing variation; it doesn't create traits on demand."
+   ],
+   [
+    "“Humans evolved from chimpanzees.”",
+    "Humans and chimpanzees share a common ancestor."
+   ],
+   [
+    "“Hardy–Weinberg describes most real populations.”",
+    "It's a null model; real populations usually deviate from it."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Biology Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+  "sourceTitle": "AP Biology – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "bio-u7-q01",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-select",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What does natural selection act on directly?",
+   "choices": [
+    "The needs of a species",
+    "Only traits that are not inherited",
+    "Individuals' DNA sequences directly, changing them",
+    "Individuals' phenotypes, which affect their survival and reproduction"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Selection favors phenotypes; because they are heritable, the underlying alleles become more common.",
+   "choiceExplanations": [
+    "Selection doesn't respond to needs; it acts on existing variation.",
+    "Only heritable traits are passed to the next generation.",
+    "Selection doesn't edit DNA; mutation is the source of new variation.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q02",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-select",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Farmers breed only the cows that give the most milk, and milk production rises over many generations. What is this?",
+   "choices": [
+    "Artificial selection",
+    "Gene flow",
+    "Genetic drift",
+    "Natural selection by predators"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Humans choose which individuals reproduce, based on a desired trait.",
+   "choiceExplanations": [
+    "",
+    "Gene flow is the movement of alleles between populations.",
+    "Drift is random change in allele frequencies.",
+    "Here humans, not the environment, do the selecting."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q03",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-select",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A population of bacteria is treated with an antibiotic, and soon most survivors are resistant. What is the best explanation?",
+   "choices": [
+    "All the bacteria were resistant from the start",
+    "The bacteria learned to avoid the antibiotic",
+    "A few bacteria already had resistance alleles; they survived and reproduced",
+    "The antibiotic caused the bacteria to develop resistance"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The antibiotic killed susceptible cells and selected for existing resistant variants, which multiplied.",
+   "choiceExplanations": [
+    "Most bacteria died, so most weren't resistant at first.",
+    "Bacteria don't learn; inherited traits are selected.",
+    "",
+    "The antibiotic doesn't create the mutations; it selects among existing ones."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q04",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-select",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In evolutionary biology, what does an individual's fitness measure?",
+   "choices": [
+    "Its physical strength",
+    "Its reproductive success: how many surviving, fertile offspring it leaves",
+    "Its size compared with others",
+    "How long it lives"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Fitness is about passing on genes; long life or strength matters only if it leads to more offspring.",
+   "choiceExplanations": [
+    "Strength matters only if it increases reproduction.",
+    "",
+    "Size matters only if it affects reproduction.",
+    "A long-lived individual with no offspring has low fitness."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q05",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-select",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Human babies of very low and very high birth weight have lower survival than babies of average weight. What kind of selection is this?",
+   "choices": [
+    "Directional selection",
+    "Stabilizing selection",
+    "Disruptive selection",
+    "Artificial selection"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Selection against both extremes favors intermediate values and narrows the range.",
+   "choiceExplanations": [
+    "Directional selection would favor one extreme.",
+    "",
+    "Disruptive selection favors both extremes over the middle.",
+    "No human is choosing which babies survive."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q06",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-popgen",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In which population does genetic drift change allele frequencies the most?",
+   "choices": [
+    "A population with a lot of gene flow",
+    "A large population",
+    "A small population",
+    "A population with random mating"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Chance events have a bigger effect on allele frequencies when there are few individuals.",
+   "choiceExplanations": [
+    "Gene flow tends to counter drift by bringing in alleles.",
+    "In large populations random effects average out.",
+    "",
+    "Random mating doesn't make drift stronger."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q07",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-popgen",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a population at Hardy–Weinberg equilibrium, 16% of individuals show the recessive phenotype. What fraction is heterozygous?",
+   "choices": [
+    "0.24",
+    "0.16",
+    "0.48",
+    "0.36"
+   ],
+   "correctAnswer": 2,
+   "explanation": "q² = 0.16, so q = 0.4 and p = 0.6; 2pq = 2(0.6)(0.4) = 0.48.",
+   "choiceExplanations": [
+    "0.24 is pq, forgetting the 2.",
+    "0.16 is the recessive homozygotes.",
+    "",
+    "0.36 is p², the dominant homozygotes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q08",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-popgen",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which situation would cause a population to deviate from Hardy–Weinberg equilibrium?",
+   "choices": [
+    "Individuals mate preferentially with others that look like them",
+    "There is no migration",
+    "No new mutations occur",
+    "The population is very large"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Hardy–Weinberg requires random mating; nonrandom mating changes genotype frequencies.",
+   "choiceExplanations": [
+    "",
+    "No migration is one of the conditions.",
+    "No mutation is one of the conditions.",
+    "A large population is one of the conditions."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q09",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-popgen",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In a population of 1000 at Hardy–Weinberg equilibrium, the frequency of the dominant allele is 0.7. How many individuals are homozygous dominant?",
+   "choices": [
+    "90",
+    "420",
+    "490",
+    "700"
+   ],
+   "correctAnswer": 2,
+   "explanation": "p² = 0.7² = 0.49, and 0.49 × 1000 = 490.",
+   "choiceExplanations": [
+    "90 is the number of homozygous recessives (q² × 1000).",
+    "420 is the number of heterozygotes (2pq × 1000).",
+    "",
+    "700 uses p instead of p²."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q10",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-popgen",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Pollen is carried regularly between two populations of the same plant species. Over time, what happens to their allele frequencies?",
+   "choices": [
+    "They become more different",
+    "They don't change at all",
+    "Both populations lose all variation",
+    "They become more similar, because of gene flow"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Moving alleles between populations mixes their gene pools.",
+   "choiceExplanations": [
+    "Gene flow counteracts divergence.",
+    "Gene flow changes allele frequencies.",
+    "Gene flow adds variation rather than removing it.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q11",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-evidence",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The bones of a human arm, a whale flipper, and a bat wing have a similar arrangement. What does this suggest?",
+   "choices": [
+    "They evolved the same bones independently",
+    "They live in similar habitats",
+    "Their bones have the same function",
+    "These species share a common ancestor (the structures are homologous)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Homologous structures share a basic plan inherited from a common ancestor, even when their functions differ.",
+   "choiceExplanations": [
+    "Independent origins would explain analogous structures, not a shared bone plan.",
+    "Their habitats are very different.",
+    "Their functions differ: lifting, swimming, and flying.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q12",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-evidence",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Bird wings and insect wings both allow flight but are built very differently. What does this indicate?",
+   "choices": [
+    "Birds and insects are very closely related",
+    "Convergent evolution: the wings are analogous, not inherited from a winged common ancestor",
+    "The wings are homologous structures",
+    "Wings evolved only once"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Similar function with different structure points to separate evolutionary origins under similar selective pressures.",
+   "choiceExplanations": [
+    "Birds and insects are distantly related.",
+    "",
+    "Homologous structures share an underlying structure.",
+    "These wings evolved separately."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q13",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-evidence",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Species A and B differ by 2 amino acids in a protein, while species A and C differ by 20. What can you conclude?",
+   "choices": [
+    "A and B probably share a more recent common ancestor than A and C",
+    "All three are equally related",
+    "The protein evolved only in species C",
+    "A and C are more closely related"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Differences accumulate over time, so fewer differences suggests a more recent split.",
+   "choiceExplanations": [
+    "",
+    "The numbers of differences are very different.",
+    "All three species have the protein.",
+    "More differences means a more distant relationship."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q14",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-evidence",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which observation shows that evolution is still happening today?",
+   "choices": [
+    "New flu strains and drug-resistant bacteria keep appearing",
+    "Fossils are found in rock layers",
+    "Whales have pelvic bones",
+    "All organisms use DNA"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Pathogens with short generation times evolve in response to vaccines, drugs, and immune defenses.",
+   "choiceExplanations": [
+    "",
+    "Fossils show past evolution.",
+    "Vestigial structures show past evolution.",
+    "A shared genetic material shows common ancestry, not current change."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q15",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-evidence",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A protein differs from the human version by 1 amino acid in species X, 12 in species Y, and 44 in species Z. Which list orders the species from the most recent to the least recent common ancestor shared with humans?",
+   "choices": [
+    "X, Z, Y",
+    "Y, X, Z",
+    "Z, Y, X",
+    "X, Y, Z"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The fewer the differences, the more recently the species shared an ancestor with humans: X (1), then Y (12), then Z (44).",
+   "choiceExplanations": [
+    "Z has more differences than Y.",
+    "Y has more differences than X.",
+    "This reverses the order.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q16",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-phylo",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "On a phylogenetic tree, what does a node (branch point) represent?",
+   "choices": [
+    "The exact date a species formed",
+    "A species that is alive today",
+    "The most recent common ancestor of the groups that branch from it",
+    "An extinct species with no descendants"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Each node is a hypothesized common ancestor where lineages split.",
+   "choiceExplanations": [
+    "Most trees show relationships, not exact dates.",
+    "Living species are at the tips of the branches.",
+    "",
+    "Nodes have descendants: the branches that come from them."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q17",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-phylo",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A river changes course and splits a population of mice into two groups that can no longer meet. Over many generations they become separate species. What is this?",
+   "choices": [
+    "Gene flow",
+    "Allopatric speciation",
+    "Artificial selection",
+    "Sympatric speciation"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Geographic separation blocks gene flow, so the populations diverge until they are reproductively isolated.",
+   "choiceExplanations": [
+    "The river stops gene flow.",
+    "",
+    "No humans chose which mice bred.",
+    "Sympatric speciation happens without geographic separation."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q18",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-phylo",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A horse and a donkey can mate, but their offspring, mules, are sterile. What kind of reproductive barrier is this?",
+   "choices": [
+    "A prezygotic barrier (behavioral isolation)",
+    "A prezygotic barrier (temporal isolation)",
+    "Geographic isolation",
+    "A postzygotic barrier (hybrid sterility)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Fertilization happens, but the hybrids can't reproduce, so the barrier acts after the zygote forms.",
+   "choiceExplanations": [
+    "They do mate, so behavior isn't blocking them.",
+    "The species mate successfully, so timing isn't blocking them.",
+    "The barrier here is biological, not geographic.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q19",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-phylo",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A new disease spreads through two populations of the same species. Population P has high genetic diversity and population Q has very low diversity. Which is more likely to survive?",
+   "choices": [
+    "P, because some individuals are more likely to have alleles that help them resist the disease",
+    "Both equally, because they are the same species",
+    "Neither, because diseases kill all individuals",
+    "Q, because its individuals are all alike"
+   ],
+   "correctAnswer": 0,
+   "explanation": "More variation makes it more likely that some individuals can survive and reproduce under the new condition.",
+   "choiceExplanations": [
+    "",
+    "Genetic diversity matters, even within a species.",
+    "Diseases rarely kill every individual in a varied population.",
+    "If one individual in Q is susceptible, nearly all are."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u7-q20",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "topicId": "bio7-phylo",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Why do many scientists think RNA may have been the first genetic material?",
+   "choices": [
+    "Proteins can't store information, so RNA must have been first",
+    "RNA can store information and also catalyze chemical reactions",
+    "RNA is made only in modern cells",
+    "RNA is more stable than DNA"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Some RNA molecules (ribozymes) act as catalysts, so early RNA could have copied itself without proteins.",
+   "choiceExplanations": [
+    "That alone wouldn't explain why RNA came before DNA.",
+    "",
+    "RNA is found in all cells; this says nothing about its origin.",
+    "DNA is more stable than RNA."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-bio-u7-os1",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "title": "OpenStax Biology for AP® Courses, 19.2 Population Genetics",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/19-2-population-genetics",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Allele frequencies and Hardy–Weinberg equilibrium (CED topics 7.4–7.5).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/19-2-population-genetics",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u7-os2",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "title": "OpenStax Biology for AP® Courses, 18.2 Formation of New Species",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/18-2-formation-of-new-species",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Reproductive isolation and speciation (CED topic 7.10).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/18-2-formation-of-new-species",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u7-os3",
+   "courseId": "ap-biology",
+   "unitId": "u7",
+   "title": "OpenStax Biology for AP® Courses, 20.2 Determining Evolutionary Relationships",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/20-2-determining-evolutionary-relationships",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Building phylogenetic trees (CED topic 7.9).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/20-2-determining-evolutionary-relationships",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "bio-u7-q01",
+    "bio-u7-q02",
+    "bio-u7-q06",
+    "bio-u7-q07",
+    "bio-u7-q12",
+    "bio-u7-q15",
+    "bio-u7-q17",
+    "bio-u7-q20"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "bio-u7-q03",
+    "bio-u7-q05",
+    "bio-u7-q08",
+    "bio-u7-q09",
+    "bio-u7-q11",
+    "bio-u7-q14",
+    "bio-u7-q16",
+    "bio-u7-q18"
+   ]
+  }
+ ]
+}

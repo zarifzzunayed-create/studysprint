@@ -1,0 +1,754 @@
+{
+ "courseId": "ap-biology",
+ "unitId": "u2",
+ "title": "Unit 2: Cells",
+ "topics": [
+  {
+   "id": "bio2-struct",
+   "name": "Cell structure, function, and size",
+   "covers": [
+    "Cellular structure and functions",
+    "Cell size"
+   ],
+   "frameworkCovers": [
+    "2.1 Cell Structure and Function",
+    "2.2 Cell Size"
+   ]
+  },
+  {
+   "id": "bio2-membrane",
+   "name": "The plasma membrane and transport",
+   "covers": [
+    "Cellular interactions with its environment",
+    "Plasma membrane and membrane transport"
+   ],
+   "frameworkCovers": [
+    "2.3 Plasma Membrane",
+    "2.4 Membrane Permeability",
+    "2.5 Membrane Transport",
+    "2.6 Facilitated Diffusion",
+    "2.8 Mechanisms of Transport"
+   ]
+  },
+  {
+   "id": "bio2-osmo",
+   "name": "Tonicity, water potential, and osmoregulation",
+   "covers": [
+    "Cell regulatory mechanisms (like osmosis and selective permeability)"
+   ],
+   "frameworkCovers": [
+    "2.4 Membrane Permeability",
+    "2.7 Tonicity and Osmoregulation"
+   ]
+  },
+  {
+   "id": "bio2-compart",
+   "name": "Compartmentalization and its origins",
+   "covers": [
+    "Cellular compartmentalization"
+   ],
+   "frameworkCovers": [
+    "2.9 Cell Compartmentalization",
+    "2.10 Origins of Cell Compartmentalization"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Cells: review guide",
+  "intro": "Cells are the basic units of life. This unit links organelles to their jobs, explains why cells are small, shows how the plasma membrane controls what enters and leaves, and describes how internal membranes divide the work of eukaryotic cells.",
+  "equationNote": "Solute potential: Ψs = −iCRT, with R = 0.0831 L·bar/(mol·K) and T in kelvins. Water potential: Ψ = Ψs + Ψp.",
+  "sections": [
+   {
+    "id": "s-bio2-struct",
+    "topicId": "bio2-struct",
+    "title": "Cell structure, function, and size",
+    "body": [
+     "Organelles have specific jobs: ribosomes make proteins; the rough ER (studded with ribosomes) makes proteins for membranes and secretion; the Golgi modifies and packages them; mitochondria carry out most of cellular respiration; chloroplasts carry out photosynthesis; lysosomes digest materials; vacuoles store water and other substances.",
+     "As a cell grows, its volume increases faster than its surface area, so its surface area-to-volume ratio falls. Exchange with the environment happens across the surface, so small cells, and shapes that are flat, thin, or folded (such as microvilli), exchange materials more efficiently."
+    ],
+    "points": [
+     "A cube with side s has SA = 6s² and V = s³, so SA/V = 6/s.",
+     "Cells that secrete lots of protein have lots of rough ER and Golgi.",
+     "Ribosomes are found in all cells, including prokaryotes."
+    ]
+   },
+   {
+    "id": "s-bio2-membrane",
+    "topicId": "bio2-membrane",
+    "title": "The plasma membrane and transport",
+    "body": [
+     "The plasma membrane is a phospholipid bilayer with embedded proteins (the fluid mosaic model). It is selectively permeable: small nonpolar molecules (O₂, CO₂) diffuse straight through, while ions and larger polar molecules need transport proteins.",
+     "Passive transport (simple diffusion, and facilitated diffusion through channels or carriers such as aquaporins) moves substances down their concentration gradient without using energy. Active transport, such as the Na⁺/K⁺ pump, uses energy (often ATP) to move substances against their gradient. Large materials enter by endocytosis and leave by exocytosis, in vesicles."
+    ],
+    "points": [
+     "Facilitated diffusion is still passive: no ATP.",
+     "Pumps create gradients; channels let substances run down them.",
+     "Cells secrete proteins such as insulin by exocytosis."
+    ]
+   },
+   {
+    "id": "s-bio2-osmo",
+    "topicId": "bio2-osmo",
+    "title": "Tonicity, water potential, and osmoregulation",
+    "body": [
+     "Water moves by osmosis toward the side with more solute. In a hypotonic solution a cell gains water (animal cells may burst; plant cells become firm against their walls). In a hypertonic solution it loses water (plant cells plasmolyze). In an isotonic solution there is no net movement.",
+     "Water potential (Ψ) predicts direction: water moves from higher to lower Ψ. Ψ = Ψs + Ψp; adding solute makes Ψs more negative (Ψs = −iCRT, where i is the number of particles each solute unit forms)."
+    ],
+    "points": [
+     "Pure water at atmospheric pressure has Ψ = 0.",
+     "Sucrose doesn't ionize (i = 1); NaCl gives i ≈ 2.",
+     "Freshwater protists use contractile vacuoles to pump out extra water."
+    ],
+    "equations": [
+     [
+      "Ψ = Ψs + Ψp",
+      "water potential"
+     ],
+     [
+      "Ψs = −iCRT",
+      "solute potential"
+     ]
+    ]
+   },
+   {
+    "id": "s-bio2-compart",
+    "topicId": "bio2-compart",
+    "title": "Compartmentalization and its origins",
+    "body": [
+     "Eukaryotic cells have membrane-bound organelles that separate incompatible reactions (for example, lysosomes keep digestive enzymes away from the rest of the cell) and provide large internal membrane surfaces, such as the folded inner membrane of a mitochondrion. Prokaryotes lack membrane-bound organelles but have ribosomes and a plasma membrane.",
+     "Endosymbiotic theory: mitochondria and chloroplasts descended from prokaryotes engulfed by an ancestral cell. Evidence: they have double membranes, their own circular DNA, and bacteria-like ribosomes, and they divide like bacteria."
+    ],
+    "points": [
+     "Folded membranes (cristae, thylakoids) increase surface area for reactions.",
+     "Prokaryotic DNA sits in a nucleoid region, not a nucleus.",
+     "Compartments let a cell keep different conditions, such as pH, in different places."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A cube-shaped cell grows from 1 µm to 2 µm on each side. How does its surface area-to-volume ratio change?",
+   "solution": "At 1 µm: SA = 6 µm², V = 1 µm³, so SA/V = 6. At 2 µm: SA = 24 µm², V = 8 µm³, so SA/V = 3. The ratio halves, so each unit of volume has half as much membrane for exchange."
+  },
+  "misconceptions": [
+   [
+    "“Larger cells exchange materials more efficiently.”",
+    "Their surface area-to-volume ratio is lower, so exchange is less efficient."
+   ],
+   [
+    "“Facilitated diffusion uses ATP.”",
+    "It is passive; only active transport uses energy."
+   ],
+   [
+    "“Water moves toward lower solute concentration.”",
+    "Water moves toward higher solute concentration (lower water potential)."
+   ],
+   [
+    "“Prokaryotes have no ribosomes.”",
+    "All cells have ribosomes; prokaryotes lack membrane-bound organelles."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Biology Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+  "sourceTitle": "AP Biology – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "bio-u2-q01",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-struct",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What do ribosomes do?",
+   "choices": [
+    "Make ATP by cellular respiration",
+    "Make proteins",
+    "Digest worn-out cell parts",
+    "Store water"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Ribosomes translate mRNA into polypeptides.",
+   "choiceExplanations": [
+    "Mitochondria make most of a cell's ATP.",
+    "",
+    "Lysosomes digest materials.",
+    "Vacuoles store water."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q02",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-struct",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In which organelle does most of cellular respiration's ATP production happen?",
+   "choices": [
+    "The Golgi apparatus",
+    "The mitochondrion",
+    "The chloroplast",
+    "The nucleus"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The citric acid cycle and the electron transport chain, which make most of the ATP, are in mitochondria.",
+   "choiceExplanations": [
+    "The Golgi modifies and packages proteins.",
+    "",
+    "Chloroplasts carry out photosynthesis.",
+    "The nucleus holds DNA."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q03",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-struct",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Cells that secrete large amounts of antibody protein have an especially large amount of which organelle?",
+   "choices": [
+    "Rough endoplasmic reticulum",
+    "Lysosomes",
+    "Central vacuoles",
+    "Smooth endoplasmic reticulum"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The rough ER's ribosomes make proteins destined for secretion.",
+   "choiceExplanations": [
+    "",
+    "Lysosomes digest materials.",
+    "Central vacuoles are found in plant cells and store water.",
+    "Smooth ER makes lipids and detoxifies; it has no ribosomes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q04",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-struct",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A cube-shaped cell grows from 1 µm to 2 µm on each side. What happens to its surface area-to-volume ratio?",
+   "choices": [
+    "It rises from 6 to 12 per µm",
+    "It stays at 6 per µm",
+    "It falls from 6 to 1.5 per µm",
+    "It falls from 6 to 3 per µm"
+   ],
+   "correctAnswer": 3,
+   "explanation": "SA/V = 6s²/s³ = 6/s, so it goes from 6/1 = 6 to 6/2 = 3.",
+   "choiceExplanations": [
+    "Volume grows faster than surface area, so the ratio falls.",
+    "The ratio depends on size.",
+    "1.5 would be the ratio for a 4 µm cube.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q05",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-struct",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Cell X is a 4 µm cube. Cell Y is a 1 µm × 4 µm × 16 µm box. Both have a volume of 64 µm³. Which exchanges materials with its surroundings more efficiently, and why?",
+   "choices": [
+    "Both equally, because they have the same volume",
+    "Cell X, because its surface area-to-volume ratio is larger",
+    "Cell X, because a cube has the largest surface area for its volume",
+    "Cell Y, because its surface area-to-volume ratio is larger (about 2.6 vs 1.5 per µm)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "X: SA = 96 µm², SA/V = 1.5. Y: SA = 2(4 + 16 + 64) = 168 µm², SA/V ≈ 2.6. Flattened shapes have more surface per unit of volume.",
+   "choiceExplanations": [
+    "With equal volumes, the shape still changes the surface area.",
+    "Cell X's ratio (1.5) is smaller than cell Y's (about 2.6).",
+    "Among boxes, a cube has the smallest surface area for its volume, not the largest.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q06",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-membrane",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which molecule crosses a phospholipid bilayer most easily by simple diffusion?",
+   "choices": [
+    "Na⁺",
+    "O₂",
+    "A protein",
+    "Glucose"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Small nonpolar molecules such as O₂ pass between the hydrophobic tails.",
+   "choiceExplanations": [
+    "Charged ions can't cross the hydrophobic interior without a transport protein.",
+    "",
+    "Proteins are far too large; they cross by endocytosis or exocytosis.",
+    "Glucose is large and polar, so it needs a carrier."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q07",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-membrane",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Glucose enters a red blood cell through a carrier protein, moving from higher to lower concentration. What kind of transport is this?",
+   "choices": [
+    "Facilitated diffusion",
+    "Exocytosis",
+    "Active transport",
+    "Simple diffusion"
+   ],
+   "correctAnswer": 0,
+   "explanation": "It uses a transport protein but moves down the gradient, so no energy is needed.",
+   "choiceExplanations": [
+    "",
+    "Exocytosis moves materials out of the cell in vesicles.",
+    "Active transport moves substances against their gradient using energy.",
+    "Simple diffusion doesn't use a protein."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q08",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-membrane",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The Na⁺/K⁺ pump moves Na⁺ out of a cell and K⁺ in, both against their concentration gradients. What does it require?",
+   "choices": [
+    "Vesicles",
+    "Energy from ATP",
+    "A higher concentration of Na⁺ inside the cell",
+    "No energy, because ions move by diffusion"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Moving ions against their gradients is active transport, powered by ATP hydrolysis.",
+   "choiceExplanations": [
+    "The pump moves single ions through a protein, not in vesicles.",
+    "",
+    "It moves Na⁺ out against its gradient; it doesn't need Na⁺ to be higher inside.",
+    "Diffusion only moves substances down their gradients."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q09",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-membrane",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Some cells have many aquaporins in their membranes. What effect does this have?",
+   "choices": [
+    "They become impermeable to water",
+    "They pump water against its gradient using ATP",
+    "Water crosses their membranes much faster",
+    "Ions move faster through their membranes"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Aquaporins are water channels that allow rapid facilitated diffusion of water.",
+   "choiceExplanations": [
+    "They increase water permeability.",
+    "Aquaporins are passive channels; water still moves by osmosis.",
+    "",
+    "Aquaporins are specific to water."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q10",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-membrane",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A poison stops a cell from making ATP. Which process stops most directly?",
+   "choices": [
+    "Diffusion of O₂ into the cell",
+    "Movement of water through aquaporins",
+    "Facilitated diffusion of glucose down its gradient",
+    "Pumping Na⁺ out of the cell against its gradient"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Active transport depends on ATP. The other processes are passive and continue while gradients last.",
+   "choiceExplanations": [
+    "O₂ diffuses through the bilayer without energy.",
+    "Osmosis through aquaporins needs no ATP.",
+    "Facilitated diffusion needs no ATP.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q11",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-osmo",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "An animal cell is placed in a hypotonic solution. What happens?",
+   "choices": [
+    "Solutes rush out of the cell",
+    "Water enters the cell, and it may swell and burst",
+    "Nothing, because there is no net water movement",
+    "Water leaves the cell and it shrinks"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A hypotonic solution has a lower solute concentration than the cell, so water moves in by osmosis.",
+   "choiceExplanations": [
+    "Osmosis is the movement of water; solutes can't cross freely.",
+    "",
+    "That describes an isotonic solution.",
+    "That happens in a hypertonic solution."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q12",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-osmo",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A plant cell is placed in a very salty (hypertonic) solution. What is the most likely result?",
+   "choices": [
+    "Plasmolysis: the cell loses water and its membrane pulls away from the wall",
+    "The cell bursts",
+    "Salt is pumped into the central vacuole until it bursts",
+    "The cell becomes more turgid"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Water leaves the cell toward the higher solute concentration outside, so the cytoplasm shrinks away from the rigid wall.",
+   "choiceExplanations": [
+    "",
+    "The wall prevents bursting, and here water is leaving.",
+    "The cell loses water; it doesn't take on enough salt to burst.",
+    "Turgor increases in a hypotonic solution, not a hypertonic one."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q13",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-osmo",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Solution A has a water potential of −0.2 MPa and solution B −0.6 MPa. They are separated by a membrane permeable only to water. Which way does water move?",
+   "choices": [
+    "It can't be predicted from water potential",
+    "From B to A",
+    "From A to B",
+    "Equally in both directions, with no net movement"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Water moves from higher (less negative) to lower (more negative) water potential: from −0.2 to −0.6 MPa.",
+   "choiceExplanations": [
+    "Water potential is exactly what predicts the direction.",
+    "This goes from lower to higher water potential.",
+    "",
+    "The water potentials differ, so there is net movement."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q14",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-osmo",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is the solute potential of a 0.10 M sucrose solution at 295 K? (Ψs = −iCRT, R = 0.0831 L·bar/(mol·K))",
+   "choices": [
+    "+2.45 bar",
+    "−0.245 bar",
+    "−4.90 bar",
+    "−2.45 bar"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Sucrose doesn't ionize, so i = 1: Ψs = −(1)(0.10)(0.0831)(295) = −2.45 bar.",
+   "choiceExplanations": [
+    "Solute potential is never positive; solutes lower water potential.",
+    "−0.245 bar uses 0.010 M instead of 0.10 M.",
+    "−4.90 bar uses i = 2, but sucrose doesn't split into ions.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q15",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-compart",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which structure do prokaryotic cells have?",
+   "choices": [
+    "Ribosomes",
+    "Mitochondria",
+    "Endoplasmic reticulum",
+    "A nucleus"
+   ],
+   "correctAnswer": 0,
+   "explanation": "All cells have ribosomes; prokaryotes lack membrane-bound organelles.",
+   "choiceExplanations": [
+    "",
+    "Mitochondria are membrane-bound organelles found in eukaryotes.",
+    "The ER is a eukaryotic membrane system.",
+    "Prokaryotic DNA is in a nucleoid region, not a membrane-bound nucleus."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q16",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-compart",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why is it an advantage for a cell to keep its digestive (hydrolytic) enzymes inside lysosomes?",
+   "choices": [
+    "It keeps the enzymes away from the cell's other molecules and lets them work at the lysosome's acidic pH",
+    "It makes the enzymes work faster in the cytosol",
+    "Lysosomes make ATP for digestion",
+    "It lets the enzymes leave the cell more easily"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Compartmentalization separates reactions that would damage the cell and keeps conditions suited to each process.",
+   "choiceExplanations": [
+    "",
+    "The enzymes stay inside the lysosome, not in the cytosol.",
+    "Lysosomes digest materials; they don't make ATP.",
+    "Lysosomal enzymes are meant to stay inside the cell's lysosomes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q17",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-compart",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which observation supports the idea that mitochondria descended from bacteria engulfed by an ancestral cell?",
+   "choices": [
+    "Mitochondria are found in nearly all eukaryotic cells",
+    "Mitochondria are surrounded by the cell's cytoplasm",
+    "Mitochondria have their own circular DNA and bacteria-like ribosomes",
+    "Mitochondria make ATP"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Circular DNA, bacterial-type ribosomes, double membranes, and division by fission all resemble free-living bacteria.",
+   "choiceExplanations": [
+    "Being widespread doesn't show where they came from.",
+    "Every organelle is surrounded by cytoplasm.",
+    "",
+    "Making ATP describes their function, not their origin."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u2-q18",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "topicId": "bio2-compart",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The inner membrane of a mitochondrion is folded into many cristae. How does this benefit the cell?",
+   "choices": [
+    "It lets the mitochondrion divide faster",
+    "It stores extra DNA",
+    "It increases the membrane surface area for the electron transport chain and ATP synthase, so more ATP can be made",
+    "It keeps oxygen out of the mitochondrion"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The proteins of the electron transport chain and ATP synthase sit in the inner membrane, so more membrane area means more of them.",
+   "choiceExplanations": [
+    "Folding doesn't control the rate of division.",
+    "Mitochondrial DNA is in the matrix, not stored in the folds.",
+    "",
+    "Oxygen is needed inside, as the final electron acceptor."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-bio-u2-os1",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "title": "OpenStax Biology for AP® Courses, 4.3 Eukaryotic Cells",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/4-3-eukaryotic-cells",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Organelles and their functions (CED topic 2.1).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/4-3-eukaryotic-cells",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u2-os2",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "title": "OpenStax Biology for AP® Courses, 5.2 Passive Transport",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/5-2-passive-transport",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Diffusion, facilitated diffusion, and osmosis (CED topics 2.5–2.7).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/5-2-passive-transport",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u2-os3",
+   "courseId": "ap-biology",
+   "unitId": "u2",
+   "title": "OpenStax Biology for AP® Courses, 5.3 Active Transport",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/5-3-active-transport",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Pumps and the use of ATP in transport (CED topic 2.8).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/5-3-active-transport",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "bio-u2-q01",
+    "bio-u2-q02",
+    "bio-u2-q06",
+    "bio-u2-q07",
+    "bio-u2-q12",
+    "bio-u2-q14",
+    "bio-u2-q16",
+    "bio-u2-q18"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "bio-u2-q03",
+    "bio-u2-q05",
+    "bio-u2-q08",
+    "bio-u2-q10",
+    "bio-u2-q11",
+    "bio-u2-q13",
+    "bio-u2-q15",
+    "bio-u2-q17"
+   ]
+  }
+ ]
+}

@@ -116,6 +116,7 @@ const unit = (c, u) => JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'cou
   await p.waitForSelector('#v-test form legend');
   const seen = [];
   for (let i = 0; i < 8; i++) { seen.push((await answerTest(p, true)).id); await nextBtn(p); }
+  T.ok(/8 of 8 answered/.test(await T.text(p, '#v-test .test-body')) && !/null|undefined/.test(await T.text(p, '#v-test .test-body')), 'with every question answered, the answer check screen shows no stray text');
   await p.click('#v-test button:has-text("Submit test")'); await p.click('#v-test button:has-text("Yes, submit my test")');
   await p.waitForSelector('#v-test h2:has-text("results")');
   const t1 = unit('ap-physics-1', 'u3').tests[0].questionIds, L2 = await LS(p);
@@ -185,7 +186,9 @@ const unit = (c, u) => JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'cou
   T.ok(out.status !== 0 && /shares questions with another test/.test(out.stdout), 'the build rejects a second test that only reorders the first test\'s questions');
   fs.rmSync(tmp, { recursive: true, force: true });
   const status = fs.readFileSync(path.join(T.ROOT, 'CONTENT_STATUS.md'), 'utf8');
-  T.ok(/## Practice tests/.test(status) && /\| Unit 1: Kinematics \| 14 \| 1 \(8\) \| 6 \| 1 \| 10 \|/.test(status) && /21 practice tests in 21 units/.test(status), 'CONTENT_STATUS.md reports tests, capacity and the original questions still needed');
+  const cat = JSON.parse(fs.readFileSync(path.join(T.ROOT, 'data', 'catalog.json'))), sums = cat.courses.filter(c => c.summary).map(c => c.summary);
+  const nTests = sums.reduce((a, s) => a + s.tests, 0), nUnits = sums.reduce((a, s) => a + Object.keys(s.unitTests).length, 0);
+  T.ok(/## Practice tests/.test(status) && /\| Unit 1: Kinematics \| 14 \| 1 \(8\) \| 6 \| 1 \| 10 \|/.test(status) && status.includes(nTests + ' practice tests in ' + nUnits + ' units'), 'CONTENT_STATUS.md reports tests, capacity and the original questions still needed (' + nTests + ' tests in ' + nUnits + ' units)');
 
   console.log(T.summary()); await b.close();
 })().catch(e => { console.error(e); process.exit(1); });

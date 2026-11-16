@@ -1,0 +1,343 @@
+{
+ "id": "ap-united-states-history",
+ "name": "AP United States History",
+ "officialUrl": "https://apcentral.collegeboard.org/courses/ap-united-states-history",
+ "studentUrl": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+ "frameworkUrl": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+ "frameworkVersion": "AP U.S. History Course and Exam Description, effective Fall 2026 (current PDF on AP Central, checked 2026-11-08), with College Board's Clarifications and Corrections for Fall 2026 (exam changes beginning with the May 2027 exam).",
+ "frq": {
+  "hubUrl": "https://apcentral.collegeboard.org/courses/ap-united-states-history/exam/past-exam-questions",
+  "note": null,
+  "releasedSets": [
+   {
+    "year": 2026,
+    "title": "2026 AP United States History Free-Response Questions",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-us-history.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP United States History Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-us-history-set-1.pdf"
+   },
+   {
+    "year": 2025,
+    "title": "2025 AP United States History Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-us-history-set-2.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP United States History Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-us-history-set-1.pdf"
+   },
+   {
+    "year": 2024,
+    "title": "2024 AP United States History Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap24-frq-us-history-set-2.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP United States History Free-Response Questions (Set 1)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-us-history-set-1.pdf"
+   },
+   {
+    "year": 2023,
+    "title": "2023 AP United States History Free-Response Questions (Set 2)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap23-frq-us-history-set-2.pdf"
+   }
+  ],
+  "setsNote": "Whole released free-response sets (PDF, College Board), linked from the course's past-exam-questions page and checked to load on 2026-11-08. For 2023–2025 College Board released two sets each year. They are not matched to units, and sets before 2027 use the exam format in effect at the time. Scoring guidelines are on the past-exam-questions page."
+ },
+ "source": {
+  "title": "AP United States History – AP Students (College Board)",
+  "url": "https://apstudents.collegeboard.org/courses/ap-united-states-history",
+  "verified": "2026-11-08",
+  "note": "Unit names, the “topics may include” lists, and exam weightings were read from this page on 2026-11-08. The CED's exam section gives the same weightings."
+ },
+ "frameworkCheck": {
+  "checked": "2026-11-08",
+  "source": "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf",
+  "title": "AP U.S. History Course and Exam Description (effective Fall 2026)",
+  "how": "The 105 numbered CED topics (1.1–9.7) were read from the current PDF on AP Central, and each is matched to the StudySprint topic whose guide section and questions teach it. Each period's first topic (contextualizing the period) and its final reasoning topic (comparison, causation, or continuity and change) are covered by the topic whose questions practice that skill. The CED's six historical thinking skills (Developments and Processes; Sourcing and Situation; Claims and Evidence in Sources; Contextualization; Making Connections; Argumentation) and three reasoning processes (Comparison; Causation; Continuity and Change) were also checked; StudySprint's multiple-choice questions practice the first five skills (College Board notes that no multiple-choice questions assess Argumentation).",
+  "weightsSource": "the AP Students course page (“On The Exam”) and the CED's exam section, both checked 2026-11-08",
+  "examFormat": "From the AP Students assessment page and the CED clarifications (beginning with the May 2027 exam): Section IA, 55 multiple-choice questions in 55 minutes (40% of the score), in sets of usually 3–4 questions about the same source or sources; Section IB, 3 required short-answer questions in 40 minutes (20%), each with source material; Section II, a document-based question (25%, 7 documents, 60 minutes recommended including a 15-minute reading period) and one required long essay (15%, 40 minutes). StudySprint practice is multiple-choice only, in source-based sets; written-response practice uses College Board's released questions.",
+  "differences": [
+   "Several topic titles differ slightly between the CED's Course at a Glance and its topic pages (for example 3.6 “The Influence of Revolutionary Ideals” and “Social Consequences of Revolutionary Ideals”, 8.5 “Culture after 1945” and “Culture from 1945 to 1960”, and 9.2 “Reagan and Conservatism” and “Reagan and Conservativism”). StudySprint records the topic-page titles as printed.",
+   "The CED clarifications for Fall 2026 change the short-answer and long-essay sections (all three short-answer questions are required and include sources; one long essay is required); the AP Students assessment page already describes the new format."
+  ]
+ },
+ "units": [
+  {
+   "id": "u1",
+   "name": "Unit 1: Period 1: 1491–1607",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-history/u1.json",
+   "officialTopics": [
+    "Native American societies before European contact",
+    "European exploration in the New World",
+    "The Columbian Exchange",
+    "Labor, slavery, and caste in the Spanish colonial system",
+    "Cultural interactions between Europeans, Native Americans, and Africans"
+   ],
+   "examWeight": "4%–6%",
+   "frameworkTopics": [
+    "1.1 Contextualizing Period 1",
+    "1.2 Native American Societies Before European Contact",
+    "1.3 European Exploration in the Americas",
+    "1.4 Columbian Exchange, Spanish Exploration, and Conquest",
+    "1.5 Labor, Slavery, and Caste in the Spanish Colonial System",
+    "1.6 Cultural Interactions Between Europeans, Native Americans, and Africans",
+    "1.7 Causation in Period 1"
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Unit 2: Period 2: 1607–1754",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-history/u2.json",
+   "officialTopics": [
+    "How different European colonies developed and expanded",
+    "Transatlantic trade",
+    "Interactions between American Indians and Europeans",
+    "Slavery in the British colonies",
+    "Colonial society and culture"
+   ],
+   "examWeight": "6%–8%",
+   "frameworkTopics": [
+    "2.1 Contextualizing Period 2",
+    "2.2 European Colonization",
+    "2.3 The Regions of British Colonies",
+    "2.4 Transatlantic Trade",
+    "2.5 Interactions Between American Indians and Europeans",
+    "2.6 Slavery in the British Colonies",
+    "2.7 Colonial Society and Culture",
+    "2.8 Comparison in Period 2"
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "Unit 3: Period 3: 1754–1800",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-history/u3.json",
+   "officialTopics": [
+    "The Seven Years’ War",
+    "The American Revolution",
+    "The Articles of Confederation",
+    "The creation and ratification of the Constitution",
+    "Developing an American identity",
+    "Immigration to and migration within America"
+   ],
+   "examWeight": "10%–17%",
+   "frameworkTopics": [
+    "3.1 Contextualizing Period 3",
+    "3.2 The Seven Years’ War (The French and Indian War)",
+    "3.3 Taxation Without Representation",
+    "3.4 Philosophical Foundations of the American Revolution",
+    "3.5 The American Revolution",
+    "3.6 Social Consequences of Revolutionary Ideals",
+    "3.7 Articles of Confederation",
+    "3.8 The Constitutional Convention and Debates over Ratification",
+    "3.9 The Constitution",
+    "3.10 Shaping a New Republic",
+    "3.11 Developing an American Identity",
+    "3.12 Movement in the Early Republic",
+    "3.13 Continuity and Change in Period 3"
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "Unit 4: Period 4: 1800–1848",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-history/u4.json",
+   "officialTopics": [
+    "The rise of political parties",
+    "American foreign policy",
+    "Innovations in technology, agriculture, and business",
+    "Debates about federal power",
+    "The Second Great Awakening",
+    "Reform movements",
+    "The experience of African Americans"
+   ],
+   "examWeight": "10%–17%",
+   "frameworkTopics": [
+    "4.1 Contextualizing Period 4",
+    "4.2 The Rise of Political Parties and the Era of Jefferson",
+    "4.3 Politics and Regional Interests",
+    "4.4 America on the World Stage",
+    "4.5 Market Revolution: Industrialization",
+    "4.6 Market Revolution: Society and Culture",
+    "4.7 Expanding Democracy",
+    "4.8 Jackson and Federal Power",
+    "4.9 The Development of an American Culture",
+    "4.10 The Second Great Awakening",
+    "4.11 An Age of Reform",
+    "4.12 African Americans in the Early Republic",
+    "4.13 The Society of the South in the Early Republic",
+    "4.14 Causation in Period 4"
+   ]
+  },
+  {
+   "id": "u5",
+   "name": "Unit 5: Period 5: 1844–1877",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-history/u5.json",
+   "officialTopics": [
+    "Manifest Destiny",
+    "The Mexican–American War",
+    "Attempts to resolve conflicts over the spread of slavery",
+    "The election of 1860 and Southern secession",
+    "The Civil War",
+    "Reconstruction"
+   ],
+   "examWeight": "10%–17%",
+   "frameworkTopics": [
+    "5.1 Contextualizing Period 5",
+    "5.2 Manifest Destiny",
+    "5.3 The Mexican–American War",
+    "5.4 The Compromise of 1850",
+    "5.5 Sectional Conflict: Regional Differences",
+    "5.6 Failure of Compromise",
+    "5.7 Election of 1860 and Secession",
+    "5.8 Military Conflict in the Civil War",
+    "5.9 Government Policies During the Civil War",
+    "5.10 Reconstruction",
+    "5.11 Failure of Reconstruction",
+    "5.12 Comparison in Period 5"
+   ]
+  },
+  {
+   "id": "u6",
+   "name": "Unit 6: Period 6: 1865–1898",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-history/u6.json",
+   "officialTopics": [
+    "The settlement of the West",
+    "The \"New South\"",
+    "The rise of industrial capitalism",
+    "Immigration and migration",
+    "Reform movements",
+    "Debates about the role of government"
+   ],
+   "examWeight": "10%–17%",
+   "frameworkTopics": [
+    "6.1 Contextualizing Period 6",
+    "6.2 Westward Expansion: Economic Development",
+    "6.3 Westward Expansion: Social and Cultural Development",
+    "6.4 The “New South”",
+    "6.5 Technological Innovation",
+    "6.6 The Rise of Industrial Capitalism",
+    "6.7 Labor in the Gilded Age",
+    "6.8 Immigration and Migration in the Gilded Age",
+    "6.9 Responses to Immigration in the Gilded Age",
+    "6.10 Development of the Middle Class",
+    "6.11 Reform in the Gilded Age",
+    "6.12 Controversies over the Role of Government in the Gilded Age",
+    "6.13 Politics in the Gilded Age",
+    "6.14 Continuity and Change Period 6"
+   ]
+  },
+  {
+   "id": "u7",
+   "name": "Unit 7: Period 7: 1890–1945",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-history/u7.json",
+   "officialTopics": [
+    "Debates over imperialism",
+    "The Progressive movement",
+    "World War I",
+    "Innovations in communications and technology in the 1920s",
+    "The Great Depression and the New Deal",
+    "World War II",
+    "Postwar diplomacy"
+   ],
+   "examWeight": "10%–17%",
+   "frameworkTopics": [
+    "7.1 Contextualizing Period 7",
+    "7.2 Imperialism: Debates",
+    "7.3 The Spanish–American War",
+    "7.4 The Progressives",
+    "7.5 World War I: Military and Diplomacy",
+    "7.6 World War I: Home Front",
+    "7.7 1920s: Innovations in Communication and Technology",
+    "7.8 1920s: Cultural and Political Controversies",
+    "7.9 Great Depression",
+    "7.10 New Deal",
+    "7.11 Interwar Foreign Policy",
+    "7.12 World War II: Mobilization",
+    "7.13 World War II: Military",
+    "7.14 Postwar Diplomacy",
+    "7.15 Comparison in Period 7"
+   ]
+  },
+  {
+   "id": "u8",
+   "name": "Unit 8: Period 8: 1945–1980",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-history/u8.json",
+   "officialTopics": [
+    "The Cold War and the Red Scare",
+    "America as a world power",
+    "The Vietnam War",
+    "The Great Society",
+    "The African American civil rights movement",
+    "Youth culture of the 1960s"
+   ],
+   "examWeight": "10%–17%",
+   "frameworkTopics": [
+    "8.1 Contextualizing Period 8",
+    "8.2 The Cold War from 1945 to 1980",
+    "8.3 The Red Scare",
+    "8.4 Economy after 1945",
+    "8.5 Culture from 1945 to 1960",
+    "8.6 Early Steps in the Civil Rights Movement (1940s and 1950s)",
+    "8.7 America as a World Power",
+    "8.8 Vietnam War",
+    "8.9 Great Society",
+    "8.10 The African American Civil Rights Movement (1960s)",
+    "8.11 The Civil Rights Movement Expands",
+    "8.12 Youth Culture of the 1960s",
+    "8.13 The Environment and Natural Resources from 1968 to 1980",
+    "8.14 Society in Transition",
+    "8.15 Continuity and Change in Period 8"
+   ]
+  },
+  {
+   "id": "u9",
+   "name": "Unit 9: Period 9: 1980–Present",
+   "status": "practice-ready",
+   "file": "data/courses/ap-united-states-history/u9.json",
+   "officialTopics": [
+    "Reagan and conservatism",
+    "The end of the Cold War",
+    "Shifts in the economy",
+    "Migration and immigration",
+    "Challenges of the 21st century"
+   ],
+   "examWeight": "4%–6%",
+   "frameworkTopics": [
+    "9.1 Contextualizing Period 9",
+    "9.2 Reagan and Conservativism",
+    "9.3 The End of the Cold War",
+    "9.4 A Changing Economy",
+    "9.5 Migration and Immigration in the 1990s and 2000s",
+    "9.6 Challenges of the 21st Century",
+    "9.7 Causation in Period 9"
+   ]
+  }
+ ],
+ "generalResources": [
+  {
+   "id": "gen-ush-openstax",
+   "title": "OpenStax U.S. History (whole book)",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/details/books/us-history",
+   "scope": "general",
+   "kind": "textbook",
+   "note": "General: a free college U.S. history textbook from the pre-Columbian era to the present. Its chapters don't line up one-to-one with the AP periods.",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/details/books/us-history",
+   "sourceTitle": "OpenStax book page",
+   "licenseOrRights": "Linked only. OpenStax lists U.S. History under CC BY-NC-SA 4.0. Its own text was not copied or adapted here; public-domain primary sources quoted in StudySprint's questions follow its excerpts and are credited.",
+   "verified": "2026-11-08"
+  }
+ ]
+}

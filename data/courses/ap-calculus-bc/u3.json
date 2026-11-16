@@ -1,0 +1,401 @@
+{
+ "courseId": "ap-calculus-bc",
+ "unitId": "u3",
+ "title": "Unit 3: Differentiation: Composite, Implicit, and Inverse Functions",
+ "topics": [
+  {
+   "id": "b3-chain",
+   "name": "The chain rule and higher-order derivatives",
+   "covers": [
+    "The chain rule for differentiating composite functions",
+    "Determining higher-order derivatives of functions"
+   ]
+  },
+  {
+   "id": "b3-impl",
+   "name": "Implicit differentiation",
+   "covers": [
+    "Implicit differentiation"
+   ]
+  },
+  {
+   "id": "b3-inv",
+   "name": "Derivatives of inverse functions",
+   "covers": [
+    "Differentiation of general and particular inverse functions"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Composite, implicit, and inverse functions: review guide",
+  "intro": "This unit extends differentiation to functions inside other functions, to curves defined by equations rather than formulas, and to inverse functions, including the inverse trig functions. It also introduces second and higher derivatives.",
+  "sections": [
+   {
+    "id": "s-b3-chain",
+    "topicId": "b3-chain",
+    "title": "The chain rule and higher-order derivatives",
+    "body": [
+     "Chain rule: d/dx f(g(x)) = f′(g(x)) · g′(x). Differentiate the outer function, keep the inside unchanged, then multiply by the derivative of the inside.",
+     "Higher-order derivatives are derivatives of derivatives: f″ is the rate of change of f′. In motion, the second derivative of position is acceleration."
+    ],
+    "points": [
+     "Read values from a table carefully: h′(a) = f′(g(a)) · g′(a), evaluating f′ at g(a), not at a.",
+     "Nested functions need the chain rule once for each layer.",
+     "d/dx e^(kx) = ke^(kx), so each derivative multiplies by another k."
+    ],
+    "equations": [
+     [
+      "d/dx f(g(x)) = f′(g(x))·g′(x)",
+      "chain rule"
+     ]
+    ]
+   },
+   {
+    "id": "s-b3-impl",
+    "topicId": "b3-impl",
+    "title": "Implicit differentiation",
+    "body": [
+     "When y is defined by an equation such as x² + y² = 25, differentiate both sides with respect to x, treating y as a function of x: every y-term gets a factor dy/dx from the chain rule. Then solve for dy/dx.",
+     "A second derivative can be found by differentiating dy/dx again (with the quotient rule) and substituting dy/dx back in."
+    ],
+    "points": [
+     "d/dx (y²) = 2y·dy/dx; d/dx (xy) = y + x·dy/dx.",
+     "Evaluate at a point only after differentiating.",
+     "Horizontal tangent: dy/dx = 0; vertical tangent: the denominator of dy/dx is 0."
+    ]
+   },
+   {
+    "id": "s-b3-inv",
+    "topicId": "b3-inv",
+    "title": "Derivatives of inverse functions",
+    "body": [
+     "If f and g are inverses with f(a) = b, then g′(b) = 1/f′(a): the inverse's slope at (b, a) is the reciprocal of f's slope at (a, b).",
+     "Inverse trig derivatives: (arcsin x)′ = 1/√(1 − x²), (arccos x)′ = −1/√(1 − x²), (arctan x)′ = 1/(1 + x²). Combine them with the chain rule for arguments like 2x."
+    ],
+    "points": [
+     "Find a such that f(a) = b first; then evaluate f′(a), not f′(b).",
+     "The derivative of ln x, 1/x, is itself an inverse-function derivative (of eˣ)."
+    ],
+    "equations": [
+     [
+      "(f⁻¹)′(b) = 1/f′(a), where f(a) = b",
+      "inverse function"
+     ],
+     [
+      "(arctan x)′ = 1/(1 + x²)",
+      "inverse tangent"
+     ]
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "Find dy/dx for x³ + y³ = 6xy, and the slope at (3, 3).",
+   "solution": "Differentiate: 3x² + 3y²y′ = 6y + 6xy′. Collect y′: y′(3y² − 6x) = 6y − 3x², so y′ = (2y − x²)/(y² − 2x). At (3, 3): (6 − 9)/(9 − 6) = −1."
+  },
+  "misconceptions": [
+   [
+    "“d/dx sin(4x) = cos(4x).”",
+    "The chain rule multiplies by the inside's derivative: 4cos(4x)."
+   ],
+   [
+    "“d/dx (y²) = 2y.”",
+    "Since y depends on x, d/dx (y²) = 2y·dy/dx."
+   ],
+   [
+    "“(f⁻¹)′(b) = 1/f′(b).”",
+    "Evaluate f′ at a = f⁻¹(b), not at b."
+   ],
+   [
+    "“f⁻¹(x) means 1/f(x).”",
+    "The inverse undoes f; it isn't the reciprocal."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Calculus AB and BC Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+  "sourceTitle": "AP Calculus BC – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "cbc-u3-q01",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u3",
+   "topicId": "b3-chain",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx (3x² + 1)⁵?",
+   "choices": [
+    "5(6x)⁴",
+    "30x(3x² + 1)⁴",
+    "(6x)⁵",
+    "5(3x² + 1)⁴"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Chain rule: 5(3x² + 1)⁴ · (6x) = 30x(3x² + 1)⁴.",
+   "choiceExplanations": [
+    "5(6x)⁴ differentiates the inside and raises it to the power, instead of keeping the inside unchanged.",
+    "",
+    "(6x)⁵ differentiates only the inside.",
+    "5(3x² + 1)⁴ forgets to multiply by the inside's derivative, 6x."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u3-q02",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u3",
+   "topicId": "b3-chain",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx sin²(4x)?",
+   "choices": [
+    "2 sin(4x)",
+    "2 sin(4x) cos(4x)",
+    "8 sin(4x) cos(4x)",
+    "8 cos(4x)"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Two layers: d/dx [sin(4x)]² = 2 sin(4x) · cos(4x) · 4 = 8 sin(4x) cos(4x) (which also equals 4 sin(8x)).",
+   "choiceExplanations": [
+    "2 sin(4x) differentiates only the square.",
+    "2 sin(4x) cos(4x) misses the factor 4 from the innermost function.",
+    "",
+    "8 cos(4x) drops the factor sin(4x) from differentiating the square."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u3-q03",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u3",
+   "topicId": "b3-chain",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the second derivative of y = e^(−2x)?",
+   "choices": [
+    "−4e^(−2x)",
+    "e^(−2x)",
+    "−2e^(−2x)",
+    "4e^(−2x)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "y′ = −2e^(−2x) and y″ = (−2)(−2)e^(−2x) = 4e^(−2x).",
+   "choiceExplanations": [
+    "−4e^(−2x) gets the sign wrong: two factors of −2 make +4.",
+    "e^(−2x) ignores the chain rule factors.",
+    "−2e^(−2x) is the first derivative.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u3-q04",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u3",
+   "topicId": "b3-chain",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Let h(x) = f(g(x)). You know g(2) = 3, g′(2) = −1, f′(2) = 4, and f′(3) = 5. What is h′(2)?",
+   "choices": [
+    "−4",
+    "15",
+    "5",
+    "−5"
+   ],
+   "correctAnswer": 3,
+   "explanation": "h′(2) = f′(g(2)) · g′(2) = f′(3) · (−1) = −5.",
+   "choiceExplanations": [
+    "−4 evaluates f′ at 2 instead of at g(2) = 3.",
+    "15 multiplies f′(3) by g(2) instead of g′(2).",
+    "5 drops the negative sign of g′(2).",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u3-q05",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u3",
+   "topicId": "b3-impl",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "For the circle x² + y² = 25, what is dy/dx at the point (3, 4)?",
+   "choices": [
+    "−3/4",
+    "3/4",
+    "−6",
+    "−4/3"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Differentiate: 2x + 2y·dy/dx = 0, so dy/dx = −x/y. At (3, 4): −3/4.",
+   "choiceExplanations": [
+    "",
+    "3/4 drops the minus sign.",
+    "−6 is −2x, which ignores the y-term's contribution.",
+    "−4/3 is −y/x, the ratio upside down."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u3-q06",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u3",
+   "topicId": "b3-impl",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "If xy + y³ = 10, what is dy/dx?",
+   "choices": [
+    "10/(x + 3y²)",
+    "−y/(3y²)",
+    "−x/(y + 3y²)",
+    "−y/(x + 3y²)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Differentiate: (y + x·y′) + 3y²·y′ = 0, so y′(x + 3y²) = −y and y′ = −y/(x + 3y²).",
+   "choiceExplanations": [
+    "The derivative of the constant 10 is 0; it doesn't appear in dy/dx.",
+    "−y/(3y²) forgets the x·y′ term from the product rule.",
+    "This swaps the roles of x and y from the product rule.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u3-q07",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u3",
+   "topicId": "b3-impl",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "For x² + y² = 1, what is d²y/dx² in terms of y?",
+   "choices": [
+    "−x/y",
+    "1/y³",
+    "−1/y³",
+    "−1/y²"
+   ],
+   "correctAnswer": 2,
+   "explanation": "y′ = −x/y. Then y″ = −(y − x·y′)/y² = −(y + x²/y)/y² = −(y² + x²)/y³ = −1/y³, using x² + y² = 1.",
+   "choiceExplanations": [
+    "−x/y is the first derivative.",
+    "1/y³ drops the minus sign from the quotient rule.",
+    "",
+    "−1/y² loses a factor of y when simplifying."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u3-q08",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u3",
+   "topicId": "b3-inv",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Let f(x) = x³ + x, and let g be the inverse of f. Since f(1) = 2, what is g′(2)?",
+   "choices": [
+    "1/4",
+    "1/13",
+    "4",
+    "13"
+   ],
+   "correctAnswer": 0,
+   "explanation": "g′(2) = 1/f′(1). f′(x) = 3x² + 1, so f′(1) = 4 and g′(2) = 1/4.",
+   "choiceExplanations": [
+    "",
+    "1/13 evaluates f′ at 2 instead of at 1, the x-value where f equals 2.",
+    "4 is f′(1); the inverse's derivative is its reciprocal.",
+    "13 is f′(2), at the wrong point and not inverted."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "cbc-u3-q09",
+   "courseId": "ap-calculus-bc",
+   "unitId": "u3",
+   "topicId": "b3-inv",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is d/dx arctan(2x)?",
+   "choices": [
+    "2/(1 + 2x²)",
+    "2/√(1 − 4x²)",
+    "2/(1 + 4x²)",
+    "1/(1 + 4x²)"
+   ],
+   "correctAnswer": 2,
+   "explanation": "(arctan u)′ = u′/(1 + u²). With u = 2x: 2/(1 + 4x²).",
+   "choiceExplanations": [
+    "2/(1 + 2x²) doesn't square the 2 in (2x)².",
+    "2/√(1 − 4x²) is the derivative of arcsin(2x).",
+    "",
+    "1/(1 + 4x²) forgets the chain rule factor 2."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-calculus-bc",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and official topics come from the linked College Board page, as recorded in StudySprint's course outline (checked 2026-11-08); that page was used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page to practice full questions; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "cbc-u3-q01",
+    "cbc-u3-q02",
+    "cbc-u3-q04",
+    "cbc-u3-q05",
+    "cbc-u3-q06",
+    "cbc-u3-q07",
+    "cbc-u3-q08",
+    "cbc-u3-q09"
+   ]
+  }
+ ]
+}

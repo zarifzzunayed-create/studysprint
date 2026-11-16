@@ -1,0 +1,686 @@
+{
+ "courseId": "ap-biology",
+ "unitId": "u4",
+ "title": "Unit 4: Cell Communication and Cell Cycle",
+ "topics": [
+  {
+   "id": "bio4-comm",
+   "name": "Cell communication and signal transduction",
+   "covers": [
+    "Cell communication",
+    "Signal transduction pathways"
+   ],
+   "frameworkCovers": [
+    "4.1 Cell Communication",
+    "4.2 Introduction to Signal Transduction",
+    "4.3 Signal Transduction Pathways"
+   ]
+  },
+  {
+   "id": "bio4-feed",
+   "name": "Feedback",
+   "covers": [
+    "Feedback"
+   ],
+   "frameworkCovers": [
+    "4.4 Feedback"
+   ]
+  },
+  {
+   "id": "bio4-cycle",
+   "name": "The cell cycle and its regulation",
+   "covers": [
+    "Cell cycle and regulation"
+   ],
+   "frameworkCovers": [
+    "4.5 Cell Cycle",
+    "4.6 Regulation of Cell Cycle"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Cell communication and cell cycle: review guide",
+  "intro": "Cells send and receive signals to coordinate their activities, keep conditions stable with feedback, and divide in a controlled cycle. This unit covers signaling pathways, feedback, the cell cycle, and what happens when its controls fail.",
+  "sections": [
+   {
+    "id": "s-bio4-comm",
+    "topicId": "bio4-comm",
+    "title": "Cell communication and signal transduction",
+    "body": [
+     "Cells communicate by direct contact (such as gap junctions), by local signals that act on nearby cells (paracrine), and by hormones carried long distances in the blood (endocrine).",
+     "Signaling has three stages: reception (a ligand binds a specific receptor), transduction (a relay of molecules, often a phosphorylation cascade of protein kinases and second messengers such as cAMP, carries and amplifies the signal), and response (such as changing gene expression or enzyme activity). Nonpolar ligands such as steroid hormones cross the membrane and bind receptors inside the cell."
+    ],
+    "points": [
+     "One signal molecule can activate many molecules downstream (amplification).",
+     "Mutations in receptors or relay proteins can block signaling or leave it stuck on.",
+     "Signals are turned off by enzymes such as phosphatases."
+    ]
+   },
+   {
+    "id": "s-bio4-feed",
+    "topicId": "bio4-feed",
+    "title": "Feedback",
+    "body": [
+     "Negative feedback returns a variable toward a set point: high blood glucose triggers insulin release, cells take up glucose, and as glucose falls, insulin release falls. It maintains homeostasis.",
+     "Positive feedback amplifies a change and moves the system further from its starting point, usually toward an endpoint, as in contractions during childbirth (oxytocin) or fruit ripening (ethylene)."
+    ],
+    "points": [
+     "Most homeostatic controls are negative feedback.",
+     "Positive feedback loops end when the process is complete.",
+     "If target cells stop responding to a signal, the regulated variable stays out of range."
+    ]
+   },
+   {
+    "id": "s-bio4-cycle",
+    "topicId": "bio4-cycle",
+    "title": "The cell cycle and its regulation",
+    "body": [
+     "The cell cycle has interphase (G₁ growth, S phase DNA replication, G₂ preparation) and the mitotic phase (mitosis, then cytokinesis). Mitosis makes two genetically identical nuclei. Cells that stop dividing, such as most nerve cells, leave the cycle and enter G₀.",
+     "Checkpoints (G₁, G₂, and M) check for problems such as damaged DNA. Cyclins and cyclin-dependent kinases (CDKs) drive the cell from one stage to the next. Cancer results from mutations that disrupt this control, such as in tumor-suppressor genes like p53 or in genes for growth-signal proteins."
+    ],
+    "points": [
+     "DNA content doubles during S phase.",
+     "Apoptosis (programmed cell death) removes damaged cells.",
+     "Cyclin levels rise and fall through the cycle; CDK levels stay steady."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A cell has 20 pg of DNA in G₁. How much does it have in G₂, and how much does each daughter cell have after mitosis and cytokinesis?",
+   "solution": "DNA is copied in S phase, so a G₂ cell has 40 pg. Mitosis splits the copies evenly, so each daughter cell has 20 pg."
+  },
+  "misconceptions": [
+   [
+    "“A hormone affects every cell it reaches.”",
+    "Only cells with the matching receptor respond."
+   ],
+   [
+    "“Positive feedback means a good result.”",
+    "It means the response amplifies the change."
+   ],
+   [
+    "“DNA is copied during mitosis.”",
+    "It is copied during S phase of interphase."
+   ],
+   [
+    "“Cancer cells divide because they have extra chromosomes.”",
+    "They divide because mutations disrupt cell-cycle control."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Biology Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+  "sourceTitle": "AP Biology – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "bio-u4-q01",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-comm",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What is the first step when a cell receives a chemical signal?",
+   "choices": [
+    "The cell releases the signal into the blood",
+    "A gene is transcribed",
+    "The cell divides",
+    "A ligand binds to a specific receptor"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Reception, the binding of the signal molecule to its receptor, starts the pathway.",
+   "choiceExplanations": [
+    "That describes sending a signal, not receiving one.",
+    "Changing transcription is a possible response at the end.",
+    "Division may be a final response, not the first step.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q02",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-comm",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Insulin travels through the bloodstream to cells throughout the body. What type of signaling is this?",
+   "choices": [
+    "Endocrine (long-distance) signaling",
+    "Direct contact through gap junctions",
+    "Local (paracrine) signaling",
+    "Signaling between two touching cells' surface proteins"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Hormones carried in the blood to distant target cells are endocrine signals.",
+   "choiceExplanations": [
+    "",
+    "Gap junctions connect adjacent cells directly.",
+    "Paracrine signals act only on nearby cells.",
+    "Surface-to-surface signaling requires cells to touch."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q03",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-comm",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Steroid hormones bind receptors inside the cell rather than on its surface. Why?",
+   "choices": [
+    "They are nonpolar, so they can diffuse through the plasma membrane",
+    "They are proteins that are moved in by active transport",
+    "They are too large for surface receptors",
+    "They are made inside the target cell"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Steroids are lipids, so they pass through the hydrophobic interior of the membrane.",
+   "choiceExplanations": [
+    "",
+    "Steroids are lipids, not proteins.",
+    "Steroids are small molecules.",
+    "Steroid hormones are made in glands and travel to target cells."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q04",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-comm",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How can a single hormone molecule bound to one receptor change the activity of millions of molecules in a cell?",
+   "choices": [
+    "The receptor binds millions of hormone molecules at once",
+    "The hormone molecule copies itself inside the cell",
+    "Each step of the signal transduction pathway activates many molecules, amplifying the signal",
+    "The hormone is split into millions of pieces"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Second messengers and kinase cascades multiply the signal: one activated protein activates many at the next step.",
+   "choiceExplanations": [
+    "A receptor binds one ligand at a time.",
+    "Hormones don't replicate.",
+    "",
+    "The hormone isn't split up to amplify the signal."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q05",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-comm",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In many signaling pathways, protein kinases pass the signal along. What do protein kinases do?",
+   "choices": [
+    "Break down the signal molecule",
+    "Remove phosphate groups from proteins",
+    "Copy DNA",
+    "Add phosphate groups to other proteins, changing their activity"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Phosphorylation by kinases switches relay proteins on (or off), forming a phosphorylation cascade.",
+   "choiceExplanations": [
+    "Other enzymes inactivate signals.",
+    "Removing phosphates is the job of phosphatases.",
+    "DNA polymerase copies DNA.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q06",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-comm",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A mutation leaves a relay protein in a growth-signal pathway permanently active, even when no growth signal is present. What is the most likely result?",
+   "choices": [
+    "The cell keeps receiving a “divide” message and may divide uncontrollably",
+    "The cell stops dividing permanently",
+    "The cell can no longer bind the growth signal",
+    "Nothing changes, because the receptor is normal"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Downstream of the receptor, the pathway is stuck on, so the response happens without the signal; this is one way cancers start.",
+   "choiceExplanations": [
+    "",
+    "The pathway is stuck on, not off.",
+    "Binding is unaffected; the problem is downstream.",
+    "A permanently active relay protein bypasses the receptor."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q07",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-comm",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A mutation changes a receptor's binding site so the ligand can no longer bind. What happens when the ligand is present?",
+   "choices": [
+    "The cell responds more strongly",
+    "The cell responds normally through other receptors for that ligand",
+    "The cell doesn't respond, because the pathway is never started",
+    "The ligand enters the nucleus instead"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Without binding there is no reception, so transduction and response don't happen.",
+   "choiceExplanations": [
+    "No binding means no signal.",
+    "A receptor is specific; there isn't a backup receptor for this ligand.",
+    "",
+    "A ligand that needs a surface receptor can't enter the cell this way."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q08",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-feed",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which describes negative feedback?",
+   "choices": [
+    "A response that occurs only in plants",
+    "A response that moves a variable back toward its set point",
+    "A response that harms the organism",
+    "A response that amplifies a change"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Negative feedback counteracts a change, maintaining homeostasis.",
+   "choiceExplanations": [
+    "Negative feedback occurs in all organisms.",
+    "",
+    "“Negative” refers to opposing the change, not harm.",
+    "Amplifying a change is positive feedback."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q09",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-feed",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "During childbirth, contractions trigger the release of oxytocin, which causes stronger contractions. What kind of regulation is this?",
+   "choices": [
+    "Negative feedback",
+    "Competitive inhibition",
+    "Positive feedback",
+    "Homeostasis"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The response amplifies the original change until birth ends the loop.",
+   "choiceExplanations": [
+    "Negative feedback would reduce the contractions.",
+    "Competitive inhibition involves enzymes and active sites.",
+    "",
+    "Homeostasis keeps variables stable; this loop drives change."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q10",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-feed",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "After a meal, blood glucose rises, insulin is released, cells take up glucose, and blood glucose falls back. Then insulin release slows. Why is this negative feedback?",
+   "choices": [
+    "The response increases the original stimulus",
+    "It involves a hormone",
+    "The response (lower glucose) reduces the original stimulus (high glucose)",
+    "It happens after eating"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Insulin's effect opposes the rise in glucose, returning it toward the set point.",
+   "choiceExplanations": [
+    "That would be positive feedback.",
+    "Hormones can take part in either kind of feedback.",
+    "",
+    "Timing doesn't define the type of feedback."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q11",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-feed",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In type 2 diabetes, body cells respond poorly to insulin. What would you expect to happen to blood glucose and insulin levels?",
+   "choices": [
+    "Glucose falls while insulin rises",
+    "Glucose stays normal because the pancreas makes more glucose",
+    "Both fall below normal",
+    "Both stay high, because glucose isn't taken up and so keeps stimulating insulin release"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Cells don't remove glucose well, so it stays high; high glucose keeps the pancreas releasing insulin. The feedback loop can't close.",
+   "choiceExplanations": [
+    "Without a cell response, glucose doesn't fall.",
+    "The pancreas releases insulin; it doesn't make glucose to fix this.",
+    "Poor uptake keeps glucose high.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q12",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-cycle",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "During which phase of the cell cycle is DNA replicated?",
+   "choices": [
+    "Cytokinesis",
+    "G₁ phase",
+    "Mitosis",
+    "S phase"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The S (synthesis) phase of interphase copies the DNA.",
+   "choiceExplanations": [
+    "Cytokinesis divides the cytoplasm.",
+    "G₁ is growth before DNA replication.",
+    "During mitosis the already-copied chromosomes are separated.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q13",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-cycle",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What does mitosis followed by cytokinesis produce from one diploid cell?",
+   "choices": [
+    "Four haploid cells",
+    "Two genetically identical diploid cells",
+    "Two haploid cells",
+    "Four genetically different diploid cells"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Mitosis separates identical copies of each chromosome, so each daughter cell gets the full set.",
+   "choiceExplanations": [
+    "Four haploid cells come from meiosis.",
+    "",
+    "Mitosis doesn't halve the chromosome number.",
+    "Mitosis makes two cells, and they are identical."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q14",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-cycle",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What role do cyclins play in the cell cycle?",
+   "choices": [
+    "They bind and activate cyclin-dependent kinases, which push the cell into the next stage",
+    "They pull chromosomes apart during mitosis",
+    "They form the new cell membrane during cytokinesis",
+    "They copy DNA during S phase"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Cyclin levels rise and fall; when enough cyclin binds its CDK, the kinase phosphorylates targets that advance the cycle.",
+   "choiceExplanations": [
+    "",
+    "Spindle microtubules move chromosomes.",
+    "Membrane and wall materials, not cyclins, divide the cell.",
+    "DNA polymerase copies DNA."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q15",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-cycle",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Most mature nerve cells no longer divide. Where are they in the cell cycle?",
+   "choices": [
+    "Permanently in mitosis",
+    "G₀, a non-dividing state outside the cycle",
+    "S phase",
+    "G₂, waiting to divide"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Cells that stop dividing leave the cycle at G₁ and enter G₀.",
+   "choiceExplanations": [
+    "Mitosis is a short active phase, not a resting state.",
+    "",
+    "S phase is DNA replication, part of preparing to divide.",
+    "G₂ cells are preparing to divide soon."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q16",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-cycle",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The p53 protein stops the cell cycle when DNA is damaged and can trigger apoptosis. What is likely if both copies of the p53 gene are mutated?",
+   "choices": [
+    "DNA damage is repaired faster",
+    "Cells with damaged DNA keep dividing, raising the risk of cancer",
+    "Cells stop dividing entirely",
+    "The cell makes extra p53 protein"
+   ],
+   "correctAnswer": 1,
+   "explanation": "p53 is a tumor suppressor. Without it, the checkpoint fails and mutations accumulate in dividing cells.",
+   "choiceExplanations": [
+    "p53 helps trigger repair; losing it doesn't speed repair.",
+    "",
+    "Losing a brake on the cycle doesn't stop division.",
+    "Mutated genes give nonworking protein, not extra working protein."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u4-q17",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "topicId": "bio4-cycle",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A cell has 20 pg of DNA during G₁. How much DNA does it have during G₂?",
+   "choices": [
+    "40 pg",
+    "10 pg",
+    "80 pg",
+    "20 pg"
+   ],
+   "correctAnswer": 0,
+   "explanation": "DNA is replicated in S phase, so G₂ cells have twice the G₁ amount.",
+   "choiceExplanations": [
+    "",
+    "10 pg is the amount in a gamete after meiosis.",
+    "80 pg doubles twice.",
+    "20 pg is the amount before replication."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-bio-u4-os1",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "title": "OpenStax Biology for AP® Courses, 9.2 Propagation of the Signal",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/9-2-propagation-of-the-signal",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Signal transduction, phosphorylation cascades, and second messengers (CED topic 4.3).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/9-2-propagation-of-the-signal",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u4-os2",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "title": "OpenStax Biology for AP® Courses, 10.2 The Cell Cycle",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/10-2-the-cell-cycle",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Interphase, mitosis, and cytokinesis (CED topic 4.5).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/10-2-the-cell-cycle",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u4-os3",
+   "courseId": "ap-biology",
+   "unitId": "u4",
+   "title": "OpenStax Biology for AP® Courses, 10.3 Control of the Cell Cycle",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/10-3-control-of-the-cell-cycle",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Checkpoints, cyclins, and CDKs (CED topic 4.6).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/10-3-control-of-the-cell-cycle",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "bio-u4-q01",
+    "bio-u4-q02",
+    "bio-u4-q03",
+    "bio-u4-q08",
+    "bio-u4-q09",
+    "bio-u4-q11",
+    "bio-u4-q14",
+    "bio-u4-q16"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "bio-u4-q04",
+    "bio-u4-q05",
+    "bio-u4-q06",
+    "bio-u4-q07",
+    "bio-u4-q10",
+    "bio-u4-q12",
+    "bio-u4-q13",
+    "bio-u4-q15"
+   ]
+  }
+ ]
+}

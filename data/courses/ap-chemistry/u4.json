@@ -1,0 +1,701 @@
+{
+ "courseId": "ap-chemistry",
+ "unitId": "u4",
+ "title": "Unit 4: Chemical Reactions",
+ "topics": [
+  {
+   "id": "c4-rep",
+   "name": "Representing reactions and net ionic equations",
+   "covers": [
+    "Introduction for reactions",
+    "Net ionic equations",
+    "Representations of reactions",
+    "Physical and chemical changes"
+   ],
+   "frameworkCovers": [
+    "4.1 Introduction for Reactions",
+    "4.2 Net Ionic Equations",
+    "4.3 Representations of Reactions",
+    "4.4 Physical and Chemical Changes"
+   ]
+  },
+  {
+   "id": "c4-stoich",
+   "name": "Stoichiometry and titration",
+   "covers": [
+    "Stoichiometry"
+   ],
+   "frameworkCovers": [
+    "4.5 Stoichiometry",
+    "4.6 Introduction to Titration"
+   ]
+  },
+  {
+   "id": "c4-types",
+   "name": "Types of reactions: acid–base, redox, and precipitation",
+   "covers": [
+    "Types of chemical reactions"
+   ],
+   "frameworkCovers": [
+    "4.7 Types of Chemical Reactions",
+    "4.8 Introduction to Acid-Base Reactions",
+    "4.9 Oxidation-Reduction (Redox) Reactions"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Chemical reactions: review guide",
+  "intro": "A balanced equation is a recipe that counts particles. This unit writes and balances equations (including net ionic equations), uses them for stoichiometry and titrations, and classifies reactions as acid–base, redox, or precipitation.",
+  "sections": [
+   {
+    "id": "s-c4-rep",
+    "topicId": "c4-rep",
+    "title": "Representing reactions and net ionic equations",
+    "body": [
+     "A balanced equation has the same number of each kind of atom, and the same total charge, on both sides. Coefficients give mole ratios. A chemical change makes new substances (evidence includes a gas, a precipitate, a color change, or a temperature change); a physical change, such as melting, doesn't.",
+     "A net ionic equation shows only the particles that react. Write strong electrolytes (soluble ionic compounds, strong acids and bases) as separate ions, keep solids, liquids, gases, and weak acids or bases as formulas, and cancel spectator ions, which appear unchanged on both sides."
+    ],
+    "points": [
+     "Balance by changing coefficients, never subscripts.",
+     "Weak acids such as CH₃COOH are written as molecules in net ionic equations.",
+     "All Na⁺, K⁺, NH₄⁺, and NO₃⁻ salts are soluble in water."
+    ]
+   },
+   {
+    "id": "s-c4-stoich",
+    "topicId": "c4-stoich",
+    "title": "Stoichiometry and titration",
+    "body": [
+     "Stoichiometry runs through moles: grams → moles (÷ molar mass) → moles of the other substance (× mole ratio) → grams (× molar mass). The limiting reactant runs out first and sets the amount of product; percent yield = actual ÷ theoretical × 100.",
+     "In a titration, a solution of known concentration is added until the equivalence point, where the moles added exactly match the moles of the other reactant by the mole ratio. Then moles = M × V gives the unknown concentration."
+    ],
+    "points": [
+     "Find the limiting reactant by comparing how much product each reactant could make.",
+     "Convert milliliters to liters before using M × V.",
+     "An indicator's color change (the endpoint) is chosen to match the equivalence point."
+    ],
+    "equations": [
+     [
+      "n = M × V",
+      "moles in a solution"
+     ],
+     [
+      "percent yield = (actual/theoretical) × 100",
+      "percent yield"
+     ]
+    ]
+   },
+   {
+    "id": "s-c4-types",
+    "topicId": "c4-types",
+    "title": "Types of reactions: acid–base, redox, and precipitation",
+    "body": [
+     "Acid–base (Brønsted–Lowry) reactions transfer a proton (H⁺): the acid donates it and the base accepts it. Precipitation reactions form an insoluble solid when two solutions mix.",
+     "Oxidation–reduction (redox) reactions transfer electrons. Oxidation is losing electrons (the oxidation number rises) and reduction is gaining them (it falls). Oxidation numbers: elements are 0, O is usually −2, H is usually +1, and the numbers add up to the species' charge."
+    ],
+    "points": [
+     "The species oxidized is the reducing agent, and vice versa.",
+     "In a balanced redox reaction, electrons lost equal electrons gained.",
+     "Combustion of a hydrocarbon is a redox reaction that makes CO₂ and H₂O."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "How many grams of CO₂ form when 16.0 g of CH₄ burns completely (CH₄ + 2O₂ → CO₂ + 2H₂O)? (CH₄ 16.04, CO₂ 44.01 g/mol)",
+   "solution": "16.0 g ÷ 16.04 g/mol = 0.998 mol CH₄. The ratio is 1 : 1, so 0.998 mol CO₂ × 44.01 g/mol = 43.9 g."
+  },
+  "misconceptions": [
+   [
+    "“You can balance an equation by changing subscripts.”",
+    "Changing a subscript changes the substance; change only coefficients."
+   ],
+   [
+    "“The reactant with the smaller mass is limiting.”",
+    "Compare moles, using the mole ratio, not grams."
+   ],
+   [
+    "“Spectator ions take part in the reaction.”",
+    "They are unchanged and are left out of the net ionic equation."
+   ],
+   [
+    "“Oxidation always involves oxygen.”",
+    "Oxidation means losing electrons, with or without oxygen."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Chemistry Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+  "sourceTitle": "AP Chemistry – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "chem-u4-q01",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-rep",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "When the equation _C₃H₈ + _O₂ → _CO₂ + _H₂O is balanced with the smallest whole numbers, what is the coefficient of O₂?",
+   "choices": [
+    "3",
+    "4",
+    "10",
+    "5"
+   ],
+   "correctAnswer": 3,
+   "explanation": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O: 3 C, 8 H, and 10 O on each side.",
+   "choiceExplanations": [
+    "3 is the coefficient of CO₂.",
+    "4 is the coefficient of H₂O.",
+    "10 is the number of oxygen atoms, which needs only 5 O₂ molecules.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q02",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-rep",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the net ionic equation for mixing aqueous AgNO₃ and NaCl?",
+   "choices": [
+    "AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq)",
+    "Ag⁺(aq) + NO₃⁻(aq) + Na⁺(aq) + Cl⁻(aq) → AgCl(s) + Na⁺(aq) + NO₃⁻(aq)",
+    "Na⁺(aq) + NO₃⁻(aq) → NaNO₃(s)",
+    "Ag⁺(aq) + Cl⁻(aq) → AgCl(s)"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Na⁺ and NO₃⁻ are spectator ions. Only Ag⁺ and Cl⁻ react, forming the AgCl precipitate.",
+   "choiceExplanations": [
+    "This is the molecular equation, not the net ionic equation.",
+    "This complete ionic equation still includes the spectator ions.",
+    "NaNO₃ is soluble, so it doesn't form a solid.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q03",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-rep",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Which of these is a chemical change?",
+   "choices": [
+    "Iron rusting",
+    "Water boiling",
+    "Sugar dissolving in water",
+    "Ice melting"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Rusting forms a new substance, iron oxide, from iron and oxygen.",
+   "choiceExplanations": [
+    "",
+    "Boiling changes only the state of water.",
+    "The sugar molecules stay intact when they dissolve.",
+    "Melting changes only the state of water."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q04",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-rep",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Aqueous HCl reacts with aqueous NaOH. Which ions are spectator ions?",
+   "choices": [
+    "Na⁺ and Cl⁻",
+    "H⁺ and Cl⁻",
+    "H⁺ and OH⁻",
+    "Na⁺ and OH⁻"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The net reaction is H⁺ + OH⁻ → H₂O. Na⁺ and Cl⁻ stay dissolved and unchanged.",
+   "choiceExplanations": [
+    "",
+    "H⁺ reacts, so it isn't a spectator.",
+    "H⁺ and OH⁻ are the ions that react to make water.",
+    "OH⁻ reacts, so it isn't a spectator."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q05",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-rep",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What is the net ionic equation for the reaction of acetic acid (CH₃COOH, a weak acid) with aqueous NaOH?",
+   "choices": [
+    "CH₃COOH(aq) + Na⁺(aq) → CH₃COONa(s) + H⁺(aq)",
+    "CH₃COO⁻(aq) + H⁺(aq) + OH⁻(aq) → CH₃COO⁻(aq) + H₂O(l)",
+    "CH₃COOH(aq) + OH⁻(aq) → CH₃COO⁻(aq) + H₂O(l)",
+    "H⁺(aq) + OH⁻(aq) → H₂O(l)"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A weak acid is mostly un-ionized, so it is written as a molecule. NaOH is a strong base, so OH⁻ appears as an ion and Na⁺ is a spectator.",
+   "choiceExplanations": [
+    "Na⁺ is a spectator, and sodium acetate is soluble.",
+    "This treats acetic acid as fully ionized, which a weak acid isn't.",
+    "",
+    "This is the net equation for a strong acid; a weak acid should be written as a molecule."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q06",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-stoich",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "For 2H₂ + O₂ → 2H₂O, how many moles of water form from 3.0 mol of O₂ with plenty of H₂?",
+   "choices": [
+    "6.0 mol",
+    "9.0 mol",
+    "1.5 mol",
+    "3.0 mol"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The ratio is 2 mol H₂O per 1 mol O₂: 3.0 × 2 = 6.0 mol.",
+   "choiceExplanations": [
+    "",
+    "9.0 mol multiplies by 3.",
+    "1.5 mol inverts the ratio.",
+    "3.0 mol uses a 1 : 1 ratio."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q07",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-stoich",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What mass of CO₂ forms when 16.0 g of CH₄ burns completely? (CH₄ + 2O₂ → CO₂ + 2H₂O; CH₄ 16.04, CO₂ 44.01 g/mol)",
+   "choices": [
+    "22.0 g",
+    "43.9 g",
+    "87.8 g",
+    "16.0 g"
+   ],
+   "correctAnswer": 1,
+   "explanation": "16.0/16.04 = 0.998 mol CH₄ → 0.998 mol CO₂ → 0.998 × 44.01 = 43.9 g.",
+   "choiceExplanations": [
+    "22.0 g uses a 2 : 1 ratio.",
+    "",
+    "87.8 g uses a 1 : 2 ratio, as if 2 mol CO₂ formed.",
+    "Mass isn't conserved for one substance; the moles carry over, not the grams."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q08",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-stoich",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "For N₂ + 3H₂ → 2NH₃, 2.0 mol of N₂ reacts with 3.0 mol of H₂. How many moles of NH₃ can form?",
+   "choices": [
+    "3.0 mol",
+    "2.0 mol",
+    "4.0 mol",
+    "6.0 mol"
+   ],
+   "correctAnswer": 1,
+   "explanation": "3.0 mol H₂ could make 2.0 mol NH₃; 2.0 mol N₂ could make 4.0 mol. H₂ is limiting, so 2.0 mol NH₃ forms.",
+   "choiceExplanations": [
+    "3.0 mol uses a 1 : 1 ratio with H₂.",
+    "",
+    "4.0 mol assumes N₂ is limiting, but there isn't enough H₂ for that.",
+    "6.0 mol uses 2 mol NH₃ per mol of H₂."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q09",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-stoich",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "25.0 mL of HCl solution is exactly neutralized by 20.0 mL of 0.100 M NaOH. What is the concentration of the HCl?",
+   "choices": [
+    "0.125 M",
+    "0.100 M",
+    "0.00200 M",
+    "0.0800 M"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Moles NaOH = 0.100 × 0.0200 = 0.00200 mol = moles HCl (1 : 1). [HCl] = 0.00200 / 0.0250 L = 0.0800 M.",
+   "choiceExplanations": [
+    "0.125 M inverts the volume ratio.",
+    "0.100 M assumes equal concentrations, but the volumes differ.",
+    "0.00200 is the number of moles, not the concentration.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q10",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-stoich",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "For 2Al + 3Cl₂ → 2AlCl₃, 0.400 mol of Al reacts with excess Cl₂ and produces 40.0 g of AlCl₃ (133.3 g/mol). What is the percent yield?",
+   "choices": [
+    "50.0%",
+    "30.0%",
+    "75.0%",
+    "133%"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Theoretical: 0.400 mol Al → 0.400 mol AlCl₃ = 53.3 g. Percent yield = 40.0/53.3 × 100 = 75.0%.",
+   "choiceExplanations": [
+    "50.0% uses a 2 : 3 ratio (0.600 mol AlCl₃) instead of 2 : 2.",
+    "30.0% reports the actual moles (0.300) as a percent.",
+    "",
+    "133% divides theoretical by actual."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q11",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-stoich",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In an acid–base titration, what is true at the equivalence point?",
+   "choices": [
+    "The indicator has just been added",
+    "The volume of titrant added equals the volume of the sample",
+    "The moles of titrant added have exactly reacted with the moles of the substance being titrated, by the mole ratio",
+    "The pH is always exactly 7"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The equivalence point is defined by stoichiometry: just enough titrant has been added to react with all of the analyte.",
+   "choiceExplanations": [
+    "The indicator is added at the start; its color change signals the endpoint.",
+    "The volumes are equal only if the concentrations and mole ratio happen to match.",
+    "",
+    "The pH is 7 only for a strong acid with a strong base."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q12",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-types",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What type of reaction is Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g)?",
+   "choices": [
+    "Oxidation–reduction",
+    "Physical change",
+    "Precipitation",
+    "Acid–base neutralization"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Zinc goes from 0 to +2 (oxidized) and hydrogen from +1 to 0 (reduced): electrons are transferred.",
+   "choiceExplanations": [
+    "",
+    "New substances form, so it is a chemical change.",
+    "No solid forms; ZnCl₂ is soluble.",
+    "No base accepts a proton; zinc metal gives up electrons."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q13",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-types",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the oxidation number of manganese in the permanganate ion, MnO₄⁻?",
+   "choices": [
+    "+4",
+    "−1",
+    "+8",
+    "+7"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Four O atoms give −8. The total must be −1, so Mn is +7.",
+   "choiceExplanations": [
+    "+4 assumes each oxygen is −1.",
+    "−1 is the charge of the whole ion.",
+    "+8 ignores the ion's −1 charge.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q14",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-types",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), which species is oxidized?",
+   "choices": [
+    "Cu",
+    "Zn",
+    "Zn²⁺",
+    "Cu²⁺"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Zinc loses two electrons (0 → +2), so it is oxidized.",
+   "choiceExplanations": [
+    "Cu is the product of the reduction.",
+    "",
+    "Zn²⁺ is the product of the oxidation.",
+    "Cu²⁺ gains electrons, so it is reduced (it is the oxidizing agent)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q15",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-types",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In NH₃ + H₂O ⇌ NH₄⁺ + OH⁻, which species acts as a Brønsted–Lowry acid?",
+   "choices": [
+    "H₂O",
+    "NH₄⁺ only, because it is a product",
+    "OH⁻",
+    "NH₃"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Water donates a proton to ammonia, becoming OH⁻. A proton donor is a Brønsted–Lowry acid.",
+   "choiceExplanations": [
+    "",
+    "NH₄⁺ is the conjugate acid in the reverse reaction; in the forward reaction H₂O donates the proton.",
+    "OH⁻ is the conjugate base of water.",
+    "NH₃ accepts the proton, so it is the base."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q16",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-types",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Using only the rule that all Na⁺, K⁺, NH₄⁺, and nitrate salts are soluble, which pair of solutions could form a precipitate?",
+   "choices": [
+    "KBr and NaNO₃",
+    "AgNO₃ and NaCl",
+    "NaCl and KNO₃",
+    "NH₄Cl and NaNO₃"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Every possible product of the other pairs is a sodium, potassium, ammonium, or nitrate salt, so all are soluble. AgNO₃ and NaCl can form AgCl, which the rule doesn't cover (it is in fact insoluble).",
+   "choiceExplanations": [
+    "Swapping gives KNO₃ and NaBr, both soluble.",
+    "",
+    "Swapping partners gives NaNO₃ and KCl, both soluble.",
+    "Swapping gives NH₄NO₃ and NaCl, both soluble."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u4-q17",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "topicId": "c4-types",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "When MnO₄⁻ is reduced to Mn²⁺ in acidic solution, how many electrons does each MnO₄⁻ gain?",
+   "choices": [
+    "2",
+    "3",
+    "5",
+    "7"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Manganese's oxidation number falls from +7 to +2, a gain of 5 electrons.",
+   "choiceExplanations": [
+    "2 is Mn's final oxidation number.",
+    "3 is the change for a +5 to +2 reduction.",
+    "",
+    "7 is Mn's starting oxidation number, not the change."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-chem-u4-os1",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "title": "OpenStax Chemistry 2e, 4.1 Writing and Balancing Chemical Equations",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Balancing equations and writing ionic equations (CED topics 4.1–4.3).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u4-os2",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "title": "OpenStax Chemistry 2e, 4.3 Reaction Stoichiometry",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Mole ratios and mass calculations (CED topic 4.5).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u4-os3",
+   "courseId": "ap-chemistry",
+   "unitId": "u4",
+   "title": "OpenStax Chemistry 2e, 4.2 Classifying Chemical Reactions",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Precipitation, acid–base, and redox reactions (CED topics 4.7–4.9).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "chem-u4-q01",
+    "chem-u4-q02",
+    "chem-u4-q03",
+    "chem-u4-q06",
+    "chem-u4-q07",
+    "chem-u4-q09",
+    "chem-u4-q13",
+    "chem-u4-q17"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "chem-u4-q04",
+    "chem-u4-q05",
+    "chem-u4-q08",
+    "chem-u4-q10",
+    "chem-u4-q11",
+    "chem-u4-q12",
+    "chem-u4-q14",
+    "chem-u4-q15"
+   ]
+  }
+ ]
+}

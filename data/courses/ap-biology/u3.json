@@ -1,0 +1,735 @@
+{
+ "courseId": "ap-biology",
+ "unitId": "u3",
+ "title": "Unit 3: Cellular Energetics",
+ "topics": [
+  {
+   "id": "bio3-enz",
+   "name": "Enzymes",
+   "covers": [
+    "The structure and function of enzymes"
+   ],
+   "frameworkCovers": [
+    "3.1 Enzymes",
+    "3.2 Environmental Impacts on Enzyme Function"
+   ]
+  },
+  {
+   "id": "bio3-energy",
+   "name": "Cellular energy",
+   "covers": [
+    "Cellular energy"
+   ],
+   "frameworkCovers": [
+    "3.3 Cellular Energy"
+   ]
+  },
+  {
+   "id": "bio3-photo",
+   "name": "Photosynthesis",
+   "covers": [
+    "The processes of photosynthesis and cellular respiration"
+   ],
+   "frameworkCovers": [
+    "3.4 Photosynthesis"
+   ]
+  },
+  {
+   "id": "bio3-resp",
+   "name": "Cellular respiration",
+   "covers": [
+    "The processes of photosynthesis and cellular respiration"
+   ],
+   "frameworkCovers": [
+    "3.5 Cellular Respiration"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Cellular energetics: review guide",
+  "intro": "Cells capture, store, and use energy. This unit explains how enzymes speed reactions, how ATP couples energy-releasing and energy-using reactions, and how photosynthesis and cellular respiration transform energy.",
+  "sections": [
+   {
+    "id": "s-bio3-enz",
+    "topicId": "bio3-enz",
+    "title": "Enzymes",
+    "body": [
+     "Enzymes are biological catalysts, usually proteins. Each has an active site whose shape and charge fit a specific substrate. Enzymes speed reactions by lowering the activation energy; they aren't used up and don't change ΔG.",
+     "Temperature, pH, and inhibitors affect enzymes. Above the optimum temperature, or far from the optimum pH, an enzyme can denature (lose its shape) and stop working. A competitive inhibitor binds the active site and can be outcompeted by adding more substrate; a noncompetitive (allosteric) inhibitor binds elsewhere, changes the enzyme's shape, and lowers the maximum rate even at high substrate concentrations."
+    ],
+    "points": [
+     "Rate rises with substrate concentration until all active sites are busy.",
+     "Cold slows enzymes without denaturing them.",
+     "End-product (feedback) inhibition often works allosterically."
+    ]
+   },
+   {
+    "id": "s-bio3-energy",
+    "topicId": "bio3-energy",
+    "title": "Cellular energy",
+    "body": [
+     "Living systems need a constant input of energy to stay organized, because every energy transformation releases some energy as heat and increases the entropy of the surroundings.",
+     "ATP hydrolysis (ATP → ADP + Pᵢ) releases energy. Cells couple it to energy-requiring (endergonic) reactions so the combined process is favorable, often by transferring a phosphate group to a reactant. Metabolic pathways are sequences of enzyme-catalyzed steps, often regulated by feedback."
+    ],
+    "points": [
+     "Exergonic reactions release free energy; endergonic reactions require it.",
+     "Coupled reactions are favorable if their combined ΔG is negative.",
+     "Organisms lose order and die without a continual energy supply."
+    ]
+   },
+   {
+    "id": "s-bio3-photo",
+    "topicId": "bio3-photo",
+    "title": "Photosynthesis",
+    "body": [
+     "In the light-dependent reactions (thylakoid membranes of the chloroplast), chlorophyll absorbs light, water is split (releasing O₂), and an electron transport chain pumps H⁺ into the thylakoid space. H⁺ flowing back to the stroma through ATP synthase makes ATP, and electrons reduce NADP⁺ to NADPH.",
+     "The Calvin cycle (stroma) uses that ATP and NADPH to fix CO₂ into sugar. Overall: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂."
+    ],
+    "points": [
+     "The O₂ released comes from water, not from CO₂.",
+     "The Calvin cycle doesn't use light directly, but it depends on the light reactions' products.",
+     "Photosynthesis evolved first in prokaryotes (cyanobacteria)."
+    ]
+   },
+   {
+    "id": "s-bio3-resp",
+    "topicId": "bio3-resp",
+    "title": "Cellular respiration",
+    "body": [
+     "Glycolysis (cytosol) splits glucose into two pyruvate, with a net gain of 2 ATP and 2 NADH. In the mitochondrial matrix, pyruvate oxidation and the citric acid (Krebs) cycle release CO₂ and make NADH and FADH₂.",
+     "In the electron transport chain (inner mitochondrial membrane), electrons from NADH and FADH₂ pass along proteins that pump H⁺ into the intermembrane space; O₂ is the final electron acceptor, forming water. H⁺ flowing back through ATP synthase makes most of the ATP (chemiosmosis). Without O₂, fermentation regenerates NAD⁺ so glycolysis can continue."
+    ],
+    "points": [
+     "Most ATP comes from oxidative phosphorylation, not glycolysis.",
+     "Fermentation makes no extra ATP beyond glycolysis.",
+     "An uncoupler makes the inner membrane leaky to H⁺, so energy is released as heat instead of making ATP."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A reaction with ΔG = +20 kJ/mol is coupled to ATP hydrolysis (ΔG = −30 kJ/mol). Is the coupled process favorable?",
+   "solution": "Add the free energy changes: +20 + (−30) = −10 kJ/mol. The total is negative, so the coupled process is favorable."
+  },
+  "misconceptions": [
+   [
+    "“Enzymes are used up in reactions.”",
+    "They are regenerated and can be used again."
+   ],
+   [
+    "“Photosynthesis releases O₂ from CO₂.”",
+    "The O₂ comes from splitting water."
+   ],
+   [
+    "“Plants photosynthesize instead of doing cellular respiration.”",
+    "Plants do both; their mitochondria carry out respiration."
+   ],
+   [
+    "“Glycolysis makes most of a cell's ATP.”",
+    "Most ATP comes from the electron transport chain and chemiosmosis."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Biology Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+  "sourceTitle": "AP Biology – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "bio-u3-q01",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-enz",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How does an enzyme speed up a reaction?",
+   "choices": [
+    "It is consumed as a reactant",
+    "It raises the temperature of the cell",
+    "It lowers the activation energy",
+    "It makes ΔG more negative"
+   ],
+   "correctAnswer": 2,
+   "explanation": "An enzyme provides a pathway with a lower energy barrier, so more molecules can react.",
+   "choiceExplanations": [
+    "Enzymes are regenerated, not consumed.",
+    "Enzymes don't heat the cell.",
+    "",
+    "Enzymes don't change the free energy difference between reactants and products."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q02",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-enz",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Why does each enzyme usually act on only one substrate or a few similar ones?",
+   "choices": [
+    "It works only at one temperature",
+    "It is made of DNA that matches the substrate",
+    "Its active site's shape and charge fit only certain substrates",
+    "It contains the substrate's genes"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The active site is complementary to its substrate, which makes enzymes specific.",
+   "choiceExplanations": [
+    "Enzymes work over a range of temperatures.",
+    "Most enzymes are proteins, not DNA.",
+    "",
+    "Enzymes don't contain genes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q03",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-enz",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "An enzyme's reaction rate drops sharply when the temperature rises well above its optimum. What is the best explanation?",
+   "choices": [
+    "The activation energy of the reaction increases",
+    "The enzyme denatures: its shape, including the active site, changes",
+    "The substrate molecules move too slowly",
+    "The enzyme makes more product than the cell needs"
+   ],
+   "correctAnswer": 1,
+   "explanation": "High temperatures disrupt the bonds that hold the enzyme's shape, so the active site no longer fits the substrate.",
+   "choiceExplanations": [
+    "The barrier doesn't rise; the enzyme stops working.",
+    "",
+    "Molecules move faster at higher temperatures.",
+    "Product amount doesn't explain a sharp drop in rate."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q04",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-enz",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A competitive inhibitor slows an enzyme. How can its effect be overcome?",
+   "choices": [
+    "It can't be overcome",
+    "By adding more inhibitor",
+    "By lowering the temperature",
+    "By adding much more substrate"
+   ],
+   "correctAnswer": 3,
+   "explanation": "A competitive inhibitor competes for the active site, so with enough substrate the substrate wins most of the time.",
+   "choiceExplanations": [
+    "Competitive inhibition is overcome by high substrate concentrations.",
+    "More inhibitor slows the enzyme further.",
+    "Lower temperature slows all enzyme reactions.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q05",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-enz",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "With inhibitor X present, an enzyme's maximum reaction rate stays lower than normal even at very high substrate concentrations. How does X most likely act?",
+   "choices": [
+    "It acts as a second substrate",
+    "It binds the active site and competes with the substrate",
+    "It binds a site other than the active site and changes the enzyme's shape (noncompetitive or allosteric inhibition)",
+    "It increases the activation energy of the uncatalyzed reaction"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Extra substrate can't displace an inhibitor bound elsewhere, so the maximum rate stays lower.",
+   "choiceExplanations": [
+    "A second substrate would be used up, not lower the maximum rate.",
+    "A competitive inhibitor's effect would disappear at high substrate concentrations.",
+    "",
+    "The uncatalyzed reaction's barrier isn't what changes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q06",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-energy",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "How do cells use ATP to power energy-requiring processes?",
+   "choices": [
+    "It absorbs heat from the surroundings",
+    "Its hydrolysis to ADP and phosphate releases energy that is coupled to those processes",
+    "Breaking it down uses up energy",
+    "It is a long-term energy store like fat"
+   ],
+   "correctAnswer": 1,
+   "explanation": "ATP hydrolysis is exergonic; coupling it to an endergonic process makes the combination favorable.",
+   "choiceExplanations": [
+    "ATP releases energy; it doesn't absorb heat to do work.",
+    "",
+    "Hydrolyzing ATP releases energy.",
+    "ATP is short-term currency; fats store energy long-term."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q07",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-energy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A reaction with ΔG = +20 kJ/mol is coupled to ATP hydrolysis (ΔG = −30 kJ/mol). What is the ΔG of the coupled process?",
+   "choices": [
+    "−50 kJ/mol, so it is favorable",
+    "−10 kJ/mol, so it is favorable",
+    "+50 kJ/mol, so it is unfavorable",
+    "+10 kJ/mol, so it is unfavorable"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Coupled free energy changes add: +20 + (−30) = −10 kJ/mol.",
+   "choiceExplanations": [
+    "This adds the sizes as if both were negative.",
+    "",
+    "This subtracts the negative value.",
+    "This has the wrong sign."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q08",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-energy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why must living cells take in energy continually?",
+   "choices": [
+    "Energy is destroyed in chemical reactions",
+    "Only dividing cells need energy",
+    "Cells store unlimited energy and must keep filling it",
+    "Every energy transformation releases some energy as heat, so keeping cells organized requires a constant input"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Energy isn't destroyed, but it is lost as heat, and maintaining order requires replacing it.",
+   "choiceExplanations": [
+    "Energy is conserved; it changes form, often to heat.",
+    "All living cells need energy to stay organized.",
+    "Cells can't store unlimited energy.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q09",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-energy",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In a pathway A → B → C → D, the end product D binds to and inhibits the first enzyme. What does this accomplish?",
+   "choices": [
+    "It turns D back into A",
+    "It makes the first enzyme a substrate",
+    "It slows the pathway when enough D is present, conserving resources (feedback inhibition)",
+    "It speeds the pathway when D accumulates"
+   ],
+   "correctAnswer": 2,
+   "explanation": "End-product inhibition is negative feedback: production slows when D is plentiful and resumes when D is used up.",
+   "choiceExplanations": [
+    "Inhibition doesn't reverse the reactions.",
+    "D regulates the enzyme; the enzyme isn't consumed.",
+    "",
+    "Inhibiting the first enzyme slows the pathway."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q10",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-photo",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Where do the light-dependent reactions of photosynthesis take place, and what do they produce?",
+   "choices": [
+    "In the thylakoid membranes; they produce ATP, NADPH, and O₂",
+    "In the stroma; they produce glucose",
+    "In the mitochondria; they produce CO₂",
+    "In the cytosol; they produce pyruvate"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Chlorophyll and the electron transport chain are in the thylakoid membranes, where water is split and ATP and NADPH are made.",
+   "choiceExplanations": [
+    "",
+    "Sugar is made in the Calvin cycle in the stroma.",
+    "Mitochondria carry out cellular respiration.",
+    "Pyruvate is made in glycolysis."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q11",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-photo",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A plant is given water made with a heavy isotope of oxygen (¹⁸O); its CO₂ has ordinary oxygen. Where does the heavy oxygen first appear?",
+   "choices": [
+    "In the O₂ the plant releases",
+    "In the glucose the plant makes",
+    "It stays in the water",
+    "In the CO₂ the plant takes in"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Splitting water in the light reactions releases its oxygen as O₂.",
+   "choiceExplanations": [
+    "",
+    "Glucose's oxygen comes from CO₂ in the Calvin cycle.",
+    "The water is split, so its oxygen leaves as O₂.",
+    "The plant takes in CO₂ from the air, which isn't labeled."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q12",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-photo",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What does the Calvin cycle use, and what does it make?",
+   "choices": [
+    "It uses light and water to make O₂",
+    "It uses sugar to make CO₂",
+    "It uses glucose and O₂ to make ATP",
+    "It uses ATP, NADPH, and CO₂ to make sugar"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The Calvin cycle fixes CO₂ into sugar using the energy and electrons from the light reactions.",
+   "choiceExplanations": [
+    "That describes the light-dependent reactions.",
+    "That describes respiration's release of CO₂.",
+    "That describes cellular respiration.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q13",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-photo",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "In a chloroplast, ATP synthase makes ATP as H⁺ ions flow in which direction?",
+   "choices": [
+    "From the stroma into the thylakoid space",
+    "From the thylakoid space into the stroma",
+    "Out of the chloroplast",
+    "From the cytosol into the chloroplast"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The electron transport chain pumps H⁺ into the thylakoid space; H⁺ flows back down its gradient to the stroma through ATP synthase.",
+   "choiceExplanations": [
+    "That is the direction H⁺ is pumped, against its gradient.",
+    "",
+    "The gradient is inside the chloroplast.",
+    "The H⁺ gradient is across the thylakoid membrane, not the outer membranes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q14",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-resp",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Where does glycolysis take place, and what is its net ATP yield per glucose?",
+   "choices": [
+    "In the mitochondrial matrix; 2 ATP",
+    "In the inner mitochondrial membrane; 4 ATP",
+    "In the cytosol; about 30 ATP",
+    "In the cytosol; 2 ATP"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Glycolysis happens in the cytosol and nets 2 ATP (4 made, 2 used).",
+   "choiceExplanations": [
+    "The citric acid cycle is in the matrix.",
+    "Glycolysis makes 4 ATP but uses 2, and it isn't in the membrane.",
+    "About 30 ATP is the total yield of aerobic respiration.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q15",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-resp",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What is the final electron acceptor of the electron transport chain in aerobic respiration?",
+   "choices": [
+    "Oxygen, which forms water",
+    "NAD⁺",
+    "Glucose",
+    "CO₂"
+   ],
+   "correctAnswer": 0,
+   "explanation": "O₂ accepts electrons and H⁺ at the end of the chain, forming H₂O.",
+   "choiceExplanations": [
+    "",
+    "NAD⁺ accepts electrons earlier, becoming NADH.",
+    "Glucose is the fuel, not the final acceptor.",
+    "CO₂ is released in the citric acid cycle."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q16",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-resp",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Without oxygen, yeast carry out fermentation. What is the main purpose of fermentation?",
+   "choices": [
+    "To make much more ATP than aerobic respiration",
+    "To regenerate NAD⁺ so glycolysis can keep making ATP",
+    "To make oxygen",
+    "To build glucose from CO₂"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Glycolysis needs NAD⁺. Fermentation passes NADH's electrons to pyruvate (or a product of it), freeing NAD⁺.",
+   "choiceExplanations": [
+    "Fermentation adds no ATP beyond glycolysis's 2.",
+    "",
+    "Fermentation doesn't produce O₂.",
+    "Building sugar from CO₂ is photosynthesis."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q17",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-resp",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A chemical makes the inner mitochondrial membrane leaky to H⁺. What happens?",
+   "choices": [
+    "Electron transport and O₂ use continue, but ATP production falls and more energy is released as heat",
+    "Electron transport stops immediately",
+    "ATP production rises because H⁺ moves faster",
+    "Glycolysis stops because it needs the H⁺ gradient"
+   ],
+   "correctAnswer": 0,
+   "explanation": "H⁺ leaks back without passing through ATP synthase, so the gradient's energy becomes heat instead of ATP.",
+   "choiceExplanations": [
+    "",
+    "The chain can keep running, since the gradient no longer builds up to resist it.",
+    "ATP synthase makes ATP only when H⁺ flows through it.",
+    "Glycolysis doesn't depend on the mitochondrial H⁺ gradient."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u3-q18",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "topicId": "bio3-resp",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Where does the citric acid (Krebs) cycle take place?",
+   "choices": [
+    "In the mitochondrial matrix",
+    "In the nucleus",
+    "In the cytosol",
+    "In the thylakoid membranes"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Pyruvate enters the mitochondrion and is oxidized in the matrix, where the citric acid cycle releases CO₂.",
+   "choiceExplanations": [
+    "",
+    "The nucleus holds DNA.",
+    "Glycolysis is in the cytosol.",
+    "Thylakoids are in chloroplasts."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-bio-u3-os1",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "title": "OpenStax Biology for AP® Courses, 6.5 Enzymes",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/6-5-enzymes",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Active sites, inhibition, and enzyme regulation (CED topics 3.1–3.2).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/6-5-enzymes",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u3-os2",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "title": "OpenStax Biology for AP® Courses, 8.1 Overview of Photosynthesis",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/8-1-overview-of-photosynthesis",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "The two stages of photosynthesis (CED topic 3.4).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/8-1-overview-of-photosynthesis",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u3-os3",
+   "courseId": "ap-biology",
+   "unitId": "u3",
+   "title": "OpenStax Biology for AP® Courses, 7.4 Oxidative Phosphorylation",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/7-4-oxidative-phosphorylation",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "The electron transport chain and chemiosmosis (CED topic 3.5).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/7-4-oxidative-phosphorylation",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "bio-u3-q01",
+    "bio-u3-q02",
+    "bio-u3-q06",
+    "bio-u3-q07",
+    "bio-u3-q11",
+    "bio-u3-q12",
+    "bio-u3-q15",
+    "bio-u3-q17"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "bio-u3-q03",
+    "bio-u3-q05",
+    "bio-u3-q08",
+    "bio-u3-q09",
+    "bio-u3-q10",
+    "bio-u3-q13",
+    "bio-u3-q14",
+    "bio-u3-q18"
+   ]
+  }
+ ]
+}

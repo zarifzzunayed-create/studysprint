@@ -1,0 +1,742 @@
+{
+ "courseId": "ap-biology",
+ "unitId": "u6",
+ "title": "Unit 6: Gene Expression and Regulation",
+ "topics": [
+  {
+   "id": "bio6-dna",
+   "name": "DNA and RNA structure and DNA replication",
+   "covers": [
+    "DNA and RNA structure",
+    "DNA replication"
+   ],
+   "frameworkCovers": [
+    "6.1 DNA and RNA Structure",
+    "6.2 DNA Replication"
+   ]
+  },
+  {
+   "id": "bio6-express",
+   "name": "Transcription, RNA processing, and translation",
+   "covers": [
+    "Transcription and RNA processing",
+    "Translation"
+   ],
+   "frameworkCovers": [
+    "6.3 Transcription and RNA Processing",
+    "6.4 Translation"
+   ]
+  },
+  {
+   "id": "bio6-reg",
+   "name": "Regulation of gene expression and cell specialization",
+   "covers": [
+    "Regulation of gene expression",
+    "Gene expression and cell specialization"
+   ],
+   "frameworkCovers": [
+    "6.5 Regulation of Gene Expression",
+    "6.6 Gene Expression and Cell Specialization"
+   ]
+  },
+  {
+   "id": "bio6-mut",
+   "name": "Mutations and biotechnology",
+   "covers": [
+    "Mutations",
+    "Biotechnology"
+   ],
+   "frameworkCovers": [
+    "6.7 Mutations",
+    "6.8 Biotechnology"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Gene expression and regulation: review guide",
+  "intro": "DNA stores the instructions for making proteins. This unit follows DNA replication, transcription, and translation, explains how cells control which genes are expressed, and covers mutations and the biotechnology used to study and change DNA.",
+  "sections": [
+   {
+    "id": "s-bio6-dna",
+    "topicId": "bio6-dna",
+    "title": "DNA and RNA structure and DNA replication",
+    "body": [
+     "DNA is a double helix of antiparallel strands with A–T and G–C base pairs, so A = T and G = C in amounts. Prokaryotes usually have a circular chromosome and may carry plasmids (small, extra circular DNA molecules); eukaryotes have linear chromosomes.",
+     "Replication is semiconservative: each new double helix has one old strand and one new strand. Helicase unwinds the DNA, DNA polymerase adds nucleotides only to the 3′ end of a growing strand, the leading strand is made continuously, and the lagging strand is made in Okazaki fragments that ligase joins together."
+    ],
+    "points": [
+     "If a DNA sample is 30% A, it is also 30% T, leaving 20% G and 20% C.",
+     "Primers (RNA) give DNA polymerase a starting point.",
+     "New strands grow 5′ → 3′."
+    ]
+   },
+   {
+    "id": "s-bio6-express",
+    "topicId": "bio6-express",
+    "title": "Transcription, RNA processing, and translation",
+    "body": [
+     "Transcription: RNA polymerase reads the template strand 3′ → 5′ and builds mRNA 5′ → 3′, pairing U with A. In eukaryotes the pre-mRNA is processed: introns are removed (splicing), a 5′ cap and a poly-A tail are added. Alternative splicing lets one gene code for several proteins.",
+     "Translation: at a ribosome, each mRNA codon (three bases) pairs with a tRNA anticodon, and the tRNA brings the matching amino acid. The ribosome joins the amino acids with peptide bonds, from the start codon AUG until a stop codon."
+    ],
+    "points": [
+     "The genetic code is redundant: several codons can code for the same amino acid.",
+     "Prokaryotes can transcribe and translate at the same time.",
+     "mRNA is complementary to the template strand."
+    ]
+   },
+   {
+    "id": "s-bio6-reg",
+    "topicId": "bio6-reg",
+    "title": "Regulation of gene expression and cell specialization",
+    "body": [
+     "In bacteria, operons group genes under one promoter. The lac operon is inducible: lactose inactivates the repressor, so the genes are transcribed. The trp operon is repressible: tryptophan activates the repressor, which shuts off transcription when tryptophan is plentiful.",
+     "In eukaryotes, transcription factors binding to promoters and enhancers, DNA methylation (usually silencing), and histone acetylation (usually activating) control which genes are expressed. Every cell in an organism has the same genes; cells specialize by expressing different subsets of them."
+    ],
+    "points": [
+     "Regulation saves energy by making proteins only when they are needed.",
+     "Small RNAs can block translation of specific mRNAs.",
+     "Differences in transcription factors explain why liver and skin cells make different proteins."
+    ]
+   },
+   {
+    "id": "s-bio6-mut",
+    "topicId": "bio6-mut",
+    "title": "Mutations and biotechnology",
+    "body": [
+     "Mutations change the DNA sequence. A substitution can be silent (same amino acid), missense (a different amino acid), or nonsense (a stop codon). An insertion or deletion not in a multiple of three shifts the reading frame and changes every codon after it. Mutations provide the variation that natural selection acts on.",
+     "Biotechnology: PCR copies DNA (doubling it each cycle); gel electrophoresis separates DNA fragments by size, with smaller fragments moving farther; transformation inserts plasmids into bacteria, often with an antibiotic-resistance gene so transformed cells can be selected; DNA sequencing reads the order of bases."
+    ],
+    "points": [
+     "Frameshifts are usually more harmful than single substitutions.",
+     "After n PCR cycles, one molecule becomes 2ⁿ copies.",
+     "DNA is negatively charged, so it moves toward the positive electrode."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A DNA template strand reads 3′-TACGGA-5′. Write the mRNA and the first codon's amino acid.",
+   "solution": "Pair each base (T→A, A→U, C→G, G→C): the mRNA is 5′-AUGCCU-3′. The first codon, AUG, is the start codon and codes for methionine."
+  },
+  "misconceptions": [
+   [
+    "“Different cell types have different genes.”",
+    "They have the same genes but express different ones."
+   ],
+   [
+    "“All mutations are harmful.”",
+    "Many are silent or neutral, and some are beneficial."
+   ],
+   [
+    "“DNA polymerase can add nucleotides to either end.”",
+    "It adds only to the 3′ end."
+   ],
+   [
+    "“In gel electrophoresis, larger fragments move farther.”",
+    "Smaller fragments move farther through the gel."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Biology Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+  "sourceTitle": "AP Biology – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "bio-u6-q01",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-dna",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A sample of double-stranded DNA is 30% adenine. What percent is guanine?",
+   "choices": [
+    "30%",
+    "20%",
+    "40%",
+    "70%"
+   ],
+   "correctAnswer": 1,
+   "explanation": "A = T = 30%, so A + T = 60% and G + C = 40%, split equally: G = 20%.",
+   "choiceExplanations": [
+    "30% is the amount of thymine, which pairs with adenine.",
+    "",
+    "40% is G + C together.",
+    "70% is everything except adenine."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q02",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-dna",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "DNA replication is semiconservative. What does that mean?",
+   "choices": [
+    "One new double helix is entirely original and the other entirely new",
+    "Both strands of each new double helix are new",
+    "Each new double helix has one original strand and one new strand",
+    "Only half of the DNA is copied"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Each original strand serves as a template for a new complementary strand.",
+   "choiceExplanations": [
+    "That would be conservative replication, which experiments ruled out.",
+    "Each new molecule keeps one old strand.",
+    "",
+    "The whole genome is copied."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q03",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-dna",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why is the lagging strand made in short Okazaki fragments?",
+   "choices": [
+    "Ligase cuts the strand into pieces",
+    "Helicase unwinds that strand more slowly",
+    "DNA polymerase adds nucleotides only to the 3′ end, so on that strand it must work away from the replication fork",
+    "The lagging strand has no template"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The strands are antiparallel. On one strand, 5′ → 3′ synthesis runs away from the fork, so it is made in pieces as the fork opens.",
+   "choiceExplanations": [
+    "Ligase joins fragments; it doesn't cut them.",
+    "Helicase unwinds both strands at once.",
+    "",
+    "Both strands serve as templates."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q04",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-dna",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "What would build up in a cell that has no working DNA ligase?",
+   "choices": [
+    "Unwound but uncopied DNA",
+    "Extra RNA primers on the leading strand only",
+    "Double-stranded RNA",
+    "Unjoined Okazaki fragments on the lagging strand"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Ligase seals the gaps between Okazaki fragments. Without it, the lagging strand stays in pieces.",
+   "choiceExplanations": [
+    "Helicase and polymerase still work, so the DNA is copied.",
+    "Primers are removed and replaced by other enzymes; the leading strand needs few joins.",
+    "Ligase isn't involved in making RNA.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q05",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-dna",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Many bacteria carry plasmids. What are plasmids?",
+   "choices": [
+    "Small circular DNA molecules separate from the main chromosome",
+    "Linear chromosomes in a nucleus",
+    "Ribosomes found in bacteria",
+    "Proteins that copy DNA"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Plasmids are extra circular DNA molecules that often carry genes such as antibiotic resistance.",
+   "choiceExplanations": [
+    "",
+    "Bacteria have no nucleus, and plasmids are circular.",
+    "Ribosomes are made of RNA and protein.",
+    "DNA polymerase copies DNA."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q06",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-express",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "In a eukaryotic cell, where does transcription take place and what does it make?",
+   "choices": [
+    "At the ribosome; it makes DNA",
+    "In the cytoplasm; it makes protein from mRNA",
+    "In the mitochondria; it makes ATP",
+    "In the nucleus; it makes RNA from a DNA template"
+   ],
+   "correctAnswer": 3,
+   "explanation": "RNA polymerase transcribes genes into RNA inside the nucleus.",
+   "choiceExplanations": [
+    "Ribosomes make protein, not DNA.",
+    "That describes translation.",
+    "Mitochondria make ATP by respiration.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q07",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-express",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "The DNA template strand 3′-TAC-5′ is transcribed. What is the mRNA codon?",
+   "choices": [
+    "3′-AUG-5′",
+    "5′-UAC-3′",
+    "5′-AUG-3′",
+    "5′-ATG-3′"
+   ],
+   "correctAnswer": 2,
+   "explanation": "Pair T→A, A→U, C→G; the mRNA runs antiparallel to the template, so it reads 5′-AUG-3′.",
+   "choiceExplanations": [
+    "The mRNA's 5′ end pairs with the template's 3′ end.",
+    "UAC copies the template's letters instead of pairing them.",
+    "",
+    "RNA uses uracil, not thymine."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q08",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-express",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Which change happens to eukaryotic pre-mRNA before it leaves the nucleus?",
+   "choices": [
+    "Introns are removed, and a 5′ cap and poly-A tail are added",
+    "Amino acids are attached to it",
+    "Exons are removed",
+    "Thymine replaces uracil"
+   ],
+   "correctAnswer": 0,
+   "explanation": "RNA processing splices out introns and adds the cap and tail, which protect the mRNA and help ribosomes bind.",
+   "choiceExplanations": [
+    "",
+    "Amino acids are attached to tRNA, not mRNA.",
+    "Exons are the parts that are kept.",
+    "RNA contains uracil, and processing doesn't swap bases."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q09",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-express",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "During translation, what pairs with each mRNA codon?",
+   "choices": [
+    "An amino acid directly",
+    "A DNA nucleotide",
+    "The anticodon of a tRNA carrying an amino acid",
+    "A ribosomal protein"
+   ],
+   "correctAnswer": 2,
+   "explanation": "tRNA anticodons base-pair with codons, bringing the matching amino acid into place.",
+   "choiceExplanations": [
+    "Amino acids don't pair with codons; tRNAs carry them.",
+    "DNA isn't involved in translation.",
+    "",
+    "Ribosomal proteins help, but codons pair with tRNA."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q10",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-express",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Humans have about 20,000 protein-coding genes but make far more different proteins. Which process best explains this?",
+   "choices": [
+    "Crossing over during mitosis",
+    "Alternative splicing, which joins different combinations of exons from the same gene",
+    "DNA replication",
+    "Each gene being translated into exactly one protein"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Different splicing patterns produce several mRNAs, and so several proteins, from one gene.",
+   "choiceExplanations": [
+    "Crossing over occurs in meiosis and doesn't create new proteins from one gene.",
+    "",
+    "Replication copies DNA; it doesn't make proteins.",
+    "That would give only as many proteins as genes."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q11",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-reg",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A person's liver cells and skin cells contain:",
+   "choices": [
+    "The same genes, all expressed equally",
+    "Completely different genes",
+    "No genes once they specialize",
+    "The same genes, but they express different subsets of them"
+   ],
+   "correctAnswer": 3,
+   "explanation": "Body cells have the same DNA; regulation of gene expression makes them different.",
+   "choiceExplanations": [
+    "Different cells express different genes.",
+    "Body cells share the same genome.",
+    "Specialized cells keep their DNA.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q12",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-reg",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In E. coli, what happens to the lac operon when lactose is present?",
+   "choices": [
+    "Lactose inactivates the repressor, so the genes for digesting lactose are transcribed",
+    "Lactose is used as the RNA polymerase",
+    "Lactose activates the repressor and blocks transcription",
+    "The genes are deleted"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The lac operon is inducible: lactose (as allolactose) binds the repressor and releases it from the operator.",
+   "choiceExplanations": [
+    "",
+    "Lactose is a sugar, not an enzyme.",
+    "That describes a repressible operon such as trp.",
+    "Regulation changes expression, not the DNA."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q13",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-reg",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "How do DNA methylation and histone acetylation usually affect gene expression?",
+   "choices": [
+    "Methylation activates genes; acetylation silences them",
+    "Methylation tends to silence genes; acetylation tends to activate them",
+    "Both change the DNA sequence",
+    "Both always activate genes"
+   ],
+   "correctAnswer": 1,
+   "explanation": "Methylated DNA is packed tightly and less accessible; acetylated histones loosen chromatin so transcription can happen.",
+   "choiceExplanations": [
+    "This reverses the usual effects.",
+    "",
+    "These are epigenetic changes; the base sequence stays the same.",
+    "They usually have opposite effects."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q14",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-reg",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "The trp operon makes the enzymes that synthesize tryptophan. What happens when tryptophan is abundant in the cell?",
+   "choices": [
+    "Tryptophan inactivates the repressor, so transcription increases",
+    "Tryptophan binds and activates the repressor, which blocks transcription of the operon",
+    "Tryptophan breaks down the RNA polymerase",
+    "The operon is transcribed faster to use up tryptophan"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The trp operon is repressible: its end product turns it off, so the cell stops making enzymes it doesn't need.",
+   "choiceExplanations": [
+    "That describes the inducible lac operon.",
+    "",
+    "Tryptophan acts through the repressor, not by destroying enzymes.",
+    "Making more enzymes would waste energy when tryptophan is plentiful."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q15",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-mut",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "A substitution changes a codon, but the protein's amino acid sequence stays the same. What kind of mutation is this?",
+   "choices": [
+    "A nonsense mutation",
+    "A frameshift mutation",
+    "A missense mutation",
+    "A silent mutation"
+   ],
+   "correctAnswer": 3,
+   "explanation": "The genetic code is redundant, so the new codon can code for the same amino acid.",
+   "choiceExplanations": [
+    "A nonsense mutation creates a stop codon.",
+    "A frameshift is caused by an insertion or deletion.",
+    "A missense mutation changes the amino acid.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q16",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-mut",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "Why is inserting one extra base near the start of a gene usually more harmful than substituting one base?",
+   "choices": [
+    "It shifts the reading frame, changing every codon after it",
+    "It changes only one amino acid",
+    "It always creates a start codon",
+    "Extra bases are removed during splicing"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Codons are read in groups of three, so a one-base insertion changes how all later bases are grouped.",
+   "choiceExplanations": [
+    "",
+    "That describes a substitution.",
+    "An insertion doesn't necessarily create a start codon.",
+    "Splicing removes introns, not mutations."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q17",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-mut",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In gel electrophoresis, how are DNA fragments separated?",
+   "choices": [
+    "By size: smaller fragments move farther toward the positive electrode",
+    "By base sequence alone",
+    "By charge: positive fragments move farther",
+    "By size: larger fragments move farther"
+   ],
+   "correctAnswer": 0,
+   "explanation": "DNA is negatively charged and moves toward the positive end; shorter fragments slip through the gel faster.",
+   "choiceExplanations": [
+    "",
+    "Fragments of the same length move together whatever their sequence.",
+    "All DNA fragments are negatively charged.",
+    "Larger fragments are slowed more by the gel."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "bio-u6-q18",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "topicId": "bio6-mut",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Bacteria are mixed with a plasmid carrying a gene for ampicillin resistance, and only a few take it up. How can you identify the transformed bacteria?",
+   "choices": [
+    "Grow them without ampicillin and keep the largest colonies",
+    "Grow them on plates containing ampicillin; only bacteria with the plasmid survive",
+    "Count which bacteria divide fastest",
+    "Run them on a gel to see which are heavier"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The resistance gene acts as a selectable marker: ampicillin kills bacteria without the plasmid.",
+   "choiceExplanations": [
+    "Without the antibiotic, all bacteria grow, so it doesn't select.",
+    "",
+    "Growth rate doesn't show which cells took up the plasmid.",
+    "Gels separate DNA fragments, not living bacteria."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-biology",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-bio-u6-os1",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "title": "OpenStax Biology for AP® Courses, 14.3 Basics of DNA Replication",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/14-3-basics-of-dna-replication",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Semiconservative replication (CED topic 6.2).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/14-3-basics-of-dna-replication",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u6-os2",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "title": "OpenStax Biology for AP® Courses, 15.5 Ribosomes and Protein Synthesis",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/15-5-ribosomes-and-protein-synthesis",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Translation (CED topic 6.4).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/15-5-ribosomes-and-protein-synthesis",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-bio-u6-os3",
+   "courseId": "ap-biology",
+   "unitId": "u6",
+   "title": "OpenStax Biology for AP® Courses, 16.2 Prokaryotic Gene Regulation",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/biology-ap-courses/pages/16-2-prokaryotic-gene-regulation",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "The lac and trp operons (CED topic 6.5).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/biology-ap-courses/pages/16-2-prokaryotic-gene-regulation",
+   "sourceTitle": "OpenStax Biology for AP® Courses",
+   "licenseOrRights": "Linked only. OpenStax lists Biology for AP® Courses under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "bio-u6-q01",
+    "bio-u6-q02",
+    "bio-u6-q06",
+    "bio-u6-q07",
+    "bio-u6-q12",
+    "bio-u6-q14",
+    "bio-u6-q16",
+    "bio-u6-q18"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "bio-u6-q04",
+    "bio-u6-q05",
+    "bio-u6-q08",
+    "bio-u6-q10",
+    "bio-u6-q11",
+    "bio-u6-q13",
+    "bio-u6-q15",
+    "bio-u6-q17"
+   ]
+  }
+ ]
+}

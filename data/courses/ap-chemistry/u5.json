@@ -1,0 +1,736 @@
+{
+ "courseId": "ap-chemistry",
+ "unitId": "u5",
+ "title": "Unit 5: Kinetics",
+ "topics": [
+  {
+   "id": "c5-rate",
+   "name": "Reaction rates and rate laws",
+   "covers": [
+    "Reaction rate",
+    "Introduction to rate law"
+   ],
+   "frameworkCovers": [
+    "5.1 Reaction Rates",
+    "5.2 Introduction to Rate Law",
+    "5.3 Concentration Changes Over Time"
+   ]
+  },
+  {
+   "id": "c5-collide",
+   "name": "Elementary reactions, collisions, and energy profiles",
+   "covers": [
+    "Elementary reactions",
+    "Collision model"
+   ],
+   "frameworkCovers": [
+    "5.4 Elementary Reactions",
+    "5.5 Collision Model",
+    "5.6 Reaction Energy Profile"
+   ]
+  },
+  {
+   "id": "c5-mech",
+   "name": "Reaction mechanisms and catalysis",
+   "covers": [
+    "Introduction to reaction mechanisms",
+    "Multistep reaction energy profile",
+    "Catalysis"
+   ],
+   "frameworkCovers": [
+    "5.7 Introduction to Reaction Mechanisms",
+    "5.8 Reaction Mechanism and Rate Law",
+    "5.9 Pre-Equilibrium Approximation",
+    "5.10 Multistep Reaction Energy Profile",
+    "5.11 Catalysis"
+   ]
+  }
+ ],
+ "officialTopicsNotYetCovered": [],
+ "frameworkTopicsNotYetCovered": [],
+ "guide": {
+  "title": "Kinetics: review guide",
+  "intro": "Kinetics is about how fast reactions happen and why. This unit measures rates, writes rate laws from data, uses integrated rate laws and half-lives, and explains rates with the collision model, energy profiles, mechanisms, and catalysts.",
+  "sections": [
+   {
+    "id": "s-c5-rate",
+    "topicId": "c5-rate",
+    "title": "Reaction rates and rate laws",
+    "body": [
+     "A reaction's rate is the change in concentration per unit time, scaled by the coefficients: for aA → bB, rate = −(1/a)Δ[A]/Δt = (1/b)Δ[B]/Δt. A rate law, rate = k[A]ᵐ[B]ⁿ, has orders found from experiments, not from the balanced equation. If doubling [A] doubles the rate, the reaction is first order in A; if it quadruples the rate, second order.",
+     "Integrated rate laws show how concentration changes over time. Zero order: [A] vs t is linear. First order: ln[A] vs t is linear and the half-life t½ = 0.693/k is constant. Second order: 1/[A] vs t is linear."
+    ],
+    "points": [
+     "The units of k depend on the overall order (first order: s⁻¹; second order: M⁻¹s⁻¹).",
+     "After n half-lives of a first-order reaction, (½)ⁿ remains.",
+     "Use the method of initial rates: change one concentration at a time."
+    ],
+    "equations": [
+     [
+      "ln[A] = ln[A]₀ − kt",
+      "first-order integrated rate law"
+     ],
+     [
+      "t½ = 0.693/k",
+      "first-order half-life"
+     ],
+     [
+      "1/[A] = 1/[A]₀ + kt",
+      "second-order integrated rate law"
+     ]
+    ]
+   },
+   {
+    "id": "s-c5-collide",
+    "topicId": "c5-collide",
+    "title": "Elementary reactions, collisions, and energy profiles",
+    "body": [
+     "An elementary reaction happens in one step, so its rate law comes straight from its molecularity: for 2NO + O₂ → 2NO₂ as a single step, rate = k[NO]²[O₂].",
+     "In the collision model, particles react only if they collide with enough energy (at least the activation energy Ea) and the right orientation. Raising the temperature increases the fraction of collisions with enough energy. On an energy profile, the peak is the transition state; Ea is the climb from reactants to the peak, and ΔH is products minus reactants."
+    ],
+    "points": [
+     "Raising temperature raises k.",
+     "Most collisions don't lead to reaction.",
+     "A larger Ea means a slower reaction at a given temperature."
+    ]
+   },
+   {
+    "id": "s-c5-mech",
+    "topicId": "c5-mech",
+    "title": "Reaction mechanisms and catalysis",
+    "body": [
+     "A mechanism is a sequence of elementary steps that adds up to the overall reaction. Intermediates form in one step and are used up in a later one. The slowest step is rate-determining, and the rate law comes from it; if a fast equilibrium comes first, use it to replace any intermediate in the slow step's rate law (pre-equilibrium approximation).",
+     "A catalyst speeds a reaction by providing a different pathway with a lower activation energy. It takes part in the mechanism but is regenerated, so it appears first as a reactant and later as a product. It doesn't change ΔH or the equilibrium constant."
+    ],
+    "points": [
+     "Intermediates can't appear in the overall rate law.",
+     "On a multistep energy profile, the step with the highest barrier is rate-determining.",
+     "Enzymes are biological catalysts."
+    ]
+   }
+  ],
+  "example": {
+   "prompt": "A first-order reaction has a half-life of 20 min. Starting at 0.80 M, what is the concentration after 60 min?",
+   "solution": "60 min is three half-lives: 0.80 → 0.40 → 0.20 → 0.10 M."
+  },
+  "misconceptions": [
+   [
+    "“Reaction orders are the coefficients of the balanced equation.”",
+    "Orders come from experiment, except for elementary steps."
+   ],
+   [
+    "“A catalyst is used up.”",
+    "It is regenerated by the end of the mechanism."
+   ],
+   [
+    "“A catalyst shifts the equilibrium toward products.”",
+    "It speeds the forward and reverse reactions equally; K is unchanged."
+   ],
+   [
+    "“Higher temperature speeds reactions only because collisions are more frequent.”",
+    "Mainly, a larger fraction of collisions has at least Ea."
+   ]
+  ],
+  "links": [
+   {
+    "title": "Official framework: AP Chemistry Course and Exam Description (PDF, College Board)",
+    "url": "https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf"
+   }
+  ],
+  "sourceType": "original",
+  "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+  "sourceTitle": "AP Chemistry – AP Students (College Board)",
+  "licenseOrRights": "Original review text written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+  "isOriginal": true,
+  "verified": "2026-11-08"
+ },
+ "questions": [
+  {
+   "id": "chem-u5-q01",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-rate",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "For 2NO₂ → 2NO + O₂, NO₂ is used up at a rate of 0.010 M/s. At what rate does O₂ form?",
+   "choices": [
+    "0.0050 M/s",
+    "0.020 M/s",
+    "0.0025 M/s",
+    "0.010 M/s"
+   ],
+   "correctAnswer": 0,
+   "explanation": "One O₂ forms for every two NO₂ used, so O₂ forms at half the rate: 0.0050 M/s.",
+   "choiceExplanations": [
+    "",
+    "0.020 M/s doubles instead of halving.",
+    "0.0025 M/s halves twice.",
+    "0.010 M/s ignores the 2 : 1 ratio."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q02",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-rate",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In experiments, doubling [A] doubles the initial rate, and doubling [B] (with [A] fixed) makes it four times as fast. What is the rate law?",
+   "choices": [
+    "rate = k[A][B]",
+    "rate = k[A]²[B]²",
+    "rate = k[A][B]²",
+    "rate = k[A]²[B]"
+   ],
+   "correctAnswer": 2,
+   "explanation": "A rate that doubles with [A] is first order in A; one that quadruples when [B] doubles is second order in B.",
+   "choiceExplanations": [
+    "This would make doubling [B] only double the rate.",
+    "This would make doubling [A] quadruple the rate.",
+    "",
+    "This swaps the orders of A and B."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q03",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-rate",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "What are the units of the rate constant k for a reaction that is second order overall, with concentrations in M and time in s?",
+   "choices": [
+    "M s⁻¹",
+    "s⁻¹",
+    "M⁻²s⁻¹",
+    "M⁻¹s⁻¹"
+   ],
+   "correctAnswer": 3,
+   "explanation": "rate (M/s) = k × M², so k = (M/s)/M² = M⁻¹s⁻¹.",
+   "choiceExplanations": [
+    "M s⁻¹ is the unit of the rate itself (and of k for zero order).",
+    "s⁻¹ is the unit for a first-order reaction.",
+    "M⁻²s⁻¹ is the unit for a third-order reaction.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q04",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-rate",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A first-order reaction has k = 0.0693 s⁻¹. What is its half-life?",
+   "choices": [
+    "0.0480 s",
+    "14.4 s",
+    "6.93 s",
+    "10.0 s"
+   ],
+   "correctAnswer": 3,
+   "explanation": "t½ = 0.693/k = 0.693/0.0693 s⁻¹ = 10.0 s.",
+   "choiceExplanations": [
+    "0.0480 s multiplies 0.693 by k instead of dividing.",
+    "14.4 s is 1/k, which forgets the factor 0.693.",
+    "6.93 s multiplies by 100 without using the formula.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q05",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-rate",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "For a first-order reaction, which graph is a straight line?",
+   "choices": [
+    "ln[A] against time",
+    "[A] against time",
+    "1/[A] against time",
+    "[A]² against time"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The integrated first-order law, ln[A] = ln[A]₀ − kt, is linear in t with slope −k.",
+   "choiceExplanations": [
+    "",
+    "[A] vs t is linear for a zero-order reaction.",
+    "1/[A] vs t is linear for a second-order reaction.",
+    "[A]² vs t isn't linear for any of these orders."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q06",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-rate",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A first-order reaction has a half-life of 20 min. Starting at 0.80 M, what is the concentration after 60 min?",
+   "choices": [
+    "0.27 M",
+    "0.10 M",
+    "0.20 M",
+    "0.40 M"
+   ],
+   "correctAnswer": 1,
+   "explanation": "60 min is three half-lives: 0.80 → 0.40 → 0.20 → 0.10 M.",
+   "choiceExplanations": [
+    "0.27 M divides by 3, as if the concentration fell in equal steps.",
+    "",
+    "0.20 M stops after two half-lives.",
+    "0.40 M stops after one half-life."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q07",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-rate",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A reaction has rate = k[A]², with k = 0.50 M⁻¹s⁻¹ and [A]₀ = 1.0 M. What is [A] after 2.0 s?",
+   "choices": [
+    "0.37 M",
+    "0.50 M",
+    "0 M",
+    "0.25 M"
+   ],
+   "correctAnswer": 1,
+   "explanation": "1/[A] = 1/[A]₀ + kt = 1.0 + (0.50)(2.0) = 2.0 M⁻¹, so [A] = 0.50 M.",
+   "choiceExplanations": [
+    "0.37 M uses the first-order law (e⁻¹).",
+    "",
+    "0 M uses a zero-order straight-line drop.",
+    "0.25 M squares the correct answer."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q08",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-collide",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "The elementary step 2NO + O₂ → 2NO₂ happens in a single collision. What is its rate law?",
+   "choices": [
+    "rate = k[NO][O₂]",
+    "rate = k[NO₂]²",
+    "The rate law can't be written without experiments",
+    "rate = k[NO]²[O₂]"
+   ],
+   "correctAnswer": 3,
+   "explanation": "For an elementary step, the orders equal the numbers of each particle colliding: two NO and one O₂.",
+   "choiceExplanations": [
+    "This ignores the coefficient 2 on NO.",
+    "A rate law is written in terms of reactants, not products.",
+    "Experiments are needed for an overall reaction, but an elementary step's rate law follows from its molecularity.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q09",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-collide",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "Why does raising the temperature usually make a reaction faster?",
+   "choices": [
+    "The reaction becomes more exothermic",
+    "The activation energy gets smaller",
+    "A larger fraction of collisions has at least the activation energy",
+    "The particles become larger and collide more often"
+   ],
+   "correctAnswer": 2,
+   "explanation": "At higher temperature, particles move faster on average, so many more collisions have enough energy to react.",
+   "choiceExplanations": [
+    "ΔH barely changes with temperature, and it doesn't control rate.",
+    "Temperature doesn't change Ea; a catalyst does.",
+    "",
+    "Particles don't grow when heated."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q10",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-collide",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "On a reaction energy profile, what is the transition state?",
+   "choices": [
+    "The products",
+    "The highest-energy arrangement, at the peak between reactants and products",
+    "A stable intermediate that can be isolated",
+    "The lowest-energy point of the reaction"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The transition state is the unstable arrangement at the top of the energy barrier.",
+   "choiceExplanations": [
+    "Products are at the end of the profile.",
+    "",
+    "Intermediates sit in valleys between peaks; the transition state is at a peak and can't be isolated.",
+    "The transition state is the highest point, not the lowest."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q11",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-collide",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "On an energy profile, the reactants are at 50 kJ/mol, the transition state at 120 kJ/mol, and the products at 20 kJ/mol. What is the activation energy of the forward reaction?",
+   "choices": [
+    "70 kJ/mol",
+    "120 kJ/mol",
+    "30 kJ/mol",
+    "100 kJ/mol"
+   ],
+   "correctAnswer": 0,
+   "explanation": "Ea = transition state − reactants = 120 − 50 = 70 kJ/mol.",
+   "choiceExplanations": [
+    "",
+    "120 kJ/mol is the energy of the transition state itself.",
+    "30 kJ/mol is the size of ΔH (20 − 50 = −30).",
+    "100 kJ/mol is the activation energy of the reverse reaction (120 − 20)."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q12",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-collide",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "Even when two molecules collide with more than the activation energy, they may not react. Why?",
+   "choices": [
+    "Only collisions with a catalyst can react",
+    "The products would be higher in energy than the reactants",
+    "They may not be oriented correctly when they collide",
+    "Their energy is too high, so they bounce apart"
+   ],
+   "correctAnswer": 2,
+   "explanation": "In the collision model, a reaction needs both enough energy and the right orientation of the reacting parts.",
+   "choiceExplanations": [
+    "Uncatalyzed reactions also occur.",
+    "Endothermic reactions can still happen if Ea is reached.",
+    "",
+    "Having more than Ea doesn't stop a reaction."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q13",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-mech",
+   "difficulty": "introductory",
+   "type": "multiple-choice",
+   "prompt": "What does a catalyst do?",
+   "choices": [
+    "Provides a pathway with a lower activation energy, and is regenerated",
+    "Raises the temperature of the reaction",
+    "Makes ΔH more negative",
+    "Is used up as the reaction proceeds"
+   ],
+   "correctAnswer": 0,
+   "explanation": "A catalyst offers a different mechanism with a lower barrier and comes back unchanged at the end.",
+   "choiceExplanations": [
+    "",
+    "A catalyst doesn't change the temperature.",
+    "ΔH depends only on reactants and products, which a catalyst doesn't change.",
+    "A catalyst is regenerated, not consumed."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q14",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-mech",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A proposed mechanism is: step 1 (slow) NO₂ + NO₂ → NO₃ + NO; step 2 (fast) NO₃ + CO → NO₂ + CO₂. What rate law does it predict?",
+   "choices": [
+    "rate = k[NO₂]²[CO]",
+    "rate = k[NO₂][CO]",
+    "rate = k[NO₂]²",
+    "rate = k[NO₃][CO]"
+   ],
+   "correctAnswer": 2,
+   "explanation": "The slow first step is rate-determining, and as an elementary step its rate law is k[NO₂]².",
+   "choiceExplanations": [
+    "CO isn't in the slow step, so it doesn't appear.",
+    "This comes from the overall equation, not from the slow step.",
+    "",
+    "This is the rate law of the fast second step."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q15",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-mech",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In the mechanism NO₂ + NO₂ → NO₃ + NO, then NO₃ + CO → NO₂ + CO₂, which species is an intermediate?",
+   "choices": [
+    "NO₂",
+    "NO₃",
+    "CO₂",
+    "CO"
+   ],
+   "correctAnswer": 1,
+   "explanation": "NO₃ is made in step 1 and used up in step 2, so it doesn't appear in the overall equation NO₂ + CO → NO + CO₂.",
+   "choiceExplanations": [
+    "NO₂ is a reactant; it is used in step 1 and only partly regenerated.",
+    "",
+    "CO₂ is a final product.",
+    "CO is a reactant."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q16",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-mech",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "A two-step reaction's energy profile has two peaks. The first peak rises 80 kJ/mol above the reactants; the second rises 30 kJ/mol above the intermediate. Which step is rate-determining?",
+   "choices": [
+    "The first step, because it has the larger activation energy",
+    "Both steps equally",
+    "The second step, because it comes last",
+    "The second step, because its products are lower in energy"
+   ],
+   "correctAnswer": 0,
+   "explanation": "The step with the highest barrier is slowest, so it limits the overall rate.",
+   "choiceExplanations": [
+    "",
+    "The steps have different barriers, so one is much slower.",
+    "Order in the sequence doesn't decide which step is slowest.",
+    "The rate depends on barrier height, not on the products' energy."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q17",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-mech",
+   "difficulty": "challenging",
+   "type": "multiple-choice",
+   "prompt": "A mechanism has a fast equilibrium, 2NO ⇌ N₂O₂, followed by a slow step, N₂O₂ + O₂ → 2NO₂. What rate law does it predict?",
+   "choices": [
+    "rate = k[N₂O₂][O₂]",
+    "rate = k[NO]²[O₂]",
+    "rate = k[NO][O₂]",
+    "rate = k[NO]²"
+   ],
+   "correctAnswer": 1,
+   "explanation": "The slow step gives rate = k₂[N₂O₂][O₂]. N₂O₂ is an intermediate; from the fast equilibrium, [N₂O₂] = K[NO]², so rate = k[NO]²[O₂].",
+   "choiceExplanations": [
+    "This keeps the intermediate N₂O₂, which can't appear in the final rate law.",
+    "",
+    "Replacing [N₂O₂] gives [NO]², not [NO].",
+    "This leaves out O₂, which is in the rate-determining step."
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "chem-u5-q18",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "topicId": "c5-mech",
+   "difficulty": "standard",
+   "type": "multiple-choice",
+   "prompt": "In the mechanism A + C → AC, then AC + B → AB + C, what is C?",
+   "choices": [
+    "A product",
+    "A reactant that is used up",
+    "An intermediate",
+    "A catalyst"
+   ],
+   "correctAnswer": 3,
+   "explanation": "C is used in the first step and regenerated in the second, so it is a catalyst. (AC is the intermediate.)",
+   "choiceExplanations": [
+    "C cancels out of the overall equation A + B → AB.",
+    "C is regenerated, so none is used up.",
+    "An intermediate is made first and used later; C is used first and then made again.",
+    ""
+   ],
+   "sourceType": "original",
+   "sourceUrl": "https://apstudents.collegeboard.org/courses/ap-chemistry",
+   "licenseOrRights": "Original question written for StudySprint. The unit's title and topics come from the linked College Board course page and the course's Course and Exam Description, as recorded in StudySprint's course outline (checked 2026-11-08); they were used only to confirm scope.",
+   "isOriginal": true,
+   "verified": "2026-11-08"
+  }
+ ],
+ "videos": [],
+ "learnResources": [
+  {
+   "id": "res-chem-u5-os1",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "title": "OpenStax Chemistry 2e, 12.3 Rate Laws",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/12-3-rate-laws",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Rate laws and reaction orders (CED topic 5.2).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/12-3-rate-laws",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u5-os2",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "title": "OpenStax Chemistry 2e, 12.4 Integrated Rate Laws",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/12-4-integrated-rate-laws",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Concentration over time and half-life (CED topic 5.3).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/12-4-integrated-rate-laws",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  },
+  {
+   "id": "res-chem-u5-os3",
+   "courseId": "ap-chemistry",
+   "unitId": "u5",
+   "title": "OpenStax Chemistry 2e, 12.6 Reaction Mechanisms",
+   "provider": "OpenStax",
+   "url": "https://openstax.org/books/chemistry-2e/pages/12-6-reaction-mechanisms",
+   "scope": "unit",
+   "kind": "reading",
+   "note": "Mechanisms, rate-determining steps, and intermediates (CED topics 5.7–5.9).",
+   "sourceType": "external-link",
+   "sourceUrl": "https://openstax.org/books/chemistry-2e/pages/12-6-reaction-mechanisms",
+   "sourceTitle": "OpenStax Chemistry 2e",
+   "licenseOrRights": "Linked only. OpenStax lists Chemistry 2e under CC BY-NC-SA 4.0. Its text was not copied or adapted here.",
+   "verified": "2026-11-08"
+  }
+ ],
+ "frqs": [],
+ "frqNote": "StudySprint has not matched individual released free-response questions to this unit. Matching them would mean reading College Board exam content, which this project does not do, and most free-response questions span several units. Use the course's released-question page and the whole released sets linked for the course; any unit match added later will be labelled approximate.",
+ "tests": [
+  {
+   "id": "t1",
+   "title": "Practice test 1",
+   "questionIds": [
+    "chem-u5-q01",
+    "chem-u5-q02",
+    "chem-u5-q03",
+    "chem-u5-q08",
+    "chem-u5-q09",
+    "chem-u5-q12",
+    "chem-u5-q14",
+    "chem-u5-q17"
+   ]
+  },
+  {
+   "id": "t2",
+   "title": "Practice test 2",
+   "questionIds": [
+    "chem-u5-q05",
+    "chem-u5-q06",
+    "chem-u5-q07",
+    "chem-u5-q10",
+    "chem-u5-q11",
+    "chem-u5-q13",
+    "chem-u5-q15",
+    "chem-u5-q16"
+   ]
+  }
+ ]
+}
